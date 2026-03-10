@@ -22,8 +22,22 @@ interface ProgressState extends UserProgress {
   passCheckpoint: (sectionId: string) => Promise<void>;
 }
 
-async function persist(state: UserProgress) {
-  await db.progress.put({ ...state, id: 1 });
+function toData(state: ProgressState): UserProgress {
+  return {
+    id: 1,
+    current_section: state.current_section,
+    current_unit: state.current_unit,
+    current_lesson: state.current_lesson,
+    xp: state.xp,
+    streak: state.streak,
+    level: state.level,
+    lessons_completed: state.lessons_completed,
+    checkpoints_passed: state.checkpoints_passed,
+  };
+}
+
+async function persist(state: ProgressState) {
+  await db.progress.put(toData(state));
 }
 
 export const useProgressStore = create<ProgressState>()((set, get) => ({
@@ -41,34 +55,23 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
   },
 
   async completeLesson(lessonId: string) {
-    const { lessons_completed, ...rest } = get();
-    if (lessons_completed.includes(lessonId)) return;
+    if (get().lessons_completed.includes(lessonId)) return;
 
-    const updated = [...lessons_completed, lessonId];
+    const updated = [...get().lessons_completed, lessonId];
     set({ lessons_completed: updated });
-    await persist({
-      ...rest,
-      lessons_completed: updated,
-      checkpoints_passed: get().checkpoints_passed,
-    });
+    await persist(get());
   },
 
   async unlockUnit(unitId: string) {
     set({ current_unit: unitId });
-    const state = get();
-    await persist(state);
+    await persist(get());
   },
 
   async passCheckpoint(sectionId: string) {
-    const { checkpoints_passed, ...rest } = get();
-    if (checkpoints_passed.includes(sectionId)) return;
+    if (get().checkpoints_passed.includes(sectionId)) return;
 
-    const updated = [...checkpoints_passed, sectionId];
+    const updated = [...get().checkpoints_passed, sectionId];
     set({ checkpoints_passed: updated });
-    await persist({
-      ...rest,
-      checkpoints_passed: updated,
-      lessons_completed: get().lessons_completed,
-    });
+    await persist(get());
   },
 }));
