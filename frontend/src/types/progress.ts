@@ -1,3 +1,4 @@
+import type { Card as FSRSCard, ReviewLog } from 'ts-fsrs';
 import type { ExerciseType } from './exercise';
 
 export interface ExerciseResult {
@@ -7,34 +8,25 @@ export interface ExerciseResult {
   time_spent_ms: number;
 }
 
-export interface ReviewEntry {
-  date: string;
-  rating: number;
-  response_time_ms: number;
-}
-
-export interface FSRSState {
-  stability: number;
-  difficulty: number;
-  due: string;
-  last_review: string;
-}
-
+/** Stored in Dexie — one row per (word_id, skill_type) pair */
 export interface SRSCard {
-  id: string;
+  id?: number;
   word_id: string;
   skill_type: ExerciseType;
-  fsrs_state: FSRSState;
-  review_log: ReviewEntry[];
+  due: Date;
+  card: FSRSCard;
+  review_log: ReviewLog[];
 }
 
+/** Stored in Dexie — singleton row (id = 1) */
 export interface UserProgress {
+  id?: number;
   current_section: string;
   current_unit: string;
   current_lesson: string;
   xp: number;
   streak: number;
   level: number;
-  lessons_completed: Set<string>;
-  checkpoints_passed: Set<string>;
+  lessons_completed: string[];
+  checkpoints_passed: string[];
 }

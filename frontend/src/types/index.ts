@@ -15,8 +15,6 @@ export type {
 
 export type {
   ExerciseResult,
-  ReviewEntry,
-  FSRSState,
   SRSCard,
   UserProgress,
 } from './progress';
