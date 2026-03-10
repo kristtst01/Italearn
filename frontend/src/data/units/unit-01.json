@@ -1,0 +1,694 @@
+[
+  {
+    "id": "unit-01-lesson-01",
+    "unit_id": "unit-01",
+    "name": "Hello & Goodbye",
+    "order": 1,
+    "grammar_tips": [
+      "Italian has both formal and informal greetings. Use 'ciao' with friends and family, and 'buongiorno' or 'buonasera' in formal situations or with strangers.",
+      "'Ciao' is unique — it works as both 'hello' and 'goodbye', but only in informal settings.",
+      "'Salve' is a safe middle ground when you're unsure whether to be formal or informal. It works at any time of day."
+    ],
+    "exercises": [
+      {
+        "id": "unit-01-lesson-01-ex-01",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "What does 'ciao' mean?" },
+        "sentence_context": "Ciao, come stai?",
+        "correct_answer": "Hello and goodbye (informal)",
+        "distractors": ["Good morning", "Good night", "Thank you"],
+        "hints": ["Think about how Italians greet friends — this word pulls double duty."],
+        "target_words": ["ciao"]
+      },
+      {
+        "id": "unit-01-lesson-01-ex-02",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "It's 9 AM and you walk into a café. Which greeting is most appropriate?" },
+        "sentence_context": "Buongiorno, un caffè per favore.",
+        "correct_answer": "Buongiorno",
+        "distractors": ["Buonasera", "Buonanotte", "Arrivederci"],
+        "hints": ["This greeting is used from morning until early afternoon."],
+        "target_words": ["buongiorno"]
+      },
+      {
+        "id": "unit-01-lesson-01-ex-03",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "Which greeting is only used when someone is going to bed?" },
+        "sentence_context": "Buonanotte, dormi bene.",
+        "correct_answer": "Buonanotte",
+        "distractors": ["Buonasera", "Buongiorno", "Salve"],
+        "hints": ["Literally 'good night' — but only for bedtime, not as a general evening greeting."],
+        "target_words": ["buonanotte"]
+      },
+      {
+        "id": "unit-01-lesson-01-ex-04",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "What is the formal way to say 'goodbye' in Italian?" },
+        "sentence_context": "Arrivederci e grazie!",
+        "correct_answer": "Arrivederci",
+        "distractors": ["Ciao", "Salve", "Buongiorno"],
+        "hints": ["This word literally means 'until we see each other again'."],
+        "target_words": ["arrivederci"]
+      },
+      {
+        "id": "unit-01-lesson-01-ex-05",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Translate to Italian: 'Good morning'" },
+        "sentence_context": "Buongiorno, come sta?",
+        "correct_answer": "buongiorno",
+        "distractors": [],
+        "hints": ["It's made of two words: 'buon' (good) + 'giorno' (day)."],
+        "target_words": ["buongiorno"]
+      },
+      {
+        "id": "unit-01-lesson-01-ex-06",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Translate to Italian: 'Good evening'" },
+        "sentence_context": "Buonasera, signora Rossi.",
+        "correct_answer": "buonasera",
+        "distractors": [],
+        "hints": ["'Buon' (good) + 'sera' (evening)."],
+        "target_words": ["buonasera"]
+      },
+      {
+        "id": "unit-01-lesson-01-ex-07",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "How do you say 'goodbye' formally in Italian?" },
+        "sentence_context": "Arrivederci, a presto!",
+        "correct_answer": "arrivederci",
+        "distractors": [],
+        "hints": ["Starts with 'a' — think 'arrive' + 'derci'."],
+        "target_words": ["arrivederci"]
+      },
+      {
+        "id": "unit-01-lesson-01-ex-08",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Type the Italian greeting that works in both formal and informal settings, at any time of day." },
+        "sentence_context": "Salve, come va?",
+        "correct_answer": "salve",
+        "distractors": [],
+        "hints": ["It comes from Latin and means 'be well'."],
+        "target_words": ["salve"]
+      },
+      {
+        "id": "unit-01-lesson-01-ex-09",
+        "type": "writing",
+        "subtype": "arrange_words",
+        "prompt": { "text": "Arrange the words to say: 'Hello, how are you?'" },
+        "sentence_context": "Ciao, come stai?",
+        "correct_answer": ["Ciao,", "come", "stai?"],
+        "distractors": ["bene", "grazie"],
+        "hints": ["Start with the informal greeting."],
+        "target_words": ["ciao"]
+      },
+      {
+        "id": "unit-01-lesson-01-ex-10",
+        "type": "writing",
+        "subtype": "arrange_words",
+        "prompt": { "text": "Arrange the words to say: 'Good evening, everyone!'" },
+        "sentence_context": "Buonasera a tutti!",
+        "correct_answer": ["Buonasera", "a", "tutti!"],
+        "distractors": ["ciao", "buongiorno"],
+        "hints": ["The evening greeting comes first."],
+        "target_words": ["buonasera"]
+      }
+    ]
+  },
+  {
+    "id": "unit-01-lesson-02",
+    "unit_id": "unit-01",
+    "name": "Polite Phrases",
+    "order": 2,
+    "grammar_tips": [
+      "'Scusi' (formal) and 'scusa' (informal) both mean 'excuse me', but you use 'scusi' with strangers and in formal situations, and 'scusa' with friends.",
+      "'Permesso' is a special word used when you need to physically pass through or enter a room — it's like saying 'may I come through?'",
+      "'Prego' is the standard reply to 'grazie'. It can also mean 'please, go ahead' when offering something."
+    ],
+    "exercises": [
+      {
+        "id": "unit-01-lesson-02-ex-01",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "What does 'grazie' mean?" },
+        "sentence_context": "Grazie mille!",
+        "correct_answer": "Thank you",
+        "distractors": ["Please", "I'm sorry", "Goodbye"],
+        "hints": ["One of the first words every Italian learner picks up."],
+        "target_words": ["grazie"]
+      },
+      {
+        "id": "unit-01-lesson-02-ex-02",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "You want to order politely in a restaurant. Which phrase means 'please'?" },
+        "sentence_context": "Un caffè, per favore.",
+        "correct_answer": "Per favore",
+        "distractors": ["Prego", "Grazie", "Permesso"],
+        "hints": ["Literally means 'as a favor'."],
+        "target_words": ["per favore"]
+      },
+      {
+        "id": "unit-01-lesson-02-ex-03",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "What is the difference between 'scusi' and 'scusa'?" },
+        "sentence_context": "Scusi, dov'è la stazione?",
+        "correct_answer": "'Scusi' is formal, 'scusa' is informal",
+        "distractors": ["'Scusi' is informal, 'scusa' is formal", "They mean different things", "There is no difference"],
+        "hints": ["Think about who you'd say each one to — your boss or your friend?"],
+        "target_words": ["scusi", "scusa"]
+      },
+      {
+        "id": "unit-01-lesson-02-ex-04",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "Someone says 'Grazie!' to you. What do you reply?" },
+        "sentence_context": "Grazie! — Prego!",
+        "correct_answer": "Prego",
+        "distractors": ["Grazie", "Scusi", "Per favore"],
+        "hints": ["This is the standard Italian reply to 'thank you'."],
+        "target_words": ["prego"]
+      },
+      {
+        "id": "unit-01-lesson-02-ex-05",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Translate to Italian: 'Thank you'" },
+        "sentence_context": "Grazie mille!",
+        "correct_answer": "grazie",
+        "distractors": [],
+        "hints": ["Starts with 'gr'."],
+        "target_words": ["grazie"]
+      },
+      {
+        "id": "unit-01-lesson-02-ex-06",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Translate to Italian: 'I'm sorry'" },
+        "sentence_context": "Mi dispiace, non capisco.",
+        "correct_answer": "mi dispiace",
+        "distractors": [],
+        "hints": ["Two words: 'mi' (to me) + 'dispiace' (it displeases)."],
+        "target_words": ["mi dispiace"]
+      },
+      {
+        "id": "unit-01-lesson-02-ex-07",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "How do you say 'please' in Italian?" },
+        "sentence_context": "Un'acqua, per favore.",
+        "correct_answer": "per favore",
+        "distractors": [],
+        "hints": ["Two words — literally 'as a favor'."],
+        "target_words": ["per favore"]
+      },
+      {
+        "id": "unit-01-lesson-02-ex-08",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "You need to pass through a crowded room. What Italian word do you say?" },
+        "sentence_context": "Permesso! Posso passare?",
+        "correct_answer": "permesso",
+        "distractors": [],
+        "hints": ["Think 'permission' — same Latin root."],
+        "target_words": ["permesso"]
+      },
+      {
+        "id": "unit-01-lesson-02-ex-09",
+        "type": "writing",
+        "subtype": "arrange_words",
+        "prompt": { "text": "Arrange the words to say: 'A coffee, please.'" },
+        "sentence_context": "Un caffè, per favore.",
+        "correct_answer": ["Un", "caffè,", "per", "favore."],
+        "distractors": ["grazie", "scusi"],
+        "hints": ["Start with the article, then the item, then the polite phrase."],
+        "target_words": ["per favore"]
+      },
+      {
+        "id": "unit-01-lesson-02-ex-10",
+        "type": "writing",
+        "subtype": "arrange_words",
+        "prompt": { "text": "Arrange the words to say: 'Excuse me, where is the station?'" },
+        "sentence_context": "Scusi, dov'è la stazione?",
+        "correct_answer": ["Scusi,", "dov'è", "la", "stazione?"],
+        "distractors": ["grazie", "prego"],
+        "hints": ["Start with the formal 'excuse me'."],
+        "target_words": ["scusi"]
+      }
+    ]
+  },
+  {
+    "id": "unit-01-lesson-03",
+    "unit_id": "unit-01",
+    "name": "How Are You?",
+    "order": 3,
+    "grammar_tips": [
+      "Italian has formal (Lei) and informal (tu) forms of 'you'. Use 'Come stai?' with friends and 'Come sta?' with strangers, elders, or in professional settings.",
+      "'Sto bene' uses the verb 'stare' (to stay/to be), not 'essere' (to be). In Italian, you describe how you feel with 'stare': 'sto bene' (I'm well), 'sto male' (I'm unwell).",
+      "When someone asks how you are, it's polite to answer and then ask back: 'Bene, grazie, e tu?' (informal) or 'Bene, grazie, e Lei?' (formal)."
+    ],
+    "exercises": [
+      {
+        "id": "unit-01-lesson-03-ex-01",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "'Come stai?' is used in which context?" },
+        "sentence_context": "Ciao Marco, come stai?",
+        "correct_answer": "Informal — with friends, family, peers",
+        "distractors": ["Formal — with strangers or elders", "Only in the morning", "Only when someone is sick"],
+        "hints": ["'Stai' uses the 'tu' form of the verb."],
+        "target_words": ["come stai"]
+      },
+      {
+        "id": "unit-01-lesson-03-ex-02",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "What is the formal way to ask 'How are you?'" },
+        "sentence_context": "Buongiorno, professore. Come sta?",
+        "correct_answer": "Come sta?",
+        "distractors": ["Come stai?", "Come vai?", "Come sei?"],
+        "hints": ["The formal form uses the 'Lei' conjugation."],
+        "target_words": ["come sta"]
+      },
+      {
+        "id": "unit-01-lesson-03-ex-03",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "What does 'così così' mean?" },
+        "sentence_context": "Come stai? — Così così.",
+        "correct_answer": "So-so",
+        "distractors": ["Very well", "Terrible", "I don't know"],
+        "hints": ["The repetition hints at something in the middle — not great, not bad."],
+        "target_words": ["così così"]
+      },
+      {
+        "id": "unit-01-lesson-03-ex-04",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "'E Lei?' is the formal version of which phrase?" },
+        "sentence_context": "Bene, grazie, e Lei?",
+        "correct_answer": "E tu?",
+        "distractors": ["E voi?", "E lui?", "E noi?"],
+        "hints": ["'Lei' is the formal 'you' — what's the informal equivalent?"],
+        "target_words": ["e Lei", "e tu"]
+      },
+      {
+        "id": "unit-01-lesson-03-ex-05",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "What does 'non c'è male' mean?" },
+        "sentence_context": "Come va? — Non c'è male, grazie.",
+        "correct_answer": "Not bad",
+        "distractors": ["I feel sick", "Very well", "So-so"],
+        "hints": ["Literally: 'there is no bad'."],
+        "target_words": ["non c'è male"]
+      },
+      {
+        "id": "unit-01-lesson-03-ex-06",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "How do you say 'I'm well' in Italian?" },
+        "sentence_context": "Sto bene, grazie.",
+        "correct_answer": "sto bene",
+        "distractors": [],
+        "hints": ["'Sto' is from the verb 'stare', 'bene' means 'well'."],
+        "target_words": ["sto bene"]
+      },
+      {
+        "id": "unit-01-lesson-03-ex-07",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Translate to Italian: 'And you?' (informal)" },
+        "sentence_context": "Bene, grazie, e tu?",
+        "correct_answer": "e tu",
+        "distractors": [],
+        "hints": ["Just two short words — a conjunction and a pronoun."],
+        "target_words": ["e tu"]
+      },
+      {
+        "id": "unit-01-lesson-03-ex-08",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "How do you respond 'Not bad' in Italian?" },
+        "sentence_context": "Non c'è male, grazie.",
+        "correct_answer": "non c'è male",
+        "distractors": [],
+        "hints": ["Three words: 'non' (not) + 'c'è' (there is) + 'male' (bad)."],
+        "target_words": ["non c'è male"]
+      },
+      {
+        "id": "unit-01-lesson-03-ex-09",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Translate to Italian: 'Well, thank you'" },
+        "sentence_context": "Come stai? — Bene, grazie!",
+        "correct_answer": "bene, grazie",
+        "distractors": [],
+        "hints": ["Two words you already know from Lessons 1 and 2."],
+        "target_words": ["bene", "grazie"]
+      },
+      {
+        "id": "unit-01-lesson-03-ex-10",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "How do you ask 'How are you?' formally in Italian?" },
+        "sentence_context": "Buongiorno, signora. Come sta?",
+        "correct_answer": "come sta",
+        "distractors": [],
+        "hints": ["Same as the informal version, but the verb ending changes for 'Lei'."],
+        "target_words": ["come sta"]
+      },
+      {
+        "id": "unit-01-lesson-03-ex-11",
+        "type": "writing",
+        "subtype": "arrange_words",
+        "prompt": { "text": "Arrange the words to say: 'Well, thanks, and you?' (informal)" },
+        "sentence_context": "Bene, grazie, e tu?",
+        "correct_answer": ["Bene,", "grazie,", "e", "tu?"],
+        "distractors": ["Lei", "sta"],
+        "hints": ["Start with how you're doing, then thank, then ask back."],
+        "target_words": ["bene", "grazie", "e tu"]
+      },
+      {
+        "id": "unit-01-lesson-03-ex-12",
+        "type": "writing",
+        "subtype": "arrange_words",
+        "prompt": { "text": "Arrange the words to say: 'Good morning, how are you?' (formal)" },
+        "sentence_context": "Buongiorno, come sta?",
+        "correct_answer": ["Buongiorno,", "come", "sta?"],
+        "distractors": ["stai", "ciao"],
+        "hints": ["Use the formal greeting and the formal verb form."],
+        "target_words": ["buongiorno", "come sta"]
+      }
+    ]
+  },
+  {
+    "id": "unit-01-lesson-04",
+    "unit_id": "unit-01",
+    "name": "Basic Responses",
+    "order": 4,
+    "grammar_tips": [
+      "'Può ripetere?' uses the formal 'Lei' form of 'potere' (can). For informal situations, you'd say 'Puoi ripetere?'",
+      "'Come si dice...?' literally means 'How does one say...?' — the 'si' makes it impersonal. This is one of the most useful phrases for language learners.",
+      "'Va bene' and 'd'accordo' both mean 'okay', but 'va bene' is more casual (like 'alright') while 'd'accordo' emphasizes agreement (like 'agreed')."
+    ],
+    "exercises": [
+      {
+        "id": "unit-01-lesson-04-ex-01",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "What does 'va bene' mean?" },
+        "sentence_context": "Va bene, ci vediamo domani.",
+        "correct_answer": "Okay / Alright",
+        "distractors": ["I don't understand", "Goodbye", "Thank you"],
+        "hints": ["Literally: 'it goes well'."],
+        "target_words": ["va bene"]
+      },
+      {
+        "id": "unit-01-lesson-04-ex-02",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "You didn't understand what someone said. What do you say?" },
+        "sentence_context": "Scusi, non capisco.",
+        "correct_answer": "Non capisco",
+        "distractors": ["Va bene", "D'accordo", "Per favore"],
+        "hints": ["'Capisco' comes from 'capire' — to understand."],
+        "target_words": ["non capisco"]
+      },
+      {
+        "id": "unit-01-lesson-04-ex-03",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "What does 'd'accordo' mean?" },
+        "sentence_context": "D'accordo, facciamo così.",
+        "correct_answer": "Agreed / Okay",
+        "distractors": ["I disagree", "I don't know", "Excuse me"],
+        "hints": ["Think of the English word 'accord' — same root."],
+        "target_words": ["d'accordo"]
+      },
+      {
+        "id": "unit-01-lesson-04-ex-04",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "How do you formally ask someone to repeat what they said?" },
+        "sentence_context": "Può ripetere, per favore?",
+        "correct_answer": "Può ripetere?",
+        "distractors": ["Come si dice?", "Non capisco?", "Va bene?"],
+        "hints": ["'Può' means 'can you' (formal), 'ripetere' means 'to repeat'."],
+        "target_words": ["può ripetere"]
+      },
+      {
+        "id": "unit-01-lesson-04-ex-05",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Translate to Italian: 'yes'" },
+        "sentence_context": "Sì, certo!",
+        "correct_answer": "sì",
+        "distractors": [],
+        "hints": ["One of the shortest Italian words — don't forget the accent!"],
+        "target_words": ["sì"]
+      },
+      {
+        "id": "unit-01-lesson-04-ex-06",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Translate to Italian: 'I don't understand'" },
+        "sentence_context": "Scusi, non capisco.",
+        "correct_answer": "non capisco",
+        "distractors": [],
+        "hints": ["'Non' means 'not', and 'capisco' means 'I understand'."],
+        "target_words": ["non capisco"]
+      },
+      {
+        "id": "unit-01-lesson-04-ex-07",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "How do you say 'How do you say...?' in Italian?" },
+        "sentence_context": "Come si dice 'hello' in italiano?",
+        "correct_answer": "come si dice",
+        "distractors": [],
+        "hints": ["Three words: 'come' (how) + 'si' (one) + 'dice' (says)."],
+        "target_words": ["come si dice"]
+      },
+      {
+        "id": "unit-01-lesson-04-ex-08",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Translate to Italian: 'okay' or 'alright'" },
+        "sentence_context": "Va bene, a domani!",
+        "correct_answer": "va bene",
+        "distractors": [],
+        "hints": ["Two words — literally 'it goes well'."],
+        "target_words": ["va bene"]
+      },
+      {
+        "id": "unit-01-lesson-04-ex-09",
+        "type": "writing",
+        "subtype": "arrange_words",
+        "prompt": { "text": "Arrange the words to say: 'Excuse me, I don't understand.'" },
+        "sentence_context": "Scusi, non capisco.",
+        "correct_answer": ["Scusi,", "non", "capisco."],
+        "distractors": ["bene", "grazie"],
+        "hints": ["Start with the formal 'excuse me'."],
+        "target_words": ["scusi", "non capisco"]
+      },
+      {
+        "id": "unit-01-lesson-04-ex-10",
+        "type": "writing",
+        "subtype": "arrange_words",
+        "prompt": { "text": "Arrange the words to say: 'Can you repeat, please?'" },
+        "sentence_context": "Può ripetere, per favore?",
+        "correct_answer": ["Può", "ripetere,", "per", "favore?"],
+        "distractors": ["capisco", "dice"],
+        "hints": ["Start with 'can you' (formal), then the verb, then 'please'."],
+        "target_words": ["può ripetere", "per favore"]
+      }
+    ]
+  },
+  {
+    "id": "unit-01-lesson-05",
+    "unit_id": "unit-01",
+    "name": "Review & Mix",
+    "order": 5,
+    "grammar_tips": [
+      "Remember: 'buongiorno' for morning, 'buonasera' from late afternoon, 'buonanotte' only at bedtime.",
+      "Formal vs. informal is one of the most important distinctions in Italian. When in doubt, use the formal form — Italians appreciate politeness.",
+      "You now know the essential survival phrases: greetings, politeness, asking how someone is, and what to say when you're lost. These will carry you through your first Italian conversations!"
+    ],
+    "exercises": [
+      {
+        "id": "unit-01-lesson-05-ex-01",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "You meet your professor at 10 AM. What do you say?" },
+        "sentence_context": "Buongiorno, professore. Come sta?",
+        "correct_answer": "Buongiorno",
+        "distractors": ["Ciao", "Buonanotte", "Buonasera"],
+        "hints": ["It's morning, and this is a formal situation."],
+        "target_words": ["buongiorno"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-02",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "Someone says 'Grazie mille!' to you. What do you reply?" },
+        "sentence_context": "Grazie mille! — Prego!",
+        "correct_answer": "Prego!",
+        "distractors": ["Grazie!", "Mi dispiace!", "Permesso!"],
+        "hints": ["The standard Italian reply to being thanked."],
+        "target_words": ["prego"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-03",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "What's the correct response to 'Come stai?' if you're feeling so-so?" },
+        "sentence_context": "Come stai? — Così così.",
+        "correct_answer": "Così così",
+        "distractors": ["Sto bene", "Buongiorno", "D'accordo"],
+        "hints": ["This repeated word expresses something in the middle."],
+        "target_words": ["così così"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-04",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": { "text": "Which of these would you NOT use as a greeting?" },
+        "sentence_context": "Mi dispiace, sono in ritardo.",
+        "correct_answer": "Mi dispiace",
+        "distractors": ["Ciao", "Salve", "Buonasera"],
+        "hints": ["This phrase expresses regret, not hello."],
+        "target_words": ["mi dispiace"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-05",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "It's 8 PM. Greet someone politely in Italian." },
+        "sentence_context": "Buonasera, come sta?",
+        "correct_answer": "buonasera",
+        "distractors": [],
+        "hints": ["The evening greeting — 'buon' + 'sera'."],
+        "target_words": ["buonasera"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-06",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Say goodbye formally in Italian." },
+        "sentence_context": "Arrivederci, a presto!",
+        "correct_answer": "arrivederci",
+        "distractors": [],
+        "hints": ["Literally 'until we see each other again'."],
+        "target_words": ["arrivederci"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-07",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Someone asks 'Come stai?' — reply that you're well." },
+        "sentence_context": "Sto bene, grazie!",
+        "correct_answer": "sto bene",
+        "distractors": [],
+        "hints": ["Use the verb 'stare' — 'sto' + 'bene'."],
+        "target_words": ["sto bene"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-08",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Ask someone to repeat what they said (formally)." },
+        "sentence_context": "Può ripetere, per favore?",
+        "correct_answer": "può ripetere",
+        "distractors": [],
+        "hints": ["'Può' (can you, formal) + 'ripetere' (repeat)."],
+        "target_words": ["può ripetere"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-09",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "Say 'I'm sorry' in Italian." },
+        "sentence_context": "Mi dispiace, non parlo bene l'italiano.",
+        "correct_answer": "mi dispiace",
+        "distractors": [],
+        "hints": ["'Mi' (to me) + 'dispiace' (it displeases)."],
+        "target_words": ["mi dispiace"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-10",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "You want to order politely. Say 'please' in Italian." },
+        "sentence_context": "Un'acqua, per favore.",
+        "correct_answer": "per favore",
+        "distractors": [],
+        "hints": ["Two words — literally 'as a favor'."],
+        "target_words": ["per favore"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-11",
+        "type": "vocab",
+        "subtype": "type_answer",
+        "prompt": { "text": "How do you ask 'How do you say...?' in Italian?" },
+        "sentence_context": "Come si dice 'thank you' in italiano?",
+        "correct_answer": "come si dice",
+        "distractors": [],
+        "hints": ["'Come' (how) + 'si dice' (one says)."],
+        "target_words": ["come si dice"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-12",
+        "type": "writing",
+        "subtype": "arrange_words",
+        "prompt": { "text": "Arrange the words to say: 'Good night, sleep well.'" },
+        "sentence_context": "Buonanotte, dormi bene.",
+        "correct_answer": ["Buonanotte,", "dormi", "bene."],
+        "distractors": ["ciao", "grazie"],
+        "hints": ["Start with the bedtime greeting."],
+        "target_words": ["buonanotte"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-13",
+        "type": "writing",
+        "subtype": "arrange_words",
+        "prompt": { "text": "Arrange the words to say: 'I'm sorry, I don't understand.'" },
+        "sentence_context": "Mi dispiace, non capisco.",
+        "correct_answer": ["Mi", "dispiace,", "non", "capisco."],
+        "distractors": ["bene", "sì"],
+        "hints": ["Start with the apology, then the problem."],
+        "target_words": ["mi dispiace", "non capisco"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-14",
+        "type": "writing",
+        "subtype": "arrange_words",
+        "prompt": { "text": "Arrange the words to say: 'Well, thanks, and you?' (formal)" },
+        "sentence_context": "Bene, grazie, e Lei?",
+        "correct_answer": ["Bene,", "grazie,", "e", "Lei?"],
+        "distractors": ["tu", "stai"],
+        "hints": ["Same as the informal version, but use the formal 'you' at the end."],
+        "target_words": ["bene", "grazie", "e Lei"]
+      },
+      {
+        "id": "unit-01-lesson-05-ex-15",
+        "type": "writing",
+        "subtype": "arrange_words",
+        "prompt": { "text": "Arrange the words to say: 'Okay, see you tomorrow.'" },
+        "sentence_context": "Va bene, ci vediamo domani.",
+        "correct_answer": ["Va", "bene,", "ci", "vediamo", "domani."],
+        "distractors": ["arrivederci", "ciao"],
+        "hints": ["Start with 'okay', then 'we see each other tomorrow'."],
+        "target_words": ["va bene"]
+      }
+    ]
+  }
+]
