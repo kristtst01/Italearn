@@ -1,34 +1,110 @@
-import { Link } from 'react-router-dom'
-import { curriculum } from '@/data/curriculum'
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { curriculum } from '@/data/curriculum';
+import { useProgressStore } from '@/stores/progressStore';
+import { useSrsStore } from '@/stores/srsStore';
+import UnitCard, { type UnitStatus } from '@/components/UnitCard';
+import type { Unit } from '@/types';
+
+function getUnitStatus(
+  unit: Unit,
+  completedLessons: string[],
+  isUnlocked: boolean,
+): UnitStatus {
+  if (!isUnlocked) return 'locked';
+  if (unit.lessons.length === 0) return 'available';
+
+  const completed = unit.lessons.filter((l) =>
+    completedLessons.includes(l.id),
+  ).length;
+
+  if (completed === unit.lessons.length) return 'completed';
+  if (completed > 0) return 'in_progress';
+  return 'available';
+}
+
+function isUnitComplete(unit: Unit, completedLessons: string[]): boolean {
+  return (
+    unit.lessons.length > 0 &&
+    unit.lessons.every((l) => completedLessons.includes(l.id))
+  );
+}
 
 export default function Path() {
   const section = curriculum.sections[0];
-  const unit = section.units[0];
+  const units = section.units;
+
+  const hydrated = useProgressStore((s) => s.hydrated);
+  const hydrateProgress = useProgressStore((s) => s.hydrate);
+  const lessonsCompleted = useProgressStore((s) => s.lessons_completed);
+
+  const srsHydrated = useSrsStore((s) => s.hydrated);
+  const hydrateSrs = useSrsStore((s) => s.hydrate);
+  const dueCount = useSrsStore((s) => s.dueCards.length);
+
+  const [expandedUnit, setExpandedUnit] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!hydrated) hydrateProgress();
+    if (!srsHydrated) hydrateSrs();
+  }, [hydrated, hydrateProgress, srsHydrated, hydrateSrs]);
+
+  if (!hydrated || !srsHydrated) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <p className="text-gray-400">Loading...</p>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
-      <h1 className="text-3xl font-bold text-gray-900 mb-2">ItaLearn</h1>
-      <p className="text-gray-500 mb-8">{section.name} — {section.cefr_level}</p>
+      <div className="max-w-2xl mx-auto">
+        <h1 className="text-3xl font-bold text-gray-900 mb-1">ItaLearn</h1>
+        <p className="text-gray-500 mb-6">
+          Section {section.order}: {section.name} — {section.cefr_level}
+        </p>
 
-      <div className="space-y-4">
-        {unit.lessons.map((lesson) => (
+        {dueCount > 0 && (
           <Link
-            key={lesson.id}
-            to={`/lesson/${lesson.id}`}
-            className="block rounded-xl bg-white p-4 shadow-sm border border-gray-200 hover:border-green-400 transition-colors"
+            to="/review"
+            className="flex items-center justify-between rounded-xl bg-blue-600 text-white px-4 py-3 mb-6 hover:bg-blue-700 transition-colors"
           >
-            <h2 className="font-semibold text-gray-900">{unit.name}: {lesson.name}</h2>
-            <p className="text-sm text-gray-500">{lesson.exercises.length} exercises</p>
+            <div className="flex items-center gap-2">
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+              </svg>
+              <span className="font-medium">Review</span>
+            </div>
+            <span className="bg-white/20 rounded-full px-2.5 py-0.5 text-sm font-medium">
+              {dueCount} due
+            </span>
           </Link>
-        ))}
-      </div>
+        )}
 
-      <Link
-        to="/review"
-        className="mt-8 inline-block rounded-lg bg-blue-600 px-4 py-2 text-white font-medium hover:bg-blue-700 transition-colors"
-      >
-        Review
-      </Link>
+        <div className="space-y-3">
+          {units.map((unit, index) => {
+            const isUnlocked =
+              index === 0 ||
+              isUnitComplete(units[index - 1], lessonsCompleted);
+
+            const status = getUnitStatus(unit, lessonsCompleted, isUnlocked);
+
+            return (
+              <UnitCard
+                key={unit.id}
+                unit={unit}
+                status={status}
+                completedLessons={lessonsCompleted}
+                expanded={expandedUnit === unit.id}
+                onToggle={() =>
+                  setExpandedUnit(expandedUnit === unit.id ? null : unit.id)
+                }
+              />
+            );
+          })}
+        </div>
+      </div>
     </div>
-  )
+  );
 }
