@@ -1,9 +1,15 @@
+import { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Path from '@/pages/Path'
 import Lesson from '@/pages/Lesson'
 import Review from '@/pages/Review'
+import { seedVocabulary } from '@/stores/db'
 
 export default function App() {
+  useEffect(() => {
+    seedVocabulary();
+  }, []);
+
   return (
     <BrowserRouter>
       <Routes>
