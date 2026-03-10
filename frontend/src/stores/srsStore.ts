@@ -1,0 +1,45 @@
+import { create } from 'zustand';
+import type { Grade } from 'ts-fsrs';
+import type { ExerciseType, SRSCard } from '../types';
+import * as srs from '../engine/srs';
+
+interface SRSState {
+  dueCards: SRSCard[];
+  hydrated: boolean;
+  hydrate: () => Promise<void>;
+  addCards: (
+    cards: { wordId: string; skillType: ExerciseType }[],
+  ) => Promise<void>;
+  reviewCard: (cardId: number, grade: Grade) => Promise<void>;
+  refreshDueCards: () => Promise<void>;
+}
+
+export const useSrsStore = create<SRSState>()((set, get) => ({
+  dueCards: [],
+  hydrated: false,
+
+  async hydrate() {
+    const dueCards = await srs.getDueCards();
+    set({ dueCards, hydrated: true });
+  },
+
+  async addCards(cards) {
+    for (const { wordId, skillType } of cards) {
+      await srs.createCard(wordId, skillType);
+    }
+    await get().refreshDueCards();
+  },
+
+  async reviewCard(cardId: number, grade: Grade) {
+    const card = get().dueCards.find((c) => c.id === cardId);
+    if (!card) return;
+
+    await srs.reviewCard(card, grade);
+    await get().refreshDueCards();
+  },
+
+  async refreshDueCards() {
+    const dueCards = await srs.getDueCards();
+    set({ dueCards });
+  },
+}));
