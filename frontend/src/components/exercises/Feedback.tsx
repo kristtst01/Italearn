@@ -10,6 +10,7 @@ interface FeedbackProps {
 export default function Feedback({
   correct,
   correctAnswer,
+  exercise,
   onContinue,
 }: FeedbackProps) {
   return (
@@ -36,6 +37,12 @@ export default function Feedback({
         {!correct && (
           <p className="mb-3 text-sm text-red-700">
             Correct answer: <span className="font-semibold">{correctAnswer}</span>
+          </p>
+        )}
+
+        {exercise.sentence_context && (
+          <p className="mb-3 rounded-md bg-white/60 px-3 py-2 text-sm italic text-gray-700">
+            {exercise.sentence_context}
           </p>
         )}
 

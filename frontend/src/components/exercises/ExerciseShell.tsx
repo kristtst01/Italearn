@@ -45,12 +45,6 @@ export default function ExerciseShell({
 
   return (
     <div className="flex min-h-[60vh] flex-col">
-      {exercise.sentence_context && (
-        <p className="mb-4 rounded-lg bg-gray-100 px-4 py-2 text-sm italic text-gray-600">
-          {exercise.sentence_context}
-        </p>
-      )}
-
       <div className="flex-1">{children}</div>
 
       {!submitted && (

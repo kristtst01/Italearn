@@ -119,17 +119,16 @@ export default function Lesson() {
   function renderExercise() {
     if (!currentExercise) return null;
     const props = {
-      key: currentExercise.id,
       exercise: currentExercise,
       onComplete: handleExerciseComplete,
     };
     switch (currentExercise.subtype) {
       case 'multiple_choice':
-        return <MultipleChoice {...props} />;
+        return <MultipleChoice key={currentExercise.id} {...props} />;
       case 'type_answer':
-        return <TypeAnswer {...props} />;
+        return <TypeAnswer key={currentExercise.id} {...props} />;
       case 'arrange_words':
-        return <ArrangeWords {...props} />;
+        return <ArrangeWords key={currentExercise.id} {...props} />;
       default:
         return (
           <div className="text-gray-500">
