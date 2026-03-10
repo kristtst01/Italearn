@@ -22,6 +22,13 @@ export interface Unit {
   order: number;
 }
 
+/** Lightweight vocab entry as authored in unit JSON files */
+export interface LessonVocab {
+  word: string;
+  meaning: string;
+  example: string;
+}
+
 export interface Lesson {
   id: string;
   unit_id: string;
@@ -29,6 +36,7 @@ export interface Lesson {
   exercises: Exercise[];
   grammar_tips: string[];
   order: number;
+  vocabulary?: LessonVocab[];
 }
 
 export interface Curriculum {

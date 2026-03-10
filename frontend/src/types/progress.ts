@@ -18,6 +18,20 @@ export interface SRSCard {
   review_log: ReviewLog[];
 }
 
+/** Stored in Dexie — one row per word/phrase. Keyed by word_id. */
+export interface VocabEntry {
+  /** Primary key — matches SRSCard.word_id (e.g. "ciao", "buongiorno") */
+  id: string;
+  /** Italian word or phrase */
+  word: string;
+  /** English translation */
+  meaning: string;
+  /** Example sentence in Italian */
+  example: string;
+  /** Unit that introduced this word */
+  unit_id: string;
+}
+
 /** Stored in Dexie — singleton row (id = 1) */
 export interface UserProgress {
   id?: number;

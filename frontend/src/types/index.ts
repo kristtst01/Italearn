@@ -3,6 +3,7 @@ export type {
   Section,
   Unit,
   Lesson,
+  LessonVocab,
   Curriculum,
 } from './curriculum';
 
@@ -17,4 +18,5 @@ export type {
   ExerciseResult,
   SRSCard,
   UserProgress,
+  VocabEntry,
 } from './progress';
