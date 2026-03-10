@@ -1,0 +1,36 @@
+import type { Exercise } from './exercise';
+
+export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2';
+
+export interface Section {
+  id: string;
+  name: string;
+  description: string;
+  order: number;
+  cefr_level: CEFRLevel;
+  units: Unit[];
+}
+
+export interface Unit {
+  id: string;
+  section_id: string;
+  name: string;
+  grammar_focus: string;
+  vocabulary_targets: string[];
+  grammar_notes: string;
+  lessons: Lesson[];
+  order: number;
+}
+
+export interface Lesson {
+  id: string;
+  unit_id: string;
+  name: string;
+  exercises: Exercise[];
+  grammar_tips: string[];
+  order: number;
+}
+
+export interface Curriculum {
+  sections: Section[];
+}
