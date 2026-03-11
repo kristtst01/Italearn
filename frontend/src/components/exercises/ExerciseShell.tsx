@@ -8,6 +8,8 @@ interface ExerciseShellProps {
   userAnswer: string;
   isCorrect: boolean;
   canSubmit: boolean;
+  /** Optional feedback message from validation (e.g., accent reminders, typo hints) */
+  feedback?: string;
   children: ReactNode;
 }
 
@@ -17,6 +19,7 @@ export default function ExerciseShell({
   userAnswer,
   isCorrect,
   canSubmit,
+  feedback,
   children,
 }: ExerciseShellProps) {
   const [submitted, setSubmitted] = useState(false);
@@ -62,6 +65,7 @@ export default function ExerciseShell({
           correct={isCorrect}
           correctAnswer={correctAnswer}
           exercise={exercise}
+          feedback={feedback}
           onContinue={handleContinue}
         />
       )}

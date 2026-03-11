@@ -1,5 +1,6 @@
 import type { Exercise, ExerciseResult, Lesson } from '../types';
 import { curriculum } from '../data/curriculum';
+import { validateAnswer } from './validation';
 
 export interface LessonResult {
   lessonId: string;
@@ -25,10 +26,8 @@ export function findLesson(lessonId: string): Lesson | undefined {
 /** Check whether a user answer is correct for a given exercise. */
 export function checkAnswer(exercise: Exercise, userAnswer: string): boolean {
   const correct = exercise.correct_answer;
-  if (Array.isArray(correct)) {
-    return userAnswer.trim().toLowerCase() === correct.join(' ').toLowerCase();
-  }
-  return userAnswer.trim().toLowerCase() === correct.trim().toLowerCase();
+  const expected = Array.isArray(correct) ? correct.join(' ') : correct;
+  return validateAnswer(userAnswer, expected).correct;
 }
 
 /** Collect all unique target words from the exercises. */

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import type { ExerciseResult } from '@/types';
+import type { Exercise, ExerciseResult } from '@/types';
 import {
   findLesson,
   buildLessonResult,
@@ -22,7 +22,8 @@ export default function Lesson() {
   const [results, setResults] = useState<ExerciseResult[]>([]);
   const [lessonResult, setLessonResult] = useState<LessonResult | null>(null);
   const [showExitConfirm, setShowExitConfirm] = useState(false);
-  const [startTime] = useState(() => Date.now());
+  const [startTime, setStartTime] = useState(() => Date.now());
+  const [retryExercises, setRetryExercises] = useState<Exercise[] | null>(null);
 
   const completeLesson = useProgressStore((s) => s.completeLesson);
   const addCards = useSrsStore((s) => s.addCards);
@@ -69,7 +70,8 @@ export default function Lesson() {
     );
   }
 
-  const exercises = lesson.exercises;
+  const exercises = retryExercises ?? lesson.exercises;
+  const isRetry = retryExercises !== null;
   const currentExercise = exercises[currentIndex];
   const isComplete = !!lessonResult;
   const progress =
@@ -96,24 +98,45 @@ export default function Lesson() {
     );
     setLessonResult(result);
 
-    await completeLesson(lesson!.id);
+    if (!isRetry) {
+      await completeLesson(lesson!.id);
 
-    const cardsToCreate: { wordId: string; skillType: 'vocab' | 'writing' }[] =
-      [];
-    for (const word of result.wordsEncountered) {
-      for (const skillType of ['vocab', 'writing'] as const) {
-        const existing = await db.srsCards
-          .where('[word_id+skill_type]')
-          .equals([word, skillType])
-          .first();
-        if (!existing) {
-          cardsToCreate.push({ wordId: word, skillType });
+      const cardsToCreate: { wordId: string; skillType: 'vocab' | 'writing' }[] =
+        [];
+      for (const word of result.wordsEncountered) {
+        for (const skillType of ['vocab', 'writing'] as const) {
+          const existing = await db.srsCards
+            .where('[word_id+skill_type]')
+            .equals([word, skillType])
+            .first();
+          if (!existing) {
+            cardsToCreate.push({ wordId: word, skillType });
+          }
         }
       }
+      if (cardsToCreate.length > 0) {
+        await addCards(cardsToCreate);
+      }
     }
-    if (cardsToCreate.length > 0) {
-      await addCards(cardsToCreate);
-    }
+  }
+
+  function handlePracticeMistakes() {
+    if (!lessonResult) return;
+
+    const missedIds = new Set(
+      lessonResult.results
+        .filter((r) => !r.correct)
+        .map((r) => r.exercise_id),
+    );
+
+    const missed = lesson!.exercises.filter((ex) => missedIds.has(ex.id));
+    if (missed.length === 0) return;
+
+    setStartTime(Date.now());
+    setRetryExercises(missed);
+    setCurrentIndex(0);
+    setResults([]);
+    setLessonResult(null);
   }
 
   function renderExercise() {
@@ -170,6 +193,9 @@ export default function Lesson() {
           <CompletionScreen
             result={lessonResult}
             lessonName={lesson.name}
+            isRetry={isRetry}
+            hasMistakes={lessonResult.score < lessonResult.total}
+            onPracticeMistakes={handlePracticeMistakes}
             onContinue={() => navigate('/')}
           />
         ) : (
@@ -183,10 +209,16 @@ export default function Lesson() {
 function CompletionScreen({
   result,
   lessonName,
+  isRetry,
+  hasMistakes,
+  onPracticeMistakes,
   onContinue,
 }: {
   result: LessonResult;
   lessonName: string;
+  isRetry: boolean;
+  hasMistakes: boolean;
+  onPracticeMistakes: () => void;
   onContinue: () => void;
 }) {
   const pct = Math.round((result.score / result.total) * 100);
@@ -195,7 +227,9 @@ function CompletionScreen({
 
   return (
     <div className="text-center space-y-6 py-8">
-      <h1 className="text-3xl font-bold text-gray-900">Lesson Complete!</h1>
+      <h1 className="text-3xl font-bold text-gray-900">
+        {isRetry ? 'Retry Complete!' : 'Lesson Complete!'}
+      </h1>
       <p className="text-gray-600">{lessonName}</p>
 
       <div className="bg-white rounded-xl p-8 shadow-sm border border-gray-200 space-y-4">
@@ -214,9 +248,19 @@ function CompletionScreen({
         </div>
       </div>
 
+      {hasMistakes && (
+        <button
+          onClick={onPracticeMistakes}
+          autoFocus
+          className="w-full px-4 py-3 rounded-lg border-2 border-blue-600 text-blue-600 font-medium hover:bg-blue-50 transition-colors"
+        >
+          Practice mistakes ({result.total - result.score})
+        </button>
+      )}
+
       <button
         onClick={onContinue}
-        autoFocus
+        autoFocus={!hasMistakes}
         className="w-full px-4 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors"
       >
         Back to path
