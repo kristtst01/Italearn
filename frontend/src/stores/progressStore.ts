@@ -12,12 +12,15 @@ const DEFAULT_PROGRESS: UserProgress = {
   level: 1,
   lessons_completed: [],
   checkpoints_passed: [],
+  lesson_scores: {},
 };
 
 interface ProgressState extends UserProgress {
   hydrated: boolean;
   hydrate: () => Promise<void>;
   completeLesson: (lessonId: string) => Promise<void>;
+  saveLessonScore: (lessonId: string, score: number, total: number, missedExerciseIds: string[]) => Promise<void>;
+  resetLesson: (lessonId: string) => Promise<void>;
   unlockUnit: (unitId: string) => Promise<void>;
   passCheckpoint: (sectionId: string) => Promise<void>;
 }
@@ -33,6 +36,7 @@ function toData(state: ProgressState): UserProgress {
     level: state.level,
     lessons_completed: state.lessons_completed,
     checkpoints_passed: state.checkpoints_passed,
+    lesson_scores: state.lesson_scores,
   };
 }
 
@@ -47,7 +51,7 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
   async hydrate() {
     const saved = await db.progress.get(1);
     if (saved) {
-      set({ ...saved, hydrated: true });
+      set({ ...saved, lesson_scores: saved.lesson_scores ?? {}, hydrated: true });
     } else {
       await db.progress.put({ ...DEFAULT_PROGRESS, id: 1 });
       set({ ...DEFAULT_PROGRESS, hydrated: true });
@@ -59,6 +63,26 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
 
     const updated = [...get().lessons_completed, lessonId];
     set({ lessons_completed: updated });
+    await persist(get());
+  },
+
+  async saveLessonScore(lessonId: string, score: number, total: number, missedExerciseIds: string[]) {
+    const current = get().lesson_scores[lessonId];
+    // Only save if better than previous best (or first attempt)
+    if (current && current.score >= score) return;
+
+    const updated = { ...get().lesson_scores, [lessonId]: { score, total, missedExerciseIds } };
+    set({ lesson_scores: updated });
+    await persist(get());
+  },
+
+  async resetLesson(lessonId: string) {
+    const scores = { ...get().lesson_scores };
+    delete scores[lessonId];
+    set({
+      lessons_completed: get().lessons_completed.filter((id) => id !== lessonId),
+      lesson_scores: scores,
+    });
     await persist(get());
   },
 

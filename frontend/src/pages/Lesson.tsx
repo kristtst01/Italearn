@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import type { Exercise, ExerciseResult } from '@/types';
 import {
@@ -23,10 +23,24 @@ export default function Lesson() {
   const [lessonResult, setLessonResult] = useState<LessonResult | null>(null);
   const [showExitConfirm, setShowExitConfirm] = useState(false);
   const [startTime, setStartTime] = useState(() => Date.now());
-  const [retryExercises, setRetryExercises] = useState<Exercise[] | null>(null);
-
   const completeLesson = useProgressStore((s) => s.completeLesson);
+  const saveLessonScore = useProgressStore((s) => s.saveLessonScore);
+  const lessonScore = useProgressStore((s) => id ? s.lesson_scores[id] : undefined);
   const addCards = useSrsStore((s) => s.addCards);
+
+  const [retryExercises, setRetryExercises] = useState<Exercise[] | null>(null);
+  const didAutoRetry = useRef(false);
+
+  // Auto-enter retry mode if reopening a lesson with missed exercises
+  useEffect(() => {
+    if (didAutoRetry.current || !lesson || !lessonScore?.missedExerciseIds?.length) return;
+    const missedIds = new Set(lessonScore.missedExerciseIds);
+    const missed = lesson.exercises.filter((ex) => missedIds.has(ex.id));
+    if (missed.length > 0) {
+      didAutoRetry.current = true;
+      setRetryExercises(missed);
+    }
+  }, [lesson, lessonScore]);
 
   if (!lesson) {
     return (
@@ -97,6 +111,21 @@ export default function Lesson() {
       startTime,
     );
     setLessonResult(result);
+
+    if (isRetry && lessonScore) {
+      // Merge retry results with original lesson score
+      const stillMissedIds = result.results
+        .filter((r) => !r.correct)
+        .map((r) => r.exercise_id);
+      const newlyCorrect = exercises.length - stillMissedIds.length;
+      const mergedScore = lessonScore.score + newlyCorrect;
+      await saveLessonScore(lesson!.id, mergedScore, lessonScore.total, stillMissedIds);
+    } else {
+      const missedIds = result.results
+        .filter((r) => !r.correct)
+        .map((r) => r.exercise_id);
+      await saveLessonScore(lesson!.id, result.score, result.total, missedIds);
+    }
 
     if (!isRetry) {
       await completeLesson(lesson!.id);
