@@ -37,6 +37,8 @@ export default function Path() {
   const hydrated = useProgressStore((s) => s.hydrated);
   const hydrateProgress = useProgressStore((s) => s.hydrate);
   const lessonsCompleted = useProgressStore((s) => s.lessons_completed);
+  const lessonScores = useProgressStore((s) => s.lesson_scores);
+  const resetLesson = useProgressStore((s) => s.resetLesson);
 
   const srsHydrated = useSrsStore((s) => s.hydrated);
   const hydrateSrs = useSrsStore((s) => s.hydrate);
@@ -96,6 +98,8 @@ export default function Path() {
                 unit={unit}
                 status={status}
                 completedLessons={lessonsCompleted}
+                lessonScores={lessonScores}
+                onResetLesson={resetLesson}
                 expanded={expandedUnit === unit.id}
                 onToggle={() =>
                   setExpandedUnit(expandedUnit === unit.id ? null : unit.id)

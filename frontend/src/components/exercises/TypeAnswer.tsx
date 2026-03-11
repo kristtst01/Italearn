@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
+import { validateAnswer } from '@/engine/validation';
 import ExerciseShell from './ExerciseShell';
 
 interface TypeAnswerProps {
@@ -17,16 +18,19 @@ export default function TypeAnswer({
     ? exercise.correct_answer[0]
     : exercise.correct_answer;
 
-  const isCorrect =
-    answer.trim().toLowerCase() === correctAnswer.toLowerCase();
+  const validation = useMemo(
+    () => validateAnswer(answer, correctAnswer),
+    [answer, correctAnswer],
+  );
 
   return (
     <ExerciseShell
       exercise={exercise}
       onComplete={onComplete}
       userAnswer={answer}
-      isCorrect={isCorrect}
+      isCorrect={validation.correct}
       canSubmit={answer.trim().length > 0}
+      feedback={validation.feedback}
     >
       <p className="mb-6 text-lg font-semibold text-gray-900">
         {exercise.prompt.text}

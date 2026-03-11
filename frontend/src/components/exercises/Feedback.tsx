@@ -4,6 +4,8 @@ interface FeedbackProps {
   correct: boolean;
   correctAnswer: string;
   exercise: Exercise;
+  /** Optional validation feedback (accent reminders, typo hints) */
+  feedback?: string;
   onContinue: () => void;
 }
 
@@ -11,6 +13,7 @@ export default function Feedback({
   correct,
   correctAnswer,
   exercise,
+  feedback,
   onContinue,
 }: FeedbackProps) {
   return (
@@ -34,7 +37,13 @@ export default function Feedback({
           )}
         </div>
 
-        {!correct && (
+        {feedback && (
+          <p className={`mb-3 text-sm ${correct ? 'text-amber-700' : 'text-red-700'}`}>
+            {feedback}
+          </p>
+        )}
+
+        {!correct && !feedback && (
           <p className="mb-3 text-sm text-red-700">
             Correct answer: <span className="font-semibold">{correctAnswer}</span>
           </p>

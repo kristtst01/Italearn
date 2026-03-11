@@ -16,6 +16,7 @@ export type {
 
 export type {
   ExerciseResult,
+  LessonScore,
   SRSCard,
   UserProgress,
   VocabEntry,

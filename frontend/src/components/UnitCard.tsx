@@ -1,4 +1,4 @@
-import type { Unit } from '@/types';
+import type { Unit, LessonScore } from '@/types';
 import LessonList from './LessonList';
 
 export type UnitStatus = 'locked' | 'available' | 'in_progress' | 'completed';
@@ -7,6 +7,8 @@ interface UnitCardProps {
   unit: Unit;
   status: UnitStatus;
   completedLessons: string[];
+  lessonScores: Record<string, LessonScore>;
+  onResetLesson: (lessonId: string) => void;
   expanded: boolean;
   onToggle: () => void;
 }
@@ -15,6 +17,8 @@ export default function UnitCard({
   unit,
   status,
   completedLessons,
+  lessonScores,
+  onResetLesson,
   expanded,
   onToggle,
 }: UnitCardProps) {
@@ -79,6 +83,8 @@ export default function UnitCard({
         <LessonList
           lessons={unit.lessons}
           completedLessons={completedLessons}
+          lessonScores={lessonScores}
+          onResetLesson={onResetLesson}
         />
       )}
     </div>

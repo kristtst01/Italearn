@@ -32,6 +32,13 @@ export interface VocabEntry {
   unit_id: string;
 }
 
+export interface LessonScore {
+  score: number;
+  total: number;
+  /** Exercise IDs the user got wrong (empty when perfect) */
+  missedExerciseIds: string[];
+}
+
 /** Stored in Dexie — singleton row (id = 1) */
 export interface UserProgress {
   id?: number;
@@ -43,4 +50,6 @@ export interface UserProgress {
   level: number;
   lessons_completed: string[];
   checkpoints_passed: string[];
+  /** Best score per lesson, keyed by lesson ID */
+  lesson_scores: Record<string, LessonScore>;
 }
