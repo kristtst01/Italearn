@@ -5,6 +5,7 @@ export type {
   Lesson,
   LessonVocab,
   Curriculum,
+  UnitStatus,
 } from './curriculum';
 
 export type {
@@ -16,7 +17,10 @@ export type {
 
 export type {
   ExerciseResult,
+  LessonResult,
   LessonScore,
+  ReviewResult,
+  ReviewSession,
   SRSCard,
   UserProgress,
   VocabEntry,

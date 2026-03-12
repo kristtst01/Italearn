@@ -2,6 +2,8 @@ import type { Exercise } from './exercise';
 
 export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2';
 
+export type UnitStatus = 'locked' | 'available' | 'in_progress' | 'completed';
+
 export interface Section {
   id: string;
   name: string;

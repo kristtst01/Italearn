@@ -2,6 +2,7 @@ import { create } from 'zustand';
 import type { Grade } from 'ts-fsrs';
 import type { ExerciseType, SRSCard } from '../types';
 import * as srs from '../engine/srs';
+import { db } from './db';
 
 interface SRSState {
   dueCards: SRSCard[];
@@ -25,7 +26,13 @@ export const useSrsStore = create<SRSState>()((set, get) => ({
 
   async addCards(cards) {
     for (const { wordId, skillType } of cards) {
-      await srs.createCard(wordId, skillType);
+      const existing = await db.srsCards
+        .where('[word_id+skill_type]')
+        .equals([wordId, skillType])
+        .first();
+      if (!existing) {
+        await srs.createCard(wordId, skillType);
+      }
     }
     await get().refreshDueCards();
   },

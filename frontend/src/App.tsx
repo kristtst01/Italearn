@@ -1,22 +1,19 @@
-import { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Path from '@/pages/Path'
-import Lesson from '@/pages/Lesson'
-import Review from '@/pages/Review'
-import { seedVocabulary } from '@/stores/db'
+import HydrationGuard from '@/shared/components/HydrationGuard'
+import PathPage from '@/features/path/PathPage'
+import LessonPage from '@/features/lesson/LessonPage'
+import ReviewPage from '@/features/review/ReviewPage'
 
 export default function App() {
-  useEffect(() => {
-    seedVocabulary();
-  }, []);
-
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Path />} />
-        <Route path="/lesson/:id" element={<Lesson />} />
-        <Route path="/review" element={<Review />} />
-      </Routes>
+      <HydrationGuard>
+        <Routes>
+          <Route path="/" element={<PathPage />} />
+          <Route path="/lesson/:id" element={<LessonPage />} />
+          <Route path="/review" element={<ReviewPage />} />
+        </Routes>
+      </HydrationGuard>
     </BrowserRouter>
   )
 }

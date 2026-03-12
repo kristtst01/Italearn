@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { curriculum } from '@/data/curriculum';
 import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
-import UnitCard, { type UnitStatus } from '@/components/UnitCard';
-import type { Unit } from '@/types';
+import type { Unit, UnitStatus } from '@/types';
+import UnitCard from './UnitCard';
 
 function getUnitStatus(
   unit: Unit,
@@ -34,30 +34,12 @@ export default function Path() {
   const section = curriculum.sections[0];
   const units = section.units;
 
-  const hydrated = useProgressStore((s) => s.hydrated);
-  const hydrateProgress = useProgressStore((s) => s.hydrate);
   const lessonsCompleted = useProgressStore((s) => s.lessons_completed);
   const lessonScores = useProgressStore((s) => s.lesson_scores);
   const resetLesson = useProgressStore((s) => s.resetLesson);
-
-  const srsHydrated = useSrsStore((s) => s.hydrated);
-  const hydrateSrs = useSrsStore((s) => s.hydrate);
   const dueCount = useSrsStore((s) => s.dueCards.length);
 
   const [expandedUnit, setExpandedUnit] = useState<string | null>(null);
-
-  useEffect(() => {
-    if (!hydrated) hydrateProgress();
-    if (!srsHydrated) hydrateSrs();
-  }, [hydrated, hydrateProgress, srsHydrated, hydrateSrs]);
-
-  if (!hydrated || !srsHydrated) {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-gray-400">Loading...</p>
-      </div>
-    );
-  }
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
