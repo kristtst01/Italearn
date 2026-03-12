@@ -1,0 +1,278 @@
+{
+  "id": "unit-02-lesson-05",
+  "unit_id": "unit-02",
+  "name": "Review & Mix",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-02-lesson-05-tip-01",
+      "title": "Putting It All Together",
+      "explanation": "You now know how to introduce yourself in Italian: say your name (mi chiamo), where you're from (sono di), your nationality, and what you do. Time to combine everything!",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-02-lesson-05-tip-02",
+      "title": "Essere — Pick the Right Form",
+      "explanation": "Remember to match 'essere' to the subject: io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono. The verb ending always tells you who's being talked about.",
+      "table": [
+        ["io", "sono"],
+        ["tu", "sei"],
+        ["lui/lei/Lei", "è"],
+        ["noi", "siamo"],
+        ["voi", "siete"],
+        ["loro", "sono"]
+      ],
+      "before_exercise": 5
+    },
+    {
+      "id": "unit-02-lesson-05-tip-03",
+      "title": "A Typical Introduction",
+      "explanation": "A natural Italian introduction sounds like: 'Ciao, mi chiamo Marco. Sono italiano, sono di Roma. Sono uno studente.' Short sentences, simple structure — you can do this!",
+      "example": { "italian": "Ciao, mi chiamo Marco. Sono di Roma.", "english": "Hi, my name is Marco. I'm from Rome." },
+      "before_exercise": 10
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-02-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Someone says 'Come ti chiami?' — what are they asking?"
+      },
+      "sentence_context": "Ciao! Come ti chiami?",
+      "correct_answer": "What is your name?",
+      "distractors": [
+        "How are you?",
+        "Where are you from?",
+        "What do you do?"
+      ],
+      "hints": [
+        "'Chiami' comes from 'chiamare' — to call."
+      ],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which form of 'essere' completes: 'Loro ___ spagnoli'?"
+      },
+      "sentence_context": "Loro sono spagnoli.",
+      "correct_answer": "sono",
+      "distractors": [
+        "siamo",
+        "siete",
+        "è"
+      ],
+      "hints": [
+        "'Loro' uses the same form as 'io'."
+      ],
+      "target_words": ["sono"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "You meet a professor. How do you greet them and ask how they are?"
+      },
+      "sentence_context": "Buongiorno, professore. Come sta?",
+      "correct_answer": "Buongiorno, come sta?",
+      "distractors": [
+        "Ciao, come stai?",
+        "Buonanotte, come va?",
+        "Salve, come sei?"
+      ],
+      "hints": [
+        "Use formal greeting + formal 'how are you'."
+      ],
+      "target_words": ["buongiorno", "come sta"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Anna says: 'Sono ___.' She is from England. What nationality does she use?"
+      },
+      "sentence_context": "Sono inglese.",
+      "correct_answer": "inglese",
+      "distractors": [
+        "inglesa",
+        "ingleso",
+        "americana"
+      ],
+      "hints": [
+        "This nationality ending in -e stays the same for both genders."
+      ],
+      "target_words": ["inglese"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Introduce yourself with your name: 'My name is Marco.'"
+      },
+      "sentence_context": "Ciao, mi chiamo Marco.",
+      "correct_answer": "mi chiamo",
+      "distractors": [],
+      "hints": [
+        "Two words: reflexive pronoun + verb."
+      ],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'I'm from Milan' in Italian?"
+      },
+      "sentence_context": "Sono di Milano.",
+      "correct_answer": "sono di Milano",
+      "distractors": [],
+      "hints": [
+        "'I am from' + city name."
+      ],
+      "target_words": ["sono di"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Say 'thank you' in Italian."
+      },
+      "sentence_context": "Grazie mille!",
+      "correct_answer": "grazie",
+      "distractors": [],
+      "hints": [
+        "One of the first words you learned in Unit 1."
+      ],
+      "target_words": ["grazie"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Translate to Italian: 'We are Italian.'"
+      },
+      "sentence_context": "Noi siamo italiani.",
+      "correct_answer": "siamo italiani",
+      "distractors": [],
+      "hints": [
+        "'We are' + nationality in masculine plural."
+      ],
+      "target_words": ["siamo", "italiano"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-09",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form of 'essere'. Marco is talking."
+      },
+      "sentence_context": "Io ___ uno studente.",
+      "correct_answer": "sono",
+      "distractors": [],
+      "hints": [
+        "The 'io' form of 'essere'."
+      ],
+      "target_words": ["sono"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-10",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Complete the question."
+      },
+      "sentence_context": "Di dove ___?",
+      "correct_answer": "sei",
+      "distractors": [],
+      "hints": [
+        "Informal 'you are' — asking where someone is from."
+      ],
+      "target_words": ["di dove sei"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form of 'essere'. Talking about a group."
+      },
+      "sentence_context": "Voi ___ americani.",
+      "correct_answer": "siete",
+      "distractors": [],
+      "hints": [
+        "The 'voi' form."
+      ],
+      "target_words": ["siete"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "Ciao, ___ chiamo Anna. Sono italiana.",
+      "correct_answer": "mi",
+      "distractors": [],
+      "hints": [
+        "Hi, my name is Anna. I'm Italian."
+      ],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-13",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words to say: 'Hi, my name is Marco. I'm Italian.'"
+      },
+      "sentence_context": "Ciao, mi chiamo Marco. Sono italiano.",
+      "correct_answer": ["Ciao,", "mi", "chiamo", "Marco.", "Sono", "italiano."],
+      "distractors": ["sei", "di"],
+      "hints": [
+        "Greeting first, then name, then nationality."
+      ],
+      "target_words": ["mi chiamo", "sono", "italiano"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-14",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words to say: 'Where are you from? I'm from Rome.'"
+      },
+      "sentence_context": "Di dove sei? Sono di Roma.",
+      "correct_answer": ["Di", "dove", "sei?", "Sono", "di", "Roma."],
+      "distractors": ["è", "siamo"],
+      "hints": [
+        "Question first, then the answer."
+      ],
+      "target_words": ["di dove sei", "sono di"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words to say: 'Good morning, how are you? Well, thanks.'"
+      },
+      "sentence_context": "Buongiorno, come sta? Bene, grazie.",
+      "correct_answer": ["Buongiorno,", "come", "sta?", "Bene,", "grazie."],
+      "distractors": ["ciao", "stai"],
+      "hints": [
+        "Formal greeting, formal question, then the reply."
+      ],
+      "target_words": ["buongiorno", "come sta", "bene", "grazie"]
+    }
+  ]
+}

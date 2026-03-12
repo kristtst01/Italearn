@@ -1,0 +1,302 @@
+{
+  "id": "unit-02-lesson-02",
+  "unit_id": "unit-02",
+  "name": "Essere: Singular",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-02-lesson-02-tip-01",
+      "title": "The Verb 'Essere' (To Be)",
+      "explanation": "'Essere' is the most important Italian verb. It means 'to be' and is used to describe identity, nationality, profession, and origin. It's irregular — you need to memorize each form.",
+      "table": [
+        ["io", "sono"],
+        ["tu", "sei"],
+        ["lui/lei/Lei", "è"]
+      ],
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-02-lesson-02-tip-02",
+      "title": "Sono — Double Duty",
+      "explanation": "'Sono' means both 'I am' (io sono) and 'they are' (loro sono). Context always makes the meaning clear: 'Sono italiano' = I am Italian, 'Sono italiani' = They are Italian.",
+      "before_exercise": 5
+    },
+    {
+      "id": "unit-02-lesson-02-tip-03",
+      "title": "The Accent on 'È'",
+      "explanation": "'È' (with accent) means 'is'. Without the accent, 'e' means 'and'. The accent changes the meaning completely: 'Lui è italiano e lei è americana' = He is Italian and she is American.",
+      "example": { "italian": "Lui è italiano e lei è americana.", "english": "He is Italian and she is American." },
+      "before_exercise": 10
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-02-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'sono' mean in 'Io sono Marco'?"
+      },
+      "sentence_context": "Io sono Marco.",
+      "correct_answer": "I am",
+      "distractors": [
+        "I have",
+        "You are",
+        "He is"
+      ],
+      "hints": [
+        "This is the 'io' form of 'essere' (to be)."
+      ],
+      "target_words": ["sono"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which form of 'essere' goes with 'tu'?"
+      },
+      "sentence_context": "Tu sei molto gentile.",
+      "correct_answer": "Sei",
+      "distractors": [
+        "Sono",
+        "È",
+        "Siamo"
+      ],
+      "hints": [
+        "The informal 'you are'."
+      ],
+      "target_words": ["sei"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'è' mean in 'Lei è Anna'?"
+      },
+      "sentence_context": "Lei è Anna.",
+      "correct_answer": "She is",
+      "distractors": [
+        "She has",
+        "I am",
+        "They are"
+      ],
+      "hints": [
+        "The third-person singular form of 'essere'."
+      ],
+      "target_words": ["è"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'italiano' mean?"
+      },
+      "sentence_context": "Sono italiano.",
+      "correct_answer": "Italian (masculine)",
+      "distractors": [
+        "Italian (feminine)",
+        "Italy",
+        "In Italian"
+      ],
+      "hints": [
+        "The -o ending tells you the gender."
+      ],
+      "target_words": ["italiano"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "Io ___ Marco.",
+      "correct_answer": "sono",
+      "distractors": [],
+      "hints": [
+        "I am Marco."
+      ],
+      "target_words": ["sono"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "Tu ___ molto gentile.",
+      "correct_answer": "sei",
+      "distractors": [],
+      "hints": [
+        "You are very kind."
+      ],
+      "target_words": ["sei"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "Lui ___ italiano.",
+      "correct_answer": "è",
+      "distractors": [],
+      "hints": [
+        "He is Italian."
+      ],
+      "target_words": ["è"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'I am' in Italian?"
+      },
+      "sentence_context": "Io sono italiano.",
+      "correct_answer": "sono",
+      "distractors": [],
+      "hints": [
+        "The 'io' form of 'essere'."
+      ],
+      "target_words": ["sono"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Translate to Italian: 'you are' (informal)"
+      },
+      "sentence_context": "Tu sei molto gentile.",
+      "correct_answer": "sei",
+      "distractors": [],
+      "hints": [
+        "The 'tu' form of 'essere'."
+      ],
+      "target_words": ["sei"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'Italian' (for a woman) in Italian?"
+      },
+      "sentence_context": "Lei è italiana.",
+      "correct_answer": "italiana",
+      "distractors": [],
+      "hints": [
+        "Change the -o ending to -a for feminine."
+      ],
+      "target_words": ["italiana"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form of 'essere'."
+      },
+      "sentence_context": "Io ___ italiano.",
+      "correct_answer": "sono",
+      "distractors": [],
+      "hints": [
+        "What is the 'io' form?"
+      ],
+      "target_words": ["sono"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-12",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form of 'essere'."
+      },
+      "sentence_context": "Lui ___ di Roma.",
+      "correct_answer": "è",
+      "distractors": [],
+      "hints": [
+        "Third-person singular — don't forget the accent."
+      ],
+      "target_words": ["è"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form of 'essere'."
+      },
+      "sentence_context": "Tu ___ molto gentile.",
+      "correct_answer": "sei",
+      "distractors": [],
+      "hints": [
+        "The 'tu' form."
+      ],
+      "target_words": ["sei"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-14",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words to say: 'I am Italian.'"
+      },
+      "sentence_context": "Io sono italiano.",
+      "correct_answer": ["Io", "sono", "italiano."],
+      "distractors": ["sei", "è"],
+      "hints": [
+        "Subject pronoun first, then the verb."
+      ],
+      "target_words": ["sono", "italiano"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words to say: 'She is Italian.'"
+      },
+      "sentence_context": "Lei è italiana.",
+      "correct_answer": ["Lei", "è", "italiana."],
+      "distractors": ["lui", "sono"],
+      "hints": [
+        "Use the feminine pronoun and the feminine form of 'Italian'."
+      ],
+      "target_words": ["è", "italiana"]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "sono",
+      "meaning": "I am / They are",
+      "example": "Io sono Marco."
+    },
+    {
+      "word": "sei",
+      "meaning": "You are (informal)",
+      "example": "Tu sei molto gentile."
+    },
+    {
+      "word": "è",
+      "meaning": "He/She/It is",
+      "example": "Lei è Anna."
+    },
+    {
+      "word": "italiano",
+      "meaning": "Italian (masculine)",
+      "example": "Sono italiano."
+    },
+    {
+      "word": "italiana",
+      "meaning": "Italian (feminine)",
+      "example": "Lei è italiana."
+    }
+  ]
+}
