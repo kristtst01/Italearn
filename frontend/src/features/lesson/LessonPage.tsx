@@ -6,6 +6,7 @@ import renderExercise from '@/features/exercises/renderExercise';
 import { useLessonState } from './useLessonState';
 import LessonHeader from './LessonHeader';
 import CompletionScreen from './CompletionScreen';
+import GrammarTip from './GrammarTip';
 
 export default function LessonPage() {
   const { id } = useParams<{ id: string }>();
@@ -47,7 +48,7 @@ function LessonContent({
     <div className="min-h-screen bg-gray-50">
       <LessonHeader
         progress={state.progress}
-        currentIndex={state.currentIndex}
+        exercisesDone={state.exercisesDone}
         totalExercises={state.exercises.length}
         isComplete={state.isComplete}
         showExitConfirm={showExitConfirm}
@@ -65,9 +66,15 @@ function LessonContent({
             onPracticeMistakes={state.handlePracticeMistakes}
             onContinue={onExit}
           />
-        ) : state.currentExercise ? (
+        ) : state.currentStep?.kind === 'tip' ? (
+          <GrammarTip
+            key={state.currentStep.tip.id}
+            tip={state.currentStep.tip}
+            onDismiss={state.handleTipDismiss}
+          />
+        ) : state.currentStep?.kind === 'exercise' ? (
           renderExercise({
-            exercise: state.currentExercise,
+            exercise: state.currentStep.exercise,
             onComplete: state.handleExerciseComplete,
           })
         ) : null}

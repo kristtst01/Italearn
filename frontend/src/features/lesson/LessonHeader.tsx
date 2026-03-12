@@ -3,7 +3,7 @@ import ExitButton from './ExitButton';
 
 interface LessonHeaderProps {
   progress: number;
-  currentIndex: number;
+  exercisesDone: number;
   totalExercises: number;
   isComplete: boolean;
   showExitConfirm: boolean;
@@ -13,7 +13,7 @@ interface LessonHeaderProps {
 
 export default function LessonHeader({
   progress,
-  currentIndex,
+  exercisesDone,
   totalExercises,
   isComplete,
   showExitConfirm,
@@ -33,7 +33,7 @@ export default function LessonHeader({
           <ProgressBar progress={progress} />
         </div>
         <span className="text-sm text-gray-500 whitespace-nowrap">
-          {Math.min(currentIndex + 1, totalExercises)}/{totalExercises}
+          {Math.min(exercisesDone + 1, totalExercises)}/{totalExercises}
         </span>
       </div>
     </div>

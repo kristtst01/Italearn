@@ -4,9 +4,33 @@
   "name": "How Are You?",
   "order": 3,
   "grammar_tips": [
-    "Italian has formal (Lei) and informal (tu) forms of 'you'. Use 'Come stai?' with friends and 'Come sta?' with strangers, elders, or in professional settings.",
-    "'Sto bene' uses the verb 'stare' (to stay/to be), not 'essere' (to be). In Italian, you describe how you feel with 'stare': 'sto bene' (I'm well), 'sto male' (I'm unwell).",
-    "When someone asks how you are, it's polite to answer and then ask back: 'Bene, grazie, e tu?' (informal) or 'Bene, grazie, e Lei?' (formal)."
+    {
+      "id": "unit-01-lesson-03-tip-01",
+      "title": "Tu vs. Lei — Formal 'You'",
+      "explanation": "Italian has formal (Lei) and informal (tu) forms of 'you'. Use 'Come stai?' with friends and 'Come sta?' with strangers, elders, or in professional settings.",
+      "example": { "italian": "Come sta, signore?", "english": "How are you, sir? (formal)" },
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-01-lesson-03-tip-02",
+      "title": "Stare — How You Feel",
+      "explanation": "'Sto bene' uses the verb 'stare' (to stay/to be), not 'essere' (to be). In Italian, you describe how you feel with 'stare': 'sto bene' (I'm well), 'sto male' (I'm unwell).",
+      "table": [
+        ["io", "sto"],
+        ["tu", "stai"],
+        ["lui/lei/Lei", "sta"],
+        ["noi", "stiamo"],
+        ["voi", "state"],
+        ["loro", "stanno"]
+      ],
+      "before_exercise": 3
+    },
+    {
+      "id": "unit-01-lesson-03-tip-03",
+      "title": "Ask Back — Italian Politeness",
+      "explanation": "When someone asks how you are, it's polite to answer and then ask back: 'Bene, grazie, e tu?' (informal) or 'Bene, grazie, e Lei?' (formal).",
+      "before_exercise": 6
+    }
   ],
   "exercises": [
     {

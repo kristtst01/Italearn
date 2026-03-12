@@ -4,9 +4,25 @@
   "name": "Hello & Goodbye",
   "order": 1,
   "grammar_tips": [
-    "Italian has both formal and informal greetings. Use 'ciao' with friends and family, and 'buongiorno' or 'buonasera' in formal situations or with strangers.",
-    "'Ciao' is unique — it works as both 'hello' and 'goodbye', but only in informal settings.",
-    "'Salve' is a safe middle ground when you're unsure whether to be formal or informal. It works at any time of day."
+    {
+      "id": "unit-01-lesson-01-tip-01",
+      "title": "Formal vs. Informal Greetings",
+      "explanation": "Italian has both formal and informal greetings. Use 'ciao' with friends and family, and 'buongiorno' or 'buonasera' in formal situations or with strangers.",
+      "example": { "italian": "Ciao, come stai?", "english": "Hi, how are you? (informal)" },
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-01-lesson-01-tip-02",
+      "title": "Ciao — Double Duty",
+      "explanation": "'Ciao' is unique — it works as both 'hello' and 'goodbye', but only in informal settings. You'll hear it at the start and end of every casual conversation.",
+      "before_exercise": 4
+    },
+    {
+      "id": "unit-01-lesson-01-tip-03",
+      "title": "Salve — The Safe Choice",
+      "explanation": "'Salve' is a safe middle ground when you're unsure whether to be formal or informal. It works at any time of day and comes from Latin, meaning 'be well'.",
+      "before_exercise": 7
+    }
   ],
   "exercises": [
     {

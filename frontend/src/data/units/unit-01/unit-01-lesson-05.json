@@ -4,9 +4,24 @@
   "name": "Review & Mix",
   "order": 5,
   "grammar_tips": [
-    "Remember: 'buongiorno' for morning, 'buonasera' from late afternoon, 'buonanotte' only at bedtime.",
-    "Formal vs. informal is one of the most important distinctions in Italian. When in doubt, use the formal form — Italians appreciate politeness.",
-    "You now know the essential survival phrases: greetings, politeness, asking how someone is, and what to say when you're lost. These will carry you through your first Italian conversations!"
+    {
+      "id": "unit-01-lesson-05-tip-01",
+      "title": "Time-of-Day Greetings",
+      "explanation": "Remember: 'buongiorno' for morning, 'buonasera' from late afternoon, 'buonanotte' only at bedtime. Choosing the right one shows you understand Italian social cues.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-01-lesson-05-tip-02",
+      "title": "When in Doubt, Be Formal",
+      "explanation": "Formal vs. informal is one of the most important distinctions in Italian. When in doubt, use the formal form — Italians appreciate politeness.",
+      "before_exercise": 4
+    },
+    {
+      "id": "unit-01-lesson-05-tip-03",
+      "title": "Your Survival Toolkit",
+      "explanation": "You now know the essential survival phrases: greetings, politeness, asking how someone is, and what to say when you're lost. These will carry you through your first Italian conversations!",
+      "before_exercise": 8
+    }
   ],
   "exercises": [
     {
