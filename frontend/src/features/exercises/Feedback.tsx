@@ -51,7 +51,7 @@ export default function Feedback({
 
         {exercise.sentence_context && (
           <p className="mb-3 rounded-md bg-white/60 px-3 py-2 text-sm italic text-gray-700">
-            {exercise.sentence_context}
+            {exercise.sentence_context.replace('___', correctAnswer)}
           </p>
         )}
 

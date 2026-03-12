@@ -1,7 +1,11 @@
 import type { Curriculum, Lesson } from '../types';
-import unit01Raw from './units/unit-01.json';
+import lesson01 from './units/unit-01/unit-01-lesson-01.json';
+import lesson02 from './units/unit-01/unit-01-lesson-02.json';
+import lesson03 from './units/unit-01/unit-01-lesson-03.json';
+import lesson04 from './units/unit-01/unit-01-lesson-04.json';
+import lesson05 from './units/unit-01/unit-01-lesson-05.json';
 
-const unit01 = unit01Raw as unknown as Lesson[];
+const unit01 = [lesson01, lesson02, lesson03, lesson04, lesson05] as unknown as Lesson[];
 
 export const curriculum: Curriculum = {
   sections: [

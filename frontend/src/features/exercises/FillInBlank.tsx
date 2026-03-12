@@ -3,21 +3,24 @@ import type { Exercise, ExerciseResult } from '@/types';
 import { validateAnswerMulti } from '@/engine/validation';
 import ExerciseShell from './ExerciseShell';
 
-interface TypeAnswerProps {
+interface FillInBlankProps {
   exercise: Exercise;
   onComplete: (result: ExerciseResult) => void;
 }
 
-export default function TypeAnswer({
+export default function FillInBlank({
   exercise,
   onComplete,
-}: TypeAnswerProps) {
+}: FillInBlankProps) {
   const [answer, setAnswer] = useState('');
 
   const validation = useMemo(
     () => validateAnswerMulti(answer, exercise.correct_answer),
     [answer, exercise.correct_answer],
   );
+
+  // Split sentence on the blank marker (___) to render inline input
+  const parts = exercise.sentence_context.split('___');
 
   return (
     <ExerciseShell
@@ -28,18 +31,24 @@ export default function TypeAnswer({
       canSubmit={answer.trim().length > 0}
       feedback={validation.feedback}
     >
-      <p className="mb-6 text-lg font-semibold text-gray-900">
-        {exercise.prompt.text}
-      </p>
+      {exercise.prompt.text && (
+        <p className="mb-4 text-sm text-gray-500">{exercise.prompt.text}</p>
+      )}
 
-      <input
-        type="text"
-        value={answer}
-        onChange={(e) => setAnswer(e.target.value)}
-        placeholder="Type your answer…"
-        autoFocus
-        className="w-full rounded-xl border-2 border-gray-200 px-4 py-3 text-gray-900 outline-none transition-colors focus:border-blue-500"
-      />
+      <p className="mb-6 text-lg font-semibold text-gray-900">
+        {parts[0]}
+        <span className="mx-1 inline-block min-w-[80px] border-b-2 border-blue-400 text-center">
+          <input
+            type="text"
+            value={answer}
+            onChange={(e) => setAnswer(e.target.value)}
+            placeholder="..."
+            autoFocus
+            className="w-full bg-transparent text-center text-blue-600 outline-none"
+          />
+        </span>
+        {parts[1]}
+      </p>
     </ExerciseShell>
   );
 }

@@ -11,9 +11,9 @@ export interface ValidationResult {
   normalizedInput: string;
 }
 
-/** Normalize whitespace: trim and collapse multiple spaces. */
+/** Normalize whitespace and strip trailing punctuation (?.!). */
 function normalize(s: string): string {
-  return s.trim().replace(/\s+/g, ' ');
+  return s.trim().replace(/\s+/g, ' ').replace(/[?!.]+$/, '');
 }
 
 /** Strip diacritics using Unicode NFD decomposition. */
@@ -124,4 +124,24 @@ export function validateAnswer(
 
   // Tier 4: Incorrect
   return { correct: false, almostCorrect: false, normalizedInput };
+}
+
+/**
+ * Validate against multiple accepted answers, returning the best result.
+ * If any answer is correct, returns that. Otherwise returns the best near-miss.
+ */
+export function validateAnswerMulti(
+  userInput: string,
+  correctAnswers: string | string[],
+): ValidationResult {
+  const answers = Array.isArray(correctAnswers) ? correctAnswers : [correctAnswers];
+  let bestResult: ValidationResult | null = null;
+
+  for (const answer of answers) {
+    const result = validateAnswer(userInput, answer);
+    if (result.correct) return result;
+    if (!bestResult || result.almostCorrect) bestResult = result;
+  }
+
+  return bestResult!;
 }

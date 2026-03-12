@@ -1,0 +1,333 @@
+{
+  "id": "unit-01-lesson-01",
+  "unit_id": "unit-01",
+  "name": "Hello & Goodbye",
+  "order": 1,
+  "grammar_tips": [
+    "Italian has both formal and informal greetings. Use 'ciao' with friends and family, and 'buongiorno' or 'buonasera' in formal situations or with strangers.",
+    "'Ciao' is unique — it works as both 'hello' and 'goodbye', but only in informal settings.",
+    "'Salve' is a safe middle ground when you're unsure whether to be formal or informal. It works at any time of day."
+  ],
+  "exercises": [
+    {
+      "id": "unit-01-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'ciao' mean?"
+      },
+      "sentence_context": "Ciao, come stai?",
+      "correct_answer": "Hello and goodbye (informal)",
+      "distractors": [
+        "Good morning",
+        "Good night",
+        "Thank you"
+      ],
+      "hints": [
+        "Think about how Italians greet friends — this word pulls double duty."
+      ],
+      "target_words": [
+        "ciao"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "It's 9 AM and you walk into a café. Which greeting is most appropriate?"
+      },
+      "sentence_context": "Buongiorno, un caffè per favore.",
+      "correct_answer": "Buongiorno",
+      "distractors": [
+        "Buonasera",
+        "Buonanotte",
+        "Arrivederci"
+      ],
+      "hints": [
+        "This greeting is used from morning until early afternoon."
+      ],
+      "target_words": [
+        "buongiorno"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which greeting is only used when someone is going to bed?"
+      },
+      "sentence_context": "Buonanotte, dormi bene.",
+      "correct_answer": "Buonanotte",
+      "distractors": [
+        "Buonasera",
+        "Buongiorno",
+        "Salve"
+      ],
+      "hints": [
+        "Literally 'good night' — but only for bedtime, not as a general evening greeting."
+      ],
+      "target_words": [
+        "buonanotte"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What is the formal way to say 'goodbye' in Italian?"
+      },
+      "sentence_context": "Arrivederci e grazie!",
+      "correct_answer": "Arrivederci",
+      "distractors": [
+        "Ciao",
+        "Salve",
+        "Buongiorno"
+      ],
+      "hints": [
+        "This word literally means 'until we see each other again'."
+      ],
+      "target_words": [
+        "arrivederci"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Translate to Italian: 'Good morning'"
+      },
+      "sentence_context": "Buongiorno, come sta?",
+      "correct_answer": "buongiorno",
+      "distractors": [],
+      "hints": [
+        "It's made of two words: 'buon' (good) + 'giorno' (day)."
+      ],
+      "target_words": [
+        "buongiorno"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Translate to Italian: 'Good evening'"
+      },
+      "sentence_context": "Buonasera, signora Rossi.",
+      "correct_answer": "buonasera",
+      "distractors": [],
+      "hints": [
+        "'Buon' (good) + 'sera' (evening)."
+      ],
+      "target_words": [
+        "buonasera"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'goodbye' formally in Italian?"
+      },
+      "sentence_context": "Arrivederci, a presto!",
+      "correct_answer": "arrivederci",
+      "distractors": [],
+      "hints": [
+        "Starts with 'a' — think 'arrive' + 'derci'."
+      ],
+      "target_words": [
+        "arrivederci"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Type the Italian greeting that works in both formal and informal settings, at any time of day."
+      },
+      "sentence_context": "Salve, come va?",
+      "correct_answer": "salve",
+      "distractors": [],
+      "hints": [
+        "It comes from Latin and means 'be well'."
+      ],
+      "target_words": [
+        "salve"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___, come stai?",
+      "correct_answer": "ciao",
+      "distractors": [],
+      "hints": [
+        "Hello, how are you?"
+      ],
+      "target_words": [
+        "ciao"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___, dormi bene.",
+      "correct_answer": "Buonanotte",
+      "distractors": [],
+      "hints": [
+        "Good night, sleep well."
+      ],
+      "target_words": [
+        "buonanotte"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___ e grazie!",
+      "correct_answer": [
+        "Arrivederci",
+        "Ciao"
+      ],
+      "distractors": [],
+      "hints": [
+        "Goodbye and thanks!"
+      ],
+      "target_words": [
+        "arrivederci"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "It's 8 PM. Complete the greeting."
+      },
+      "sentence_context": "___, signora Rossi.",
+      "correct_answer": "Buonasera",
+      "distractors": [],
+      "hints": [
+        "The evening greeting."
+      ],
+      "target_words": [
+        "buonasera"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "You're unsure about formality. Use the universal greeting."
+      },
+      "sentence_context": "___, come va?",
+      "correct_answer": "Salve",
+      "distractors": [],
+      "hints": [
+        "Works in any context — formal or informal."
+      ],
+      "target_words": [
+        "salve"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-09",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words to say: 'Hello, how are you?'"
+      },
+      "sentence_context": "Ciao, come stai?",
+      "correct_answer": [
+        "Ciao,",
+        "come",
+        "stai?"
+      ],
+      "distractors": [
+        "bene",
+        "grazie"
+      ],
+      "hints": [
+        "Start with the informal greeting."
+      ],
+      "target_words": [
+        "ciao"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-10",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words to say: 'Good evening, everyone!'"
+      },
+      "sentence_context": "Buonasera a tutti!",
+      "correct_answer": [
+        "Buonasera",
+        "a",
+        "tutti!"
+      ],
+      "distractors": [
+        "ciao",
+        "buongiorno"
+      ],
+      "hints": [
+        "The evening greeting comes first."
+      ],
+      "target_words": [
+        "buonasera"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "ciao",
+      "meaning": "Hello / Goodbye (informal)",
+      "example": "Ciao, come stai?"
+    },
+    {
+      "word": "buongiorno",
+      "meaning": "Good morning",
+      "example": "Buongiorno, un caffè per favore."
+    },
+    {
+      "word": "buonanotte",
+      "meaning": "Good night",
+      "example": "Buonanotte, dormi bene."
+    },
+    {
+      "word": "arrivederci",
+      "meaning": "Goodbye (formal)",
+      "example": "Arrivederci e grazie!"
+    },
+    {
+      "word": "buonasera",
+      "meaning": "Good evening",
+      "example": "Buonasera, signora Rossi."
+    },
+    {
+      "word": "salve",
+      "meaning": "Hello (any context)",
+      "example": "Salve, come va?"
+    }
+  ]
+}
