@@ -1,5 +1,7 @@
 import { useMemo, useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
+import { shuffle } from '@/shared/utils/shuffle';
+import { getCorrectAnswer } from '@/shared/utils/exercise';
 import ExerciseShell from './ExerciseShell';
 
 interface ArrangeWordsProps {
@@ -7,22 +9,11 @@ interface ArrangeWordsProps {
   onComplete: (result: ExerciseResult) => void;
 }
 
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
 export default function ArrangeWords({
   exercise,
   onComplete,
 }: ArrangeWordsProps) {
-  const correctAnswer = Array.isArray(exercise.correct_answer)
-    ? exercise.correct_answer.join(' ')
-    : exercise.correct_answer;
+  const correctAnswer = getCorrectAnswer(exercise);
 
   const words = useMemo(
     () => shuffle(correctAnswer.split(' ')),

@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
+import { getCorrectAnswer } from '@/shared/utils/exercise';
 import Feedback from './Feedback';
 
 interface ExerciseShellProps {
@@ -29,9 +30,7 @@ export default function ExerciseShell({
     startTime.current = Date.now();
   }, []);
 
-  const correctAnswer = Array.isArray(exercise.correct_answer)
-    ? exercise.correct_answer.join(' ')
-    : exercise.correct_answer;
+  const correctAnswer = getCorrectAnswer(exercise);
 
   function handleSubmit() {
     setSubmitted(true);

@@ -5,7 +5,6 @@ import { curriculum } from '../data/curriculum';
 export const db = new Dexie('italearn') as Dexie & {
   srsCards: EntityTable<SRSCard, 'id'>;
   progress: EntityTable<UserProgress, 'id'>;
-  lessonsCompleted: EntityTable<{ id?: number; lesson_id: string }, 'id'>;
   vocabulary: EntityTable<VocabEntry, 'id'>;
 };
 
@@ -19,6 +18,13 @@ db.version(2).stores({
   srsCards: '++id, [word_id+skill_type], due',
   progress: '++id',
   lessonsCompleted: '++id, &lesson_id',
+  vocabulary: '&id, unit_id',
+});
+
+db.version(3).stores({
+  srsCards: '++id, [word_id+skill_type], due',
+  progress: '++id',
+  lessonsCompleted: null,
   vocabulary: '&id, unit_id',
 });
 

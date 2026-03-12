@@ -1,19 +1,12 @@
 import { useMemo, useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
+import { shuffle } from '@/shared/utils/shuffle';
+import { getFirstCorrectAnswer } from '@/shared/utils/exercise';
 import ExerciseShell from './ExerciseShell';
 
 interface MultipleChoiceProps {
   exercise: Exercise;
   onComplete: (result: ExerciseResult) => void;
-}
-
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
 }
 
 export default function MultipleChoice({
@@ -22,9 +15,7 @@ export default function MultipleChoice({
 }: MultipleChoiceProps) {
   const [selected, setSelected] = useState<string | null>(null);
 
-  const correctAnswer = Array.isArray(exercise.correct_answer)
-    ? exercise.correct_answer[0]
-    : exercise.correct_answer;
+  const correctAnswer = getFirstCorrectAnswer(exercise);
 
   const options = useMemo(
     () => shuffle([correctAnswer, ...exercise.distractors]),

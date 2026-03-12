@@ -1,15 +1,5 @@
-import type { Exercise, ExerciseResult, Lesson } from '../types';
+import type { Exercise, ExerciseResult, Lesson, LessonResult } from '../types';
 import { curriculum } from '../data/curriculum';
-import { validateAnswer } from './validation';
-
-export interface LessonResult {
-  lessonId: string;
-  score: number;
-  total: number;
-  timeMs: number;
-  wordsEncountered: string[];
-  results: ExerciseResult[];
-}
 
 /** Find a lesson by ID across all sections/units. */
 export function findLesson(lessonId: string): Lesson | undefined {
@@ -21,13 +11,6 @@ export function findLesson(lessonId: string): Lesson | undefined {
     }
   }
   return undefined;
-}
-
-/** Check whether a user answer is correct for a given exercise. */
-export function checkAnswer(exercise: Exercise, userAnswer: string): boolean {
-  const correct = exercise.correct_answer;
-  const expected = Array.isArray(correct) ? correct.join(' ') : correct;
-  return validateAnswer(userAnswer, expected).correct;
 }
 
 /** Collect all unique target words from the exercises. */

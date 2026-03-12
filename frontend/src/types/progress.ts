@@ -1,5 +1,5 @@
 import type { Card as FSRSCard, ReviewLog } from 'ts-fsrs';
-import type { ExerciseType } from './exercise';
+import type { Exercise, ExerciseType } from './exercise';
 
 export interface ExerciseResult {
   exercise_id: string;
@@ -37,6 +37,25 @@ export interface LessonScore {
   total: number;
   /** Exercise IDs the user got wrong (empty when perfect) */
   missedExerciseIds: string[];
+}
+
+export interface ReviewSession {
+  exercises: Exercise[];
+  cardMap: Map<string, SRSCard>;
+}
+
+export interface ReviewResult {
+  total: number;
+  correct: number;
+}
+
+export interface LessonResult {
+  lessonId: string;
+  score: number;
+  total: number;
+  timeMs: number;
+  wordsEncountered: string[];
+  results: ExerciseResult[];
 }
 
 /** Stored in Dexie — singleton row (id = 1) */

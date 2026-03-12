@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { validateAnswer } from '@/engine/validation';
+import { getFirstCorrectAnswer } from '@/shared/utils/exercise';
 import ExerciseShell from './ExerciseShell';
 
 interface TypeAnswerProps {
@@ -14,9 +15,7 @@ export default function TypeAnswer({
 }: TypeAnswerProps) {
   const [answer, setAnswer] = useState('');
 
-  const correctAnswer = Array.isArray(exercise.correct_answer)
-    ? exercise.correct_answer[0]
-    : exercise.correct_answer;
+  const correctAnswer = getFirstCorrectAnswer(exercise);
 
   const validation = useMemo(
     () => validateAnswer(answer, correctAnswer),
