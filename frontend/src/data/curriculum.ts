@@ -1,11 +1,4 @@
-import type { Curriculum, Lesson } from '../types';
-import lesson01 from './units/unit-01/unit-01-lesson-01.json';
-import lesson02 from './units/unit-01/unit-01-lesson-02.json';
-import lesson03 from './units/unit-01/unit-01-lesson-03.json';
-import lesson04 from './units/unit-01/unit-01-lesson-04.json';
-import lesson05 from './units/unit-01/unit-01-lesson-05.json';
-
-const unit01 = [lesson01, lesson02, lesson03, lesson04, lesson05] as unknown as Lesson[];
+import type { Curriculum } from '../types';
 
 export const curriculum: Curriculum = {
   sections: [
@@ -27,7 +20,13 @@ export const curriculum: Curriculum = {
           vocabulary_targets: ['ciao', 'buongiorno', 'come stai', 'grazie', 'per favore'],
           grammar_notes: 'Italian is a phonetic language — each letter is almost always pronounced the same way. Double consonants are held longer. Stress usually falls on the second-to-last syllable.',
           order: 1,
-          lessons: unit01,
+          lessons: [
+            { id: 'unit-01-lesson-01', unit_id: 'unit-01', name: 'Hello & Goodbye', order: 1 },
+            { id: 'unit-01-lesson-02', unit_id: 'unit-01', name: 'Polite Phrases', order: 2 },
+            { id: 'unit-01-lesson-03', unit_id: 'unit-01', name: 'How Are You?', order: 3 },
+            { id: 'unit-01-lesson-04', unit_id: 'unit-01', name: 'Basic Responses', order: 4 },
+            { id: 'unit-01-lesson-05', unit_id: 'unit-01', name: 'Review & Mix', order: 5 },
+          ],
         },
         {
           id: 'unit-02',

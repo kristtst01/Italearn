@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import type { Lesson, LessonScore } from '@/types';
+import type { LessonMeta, LessonScore } from '@/types';
 
 interface LessonListProps {
-  lessons: Lesson[];
+  lessons: LessonMeta[];
   completedLessons: string[];
   lessonScores: Record<string, LessonScore>;
   onResetLesson: (lessonId: string) => void;

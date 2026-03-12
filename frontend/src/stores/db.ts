@@ -1,6 +1,6 @@
 import Dexie, { type EntityTable } from 'dexie';
 import type { SRSCard, UserProgress, VocabEntry } from '../types';
-import { curriculum } from '../data/curriculum';
+import { loadAllLessons } from '../data/lessonLoader';
 
 export const db = new Dexie('italearn') as Dexie & {
   srsCards: EntityTable<SRSCard, 'id'>;
@@ -33,25 +33,22 @@ db.version(3).stores({
  * Safe to call multiple times — skips words that already exist.
  */
 export async function seedVocabulary(): Promise<void> {
+  const lessons = await loadAllLessons();
   const entries: VocabEntry[] = [];
   const seen = new Set<string>();
 
-  for (const section of curriculum.sections) {
-    for (const unit of section.units) {
-      for (const lesson of unit.lessons) {
-        if (!lesson.vocabulary) continue;
-        for (const v of lesson.vocabulary) {
-          if (seen.has(v.word)) continue;
-          seen.add(v.word);
-          entries.push({
-            id: v.word,
-            word: v.word,
-            meaning: v.meaning,
-            example: v.example,
-            unit_id: unit.id,
-          });
-        }
-      }
+  for (const lesson of lessons) {
+    if (!lesson.vocabulary) continue;
+    for (const v of lesson.vocabulary) {
+      if (seen.has(v.word)) continue;
+      seen.add(v.word);
+      entries.push({
+        id: v.word,
+        word: v.word,
+        meaning: v.meaning,
+        example: v.example,
+        unit_id: lesson.unit_id,
+      });
     }
   }
 

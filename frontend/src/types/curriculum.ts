@@ -13,6 +13,14 @@ export interface Section {
   units: Unit[];
 }
 
+/** Lightweight lesson metadata kept inline in the curriculum (no exercises/vocabulary). */
+export interface LessonMeta {
+  id: string;
+  unit_id: string;
+  name: string;
+  order: number;
+}
+
 export interface Unit {
   id: string;
   section_id: string;
@@ -20,7 +28,7 @@ export interface Unit {
   grammar_focus: string;
   vocabulary_targets: string[];
   grammar_notes: string;
-  lessons: Lesson[];
+  lessons: LessonMeta[];
   order: number;
 }
 
