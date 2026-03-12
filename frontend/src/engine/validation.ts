@@ -125,3 +125,23 @@ export function validateAnswer(
   // Tier 4: Incorrect
   return { correct: false, almostCorrect: false, normalizedInput };
 }
+
+/**
+ * Validate against multiple accepted answers, returning the best result.
+ * If any answer is correct, returns that. Otherwise returns the best near-miss.
+ */
+export function validateAnswerMulti(
+  userInput: string,
+  correctAnswers: string | string[],
+): ValidationResult {
+  const answers = Array.isArray(correctAnswers) ? correctAnswers : [correctAnswers];
+  let bestResult: ValidationResult | null = null;
+
+  for (const answer of answers) {
+    const result = validateAnswer(userInput, answer);
+    if (result.correct) return result;
+    if (!bestResult || result.almostCorrect) bestResult = result;
+  }
+
+  return bestResult!;
+}

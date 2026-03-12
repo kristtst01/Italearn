@@ -163,6 +163,91 @@
       ]
     },
     {
+      "id": "unit-01-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "Un caffè, ___.",
+      "correct_answer": "per favore",
+      "distractors": [],
+      "hints": [
+        "A coffee, please."
+      ],
+      "target_words": [
+        "per favore"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___ mille!",
+      "correct_answer": "Grazie",
+      "distractors": [],
+      "hints": [
+        "Thank you so much!"
+      ],
+      "target_words": [
+        "grazie"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___, dov'è la stazione?",
+      "correct_answer": "Scusi",
+      "distractors": [],
+      "hints": [
+        "Excuse me, where is the station?"
+      ],
+      "target_words": [
+        "scusi"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-02-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Someone just thanked you. Reply politely."
+      },
+      "sentence_context": "Grazie! — ___!",
+      "correct_answer": "Prego",
+      "distractors": [],
+      "hints": [
+        "The standard reply to 'grazie'."
+      ],
+      "target_words": [
+        "prego"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "You need to pass through a crowd."
+      },
+      "sentence_context": "___! Posso passare?",
+      "correct_answer": "Permesso",
+      "distractors": [],
+      "hints": [
+        "Think 'permission'."
+      ],
+      "target_words": [
+        "permesso"
+      ]
+    },
+    {
       "id": "unit-01-lesson-02-ex-09",
       "type": "writing",
       "subtype": "arrange_words",

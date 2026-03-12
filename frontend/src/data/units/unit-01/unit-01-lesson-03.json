@@ -202,6 +202,57 @@
       ]
     },
     {
+      "id": "unit-01-lesson-03-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___ bene, grazie.",
+      "correct_answer": "Sto",
+      "distractors": [],
+      "hints": [
+        "I'm well, thanks."
+      ],
+      "target_words": [
+        "sto bene"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-03-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Complete with the informal 'How are you?'"
+      },
+      "sentence_context": "Ciao Marco, come ___?",
+      "correct_answer": "stai",
+      "distractors": [],
+      "hints": [
+        "The 'tu' form of 'stare'."
+      ],
+      "target_words": [
+        "come stai"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-03-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Complete with the formal 'How are you?'"
+      },
+      "sentence_context": "Buongiorno, professore. Come ___?",
+      "correct_answer": "sta",
+      "distractors": [],
+      "hints": [
+        "The 'Lei' form of 'stare'."
+      ],
+      "target_words": [
+        "come sta"
+      ]
+    },
+    {
       "id": "unit-01-lesson-03-ex-11",
       "type": "writing",
       "subtype": "arrange_words",

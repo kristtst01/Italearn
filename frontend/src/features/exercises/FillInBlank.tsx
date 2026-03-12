@@ -1,7 +1,6 @@
 import { useMemo, useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
-import { validateAnswer } from '@/engine/validation';
-import { getFirstCorrectAnswer } from '@/shared/utils/exercise';
+import { validateAnswerMulti } from '@/engine/validation';
 import ExerciseShell from './ExerciseShell';
 
 interface FillInBlankProps {
@@ -15,11 +14,9 @@ export default function FillInBlank({
 }: FillInBlankProps) {
   const [answer, setAnswer] = useState('');
 
-  const correctAnswer = getFirstCorrectAnswer(exercise);
-
   const validation = useMemo(
-    () => validateAnswer(answer, correctAnswer),
-    [answer, correctAnswer],
+    () => validateAnswerMulti(answer, exercise.correct_answer),
+    [answer, exercise.correct_answer],
   );
 
   // Split sentence on the blank marker (___) to render inline input

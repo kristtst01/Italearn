@@ -162,6 +162,94 @@
       ]
     },
     {
+      "id": "unit-01-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___, come stai?",
+      "correct_answer": "ciao",
+      "distractors": [],
+      "hints": [
+        "Hello, how are you?"
+      ],
+      "target_words": [
+        "ciao"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___, dormi bene.",
+      "correct_answer": "Buonanotte",
+      "distractors": [],
+      "hints": [
+        "Good night, sleep well."
+      ],
+      "target_words": [
+        "buonanotte"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___ e grazie!",
+      "correct_answer": [
+        "Arrivederci",
+        "Ciao"
+      ],
+      "distractors": [],
+      "hints": [
+        "Goodbye and thanks!"
+      ],
+      "target_words": [
+        "arrivederci"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "It's 8 PM. Complete the greeting."
+      },
+      "sentence_context": "___, signora Rossi.",
+      "correct_answer": "Buonasera",
+      "distractors": [],
+      "hints": [
+        "The evening greeting."
+      ],
+      "target_words": [
+        "buonasera"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "You're unsure about formality. Use the universal greeting."
+      },
+      "sentence_context": "___, come va?",
+      "correct_answer": "Salve",
+      "distractors": [],
+      "hints": [
+        "Works in any context — formal or informal."
+      ],
+      "target_words": [
+        "salve"
+      ]
+    },
+    {
       "id": "unit-01-lesson-01-ex-09",
       "type": "writing",
       "subtype": "arrange_words",

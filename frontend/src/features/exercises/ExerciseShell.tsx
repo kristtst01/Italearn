@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { getCorrectAnswer } from '@/shared/utils/exercise';
 import Feedback from './Feedback';
@@ -44,6 +44,30 @@ export default function ExerciseShell({
       time_spent_ms: Date.now() - startTime.current,
     });
   }
+
+  const handleKeyDown = useCallback(
+    (e: KeyboardEvent) => {
+      if (e.key !== 'Enter') return;
+      if (!submitted && canSubmit) {
+        e.preventDefault();
+        setSubmitted(true);
+      } else if (submitted) {
+        e.preventDefault();
+        onComplete({
+          exercise_id: exercise.id,
+          correct: isCorrect,
+          user_answer: userAnswer,
+          time_spent_ms: Date.now() - startTime.current,
+        });
+      }
+    },
+    [submitted, canSubmit, isCorrect, userAnswer, exercise.id, onComplete],
+  );
+
+  useEffect(() => {
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [handleKeyDown]);
 
   return (
     <div className="flex min-h-[60vh] flex-col">

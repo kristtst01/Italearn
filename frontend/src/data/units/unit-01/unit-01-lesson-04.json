@@ -162,6 +162,91 @@
       ]
     },
     {
+      "id": "unit-01-lesson-04-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___, ci vediamo domani.",
+      "correct_answer": "Va bene",
+      "distractors": [],
+      "hints": [
+        "Okay, see you tomorrow."
+      ],
+      "target_words": [
+        "va bene"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-04-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "Scusi, non ___.",
+      "correct_answer": "capisco",
+      "distractors": [],
+      "hints": [
+        "Excuse me, I don't understand."
+      ],
+      "target_words": [
+        "non capisco"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-04-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "Come si ___ 'hello' in italiano?",
+      "correct_answer": "dice",
+      "distractors": [],
+      "hints": [
+        "How do you say 'hello' in Italian?"
+      ],
+      "target_words": [
+        "come si dice"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-04-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "You can't follow what someone said. Complete your response."
+      },
+      "sentence_context": "Scusi, ___ capisco.",
+      "correct_answer": "non",
+      "distractors": [],
+      "hints": [
+        "The Italian word for 'not'."
+      ],
+      "target_words": [
+        "non capisco"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-04-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Ask someone to repeat (formally)."
+      },
+      "sentence_context": "___ ripetere, per favore?",
+      "correct_answer": "Può",
+      "distractors": [],
+      "hints": [
+        "The formal 'can you' — from the verb 'potere'."
+      ],
+      "target_words": [
+        "può ripetere"
+      ]
+    },
+    {
       "id": "unit-01-lesson-04-ex-09",
       "type": "writing",
       "subtype": "arrange_words",

@@ -213,6 +213,57 @@
       ]
     },
     {
+      "id": "unit-01-lesson-05-ex-16",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___, come sta?",
+      "correct_answer": "Buongiorno",
+      "distractors": [],
+      "hints": [
+        "Good morning, how are you?"
+      ],
+      "target_words": [
+        "buongiorno"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-17",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "Mi ___, non capisco.",
+      "correct_answer": "dispiace",
+      "distractors": [],
+      "hints": [
+        "I'm sorry, I don't understand."
+      ],
+      "target_words": [
+        "mi dispiace"
+      ]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Complete with the formal 'And you?'"
+      },
+      "sentence_context": "Bene, grazie, e ___?",
+      "correct_answer": "Lei",
+      "distractors": [],
+      "hints": [
+        "The formal 'you' in Italian."
+      ],
+      "target_words": [
+        "e Lei"
+      ]
+    },
+    {
       "id": "unit-01-lesson-05-ex-12",
       "type": "writing",
       "subtype": "arrange_words",
