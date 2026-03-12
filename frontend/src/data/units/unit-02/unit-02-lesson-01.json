@@ -1,0 +1,301 @@
+{
+  "id": "unit-02-lesson-01",
+  "unit_id": "unit-02",
+  "name": "Subject Pronouns",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-02-lesson-01-tip-01",
+      "title": "Subject Pronouns in Italian",
+      "explanation": "Italian has 7 subject pronouns: io (I), tu (you informal), lui (he), lei (she), Lei (you formal), noi (we), voi (you all), loro (they). Notice that 'lei' (she) and 'Lei' (you formal) are the same word — context tells you which is meant.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-02-lesson-01-tip-02",
+      "title": "Dropping the Pronoun",
+      "explanation": "Unlike English, Italian often drops the subject pronoun because the verb ending tells you who is speaking. 'Sono italiano' already means 'I am Italian' — adding 'io' is optional emphasis.",
+      "before_exercise": 5
+    },
+    {
+      "id": "unit-02-lesson-01-tip-03",
+      "title": "Tu vs. Voi",
+      "explanation": "'Tu' is singular informal 'you'. 'Voi' is plural 'you' — use it when talking to a group. Remember: 'Lei' is formal singular 'you'.",
+      "before_exercise": 10
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-02-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does the Italian pronoun 'io' mean?"
+      },
+      "sentence_context": "Io sono Marco.",
+      "correct_answer": "I",
+      "distractors": [
+        "You",
+        "He",
+        "We"
+      ],
+      "hints": [
+        "This is the first-person singular pronoun."
+      ],
+      "target_words": ["io"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which pronoun means 'you' in informal situations?"
+      },
+      "sentence_context": "Tu sei molto gentile.",
+      "correct_answer": "Tu",
+      "distractors": [
+        "Lei",
+        "Lui",
+        "Voi"
+      ],
+      "hints": [
+        "Use this with friends and family."
+      ],
+      "target_words": ["tu"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What is the difference between 'lui' and 'lei'?"
+      },
+      "sentence_context": "Lui è Marco, lei è Anna.",
+      "correct_answer": "'Lui' means 'he', 'lei' means 'she'",
+      "distractors": [
+        "'Lui' means 'she', 'lei' means 'he'",
+        "They both mean 'you'",
+        "They both mean 'they'"
+      ],
+      "hints": [
+        "Think of them as a pair — one masculine, one feminine."
+      ],
+      "target_words": ["lui", "lei"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which pronoun means 'we'?"
+      },
+      "sentence_context": "Noi siamo amici.",
+      "correct_answer": "Noi",
+      "distractors": [
+        "Voi",
+        "Loro",
+        "Io"
+      ],
+      "hints": [
+        "First-person plural — you plus others."
+      ],
+      "target_words": ["noi"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___ sono Marco.",
+      "correct_answer": "Io",
+      "distractors": [],
+      "hints": [
+        "I am Marco."
+      ],
+      "target_words": ["io"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___ è Anna.",
+      "correct_answer": "Lei",
+      "distractors": [],
+      "hints": [
+        "She is Anna."
+      ],
+      "target_words": ["lei"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___ sono amici.",
+      "correct_answer": "Loro",
+      "distractors": [],
+      "hints": [
+        "They are friends."
+      ],
+      "target_words": ["loro"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'I' in Italian?"
+      },
+      "sentence_context": "Io sono di Roma.",
+      "correct_answer": "io",
+      "distractors": [],
+      "hints": [
+        "The first-person singular pronoun — just two letters."
+      ],
+      "target_words": ["io"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "What is the Italian pronoun for 'they'?"
+      },
+      "sentence_context": "Loro sono italiani.",
+      "correct_answer": "loro",
+      "distractors": [],
+      "hints": [
+        "Third-person plural."
+      ],
+      "target_words": ["loro"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "What is the Italian pronoun for 'he'?"
+      },
+      "sentence_context": "Lui è Marco.",
+      "correct_answer": "lui",
+      "distractors": [],
+      "hints": [
+        "Third-person singular masculine."
+      ],
+      "target_words": ["lui"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the pronoun for 'you all'."
+      },
+      "sentence_context": "___ siete gentili.",
+      "correct_answer": "Voi",
+      "distractors": [],
+      "hints": [
+        "Second-person plural — talking to a group."
+      ],
+      "target_words": ["voi"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-12",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the pronoun for 'we'."
+      },
+      "sentence_context": "___ siamo amici.",
+      "correct_answer": "Noi",
+      "distractors": [],
+      "hints": [
+        "First-person plural."
+      ],
+      "target_words": ["noi"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct pronoun: Marco is talking about himself."
+      },
+      "sentence_context": "___ sono Marco.",
+      "correct_answer": "Io",
+      "distractors": [],
+      "hints": [
+        "First-person singular."
+      ],
+      "target_words": ["io"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-14",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words to say: 'He is Marco, she is Anna.'"
+      },
+      "sentence_context": "Lui è Marco, lei è Anna.",
+      "correct_answer": ["Lui", "è", "Marco,", "lei", "è", "Anna."],
+      "distractors": ["noi", "tu"],
+      "hints": [
+        "Start with the masculine pronoun."
+      ],
+      "target_words": ["lui", "lei"]
+    },
+    {
+      "id": "unit-02-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words to say: 'We are friends.'"
+      },
+      "sentence_context": "Noi siamo amici.",
+      "correct_answer": ["Noi", "siamo", "amici."],
+      "distractors": ["loro", "voi"],
+      "hints": [
+        "Start with 'we'."
+      ],
+      "target_words": ["noi"]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "io",
+      "meaning": "I",
+      "example": "Io sono Marco."
+    },
+    {
+      "word": "tu",
+      "meaning": "You (informal)",
+      "example": "Tu sei molto gentile."
+    },
+    {
+      "word": "lui",
+      "meaning": "He",
+      "example": "Lui è Marco."
+    },
+    {
+      "word": "lei",
+      "meaning": "She",
+      "example": "Lei è Anna."
+    },
+    {
+      "word": "noi",
+      "meaning": "We",
+      "example": "Noi siamo amici."
+    },
+    {
+      "word": "loro",
+      "meaning": "They",
+      "example": "Loro sono italiani."
+    }
+  ]
+}

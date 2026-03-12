@@ -1,0 +1,297 @@
+{
+  "id": "unit-02-lesson-04",
+  "unit_id": "unit-02",
+  "name": "Introductions",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-02-lesson-04-tip-01",
+      "title": "Mi Chiamo — Introducing Yourself",
+      "explanation": "'Mi chiamo' literally means 'I call myself'. It's the standard way to say your name in Italian. To ask someone's name informally, say 'Come ti chiami?' (How do you call yourself?).",
+      "example": { "italian": "Ciao, mi chiamo Anna. Come ti chiami?", "english": "Hi, my name is Anna. What's your name?" },
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-02-lesson-04-tip-02",
+      "title": "Sono Di... — Where You're From",
+      "explanation": "'Sono di' + city name tells people where you're from: 'Sono di Roma' (I'm from Rome). To ask, use 'Di dove sei?' (informal) or 'Di dove è?' (formal).",
+      "before_exercise": 5
+    },
+    {
+      "id": "unit-02-lesson-04-tip-03",
+      "title": "Professions and Gender",
+      "explanation": "Like nationalities, Italian professions change by gender: 'studente' (m.) / 'studentessa' (f.), 'dottore' (m.) / 'dottoressa' (f.). Some modern professions keep the same form for both.",
+      "before_exercise": 10
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-02-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'mi chiamo' mean?"
+      },
+      "sentence_context": "Ciao, mi chiamo Marco.",
+      "correct_answer": "My name is",
+      "distractors": [
+        "I live in",
+        "I come from",
+        "I work at"
+      ],
+      "hints": [
+        "Literally: 'I call myself'."
+      ],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "How do you ask 'Where are you from?' informally?"
+      },
+      "sentence_context": "Ciao! Di dove sei?",
+      "correct_answer": "Di dove sei?",
+      "distractors": [
+        "Come ti chiami?",
+        "Come stai?",
+        "Che lavoro fai?"
+      ],
+      "hints": [
+        "'Di dove' means 'from where', 'sei' is the informal 'you are'."
+      ],
+      "target_words": ["di dove sei"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'Sono di Roma' mean?"
+      },
+      "sentence_context": "Di dove sei? — Sono di Roma.",
+      "correct_answer": "I'm from Rome",
+      "distractors": [
+        "I live in Rome",
+        "I like Rome",
+        "I'm going to Rome"
+      ],
+      "hints": [
+        "'Sono di' + city = I'm from that city."
+      ],
+      "target_words": ["sono di"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'studente' mean?"
+      },
+      "sentence_context": "Sono uno studente.",
+      "correct_answer": "Student (masculine)",
+      "distractors": [
+        "Student (feminine)",
+        "Teacher",
+        "Doctor"
+      ],
+      "hints": [
+        "A common profession word — the -e ending is masculine here."
+      ],
+      "target_words": ["studente"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "Ciao, mi ___ Anna.",
+      "correct_answer": "chiamo",
+      "distractors": [],
+      "hints": [
+        "Hi, my name is Anna."
+      ],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "Sono ___ Milano.",
+      "correct_answer": "di",
+      "distractors": [],
+      "hints": [
+        "I'm from Milan."
+      ],
+      "target_words": ["sono di"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "Lei è una ___.",
+      "correct_answer": "studentessa",
+      "distractors": [],
+      "hints": [
+        "She is a student."
+      ],
+      "target_words": ["studentessa"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'My name is' in Italian?"
+      },
+      "sentence_context": "Mi chiamo Marco. E tu?",
+      "correct_answer": "mi chiamo",
+      "distractors": [],
+      "hints": [
+        "Two words: 'mi' + 'chiamo'."
+      ],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Translate to Italian: 'student' (feminine)"
+      },
+      "sentence_context": "Sono una studentessa.",
+      "correct_answer": "studentessa",
+      "distractors": [],
+      "hints": [
+        "Add -essa to make 'studente' feminine."
+      ],
+      "target_words": ["studentessa"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Ask 'Where are you from?' informally in Italian."
+      },
+      "sentence_context": "Ciao! Di dove sei?",
+      "correct_answer": "di dove sei",
+      "distractors": [],
+      "hints": [
+        "'From where are you?' — three words."
+      ],
+      "target_words": ["di dove sei"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Complete the introduction."
+      },
+      "sentence_context": "Ciao, ___ chiamo Marco.",
+      "correct_answer": "mi",
+      "distractors": [],
+      "hints": [
+        "The reflexive pronoun for 'I'."
+      ],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-12",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Ask where someone is from (informal)."
+      },
+      "sentence_context": "Di ___ sei?",
+      "correct_answer": "dove",
+      "distractors": [],
+      "hints": [
+        "The Italian word for 'where'."
+      ],
+      "target_words": ["di dove sei"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form. Marco is a student."
+      },
+      "sentence_context": "Marco è uno ___.",
+      "correct_answer": "studente",
+      "distractors": [],
+      "hints": [
+        "Masculine form of 'student'."
+      ],
+      "target_words": ["studente"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-14",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words to say: 'Hi, my name is Anna.'"
+      },
+      "sentence_context": "Ciao, mi chiamo Anna.",
+      "correct_answer": ["Ciao,", "mi", "chiamo", "Anna."],
+      "distractors": ["sono", "di"],
+      "hints": [
+        "Start with the greeting."
+      ],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words to say: 'I'm from Milan.'"
+      },
+      "sentence_context": "Sono di Milano.",
+      "correct_answer": ["Sono", "di", "Milano."],
+      "distractors": ["è", "sei"],
+      "hints": [
+        "The verb comes first, then 'from', then the city."
+      ],
+      "target_words": ["sono di"]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "mi chiamo",
+      "meaning": "My name is",
+      "example": "Ciao, mi chiamo Anna."
+    },
+    {
+      "word": "di dove sei",
+      "meaning": "Where are you from? (informal)",
+      "example": "Ciao! Di dove sei?"
+    },
+    {
+      "word": "sono di",
+      "meaning": "I'm from",
+      "example": "Sono di Roma."
+    },
+    {
+      "word": "studente",
+      "meaning": "Student (masculine)",
+      "example": "Sono uno studente."
+    },
+    {
+      "word": "studentessa",
+      "meaning": "Student (feminine)",
+      "example": "Sono una studentessa."
+    }
+  ]
+}

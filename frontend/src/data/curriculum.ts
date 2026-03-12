@@ -36,7 +36,13 @@ export const curriculum: Curriculum = {
           vocabulary_targets: ['mi chiamo', 'sono', 'di dove sei', 'nazionalità'],
           grammar_notes: '',
           order: 2,
-          lessons: [],
+          lessons: [
+            { id: 'unit-02-lesson-01', unit_id: 'unit-02', name: 'Subject Pronouns', order: 1 },
+            { id: 'unit-02-lesson-02', unit_id: 'unit-02', name: 'Essere: Singular', order: 2 },
+            { id: 'unit-02-lesson-03', unit_id: 'unit-02', name: 'Essere: Plural', order: 3 },
+            { id: 'unit-02-lesson-04', unit_id: 'unit-02', name: 'Introductions', order: 4 },
+            { id: 'unit-02-lesson-05', unit_id: 'unit-02', name: 'Review & Mix', order: 5 },
+          ],
         },
         {
           id: 'unit-03',
