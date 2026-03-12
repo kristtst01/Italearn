@@ -11,9 +11,9 @@ export interface ValidationResult {
   normalizedInput: string;
 }
 
-/** Normalize whitespace: trim and collapse multiple spaces. */
+/** Normalize whitespace and strip trailing punctuation (?.!). */
 function normalize(s: string): string {
-  return s.trim().replace(/\s+/g, ' ');
+  return s.trim().replace(/\s+/g, ' ').replace(/[?!.]+$/, '');
 }
 
 /** Strip diacritics using Unicode NFD decomposition. */
