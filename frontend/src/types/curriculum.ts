@@ -31,12 +31,21 @@ export interface LessonVocab {
   example: string;
 }
 
+export interface GrammarTip {
+  id: string;
+  title: string;
+  explanation: string;
+  table?: string[][];
+  example?: { italian: string; english: string };
+  before_exercise?: number;
+}
+
 export interface Lesson {
   id: string;
   unit_id: string;
   name: string;
   exercises: Exercise[];
-  grammar_tips: string[];
+  grammar_tips: GrammarTip[];
   order: number;
   vocabulary?: LessonVocab[];
 }

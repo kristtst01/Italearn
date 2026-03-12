@@ -4,9 +4,26 @@
   "name": "Polite Phrases",
   "order": 2,
   "grammar_tips": [
-    "'Scusi' (formal) and 'scusa' (informal) both mean 'excuse me', but you use 'scusi' with strangers and in formal situations, and 'scusa' with friends.",
-    "'Permesso' is a special word used when you need to physically pass through or enter a room — it's like saying 'may I come through?'",
-    "'Prego' is the standard reply to 'grazie'. It can also mean 'please, go ahead' when offering something."
+    {
+      "id": "unit-01-lesson-02-tip-01",
+      "title": "Scusi vs. Scusa",
+      "explanation": "'Scusi' (formal) and 'scusa' (informal) both mean 'excuse me'. Use 'scusi' with strangers and in formal situations, and 'scusa' with friends and family.",
+      "example": { "italian": "Scusi, dov'è la stazione?", "english": "Excuse me, where is the station? (formal)" },
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-01-lesson-02-tip-02",
+      "title": "Permesso — Physical Space",
+      "explanation": "'Permesso' is a special word used when you need to physically pass through or enter a room — it's like saying 'may I come through?' You'll hear it on crowded buses and at doorways.",
+      "before_exercise": 3
+    },
+    {
+      "id": "unit-01-lesson-02-tip-03",
+      "title": "Prego — More Than 'You're Welcome'",
+      "explanation": "'Prego' is the standard reply to 'grazie'. It can also mean 'please, go ahead' when offering something or inviting someone to sit, enter, or help themselves.",
+      "example": { "italian": "Grazie! — Prego!", "english": "Thanks! — You're welcome!" },
+      "before_exercise": 3
+    }
   ],
   "exercises": [
     {

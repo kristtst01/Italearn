@@ -4,9 +4,26 @@
   "name": "Basic Responses",
   "order": 4,
   "grammar_tips": [
-    "'Può ripetere?' uses the formal 'Lei' form of 'potere' (can). For informal situations, you'd say 'Puoi ripetere?'",
-    "'Come si dice...?' literally means 'How does one say...?' — the 'si' makes it impersonal. This is one of the most useful phrases for language learners.",
-    "'Va bene' and 'd'accordo' both mean 'okay', but 'va bene' is more casual (like 'alright') while 'd'accordo' emphasizes agreement (like 'agreed')."
+    {
+      "id": "unit-01-lesson-04-tip-01",
+      "title": "Potere — Formal Requests",
+      "explanation": "'Può ripetere?' uses the formal 'Lei' form of 'potere' (can). For informal situations, you'd say 'Puoi ripetere?' This is essential for polite conversation.",
+      "example": { "italian": "Può ripetere, per favore?", "english": "Can you repeat, please? (formal)" },
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-01-lesson-04-tip-02",
+      "title": "Come si dice...? — Impersonal 'Si'",
+      "explanation": "'Come si dice...?' literally means 'How does one say...?' — the 'si' makes it impersonal. This is one of the most useful phrases for language learners.",
+      "before_exercise": 3
+    },
+    {
+      "id": "unit-01-lesson-04-tip-03",
+      "title": "Va bene vs. D'accordo",
+      "explanation": "'Va bene' and 'd'accordo' both mean 'okay', but 'va bene' is more casual (like 'alright') while 'd'accordo' emphasizes agreement (like 'agreed').",
+      "example": { "italian": "D'accordo, ci vediamo domani.", "english": "Agreed, see you tomorrow." },
+      "before_exercise": 6
+    }
   ],
   "exercises": [
     {

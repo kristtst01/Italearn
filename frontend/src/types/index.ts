@@ -4,6 +4,7 @@ export type {
   Unit,
   Lesson,
   LessonVocab,
+  GrammarTip,
   Curriculum,
   UnitStatus,
 } from './curriculum';
