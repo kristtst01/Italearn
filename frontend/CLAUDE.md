@@ -35,7 +35,7 @@ Uses ts-fsrs with 90% target retention.
 
 ## Lesson Engine (engine/lessonRunner.ts)
 ```ts
-findLesson(lessonId: string): Lesson | undefined
+findLesson(lessonId: string): Promise<Lesson | undefined>  // lazy-loads lesson chunk
 collectTargetWords(exercises: Exercise[]): string[]
 buildLessonResult(lessonId, exercises, results, startTime): LessonResult
 ```
@@ -58,9 +58,10 @@ validateAnswer(userInput: string, correctAnswer: string): ValidationResult
 All store hydration is centralized in `shared/components/HydrationGuard.tsx`, wrapped around routes in `App.tsx`. Individual pages do NOT handle hydration — they can assume stores are ready. Deep-links work correctly.
 
 ## Curriculum Data
-- `data/curriculum.ts` — exports `curriculum: Curriculum` with all sections/units (lessons empty for units 2-38)
-- `data/units/unit-01.json` — full lesson/exercise content for unit 1
-- Curriculum is imported statically, not fetched
+- `data/curriculum.ts` — exports `curriculum: Curriculum` with sections/units and `LessonMeta[]` (lightweight: id, name, order)
+- `data/lessonLoader.ts` — `loadLesson(id)` and `loadAllLessons()` via `import.meta.glob` (lazy chunks)
+- `data/units/unit-01/` — per-lesson JSON files (unit-01-lesson-01.json, etc.)
+- Curriculum structure is bundled; lesson content is lazy-loaded on demand
 
 ## Routing (App.tsx)
 - `/` → `features/path/PathPage.tsx`

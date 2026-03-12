@@ -80,8 +80,9 @@ frontend/src/
     progress.ts        # UserProgress, SRSCard, ExerciseResult, VocabEntry, LessonResult, LessonScore, ReviewSession, ReviewResult
 
   data/
-    curriculum.ts      # Full curriculum structure (10 sections, 38 units)
-    units/unit-01.json # Unit 1 content (exercises + vocabulary arrays)
+    curriculum.ts      # Course structure with LessonMeta (10 sections, 38 units)
+    lessonLoader.ts    # Lazy lesson loader using import.meta.glob
+    units/unit-01/     # Per-lesson JSON files (unit-01-lesson-01.json, etc.)
 ```
 
 ## Key Conventions
@@ -96,7 +97,7 @@ frontend/src/
 
 ## Data Flow
 User Input → React Component → Zustand Store Action → Dexie (IndexedDB)
-Curriculum data is static/bundled. User progress & SRS state are in IndexedDB.
+Curriculum structure is static/bundled. Lesson content is lazy-loaded via `import.meta.glob` (separate chunks). User progress & SRS state are in IndexedDB.
 
 ### Vocabulary Architecture (Anki-style Note/Card separation)
 - **Content (Notes):** `vocabulary` arrays in lesson JSON → seeded to IndexedDB `vocabulary` table on app init via `seedVocabulary()`

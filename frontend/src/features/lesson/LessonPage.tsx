@@ -1,7 +1,9 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { findLesson } from '@/engine/lessonRunner';
+import type { Lesson } from '@/types';
 import EmptyState from '@/shared/components/EmptyState';
+import LoadingScreen from '@/shared/components/LoadingScreen';
 import renderExercise from '@/features/exercises/renderExercise';
 import { useLessonState } from './useLessonState';
 import LessonHeader from './LessonHeader';
@@ -11,7 +13,23 @@ import GrammarTip from './GrammarTip';
 export default function LessonPage() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const lesson = id ? findLesson(id) : undefined;
+  const [lesson, setLesson] = useState<Lesson | undefined | null>(null);
+
+  useEffect(() => {
+    if (!id) {
+      setLesson(undefined);
+      return;
+    }
+    let cancelled = false;
+    findLesson(id).then((result) => {
+      if (!cancelled) setLesson(result);
+    });
+    return () => { cancelled = true; };
+  }, [id]);
+
+  if (lesson === null) {
+    return <LoadingScreen />;
+  }
 
   if (!lesson) {
     return (
@@ -38,7 +56,7 @@ function LessonContent({
   lesson,
   onExit,
 }: {
-  lesson: ReturnType<typeof findLesson> & {};
+  lesson: Lesson;
   onExit: () => void;
 }) {
   const [showExitConfirm, setShowExitConfirm] = useState(false);

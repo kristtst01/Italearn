@@ -3,6 +3,7 @@ export type {
   Section,
   Unit,
   Lesson,
+  LessonMeta,
   LessonVocab,
   GrammarTip,
   Curriculum,
