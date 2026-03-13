@@ -6,6 +6,7 @@ import PathPage from '@/features/path/PathPage'
 import LessonPage from '@/features/lesson/LessonPage'
 import ReviewPage from '@/features/review/ReviewPage'
 import CheckpointPage from '@/features/checkpoint/CheckpointPage'
+import TestOutPage from '@/features/testout/TestOutPage'
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/lesson/:id" element={<LessonPage />} />
           <Route path="/review" element={<ReviewPage />} />
           <Route path="/checkpoint/:sectionId" element={<CheckpointPage />} />
+          <Route path="/testout/:unitId" element={<TestOutPage />} />
         </Routes>
       </HydrationGuard>
     </BrowserRouter>
