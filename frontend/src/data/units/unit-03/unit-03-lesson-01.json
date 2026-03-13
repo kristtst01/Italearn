@@ -1,0 +1,410 @@
+{
+  "id": "unit-03-lesson-01",
+  "unit_id": "unit-03",
+  "name": "Numbers 0–10",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-03-lesson-01-tip-01",
+      "title": "Italian Numbers 0–10",
+      "explanation": "Italian numbers 0–10 are unique words you need to memorize: zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci.",
+      "table": [
+        [
+          "0",
+          "zero"
+        ],
+        [
+          "1",
+          "uno"
+        ],
+        [
+          "2",
+          "due"
+        ],
+        [
+          "3",
+          "tre"
+        ],
+        [
+          "4",
+          "quattro"
+        ],
+        [
+          "5",
+          "cinque"
+        ],
+        [
+          "6",
+          "sei"
+        ],
+        [
+          "7",
+          "sette"
+        ],
+        [
+          "8",
+          "otto"
+        ],
+        [
+          "9",
+          "nove"
+        ],
+        [
+          "10",
+          "dieci"
+        ]
+      ],
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-03-lesson-01-tip-02",
+      "title": "'Sei' — Six or You Are?",
+      "explanation": "'Sei' means both 'six' (number) and 'you are' (verb essere). Context makes it clear: 'Ho sei gatti' = I have six cats. 'Tu sei italiano' = You are Italian.",
+      "example": {
+        "italian": "Ho sei gatti.",
+        "english": "I have six cats."
+      },
+      "before_exercise": 8
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What number is 'tre'?"
+      },
+      "sentence_context": "Ho tre gatti.",
+      "correct_answer": "3",
+      "distractors": [
+        "2",
+        "5",
+        "4"
+      ],
+      "hints": [
+        "Think of the English word 'trio'."
+      ],
+      "target_words": [
+        "tre"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What number is 'cinque'?"
+      },
+      "sentence_context": "Cinque minuti, per favore.",
+      "correct_answer": "5",
+      "distractors": [
+        "4",
+        "6",
+        "8"
+      ],
+      "hints": [],
+      "target_words": [
+        "cinque"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What number is 'otto'?"
+      },
+      "sentence_context": "Sono le otto.",
+      "correct_answer": "8",
+      "distractors": [
+        "6",
+        "9",
+        "7"
+      ],
+      "hints": [
+        "Think of 'octopus' — eight legs."
+      ],
+      "target_words": [
+        "otto"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which Italian word means 'ten'?"
+      },
+      "sentence_context": "Dieci persone sono qui.",
+      "correct_answer": "dieci",
+      "distractors": [
+        "nove",
+        "sette",
+        "sei"
+      ],
+      "hints": [
+        "Think of 'decimal'."
+      ],
+      "target_words": [
+        "dieci"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'sei' mean here: 'Ho sei gatti'?"
+      },
+      "sentence_context": "Ho sei gatti.",
+      "correct_answer": "six",
+      "distractors": [
+        "you are",
+        "I have",
+        "seven"
+      ],
+      "hints": [
+        "After 'ho' (I have), 'sei' is a number, not a verb."
+      ],
+      "target_words": [
+        "sei"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say '7' in Italian?"
+      },
+      "sentence_context": "Sette giorni in una settimana.",
+      "correct_answer": "sette",
+      "distractors": [],
+      "hints": [
+        "Starts with 's', double 't'."
+      ],
+      "target_words": [
+        "sette"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say '4' in Italian?"
+      },
+      "sentence_context": "Quattro stagioni.",
+      "correct_answer": "quattro",
+      "distractors": [],
+      "hints": [
+        "Think of 'quarter' — four parts."
+      ],
+      "target_words": [
+        "quattro"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say '2' in Italian?"
+      },
+      "sentence_context": "Ho due gatti.",
+      "correct_answer": "due",
+      "distractors": [],
+      "hints": [
+        "Think of a 'duet' — two performers."
+      ],
+      "target_words": [
+        "due"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say '1' in Italian?"
+      },
+      "sentence_context": "Ho uno zaino.",
+      "correct_answer": "uno",
+      "distractors": [],
+      "hints": [
+        "It's also the name of a popular card game."
+      ],
+      "target_words": [
+        "uno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say '0' in Italian?"
+      },
+      "sentence_context": "Zero gradi oggi.",
+      "correct_answer": "zero",
+      "distractors": [],
+      "hints": [
+        "Same as English!"
+      ],
+      "target_words": [
+        "zero"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "Ho ___ gatti.",
+      "correct_answer": "due",
+      "distractors": [],
+      "hints": [
+        "I have two cats."
+      ],
+      "target_words": [
+        "due"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___ persone sono qui.",
+      "correct_answer": "Nove",
+      "distractors": [],
+      "hints": [
+        "Nine people are here."
+      ],
+      "target_words": [
+        "nove"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the missing number."
+      },
+      "sentence_context": "Contando: zero, uno, ___, tre.",
+      "correct_answer": "due",
+      "distractors": [],
+      "hints": [
+        "zero, one, ___, three"
+      ],
+      "target_words": [
+        "due"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the missing number."
+      },
+      "sentence_context": "Sette, otto, ___.",
+      "correct_answer": "nove",
+      "distractors": [],
+      "hints": [
+        "seven, eight, ___"
+      ],
+      "target_words": [
+        "nove"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words: 'I have three cats'."
+      },
+      "sentence_context": "Io ho tre gatti.",
+      "correct_answer": [
+        "Io",
+        "ho",
+        "tre",
+        "gatti."
+      ],
+      "distractors": [
+        "sei",
+        "sono"
+      ],
+      "hints": [
+        "Subject + verb + number + noun."
+      ],
+      "target_words": [
+        "tre"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "zero",
+      "meaning": "zero",
+      "example": "Zero gradi oggi."
+    },
+    {
+      "word": "uno",
+      "meaning": "one",
+      "example": "Ho uno zaino."
+    },
+    {
+      "word": "due",
+      "meaning": "two",
+      "example": "Ho due gatti."
+    },
+    {
+      "word": "tre",
+      "meaning": "three",
+      "example": "Ho tre gatti."
+    },
+    {
+      "word": "quattro",
+      "meaning": "four",
+      "example": "Quattro stagioni."
+    },
+    {
+      "word": "cinque",
+      "meaning": "five",
+      "example": "Cinque minuti, per favore."
+    },
+    {
+      "word": "sei",
+      "meaning": "six",
+      "example": "Ho sei gatti."
+    },
+    {
+      "word": "sette",
+      "meaning": "seven",
+      "example": "Sette giorni in una settimana."
+    },
+    {
+      "word": "otto",
+      "meaning": "eight",
+      "example": "Sono le otto."
+    },
+    {
+      "word": "nove",
+      "meaning": "nine",
+      "example": "Nove persone sono qui."
+    },
+    {
+      "word": "dieci",
+      "meaning": "ten",
+      "example": "Dieci persone sono qui."
+    }
+  ]
+}

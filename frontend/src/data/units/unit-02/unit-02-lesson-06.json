@@ -1,0 +1,196 @@
+{
+  "id": "unit-02-lesson-06",
+  "unit_id": "unit-02",
+  "name": "Informal Introductions",
+  "order": 6,
+  "grammar_tips": [
+    {
+      "id": "unit-02-lesson-06-tip-01",
+      "title": "Mi Chiamo — Introducing Yourself",
+      "explanation": "'Mi chiamo' literally means 'I call myself'. It's the standard way to say your name. To ask informally: 'Come ti chiami?' (How do you call yourself?). The exchange goes: 'Come ti chiami?' — 'Mi chiamo Marco.'",
+      "example": { "italian": "Ciao, mi chiamo Anna. Come ti chiami?", "english": "Hi, my name is Anna. What's your name?" },
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-02-lesson-06-tip-02",
+      "title": "E tu? — Bouncing the Question Back",
+      "explanation": "After introducing yourself, 'E tu?' (And you?) invites the other person to respond. It's natural and common. Full exchange: 'Sono di Milano. E tu?' — 'Sono di Roma.'",
+      "example": { "italian": "Sono di Milano. E tu?", "english": "I'm from Milan. And you?" },
+      "before_exercise": 8
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-02-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mi chiamo' mean?" },
+      "sentence_context": "Ciao, mi chiamo Marco.",
+      "correct_answer": "My name is",
+      "distractors": ["I live in", "I come from", "I work at"],
+      "hints": ["Literally: 'I call myself'."],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do you ask 'What's your name?' informally?" },
+      "sentence_context": "Come ti chiami?",
+      "correct_answer": "Come ti chiami?",
+      "distractors": ["Come stai?", "Di dove sei?", "Come va?"],
+      "hints": ["'Chiami' comes from 'chiamarsi' — to be called."],
+      "target_words": ["come ti chiami"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do you ask 'Where are you from?' informally?" },
+      "sentence_context": "Ciao! Di dove sei?",
+      "correct_answer": "Di dove sei?",
+      "distractors": ["Come ti chiami?", "Come stai?", "Che lavoro fai?"],
+      "hints": ["'Di dove' means 'from where'."],
+      "target_words": ["di dove sei"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'Sono di Roma' mean?" },
+      "sentence_context": "Di dove sei? — Sono di Roma.",
+      "correct_answer": "I'm from Rome",
+      "distractors": ["I live in Rome", "I like Rome", "I'm going to Rome"],
+      "hints": ["'Sono di' + city = I'm from that city."],
+      "target_words": ["sono di"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do you say 'And you?' informally?" },
+      "sentence_context": "Sono italiano. E tu?",
+      "correct_answer": "E tu?",
+      "distractors": ["E Lei?", "E voi?", "E loro?"],
+      "hints": ["The informal 'And you?' — two short words."],
+      "target_words": ["e tu"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'my name is' in Italian?" },
+      "sentence_context": "Mi chiamo Marco. E tu?",
+      "correct_answer": "mi chiamo",
+      "distractors": [],
+      "hints": ["Two words: 'mi' + 'chiamo'."],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you ask 'What's your name?' informally?" },
+      "sentence_context": "Come ti chiami?",
+      "correct_answer": "come ti chiami",
+      "distractors": [],
+      "hints": ["Three words."],
+      "target_words": ["come ti chiami"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I'm from Milan'?" },
+      "sentence_context": "Sono di Milano.",
+      "correct_answer": "sono di Milano",
+      "distractors": [],
+      "hints": ["'I am from' + city name."],
+      "target_words": ["sono di"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask 'Where are you from?' informally." },
+      "sentence_context": "Di dove sei?",
+      "correct_answer": "di dove sei",
+      "distractors": [],
+      "hints": ["Three words."],
+      "target_words": ["di dove sei"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-10",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Complete the introduction." },
+      "sentence_context": "Ciao, ___ chiamo Marco.",
+      "correct_answer": "mi",
+      "distractors": [],
+      "hints": ["The reflexive pronoun for 'I call'."],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Complete the question." },
+      "sentence_context": "Di ___ sei?",
+      "correct_answer": "dove",
+      "distractors": [],
+      "hints": ["The Italian word for 'where'."],
+      "target_words": ["di dove sei"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-12",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Complete the follow-up question." },
+      "sentence_context": "Sono di Roma. E ___?",
+      "correct_answer": "tu",
+      "distractors": [],
+      "hints": ["And you? (informal)"],
+      "target_words": ["e tu"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Ciao, ___ chiamo Anna.",
+      "correct_answer": "mi",
+      "distractors": [],
+      "hints": ["Hi, my name is Anna."],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-14",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Hi, my name is Anna.'" },
+      "sentence_context": "Ciao, mi chiamo Anna.",
+      "correct_answer": ["Ciao,", "mi", "chiamo", "Anna."],
+      "distractors": ["sono", "di"],
+      "hints": ["Greeting + mi + chiamo + name."],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I'm from Milan. And you?'" },
+      "sentence_context": "Sono di Milano. E tu?",
+      "correct_answer": ["Sono", "di", "Milano.", "E", "tu?"],
+      "distractors": ["è", "dove"],
+      "hints": ["Full sentence + follow-up question."],
+      "target_words": ["sono di", "e tu"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "mi chiamo", "meaning": "my name is", "example": "Ciao, mi chiamo Anna." },
+    { "word": "come ti chiami", "meaning": "what's your name?", "example": "Come ti chiami?" },
+    { "word": "di dove sei", "meaning": "where are you from?", "example": "Di dove sei?" },
+    { "word": "sono di", "meaning": "I'm from", "example": "Sono di Roma." },
+    { "word": "e tu", "meaning": "and you?", "example": "Sono italiano. E tu?" }
+  ]
+}

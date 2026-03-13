@@ -30,10 +30,44 @@ async function pickDistractors(
 }
 
 /**
+ * Strip parenthetical notes from vocabulary meanings so they don't give away
+ * the answer in review prompts. E.g. "hunger (ho fame = I'm hungry)" → "hunger".
+ */
+function cleanMeaning(meaning: string): string {
+  return meaning.replace(/\s*\(.*?\)\s*/g, '').trim();
+}
+
+/**
+ * Build a cloze exercise: blank out the target word in the example sentence.
+ * Returns null if the word can't be found in the example.
+ */
+function buildClozeExercise(
+  baseId: string,
+  entry: VocabEntry,
+  card: SRSCard,
+): Exercise | null {
+  const wordPattern = new RegExp(entry.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
+  if (!wordPattern.test(entry.example)) return null;
+  const blanked = entry.example.replace(wordPattern, '___');
+  return {
+    id: baseId,
+    type: 'vocab',
+    subtype: 'cloze',
+    prompt: { text: 'Complete the sentence with the missing word.' },
+    sentence_context: blanked,
+    correct_answer: entry.word,
+    distractors: [],
+    hints: [cleanMeaning(entry.meaning)],
+    target_words: [card.word_id],
+  };
+}
+
+/**
  * Convert an SRS card into a review Exercise.
+ * Randomly varies between exercise types to keep reviews engaging:
  *
- * - vocab skill  → MultipleChoice (IT → EN): "What does 'ciao' mean?"
- * - writing skill → TypeAnswer    (EN → IT): "Translate to Italian: 'Hello'"
+ * vocab skill:   multiple_choice (IT→EN) or cloze (blank word in example)
+ * writing skill: type_answer (EN→IT) or fill_blank (blank word in example)
  */
 async function cardToExercise(
   card: SRSCard,
@@ -42,27 +76,40 @@ async function cardToExercise(
   if (!entry) return null;
 
   const baseId = `review-${card.id}`;
+  const meaning = cleanMeaning(entry.meaning);
 
   if (card.skill_type === 'vocab') {
+    // 40% chance of cloze if the word appears in the example
+    if (Math.random() < 0.4) {
+      const cloze = buildClozeExercise(baseId, entry, card);
+      if (cloze) return cloze;
+    }
     return {
       id: baseId,
       type: 'vocab',
       subtype: 'multiple_choice',
       prompt: { text: `What does '${entry.word}' mean?` },
       sentence_context: entry.example,
-      correct_answer: entry.meaning,
-      distractors: await pickDistractors(entry, 3, 'meaning'),
+      correct_answer: meaning,
+      distractors: (await pickDistractors(entry, 3, 'meaning')).map(cleanMeaning),
       hints: [],
       target_words: [card.word_id],
     };
   }
 
   if (card.skill_type === 'writing') {
+    // 30% chance of fill_blank if the word appears in the example
+    if (Math.random() < 0.3) {
+      const cloze = buildClozeExercise(baseId, entry, card);
+      if (cloze) {
+        return { ...cloze, type: 'writing', subtype: 'fill_blank' };
+      }
+    }
     return {
       id: baseId,
       type: 'vocab',
       subtype: 'type_answer',
-      prompt: { text: `Translate to Italian: '${entry.meaning}'` },
+      prompt: { text: `Translate to Italian: '${meaning}'` },
       sentence_context: entry.example,
       correct_answer: entry.word,
       distractors: [],
@@ -77,6 +124,7 @@ async function cardToExercise(
 /**
  * Convert a list of due SRS cards into review exercises.
  * Skips cards whose word_id isn't found in the vocabulary table.
+ * Shuffles the result so cards don't appear in predictable order.
  */
 export async function buildReviewExercises(dueCards: SRSCard[]): Promise<{
   exercises: Exercise[];
@@ -93,7 +141,7 @@ export async function buildReviewExercises(dueCards: SRSCard[]): Promise<{
     }
   }
 
-  return { exercises, cardMap };
+  return { exercises: shuffle(exercises), cardMap };
 }
 
 /**

@@ -1,0 +1,308 @@
+{
+  "id": "unit-03-lesson-09",
+  "unit_id": "unit-03",
+  "name": "Unit 3 Review",
+  "order": 9,
+  "grammar_tips": [
+    {
+      "id": "unit-03-lesson-09-tip-01",
+      "title": "Unit 3 — Avere and Numbers",
+      "explanation": "You now know how to conjugate avere, use indefinite articles, count to 100, express age, and describe physical states and emotions in Italian.",
+      "example": {
+        "italian": "Ho venticinque anni, ho fame e ho bisogno di un caffè.",
+        "english": "I am twenty-five years old, I'm hungry and I need a coffee."
+      },
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-09-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'Ho trent'anni' mean?"
+      },
+      "sentence_context": "Ho trent'anni.",
+      "correct_answer": "I am thirty years old",
+      "distractors": [
+        "I have thirty euros",
+        "I have thirty friends",
+        "I am thirty people"
+      ],
+      "hints": [
+        "'Anni' = years."
+      ],
+      "target_words": [
+        "anni"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which form of avere completes 'Loro ___ fame'?"
+      },
+      "sentence_context": "Loro hanno fame.",
+      "correct_answer": "hanno",
+      "distractors": [
+        "avete",
+        "abbiamo",
+        "ha"
+      ],
+      "hints": [],
+      "target_words": [
+        "hanno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which article before 'zaino'?"
+      },
+      "sentence_context": "Ho uno zaino.",
+      "correct_answer": "uno",
+      "distractors": [
+        "un",
+        "una",
+        "un'"
+      ],
+      "hints": [
+        "Masculine, starts with z."
+      ],
+      "target_words": [
+        "uno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What number is 'quarantacinque'?"
+      },
+      "sentence_context": "Quarantacinque minuti.",
+      "correct_answer": "45",
+      "distractors": [
+        "35",
+        "54",
+        "44"
+      ],
+      "hints": [
+        "quaranta (40) + cinque (5)."
+      ],
+      "target_words": [
+        "quaranta"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'ho sonno' mean?"
+      },
+      "sentence_context": "Ho sonno, vorrei dormire.",
+      "correct_answer": "I'm sleepy",
+      "distractors": [
+        "I'm hungry",
+        "I'm thirsty",
+        "I'm afraid"
+      ],
+      "hints": [],
+      "target_words": [
+        "sonno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Say 'we have' in Italian."
+      },
+      "sentence_context": "Noi abbiamo un cane.",
+      "correct_answer": [
+        "abbiamo",
+        "noi abbiamo"
+      ],
+      "distractors": [],
+      "hints": [],
+      "target_words": [
+        "abbiamo"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Say 'I'm afraid' in Italian."
+      },
+      "sentence_context": "Ho paura del buio.",
+      "correct_answer": [
+        "ho paura",
+        "io ho paura"
+      ],
+      "distractors": [],
+      "hints": [],
+      "target_words": [
+        "paura"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say '67' in Italian?"
+      },
+      "sentence_context": "Sessantasette euro.",
+      "correct_answer": "sessantasette",
+      "distractors": [],
+      "hints": [
+        "sessanta (60) + sette (7)."
+      ],
+      "target_words": [
+        "sessanta"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-09",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form of avere."
+      },
+      "sentence_context": "Noi ___ un cane.",
+      "correct_answer": "abbiamo",
+      "distractors": [],
+      "hints": [],
+      "target_words": [
+        "abbiamo"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-10",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct avere idiom."
+      },
+      "sentence_context": "Ho ___ di dormire.",
+      "correct_answer": "bisogno",
+      "distractors": [],
+      "hints": [
+        "I need to sleep."
+      ],
+      "target_words": [
+        "bisogno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form of avere."
+      },
+      "sentence_context": "Loro ___ ragione.",
+      "correct_answer": "hanno",
+      "distractors": [],
+      "hints": [],
+      "target_words": [
+        "hanno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence."
+      },
+      "sentence_context": "Ho ___, vorrei dell'acqua.",
+      "correct_answer": "sete",
+      "distractors": [],
+      "hints": [
+        "I'm thirsty."
+      ],
+      "target_words": [
+        "sete"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence."
+      },
+      "sentence_context": "Ho ___ del buio.",
+      "correct_answer": "paura",
+      "distractors": [],
+      "hints": [
+        "I'm afraid of the dark."
+      ],
+      "target_words": [
+        "paura"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-14",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'I am twenty years old.'"
+      },
+      "sentence_context": "Ho venti anni.",
+      "correct_answer": [
+        "Ho",
+        "venti",
+        "anni."
+      ],
+      "distractors": [
+        "sono",
+        "io"
+      ],
+      "hints": [
+        "Use avere for age!"
+      ],
+      "target_words": [
+        "anni"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-09-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'They have a cat and a dog.'"
+      },
+      "sentence_context": "Loro hanno un gatto e un cane.",
+      "correct_answer": [
+        "Loro",
+        "hanno",
+        "un",
+        "gatto",
+        "e",
+        "un",
+        "cane."
+      ],
+      "distractors": [
+        "sono",
+        "una"
+      ],
+      "hints": [
+        "Subject + verb + article + noun + e + article + noun."
+      ],
+      "target_words": [
+        "hanno"
+      ]
+    }
+  ],
+  "vocabulary": []
+}

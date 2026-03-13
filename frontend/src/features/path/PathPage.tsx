@@ -37,7 +37,7 @@ export default function Path() {
   const lessonsCompleted = useProgressStore((s) => s.lessons_completed);
   const lessonScores = useProgressStore((s) => s.lesson_scores);
   const resetLesson = useProgressStore((s) => s.resetLesson);
-  const dueCount = useSrsStore((s) => s.dueCards.length);
+  const dueCount = useSrsStore((s) => s.reviewableCount);
 
   const [expandedUnit, setExpandedUnit] = useState<string | null>(null);
 

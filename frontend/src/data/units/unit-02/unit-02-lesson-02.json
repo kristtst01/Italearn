@@ -159,7 +159,7 @@
         "text": "How do you say 'I am' in Italian?"
       },
       "sentence_context": "Io sono italiano.",
-      "correct_answer": "sono",
+      "correct_answer": ["sono", "io sono"],
       "distractors": [],
       "hints": [
         "The 'io' form of 'essere'."
@@ -174,7 +174,7 @@
         "text": "Translate to Italian: 'you are' (informal)"
       },
       "sentence_context": "Tu sei molto gentile.",
-      "correct_answer": "sei",
+      "correct_answer": ["sei", "tu sei"],
       "distractors": [],
       "hints": [
         "The 'tu' form of 'essere'."

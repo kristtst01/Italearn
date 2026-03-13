@@ -1,0 +1,391 @@
+{
+  "id": "unit-03-lesson-02",
+  "unit_id": "unit-03",
+  "name": "Numbers 11–20",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-03-lesson-02-tip-01",
+      "title": "Numbers 11–20",
+      "explanation": "Numbers 11–16 attach the digit after 'dici': undici (11), dodici (12), tredici (13), quattordici (14), quindici (15), sedici (16). For 17–19 it reverses: diciassette (17), diciotto (18), diciannove (19). Twenty is venti.",
+      "table": [
+        [
+          "11",
+          "undici"
+        ],
+        [
+          "12",
+          "dodici"
+        ],
+        [
+          "13",
+          "tredici"
+        ],
+        [
+          "14",
+          "quattordici"
+        ],
+        [
+          "15",
+          "quindici"
+        ],
+        [
+          "16",
+          "sedici"
+        ],
+        [
+          "17",
+          "diciassette"
+        ],
+        [
+          "18",
+          "diciotto"
+        ],
+        [
+          "19",
+          "diciannove"
+        ],
+        [
+          "20",
+          "venti"
+        ]
+      ],
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-03-lesson-02-tip-02",
+      "title": "Spelling Traps: diciotto and diciannove",
+      "explanation": "Watch the spelling: diciotto (not 'diciassotto') drops a letter, and diciannove has double 'n'. Say them out loud — the rhythm helps: di-ciot-to, di-cia-nno-ve.",
+      "example": {
+        "italian": "Ho diciotto anni.",
+        "english": "I am eighteen years old."
+      },
+      "before_exercise": 8
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What number is 'quindici'?"
+      },
+      "sentence_context": "Quindici minuti.",
+      "correct_answer": "15",
+      "distractors": [
+        "14",
+        "16",
+        "13"
+      ],
+      "hints": [],
+      "target_words": [
+        "quindici"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What number is 'quattordici'?"
+      },
+      "sentence_context": "Quattordici giorni.",
+      "correct_answer": "14",
+      "distractors": [
+        "13",
+        "15",
+        "16"
+      ],
+      "hints": [],
+      "target_words": [
+        "quattordici"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What number is 'sedici'?"
+      },
+      "sentence_context": "Sedici anni.",
+      "correct_answer": "16",
+      "distractors": [
+        "15",
+        "17",
+        "18"
+      ],
+      "hints": [],
+      "target_words": [
+        "sedici"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What number is 'venti'?"
+      },
+      "sentence_context": "Ho venti euro.",
+      "correct_answer": "20",
+      "distractors": [
+        "19",
+        "18",
+        "21"
+      ],
+      "hints": [],
+      "target_words": [
+        "venti"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say '12' in Italian?"
+      },
+      "sentence_context": "Dodici mesi in un anno.",
+      "correct_answer": "dodici",
+      "distractors": [],
+      "hints": [
+        "Think of 'dozen' — twelve items."
+      ],
+      "target_words": [
+        "dodici"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say '11' in Italian?"
+      },
+      "sentence_context": "Undici persone.",
+      "correct_answer": "undici",
+      "distractors": [],
+      "hints": [
+        "Starts with 'un' like uno."
+      ],
+      "target_words": [
+        "undici"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say '20' in Italian?"
+      },
+      "sentence_context": "Ho venti euro.",
+      "correct_answer": "venti",
+      "distractors": [],
+      "hints": [
+        "Sounds like 'twenty'."
+      ],
+      "target_words": [
+        "venti"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say '18' in Italian?"
+      },
+      "sentence_context": "Ho diciotto anni.",
+      "correct_answer": "diciotto",
+      "distractors": [],
+      "hints": [
+        "Careful spelling — it's not 'diciassotto'."
+      ],
+      "target_words": [
+        "diciotto"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say '17' in Italian?"
+      },
+      "sentence_context": "Diciassette persone.",
+      "correct_answer": "diciassette",
+      "distractors": [],
+      "hints": [
+        "Reversed: 'dici' + 'assette'."
+      ],
+      "target_words": [
+        "diciassette"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: 'I am eighteen years old.'"
+      },
+      "sentence_context": "Ho ___ anni.",
+      "correct_answer": "diciotto",
+      "distractors": [],
+      "hints": [
+        "18 years old."
+      ],
+      "target_words": [
+        "diciotto"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the next number."
+      },
+      "sentence_context": "Quattordici, ___.",
+      "correct_answer": "quindici",
+      "distractors": [],
+      "hints": [
+        "14, ___"
+      ],
+      "target_words": [
+        "quindici"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-12",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the next number."
+      },
+      "sentence_context": "Diciassette, ___.",
+      "correct_answer": "diciotto",
+      "distractors": [],
+      "hints": [
+        "17, ___"
+      ],
+      "target_words": [
+        "diciotto"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the missing number."
+      },
+      "sentence_context": "Undici, dodici, tredici, ___.",
+      "correct_answer": "quattordici",
+      "distractors": [],
+      "hints": [
+        "11, 12, 13, ___"
+      ],
+      "target_words": [
+        "quattordici"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the missing number."
+      },
+      "sentence_context": "Sedici, diciassette, diciotto, ___.",
+      "correct_answer": "diciannove",
+      "distractors": [],
+      "hints": [
+        "16, 17, 18, ___"
+      ],
+      "target_words": [
+        "diciannove"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'Ten people are here.'"
+      },
+      "sentence_context": "Dieci persone sono qui.",
+      "correct_answer": [
+        "Dieci",
+        "persone",
+        "sono",
+        "qui."
+      ],
+      "distractors": [
+        "tre",
+        "io"
+      ],
+      "hints": [
+        "Number + noun + verb + location."
+      ],
+      "target_words": [
+        "dieci"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "undici",
+      "meaning": "eleven",
+      "example": "Undici persone."
+    },
+    {
+      "word": "dodici",
+      "meaning": "twelve",
+      "example": "Dodici mesi in un anno."
+    },
+    {
+      "word": "tredici",
+      "meaning": "thirteen",
+      "example": "Tredici anni."
+    },
+    {
+      "word": "quattordici",
+      "meaning": "fourteen",
+      "example": "Quattordici giorni."
+    },
+    {
+      "word": "quindici",
+      "meaning": "fifteen",
+      "example": "Quindici minuti."
+    },
+    {
+      "word": "sedici",
+      "meaning": "sixteen",
+      "example": "Sedici anni."
+    },
+    {
+      "word": "diciassette",
+      "meaning": "seventeen",
+      "example": "Diciassette persone."
+    },
+    {
+      "word": "diciotto",
+      "meaning": "eighteen",
+      "example": "Ho diciotto anni."
+    },
+    {
+      "word": "diciannove",
+      "meaning": "nineteen",
+      "example": "Diciannove studenti."
+    },
+    {
+      "word": "venti",
+      "meaning": "twenty",
+      "example": "Ho venti euro."
+    }
+  ]
+}

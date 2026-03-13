@@ -185,7 +185,7 @@
         "text": "Complete the sentence with the missing word."
       },
       "sentence_context": "___, come stai?",
-      "correct_answer": "ciao",
+      "correct_answer": ["ciao", "salve"],
       "distractors": [],
       "hints": [
         "Hello, how are you?"

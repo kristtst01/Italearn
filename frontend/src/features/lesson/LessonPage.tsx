@@ -13,13 +13,10 @@ import GrammarTip from './GrammarTip';
 export default function LessonPage() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const [lesson, setLesson] = useState<Lesson | undefined | null>(null);
+  const [lesson, setLesson] = useState<Lesson | undefined | null>(() => id ? null : undefined);
 
   useEffect(() => {
-    if (!id) {
-      setLesson(undefined);
-      return;
-    }
+    if (!id) return;
     let cancelled = false;
     findLesson(id).then((result) => {
       if (!cancelled) setLesson(result);

@@ -10,8 +10,8 @@ export default function ReviewPage() {
   const navigate = useNavigate();
 
   const {
-    dueCards,
-    session,
+    reviewableCount,
+    started,
     currentExercise,
     currentIndex,
     totalExercises,
@@ -20,8 +20,8 @@ export default function ReviewPage() {
     handleExerciseComplete,
   } = useReviewSession();
 
-  if (!session) {
-    return <ReviewIntro dueCount={dueCards.length} onStart={handleStart} />;
+  if (!started) {
+    return <ReviewIntro dueCount={reviewableCount} onStart={handleStart} />;
   }
 
   if (result) {

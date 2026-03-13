@@ -17,6 +17,7 @@ passCheckpoint(sectionId: string): Promise<void>
 ### useSrsStore (srsStore.ts)
 ```ts
 dueCards: SRSCard[]
+reviewableCount: number  // cards with matching vocabulary entries — use this for UI display, not dueCards.length
 hydrated: boolean
 hydrate(): Promise<void>
 addCards(cards: { wordId: string; skillType: ExerciseType }[]): Promise<void>  // deduplicates internally

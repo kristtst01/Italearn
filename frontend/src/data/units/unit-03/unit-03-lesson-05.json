@@ -1,0 +1,361 @@
+{
+  "id": "unit-03-lesson-05",
+  "unit_id": "unit-03",
+  "name": "Avere: abbiamo, avete, hanno",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-03-lesson-05-tip-01",
+      "title": "Avere — Full Conjugation",
+      "explanation": "Now you know all six forms of avere. The plural forms are: abbiamo (we have), avete (you all have), hanno (they have). Notice 'hanno' starts with a silent H.",
+      "table": [
+        [
+          "io",
+          "ho"
+        ],
+        [
+          "tu",
+          "hai"
+        ],
+        [
+          "lui/lei/Lei",
+          "ha"
+        ],
+        [
+          "noi",
+          "abbiamo"
+        ],
+        [
+          "voi",
+          "avete"
+        ],
+        [
+          "loro",
+          "hanno"
+        ]
+      ],
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-03-lesson-05-tip-02",
+      "title": "Pro-Drop with Avere",
+      "explanation": "As with essere, subject pronouns are often dropped with avere: 'Abbiamo un cane' = 'We have a dog'. The verb ending tells you who the subject is.",
+      "example": {
+        "italian": "Abbiamo un gatto e hanno un cane.",
+        "english": "We have a cat and they have a dog."
+      },
+      "before_exercise": 8
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'abbiamo' mean?"
+      },
+      "sentence_context": "Noi abbiamo un cane.",
+      "correct_answer": "We have",
+      "distractors": [
+        "You all have",
+        "They have",
+        "I have"
+      ],
+      "hints": [],
+      "target_words": [
+        "abbiamo"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'avete' mean?"
+      },
+      "sentence_context": "Voi avete un gatto.",
+      "correct_answer": "You all have",
+      "distractors": [
+        "We have",
+        "They have",
+        "He has"
+      ],
+      "hints": [],
+      "target_words": [
+        "avete"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'hanno' mean?"
+      },
+      "sentence_context": "Loro hanno tre gatti.",
+      "correct_answer": "They have",
+      "distractors": [
+        "We have",
+        "You all have",
+        "She has"
+      ],
+      "hints": [
+        "Starts with silent H."
+      ],
+      "target_words": [
+        "hanno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which form completes 'Noi ___ un cane'?"
+      },
+      "sentence_context": "Noi abbiamo un cane.",
+      "correct_answer": "abbiamo",
+      "distractors": [
+        "avete",
+        "hanno",
+        "ho"
+      ],
+      "hints": [
+        "The 'noi' form."
+      ],
+      "target_words": [
+        "abbiamo"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'we have' in Italian?"
+      },
+      "sentence_context": "Noi abbiamo un cane.",
+      "correct_answer": [
+        "abbiamo",
+        "noi abbiamo"
+      ],
+      "distractors": [],
+      "hints": [
+        "Double 'b'."
+      ],
+      "target_words": [
+        "abbiamo"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'you all have' in Italian?"
+      },
+      "sentence_context": "Voi avete un gatto.",
+      "correct_answer": [
+        "avete",
+        "voi avete"
+      ],
+      "distractors": [],
+      "hints": [
+        "The 'voi' form."
+      ],
+      "target_words": [
+        "avete"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'they have' in Italian?"
+      },
+      "sentence_context": "Loro hanno tre gatti.",
+      "correct_answer": [
+        "hanno",
+        "loro hanno"
+      ],
+      "distractors": [],
+      "hints": [
+        "Silent H, double 'n'."
+      ],
+      "target_words": [
+        "hanno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-08",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form of avere."
+      },
+      "sentence_context": "Loro ___ tre gatti.",
+      "correct_answer": "hanno",
+      "distractors": [],
+      "hints": [
+        "The 'loro' form."
+      ],
+      "target_words": [
+        "hanno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-09",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form of avere."
+      },
+      "sentence_context": "Voi ___ un gatto.",
+      "correct_answer": "avete",
+      "distractors": [],
+      "hints": [
+        "The 'voi' form."
+      ],
+      "target_words": [
+        "avete"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-10",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form of avere."
+      },
+      "sentence_context": "Noi ___ un cane.",
+      "correct_answer": "abbiamo",
+      "distractors": [],
+      "hints": [
+        "The 'noi' form."
+      ],
+      "target_words": [
+        "abbiamo"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence."
+      },
+      "sentence_context": "Voi ___ una bella casa.",
+      "correct_answer": "avete",
+      "distractors": [],
+      "hints": [
+        "You all have a beautiful house."
+      ],
+      "target_words": [
+        "avete"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence."
+      },
+      "sentence_context": "Loro ___ fame.",
+      "correct_answer": "hanno",
+      "distractors": [],
+      "hints": [
+        "They're hungry — preview of avere idioms!"
+      ],
+      "target_words": [
+        "hanno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Complete the sequence: Io ho, tu hai, lui ___"
+      },
+      "sentence_context": "Io ho, tu hai, lui ___.",
+      "correct_answer": "ha",
+      "distractors": [],
+      "hints": [
+        "Third person singular."
+      ],
+      "target_words": [
+        "ha"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-14",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'We have a cat.'"
+      },
+      "sentence_context": "Noi abbiamo un gatto.",
+      "correct_answer": [
+        "Noi",
+        "abbiamo",
+        "un",
+        "gatto."
+      ],
+      "distractors": [
+        "siamo",
+        "una"
+      ],
+      "hints": [
+        "Subject + verb + article + noun."
+      ],
+      "target_words": [
+        "abbiamo"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'They have a dog.'"
+      },
+      "sentence_context": "Loro hanno un cane.",
+      "correct_answer": [
+        "Loro",
+        "hanno",
+        "un",
+        "cane."
+      ],
+      "distractors": [
+        "sono",
+        "ho"
+      ],
+      "hints": [
+        "Subject + verb + article + noun."
+      ],
+      "target_words": [
+        "hanno"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "abbiamo",
+      "meaning": "we have",
+      "example": "Noi abbiamo un cane."
+    },
+    {
+      "word": "avete",
+      "meaning": "you all have",
+      "example": "Voi avete un gatto."
+    },
+    {
+      "word": "hanno",
+      "meaning": "they have",
+      "example": "Loro hanno tre gatti."
+    }
+  ]
+}

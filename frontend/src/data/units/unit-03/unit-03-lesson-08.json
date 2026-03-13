@@ -1,0 +1,354 @@
+{
+  "id": "unit-03-lesson-08",
+  "unit_id": "unit-03",
+  "name": "Avere Idioms: Emotions & States",
+  "order": 8,
+  "grammar_tips": [
+    {
+      "id": "unit-03-lesson-08-tip-01",
+      "title": "More Avere Idioms",
+      "explanation": "More sensations and states use avere in Italian.",
+      "table": [
+        [
+          "ho paura",
+          "I'm afraid"
+        ],
+        [
+          "ho ragione",
+          "I'm right"
+        ],
+        [
+          "ho torto",
+          "I'm wrong"
+        ],
+        [
+          "ho bisogno di",
+          "I need"
+        ]
+      ],
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-03-lesson-08-tip-02",
+      "title": "Ragione vs Torto — Opposites",
+      "explanation": "'Avere ragione' = to be right, 'avere torto' = to be wrong. They are exact opposites and always used with avere, never essere. 'Hai ragione!' = You're right! 'Hai torto!' = You're wrong!",
+      "example": {
+        "italian": "Hai ragione, non ho torto.",
+        "english": "You are right, I am not wrong."
+      },
+      "before_exercise": 8
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-08-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'ho paura' mean?"
+      },
+      "sentence_context": "Ho paura del buio.",
+      "correct_answer": "I'm afraid",
+      "distractors": [
+        "I'm hungry",
+        "I'm cold",
+        "I'm right"
+      ],
+      "hints": [],
+      "target_words": [
+        "paura"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'ho ragione' mean?"
+      },
+      "sentence_context": "Hai ragione!",
+      "correct_answer": "I'm right",
+      "distractors": [
+        "I'm wrong",
+        "I need",
+        "I'm afraid"
+      ],
+      "hints": [],
+      "target_words": [
+        "ragione"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'ho torto' mean?"
+      },
+      "sentence_context": "No, hai torto!",
+      "correct_answer": "I'm wrong",
+      "distractors": [
+        "I'm right",
+        "I need",
+        "I'm afraid"
+      ],
+      "hints": [],
+      "target_words": [
+        "torto"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'ho bisogno di' mean?"
+      },
+      "sentence_context": "Ho bisogno di un caffè.",
+      "correct_answer": "I need",
+      "distractors": [
+        "I want",
+        "I have",
+        "I like"
+      ],
+      "hints": [
+        "Literally: 'I have need of'."
+      ],
+      "target_words": [
+        "bisogno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-05",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence."
+      },
+      "sentence_context": "Ho ___ del buio.",
+      "correct_answer": "paura",
+      "distractors": [],
+      "hints": [
+        "I'm afraid of the dark."
+      ],
+      "target_words": [
+        "paura"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence."
+      },
+      "sentence_context": "No, tu hai ___!",
+      "correct_answer": "torto",
+      "distractors": [],
+      "hints": [
+        "No, you are wrong!"
+      ],
+      "target_words": [
+        "torto"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-07",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the expression: 'He is right.'"
+      },
+      "sentence_context": "Lui ha ___.",
+      "correct_answer": "ragione",
+      "distractors": [],
+      "hints": [
+        "'Avere ragione' = to be right."
+      ],
+      "target_words": [
+        "ragione"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'I need' in Italian?"
+      },
+      "sentence_context": "Ho bisogno di un caffè.",
+      "correct_answer": [
+        "ho bisogno di",
+        "io ho bisogno di"
+      ],
+      "distractors": [],
+      "hints": [
+        "Literally: 'I have need of'."
+      ],
+      "target_words": [
+        "bisogno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'I'm afraid' in Italian?"
+      },
+      "sentence_context": "Ho paura del buio.",
+      "correct_answer": [
+        "ho paura",
+        "io ho paura"
+      ],
+      "distractors": [],
+      "hints": [],
+      "target_words": [
+        "paura"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'I'm right' in Italian?"
+      },
+      "sentence_context": "Ho ragione.",
+      "correct_answer": [
+        "ho ragione",
+        "io ho ragione"
+      ],
+      "distractors": [],
+      "hints": [],
+      "target_words": [
+        "ragione"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'I'm wrong' in Italian?"
+      },
+      "sentence_context": "Ho torto.",
+      "correct_answer": [
+        "ho torto",
+        "io ho torto"
+      ],
+      "distractors": [],
+      "hints": [],
+      "target_words": [
+        "torto"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: 'I need a coffee.'"
+      },
+      "sentence_context": "Ho ___ di un caffè.",
+      "correct_answer": "bisogno",
+      "distractors": [],
+      "hints": [
+        "I need a coffee."
+      ],
+      "target_words": [
+        "bisogno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Complete: 'You're right! Well done.'"
+      },
+      "sentence_context": "Hai ___! Bravo.",
+      "correct_answer": "ragione",
+      "distractors": [],
+      "hints": [
+        "You're right!"
+      ],
+      "target_words": [
+        "ragione"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-14",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'I'm afraid of the dark.'"
+      },
+      "sentence_context": "Ho paura del buio.",
+      "correct_answer": [
+        "Ho",
+        "paura",
+        "del",
+        "buio."
+      ],
+      "distractors": [
+        "ragione",
+        "sono"
+      ],
+      "hints": [
+        "avere + paura + del + noun."
+      ],
+      "target_words": [
+        "paura"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-08-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'I need a coffee.'"
+      },
+      "sentence_context": "Ho bisogno di un caffè.",
+      "correct_answer": [
+        "Ho",
+        "bisogno",
+        "di",
+        "un",
+        "caffè."
+      ],
+      "distractors": [
+        "sono",
+        "paura"
+      ],
+      "hints": [
+        "avere + bisogno + di + article + noun."
+      ],
+      "target_words": [
+        "bisogno"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "paura",
+      "meaning": "fear",
+      "example": "Ho paura del buio."
+    },
+    {
+      "word": "ragione",
+      "meaning": "right (being right)",
+      "example": "Lui ha ragione."
+    },
+    {
+      "word": "torto",
+      "meaning": "wrong (being wrong)",
+      "example": "No, tu hai torto!"
+    },
+    {
+      "word": "bisogno",
+      "meaning": "need",
+      "example": "Ho bisogno di un caffè."
+    }
+  ]
+}

@@ -9,12 +9,30 @@
       "title": "Essere — Full Conjugation",
       "explanation": "Now you know all six forms of 'essere'. Here's the complete picture:",
       "table": [
-        ["io", "sono"],
-        ["tu", "sei"],
-        ["lui/lei/Lei", "è"],
-        ["noi", "siamo"],
-        ["voi", "siete"],
-        ["loro", "sono"]
+        [
+          "io",
+          "sono"
+        ],
+        [
+          "tu",
+          "sei"
+        ],
+        [
+          "lui/lei/Lei",
+          "è"
+        ],
+        [
+          "noi",
+          "siamo"
+        ],
+        [
+          "voi",
+          "siete"
+        ],
+        [
+          "loro",
+          "sono"
+        ]
       ],
       "before_exercise": 0
     },
@@ -22,7 +40,10 @@
       "id": "unit-02-lesson-03-tip-02",
       "title": "Nationalities and Gender",
       "explanation": "Most Italian nationalities change based on gender: 'americano' (m.) / 'americana' (f.). But some ending in -e stay the same for both: 'inglese' (English) works for both men and women.",
-      "example": { "italian": "Lui è inglese, lei è inglese.", "english": "He is English, she is English." },
+      "example": {
+        "italian": "Lui è inglese, lei è inglese.",
+        "english": "He is English, she is English."
+      },
       "before_exercise": 5
     },
     {
@@ -50,7 +71,9 @@
       "hints": [
         "First-person plural — 'we are'."
       ],
-      "target_words": ["siamo"]
+      "target_words": [
+        "siamo"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-02",
@@ -67,9 +90,11 @@
         "Sei"
       ],
       "hints": [
-        "Second-person plural — 'you all are'."
+        "Second-person plural — 'you are (plural)'."
       ],
-      "target_words": ["siete"]
+      "target_words": [
+        "siete"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-03",
@@ -88,7 +113,9 @@
       "hints": [
         "The -o ending marks it as masculine."
       ],
-      "target_words": ["americano"]
+      "target_words": [
+        "americano"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-04",
@@ -107,7 +134,9 @@
       "hints": [
         "Nationalities ending in -e don't change for gender."
       ],
-      "target_words": ["inglese"]
+      "target_words": [
+        "inglese"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-05",
@@ -122,7 +151,9 @@
       "hints": [
         "We are American."
       ],
-      "target_words": ["siamo"]
+      "target_words": [
+        "siamo"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-06",
@@ -135,9 +166,11 @@
       "correct_answer": "siete",
       "distractors": [],
       "hints": [
-        "You all are English."
+        "You are English."
       ],
-      "target_words": ["siete"]
+      "target_words": [
+        "siete"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-07",
@@ -152,7 +185,9 @@
       "hints": [
         "She is Spanish."
       ],
-      "target_words": ["spagnolo"]
+      "target_words": [
+        "spagnolo"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-08",
@@ -162,12 +197,17 @@
         "text": "How do you say 'we are' in Italian?"
       },
       "sentence_context": "Noi siamo amici.",
-      "correct_answer": "siamo",
+      "correct_answer": [
+        "siamo",
+        "noi siamo"
+      ],
       "distractors": [],
       "hints": [
         "The 'noi' form of 'essere'."
       ],
-      "target_words": ["siamo"]
+      "target_words": [
+        "siamo"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-09",
@@ -182,7 +222,9 @@
       "hints": [
         "Masculine nationality ending in -o."
       ],
-      "target_words": ["americano"]
+      "target_words": [
+        "americano"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-10",
@@ -197,7 +239,9 @@
       "hints": [
         "Ends in -o for masculine."
       ],
-      "target_words": ["spagnolo"]
+      "target_words": [
+        "spagnolo"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-11",
@@ -212,7 +256,9 @@
       "hints": [
         "The 'noi' form."
       ],
-      "target_words": ["siamo"]
+      "target_words": [
+        "siamo"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-12",
@@ -227,7 +273,9 @@
       "hints": [
         "The 'voi' form."
       ],
-      "target_words": ["siete"]
+      "target_words": [
+        "siete"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-13",
@@ -242,7 +290,9 @@
       "hints": [
         "This nationality is the same for both genders."
       ],
-      "target_words": ["inglese"]
+      "target_words": [
+        "inglese"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-14",
@@ -252,12 +302,22 @@
         "text": "Arrange the words to say: 'We are American.'"
       },
       "sentence_context": "Noi siamo americani.",
-      "correct_answer": ["Noi", "siamo", "americani."],
-      "distractors": ["sono", "siete"],
+      "correct_answer": [
+        "Noi",
+        "siamo",
+        "americani."
+      ],
+      "distractors": [
+        "sono",
+        "siete"
+      ],
       "hints": [
         "Start with 'we', then the verb."
       ],
-      "target_words": ["siamo", "americano"]
+      "target_words": [
+        "siamo",
+        "americano"
+      ]
     },
     {
       "id": "unit-02-lesson-03-ex-15",
@@ -267,12 +327,21 @@
         "text": "Arrange the words to say: 'They are Spanish.'"
       },
       "sentence_context": "Loro sono spagnoli.",
-      "correct_answer": ["Loro", "sono", "spagnoli."],
-      "distractors": ["siamo", "è"],
+      "correct_answer": [
+        "Loro",
+        "sono",
+        "spagnoli."
+      ],
+      "distractors": [
+        "siamo",
+        "è"
+      ],
       "hints": [
         "Start with 'they'."
       ],
-      "target_words": ["spagnolo"]
+      "target_words": [
+        "spagnolo"
+      ]
     }
   ],
   "vocabulary": [
@@ -283,7 +352,7 @@
     },
     {
       "word": "siete",
-      "meaning": "You all are",
+      "meaning": "You are (plural)",
       "example": "Voi siete molto gentili."
     },
     {
