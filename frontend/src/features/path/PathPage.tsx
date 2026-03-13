@@ -37,7 +37,11 @@ export default function Path() {
   const lessonsCompleted = useProgressStore((s) => s.lessons_completed);
   const lessonScores = useProgressStore((s) => s.lesson_scores);
   const resetLesson = useProgressStore((s) => s.resetLesson);
+  const checkpointsPassed = useProgressStore((s) => s.checkpoints_passed);
   const dueCount = useSrsStore((s) => s.reviewableCount);
+
+  const allSection1Complete = units.every((u) => isUnitComplete(u, lessonsCompleted));
+  const section1CheckpointPassed = checkpointsPassed.includes(section.id);
 
   const [expandedUnit, setExpandedUnit] = useState<string | null>(null);
 
@@ -89,6 +93,32 @@ export default function Path() {
               />
             );
           })}
+
+          {allSection1Complete && (
+            <Link
+              to={`/checkpoint/${section.id}`}
+              className={`flex items-center justify-between rounded-xl px-4 py-3 transition-colors border ${
+                section1CheckpointPassed
+                  ? 'bg-green-50 border-green-200 hover:bg-green-100'
+                  : 'bg-blue-600 border-transparent text-white hover:bg-blue-700'
+              }`}
+            >
+              <div className="flex items-center gap-2">
+                <span className="text-lg">{section1CheckpointPassed ? '✓' : '🏁'}</span>
+                <div>
+                  <p className={`font-medium ${section1CheckpointPassed ? 'text-green-800' : ''}`}>
+                    Section 1 Checkpoint
+                  </p>
+                  <p className={`text-xs ${section1CheckpointPassed ? 'text-green-600' : 'text-blue-100'}`}>
+                    {section1CheckpointPassed ? 'Passed — retake anytime' : 'Unlock Section 2'}
+                  </p>
+                </div>
+              </div>
+              <span className={`text-sm font-medium ${section1CheckpointPassed ? 'text-green-700' : 'text-blue-100'}`}>
+                {section1CheckpointPassed ? 'Passed' : '≥ 80% to pass'}
+              </span>
+            </Link>
+          )}
         </div>
       </div>
     </div>
