@@ -26,4 +26,5 @@ export type {
   SRSCard,
   UserProgress,
   VocabEntry,
+  XPLogEntry,
 } from './progress';

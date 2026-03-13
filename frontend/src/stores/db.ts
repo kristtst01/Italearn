@@ -1,11 +1,12 @@
 import Dexie, { type EntityTable } from 'dexie';
-import type { SRSCard, UserProgress, VocabEntry } from '../types';
+import type { SRSCard, UserProgress, VocabEntry, XPLogEntry } from '../types';
 import { loadAllLessons } from '../data/lessonLoader';
 
 export const db = new Dexie('italearn') as Dexie & {
   srsCards: EntityTable<SRSCard, 'id'>;
   progress: EntityTable<UserProgress, 'id'>;
   vocabulary: EntityTable<VocabEntry, 'id'>;
+  xpLog: EntityTable<XPLogEntry, 'date'>;
 };
 
 db.version(1).stores({
@@ -26,6 +27,13 @@ db.version(3).stores({
   progress: '++id',
   lessonsCompleted: null,
   vocabulary: '&id, unit_id',
+});
+
+db.version(4).stores({
+  srsCards: '++id, [word_id+skill_type], due',
+  progress: '++id',
+  vocabulary: '&id, unit_id',
+  xpLog: '&date',
 });
 
 /**

@@ -1,6 +1,7 @@
-import { useState, useMemo } from 'react';
+import { useState, useRef, useMemo } from 'react';
 import type { Exercise, ExerciseResult, GrammarTip, Lesson, LessonResult } from '@/types';
 import { buildLessonResult } from '@/engine/lessonRunner';
+import { calculateExerciseXP } from '@/engine/xp';
 import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
 
@@ -53,6 +54,7 @@ function getInitialRetryExercises(
 export function useLessonState(lesson: Lesson) {
   const completeLesson = useProgressStore((s) => s.completeLesson);
   const saveLessonScore = useProgressStore((s) => s.saveLessonScore);
+  const addXP = useProgressStore((s) => s.addXP);
   const lessonScore = useProgressStore((s) => s.lesson_scores[lesson.id]);
   const addCards = useSrsStore((s) => s.addCards);
 
@@ -64,6 +66,7 @@ export function useLessonState(lesson: Lesson) {
   const [results, setResults] = useState<ExerciseResult[]>([]);
   const [lessonResult, setLessonResult] = useState<LessonResult | null>(null);
   const [startTime, setStartTime] = useState(() => Date.now());
+  const streakRef = useRef(0);
 
   const exercises = retryExercises ?? lesson.exercises;
   const isRetry = retryExercises !== null;
@@ -83,6 +86,15 @@ export function useLessonState(lesson: Lesson) {
   const progress = (exercisesDone / exerciseCount) * 100;
 
   function handleExerciseComplete(result: ExerciseResult) {
+    // Track streak and award XP
+    if (result.correct) {
+      streakRef.current += 1;
+    } else {
+      streakRef.current = 0;
+    }
+    const xp = calculateExerciseXP(result.correct, streakRef.current);
+    if (xp > 0) addXP(xp);
+
     const updatedResults = [...results, result];
     setResults(updatedResults);
     advanceOrComplete(currentIndex, updatedResults);
@@ -160,6 +172,7 @@ export function useLessonState(lesson: Lesson) {
     setCurrentIndex(0);
     setResults([]);
     setLessonResult(null);
+    streakRef.current = 0;
   }
 
   return {
