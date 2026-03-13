@@ -1,6 +1,7 @@
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import ProgressBar from '@/shared/components/ProgressBar';
 import CloseIcon from '@/shared/components/CloseIcon';
+import Confetti from '@/shared/components/Confetti';
 import renderExercise from '@/features/exercises/renderExercise';
 import { useCheckpointSession } from './useCheckpointSession';
 import type { CheckpointResult, AreaResult } from './useCheckpointSession';
@@ -151,9 +152,14 @@ function CheckpointResults({ result }: { result: CheckpointResult }) {
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
+      {result.passed && <Confetti />}
       <div className="max-w-md mx-auto mt-12 space-y-6">
         <div className="text-center">
-          <div className="text-5xl mb-4">{result.passed ? '🎉' : '📚'}</div>
+          {result.passed ? (
+            <div className="text-5xl mb-4 animate-[bounce_0.6s_ease-in-out]">⭐</div>
+          ) : (
+            <div className="text-5xl mb-4">📚</div>
+          )}
           <h1 className="text-3xl font-bold text-gray-900">
             {result.passed ? 'Checkpoint Passed!' : 'Not Quite Yet'}
           </h1>
