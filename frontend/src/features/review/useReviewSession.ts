@@ -3,10 +3,10 @@ import type { ExerciseResult, ReviewResult, ReviewSession } from '@/types';
 import type { Grade } from 'ts-fsrs';
 import { useSrsStore } from '@/stores/srsStore';
 import { useProgressStore } from '@/stores/progressStore';
-import { buildReviewExercises, answerToGrade } from '@/engine/reviewRunner';
+import { buildReviewExercises, getDueCardsForUnit, answerToGrade } from '@/engine/reviewRunner';
 import { calculateReviewXP } from '@/engine/xp';
 
-export function useReviewSession() {
+export function useReviewSession(unitId?: string) {
   const dueCards = useSrsStore((s) => s.dueCards);
   const reviewableCount = useSrsStore((s) => s.reviewableCount);
   const reviewCard = useSrsStore((s) => s.reviewCard);
@@ -24,7 +24,10 @@ export function useReviewSession() {
   const totalExercises = session?.exercises.length ?? reviewableCount;
 
   async function handleStart() {
-    const built = await buildReviewExercises([...dueCards]);
+    const cards = unitId
+      ? await getDueCardsForUnit(unitId)
+      : [...dueCards];
+    const built = await buildReviewExercises(cards);
     setSession(built);
     if (built.exercises.length === 0) {
       setResult({ total: 0, correct: 0 });

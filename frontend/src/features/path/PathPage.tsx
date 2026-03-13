@@ -123,8 +123,8 @@ export default function PathPage() {
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
-      <div className="max-w-md mx-auto">
-        {/* Header */}
+      {/* Header — grows with screen */}
+      <div className="max-w-4xl mx-auto">
         <div className="flex items-center justify-between mb-6">
           <div>
             <h1 className="text-2xl font-bold text-gray-900">Learning Path</h1>
@@ -156,8 +156,10 @@ export default function PathPage() {
             </span>
           </Link>
         )}
+      </div>
 
-        {/* Winding path with CEFR banners */}
+      {/* Winding path — stays narrow and centered */}
+      <div className="max-w-md mx-auto">
         <div className="relative px-4">
           {pathItems.map((item, index) => {
             const { unit, section, showCEFRBanner, showCheckpoint, prevSection } = item;
@@ -256,6 +258,8 @@ export default function PathPage() {
                       lessons={unit.lessons}
                       completedLessons={lessonsCompleted}
                       lessonScores={lessonScores}
+                      unitId={unit.id}
+                      hasCards={unitMastery[unit.id] != null}
                       onResetLesson={resetLesson}
                     />
                     {status !== 'completed' && (

@@ -122,6 +122,18 @@ async function cardToExercise(
 }
 
 /**
+ * Get due SRS cards for a specific unit.
+ * Only returns cards that are actually due for review (due date <= now).
+ */
+export async function getDueCardsForUnit(unitId: string): Promise<SRSCard[]> {
+  const vocabEntries = await db.vocabulary.where('unit_id').equals(unitId).toArray();
+  const wordIds = new Set(vocabEntries.map((v) => v.id));
+  const allCards = await db.srsCards.toArray();
+  const now = new Date();
+  return allCards.filter((c) => wordIds.has(c.word_id) && new Date(c.due) <= now);
+}
+
+/**
  * Convert a list of due SRS cards into review exercises.
  * Skips cards whose word_id isn't found in the vocabulary table.
  * Shuffles the result so cards don't appear in predictable order.

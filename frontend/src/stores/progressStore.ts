@@ -3,6 +3,7 @@ import type { Badge, UserProgress } from '../types';
 import { db } from './db';
 import { getLevel } from '../engine/xp';
 import { getCurrentStreak } from '../engine/streak';
+import { findLesson, collectTargetWords } from '../engine/lessonRunner';
 
 const REVIEW_THRESHOLD = 5;
 
@@ -137,6 +138,26 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
       lesson_scores: scores,
     });
     await persist(get());
+
+    // Remove SRS cards for this lesson's target words
+    const lesson = await findLesson(lessonId);
+    if (lesson) {
+      const words = collectTargetWords(lesson.exercises);
+      if (words.length > 0) {
+        // Delete all SRS cards matching these word_ids
+        const allCards = await db.srsCards.toArray();
+        const wordSet = new Set(words);
+        const idsToDelete = allCards
+          .filter((c) => wordSet.has(c.word_id))
+          .map((c) => c.id!);
+        if (idsToDelete.length > 0) {
+          await db.srsCards.bulkDelete(idsToDelete);
+        }
+        // Refresh SRS store so UI updates mastery & due counts
+        const { useSrsStore } = await import('./srsStore');
+        await useSrsStore.getState().refreshDueCards();
+      }
+    }
   },
 
   async unlockUnit(unitId: string) {
