@@ -2,11 +2,56 @@ import type { Unit, LessonScore, UnitStatus } from '@/types';
 import LessonList from './LessonList';
 import StatusIcon from './StatusIcon';
 
+interface MasteryRingProps {
+  percentage: number;
+  size?: number;
+}
+
+function MasteryRing({ percentage, size = 40 }: MasteryRingProps) {
+  const strokeWidth = 3;
+  const radius = (size - strokeWidth) / 2;
+  const circumference = 2 * Math.PI * radius;
+  const offset = circumference - (percentage / 100) * circumference;
+
+  const color =
+    percentage >= 80 ? 'text-green-500' : percentage >= 50 ? 'text-yellow-500' : 'text-orange-400';
+
+  return (
+    <div className="relative flex items-center justify-center" style={{ width: size, height: size }}>
+      <svg className="absolute -rotate-90" width={size} height={size}>
+        <circle
+          cx={size / 2}
+          cy={size / 2}
+          r={radius}
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={strokeWidth}
+          className="text-gray-200"
+        />
+        <circle
+          cx={size / 2}
+          cy={size / 2}
+          r={radius}
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={strokeWidth}
+          strokeDasharray={circumference}
+          strokeDashoffset={offset}
+          strokeLinecap="round"
+          className={color}
+        />
+      </svg>
+      <span className="text-[10px] font-bold text-gray-600">{percentage}%</span>
+    </div>
+  );
+}
+
 interface UnitCardProps {
   unit: Unit;
   status: UnitStatus;
   completedLessons: string[];
   lessonScores: Record<string, LessonScore>;
+  mastery: number | undefined;
   onResetLesson: (lessonId: string) => void;
   expanded: boolean;
   onToggle: () => void;
@@ -17,6 +62,7 @@ export default function UnitCard({
   status,
   completedLessons,
   lessonScores,
+  mastery,
   onResetLesson,
   expanded,
   onToggle,
@@ -63,6 +109,9 @@ export default function UnitCard({
             </p>
           )}
         </div>
+        {!isLocked && mastery !== undefined && mastery > 0 && (
+          <MasteryRing percentage={mastery} />
+        )}
         {!isLocked && unit.lessons.length > 0 && (
           <svg
             className={`w-5 h-5 text-gray-400 transition-transform ${

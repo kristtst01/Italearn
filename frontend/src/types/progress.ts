@@ -71,6 +71,8 @@ export interface UserProgress {
   checkpoints_passed: string[];
   /** Best score per lesson, keyed by lesson ID */
   lesson_scores: Record<string, LessonScore>;
+  /** Badges earned for passing section checkpoints */
+  badges: Badge[];
   /** ISO date strings (YYYY-MM-DD) of days the user was active */
   streak_dates: string[];
   /** Daily activity counts, keyed by ISO date string */
@@ -81,6 +83,12 @@ export interface UserProgress {
 export interface DailyActivity {
   lessons: number;
   reviews: number;
+}
+
+/** Badge earned for passing a section checkpoint */
+export interface Badge {
+  sectionId: string;
+  earnedAt: string; // ISO date string
 }
 
 /** Stored in Dexie — one row per day for daily XP tracking */

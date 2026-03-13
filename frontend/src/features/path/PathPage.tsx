@@ -40,6 +40,8 @@ export default function Path() {
   const resetLesson = useProgressStore((s) => s.resetLesson);
   const checkpointsPassed = useProgressStore((s) => s.checkpoints_passed);
   const dueCount = useSrsStore((s) => s.reviewableCount);
+  const unitMastery = useSrsStore((s) => s.unitMastery);
+  const badges = useProgressStore((s) => s.badges);
 
   const allSection1Complete = units.every((u) => isUnitComplete(u, lessonsCompleted));
   const section1CheckpointPassed = checkpointsPassed.includes(section.id);
@@ -88,6 +90,7 @@ export default function Path() {
                 status={status}
                 completedLessons={lessonsCompleted}
                 lessonScores={lessonScores}
+                mastery={unitMastery[unit.id]}
                 onResetLesson={resetLesson}
                 expanded={expandedUnit === unit.id}
                 onToggle={() =>
@@ -107,7 +110,11 @@ export default function Path() {
               }`}
             >
               <div className="flex items-center gap-2">
-                <span className="text-lg">{section1CheckpointPassed ? '✓' : '🏁'}</span>
+                {badges.some((b) => b.sectionId === section.id) ? (
+                  <span className="text-lg">⭐</span>
+                ) : (
+                  <span className="text-lg">{section1CheckpointPassed ? '✓' : '🏁'}</span>
+                )}
                 <div>
                   <p className={`font-medium ${section1CheckpointPassed ? 'text-green-800' : ''}`}>
                     Section 1 Checkpoint
