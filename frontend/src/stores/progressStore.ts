@@ -2,6 +2,9 @@ import { create } from 'zustand';
 import type { UserProgress } from '../types';
 import { db } from './db';
 import { getLevel } from '../engine/xp';
+import { getCurrentStreak } from '../engine/streak';
+
+const REVIEW_THRESHOLD = 5;
 
 const DEFAULT_PROGRESS: UserProgress = {
   id: 1,
@@ -14,6 +17,8 @@ const DEFAULT_PROGRESS: UserProgress = {
   lessons_completed: [],
   checkpoints_passed: [],
   lesson_scores: {},
+  streak_dates: [],
+  daily_activity: {},
 };
 
 interface ProgressState extends UserProgress {
@@ -28,6 +33,7 @@ interface ProgressState extends UserProgress {
   resetLesson: (lessonId: string) => Promise<void>;
   unlockUnit: (unitId: string) => Promise<void>;
   passCheckpoint: (sectionId: string) => Promise<void>;
+  logActivity: (type: 'lesson' | 'review') => Promise<void>;
 }
 
 function toData(state: ProgressState): UserProgress {
@@ -42,6 +48,8 @@ function toData(state: ProgressState): UserProgress {
     lessons_completed: state.lessons_completed,
     checkpoints_passed: state.checkpoints_passed,
     lesson_scores: state.lesson_scores,
+    streak_dates: state.streak_dates,
+    daily_activity: state.daily_activity,
   };
 }
 
@@ -61,7 +69,13 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
   async hydrate() {
     const saved = await db.progress.get(1);
     if (saved) {
-      set({ ...saved, lesson_scores: saved.lesson_scores ?? {}, hydrated: true });
+      set({
+        ...saved,
+        lesson_scores: saved.lesson_scores ?? {},
+        streak_dates: saved.streak_dates ?? [],
+        daily_activity: saved.daily_activity ?? {},
+        hydrated: true,
+      });
     } else {
       await db.progress.put({ ...DEFAULT_PROGRESS, id: 1 });
       set({ ...DEFAULT_PROGRESS, hydrated: true });
@@ -131,6 +145,34 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
 
     const updated = [...get().checkpoints_passed, sectionId];
     set({ checkpoints_passed: updated });
+    await persist(get());
+  },
+
+  async logActivity(type: 'lesson' | 'review') {
+    const today = todayDateString();
+    const activity = { ...get().daily_activity };
+    const todayActivity = activity[today] ?? { lessons: 0, reviews: 0 };
+
+    if (type === 'lesson') {
+      todayActivity.lessons += 1;
+    } else {
+      todayActivity.reviews += 1;
+    }
+    activity[today] = todayActivity;
+
+    const meetsThreshold =
+      todayActivity.lessons >= 1 || todayActivity.reviews >= REVIEW_THRESHOLD;
+
+    let streakDates = get().streak_dates;
+    if (meetsThreshold && !streakDates.includes(today)) {
+      streakDates = [...streakDates, today];
+    }
+
+    set({
+      daily_activity: activity,
+      streak_dates: streakDates,
+      streak: getCurrentStreak(streakDates),
+    });
     await persist(get());
   },
 }));

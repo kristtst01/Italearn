@@ -5,6 +5,7 @@ import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
 import type { Unit, UnitStatus } from '@/types';
 import UnitCard from './UnitCard';
+import StreakCalendar from '@/shared/components/StreakCalendar';
 
 function getUnitStatus(
   unit: Unit,
@@ -52,6 +53,8 @@ export default function Path() {
         <p className="text-gray-500 mb-6">
           Section {section.order}: {section.name} — {section.cefr_level}
         </p>
+
+        <StreakCalendar />
 
         {dueCount > 0 && (
           <Link

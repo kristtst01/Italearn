@@ -11,6 +11,7 @@ export function useReviewSession() {
   const reviewableCount = useSrsStore((s) => s.reviewableCount);
   const reviewCard = useSrsStore((s) => s.reviewCard);
   const addXP = useProgressStore((s) => s.addXP);
+  const logActivity = useProgressStore((s) => s.logActivity);
 
   const [session, setSession] = useState<ReviewSession | null>(null);
   const [started, setStarted] = useState(false);
@@ -42,6 +43,8 @@ export function useReviewSession() {
       const grade: Grade = answerToGrade(er.correct, er.time_spent_ms);
       await reviewCard(card.id, grade);
     }
+
+    await logActivity('review');
 
     // Track streak and award review XP
     if (er.correct) {
