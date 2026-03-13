@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { CheckCircle, RotateCcw } from 'lucide-react';
 import type { LessonMeta, LessonScore } from '@/types';
 
 interface LessonListProps {
@@ -27,9 +28,7 @@ export default function LessonList({ lessons, completedLessons, lessonScores, on
             >
               {isCompleted ? (
                 isPerfect ? (
-                  <svg className="w-5 h-5 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
+                  <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
                 ) : (
                   <span className="text-xs font-semibold text-amber-600 flex-shrink-0 w-5 text-center">
                     {score ? `${score.score}/${score.total}` : '?'}
@@ -55,9 +54,7 @@ export default function LessonList({ lessons, completedLessons, lessonScores, on
                 aria-label={`Reset ${lesson.name}`}
                 title="Reset lesson progress"
               >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                </svg>
+                <RotateCcw className="w-4 h-4" />
               </button>
             )}
           </div>
