@@ -1,5 +1,8 @@
 # Phase 4 — Speaking Exercises
 
+> **Status: Deferred — requires a backend, do not implement with Web Speech API.**
+> The Web Speech API (`webkitSpeechRecognition`) has no Firefox support, inconsistent Italian accuracy, and cannot evaluate pronunciation quality — only transcription. The right solution is **OpenAI Whisper** for ASR, which has strong Italian support and can be run locally (e.g. RTX 3070 Ti via faster-whisper + FastAPI) or via the OpenAI Whisper API ($0.006/min). This phase is blocked on Phase 3 (audio) being complete and a backend existing. Revisit after other phases are done.
+
 **Goal:** Add speech recognition so the learner can practice pronunciation. The app listens to you speak Italian and evaluates whether you said it correctly.
 
 ## What This Delivers
@@ -52,3 +55,11 @@
 - Italian speech recognition is less mature than English — expect more misrecognitions
 - Background noise can cause failures
 - Scoring should be generous — the goal is practice, not perfection. A "close enough" approach is better than frustrating false negatives.
+
+## Architecture Decision (when revisiting)
+
+Use **Whisper** (not Web Speech API) for transcription:
+- **Local:** `faster-whisper` + FastAPI on the user's machine. On an RTX 3070 Ti, `large-v3` processes a short clip in ~0.5s. App calls `localhost:8000/transcribe`.
+- **Cloud/portable:** OpenAI Whisper API — trivial cost for personal use, same interface.
+- The `speech.ts` engine should abstract the transport so switching local↔cloud is a config change.
+- Pronunciation scoring via Levenshtein (as planned) remains valid — Whisper's transcription accuracy on Italian is high enough that distance from expected text is a meaningful pronunciation signal.

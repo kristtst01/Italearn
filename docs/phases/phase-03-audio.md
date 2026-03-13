@@ -1,5 +1,8 @@
 # Phase 3 — Audio & Listening Exercises
 
+> **Status: Deferred — needs further research before implementation.**
+> The Web Speech API (`speechSynthesis`) produces inconsistent audio quality across browsers and OS — unacceptable for a language learning app where Italian pronunciation modelling matters. The right approach is either pre-generated audio assets (one-time generation via a neural TTS API like Piper, Amazon Polly, or ElevenLabs) or a local backend service. This needs more research before building. Do not implement using `speechSynthesis`.
+
 **Goal:** Add audio to the entire app and introduce listening-specific exercises. Every Italian word and sentence becomes audible, and two new exercise types test comprehension by ear.
 
 ## What This Delivers
@@ -54,3 +57,10 @@
 - `speechSynthesis` quality varies by browser/OS — Chrome on desktop typically has the best Italian voices
 - Mobile browsers may require user interaction before first audio play
 - Consider showing a "enable audio" prompt on first visit
+
+## Open Questions (resolve before implementing)
+
+- Pre-generated static audio assets vs. runtime TTS service — evaluate bundle size, regeneration workflow, and quality tradeoffs
+- Which neural TTS engine to use for Italian (Piper TTS `it_IT-paola-medium`, Amazon Polly `Bianca` neural, ElevenLabs, Google Cloud TTS)
+- Whether audio assets are bundled, hosted on CDN, or served by a local backend
+- How to handle audio for dynamically generated review exercises (vocabulary not in lesson JSON)
