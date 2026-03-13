@@ -1,0 +1,183 @@
+{
+  "id": "unit-02-lesson-08",
+  "unit_id": "unit-02",
+  "name": "Unit 2 Review",
+  "order": 8,
+  "grammar_tips": [
+    {
+      "id": "unit-02-lesson-08-tip-01",
+      "title": "Unit 2 — Complete Introduction",
+      "explanation": "You can now introduce yourself fully in Italian: give your name, nationality, country, and respond to both informal and formal questions. A complete informal introduction: 'Ciao, mi chiamo Marco. Sono italiano, di Roma. E tu?' Formal: 'Buongiorno, mi chiamo Marco. Sono italiano. Piacere!'",
+      "example": { "italian": "Ciao, mi chiamo Marco. Sono italiano, di Roma. E tu?", "english": "Hi, my name is Marco. I'm Italian, from Rome. And you?" },
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-02-lesson-08-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which form of essere completes 'Loro ___ spagnoli'?" },
+      "sentence_context": "Loro sono spagnoli.",
+      "correct_answer": "sono",
+      "distractors": ["siamo", "siete", "è"],
+      "hints": ["'Loro' uses the same form as 'io'."],
+      "target_words": ["sono"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Anna is a woman from England. What does she say?" },
+      "sentence_context": "Sono inglese.",
+      "correct_answer": "Sono inglese.",
+      "distractors": ["Sono ingleso.", "Sono inglesa.", "Sono inglesi."],
+      "hints": ["-e endings stay the same for both genders."],
+      "target_words": ["inglese"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do you ask 'Where are you from?' formally?" },
+      "sentence_context": "Di dov'è?",
+      "correct_answer": "Di dov'è?",
+      "distractors": ["Di dove sei?", "Come ti chiami?", "Come stai?"],
+      "hints": ["The formal version uses Lei (third person singular)."],
+      "target_words": ["di dov'è"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which city is in Italy?" },
+      "sentence_context": "Roma è in Italia.",
+      "correct_answer": "Roma",
+      "distractors": ["Parigi", "Berlino", "Madrid"],
+      "hints": ["The capital of Italy."],
+      "target_words": ["l'Italia"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'piacere' mean when meeting someone?" },
+      "sentence_context": "Piacere! Mi chiamo Sofia.",
+      "correct_answer": "Nice to meet you",
+      "distractors": ["Goodbye", "Thank you", "Please"],
+      "hints": [],
+      "target_words": ["piacere"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "Translate: 'We are Italian.' (mixed group)" },
+      "sentence_context": "Noi siamo italiani.",
+      "correct_answer": ["siamo italiani", "noi siamo italiani"],
+      "distractors": [],
+      "hints": ["'We are' + masculine plural nationality."],
+      "target_words": ["siamo", "italiano"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'my name is' in Italian?" },
+      "sentence_context": "Mi chiamo Anna.",
+      "correct_answer": "mi chiamo",
+      "distractors": [],
+      "hints": ["Two words."],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I am French' (male speaker)?" },
+      "sentence_context": "Sono francese.",
+      "correct_answer": ["sono francese", "io sono francese"],
+      "distractors": [],
+      "hints": ["Francese doesn't change for gender."],
+      "target_words": ["francese"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-09",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the correct form of essere." },
+      "sentence_context": "Io ___ italiana.",
+      "correct_answer": "sono",
+      "distractors": [],
+      "hints": ["The 'io' form."],
+      "target_words": ["sono"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-10",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Complete the question (informal)." },
+      "sentence_context": "Di ___ sei?",
+      "correct_answer": "dove",
+      "distractors": [],
+      "hints": ["The Italian word for 'where'."],
+      "target_words": ["di dove sei"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Complete the introduction." },
+      "sentence_context": "Piacere! ___ chiamo Sofia.",
+      "correct_answer": "Mi",
+      "distractors": [],
+      "hints": ["Two words: mi chiamo."],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete with nationality (Italian, masculine)." },
+      "sentence_context": "Sono ___, di Roma.",
+      "correct_answer": "italiano",
+      "distractors": [],
+      "hints": ["What nationality matches being from Rome?"],
+      "target_words": ["italiano"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the formal question." },
+      "sentence_context": "Di ___? — Sono di Londra.",
+      "correct_answer": "dov'è",
+      "distractors": [],
+      "hints": ["Where are you from? (formal)"],
+      "target_words": ["di dov'è"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-14",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Hi, my name is Marco. I'm Italian.'" },
+      "sentence_context": "Ciao, mi chiamo Marco. Sono italiano.",
+      "correct_answer": ["Ciao,", "mi", "chiamo", "Marco.", "Sono", "italiano."],
+      "distractors": ["sei", "di"],
+      "hints": ["Greeting + name + nationality."],
+      "target_words": ["mi chiamo", "italiano"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Nice to meet you! Where are you from?' (formal)" },
+      "sentence_context": "Piacere! Di dov'è?",
+      "correct_answer": ["Piacere!", "Di", "dov'è?"],
+      "distractors": ["dove", "sei"],
+      "hints": ["Greeting + formal where-are-you-from."],
+      "target_words": ["piacere", "di dov'è"]
+    }
+  ],
+  "vocabulary": []
+}

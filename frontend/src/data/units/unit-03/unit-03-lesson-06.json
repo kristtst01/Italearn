@@ -1,0 +1,351 @@
+{
+  "id": "unit-03-lesson-06",
+  "unit_id": "unit-03",
+  "name": "Indefinite Articles",
+  "order": 6,
+  "grammar_tips": [
+    {
+      "id": "unit-03-lesson-06-tip-01",
+      "title": "The Four Indefinite Articles",
+      "explanation": "Italian has four words for 'a/an'. The choice depends on the gender and first sound of the noun: 'un' before most masculine nouns, 'uno' before masculine nouns starting with s+consonant or z, 'una' before feminine nouns starting with a consonant, 'un'' before feminine nouns starting with a vowel.",
+      "table": [
+        [
+          "un",
+          "masculine (un libro, un amico)"
+        ],
+        [
+          "uno",
+          "masc. before s+cons/z (uno zaino, uno studente)"
+        ],
+        [
+          "una",
+          "feminine (una casa, una donna)"
+        ],
+        [
+          "un'",
+          "fem. before vowel (un'amica, un'idea)"
+        ]
+      ],
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-03-lesson-06-tip-02",
+      "title": "Un' Needs an Apostrophe",
+      "explanation": "'Un'' (with apostrophe) is only for feminine nouns starting with a vowel: un'amica, un'idea. Before masculine nouns starting with a vowel, use 'un' (no apostrophe): un amico. The apostrophe signals a dropped 'a' from 'una'.",
+      "example": {
+        "italian": "Ho un amico e un'amica.",
+        "english": "I have a (male) friend and a (female) friend."
+      },
+      "before_exercise": 8
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which article before 'libro' (m.)?"
+      },
+      "sentence_context": "Ho un libro.",
+      "correct_answer": "un",
+      "distractors": [
+        "uno",
+        "una",
+        "un'"
+      ],
+      "hints": [
+        "Masculine, starts with consonant."
+      ],
+      "target_words": [
+        "un"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which article before 'zaino' (m., starts with z)?"
+      },
+      "sentence_context": "Ho uno zaino.",
+      "correct_answer": "uno",
+      "distractors": [
+        "un",
+        "una",
+        "un'"
+      ],
+      "hints": [
+        "Starts with z → special masculine article."
+      ],
+      "target_words": [
+        "uno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which article before 'casa' (f.)?"
+      },
+      "sentence_context": "Ho una casa.",
+      "correct_answer": "una",
+      "distractors": [
+        "un",
+        "uno",
+        "un'"
+      ],
+      "hints": [
+        "Feminine, starts with consonant."
+      ],
+      "target_words": [
+        "una"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which article before 'amica' (f., starts with vowel)?"
+      },
+      "sentence_context": "Ho un'amica.",
+      "correct_answer": "un'",
+      "distractors": [
+        "una",
+        "un",
+        "uno"
+      ],
+      "hints": [
+        "Feminine + vowel = apostrophe."
+      ],
+      "target_words": [
+        "un'"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which article before 'amico' (m., starts with vowel)?"
+      },
+      "sentence_context": "Ho un amico.",
+      "correct_answer": "un",
+      "distractors": [
+        "uno",
+        "una",
+        "un'"
+      ],
+      "hints": [
+        "Masculine before vowels still uses 'un', not 'un''!"
+      ],
+      "target_words": [
+        "un"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Give the article for 'gatto' (m.)."
+      },
+      "sentence_context": "Ho un gatto.",
+      "correct_answer": "un",
+      "distractors": [],
+      "hints": [
+        "Masculine, consonant."
+      ],
+      "target_words": [
+        "un"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Give the article for 'idea' (f., vowel)."
+      },
+      "sentence_context": "Ho un'idea.",
+      "correct_answer": "un'",
+      "distractors": [],
+      "hints": [
+        "Feminine + vowel = apostrophe."
+      ],
+      "target_words": [
+        "un'"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Give the article for 'donna' (f.)."
+      },
+      "sentence_context": "È una donna.",
+      "correct_answer": "una",
+      "distractors": [],
+      "hints": [
+        "Feminine, starts with consonant."
+      ],
+      "target_words": [
+        "una"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Give the article for 'studente' (m., starts with st)."
+      },
+      "sentence_context": "Sono uno studente.",
+      "correct_answer": "uno",
+      "distractors": [],
+      "hints": [
+        "Masculine before s+consonant."
+      ],
+      "target_words": [
+        "uno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete with the correct article."
+      },
+      "sentence_context": "Ho ___ zaino.",
+      "correct_answer": "uno",
+      "distractors": [],
+      "hints": [
+        "Zaino is masculine, starts with z."
+      ],
+      "target_words": [
+        "uno"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete with the correct article."
+      },
+      "sentence_context": "Lei ha ___ amica.",
+      "correct_answer": "un'",
+      "distractors": [],
+      "hints": [
+        "Amica is feminine, starts with vowel."
+      ],
+      "target_words": [
+        "un'"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete with the correct article."
+      },
+      "sentence_context": "Lui ha ___ libro.",
+      "correct_answer": "un",
+      "distractors": [],
+      "hints": [
+        "Libro is masculine, starts with consonant."
+      ],
+      "target_words": [
+        "un"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete with the correct article."
+      },
+      "sentence_context": "Ho ___ cane.",
+      "correct_answer": "un",
+      "distractors": [],
+      "hints": [
+        "Cane is masculine."
+      ],
+      "target_words": [
+        "un"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Choose the correct article: Ho ___ studentessa."
+      },
+      "sentence_context": "Ho una studentessa.",
+      "correct_answer": "una",
+      "distractors": [],
+      "hints": [
+        "Feminine, starts with consonant."
+      ],
+      "target_words": [
+        "una"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'I have a (female) friend and a (male) friend.'"
+      },
+      "sentence_context": "Ho un'amica e un amico.",
+      "correct_answer": [
+        "Ho",
+        "un'amica",
+        "e",
+        "un",
+        "amico."
+      ],
+      "distractors": [
+        "una",
+        "uno"
+      ],
+      "hints": [
+        "Feminine vowel gets apostrophe; masculine vowel gets plain 'un'."
+      ],
+      "target_words": [
+        "un'",
+        "un"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "un",
+      "meaning": "a/an (masculine)",
+      "example": "Ho un gatto."
+    },
+    {
+      "word": "uno",
+      "meaning": "a/an (masc. before s+cons/z)",
+      "example": "Sono uno studente."
+    },
+    {
+      "word": "una",
+      "meaning": "a/an (feminine)",
+      "example": "Ho una casa."
+    },
+    {
+      "word": "un'",
+      "meaning": "a/an (fem. before vowel)",
+      "example": "Ho un'idea."
+    }
+  ]
+}

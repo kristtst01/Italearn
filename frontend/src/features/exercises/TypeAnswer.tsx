@@ -38,6 +38,10 @@ export default function TypeAnswer({
         onChange={(e) => setAnswer(e.target.value)}
         placeholder="Type your answer…"
         autoFocus
+        autoComplete="off"
+        autoCorrect="off"
+        autoCapitalize="off"
+        spellCheck={false}
         className="w-full rounded-xl border-2 border-gray-200 px-4 py-3 text-gray-900 outline-none transition-colors focus:border-blue-500"
       />
     </ExerciseShell>

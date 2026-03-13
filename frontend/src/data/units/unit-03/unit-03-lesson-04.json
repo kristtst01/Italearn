@@ -1,0 +1,353 @@
+{
+  "id": "unit-03-lesson-04",
+  "unit_id": "unit-03",
+  "name": "Avere: ho, hai, ha",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-03-lesson-04-tip-01",
+      "title": "Avere — To Have (Singular Forms)",
+      "explanation": "'Avere' means 'to have'. The three singular forms are: ho (I have), hai (you have), ha (he/she/you-formal have). All three start with a silent H.",
+      "table": [
+        [
+          "io",
+          "ho"
+        ],
+        [
+          "tu",
+          "hai"
+        ],
+        [
+          "lui/lei/Lei",
+          "ha"
+        ]
+      ],
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-03-lesson-04-tip-02",
+      "title": "The Silent H",
+      "explanation": "The H in ho, hai, ha, hanno is always silent. It's there only to distinguish these words in writing: ho (I have) vs o (or), ha (he has) vs a (to/at), hanno (they have) vs anno (year). Never pronounce it!",
+      "example": {
+        "italian": "Hai un cane o un gatto?",
+        "english": "Do you have a dog or a cat?"
+      },
+      "before_exercise": 8
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'ho' mean?"
+      },
+      "sentence_context": "Io ho un gatto.",
+      "correct_answer": "I have",
+      "distractors": [
+        "I am",
+        "you have",
+        "he has"
+      ],
+      "hints": [
+        "It's the 'io' form of 'avere'."
+      ],
+      "target_words": [
+        "ho"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'hai' mean?"
+      },
+      "sentence_context": "Tu hai un cane.",
+      "correct_answer": "You have",
+      "distractors": [
+        "I have",
+        "He has",
+        "They have"
+      ],
+      "hints": [
+        "It's the 'tu' form of 'avere'."
+      ],
+      "target_words": [
+        "hai"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'ha' mean in 'Lei ha un libro'?"
+      },
+      "sentence_context": "Lei ha un libro.",
+      "correct_answer": "She has",
+      "distractors": [
+        "She is",
+        "I have",
+        "We have"
+      ],
+      "hints": [
+        "'Ha' is the third person singular of 'avere'."
+      ],
+      "target_words": [
+        "ha"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which form completes 'Tu ___ un cane'?"
+      },
+      "sentence_context": "Tu hai un cane.",
+      "correct_answer": "hai",
+      "distractors": [
+        "ho",
+        "ha",
+        "hanno"
+      ],
+      "hints": [
+        "The 'tu' form."
+      ],
+      "target_words": [
+        "hai"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'I have' in Italian?"
+      },
+      "sentence_context": "Io ho un gatto.",
+      "correct_answer": [
+        "ho",
+        "io ho"
+      ],
+      "distractors": [],
+      "hints": [
+        "Starts with a silent 'h'."
+      ],
+      "target_words": [
+        "ho"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'you have' in Italian?"
+      },
+      "sentence_context": "Tu hai un cane.",
+      "correct_answer": [
+        "hai",
+        "tu hai"
+      ],
+      "distractors": [],
+      "hints": [
+        "The 'tu' form, silent 'h'."
+      ],
+      "target_words": [
+        "hai"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'she has' in Italian?"
+      },
+      "sentence_context": "Lei ha un libro.",
+      "correct_answer": [
+        "ha",
+        "lei ha"
+      ],
+      "distractors": [],
+      "hints": [
+        "Third person singular, silent 'h'."
+      ],
+      "target_words": [
+        "ha"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-08",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form of avere."
+      },
+      "sentence_context": "Tu ___ un cane.",
+      "correct_answer": "hai",
+      "distractors": [],
+      "hints": [
+        "What is the 'tu' form?"
+      ],
+      "target_words": [
+        "hai"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-09",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form of avere."
+      },
+      "sentence_context": "Lui ___ un libro.",
+      "correct_answer": "ha",
+      "distractors": [],
+      "hints": [
+        "What is the third person singular form?"
+      ],
+      "target_words": [
+        "ha"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-10",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form of avere."
+      },
+      "sentence_context": "Io ___ un gatto.",
+      "correct_answer": "ho",
+      "distractors": [],
+      "hints": [
+        "The 'io' form."
+      ],
+      "target_words": [
+        "ho"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in the correct form for 'she'."
+      },
+      "sentence_context": "Lei ___ venticinque anni.",
+      "correct_answer": "ha",
+      "distractors": [],
+      "hints": [
+        "Lei = she/you-formal, uses third person singular."
+      ],
+      "target_words": [
+        "ha"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence."
+      },
+      "sentence_context": "Lui ___ tre libri.",
+      "correct_answer": "ha",
+      "distractors": [],
+      "hints": [
+        "He has three books."
+      ],
+      "target_words": [
+        "ha"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence."
+      },
+      "sentence_context": "Io ___ fame.",
+      "correct_answer": "ho",
+      "distractors": [],
+      "hints": [
+        "I'm hungry — a preview of avere idioms!"
+      ],
+      "target_words": [
+        "ho"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-14",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'I have a cat.'"
+      },
+      "sentence_context": "Io ho un gatto.",
+      "correct_answer": [
+        "Io",
+        "ho",
+        "un",
+        "gatto."
+      ],
+      "distractors": [
+        "sono",
+        "una"
+      ],
+      "hints": [
+        "Subject + verb + article + noun."
+      ],
+      "target_words": [
+        "ho"
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'She has a book.'"
+      },
+      "sentence_context": "Lei ha un libro.",
+      "correct_answer": [
+        "Lei",
+        "ha",
+        "un",
+        "libro."
+      ],
+      "distractors": [
+        "ho",
+        "una"
+      ],
+      "hints": [
+        "Subject + verb + article + noun."
+      ],
+      "target_words": [
+        "ha"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "ho",
+      "meaning": "I have",
+      "example": "Io ho un gatto."
+    },
+    {
+      "word": "hai",
+      "meaning": "you have",
+      "example": "Tu hai un cane."
+    },
+    {
+      "word": "ha",
+      "meaning": "he/she has",
+      "example": "Lui ha un libro."
+    }
+  ]
+}

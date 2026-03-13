@@ -23,25 +23,25 @@
 
 ### Section 2: Everyday Basics
 
-**Unit 4: Articles, Gender & Noun Agreement** (~5 lessons)
+**Unit 4: Articles, Gender & Noun Agreement**
 - Definite articles: il, lo, la, l', i, gli, le
 - Gender rules: -o masculine, -a feminine, -e either
 - Plural formation: -o→-i, -a→-e, -e→-i
 - Common nouns: objects, classroom items, house items
 
-**Unit 5: Descriptions & Adjectives** (~5 lessons)
+**Unit 5: Descriptions & Adjectives**
 - Adjective agreement: -o/-a/-i/-e
 - Position: usually after noun (una casa grande), some before (bello, buono, brutto)
 - Colors, sizes, personality traits, physical descriptions
 - Bello/quello special forms (bel, bell', bei, begli)
 
-**Unit 6: Family & Possessives** (~5 lessons)
+**Unit 6: Family & Possessives**
 - Family vocabulary: madre, padre, fratello, sorella, nonno, nonna, figlio, figlia, zio, zia
 - Possessive adjectives: mio, tuo, suo, nostro, vostro, loro
 - Special rule: no article with singular family members (mia madre, NOT la mia madre)
 - But: article with plural (i miei fratelli) and with loro (la loro madre)
 
-**Unit 7: Regular Verbs (-are, -ere, -ire)** (~6 lessons)
+**Unit 7: Regular Verbs (-are, -ere, -ire)** 
 - -are: parlare, mangiare, lavorare, studiare, guardare, ascoltare
 - -ere: scrivere, leggere, prendere, vivere, vedere
 - -ire: dormire, partire, aprire, sentire
@@ -50,19 +50,19 @@
 
 ### Section 3: Daily Life
 
-**Unit 8: Daily Routines & Reflexive Verbs** (~5 lessons)
+**Unit 8: Daily Routines & Reflexive Verbs**
 - Reflexive pronouns: mi, ti, si, ci, vi, si
 - Common reflexives: svegliarsi, alzarsi, lavarsi, vestirsi, pettinarsi, addormentarsi
 - Telling time basics (sono le tre, è l'una, è mezzogiorno)
 - Daily routine vocabulary
 
-**Unit 9: Prepositions & Places** (~6 lessons)
+**Unit 9: Prepositions & Places**
 - Simple: di, a, da, in, con, su, per, tra/fra
 - Articulated: al, allo, alla, all', ai, agli, alle (and same for di, da, in, su)
 - Places: la banca, il supermercato, la farmacia, la stazione, il ristorante
 - Directions: a destra, a sinistra, dritto, vicino a, lontano da
 
-**Unit 10: Food, Drink & Ordering** (~5 lessons)
+**Unit 10: Food, Drink & Ordering**
 - Food vocab: pane, pasta, carne, pesce, verdura, frutta, formaggio
 - Drinks: acqua, caffè, vino, birra, succo
 - Ordering: vorrei..., per me..., il conto per favore, un tavolo per due

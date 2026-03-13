@@ -1,27 +1,26 @@
 {
   "id": "unit-02-lesson-04",
   "unit_id": "unit-02",
-  "name": "Introductions",
+  "name": "Nationalities",
   "order": 4,
   "grammar_tips": [
     {
       "id": "unit-02-lesson-04-tip-01",
-      "title": "Mi Chiamo — Introducing Yourself",
-      "explanation": "'Mi chiamo' literally means 'I call myself'. It's the standard way to say your name in Italian. To ask someone's name informally, say 'Come ti chiami?' (How do you call yourself?).",
-      "example": { "italian": "Ciao, mi chiamo Anna. Come ti chiami?", "english": "Hi, my name is Anna. What's your name?" },
+      "title": "Nationality Adjectives and Gender",
+      "explanation": "Nationalities in Italian agree with the gender of the person. Most end in -o (masculine) or -a (feminine): italiano/italiana, americano/americana, spagnolo/spagnola. Some end in -e and stay the same for both genders: inglese, francese.",
+      "table": [
+        ["Masculine (-o)", "italiano, americano, spagnolo"],
+        ["Feminine (-a)", "italiana, americana, spagnola"],
+        ["Both genders (-e)", "inglese, francese"]
+      ],
       "before_exercise": 0
     },
     {
       "id": "unit-02-lesson-04-tip-02",
-      "title": "Sono Di... — Where You're From",
-      "explanation": "'Sono di' + city name tells people where you're from: 'Sono di Roma' (I'm from Rome). To ask, use 'Di dove sei?' (informal) or 'Di dove è?' (formal).",
-      "before_exercise": 5
-    },
-    {
-      "id": "unit-02-lesson-04-tip-03",
-      "title": "Professions and Gender",
-      "explanation": "Like nationalities, Italian professions change by gender: 'studente' (m.) / 'studentessa' (f.), 'dottore' (m.) / 'dottoressa' (f.). Some modern professions keep the same form for both.",
-      "before_exercise": 10
+      "title": "Sono + Nationality — No Article Needed",
+      "explanation": "To say your nationality, use 'sono' + nationality adjective directly. No article! 'Sono italiano' = I am Italian. 'Sono americana' = I am American. The nationality also acts as an adjective when describing someone: 'È una ragazza italiana.'",
+      "example": { "italian": "Sono italiano. E tu, sei americano?", "english": "I'm Italian. And you, are you American?" },
+      "before_exercise": 8
     }
   ],
   "exercises": [
@@ -29,269 +28,176 @@
       "id": "unit-02-lesson-04-ex-01",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'mi chiamo' mean?"
-      },
-      "sentence_context": "Ciao, mi chiamo Marco.",
-      "correct_answer": "My name is",
-      "distractors": [
-        "I live in",
-        "I come from",
-        "I work at"
-      ],
-      "hints": [
-        "Literally: 'I call myself'."
-      ],
-      "target_words": ["mi chiamo"]
+      "prompt": { "text": "What does 'italiano' mean?" },
+      "sentence_context": "Sono italiano.",
+      "correct_answer": "Italian (masculine)",
+      "distractors": ["American (masculine)", "Spanish (masculine)", "French (masculine)"],
+      "hints": [],
+      "target_words": ["italiano"]
     },
     {
       "id": "unit-02-lesson-04-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "How do you ask 'Where are you from?' informally?"
-      },
-      "sentence_context": "Ciao! Di dove sei?",
-      "correct_answer": "Di dove sei?",
-      "distractors": [
-        "Come ti chiami?",
-        "Come stai?",
-        "Che lavoro fai?"
-      ],
-      "hints": [
-        "'Di dove' means 'from where', 'sei' is the informal 'you are'."
-      ],
-      "target_words": ["di dove sei"]
+      "prompt": { "text": "What does 'americana' mean?" },
+      "sentence_context": "Lei è americana.",
+      "correct_answer": "American (feminine)",
+      "distractors": ["Italian (feminine)", "American (masculine)", "Spanish (feminine)"],
+      "hints": [],
+      "target_words": ["americana"]
     },
     {
       "id": "unit-02-lesson-04-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'Sono di Roma' mean?"
-      },
-      "sentence_context": "Di dove sei? — Sono di Roma.",
-      "correct_answer": "I'm from Rome",
-      "distractors": [
-        "I live in Rome",
-        "I like Rome",
-        "I'm going to Rome"
-      ],
-      "hints": [
-        "'Sono di' + city = I'm from that city."
-      ],
-      "target_words": ["sono di"]
+      "prompt": { "text": "Which word means 'French' for both genders?" },
+      "sentence_context": "È francese.",
+      "correct_answer": "francese",
+      "distractors": ["frances", "franceso", "francesa"],
+      "hints": ["This nationality ends in -e and doesn't change for gender."],
+      "target_words": ["francese"]
     },
     {
       "id": "unit-02-lesson-04-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'studente' mean?"
-      },
-      "sentence_context": "Sono uno studente.",
-      "correct_answer": "Student (masculine)",
-      "distractors": [
-        "Student (feminine)",
-        "Teacher",
-        "Doctor"
-      ],
-      "hints": [
-        "A common profession word — the -e ending is masculine here."
-      ],
-      "target_words": ["studente"]
+      "prompt": { "text": "Anna is from England. What does she say?" },
+      "sentence_context": "Sono inglese.",
+      "correct_answer": "Sono inglese.",
+      "distractors": ["Sono inglesa.", "Sono ingleso.", "Sono inglesi."],
+      "hints": ["-e endings don't change for gender."],
+      "target_words": ["inglese"]
     },
     {
       "id": "unit-02-lesson-04-ex-05",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Ciao, mi ___ Anna.",
-      "correct_answer": "chiamo",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I am Italian' (male speaker)?" },
+      "sentence_context": "Sono italiano.",
+      "correct_answer": ["sono italiano", "io sono italiano"],
       "distractors": [],
-      "hints": [
-        "Hi, my name is Anna."
-      ],
-      "target_words": ["mi chiamo"]
+      "hints": ["No article between 'sono' and the nationality."],
+      "target_words": ["italiano"]
     },
     {
       "id": "unit-02-lesson-04-ex-06",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Sono ___ Milano.",
-      "correct_answer": "di",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I am Italian' (female speaker)?" },
+      "sentence_context": "Sono italiana.",
+      "correct_answer": ["sono italiana", "io sono italiana"],
       "distractors": [],
-      "hints": [
-        "I'm from Milan."
-      ],
-      "target_words": ["sono di"]
+      "hints": ["Change the -o to -a for feminine."],
+      "target_words": ["italiana"]
     },
     {
       "id": "unit-02-lesson-04-ex-07",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Lei è una ___.",
-      "correct_answer": "studentessa",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'She is Spanish'?" },
+      "sentence_context": "Lei è spagnola.",
+      "correct_answer": ["lei è spagnola", "è spagnola"],
       "distractors": [],
-      "hints": [
-        "She is a student."
-      ],
-      "target_words": ["studentessa"]
+      "hints": ["Feminine form of spagnolo."],
+      "target_words": ["spagnola"]
     },
     {
       "id": "unit-02-lesson-04-ex-08",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'My name is' in Italian?"
-      },
-      "sentence_context": "Mi chiamo Marco. E tu?",
-      "correct_answer": "mi chiamo",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the nationality. Marco is Italian." },
+      "sentence_context": "Marco è ___.",
+      "correct_answer": "italiano",
       "distractors": [],
-      "hints": [
-        "Two words: 'mi' + 'chiamo'."
-      ],
-      "target_words": ["mi chiamo"]
+      "hints": ["Masculine form."],
+      "target_words": ["italiano"]
     },
     {
       "id": "unit-02-lesson-04-ex-09",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "Translate to Italian: 'student' (feminine)"
-      },
-      "sentence_context": "Sono una studentessa.",
-      "correct_answer": "studentessa",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the nationality. Anna is American." },
+      "sentence_context": "Anna è ___.",
+      "correct_answer": "americana",
       "distractors": [],
-      "hints": [
-        "Add -essa to make 'studente' feminine."
-      ],
-      "target_words": ["studentessa"]
+      "hints": ["Feminine form of americano."],
+      "target_words": ["americana"]
     },
     {
       "id": "unit-02-lesson-04-ex-10",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "Ask 'Where are you from?' informally in Italian."
-      },
-      "sentence_context": "Ciao! Di dove sei?",
-      "correct_answer": "di dove sei",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Complete: 'He is French.'" },
+      "sentence_context": "Lui è ___.",
+      "correct_answer": "francese",
       "distractors": [],
-      "hints": [
-        "'From where are you?' — three words."
-      ],
-      "target_words": ["di dove sei"]
+      "hints": ["This nationality ends in -e for both genders."],
+      "target_words": ["francese"]
     },
     {
       "id": "unit-02-lesson-04-ex-11",
       "type": "writing",
       "subtype": "fill_blank",
-      "prompt": {
-        "text": "Complete the introduction."
-      },
-      "sentence_context": "Ciao, ___ chiamo Marco.",
-      "correct_answer": "mi",
+      "prompt": { "text": "A male speaker. Fill in his nationality (Italian)." },
+      "sentence_context": "Sono ___.",
+      "correct_answer": "italiano",
       "distractors": [],
-      "hints": [
-        "The reflexive pronoun for 'I'."
-      ],
-      "target_words": ["mi chiamo"]
+      "hints": ["He uses the masculine form."],
+      "target_words": ["italiano"]
     },
     {
       "id": "unit-02-lesson-04-ex-12",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Ask where someone is from (informal)."
-      },
-      "sentence_context": "Di ___ sei?",
-      "correct_answer": "dove",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete with nationality." },
+      "sentence_context": "Ciao! Sono ___, di Roma.",
+      "correct_answer": "italiano",
       "distractors": [],
-      "hints": [
-        "The Italian word for 'where'."
-      ],
-      "target_words": ["di dove sei"]
+      "hints": ["He's Italian and from Rome."],
+      "target_words": ["italiano"]
     },
     {
       "id": "unit-02-lesson-04-ex-13",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the correct form. Marco is a student."
-      },
-      "sentence_context": "Marco è uno ___.",
-      "correct_answer": "studente",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete with nationality." },
+      "sentence_context": "Lei è ___, di Londra.",
+      "correct_answer": "inglese",
       "distractors": [],
-      "hints": [
-        "Masculine form of 'student'."
-      ],
-      "target_words": ["studente"]
+      "hints": ["She's British, from London."],
+      "target_words": ["inglese"]
     },
     {
       "id": "unit-02-lesson-04-ex-14",
       "type": "writing",
       "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words to say: 'Hi, my name is Anna.'"
-      },
-      "sentence_context": "Ciao, mi chiamo Anna.",
-      "correct_answer": ["Ciao,", "mi", "chiamo", "Anna."],
-      "distractors": ["sono", "di"],
-      "hints": [
-        "Start with the greeting."
-      ],
-      "target_words": ["mi chiamo"]
+      "prompt": { "text": "Arrange the words: 'Hi, I'm Italian.'" },
+      "sentence_context": "Ciao, sono italiano.",
+      "correct_answer": ["Ciao,", "sono", "italiano."],
+      "distractors": ["sei", "americana"],
+      "hints": ["Greeting + verb + nationality."],
+      "target_words": ["italiano"]
     },
     {
       "id": "unit-02-lesson-04-ex-15",
       "type": "writing",
       "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words to say: 'I'm from Milan.'"
-      },
-      "sentence_context": "Sono di Milano.",
-      "correct_answer": ["Sono", "di", "Milano."],
-      "distractors": ["è", "sei"],
-      "hints": [
-        "The verb comes first, then 'from', then the city."
-      ],
-      "target_words": ["sono di"]
+      "prompt": { "text": "Arrange the words: 'She is French, not Italian.'" },
+      "sentence_context": "Lei è francese, non italiana.",
+      "correct_answer": ["Lei", "è", "francese,", "non", "italiana."],
+      "distractors": ["sono", "inglese"],
+      "hints": ["Subject + verb + nationality + negation + other nationality."],
+      "target_words": ["francese"]
     }
   ],
   "vocabulary": [
-    {
-      "word": "mi chiamo",
-      "meaning": "My name is",
-      "example": "Ciao, mi chiamo Anna."
-    },
-    {
-      "word": "di dove sei",
-      "meaning": "Where are you from? (informal)",
-      "example": "Ciao! Di dove sei?"
-    },
-    {
-      "word": "sono di",
-      "meaning": "I'm from",
-      "example": "Sono di Roma."
-    },
-    {
-      "word": "studente",
-      "meaning": "Student (masculine)",
-      "example": "Sono uno studente."
-    },
-    {
-      "word": "studentessa",
-      "meaning": "Student (feminine)",
-      "example": "Sono una studentessa."
-    }
+    { "word": "italiano", "meaning": "Italian (masculine)", "example": "Sono italiano." },
+    { "word": "italiana", "meaning": "Italian (feminine)", "example": "Sono italiana." },
+    { "word": "americano", "meaning": "American (masculine)", "example": "Lui è americano." },
+    { "word": "americana", "meaning": "American (feminine)", "example": "Lei è americana." },
+    { "word": "inglese", "meaning": "English/British", "example": "Sei inglese?" },
+    { "word": "francese", "meaning": "French", "example": "Marco è francese." },
+    { "word": "spagnolo", "meaning": "Spanish (masculine)", "example": "Sono spagnolo." },
+    { "word": "spagnola", "meaning": "Spanish (feminine)", "example": "Lei è spagnola." }
   ]
 }

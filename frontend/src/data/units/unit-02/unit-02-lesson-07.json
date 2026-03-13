@@ -1,0 +1,198 @@
+{
+  "id": "unit-02-lesson-07",
+  "unit_id": "unit-02",
+  "name": "Formal Introductions",
+  "order": 7,
+  "grammar_tips": [
+    {
+      "id": "unit-02-lesson-07-tip-01",
+      "title": "Formal 'You' — Lei",
+      "explanation": "Italian has two words for 'you': 'tu' (informal, friends/family) and 'Lei' (formal, strangers/authority). 'Lei' uses the SAME verb form as lui/lei (third person singular). Always capitalize formal 'Lei'. Formal vs informal: 'Di dove sei?' (informal) → 'Di dov'è?' (formal).",
+      "table": [
+        ["Informal", "tu sei", "di dove sei?", "come ti chiami?"],
+        ["Formal", "Lei è", "di dov'è?", "come si chiama?"]
+      ],
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-02-lesson-07-tip-02",
+      "title": "Piacere — Nice to Meet You",
+      "explanation": "'Piacere' (pleasure/nice to meet you) is said when meeting someone for the first time. You can respond with 'piacere mio' (my pleasure) or simply 'piacere' again. It's used in both formal and informal situations.",
+      "example": { "italian": "Mi chiamo Marco. Piacere! — Piacere mio, mi chiamo Sofia.", "english": "My name is Marco. Nice to meet you! — My pleasure, my name is Sofia." },
+      "before_exercise": 8
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-02-lesson-07-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do you ask 'Where are you from?' formally?" },
+      "sentence_context": "Di dov'è, professore?",
+      "correct_answer": "Di dov'è?",
+      "distractors": ["Di dove sei?", "Da dove vieni?", "Di dove è?"],
+      "hints": ["The formal form uses the contracted dov'è."],
+      "target_words": ["di dov'è"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do you ask 'What is your name?' formally?" },
+      "sentence_context": "Come si chiama?",
+      "correct_answer": "Come si chiama?",
+      "distractors": ["Come ti chiami?", "Come stai?", "Come va?"],
+      "hints": ["'Si chiama' is the formal reflexive form."],
+      "target_words": ["come si chiama"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'piacere' mean when meeting someone?" },
+      "sentence_context": "Piacere! Mi chiamo Marco.",
+      "correct_answer": "Nice to meet you",
+      "distractors": ["Goodbye", "Thank you", "How are you?"],
+      "hints": [],
+      "target_words": ["piacere"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You meet your professor. How do you ask their name?" },
+      "sentence_context": "Buongiorno, professore. Come si chiama?",
+      "correct_answer": "Come si chiama?",
+      "distractors": ["Come ti chiami?", "Come stai?", "Chi sei?"],
+      "hints": ["Use the formal form with 'si'."],
+      "target_words": ["come si chiama"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which is the formal way to say 'And you?'?" },
+      "sentence_context": "Sono di Roma. E Lei?",
+      "correct_answer": "E Lei?",
+      "distractors": ["E tu?", "E voi?", "E loro?"],
+      "hints": ["Formal 'you' — remember to capitalize."],
+      "target_words": ["e Lei"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you ask 'Where are you from?' formally?" },
+      "sentence_context": "Di dov'è?",
+      "correct_answer": "di dov'è",
+      "distractors": [],
+      "hints": ["Three words with an apostrophe."],
+      "target_words": ["di dov'è"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'nice to meet you' in Italian?" },
+      "sentence_context": "Piacere! Mi chiamo Anna.",
+      "correct_answer": "piacere",
+      "distractors": [],
+      "hints": ["One word."],
+      "target_words": ["piacere"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask 'What is your name?' formally." },
+      "sentence_context": "Come si chiama?",
+      "correct_answer": "come si chiama",
+      "distractors": [],
+      "hints": ["Three words."],
+      "target_words": ["come si chiama"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-09",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Complete: 'Di ___?' (formal 'where are you from?')" },
+      "sentence_context": "Di dov'è?",
+      "correct_answer": "dov'è",
+      "distractors": [],
+      "hints": ["The contracted formal form."],
+      "target_words": ["di dov'è"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Complete the formal question." },
+      "sentence_context": "Come ___ chiama?",
+      "correct_answer": "si",
+      "distractors": [],
+      "hints": ["The formal reflexive pronoun."],
+      "target_words": ["come si chiama"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Complete the formal follow-up." },
+      "sentence_context": "Sono di Roma. E ___?",
+      "correct_answer": "Lei",
+      "distractors": [],
+      "hints": ["Formal 'And you?' — capitalize it."],
+      "target_words": ["e Lei"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: greeting when first meeting someone." },
+      "sentence_context": "Buongiorno! ___, mi chiamo Marco.",
+      "correct_answer": "Piacere",
+      "distractors": [],
+      "hints": ["Nice to meet you!"],
+      "target_words": ["piacere"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the formal question." },
+      "sentence_context": "Di ___? — Sono di Milano.",
+      "correct_answer": "dov'è",
+      "distractors": [],
+      "hints": ["Where are you from? (formal)"],
+      "target_words": ["di dov'è"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-14",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Nice to meet you! My name is Anna.'" },
+      "sentence_context": "Piacere! Mi chiamo Anna.",
+      "correct_answer": ["Piacere!", "Mi", "chiamo", "Anna."],
+      "distractors": ["Come", "sei"],
+      "hints": ["Greeting first, then introduction."],
+      "target_words": ["piacere", "mi chiamo"]
+    },
+    {
+      "id": "unit-02-lesson-07-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Good morning, what is your name?'" },
+      "sentence_context": "Buongiorno, come si chiama?",
+      "correct_answer": ["Buongiorno,", "come", "si", "chiama?"],
+      "distractors": ["ti", "stai"],
+      "hints": ["Formal greeting + formal name question."],
+      "target_words": ["come si chiama"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "di dov'è", "meaning": "where are you from? (formal)", "example": "Di dov'è, professore?" },
+    { "word": "come si chiama", "meaning": "what's your name? (formal)", "example": "Come si chiama?" },
+    { "word": "piacere", "meaning": "nice to meet you", "example": "Piacere! Mi chiamo Marco." },
+    { "word": "e Lei", "meaning": "and you? (formal)", "example": "Sono di Roma. E Lei?" }
+  ]
+}

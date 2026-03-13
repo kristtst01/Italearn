@@ -9,15 +9,20 @@ interface ArrangeWordsProps {
   onComplete: (result: ExerciseResult) => void;
 }
 
+function normalizeForCompare(s: string): string {
+  return s.trim().toLowerCase().replace(/[.,?!]+$/, '');
+}
+
 export default function ArrangeWords({
   exercise,
   onComplete,
 }: ArrangeWordsProps) {
   const correctAnswer = getCorrectAnswer(exercise);
 
+  // Include distractors in the word bank so it's not trivially easy
   const words = useMemo(
-    () => shuffle(correctAnswer.split(' ')),
-    [correctAnswer],
+    () => shuffle([...correctAnswer.split(' '), ...exercise.distractors]),
+    [correctAnswer, exercise.distractors],
   );
 
   const [placed, setPlaced] = useState<number[]>([]);
@@ -27,7 +32,8 @@ export default function ArrangeWords({
     .filter(({ i }) => !placed.includes(i));
 
   const userAnswer = placed.map((i) => words[i]).join(' ');
-  const isCorrect = userAnswer === correctAnswer;
+  const isCorrect =
+    normalizeForCompare(userAnswer) === normalizeForCompare(correctAnswer);
 
   function addWord(index: number) {
     setPlaced((prev) => [...prev, index]);

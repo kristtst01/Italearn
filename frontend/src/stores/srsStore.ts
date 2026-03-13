@@ -6,6 +6,7 @@ import { db } from './db';
 
 interface SRSState {
   dueCards: SRSCard[];
+  reviewableCount: number;
   hydrated: boolean;
   hydrate: () => Promise<void>;
   addCards: (
@@ -15,13 +16,25 @@ interface SRSState {
   refreshDueCards: () => Promise<void>;
 }
 
+/** Count how many due cards have a matching vocabulary entry. */
+async function countReviewable(dueCards: SRSCard[]): Promise<number> {
+  let count = 0;
+  for (const card of dueCards) {
+    const entry = await db.vocabulary.get(card.word_id);
+    if (entry) count++;
+  }
+  return count;
+}
+
 export const useSrsStore = create<SRSState>()((set, get) => ({
   dueCards: [],
+  reviewableCount: 0,
   hydrated: false,
 
   async hydrate() {
     const dueCards = await srs.getDueCards();
-    set({ dueCards, hydrated: true });
+    const reviewableCount = await countReviewable(dueCards);
+    set({ dueCards, reviewableCount, hydrated: true });
   },
 
   async addCards(cards) {
@@ -47,6 +60,7 @@ export const useSrsStore = create<SRSState>()((set, get) => ({
 
   async refreshDueCards() {
     const dueCards = await srs.getDueCards();
-    set({ dueCards });
+    const reviewableCount = await countReviewable(dueCards);
+    set({ dueCards, reviewableCount });
   },
 }));

@@ -52,5 +52,5 @@
 ### 3. Curriculum JSON Files
 - `unit-11.json` through `unit-21.json`
 - Checkpoint 4, 5, 6 content
-- Each unit ~5-6 lessons, ~10-15 exercises per lesson
+- Each unit ~5-10 lessons, ~10-15 exercises per lesson
 - Exercise mix: ~25% multiple choice, ~25% type answer, ~15% fill-in-blank, ~15% cloze, ~10% listening, ~10% match pairs
