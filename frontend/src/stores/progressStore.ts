@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import type { UserProgress } from '../types';
+import type { Badge, UserProgress } from '../types';
 import { db } from './db';
 import { getLevel } from '../engine/xp';
 import { getCurrentStreak } from '../engine/streak';
@@ -17,6 +17,7 @@ const DEFAULT_PROGRESS: UserProgress = {
   lessons_completed: [],
   checkpoints_passed: [],
   lesson_scores: {},
+  badges: [],
   streak_dates: [],
   daily_activity: {},
 };
@@ -33,6 +34,7 @@ interface ProgressState extends UserProgress {
   resetLesson: (lessonId: string) => Promise<void>;
   unlockUnit: (unitId: string) => Promise<void>;
   passCheckpoint: (sectionId: string) => Promise<void>;
+  awardBadge: (sectionId: string) => Promise<void>;
   logActivity: (type: 'lesson' | 'review') => Promise<void>;
 }
 
@@ -48,6 +50,7 @@ function toData(state: ProgressState): UserProgress {
     lessons_completed: state.lessons_completed,
     checkpoints_passed: state.checkpoints_passed,
     lesson_scores: state.lesson_scores,
+    badges: state.badges,
     streak_dates: state.streak_dates,
     daily_activity: state.daily_activity,
   };
@@ -72,6 +75,7 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
       set({
         ...saved,
         lesson_scores: saved.lesson_scores ?? {},
+        badges: saved.badges ?? [],
         streak_dates: saved.streak_dates ?? [],
         daily_activity: saved.daily_activity ?? {},
         hydrated: true,
@@ -145,6 +149,14 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
 
     const updated = [...get().checkpoints_passed, sectionId];
     set({ checkpoints_passed: updated });
+    await persist(get());
+  },
+
+  async awardBadge(sectionId: string) {
+    if (get().badges.some((b) => b.sectionId === sectionId)) return;
+
+    const badge: Badge = { sectionId, earnedAt: new Date().toISOString() };
+    set({ badges: [...get().badges, badge] });
     await persist(get());
   },
 

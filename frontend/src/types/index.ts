@@ -18,6 +18,7 @@ export type {
 } from './exercise';
 
 export type {
+  Badge,
   DailyActivity,
   ExerciseResult,
   LessonResult,

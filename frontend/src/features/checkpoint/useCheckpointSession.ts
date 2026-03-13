@@ -29,6 +29,7 @@ const AREA_LABELS: Record<string, string> = {
 
 export function useCheckpointSession(sectionId: string) {
   const passCheckpoint = useProgressStore((s) => s.passCheckpoint);
+  const awardBadge = useProgressStore((s) => s.awardBadge);
   const addXP = useProgressStore((s) => s.addXP);
   const checkpointsPassed = useProgressStore((s) => s.checkpoints_passed);
 
@@ -72,6 +73,7 @@ export function useCheckpointSession(sectionId: string) {
       setCheckpointResult(finalResult);
       if (finalResult.passed) {
         await passCheckpoint(sectionId);
+        await awardBadge(sectionId);
         await addXP(getCheckpointBonusXP());
       }
     } else {
