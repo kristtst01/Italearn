@@ -72,3 +72,11 @@ export interface UserProgress {
   /** Best score per lesson, keyed by lesson ID */
   lesson_scores: Record<string, LessonScore>;
 }
+
+/** Stored in Dexie — one row per day for daily XP tracking */
+export interface XPLogEntry {
+  /** ISO date string YYYY-MM-DD */
+  date: string;
+  /** Total XP earned on this date */
+  xp: number;
+}

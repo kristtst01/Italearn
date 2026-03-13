@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import type { UserProgress } from '../types';
 import { db } from './db';
+import { getLevel } from '../engine/xp';
 
 const DEFAULT_PROGRESS: UserProgress = {
   id: 1,
@@ -17,7 +18,11 @@ const DEFAULT_PROGRESS: UserProgress = {
 
 interface ProgressState extends UserProgress {
   hydrated: boolean;
+  /** Level before the most recent addXP call — null if no level-up occurred */
+  previousLevel: number | null;
   hydrate: () => Promise<void>;
+  addXP: (amount: number) => Promise<void>;
+  clearLevelUp: () => void;
   completeLesson: (lessonId: string) => Promise<void>;
   saveLessonScore: (lessonId: string, score: number, total: number, missedExerciseIds: string[]) => Promise<void>;
   resetLesson: (lessonId: string) => Promise<void>;
@@ -44,9 +49,14 @@ async function persist(state: ProgressState) {
   await db.progress.put(toData(state));
 }
 
+function todayDateString(): string {
+  return new Date().toISOString().slice(0, 10);
+}
+
 export const useProgressStore = create<ProgressState>()((set, get) => ({
   ...DEFAULT_PROGRESS,
   hydrated: false,
+  previousLevel: null,
 
   async hydrate() {
     const saved = await db.progress.get(1);
@@ -56,6 +66,31 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
       await db.progress.put({ ...DEFAULT_PROGRESS, id: 1 });
       set({ ...DEFAULT_PROGRESS, hydrated: true });
     }
+  },
+
+  async addXP(amount: number) {
+    if (amount <= 0) return;
+
+    const oldLevel = getLevel(get().xp).level;
+    const newXP = get().xp + amount;
+    const newLevelInfo = getLevel(newXP);
+
+    const leveledUp = newLevelInfo.level > oldLevel;
+    set({
+      xp: newXP,
+      level: newLevelInfo.level,
+      previousLevel: leveledUp ? oldLevel : null,
+    });
+    await persist(get());
+
+    // Update daily XP log
+    const today = todayDateString();
+    const existing = await db.xpLog.get(today);
+    await db.xpLog.put({ date: today, xp: (existing?.xp ?? 0) + amount });
+  },
+
+  clearLevelUp() {
+    set({ previousLevel: null });
   },
 
   async completeLesson(lessonId: string) {

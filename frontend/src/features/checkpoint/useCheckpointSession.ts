@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { buildCheckpointExercises } from '@/engine/checkpointRunner';
 import type { CheckpointExerciseMap } from '@/engine/checkpointRunner';
 import { useProgressStore } from '@/stores/progressStore';
+import { calculateExerciseXP, getCheckpointBonusXP } from '@/engine/xp';
 
 const PASS_THRESHOLD = 0.8;
 
@@ -28,6 +29,7 @@ const AREA_LABELS: Record<string, string> = {
 
 export function useCheckpointSession(sectionId: string) {
   const passCheckpoint = useProgressStore((s) => s.passCheckpoint);
+  const addXP = useProgressStore((s) => s.addXP);
   const checkpointsPassed = useProgressStore((s) => s.checkpoints_passed);
 
   const alreadyPassed = checkpointsPassed.includes(sectionId);
@@ -39,6 +41,7 @@ export function useCheckpointSession(sectionId: string) {
   const [results, setResults] = useState<ExerciseResult[]>([]);
   const [checkpointResult, setCheckpointResult] =
     useState<CheckpointResult | null>(null);
+  const streakRef = useRef(0);
 
   const currentExercise = exercises[currentIndex] ?? null;
   const totalExercises = exercises.length;
@@ -51,6 +54,15 @@ export function useCheckpointSession(sectionId: string) {
   }
 
   async function handleExerciseComplete(er: ExerciseResult) {
+    // Track streak and award XP
+    if (er.correct) {
+      streakRef.current += 1;
+    } else {
+      streakRef.current = 0;
+    }
+    const xp = calculateExerciseXP(er.correct, streakRef.current);
+    if (xp > 0) addXP(xp);
+
     const updated = [...results, er];
     setResults(updated);
 
@@ -60,6 +72,7 @@ export function useCheckpointSession(sectionId: string) {
       setCheckpointResult(finalResult);
       if (finalResult.passed) {
         await passCheckpoint(sectionId);
+        await addXP(getCheckpointBonusXP());
       }
     } else {
       setCurrentIndex(nextIndex);
