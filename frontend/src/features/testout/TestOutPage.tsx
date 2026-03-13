@@ -39,7 +39,7 @@ export default function TestOutPage() {
         <div className="text-center">
           <p className="text-gray-500">Unit not found</p>
           <button
-            onClick={() => navigate('/path')}
+            onClick={() => navigate('/')}
             className="mt-4 text-blue-600 hover:underline"
           >
             Back to path
@@ -55,7 +55,7 @@ export default function TestOutPage() {
         <div className="text-center">
           <p className="text-gray-500">This unit doesn't have vocabulary content yet.</p>
           <button
-            onClick={() => navigate('/path')}
+            onClick={() => navigate('/')}
             className="mt-4 text-blue-600 hover:underline"
           >
             Back to path
@@ -72,7 +72,7 @@ export default function TestOutPage() {
         unitOrder={unit.order}
         loading={loading}
         onStart={handleStart}
-        onBack={() => navigate('/path')}
+        onBack={() => navigate('/')}
       />
     );
   }
@@ -93,7 +93,7 @@ export default function TestOutPage() {
       <div className="sticky top-0 bg-white border-b border-gray-200 px-4 py-3 z-10">
         <div className="max-w-2xl mx-auto flex items-center gap-4">
           <button
-            onClick={() => navigate('/path')}
+            onClick={() => navigate('/')}
             className="text-gray-400 hover:text-gray-600 transition-colors"
             aria-label="Exit test-out"
           >
@@ -228,7 +228,7 @@ function TestOutResults({
 
         <div className="space-y-3">
           <button
-            onClick={() => navigate('/path')}
+            onClick={() => navigate('/')}
             autoFocus
             className="w-full px-4 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors"
           >

@@ -1,50 +1,12 @@
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
+import { Lock, Check } from 'lucide-react';
 import type { Unit, UnitStatus } from '@/types';
 
-interface MasteryRingProps {
-  percentage: number;
-  size: number;
-  children: React.ReactNode;
-}
-
-function MasteryRing({ percentage, size, children }: MasteryRingProps) {
-  const strokeWidth = 4;
-  const radius = (size - strokeWidth) / 2;
-  const circumference = 2 * Math.PI * radius;
-  const offset = circumference - (percentage / 100) * circumference;
-
-  const color =
-    percentage >= 80 ? 'text-green-500' : percentage >= 50 ? 'text-amber-500' : 'text-orange-400';
-
-  return (
-    <div className="relative flex items-center justify-center" style={{ width: size, height: size }}>
-      <svg className="absolute -rotate-90" width={size} height={size}>
-        <circle
-          cx={size / 2}
-          cy={size / 2}
-          r={radius}
-          fill="none"
-          stroke="currentColor"
-          strokeWidth={strokeWidth}
-          className="text-gray-200"
-        />
-        {percentage > 0 && (
-          <circle
-            cx={size / 2}
-            cy={size / 2}
-            r={radius}
-            fill="none"
-            stroke="currentColor"
-            strokeWidth={strokeWidth}
-            strokeDasharray={circumference}
-            strokeDashoffset={offset}
-            strokeLinecap="round"
-            className={color}
-          />
-        )}
-      </svg>
-      {children}
-    </div>
-  );
+function getMasteryColor(percentage: number): string {
+  if (percentage >= 80) return '#22c55e';
+  if (percentage >= 50) return '#f59e0b';
+  return '#fb923c';
 }
 
 interface PathNodeProps {
@@ -72,6 +34,8 @@ export default function PathNode({
 }: PathNodeProps) {
   const isLocked = status === 'locked';
   const nodeSize = 72;
+  const masteryValue = isLocked ? 0 : (mastery ?? 0);
+  const masteryColor = getMasteryColor(masteryValue);
 
   const alignClass =
     side === 'left' ? 'items-start' : side === 'right' ? 'items-end' : 'items-center';
@@ -93,9 +57,18 @@ export default function PathNode({
           />
         )}
 
-        <MasteryRing percentage={isLocked ? 0 : (mastery ?? 0)} size={nodeSize}>
+        <div className="relative flex items-center justify-center" style={{ width: nodeSize, height: nodeSize }}>
+          <CircularProgressbar
+            value={masteryValue}
+            styles={buildStyles({
+              pathColor: masteryColor,
+              trailColor: '#e5e7eb',
+              strokeLinecap: 'round',
+            })}
+            strokeWidth={6}
+          />
           <div
-            className={`rounded-full flex items-center justify-center text-sm font-bold transition-colors ${
+            className={`absolute rounded-full flex items-center justify-center text-sm font-bold transition-colors ${
               isLocked
                 ? 'bg-gray-200 text-gray-400'
                 : status === 'completed'
@@ -107,18 +80,14 @@ export default function PathNode({
             style={{ width: nodeSize - 16, height: nodeSize - 16 }}
           >
             {isLocked ? (
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-              </svg>
+              <Lock className="w-5 h-5" />
             ) : status === 'completed' ? (
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-              </svg>
+              <Check className="w-5 h-5" />
             ) : (
               unit.order
             )}
           </div>
-        </MasteryRing>
+        </div>
 
         {/* Unit name label */}
         <span

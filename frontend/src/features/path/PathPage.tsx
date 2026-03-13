@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, useMemo, createRef } from 'react';
 import { Link } from 'react-router-dom';
+import { RotateCcw, UserCircle } from 'lucide-react';
 import { curriculum } from '@/data/curriculum';
 import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
@@ -132,10 +133,11 @@ export default function PathPage() {
             </p>
           </div>
           <Link
-            to="/"
-            className="text-sm text-blue-600 hover:text-blue-800 font-medium"
+            to="/profile"
+            className="text-gray-400 hover:text-gray-600 transition-colors"
+            aria-label="Profile"
           >
-            Home
+            <UserCircle className="w-7 h-7" />
           </Link>
         </div>
 
@@ -146,9 +148,7 @@ export default function PathPage() {
             className="flex items-center justify-between rounded-xl bg-blue-600 text-white px-4 py-3 mb-6 hover:bg-blue-700 transition-colors"
           >
             <div className="flex items-center gap-2">
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-              </svg>
+              <RotateCcw className="w-5 h-5" />
               <span className="font-medium">Review</span>
             </div>
             <span className="bg-white/20 rounded-full px-2.5 py-0.5 text-sm font-medium">

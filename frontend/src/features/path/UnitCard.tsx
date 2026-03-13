@@ -1,49 +1,14 @@
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
+import { ChevronDown } from 'lucide-react';
 import type { Unit, LessonScore, UnitStatus } from '@/types';
 import LessonList from './LessonList';
 import StatusIcon from './StatusIcon';
 
-interface MasteryRingProps {
-  percentage: number;
-  size?: number;
-}
-
-function MasteryRing({ percentage, size = 40 }: MasteryRingProps) {
-  const strokeWidth = 3;
-  const radius = (size - strokeWidth) / 2;
-  const circumference = 2 * Math.PI * radius;
-  const offset = circumference - (percentage / 100) * circumference;
-
-  const color =
-    percentage >= 80 ? 'text-green-500' : percentage >= 50 ? 'text-yellow-500' : 'text-orange-400';
-
-  return (
-    <div className="relative flex items-center justify-center" style={{ width: size, height: size }}>
-      <svg className="absolute -rotate-90" width={size} height={size}>
-        <circle
-          cx={size / 2}
-          cy={size / 2}
-          r={radius}
-          fill="none"
-          stroke="currentColor"
-          strokeWidth={strokeWidth}
-          className="text-gray-200"
-        />
-        <circle
-          cx={size / 2}
-          cy={size / 2}
-          r={radius}
-          fill="none"
-          stroke="currentColor"
-          strokeWidth={strokeWidth}
-          strokeDasharray={circumference}
-          strokeDashoffset={offset}
-          strokeLinecap="round"
-          className={color}
-        />
-      </svg>
-      <span className="text-[10px] font-bold text-gray-600">{percentage}%</span>
-    </div>
-  );
+function getMasteryColor(percentage: number): string {
+  if (percentage >= 80) return '#22c55e';
+  if (percentage >= 50) return '#eab308';
+  return '#fb923c';
 }
 
 interface UnitCardProps {
@@ -110,20 +75,27 @@ export default function UnitCard({
           )}
         </div>
         {!isLocked && mastery !== undefined && mastery > 0 && (
-          <MasteryRing percentage={mastery} />
+          <div className="relative flex items-center justify-center" style={{ width: 40, height: 40 }}>
+            <CircularProgressbar
+              value={mastery}
+              text={`${mastery}%`}
+              styles={buildStyles({
+                pathColor: getMasteryColor(mastery),
+                trailColor: '#e5e7eb',
+                strokeLinecap: 'round',
+                textSize: '28px',
+                textColor: '#4b5563',
+              })}
+              strokeWidth={8}
+            />
+          </div>
         )}
         {!isLocked && unit.lessons.length > 0 && (
-          <svg
+          <ChevronDown
             className={`w-5 h-5 text-gray-400 transition-transform ${
               expanded ? 'rotate-180' : ''
             }`}
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-          </svg>
+          />
         )}
       </button>
 
