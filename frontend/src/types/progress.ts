@@ -71,6 +71,16 @@ export interface UserProgress {
   checkpoints_passed: string[];
   /** Best score per lesson, keyed by lesson ID */
   lesson_scores: Record<string, LessonScore>;
+  /** ISO date strings (YYYY-MM-DD) of days the user was active */
+  streak_dates: string[];
+  /** Daily activity counts, keyed by ISO date string */
+  daily_activity: Record<string, DailyActivity>;
+}
+
+/** Daily activity counters for streak threshold evaluation */
+export interface DailyActivity {
+  lessons: number;
+  reviews: number;
 }
 
 /** Stored in Dexie — one row per day for daily XP tracking */

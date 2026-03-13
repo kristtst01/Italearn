@@ -55,6 +55,7 @@ export function useLessonState(lesson: Lesson) {
   const completeLesson = useProgressStore((s) => s.completeLesson);
   const saveLessonScore = useProgressStore((s) => s.saveLessonScore);
   const addXP = useProgressStore((s) => s.addXP);
+  const logActivity = useProgressStore((s) => s.logActivity);
   const lessonScore = useProgressStore((s) => s.lesson_scores[lesson.id]);
   const addCards = useSrsStore((s) => s.addCards);
 
@@ -142,6 +143,7 @@ export function useLessonState(lesson: Lesson) {
 
     if (!isRetry) {
       await completeLesson(lesson.id);
+      await logActivity('lesson');
 
       const cardsToCreate: { wordId: string; skillType: 'vocab' | 'writing' }[] = [];
       for (const word of result.wordsEncountered) {
