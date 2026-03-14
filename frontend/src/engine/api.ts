@@ -34,8 +34,17 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
 
 // --- Auth ---
 
+export type UserInfo = { id: string; clerk_id: string; email: string; display_name: string | null };
+
 export function getMe() {
-  return request<{ id: string; clerk_id: string; email: string; display_name: string | null }>('/api/v1/auth/me');
+  return request<UserInfo>('/api/v1/auth/me');
+}
+
+export function updateMe(data: { display_name?: string }) {
+  return request<UserInfo>('/api/v1/auth/me', {
+    method: 'PATCH',
+    body: JSON.stringify(data),
+  });
 }
 
 // --- Progress ---
