@@ -2,9 +2,7 @@ import { useState, useMemo } from 'react';
 import { TriangleAlert } from 'lucide-react';
 import StreakCalendar from '@/shared/components/StreakCalendar';
 import ProgressBar from '@/shared/components/ProgressBar';
-import { db } from '@/stores/db';
 import { useProgressStore } from '@/stores/progressStore';
-import { useSrsStore } from '@/stores/srsStore';
 import { getLevel } from '@/engine/xp';
 
 export default function ProfilePage() {
@@ -18,12 +16,7 @@ export default function ProfilePage() {
   const levelProgress = xpNeeded > 0 ? Math.round((xpInLevel / xpNeeded) * 100) : 100;
 
   async function handleReset() {
-    await db.progress.clear();
-    await db.srsCards.clear();
-    await db.xpLog.clear();
-    await db.vocabulary.clear();
-    await useProgressStore.getState().hydrate();
-    await useSrsStore.getState().refreshDueCards();
+    // TODO: add a DELETE /api/v1/progress/reset endpoint for full server-side reset
     setConfirmReset(false);
     window.location.reload();
   }

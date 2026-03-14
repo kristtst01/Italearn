@@ -4,7 +4,7 @@ import { BookOpen, RotateCcw, Flame, Trophy, GraduationCap } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
-import { db } from '@/stores/db';
+import { filterVocab } from '@/engine/vocabCache';
 import { getLevel } from '@/engine/xp';
 import { getLongestStreak } from '@/engine/streak';
 
@@ -44,8 +44,8 @@ export default function StatsPage() {
 
   const [wordsData, setWordsData] = useState<{ total: number; recent: number; perDay: Record<string, number> }>({ total: 0, recent: 0, perDay: {} });
   useEffect(() => {
-    async function load() {
-      const allVocab = await db.vocabulary.filter((v) => !!v.learned_at).toArray();
+    function load() {
+      const allVocab = filterVocab((v) => !!v.learned_at);
       const cutoff = new Date();
       cutoff.setDate(cutoff.getDate() - 14);
       const cutoffStr = cutoff.toISOString();

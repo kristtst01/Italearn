@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
-import { db } from '@/stores/db';
+import { getVocab } from '@/engine/vocabCache';
 import type { VocabEntry } from '@/types';
 
 interface HighlightedTextProps {
@@ -57,15 +57,12 @@ export default function HighlightedText({ text, words }: HighlightedTextProps) {
 
   useEffect(() => {
     if (!words.length) return;
-    async function load() {
-      const map = new Map<string, VocabEntry>();
-      for (const wordId of words) {
-        const entry = await db.vocabulary.get(wordId);
-        if (entry) map.set(entry.word.toLowerCase(), entry);
-      }
-      setVocabMap(map);
+    const map = new Map<string, VocabEntry>();
+    for (const wordId of words) {
+      const entry = getVocab(wordId);
+      if (entry) map.set(entry.word.toLowerCase(), entry);
     }
-    load();
+    setVocabMap(map);
   }, [words]);
 
   if (!words.length) return <>{text}</>;

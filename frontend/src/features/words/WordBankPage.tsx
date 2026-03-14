@@ -1,9 +1,10 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Search } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { db } from '@/stores/db';
-import type { VocabEntry, SRSCard } from '@/types';
+import { filterVocab } from '@/engine/vocabCache';
+import { useSrsStore } from '@/stores/srsStore';
+import type { SRSCard } from '@/types';
 import { curriculum } from '@/data/curriculum';
 
 type SRSStatus = 'new' | 'learning' | 'due' | 'mature';
@@ -54,22 +55,11 @@ function getUnitName(unitId: string): string {
 }
 
 export default function WordBankPage() {
-  const [words, setWords] = useState<VocabEntry[]>([]);
-  const [cards, setCards] = useState<SRSCard[]>([]);
+  const allCards = useSrsStore((s) => s.allCards);
+  const words = useMemo(() => filterVocab((v) => !!v.learned_at), []);
+  const cards = allCards;
   const [search, setSearch] = useState('');
   const [filterUnit, setFilterUnit] = useState<string | null>(null);
-
-  useEffect(() => {
-    async function load() {
-      const [allVocab, srsCards] = await Promise.all([
-        db.vocabulary.toArray(),
-        db.srsCards.toArray(),
-      ]);
-      setWords(allVocab.filter((v) => v.learned_at));
-      setCards(srsCards);
-    }
-    load();
-  }, []);
 
   const cardMap = useMemo(() => {
     const map = new Map<string, SRSCard>();

@@ -1,28 +1,20 @@
 import type { Exercise, SRSCard, VocabEntry } from '../types';
-import { db } from '../stores/db';
+import { getVocab, getVocabByUnit, getAllVocab } from './vocabCache';
 import { shuffle } from '../shared/utils/shuffle';
 
 /**
- * Pick up to `count` random distractors from the vocabulary table,
+ * Pick up to `count` random distractors from the vocabulary,
  * preferring words from the same unit, excluding the target word.
  */
-async function pickDistractors(
+function pickDistractors(
   entry: VocabEntry,
   count: number,
   mode: 'word' | 'meaning',
-): Promise<string[]> {
-  // Try same-unit words first
-  let pool = await db.vocabulary
-    .where('unit_id')
-    .equals(entry.unit_id)
-    .filter((v) => v.id !== entry.id)
-    .toArray();
+): string[] {
+  let pool = getVocabByUnit(entry.unit_id).filter((v) => v.id !== entry.id);
 
-  // If not enough, pull from all vocabulary
   if (pool.length < count) {
-    pool = await db.vocabulary
-      .filter((v) => v.id !== entry.id)
-      .toArray();
+    pool = getAllVocab().filter((v) => v.id !== entry.id);
   }
 
   const shuffled = shuffle(pool).slice(0, count);
@@ -31,7 +23,7 @@ async function pickDistractors(
 
 /**
  * Strip parenthetical notes from vocabulary meanings so they don't give away
- * the answer in review prompts. E.g. "hunger (ho fame = I'm hungry)" → "hunger".
+ * the answer in review prompts.
  */
 function cleanMeaning(meaning: string): string {
   return meaning.replace(/\s*\(.*?\)\s*/g, '').trim();
@@ -39,7 +31,6 @@ function cleanMeaning(meaning: string): string {
 
 /**
  * Build a cloze exercise: blank out the target word in the example sentence.
- * Returns null if the word can't be found in the example.
  */
 function buildClozeExercise(
   baseId: string,
@@ -64,22 +55,15 @@ function buildClozeExercise(
 
 /**
  * Convert an SRS card into a review Exercise.
- * Randomly varies between exercise types to keep reviews engaging:
- *
- * vocab skill:   multiple_choice (IT→EN) or cloze (blank word in example)
- * writing skill: type_answer (EN→IT) or fill_blank (blank word in example)
  */
-async function cardToExercise(
-  card: SRSCard,
-): Promise<Exercise | null> {
-  const entry = await db.vocabulary.get(card.word_id);
+function cardToExercise(card: SRSCard): Exercise | null {
+  const entry = getVocab(card.word_id);
   if (!entry) return null;
 
   const baseId = `review-${card.id}`;
   const meaning = cleanMeaning(entry.meaning);
 
   if (card.skill_type === 'vocab') {
-    // 40% chance of cloze if the word appears in the example
     if (Math.random() < 0.4) {
       const cloze = buildClozeExercise(baseId, entry, card);
       if (cloze) return cloze;
@@ -91,14 +75,13 @@ async function cardToExercise(
       prompt: { text: `What does '${entry.word}' mean?` },
       sentence_context: entry.example,
       correct_answer: meaning,
-      distractors: (await pickDistractors(entry, 3, 'meaning')).map(cleanMeaning),
+      distractors: pickDistractors(entry, 3, 'meaning').map(cleanMeaning),
       hints: [],
       target_words: [card.word_id],
     };
   }
 
   if (card.skill_type === 'writing') {
-    // 30% chance of fill_blank if the word appears in the example
     if (Math.random() < 0.3) {
       const cloze = buildClozeExercise(baseId, entry, card);
       if (cloze) {
@@ -123,44 +106,35 @@ async function cardToExercise(
 
 /**
  * Get due SRS cards for a specific unit.
- * Only returns cards that are actually due for review (due date <= now).
  */
-export async function getDueCardsForUnit(unitId: string): Promise<SRSCard[]> {
-  const vocabEntries = await db.vocabulary.where('unit_id').equals(unitId).toArray();
+export function getDueCardsForUnit(unitId: string, allCards: SRSCard[]): SRSCard[] {
+  const vocabEntries = getVocabByUnit(unitId);
   const wordIds = new Set(vocabEntries.map((v) => v.id));
-  const allCards = await db.srsCards.toArray();
   const now = new Date();
   return allCards.filter((c) => wordIds.has(c.word_id) && new Date(c.due) <= now);
 }
 
 /**
  * Get SRS cards for learned vocabulary in a unit (regardless of due date).
- * Only includes words the user has actually encountered in completed lessons.
  */
-export async function getLearnedCardsForUnit(unitId: string): Promise<SRSCard[]> {
-  const vocabEntries = await db.vocabulary
-    .where('unit_id')
-    .equals(unitId)
-    .filter((v) => !!v.learned_at)
-    .toArray();
+export function getLearnedCardsForUnit(unitId: string, allCards: SRSCard[]): SRSCard[] {
+  const vocabEntries = getVocabByUnit(unitId).filter((v) => !!v.learned_at);
   const wordIds = new Set(vocabEntries.map((v) => v.id));
-  const allCards = await db.srsCards.toArray();
   return allCards.filter((c) => wordIds.has(c.word_id));
 }
 
 /**
  * Build a match_pairs exercise from a group of vocab cards.
- * Returns null if fewer than 3 cards have valid vocabulary entries.
  */
-async function buildMatchPairsExercise(
+function buildMatchPairsExercise(
   cards: SRSCard[],
   index: number,
-): Promise<{ exercise: Exercise; cards: SRSCard[] } | null> {
+): { exercise: Exercise; cards: SRSCard[] } | null {
   const entries: VocabEntry[] = [];
   const usedCards: SRSCard[] = [];
 
   for (const card of cards) {
-    const entry = await db.vocabulary.get(card.word_id);
+    const entry = getVocab(card.word_id);
     if (entry) {
       entries.push(entry);
       usedCards.push(card);
@@ -187,24 +161,20 @@ async function buildMatchPairsExercise(
 
 /**
  * Convert a list of due SRS cards into review exercises.
- * Skips cards whose word_id isn't found in the vocabulary table.
- * When enough vocab cards are due, groups some into match_pairs exercises.
- * Shuffles the result so cards don't appear in predictable order.
  */
-export async function buildReviewExercises(dueCards: SRSCard[]): Promise<{
+export function buildReviewExercises(dueCards: SRSCard[]): {
   exercises: Exercise[];
   cardMap: Map<string, SRSCard[]>;
-}> {
+} {
   const exercises: Exercise[] = [];
   const cardMap = new Map<string, SRSCard[]>();
   const usedCardIds = new Set<number>();
 
-  // Try to create a match_pairs exercise when we have enough vocab cards
   const vocabCards = dueCards.filter((c) => c.skill_type === 'vocab');
   if (vocabCards.length >= 6) {
-    const groupSize = Math.min(4, vocabCards.length - 2); // leave at least 2 for individual
+    const groupSize = Math.min(4, vocabCards.length - 2);
     const matchCards = shuffle(vocabCards).slice(0, groupSize);
-    const result = await buildMatchPairsExercise(matchCards, 0);
+    const result = buildMatchPairsExercise(matchCards, 0);
     if (result) {
       exercises.push(result.exercise);
       cardMap.set(result.exercise.id, result.cards);
@@ -212,10 +182,9 @@ export async function buildReviewExercises(dueCards: SRSCard[]): Promise<{
     }
   }
 
-  // Process remaining cards individually
   for (const card of dueCards) {
     if (usedCardIds.has(card.id!)) continue;
-    const exercise = await cardToExercise(card);
+    const exercise = cardToExercise(card);
     if (exercise) {
       exercises.push(exercise);
       cardMap.set(exercise.id, [card]);
@@ -227,10 +196,6 @@ export async function buildReviewExercises(dueCards: SRSCard[]): Promise<{
 
 /**
  * Map a review answer to an FSRS grade (1-4).
- *
- * - Incorrect → Again (1)
- * - Correct + fast (< 5s) → Easy (4)
- * - Correct → Good (3)
  */
 export function answerToGrade(correct: boolean, timeMs: number): 1 | 3 | 4 {
   if (!correct) return 1;

@@ -8,9 +8,10 @@ export interface ExerciseResult {
   time_spent_ms: number;
 }
 
-/** Stored in Dexie — one row per (word_id, skill_type) pair */
 export interface SRSCard {
   id?: number;
+  /** UUID from backend API */
+  api_id?: string;
   word_id: string;
   skill_type: ExerciseType;
   due: Date;

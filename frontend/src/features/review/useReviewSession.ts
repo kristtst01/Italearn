@@ -8,6 +8,7 @@ import { calculateReviewXP } from '@/engine/xp';
 
 export function useReviewSession(unitId?: string) {
   const dueCards = useSrsStore((s) => s.dueCards);
+  const allCards = useSrsStore((s) => s.allCards);
   const reviewableCount = useSrsStore((s) => s.reviewableCount);
   const reviewCard = useSrsStore((s) => s.reviewCard);
   const addXP = useProgressStore((s) => s.addXP);
@@ -25,9 +26,9 @@ export function useReviewSession(unitId?: string) {
 
   async function handleStart() {
     const cards = unitId
-      ? await getLearnedCardsForUnit(unitId)
+      ? getLearnedCardsForUnit(unitId, allCards)
       : [...dueCards];
-    const built = await buildReviewExercises(cards);
+    const built = buildReviewExercises(cards);
     setSession(built);
     if (built.exercises.length === 0) {
       setResult({ total: 0, correct: 0 });

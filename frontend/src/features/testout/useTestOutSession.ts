@@ -31,7 +31,7 @@ export function useTestOutSession(unitId: string) {
 
   async function handleStart() {
     setLoading(true);
-    const built = await buildTestOutExercises(unitId);
+    const built = buildTestOutExercises(unitId);
     setLoading(false);
     if (!built || built.length === 0) {
       setNoContent(true);
@@ -84,8 +84,8 @@ export function useTestOutSession(unitId: string) {
     }
 
     // Create SRS cards for all vocab in this unit
-    const { db } = await import('@/stores/db');
-    const vocab = await db.vocabulary.where('unit_id').equals(unitId).toArray();
+    const { getVocabByUnit } = await import('@/engine/vocabCache');
+    const vocab = getVocabByUnit(unitId);
     const cards: { wordId: string; skillType: ExerciseType }[] = [];
     for (const v of vocab) {
       cards.push({ wordId: v.id, skillType: 'vocab' });

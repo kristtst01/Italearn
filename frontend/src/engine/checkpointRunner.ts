@@ -1,5 +1,5 @@
 import type { Exercise, VocabEntry } from '../types';
-import { db } from '../stores/db';
+import { filterVocab } from './vocabCache';
 import { shuffle } from '../shared/utils/shuffle';
 
 const SECTION_1_UNITS = ['unit-01', 'unit-02', 'unit-03'];
@@ -159,23 +159,16 @@ function buildCloze(entry: VocabEntry, idx: number): Exercise | null {
 
 /**
  * Build a mixed exercise set from Section 1 vocabulary + grammar.
- * Returns exercises and a map from exercise id → unit_id (or 'grammar').
  */
-export async function buildCheckpointExercises(): Promise<{
+export function buildCheckpointExercises(): {
   exercises: Exercise[];
   unitMap: CheckpointExerciseMap;
-}> {
-  const vocab = await db.vocabulary
-    .filter((v) => SECTION_1_UNITS.includes(v.unit_id))
-    .toArray();
-
+} {
+  const vocab = filterVocab((v) => SECTION_1_UNITS.includes(v.unit_id));
   const pool = shuffle(vocab);
 
-  // Grammar exercises: pick 4 from the pool
   const grammarSample = shuffle(GRAMMAR_EXERCISES).slice(0, 4);
 
-  // Vocab exercises: fill remaining slots (~14) from vocab pool
-  // Weight: 50% type_answer, 30% multiple_choice, 20% cloze
   const vocabTarget = TARGET_COUNT - grammarSample.length;
   const vocabSample = pool.slice(0, Math.min(vocabTarget, pool.length));
 
@@ -198,14 +191,12 @@ export async function buildCheckpointExercises(): Promise<{
     TARGET_COUNT,
   );
 
-  // Build unit map for weak-area tracking
   const unitMap: CheckpointExerciseMap = new Map();
   for (const ex of grammarSample) {
     unitMap.set(ex.id, 'grammar');
   }
   for (let i = 0; i < vocabSample.length; i++) {
     const entry = vocabSample[i];
-    // Match exercise id suffix pattern to find the exercise
     const possible = [
       `cp-vocab-${i}-ta`,
       `cp-vocab-${i}-mc`,

@@ -4,7 +4,7 @@ import { buildLessonResult } from '@/engine/lessonRunner';
 import { calculateExerciseXP } from '@/engine/xp';
 import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
-import { db } from '@/stores/db';
+import { markLearned } from '@/engine/vocabCache';
 
 export type LessonStep =
   | { kind: 'exercise'; exercise: Exercise }
@@ -156,13 +156,9 @@ export function useLessonState(lesson: Lesson) {
         await addCards(cardsToCreate);
       }
 
-      // Mark vocabulary as learned
-      const now = new Date().toISOString();
+      // Mark vocabulary as learned (in-memory)
       for (const wordId of result.wordsEncountered) {
-        const entry = await db.vocabulary.get(wordId);
-        if (entry && !entry.learned_at) {
-          await db.vocabulary.update(wordId, { learned_at: now });
-        }
+        markLearned(wordId);
       }
     }
   }

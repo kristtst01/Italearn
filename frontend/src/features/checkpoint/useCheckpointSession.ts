@@ -48,7 +48,7 @@ export function useCheckpointSession(sectionId: string) {
   const totalExercises = exercises.length;
 
   async function handleStart() {
-    const built = await buildCheckpointExercises();
+    const built = buildCheckpointExercises();
     setExercises(built.exercises);
     setUnitMap(built.unitMap);
     setStarted(true);

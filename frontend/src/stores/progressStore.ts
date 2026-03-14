@@ -1,9 +1,9 @@
 import { create } from 'zustand';
-import type { Badge, UserProgress } from '../types';
-import { db } from './db';
+import type { Badge, DailyActivity, LessonScore, UserProgress } from '../types';
 import { getLevel } from '../engine/xp';
 import { getCurrentStreak } from '../engine/streak';
 import { findLesson, collectTargetWords } from '../engine/lessonRunner';
+import * as api from '../engine/api';
 
 const REVIEW_THRESHOLD = 1;
 
@@ -39,9 +39,8 @@ interface ProgressState extends UserProgress {
   logActivity: (type: 'lesson' | 'review') => Promise<void>;
 }
 
-function toData(state: ProgressState): UserProgress {
+function toData(state: ProgressState): Omit<UserProgress, 'id'> {
   return {
-    id: 1,
     current_section: state.current_section,
     current_unit: state.current_unit,
     current_lesson: state.current_lesson,
@@ -57,8 +56,11 @@ function toData(state: ProgressState): UserProgress {
   };
 }
 
-async function persist(state: ProgressState) {
-  await db.progress.put(toData(state));
+/** Fire-and-forget API persist — errors are logged but don't block UI. */
+function persist(state: ProgressState) {
+  api.updateProgress(toData(state)).catch((err) => {
+    console.error('Failed to persist progress:', err);
+  });
 }
 
 function todayDateString(): string {
@@ -71,18 +73,25 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
   previousLevel: null,
 
   async hydrate() {
-    const saved = await db.progress.get(1);
-    if (saved) {
+    try {
+      const saved = await api.getProgress() as Record<string, unknown>;
       set({
-        ...saved,
-        lesson_scores: saved.lesson_scores ?? {},
-        badges: saved.badges ?? [],
-        streak_dates: saved.streak_dates ?? [],
-        daily_activity: saved.daily_activity ?? {},
+        current_section: (saved.current_section as string) ?? DEFAULT_PROGRESS.current_section,
+        current_unit: (saved.current_unit as string) ?? '',
+        current_lesson: (saved.current_lesson as string) ?? '',
+        xp: (saved.xp as number) ?? 0,
+        streak: (saved.streak as number) ?? 0,
+        level: (saved.level as number) ?? 1,
+        lessons_completed: (saved.lessons_completed as string[]) ?? [],
+        checkpoints_passed: (saved.checkpoints_passed as string[]) ?? [],
+        lesson_scores: (saved.lesson_scores as Record<string, LessonScore>) ?? {},
+        badges: (saved.badges as Badge[]) ?? [],
+        streak_dates: (saved.streak_dates as string[]) ?? [],
+        daily_activity: (saved.daily_activity as Record<string, DailyActivity>) ?? {},
         hydrated: true,
       });
-    } else {
-      await db.progress.put({ ...DEFAULT_PROGRESS, id: 1 });
+    } catch (err) {
+      console.error('Failed to hydrate progress:', err);
       set({ ...DEFAULT_PROGRESS, hydrated: true });
     }
   },
@@ -100,12 +109,7 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
       level: newLevelInfo.level,
       previousLevel: leveledUp ? oldLevel : null,
     });
-    await persist(get());
-
-    // Update daily XP log
-    const today = todayDateString();
-    const existing = await db.xpLog.get(today);
-    await db.xpLog.put({ date: today, xp: (existing?.xp ?? 0) + amount });
+    persist(get());
   },
 
   clearLevelUp() {
@@ -117,17 +121,16 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
 
     const updated = [...get().lessons_completed, lessonId];
     set({ lessons_completed: updated });
-    await persist(get());
+    persist(get());
   },
 
   async saveLessonScore(lessonId: string, score: number, total: number, missedExerciseIds: string[]) {
     const current = get().lesson_scores[lessonId];
-    // Only save if better than previous best (or first attempt)
-    if (current && current.score >= score) return;
+    if (current && (current as { score: number }).score >= score) return;
 
     const updated = { ...get().lesson_scores, [lessonId]: { score, total, missedExerciseIds } };
     set({ lesson_scores: updated });
-    await persist(get());
+    persist(get());
   },
 
   async resetLesson(lessonId: string) {
@@ -137,23 +140,13 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
       lessons_completed: get().lessons_completed.filter((id) => id !== lessonId),
       lesson_scores: scores,
     });
-    await persist(get());
+    persist(get());
 
-    // Remove SRS cards for this lesson's target words
+    // Refresh SRS store so UI updates mastery & due counts
     const lesson = await findLesson(lessonId);
     if (lesson) {
       const words = collectTargetWords(lesson.exercises);
       if (words.length > 0) {
-        // Delete all SRS cards matching these word_ids
-        const allCards = await db.srsCards.toArray();
-        const wordSet = new Set(words);
-        const idsToDelete = allCards
-          .filter((c) => wordSet.has(c.word_id))
-          .map((c) => c.id!);
-        if (idsToDelete.length > 0) {
-          await db.srsCards.bulkDelete(idsToDelete);
-        }
-        // Refresh SRS store so UI updates mastery & due counts
         const { useSrsStore } = await import('./srsStore');
         await useSrsStore.getState().refreshDueCards();
       }
@@ -162,7 +155,7 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
 
   async unlockUnit(unitId: string) {
     set({ current_unit: unitId });
-    await persist(get());
+    persist(get());
   },
 
   async passCheckpoint(sectionId: string) {
@@ -170,7 +163,7 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
 
     const updated = [...get().checkpoints_passed, sectionId];
     set({ checkpoints_passed: updated });
-    await persist(get());
+    persist(get());
   },
 
   async awardBadge(sectionId: string) {
@@ -178,7 +171,7 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
 
     const badge: Badge = { sectionId, earnedAt: new Date().toISOString() };
     set({ badges: [...get().badges, badge] });
-    await persist(get());
+    persist(get());
   },
 
   async logActivity(type: 'lesson' | 'review') {
@@ -206,6 +199,6 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
       streak_dates: streakDates,
       streak: getCurrentStreak(streakDates),
     });
-    await persist(get());
+    persist(get());
   },
 }));

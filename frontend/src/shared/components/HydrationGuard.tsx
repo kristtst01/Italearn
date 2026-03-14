@@ -1,7 +1,7 @@
 import { useEffect, type ReactNode } from 'react';
 import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
-import { seedVocabulary } from '@/stores/db';
+import { seedVocabulary } from '@/engine/vocabCache';
 import LoadingScreen from './LoadingScreen';
 
 export default function HydrationGuard({ children }: { children: ReactNode }) {
@@ -11,9 +11,12 @@ export default function HydrationGuard({ children }: { children: ReactNode }) {
   const hydrateSrs = useSrsStore((s) => s.hydrate);
 
   useEffect(() => {
-    seedVocabulary();
-    if (!progressHydrated) hydrateProgress();
-    if (!srsHydrated) hydrateSrs();
+    async function init() {
+      await seedVocabulary();
+      if (!progressHydrated) hydrateProgress();
+      if (!srsHydrated) hydrateSrs();
+    }
+    init();
   }, [progressHydrated, hydrateProgress, srsHydrated, hydrateSrs]);
 
   if (!progressHydrated || !srsHydrated) {
