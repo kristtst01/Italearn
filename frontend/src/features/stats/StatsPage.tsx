@@ -1,9 +1,10 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
-import { BookOpen, RotateCcw, Flame, Trophy } from 'lucide-react';
+import { BookOpen, RotateCcw, Flame, Trophy, GraduationCap } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
+import { db } from '@/stores/db';
 import { getLevel } from '@/engine/xp';
 import { getLongestStreak } from '@/engine/streak';
 
@@ -40,13 +41,28 @@ export default function StatsPage() {
 
   const levelInfo = getLevel(xp);
   const longestStreak = getLongestStreak(streakDates);
-  const totalWords = Object.keys(unitMastery).length > 0
-    ? Object.values(unitMastery).length
-    : 0;
+
+  const [wordsData, setWordsData] = useState<{ total: number; recent: number; perDay: Record<string, number> }>({ total: 0, recent: 0, perDay: {} });
+  useEffect(() => {
+    async function load() {
+      const allVocab = await db.vocabulary.filter((v) => !!v.learned_at).toArray();
+      const cutoff = new Date();
+      cutoff.setDate(cutoff.getDate() - 14);
+      const cutoffStr = cutoff.toISOString();
+      const recentVocab = allVocab.filter((v) => v.learned_at! >= cutoffStr);
+      const perDay: Record<string, number> = {};
+      for (const v of recentVocab) {
+        const day = v.learned_at!.slice(0, 10);
+        perDay[day] = (perDay[day] ?? 0) + 1;
+      }
+      setWordsData({ total: allVocab.length, recent: recentVocab.length, perDay });
+    }
+    load();
+  }, []);
 
   // Build last 14 days chart data
   const chartData = useMemo(() => {
-    const days: { day: string; lessons: number; reviews: number }[] = [];
+    const days: { day: string; lessons: number; reviews: number; words: number }[] = [];
     const now = new Date();
     for (let i = 13; i >= 0; i--) {
       const d = new Date(now);
@@ -57,12 +73,13 @@ export default function StatsPage() {
         day: d.toLocaleDateString('en', { weekday: 'short', day: 'numeric' }),
         lessons: activity?.lessons ?? 0,
         reviews: activity?.reviews ?? 0,
+        words: wordsData.perDay[key] ?? 0,
       });
     }
     return days;
-  }, [dailyActivity]);
+  }, [dailyActivity, wordsData.perDay]);
 
-  const hasActivity = chartData.some((d) => d.lessons > 0 || d.reviews > 0);
+  const hasActivity = chartData.some((d) => d.lessons > 0 || d.reviews > 0 || d.words > 0);
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
@@ -74,6 +91,7 @@ export default function StatsPage() {
           <StatCard icon={Flame} label="Current streak" value={streak} sub={`Best: ${longestStreak}`} color="bg-orange-500" />
           <StatCard icon={Trophy} label="Level" value={levelInfo.level} sub={levelInfo.rank} color="bg-purple-500" />
           <StatCard icon={BookOpen} label="Lessons done" value={lessonsCompleted.length} color="bg-blue-500" />
+          <StatCard icon={GraduationCap} label="Words learned" value={wordsData.total} sub={`${wordsData.recent} in last 14 days`} color="bg-amber-500" />
           <StatCard icon={RotateCcw} label="Total XP" value={xp} color="bg-green-500" />
         </div>
 
@@ -95,6 +113,7 @@ export default function StatsPage() {
                   />
                   <Bar dataKey="lessons" name="Lessons" fill="#3b82f6" radius={[4, 4, 0, 0]} />
                   <Bar dataKey="reviews" name="Reviews" fill="#22c55e" radius={[4, 4, 0, 0]} />
+                  <Bar dataKey="words" name="Words learned" fill="#f59e0b" radius={[4, 4, 0, 0]} />
                 </BarChart>
               </ResponsiveContainer>
             ) : (

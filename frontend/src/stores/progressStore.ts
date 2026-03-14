@@ -5,7 +5,7 @@ import { getLevel } from '../engine/xp';
 import { getCurrentStreak } from '../engine/streak';
 import { findLesson, collectTargetWords } from '../engine/lessonRunner';
 
-const REVIEW_THRESHOLD = 5;
+const REVIEW_THRESHOLD = 1;
 
 const DEFAULT_PROGRESS: UserProgress = {
   id: 1,

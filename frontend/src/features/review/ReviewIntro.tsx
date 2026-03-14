@@ -1,4 +1,4 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 interface ReviewIntroProps {
   dueCount: number;
@@ -11,9 +11,6 @@ export default function ReviewIntro({ dueCount, onStart }: ReviewIntroProps) {
   if (dueCount === 0) {
     return (
       <div className="min-h-screen bg-gray-50 p-6">
-        <Link to="/" className="text-blue-600 hover:underline text-sm">
-          &larr; Back to path
-        </Link>
         <div className="max-w-md mx-auto mt-16 text-center space-y-4">
           <div className="text-5xl">&#10003;</div>
           <h1 className="text-2xl font-bold text-gray-900">All caught up!</h1>
@@ -33,9 +30,6 @@ export default function ReviewIntro({ dueCount, onStart }: ReviewIntroProps) {
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
-      <Link to="/" className="text-blue-600 hover:underline text-sm">
-        &larr; Back to path
-      </Link>
       <div className="max-w-md mx-auto mt-16 text-center space-y-4">
         <h1 className="text-2xl font-bold text-gray-900">Review</h1>
         <p className="text-gray-600">

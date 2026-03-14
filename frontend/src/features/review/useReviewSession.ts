@@ -49,8 +49,6 @@ export function useReviewSession(unitId?: string) {
       }
     }
 
-    await logActivity('review');
-
     // Track streak and award review XP
     if (er.correct) {
       streakRef.current += 1;
@@ -65,6 +63,7 @@ export function useReviewSession(unitId?: string) {
 
     const nextIndex = currentIndex + 1;
     if (nextIndex >= totalExercises) {
+      await logActivity('review');
       setResult({ total: totalExercises, correct: newCorrect });
     } else {
       setCurrentIndex(nextIndex);
