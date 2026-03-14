@@ -3,10 +3,10 @@ import type { ExerciseResult, ReviewResult, ReviewSession } from '@/types';
 import type { Grade } from 'ts-fsrs';
 import { useSrsStore } from '@/stores/srsStore';
 import { useProgressStore } from '@/stores/progressStore';
-import { buildReviewExercises, answerToGrade } from '@/engine/reviewRunner';
+import { buildReviewExercises, getLearnedCardsForUnit, answerToGrade } from '@/engine/reviewRunner';
 import { calculateReviewXP } from '@/engine/xp';
 
-export function useReviewSession() {
+export function useReviewSession(unitId?: string) {
   const dueCards = useSrsStore((s) => s.dueCards);
   const reviewableCount = useSrsStore((s) => s.reviewableCount);
   const reviewCard = useSrsStore((s) => s.reviewCard);
@@ -24,7 +24,10 @@ export function useReviewSession() {
   const totalExercises = session?.exercises.length ?? reviewableCount;
 
   async function handleStart() {
-    const built = await buildReviewExercises([...dueCards]);
+    const cards = unitId
+      ? await getLearnedCardsForUnit(unitId)
+      : [...dueCards];
+    const built = await buildReviewExercises(cards);
     setSession(built);
     if (built.exercises.length === 0) {
       setResult({ total: 0, correct: 0 });
@@ -36,15 +39,15 @@ export function useReviewSession() {
   async function handleExerciseComplete(er: ExerciseResult) {
     if (!session) return;
 
-    const card = currentExercise
+    const cards = currentExercise
       ? session.cardMap.get(currentExercise.id)
       : undefined;
-    if (card?.id != null) {
+    if (cards) {
       const grade: Grade = answerToGrade(er.correct, er.time_spent_ms);
-      await reviewCard(card.id, grade);
+      for (const card of cards) {
+        if (card.id != null) await reviewCard(card.id, grade);
+      }
     }
-
-    await logActivity('review');
 
     // Track streak and award review XP
     if (er.correct) {
@@ -60,6 +63,7 @@ export function useReviewSession() {
 
     const nextIndex = currentIndex + 1;
     if (nextIndex >= totalExercises) {
+      await logActivity('review');
       setResult({ total: totalExercises, correct: newCorrect });
     } else {
       setCurrentIndex(nextIndex);

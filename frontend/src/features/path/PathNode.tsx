@@ -13,11 +13,9 @@ interface PathNodeProps {
   unit: Unit;
   status: UnitStatus;
   mastery: number | undefined;
-  completedCount: number;
   isCurrent: boolean;
   side: 'left' | 'center' | 'right';
   onSelect: () => void;
-  selected: boolean;
   nodeRef?: React.RefObject<HTMLDivElement | null>;
 }
 
@@ -25,11 +23,9 @@ export default function PathNode({
   unit,
   status,
   mastery,
-  completedCount,
   isCurrent,
   side,
   onSelect,
-  selected,
   nodeRef,
 }: PathNodeProps) {
   const isLocked = status === 'locked';
@@ -37,23 +33,24 @@ export default function PathNode({
   const masteryValue = isLocked ? 0 : (mastery ?? 0);
   const masteryColor = getMasteryColor(masteryValue);
 
-  const alignClass =
-    side === 'left' ? 'items-start' : side === 'right' ? 'items-end' : 'items-center';
+  /** Must match PathConnector POS values */
+  const leftPercent = side === 'left' ? 20 : side === 'right' ? 80 : 50;
 
   return (
-    <div ref={nodeRef} className={`flex flex-col ${alignClass} w-full`}>
+    <div ref={nodeRef} className="relative z-10 w-full" style={{ height: nodeSize }}>
       <button
         onClick={isLocked ? undefined : onSelect}
         disabled={isLocked}
-        className={`relative flex flex-col items-center gap-1 group ${
+        className={`absolute flex items-center justify-center group ${
           isLocked ? 'cursor-not-allowed' : 'cursor-pointer'
         }`}
+        style={{ width: nodeSize, height: nodeSize, left: `${leftPercent}%`, transform: 'translateX(-50%)' }}
       >
         {/* Pulse ring for current unit */}
         {isCurrent && (
           <div
-            className="absolute rounded-full bg-blue-400/30 animate-ping"
-            style={{ width: nodeSize + 12, height: nodeSize + 12, top: -6, left: '50%', transform: 'translateX(-50%)' }}
+            className="absolute inset-0 rounded-full bg-blue-400/30 animate-ping"
+            style={{ margin: -6 }}
           />
         )}
 
@@ -88,22 +85,6 @@ export default function PathNode({
             )}
           </div>
         </div>
-
-        {/* Unit name label */}
-        <span
-          className={`text-xs font-medium text-center max-w-[120px] leading-tight ${
-            isLocked ? 'text-gray-400' : selected ? 'text-blue-700' : 'text-gray-700'
-          }`}
-        >
-          {unit.name}
-        </span>
-
-        {/* Progress indicator for in-progress units */}
-        {status === 'in_progress' && unit.lessons.length > 0 && (
-          <span className="text-[10px] text-blue-600 font-medium">
-            {completedCount}/{unit.lessons.length}
-          </span>
-        )}
       </button>
     </div>
   );

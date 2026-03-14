@@ -1,4 +1,5 @@
-import { useNavigate } from 'react-router-dom';
+import { useEffect, useRef } from 'react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import ProgressBar from '@/shared/components/ProgressBar';
 import CloseIcon from '@/shared/components/CloseIcon';
 import renderExercise from '@/features/exercises/renderExercise';
@@ -8,6 +9,8 @@ import ReviewSummary from './ReviewSummary';
 
 export default function ReviewPage() {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const unitId = searchParams.get('unit') ?? undefined;
 
   const {
     reviewableCount,
@@ -18,9 +21,19 @@ export default function ReviewPage() {
     result,
     handleStart,
     handleExerciseComplete,
-  } = useReviewSession();
+  } = useReviewSession(unitId);
+
+  // Unit reviews start immediately — user explicitly chose to practice
+  const autoStarted = useRef(false);
+  useEffect(() => {
+    if (unitId && !started && !autoStarted.current) {
+      autoStarted.current = true;
+      handleStart();
+    }
+  }, [unitId, started, handleStart]);
 
   if (!started) {
+    if (unitId) return null; // loading while auto-starting
     return <ReviewIntro dueCount={reviewableCount} onStart={handleStart} />;
   }
 

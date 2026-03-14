@@ -6,10 +6,12 @@ interface LessonListProps {
   lessons: LessonMeta[];
   completedLessons: string[];
   lessonScores: Record<string, LessonScore>;
+  unitId: string;
+  hasCards: boolean;
   onResetLesson: (lessonId: string) => void;
 }
 
-export default function LessonList({ lessons, completedLessons, lessonScores, onResetLesson }: LessonListProps) {
+export default function LessonList({ lessons, completedLessons, lessonScores, unitId, hasCards, onResetLesson }: LessonListProps) {
   return (
     <div className="border-t border-gray-200 px-4 pb-3">
       {lessons.map((lesson) => {
@@ -60,6 +62,15 @@ export default function LessonList({ lessons, completedLessons, lessonScores, on
           </div>
         );
       })}
+      {hasCards && (
+        <Link
+          to={`/review?unit=${unitId}`}
+          className="flex items-center gap-2 py-3 -mx-1 px-1 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors"
+        >
+          <RotateCcw className="w-4 h-4" />
+          Review words
+        </Link>
+      )}
     </div>
   );
 }

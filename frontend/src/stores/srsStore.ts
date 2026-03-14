@@ -82,7 +82,11 @@ export const useSrsStore = create<SRSState>()((set, get) => ({
   },
 
   async reviewCard(cardId: number, grade: Grade) {
-    const card = get().dueCards.find((c) => c.id === cardId);
+    // Look in due cards first, fall back to DB (for unit practice reviews)
+    let card = get().dueCards.find((c) => c.id === cardId);
+    if (!card) {
+      card = await db.srsCards.get(cardId) ?? undefined;
+    }
     if (!card) return;
 
     await srs.reviewCard(card, grade);

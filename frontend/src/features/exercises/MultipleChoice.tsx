@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { shuffle } from '@/shared/utils/shuffle';
 import { getFirstCorrectAnswer } from '@/shared/utils/exercise';
+import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
 
 interface MultipleChoiceProps {
@@ -31,7 +32,7 @@ export default function MultipleChoice({
       canSubmit={selected !== null}
     >
       <p className="mb-6 text-lg font-semibold text-gray-900">
-        {exercise.prompt.text}
+        <HighlightedText text={exercise.prompt.text ?? ''} words={exercise.target_words} />
       </p>
 
       <div className="space-y-3">

@@ -11,9 +11,16 @@ export default function PathConnector({ from, to, completed }: PathConnectorProp
   const x1 = POS[from];
   const x2 = POS[to];
 
+  /* Extend 36px (half node height) into the nodes above & below
+     so the line runs from circle-center to circle-center.
+     Nodes use z-10 to render on top of this. */
   return (
     <div className="w-full h-8 relative">
-      <svg className="absolute inset-0 w-full h-full" preserveAspectRatio="none">
+      <svg
+        className="absolute w-full"
+        style={{ top: -36, height: 'calc(100% + 72px)' }}
+        preserveAspectRatio="none"
+      >
         <line
           x1={`${x1}%`}
           y1="0"

@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { validateAnswerMulti } from '@/engine/validation';
+import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
 
 interface ClozeDeleteProps {
@@ -32,7 +33,9 @@ export default function ClozeDelete({
       feedback={validation.feedback}
     >
       {exercise.prompt.text && (
-        <p className="mb-2 text-sm text-gray-500">{exercise.prompt.text}</p>
+        <p className="mb-2 text-sm text-gray-500">
+          <HighlightedText text={exercise.prompt.text} words={exercise.target_words} />
+        </p>
       )}
 
       {exercise.hints.length > 0 && (

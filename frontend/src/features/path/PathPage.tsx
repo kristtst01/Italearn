@@ -1,9 +1,8 @@
 import { useEffect, useRef, useState, useMemo, createRef } from 'react';
 import { Link } from 'react-router-dom';
-import { RotateCcw, UserCircle } from 'lucide-react';
+
 import { curriculum } from '@/data/curriculum';
 import { useProgressStore } from '@/stores/progressStore';
-import { useSrsStore } from '@/stores/srsStore';
 import type { CEFRLevel, Section, Unit, UnitStatus } from '@/types';
 import PathNode from './PathNode';
 import PathConnector from './PathConnector';
@@ -90,8 +89,16 @@ export default function PathPage() {
   const lessonScores = useProgressStore((s) => s.lesson_scores);
   const resetLesson = useProgressStore((s) => s.resetLesson);
   const checkpointsPassed = useProgressStore((s) => s.checkpoints_passed);
-  const dueCount = useSrsStore((s) => s.reviewableCount);
-  const unitMastery = useSrsStore((s) => s.unitMastery);
+  const lessonProgress = useMemo(() => {
+    const progress: Record<string, number> = {};
+    for (const item of pathItems) {
+      const unit = item.unit;
+      if (unit.lessons.length === 0) continue;
+      const completed = unit.lessons.filter((l) => lessonsCompleted.includes(l.id)).length;
+      progress[unit.id] = Math.round((completed / unit.lessons.length) * 100);
+    }
+    return progress;
+  }, [pathItems, lessonsCompleted]);
   const badges = useProgressStore((s) => s.badges);
 
   const [selectedUnit, setSelectedUnit] = useState<string | null>(null);
@@ -123,41 +130,8 @@ export default function PathPage() {
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
+      {/* Winding path — stays narrow and centered */}
       <div className="max-w-md mx-auto">
-        {/* Header */}
-        <div className="flex items-center justify-between mb-6">
-          <div>
-            <h1 className="text-2xl font-bold text-gray-900">Learning Path</h1>
-            <p className="text-sm text-gray-500">
-              {curriculum.sections.length} sections — A1 to B2
-            </p>
-          </div>
-          <Link
-            to="/profile"
-            className="text-gray-400 hover:text-gray-600 transition-colors"
-            aria-label="Profile"
-          >
-            <UserCircle className="w-7 h-7" />
-          </Link>
-        </div>
-
-        {/* Review button */}
-        {dueCount > 0 && (
-          <Link
-            to="/review"
-            className="flex items-center justify-between rounded-xl bg-blue-600 text-white px-4 py-3 mb-6 hover:bg-blue-700 transition-colors"
-          >
-            <div className="flex items-center gap-2">
-              <RotateCcw className="w-5 h-5" />
-              <span className="font-medium">Review</span>
-            </div>
-            <span className="bg-white/20 rounded-full px-2.5 py-0.5 text-sm font-medium">
-              {dueCount} due
-            </span>
-          </Link>
-        )}
-
-        {/* Winding path with CEFR banners */}
         <div className="relative px-4">
           {pathItems.map((item, index) => {
             const { unit, section, showCEFRBanner, showCheckpoint, prevSection } = item;
@@ -167,10 +141,6 @@ export default function PathPage() {
             const side = SIDE_PATTERN[index % SIDE_PATTERN.length];
             const isCurrent = index === currentUnitIndex;
             const selected = selectedUnit === unit.id;
-            const completedCount = unit.lessons.filter((l: { id: string }) =>
-              lessonsCompleted.includes(l.id),
-            ).length;
-
             const prevSide = index > 0 ? SIDE_PATTERN[(index - 1) % SIDE_PATTERN.length] : null;
             const prevStatus = index > 0
               ? getUnitStatus(
@@ -238,24 +208,30 @@ export default function PathPage() {
                 <PathNode
                   unit={unit}
                   status={status}
-                  mastery={unitMastery[unit.id]}
-                  completedCount={completedCount}
+                  mastery={lessonProgress[unit.id]}
                   isCurrent={isCurrent}
                   side={side}
                   onSelect={() =>
                     setSelectedUnit(selected ? null : unit.id)
                   }
-                  selected={selected}
                   nodeRef={nodeRefs[index]}
                 />
 
                 {/* Lesson list dropdown */}
                 {selected && unit.lessons.length > 0 && (
                   <div className="mt-2 mb-2 rounded-xl border border-gray-200 bg-white overflow-hidden">
+                    <div className="px-4 pt-3 pb-1">
+                      <h3 className="text-sm font-semibold text-gray-900">{unit.name}</h3>
+                      {unit.grammar_focus && (
+                        <p className="text-xs text-gray-500">{unit.grammar_focus}</p>
+                      )}
+                    </div>
                     <LessonList
                       lessons={unit.lessons}
                       completedLessons={lessonsCompleted}
                       lessonScores={lessonScores}
+                      unitId={unit.id}
+                      hasCards={unit.lessons.some((l) => lessonsCompleted.includes(l.id))}
                       onResetLesson={resetLesson}
                     />
                     {status !== 'completed' && (
