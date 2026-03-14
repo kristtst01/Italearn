@@ -30,6 +30,8 @@ export interface VocabEntry {
   example: string;
   /** Unit that introduced this word */
   unit_id: string;
+  /** ISO date string — set when user first encounters word in a lesson */
+  learned_at?: string;
 }
 
 export interface LessonScore {

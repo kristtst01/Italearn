@@ -4,6 +4,7 @@ import { buildLessonResult } from '@/engine/lessonRunner';
 import { calculateExerciseXP } from '@/engine/xp';
 import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
+import { db } from '@/stores/db';
 
 export type LessonStep =
   | { kind: 'exercise'; exercise: Exercise }
@@ -153,6 +154,15 @@ export function useLessonState(lesson: Lesson) {
       }
       if (cardsToCreate.length > 0) {
         await addCards(cardsToCreate);
+      }
+
+      // Mark vocabulary as learned
+      const now = new Date().toISOString();
+      for (const wordId of result.wordsEncountered) {
+        const entry = await db.vocabulary.get(wordId);
+        if (entry && !entry.learned_at) {
+          await db.vocabulary.update(wordId, { learned_at: now });
+        }
       }
     }
   }
