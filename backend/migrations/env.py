@@ -6,6 +6,9 @@ from sqlalchemy.ext.asyncio import create_async_engine
 
 from app.config import settings
 from app.database import Base
+from app.models.user import User  # noqa: F401
+from app.models.progress import UserProgress  # noqa: F401
+from app.models.srs_card import SRSCard  # noqa: F401
 
 config = context.config
 if config.config_file_name is not None:
