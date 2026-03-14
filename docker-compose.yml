@@ -1,0 +1,33 @@
+services:
+  db:
+    image: postgres:16-alpine
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: italearn
+      POSTGRES_USER: italearn
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-localdev}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U italearn"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  api:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./backend:/app
+      - /app/__pycache__
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://italearn:${DB_PASSWORD:-localdev}@db:5432/italearn
+      - CORS_ORIGINS=http://localhost:5173,http://localhost:4173
+
+volumes:
+  pgdata:
