@@ -3,7 +3,7 @@ import type { ExerciseResult, ReviewResult, ReviewSession } from '@/types';
 import type { Grade } from 'ts-fsrs';
 import { useSrsStore } from '@/stores/srsStore';
 import { useProgressStore } from '@/stores/progressStore';
-import { buildReviewExercises, getDueCardsForUnit, answerToGrade } from '@/engine/reviewRunner';
+import { buildReviewExercises, getLearnedCardsForUnit, answerToGrade } from '@/engine/reviewRunner';
 import { calculateReviewXP } from '@/engine/xp';
 
 export function useReviewSession(unitId?: string) {
@@ -25,7 +25,7 @@ export function useReviewSession(unitId?: string) {
 
   async function handleStart() {
     const cards = unitId
-      ? await getDueCardsForUnit(unitId)
+      ? await getLearnedCardsForUnit(unitId)
       : [...dueCards];
     const built = await buildReviewExercises(cards);
     setSession(built);
@@ -39,12 +39,14 @@ export function useReviewSession(unitId?: string) {
   async function handleExerciseComplete(er: ExerciseResult) {
     if (!session) return;
 
-    const card = currentExercise
+    const cards = currentExercise
       ? session.cardMap.get(currentExercise.id)
       : undefined;
-    if (card?.id != null) {
+    if (cards) {
       const grade: Grade = answerToGrade(er.correct, er.time_spent_ms);
-      await reviewCard(card.id, grade);
+      for (const card of cards) {
+        if (card.id != null) await reviewCard(card.id, grade);
+      }
     }
 
     await logActivity('review');

@@ -62,6 +62,12 @@ export async function seedVocabulary(): Promise<void> {
 
   if (entries.length === 0) return;
 
-  // bulkPut upserts — safe for re-seeding after curriculum updates
-  await db.vocabulary.bulkPut(entries);
+  // Only insert words that don't exist yet — preserves learned_at and other user data
+  const existing = new Set(
+    (await db.vocabulary.toCollection().primaryKeys()) as string[],
+  );
+  const newEntries = entries.filter((e) => !existing.has(e.id));
+  if (newEntries.length > 0) {
+    await db.vocabulary.bulkAdd(newEntries);
+  }
 }

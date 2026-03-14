@@ -4,6 +4,7 @@ import TypeAnswer from './TypeAnswer';
 import ArrangeWords from './ArrangeWords';
 import FillInBlank from './FillInBlank';
 import ClozeDelete from './ClozeDelete';
+import MatchPairs from './MatchPairs';
 
 interface ExerciseProps {
   exercise: Exercise;
@@ -24,6 +25,8 @@ export default function renderExercise({ exercise, onComplete }: ExerciseProps) 
       return <FillInBlank key={exercise.id} {...props} />;
     case 'cloze':
       return <ClozeDelete key={exercise.id} {...props} />;
+    case 'match_pairs':
+      return <MatchPairs key={exercise.id} {...props} />;
     default:
       return (
         <div className="text-gray-500">

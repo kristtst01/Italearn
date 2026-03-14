@@ -8,14 +8,33 @@ import { curriculum } from '@/data/curriculum';
 
 type SRSStatus = 'new' | 'learning' | 'due' | 'mature';
 
-function getStatus(card: SRSCard | undefined): SRSStatus {
-  if (!card) return 'new';
+function getCardStats(card: SRSCard | undefined) {
+  if (!card) return { status: 'new' as SRSStatus, stability: 0, reps: 0, due: null as Date | null };
   const now = new Date();
-  if (card.due <= now) return 'due';
-  // If stability > 10 days, consider mature
-  const stability = (card.card as { s?: number }).s ?? 0;
-  if (stability > 10) return 'mature';
-  return 'learning';
+  const fsrs = card.card as { stability?: number; reps?: number };
+  const stability = fsrs.stability ?? 0;
+  const reps = fsrs.reps ?? 0;
+  const isDue = new Date(card.due) <= now;
+  const status: SRSStatus = isDue ? 'due' : stability > 10 ? 'mature' : 'learning';
+  return { status, stability, reps, due: new Date(card.due) };
+}
+
+/** Strength as 0–100 based on stability (30 days = full strength). */
+function getStrength(stability: number): number {
+  return Math.min(Math.round((stability / 30) * 100), 100);
+}
+
+function formatNextReview(due: Date | null, status: SRSStatus): string {
+  if (!due || status === 'new') return '';
+  const now = new Date();
+  if (due <= now) return 'Due now';
+  const diffMs = due.getTime() - now.getTime();
+  const diffHours = Math.round(diffMs / (1000 * 60 * 60));
+  if (diffHours < 1) return 'Due soon';
+  if (diffHours < 24) return `Review in ${diffHours}h`;
+  const diffDays = Math.round(diffHours / 24);
+  if (diffDays === 1) return 'Review in 1 day';
+  return `Review in ${diffDays} days`;
 }
 
 const STATUS_BADGE: Record<SRSStatus, { label: string; variant: 'default' | 'secondary' | 'outline' | 'destructive' }> = {
@@ -137,13 +156,18 @@ export default function WordBankPage() {
         ) : (
           <div className="space-y-2">
             {filtered.map((w) => {
-              const status = getStatus(cardMap.get(w.id));
+              const { status, stability, reps, due } = getCardStats(cardMap.get(w.id));
               const badge = STATUS_BADGE[status];
+              const strength = getStrength(stability);
+              const nextReview = formatNextReview(due, status);
+              const strengthColor =
+                strength >= 70 ? 'bg-green-500' : strength >= 30 ? 'bg-amber-500' : 'bg-red-400';
+
               return (
                 <Card key={w.id}>
                   <CardContent className="p-4">
                     <div className="flex items-start justify-between gap-2">
-                      <div className="min-w-0">
+                      <div className="min-w-0 flex-1">
                         <div className="flex items-center gap-2">
                           <span className="font-semibold text-gray-900">{w.word}</span>
                           <Badge variant={badge.variant} className="text-[10px]">{badge.label}</Badge>
@@ -151,6 +175,26 @@ export default function WordBankPage() {
                         <p className="text-sm text-gray-600">{w.meaning}</p>
                         {w.example && (
                           <p className="text-xs text-gray-400 mt-1 italic">"{w.example}"</p>
+                        )}
+
+                        {status !== 'new' && (
+                          <div className="mt-2 space-y-1">
+                            {/* Strength bar */}
+                            <div className="flex items-center gap-2">
+                              <div className="h-1.5 flex-1 rounded-full bg-gray-100">
+                                <div
+                                  className={`h-full rounded-full transition-all ${strengthColor}`}
+                                  style={{ width: `${strength}%` }}
+                                />
+                              </div>
+                              <span className="text-[10px] tabular-nums text-gray-400">{strength}%</span>
+                            </div>
+                            {/* Review info */}
+                            <div className="flex items-center gap-3 text-[11px] text-gray-400">
+                              {reps > 0 && <span>{reps} review{reps !== 1 ? 's' : ''}</span>}
+                              {nextReview && <span>{nextReview}</span>}
+                            </div>
+                          </div>
                         )}
                       </div>
                     </div>

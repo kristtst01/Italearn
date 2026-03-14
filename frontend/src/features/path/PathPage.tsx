@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import { curriculum } from '@/data/curriculum';
 import { useProgressStore } from '@/stores/progressStore';
-import { useSrsStore } from '@/stores/srsStore';
 import type { CEFRLevel, Section, Unit, UnitStatus } from '@/types';
 import PathNode from './PathNode';
 import PathConnector from './PathConnector';
@@ -90,7 +89,16 @@ export default function PathPage() {
   const lessonScores = useProgressStore((s) => s.lesson_scores);
   const resetLesson = useProgressStore((s) => s.resetLesson);
   const checkpointsPassed = useProgressStore((s) => s.checkpoints_passed);
-  const unitMastery = useSrsStore((s) => s.unitMastery);
+  const lessonProgress = useMemo(() => {
+    const progress: Record<string, number> = {};
+    for (const item of pathItems) {
+      const unit = item.unit;
+      if (unit.lessons.length === 0) continue;
+      const completed = unit.lessons.filter((l) => lessonsCompleted.includes(l.id)).length;
+      progress[unit.id] = Math.round((completed / unit.lessons.length) * 100);
+    }
+    return progress;
+  }, [pathItems, lessonsCompleted]);
   const badges = useProgressStore((s) => s.badges);
 
   const [selectedUnit, setSelectedUnit] = useState<string | null>(null);
@@ -200,7 +208,7 @@ export default function PathPage() {
                 <PathNode
                   unit={unit}
                   status={status}
-                  mastery={unitMastery[unit.id]}
+                  mastery={lessonProgress[unit.id]}
                   isCurrent={isCurrent}
                   side={side}
                   onSelect={() =>
@@ -223,7 +231,7 @@ export default function PathPage() {
                       completedLessons={lessonsCompleted}
                       lessonScores={lessonScores}
                       unitId={unit.id}
-                      hasCards={unitMastery[unit.id] != null}
+                      hasCards={unit.lessons.some((l) => lessonsCompleted.includes(l.id))}
                       onResetLesson={resetLesson}
                     />
                     {status !== 'completed' && (

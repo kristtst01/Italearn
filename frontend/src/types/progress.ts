@@ -43,7 +43,8 @@ export interface LessonScore {
 
 export interface ReviewSession {
   exercises: Exercise[];
-  cardMap: Map<string, SRSCard>;
+  /** Maps exercise ID → SRS card(s). Match-pairs exercises map to multiple cards. */
+  cardMap: Map<string, SRSCard[]>;
 }
 
 export interface ReviewResult {
