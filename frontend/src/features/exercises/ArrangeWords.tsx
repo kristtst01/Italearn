@@ -2,16 +2,13 @@ import { useMemo, useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { shuffle } from '@/shared/utils/shuffle';
 import { getCorrectAnswer } from '@/shared/utils/exercise';
+import { useLLMValidation } from '@/engine/useLLMValidation';
 import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
 
 interface ArrangeWordsProps {
   exercise: Exercise;
   onComplete: (result: ExerciseResult) => void;
-}
-
-function normalizeForCompare(s: string): string {
-  return s.trim().toLowerCase().replace(/[.,?!]+$/, '');
 }
 
 export default function ArrangeWords({
@@ -33,8 +30,12 @@ export default function ArrangeWords({
     .filter(({ i }) => !placed.includes(i));
 
   const userAnswer = placed.map((i) => words[i]).join(' ');
-  const isCorrect =
-    normalizeForCompare(userAnswer) === normalizeForCompare(correctAnswer);
+
+  const { isCorrect, feedback, onBeforeSubmit } = useLLMValidation(
+    userAnswer,
+    exercise.correct_answer,
+    exercise,
+  );
 
   function addWord(index: number) {
     setPlaced((prev) => [...prev, index]);
@@ -51,6 +52,8 @@ export default function ArrangeWords({
       userAnswer={userAnswer}
       isCorrect={isCorrect}
       canSubmit={placed.length > 0}
+      feedback={feedback}
+      onBeforeSubmit={onBeforeSubmit}
     >
       <p className="mb-6 text-lg font-semibold text-gray-900">
         <HighlightedText text={exercise.prompt.text ?? ''} words={exercise.target_words} />

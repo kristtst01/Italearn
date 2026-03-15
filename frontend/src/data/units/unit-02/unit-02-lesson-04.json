@@ -1,26 +1,26 @@
 {
   "id": "unit-02-lesson-04",
   "unit_id": "unit-02",
-  "name": "Nationalities",
+  "name": "Introductions Practice",
   "order": 4,
   "grammar_tips": [
     {
       "id": "unit-02-lesson-04-tip-01",
-      "title": "Nationality Adjectives and Gender",
-      "explanation": "Nationalities in Italian agree with the gender of the person. Most end in -o (masculine) or -a (feminine): italiano/italiana, americano/americana, spagnolo/spagnola. Some end in -e and stay the same for both genders: inglese, francese.",
-      "table": [
-        ["Masculine (-o)", "italiano, americano, spagnolo"],
-        ["Feminine (-a)", "italiana, americana, spagnola"],
-        ["Both genders (-e)", "inglese, francese"]
-      ],
+      "title": "Putting It All Together",
+      "explanation": "You now know all six forms of essere, how to give your name, say where you're from, and introduce others. This lesson is pure practice — no new grammar. By the end, you should be able to handle a basic Italian introduction without thinking twice.",
       "before_exercise": 0
     },
     {
       "id": "unit-02-lesson-04-tip-02",
-      "title": "Sono + Nationality — No Article Needed",
-      "explanation": "To say your nationality, use 'sono' + nationality adjective directly. No article! 'Sono italiano' = I am Italian. 'Sono americana' = I am American. The nationality also acts as an adjective when describing someone: 'È una ragazza italiana.'",
-      "example": { "italian": "Sono italiano. E tu, sei americano?", "english": "I'm Italian. And you, are you American?" },
-      "before_exercise": 8
+      "title": "Formal vs Informal Introductions",
+      "explanation": "With friends: 'Ciao, mi chiamo Marco. Sono di Roma.' With a stranger: 'Buongiorno, sono Marco. Sono di Roma.' The content is almost the same — it's the greeting that sets the register. 'Mi chiamo' works in both, but 'Sono + name' feels slightly more formal.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-02-lesson-04-tip-03",
+      "title": "Piacere — Nice to Meet You",
+      "explanation": "'Piacere' means 'nice to meet you' (literally: 'pleasure'). Say it after someone introduces themselves. It works in any register — formal or informal. You can also say 'Piacere mio' (the pleasure is mine) to be extra polite.",
+      "before_exercise": 13
     }
   ],
   "exercises": [
@@ -28,176 +28,191 @@
       "id": "unit-02-lesson-04-ex-01",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'italiano' mean?" },
-      "sentence_context": "Sono italiano.",
-      "correct_answer": "Italian (masculine)",
-      "distractors": ["American (masculine)", "Spanish (masculine)", "French (masculine)"],
-      "hints": [],
-      "target_words": ["italiano"]
+      "prompt": { "text": "What does 'piacere' mean when meeting someone?" },
+      "sentence_context": "Mi chiamo Anna. — Piacere!",
+      "correct_answer": "Nice to meet you",
+      "distractors": ["Thank you", "You're welcome", "Goodbye"],
+      "hints": ["Literally 'pleasure' — said after introductions."],
+      "target_words": ["piacere"]
     },
     {
       "id": "unit-02-lesson-04-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'americana' mean?" },
-      "sentence_context": "Lei è americana.",
-      "correct_answer": "American (feminine)",
-      "distractors": ["Italian (feminine)", "American (masculine)", "Spanish (feminine)"],
-      "hints": [],
-      "target_words": ["americana"]
+      "prompt": { "text": "Which is the correct informal introduction?" },
+      "sentence_context": "Ciao! Mi chiamo Luca.",
+      "correct_answer": "Ciao! Mi chiamo Luca.",
+      "distractors": ["Buongiorno, sono il signor Rossi.", "Arrivederci, mi chiamo Luca.", "Scusi, mi chiamo Luca."],
+      "hints": ["Informal = 'ciao' people. Just name, no title."],
+      "target_words": ["mi chiamo"]
     },
     {
       "id": "unit-02-lesson-04-ex-03",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "Which word means 'French' for both genders?" },
-      "sentence_context": "È francese.",
-      "correct_answer": "francese",
-      "distractors": ["frances", "franceso", "francesa"],
-      "hints": ["This nationality ends in -e and doesn't change for gender."],
-      "target_words": ["francese"]
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the correct form of essere." },
+      "sentence_context": "Tu ___ di Firenze?",
+      "correct_answer": "sei",
+      "distractors": [],
+      "hints": ["'Tu' → which form of essere?"],
+      "target_words": ["sei"]
     },
     {
       "id": "unit-02-lesson-04-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "Anna is from England. What does she say?" },
-      "sentence_context": "Sono inglese.",
-      "correct_answer": "Sono inglese.",
-      "distractors": ["Sono inglesa.", "Sono ingleso.", "Sono inglesi."],
-      "hints": ["-e endings don't change for gender."],
-      "target_words": ["inglese"]
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the correct form of essere." },
+      "sentence_context": "Noi ___ studenti.",
+      "correct_answer": "siamo",
+      "distractors": [],
+      "hints": ["'Noi' → which form of essere?"],
+      "target_words": ["siamo"]
     },
     {
       "id": "unit-02-lesson-04-ex-05",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'I am Italian' (male speaker)?" },
-      "sentence_context": "Sono italiano.",
-      "correct_answer": ["sono italiano", "io sono italiano"],
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the correct form of essere." },
+      "sentence_context": "Lui ___ dottore.",
+      "correct_answer": "è",
       "distractors": [],
-      "hints": ["No article between 'sono' and the nationality."],
-      "target_words": ["italiano"]
+      "hints": ["'Lui' → which form of essere?"],
+      "target_words": ["è"]
     },
     {
       "id": "unit-02-lesson-04-ex-06",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'I am Italian' (female speaker)?" },
-      "sentence_context": "Sono italiana.",
-      "correct_answer": ["sono italiana", "io sono italiana"],
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the correct form of essere." },
+      "sentence_context": "Loro ___ insegnanti.",
+      "correct_answer": "sono",
       "distractors": [],
-      "hints": ["Change the -o to -a for feminine."],
-      "target_words": ["italiana"]
+      "hints": ["'Loro' → which form of essere? (Same as 'io'!)"],
+      "target_words": ["sono"]
     },
     {
       "id": "unit-02-lesson-04-ex-07",
       "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'She is Spanish'?" },
-      "sentence_context": "Lei è spagnola.",
-      "correct_answer": ["lei è spagnola", "è spagnola"],
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Buongiorno, ___ il dottor Rossi.",
+      "correct_answer": "sono",
       "distractors": [],
-      "hints": ["Feminine form of spagnolo."],
-      "target_words": ["spagnola"]
+      "hints": ["Good morning, I am Doctor Rossi."],
+      "target_words": ["sono"]
     },
     {
       "id": "unit-02-lesson-04-ex-08",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the nationality. Marco is Italian." },
-      "sentence_context": "Marco è ___.",
-      "correct_answer": "italiano",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Di ___ siete?",
+      "correct_answer": "dove",
       "distractors": [],
-      "hints": ["Masculine form."],
-      "target_words": ["italiano"]
+      "hints": ["Where are you (plural) from?"],
+      "target_words": ["dove"]
     },
     {
       "id": "unit-02-lesson-04-ex-09",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the nationality. Anna is American." },
-      "sentence_context": "Anna è ___.",
-      "correct_answer": "americana",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "Someone introduces themselves. Say 'nice to meet you' in Italian." },
+      "sentence_context": "Sono Marco. — Piacere!",
+      "correct_answer": "piacere",
       "distractors": [],
-      "hints": ["Feminine form of americano."],
-      "target_words": ["americana"]
+      "hints": ["One word — literally 'pleasure'."],
+      "target_words": ["piacere"]
     },
     {
       "id": "unit-02-lesson-04-ex-10",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Complete: 'He is French.'" },
-      "sentence_context": "Lui è ___.",
-      "correct_answer": "francese",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you ask 'Where are you from?' informally?" },
+      "sentence_context": "Di dove sei?",
+      "correct_answer": "di dove sei",
       "distractors": [],
-      "hints": ["This nationality ends in -e for both genders."],
-      "target_words": ["francese"]
+      "hints": ["Three words: from + where + you are."],
+      "target_words": ["dove", "sei"]
     },
     {
       "id": "unit-02-lesson-04-ex-11",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "A male speaker. Fill in his nationality (Italian)." },
-      "sentence_context": "Sono ___.",
-      "correct_answer": "italiano",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I am a teacher' in Italian?" },
+      "sentence_context": "Sono insegnante.",
+      "correct_answer": "sono insegnante",
       "distractors": [],
-      "hints": ["He uses the masculine form."],
-      "target_words": ["italiano"]
+      "hints": ["Two words — no article needed with professions."],
+      "target_words": ["sono", "insegnante"]
     },
     {
       "id": "unit-02-lesson-04-ex-12",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete with nationality." },
-      "sentence_context": "Ciao! Sono ___, di Roma.",
-      "correct_answer": "italiano",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask 'Who is she?' in Italian." },
+      "sentence_context": "Chi è lei?",
+      "correct_answer": "chi è lei",
       "distractors": [],
-      "hints": ["He's Italian and from Rome."],
-      "target_words": ["italiano"]
+      "hints": ["Three words: who + is + she."],
+      "target_words": ["chi", "è", "lei"]
     },
     {
       "id": "unit-02-lesson-04-ex-13",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete with nationality." },
-      "sentence_context": "Lei è ___, di Londra.",
-      "correct_answer": "inglese",
-      "distractors": [],
-      "hints": ["She's British, from London."],
-      "target_words": ["inglese"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Hello, my name is Anna. Nice to meet you!'" },
+      "sentence_context": "Ciao, mi chiamo Anna. Piacere!",
+      "correct_answer": ["Ciao,", "mi", "chiamo", "Anna.", "Piacere!"],
+      "distractors": ["sono", "di"],
+      "hints": ["Greeting, then name, then 'pleasure'."],
+      "target_words": ["mi chiamo", "piacere"]
     },
     {
       "id": "unit-02-lesson-04-ex-14",
       "type": "writing",
       "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Hi, I'm Italian.'" },
-      "sentence_context": "Ciao, sono italiano.",
-      "correct_answer": ["Ciao,", "sono", "italiano."],
-      "distractors": ["sei", "americana"],
-      "hints": ["Greeting + verb + nationality."],
-      "target_words": ["italiano"]
+      "prompt": { "text": "Arrange the words: 'This is Paolo. He is a doctor.'" },
+      "sentence_context": "Questo è Paolo. Lui è dottore.",
+      "correct_answer": ["Questo", "è", "Paolo.", "Lui", "è", "dottore."],
+      "distractors": ["questa", "insegnante"],
+      "hints": ["Introduce him first (this is...), then say what he does."],
+      "target_words": ["questo", "è", "dottore"]
     },
     {
       "id": "unit-02-lesson-04-ex-15",
       "type": "writing",
       "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'She is French, not Italian.'" },
-      "sentence_context": "Lei è francese, non italiana.",
-      "correct_answer": ["Lei", "è", "francese,", "non", "italiana."],
-      "distractors": ["sono", "inglese"],
-      "hints": ["Subject + verb + nationality + negation + other nationality."],
-      "target_words": ["francese"]
+      "prompt": { "text": "Arrange the words: 'Good morning, I am Doctor Rossi. I am from Venice.'" },
+      "sentence_context": "Buongiorno, sono il dottor Rossi. Sono di Venezia.",
+      "correct_answer": ["Buongiorno,", "sono", "il", "dottor", "Rossi.", "Sono", "di", "Venezia."],
+      "distractors": ["ciao", "mi chiamo"],
+      "hints": ["Formal greeting, then title + name, then origin."],
+      "target_words": ["sono", "di"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-16",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this introduction aloud." },
+      "sentence_context": "Buongiorno! Mi chiamo Anna. Sono di Firenze. Sono insegnante. Piacere!",
+      "correct_answer": "Buongiorno! Mi chiamo Anna. Sono di Firenze. Sono insegnante. Piacere!",
+      "distractors": [],
+      "hints": ["A full formal introduction: greeting, name, city, profession, nice to meet you."],
+      "target_words": ["mi chiamo", "sono", "di", "insegnante", "piacere"]
+    },
+    {
+      "id": "unit-02-lesson-04-ex-17",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this dialogue aloud." },
+      "sentence_context": "Ciao! Mi chiamo Luca. Di dove sei?",
+      "correct_answer": "Ciao! Mi chiamo Luca. Di dove sei?",
+      "distractors": [],
+      "hints": ["An informal introduction followed by a question."],
+      "target_words": ["mi chiamo", "dove", "sei"]
     }
   ],
   "vocabulary": [
-    { "word": "italiano", "meaning": "Italian (masculine)", "example": "Sono italiano." },
-    { "word": "italiana", "meaning": "Italian (feminine)", "example": "Sono italiana." },
-    { "word": "americano", "meaning": "American (masculine)", "example": "Lui è americano." },
-    { "word": "americana", "meaning": "American (feminine)", "example": "Lei è americana." },
-    { "word": "inglese", "meaning": "English/British", "example": "Sei inglese?" },
-    { "word": "francese", "meaning": "French", "example": "Marco è francese." },
-    { "word": "spagnolo", "meaning": "Spanish (masculine)", "example": "Sono spagnolo." },
-    { "word": "spagnola", "meaning": "Spanish (feminine)", "example": "Lei è spagnola." }
+    { "word": "piacere", "meaning": "Nice to meet you / Pleasure", "example": "Piacere! Mi chiamo Marco." }
   ]
 }

@@ -1,32 +1,26 @@
 {
   "id": "unit-02-lesson-02",
   "unit_id": "unit-02",
-  "name": "Essere: Singular",
+  "name": "He Is, She Is",
   "order": 2,
   "grammar_tips": [
     {
       "id": "unit-02-lesson-02-tip-01",
-      "title": "The Verb 'Essere' (To Be)",
-      "explanation": "'Essere' is the most important Italian verb. It means 'to be' and is used to describe identity, nationality, profession, and origin. It's irregular — you need to memorize each form.",
-      "table": [
-        ["io", "sono"],
-        ["tu", "sei"],
-        ["lui/lei/Lei", "è"]
-      ],
+      "title": "The Third Person: è",
+      "explanation": "'È' means both 'he is' and 'she is' — the verb form is the same. 'Lui è Marco' (he is Marco), 'Lei è Sara' (she is Sara). The accent on è is important: without it, 'e' just means 'and'.",
       "before_exercise": 0
     },
     {
       "id": "unit-02-lesson-02-tip-02",
-      "title": "Sono — Double Duty",
-      "explanation": "'Sono' means both 'I am' (io sono) and 'they are' (loro sono). Context always makes the meaning clear: 'Sono italiano' = I am Italian, 'Sono italiani' = They are Italian.",
-      "before_exercise": 5
+      "title": "lei vs Lei — Same Sound, Different Meaning",
+      "explanation": "'lei' (lowercase) = she. 'Lei' (capitalized) = you (formal). In speech they sound identical — context tells you which one. When a waiter says 'Lei è di Roma?' they're asking about YOU, not some woman named Roma.",
+      "before_exercise": 6
     },
     {
       "id": "unit-02-lesson-02-tip-03",
-      "title": "The Accent on 'È'",
-      "explanation": "'È' (with accent) means 'is'. Without the accent, 'e' means 'and'. The accent changes the meaning completely: 'Lui è italiano e lei è americana' = He is Italian and she is American.",
-      "example": { "italian": "Lui è italiano e lei è americana.", "english": "He is Italian and she is American." },
-      "before_exercise": 10
+      "title": "Questo è... Questa è... — Pointing at People",
+      "explanation": "'Questo è Marco' = This is Marco. 'Questa è Sara' = This is Sara. 'Questo' for males, 'questa' for females. Don't overthink the pattern — it's just -o for him, -a for her. You'll see this pattern everywhere in Italian.",
+      "before_exercise": 11
     }
   ],
   "exercises": [
@@ -34,269 +28,197 @@
       "id": "unit-02-lesson-02-ex-01",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'sono' mean in 'Io sono Marco'?"
-      },
-      "sentence_context": "Io sono Marco.",
-      "correct_answer": "I am",
-      "distractors": [
-        "I have",
-        "You are",
-        "He is"
-      ],
-      "hints": [
-        "This is the 'io' form of 'essere' (to be)."
-      ],
-      "target_words": ["sono"]
+      "prompt": { "text": "What does 'lui' mean?" },
+      "sentence_context": "Lui è Marco.",
+      "correct_answer": "He",
+      "distractors": ["She", "You", "I"],
+      "hints": ["The masculine third-person pronoun."],
+      "target_words": ["lui"]
     },
     {
       "id": "unit-02-lesson-02-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "Which form of 'essere' goes with 'tu'?"
-      },
-      "sentence_context": "Tu sei molto gentile.",
-      "correct_answer": "Sei",
-      "distractors": [
-        "Sono",
-        "È",
-        "Siamo"
-      ],
-      "hints": [
-        "The informal 'you are'."
-      ],
-      "target_words": ["sei"]
+      "prompt": { "text": "What does 'lei' (lowercase) mean?" },
+      "sentence_context": "Lei è di Firenze.",
+      "correct_answer": "She",
+      "distractors": ["He", "I", "We"],
+      "hints": ["The feminine third-person pronoun — lowercase."],
+      "target_words": ["lei"]
     },
     {
       "id": "unit-02-lesson-02-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'è' mean in 'Lei è Anna'?"
-      },
-      "sentence_context": "Lei è Anna.",
-      "correct_answer": "She is",
-      "distractors": [
-        "She has",
-        "I am",
-        "They are"
-      ],
-      "hints": [
-        "The third-person singular form of 'essere'."
-      ],
+      "prompt": { "text": "What does 'è' mean?" },
+      "sentence_context": "Marco è di Napoli.",
+      "correct_answer": "Is (he/she is)",
+      "distractors": ["Am (I am)", "Are (you are)", "And"],
+      "hints": ["The third-person singular form of essere. Don't confuse 'è' (is) with 'e' (and)!"],
       "target_words": ["è"]
     },
     {
       "id": "unit-02-lesson-02-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'italiano' mean?"
-      },
-      "sentence_context": "Sono italiano.",
-      "correct_answer": "Italian (masculine)",
-      "distractors": [
-        "Italian (feminine)",
-        "Italy",
-        "In Italian"
-      ],
-      "hints": [
-        "The -o ending tells you the gender."
-      ],
-      "target_words": ["italiano"]
+      "prompt": { "text": "What does 'chi' mean?" },
+      "sentence_context": "Chi è? — È Marco!",
+      "correct_answer": "Who",
+      "distractors": ["What", "Where", "When"],
+      "hints": ["A one-syllable question word for asking about a person's identity."],
+      "target_words": ["chi"]
     },
     {
       "id": "unit-02-lesson-02-ex-05",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Io ___ Marco.",
-      "correct_answer": "sono",
-      "distractors": [],
-      "hints": [
-        "I am Marco."
-      ],
-      "target_words": ["sono"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do you say 'This is Sara' when introducing a woman?" },
+      "sentence_context": "Questa è Sara.",
+      "correct_answer": "Questa è Sara",
+      "distractors": ["Questo è Sara", "Lei è Sara", "Sono Sara"],
+      "hints": ["For a woman, use the -a ending: 'questa'."],
+      "target_words": ["questa"]
     },
     {
       "id": "unit-02-lesson-02-ex-06",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Tu ___ molto gentile.",
-      "correct_answer": "sei",
-      "distractors": [],
-      "hints": [
-        "You are very kind."
-      ],
-      "target_words": ["sei"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'anche' mean?" },
+      "sentence_context": "Sono di Roma. — Anche io!",
+      "correct_answer": "Also / Too",
+      "distractors": ["But", "And", "Or"],
+      "hints": ["'Anche io' = me too!"],
+      "target_words": ["anche"]
     },
     {
       "id": "unit-02-lesson-02-ex-07",
       "type": "vocab",
       "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Lui ___ italiano.",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Lui ___ di Milano.",
       "correct_answer": "è",
       "distractors": [],
-      "hints": [
-        "He is Italian."
-      ],
+      "hints": ["He is from Milan."],
       "target_words": ["è"]
     },
     {
       "id": "unit-02-lesson-02-ex-08",
       "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'I am' in Italian?"
-      },
-      "sentence_context": "Io sono italiano.",
-      "correct_answer": ["sono", "io sono"],
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "___ è? — È Anna!",
+      "correct_answer": "Chi",
       "distractors": [],
-      "hints": [
-        "The 'io' form of 'essere'."
-      ],
-      "target_words": ["sono"]
+      "hints": ["Who is it? — It's Anna!"],
+      "target_words": ["chi"]
     },
     {
       "id": "unit-02-lesson-02-ex-09",
       "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "Translate to Italian: 'you are' (informal)"
-      },
-      "sentence_context": "Tu sei molto gentile.",
-      "correct_answer": ["sei", "tu sei"],
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "___ è Marco, un amico.",
+      "correct_answer": "Questo",
       "distractors": [],
-      "hints": [
-        "The 'tu' form of 'essere'."
-      ],
-      "target_words": ["sei"]
+      "hints": ["This is Marco, a friend."],
+      "target_words": ["questo"]
     },
     {
       "id": "unit-02-lesson-02-ex-10",
       "type": "vocab",
       "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'Italian' (for a woman) in Italian?"
-      },
-      "sentence_context": "Lei è italiana.",
-      "correct_answer": "italiana",
+      "prompt": { "text": "How do you say 'he' in Italian?" },
+      "sentence_context": "Lui è Marco.",
+      "correct_answer": "lui",
       "distractors": [],
-      "hints": [
-        "Change the -o ending to -a for feminine."
-      ],
-      "target_words": ["italiana"]
+      "hints": ["Three letters — the masculine pronoun."],
+      "target_words": ["lui"]
     },
     {
       "id": "unit-02-lesson-02-ex-11",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the correct form of 'essere'."
-      },
-      "sentence_context": "Io ___ italiano.",
-      "correct_answer": "sono",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'she' in Italian?" },
+      "sentence_context": "Lei è di Firenze.",
+      "correct_answer": "lei",
       "distractors": [],
-      "hints": [
-        "What is the 'io' form?"
-      ],
-      "target_words": ["sono"]
+      "hints": ["Three letters — the feminine pronoun."],
+      "target_words": ["lei"]
     },
     {
       "id": "unit-02-lesson-02-ex-12",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the correct form of 'essere'."
-      },
-      "sentence_context": "Lui ___ di Roma.",
-      "correct_answer": "è",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask 'Who is it?' in Italian." },
+      "sentence_context": "Chi è?",
+      "correct_answer": "chi è",
       "distractors": [],
-      "hints": [
-        "Third-person singular — don't forget the accent."
-      ],
-      "target_words": ["è"]
+      "hints": ["Two short words: who + is."],
+      "target_words": ["chi", "è"]
     },
     {
       "id": "unit-02-lesson-02-ex-13",
       "type": "writing",
       "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the correct form of 'essere'."
-      },
-      "sentence_context": "Tu ___ molto gentile.",
-      "correct_answer": "sei",
+      "prompt": { "text": "You're introducing a male friend. Fill in the blank." },
+      "sentence_context": "___ è Paolo.",
+      "correct_answer": "Questo",
       "distractors": [],
-      "hints": [
-        "The 'tu' form."
-      ],
-      "target_words": ["sei"]
+      "hints": ["'This is' for a male — ends in -o."],
+      "target_words": ["questo"]
     },
     {
       "id": "unit-02-lesson-02-ex-14",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words to say: 'I am Italian.'"
-      },
-      "sentence_context": "Io sono italiano.",
-      "correct_answer": ["Io", "sono", "italiano."],
-      "distractors": ["sei", "è"],
-      "hints": [
-        "Subject pronoun first, then the verb."
-      ],
-      "target_words": ["sono", "italiano"]
+      "subtype": "fill_blank",
+      "prompt": { "text": "You're introducing a female friend. Fill in the blank." },
+      "sentence_context": "___ è Maria.",
+      "correct_answer": "Questa",
+      "distractors": [],
+      "hints": ["'This is' for a female — ends in -a."],
+      "target_words": ["questa"]
     },
     {
       "id": "unit-02-lesson-02-ex-15",
       "type": "writing",
       "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words to say: 'She is Italian.'"
-      },
-      "sentence_context": "Lei è italiana.",
-      "correct_answer": ["Lei", "è", "italiana."],
-      "distractors": ["lui", "sono"],
-      "hints": [
-        "Use the feminine pronoun and the feminine form of 'Italian'."
-      ],
-      "target_words": ["è", "italiana"]
+      "prompt": { "text": "Arrange the words: 'She is from Florence. Me too!'" },
+      "sentence_context": "Lei è di Firenze. Anche io!",
+      "correct_answer": ["Lei", "è", "di", "Firenze.", "Anche", "io!"],
+      "distractors": ["tu", "sono"],
+      "hints": ["Her origin first, then your reaction."],
+      "target_words": ["lei", "è", "anche"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Who is he? He is Marco.'" },
+      "sentence_context": "Chi è lui? Lui è Marco.",
+      "correct_answer": ["Chi", "è", "lui?", "Lui", "è", "Marco."],
+      "distractors": ["lei", "questa"],
+      "hints": ["Question first, then the answer."],
+      "target_words": ["chi", "è", "lui"]
+    },
+    {
+      "id": "unit-02-lesson-02-ex-17",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "Questa è Anna. Lei è di Firenze.",
+      "correct_answer": "Questa è Anna. Lei è di Firenze.",
+      "distractors": [],
+      "hints": ["Introduce Anna and say where she's from."],
+      "target_words": ["questa", "è", "lei"]
     }
   ],
   "vocabulary": [
-    {
-      "word": "sono",
-      "meaning": "I am / They are",
-      "example": "Io sono Marco."
-    },
-    {
-      "word": "sei",
-      "meaning": "You are (informal)",
-      "example": "Tu sei molto gentile."
-    },
-    {
-      "word": "è",
-      "meaning": "He/She/It is",
-      "example": "Lei è Anna."
-    },
-    {
-      "word": "italiano",
-      "meaning": "Italian (masculine)",
-      "example": "Sono italiano."
-    },
-    {
-      "word": "italiana",
-      "meaning": "Italian (feminine)",
-      "example": "Lei è italiana."
-    }
+    { "word": "lui", "meaning": "He", "example": "Lui è Marco." },
+    { "word": "lei", "meaning": "She", "example": "Lei è di Firenze." },
+    { "word": "è", "meaning": "Is (he/she/it is)", "example": "Marco è di Napoli." },
+    { "word": "questo", "meaning": "This (masculine)", "example": "Questo è Paolo." },
+    { "word": "questa", "meaning": "This (feminine)", "example": "Questa è Sara." },
+    { "word": "chi", "meaning": "Who", "example": "Chi è? — È Marco!" },
+    { "word": "anche", "meaning": "Also / Too", "example": "Anche io sono di Roma!" }
   ]
 }

@@ -1,56 +1,35 @@
 {
   "id": "unit-02-lesson-03",
   "unit_id": "unit-02",
-  "name": "Essere: Plural",
+  "name": "The Full Picture",
   "order": 3,
   "grammar_tips": [
     {
       "id": "unit-02-lesson-03-tip-01",
-      "title": "Essere — Full Conjugation",
-      "explanation": "Now you know all six forms of 'essere'. Here's the complete picture:",
-      "table": [
-        [
-          "io",
-          "sono"
-        ],
-        [
-          "tu",
-          "sei"
-        ],
-        [
-          "lui/lei/Lei",
-          "è"
-        ],
-        [
-          "noi",
-          "siamo"
-        ],
-        [
-          "voi",
-          "siete"
-        ],
-        [
-          "loro",
-          "sono"
-        ]
-      ],
+      "title": "Three New Pronouns, Three New Forms",
+      "explanation": "'Noi siamo' = we are. 'Voi siete' = you (plural) are. 'Loro sono' = they are. Notice that 'sono' does double duty — it means both 'I am' (io sono) AND 'they are' (loro sono). Context always makes it clear which one.",
       "before_exercise": 0
     },
     {
       "id": "unit-02-lesson-03-tip-02",
-      "title": "Nationalities and Gender",
-      "explanation": "Most Italian nationalities change based on gender: 'americano' (m.) / 'americana' (f.). But some ending in -e stay the same for both: 'inglese' (English) works for both men and women.",
-      "example": {
-        "italian": "Lui è inglese, lei è inglese.",
-        "english": "He is English, she is English."
-      },
+      "title": "The Full Essere Table",
+      "explanation": "Here's the complete picture: io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono. Six forms, but 'sono' covers two of them. That leaves just five unique forms to memorize. Not bad for the most important verb in Italian.",
+      "table": [
+        ["Pronoun", "Essere", "English"],
+        ["io", "sono", "I am"],
+        ["tu", "sei", "you are"],
+        ["lui/lei", "è", "he/she is"],
+        ["noi", "siamo", "we are"],
+        ["voi", "siete", "you (plural) are"],
+        ["loro", "sono", "they are"]
+      ],
       "before_exercise": 5
     },
     {
       "id": "unit-02-lesson-03-tip-03",
-      "title": "Plural Nationalities",
-      "explanation": "For groups: -o → -i (americani, italiani, spagnoli), -a → -e (americane, italiane, spagnole), -e → -i (inglesi). The plural form must match the group's gender.",
-      "before_exercise": 10
+      "title": "Professions with Essere",
+      "explanation": "To say what someone does, use essere: 'Sono studente' (I'm a student), 'Lei è dottoressa' (She's a doctor). In Italian you can drop the article ('un/una') with professions — both 'Sono un insegnante' and 'Sono insegnante' work.",
+      "before_exercise": 11
     }
   ],
   "exercises": [
@@ -58,317 +37,211 @@
       "id": "unit-02-lesson-03-ex-01",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "Which form of 'essere' goes with 'noi'?"
-      },
-      "sentence_context": "Noi siamo americani.",
-      "correct_answer": "Siamo",
-      "distractors": [
-        "Sono",
-        "Siete",
-        "Sei"
-      ],
-      "hints": [
-        "First-person plural — 'we are'."
-      ],
-      "target_words": [
-        "siamo"
-      ]
+      "prompt": { "text": "What does 'noi' mean?" },
+      "sentence_context": "Noi siamo di Torino.",
+      "correct_answer": "We",
+      "distractors": ["You (plural)", "They", "I"],
+      "hints": ["The first person plural — the group that includes you."],
+      "target_words": ["noi"]
     },
     {
       "id": "unit-02-lesson-03-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "Which form of 'essere' goes with 'voi'?"
-      },
-      "sentence_context": "Voi siete molto gentili.",
-      "correct_answer": "Siete",
-      "distractors": [
-        "Siamo",
-        "Sono",
-        "Sei"
-      ],
-      "hints": [
-        "Second-person plural — 'you are (plural)'."
-      ],
-      "target_words": [
-        "siete"
-      ]
+      "prompt": { "text": "What does 'voi' mean?" },
+      "sentence_context": "Voi siete di Milano?",
+      "correct_answer": "You (plural)",
+      "distractors": ["We", "They", "He"],
+      "hints": ["Addressing a group of people — the plural 'you'."],
+      "target_words": ["voi"]
     },
     {
       "id": "unit-02-lesson-03-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'americano' mean?"
-      },
-      "sentence_context": "Lui è americano.",
-      "correct_answer": "American (masculine)",
-      "distractors": [
-        "American (feminine)",
-        "America",
-        "English"
-      ],
-      "hints": [
-        "The -o ending marks it as masculine."
-      ],
-      "target_words": [
-        "americano"
-      ]
+      "prompt": { "text": "What does 'loro' mean?" },
+      "sentence_context": "Loro sono di Napoli.",
+      "correct_answer": "They",
+      "distractors": ["We", "You (plural)", "She"],
+      "hints": ["The third person plural — a group of other people."],
+      "target_words": ["loro"]
     },
     {
       "id": "unit-02-lesson-03-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What is special about the nationality 'inglese'?"
-      },
-      "sentence_context": "Lui è inglese, lei è inglese.",
-      "correct_answer": "It's the same for both masculine and feminine",
-      "distractors": [
-        "It's only used for men",
-        "It's only used for women",
-        "It changes to 'inglesa' for women"
-      ],
-      "hints": [
-        "Nationalities ending in -e don't change for gender."
-      ],
-      "target_words": [
-        "inglese"
-      ]
+      "prompt": { "text": "'Loro sono di Roma.' What does 'sono' mean here?" },
+      "sentence_context": "Loro sono di Roma.",
+      "correct_answer": "They are",
+      "distractors": ["I am", "We are", "You are"],
+      "hints": ["'Sono' means both 'I am' and 'they are'. The pronoun 'loro' tells you which."],
+      "target_words": ["sono"]
     },
     {
       "id": "unit-02-lesson-03-ex-05",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Noi ___ americani.",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which verb form goes with 'noi'?" },
+      "sentence_context": "Noi siamo studenti.",
       "correct_answer": "siamo",
-      "distractors": [],
-      "hints": [
-        "We are American."
-      ],
-      "target_words": [
-        "siamo"
-      ]
+      "distractors": ["sono", "siete", "sei"],
+      "hints": ["The 'we' form of essere."],
+      "target_words": ["siamo"]
     },
     {
       "id": "unit-02-lesson-03-ex-06",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Voi ___ inglesi.",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which verb form goes with 'voi'?" },
+      "sentence_context": "Voi siete molto gentili!",
       "correct_answer": "siete",
-      "distractors": [],
-      "hints": [
-        "You are English."
-      ],
-      "target_words": [
-        "siete"
-      ]
+      "distractors": ["siamo", "sono", "è"],
+      "hints": ["The 'voi' form of essere."],
+      "target_words": ["siete"]
     },
     {
       "id": "unit-02-lesson-03-ex-07",
       "type": "vocab",
       "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Lei è ___.",
-      "correct_answer": "spagnola",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Noi ___ di Torino.",
+      "correct_answer": "siamo",
       "distractors": [],
-      "hints": [
-        "She is Spanish."
-      ],
-      "target_words": [
-        "spagnolo"
-      ]
+      "hints": ["We are from Turin."],
+      "target_words": ["siamo"]
     },
     {
       "id": "unit-02-lesson-03-ex-08",
       "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'we are' in Italian?"
-      },
-      "sentence_context": "Noi siamo amici.",
-      "correct_answer": [
-        "siamo",
-        "noi siamo"
-      ],
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Voi ___ studenti?",
+      "correct_answer": "siete",
       "distractors": [],
-      "hints": [
-        "The 'noi' form of 'essere'."
-      ],
-      "target_words": [
-        "siamo"
-      ]
+      "hints": ["Are you (plural) students?"],
+      "target_words": ["siete"]
     },
     {
       "id": "unit-02-lesson-03-ex-09",
       "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "Translate to Italian: 'American' (for a man)"
-      },
-      "sentence_context": "Lui è americano.",
-      "correct_answer": "americano",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Loro ___ di Napoli.",
+      "correct_answer": "sono",
       "distractors": [],
-      "hints": [
-        "Masculine nationality ending in -o."
-      ],
-      "target_words": [
-        "americano"
-      ]
+      "hints": ["They are from Naples."],
+      "target_words": ["sono"]
     },
     {
       "id": "unit-02-lesson-03-ex-10",
       "type": "vocab",
       "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'Spanish' (for a man) in Italian?"
-      },
-      "sentence_context": "Lui è spagnolo.",
-      "correct_answer": "spagnolo",
+      "prompt": { "text": "How do you say 'we are' in Italian?" },
+      "sentence_context": "Siamo di Roma!",
+      "correct_answer": "siamo",
       "distractors": [],
-      "hints": [
-        "Ends in -o for masculine."
-      ],
-      "target_words": [
-        "spagnolo"
-      ]
+      "hints": ["The 'noi' form of essere."],
+      "target_words": ["siamo"]
     },
     {
       "id": "unit-02-lesson-03-ex-11",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the correct form of 'essere'."
-      },
-      "sentence_context": "Noi ___ italiani.",
-      "correct_answer": "siamo",
-      "distractors": [],
-      "hints": [
-        "The 'noi' form."
-      ],
-      "target_words": [
-        "siamo"
-      ]
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'studente' mean?" },
+      "sentence_context": "Sono studente.",
+      "correct_answer": "Student",
+      "distractors": ["Teacher", "Doctor", "Friend"],
+      "hints": ["Very close to the English word — almost a cognate."],
+      "target_words": ["studente"]
     },
     {
       "id": "unit-02-lesson-03-ex-12",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the correct form of 'essere'."
-      },
-      "sentence_context": "Voi ___ americani.",
-      "correct_answer": "siete",
-      "distractors": [],
-      "hints": [
-        "The 'voi' form."
-      ],
-      "target_words": [
-        "siete"
-      ]
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'insegnante' mean?" },
+      "sentence_context": "Lei è insegnante.",
+      "correct_answer": "Teacher",
+      "distractors": ["Student", "Doctor", "Engineer"],
+      "hints": ["From 'insegnare' (to teach)."],
+      "target_words": ["insegnante"]
     },
     {
       "id": "unit-02-lesson-03-ex-13",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the correct nationality. Anna is from England."
-      },
-      "sentence_context": "Anna è ___.",
-      "correct_answer": "inglese",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'you (plural) are' in Italian?" },
+      "sentence_context": "Voi siete molto gentili!",
+      "correct_answer": "siete",
       "distractors": [],
-      "hints": [
-        "This nationality is the same for both genders."
-      ],
-      "target_words": [
-        "inglese"
-      ]
+      "hints": ["The 'voi' form of essere."],
+      "target_words": ["siete"]
     },
     {
       "id": "unit-02-lesson-03-ex-14",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words to say: 'We are American.'"
-      },
-      "sentence_context": "Noi siamo americani.",
-      "correct_answer": [
-        "Noi",
-        "siamo",
-        "americani."
-      ],
-      "distractors": [
-        "sono",
-        "siete"
-      ],
-      "hints": [
-        "Start with 'we', then the verb."
-      ],
-      "target_words": [
-        "siamo",
-        "americano"
-      ]
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the correct form of essere." },
+      "sentence_context": "Marco e Anna ___ di Firenze.",
+      "correct_answer": "sono",
+      "distractors": [],
+      "hints": ["Marco and Anna = they (loro). Which form of essere goes with 'loro'?"],
+      "target_words": ["sono"]
     },
     {
       "id": "unit-02-lesson-03-ex-15",
       "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the correct form of essere." },
+      "sentence_context": "Io e Luca ___ studenti.",
+      "correct_answer": "siamo",
+      "distractors": [],
+      "hints": ["'Io e Luca' = we (noi)."],
+      "target_words": ["siamo"]
+    },
+    {
+      "id": "unit-02-lesson-03-ex-16",
+      "type": "writing",
       "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words to say: 'They are Spanish.'"
-      },
-      "sentence_context": "Loro sono spagnoli.",
-      "correct_answer": [
-        "Loro",
-        "sono",
-        "spagnoli."
-      ],
-      "distractors": [
-        "siamo",
-        "è"
-      ],
-      "hints": [
-        "Start with 'they'."
-      ],
-      "target_words": [
-        "spagnolo"
-      ]
+      "prompt": { "text": "Arrange the words: 'We are students. They are teachers.'" },
+      "sentence_context": "Noi siamo studenti. Loro sono insegnanti.",
+      "correct_answer": ["Noi", "siamo", "studenti.", "Loro", "sono", "insegnanti."],
+      "distractors": ["siete", "sei"],
+      "hints": ["'We' first, then 'they'."],
+      "target_words": ["siamo", "sono", "studente", "insegnante"]
+    },
+    {
+      "id": "unit-02-lesson-03-ex-17",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "Noi siamo studenti. Siamo di Roma.",
+      "correct_answer": "Noi siamo studenti. Siamo di Roma.",
+      "distractors": [],
+      "hints": ["Say what you are, then where you're from."],
+      "target_words": ["siamo", "studente"]
+    },
+    {
+      "id": "unit-02-lesson-03-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Are you (plural) from Milan?'" },
+      "sentence_context": "Voi siete di Milano?",
+      "correct_answer": ["Voi", "siete", "di", "Milano?"],
+      "distractors": ["siamo", "noi"],
+      "hints": ["Pronoun first, then the 'voi' form of essere."],
+      "target_words": ["voi", "siete"]
     }
   ],
   "vocabulary": [
-    {
-      "word": "siamo",
-      "meaning": "We are",
-      "example": "Noi siamo americani."
-    },
-    {
-      "word": "siete",
-      "meaning": "You are (plural)",
-      "example": "Voi siete molto gentili."
-    },
-    {
-      "word": "americano",
-      "meaning": "American (masculine)",
-      "example": "Lui è americano."
-    },
-    {
-      "word": "inglese",
-      "meaning": "English / British",
-      "example": "Lei è inglese."
-    },
-    {
-      "word": "spagnolo",
-      "meaning": "Spanish (masculine)",
-      "example": "Lui è spagnolo."
-    }
+    { "word": "noi", "meaning": "We", "example": "Noi siamo di Torino." },
+    { "word": "voi", "meaning": "You (plural)", "example": "Voi siete di Milano?" },
+    { "word": "loro", "meaning": "They", "example": "Loro sono di Napoli." },
+    { "word": "siamo", "meaning": "We are", "example": "Siamo studenti." },
+    { "word": "siete", "meaning": "You (plural) are", "example": "Voi siete molto gentili!" },
+    { "word": "studente", "meaning": "Student", "example": "Sono studente." },
+    { "word": "studentessa", "meaning": "Student (female)", "example": "Lei è studentessa." },
+    { "word": "insegnante", "meaning": "Teacher", "example": "Lui è insegnante." },
+    { "word": "dottore", "meaning": "Doctor (male)", "example": "Lui è dottore." },
+    { "word": "dottoressa", "meaning": "Doctor (female)", "example": "Lei è dottoressa." }
   ]
 }

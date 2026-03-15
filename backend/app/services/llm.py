@@ -35,6 +35,10 @@ Decide whether the student's answer is acceptable. An answer is acceptable if:
 - It is a valid Italian translation/response even if it differs from the expected answers
 - It uses a synonym or alternative phrasing that conveys the same meaning
 - Minor differences in formality (tu/Lei) are acceptable unless the prompt specifies one
+- For arrange_words exercises: the student builds a sentence from word cards. \
+Dropping subject pronouns (io, tu, lui, lei, noi, voi, loro) is natural Italian \
+and should be accepted — unused cards are fine as long as the sentence is grammatically \
+correct and conveys the same meaning
 
 An answer is NOT acceptable if:
 - It changes the meaning
