@@ -1,9 +1,7 @@
 // ── XP Calculation ──────────────────────────────────────────────
 
-const LESSON_BASE_XP = 10;
-const REVIEW_BASE_XP = 8;
-const CHECKPOINT_BONUS_XP = 50;
-
+const LESSON_BASE_XP = 1;
+const REVIEW_BASE_XP = 1;
 function streakMultiplier(streakCount: number): number {
   if (streakCount >= 5) return 3;
   if (streakCount >= 3) return 2;
@@ -24,10 +22,6 @@ export function calculateReviewXP(
 ): number {
   if (!correct) return 0;
   return REVIEW_BASE_XP * streakMultiplier(streakCount);
-}
-
-export function getCheckpointBonusXP(): number {
-  return CHECKPOINT_BONUS_XP;
 }
 
 // ── Level System ────────────────────────────────────────────────

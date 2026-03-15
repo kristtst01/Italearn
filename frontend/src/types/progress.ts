@@ -74,7 +74,6 @@ export interface UserProgress {
   streak: number;
   level: number;
   lessons_completed: string[];
-  checkpoints_passed: string[];
   /** Best score per lesson, keyed by lesson ID */
   lesson_scores: Record<string, LessonScore>;
   /** Badges earned for passing section checkpoints */

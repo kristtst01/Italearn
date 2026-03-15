@@ -3,10 +3,10 @@ import type { SRSCard } from '../types';
 
 const f = fsrs({ request_retention: 0.9 });
 
-/** Create card data pre-reviewed with a Good rating (as if learned in a lesson). */
+/** Create card data pre-reviewed with an Easy rating for longer initial stability. */
 export function createEmptyCardData(now: Date): Record<string, unknown> {
   const empty = createEmptyCard(now);
-  const { card } = f.next(empty, now, Rating.Good);
+  const { card } = f.next(empty, now, Rating.Easy);
   return card as unknown as Record<string, unknown>;
 }
 

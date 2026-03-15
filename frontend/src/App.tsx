@@ -9,7 +9,6 @@ import AppLayout from '@/shared/components/AppLayout'
 import PathPage from '@/features/path/PathPage'
 import LessonPage from '@/features/lesson/LessonPage'
 import ReviewPage from '@/features/review/ReviewPage'
-import CheckpointPage from '@/features/checkpoint/CheckpointPage'
 import TestOutPage from '@/features/testout/TestOutPage'
 import ProfilePage from '@/features/profile/ProfilePage'
 import StatsPage from '@/features/stats/StatsPage'
@@ -53,7 +52,6 @@ export default function App() {
 
               {/* Immersive pages — no nav bar */}
               <Route path="/lesson/:id" element={<LessonPage />} />
-              <Route path="/checkpoint/:sectionId" element={<CheckpointPage />} />
               <Route path="/testout/:unitId" element={<TestOutPage />} />
             </Routes>
           </HydrationGuard>

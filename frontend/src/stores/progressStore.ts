@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import type { Badge, DailyActivity, LessonScore, UserProgress } from '../types';
+import { curriculum } from '../data/curriculum';
 import { getLevel } from '../engine/xp';
 import { getCurrentStreak } from '../engine/streak';
 import { findLesson, collectTargetWords } from '../engine/lessonRunner';
@@ -16,7 +17,6 @@ const DEFAULT_PROGRESS: UserProgress = {
   streak: 0,
   level: 1,
   lessons_completed: [],
-  checkpoints_passed: [],
   lesson_scores: {},
   badges: [],
   streak_dates: [],
@@ -34,7 +34,6 @@ interface ProgressState extends UserProgress {
   saveLessonScore: (lessonId: string, score: number, total: number, missedExerciseIds: string[]) => Promise<void>;
   resetLesson: (lessonId: string) => Promise<void>;
   unlockUnit: (unitId: string) => Promise<void>;
-  passCheckpoint: (sectionId: string) => Promise<void>;
   awardBadge: (sectionId: string) => Promise<void>;
   logActivity: (type: 'lesson' | 'review') => Promise<void>;
 }
@@ -48,7 +47,6 @@ function toData(state: ProgressState): Omit<UserProgress, 'id'> {
     streak: state.streak,
     level: state.level,
     lessons_completed: state.lessons_completed,
-    checkpoints_passed: state.checkpoints_passed,
     lesson_scores: state.lesson_scores,
     badges: state.badges,
     streak_dates: state.streak_dates,
@@ -83,7 +81,6 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
         streak: (saved.streak as number) ?? 0,
         level: (saved.level as number) ?? 1,
         lessons_completed: (saved.lessons_completed as string[]) ?? [],
-        checkpoints_passed: (saved.checkpoints_passed as string[]) ?? [],
         lesson_scores: (saved.lesson_scores as Record<string, LessonScore>) ?? {},
         badges: (saved.badges as Badge[]) ?? [],
         streak_dates: (saved.streak_dates as string[]) ?? [],
@@ -122,6 +119,14 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
     const updated = [...get().lessons_completed, lessonId];
     set({ lessons_completed: updated });
     persist(get());
+
+    // Award badge when all lessons in a section are completed
+    for (const section of curriculum.sections) {
+      const allLessonIds = section.units.flatMap((u) => u.lessons.map((l) => l.id));
+      if (allLessonIds.length > 0 && allLessonIds.every((id) => updated.includes(id))) {
+        await get().awardBadge(section.id);
+      }
+    }
   },
 
   async saveLessonScore(lessonId: string, score: number, total: number, missedExerciseIds: string[]) {
@@ -155,14 +160,6 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
 
   async unlockUnit(unitId: string) {
     set({ current_unit: unitId });
-    persist(get());
-  },
-
-  async passCheckpoint(sectionId: string) {
-    if (get().checkpoints_passed.includes(sectionId)) return;
-
-    const updated = [...get().checkpoints_passed, sectionId];
-    set({ checkpoints_passed: updated });
     persist(get());
   },
 

@@ -26,7 +26,7 @@ function pickDistractors(
  * the answer in review prompts.
  */
 function cleanMeaning(meaning: string): string {
-  return meaning.replace(/\s*\(.*?\)\s*/g, '').trim();
+  return meaning.replace(/\s*\(.*?\)/g, '').trim();
 }
 
 /**

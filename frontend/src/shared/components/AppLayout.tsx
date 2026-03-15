@@ -1,5 +1,6 @@
 import { Outlet, useLocation, NavLink } from 'react-router-dom';
 import { BookOpen, RotateCcw, Library, BarChart3, User } from 'lucide-react';
+import { useSrsStore } from '@/stores/srsStore';
 
 const TABS = [
   { to: '/', icon: BookOpen, label: 'Learn' },
@@ -9,12 +10,16 @@ const TABS = [
   { to: '/profile', icon: User, label: 'Profile' },
 ] as const;
 
+const REVIEW_BATCH_SIZE = 20;
+
 /** Routes where the tab bar should be hidden (immersive screens). */
-const IMMERSIVE_PREFIXES = ['/lesson/', '/checkpoint/', '/testout/'];
+const IMMERSIVE_PREFIXES = ['/lesson/', '/testout/'];
 
 export default function AppLayout() {
   const { pathname } = useLocation();
   const hideNav = IMMERSIVE_PREFIXES.some((p) => pathname.startsWith(p));
+  const reviewableCount = useSrsStore((s) => s.reviewableCount);
+  const showReviewDot = reviewableCount >= REVIEW_BATCH_SIZE;
 
   if (hideNav) return <Outlet />;
 
@@ -35,7 +40,12 @@ export default function AppLayout() {
               }`
             }
           >
-            <Icon className="w-5 h-5" />
+            <span className="relative">
+              <Icon className="w-5 h-5" />
+              {to === '/review' && showReviewDot && (
+                <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-blue-500 rounded-full" />
+              )}
+            </span>
             {label}
           </NavLink>
         ))}
@@ -54,7 +64,12 @@ export default function AppLayout() {
               }`
             }
           >
-            <Icon className="w-5 h-5" />
+            <span className="relative">
+              <Icon className="w-5 h-5" />
+              {to === '/review' && showReviewDot && (
+                <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-blue-500 rounded-full" />
+              )}
+            </span>
             {label}
           </NavLink>
         ))}

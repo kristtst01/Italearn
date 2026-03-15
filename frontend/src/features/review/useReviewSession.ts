@@ -25,9 +25,13 @@ export function useReviewSession(unitId?: string) {
   const totalExercises = session?.exercises.length ?? reviewableCount;
 
   async function handleStart() {
-    const cards = unitId
+    const raw = unitId
       ? getLearnedCardsForUnit(unitId, allCards)
       : [...dueCards];
+    // Take the 20 most overdue cards, sorted by due date (most pressing first)
+    const cards = raw
+      .sort((a, b) => new Date(a.due).getTime() - new Date(b.due).getTime())
+      .slice(0, 20);
     const built = buildReviewExercises(cards);
     setSession(built);
     if (built.exercises.length === 0) {

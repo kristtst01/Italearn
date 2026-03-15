@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { curriculum } from '@/data/curriculum';
 import { useProgressStore } from '@/stores/progressStore';
-import type { CEFRLevel, Section, Unit, UnitStatus } from '@/types';
+import type { CEFRLevel, Unit, UnitStatus } from '@/types';
 import PathNode from './PathNode';
 import PathConnector from './PathConnector';
 import CEFRBanner from './CEFRBanner';
@@ -33,50 +33,33 @@ function isUnitComplete(unit: Unit, completedLessons: string[]): boolean {
   );
 }
 
-function isSectionComplete(section: Section, completedLessons: string[]): boolean {
-  return section.units.every((u) => isUnitComplete(u, completedLessons));
-}
-
 /** Zigzag pattern: left, center, right, center, left, ... */
 const SIDE_PATTERN: ('left' | 'center' | 'right')[] = ['left', 'center', 'right', 'center'];
 
 interface PathItem {
   unit: Unit;
-  section: Section;
+  sectionCEFR: CEFRLevel;
   /** Show CEFR banner before this unit (first unit at a new CEFR level) */
   showCEFRBanner: boolean;
-  /** Show checkpoint before this unit (first unit of a new section) */
-  showCheckpoint: boolean;
-  /** The previous section (for rendering its checkpoint) */
-  prevSection: Section | null;
 }
 
-/** Flatten all units with precomputed banner/checkpoint flags. */
+/** Flatten all units with precomputed banner flags. */
 function buildPathItems(): PathItem[] {
   const items: PathItem[] = [];
   let lastCEFR: CEFRLevel | null = null;
-  let lastSectionId: string | null = null;
-  let prevSection: Section | null = null;
 
   for (const section of curriculum.sections) {
     for (let i = 0; i < section.units.length; i++) {
       const unit = section.units[i];
-      const showCEFRBanner = section.cefr_level !== lastCEFR;
-      const showCheckpoint = section.id !== lastSectionId && lastSectionId !== null;
+      const showCEFRBanner = section.cefr_level !== lastCEFR && i === 0;
 
       items.push({
         unit,
-        section,
-        showCEFRBanner: showCEFRBanner && i === 0,
-        showCheckpoint: showCheckpoint && i === 0,
-        prevSection: (showCheckpoint && i === 0) ? prevSection : null,
+        sectionCEFR: section.cefr_level,
+        showCEFRBanner,
       });
 
       if (showCEFRBanner) lastCEFR = section.cefr_level;
-      if (section.id !== lastSectionId) {
-        prevSection = curriculum.sections.find((s) => s.id === lastSectionId) ?? null;
-        lastSectionId = section.id;
-      }
     }
   }
   return items;
@@ -88,7 +71,6 @@ export default function PathPage() {
   const lessonsCompleted = useProgressStore((s) => s.lessons_completed);
   const lessonScores = useProgressStore((s) => s.lesson_scores);
   const resetLesson = useProgressStore((s) => s.resetLesson);
-  const checkpointsPassed = useProgressStore((s) => s.checkpoints_passed);
   const lessonProgress = useMemo(() => {
     const progress: Record<string, number> = {};
     for (const item of pathItems) {
@@ -99,7 +81,6 @@ export default function PathPage() {
     }
     return progress;
   }, [pathItems, lessonsCompleted]);
-  const badges = useProgressStore((s) => s.badges);
 
   const [selectedUnit, setSelectedUnit] = useState<string | null>(null);
 
@@ -134,7 +115,7 @@ export default function PathPage() {
       <div className="max-w-md mx-auto">
         <div className="relative px-4">
           {pathItems.map((item, index) => {
-            const { unit, section, showCEFRBanner, showCheckpoint, prevSection } = item;
+            const { unit, sectionCEFR, showCEFRBanner } = item;
             const isUnlocked =
               index === 0 || isUnitComplete(pathItems[index - 1].unit, lessonsCompleted);
             const status = getUnitStatus(unit, lessonsCompleted, isUnlocked);
@@ -151,55 +132,15 @@ export default function PathPage() {
               : null;
             const connectorCompleted = prevStatus === 'completed';
 
-            const prevSectionComplete = prevSection ? isSectionComplete(prevSection, lessonsCompleted) : false;
-            const prevCheckpointPassed = prevSection ? checkpointsPassed.includes(prevSection.id) : false;
-
             return (
               <div key={unit.id}>
-                {/* Section checkpoint (end of previous section) */}
-                {showCheckpoint && prevSection && prevSectionComplete && (
-                  <>
-                    <PathConnector
-                      from={prevSide ?? 'center'}
-                      to="center"
-                      completed={prevCheckpointPassed}
-                    />
-                    <div className="flex flex-col items-center w-full mb-2">
-                      <Link
-                        to={`/checkpoint/${prevSection.id}`}
-                        className="flex flex-col items-center gap-1"
-                      >
-                        <div
-                          className={`w-14 h-14 rounded-lg flex items-center justify-center text-lg font-bold transition-colors ${
-                            prevCheckpointPassed
-                              ? 'bg-green-500 text-white'
-                              : 'bg-amber-500 text-white animate-pulse'
-                          }`}
-                        >
-                          {badges.some((b) => b.sectionId === prevSection.id) ? '⭐' : '🏁'}
-                        </div>
-                        <span className="text-[10px] text-gray-500">
-                          {prevCheckpointPassed ? 'Passed' : '≥ 80% to pass'}
-                        </span>
-                      </Link>
-                    </div>
-                  </>
-                )}
-
                 {/* CEFR level banner */}
-                {showCEFRBanner && <CEFRBanner level={section.cefr_level} />}
+                {showCEFRBanner && <CEFRBanner level={sectionCEFR} />}
 
                 {/* Connector from previous node */}
-                {prevSide && !showCheckpoint && (
+                {prevSide && (
                   <PathConnector
                     from={prevSide}
-                    to={side}
-                    completed={connectorCompleted}
-                  />
-                )}
-                {showCheckpoint && (
-                  <PathConnector
-                    from="center"
                     to={side}
                     completed={connectorCompleted}
                   />
@@ -249,43 +190,6 @@ export default function PathPage() {
               </div>
             );
           })}
-
-          {/* Final checkpoint for the last section */}
-          {(() => {
-            const lastSection = curriculum.sections[curriculum.sections.length - 1];
-            const complete = isSectionComplete(lastSection, lessonsCompleted);
-            const passed = checkpointsPassed.includes(lastSection.id);
-            if (!complete) return null;
-            const lastIdx = pathItems.length - 1;
-            const lastSide = SIDE_PATTERN[lastIdx % SIDE_PATTERN.length];
-            return (
-              <>
-                <PathConnector from={lastSide} to="center" completed />
-                <div className="flex flex-col items-center w-full">
-                  <Link
-                    to={`/checkpoint/${lastSection.id}`}
-                    className="flex flex-col items-center gap-1"
-                  >
-                    <div
-                      className={`w-16 h-16 rounded-lg flex items-center justify-center text-lg font-bold transition-colors ${
-                        passed
-                          ? 'bg-green-500 text-white'
-                          : 'bg-amber-500 text-white animate-pulse'
-                      }`}
-                    >
-                      {badges.some((b) => b.sectionId === lastSection.id) ? '⭐' : '🏁'}
-                    </div>
-                    <span className="text-xs font-medium text-gray-700">
-                      Final Checkpoint
-                    </span>
-                    <span className="text-[10px] text-gray-500">
-                      {passed ? 'Passed' : '≥ 80% to pass'}
-                    </span>
-                  </Link>
-                </div>
-              </>
-            );
-          })()}
         </div>
       </div>
     </div>

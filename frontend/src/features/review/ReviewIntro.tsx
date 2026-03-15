@@ -31,15 +31,13 @@ export default function ReviewIntro({ dueCount, onStart }: ReviewIntroProps) {
   return (
     <div className="min-h-screen bg-gray-50 p-6">
       <div className="max-w-md mx-auto mt-16 text-center space-y-4">
-        <h1 className="text-2xl font-bold text-gray-900">Review</h1>
-        <p className="text-gray-600">
-          {dueCount} card{dueCount !== 1 ? 's' : ''} due for review
-        </p>
+        <h1 className="text-2xl font-bold text-gray-900">Words are waiting</h1>
+        <p className="text-gray-600">Practice your vocabulary to keep it fresh.</p>
         <button
           onClick={onStart}
           className="w-full px-4 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors"
         >
-          Start Review
+          Start
         </button>
       </div>
     </div>
