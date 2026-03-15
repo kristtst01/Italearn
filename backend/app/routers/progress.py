@@ -20,6 +20,11 @@ async def get_progress(user: User = Depends(get_current_user), db: AsyncSession 
     return await progress_svc.get_or_create_progress(db, user.id)
 
 
+@router.delete("/progress/reset", response_model=ProgressResponse)
+async def reset_progress(user: User = Depends(get_current_user), db: AsyncSession = Depends(get_db)):
+    return await progress_svc.reset_progress(db, user.id)
+
+
 @router.put("/progress", response_model=ProgressResponse)
 async def update_progress(
     body: ProgressUpdate,

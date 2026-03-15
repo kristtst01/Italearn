@@ -53,6 +53,12 @@ export function getProgress() {
   return request<Record<string, unknown>>('/api/v1/progress');
 }
 
+export function resetProgress() {
+  return request<Record<string, unknown>>('/api/v1/progress/reset', {
+    method: 'DELETE',
+  });
+}
+
 export function updateProgress(data: Record<string, unknown>) {
   return request<Record<string, unknown>>('/api/v1/progress', {
     method: 'PUT',
@@ -82,4 +88,34 @@ export function reviewSrsCard(cardId: string, data: Record<string, unknown>) {
     method: 'PUT',
     body: JSON.stringify(data),
   });
+}
+
+// --- AI ---
+
+export type TranscribeResult = {
+  text: string;
+  language: string;
+  language_probability: number;
+  duration: number;
+};
+
+export async function transcribeAudio(audio: Blob, expectedText?: string): Promise<TranscribeResult> {
+  const token = _getToken ? await _getToken() : null;
+
+  const form = new FormData();
+  form.append('audio', audio, 'recording.webm');
+  if (expectedText) form.append('expected_text', expectedText);
+
+  const res = await fetch(`${API_BASE}/api/v1/ai/transcribe`, {
+    method: 'POST',
+    headers: token ? { Authorization: `Bearer ${token}` } : {},
+    body: form,
+  });
+
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(`API ${res.status}: ${body}`);
+  }
+
+  return res.json();
 }

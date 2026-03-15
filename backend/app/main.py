@@ -5,11 +5,13 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
 from app.database import engine
-from app.routers import auth, health, progress
+from app.routers import auth, health, progress, transcribe
+from app.services import whisper
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    whisper.load_model()
     yield
     await engine.dispose()
 
@@ -27,3 +29,4 @@ app.add_middleware(
 app.include_router(health.router)
 app.include_router(auth.router)
 app.include_router(progress.router)
+app.include_router(transcribe.router)

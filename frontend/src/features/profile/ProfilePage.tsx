@@ -5,7 +5,7 @@ import StreakCalendar from '@/shared/components/StreakCalendar';
 import ProgressBar from '@/shared/components/ProgressBar';
 import { useProgressStore } from '@/stores/progressStore';
 import { getLevel } from '@/engine/xp';
-import { getMe, updateMe } from '@/engine/api';
+import { getMe, updateMe, resetProgress } from '@/engine/api';
 import { clerkAppearance } from '@/features/auth/appearance';
 
 function UserTag() {
@@ -95,7 +95,11 @@ export default function ProfilePage() {
   const levelProgress = xpNeeded > 0 ? Math.round((xpInLevel / xpNeeded) * 100) : 100;
 
   async function handleReset() {
-    // TODO: add a DELETE /api/v1/progress/reset endpoint for full server-side reset
+    try {
+      await resetProgress();
+    } catch (err) {
+      console.error('Failed to reset progress:', err);
+    }
     setConfirmReset(false);
     window.location.reload();
   }

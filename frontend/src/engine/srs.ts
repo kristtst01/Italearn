@@ -1,11 +1,12 @@
-import { fsrs, createEmptyCard, type Grade } from 'ts-fsrs';
+import { fsrs, createEmptyCard, Rating, type Grade } from 'ts-fsrs';
 import type { SRSCard } from '../types';
 
 const f = fsrs({ request_retention: 0.9 });
 
-/** Create empty FSRS card data (for API serialization). */
+/** Create card data pre-reviewed with a Good rating (as if learned in a lesson). */
 export function createEmptyCardData(now: Date): Record<string, unknown> {
-  const card = createEmptyCard(now);
+  const empty = createEmptyCard(now);
+  const { card } = f.next(empty, now, Rating.Good);
   return card as unknown as Record<string, unknown>;
 }
 

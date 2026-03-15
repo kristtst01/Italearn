@@ -7,6 +7,15 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.models.srs_card import SRSCard
 
 
+def _ensure_naive_utc(value: str | datetime) -> datetime:
+    """Parse a datetime and strip timezone info for naive-UTC DB columns."""
+    if isinstance(value, str):
+        value = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    if value.tzinfo is not None:
+        value = value.replace(tzinfo=None)
+    return value
+
+
 async def get_all_cards(db: AsyncSession, user_id: uuid.UUID) -> list[SRSCard]:
     result = await db.execute(select(SRSCard).where(SRSCard.user_id == user_id))
     return list(result.scalars().all())
@@ -40,7 +49,7 @@ async def create_cards(db: AsyncSession, user_id: uuid.UUID, cards_data: list[di
             user_id=user_id,
             word_id=card_input["word_id"],
             skill_type=card_input["skill_type"],
-            due=card_input["due"],
+            due=_ensure_naive_utc(card_input["due"]),
             card_data=card_input["card_data"],
             review_log=card_input.get("review_log", []),
         )
@@ -65,7 +74,7 @@ async def review_card(
     if card is None:
         return None
 
-    card.due = data["due"]
+    card.due = _ensure_naive_utc(data["due"])
     card.card_data = data["card_data"]
     card.review_log = data["review_log"]
 

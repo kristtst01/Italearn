@@ -14,6 +14,7 @@ class SRSCardResponse(BaseModel):
     due: datetime
     card_data: dict[str, Any]
     review_log: list[Any]
+    created_at: datetime
 
     model_config = {"from_attributes": True}
 

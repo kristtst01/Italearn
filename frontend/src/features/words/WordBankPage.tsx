@@ -2,9 +2,9 @@ import { useMemo, useState } from 'react';
 import { Search } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { filterVocab } from '@/engine/vocabCache';
+import { getVocab } from '@/engine/vocabCache';
 import { useSrsStore } from '@/stores/srsStore';
-import type { SRSCard } from '@/types';
+import type { SRSCard, VocabEntry } from '@/types';
 import { curriculum } from '@/data/curriculum';
 
 type SRSStatus = 'new' | 'learning' | 'due' | 'mature';
@@ -56,19 +56,26 @@ function getUnitName(unitId: string): string {
 
 export default function WordBankPage() {
   const allCards = useSrsStore((s) => s.allCards);
-  const words = useMemo(() => filterVocab((v) => !!v.learned_at), []);
-  const cards = allCards;
   const [search, setSearch] = useState('');
   const [filterUnit, setFilterUnit] = useState<string | null>(null);
 
-  const cardMap = useMemo(() => {
-    const map = new Map<string, SRSCard>();
-    for (const c of cards) {
-      // Use the first card per word for status display
-      if (!map.has(c.word_id)) map.set(c.word_id, c);
+  // Derive learned words from SRS cards — a word is "learned" if it has at least one card
+  const { words, cardMap } = useMemo(() => {
+    const cMap = new Map<string, SRSCard>();
+    const seen = new Set<string>();
+    const vocabWords: VocabEntry[] = [];
+
+    for (const card of allCards) {
+      if (!cMap.has(card.word_id)) cMap.set(card.word_id, card);
+      if (!seen.has(card.word_id)) {
+        seen.add(card.word_id);
+        const entry = getVocab(card.word_id);
+        if (entry) vocabWords.push(entry);
+      }
     }
-    return map;
-  }, [cards]);
+
+    return { words: vocabWords, cardMap: cMap };
+  }, [allCards]);
 
   const units = useMemo(() => {
     const set = new Set(words.map((w) => w.unit_id));

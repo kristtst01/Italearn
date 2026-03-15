@@ -1,10 +1,9 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
 import { BookOpen, RotateCcw, Flame, Trophy, GraduationCap } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
-import { filterVocab } from '@/engine/vocabCache';
 import { getLevel } from '@/engine/xp';
 import { getLongestStreak } from '@/engine/streak';
 
@@ -37,28 +36,34 @@ export default function StatsPage() {
   const streakDates = useProgressStore((s) => s.streak_dates);
   const lessonsCompleted = useProgressStore((s) => s.lessons_completed);
   const dailyActivity = useProgressStore((s) => s.daily_activity);
+  const allCards = useSrsStore((s) => s.allCards);
   const unitMastery = useSrsStore((s) => s.unitMastery);
 
   const levelInfo = getLevel(xp);
   const longestStreak = getLongestStreak(streakDates);
 
-  const [wordsData, setWordsData] = useState<{ total: number; recent: number; perDay: Record<string, number> }>({ total: 0, recent: 0, perDay: {} });
-  useEffect(() => {
-    function load() {
-      const allVocab = filterVocab((v) => !!v.learned_at);
-      const cutoff = new Date();
-      cutoff.setDate(cutoff.getDate() - 14);
-      const cutoffStr = cutoff.toISOString();
-      const recentVocab = allVocab.filter((v) => v.learned_at! >= cutoffStr);
-      const perDay: Record<string, number> = {};
-      for (const v of recentVocab) {
-        const day = v.learned_at!.slice(0, 10);
-        perDay[day] = (perDay[day] ?? 0) + 1;
-      }
-      setWordsData({ total: allVocab.length, recent: recentVocab.length, perDay });
+  // Derive word count from unique word_ids in SRS cards
+  const wordsLearned = useMemo(() => {
+    const unique = new Set(allCards.map((c) => c.word_id));
+    return unique.size;
+  }, [allCards]);
+
+  // Count new unique words learned per day from SRS card created_at
+  const wordsPerDay = useMemo(() => {
+    const seen = new Set<string>();
+    const perDay: Record<string, number> = {};
+    // Sort by created_at so we count each word_id only on its first day
+    const sorted = [...allCards].sort((a, b) =>
+      (a.created_at ?? '').localeCompare(b.created_at ?? ''),
+    );
+    for (const card of sorted) {
+      if (seen.has(card.word_id) || !card.created_at) continue;
+      seen.add(card.word_id);
+      const day = card.created_at.slice(0, 10);
+      perDay[day] = (perDay[day] ?? 0) + 1;
     }
-    load();
-  }, []);
+    return perDay;
+  }, [allCards]);
 
   // Build last 14 days chart data
   const chartData = useMemo(() => {
@@ -73,11 +78,11 @@ export default function StatsPage() {
         day: d.toLocaleDateString('en', { weekday: 'short', day: 'numeric' }),
         lessons: activity?.lessons ?? 0,
         reviews: activity?.reviews ?? 0,
-        words: wordsData.perDay[key] ?? 0,
+        words: wordsPerDay[key] ?? 0,
       });
     }
     return days;
-  }, [dailyActivity, wordsData.perDay]);
+  }, [dailyActivity, wordsPerDay]);
 
   const hasActivity = chartData.some((d) => d.lessons > 0 || d.reviews > 0 || d.words > 0);
 
@@ -91,7 +96,7 @@ export default function StatsPage() {
           <StatCard icon={Flame} label="Current streak" value={streak} sub={`Best: ${longestStreak}`} color="bg-orange-500" />
           <StatCard icon={Trophy} label="Level" value={levelInfo.level} sub={levelInfo.rank} color="bg-purple-500" />
           <StatCard icon={BookOpen} label="Lessons done" value={lessonsCompleted.length} color="bg-blue-500" />
-          <StatCard icon={GraduationCap} label="Words learned" value={wordsData.total} sub={`${wordsData.recent} in last 14 days`} color="bg-amber-500" />
+          <StatCard icon={GraduationCap} label="Words learned" value={wordsLearned} color="bg-amber-500" />
           <StatCard icon={RotateCcw} label="Total XP" value={xp} color="bg-green-500" />
         </div>
 

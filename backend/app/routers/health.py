@@ -3,6 +3,7 @@ from sqlalchemy import text
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.database import get_db
+from app.services import whisper
 
 router = APIRouter()
 
@@ -15,4 +16,8 @@ async def health(db: AsyncSession = Depends(get_db)):
     except Exception:
         db_status = "disconnected"
 
-    return {"status": "ok", "db": db_status}
+    return {
+        "status": "ok",
+        "db": db_status,
+        "whisper": "loaded" if whisper.is_loaded() else "not_loaded",
+    }

@@ -1,4 +1,4 @@
-.PHONY: setup run migrate migration logs clean
+.PHONY: setup run migrate migration logs clean download-models
 
 setup:
 	docker compose up -d --build
@@ -18,6 +18,10 @@ migration:
 
 logs:
 	docker compose logs -f api
+
+download-models:
+	docker compose exec api python -c "from faster_whisper import WhisperModel; WhisperModel('small', device='cpu', compute_type='int8')"
+	@echo "Whisper 'small' model downloaded."
 
 clean:
 	docker compose down -v

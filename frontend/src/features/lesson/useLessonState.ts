@@ -4,7 +4,7 @@ import { buildLessonResult } from '@/engine/lessonRunner';
 import { calculateExerciseXP } from '@/engine/xp';
 import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
-import { markLearned } from '@/engine/vocabCache';
+
 
 export type LessonStep =
   | { kind: 'exercise'; exercise: Exercise }
@@ -69,6 +69,7 @@ export function useLessonState(lesson: Lesson) {
   const [lessonResult, setLessonResult] = useState<LessonResult | null>(null);
   const [startTime, setStartTime] = useState(() => Date.now());
   const streakRef = useRef(0);
+  const pendingXPRef = useRef(0);
 
   const exercises = retryExercises ?? lesson.exercises;
   const isRetry = retryExercises !== null;
@@ -88,14 +89,13 @@ export function useLessonState(lesson: Lesson) {
   const progress = (exercisesDone / exerciseCount) * 100;
 
   function handleExerciseComplete(result: ExerciseResult) {
-    // Track streak and award XP
+    // Track streak, accumulate XP (awarded at lesson end)
     if (result.correct) {
       streakRef.current += 1;
     } else {
       streakRef.current = 0;
     }
-    const xp = calculateExerciseXP(result.correct, streakRef.current);
-    if (xp > 0) addXP(xp);
+    pendingXPRef.current += calculateExerciseXP(result.correct, streakRef.current);
 
     const updatedResults = [...results, result];
     setResults(updatedResults);
@@ -128,6 +128,12 @@ export function useLessonState(lesson: Lesson) {
     );
     setLessonResult(result);
 
+    // Award all accumulated XP at once
+    if (pendingXPRef.current > 0) {
+      await addXP(pendingXPRef.current);
+      pendingXPRef.current = 0;
+    }
+
     if (isRetry && lessonScore) {
       const stillMissedIds = result.results
         .filter((r) => !r.correct)
@@ -156,10 +162,6 @@ export function useLessonState(lesson: Lesson) {
         await addCards(cardsToCreate);
       }
 
-      // Mark vocabulary as learned (in-memory)
-      for (const wordId of result.wordsEncountered) {
-        markLearned(wordId);
-      }
     }
   }
 

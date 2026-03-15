@@ -6,6 +6,8 @@ class Settings(BaseSettings):
     CORS_ORIGINS: str = "http://localhost:5173,http://localhost:4173"
     CLERK_SECRET_KEY: str = ""
     CLERK_PUBLISHABLE_KEY: str = ""
+    WHISPER_MODEL: str = "small"
+    WHISPER_DEVICE: str = "cpu"
 
     @property
     def cors_origin_list(self) -> list[str]:

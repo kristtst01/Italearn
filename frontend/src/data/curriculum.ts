@@ -15,17 +15,16 @@ export const curriculum: Curriculum = {
         {
           id: 'unit-01',
           section_id: 'section-01',
-          name: 'Alphabet, Pronunciation & Greetings',
-          grammar_focus: 'Italian sounds, double consonants, stress patterns',
-          vocabulary_targets: ['ciao', 'buongiorno', 'come stai', 'grazie', 'per favore'],
-          grammar_notes: 'Italian is a phonetic language — each letter is almost always pronounced the same way. Double consonants are held longer. Stress usually falls on the second-to-last syllable.',
+          name: 'Greetings & Survival Phrases',
+          grammar_focus: 'None — formulaic chunks (formal/informal greetings, polite phrases, survival expressions)',
+          vocabulary_targets: ['ciao', 'buongiorno', 'grazie', 'per favore', 'come stai', 'non capisco'],
+          grammar_notes: 'No grammar analysis yet. Everything is memorized as fixed phrases. The key concept is the formal/informal distinction (tu vs Lei) which runs through all of Italian.',
           order: 1,
           lessons: [
             { id: 'unit-01-lesson-01', unit_id: 'unit-01', name: 'Hello & Goodbye', order: 1 },
-            { id: 'unit-01-lesson-02', unit_id: 'unit-01', name: 'Polite Phrases', order: 2 },
+            { id: 'unit-01-lesson-02', unit_id: 'unit-01', name: 'Please & Thank You', order: 2 },
             { id: 'unit-01-lesson-03', unit_id: 'unit-01', name: 'How Are You?', order: 3 },
-            { id: 'unit-01-lesson-04', unit_id: 'unit-01', name: 'Basic Responses', order: 4 },
-            { id: 'unit-01-lesson-05', unit_id: 'unit-01', name: 'Review & Mix', order: 5 },
+            { id: 'unit-01-lesson-04', unit_id: 'unit-01', name: "When You're Lost", order: 4 },
           ],
         },
         {

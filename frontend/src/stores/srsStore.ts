@@ -166,5 +166,6 @@ function mapApiCard(raw: Record<string, unknown>): SRSCard {
     due: new Date(raw.due as string),
     card: raw.card_data as SRSCard['card'],
     review_log: (raw.review_log as SRSCard['review_log']) ?? [],
+    created_at: raw.created_at as string | undefined,
   };
 }

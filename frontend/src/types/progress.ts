@@ -17,6 +17,8 @@ export interface SRSCard {
   due: Date;
   card: FSRSCard;
   review_log: ReviewLog[];
+  /** When this card was first created (from backend) */
+  created_at?: string;
 }
 
 /** Stored in Dexie — one row per word/phrase. Keyed by word_id. */
