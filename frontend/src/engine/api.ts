@@ -32,6 +32,26 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   return res.json();
 }
 
+// --- AI Validation ---
+
+export type ValidateResult = {
+  accepted: boolean;
+  reason: string;
+  cached: boolean;
+};
+
+export function validateAnswer(data: {
+  exercise_type: string;
+  prompt: string;
+  expected_answers: string[];
+  user_answer: string;
+}) {
+  return request<ValidateResult>('/api/v1/ai/validate', {
+    method: 'POST',
+    body: JSON.stringify(data),
+  });
+}
+
 // --- Auth ---
 
 export type UserInfo = { id: string; clerk_id: string; email: string; display_name: string | null };

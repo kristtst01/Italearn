@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
-import { validateAnswerMulti } from '@/engine/validation';
+import { useLLMValidation } from '@/engine/useLLMValidation';
 import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
 
@@ -15,9 +15,10 @@ export default function FillInBlank({
 }: FillInBlankProps) {
   const [answer, setAnswer] = useState('');
 
-  const validation = useMemo(
-    () => validateAnswerMulti(answer, exercise.correct_answer),
-    [answer, exercise.correct_answer],
+  const { isCorrect, feedback, canSubmit, onBeforeSubmit } = useLLMValidation(
+    answer,
+    exercise.correct_answer,
+    exercise,
   );
 
   // Split sentence on the blank marker (___) to render inline input
@@ -28,9 +29,10 @@ export default function FillInBlank({
       exercise={exercise}
       onComplete={onComplete}
       userAnswer={answer}
-      isCorrect={validation.correct}
-      canSubmit={answer.trim().length > 0}
-      feedback={validation.feedback}
+      isCorrect={isCorrect}
+      canSubmit={canSubmit}
+      feedback={feedback}
+      onBeforeSubmit={onBeforeSubmit}
     >
       {exercise.prompt.text && (
         <p className="mb-2 text-sm text-gray-500">

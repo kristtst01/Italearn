@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
-import { validateAnswerMulti } from '@/engine/validation';
+import { useLLMValidation } from '@/engine/useLLMValidation';
 import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
 
@@ -15,9 +15,10 @@ export default function TypeAnswer({
 }: TypeAnswerProps) {
   const [answer, setAnswer] = useState('');
 
-  const validation = useMemo(
-    () => validateAnswerMulti(answer, exercise.correct_answer),
-    [answer, exercise.correct_answer],
+  const { isCorrect, feedback, canSubmit, onBeforeSubmit } = useLLMValidation(
+    answer,
+    exercise.correct_answer,
+    exercise,
   );
 
   return (
@@ -25,9 +26,10 @@ export default function TypeAnswer({
       exercise={exercise}
       onComplete={onComplete}
       userAnswer={answer}
-      isCorrect={validation.correct}
-      canSubmit={answer.trim().length > 0}
-      feedback={validation.feedback}
+      isCorrect={isCorrect}
+      canSubmit={canSubmit}
+      feedback={feedback}
+      onBeforeSubmit={onBeforeSubmit}
     >
       <p className="mb-6 text-lg font-semibold text-gray-900">
         <HighlightedText text={exercise.prompt.text ?? ''} words={exercise.target_words} />

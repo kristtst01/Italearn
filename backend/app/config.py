@@ -8,6 +8,7 @@ class Settings(BaseSettings):
     CLERK_PUBLISHABLE_KEY: str = ""
     WHISPER_MODEL: str = "small"
     WHISPER_DEVICE: str = "cpu"
+    ANTHROPIC_API_KEY: str = ""
 
     @property
     def cors_origin_list(self) -> list[str]:

@@ -11,6 +11,8 @@ interface ExerciseShellProps {
   canSubmit: boolean;
   /** Optional feedback message from validation (e.g., accent reminders, typo hints) */
   feedback?: string;
+  /** Optional async hook called before showing feedback (e.g., LLM validation) */
+  onBeforeSubmit?: () => Promise<void>;
   children: ReactNode;
 }
 
@@ -21,9 +23,11 @@ export default function ExerciseShell({
   isCorrect,
   canSubmit,
   feedback,
+  onBeforeSubmit,
   children,
 }: ExerciseShellProps) {
   const [submitted, setSubmitted] = useState(false);
+  const [validating, setValidating] = useState(false);
   const startTime = useRef(0);
 
   useEffect(() => {
@@ -32,7 +36,12 @@ export default function ExerciseShell({
 
   const correctAnswer = getCorrectAnswer(exercise);
 
-  function handleSubmit() {
+  async function handleSubmit() {
+    if (onBeforeSubmit) {
+      setValidating(true);
+      await onBeforeSubmit();
+      setValidating(false);
+    }
     setSubmitted(true);
   }
 
@@ -48,9 +57,9 @@ export default function ExerciseShell({
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (e.key !== 'Enter') return;
-      if (!submitted && canSubmit) {
+      if (!submitted && !validating && canSubmit) {
         e.preventDefault();
-        setSubmitted(true);
+        handleSubmit();
       } else if (submitted) {
         e.preventDefault();
         onComplete({
@@ -61,7 +70,8 @@ export default function ExerciseShell({
         });
       }
     },
-    [submitted, canSubmit, isCorrect, userAnswer, exercise.id, onComplete],
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [submitted, validating, canSubmit, isCorrect, userAnswer, exercise.id, onComplete],
   );
 
   useEffect(() => {
@@ -76,10 +86,10 @@ export default function ExerciseShell({
       {!submitted && (
         <button
           onClick={handleSubmit}
-          disabled={!canSubmit}
+          disabled={!canSubmit || validating}
           className="mt-6 w-full rounded-xl bg-blue-600 py-3 font-semibold text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-gray-300"
         >
-          Check
+          {validating ? 'Checking…' : 'Check'}
         </button>
       )}
 

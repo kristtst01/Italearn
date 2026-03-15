@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
 from app.database import engine
-from app.routers import auth, health, progress, transcribe
+from app.routers import auth, health, progress, transcribe, validate
 from app.services import whisper
 
 
@@ -30,3 +30,4 @@ app.include_router(health.router)
 app.include_router(auth.router)
 app.include_router(progress.router)
 app.include_router(transcribe.router)
+app.include_router(validate.router)
