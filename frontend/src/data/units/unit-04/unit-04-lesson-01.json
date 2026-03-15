@@ -1,0 +1,233 @@
+{
+  "id": "unit-04-lesson-01",
+  "unit_id": "unit-04",
+  "name": "Numbers 0-10",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-04-lesson-01-tip-01",
+      "title": "11 Unique Words",
+      "explanation": "Italian numbers 0-10 are each a unique word — there are no patterns to help you. You just have to memorize them. The good news: once you know these 11 words, the rest of the number system is built from them.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-04-lesson-01-tip-02",
+      "title": "Sei = Six AND You Are",
+      "explanation": "'Sei' means both 'six' and 'you are' (from essere). Context always makes it clear: 'Sei di Roma?' (you are) vs 'Ho sei libri' (six). Italian is full of words that do double duty — you'll get used to it.",
+      "before_exercise": 8
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-04-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is 'uno' in English?" },
+      "sentence_context": "Ho uno zaino.",
+      "correct_answer": "One",
+      "distractors": ["Two", "Three", "Zero"],
+      "hints": ["The very first number after zero."],
+      "target_words": ["uno"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is 'due' in English?" },
+      "sentence_context": "Ho due libri.",
+      "correct_answer": "Two",
+      "distractors": ["One", "Three", "Four"],
+      "hints": ["Think 'duo' or 'dual'."],
+      "target_words": ["due"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is 'tre' in English?" },
+      "sentence_context": "Ci sono tre sedie.",
+      "correct_answer": "Three",
+      "distractors": ["Two", "Four", "Five"],
+      "hints": ["Think 'triple' or 'trio'."],
+      "target_words": ["tre"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is 'quattro' in English?" },
+      "sentence_context": "Ho quattro amici.",
+      "correct_answer": "Four",
+      "distractors": ["Three", "Five", "Six"],
+      "hints": ["Think 'quarter' — four quarters make a whole."],
+      "target_words": ["quattro"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is 'cinque' in English?" },
+      "sentence_context": "Ci sono cinque penne.",
+      "correct_answer": "Five",
+      "distractors": ["Four", "Six", "Seven"],
+      "hints": ["A hand has this many fingers."],
+      "target_words": ["cinque"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'zero' in Italian?" },
+      "sentence_context": "Ho zero penne.",
+      "correct_answer": "zero",
+      "distractors": [],
+      "hints": ["Same word in both languages!"],
+      "target_words": ["zero"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'one' in Italian?" },
+      "sentence_context": "Ho uno zaino.",
+      "correct_answer": "uno",
+      "distractors": [],
+      "hints": ["Think 'unit' or 'union' — one thing."],
+      "target_words": ["uno"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'six' in Italian?" },
+      "sentence_context": "Ho sei libri.",
+      "correct_answer": "sei",
+      "distractors": [],
+      "hints": ["Same word as 'you are' — context tells you which!"],
+      "target_words": ["sei-number"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'seven' in Italian?" },
+      "sentence_context": "Ci sono sette giorni.",
+      "correct_answer": "sette",
+      "distractors": [],
+      "hints": ["Starts with 's', has double 't'."],
+      "target_words": ["sette"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What number is 'otto'?" },
+      "sentence_context": "Ci sono otto studenti.",
+      "correct_answer": "Eight",
+      "distractors": ["Six", "Seven", "Nine"],
+      "hints": ["Think 'octopus' — eight legs."],
+      "target_words": ["otto"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What number is 'nove'?" },
+      "sentence_context": "Ho nove chiavi.",
+      "correct_answer": "Nine",
+      "distractors": ["Seven", "Eight", "Ten"],
+      "hints": ["Think 'November' — originally the ninth month."],
+      "target_words": ["nove"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'ten' in Italian?" },
+      "sentence_context": "Ho dieci penne.",
+      "correct_answer": "dieci",
+      "distractors": [],
+      "hints": ["Think 'decimal' — base ten."],
+      "target_words": ["dieci"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing number." },
+      "sentence_context": "Ci sono ___ libri sul tavolo.",
+      "correct_answer": "sei",
+      "distractors": [],
+      "hints": ["There are 6 books on the table."],
+      "target_words": ["sei-number"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-14",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing number." },
+      "sentence_context": "Ci sono ___ sedie in cucina.",
+      "correct_answer": "cinque",
+      "distractors": [],
+      "hints": ["There are 5 chairs in the kitchen."],
+      "target_words": ["cinque"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-15",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing number." },
+      "sentence_context": "Ho ___ penne.",
+      "correct_answer": "tre",
+      "distractors": [],
+      "hints": ["I have 3 pens."],
+      "target_words": ["tre"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'eight' in Italian?" },
+      "sentence_context": "Ci sono otto studenti.",
+      "correct_answer": "otto",
+      "distractors": [],
+      "hints": ["Think 'octopus' — eight legs."],
+      "target_words": ["otto"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I have three books.'" },
+      "sentence_context": "Ho tre libri.",
+      "correct_answer": ["Ho", "tre", "libri."],
+      "distractors": ["cinque", "sei"],
+      "hints": ["Verb first, then the number, then the noun."],
+      "target_words": ["tre"]
+    },
+    {
+      "id": "unit-04-lesson-01-ex-18",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read these numbers aloud." },
+      "sentence_context": "Zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci.",
+      "correct_answer": "Zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci.",
+      "distractors": [],
+      "hints": ["Count from zero to ten."],
+      "target_words": ["zero", "uno", "due", "tre", "quattro", "cinque", "sei-number", "sette", "otto", "nove", "dieci"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "zero", "meaning": "Zero", "example": "Ho zero penne." },
+    { "word": "uno", "meaning": "One", "example": "Ho uno zaino." },
+    { "word": "due", "meaning": "Two", "example": "Ho due libri." },
+    { "word": "tre", "meaning": "Three", "example": "Ci sono tre sedie." },
+    { "word": "quattro", "meaning": "Four", "example": "Ho quattro amici." },
+    { "word": "cinque", "meaning": "Five", "example": "Ci sono cinque penne." },
+    { "id": "sei-number", "word": "sei", "meaning": "Six", "example": "Ho sei libri." },
+    { "word": "sette", "meaning": "Seven", "example": "Ci sono sette giorni." },
+    { "word": "otto", "meaning": "Eight", "example": "Ci sono otto studenti." },
+    { "word": "nove", "meaning": "Nine", "example": "Ho nove chiavi." },
+    { "word": "dieci", "meaning": "Ten", "example": "Ho dieci penne." }
+  ]
+}

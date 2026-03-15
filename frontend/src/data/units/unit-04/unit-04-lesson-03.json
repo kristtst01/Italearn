@@ -1,0 +1,239 @@
+{
+  "id": "unit-04-lesson-03",
+  "unit_id": "unit-04",
+  "name": "Numbers 21-100",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-04-lesson-03-tip-01",
+      "title": "The Pattern: Tens + Units",
+      "explanation": "After 20, Italian numbers are predictable: take the tens word (venti, trenta, quaranta...) and add the unit. Venti + due = ventidue (22). Trenta + tre = trentatré (33). You already know all the units from lesson 1 — now you just combine them.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-04-lesson-03-tip-02",
+      "title": "Drop the Vowel Before Uno and Otto",
+      "explanation": "When adding 'uno' or 'otto' to a tens word, the final vowel of the tens drops: venti + uno = ventuno (NOT ventiuno), venti + otto = ventotto (NOT ventiotto). This happens because Italian avoids clashing vowels. The same rule applies to all tens: trentuno, trentotto, quarantuno, etc.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-04-lesson-03-tip-03",
+      "title": "Tre Gets an Accent",
+      "explanation": "When 'tre' is added to a tens word, it takes an accent: ventitré, trentatré, quarantatré. The accent marks where the stress falls. On its own, 'tre' has no accent — only when it's part of a compound number.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-04-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is 'trenta' in English?" },
+      "sentence_context": "Ci sono trenta studenti.",
+      "correct_answer": "Thirty",
+      "distractors": ["Twenty", "Forty", "Fifty"],
+      "hints": ["The tens word after venti (20)."],
+      "target_words": ["trenta"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is 'quaranta' in English?" },
+      "sentence_context": "Ho quaranta libri.",
+      "correct_answer": "Forty",
+      "distractors": ["Thirty", "Fifty", "Sixty"],
+      "hints": ["Think 'quarantine' — originally 40 days of isolation."],
+      "target_words": ["quaranta"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is 'cinquanta' in English?" },
+      "sentence_context": "Ci sono cinquanta sedie.",
+      "correct_answer": "Fifty",
+      "distractors": ["Forty", "Sixty", "Seventy"],
+      "hints": ["Cinque (5) → cinquanta (50)."],
+      "target_words": ["cinquanta"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is 'cento' in English?" },
+      "sentence_context": "Ho cento penne.",
+      "correct_answer": "One hundred",
+      "distractors": ["Ninety", "Eighty", "Seventy"],
+      "hints": ["Think 'century' — 100 years, or 'cent' — 100 cents."],
+      "target_words": ["cento"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'sixty' in Italian?" },
+      "sentence_context": "Ho sessanta libri.",
+      "correct_answer": "sessanta",
+      "distractors": [],
+      "hints": ["Sei (6) → sess... + anta."],
+      "target_words": ["sessanta"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do you say '21' in Italian?" },
+      "sentence_context": "Ho ventuno libri.",
+      "correct_answer": "ventuno",
+      "distractors": ["ventiuno", "ventino", "venteuno"],
+      "hints": ["Venti + uno, but the 'i' drops before 'uno'."],
+      "target_words": ["ventuno"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do you say '28' in Italian?" },
+      "sentence_context": "Ho ventotto libri.",
+      "correct_answer": "ventotto",
+      "distractors": ["ventiotto", "ventoto", "venteotto"],
+      "hints": ["Venti + otto, but the 'i' drops before 'otto'."],
+      "target_words": ["ventotto"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do you say '22' in Italian?" },
+      "sentence_context": "Ho ventidue libri.",
+      "correct_answer": "ventidue",
+      "distractors": ["ventdue", "ventadue", "ventedue"],
+      "hints": ["Venti + due — no vowel drops here, only before uno/otto."],
+      "target_words": ["ventidue"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say '31' in Italian?" },
+      "sentence_context": "Ho trentuno libri.",
+      "correct_answer": "trentuno",
+      "distractors": [],
+      "hints": ["Trenta + uno — drop the 'a' before uno."],
+      "target_words": ["trentuno"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say '45' in Italian?" },
+      "sentence_context": "Ci sono quarantacinque studenti.",
+      "correct_answer": "quarantacinque",
+      "distractors": [],
+      "hints": ["Quaranta + cinque — no vowel drop needed."],
+      "target_words": ["quarantacinque"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say '70' in Italian?" },
+      "sentence_context": "Ho settanta libri.",
+      "correct_answer": "settanta",
+      "distractors": [],
+      "hints": ["Sette (7) → sett... + anta."],
+      "target_words": ["settanta"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do you say '23' in Italian?" },
+      "sentence_context": "Ho ventitré penne.",
+      "correct_answer": "ventitré",
+      "distractors": ["ventitre", "ventetre", "ventire"],
+      "hints": ["Venti + tre — but tre gets an accent when combined!"],
+      "target_words": ["ventitré"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say '33' in Italian?" },
+      "sentence_context": "Ho trentatré libri.",
+      "correct_answer": "trentatré",
+      "distractors": [],
+      "hints": ["Trenta + tre — tre gets an accent."],
+      "target_words": ["trentatré"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-14",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'quanto' mean?" },
+      "sentence_context": "Quanto costa?",
+      "correct_answer": "How much",
+      "distractors": ["How many", "When", "Where"],
+      "hints": ["Think 'quantity' — asking about amount or price."],
+      "target_words": ["quanto"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-15",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "___ costa?",
+      "correct_answer": "Quanto",
+      "distractors": [],
+      "hints": ["How much does it cost?"],
+      "target_words": ["quanto"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'There are fifty chairs.'" },
+      "sentence_context": "Ci sono cinquanta sedie.",
+      "correct_answer": ["Ci", "sono", "cinquanta", "sedie."],
+      "distractors": ["c'è", "trenta"],
+      "hints": ["Plural — use 'ci sono'. Then the number, then the noun."],
+      "target_words": ["ci sono", "cinquanta"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'How much does it cost?'" },
+      "sentence_context": "Quanto costa?",
+      "correct_answer": ["Quanto", "costa?"],
+      "distractors": ["quanta", "come"],
+      "hints": ["'Quanto' first, then the verb."],
+      "target_words": ["quanto"]
+    },
+    {
+      "id": "unit-04-lesson-03-ex-18",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read these numbers aloud." },
+      "sentence_context": "Venti, trenta, quaranta, cinquanta, sessanta, settanta, ottanta, novanta, cento.",
+      "correct_answer": "Venti, trenta, quaranta, cinquanta, sessanta, settanta, ottanta, novanta, cento.",
+      "distractors": [],
+      "hints": ["Count by tens from 20 to 100."],
+      "target_words": ["venti", "trenta", "quaranta", "cinquanta", "sessanta", "settanta", "ottanta", "novanta", "cento"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "ventuno", "meaning": "Twenty-one", "example": "Ho ventuno libri." },
+    { "word": "ventidue", "meaning": "Twenty-two", "example": "Ho ventidue penne." },
+    { "word": "trenta", "meaning": "Thirty", "example": "Ci sono trenta studenti." },
+    { "word": "quaranta", "meaning": "Forty", "example": "Ho quaranta libri." },
+    { "word": "cinquanta", "meaning": "Fifty", "example": "Ci sono cinquanta sedie." },
+    { "word": "sessanta", "meaning": "Sixty", "example": "Ho sessanta penne." },
+    { "word": "settanta", "meaning": "Seventy", "example": "Ho settanta libri." },
+    { "word": "ottanta", "meaning": "Eighty", "example": "Ci sono ottanta studenti." },
+    { "word": "novanta", "meaning": "Ninety", "example": "Ho novanta chiavi." },
+    { "word": "cento", "meaning": "One hundred", "example": "Ho cento penne." },
+    { "word": "quanto", "meaning": "How much", "example": "Quanto costa?" }
+  ]
+}

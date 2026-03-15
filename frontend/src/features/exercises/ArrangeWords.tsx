@@ -33,7 +33,7 @@ export default function ArrangeWords({
 
   const { isCorrect, feedback, onBeforeSubmit } = useLLMValidation(
     userAnswer,
-    exercise.correct_answer,
+    correctAnswer,
     exercise,
   );
 

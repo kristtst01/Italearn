@@ -1,72 +1,40 @@
 {
   "id": "unit-03-lesson-03",
   "unit_id": "unit-03",
-  "name": "Numbers 21–100",
+  "name": "One and Many",
   "order": 3,
   "grammar_tips": [
     {
       "id": "unit-03-lesson-03-tip-01",
-      "title": "Tens: 20 to 100",
-      "explanation": "The tens follow a pattern echoing single digits: venti (20), trenta (30), quaranta (40), cinquanta (50), sessanta (60), settanta (70), ottanta (80), novanta (90), cento (100).",
+      "title": "Making Things Plural",
+      "explanation": "Italian plurals change the ending: -o becomes -i (libro → libri), -a becomes -e (penna → penne), -e becomes -i (chiave → chiavi). No 's' at the end like English — the vowel does the work.",
       "table": [
-        [
-          "20",
-          "venti"
-        ],
-        [
-          "30",
-          "trenta"
-        ],
-        [
-          "40",
-          "quaranta"
-        ],
-        [
-          "50",
-          "cinquanta"
-        ],
-        [
-          "60",
-          "sessanta"
-        ],
-        [
-          "70",
-          "settanta"
-        ],
-        [
-          "80",
-          "ottanta"
-        ],
-        [
-          "90",
-          "novanta"
-        ],
-        [
-          "100",
-          "cento"
-        ]
+        ["Singular ending", "Plural ending", "Example"],
+        ["-o", "-i", "libro → libri"],
+        ["-a", "-e", "penna → penne"],
+        ["-e", "-i", "chiave → chiavi"]
       ],
       "before_exercise": 0
     },
     {
       "id": "unit-03-lesson-03-tip-02",
-      "title": "Combining Tens and Units",
-      "explanation": "Attach the digit to the ten: venti + uno = ventuno, venti + due = ventidue. When adding 'uno' or 'otto', drop the final vowel of the ten: vent-uno (not ventiuno), vent-otto (not ventiotto).",
-      "example": {
-        "italian": "Ho ventuno anni.",
-        "english": "I am twenty-one years old."
-      },
-      "before_exercise": 5
+      "title": "Plural Articles: i, gli, le",
+      "explanation": "'Il' becomes 'i' in the plural: il libro → i libri. 'Lo' becomes 'gli': lo studente → gli studenti. 'La' becomes 'le': la penna → le penne. 'L'' becomes 'gli' (masculine) or 'le' (feminine): l'uomo → gli uomini, l'acqua → le acque.",
+      "table": [
+        ["Singular", "Plural", "Example"],
+        ["il", "i", "i libri"],
+        ["lo", "gli", "gli studenti"],
+        ["l' (masc)", "gli", "gli uomini"],
+        ["la", "le", "le penne"],
+        ["l' (fem)", "le", "le amiche"]
+      ],
+      "before_exercise": 7
     },
     {
       "id": "unit-03-lesson-03-tip-03",
-      "title": "Accent on 'Tre' Compounds",
-      "explanation": "When 'tre' is added to a ten, it gets an accent: ventitré, trentatré, quarantatré, etc. This is the only digit that changes when combined with a ten.",
-      "example": {
-        "italian": "Ho trentatré anni.",
-        "english": "I am thirty-three years old."
-      },
-      "before_exercise": 10
+      "title": "Watch Out: amico → amici, amica → amiche",
+      "explanation": "Nouns ending in -co/-ca keep the hard 'k' sound in the plural by adding an 'h': amico → amici (the 'ci' is already a 'ch' sound), but amica → amiche (the 'h' preserves the hard 'k'). 'Uomo → uomini' is flat-out irregular — just memorize it.",
+      "before_exercise": 13
     }
   ],
   "exercises": [
@@ -74,339 +42,211 @@
       "id": "unit-03-lesson-03-ex-01",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What number is 'trenta'?"
-      },
-      "sentence_context": "Ho trenta euro.",
-      "correct_answer": "30",
-      "distractors": [
-        "20",
-        "40",
-        "50"
-      ],
-      "hints": [
-        "It starts like 'tre' (three)."
-      ],
-      "target_words": [
-        "trenta"
-      ]
+      "prompt": { "text": "What is the plural of 'libro'?" },
+      "sentence_context": "I libri sono sul tavolo.",
+      "correct_answer": "libri",
+      "distractors": ["libra", "libre", "libros"],
+      "hints": ["-o → -i in the plural."],
+      "target_words": ["libro"]
     },
     {
       "id": "unit-03-lesson-03-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What number is 'cinquanta'?"
-      },
-      "sentence_context": "Cinquanta persone.",
-      "correct_answer": "50",
-      "distractors": [
-        "40",
-        "60",
-        "45"
-      ],
-      "hints": [
-        "It starts like 'cinque' (five)."
-      ],
-      "target_words": [
-        "cinquanta"
-      ]
+      "prompt": { "text": "What is the plural of 'penna'?" },
+      "sentence_context": "Le penne sono nella borsa.",
+      "correct_answer": "penne",
+      "distractors": ["penni", "pennas", "penna"],
+      "hints": ["-a → -e in the plural."],
+      "target_words": ["penna"]
     },
     {
       "id": "unit-03-lesson-03-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What number is 'ottanta'?"
-      },
-      "sentence_context": "Ottanta anni.",
-      "correct_answer": "80",
-      "distractors": [
-        "70",
-        "90",
-        "18"
-      ],
-      "hints": [
-        "It starts like 'otto' (eight)."
-      ],
-      "target_words": [
-        "ottanta"
-      ]
+      "prompt": { "text": "What is the plural of 'chiave'?" },
+      "sentence_context": "Le chiavi sono qui.",
+      "correct_answer": "chiavi",
+      "distractors": ["chiave", "chiaves", "chiavie"],
+      "hints": ["-e → -i in the plural. Same rule for both genders."],
+      "target_words": ["chiave"]
     },
     {
       "id": "unit-03-lesson-03-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What number is 'cento'?"
-      },
-      "sentence_context": "Cento euro.",
-      "correct_answer": "100",
-      "distractors": [
-        "90",
-        "10",
-        "1000"
-      ],
-      "hints": [
-        "Think of 'century'."
-      ],
-      "target_words": [
-        "cento"
-      ]
+      "prompt": { "text": "What is the plural of 'sedia'?" },
+      "sentence_context": "Le sedie sono in cucina.",
+      "correct_answer": "sedie",
+      "distractors": ["sedii", "sedias", "sedia"],
+      "hints": ["-a → -e in the plural."],
+      "target_words": ["sedia"]
     },
     {
       "id": "unit-03-lesson-03-ex-05",
       "type": "vocab",
       "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say '30' in Italian?"
-      },
-      "sentence_context": "Ho trenta euro.",
-      "correct_answer": "trenta",
+      "prompt": { "text": "What is the plural of 'tavolo'?" },
+      "sentence_context": "I tavoli sono grandi.",
+      "correct_answer": "tavoli",
       "distractors": [],
-      "hints": [
-        "Starts like 'tre'."
-      ],
-      "target_words": [
-        "trenta"
-      ]
+      "hints": ["-o → -i."],
+      "target_words": ["tavolo"]
     },
     {
       "id": "unit-03-lesson-03-ex-06",
       "type": "vocab",
       "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say '21' in Italian?"
-      },
-      "sentence_context": "Ho ventuno anni.",
-      "correct_answer": "ventuno",
+      "prompt": { "text": "What is the plural of 'donna'?" },
+      "sentence_context": "Le donne sono insegnanti.",
+      "correct_answer": "donne",
       "distractors": [],
-      "hints": [
-        "Drop the final vowel of venti before uno."
-      ],
-      "target_words": [
-        "ventuno"
-      ]
+      "hints": ["-a → -e."],
+      "target_words": ["donna"]
     },
     {
       "id": "unit-03-lesson-03-ex-07",
       "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say '33' in Italian?"
-      },
-      "sentence_context": "Ho trentatré anni.",
-      "correct_answer": "trentatré",
-      "distractors": [],
-      "hints": [
-        "Tre gets an accent when combined with a ten."
-      ],
-      "target_words": [
-        "trentatré"
-      ]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which plural article goes with 'libri'?" },
+      "sentence_context": "I libri sono di Marco.",
+      "correct_answer": "i",
+      "distractors": ["gli", "le", "il"],
+      "hints": ["'Il libro' in singular. What does 'il' become in plural?"],
+      "target_words": ["libro"]
     },
     {
       "id": "unit-03-lesson-03-ex-08",
       "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say '100' in Italian?"
-      },
-      "sentence_context": "Cento euro.",
-      "correct_answer": "cento",
-      "distractors": [],
-      "hints": [
-        "Think of 'century'."
-      ],
-      "target_words": [
-        "cento"
-      ]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which plural article goes with 'studenti'?" },
+      "sentence_context": "Gli studenti sono di Firenze.",
+      "correct_answer": "gli",
+      "distractors": ["i", "le", "lo"],
+      "hints": ["'Lo studente' in singular. 'Lo' becomes..."],
+      "target_words": ["studente"]
     },
     {
       "id": "unit-03-lesson-03-ex-09",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete with the correct number."
-      },
-      "sentence_context": "Ho ___ anni. (I am 52 years old)",
-      "correct_answer": "cinquantadue",
-      "distractors": [],
-      "hints": [
-        "cinquanta + due, no dropped vowel."
-      ],
-      "target_words": [
-        "cinquantadue"
-      ]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which plural article goes with 'penne'?" },
+      "sentence_context": "Le penne sono nella borsa.",
+      "correct_answer": "le",
+      "distractors": ["i", "gli", "la"],
+      "hints": ["All feminine plurals use the same article."],
+      "target_words": ["penna"]
     },
     {
       "id": "unit-03-lesson-03-ex-10",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete with the correct number."
-      },
-      "sentence_context": "Ci sono ___ studenti. (There are 40)",
-      "correct_answer": "quaranta",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the correct plural article." },
+      "sentence_context": "___ sedie sono in camera.",
+      "correct_answer": "Le",
       "distractors": [],
-      "hints": [
-        "40 — think of 'quarantine' (40 days)."
-      ],
-      "target_words": [
-        "quaranta"
-      ]
+      "hints": ["'Sedie' is feminine plural. All feminine plurals get the same article."],
+      "target_words": ["sedia"]
     },
     {
       "id": "unit-03-lesson-03-ex-11",
       "type": "writing",
       "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the tens number."
-      },
-      "sentence_context": "Trenta, quaranta, ___, sessanta.",
-      "correct_answer": "cinquanta",
+      "prompt": { "text": "Fill in the correct plural article." },
+      "sentence_context": "___ uomini sono dottori.",
+      "correct_answer": "Gli",
       "distractors": [],
-      "hints": [
-        "30, 40, ___, 60"
-      ],
-      "target_words": [
-        "cinquanta"
-      ]
+      "hints": ["'Uomini' starts with a vowel — masculine plural before vowel gets..."],
+      "target_words": ["uomo"]
     },
     {
       "id": "unit-03-lesson-03-ex-12",
       "type": "writing",
       "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in: 21 in Italian (venti + uno)."
-      },
-      "sentence_context": "Vent___ (21)",
-      "correct_answer": "uno",
+      "prompt": { "text": "Fill in the correct plural article." },
+      "sentence_context": "___ tavoli sono grandi.",
+      "correct_answer": "I",
       "distractors": [],
-      "hints": [
-        "Drop the 'i' from venti before uno."
-      ],
-      "target_words": [
-        "ventuno"
-      ]
+      "hints": ["'Il tavolo' → plural?"],
+      "target_words": ["tavolo"]
     },
     {
       "id": "unit-03-lesson-03-ex-13",
       "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say '28' in Italian?"
-      },
-      "sentence_context": "Ho ventotto anni.",
-      "correct_answer": "ventotto",
-      "distractors": [],
-      "hints": [
-        "Drop the final vowel of venti before otto."
-      ],
-      "target_words": [
-        "ventotto"
-      ]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is the plural of 'amico'?" },
+      "sentence_context": "Gli amici sono di Roma.",
+      "correct_answer": "amici",
+      "distractors": ["amicos", "amiche", "amicoi"],
+      "hints": ["-o → -i, and the 'c' stays hard."],
+      "target_words": ["amico"]
     },
     {
       "id": "unit-03-lesson-03-ex-14",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange: 'I am thirty years old.'"
-      },
-      "sentence_context": "Ho trenta anni.",
-      "correct_answer": [
-        "Ho",
-        "trenta",
-        "anni."
-      ],
-      "distractors": [
-        "sono",
-        "venti"
-      ],
-      "hints": [
-        "Use avere for age!"
-      ],
-      "target_words": [
-        "trenta"
-      ]
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is the plural of 'amica'?" },
+      "sentence_context": "Le amiche sono studentesse.",
+      "correct_answer": "amiche",
+      "distractors": ["amice", "amichi", "amicas"],
+      "hints": ["The 'h' keeps the hard 'k' sound: ami-ke."],
+      "target_words": ["amica"]
     },
     {
       "id": "unit-03-lesson-03-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What is the plural of 'uomo'?" },
+      "sentence_context": "Gli uomini sono insegnanti.",
+      "correct_answer": "uomini",
+      "distractors": [],
+      "hints": ["This one is irregular — no rule helps. Just memorize it."],
+      "target_words": ["uomo"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-16",
       "type": "writing",
       "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange: 'There are one hundred people.'"
-      },
-      "sentence_context": "Ci sono cento persone.",
-      "correct_answer": [
-        "Ci",
-        "sono",
-        "cento",
-        "persone."
-      ],
-      "distractors": [
-        "ho",
-        "trenta"
-      ],
-      "hints": [
-        "Ci sono = there are."
-      ],
-      "target_words": [
-        "cento"
-      ]
+      "prompt": { "text": "Arrange the words: 'The books are on the table.'" },
+      "sentence_context": "I libri sono sul tavolo.",
+      "correct_answer": ["I", "libri", "sono", "sul", "tavolo."],
+      "distractors": ["le", "gli"],
+      "hints": ["'Libri' is masculine plural — which article?"],
+      "target_words": ["libro"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The keys are in the bag.'" },
+      "sentence_context": "Le chiavi sono nella borsa.",
+      "correct_answer": ["Le", "chiavi", "sono", "nella", "borsa."],
+      "distractors": ["i", "gli"],
+      "hints": ["'Chiavi' is feminine plural — all feminine plurals use the same article."],
+      "target_words": ["chiave", "borsa"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-18",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "I libri sono sul tavolo. Le chiavi sono nella borsa.",
+      "correct_answer": "I libri sono sul tavolo. Le chiavi sono nella borsa.",
+      "distractors": [],
+      "hints": ["The books are on the table. The keys are in the bag."],
+      "target_words": ["libro", "chiave"]
     }
   ],
   "vocabulary": [
-    {
-      "word": "trenta",
-      "meaning": "thirty",
-      "example": "Ho trenta euro."
-    },
-    {
-      "word": "quaranta",
-      "meaning": "forty",
-      "example": "Quaranta anni."
-    },
-    {
-      "word": "cinquanta",
-      "meaning": "fifty",
-      "example": "Cinquanta persone."
-    },
-    {
-      "word": "sessanta",
-      "meaning": "sixty",
-      "example": "Sessanta minuti."
-    },
-    {
-      "word": "settanta",
-      "meaning": "seventy",
-      "example": "Settanta anni."
-    },
-    {
-      "word": "ottanta",
-      "meaning": "eighty",
-      "example": "Ottanta chilometri."
-    },
-    {
-      "word": "novanta",
-      "meaning": "ninety",
-      "example": "Novanta euro."
-    },
-    {
-      "word": "cento",
-      "meaning": "one hundred",
-      "example": "Cento euro."
-    },
-    {
-      "word": "ventuno",
-      "meaning": "twenty-one",
-      "example": "Ho ventuno anni."
-    },
-    {
-      "word": "trentatré",
-      "meaning": "thirty-three",
-      "example": "Ho trentatré anni."
-    }
+    { "word": "libri", "meaning": "Books", "example": "I libri sono sul tavolo." },
+    { "word": "tavoli", "meaning": "Tables", "example": "I tavoli sono grandi." },
+    { "word": "penne", "meaning": "Pens", "example": "Le penne sono nella borsa." },
+    { "word": "sedie", "meaning": "Chairs", "example": "Le sedie sono in cucina." },
+    { "word": "amici", "meaning": "Friends (male/mixed)", "example": "Gli amici sono di Roma." },
+    { "word": "amiche", "meaning": "Friends (female)", "example": "Le amiche sono studentesse." },
+    { "word": "studenti", "meaning": "Students", "example": "Gli studenti sono di Firenze." },
+    { "word": "chiavi", "meaning": "Keys", "example": "Le chiavi sono qui." },
+    { "word": "uomini", "meaning": "Men", "example": "Gli uomini sono dottori." },
+    { "word": "donne", "meaning": "Women", "example": "Le donne sono insegnanti." }
   ]
 }

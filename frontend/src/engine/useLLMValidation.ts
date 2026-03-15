@@ -41,6 +41,7 @@ export function useLLMValidation(
       const result = await validateAnswerApi({
         exercise_type: exercise.subtype,
         prompt: exercise.prompt.text ?? '',
+        sentence_context: exercise.sentence_context,
         expected_answers: answers,
         user_answer: answer,
       });

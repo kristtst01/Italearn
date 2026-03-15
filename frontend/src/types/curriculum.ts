@@ -34,6 +34,8 @@ export interface Unit {
 
 /** Lightweight vocab entry as authored in unit JSON files */
 export interface LessonVocab {
+  /** Explicit unique ID — defaults to `word` if omitted. Use for homonyms (e.g. "sei-number" vs "sei"). */
+  id?: string;
   word: string;
   meaning: string;
   example: string;

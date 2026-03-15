@@ -54,20 +54,26 @@ function WordHint({ entry, children }: { entry?: VocabEntry; children: ReactNode
  */
 export default function HighlightedText({ text, words }: HighlightedTextProps) {
   const [vocabMap, setVocabMap] = useState<Map<string, VocabEntry>>(new Map());
+  const [wordTexts, setWordTexts] = useState<string[]>([]);
 
   useEffect(() => {
     if (!words.length) return;
     const map = new Map<string, VocabEntry>();
+    const texts: string[] = [];
     for (const wordId of words) {
       const entry = getVocab(wordId);
-      if (entry) map.set(entry.word.toLowerCase(), entry);
+      // Resolve ID → actual word text for regex matching
+      const w = entry?.word ?? wordId;
+      map.set(w.toLowerCase(), entry ?? { id: wordId, word: w, meaning: '', example: '', unit_id: '' });
+      if (!texts.some((t) => t.toLowerCase() === w.toLowerCase())) texts.push(w);
     }
     setVocabMap(map);
+    setWordTexts(texts);
   }, [words]);
 
-  if (!words.length) return <>{text}</>;
+  if (!wordTexts.length) return <>{text}</>;
 
-  const escaped = words.map((w) =>
+  const escaped = wordTexts.map((w) =>
     w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'),
   );
   const pattern = new RegExp(

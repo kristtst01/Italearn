@@ -16,10 +16,11 @@ export async function seedVocabulary(): Promise<void> {
   for (const lesson of lessons) {
     if (!lesson.vocabulary) continue;
     for (const v of lesson.vocabulary) {
-      if (seen.has(v.word)) continue;
-      seen.add(v.word);
+      const id = v.id ?? v.word;
+      if (seen.has(id)) continue;
+      seen.add(id);
       _entries.push({
-        id: v.word,
+        id,
         word: v.word,
         meaning: v.meaning,
         example: v.example,

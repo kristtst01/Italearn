@@ -1,70 +1,31 @@
 {
   "id": "unit-03-lesson-01",
   "unit_id": "unit-03",
-  "name": "Numbers 0–10",
+  "name": "Masculine & Feminine",
   "order": 1,
   "grammar_tips": [
     {
       "id": "unit-03-lesson-01-tip-01",
-      "title": "Italian Numbers 0–10",
-      "explanation": "Italian numbers 0–10 are unique words you need to memorize: zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci.",
-      "table": [
-        [
-          "0",
-          "zero"
-        ],
-        [
-          "1",
-          "uno"
-        ],
-        [
-          "2",
-          "due"
-        ],
-        [
-          "3",
-          "tre"
-        ],
-        [
-          "4",
-          "quattro"
-        ],
-        [
-          "5",
-          "cinque"
-        ],
-        [
-          "6",
-          "sei"
-        ],
-        [
-          "7",
-          "sette"
-        ],
-        [
-          "8",
-          "otto"
-        ],
-        [
-          "9",
-          "nove"
-        ],
-        [
-          "10",
-          "dieci"
-        ]
-      ],
+      "title": "Every Noun Has a Gender",
+      "explanation": "In Italian, every noun is either masculine or feminine — even objects. A book is masculine (libro), a pen is feminine (penna). There's no 'it'. This feels strange, but it's the foundation of everything in Italian grammar.",
       "before_exercise": 0
     },
     {
       "id": "unit-03-lesson-01-tip-02",
-      "title": "'Sei' — Six or You Are?",
-      "explanation": "'Sei' means both 'six' (number) and 'you are' (verb essere). Context makes it clear: 'Ho sei gatti' = I have six cats. 'Tu sei italiano' = You are Italian.",
-      "example": {
-        "italian": "Ho sei gatti.",
-        "english": "I have six cats."
-      },
-      "before_exercise": 8
+      "title": "The -o / -a Rule",
+      "explanation": "Most nouns ending in -o are masculine. Most nouns ending in -a are feminine. This covers about 70% of Italian nouns. Exceptions exist, but learn the rule first — it's your best instinct.",
+      "table": [
+        ["Ending", "Gender", "Example"],
+        ["-o", "Masculine", "libro, tavolo, telefono"],
+        ["-a", "Feminine", "penna, sedia, borsa"]
+      ],
+      "before_exercise": 4
+    },
+    {
+      "id": "unit-03-lesson-01-tip-03",
+      "title": "Un and Una — Your First Articles",
+      "explanation": "'Un' goes with masculine nouns: un libro (a book). 'Una' goes with feminine nouns: una penna (a pen). English has just 'a/an' — Italian makes you pick based on gender. Get this right and every future grammar topic gets easier.",
+      "before_exercise": 9
     }
   ],
   "exercises": [
@@ -72,339 +33,200 @@
       "id": "unit-03-lesson-01-ex-01",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What number is 'tre'?"
-      },
-      "sentence_context": "Ho tre gatti.",
-      "correct_answer": "3",
-      "distractors": [
-        "2",
-        "5",
-        "4"
-      ],
-      "hints": [
-        "Think of the English word 'trio'."
-      ],
-      "target_words": [
-        "tre"
-      ]
+      "prompt": { "text": "What does 'libro' mean?" },
+      "sentence_context": "È un libro.",
+      "correct_answer": "Book",
+      "distractors": ["Pen", "Table", "Chair"],
+      "hints": ["Think 'library' — same root."],
+      "target_words": ["libro"]
     },
     {
       "id": "unit-03-lesson-01-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What number is 'cinque'?"
-      },
-      "sentence_context": "Cinque minuti, per favore.",
-      "correct_answer": "5",
-      "distractors": [
-        "4",
-        "6",
-        "8"
-      ],
-      "hints": [],
-      "target_words": [
-        "cinque"
-      ]
+      "prompt": { "text": "What does 'penna' mean?" },
+      "sentence_context": "È una penna.",
+      "correct_answer": "Pen",
+      "distractors": ["Book", "Bag", "Chair"],
+      "hints": ["Almost the same word in English!"],
+      "target_words": ["penna"]
     },
     {
       "id": "unit-03-lesson-01-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What number is 'otto'?"
-      },
-      "sentence_context": "Sono le otto.",
-      "correct_answer": "8",
-      "distractors": [
-        "6",
-        "9",
-        "7"
-      ],
-      "hints": [
-        "Think of 'octopus' — eight legs."
-      ],
-      "target_words": [
-        "otto"
-      ]
+      "prompt": { "text": "What does 'tavolo' mean?" },
+      "sentence_context": "È un tavolo.",
+      "correct_answer": "Table",
+      "distractors": ["Phone", "Book", "Bag"],
+      "hints": ["Think of the word 'tavern' — tables everywhere."],
+      "target_words": ["tavolo"]
     },
     {
       "id": "unit-03-lesson-01-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "Which Italian word means 'ten'?"
-      },
-      "sentence_context": "Dieci persone sono qui.",
-      "correct_answer": "dieci",
-      "distractors": [
-        "nove",
-        "sette",
-        "sei"
-      ],
-      "hints": [
-        "Think of 'decimal'."
-      ],
-      "target_words": [
-        "dieci"
-      ]
+      "prompt": { "text": "Is 'libro' masculine or feminine?" },
+      "sentence_context": "È un libro.",
+      "correct_answer": "Masculine — ends in -o",
+      "distractors": ["Feminine — ends in -o", "Masculine — ends in -a", "Feminine — ends in -a"],
+      "hints": ["What letter does 'libro' end with? Apply the -o/-a rule."],
+      "target_words": ["libro"]
     },
     {
       "id": "unit-03-lesson-01-ex-05",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'sei' mean here: 'Ho sei gatti'?"
-      },
-      "sentence_context": "Ho sei gatti.",
-      "correct_answer": "six",
-      "distractors": [
-        "you are",
-        "I have",
-        "seven"
-      ],
-      "hints": [
-        "After 'ho' (I have), 'sei' is a number, not a verb."
-      ],
-      "target_words": [
-        "sei"
-      ]
+      "prompt": { "text": "Is 'sedia' masculine or feminine?" },
+      "sentence_context": "È una sedia.",
+      "correct_answer": "Feminine — ends in -a",
+      "distractors": ["Masculine — ends in -a", "Feminine — ends in -o", "Masculine — ends in -o"],
+      "hints": ["'Sedia' ends in -a. What does the rule say?"],
+      "target_words": ["sedia"]
     },
     {
       "id": "unit-03-lesson-01-ex-06",
       "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say '7' in Italian?"
-      },
-      "sentence_context": "Sette giorni in una settimana.",
-      "correct_answer": "sette",
-      "distractors": [],
-      "hints": [
-        "Starts with 's', double 't'."
-      ],
-      "target_words": [
-        "sette"
-      ]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'borsa' mean?" },
+      "sentence_context": "È una borsa.",
+      "correct_answer": "Bag",
+      "distractors": ["Pen", "Chair", "Table"],
+      "hints": ["Think 'purse' — similar sound."],
+      "target_words": ["borsa"]
     },
     {
       "id": "unit-03-lesson-01-ex-07",
       "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say '4' in Italian?"
-      },
-      "sentence_context": "Quattro stagioni.",
-      "correct_answer": "quattro",
-      "distractors": [],
-      "hints": [
-        "Think of 'quarter' — four parts."
-      ],
-      "target_words": [
-        "quattro"
-      ]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'telefono' mean?" },
+      "sentence_context": "È un telefono.",
+      "correct_answer": "Phone",
+      "distractors": ["Table", "Book", "Chair"],
+      "hints": ["Sounds exactly like the English word!"],
+      "target_words": ["telefono"]
     },
     {
       "id": "unit-03-lesson-01-ex-08",
       "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say '2' in Italian?"
-      },
-      "sentence_context": "Ho due gatti.",
-      "correct_answer": "due",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "È ___ libro.",
+      "correct_answer": "un",
       "distractors": [],
-      "hints": [
-        "Think of a 'duet' — two performers."
-      ],
-      "target_words": [
-        "due"
-      ]
+      "hints": ["It is a book. 'Libro' is masculine — which article?"],
+      "target_words": ["libro"]
     },
     {
       "id": "unit-03-lesson-01-ex-09",
       "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say '1' in Italian?"
-      },
-      "sentence_context": "Ho uno zaino.",
-      "correct_answer": "uno",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "È ___ penna.",
+      "correct_answer": "una",
       "distractors": [],
-      "hints": [
-        "It's also the name of a popular card game."
-      ],
-      "target_words": [
-        "uno"
-      ]
+      "hints": ["It is a pen. 'Penna' is feminine — which article?"],
+      "target_words": ["penna"]
     },
     {
       "id": "unit-03-lesson-01-ex-10",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say '0' in Italian?"
-      },
-      "sentence_context": "Zero gradi oggi.",
-      "correct_answer": "zero",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'un' or 'una'." },
+      "sentence_context": "È ___ tavolo.",
+      "correct_answer": "un",
       "distractors": [],
-      "hints": [
-        "Same as English!"
-      ],
-      "target_words": [
-        "zero"
-      ]
+      "hints": ["'Tavolo' ends in -o → masculine → un."],
+      "target_words": ["tavolo"]
     },
     {
       "id": "unit-03-lesson-01-ex-11",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Ho ___ gatti.",
-      "correct_answer": "due",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'un' or 'una'." },
+      "sentence_context": "È ___ sedia.",
+      "correct_answer": "una",
       "distractors": [],
-      "hints": [
-        "I have two cats."
-      ],
-      "target_words": [
-        "due"
-      ]
+      "hints": ["'Sedia' ends in -a → feminine → una."],
+      "target_words": ["sedia"]
     },
     {
       "id": "unit-03-lesson-01-ex-12",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "___ persone sono qui.",
-      "correct_answer": "Nove",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'un' or 'una'." },
+      "sentence_context": "È ___ borsa.",
+      "correct_answer": "una",
       "distractors": [],
-      "hints": [
-        "Nine people are here."
-      ],
-      "target_words": [
-        "nove"
-      ]
+      "hints": ["'Borsa' ends in -a → feminine."],
+      "target_words": ["borsa"]
     },
     {
       "id": "unit-03-lesson-01-ex-13",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the missing number."
-      },
-      "sentence_context": "Contando: zero, uno, ___, tre.",
-      "correct_answer": "due",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'a book' in Italian?" },
+      "sentence_context": "È un libro.",
+      "correct_answer": "un libro",
       "distractors": [],
-      "hints": [
-        "zero, one, ___, three"
-      ],
-      "target_words": [
-        "due"
-      ]
+      "hints": ["Article + noun. 'Libro' is masculine."],
+      "target_words": ["libro"]
     },
     {
       "id": "unit-03-lesson-01-ex-14",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the missing number."
-      },
-      "sentence_context": "Sette, otto, ___.",
-      "correct_answer": "nove",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'a pen' in Italian?" },
+      "sentence_context": "È una penna.",
+      "correct_answer": "una penna",
       "distractors": [],
-      "hints": [
-        "seven, eight, ___"
-      ],
-      "target_words": [
-        "nove"
-      ]
+      "hints": ["Article + noun. 'Penna' is feminine."],
+      "target_words": ["penna"]
     },
     {
       "id": "unit-03-lesson-01-ex-15",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "'Ragazzo' and 'ragazza' mean 'boy' and 'girl'. What pattern do you see?" },
+      "sentence_context": "Questo è un ragazzo. Questa è una ragazza.",
+      "correct_answer": "-o for masculine, -a for feminine",
+      "distractors": ["-a for masculine, -o for feminine", "Both end in -o", "The article changes but the noun stays the same"],
+      "hints": ["The ending switches between -o and -a depending on gender."],
+      "target_words": ["ragazzo", "ragazza"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-16",
       "type": "writing",
       "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'I have three cats'."
-      },
-      "sentence_context": "Io ho tre gatti.",
-      "correct_answer": [
-        "Io",
-        "ho",
-        "tre",
-        "gatti."
-      ],
-      "distractors": [
-        "sei",
-        "sono"
-      ],
-      "hints": [
-        "Subject + verb + number + noun."
-      ],
-      "target_words": [
-        "tre"
-      ]
+      "prompt": { "text": "Arrange the words: 'It is a table.'" },
+      "sentence_context": "È un tavolo.",
+      "correct_answer": ["È", "un", "tavolo."],
+      "distractors": ["una", "sedia"],
+      "hints": ["'Tavolo' is masculine — pick the right article."],
+      "target_words": ["tavolo"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-17",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "Questo è un libro. Questa è una penna.",
+      "correct_answer": "Questo è un libro. Questa è una penna.",
+      "distractors": [],
+      "hints": ["This is a book. This is a pen."],
+      "target_words": ["libro", "penna"]
     }
   ],
   "vocabulary": [
-    {
-      "word": "zero",
-      "meaning": "zero",
-      "example": "Zero gradi oggi."
-    },
-    {
-      "word": "uno",
-      "meaning": "one",
-      "example": "Ho uno zaino."
-    },
-    {
-      "word": "due",
-      "meaning": "two",
-      "example": "Ho due gatti."
-    },
-    {
-      "word": "tre",
-      "meaning": "three",
-      "example": "Ho tre gatti."
-    },
-    {
-      "word": "quattro",
-      "meaning": "four",
-      "example": "Quattro stagioni."
-    },
-    {
-      "word": "cinque",
-      "meaning": "five",
-      "example": "Cinque minuti, per favore."
-    },
-    {
-      "word": "sei",
-      "meaning": "six",
-      "example": "Ho sei gatti."
-    },
-    {
-      "word": "sette",
-      "meaning": "seven",
-      "example": "Sette giorni in una settimana."
-    },
-    {
-      "word": "otto",
-      "meaning": "eight",
-      "example": "Sono le otto."
-    },
-    {
-      "word": "nove",
-      "meaning": "nine",
-      "example": "Nove persone sono qui."
-    },
-    {
-      "word": "dieci",
-      "meaning": "ten",
-      "example": "Dieci persone sono qui."
-    }
+    { "word": "libro", "meaning": "Book", "example": "È un libro." },
+    { "word": "tavolo", "meaning": "Table", "example": "È un tavolo." },
+    { "word": "telefono", "meaning": "Phone", "example": "È un telefono." },
+    { "word": "ragazzo", "meaning": "Boy", "example": "Questo è un ragazzo." },
+    { "word": "amico", "meaning": "Friend (male)", "example": "Questo è un amico." },
+    { "word": "penna", "meaning": "Pen", "example": "È una penna." },
+    { "word": "sedia", "meaning": "Chair", "example": "È una sedia." },
+    { "word": "borsa", "meaning": "Bag", "example": "È una borsa." },
+    { "word": "ragazza", "meaning": "Girl", "example": "Questa è una ragazza." },
+    { "word": "amica", "meaning": "Friend (female)", "example": "Questa è un'amica." }
   ]
 }

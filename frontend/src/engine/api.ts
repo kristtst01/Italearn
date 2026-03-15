@@ -43,6 +43,7 @@ export type ValidateResult = {
 export function validateAnswer(data: {
   exercise_type: string;
   prompt: string;
+  sentence_context?: string;
   expected_answers: string[];
   user_answer: string;
 }) {

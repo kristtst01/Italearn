@@ -26,8 +26,9 @@ You are an Italian language learning assistant that judges whether a student's \
 answer is an acceptable translation or response.
 
 You will be given:
-- The exercise type (e.g. translation, fill_blank, type_answer)
+- The exercise type (e.g. translation, fill_blank, type_answer, cloze, arrange_words)
 - The prompt shown to the student
+- The sentence context (the full sentence with a blank, if applicable — use this to judge correctness)
 - The expected correct answer(s)
 - The student's actual answer
 
@@ -55,6 +56,7 @@ async def judge_answer(
     prompt: str,
     expected_answers: list[str],
     user_answer: str,
+    sentence_context: str | None = None,
 ) -> dict:
     """Ask Claude Haiku whether the user's answer is acceptable."""
     client = _get_client()
@@ -62,7 +64,8 @@ async def judge_answer(
     user_message = (
         f"Exercise type: {exercise_type}\n"
         f"Prompt: {prompt}\n"
-        f"Expected answer(s): {', '.join(expected_answers)}\n"
+        + (f"Sentence context: {sentence_context}\n" if sentence_context else "")
+        + f"Expected answer(s): {', '.join(expected_answers)}\n"
         f"Student's answer: {user_answer}"
     )
 

@@ -1,0 +1,232 @@
+{
+  "id": "unit-04-lesson-02",
+  "unit_id": "unit-04",
+  "name": "Numbers 11-20",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-04-lesson-02-tip-01",
+      "title": "Two Groups of Teens",
+      "explanation": "Numbers 11-16 each have a unique form you need to memorize: undici, dodici, tredici, quattordici, quindici, sedici. Notice the pattern — the unit digit comes first, then '-dici' (from dieci). But each one is slightly irregular, so treat them as individual words.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-04-lesson-02-tip-02",
+      "title": "The Flipped Teens: 17-19",
+      "explanation": "Numbers 17-19 flip the pattern: 'dici' (ten) comes FIRST, then the unit. Dici + sette = diciassette (17). Dici + otto = diciotto (18). Dici + nove = diciannove (19). Notice the double letters: diciassette (ss), diciannove (nn). Diciotto drops the 'i' because otto starts with 'o'.",
+      "before_exercise": 8
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-04-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What number is 'undici'?" },
+      "sentence_context": "Ci sono undici studenti.",
+      "correct_answer": "Eleven",
+      "distractors": ["Ten", "Twelve", "Thirteen"],
+      "hints": ["The first teen — 'un' + 'dici'."],
+      "target_words": ["undici"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What number is 'dodici'?" },
+      "sentence_context": "Ci sono dodici sedie.",
+      "correct_answer": "Twelve",
+      "distractors": ["Eleven", "Thirteen", "Fourteen"],
+      "hints": ["'Do' (two) + 'dici' (ten)."],
+      "target_words": ["dodici"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What number is 'tredici'?" },
+      "sentence_context": "Ho tredici libri.",
+      "correct_answer": "Thirteen",
+      "distractors": ["Twelve", "Fourteen", "Fifteen"],
+      "hints": ["'Tre' (three) + 'dici' (ten)."],
+      "target_words": ["tredici"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'fourteen' in Italian?" },
+      "sentence_context": "Ho quattordici penne.",
+      "correct_answer": "quattordici",
+      "distractors": [],
+      "hints": ["'Quattro' (four) + 'dici' — but shortened to 'quattor-'."],
+      "target_words": ["quattordici"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What number is 'quindici'?" },
+      "sentence_context": "Ho quindici chiavi.",
+      "correct_answer": "Fifteen",
+      "distractors": ["Fourteen", "Sixteen", "Thirteen"],
+      "hints": ["'Quin' (five) + 'dici' (ten). Five-teen."],
+      "target_words": ["quindici"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'sixteen' in Italian?" },
+      "sentence_context": "Ho sedici amici.",
+      "correct_answer": "sedici",
+      "distractors": [],
+      "hints": ["'Sei' (six) + 'dici' — but shortened to 'se-'."],
+      "target_words": ["sedici"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'eleven' in Italian?" },
+      "sentence_context": "Ci sono undici studenti.",
+      "correct_answer": "undici",
+      "distractors": [],
+      "hints": ["'Un' (one) + 'dici' (ten)."],
+      "target_words": ["undici"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What number is 'diciassette'?" },
+      "sentence_context": "Ci sono diciassette studenti.",
+      "correct_answer": "Seventeen",
+      "distractors": ["Sixteen", "Eighteen", "Nineteen"],
+      "hints": ["'Dici' (ten) + 'sette' (seven) — notice the double 's'."],
+      "target_words": ["diciassette"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What number is 'diciotto'?" },
+      "sentence_context": "Ho diciotto chiavi.",
+      "correct_answer": "Eighteen",
+      "distractors": ["Sixteen", "Seventeen", "Nineteen"],
+      "hints": ["'Dici' (ten) + 'otto' (eight) — the 'i' drops before 'o'."],
+      "target_words": ["diciotto"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'nineteen' in Italian?" },
+      "sentence_context": "Ho diciannove libri.",
+      "correct_answer": "diciannove",
+      "distractors": [],
+      "hints": ["'Dici' (ten) + 'nove' (nine) — notice the double 'n'."],
+      "target_words": ["diciannove"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing number." },
+      "sentence_context": "Ho ___ penne.",
+      "correct_answer": "undici",
+      "distractors": [],
+      "hints": ["I have 11 pens."],
+      "target_words": ["undici"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing number." },
+      "sentence_context": "Ci sono ___ studenti.",
+      "correct_answer": "quindici",
+      "distractors": [],
+      "hints": ["There are 15 students."],
+      "target_words": ["quindici"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'twelve' in Italian?" },
+      "sentence_context": "Ci sono dodici sedie.",
+      "correct_answer": "dodici",
+      "distractors": [],
+      "hints": ["'Do' (two) + 'dici' (ten)."],
+      "target_words": ["dodici"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'thirteen' in Italian?" },
+      "sentence_context": "Ho tredici libri.",
+      "correct_answer": "tredici",
+      "distractors": [],
+      "hints": ["'Tre' (three) + 'dici' (ten)."],
+      "target_words": ["tredici"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-15",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What number is 'venti'?" },
+      "sentence_context": "Ho venti penne.",
+      "correct_answer": "Twenty",
+      "distractors": ["Eighteen", "Nineteen", "Twelve"],
+      "hints": ["The last number in this group — the base for the twenties."],
+      "target_words": ["venti"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'twenty' in Italian?" },
+      "sentence_context": "Ho venti libri.",
+      "correct_answer": "venti",
+      "distractors": [],
+      "hints": ["The base number for the twenties."],
+      "target_words": ["venti"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-17",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing number." },
+      "sentence_context": "Ho ___ chiavi.",
+      "correct_answer": "diciotto",
+      "distractors": [],
+      "hints": ["I have 18 keys."],
+      "target_words": ["diciotto"]
+    },
+    {
+      "id": "unit-04-lesson-02-ex-18",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read these numbers aloud." },
+      "sentence_context": "Undici, dodici, tredici, quattordici, quindici, sedici, diciassette, diciotto, diciannove, venti.",
+      "correct_answer": "Undici, dodici, tredici, quattordici, quindici, sedici, diciassette, diciotto, diciannove, venti.",
+      "distractors": [],
+      "hints": ["Count from eleven to twenty."],
+      "target_words": ["undici", "dodici", "tredici", "quattordici", "quindici", "sedici", "diciassette", "diciotto", "diciannove", "venti"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "undici", "meaning": "Eleven", "example": "Ci sono undici studenti." },
+    { "word": "dodici", "meaning": "Twelve", "example": "Ci sono dodici sedie." },
+    { "word": "tredici", "meaning": "Thirteen", "example": "Ho tredici libri." },
+    { "word": "quattordici", "meaning": "Fourteen", "example": "Ho quattordici penne." },
+    { "word": "quindici", "meaning": "Fifteen", "example": "Ho quindici chiavi." },
+    { "word": "sedici", "meaning": "Sixteen", "example": "Ho sedici amici." },
+    { "word": "diciassette", "meaning": "Seventeen", "example": "Ci sono diciassette studenti." },
+    { "word": "diciotto", "meaning": "Eighteen", "example": "Ho diciotto chiavi." },
+    { "word": "diciannove", "meaning": "Nineteen", "example": "Ho diciannove libri." },
+    { "word": "venti", "meaning": "Twenty", "example": "Ho venti penne." }
+  ]
+}

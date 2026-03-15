@@ -37,6 +37,7 @@ async def validate_answer(
         prompt=body.prompt,
         expected_answers=body.expected_answers,
         user_answer=body.user_answer,
+        sentence_context=body.sentence_context,
     )
 
     # Cache the result for future requests
