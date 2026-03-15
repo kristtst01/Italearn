@@ -1,0 +1,227 @@
+{
+  "id": "unit-05-lesson-01",
+  "unit_id": "unit-05",
+  "name": "I Have, You Have",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-05-lesson-01-tip-01",
+      "title": "Your Second Verb",
+      "explanation": "'Avere' (to have) is the second most important Italian verb after essere. Like essere, it changes form depending on who's speaking: 'ho' (I have), 'hai' (you have), 'ha' (he/she has). With essere and avere together, you can already say a lot.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-05-lesson-01-tip-02",
+      "title": "The Silent H",
+      "explanation": "Ho, hai, ha all start with a silent H — you never pronounce it. The H exists only for spelling: 'ho' (I have) vs 'o' (or), 'hai' (you have) vs 'ai' (to the), 'ha' (has) vs 'a' (to/at). In speech, context makes it clear.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-05-lesson-01-tip-03",
+      "title": "Have vs Be",
+      "explanation": "Don't confuse avere with essere! 'Sono Marco' (I AM Marco) = identity. 'Ho un cane' (I HAVE a dog) = possession. If you're describing what something IS, use essere. If you're talking about what someone HAS, use avere.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-05-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ho' mean?" },
+      "sentence_context": "Ho un cane.",
+      "correct_answer": "I have",
+      "distractors": ["I am", "You have", "He has"],
+      "hints": ["The 'io' form of avere."],
+      "target_words": ["ho"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'hai' mean?" },
+      "sentence_context": "Hai una sorella?",
+      "correct_answer": "You have",
+      "distractors": ["I have", "He has", "You are"],
+      "hints": ["The 'tu' form of avere."],
+      "target_words": ["hai"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ha' mean?" },
+      "sentence_context": "Maria ha un gatto.",
+      "correct_answer": "He/She has",
+      "distractors": ["I have", "You have", "We have"],
+      "hints": ["The lui/lei form of avere."],
+      "target_words": ["ha"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is 'un cane' in English?" },
+      "sentence_context": "Ho un cane.",
+      "correct_answer": "A dog",
+      "distractors": ["A cat", "A car", "A brother"],
+      "hints": ["Man's best friend — think 'canine'."],
+      "target_words": ["cane"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is 'un gatto' in English?" },
+      "sentence_context": "Hai un gatto?",
+      "correct_answer": "A cat",
+      "distractors": ["A dog", "A bicycle", "A sister"],
+      "hints": ["The other popular pet."],
+      "target_words": ["gatto"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in the correct form of avere." },
+      "sentence_context": "___ un cane.",
+      "correct_answer": "Ho",
+      "distractors": [],
+      "hints": ["I have a dog."],
+      "target_words": ["ho"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in the correct form of avere." },
+      "sentence_context": "Tu ___ una macchina?",
+      "correct_answer": "hai",
+      "distractors": [],
+      "hints": ["Do you have a car?"],
+      "target_words": ["hai"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in the correct form of avere." },
+      "sentence_context": "Marco ___ un gatto.",
+      "correct_answer": "ha",
+      "distractors": [],
+      "hints": ["Marco has a cat."],
+      "target_words": ["ha"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I have' in Italian?" },
+      "sentence_context": "Ho una bicicletta.",
+      "correct_answer": "ho",
+      "distractors": [],
+      "hints": ["Starts with a silent H."],
+      "target_words": ["ho"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'you have' (informal) in Italian?" },
+      "sentence_context": "Hai un fratello?",
+      "correct_answer": "hai",
+      "distractors": [],
+      "hints": ["The 'tu' form — also starts with a silent H."],
+      "target_words": ["hai"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'a car' in Italian?" },
+      "sentence_context": "Ho una macchina.",
+      "correct_answer": "una macchina",
+      "distractors": [],
+      "hints": ["Think 'machine' — it's related!"],
+      "target_words": ["macchina"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which sentence means 'I have a sister'?" },
+      "sentence_context": "Ho una sorella.",
+      "correct_answer": "Ho una sorella",
+      "distractors": ["Sono una sorella", "Ha una sorella", "Hai una sorella"],
+      "hints": ["'I have' = ho. 'A sister' = una sorella."],
+      "target_words": ["ho", "sorella"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the verb: someone is talking about what they own." },
+      "sentence_context": "___ una bicicletta.",
+      "correct_answer": "Ho",
+      "distractors": [],
+      "hints": ["I have a bicycle — use avere, not essere."],
+      "target_words": ["ho"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the verb: talking about what Luca has." },
+      "sentence_context": "Luca ___ un fratello.",
+      "correct_answer": "ha",
+      "distractors": [],
+      "hints": ["Luca has a brother. Use the lui/lei form."],
+      "target_words": ["ha"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I have a dog.'" },
+      "sentence_context": "Ho un cane.",
+      "correct_answer": ["Ho", "un", "cane."],
+      "distractors": ["sono", "sei"],
+      "hints": ["Verb first, then article, then noun."],
+      "target_words": ["ho", "cane"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Do you have a car?'" },
+      "sentence_context": "Hai una macchina?",
+      "correct_answer": ["Hai", "una", "macchina?"],
+      "distractors": ["ho", "ha"],
+      "hints": ["'You have' first, then article, then noun."],
+      "target_words": ["hai", "macchina"]
+    },
+    {
+      "id": "unit-05-lesson-01-ex-17",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "Ho un cane e un gatto. Hai una macchina?",
+      "correct_answer": "Ho un cane e un gatto. Hai una macchina?",
+      "distractors": [],
+      "hints": ["I have a dog and a cat. Do you have a car?"],
+      "target_words": ["ho", "hai", "cane", "gatto", "macchina"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "ho", "meaning": "I have", "example": "Ho un cane." },
+    { "word": "hai", "meaning": "You have (informal)", "example": "Hai una sorella?" },
+    { "word": "ha", "meaning": "He/She has", "example": "Maria ha un gatto." },
+    { "word": "avere", "meaning": "To have", "example": "Avere un cane è bello." },
+    { "word": "cane", "meaning": "Dog", "example": "Ho un cane." },
+    { "word": "gatto", "meaning": "Cat", "example": "Hai un gatto?" },
+    { "word": "macchina", "meaning": "Car", "example": "Ho una macchina." },
+    { "word": "bicicletta", "meaning": "Bicycle", "example": "Hai una bicicletta?" },
+    { "word": "fratello", "meaning": "Brother", "example": "Luca ha un fratello." },
+    { "word": "sorella", "meaning": "Sister", "example": "Ho una sorella." }
+  ]
+}
