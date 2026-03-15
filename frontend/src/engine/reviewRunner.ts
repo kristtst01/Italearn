@@ -92,7 +92,7 @@ function cardToExercise(card: SRSCard): Exercise | null {
       id: baseId,
       type: 'vocab',
       subtype: 'type_answer',
-      prompt: { text: `Translate to Italian: '${meaning}'` },
+      prompt: { text: `Translate to Italian: '${entry.meaning}'` },
       sentence_context: entry.example,
       correct_answer: entry.word,
       distractors: [],
