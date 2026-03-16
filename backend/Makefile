@@ -20,8 +20,7 @@ logs:
 	docker compose logs -f api
 
 download-models:
-	docker compose exec api python -c "from faster_whisper import WhisperModel; WhisperModel('small', device='cpu', compute_type='int8')"
-	@echo "Whisper 'small' model downloaded."
+	@echo "No local models needed (using Google Cloud Speech-to-Text)."
 
 clean:
 	docker compose down -v

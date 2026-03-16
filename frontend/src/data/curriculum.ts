@@ -93,6 +93,7 @@ export const curriculum: Curriculum = {
             { id: 'unit-05-lesson-02', unit_id: 'unit-05', name: 'We Have, They Have', order: 2 },
             { id: 'unit-05-lesson-03', unit_id: 'unit-05', name: 'How Old Are You?', order: 3 },
             { id: 'unit-05-lesson-04', unit_id: 'unit-05', name: 'Avere Idioms', order: 4 },
+            { id: 'unit-05-lesson-05', unit_id: 'unit-05', name: 'Practice Writing', order: 5 },
           ],
         },
         {

@@ -4,7 +4,12 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.database import get_db
 from app.dependencies import get_current_user
 from app.models.user import User
-from app.schemas.validate import ValidateRequest, ValidateResponse
+from app.schemas.validate import (
+    GradeFreeResponseRequest,
+    GradeFreeResponseResponse,
+    ValidateRequest,
+    ValidateResponse,
+)
 from app.services import llm, verdict_cache as cache_svc
 
 router = APIRouter(prefix="/api/v1/ai", tags=["ai"])
@@ -53,4 +58,28 @@ async def validate_answer(
         accepted=verdict["accepted"],
         reason=verdict["reason"],
         cached=False,
+    )
+
+
+@router.post("/grade-free-response", response_model=GradeFreeResponseResponse)
+async def grade_free_response(
+    body: GradeFreeResponseRequest,
+    user: User = Depends(get_current_user),
+):
+    if not llm.is_configured():
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="LLM service not configured",
+        )
+
+    result = await llm.grade_free_response(
+        prompt=body.prompt,
+        correct_answer=body.correct_answer,
+        user_answer=body.user_answer,
+        curriculum_context=body.curriculum_context,
+    )
+
+    return GradeFreeResponseResponse(
+        accepted=result["accepted"],
+        feedback=result["feedback"],
     )
