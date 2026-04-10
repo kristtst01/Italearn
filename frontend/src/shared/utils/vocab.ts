@@ -7,7 +7,7 @@ import { shuffle } from './shuffle';
  * the answer in review/test-out prompts.
  */
 export function cleanMeaning(meaning: string): string {
-  return meaning.replace(/\s*\(.*?\)\s*/g, '').trim();
+  return meaning.replace(/\s*\(.*?\)/g, '').trim();
 }
 
 /**
@@ -19,10 +19,19 @@ export function pickDistractors(
   count: number,
   mode: 'word' | 'meaning',
 ): string[] {
-  let pool = getVocabByUnit(entry.unit_id).filter((v) => v.id !== entry.id);
+  const target = mode === 'word'
+    ? entry.word.toLowerCase()
+    : cleanMeaning(entry.meaning).toLowerCase();
+
+  function isTooSimilar(v: VocabEntry): boolean {
+    const value = (mode === 'word' ? v.word : cleanMeaning(v.meaning)).toLowerCase();
+    return value.includes(target) || target.includes(value);
+  }
+
+  let pool = getVocabByUnit(entry.unit_id).filter((v) => v.id !== entry.id && !isTooSimilar(v));
 
   if (pool.length < count) {
-    pool = getAllVocab().filter((v) => v.id !== entry.id);
+    pool = getAllVocab().filter((v) => v.id !== entry.id && !isTooSimilar(v));
   }
 
   const shuffled = shuffle(pool).slice(0, count);

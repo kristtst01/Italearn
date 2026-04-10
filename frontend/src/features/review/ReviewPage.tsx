@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import ProgressBar from '@/shared/components/ProgressBar';
+import { ExerciseProvider } from '@/shared/components/ExerciseContext';
 import CloseIcon from '@/shared/components/CloseIcon';
 import renderExercise from '@/features/exercises/renderExercise';
 import { useReviewSession } from './useReviewSession';
@@ -64,11 +65,13 @@ export default function ReviewPage() {
       </div>
 
       <div className="max-w-2xl mx-auto p-6">
-        {currentExercise &&
-          renderExercise({
-            exercise: currentExercise,
-            onComplete: handleExerciseComplete,
-          })}
+        <ExerciseProvider value={{ hintsDisabled: true }}>
+          {currentExercise &&
+            renderExercise({
+              exercise: currentExercise,
+              onComplete: handleExerciseComplete,
+            })}
+        </ExerciseProvider>
       </div>
     </div>
   );
