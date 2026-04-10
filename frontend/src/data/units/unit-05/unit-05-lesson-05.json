@@ -1,0 +1,50 @@
+{
+  "id": "unit-05-lesson-05",
+  "unit_id": "unit-05",
+  "name": "Practice Writing",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-05-lesson-05-tip-01",
+      "title": "Time to Write!",
+      "explanation": "In these exercises, there's no single correct answer — write freely using what you've learned. A teacher will read your response and give you feedback. Don't worry about being perfect. Use what you know: mi chiamo, sono di, ho ... anni, ho fame/sete/freddo, and anything else from earlier units.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-05-lesson-05-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Introduce yourself in Italian. Include your name, where you're from, and your age." },
+      "sentence_context": "",
+      "correct_answer": "Ciao! Mi chiamo Marco. Sono di Roma. Ho venti anni.",
+      "distractors": [],
+      "hints": ["Use mi chiamo, sono di, and ho ... anni."],
+      "target_words": ["mi chiamo", "sono", "di", "ho", "anni"]
+    },
+    {
+      "id": "unit-05-lesson-05-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe what you have. Mention at least 2 things you own (pets, objects, family members)." },
+      "sentence_context": "",
+      "correct_answer": "Ho un cane e un gatto. Ho una macchina. Ho un fratello e una sorella.",
+      "distractors": [],
+      "hints": ["Use ho + un/una. Think about: cane, gatto, macchina, bicicletta, fratello, sorella."],
+      "target_words": ["ho", "ha"]
+    },
+    {
+      "id": "unit-05-lesson-05-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "How are you feeling right now? Write 2-3 sentences about how you feel using avere idioms." },
+      "sentence_context": "",
+      "correct_answer": "Ho fame e ho sete. Non ho sonno. Ho voglia di un caffè!",
+      "distractors": [],
+      "hints": ["Use: ho fame, ho sete, ho freddo, ho caldo, ho sonno, ho paura, ho voglia di..."],
+      "target_words": ["fame", "sete", "freddo", "caldo", "sonno", "paura", "voglia"]
+    }
+  ],
+  "vocabulary": []
+}

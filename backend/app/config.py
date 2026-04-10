@@ -6,8 +6,7 @@ class Settings(BaseSettings):
     CORS_ORIGINS: str = "http://localhost:5173,http://localhost:4173"
     CLERK_SECRET_KEY: str = ""
     CLERK_PUBLISHABLE_KEY: str = ""
-    WHISPER_MODEL: str = "small"
-    WHISPER_DEVICE: str = "cpu"
+    GOOGLE_APPLICATION_CREDENTIALS: str = ""
     ANTHROPIC_API_KEY: str = ""
 
     @property

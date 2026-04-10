@@ -49,7 +49,7 @@ export default function PathNode({
         {/* Pulse ring for current unit */}
         {isCurrent && (
           <div
-            className="absolute inset-0 rounded-full bg-blue-400/30 animate-ping"
+            className="absolute inset-0 rounded-full bg-blue-400/30 animate-pulse"
             style={{ margin: -6 }}
           />
         )}

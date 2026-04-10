@@ -21,6 +21,29 @@ def is_configured() -> bool:
     return bool(settings.ANTHROPIC_API_KEY)
 
 
+FREE_RESPONSE_SYSTEM_PROMPT = """\
+You are an Italian language teacher grading a student's free-form writing exercise.
+
+You will be given:
+- The writing prompt shown to the student
+- An example of a good answer (for reference, not the only valid answer)
+- What the student has learned so far (grammar topics, vocabulary, completed units)
+- The student's actual response
+
+Your job is to:
+1. Decide whether the student completed the task (accepted = true/false). \
+Accept the answer if it makes a reasonable attempt at what was asked, even if imperfect. \
+Reject ONLY if the response is completely off-topic, in the wrong language, or nonsensical.
+2. Give feedback like a supportive teacher would:
+   - Acknowledge what they did well
+   - Point out specific grammar or vocabulary errors with corrections
+   - If they used something beyond their current level correctly, praise it
+   - Keep it concise — 2-4 sentences max
+
+Respond with ONLY a JSON object (no markdown, no extra text):
+{"accepted": true/false, "feedback": "Your teacher feedback here"}\
+"""
+
 SYSTEM_PROMPT = """\
 You are an Italian language learning assistant that judges whether a student's \
 answer is an acceptable translation or response.
@@ -51,6 +74,19 @@ Respond with ONLY a JSON object (no markdown, no extra text):
 """
 
 
+def _parse_llm_json(raw: str, context: str) -> dict | None:
+    """Strip markdown fences and parse JSON from an LLM response.
+    Returns the parsed dict, or None on failure."""
+    if raw.startswith("```"):
+        raw = raw.split("\n", 1)[-1].rsplit("```", 1)[0].strip()
+    logger.info("[llm] %s: %s", context, raw)
+    try:
+        return json.loads(raw)
+    except (json.JSONDecodeError, KeyError) as e:
+        logger.error("[llm] Failed to parse %s: %s — raw: %s", context, e, raw)
+        return None
+
+
 async def judge_answer(
     exercise_type: str,
     prompt: str,
@@ -71,28 +107,65 @@ async def judge_answer(
 
     logger.info("[llm] Judging answer: %r for prompt: %r", user_answer, prompt)
 
-    response = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=300,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_message}],
-    )
-
-    raw = response.content[0].text.strip()
-    # Strip markdown code fences if Haiku wraps the JSON
-    if raw.startswith("```"):
-        raw = raw.split("\n", 1)[-1].rsplit("```", 1)[0].strip()
-    logger.info("[llm] Raw response: %s", raw)
-
     try:
-        result = json.loads(raw)
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=300,
+            system=SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": user_message}],
+        )
+    except anthropic.APIError as e:
+        logger.error("[llm] API error judging answer: %s", e)
+        return {"accepted": False, "reason": "Could not determine validity"}
+
+    result = _parse_llm_json(response.content[0].text.strip(), "judge response")
+    if result:
         return {
             "accepted": bool(result["accepted"]),
             "reason": str(result["reason"]),
         }
-    except (json.JSONDecodeError, KeyError) as e:
-        logger.error("[llm] Failed to parse response: %s — raw: %s", e, raw)
+    return {"accepted": False, "reason": "Could not determine validity"}
+
+
+async def grade_free_response(
+    prompt: str,
+    correct_answer: str,
+    user_answer: str,
+    curriculum_context: str,
+) -> dict:
+    """Grade a free-form writing exercise using Claude Haiku."""
+    client = _get_client()
+
+    user_message = (
+        f"Writing prompt: {prompt}\n"
+        f"Example good answer: {correct_answer}\n"
+        f"Student's level context: {curriculum_context}\n"
+        f"Student's response: {user_answer}"
+    )
+
+    logger.info("[llm] Grading free response for prompt: %r", prompt)
+
+    try:
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=500,
+            system=FREE_RESPONSE_SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": user_message}],
+        )
+    except anthropic.APIError as e:
+        logger.error("[llm] API error grading free response: %s", e)
         return {
             "accepted": False,
-            "reason": "Could not determine validity",
+            "feedback": "Could not grade your response. Please try again.",
         }
+
+    result = _parse_llm_json(response.content[0].text.strip(), "free response grade")
+    if result:
+        return {
+            "accepted": bool(result["accepted"]),
+            "feedback": str(result["feedback"]),
+        }
+    return {
+        "accepted": False,
+        "feedback": "Could not grade your response. Please try again.",
+    }

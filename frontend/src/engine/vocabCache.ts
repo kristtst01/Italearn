@@ -47,16 +47,3 @@ export function getAllVocab(): VocabEntry[] {
 export function getVocabByUnit(unitId: string): VocabEntry[] {
   return _entries.filter((e) => e.unit_id === unitId);
 }
-
-/** Get vocab entries matching a filter. */
-export function filterVocab(predicate: (e: VocabEntry) => boolean): VocabEntry[] {
-  return _entries.filter(predicate);
-}
-
-/** Mark a word as learned (in-memory only — not persisted). */
-export function markLearned(wordId: string): void {
-  const entry = _byId.get(wordId);
-  if (entry && !entry.learned_at) {
-    entry.learned_at = new Date().toISOString();
-  }
-}

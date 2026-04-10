@@ -1,0 +1,248 @@
+{
+  "id": "unit-05-lesson-04",
+  "unit_id": "unit-05",
+  "name": "Avere Idioms",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-05-lesson-04-tip-01",
+      "title": "I Have Hunger, Not I Am Hungry",
+      "explanation": "Italian uses avere for many feelings where English uses 'to be': ho fame (I'm hungry), ho sete (I'm thirsty), ho freddo (I'm cold), ho caldo (I'm hot), ho sonno (I'm sleepy), ho paura (I'm scared). It's always avere + noun, with NO article: 'Ho fame' — NOT 'Ho la fame.'",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-05-lesson-04-tip-02",
+      "title": "Don't Say Sono!",
+      "explanation": "English speakers constantly say *'Sono freddo' when they mean 'Ho freddo.' Be careful: 'Sono freddo' actually means 'I am a cold/distant person' — very different from feeling chilly! Same trap with all these expressions: use avere, never essere.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-05-lesson-04-tip-03",
+      "title": "I Need, I Feel Like, I'm in a Hurry",
+      "explanation": "Three more useful avere expressions: 'Ho bisogno di...' (I need...), 'Ho voglia di...' (I feel like...), 'Ho fretta' (I'm in a hurry). Notice 'bisogno' and 'voglia' need 'di' before what you need or want: 'Ho bisogno di acqua.' 'Ho voglia di un caffè.'",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-05-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'Ho fame' mean?" },
+      "sentence_context": "Ho fame!",
+      "correct_answer": "I'm hungry",
+      "distractors": ["I have a family", "I am famous", "I'm thirsty"],
+      "hints": ["'Fame' = hunger. Italian says 'I have hunger.'"],
+      "target_words": ["fame"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'Ho sete' mean?" },
+      "sentence_context": "Ho sete!",
+      "correct_answer": "I'm thirsty",
+      "distractors": ["I'm hungry", "I'm tired", "I'm cold"],
+      "hints": ["'Sete' = thirst. Italian says 'I have thirst.'"],
+      "target_words": ["sete"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'Ho freddo' mean?" },
+      "sentence_context": "Ho freddo!",
+      "correct_answer": "I'm cold",
+      "distractors": ["I'm hot", "I'm hungry", "I'm scared"],
+      "hints": ["'Freddo' = cold. NOT 'Sono freddo' — that means something different!"],
+      "target_words": ["freddo"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'Ho caldo' mean?" },
+      "sentence_context": "Ho caldo!",
+      "correct_answer": "I'm hot (feeling warm)",
+      "distractors": ["I'm cold", "I'm hungry", "I have a heater"],
+      "hints": ["'Caldo' = heat/warmth. 'I have heat.'"],
+      "target_words": ["caldo"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'Ho sonno' mean?" },
+      "sentence_context": "Ho sonno.",
+      "correct_answer": "I'm sleepy",
+      "distractors": ["I'm dreaming", "I'm hungry", "I'm cold"],
+      "hints": ["'Sonno' = sleepiness. 'I have sleepiness.'"],
+      "target_words": ["sonno"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'Ho paura' mean?" },
+      "sentence_context": "Ho paura!",
+      "correct_answer": "I'm scared",
+      "distractors": ["I'm tired", "I'm cold", "I'm in a hurry"],
+      "hints": ["'Paura' = fear. 'I have fear.'"],
+      "target_words": ["paura"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in the missing word." },
+      "sentence_context": "Ho ___! Dov'è l'acqua?",
+      "correct_answer": "sete",
+      "distractors": [],
+      "hints": ["I'm thirsty! Where's the water?"],
+      "target_words": ["sete"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in the missing word." },
+      "sentence_context": "Ho ___! Quando mangiamo?",
+      "correct_answer": "fame",
+      "distractors": [],
+      "hints": ["I'm hungry! When do we eat?"],
+      "target_words": ["fame"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I'm hungry' in Italian?" },
+      "sentence_context": "Ho fame!",
+      "correct_answer": "ho fame",
+      "distractors": [],
+      "hints": ["'I have hunger' — two words, starts with a silent H."],
+      "target_words": ["fame"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I'm cold' in Italian?" },
+      "sentence_context": "Ho freddo!",
+      "correct_answer": "ho freddo",
+      "distractors": [],
+      "hints": ["'I have cold' — NOT 'sono freddo'!"],
+      "target_words": ["freddo"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I'm scared' in Italian?" },
+      "sentence_context": "Ho paura!",
+      "correct_answer": "ho paura",
+      "distractors": [],
+      "hints": ["'I have fear' — same pattern as ho fame, ho sete."],
+      "target_words": ["paura"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-12",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'Ho bisogno di acqua' mean?" },
+      "sentence_context": "Ho bisogno di acqua.",
+      "correct_answer": "I need water",
+      "distractors": ["I have water", "I'm thirsty for water", "I like water"],
+      "hints": ["'Ho bisogno di' = I need. Literally 'I have need of.'"],
+      "target_words": ["bisogno"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-13",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'Ho voglia di un caffè' mean?" },
+      "sentence_context": "Ho voglia di un caffè.",
+      "correct_answer": "I feel like having a coffee",
+      "distractors": ["I have a coffee", "I need coffee", "I'm making coffee"],
+      "hints": ["'Ho voglia di' = I feel like / I want. Literally 'I have desire for.'"],
+      "target_words": ["voglia"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-14",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'Ho fretta' mean?" },
+      "sentence_context": "Ho fretta!",
+      "correct_answer": "I'm in a hurry",
+      "distractors": ["I'm cold", "I'm scared", "I'm sleepy"],
+      "hints": ["'Fretta' = hurry. 'I have hurry.'"],
+      "target_words": ["fretta"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the verb: someone says they feel hot." },
+      "sentence_context": "___ caldo!",
+      "correct_answer": "Ho",
+      "distractors": [],
+      "hints": ["I'm hot — use avere, not essere!"],
+      "target_words": ["caldo"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the verb: Sara is scared." },
+      "sentence_context": "Sara ___ paura.",
+      "correct_answer": "ha",
+      "distractors": [],
+      "hints": ["Sara HAS fear — use the lui/lei form of avere."],
+      "target_words": ["paura"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Anna is hungry and thirsty.'" },
+      "sentence_context": "Anna ha fame e sete.",
+      "correct_answer": ["Anna", "ha", "fame", "e", "sete."],
+      "distractors": ["è", "ho"],
+      "hints": ["Anna HAS hunger and thirst — use avere."],
+      "target_words": ["fame", "sete"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I need water.'" },
+      "sentence_context": "Ho bisogno di acqua.",
+      "correct_answer": ["Ho", "bisogno", "di", "acqua."],
+      "distractors": ["sono", "sete"],
+      "hints": ["'I have need of water' — ho bisogno di..."],
+      "target_words": ["bisogno"]
+    },
+    {
+      "id": "unit-05-lesson-04-ex-19",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read these sentences aloud." },
+      "sentence_context": "Ho fame e ho sete. Ho bisogno di acqua!",
+      "correct_answer": "Ho fame e ho sete. Ho bisogno di acqua!",
+      "distractors": [],
+      "hints": ["I'm hungry and I'm thirsty. I need water!"],
+      "target_words": ["fame", "sete", "bisogno"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "fame", "meaning": "Hunger (ho fame = I'm hungry)", "example": "Ho fame!" },
+    { "word": "sete", "meaning": "Thirst (ho sete = I'm thirsty)", "example": "Ho sete!" },
+    { "word": "freddo", "meaning": "Cold (ho freddo = I'm cold)", "example": "Ho freddo!" },
+    { "word": "caldo", "meaning": "Hot/Heat (ho caldo = I'm hot)", "example": "Ho caldo!" },
+    { "word": "sonno", "meaning": "Sleepiness (ho sonno = I'm sleepy)", "example": "Ho sonno." },
+    { "word": "paura", "meaning": "Fear (ho paura = I'm scared)", "example": "Ho paura!" },
+    { "word": "bisogno", "meaning": "Need (ho bisogno di = I need)", "example": "Ho bisogno di acqua." },
+    { "word": "voglia", "meaning": "Desire/Wish (ho voglia di = I feel like)", "example": "Ho voglia di un caffè." },
+    { "word": "fretta", "meaning": "Hurry (ho fretta = I'm in a hurry)", "example": "Ho fretta!" }
+  ]
+}

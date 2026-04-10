@@ -83,12 +83,18 @@ export const curriculum: Curriculum = {
         {
           id: 'unit-05',
           section_id: 'section-02',
-          name: 'Descriptions & Adjectives',
-          grammar_focus: 'Adjective agreement (-o/-a/-i/-e), position of adjectives',
-          vocabulary_targets: ['colors', 'size', 'personality', 'appearance'],
-          grammar_notes: '',
+          name: 'Having & Needing — Avere',
+          grammar_focus: 'Present tense of avere (ho, hai, ha, abbiamo, avete, hanno)',
+          vocabulary_targets: ['ho', 'hai', 'ha', 'abbiamo', 'hanno', 'avere idioms (age, hunger, thirst, cold, fear)'],
+          grammar_notes: 'Avere is the #2 most frequent Italian verb. Beyond possession, it\'s used idiomatically for age (ho 25 anni), hunger (ho fame), thirst (ho sete), cold (ho freddo), heat (ho caldo), fear (ho paura), and need (ho bisogno di). These are avere + noun with no article.',
           order: 5,
-          lessons: [],
+          lessons: [
+            { id: 'unit-05-lesson-01', unit_id: 'unit-05', name: 'I Have, You Have', order: 1 },
+            { id: 'unit-05-lesson-02', unit_id: 'unit-05', name: 'We Have, They Have', order: 2 },
+            { id: 'unit-05-lesson-03', unit_id: 'unit-05', name: 'How Old Are You?', order: 3 },
+            { id: 'unit-05-lesson-04', unit_id: 'unit-05', name: 'Avere Idioms', order: 4 },
+            { id: 'unit-05-lesson-05', unit_id: 'unit-05', name: 'Practice Writing', order: 5 },
+          ],
         },
         {
           id: 'unit-06',

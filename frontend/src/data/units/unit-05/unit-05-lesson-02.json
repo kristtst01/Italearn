@@ -1,0 +1,225 @@
+{
+  "id": "unit-05-lesson-02",
+  "unit_id": "unit-05",
+  "name": "We Have, They Have",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-05-lesson-02-tip-01",
+      "title": "The Full Picture",
+      "explanation": "Now you know all of avere: ho (I have), hai (you have), ha (he/she has), abbiamo (we have), avete (you all have), hanno (they have). Like essere, the endings tell you who — so pronouns are optional.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-05-lesson-02-tip-02",
+      "title": "Hanno vs Anno",
+      "explanation": "'Hanno' (they have) and 'anno' (year) sound almost identical. The H is silent — it's only there for spelling. Even Italian kids mix these up! Context makes it obvious: 'Hanno un cane' (they have) vs 'un anno' (one year).",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-05-lesson-02-tip-03",
+      "title": "Essere or Avere?",
+      "explanation": "These two verbs show up side by side constantly. Keep the contrast clear: 'Siamo studenti' (we ARE students — identity) vs 'Abbiamo un libro' (we HAVE a book — possession). When in doubt: IS something → essere. HAS something → avere.",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-05-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'abbiamo' mean?" },
+      "sentence_context": "Abbiamo un problema.",
+      "correct_answer": "We have",
+      "distractors": ["We are", "They have", "You (plural) have"],
+      "hints": ["The 'noi' form of avere."],
+      "target_words": ["abbiamo"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'avete' mean?" },
+      "sentence_context": "Avete tempo?",
+      "correct_answer": "You (plural) have",
+      "distractors": ["We have", "They have", "You (plural) are"],
+      "hints": ["The 'voi' form of avere."],
+      "target_words": ["avete"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'hanno' mean?" },
+      "sentence_context": "Hanno due gatti.",
+      "correct_answer": "They have",
+      "distractors": ["We have", "They are", "I have"],
+      "hints": ["The 'loro' form of avere — starts with a silent H."],
+      "target_words": ["hanno"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'tempo' mean?" },
+      "sentence_context": "Non ho tempo.",
+      "correct_answer": "Time",
+      "distractors": ["Money", "Problem", "Idea"],
+      "hints": ["Think 'tempo' in music — it's about time."],
+      "target_words": ["tempo"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'un problema' mean?" },
+      "sentence_context": "Abbiamo un problema.",
+      "correct_answer": "A problem",
+      "distractors": ["An idea", "A reason", "Time"],
+      "hints": ["Looks almost the same in English!"],
+      "target_words": ["problema"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in the correct form of avere." },
+      "sentence_context": "Noi ___ un'idea.",
+      "correct_answer": "abbiamo",
+      "distractors": [],
+      "hints": ["We have an idea."],
+      "target_words": ["abbiamo"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in the correct form of avere." },
+      "sentence_context": "Voi ___ tempo?",
+      "correct_answer": "avete",
+      "distractors": [],
+      "hints": ["Do you (plural) have time?"],
+      "target_words": ["avete"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in the correct form of avere." },
+      "sentence_context": "Loro ___ tre cani.",
+      "correct_answer": "hanno",
+      "distractors": [],
+      "hints": ["They have three dogs."],
+      "target_words": ["hanno"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'we have' in Italian?" },
+      "sentence_context": "Abbiamo un problema.",
+      "correct_answer": "abbiamo",
+      "distractors": [],
+      "hints": ["The 'noi' form — double 'b' in the middle."],
+      "target_words": ["abbiamo"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'they have' in Italian?" },
+      "sentence_context": "Hanno due macchine.",
+      "correct_answer": "hanno",
+      "distractors": [],
+      "hints": ["Starts with a silent H, double 'n'."],
+      "target_words": ["hanno"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Essere or avere? Fill in the correct verb." },
+      "sentence_context": "Io ___ un cane.",
+      "correct_answer": "ho",
+      "distractors": [],
+      "hints": ["I HAVE a dog — possession, use avere."],
+      "target_words": ["ho"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-12",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Essere or avere? Fill in the correct verb." },
+      "sentence_context": "Noi ___ studenti.",
+      "correct_answer": "siamo",
+      "distractors": [],
+      "hints": ["We ARE students — identity, use essere."],
+      "target_words": ["siamo"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Essere or avere? Fill in the correct verb." },
+      "sentence_context": "Loro ___ un problema.",
+      "correct_answer": "hanno",
+      "distractors": [],
+      "hints": ["They HAVE a problem — use avere."],
+      "target_words": ["hanno"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Essere or avere? Fill in the correct verb." },
+      "sentence_context": "Voi ___ di Roma?",
+      "correct_answer": "siete",
+      "distractors": [],
+      "hints": ["You (plural) ARE from Rome — origin uses essere."],
+      "target_words": ["siete"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'We have a problem.'" },
+      "sentence_context": "Abbiamo un problema.",
+      "correct_answer": ["Abbiamo", "un", "problema."],
+      "distractors": ["siamo", "hanno"],
+      "hints": ["Verb first, then article, then noun."],
+      "target_words": ["abbiamo", "problema"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'They have two cats.'" },
+      "sentence_context": "Hanno due gatti.",
+      "correct_answer": ["Hanno", "due", "gatti."],
+      "distractors": ["ho", "sono"],
+      "hints": ["'They have' first, then the number, then the noun."],
+      "target_words": ["hanno"]
+    },
+    {
+      "id": "unit-05-lesson-02-ex-17",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read these sentences aloud." },
+      "sentence_context": "Abbiamo un problema. Non abbiamo tempo.",
+      "correct_answer": "Abbiamo un problema. Non abbiamo tempo.",
+      "distractors": [],
+      "hints": ["We have a problem. We don't have time."],
+      "target_words": ["abbiamo", "problema", "tempo"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "abbiamo", "meaning": "We have", "example": "Abbiamo un problema." },
+    { "word": "avete", "meaning": "You (plural) have", "example": "Avete tempo?" },
+    { "word": "hanno", "meaning": "They have", "example": "Hanno due gatti." },
+    { "word": "tempo", "meaning": "Time", "example": "Non ho tempo." },
+    { "word": "problema", "meaning": "Problem", "example": "Abbiamo un problema." },
+    { "word": "idea", "meaning": "Idea", "example": "Ho un'idea!" },
+    { "word": "soldi", "meaning": "Money", "example": "Non abbiamo soldi." },
+    { "word": "ragione", "meaning": "Reason / To be right", "example": "Hai ragione." }
+  ]
+}

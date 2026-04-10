@@ -53,6 +53,25 @@ export function validateAnswer(data: {
   });
 }
 
+// --- Free Response Grading ---
+
+export type GradeFreeResponseResult = {
+  accepted: boolean;
+  feedback: string;
+};
+
+export function gradeFreeResponse(data: {
+  prompt: string;
+  correct_answer: string;
+  user_answer: string;
+  curriculum_context: string;
+}) {
+  return request<GradeFreeResponseResult>('/api/v1/ai/grade-free-response', {
+    method: 'POST',
+    body: JSON.stringify(data),
+  });
+}
+
 // --- Auth ---
 
 export type UserInfo = { id: string; clerk_id: string; email: string; display_name: string | null };

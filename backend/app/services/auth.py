@@ -61,6 +61,8 @@ async def get_or_create_user(db: AsyncSession, clerk_payload: dict) -> User:
         except IntegrityError:
             await db.rollback()
             result = await db.execute(select(User).where(User.clerk_id == clerk_id))
-            user = result.scalar_one()
+            user = result.scalar_one_or_none()
+            if user is None:
+                raise RuntimeError(f"User creation race failed for clerk_id={clerk_id}")
 
     return user

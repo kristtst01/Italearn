@@ -1,3 +1,5 @@
+from uuid import UUID
+
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -60,7 +62,7 @@ async def create_cards(
 
 @router.put("/srs/cards/{card_id}/review", response_model=SRSCardResponse)
 async def review_card(
-    card_id: str,
+    card_id: UUID,
     body: SRSCardReview,
     user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
