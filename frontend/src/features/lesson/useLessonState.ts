@@ -90,12 +90,16 @@ export function useLessonState(lesson: Lesson) {
 
   function handleExerciseComplete(result: ExerciseResult) {
     // Track streak, accumulate XP (awarded at lesson end)
-    if (result.correct) {
+    // Skips are neutral — don't break streak, don't earn XP
+    if (result.skipped) {
+      // no-op for streak and XP
+    } else if (result.correct) {
       streakRef.current += 1;
+      pendingXPRef.current += calculateExerciseXP(true, streakRef.current);
     } else {
       streakRef.current = 0;
+      pendingXPRef.current += calculateExerciseXP(false, streakRef.current);
     }
-    pendingXPRef.current += calculateExerciseXP(result.correct, streakRef.current);
 
     const updatedResults = [...results, result];
     setResults(updatedResults);
@@ -136,13 +140,13 @@ export function useLessonState(lesson: Lesson) {
 
     if (isRetry && lessonScore) {
       const stillMissedIds = result.results
-        .filter((r) => !r.correct)
+        .filter((r) => !r.correct && !r.skipped)
         .map((r) => r.exercise_id);
       const mergedScore = lessonScore.total - stillMissedIds.length;
       await saveLessonScore(lesson.id, mergedScore, lessonScore.total, stillMissedIds);
     } else {
       const missedIds = result.results
-        .filter((r) => !r.correct)
+        .filter((r) => !r.correct && !r.skipped)
         .map((r) => r.exercise_id);
       await saveLessonScore(lesson.id, result.score, result.total, missedIds);
     }
@@ -169,7 +173,7 @@ export function useLessonState(lesson: Lesson) {
 
     const missedIds = new Set(
       lessonResult.results
-        .filter((r) => !r.correct)
+        .filter((r) => !r.correct && !r.skipped)
         .map((r) => r.exercise_id),
     );
 

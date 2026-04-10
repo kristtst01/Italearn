@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { getVocab } from '@/engine/vocabCache';
 import type { VocabEntry } from '@/types';
+import { useExerciseContext } from './ExerciseContext';
 
 interface HighlightedTextProps {
   text: string;
@@ -53,6 +54,7 @@ function WordHint({ entry, children }: { entry?: VocabEntry; children: ReactNode
  * Uses Unicode-aware boundaries so accented Italian words match correctly.
  */
 export default function HighlightedText({ text, words }: HighlightedTextProps) {
+  const { hintsDisabled } = useExerciseContext();
   const [vocabMap, setVocabMap] = useState<Map<string, VocabEntry>>(new Map());
   const [wordTexts, setWordTexts] = useState<string[]>([]);
 
@@ -71,7 +73,7 @@ export default function HighlightedText({ text, words }: HighlightedTextProps) {
     setWordTexts(texts);
   }, [words]);
 
-  if (!wordTexts.length) return <>{text}</>;
+  if (!wordTexts.length || hintsDisabled) return <>{text}</>;
 
   const escaped = wordTexts.map((w) =>
     w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'),

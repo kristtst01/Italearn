@@ -155,7 +155,7 @@ export default function WordBankPage() {
     <div className="min-h-screen bg-gray-50">
       {/* Sticky header */}
       <div className="sticky top-0 z-10 bg-gray-50 border-b border-gray-200 px-6 pt-6 pb-3 space-y-3">
-        <div className="max-w-2xl mx-auto space-y-3">
+        <div className="max-w-4xl mx-auto space-y-3">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold text-gray-900">Word Bank</h1>
             <span className="text-sm text-gray-500">{sorted.length} of {words.length}</span>
@@ -228,7 +228,7 @@ export default function WordBankPage() {
       </div>
 
       {/* Word list */}
-      <div className="max-w-2xl mx-auto p-6">
+      <div className="max-w-4xl mx-auto px-6 py-4">
         {words.length === 0 ? (
           <div className="text-center py-16 text-gray-400 text-sm">
             Complete lessons to unlock vocabulary
@@ -238,7 +238,7 @@ export default function WordBankPage() {
             No words match your filters
           </div>
         ) : (
-          <div className="space-y-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
             {sorted.map((w) => {
               const { status, stability, reps, due } = getCardStats(cardMap.get(w.id));
               const badge = STATUS_BADGE[status];
@@ -261,6 +261,10 @@ export default function WordBankPage() {
                           <p className="text-xs text-gray-400 mt-1 italic">"{w.example}"</p>
                         )}
 
+                        {status === 'new' && (
+                          <p className="mt-2 text-[11px] text-gray-400">{getUnitName(w.unit_id)}</p>
+                        )}
+
                         {status !== 'new' && (
                           <div className="mt-2 space-y-1">
                             {/* Strength bar */}
@@ -277,6 +281,7 @@ export default function WordBankPage() {
                             <div className="flex items-center gap-3 text-[11px] text-gray-400">
                               {reps > 0 && <span>{reps} review{reps !== 1 ? 's' : ''}</span>}
                               {nextReview && <span>{nextReview}</span>}
+                              <span>{getUnitName(w.unit_id)}</span>
                             </div>
                           </div>
                         )}

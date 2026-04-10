@@ -54,6 +54,16 @@ export default function ExerciseShell({
     });
   }
 
+  function handleSkip() {
+    onComplete({
+      exercise_id: exercise.id,
+      correct: false,
+      user_answer: '',
+      time_spent_ms: Date.now() - startTime.current,
+      skipped: true,
+    });
+  }
+
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (e.key !== 'Enter') return;
@@ -84,13 +94,21 @@ export default function ExerciseShell({
       <div className="flex-1">{children}</div>
 
       {!submitted && (
-        <button
-          onClick={handleSubmit}
-          disabled={!canSubmit || validating}
-          className="mt-6 w-full rounded-xl bg-blue-600 py-3 font-semibold text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-gray-300"
-        >
-          {validating ? 'Checking…' : 'Check'}
-        </button>
+        <div className="mt-6 flex flex-col items-center gap-2">
+          <button
+            onClick={handleSubmit}
+            disabled={!canSubmit || validating}
+            className="w-full rounded-xl bg-blue-600 py-3 font-semibold text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-gray-300"
+          >
+            {validating ? 'Checking…' : 'Check'}
+          </button>
+          <button
+            onClick={handleSkip}
+            className="text-sm text-gray-400 hover:text-gray-600 transition-colors"
+          >
+            Skip
+          </button>
+        </div>
       )}
 
       {submitted && (

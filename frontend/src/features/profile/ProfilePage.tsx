@@ -106,7 +106,7 @@ export default function ProfilePage() {
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
-      <div className="max-w-2xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold text-gray-900 mb-6">Profile</h1>
 
         {/* User tag */}

@@ -31,7 +31,7 @@ export default function ReviewIntro({ dueCount, onStart }: ReviewIntroProps) {
   return (
     <div className="min-h-screen bg-gray-50 p-6">
       <div className="max-w-md mx-auto mt-16 text-center space-y-4">
-        <h1 className="text-2xl font-bold text-gray-900">Words are waiting</h1>
+        <h1 className="text-2xl font-bold text-gray-900">{dueCount} {dueCount === 1 ? 'word' : 'words'} to review</h1>
         <p className="text-gray-600">Practice your vocabulary to keep it fresh.</p>
         <button
           onClick={onStart}
