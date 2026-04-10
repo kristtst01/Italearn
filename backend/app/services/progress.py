@@ -20,11 +20,19 @@ async def get_or_create_progress(db: AsyncSession, user_id: uuid.UUID) -> UserPr
     return progress
 
 
+_UPDATABLE_FIELDS = {
+    "current_section", "current_unit", "current_lesson",
+    "xp", "streak", "level",
+    "lessons_completed", "checkpoints_passed", "lesson_scores",
+    "badges", "streak_dates", "daily_activity",
+}
+
+
 async def update_progress(db: AsyncSession, user_id: uuid.UUID, data: dict) -> UserProgress:
     progress = await get_or_create_progress(db, user_id)
 
     for key, value in data.items():
-        if value is not None and hasattr(progress, key):
+        if key in _UPDATABLE_FIELDS and value is not None:
             setattr(progress, key, value)
 
     await db.commit()

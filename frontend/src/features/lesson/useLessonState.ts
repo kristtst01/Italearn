@@ -138,8 +138,7 @@ export function useLessonState(lesson: Lesson) {
       const stillMissedIds = result.results
         .filter((r) => !r.correct)
         .map((r) => r.exercise_id);
-      const newlyCorrect = exercises.length - stillMissedIds.length;
-      const mergedScore = lessonScore.score + newlyCorrect;
+      const mergedScore = lessonScore.total - stillMissedIds.length;
       await saveLessonScore(lesson.id, mergedScore, lessonScore.total, stillMissedIds);
     } else {
       const missedIds = result.results
