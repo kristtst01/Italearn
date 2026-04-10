@@ -1,33 +1,7 @@
 import type { Exercise, SRSCard, VocabEntry } from '../types';
-import { getVocab, getVocabByUnit, getAllVocab } from './vocabCache';
+import { getVocab, getVocabByUnit } from './vocabCache';
 import { shuffle } from '../shared/utils/shuffle';
-
-/**
- * Pick up to `count` random distractors from the vocabulary,
- * preferring words from the same unit, excluding the target word.
- */
-function pickDistractors(
-  entry: VocabEntry,
-  count: number,
-  mode: 'word' | 'meaning',
-): string[] {
-  let pool = getVocabByUnit(entry.unit_id).filter((v) => v.id !== entry.id);
-
-  if (pool.length < count) {
-    pool = getAllVocab().filter((v) => v.id !== entry.id);
-  }
-
-  const shuffled = shuffle(pool).slice(0, count);
-  return shuffled.map((v) => (mode === 'word' ? v.word : v.meaning));
-}
-
-/**
- * Strip parenthetical notes from vocabulary meanings so they don't give away
- * the answer in review prompts.
- */
-function cleanMeaning(meaning: string): string {
-  return meaning.replace(/\s*\(.*?\)/g, '').trim();
-}
+import { cleanMeaning, pickDistractors } from '../shared/utils/vocab';
 
 /**
  * Build a cloze exercise: blank out the target word in the example sentence.

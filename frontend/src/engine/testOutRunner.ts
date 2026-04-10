@@ -1,28 +1,10 @@
 import type { Exercise, VocabEntry } from '../types';
-import { getVocabByUnit, getAllVocab } from './vocabCache';
+import { getVocabByUnit } from './vocabCache';
 import { shuffle } from '../shared/utils/shuffle';
+import { cleanMeaning, pickDistractors } from '../shared/utils/vocab';
 
 const TARGET_EXERCISE_COUNT = 12;
 const PASS_THRESHOLD = 0.9;
-
-function cleanMeaning(meaning: string): string {
-  return meaning.replace(/\s*\(.*?\)\s*/g, '').trim();
-}
-
-function pickDistractors(
-  entry: VocabEntry,
-  count: number,
-  mode: 'word' | 'meaning',
-): string[] {
-  let pool = getVocabByUnit(entry.unit_id).filter((v) => v.id !== entry.id);
-
-  if (pool.length < count) {
-    pool = getAllVocab().filter((v) => v.id !== entry.id);
-  }
-
-  const shuffled = shuffle(pool).slice(0, count);
-  return shuffled.map((v) => (mode === 'word' ? v.word : cleanMeaning(v.meaning)));
-}
 
 function buildTypeAnswer(id: string, entry: VocabEntry): Exercise {
   return {

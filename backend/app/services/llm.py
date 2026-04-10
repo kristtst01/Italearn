@@ -74,6 +74,19 @@ Respond with ONLY a JSON object (no markdown, no extra text):
 """
 
 
+def _parse_llm_json(raw: str, context: str) -> dict | None:
+    """Strip markdown fences and parse JSON from an LLM response.
+    Returns the parsed dict, or None on failure."""
+    if raw.startswith("```"):
+        raw = raw.split("\n", 1)[-1].rsplit("```", 1)[0].strip()
+    logger.info("[llm] %s: %s", context, raw)
+    try:
+        return json.loads(raw)
+    except (json.JSONDecodeError, KeyError) as e:
+        logger.error("[llm] Failed to parse %s: %s — raw: %s", context, e, raw)
+        return None
+
+
 async def judge_answer(
     exercise_type: str,
     prompt: str,
@@ -101,24 +114,13 @@ async def judge_answer(
         messages=[{"role": "user", "content": user_message}],
     )
 
-    raw = response.content[0].text.strip()
-    # Strip markdown code fences if Haiku wraps the JSON
-    if raw.startswith("```"):
-        raw = raw.split("\n", 1)[-1].rsplit("```", 1)[0].strip()
-    logger.info("[llm] Raw response: %s", raw)
-
-    try:
-        result = json.loads(raw)
+    result = _parse_llm_json(response.content[0].text.strip(), "judge response")
+    if result:
         return {
             "accepted": bool(result["accepted"]),
             "reason": str(result["reason"]),
         }
-    except (json.JSONDecodeError, KeyError) as e:
-        logger.error("[llm] Failed to parse response: %s — raw: %s", e, raw)
-        return {
-            "accepted": False,
-            "reason": "Could not determine validity",
-        }
+    return {"accepted": False, "reason": "Could not determine validity"}
 
 
 async def grade_free_response(
@@ -146,20 +148,13 @@ async def grade_free_response(
         messages=[{"role": "user", "content": user_message}],
     )
 
-    raw = response.content[0].text.strip()
-    if raw.startswith("```"):
-        raw = raw.split("\n", 1)[-1].rsplit("```", 1)[0].strip()
-    logger.info("[llm] Free response grade: %s", raw)
-
-    try:
-        result = json.loads(raw)
+    result = _parse_llm_json(response.content[0].text.strip(), "free response grade")
+    if result:
         return {
             "accepted": bool(result["accepted"]),
             "feedback": str(result["feedback"]),
         }
-    except (json.JSONDecodeError, KeyError) as e:
-        logger.error("[llm] Failed to parse free response: %s — raw: %s", e, raw)
-        return {
-            "accepted": False,
-            "feedback": "Could not grade your response. Please try again.",
-        }
+    return {
+        "accepted": False,
+        "feedback": "Could not grade your response. Please try again.",
+    }

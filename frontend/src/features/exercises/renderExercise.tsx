@@ -3,7 +3,6 @@ import MultipleChoice from './MultipleChoice';
 import TypeAnswer from './TypeAnswer';
 import ArrangeWords from './ArrangeWords';
 import FillInBlank from './FillInBlank';
-import ClozeDelete from './ClozeDelete';
 import MatchPairs from './MatchPairs';
 import ReadAloud from './ReadAloud';
 import FreeResponse from './FreeResponse';
@@ -24,9 +23,8 @@ export default function renderExercise({ exercise, onComplete }: ExerciseProps) 
     case 'arrange_words':
       return <ArrangeWords key={exercise.id} {...props} />;
     case 'fill_blank':
-      return <FillInBlank key={exercise.id} {...props} />;
     case 'cloze':
-      return <ClozeDelete key={exercise.id} {...props} />;
+      return <FillInBlank key={exercise.id} {...props} />;
     case 'match_pairs':
       return <MatchPairs key={exercise.id} {...props} />;
     case 'read_aloud':

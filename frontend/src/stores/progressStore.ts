@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import type { Badge, DailyActivity, LessonScore, UserProgress } from '../types';
 import { curriculum } from '../data/curriculum';
 import { getLevel } from '../engine/xp';
-import { getCurrentStreak } from '../engine/streak';
+import { getCurrentStreak, todayDateString } from '../engine/streak';
 import { findLesson, collectTargetWords } from '../engine/lessonRunner';
 import * as api from '../engine/api';
 
@@ -59,10 +59,6 @@ function persist(state: ProgressState) {
   api.updateProgress(toData(state)).catch((err) => {
     console.error('Failed to persist progress:', err);
   });
-}
-
-function todayDateString(): string {
-  return new Date().toISOString().slice(0, 10);
 }
 
 export const useProgressStore = create<ProgressState>()((set, get) => ({
