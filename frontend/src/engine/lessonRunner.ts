@@ -22,10 +22,11 @@ export function buildLessonResult(
   results: ExerciseResult[],
   startTime: number,
 ): LessonResult {
+  const answered = results.filter((r) => !r.skipped);
   return {
     lessonId,
-    score: results.filter((r) => r.correct).length,
-    total: results.length,
+    score: answered.filter((r) => r.correct).length,
+    total: answered.length,
     timeMs: Date.now() - startTime,
     wordsEncountered: collectTargetWords(exercises),
     results,

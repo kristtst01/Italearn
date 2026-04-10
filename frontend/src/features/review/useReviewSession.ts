@@ -44,24 +44,26 @@ export function useReviewSession(unitId?: string) {
   async function handleExerciseComplete(er: ExerciseResult) {
     if (!session) return;
 
-    const cards = currentExercise
-      ? session.cardMap.get(currentExercise.id)
-      : undefined;
-    if (cards) {
-      const grade: Grade = answerToGrade(er.correct, er.time_spent_ms);
-      for (const card of cards) {
-        if (card.id != null) await reviewCard(card.id, grade);
+    // Skipped exercises don't grade SRS cards or affect streak/XP
+    if (!er.skipped) {
+      const cards = currentExercise
+        ? session.cardMap.get(currentExercise.id)
+        : undefined;
+      if (cards) {
+        const grade: Grade = answerToGrade(er.correct, er.time_spent_ms);
+        for (const card of cards) {
+          if (card.id != null) await reviewCard(card.id, grade);
+        }
       }
-    }
 
-    // Track streak and award review XP
-    if (er.correct) {
-      streakRef.current += 1;
-    } else {
-      streakRef.current = 0;
+      if (er.correct) {
+        streakRef.current += 1;
+      } else {
+        streakRef.current = 0;
+      }
+      const xp = calculateReviewXP(er.correct, streakRef.current);
+      if (xp > 0) addXP(xp);
     }
-    const xp = calculateReviewXP(er.correct, streakRef.current);
-    if (xp > 0) addXP(xp);
 
     const newCorrect = correctCount + (er.correct ? 1 : 0);
     setCorrectCount(newCorrect);

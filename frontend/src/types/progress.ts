@@ -6,6 +6,7 @@ export interface ExerciseResult {
   correct: boolean;
   user_answer: string;
   time_spent_ms: number;
+  skipped?: boolean;
 }
 
 export interface SRSCard {
