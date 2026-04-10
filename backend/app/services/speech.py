@@ -1,7 +1,7 @@
 import logging
-from io import BytesIO
 
 from google.cloud import speech
+from google.api_core.exceptions import GoogleAPICallError
 
 from app.config import settings
 
@@ -44,7 +44,12 @@ def transcribe(audio_bytes: bytes, expected_text: str | None = None) -> dict:
         )
 
     audio = speech.RecognitionAudio(content=audio_bytes)
-    response = client.recognize(config=config, audio=audio)
+
+    try:
+        response = client.recognize(config=config, audio=audio)
+    except GoogleAPICallError as e:
+        logger.error("Google Speech-to-Text API error: %s", e)
+        return {"text": "", "language": "it", "language_probability": 0.0, "duration": 0.0}
 
     text = " ".join(
         result.alternatives[0].transcript.strip()

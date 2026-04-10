@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile
+from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile, status
 
 from app.dependencies import get_current_user
 from app.models.user import User
@@ -18,7 +18,7 @@ async def transcribe(
 ):
     data = await audio.read()
     if len(data) > MAX_AUDIO_BYTES:
-        raise HTTPException(status_code=413, detail="Audio file too large (max 10 MB)")
+        raise HTTPException(status_code=status.HTTP_413_REQUEST_ENTITY_TOO_LARGE, detail="Audio file too large (max 10 MB)")
 
     result = speech.transcribe(data, expected_text=expected_text)
     return result

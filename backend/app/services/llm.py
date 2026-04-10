@@ -107,12 +107,16 @@ async def judge_answer(
 
     logger.info("[llm] Judging answer: %r for prompt: %r", user_answer, prompt)
 
-    response = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=300,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_message}],
-    )
+    try:
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=300,
+            system=SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": user_message}],
+        )
+    except anthropic.APIError as e:
+        logger.error("[llm] API error judging answer: %s", e)
+        return {"accepted": False, "reason": "Could not determine validity"}
 
     result = _parse_llm_json(response.content[0].text.strip(), "judge response")
     if result:
@@ -141,12 +145,19 @@ async def grade_free_response(
 
     logger.info("[llm] Grading free response for prompt: %r", prompt)
 
-    response = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=500,
-        system=FREE_RESPONSE_SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_message}],
-    )
+    try:
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=500,
+            system=FREE_RESPONSE_SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": user_message}],
+        )
+    except anthropic.APIError as e:
+        logger.error("[llm] API error grading free response: %s", e)
+        return {
+            "accepted": False,
+            "feedback": "Could not grade your response. Please try again.",
+        }
 
     result = _parse_llm_json(response.content[0].text.strip(), "free response grade")
     if result:
