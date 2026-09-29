@@ -60,12 +60,12 @@ export default function ProgressPage() {
         </div>
       </div>
 
-      <Postcard postmark="A1">
-        <div className="flex items-baseline justify-between pr-12">
-          <Label>Your stamp book · what you can do in Italian</Label>
-          <span className="text-sm text-muted-foreground">{earnedCount} of {stamps.length} collected</span>
-        </div>
-        <div className="grid grid-cols-[repeat(7,7.5rem)] justify-between gap-y-3.5">
+      <Postcard
+        title="Your stamp book · what you can do in Italian"
+        meta={`${earnedCount} of ${stamps.length} collected`}
+        postmark="A1"
+      >
+        <div className="grid grid-cols-[repeat(7,7.5rem)] justify-between gap-y-5">
           {stamps.map(({ unit, earned }) => (
             <Stamp key={unit.id} title={unit.stamp_title ?? unit.name} caption={`A1 · ${unit.name}`} earned={earned} />
           ))}

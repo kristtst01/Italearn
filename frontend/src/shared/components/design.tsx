@@ -223,14 +223,30 @@ export function Stamp({
 }
 
 /** Airmail-bordered panel with a postmark. Only used for the stamp book. */
-export function Postcard({ children, postmark }: { children: ReactNode; postmark: string }) {
+export function Postcard({
+  title,
+  meta,
+  postmark,
+  children,
+}: {
+  title: ReactNode;
+  meta?: ReactNode;
+  postmark: string;
+  children: ReactNode;
+}) {
   return (
     <div className="airmail rounded p-2.5">
-      <div className="relative flex flex-col gap-3.5 bg-white px-6 pt-5 pb-6">
-        <div className="absolute -top-8 -right-7 flex size-19 -rotate-12 flex-col items-center justify-center rounded-full border-2 border-cobalto bg-white/80 text-cobalto">
-          <span className="text-[9px] font-bold tracking-label">ITALEARN</span>
-          <span className="font-display text-base leading-none">{postmark}</span>
-          <span className="text-[9px] font-bold tracking-label">POSTA AEREA</span>
+      <div className="flex flex-col gap-6 bg-white px-10 pt-7 pb-10">
+        <div className="flex items-center justify-between gap-6">
+          <Label>{title}</Label>
+          <div className="flex items-center gap-5">
+            {meta && <span className="text-sm text-muted-foreground">{meta}</span>}
+            <div className="flex size-19 -rotate-12 flex-col items-center justify-center rounded-full border-2 border-cobalto bg-white text-cobalto">
+              <span className="text-[9px] font-bold tracking-label">ITALEARN</span>
+              <span className="font-display text-base leading-none">{postmark}</span>
+              <span className="text-[9px] font-bold tracking-label">POSTA AEREA</span>
+            </div>
+          </div>
         </div>
         {children}
       </div>
