@@ -22,7 +22,8 @@ export function PageHeader({
   description,
   aside,
 }: {
-  label?: ReactNode;
+  /** Always present, so titles line up across pages (no jump when switching sections) */
+  label: ReactNode;
   title: ReactNode;
   description?: ReactNode;
   aside?: ReactNode;
@@ -30,7 +31,7 @@ export function PageHeader({
   return (
     <div className="flex items-end justify-between gap-8">
       <div className="flex flex-col gap-2">
-        {label && <Label>{label}</Label>}
+        <Label>{label}</Label>
         <h1 className="font-display text-title">{title}</h1>
         {description && <p className="max-w-2xl text-base text-muted-foreground">{description}</p>}
       </div>

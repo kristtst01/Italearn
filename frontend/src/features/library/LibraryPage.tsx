@@ -33,6 +33,7 @@ export default function LibraryPage() {
       className="pb-40"
     >
       <PageHeader
+        label={`A1 · ${getChapters().length} chapters`}
         title="Library"
         aside={
           <nav className="flex gap-7">

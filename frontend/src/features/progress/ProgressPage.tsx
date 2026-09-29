@@ -31,6 +31,7 @@ export default function ProgressPage() {
       className="pb-40"
     >
       <PageHeader
+        label="A1 · Breakthrough"
         title="Your A1"
         description="What you actually know, measured by your reviews. It drops if you stop practising."
       />
