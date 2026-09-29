@@ -1,0 +1,238 @@
+{
+  "id": "unit-13-lesson-03",
+  "unit_id": "unit-13",
+  "name": "Places in the City",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-13-lesson-03-tip-01",
+      "title": "Practical Places",
+      "explanation": "Common places you go in a city: la banca, la farmacia, il supermercato, la stazione, l'ospedale, la chiesa, l'ufficio postale, la piazza, il museo. Most are feminine if they end in -a.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-13-lesson-03-tip-02",
+      "title": "Andare A vs Andare In",
+      "explanation": "'Al supermercato', 'alla farmacia', 'in banca', 'in piazza', 'in centro'. Some places take 'a + article', others take 'in' (no article). It's idiomatic — learn the common ones.",
+      "before_exercise": 8
+    },
+    {
+      "id": "unit-13-lesson-03-tip-03",
+      "title": "Via — Street",
+      "explanation": "'La via' = the street. Italian addresses are 'Via [name], numero [N]': 'Via Roma, 10'. 'Piazza' is a square, 'corso' is an avenue.",
+      "before_exercise": 14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-13-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'banca' mean?" },
+      "sentence_context": "Vado in banca.",
+      "correct_answer": "Bank",
+      "distractors": ["Pharmacy", "Supermarket", "Station"],
+      "hints": ["Where you keep money."],
+      "target_words": ["banca"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'farmacia' mean?" },
+      "sentence_context": "Vado in farmacia.",
+      "correct_answer": "Pharmacy",
+      "distractors": ["Hospital", "Bank", "Supermarket"],
+      "hints": ["Where you buy medicine."],
+      "target_words": ["farmacia"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'supermercato' mean?" },
+      "sentence_context": "Faccio la spesa al supermercato.",
+      "correct_answer": "Supermarket",
+      "distractors": ["Restaurant", "Shop", "Office"],
+      "hints": ["Where you do your weekly shop."],
+      "target_words": ["supermercato"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'stazione' mean?" },
+      "sentence_context": "La stazione è vicino al centro.",
+      "correct_answer": "Station",
+      "distractors": ["Hospital", "Airport", "Office"],
+      "hints": ["Where trains arrive."],
+      "target_words": ["stazione"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ospedale' mean?" },
+      "sentence_context": "Mia madre lavora all'ospedale.",
+      "correct_answer": "Hospital",
+      "distractors": ["Pharmacy", "School", "Bank"],
+      "hints": ["Where doctors work."],
+      "target_words": ["ospedale"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'chiesa' mean?" },
+      "sentence_context": "La chiesa è in piazza.",
+      "correct_answer": "Church",
+      "distractors": ["School", "Museum", "Square"],
+      "hints": ["A religious building."],
+      "target_words": ["chiesa"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'museo' mean?" },
+      "sentence_context": "Visitiamo il museo.",
+      "correct_answer": "Museum",
+      "distractors": ["Church", "School", "Library"],
+      "hints": ["Where you go to see art."],
+      "target_words": ["museo"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Vado alla ___ per comprare il pane.",
+      "correct_answer": "panetteria",
+      "distractors": [],
+      "hints": ["A bakery — where you buy bread."],
+      "target_words": ["panetteria"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Cammino in ___ Roma.",
+      "correct_answer": "via",
+      "distractors": [],
+      "hints": ["I walk in Via Roma. (Italian addresses)"],
+      "target_words": ["via"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La chiesa è in ___ Garibaldi.",
+      "correct_answer": "piazza",
+      "distractors": [],
+      "hints": ["A square."],
+      "target_words": ["piazza"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'bank' in Italian?" },
+      "sentence_context": "Vado in banca.",
+      "correct_answer": "banca",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["banca"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'pharmacy' in Italian?" },
+      "sentence_context": "Compro l'aspirina in farmacia.",
+      "correct_answer": "farmacia",
+      "distractors": [],
+      "hints": ["Close to the English word."],
+      "target_words": ["farmacia"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'station' in Italian?" },
+      "sentence_context": "Vado alla stazione.",
+      "correct_answer": "stazione",
+      "distractors": [],
+      "hints": ["A feminine noun ending in -e."],
+      "target_words": ["stazione"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'museum' in Italian?" },
+      "sentence_context": "Il museo è grande.",
+      "correct_answer": "museo",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["museo"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'street' in Italian?" },
+      "sentence_context": "Via Roma è lunga.",
+      "correct_answer": "via",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["via"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I go to the supermarket on Saturday.'" },
+      "sentence_context": "Vado al supermercato il sabato.",
+      "correct_answer": ["Vado", "al", "supermercato", "il", "sabato."],
+      "distractors": ["alla", "domenica"],
+      "hints": ["'Supermercato' is masculine → al."],
+      "target_words": ["supermercato"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The church is in the square.'" },
+      "sentence_context": "La chiesa è in piazza.",
+      "correct_answer": ["La", "chiesa", "è", "in", "piazza."],
+      "distractors": ["alla", "stazione"],
+      "hints": ["'In piazza' is a fixed phrase."],
+      "target_words": ["chiesa", "piazza"]
+    },
+    {
+      "id": "unit-13-lesson-03-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'My mother works at the hospital.'" },
+      "sentence_context": "Mia madre lavora all'ospedale.",
+      "correct_answer": ["Mia", "madre", "lavora", "all'ospedale."],
+      "distractors": ["alla", "in"],
+      "hints": ["a + l' = all'."],
+      "target_words": ["ospedale"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "banca", "meaning": "Bank", "example": "Vado in banca." },
+    { "word": "farmacia", "meaning": "Pharmacy", "example": "Compro l'aspirina in farmacia." },
+    { "word": "supermercato", "meaning": "Supermarket", "example": "Faccio la spesa al supermercato." },
+    { "word": "stazione", "meaning": "Station", "example": "La stazione è vicino al centro." },
+    { "word": "ospedale", "meaning": "Hospital", "example": "Mia madre lavora all'ospedale." },
+    { "word": "chiesa", "meaning": "Church", "example": "La chiesa è in piazza." },
+    { "word": "museo", "meaning": "Museum", "example": "Visitiamo il museo." },
+    { "word": "panetteria", "meaning": "Bakery", "example": "Vado alla panetteria." },
+    { "word": "via", "meaning": "Street", "example": "Via Roma è lunga." },
+    { "word": "piazza", "meaning": "Square / piazza", "example": "La chiesa è in piazza." }
+  ]
+}

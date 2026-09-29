@@ -1,0 +1,235 @@
+{
+  "id": "unit-18-lesson-02",
+  "unit_id": "unit-18",
+  "name": "Things You Like to Do",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-18-lesson-02-tip-01",
+      "title": "Mi Piace + Infinitive",
+      "explanation": "To say you like doing something, use 'mi piace' + infinitive: 'Mi piace leggere' (I like reading), 'Mi piace ballare' (I like dancing). Always 'piace' (singular) with an infinitive.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-18-lesson-02-tip-02",
+      "title": "Hobbies & Activities",
+      "explanation": "Common A1 activities: ballare (dance), cantare (sing), nuotare (swim), correre (run), viaggiare (travel), suonare (play an instrument), disegnare (draw).",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-18-lesson-02-tip-03",
+      "title": "Saying You Don't Like",
+      "explanation": "'Non mi piace ballare' (I don't like dancing). Put 'non' before the pronoun. To soften it: 'non mi piace tanto' (I don't like it much).",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-18-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ballare' mean?" },
+      "sentence_context": "Mi piace ballare.",
+      "correct_answer": "To dance",
+      "distractors": ["To sing", "To run", "To swim"],
+      "hints": ["I like dancing."],
+      "target_words": ["ballare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'cantare' mean?" },
+      "sentence_context": "Mi piace cantare.",
+      "correct_answer": "To sing",
+      "distractors": ["To dance", "To listen", "To speak"],
+      "hints": ["I like singing."],
+      "target_words": ["cantare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'nuotare' mean?" },
+      "sentence_context": "Mi piace nuotare al mare.",
+      "correct_answer": "To swim",
+      "distractors": ["To run", "To walk", "To sail"],
+      "hints": ["I like swimming in the sea."],
+      "target_words": ["nuotare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'correre' mean?" },
+      "sentence_context": "Mi piace correre.",
+      "correct_answer": "To run",
+      "distractors": ["To walk", "To swim", "To dance"],
+      "hints": ["I like running."],
+      "target_words": ["correre"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'viaggiare' mean?" },
+      "sentence_context": "Mi piace viaggiare.",
+      "correct_answer": "To travel",
+      "distractors": ["To stay", "To return", "To leave"],
+      "hints": ["I like to travel."],
+      "target_words": ["viaggiare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'suonare' mean here?" },
+      "sentence_context": "Mi piace suonare il piano.",
+      "correct_answer": "To play (an instrument)",
+      "distractors": ["To listen", "To sing", "To play sport"],
+      "hints": ["For instruments — not sports."],
+      "target_words": ["suonare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'disegnare' mean?" },
+      "sentence_context": "Mi piace disegnare.",
+      "correct_answer": "To draw",
+      "distractors": ["To paint", "To write", "To photograph"],
+      "hints": ["With pencil and paper."],
+      "target_words": ["disegnare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Mi piace ___ al mare.",
+      "correct_answer": "nuotare",
+      "distractors": [],
+      "hints": ["I like to swim at the sea."],
+      "target_words": ["nuotare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Mi piace ___ il pianoforte.",
+      "correct_answer": "suonare",
+      "distractors": [],
+      "hints": ["I like to play the piano."],
+      "target_words": ["suonare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Mi piace ___ in vacanza.",
+      "correct_answer": "viaggiare",
+      "distractors": [],
+      "hints": ["I like to travel on holiday."],
+      "target_words": ["viaggiare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to dance' in Italian?" },
+      "sentence_context": "Mi piace ballare.",
+      "correct_answer": "ballare",
+      "distractors": [],
+      "hints": ["Regular -are verb."],
+      "target_words": ["ballare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to sing' in Italian?" },
+      "sentence_context": "Mi piace cantare.",
+      "correct_answer": "cantare",
+      "distractors": [],
+      "hints": ["Regular -are verb."],
+      "target_words": ["cantare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to travel' in Italian?" },
+      "sentence_context": "Mi piace viaggiare.",
+      "correct_answer": "viaggiare",
+      "distractors": [],
+      "hints": ["From 'viaggio'."],
+      "target_words": ["viaggiare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to draw' in Italian?" },
+      "sentence_context": "Mi piace disegnare.",
+      "correct_answer": "disegnare",
+      "distractors": [],
+      "hints": ["Regular -are verb."],
+      "target_words": ["disegnare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Make it negative: 'I don't like dancing.'" },
+      "sentence_context": "___ mi piace ballare.",
+      "correct_answer": "Non",
+      "distractors": [],
+      "hints": ["'Non' before the pronoun."],
+      "target_words": ["piacere"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I like to dance and sing.'" },
+      "sentence_context": "Mi piace ballare e cantare.",
+      "correct_answer": ["Mi", "piace", "ballare", "e", "cantare."],
+      "distractors": ["piacciono", "ballo"],
+      "hints": ["'Mi piace' + two infinitives."],
+      "target_words": ["ballare", "cantare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Anna likes to travel a lot.'" },
+      "sentence_context": "A Anna piace tanto viaggiare.",
+      "correct_answer": ["A", "Anna", "piace", "tanto", "viaggiare."],
+      "distractors": ["piacciono", "molti"],
+      "hints": ["'A' + name + 'piace' + 'tanto' + verb."],
+      "target_words": ["piacere", "viaggiare"]
+    },
+    {
+      "id": "unit-18-lesson-02-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I don't like to run.'" },
+      "sentence_context": "Non mi piace correre.",
+      "correct_answer": ["Non", "mi", "piace", "correre."],
+      "distractors": ["piacciono", "ballare"],
+      "hints": ["'Non' first."],
+      "target_words": ["correre"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "ballare", "meaning": "To dance", "example": "Mi piace ballare." },
+    { "word": "cantare", "meaning": "To sing", "example": "Mi piace cantare." },
+    { "word": "nuotare", "meaning": "To swim", "example": "Mi piace nuotare al mare." },
+    { "word": "correre", "meaning": "To run", "example": "Mi piace correre." },
+    { "word": "viaggiare", "meaning": "To travel", "example": "Mi piace viaggiare." },
+    { "word": "suonare", "meaning": "To play (an instrument)", "example": "Mi piace suonare il piano." },
+    { "word": "disegnare", "meaning": "To draw", "example": "Mi piace disegnare." }
+  ]
+}

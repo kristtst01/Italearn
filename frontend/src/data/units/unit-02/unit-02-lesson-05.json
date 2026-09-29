@@ -1,0 +1,165 @@
+{
+  "id": "unit-02-lesson-05",
+  "unit_id": "unit-02",
+  "name": "Spelling & The Alphabet",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-02-lesson-05-tip-01",
+      "title": "L'Alfabeto Italiano",
+      "explanation": "Italian has 21 letters in its standard alphabet (no j, k, w, x, y in native words — they only appear in foreign borrowings). Letter names: a, bi, ci, di, e, effe, gi, acca, i, elle, emme, enne, o, pi, qu, erre, esse, ti, u, vu, zeta.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-02-lesson-05-tip-02",
+      "title": "Spelling Your Name",
+      "explanation": "'Come si scrive?' = 'How do you spell it?'. Reply by saying each letter: 'M-A-R-C-O'. Useful on the phone or with new acquaintances.",
+      "before_exercise": 5
+    },
+    {
+      "id": "unit-02-lesson-05-tip-03",
+      "title": "Doppia — Double Letters",
+      "explanation": "Many Italian words have double consonants ('mamma', 'caffè', 'anno'). When spelling, you say 'doppia' (double) before the letter: 'M-A-doppia M-A' for 'mamma'.",
+      "before_exercise": 10
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-02-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'alfabeto' mean?" },
+      "sentence_context": "L'alfabeto italiano ha 21 lettere.",
+      "correct_answer": "Alphabet",
+      "distractors": ["Letter", "Word", "Number"],
+      "hints": ["The Italian alphabet has 21 letters."],
+      "target_words": ["alfabeto"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'lettera' mean here?" },
+      "sentence_context": "La prima lettera è 'A'.",
+      "correct_answer": "Letter (of the alphabet)",
+      "distractors": ["Letter (mail)", "Word", "Sound"],
+      "hints": ["A letter — like in the alphabet."],
+      "target_words": ["lettera"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'doppia' mean here?" },
+      "sentence_context": "M-A-doppia M-A: mamma.",
+      "correct_answer": "Double",
+      "distractors": ["Last", "Big", "Silent"],
+      "hints": ["Used when spelling double consonants."],
+      "target_words": ["doppia"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Come si ___ 'Marco'?",
+      "correct_answer": "scrive",
+      "distractors": [],
+      "hints": ["How do you spell 'Marco'? (lui form of scrivere)"],
+      "target_words": ["scrivere"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'The alphabet has 21 ___'." },
+      "sentence_context": "L'alfabeto ha 21 ___.",
+      "correct_answer": "lettere",
+      "distractors": [],
+      "hints": ["Plural of 'lettera'."],
+      "target_words": ["lettera"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'alphabet' in Italian?" },
+      "sentence_context": "L'alfabeto italiano.",
+      "correct_answer": "alfabeto",
+      "distractors": [],
+      "hints": ["Close to the English word."],
+      "target_words": ["alfabeto"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'letter' (alphabet) in Italian?" },
+      "sentence_context": "La prima lettera è A.",
+      "correct_answer": "lettera",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["lettera"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'double' (in spelling)?" },
+      "sentence_context": "Doppia M.",
+      "correct_answer": "doppia",
+      "distractors": [],
+      "hints": ["Feminine form of doppio."],
+      "target_words": ["doppia"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-09",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "How would you ask someone to spell their name?" },
+      "sentence_context": "Come si ___ il tuo nome?",
+      "correct_answer": "scrive",
+      "distractors": [],
+      "hints": ["'How is your name written?' (lui form)"],
+      "target_words": ["scrivere"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-10",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'How do you spell your name?'" },
+      "sentence_context": "Come si scrive il tuo nome?",
+      "correct_answer": ["Come", "si", "scrive", "il", "tuo", "nome?"],
+      "distractors": ["è", "chiama"],
+      "hints": ["'Come si scrive' = how is it written."],
+      "target_words": ["scrivere"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-11",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'The Italian alphabet has 21 letters.'" },
+      "sentence_context": "L'alfabeto italiano ha 21 lettere.",
+      "correct_answer": ["L'alfabeto", "italiano", "ha", "21", "lettere."],
+      "distractors": ["lettera", "francese"],
+      "hints": ["L'alfabeto + adjective + ha + number + plural noun."],
+      "target_words": ["alfabeto", "lettera"]
+    },
+    {
+      "id": "unit-02-lesson-05-ex-12",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'My name is Anna, A-N-N-A.'" },
+      "sentence_context": "Mi chiamo Anna, A-N-N-A.",
+      "correct_answer": ["Mi", "chiamo", "Anna,", "A-N-N-A."],
+      "distractors": ["sono", "doppia"],
+      "hints": ["Self-introduction + spelling."],
+      "target_words": ["alfabeto"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "alfabeto", "meaning": "Alphabet", "example": "L'alfabeto italiano ha 21 lettere." },
+    { "word": "lettera", "meaning": "Letter (of the alphabet)", "example": "La prima lettera è A." },
+    { "word": "doppia", "meaning": "Double (in spelling)", "example": "M-A-doppia M-A: mamma." }
+  ]
+}

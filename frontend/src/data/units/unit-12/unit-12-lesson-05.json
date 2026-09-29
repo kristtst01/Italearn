@@ -1,0 +1,260 @@
+{
+  "id": "unit-12-lesson-05",
+  "unit_id": "unit-12",
+  "name": "Movement & Useful Verbs",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-12-lesson-05-tip-01",
+      "title": "Movement",
+      "explanation": "'Girare' (to turn / go around), 'seguire' (to follow), 'incontrare' (to meet), 'scappare' (to escape / run away). Useful when navigating a city.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-12-lesson-05-tip-02",
+      "title": "Trying & Succeeding",
+      "explanation": "'Riuscire' (to manage / succeed) and 'bastare' (to be enough): 'Non riesco a venire' = I can't manage to come. 'Basta!' = Enough!",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-12-lesson-05-tip-03",
+      "title": "Becoming & Continuing",
+      "explanation": "'Diventare' (to become), 'cominciare' (to begin), 'continuare' (to continue), 'trattare' (to treat / deal with).",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-12-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'girare' mean?" },
+      "sentence_context": "Gira a destra.",
+      "correct_answer": "To turn",
+      "distractors": ["To stop", "To go straight", "To pass"],
+      "hints": ["Turn right."],
+      "target_words": ["girare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'seguire' mean?" },
+      "sentence_context": "Seguo Marco.",
+      "correct_answer": "To follow",
+      "distractors": ["To lead", "To find", "To meet"],
+      "hints": ["I follow Marco."],
+      "target_words": ["seguire"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'incontrare' mean?" },
+      "sentence_context": "Incontro Anna domani.",
+      "correct_answer": "To meet",
+      "distractors": ["To find", "To know", "To greet"],
+      "hints": ["I meet Anna tomorrow."],
+      "target_words": ["incontrare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'scappare' mean?" },
+      "sentence_context": "Il gatto scappa.",
+      "correct_answer": "To escape / run away",
+      "distractors": ["To return", "To stay", "To follow"],
+      "hints": ["The cat runs away."],
+      "target_words": ["scappare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'riuscire' mean?" },
+      "sentence_context": "Non riesco a dormire.",
+      "correct_answer": "To manage / succeed",
+      "distractors": ["To try", "To want", "To begin"],
+      "hints": ["I can't manage to sleep."],
+      "target_words": ["riuscire"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'bastare' mean?" },
+      "sentence_context": "Basta così.",
+      "correct_answer": "To be enough",
+      "distractors": ["To want", "To stop", "To last"],
+      "hints": ["That's enough."],
+      "target_words": ["bastare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'diventare' mean?" },
+      "sentence_context": "Diventa freddo.",
+      "correct_answer": "To become",
+      "distractors": ["To stay", "To finish", "To be"],
+      "hints": ["It's becoming cold."],
+      "target_words": ["diventare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'cominciare' mean?" },
+      "sentence_context": "Comincio a studiare.",
+      "correct_answer": "To begin",
+      "distractors": ["To finish", "To try", "To stop"],
+      "hints": ["I begin to study. (synonym of iniziare)"],
+      "target_words": ["cominciare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'continuare' mean?" },
+      "sentence_context": "Continuo a lavorare.",
+      "correct_answer": "To continue",
+      "distractors": ["To stop", "To begin", "To follow"],
+      "hints": ["I keep working."],
+      "target_words": ["continuare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'trattare' mean here?" },
+      "sentence_context": "Di che cosa si tratta?",
+      "correct_answer": "To be about / treat",
+      "distractors": ["To meet", "To handle physically", "To negotiate"],
+      "hints": ["What is it about?"],
+      "target_words": ["trattare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'I meet Anna at the café.'" },
+      "sentence_context": "___ Anna al bar.",
+      "correct_answer": "Incontro",
+      "distractors": [],
+      "hints": ["io form of incontrare."],
+      "target_words": ["incontrare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'Turn right at the corner.'" },
+      "sentence_context": "___ a destra.",
+      "correct_answer": "Gira",
+      "distractors": [],
+      "hints": ["Imperative of girare."],
+      "target_words": ["girare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'I can't manage to sleep.'" },
+      "sentence_context": "Non ___ a dormire.",
+      "correct_answer": "riesco",
+      "distractors": [],
+      "hints": ["io form of riuscire."],
+      "target_words": ["riuscire"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-14",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: \"That's enough!\"" },
+      "sentence_context": "___ così!",
+      "correct_answer": "Basta",
+      "distractors": [],
+      "hints": ["3rd person of bastare."],
+      "target_words": ["bastare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to follow' in Italian?" },
+      "sentence_context": "Seguo Marco.",
+      "correct_answer": "seguire",
+      "distractors": [],
+      "hints": ["-ire verb."],
+      "target_words": ["seguire"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to become' in Italian?" },
+      "sentence_context": "Diventa freddo.",
+      "correct_answer": "diventare",
+      "distractors": [],
+      "hints": ["Regular -are verb."],
+      "target_words": ["diventare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-17",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to continue' in Italian?" },
+      "sentence_context": "Continuo a leggere.",
+      "correct_answer": "continuare",
+      "distractors": [],
+      "hints": ["Regular -are verb."],
+      "target_words": ["continuare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I meet my friends tomorrow.'" },
+      "sentence_context": "Incontro i miei amici domani.",
+      "correct_answer": ["Incontro", "i", "miei", "amici", "domani."],
+      "distractors": ["seguo", "oggi"],
+      "hints": ["Verb + object + tomorrow."],
+      "target_words": ["incontrare"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I can't manage to sleep tonight.'" },
+      "sentence_context": "Non riesco a dormire stasera.",
+      "correct_answer": ["Non", "riesco", "a", "dormire", "stasera."],
+      "distractors": ["riusciamo", "domani"],
+      "hints": ["Non + riuscire + 'a' + infinitive."],
+      "target_words": ["riuscire"]
+    },
+    {
+      "id": "unit-12-lesson-05-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I am becoming tired.'" },
+      "sentence_context": "Sto diventando stanco.",
+      "correct_answer": ["Sto", "diventando", "stanco."],
+      "distractors": ["divento", "stanchi"],
+      "hints": ["Present progressive ('stare' + gerund)."],
+      "target_words": ["diventare"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "girare", "meaning": "To turn", "example": "Gira a destra." },
+    { "word": "seguire", "meaning": "To follow", "example": "Seguo Marco." },
+    { "word": "incontrare", "meaning": "To meet", "example": "Incontro Anna domani." },
+    { "word": "scappare", "meaning": "To escape / run away", "example": "Il gatto scappa." },
+    { "word": "riuscire", "meaning": "To manage / succeed", "example": "Non riesco a dormire." },
+    { "word": "bastare", "meaning": "To be enough", "example": "Basta così." },
+    { "word": "diventare", "meaning": "To become", "example": "Diventa freddo." },
+    { "word": "cominciare", "meaning": "To begin", "example": "Comincio a studiare." },
+    { "word": "continuare", "meaning": "To continue", "example": "Continuo a lavorare." },
+    { "word": "trattare", "meaning": "To treat / be about", "example": "Di che cosa si tratta?" }
+  ]
+}

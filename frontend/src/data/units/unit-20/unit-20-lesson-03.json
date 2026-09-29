@@ -1,0 +1,223 @@
+{
+  "id": "unit-20-lesson-03",
+  "unit_id": "unit-20",
+  "name": "At the Pharmacy",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-20-lesson-03-tip-01",
+      "title": "Italian Pharmacies",
+      "explanation": "Italian 'farmacie' do a lot more than US/UK pharmacies — they give advice, recommend over-the-counter medicines, and often the 'farmacista' (pharmacist) is a first stop before a doctor.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-20-lesson-03-tip-02",
+      "title": "Medicine, Prescription, Pill",
+      "explanation": "'La medicina' = medicine. 'La ricetta' is both a prescription AND a (cooking) recipe — context decides. 'La pillola' or 'la pastiglia' = pill / tablet.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-20-lesson-03-tip-03",
+      "title": "Asking for Help",
+      "explanation": "'Mi serve qualcosa per la tosse' = I need something for the cough. 'Avere bisogno di' (Unit 5) also works: 'Ho bisogno di una medicina'. Both are very common.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-20-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'farmacista' mean?" },
+      "sentence_context": "Il farmacista è gentile.",
+      "correct_answer": "Pharmacist",
+      "distractors": ["Doctor", "Nurse", "Patient"],
+      "hints": ["Works at the farmacia."],
+      "target_words": ["farmacista"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'medicina' mean?" },
+      "sentence_context": "Compro una medicina.",
+      "correct_answer": "Medicine",
+      "distractors": ["Recipe", "Prescription", "Pill"],
+      "hints": ["I buy a medicine."],
+      "target_words": ["medicina"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ricetta' mean here?" },
+      "sentence_context": "Il dottore mi dà una ricetta.",
+      "correct_answer": "Prescription",
+      "distractors": ["Recipe", "Receipt", "Pill"],
+      "hints": ["The doctor gives me a prescription."],
+      "target_words": ["ricetta"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'pillola' mean?" },
+      "sentence_context": "Prendo una pillola.",
+      "correct_answer": "Pill",
+      "distractors": ["Syrup", "Cream", "Drop"],
+      "hints": ["I take a pill."],
+      "target_words": ["pillola"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'aspirina' mean?" },
+      "sentence_context": "Prendo un'aspirina.",
+      "correct_answer": "Aspirin",
+      "distractors": ["Cream", "Syrup", "Bandage"],
+      "hints": ["A common pain reliever."],
+      "target_words": ["aspirina"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'serve' mean here?" },
+      "sentence_context": "Mi serve una medicina.",
+      "correct_answer": "I need / is needed",
+      "distractors": ["I serve", "I see", "I sell"],
+      "hints": ["I need a medicine."],
+      "target_words": ["servire"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Vado in ___ a comprare una medicina.",
+      "correct_answer": "farmacia",
+      "distractors": [],
+      "hints": ["I go to the pharmacy."],
+      "target_words": ["farmacista"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Prendo una ___ per la testa.",
+      "correct_answer": "pillola",
+      "distractors": [],
+      "hints": ["I take a pill for my head."],
+      "target_words": ["pillola"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Mi ___ qualcosa per la tosse.",
+      "correct_answer": "serve",
+      "distractors": [],
+      "hints": ["I need something for the cough."],
+      "target_words": ["servire"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il dottore mi dà una ___.",
+      "correct_answer": "ricetta",
+      "distractors": [],
+      "hints": ["The doctor gives me a prescription."],
+      "target_words": ["ricetta"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'medicine' in Italian?" },
+      "sentence_context": "Compro una medicina.",
+      "correct_answer": "medicina",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["medicina"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'pill' in Italian?" },
+      "sentence_context": "Prendo una pillola.",
+      "correct_answer": "pillola",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["pillola"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'pharmacist' in Italian?" },
+      "sentence_context": "Parlo con il farmacista.",
+      "correct_answer": "farmacista",
+      "distractors": [],
+      "hints": ["Same form for male and female."],
+      "target_words": ["farmacista"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'prescription' in Italian?" },
+      "sentence_context": "Ho la ricetta del dottore.",
+      "correct_answer": "ricetta",
+      "distractors": [],
+      "hints": ["Same word as 'recipe'."],
+      "target_words": ["ricetta"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: \"I need something for the headache.\"" },
+      "sentence_context": "Mi serve qualcosa per il mal di testa.",
+      "correct_answer": ["Mi", "serve", "qualcosa", "per", "il", "mal", "di", "testa."],
+      "distractors": ["servono", "tosse"],
+      "hints": ["'Mi serve' + 'qualcosa' + 'per' + ailment."],
+      "target_words": ["servire", "testa"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I take a pill for the fever.'" },
+      "sentence_context": "Prendo una pillola per la febbre.",
+      "correct_answer": ["Prendo", "una", "pillola", "per", "la", "febbre."],
+      "distractors": ["medicina", "tosse"],
+      "hints": ["Verb + pill + 'per la febbre'."],
+      "target_words": ["pillola", "febbre"]
+    },
+    {
+      "id": "unit-20-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The pharmacist is kind.'" },
+      "sentence_context": "Il farmacista è gentile.",
+      "correct_answer": ["Il", "farmacista", "è", "gentile."],
+      "distractors": ["la", "stanco"],
+      "hints": ["A masculine noun in -a."],
+      "target_words": ["farmacista"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "farmacista", "meaning": "Pharmacist", "example": "Il farmacista è gentile." },
+    { "word": "medicina", "meaning": "Medicine", "example": "Compro una medicina." },
+    { "word": "ricetta", "meaning": "Prescription / recipe", "example": "Il dottore mi dà una ricetta." },
+    { "word": "pillola", "meaning": "Pill", "example": "Prendo una pillola." },
+    { "word": "aspirina", "meaning": "Aspirin", "example": "Prendo un'aspirina." },
+    { "word": "servire", "meaning": "To need / serve (mi serve = I need)", "example": "Mi serve una medicina." }
+  ]
+}

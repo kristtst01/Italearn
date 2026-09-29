@@ -1,0 +1,259 @@
+{
+  "id": "unit-13-lesson-02",
+  "unit_id": "unit-13",
+  "name": "Articulated Prepositions",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-13-lesson-02-tip-01",
+      "title": "Preposition + Article = One Word",
+      "explanation": "When the prepositions a, di, da, in, su meet a definite article (il, lo, la, l', i, gli, le), they fuse into ONE word: a + il = al, di + la = della, in + il = nel, etc.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-13-lesson-02-tip-02",
+      "title": "The Fusion Table",
+      "explanation": "Examples: al (a+il), allo (a+lo), alla (a+la), all' (a+l'), ai (a+i), agli (a+gli), alle (a+le). Same pattern for di→del, da→dal, in→nel, su→sul. 'Con' and 'per' do NOT fuse.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-13-lesson-02-tip-03",
+      "title": "If You Know the Article, You Know the Fusion",
+      "explanation": "Knowing 'lo' triggers (lo studente, lo zaino) means knowing 'allo studente', 'allo zaino'. The fusion uses the same article rules from Unit 3.",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-13-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'al' mean?" },
+      "sentence_context": "Vado al cinema.",
+      "correct_answer": "To the (masculine)",
+      "distractors": ["From the", "On the", "In the"],
+      "hints": ["a + il → al."],
+      "target_words": ["al"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'alla' mean?" },
+      "sentence_context": "Vado alla stazione.",
+      "correct_answer": "To the (feminine)",
+      "distractors": ["From the", "On the", "Of the"],
+      "hints": ["a + la → alla."],
+      "target_words": ["alla"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'della' mean?" },
+      "sentence_context": "Il libro della ragazza.",
+      "correct_answer": "Of the (feminine)",
+      "distractors": ["To the", "On the", "From the"],
+      "hints": ["di + la → della."],
+      "target_words": ["della"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'nel' mean?" },
+      "sentence_context": "Il libro è nel cassetto.",
+      "correct_answer": "In the (masculine)",
+      "distractors": ["On the", "To the", "Of the"],
+      "hints": ["in + il → nel."],
+      "target_words": ["nel"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sul' mean?" },
+      "sentence_context": "Il libro è sul tavolo.",
+      "correct_answer": "On the (masculine)",
+      "distractors": ["In the", "To the", "From the"],
+      "hints": ["su + il → sul."],
+      "target_words": ["sul"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'dal' mean?" },
+      "sentence_context": "Vengo dal cinema.",
+      "correct_answer": "From the (masculine)",
+      "distractors": ["To the", "Of the", "On the"],
+      "hints": ["da + il → dal."],
+      "target_words": ["dal"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in: 'a + il' = ___" },
+      "sentence_context": "Vado ___ cinema.",
+      "correct_answer": "al",
+      "distractors": [],
+      "hints": ["a + il fuses to one word."],
+      "target_words": ["al"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in: 'a + la' = ___" },
+      "sentence_context": "Vado ___ stazione.",
+      "correct_answer": "alla",
+      "distractors": [],
+      "hints": ["a + la fuses to alla."],
+      "target_words": ["alla"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in: 'di + la' = ___" },
+      "sentence_context": "Il libro ___ ragazza.",
+      "correct_answer": "della",
+      "distractors": [],
+      "hints": ["di + la fuses to della."],
+      "target_words": ["della"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in: 'in + il' = ___" },
+      "sentence_context": "Il libro è ___ tavolo... no, nel cassetto.",
+      "correct_answer": "nel",
+      "distractors": [],
+      "hints": ["in + il fuses to nel."],
+      "target_words": ["nel"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in: 'su + il' = ___" },
+      "sentence_context": "Il libro è ___ tavolo.",
+      "correct_answer": "sul",
+      "distractors": [],
+      "hints": ["su + il fuses to sul."],
+      "target_words": ["sul"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in: 'a + lo' = ___" },
+      "sentence_context": "Do un libro ___ studente.",
+      "correct_answer": "allo",
+      "distractors": [],
+      "hints": ["a + lo fuses to allo."],
+      "target_words": ["allo"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Combine 'a + la stazione' → ?" },
+      "sentence_context": "Vado ___ stazione.",
+      "correct_answer": "alla",
+      "distractors": [],
+      "hints": ["Feminine → alla."],
+      "target_words": ["alla"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Combine 'in + la casa' → ?" },
+      "sentence_context": "Il gatto è ___ casa.",
+      "correct_answer": "nella",
+      "distractors": [],
+      "hints": ["in + la = nella."],
+      "target_words": ["nella"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Combine 'di + il libro' → ?" },
+      "sentence_context": "La pagina ___ libro.",
+      "correct_answer": "del",
+      "distractors": [],
+      "hints": ["di + il = del."],
+      "target_words": ["del"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Combine 'da + il cinema' → ?" },
+      "sentence_context": "Vengo ___ cinema.",
+      "correct_answer": "dal",
+      "distractors": [],
+      "hints": ["da + il = dal."],
+      "target_words": ["dal"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Combine 'a + i bambini' (plural)." },
+      "sentence_context": "Do i libri ___ bambini.",
+      "correct_answer": "ai",
+      "distractors": [],
+      "hints": ["a + i = ai."],
+      "target_words": ["al"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I go to the cinema.'" },
+      "sentence_context": "Vado al cinema.",
+      "correct_answer": ["Vado", "al", "cinema."],
+      "distractors": ["alla", "in"],
+      "hints": ["'Cinema' is masculine → al."],
+      "target_words": ["al"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The book is on the table.'" },
+      "sentence_context": "Il libro è sul tavolo.",
+      "correct_answer": ["Il", "libro", "è", "sul", "tavolo."],
+      "distractors": ["su", "nel"],
+      "hints": ["su + il = sul."],
+      "target_words": ["sul"]
+    },
+    {
+      "id": "unit-13-lesson-02-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I'm going to the station.'" },
+      "sentence_context": "Vado alla stazione.",
+      "correct_answer": ["Vado", "alla", "stazione."],
+      "distractors": ["al", "della"],
+      "hints": ["'Stazione' is feminine → alla."],
+      "target_words": ["alla"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "al", "meaning": "To the (a + il)", "example": "Vado al cinema." },
+    { "word": "allo", "meaning": "To the (a + lo)", "example": "Do un libro allo studente." },
+    { "word": "alla", "meaning": "To the (a + la)", "example": "Vado alla stazione." },
+    { "word": "del", "meaning": "Of the (di + il)", "example": "La pagina del libro." },
+    { "word": "della", "meaning": "Of the (di + la)", "example": "Il libro della ragazza." },
+    { "word": "dal", "meaning": "From the (da + il)", "example": "Vengo dal cinema." },
+    { "word": "nel", "meaning": "In the (in + il)", "example": "Il libro è nel cassetto." },
+    { "word": "nella", "meaning": "In the (in + la)", "example": "Il gatto è nella casa." },
+    { "word": "sul", "meaning": "On the (su + il)", "example": "Il libro è sul tavolo." }
+  ]
+}

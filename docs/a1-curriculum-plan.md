@@ -1,51 +1,91 @@
 # A1 Curriculum Plan
 
-Complete unit-by-unit plan for the A1 level (CEFR "Breakthrough"). Covers everything a learner needs to survive basic Italian interactions: introducing themselves, describing things, talking about daily life, navigating places, and ordering food.
+Complete plan for the A1 level (CEFR "Breakthrough"). Covers everything a learner needs to survive basic Italian interactions: introducing themselves, describing things, talking about daily life, navigating places, and ordering food.
+
+A1 is **20 units in two parts**:
+
+- **Foundations (Units 1–5)** — form-first. Greetings, *essere*, nouns/gender/articles, numbers, *avere*. These are taught as explicit grammar/vocabulary because they're the machinery every later unit depends on. You can't situate a conversation without pronouns, the two core verbs, and articles.
+- **Situational arc (Units 6–20)** — scenario-organized (notional-functional). Each unit is a real-world situation ("My family", "Finding your way", "At the café"). Grammar is *threaded through* the scenario via a focus-on-form lesson, not the organizing principle. The unit's goal is a thing the learner can *do*.
+
+> **Status:** Units 1–5 are designed in full lesson detail below and partly built. Units 6–20 are currently **unit-level outlines** — detailed lesson breakdowns are the next design step.
 
 ## Design Principles
 
-1. **One unit, one idea.** Each unit teaches a single grammatical concept or tightly-related vocabulary domain. No bundling unrelated topics (numbers + avere) or teaching prerequisites out of order (nationalities before adjective agreement).
+1. **Foundations first, then situations.** Units 1–5 are organized by grammatical concept because they're prerequisites with no useful communicative framing of their own. From Unit 6, the organizing unit is a *situation*, and grammar serves it.
 
 2. **Scaffolding.** Every unit builds on what came before. If a concept requires another concept, the prerequisite comes first. No exceptions.
 
-3. **Variable sizing.** Units have the number of lessons based on how much the topic needs, not a fixed count. Lessons have as many exercises as needed based on complexity. Sections have as many units as the theme requires.
+3. **Grammar threaded, not dropped.** Situational does not mean grammar-free. Each situational unit has a dedicated focus-on-form lesson for whatever structure the scenario needs (e.g. "A Day in My Life" needs regular verbs + reflexives + time). Research-backed sweet spot: communicative backbone + targeted explicit instruction. Pure immersion without focus-on-form fossilizes errors.
 
-4. **Frequency-first vocabulary.** Words come from De Mauro's *vocabolario fondamentale* (the ~2,000 most frequent Italian words covering ~86% of text). Every new word earns its place by being genuinely useful.
+4. **Variable sizing.** Units have as many lessons as the topic needs, lessons as many exercises as the content needs, sections as many units as the theme needs.
 
-5. **Communicative purpose.** Each unit has a clear "by the end, you can..." outcome aligned with CEFR A1 can-do statements. Grammar serves communication, not the other way around.
+5. **Frequency-first vocabulary.** Words come from De Mauro's *vocabolario fondamentale* (the ~2,000 most frequent Italian words covering ~86% of text). Vocabulary is authored as **chunks and collocations** where natural (`vorrei un caffè`, `quanti anni hai`), not just bare lemmas — native-like fluency is heavily formulaic (lexical approach, Lewis).
+
+6. **Honest vocabulary counting.** Counts are **headwords/lemmas**, never inflected forms. Conjugations and plurals are grammar practice, not vocabulary breadth. A1's genuine target is 500–1000 content words; this plan reaches ~650 honestly counted.
+
+7. **Communicative purpose.** Each unit has a clear "by the end, you can…" outcome aligned with CEFR A1 can-do statements.
 
 ## Structure Overview
 
-| Section | Units | Lessons | Focus |
-|---------|-------|---------|-------|
-| 1: First Steps | 1-4 | 13 | Greetings, identity, naming things, counting |
-| 2: Describing Your World | 5-8 | 12 | Possession, descriptions, family, what you do |
-| 3: Daily Life | 9-12 | 12 | Key verbs, routines, places, food |
-| **Total** | **12 units** | **37 lessons** | **~280 word families** |
+| Section | Units | Focus | Mode |
+|---------|-------|-------|------|
+| 1: Foundations | 1–5 | Greetings, *essere*, nouns/articles, numbers, *avere* | Form-first |
+| 2: People & Relationships | 6–8 | Describing people/things, origins, family | Situational |
+| 3: Everyday Life | 9–12 | Routines, work & hobbies, conversation, getting out | Situational |
+| 4: Out in the World | 13–15 | Directions, transport, making plans | Situational |
+| 5: Daily Needs | 16–20 | Eating out, shopping, likes, weather, health | Situational |
+| **Total** | **20 units** | | **~650 headwords** |
+
+## The AI Conversation Tutor
+
+A real-time voice AI tutor the learner can talk to in Italian. **Design decision: it is a standalone feature, not gated into the learning tree.** It is always available from anywhere in the app.
+
+- **Context-aware, not tree-locked.** When the learner opens a conversation, the tutor receives context about where they are in the tree — completed units, known vocabulary/grammar — and scopes itself accordingly (simple Italian, only words the learner has plausibly met, switch briefly to English when they're stuck). The learner is never *blocked* from talking; the AI just calibrates.
+- **Closes the loop with SRS.** A post-conversation correction summary turns mistakes into review items, feeding the spaced-repetition system.
+- **Implementation: TBD.** Likely OpenAI Realtime API fronted by a backend endpoint that mints short-lived ephemeral tokens (no API key in the browser). The backend already exists. Decided later.
+
+### Two kinds of capstone
+
+Each situational unit (6–20) ends with **two** capstones — they are deliberately separate:
+
+- **Written capstone — in the tree, required.** A long-form written production lesson (like unit 5's "Practice Writing"). It is a normal lesson: completing it finishes the unit and unlocks the next. This is what gates progression, it needs no backend, and it keeps written production a trained A1 skill. Detailed per-unit written tasks are part of the pending lesson-level design.
+- **Tutor scenario — outside the tree, voluntary.** The spoken practice. Surfaced as a "Practice this unit with your tutor" button on the unit's completion screen, which deep-links into the standalone tutor pre-seeded with that unit's scenario + the learner's tree position. It has **zero** effect on completion or unlocking — skippable, repeatable, pure upside. The button simply isn't rendered until the tutor ships, so the curriculum is never blocked on it.
+
+The tutor is therefore **one feature with multiple context-aware doors**: a global entry (free conversation, AI picks the level) and per-unit entries (focused scenario practice). A button is a shortcut *into* the tutor — it never makes the tutor a tree node.
+
+> **Dependency note:** scoping the AI to "words the learner knows" wants **lemma-level** vocabulary knowledge. The current SRS stores one card per inflected form with no lemma grouping (`ho`/`hai`/`ha` are 3 unrelated cards). A note=lemma / card=form model should be decided before the tutor's context payload is built.
 
 ## Dependency Graph
 
 ```
-U1 Greetings ──→ U2 Essere ──→ U5 Avere ──→ U6 Adjectives ──→ U7 Family/Possessives
-                     │                              │
-                     ▼                              ▼
-               U3 Nouns/Articles ──────────→ U6 Adjectives
-                     │
-                     ▼
-               U4 Numbers ──→ U5 Avere (age)
-                                    │
-                                    ▼
-                              U8 Regular Verbs ──→ U9 Irregular Verbs ──→ U10 Reflexives
-                                                                              │
-                                                                              ▼
-                                                        U11 Prepositions ──→ U12 Food/Ordering
+FOUNDATIONS
+U1 Greetings → U2 Essere → U3 Nouns/Articles → U4 Numbers → U5 Avere
+
+SITUATIONAL ARC
+U2,U3      → U6 Describing people/things (adjective agreement)
+U6         → U7 Where we're from (nationalities = adjectives)
+U3,U6      → U8 My family (possessives)
+U2,U4      → U9 A day in my life (regular -are verbs, reflexives, time)
+U9         → U10 Work, study & free time (regular -ere/-ire verbs)
+U9,U10     → U11 Keeping a conversation going (questions, negation, frequency)
+U9         → U12 Out and about (irregular verbs)
+U3,U12     → U13 Finding your way (prepositions, articulated prepositions)
+U13        → U14 Getting around (transport)
+U12        → U15 Making plans (modal verbs)
+U13        → U16 At the café & restaurant (partitive, vorrei)
+U4,U6      → U17 Shopping (demonstratives, prices)
+U10        → U18 Likes & preferences (piacere)
+U12        → U19 Weather & small talk (fare/c'è for weather, calendar)
+U5,U12     → U20 Feeling good, feeling bad (stare for health, avere idioms)  ← A1 capstone
 ```
 
 ---
 
-# Section 1: First Steps
+# Section 1: Foundations (Units 1–5)
 
-**Can-do at section end:** Learner can greet people formally and informally, introduce themselves (name, origin), name common objects with correct articles, and use numbers for age, prices, and phone numbers.
+**Mode:** form-first. **Can-do at section end:** Learner can greet people formally and informally, introduce themselves (name, origin), name common objects with correct articles, use numbers for age and prices, and express possession and basic states with *avere*.
+
+These five units are deliberately *not* situational. Greetings, *essere*, the article system, numbers, and *avere* are the structural machinery of Italian — there's nothing to "situate" yet, and front-loading them as clean explicit instruction means the situational arc can move fast. This honestly signals to the learner: basics first, then you start *using* it.
 
 ---
 
@@ -77,7 +117,7 @@ Politeness vocabulary. These words appear in virtually every real interaction an
 
 ### Lesson 3: How Are You?
 
-The first real conversational exchange pattern: ask → respond → ask back. Introduces "stare" as a chunk (come stai/sta) without analyzing the verb paradigm — that comes in Unit 9.
+The first real conversational exchange pattern: ask → respond → ask back. Introduces "stare" as a chunk (come stai/sta) without analyzing the verb paradigm — that comes in Unit 12.
 
 - **Vocabulary:** come stai, come sta, sto bene, sto male, bene, male, così così, e tu, e Lei, non c'è male
 - **Key concept:** come stai (informal) vs come sta (formal). Italian uses *stare* not *essere* for "how are you" — this is a false friend trap (English "How are you?" ≠ "Come sei?"). Teach the correct form early as a chunk.
@@ -113,7 +153,7 @@ The first real grammar lesson. Introduces just 2 subject pronouns (io, tu) and 2
 
 - **Vocabulary:** io, tu, sono, sei, mi chiamo, di, dove
 - **Grammar:** Subject pronoun + essere (1st/2nd person singular only). Pronoun dropping: "Sono Marco" is more natural than "Io sono Marco" — Italian verb endings carry the person information, so pronouns are optional emphasis.
-- **Key phrases:** "Mi chiamo..." (taught as a chunk — the reflexive grammar is explained much later in Unit 10), "Sono di [città]"
+- **Key phrases:** "Mi chiamo..." (taught as a chunk — the reflexive grammar is explained much later in Unit 9), "Sono di [città]"
 - **Why just 2 forms:** Research on working memory (Miller 1956, Cowan 2001) suggests 3-4 new items is optimal per learning episode. Two pronoun-verb pairs plus "mi chiamo" and "sono di" is exactly 4 new patterns. Learners master these before moving on.
 
 ### Lesson 2: He Is, She Is — Lui è, Lei è
@@ -187,7 +227,7 @@ Plural formation plus the plural articles (i, gli, le). Now learners can talk ab
   - Plural articles: i (default masc pl), gli (before vowel/s+cons/z), le (all fem pl)
   - Common irregulars: uomo→uomini
 - **Key concept:** The -e nouns (la chiave, il cane) are the tricky ones — they can be either gender and their plural is always -i regardless. Teach gender as a property you learn *per noun* (with its article), not a rule you can always predict.
-- **Why now:** Plurals are prerequisite for adjective agreement (Unit 6), possessives with family (Unit 7: "i miei fratelli"), and verb conjugation practice (Unit 8: "noi parliamo, loro parlano").
+- **Why now:** Plurals are prerequisite for adjective agreement (Unit 6), possessives with family (Unit 8: "i miei fratelli"), and verb conjugation practice (Unit 10: "noi parliamo, loro parlano").
 
 ### Lesson 4: Things Around Me
 
@@ -195,7 +235,7 @@ Consolidation using real-world contexts. The grammar is done — this lesson app
 
 - **Vocabulary:** stanza, camera, letto, cucina, bagno, giardino
 - **Grammar review:** All articles (definite + indefinite, singular + plural) with the vocabulary from this and previous lessons. Introduces c'è (there is) and ci sono (there are) as useful chunks.
-- **Why c'è/ci sono here:** "C'è un libro sul tavolo" / "Ci sono tre sedie" are the most natural way to talk about objects in a space. They use the article system extensively, making them perfect consolidation material. These phrases also recur constantly in Unit 11 (Places).
+- **Why c'è/ci sono here:** "C'è un libro sul tavolo" / "Ci sono tre sedie" are the most natural way to talk about objects in a space. They use the article system extensively, making them perfect consolidation material. These phrases also recur constantly in Unit 13 (Finding Your Way).
 - **Exercise focus:** More production (type_answer, arrange_words, fill_blank). Sentences get slightly longer: "Ci sono due libri sul tavolo."
 
 ---
@@ -210,7 +250,7 @@ Consolidation using real-world contexts. The grammar is done — this lesson app
 
 **Prerequisites:** None technically, but placed here because numbers are needed for avere + age in Unit 5.
 
-**Why this is its own unit (not bundled with avere):** Numbers and avere have completely different learning modalities. Numbers are rote vocabulary memorization (11 unique words for 0-10, then patterns). Avere is verb conjugation + idiomatic expressions. Bundling them (as the old Unit 3 did) creates a unit with no thematic unity. Separating them lets each topic get the focused practice it needs.
+**Why this is its own unit (not bundled with avere):** Numbers and avere have completely different learning modalities. Numbers are rote vocabulary memorization (11 unique words for 0-10, then patterns). Avere is verb conjugation + idiomatic expressions. Bundling them creates a unit with no thematic unity. Separating them lets each topic get the focused practice it needs.
 
 **Why only 2 lessons:** Numbers don't need grammar explanation. You memorize 0-20, learn the pattern for 21-100, and practice. Two focused lessons are more effective than dragging it across 3+ lessons where attention wanders.
 
@@ -230,12 +270,6 @@ After 20, Italian numbers follow predictable patterns. Teach the pattern, drill 
 - **Grammar pattern:** [tens] + [units], dropping the final vowel of the tens before uno/otto: ventuno, ventotto (not "ventiuno"). Tre takes an accent when appended: ventitré, trentatré.
 - **Practical contexts:** Prices ("Costa venti euro"), age ("Ho venticinque anni" — previewing Unit 5), addresses ("Via Roma, numero trentadue"), counting objects with già-known nouns ("Ci sono quaranta studenti").
 - **Why stop at 100:** Numbers beyond 100 (mille, milione) are A2. The 0-100 range covers virtually all A1 practical needs.
-
----
-
-# Section 2: Describing Your World
-
-**Can-do at section end:** Learner can talk about what they have and need, describe people and things (size, color, nationality), talk about their family using possessives, and describe everyday activities using regular verbs.
 
 ---
 
@@ -260,7 +294,7 @@ Introduces avere singular forms with concrete possessions. Keeping it to 3 forms
 - **Key concept:** Contrast with essere: "Sono Marco" (identity) vs "Ho un cane" (possession). These verbs will be confused constantly — start the contrast drills early.
 - **Practical sentences:** "Ho un cane." "Hai una macchina?" "Ha un fratello."
 
-### Lesson 2: We Have, They Have — Full Paradigm 
+### Lesson 2: We Have, They Have — Full Paradigm
 
 Completes the avere paradigm and drills the full 6-form conjugation through mixed exercises.
 
@@ -275,362 +309,159 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Vocabulary:** quanti anni hai, ho [X] anni, fame, sete, freddo, caldo, sonno, paura, bisogno (di), voglia (di), fretta, ragione
 - **Grammar:** Avere + noun (no article!) for states: "Ho fame" (not *"Ho la fame"*). Age: "Ho venticinque anni" — uses numbers from Unit 4.
 - **Key concept:** These are among the most frequent A1 expressions. The English interference is strong ("I am cold" → *"Sono freddo"* which actually means "I am emotionally cold/frigid"). Explicit contrastive analysis (Laufer & Girsai 2008) helps: show the English, show the Italian, explain why they're different.
-- **Why this is the longest lesson:** There are ~10 common avere idioms, each requiring dedicated practice because English interference makes them non-obvious. 15 exercises gives room to introduce, drill, and produce each one.
+- **Why this is the longest lesson:** There are ~10 common avere idioms, each requiring dedicated practice because English interference makes them non-obvious.
 
 ---
 
-## Unit 6: How Things Are — Adjectives & Descriptions
+# Section 2: People & Relationships (Units 6–8)
 
-**Goal:** Describe people and things using adjectives with correct gender/number agreement. Express nationality.
-
-**Grammar:** Adjective agreement (-o/-a/-i/-e), adjective position (after noun by default, some before), nationality adjectives.
-
-**Vocabulary:** ~25 words (physical descriptions, colors, qualities, nationalities)
-
-**Prerequisites:** Unit 3 (gender and articles — adjective agreement mirrors noun gender), Unit 2 (essere — "è grande," "sono belli")
-
-**Why nationalities are HERE, not in Unit 2:** Nationality words (italiano/italiana, americano/americana, inglese) are adjectives that follow the same agreement rules as grande/piccolo/bello. Teaching them before learners understand adjective agreement means teaching a rule in isolation that will later need to be re-taught as part of a general pattern. By placing nationalities after the agreement rules, learners see them as one more instance of a pattern they already know: "La casa è grande" → "La ragazza è italiana." Same rule, different words.
-
-### Lesson 1: Big, Small, Beautiful — Agreement Basics
-
-The core concept: adjectives change endings to match the noun's gender and number. Start with the regular -o/-a/-i/-e pattern.
-
-- **Vocabulary:** grande, piccolo, bello, brutto, nuovo, vecchio, alto, basso, lungo, corto
-- **Grammar:**
-  - 4-form adjectives (-o/-a/-i/-e): piccolo, piccola, piccoli, piccole
-  - 2-form adjectives (-e/-i): grande, grandi — same for both genders
-  - Position: most adjectives come AFTER the noun: "una casa grande," "un libro nuovo"
-- **Key concept:** The -o/-a ending mirrors what learners already know from nouns. "Il ragazzo alto" (masc noun + masc adj), "la ragazza alta" (fem noun + fem adj). It's the same system extended.
-- **Exercise focus:** Fill_blank with agreement: "La casa è ___" (grande/piccola). Multiple_choice: which adjective form matches this noun?
-
-### Lesson 2: Colors & Qualities
-
-Expands the adjective vocabulary to colors (high-frequency, visually concrete, easy to drill) and personality/appearance words. Introduces the exception of invariable adjectives.
-
-- **Vocabulary:** rosso, blu, verde, bianco, nero, giallo, arancione, marrone, simpatico, intelligente, interessante, stanco, contento
-- **Grammar:**
-  - Regular colors follow -o/-a/-i/-e: rosso/rossa/rossi/rosse
-  - Invariable colors (borrowed/compound): blu, rosa, viola — never change
-  - -e adjectives for personality: intelligente/intelligenti, interessante/interessanti
-- **Key concept:** Blu/rosa/viola being invariable is a useful exception to learn explicitly. -e adjectives (intelligente) reinforcing that -e = gender-neutral ending (same as -e nouns from Unit 3).
-- **Practical contexts:** "Il gatto nero," "La macchina rossa," "I ragazzi sono simpatici," "Le ragazze sono intelligenti."
-
-### Lesson 3: Where Are You From? — Nationalities & Countries
-
-NOW nationalities can be taught properly. Learners already understand that adjectives must agree in gender/number. Nationality is just another adjective following the same rules.
-
-- **Vocabulary:** italiano/a, americano/a, inglese, francese, tedesco/a, spagnolo/a, cinese, giapponese, russo/a, brasiliano/a, Italia, America, Inghilterra, Francia, Germania, Spagna
-- **Grammar:**
-  - -o/-a nationalities: italiano/italiana, americano/americana, spagnolo/spagnola, tedesco/tedesca
-  - -e nationalities (same both genders): inglese, francese, cinese, giapponese
-  - "Sono italiano" (no article with essere + nationality)
-  - "È una ragazza italiana" (article when nationality modifies another noun)
-- **Key concept:** "Di dove sei?" returns from Unit 2 but now with a richer answer set. Before: "Sono di Roma." Now also: "Sono italiano." Both are correct, natural Italian. The lesson shows how nationalities are adjectives that follow the exact same -o/-a/-e rules from Lessons 1-2.
-- **Why countries too:** Knowing "Italia" but not "italiano/a" (or vice versa) is incomplete. Countries provide context sentences: "Sono di Francia, sono francese." The country→nationality pairing reinforces both vocabulary sets.
+**Mode:** situational. **Can-do at section end:** Learner can describe people and things, talk about where people are from, and talk about their family — in conversation, not as isolated grammar.
 
 ---
 
-## Unit 7: My Family — Possessives
+## Unit 6: Describing People & Things
 
-**Goal:** Talk about your family members using possessive adjectives (my, your, his/her, our, their).
+- **Situation:** Describing a friend, a family member, or an object to someone who hasn't met/seen them.
+- **Can-do:** Describe physical appearance, personality, size, and colour. "Mia sorella è alta e simpatica." "Ho una macchina rossa."
+- **Grammar (focus-on-form lesson):** Adjective agreement (-o/-a/-i/-e), 2-form -e adjectives, invariable adjectives (blu, rosa, viola), adjective position (after the noun by default).
+- **Vocabulary:** ~40 — appearance (alto, basso, grande, piccolo…), personality (simpatico, intelligente, contento…), colours, common qualities (nuovo, vecchio, bello).
+- **Tutor scenario (voluntary):** Describe a person the tutor "can't see" — the tutor asks follow-up questions.
 
-**Grammar:** Possessive adjectives (mio/a/i/e, tuo, suo, nostro, vostro, loro). The special Italian rule: no article with singular family members.
+## Unit 7: Where We're From
 
-**Vocabulary:** ~22 words (family members, possessive forms)
+- **Situation:** Small talk with someone new — where you're from, what languages you speak.
+- **Can-do:** State and ask nationality and origin. "Sono italiano, e tu?" "Parli inglese?"
+- **Grammar (focus-on-form lesson):** Nationality adjectives as a *direct application* of Unit 6 agreement (italiano/a, inglese); countries; `di`/`in` with places; `parlare` + language.
+- **Vocabulary:** ~35 — countries, nationalities, languages, "di dove sei?".
+- **Tutor scenario (voluntary):** A first-meeting exchange — names, origins, languages.
 
-**Prerequisites:** Unit 3 (articles — possessives require articles in most cases), Unit 6 (adjective agreement — possessives follow the same -o/-a/-i/-e pattern)
+## Unit 8: My Family
 
-**Why family + possessives are together:** In most Italian textbooks (Nuovo Espresso, Prego, Chiaro!), family and possessives are taught as a single unit because they have a unique grammatical interaction: Italian possessives normally require an article ("il mio libro," "la tua casa"), but with singular family members the article is dropped ("mia madre," NOT *"la mia madre"*). This rule ONLY applies to family, making it the natural pairing.
-
-### Lesson 1: The Family
-
-Introduces family vocabulary first, *without* possessives. Learners need to know the nouns before layering grammar on top.
-
-- **Vocabulary:** madre/mamma, padre/papà, fratello, sorella, figlio, figlia, nonno, nonna, zio, zia, cugino/a, marito, moglie, famiglia
-- **Grammar:** Gender patterns in family pairs: padre (m) / madre (f), fratello (m) / sorella (f), nonno (m) / nonna (f). These follow the -o/-a pattern learners already know.
-- **Key concept:** Mamma/papà (informal) vs madre/padre (formal/written). Both are correct; register depends on context. Famiglia is feminine despite ending in -a (as expected).
-- **Exercise focus:** Vocabulary introduction — multiple_choice, type_answer, cloze. "La ___ di Marco si chiama Anna" (madre). Use essere: "Mia madre è italiana" (preview of possessives).
-
-### Lesson 2: My, Your, His/Her — Possessives (Singular)
-
-Introduces the three most-used possessive adjectives. The key insight: possessives in Italian are adjectives that agree with the *thing possessed*, not the possessor. "Il suo libro" (his/her book) — "suo" agrees with "libro" (masculine), regardless of whether the owner is male or female.
-
-- **Vocabulary:** mio/mia/miei/mie, tuo/tua/tuoi/tue, suo/sua/suoi/sue
-- **Grammar:**
-  - Possessives agree with the noun they modify: "il mio libro" (my book, masc), "la mia casa" (my house, fem), "i miei libri" (my books), "le mie case" (my houses)
-  - Possessives normally take the definite article: "il mio cane," "la tua borsa"
-  - THE FAMILY EXCEPTION: No article with singular, unmodified family members: "mio fratello" (not *"il mio fratello"*), "tua madre" (not *"la tua madre"*)
-  - BUT article with: plural family ("i miei fratelli"), modified family ("il mio fratello maggiore"), loro ("la loro madre")
-- **Key concept:** The family exception is the most-tested possessive rule in Italian exams (CILS, CELI). It's also the most-violated rule by learners. Dedicated drilling here prevents fossilized errors.
-- **Why just mio/tuo/suo:** These three cover ~90% of possessive usage in conversation. Nostro/vostro/loro are less frequent and add cognitive load. Better to master 3 forms thoroughly than know 6 shakily.
-
-### Lesson 3: Our, Their & Review — Full Possessives
-
-Completes the paradigm and consolidates with family contexts. Heavier on production.
-
-- **Vocabulary:** nostro/a/i/e, vostro/a/i/e, loro (invariable), bambino/a, figlio/a, nipote
-- **Grammar:**
-  - Nostro/vostro follow the -o/-a/-i/-e pattern like mio/tuo/suo
-  - Loro is invariable (never changes) and ALWAYS takes the article, even with family: "la loro madre" (not *"loro madre"*)
-  - Full paradigm review with mixed exercises
-- **Key concept:** "Loro" being invariable and always requiring the article makes it the exception to the exception. This is worth explicit highlighting.
-- **Exercise focus:** Production-heavy. Arrange_words: "I miei nonni sono italiani." Fill_blank: "___ sorella si chiama Anna" (Mia). Mixed essere/avere/possessive sentences for interleaving.
+- **Situation:** Telling someone about your family.
+- **Can-do:** Name and describe family members, say whose they are. "Mia madre si chiama Anna." "I miei fratelli sono grandi."
+- **Grammar (focus-on-form lesson):** Possessive adjectives (mio/tuo/suo/nostro/vostro/loro), and the family-no-article rule (`mia madre`, but `i miei fratelli`, `la loro madre`).
+- **Vocabulary:** ~30 — family members, possessives.
+- **Tutor scenario (voluntary):** Describe your family tree to the tutor.
 
 ---
 
-## Unit 8: What We Do — Regular Verbs
+# Section 3: Everyday Life (Units 9–12)
 
-**Goal:** Describe everyday actions using regular verbs in all three conjugation classes (-are, -ere, -ire).
-
-**Grammar:** Present tense conjugation of regular -are, -ere, and -ire verbs, including the -isc- pattern. Negation with "non." Basic question formation.
-
-**Vocabulary:** ~24 words (common regular verbs across all three classes)
-
-**Prerequisites:** Unit 2 (essere — verb conjugation concept), Unit 5 (avere — second conjugation pattern), all vocabulary from Units 1-7 (for meaningful sentence construction)
-
-**Why this unit exists:** After 7 units of "being" and "having," learners can finally talk about *doing*. Regular verbs are the engine of Italian communication. The three conjugation classes (-are, -ere, -ire) plus the -isc- variant cover the vast majority of Italian verbs. Once learners master the pattern "stem + ending," they can conjugate hundreds of new verbs on sight.
-
-**Why 4 lessons:** Three verb classes + review/negation/questions. Each class needs dedicated practice because the endings are different, and mixing them too early causes cross-contamination. The standard progression (Nocchi's *Grammatica Pratica*, Alma Edizioni) gives each class its own section.
-
-### Lesson 1: -are Verbs — The Largest Class
-
--are verbs are the most common conjugation class (~60% of Italian verbs). The endings are clean and regular. This is the template against which -ere and -ire will be compared.
-
-- **Vocabulary:** parlare, mangiare, lavorare, studiare, guardare, ascoltare, abitare, comprare
-- **Grammar:** Pattern: remove -are, add -o/-i/-a/-iamo/-ate/-ano. "Parlare" → parlo, parli, parla, parliamo, parlate, parlano.
-- **Key concept:** The endings tell you WHO is doing the action, which is why Italian can drop subject pronouns. "Parliamo italiano" = "We speak Italian" — "parliamo" alone tells you it's "noi."
-- **Exercise focus:** Fill_blank with conjugation: "Io ___ italiano" (parlo). Type_answer: "How do you say 'we eat' in Italian?" (mangiamo). Build from io/tu/lui forms first, then expand to full paradigm.
-
-### Lesson 2: -ere Verbs — Reading, Writing, Living
-
-Second class. Different endings but same principle. The contrast with -are helps learners see the pattern: it's always stem + person-specific ending.
-
-- **Vocabulary:** scrivere, leggere, prendere, vivere, vedere, credere
-- **Grammar:** Pattern: remove -ere, add -o/-i/-e/-iamo/-ete/-ono. "Scrivere" → scrivo, scrivi, scrive, scriviamo, scrivete, scrivono.
-- **Key contrast with -are:** 3rd singular: -a (parla) vs -e (scrive). 3rd plural: -ano (parlano) vs -ono (scrivono). 2nd plural: -ate (parlate) vs -ete (scrivete). 1st/2nd singular and 1st plural are identical across classes (-o, -i, -iamo).
-- **Exercise focus:** Interleaved -are and -ere exercises to drill the contrast. "Lui parla / lui scrive." Fill_blank: "Noi ___ un libro" (leggiamo).
-
-### Lesson 3: -ire Verbs & the -isc- Pattern
-
-Third class plus its major subpattern. -ire verbs come in two flavors: regular (dormire) and -isc- inserting (capire). Both need to be taught because there's no reliable rule for which -ire verbs take -isc- — you just have to learn it per verb.
-
-- **Vocabulary:** dormire, partire, aprire, sentire, capire, finire, preferire, pulire
-- **Grammar:**
-  - Regular -ire: remove -ire, add -o/-i/-e/-iamo/-ite/-ono. "Dormire" → dormo, dormi, dorme, dormiamo, dormite, dormono.
-  - -isc- pattern: capire → capisco, capisci, capisce, capiamo, capite, capiscono. The -isc- appears in io, tu, lui/lei, loro (the 4 "shoe" forms) but NOT in noi/voi.
-- **Key concept:** The noi/voi forms are always regular (capiamo, capite, NOT *"capisciamo"*). This is the "boot verb" pattern that recurs in Italian and Spanish — worth naming explicitly so learners recognize it in future irregular verbs.
-- **Exercise focus:** Type_answer and fill_blank mixing all three classes. "Io (dormire) ___ otto ore" (dormo). "Tu (capire) ___ l'italiano?" (capisci).
-
-### Lesson 4: Questions, Negation & Review
-
-Two essential communication tools (asking and denying) plus consolidation of all three verb classes.
-
-- **Vocabulary:** non, perché, cosa, quando, come, dove, anche, ma, o, sempre, mai, spesso, qualche volta
-- **Grammar:**
-  - Negation: "non" before the verb. "Non parlo tedesco." "Non capisco." Simple, consistent rule.
-  - Questions: In spoken Italian, questions are formed by intonation alone (voice goes up at end). "Parli italiano?" vs "Parli italiano." In writing, just add "?".
-  - Question words: dove (where), cosa/che cosa (what), quando (when), come (how), perché (why/because), chi (who — already from Unit 2)
-- **Why combine these:** Negation and questions are not verb classes — they're cross-cutting tools that apply to ALL verbs. Teaching them after all three classes means learners practice them with -are, -ere, AND -ire verbs simultaneously, which reinforces all three classes while learning new material. This is optimal interleaving.
-- **Exercise focus:** Heavy production. Arrange_words: "Non parlo tedesco." Type_answer: "Ask 'Where do you live?' in Italian" (Dove abiti?). Fill_blank: "Non ___ il francese" (parlo/capisco/etc.).
+**Mode:** situational. **Can-do at section end:** Learner can describe their daily routine and free time, keep a simple conversation going, and talk about going places.
 
 ---
 
-# Section 3: Daily Life
+## Unit 9: A Day in My Life
 
-**Can-do at section end:** Learner can use common irregular verbs (fare, andare, venire), describe their daily routine with times, talk about places in a city with prepositions, and order food at a restaurant using modal verbs.
+- **Situation:** Telling someone what your typical day looks like.
+- **Can-do:** Describe a daily routine with times. "Mi sveglio alle sette, faccio colazione, vado a lavorare."
+- **Grammar (focus-on-form lesson):** Regular **-are verbs**, **reflexive verbs** (mi/ti/si…), **telling time** (Che ore sono? / alle…). This is the densest situational unit — likely 3–4 lessons.
+- **Vocabulary:** ~45 — routine verbs, reflexive verbs, time expressions, parts of the day.
+- **Tutor scenario (voluntary):** Walk the tutor through your morning.
 
----
+## Unit 10: Work, Study & Free Time
 
-## Unit 9: Essential Irregular Verbs
+- **Situation:** Talking about what you do — job, studies, hobbies.
+- **Can-do:** Describe activities and interests. "Studio italiano." "Leggo molto." "Gioco a calcio."
+- **Grammar (focus-on-form lesson):** Regular **-ere** and **-ire verbs**, including the **-isc-** pattern (capire, finire, preferire).
+- **Vocabulary:** ~40 — jobs, study, hobbies, sports.
+- **Tutor scenario (voluntary):** Talk about your work/studies and what you do for fun.
 
-**Goal:** Use the most common irregular verbs in everyday conversation — fare (to do/make), andare (to go), venire (to come), stare (to stay/be), dare (to give), dire (to say), uscire (to go out).
+## Unit 11: Keeping a Conversation Going
 
-**Grammar:** Irregular present tense conjugation for 7 high-frequency verbs.
+- **Situation:** Actively participating in a chat — asking back, saying how often, disagreeing.
+- **Can-do:** Ask questions, answer in the negative, say how frequently you do things. "Quando ti svegli?" "Non lavoro il sabato." "Vado spesso al cinema."
+- **Grammar (focus-on-form lesson):** Question words (dove, cosa, quando, come, perché), negation with `non`, frequency adverbs (sempre, spesso, qualche volta, mai).
+- **Vocabulary:** ~30 — question words, connectors (ma, o, perché, anche), frequency adverbs.
+- **Tutor scenario (voluntary):** A back-and-forth Q&A where the learner must ask the tutor questions too.
 
-**Vocabulary:** ~18 words (the 7 verbs + key collocations)
+## Unit 12: Out and About
 
-**Prerequisites:** Unit 8 (regular verb conjugation — learners need the regular patterns as a reference frame to recognize what makes these verbs "irregular")
-
-**Why these 7 verbs need their own unit:** Fare, andare, venire, dare, stare, dire, and uscire are among the 30 most frequent Italian words. Together with essere and avere (already taught), they account for a massive proportion of everyday verb usage. They're irregular in ways that can't be predicted from the regular patterns, so they must be memorized individually. Cramming them into the regular verbs unit (as the old Unit 7 attempted) dilutes both topics.
-
-### Lesson 1: Fare & Andare — Doing & Going
-
-The two most important irregulars after essere/avere. "Cosa fai?" (What are you doing?) and "Dove vai?" (Where are you going?) are probably the two most common questions in informal Italian.
-
-- **Vocabulary:** fare (faccio, fai, fa, facciamo, fate, fanno), andare (vado, vai, va, andiamo, andate, vanno), colazione, spesa, sport, scuola, lavoro
-- **Grammar:**
-  - Fare: completely irregular stem (faccio, not *"faro"*). Used in dozens of idioms: fare colazione (eat breakfast), fare la spesa (go grocery shopping), fare sport (play sports).
-  - Andare: irregular in singular + loro (vado, vai, va, vanno), regular in noi/voi (andiamo, andate). Note: andare + a + infinitive = going to do something: "Vado a mangiare" (I'm going to eat).
-- **Key concept:** Both are "boot verbs" — irregular in io/tu/lui/loro but regular-looking in noi/voi. Same pattern as -isc- verbs from Unit 8 Lesson 3. Naming this pattern helps learners predict and remember.
-- **Exercise focus:** Cloze: "Cosa ___ stasera?" (fai). Arrange_words: "Vado a fare la spesa." Fill_blank: "(Io) ___ al supermercato" (vado).
-
-### Lesson 2: Venire, Dire, Uscire — Coming, Saying, Going Out
-
-Three more essential irregulars grouped by their "g-insertion" pattern: vengo, dico, esco all insert a g or c in the io and loro forms.
-
-- **Vocabulary:** venire (vengo, vieni, viene, veniamo, venite, vengono), dire (dico, dici, dice, diciamo, dite, dicono), uscire (esco, esci, esce, usciamo, uscite, escono), stasera, domani, insieme, con
-- **Grammar:**
-  - Venire: vengo/vengono (g-insertion in io/loro). "Vengo da Roma" (I come from Rome), "Vieni con me?" (Are you coming with me?).
-  - Dire: dico/dicono. "Cosa dici?" (What are you saying?), "Come si dice...?" (How do you say...? — callback to Unit 1!).
-  - Uscire: esco/escono. "Esco stasera" (I'm going out tonight). The root vowel also changes (u→e in singular).
-- **Why grouped together:** All three follow the same io/loro pattern of stem change. Teaching them together creates a mini-category ("g-insertion irregulars") that makes them easier to remember as a group rather than as 3 unrelated exceptions.
-
-### Lesson 3: Stare, Dare & Mixed Practice
-
-Completes the essential irregular set and reviews all 7 + essere + avere. Stare is revisited from Unit 1 ("Come stai?") — now with its full conjugation and meaning.
-
-- **Vocabulary:** stare (sto, stai, sta, stiamo, state, stanno), dare (do, dai, dà, diamo, date, danno), bene, male, attento/a, un esame
-- **Grammar:**
-  - Stare: sto/stai/sta/stiamo/state/stanno. Three uses: (1) health/state: "Come stai? Sto bene." (2) location (southern Italian): "Sto a casa." (3) progressive: "Sto mangiando" (I'm eating — A2 grammar, just preview).
-  - Dare: do/dai/dà/diamo/date/danno. "Mi dai il libro?" (Can you give me the book?). "Dare un esame" = to take an exam (false friend with English "give").
-- **Key concept:** This lesson is heavy on interleaved review. Exercises mix all 9 irregular verbs (essere, avere, fare, andare, venire, dire, uscire, stare, dare) to build fluent selection. "Io ___ a casa" (sto/vado — both work, different meanings). This kind of contrastive drilling is where real conjugation fluency develops.
-- **Exercise focus:** 60% review of all irregulars, 40% new stare/dare content. Sentence-level production: "Do il libro a Marco." "Stiamo bene, grazie."
+- **Situation:** Talking about going out and doing things.
+- **Can-do:** Say where you're going and what you're doing. "Vado al supermercato." "Cosa fai stasera?" "Esco con gli amici."
+- **Grammar (focus-on-form lesson):** Key irregular verbs — fare, andare, venire, uscire, stare, dare, dire — and `andare a` + infinitive.
+- **Vocabulary:** ~35 — the 7 verbs + collocations (fare la spesa, fare colazione…), time-out words (stasera, domani, insieme).
+- **Tutor scenario (voluntary):** Plan an evening out loud with the tutor.
 
 ---
 
-## Unit 10: My Day — Reflexive Verbs & Time
+# Section 4: Out in the World (Units 13–15)
 
-**Goal:** Describe your daily routine ("I wake up at 7, I get dressed, I leave at 8...") and tell time.
-
-**Grammar:** Reflexive pronouns (mi, ti, si, ci, vi, si), reflexive verb conjugation, telling time (Che ore sono?).
-
-**Vocabulary:** ~22 words (reflexive verbs, time expressions, routine vocabulary)
-
-**Prerequisites:** Unit 8 (regular verbs — reflexive verbs conjugate normally, they just add a pronoun), Unit 4 (numbers — for telling time)
-
-**Why reflexives + time are together:** They're inseparable in practice. "Mi sveglio alle sette" (I wake up at seven), "Mi vesto e esco alle otto" (I get dressed and leave at eight). Daily routines are described with reflexive verbs + time references. This is how every Italian textbook (Nuovo Espresso Lezione 8, Prego) teaches them — together, because the communicative context demands both simultaneously.
-
-### Lesson 1: Getting Ready — Reflexive Verbs 
-
-Introduces the reflexive concept: a verb whose action reflects back on the subject. "Mi lavo" = "I wash myself." The pronoun (mi, ti, si, ci, vi, si) goes before the conjugated verb.
-
-- **Vocabulary:** svegliarsi, alzarsi, lavarsi, vestirsi, pettinarsi, prepararsi
-- **Grammar:**
-  - Reflexive pronouns: mi (myself), ti (yourself), si (himself/herself/itself/themselves), ci (ourselves), vi (yourselves), si (themselves — same as 3rd singular)
-  - Conjugation: regular verb + pronoun before it. "Svegliarsi" → mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano
-  - Infinitive form: pronoun attaches to end after dropping -e: svegliarsi, lavarsi (this is how you see them in dictionaries)
-- **Key concept:** "Mi chiamo" from Unit 2 was a reflexive verb all along! Now learners understand WHY it's "mi chiamo" (I call myself) rather than *"chiamo"*. This callback reinforces both old and new material.
-- **Exercise focus:** Pattern recognition first (which pronoun with which subject?), then fill_blank conjugation, then production sentences.
-
-### Lesson 2: What Time Is It? — Telling Time
-
-Time-telling in Italian has some quirks: it uses "essere" (Sono le tre = "They are the three" = It's 3:00), and 1:00/noon/midnight are singular (È l'una, È mezzogiorno).
-
-- **Vocabulary:** che ore sono, ora, sono le [numero], è l'una, mezzogiorno, mezzanotte, e mezza, e un quarto, meno un quarto, mattina, pomeriggio, sera
-- **Grammar:**
-  - "Sono le + number" for most times: Sono le tre (3:00), Sono le dieci (10:00)
-  - "È l'una" (1:00) — singular because it's "one hour"
-  - "È mezzogiorno" (noon), "È mezzanotte" (midnight) — also singular
-  - Half/quarter: "Sono le tre e mezza" (3:30), "Sono le tre e un quarto" (3:15), "Sono le tre meno un quarto" (2:45)
-  - "Alle + time" for "at": "Alle tre" (at 3:00), "All'una" (at 1:00)
-- **Why its own lesson:** Time-telling combines numbers (Unit 4), essere (Unit 2), and articles (Unit 3) in a specific construction that needs dedicated practice. It's not reflexive grammar, but it's the essential companion to routine vocabulary.
-
-### Lesson 3: A Typical Day
-
-Puts it all together: a full daily routine described with reflexive verbs, time, and previously-learned verbs. The culmination of everything learned so far in a practical, personal narrative.
-
-- **Vocabulary:** addormentarsi, riposarsi, divertirsi, poi, dopo, prima (di), alle, ogni giorno, la mattina, la sera
-- **Grammar review:** Reflexive verbs + time + regular/irregular verbs in sequence: "Mi sveglio alle sette. Mi lavo e mi vesto. Faccio colazione alle sette e mezza. Vado a scuola alle otto. Studio fino alle tre..."
-- **Key concept:** Connected narrative. This is the first time learners produce multi-sentence text describing a sequence of events. It previews the kind of narrative production that becomes central in A2 (past tense stories). Time connectors (poi, dopo, prima, alle) provide the scaffolding for sequencing.
-- **Exercise focus:** Heavily production-oriented. Arrange_words with longer sentences. Type_answer: "Say 'I wake up at six-thirty'" → "Mi sveglio alle sei e mezza." Cloze with full routine paragraphs (fill in one word per paragraph).
+**Mode:** situational. **Can-do at section end:** Learner can navigate a town — ask for directions, use transport, and arrange to meet someone.
 
 ---
 
-## Unit 11: Getting Around — Prepositions & Places
+## Unit 13: Finding Your Way
 
-**Goal:** Say where things are, where you're going, and give simple directions. Use articulated prepositions (preposition + article fusions).
+- **Situation:** Lost in an Italian town, asking for and giving directions.
+- **Can-do:** Ask where things are and follow simple directions. "Dov'è la stazione?" "È a destra, vicino alla banca."
+- **Grammar (focus-on-form lesson):** Simple prepositions (di, a, da, in, con, su, per, tra/fra), articulated prepositions (al, allo, della, nel…), c'è/ci sono recap.
+- **Vocabulary:** ~40 — places in a city, direction words (a destra, dritto, vicino a, davanti a).
+- **Tutor scenario (voluntary):** Ask the tutor for directions to a place.
 
-**Grammar:** Simple prepositions (di, a, da, in, con, su, per, tra/fra), articulated prepositions (al, allo, alla, all', nel, nel, dal, sul, etc.).
+## Unit 14: Getting Around
 
-**Vocabulary:** ~25 words (prepositions, places in a city, basic direction words)
+- **Situation:** Using public transport, buying a ticket.
+- **Can-do:** Talk about how you travel and buy a ticket. "Vado in treno." "Un biglietto per Roma, per favore."
+- **Grammar (focus-on-form lesson):** Prepositions with transport (in macchina, in treno, a piedi), numbers/time review in a travel context.
+- **Vocabulary:** ~30 — transport, travel, ticket/station vocabulary.
+- **Tutor scenario (voluntary):** Buy a train ticket from the tutor playing a clerk.
 
-**Prerequisites:** Unit 3 (articles — articulated prepositions fuse with definite articles), Unit 9 (andare — "vado al supermercato")
+## Unit 15: Making Plans
 
-**Why this unit exists:** Prepositions are the glue words of Italian. You can't say where you live (abito *a* Roma), where you're going (vado *al* cinema), where you come from (vengo *da* Milano), or what something is near (vicino *alla* stazione) without them. Articulated prepositions (a+il→al, di+il→del, in+il→nel) are a uniquely Italian feature that doesn't exist in English or Spanish. They need focused, dedicated practice.
-
-### Lesson 1: Simple Prepositions
-
-Introduces the 8 simple prepositions with their core meanings. Each preposition has multiple uses — teach the most common/literal meaning first, note alternatives without overwhelming.
-
-- **Vocabulary:** di (of/from), a (to/at), da (from/at someone's), in (in/into), con (with), su (on), per (for/through), tra/fra (between/among/in [time])
-- **Grammar:**
-  - di: possession (il libro di Marco), origin (sono di Roma), material (un tavolo di legno)
-  - a: destination (vado a Roma), location (sono a casa), time (a mezzogiorno)
-  - da: origin/source (vengo da Roma), at someone's place (vado da Marco), duration (da due anni)
-  - in: location (in Italia, in centro, in cucina), transport (in macchina, in treno)
-  - con, su, per, tra/fra: more straightforward, fewer surprises
-- **Key concept:** "A" vs "in" for locations is the trickiest distinction. General rule: a + cities (a Roma), in + countries/regions (in Italia, in Toscana), in + unmodified rooms/areas (in cucina, in centro). These overlap and exceptions exist, but the patterns cover most A1 usage.
-- **Exercise focus:** Fill_blank: "Vado ___ Roma" (a). "Abito ___ Italia" (in). Multiple_choice for recognition of meaning.
-
-### Lesson 2: Articulated Prepositions — Fusion Forms
-
-When di, a, da, in, su meet a definite article, they fuse into a single word. This is the most mechanical grammar topic in A1 — it's a table to memorize — but it's used constantly.
-
-- **Vocabulary:** al/allo/alla/all'/ai/agli/alle, del/dello/della/dell'/dei/degli/delle, nel, dal, sul (most common fusions)
-- **Grammar:**
-  - a + il = al, a + lo = allo, a + la = alla, a + l' = all', a + i = ai, a + gli = agli, a + le = alle
-  - Same pattern for di→del, da→dal, in→nel, su→sul
-  - Con and per do NOT fuse (col exists but is rare/literary)
-  - tra/fra do NOT fuse
-- **Key concept:** The fusions follow the article system from Unit 3 exactly. If you know "il/lo/la/l'/i/gli/le," you know all the fusion variants. "al" = a+il, "allo" = a+lo, etc. Frame it as article knowledge + preposition knowledge = done.
-- **Exercise focus:** Heavy drilling. Fill_blank: "Vado ___ cinema" (al). "Il libro è ___ tavolo" (sul). Transform exercises: "a + il ristorante" → "al ristorante." These are mechanical but necessary.
-
-### Lesson 3: Around the City
-
-Practical application: places in a city, asking/giving directions, saying where things are. Uses c'è/ci sono (from Unit 3) + prepositions + andare (Unit 9).
-
-- **Vocabulary:** banca, farmacia, supermercato, stazione, ospedale, chiesa, cinema, museo, ufficio postale, piazza, via, a destra, a sinistra, (sempre) dritto, vicino a, lontano da, davanti a, dietro
-- **Grammar review:** "Vado al supermercato." "La farmacia è vicino alla stazione." "C'è un ristorante in Piazza Dante." "Dov'è la banca? — È a destra, dopo il cinema."
-- **Key concept:** This lesson is communicatively dense but grammatically light — all the grammar tools are in place, now it's about using them fluently with real-world vocabulary. Directions (a destra, a sinistra, dritto) are formulaic chunks.
-- **Exercise focus:** Arrange_words: "La banca è vicino al supermercato." Type_answer: "Say 'I'm going to the pharmacy'" → "Vado alla farmacia." Cloze with mini-dialogues about directions.
+- **Situation:** Inviting someone out and arranging when/where to meet.
+- **Can-do:** Express wants, ability, obligation; arrange a meeting. "Vuoi venire al cinema?" "Non posso, devo lavorare." "Ci vediamo domani."
+- **Grammar (focus-on-form lesson):** Modal verbs (volere, potere, dovere) + infinitive; days of the week.
+- **Vocabulary:** ~30 — modal verbs, days of the week, planning phrases.
+- **Tutor scenario (voluntary):** Negotiate a plan to meet up with the tutor.
 
 ---
 
-## Unit 12: At the Table — Food & Ordering
+# Section 5: Daily Needs (Units 16–20)
 
-**Goal:** Order food and drinks at a restaurant or bar. Use modal verbs (volere, potere, dovere) to express wants, abilities, and obligations.
+**Mode:** situational. **Can-do at section end:** Learner can handle the core daily-needs scenarios of a trip to Italy — eating out, shopping, expressing preferences, small talk, and basic health.
 
-**Grammar:** Partitive articles (del, della, dei... = "some"), "vorrei" (polite conditional — taught as a chunk), modal verbs (volere, potere, dovere + infinitive).
+---
 
-**Vocabulary:** ~26 words (food, drinks, restaurant phrases, modal verbs)
+## Unit 16: At the Café & Restaurant
 
-**Prerequisites:** Unit 11 (articulated prepositions — partitive articles use the same di+article fusions), Unit 9 (irregular verbs — modals are irregular and follow similar patterns)
+- **Situation:** Ordering food and drink at a bar or restaurant.
+- **Can-do:** Order politely, ask for the bill. "Vorrei un caffè." "Per me la pasta." "Il conto, per favore."
+- **Grammar (focus-on-form lesson):** `vorrei` as a polite chunk (conditional grammar deferred to A2), partitive articles (del, della, dei… = "some").
+- **Vocabulary:** ~45 — food, drink, restaurant/bar vocabulary, meal names.
+- **Tutor scenario (voluntary):** Order a full meal from the tutor playing a waiter.
 
-**Why this is the final A1 unit:** Ordering food is the capstone A1 communicative task. It combines virtually everything: greetings ("Buongiorno"), polite phrases ("per favore, grazie"), articles ("un caffè, una pizza"), adjectives ("una pizza grande"), prepositions ("al ristorante"), and verbs ("vorrei, posso avere..."). Placing it last means learners have all the tools they need to handle this real-world scenario confidently. It's also highly motivating — ordering food is often the first thing learners want to do in Italy.
+## Unit 17: Shopping
 
-### Lesson 1: Food & Drink Vocabulary
+- **Situation:** Buying things in a shop — clothes, groceries — and asking prices.
+- **Can-do:** Ask for items and prices. "Quanto costa questo?" "Vorrei quella maglia rossa."
+- **Grammar (focus-on-form lesson):** Demonstratives questo/quello, `quanto costa/costano`, recap of numbers (prices) and colours.
+- **Vocabulary:** ~40 — shops, clothing, money, sizes.
+- **Tutor scenario (voluntary):** Buy an item of clothing, haggle over size/colour.
 
-Pure vocabulary introduction. Food and drink words are concrete, high-frequency, and culturally rich. No new grammar — just article+noun practice with new words.
+## Unit 18: Likes & Preferences
 
-- **Vocabulary:** pane, pasta, carne, pesce, verdura, frutta, formaggio, riso, uovo/uova, acqua, caffè, tè, vino, birra, latte, succo (d'arancia)
-- **Key concept:** Some food words have irregular plurals or are mass nouns: la frutta (fruit — singular collective), le uova (eggs — feminine plural from neuter Latin, despite uovo being masculine singular). These are learned as vocabulary exceptions, not grammar rules.
-- **Exercise focus:** Multiple_choice and type_answer for recognition/recall. Cloze in context: "A colazione mangio ___ e bevo ___." Uses previously-learned meal words (colazione from Unit 9 fare colazione, pranzo, cena as new vocab).
+- **Situation:** Talking about what you like, love, and prefer.
+- **Can-do:** Express likes and preferences. "Mi piace la pizza." "Mi piacciono i film italiani." "Preferisco il tè."
+- **Grammar (focus-on-form lesson):** `piacere` (mi piace / mi piacciono — the "it pleases me" construction), `preferire`.
+- **Vocabulary:** ~30 — food/activities/things to like, preference verbs.
+- **Tutor scenario (voluntary):** Compare tastes with the tutor.
 
-### Lesson 2: Ordering — Vorrei & Per Me
+## Unit 19: Weather & Small Talk
 
-The core restaurant interaction. "Vorrei" (I would like) is taught as a polite formula, not as conditional tense grammar (that's A2, Unit 20). This is how Nuovo Espresso and Prego both handle it — introduce the chunk for communicative utility, explain the grammar later.
+- **Situation:** Making small talk about the weather, seasons, and dates.
+- **Can-do:** Describe the weather, say the date. "Fa caldo oggi." "C'è il sole." "Il mio compleanno è in agosto."
+- **Grammar (focus-on-form lesson):** Weather expressions (`fa` caldo/freddo, `c'è` il sole/vento, `piove`), months, seasons, dates.
+- **Vocabulary:** ~35 — weather, seasons, months, calendar.
+- **Tutor scenario (voluntary):** Chat about the weather and your favourite season.
 
-- **Vocabulary:** vorrei, per me, il conto (per favore), il menu, un tavolo per due/tre/quattro, cameriere/a, ordinare, prendere, colazione, pranzo, cena, primo, secondo, contorno, dolce
-- **Grammar:**
-  - "Vorrei + noun": Vorrei un caffè. Vorrei la pasta al pomodoro.
-  - "Vorrei + infinitive": Vorrei ordinare. Vorrei pagare.
-  - "Per me + noun": Per me una pizza. Per me il pesce.
-  - Partitive articles (del, della, dei, degli, delle = "some/any"): "Vorrei del pane." "Ci sono delle verdure?"
-- **Key concept:** Partitive articles use the SAME di+article fusions from Unit 11 Lesson 2. "Del" = di+il = "some (masculine)." This isn't new grammar — it's a new USE of a known form. Pointing this out reduces perceived difficulty.
-- **Exercise focus:** Dialogue completion (fill in orders), arrange_words for full ordering sentences, role-play cloze exercises: "Cameriere: Cosa prende? — Cliente: ___ una pizza margherita" (Vorrei / Per me).
+## Unit 20: Feeling Good, Feeling Bad — A1 Capstone
 
-### Lesson 3: Can, Must, Want — Modal Verbs
-
-The three modal verbs (volere, potere, dovere) are A1 essentials. They follow the same pattern: modal (conjugated) + infinitive (unconjugated). "Posso parlare?" "Devo andare." "Voglio mangiare." This structure is enormously productive — with 3 modals and all the verbs already learned, learners can express hundreds of new ideas.
-
-- **Vocabulary:** volere (voglio, vuoi, vuole, vogliamo, volete, vogliono), potere (posso, puoi, può, possiamo, potete, possono), dovere (devo, devi, deve, dobbiamo, dovete, devono)
-- **Grammar:**
-  - Modal + infinitive: "Posso avere un caffè?" "Devo partire alle otto." "Voglio imparare l'italiano."
-  - All three are irregular (stem changes in singular + loro — the boot pattern again)
-  - Negation: "Non posso venire." "Non devo lavorare oggi."
-  - Polite requests with potere: "Può ripetere?" (callback to Unit 1!)
-- **Key concept:** The modal + infinitive construction is one of the most productive patterns in any language. Once internalized, learners can combine 3 modals × dozens of known verbs to express ability, obligation, and desire across every topic. This is a genuine fluency multiplier.
-- **Exercise focus:** Balanced mix. Multiple_choice: "Which modal fits: '___ andare al supermercato' (I have to go)?" (Devo). Fill_blank: "Non ___ venire stasera" (posso). Arrange_words: "Voglio imparare l'italiano." Type_answer: "Say 'Can you repeat?' formally" → "Può ripetere?"
+- **Situation:** Saying how you feel, describing a problem at the pharmacy.
+- **Can-do:** Describe physical state and symptoms. "Sto male." "Ho mal di testa." "Mi fa male la gola."
+- **Grammar (focus-on-form lesson):** `stare` for health (recap from Unit 1, now full), avere idioms recap (`ho mal di…`, `ho fame/freddo`), `fare male`.
+- **Vocabulary:** ~35 — the body, ailments, pharmacy vocabulary.
+- **Tutor scenario (voluntary):** The A1 final — a free conversation with the tutor covering self-introduction, routine, plans, and a problem to solve.
 
 ---
 
@@ -638,47 +469,77 @@ The three modal verbs (volere, potere, dovere) are A1 essentials. They follow th
 
 ## Vocabulary Distribution
 
-| Unit | Domain | New Words | Cumulative |
-|------|--------|-----------|------------|
+Counts are **headwords/lemmas** — inflected forms (verb conjugations, plurals, adjective agreement) are *not* counted as separate vocabulary.
+
+| Unit | Domain | New Headwords | Cumulative |
+|------|--------|--------------|------------|
 | 1 | Greetings & survival | ~25 | ~25 |
 | 2 | Essere & introductions | ~20 | ~45 |
 | 3 | Nouns, gender, articles | ~28 | ~73 |
 | 4 | Numbers 0-100 | ~22 | ~95 |
 | 5 | Avere & idioms | ~20 | ~115 |
-| 6 | Adjectives & nationalities | ~25 | ~140 |
-| 7 | Family & possessives | ~22 | ~162 |
-| 8 | Regular verbs | ~24 | ~186 |
-| 9 | Irregular verbs | ~18 | ~204 |
-| 10 | Reflexives & time | ~22 | ~226 |
-| 11 | Prepositions & places | ~25 | ~251 |
-| 12 | Food & ordering | ~26 | ~277 |
+| 6 | Describing people & things | ~40 | ~155 |
+| 7 | Where we're from | ~35 | ~190 |
+| 8 | My family | ~30 | ~220 |
+| 9 | A day in my life | ~45 | ~265 |
+| 10 | Work, study & free time | ~40 | ~305 |
+| 11 | Keeping a conversation going | ~30 | ~335 |
+| 12 | Out and about | ~35 | ~370 |
+| 13 | Finding your way | ~40 | ~410 |
+| 14 | Getting around | ~30 | ~440 |
+| 15 | Making plans | ~30 | ~470 |
+| 16 | At the café & restaurant | ~45 | ~515 |
+| 17 | Shopping | ~40 | ~555 |
+| 18 | Likes & preferences | ~30 | ~585 |
+| 19 | Weather & small talk | ~35 | ~620 |
+| 20 | Feeling good, feeling bad | ~35 | ~655 |
 
-**~277 headwords.** With inflected forms (verb conjugations, adjective agreement, plural nouns), this approaches the ~500 word family target for A1. The SRS system tracks each inflected form as a separate review item where appropriate.
+**~655 headwords** — genuinely within the 500–1000 word target for A1, counted honestly. SRS may still track inflected forms as separate review *items*, but they do not count toward vocabulary breadth.
 
-## What Changed vs. Current Curriculum
+## A1 Grammar Coverage Map
 
-| Issue | Old | New |
-|-------|-----|-----|
-| Nationalities before adjective agreement | Unit 2 Lesson 2 uses "italiano/italiana" | Nationalities in Unit 6, after adjective agreement is taught |
-| Numbers + avere bundled | Unit 3 = numbers + avere + articles (unrelated topics) | Numbers = Unit 4, Avere = Unit 5, Articles = Unit 3 |
-| No unit cohesion | Some units cover 3+ unrelated grammar points | Each unit = one grammar concept + related vocabulary |
-| Rigid sizing | 5-9 lessons per unit, fixed | 2-4 lessons per unit, based on content needs |
-| Essere split oddly | 8 lessons (pronouns, sing, plur, nationalities, countries, informal intro, formal intro, review) | 4 lessons (io/tu, lui/lei, full paradigm, practice) |
-| Irregular verbs crammed | Mixed into regular verbs unit | Separate Unit 9 dedicated to irregulars |
-| Missing key topic | No dedicated adjective unit; agreement taught ad-hoc | Unit 6 teaches agreement systematically |
-| Ordering of sections | 3 sections with forced symmetry | 3 sections with natural grouping by theme |
+Every A1 grammar topic, and the unit that owns it:
 
-## A1 Checkpoint (End of Section 3)
+| Grammar topic | Unit |
+|---|---|
+| Greetings, formulaic chunks | 1 |
+| Subject pronouns, *essere* | 2 |
+| Gender, articles, plurals, c'è/ci sono | 3 |
+| Numbers 0–100 | 4 |
+| *Avere* + idioms | 5 |
+| Adjective agreement, colours | 6 |
+| Nationality adjectives, di/in + places | 7 |
+| Possessive adjectives, family rule | 8 |
+| Regular -are verbs, reflexives, telling time | 9 |
+| Regular -ere/-ire verbs, -isc- pattern | 10 |
+| Questions, negation, frequency adverbs | 11 |
+| Irregular verbs (fare, andare, venire…) | 12 |
+| Simple & articulated prepositions | 13 |
+| Transport prepositions | 14 |
+| Modal verbs, days of the week | 15 |
+| Partitive articles, *vorrei* | 16 |
+| Demonstratives questo/quello | 17 |
+| *piacere*, *preferire* | 18 |
+| Weather expressions, calendar | 19 |
+| *stare* for health, *fare male* | 20 |
+
+## Open Design Questions
+
+- **Lesson-level detail for Units 6–20** — currently unit-level outlines only; each needs a full lesson breakdown like Units 1–5.
+- **SRS lemma model** — decide note=lemma / card=form before the AI tutor's "known vocabulary" context payload is built (see The AI Conversation Tutor, above).
+- **AI tutor implementation** — API choice (OpenAI Realtime likely), backend ephemeral-token endpoint, UI entry point. Deferred.
+- **Curriculum rebalancing above A1** — A2/B1/B2 unit counts in `curriculum.ts` currently *decrease* with level, which is inverted; each CEFR level needs *more* units than the one below it. Out of scope for this doc but tracked.
+
+## A1 Checkpoint (End of Section 5)
 
 At the end of A1, learners should be able to pass a checkpoint that tests:
 - Introduce yourself and others (name, origin, nationality, profession, age)
-- Describe people and things (appearance, personality, colors, size)
+- Describe people and things (appearance, personality, colours, size)
 - Talk about family using possessives
-- Describe daily routine with times
-- Ask for and give directions in a city
-- Order food and drinks at a restaurant
-- Use essere, avere, regular verbs, key irregulars, reflexives, and modals
-- Form questions and negative sentences
+- Describe daily routine with times, work, and free time
+- Keep a simple conversation going (questions, frequency, negation)
+- Ask for and give directions, use transport, make plans
+- Order food, shop, express preferences, make small talk, describe how they feel
 
 This aligns with CEFR A1: "Can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type. Can introduce him/herself and others and can ask and answer questions about personal details. Can interact in a simple way provided the other person talks slowly and clearly and is prepared to help."
 
@@ -689,5 +550,5 @@ The grammar progression is informed by:
 - **Grammatica Pratica della Lingua Italiana** (Susanna Nocchi, Alma Edizioni) — exercise patterns per grammar topic
 - **CEFR A1 Can-Do Statements** (Council of Europe) — communicative outcomes
 - **De Mauro's Vocabolario di Base** — word frequency and selection
-- **EasItalian A1 Grammar Study Plan** — grammar topic ordering reference
 - **Prego! An Invitation to Italian** (McGraw-Hill) — university Italian course progression
+- Communicative/notional-functional design — Canale & Swain (1980), Wilkins' notional syllabus; lexical approach — Lewis (1993)

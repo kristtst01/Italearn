@@ -1,0 +1,249 @@
+{
+  "id": "unit-19-lesson-04",
+  "unit_id": "unit-19",
+  "name": "More Time Words",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-19-lesson-04-tip-01",
+      "title": "Small Time Units",
+      "explanation": "'Il secondo' (second), 'il minuto' (minute), 'l'attimo' (moment / instant). 'Un attimo, per favore' = One moment, please.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-19-lesson-04-tip-02",
+      "title": "Past, Present, Future",
+      "explanation": "'Il passato' (past), 'il presente' (present), 'il futuro' (future). 'Scorso' (last) is the adjective: 'la settimana scorsa' = last week.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-19-lesson-04-tip-03",
+      "title": "Temperature",
+      "explanation": "'La temperatura' = temperature. 'I gradi' = degrees. 'Trenta gradi' (30°). 'L'inizio' = the beginning.",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-19-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'secondo' mean here?" },
+      "sentence_context": "Aspetta un secondo.",
+      "correct_answer": "Second (time)",
+      "distractors": ["According to", "Second course", "Number"],
+      "hints": ["Wait a second."],
+      "target_words": ["secondo"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'minuto' mean?" },
+      "sentence_context": "Aspetta un minuto.",
+      "correct_answer": "Minute",
+      "distractors": ["Second", "Hour", "Moment"],
+      "hints": ["Sixty seconds."],
+      "target_words": ["minuto"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'attimo' mean?" },
+      "sentence_context": "Un attimo, per favore.",
+      "correct_answer": "Moment / instant",
+      "distractors": ["Hour", "Day", "Week"],
+      "hints": ["One moment, please."],
+      "target_words": ["attimo"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'scorso' mean?" },
+      "sentence_context": "La settimana scorsa.",
+      "correct_answer": "Last (in time)",
+      "distractors": ["Next", "This", "Past"],
+      "hints": ["Last week."],
+      "target_words": ["scorso"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'passato' mean here?" },
+      "sentence_context": "Nel passato.",
+      "correct_answer": "Past",
+      "distractors": ["Old", "Lost", "Future"],
+      "hints": ["In the past."],
+      "target_words": ["passato"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'futuro' mean?" },
+      "sentence_context": "Nel futuro.",
+      "correct_answer": "Future",
+      "distractors": ["Past", "Present", "Possible"],
+      "hints": ["In the future."],
+      "target_words": ["futuro"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'presente' mean here?" },
+      "sentence_context": "Vivo nel presente.",
+      "correct_answer": "Present (time)",
+      "distractors": ["Gift", "Here", "Now"],
+      "hints": ["I live in the present."],
+      "target_words": ["presente"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'inizio' mean?" },
+      "sentence_context": "L'inizio del film.",
+      "correct_answer": "Beginning",
+      "distractors": ["End", "Middle", "Pause"],
+      "hints": ["The beginning of the film."],
+      "target_words": ["inizio"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'temperatura' mean?" },
+      "sentence_context": "La temperatura è alta.",
+      "correct_answer": "Temperature",
+      "distractors": ["Weather", "Heat", "Climate"],
+      "hints": ["The temperature is high."],
+      "target_words": ["temperatura"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'gradi' mean?" },
+      "sentence_context": "Trenta gradi oggi.",
+      "correct_answer": "Degrees",
+      "distractors": ["Hours", "Numbers", "Steps"],
+      "hints": ["30 degrees today."],
+      "target_words": ["gradi"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'Wait a minute.'" },
+      "sentence_context": "Aspetta un ___.",
+      "correct_answer": "minuto",
+      "distractors": [],
+      "hints": ["Sixty seconds."],
+      "target_words": ["minuto"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'Last month.'" },
+      "sentence_context": "Il mese ___.",
+      "correct_answer": "scorso",
+      "distractors": [],
+      "hints": ["Last."],
+      "target_words": ["scorso"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'Today it's 25 degrees.'" },
+      "sentence_context": "Oggi sono venticinque ___.",
+      "correct_answer": "gradi",
+      "distractors": [],
+      "hints": ["Plural of grado."],
+      "target_words": ["gradi"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'minute' in Italian?" },
+      "sentence_context": "Un minuto.",
+      "correct_answer": "minuto",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["minuto"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'temperature' in Italian?" },
+      "sentence_context": "La temperatura è alta.",
+      "correct_answer": "temperatura",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["temperatura"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'future' in Italian?" },
+      "sentence_context": "Nel futuro.",
+      "correct_answer": "futuro",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["futuro"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-17",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'beginning' in Italian?" },
+      "sentence_context": "L'inizio del libro.",
+      "correct_answer": "inizio",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["inizio"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Today it's 30 degrees.'" },
+      "sentence_context": "Oggi sono trenta gradi.",
+      "correct_answer": ["Oggi", "sono", "trenta", "gradi."],
+      "distractors": ["è", "grado"],
+      "hints": ["Plural — sono + number + gradi."],
+      "target_words": ["gradi"]
+    },
+    {
+      "id": "unit-19-lesson-04-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Last week I worked a lot.'" },
+      "sentence_context": "La settimana scorsa ho lavorato molto.",
+      "correct_answer": ["La", "settimana", "scorsa", "ho", "lavorato", "molto."],
+      "distractors": ["prossima", "lavoro"],
+      "hints": ["Past time + past tense (preview of A2)."],
+      "target_words": ["scorso"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "secondo", "meaning": "Second (time)", "example": "Aspetta un secondo." },
+    { "word": "minuto", "meaning": "Minute", "example": "Aspetta un minuto." },
+    { "word": "attimo", "meaning": "Moment / instant", "example": "Un attimo, per favore." },
+    { "word": "scorso", "meaning": "Last (in time)", "example": "La settimana scorsa." },
+    { "word": "passato", "meaning": "Past", "example": "Nel passato." },
+    { "word": "futuro", "meaning": "Future", "example": "Nel futuro." },
+    { "word": "presente", "meaning": "Present (time)", "example": "Vivo nel presente." },
+    { "word": "inizio", "meaning": "Beginning", "example": "L'inizio del film." },
+    { "word": "temperatura", "meaning": "Temperature", "example": "La temperatura è alta." },
+    { "word": "gradi", "meaning": "Degrees", "example": "Trenta gradi oggi." }
+  ]
+}

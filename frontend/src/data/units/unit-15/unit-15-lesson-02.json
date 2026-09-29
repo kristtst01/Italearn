@@ -1,0 +1,263 @@
+{
+  "id": "unit-15-lesson-02",
+  "unit_id": "unit-15",
+  "name": "Potere & Dovere — Can & Must",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-15-lesson-02-tip-01",
+      "title": "Potere — Can / Be Able To",
+      "explanation": "'Potere': posso (io), puoi (tu), può (lui/lei), possiamo (noi), potete (voi), possono (loro). Used for ability and permission: 'Posso entrare?' = May I come in? 'Non posso venire' = I can't come.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-15-lesson-02-tip-02",
+      "title": "Dovere — Must / Have To",
+      "explanation": "'Dovere': devo (io), devi (tu), deve (lui/lei), dobbiamo (noi), dovete (voi), devono (loro). Used for obligation: 'Devo andare' = I have to go. 'Devi studiare' = You have to study.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-15-lesson-02-tip-03",
+      "title": "Modal + Infinitive",
+      "explanation": "Like 'volere', both 'potere' and 'dovere' are followed by an infinitive: 'posso venire', 'devo lavorare', 'voglio mangiare'. Never another conjugated verb.",
+      "before_exercise": 14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-15-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'potere' mean?" },
+      "sentence_context": "Posso venire stasera.",
+      "correct_answer": "Can / be able to",
+      "distractors": ["Must", "Want", "Should"],
+      "hints": ["I can come tonight."],
+      "target_words": ["potere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'dovere' mean?" },
+      "sentence_context": "Devo lavorare.",
+      "correct_answer": "Must / have to",
+      "distractors": ["Want", "Can", "Like"],
+      "hints": ["I have to work."],
+      "target_words": ["dovere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'posso' mean?" },
+      "sentence_context": "Posso entrare?",
+      "correct_answer": "I can / may",
+      "distractors": ["You can", "He can", "We can"],
+      "hints": ["May I come in?"],
+      "target_words": ["potere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'devo' mean?" },
+      "sentence_context": "Devo partire.",
+      "correct_answer": "I must / have to",
+      "distractors": ["I want", "I can", "I should"],
+      "hints": ["I have to leave."],
+      "target_words": ["dovere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ venire al cinema.",
+      "correct_answer": "posso",
+      "distractors": [],
+      "hints": ["I can come to the cinema. (io)"],
+      "target_words": ["potere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Tu ___ aiutarmi?",
+      "correct_answer": "puoi",
+      "distractors": [],
+      "hints": ["Can you help me? (tu)"],
+      "target_words": ["potere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Marco ___ ripetere?",
+      "correct_answer": "può",
+      "distractors": [],
+      "hints": ["Can Marco repeat? (lui)"],
+      "target_words": ["potere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ andare.",
+      "correct_answer": "devo",
+      "distractors": [],
+      "hints": ["I have to go. (io)"],
+      "target_words": ["dovere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Tu ___ studiare per l'esame.",
+      "correct_answer": "devi",
+      "distractors": [],
+      "hints": ["You have to study for the exam. (tu)"],
+      "target_words": ["dovere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Anna ___ lavorare.",
+      "correct_answer": "deve",
+      "distractors": [],
+      "hints": ["Anna has to work. (lei)"],
+      "target_words": ["dovere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I can' in Italian?" },
+      "sentence_context": "Posso venire.",
+      "correct_answer": "posso",
+      "distractors": [],
+      "hints": ["The io form of potere."],
+      "target_words": ["potere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I must' in Italian?" },
+      "sentence_context": "Devo partire.",
+      "correct_answer": "devo",
+      "distractors": [],
+      "hints": ["The io form of dovere."],
+      "target_words": ["dovere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'he/she can'?" },
+      "sentence_context": "Marco può venire.",
+      "correct_answer": "può",
+      "distractors": [],
+      "hints": ["Note the accent."],
+      "target_words": ["potere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'noi' form of 'potere'." },
+      "sentence_context": "Noi ___ andare insieme.",
+      "correct_answer": "possiamo",
+      "distractors": [],
+      "hints": ["noi → possiamo."],
+      "target_words": ["potere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'noi' form of 'dovere'." },
+      "sentence_context": "Noi ___ lavorare oggi.",
+      "correct_answer": "dobbiamo",
+      "distractors": [],
+      "hints": ["noi → dobbiamo (double b)."],
+      "target_words": ["dovere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'loro' form of 'potere'." },
+      "sentence_context": "Loro ___ venire al cinema.",
+      "correct_answer": "possono",
+      "distractors": [],
+      "hints": ["loro → possono."],
+      "target_words": ["potere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'loro' form of 'dovere'." },
+      "sentence_context": "Loro ___ partire alle otto.",
+      "correct_answer": "devono",
+      "distractors": [],
+      "hints": ["loro → devono."],
+      "target_words": ["dovere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Make it negative: 'I can't come tonight.'" },
+      "sentence_context": "Non ___ venire stasera.",
+      "correct_answer": "posso",
+      "distractors": [],
+      "hints": ["'Non' before 'posso'."],
+      "target_words": ["potere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I can come tonight.'" },
+      "sentence_context": "Posso venire stasera.",
+      "correct_answer": ["Posso", "venire", "stasera."],
+      "distractors": ["devo", "domani"],
+      "hints": ["Modal + infinitive + time."],
+      "target_words": ["potere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I have to work tomorrow.'" },
+      "sentence_context": "Devo lavorare domani.",
+      "correct_answer": ["Devo", "lavorare", "domani."],
+      "distractors": ["voglio", "oggi"],
+      "hints": ["'Devo' + infinitive."],
+      "target_words": ["dovere"]
+    },
+    {
+      "id": "unit-15-lesson-02-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: \"I can't come, I have to study.\"" },
+      "sentence_context": "Non posso venire, devo studiare.",
+      "correct_answer": ["Non", "posso", "venire,", "devo", "studiare."],
+      "distractors": ["voglio", "lavorare"],
+      "hints": ["Two modals in one sentence."],
+      "target_words": ["potere", "dovere"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "potere", "meaning": "To be able to / can / may", "example": "Posso venire stasera." },
+    { "word": "dovere", "meaning": "To have to / must", "example": "Devo lavorare." }
+  ]
+}

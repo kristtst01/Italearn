@@ -1,0 +1,234 @@
+{
+  "id": "unit-14-lesson-01",
+  "unit_id": "unit-14",
+  "name": "Means of Transport",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-14-lesson-01-tip-01",
+      "title": "How You Travel",
+      "explanation": "Italian uses 'in' for most vehicles: 'in treno', 'in autobus', 'in macchina', 'in aereo'. The exception is 'a piedi' (on foot), which uses 'a'.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-14-lesson-01-tip-02",
+      "title": "Andare + In + Transport",
+      "explanation": "'Vado a Roma in treno' = I go to Rome by train. 'Andiamo in macchina' = We're going by car. 'Vado al lavoro a piedi' = I walk to work.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-14-lesson-01-tip-03",
+      "title": "Singular Transport Names",
+      "explanation": "Most transport names are masculine: il treno, l'autobus, il taxi, l'aereo, il metro. 'La macchina' and 'la bicicletta' (from earlier units) are feminine.",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-14-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'treno' mean?" },
+      "sentence_context": "Vado a Roma in treno.",
+      "correct_answer": "Train",
+      "distractors": ["Bus", "Plane", "Taxi"],
+      "hints": ["I'm going to Rome by train."],
+      "target_words": ["treno"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'autobus' mean?" },
+      "sentence_context": "Vado in autobus.",
+      "correct_answer": "Bus",
+      "distractors": ["Train", "Car", "Taxi"],
+      "hints": ["I go by bus."],
+      "target_words": ["autobus"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'taxi' mean?" },
+      "sentence_context": "Prendo un taxi.",
+      "correct_answer": "Taxi",
+      "distractors": ["Train", "Bus", "Plane"],
+      "hints": ["The same word."],
+      "target_words": ["taxi"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'aereo' mean?" },
+      "sentence_context": "Vado in America in aereo.",
+      "correct_answer": "Plane",
+      "distractors": ["Train", "Helicopter", "Boat"],
+      "hints": ["I fly to America."],
+      "target_words": ["aereo"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'metro' mean?" },
+      "sentence_context": "Vado in metro.",
+      "correct_answer": "Metro / underground",
+      "distractors": ["Bus", "Train", "Tram"],
+      "hints": ["Underground transport in a city."],
+      "target_words": ["metro"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'a piedi' mean?" },
+      "sentence_context": "Vado a scuola a piedi.",
+      "correct_answer": "On foot",
+      "distractors": ["By car", "By bike", "By bus"],
+      "hints": ["The way without a vehicle."],
+      "target_words": ["piedi"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Vado al lavoro in ___.",
+      "correct_answer": "macchina",
+      "distractors": [],
+      "hints": ["I drive to work."],
+      "target_words": ["macchina"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Vado a Roma in ___.",
+      "correct_answer": "treno",
+      "distractors": [],
+      "hints": ["I take the train to Rome."],
+      "target_words": ["treno"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Vado al cinema a ___.",
+      "correct_answer": "piedi",
+      "distractors": [],
+      "hints": ["I walk to the cinema."],
+      "target_words": ["piedi"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Prendo l' ___ per andare a New York.",
+      "correct_answer": "aereo",
+      "distractors": [],
+      "hints": ["I fly to New York."],
+      "target_words": ["aereo"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'train' in Italian?" },
+      "sentence_context": "Vado in treno.",
+      "correct_answer": "treno",
+      "distractors": [],
+      "hints": ["Masculine noun."],
+      "target_words": ["treno"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'bus' in Italian?" },
+      "sentence_context": "Vado in autobus.",
+      "correct_answer": "autobus",
+      "distractors": [],
+      "hints": ["Same spelling, different sound."],
+      "target_words": ["autobus"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'plane' in Italian?" },
+      "sentence_context": "Vado in aereo.",
+      "correct_answer": "aereo",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["aereo"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Pick 'in' or 'a' for transport." },
+      "sentence_context": "Vado al lavoro ___ treno.",
+      "correct_answer": "in",
+      "distractors": [],
+      "hints": ["Most transport takes 'in'."],
+      "target_words": ["treno"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Pick 'in' or 'a' for 'on foot'." },
+      "sentence_context": "Vado a scuola ___ piedi.",
+      "correct_answer": "a",
+      "distractors": [],
+      "hints": ["The exception."],
+      "target_words": ["piedi"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I go to Rome by train.'" },
+      "sentence_context": "Vado a Roma in treno.",
+      "correct_answer": ["Vado", "a", "Roma", "in", "treno."],
+      "distractors": ["autobus", "a"],
+      "hints": ["'In' + transport, 'a' + city."],
+      "target_words": ["treno"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I take the bus every day.'" },
+      "sentence_context": "Prendo l'autobus ogni giorno.",
+      "correct_answer": ["Prendo", "l'autobus", "ogni", "giorno."],
+      "distractors": ["treno", "sera"],
+      "hints": ["'Prendere' for taking transport."],
+      "target_words": ["autobus"]
+    },
+    {
+      "id": "unit-14-lesson-01-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I go to work on foot.'" },
+      "sentence_context": "Vado al lavoro a piedi.",
+      "correct_answer": ["Vado", "al", "lavoro", "a", "piedi."],
+      "distractors": ["in", "scuola"],
+      "hints": ["'A piedi' = on foot."],
+      "target_words": ["piedi"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "treno", "meaning": "Train", "example": "Vado a Roma in treno." },
+    { "word": "autobus", "meaning": "Bus", "example": "Vado in autobus." },
+    { "word": "taxi", "meaning": "Taxi", "example": "Prendo un taxi." },
+    { "word": "aereo", "meaning": "Plane / aeroplane", "example": "Vado in America in aereo." },
+    { "word": "metro", "meaning": "Metro / underground", "example": "Vado in metro." },
+    { "word": "piedi", "meaning": "Feet (a piedi = on foot)", "example": "Vado a scuola a piedi." }
+  ]
+}

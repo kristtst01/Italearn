@@ -1,0 +1,237 @@
+{
+  "id": "unit-01-lesson-05",
+  "unit_id": "unit-01",
+  "name": "Wishes & Set Phrases",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-01-lesson-05-tip-01",
+      "title": "Buon + Event",
+      "explanation": "Italians wish each other well constantly. The pattern is 'buon/buona/buoni/buone' (good) + the occasion: 'Buon compleanno!' (Happy birthday!), 'Buon viaggio!' (Have a good trip!), 'Buone vacanze!' (Happy holidays!).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-01-lesson-05-tip-02",
+      "title": "Auguri & Complimenti",
+      "explanation": "'Auguri!' is a one-word 'best wishes!' for any occasion. 'Complimenti!' = well done / congratulations. 'Congratulazioni!' is more formal — used for big achievements (marriage, graduation).",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-01-lesson-05-tip-03",
+      "title": "Daily Wishes",
+      "explanation": "'Buona giornata!' (Have a good day!), 'Buona serata!' (Have a good evening!), 'Buon appetito!' (Enjoy your meal!) — these are said constantly. Italians never just say 'bye' without one of these.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-01-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'buon viaggio' mean?" },
+      "sentence_context": "Buon viaggio, Marco!",
+      "correct_answer": "Have a good trip",
+      "distractors": ["Happy birthday", "Good luck", "Goodnight"],
+      "hints": ["Said when someone is leaving."],
+      "target_words": ["buon viaggio"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'buon compleanno' mean?" },
+      "sentence_context": "Buon compleanno, Anna!",
+      "correct_answer": "Happy birthday",
+      "distractors": ["Happy new year", "Have a good trip", "Goodbye"],
+      "hints": ["Said once a year."],
+      "target_words": ["buon compleanno"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'buone vacanze' mean?" },
+      "sentence_context": "Buone vacanze!",
+      "correct_answer": "Happy holidays",
+      "distractors": ["Happy birthday", "Good morning", "Goodbye"],
+      "hints": ["For someone going on holiday."],
+      "target_words": ["buone vacanze"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'buon anno' mean?" },
+      "sentence_context": "Buon anno!",
+      "correct_answer": "Happy new year",
+      "distractors": ["Happy birthday", "Good year", "Goodbye"],
+      "hints": ["Said on January 1st."],
+      "target_words": ["buon anno"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'buona giornata' mean?" },
+      "sentence_context": "Ciao, buona giornata!",
+      "correct_answer": "Have a good day",
+      "distractors": ["Good morning", "Goodbye", "Good evening"],
+      "hints": ["Said when parting during the day."],
+      "target_words": ["buona giornata"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'auguri' mean?" },
+      "sentence_context": "Tanti auguri!",
+      "correct_answer": "Best wishes",
+      "distractors": ["Goodbye", "Welcome", "Thanks"],
+      "hints": ["Universal good wishes."],
+      "target_words": ["auguri"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'congratulazioni' mean?" },
+      "sentence_context": "Congratulazioni per il lavoro!",
+      "correct_answer": "Congratulations",
+      "distractors": ["Welcome", "Goodbye", "Thanks"],
+      "hints": ["For a big achievement."],
+      "target_words": ["congratulazioni"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'complimenti' mean?" },
+      "sentence_context": "Complimenti, bravo!",
+      "correct_answer": "Well done",
+      "distractors": ["Thanks", "Welcome", "Goodbye"],
+      "hints": ["A compliment for someone's effort."],
+      "target_words": ["complimenti"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the wish — someone is leaving for a trip." },
+      "sentence_context": "Buon ___!",
+      "correct_answer": "viaggio",
+      "distractors": [],
+      "hints": ["Have a good trip!"],
+      "target_words": ["buon viaggio"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the wish — on someone's birthday." },
+      "sentence_context": "Buon ___!",
+      "correct_answer": "compleanno",
+      "distractors": [],
+      "hints": ["Happy birthday!"],
+      "target_words": ["buon compleanno"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the wish — said on January 1st." },
+      "sentence_context": "Buon ___!",
+      "correct_answer": "anno",
+      "distractors": [],
+      "hints": ["Happy new year!"],
+      "target_words": ["buon anno"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: said before someone eats." },
+      "sentence_context": "Buon ___!",
+      "correct_answer": "appetito",
+      "distractors": [],
+      "hints": ["Enjoy your meal!"],
+      "target_words": ["buon appetito"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'best wishes!' (one word) in Italian?" },
+      "sentence_context": "Tanti auguri!",
+      "correct_answer": "auguri",
+      "distractors": [],
+      "hints": ["Universal good-wishes word."],
+      "target_words": ["auguri"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'well done' (one word) in Italian?" },
+      "sentence_context": "Complimenti, bravo!",
+      "correct_answer": "complimenti",
+      "distractors": [],
+      "hints": ["A casual compliment."],
+      "target_words": ["complimenti"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'Have a good day!' in Italian?" },
+      "sentence_context": "Buona giornata!",
+      "correct_answer": "buona giornata",
+      "distractors": [],
+      "hints": ["Two words, formal politeness."],
+      "target_words": ["buona giornata"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Happy birthday and best wishes!'" },
+      "sentence_context": "Buon compleanno e tanti auguri!",
+      "correct_answer": ["Buon", "compleanno", "e", "tanti", "auguri!"],
+      "distractors": ["buona", "viaggio"],
+      "hints": ["Wish + 'e tanti auguri'."],
+      "target_words": ["buon compleanno", "auguri"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Have a good trip!'" },
+      "sentence_context": "Buon viaggio!",
+      "correct_answer": ["Buon", "viaggio!"],
+      "distractors": ["buona", "vacanze"],
+      "hints": ["Masculine noun → buon."],
+      "target_words": ["buon viaggio"]
+    },
+    {
+      "id": "unit-01-lesson-05-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Congratulations for the work!'" },
+      "sentence_context": "Congratulazioni per il lavoro!",
+      "correct_answer": ["Congratulazioni", "per", "il", "lavoro!"],
+      "distractors": ["auguri", "studio"],
+      "hints": ["'Congratulazioni' + 'per' + noun."],
+      "target_words": ["congratulazioni"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "buon viaggio", "meaning": "Have a good trip", "example": "Buon viaggio, Marco!" },
+    { "word": "buon compleanno", "meaning": "Happy birthday", "example": "Buon compleanno, Anna!" },
+    { "word": "buone vacanze", "meaning": "Happy holidays", "example": "Buone vacanze!" },
+    { "word": "buon anno", "meaning": "Happy new year", "example": "Buon anno!" },
+    { "word": "buona giornata", "meaning": "Have a good day", "example": "Ciao, buona giornata!" },
+    { "word": "buon appetito", "meaning": "Enjoy your meal", "example": "Buon appetito!" },
+    { "word": "auguri", "meaning": "Best wishes", "example": "Tanti auguri!" },
+    { "word": "complimenti", "meaning": "Well done / compliments", "example": "Complimenti, bravo!" },
+    { "word": "congratulazioni", "meaning": "Congratulations", "example": "Congratulazioni per il lavoro!" }
+  ]
+}

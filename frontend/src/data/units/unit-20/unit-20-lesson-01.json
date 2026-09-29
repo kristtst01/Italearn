@@ -1,0 +1,284 @@
+{
+  "id": "unit-20-lesson-01",
+  "unit_id": "unit-20",
+  "name": "The Body",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-20-lesson-01-tip-01",
+      "title": "Body Basics",
+      "explanation": "Italian for body parts: la testa (head), gli occhi (eyes), il naso (nose), la bocca (mouth), le orecchie (ears), i capelli (hair — always plural in Italian!).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-20-lesson-01-tip-02",
+      "title": "Limbs",
+      "explanation": "La gamba (leg), il braccio (arm), la mano (hand — feminine despite ending in -o!), il dito (finger). Some have unusual plurals: il braccio → le braccia, il dito → le dita.",
+      "before_exercise": 8
+    },
+    {
+      "id": "unit-20-lesson-01-tip-03",
+      "title": "I Capelli — Always Plural",
+      "explanation": "In Italian 'hair' is always plural: 'i capelli'. 'Ho i capelli neri' = I have black hair. Saying 'il capello' refers to one single strand — unusual.",
+      "before_exercise": 14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-20-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'testa' mean?" },
+      "sentence_context": "Ho mal di testa.",
+      "correct_answer": "Head",
+      "distractors": ["Hand", "Foot", "Mouth"],
+      "hints": ["I have a headache."],
+      "target_words": ["testa"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'occhio' mean?" },
+      "sentence_context": "Ho gli occhi blu.",
+      "correct_answer": "Eye",
+      "distractors": ["Ear", "Nose", "Mouth"],
+      "hints": ["I have blue eyes."],
+      "target_words": ["occhio"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'capelli' mean?" },
+      "sentence_context": "Ho i capelli lunghi.",
+      "correct_answer": "Hair",
+      "distractors": ["Hat", "Beard", "Skin"],
+      "hints": ["I have long hair."],
+      "target_words": ["capelli"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'naso' mean?" },
+      "sentence_context": "Il naso è piccolo.",
+      "correct_answer": "Nose",
+      "distractors": ["Mouth", "Ear", "Eye"],
+      "hints": ["The nose is small."],
+      "target_words": ["naso"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'bocca' mean?" },
+      "sentence_context": "La bocca è grande.",
+      "correct_answer": "Mouth",
+      "distractors": ["Nose", "Eye", "Tooth"],
+      "hints": ["The mouth is big."],
+      "target_words": ["bocca"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'orecchio' mean?" },
+      "sentence_context": "L'orecchio mi fa male.",
+      "correct_answer": "Ear",
+      "distractors": ["Eye", "Nose", "Head"],
+      "hints": ["My ear hurts."],
+      "target_words": ["orecchio"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'gamba' mean?" },
+      "sentence_context": "La gamba è lunga.",
+      "correct_answer": "Leg",
+      "distractors": ["Arm", "Foot", "Hand"],
+      "hints": ["The leg is long."],
+      "target_words": ["gamba"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'braccio' mean?" },
+      "sentence_context": "Il braccio mi fa male.",
+      "correct_answer": "Arm",
+      "distractors": ["Leg", "Hand", "Shoulder"],
+      "hints": ["My arm hurts."],
+      "target_words": ["braccio"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mano' mean?" },
+      "sentence_context": "Ho una mano fredda.",
+      "correct_answer": "Hand",
+      "distractors": ["Foot", "Arm", "Finger"],
+      "hints": ["I have a cold hand."],
+      "target_words": ["mano"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'dito' mean?" },
+      "sentence_context": "Il dito mi fa male.",
+      "correct_answer": "Finger",
+      "distractors": ["Hand", "Arm", "Toe"],
+      "hints": ["My finger hurts."],
+      "target_words": ["dito"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'dente' mean?" },
+      "sentence_context": "Mi fa male un dente.",
+      "correct_answer": "Tooth",
+      "distractors": ["Mouth", "Tongue", "Lip"],
+      "hints": ["I have a sore tooth."],
+      "target_words": ["dente"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'schiena' mean?" },
+      "sentence_context": "Ho mal di schiena.",
+      "correct_answer": "Back",
+      "distractors": ["Belly", "Shoulder", "Neck"],
+      "hints": ["I have a backache."],
+      "target_words": ["schiena"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Ho gli ___ blu.",
+      "correct_answer": "occhi",
+      "distractors": [],
+      "hints": ["I have blue eyes."],
+      "target_words": ["occhio"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-14",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Anna ha i ___ biondi.",
+      "correct_answer": "capelli",
+      "distractors": [],
+      "hints": ["Anna has blonde hair."],
+      "target_words": ["capelli"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-15",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Mi fa male la ___.",
+      "correct_answer": "testa",
+      "distractors": [],
+      "hints": ["My head hurts."],
+      "target_words": ["testa"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'hand' in Italian?" },
+      "sentence_context": "La mano è fredda.",
+      "correct_answer": "mano",
+      "distractors": [],
+      "hints": ["Feminine, ends in -o (exception)."],
+      "target_words": ["mano"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-17",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'leg' in Italian?" },
+      "sentence_context": "La gamba è lunga.",
+      "correct_answer": "gamba",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["gamba"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-18",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'arm' in Italian?" },
+      "sentence_context": "Il braccio è forte.",
+      "correct_answer": "braccio",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["braccio"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-19",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'mouth' in Italian?" },
+      "sentence_context": "La bocca è piccola.",
+      "correct_answer": "bocca",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["bocca"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-20",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'tooth' in Italian?" },
+      "sentence_context": "Ho un dente bianco.",
+      "correct_answer": "dente",
+      "distractors": [],
+      "hints": ["Masculine ending in -e."],
+      "target_words": ["dente"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I have long black hair.'" },
+      "sentence_context": "Ho i capelli neri e lunghi.",
+      "correct_answer": ["Ho", "i", "capelli", "neri", "e", "lunghi."],
+      "distractors": ["bianchi", "occhi"],
+      "hints": ["'Capelli' is plural masculine."],
+      "target_words": ["capelli"]
+    },
+    {
+      "id": "unit-20-lesson-01-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'My eyes are blue.'" },
+      "sentence_context": "I miei occhi sono blu.",
+      "correct_answer": ["I", "miei", "occhi", "sono", "blu."],
+      "distractors": ["mio", "verde"],
+      "hints": ["Plural masculine → miei."],
+      "target_words": ["occhio"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "testa", "meaning": "Head", "example": "Ho mal di testa." },
+    { "word": "occhio", "meaning": "Eye (pl. occhi)", "example": "Ho gli occhi blu." },
+    { "word": "capelli", "meaning": "Hair (always plural)", "example": "Ho i capelli lunghi." },
+    { "word": "naso", "meaning": "Nose", "example": "Il naso è piccolo." },
+    { "word": "bocca", "meaning": "Mouth", "example": "La bocca è grande." },
+    { "word": "orecchio", "meaning": "Ear", "example": "L'orecchio mi fa male." },
+    { "word": "gamba", "meaning": "Leg", "example": "La gamba è lunga." },
+    { "word": "braccio", "meaning": "Arm (pl. braccia)", "example": "Il braccio mi fa male." },
+    { "word": "mano", "meaning": "Hand (feminine!)", "example": "Ho una mano fredda." },
+    { "word": "dito", "meaning": "Finger (pl. dita)", "example": "Il dito mi fa male." },
+    { "word": "dente", "meaning": "Tooth", "example": "Mi fa male un dente." },
+    { "word": "schiena", "meaning": "Back", "example": "Ho mal di schiena." }
+  ]
+}

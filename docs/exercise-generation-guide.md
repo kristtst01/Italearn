@@ -10,6 +10,7 @@ How to use AI to generate lesson exercises for ItaLearn. This document is the so
 4. **Context always.** Words are never taught in isolation. Every vocabulary item has an example sentence. Every exercise has `sentence_context`.
 5. **Mix exercise types.** Each lesson should use at least 3 different subtypes. Start with recognition (multiple_choice), build to production (type_answer, fill_blank, arrange_words).
 6. **Interleave prior material.** At least 20-30% of exercises in each lesson should recycle vocabulary from earlier lessons/units.
+7. **Match the exercise mix to the level.** Mechanical exercises (fill_blank, cloze) build accuracy and dominate early. Production exercises (type_answer, arrange_words) and especially open-ended `free_form` dominate later — a B2 learner is assessed on output, not gap-filling. See the per-level distribution table.
 
 ## Reference Sources
 
@@ -58,6 +59,18 @@ The unit directory must be created. Lessons are imported individually in `fronte
     "Subject pronouns in Italian: io (I), tu (you informal), lui/lei (he/she), Lei (you formal), noi (we), voi (you all), loro (they).",
     "Unlike English, Italian often drops the subject pronoun because the verb ending tells you who's speaking: 'Sono italiano' = 'I am Italian'."
   ],
+  "kind": "standard",                  // OPTIONAL — "standard" (default) | "writing" | "listening" | "reading"
+  "passages": [                        // OPTIONAL — only for listening/reading comprehension lessons
+    {
+      "id": "passage-01",
+      "format": "audio",               // "audio" | "text"
+      "style": "dialogue",             // audio only: "monologue" | "dialogue"
+      "audio_url": "/audio/unit-22/lesson-04/passage-01.mp3",  // format: audio
+      "text": "...",                   // format: text (reading comprehension)
+      "transcript": "...",             // audio only — revealed after the learner answers
+      "speakers": ["Marco", "Giulia"]  // audio only
+    }
+  ],
   "exercises": [ /* ... see below ... */ ],
   "vocabulary": [                      // New words introduced in this lesson
     {
@@ -68,6 +81,8 @@ The unit directory must be created. Lessons are imported individually in `fronte
   ]
 }
 ```
+
+Most lessons omit `kind` and `passages` entirely (a plain `standard` lesson). They're only used for comprehension lessons — see [Comprehension Lessons](#comprehension-lessons-listening--reading).
 
 ## Exercise JSON Schema
 
@@ -91,7 +106,8 @@ Every exercise has the same shape regardless of subtype:
   "hints": [                           // Optional hints shown to the user
     "The verb 'essere' conjugates irregularly."
   ],
-  "target_words": ["sono"]             // Words this exercise teaches (for SRS card creation)
+  "target_words": ["sono"],            // Words this exercise teaches (for SRS card creation)
+  "passage_ref": "passage-01"          // OPTIONAL — in comprehension lessons, the passage this question tests
 }
 ```
 
@@ -205,12 +221,101 @@ A sentence with one vocabulary word blanked out. English hint is shown so the us
 }
 ```
 
+### `free_form` (type: `writing`)
+Open-ended written production. The user writes a free response — a sentence up to a short paragraph. Graded by the cloud LLM (`gradeFreeResponse`), not by exact match.
+
+- `correct_answer`: a **model answer** — what a good response looks like. Used as a grading reference, not an exact target.
+- `distractors`: `[]` (not used)
+- `prompt.text`: the task ("Introduce yourself in Italian. Include your name, where you're from, and your age.")
+- `hints`: optional scaffolding ("Use mi chiamo, sono di, and ho ... anni.")
+- Best for: written capstones, comprehension questions that need explanation, anything with no single right answer.
+- Used in writing lessons and, increasingly, at A2+ — see the per-level distribution table.
+
+```json
+{
+  "type": "writing",
+  "subtype": "free_form",
+  "prompt": { "text": "Introduce yourself in Italian. Include your name, where you're from, and your age." },
+  "sentence_context": "",
+  "correct_answer": "Ciao! Mi chiamo Marco. Sono di Roma. Ho venti anni.",
+  "distractors": [],
+  "hints": ["Use mi chiamo, sono di, and ho ... anni."],
+  "target_words": ["mi chiamo", "sono", "di", "ho", "anni"]
+}
+```
+
+### `match_pairs` (type: `vocab`)
+User matches Italian words with their English meanings.
+
+- `correct_answer`: **array of strings**, each `"italiano|english"` — the correct pairings
+- `distractors`: `[]` (not used)
+- Needs at least 3 pairs.
+- Best for: vocabulary consolidation and review. The review runner builds these automatically from due cards.
+
+```json
+{
+  "type": "vocab",
+  "subtype": "match_pairs",
+  "prompt": { "text": "Match the Italian words with their English meanings." },
+  "sentence_context": "",
+  "correct_answer": ["cane|dog", "gatto|cat", "casa|house"],
+  "distractors": [],
+  "hints": [],
+  "target_words": ["cane", "gatto", "casa"]
+}
+```
+
+### `read_aloud` (type: `speaking`)
+User reads an Italian sentence aloud; speech is captured and checked against the expected text via backend transcription.
+
+- `sentence_context`: the sentence to read
+- `correct_answer`: the same sentence (the expected spoken text)
+- `distractors`: `[]` (not used)
+- Best for: pronunciation practice.
+- Requires the speaking infrastructure (mic capture + transcription).
+
+```json
+{
+  "type": "speaking",
+  "subtype": "read_aloud",
+  "prompt": { "text": "Read this sentence aloud." },
+  "sentence_context": "Mi chiamo Marco e sono di Roma.",
+  "correct_answer": "Mi chiamo Marco e sono di Roma.",
+  "distractors": [],
+  "hints": [],
+  "target_words": ["mi chiamo", "sono"]
+}
+```
+
+## Comprehension Lessons (Listening & Reading)
+
+Listening and reading comprehension are **lesson kinds**, not single exercises. A comprehension lesson holds one or more *passages* plus a set of questions about them — the same way a writing lesson is just a lesson of `free_form` exercises.
+
+- Set the lesson `kind` to `"listening"` or `"reading"`.
+- Add a `passages` array (see the Lesson JSON Schema). A lesson may have several passages — e.g. one monologue and one dialogue, each with its own questions.
+- Each question exercise carries a `passage_ref` pointing at the passage it tests.
+- Questions **reuse ordinary subtypes** — `multiple_choice`, `type_answer`, and `free_form`. There is no dedicated "comprehension" exercise subtype.
+- The transcript (audio) or full text (reading) is revealed after the learner answers.
+
+### Listening passages
+- `format: "audio"`, with `style: "monologue"` (one speaker reading/narrating) or `style: "dialogue"` (two or more speakers in conversation).
+- Audio is **pre-generated at authoring time**, never at runtime. Use ElevenLabs — Text to Speech for monologues, Text to Dialogue (v3, multi-speaker) for dialogues. Store the result as a static asset and reference it by `audio_url`.
+- Keep each dialogue script under ~2,000 characters per generation request.
+- Always store the `transcript` in the lesson JSON.
+
+### Reading passages
+- `format: "text"`, with the passage in the `text` field. No audio.
+
+### Question mix in comprehension lessons
+- **A2:** mostly `multiple_choice` and short `type_answer` — "did you catch the key fact?"
+- **B1/B2:** increasingly `free_form` — "explain", "summarize", "what did the speaker mean?" — AI-graded. A B2 listening lesson is mostly free-form questions.
+
 ## Lesson Design Patterns
 
 ### Exercise Count
-- **15 exercises per lesson** as the standard target (~10 minute session at ~30-40s per exercise).
+- **15 exercises per lesson** as the standard target for grammar-core and situational lessons (~10 minute session at ~30-40s per exercise).
 - This gives enough room for the full introduce → drill → produce → review cycle.
-- When listening/speaking exercises are added (Phase 3-4), lessons may grow to 17-18 to accommodate the additional skill types.
+- Comprehension and writing lessons run shorter — a comprehension lesson is typically 1-2 passages with 4-6 questions each; a writing lesson is 2-4 `free_form` tasks. `free_form` exercises take longer per item, so the count is lower.
 
 ### Exercise Ordering Within a Lesson
 Follow this progression for each new concept:
@@ -221,49 +326,72 @@ Follow this progression for each new concept:
 4. **Combine** (2-3 exercises): `arrange_words` — full sentence production
 5. **Review** (2-3 exercises): mix of types, recycling earlier vocabulary from previous lessons
 
-### Exercise Type Distribution (per lesson of 15)
-| Type | Count | Target % | Purpose |
-|------|-------|----------|---------|
-| multiple_choice | 4 | ~25% | Introduction, recognition |
-| type_answer | 3 | ~20% | Translation recall |
-| fill_blank | 3 | ~20% | Grammar drilling |
-| cloze | 3 | ~20% | Vocabulary in context |
-| arrange_words | 2 | ~15% | Sentence construction |
+### Exercise Type Distribution — shifts by level
+
+The right mix changes as the learner advances. Mechanical exercises (`fill_blank`, `cloze`) build accuracy and are valuable early, but a B2 learner needs *production*, not gap-filling. As levels rise, shift toward `type_answer`, `arrange_words`, and especially `free_form`.
+
+| Subtype | A1 | A2 | B1 | B2 |
+|---|---|---|---|---|
+| multiple_choice | ~25% | ~20% | ~10% | ~5% |
+| fill_blank | ~20% | ~20% | ~15% | ~10% |
+| cloze | ~20% | ~15% | ~15% | ~10% |
+| type_answer | ~20% | ~20% | ~20% | ~15% |
+| arrange_words | ~15% | ~15% | ~15% | ~10% |
+| free_form | — | ~10% | ~25% | ~50% |
+
+This guidance applies to **grammar-core and situational lessons**. Comprehension lessons (passages + questions) and writing lessons (`free_form`) are their own kinds and don't follow this table. `match_pairs` and `read_aloud` are added where a lesson calls for them.
 
 ### Vocabulary Per Lesson
 - Introduce **4-6 new words** per lesson
 - Total per unit (5 lessons): **20-30 new words**
 - The `vocabulary` array in the lesson JSON should contain only words *first introduced* in that lesson
 
+## Language of Instruction
+
+Core principle: **the practice immerses, the explanation stays clear.** As the learner advances, the Italian *content* of lessons grows until lessons read as effectively all-Italian — but anything whose job is to *explain* stays in English, so the language barrier never obscures understanding.
+
+| Element | Language |
+|---|---|
+| `sentence_context`, vocabulary, the Italian being practiced | Always Italian |
+| `prompt.text` — the task/question | Gradient: English (A1) → mostly Italian (B2). See per-level guidance below. |
+| Comprehension questions | Follow the prompt gradient — Italian by B2 |
+| `grammar_tips` | **English always** (optionally bilingual English + Italian) |
+| `hints` that explain a rule | English, or bilingual |
+| App UI chrome ("Check", "Continue", screens) | English always — never affected by level |
+
+The test for any piece of text: **is this the task, or is it teaching?** Teaching/explanation → English. The task itself → gradient toward Italian. A B2 lesson has Italian prompts and Italian questions, but its grammar tips are still in English.
+
 ## CEFR Level Guidelines
 
-### A1 (Units 1-10) — Survival Italian
+Unit counts and the per-level structure are defined in [development-plan.md](development-plan.md) (≈114 units total: A1≈20, A2≈28, B1≈32, B2≈34). Each level is built from three bands — grammar-core, situational, and extended-skills (comprehension + writing) lessons.
+
+### A1 (≈20 units) — Survival Italian
 - **Sentences:** 3-6 words. Simple SVO structure. Present tense only.
 - **Topics:** greetings, introductions, numbers, family, basic descriptions, food, directions
-- **Grammar:** essere/avere, regular -are/-ere/-ire verbs, articles, adjectives, possessives, reflexives, simple prepositions
+- **Grammar:** essere/avere, regular -are/-ere/-ire verbs, articles, adjectives, possessives, reflexives, simple prepositions, modals
 - **Prompts:** Always in English. Hints in English.
-- **Exercise focus:** Heavy on multiple_choice (recognition). Typed answers are 1-2 words.
+- **Exercise focus:** Heavy on multiple_choice (recognition). Typed answers are 1-2 words. No `free_form` except the written capstone lessons.
 
-### A2 (Units 11-21) — Everyday Situations
+### A2 (≈28 units) — Everyday Situations
 - **Sentences:** 5-10 words. Past tense, future, conditional.
 - **Topics:** past events, travel, shopping, health, plans, opinions
-- **Grammar:** passato prossimo, future simple, conditional, pronouns, comparatives, imperative
+- **Grammar:** passato prossimo, imperfetto (+ the contrast), futuro semplice, condizionale, object pronouns + ne/ci, imperative, comparatives
 - **Prompts:** English, but can include familiar Italian phrases in quotes
-- **Exercise focus:** More production. type_answer and fill_blank increase. Typed answers can be 2-3 words.
+- **Exercise focus:** More production. type_answer and fill_blank increase, `free_form` starts (~10%). Listening comprehension lessons begin here.
 
-### B1 (Units 22-30) — Independent Communication
+### B1 (≈32 units) — Independent Communication
 - **Sentences:** 8-15 words. Complex tenses, subjunctive, relative clauses.
 - **Topics:** storytelling, opinions, hypotheticals, formal situations
-- **Grammar:** imperfetto vs passato prossimo, trapassato, congiuntivo, periodo ipotetico, passive
+- **Grammar:** imperfetto vs passato prossimo, trapassato, congiuntivo presente/passato, periodo ipotetico (1-2), relative clauses, passive
 - **Prompts:** Can start including Italian in prompts. Hints can be Italian.
-- **Exercise focus:** Heavy production. Fewer multiple_choice. More arrange_words with longer sentences.
+- **Exercise focus:** Heavy production. Fewer multiple_choice. `free_form` ~25%. Reading and listening comprehension lessons are a regular presence.
 
-### B2 (Units 31-38) — Fluent Discussion
+### B2 (≈34 units) — Fluent Discussion
 - **Sentences:** 10-20 words. All tenses, nuanced register, idioms.
 - **Topics:** abstract discussion, formal register, literature, current events
-- **Grammar:** passato remoto, indirect speech, advanced pronouns, conjunctions + subjunctive
+- **Grammar:** congiuntivo imperfetto/trapassato, periodo ipotetico (3), passato remoto, indirect speech, subjunctive-triggering connectives
 - **Prompts:** Primarily in Italian. English only for new/complex concepts.
-- **Exercise focus:** Primarily production. Multiple_choice used only for nuanced distinctions.
+- **Exercise focus:** Primarily `free_form` (~50%). Multiple_choice only for nuanced distinctions. Comprehension and writing lessons dominate the extended-skills band.
 
 ## Quality Checklist
 
@@ -272,9 +400,14 @@ Run through this for every generated lesson before committing:
 - [ ] Every `sentence_context` is natural Italian (not word-for-word translated from English)
 - [ ] Every exercise has a valid `sentence_context` (never empty)
 - [ ] `fill_blank` and `cloze` exercises have exactly one `___` in `sentence_context`
-- [ ] `arrange_words` has `correct_answer` as an array, others have it as a string
+- [ ] `arrange_words` and `match_pairs` have `correct_answer` as an array; others have it as a string
 - [ ] `multiple_choice` has exactly 3 distractors of the same category as the answer
-- [ ] `type_answer`, `fill_blank`, `cloze` have `distractors: []`
+- [ ] `type_answer`, `fill_blank`, `cloze`, `free_form`, `match_pairs`, `read_aloud` have `distractors: []`
+- [ ] `free_form` has a model answer in `correct_answer`
+- [ ] `match_pairs` `correct_answer` is an array of `"italiano|english"` strings, at least 3 pairs
+- [ ] Comprehension lessons: `kind` is set, `passages` is present, every question has a valid `passage_ref`
+- [ ] Audio passages reference a pre-generated `audio_url` and include a `transcript`
+- [ ] The exercise mix matches the level (more `free_form` at B1/B2, less `fill_blank`/`cloze`)
 - [ ] IDs follow the pattern: `{unit_id}-lesson-{NN}-ex-{NN}`
 - [ ] No word is used that hasn't been introduced in this lesson or an earlier one
 - [ ] The `vocabulary` array only contains words *new* to this lesson

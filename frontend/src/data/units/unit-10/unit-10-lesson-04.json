@@ -1,0 +1,270 @@
+{
+  "id": "unit-10-lesson-04",
+  "unit_id": "unit-10",
+  "name": "Work & Study",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-10-lesson-04-tip-01",
+      "title": "Lavoro — Noun and Verb",
+      "explanation": "'Lavoro' can be either the noun 'work / job' (il lavoro) or the 'io' form of 'lavorare' ('I work'). Context tells you which.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-10-lesson-04-tip-02",
+      "title": "At Work, At School",
+      "explanation": "For 'at work' use 'al lavoro'; for 'at school' use 'a scuola' (no article); for 'at the office' use 'in ufficio'. These small prepositions are a bit fiddly — learn them as chunks.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-10-lesson-04-tip-03",
+      "title": "Professions",
+      "explanation": "From Unit 2 you know dottore/dottoressa, studente/studentessa, insegnante. 'La professione' is the general word for job/career. 'Che lavoro fai?' = 'What do you do for work?'",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-10-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'lavoro' mean (as a noun)?" },
+      "sentence_context": "Il lavoro è importante.",
+      "correct_answer": "Work / job",
+      "distractors": ["School", "Office", "Day"],
+      "hints": ["Work is important."],
+      "target_words": ["lavoro"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'scuola' mean?" },
+      "sentence_context": "La scuola è grande.",
+      "correct_answer": "School",
+      "distractors": ["Office", "University", "Class"],
+      "hints": ["The school is big."],
+      "target_words": ["scuola"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ufficio' mean?" },
+      "sentence_context": "Lavoro in ufficio.",
+      "correct_answer": "Office",
+      "distractors": ["School", "Shop", "Home"],
+      "hints": ["I work in the office."],
+      "target_words": ["ufficio"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'università' mean?" },
+      "sentence_context": "Studio all'università.",
+      "correct_answer": "University",
+      "distractors": ["School", "Office", "Library"],
+      "hints": ["I study at the university."],
+      "target_words": ["università"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'classe' mean?" },
+      "sentence_context": "La classe è piccola.",
+      "correct_answer": "Class (group/room)",
+      "distractors": ["School", "Year", "Book"],
+      "hints": ["The class is small."],
+      "target_words": ["classe"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'lezione' mean?" },
+      "sentence_context": "La lezione è interessante.",
+      "correct_answer": "Lesson",
+      "distractors": ["Class", "Book", "Teacher"],
+      "hints": ["The lesson is interesting."],
+      "target_words": ["lezione"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'professione' mean?" },
+      "sentence_context": "Che professione hai?",
+      "correct_answer": "Profession / job",
+      "distractors": ["School", "Class", "Lesson"],
+      "hints": ["What's your profession?"],
+      "target_words": ["professione"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Vado a ___.",
+      "correct_answer": "scuola",
+      "distractors": [],
+      "hints": ["I go to school."],
+      "target_words": ["scuola"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Lavoro in ___.",
+      "correct_answer": "ufficio",
+      "distractors": [],
+      "hints": ["I work in the office."],
+      "target_words": ["ufficio"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Studio all' ___.",
+      "correct_answer": "università",
+      "distractors": [],
+      "hints": ["I study at university."],
+      "target_words": ["università"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Leggo un ___.",
+      "correct_answer": "giornale",
+      "distractors": [],
+      "hints": ["I read a newspaper."],
+      "target_words": ["giornale"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Scrivo al ___.",
+      "correct_answer": "computer",
+      "distractors": [],
+      "hints": ["I write at the computer."],
+      "target_words": ["computer"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'office' in Italian?" },
+      "sentence_context": "L'ufficio è grande.",
+      "correct_answer": "ufficio",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["ufficio"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'school' in Italian?" },
+      "sentence_context": "La scuola è grande.",
+      "correct_answer": "scuola",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["scuola"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'lesson' in Italian?" },
+      "sentence_context": "La lezione è interessante.",
+      "correct_answer": "lezione",
+      "distractors": [],
+      "hints": ["A feminine noun ending in -e."],
+      "target_words": ["lezione"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'class' in Italian?" },
+      "sentence_context": "La classe è piccola.",
+      "correct_answer": "classe",
+      "distractors": [],
+      "hints": ["A feminine noun ending in -e."],
+      "target_words": ["classe"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-17",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'newspaper' in Italian?" },
+      "sentence_context": "Leggo il giornale.",
+      "correct_answer": "giornale",
+      "distractors": [],
+      "hints": ["You read it daily."],
+      "target_words": ["giornale"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I work in the office.'" },
+      "sentence_context": "Lavoro in ufficio.",
+      "correct_answer": ["Lavoro", "in", "ufficio."],
+      "distractors": ["scuola", "lavora"],
+      "hints": ["Use 'in' + ufficio."],
+      "target_words": ["ufficio"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Anna studies at the university.'" },
+      "sentence_context": "Anna studia all'università.",
+      "correct_answer": ["Anna", "studia", "all'università."],
+      "distractors": ["scuola", "ufficio"],
+      "hints": ["Use 'all'' + università."],
+      "target_words": ["università"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I read the newspaper at home.'" },
+      "sentence_context": "Leggo il giornale a casa.",
+      "correct_answer": ["Leggo", "il", "giornale", "a", "casa."],
+      "distractors": ["scrivo", "libro"],
+      "hints": ["Verb + object + 'a casa'."],
+      "target_words": ["giornale"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The lesson is interesting.'" },
+      "sentence_context": "La lezione è interessante.",
+      "correct_answer": ["La", "lezione", "è", "interessante."],
+      "distractors": ["lezioni", "noiosa"],
+      "hints": ["Feminine noun."],
+      "target_words": ["lezione"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "lavoro", "meaning": "Work / job", "example": "Il lavoro è importante." },
+    { "word": "scuola", "meaning": "School", "example": "La scuola è grande." },
+    { "word": "ufficio", "meaning": "Office", "example": "Lavoro in ufficio." },
+    { "word": "università", "meaning": "University", "example": "Studio all'università." },
+    { "word": "classe", "meaning": "Class (group / room)", "example": "La classe è piccola." },
+    { "word": "lezione", "meaning": "Lesson", "example": "La lezione è interessante." },
+    { "word": "professione", "meaning": "Profession / job", "example": "Che professione hai?" },
+    { "word": "giornale", "meaning": "Newspaper", "example": "Leggo il giornale." },
+    { "word": "computer", "meaning": "Computer", "example": "Scrivo al computer." }
+  ]
+}

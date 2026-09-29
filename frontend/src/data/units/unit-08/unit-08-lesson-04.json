@@ -1,0 +1,281 @@
+{
+  "id": "unit-08-lesson-04",
+  "unit_id": "unit-08",
+  "name": "Possessives I — Mio, Tuo, Suo",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-08-lesson-04-tip-01",
+      "title": "Possessives Agree With the Thing",
+      "explanation": "Italian possessives agree with the thing owned, not the owner. 'Il mio libro' (my book, masculine), 'la mia casa' (my house, feminine). 'Suo' covers both his AND her: 'il suo cane' = his/her dog.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-08-lesson-04-tip-02",
+      "title": "Use the Article",
+      "explanation": "Normally a possessive takes the definite article: 'il mio cane', 'la tua macchina', 'il suo libro'. Don't drop the 'il' or 'la'.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-08-lesson-04-tip-03",
+      "title": "The Family Exception",
+      "explanation": "With ONE family member, drop the article: 'mio padre' (not 'il mio padre'), 'tua sorella', 'sua madre'. The rule only applies to a single, unmodified family member.",
+      "before_exercise": 13
+    },
+    {
+      "id": "unit-08-lesson-04-tip-04",
+      "title": "But Plural Family Keeps the Article",
+      "explanation": "When the family member is plural, the article comes back: 'i miei fratelli' (my brothers), 'le tue sorelle' (your sisters), 'i miei nonni' (my grandparents).",
+      "before_exercise": 19
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-08-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'il mio' mean?" },
+      "sentence_context": "Il mio cane è piccolo.",
+      "correct_answer": "My",
+      "distractors": ["Your", "His/Her", "Our"],
+      "hints": ["My dog is small."],
+      "target_words": ["mio"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'la tua' mean?" },
+      "sentence_context": "La tua macchina è rossa.",
+      "correct_answer": "Your",
+      "distractors": ["My", "His/Her", "Their"],
+      "hints": ["Your car is red."],
+      "target_words": ["tuo"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'il suo' mean?" },
+      "sentence_context": "Il suo libro è interessante.",
+      "correct_answer": "His/Her",
+      "distractors": ["My", "Your", "Our"],
+      "hints": ["'Suo' covers both his and her."],
+      "target_words": ["suo"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which is correct for 'my mother'?" },
+      "sentence_context": "Mia madre è gentile.",
+      "correct_answer": "mia madre",
+      "distractors": ["la mia madre", "mio madre", "il mia madre"],
+      "hints": ["One family member — no article."],
+      "target_words": ["mio"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which is correct for 'my brothers' (plural)?" },
+      "sentence_context": "I miei fratelli sono alti.",
+      "correct_answer": "i miei fratelli",
+      "distractors": ["miei fratelli", "mio fratelli", "la mia fratelli"],
+      "hints": ["Plural family → article comes back."],
+      "target_words": ["mio"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La ___ casa è grande.",
+      "correct_answer": "mia",
+      "distractors": [],
+      "hints": ["My house is big."],
+      "target_words": ["mio"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ___ gatto è nero.",
+      "correct_answer": "mio",
+      "distractors": [],
+      "hints": ["My cat is black."],
+      "target_words": ["mio"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La ___ borsa è nuova.",
+      "correct_answer": "tua",
+      "distractors": [],
+      "hints": ["Your bag is new."],
+      "target_words": ["tuo"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La ___ macchina è rossa.",
+      "correct_answer": "sua",
+      "distractors": [],
+      "hints": ["His/her car is red."],
+      "target_words": ["suo"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-10",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'my' so it agrees with 'libro' (masculine)." },
+      "sentence_context": "Il ___ libro è vecchio.",
+      "correct_answer": "mio",
+      "distractors": [],
+      "hints": ["Masculine → mio."],
+      "target_words": ["mio"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'my' so it agrees with 'penna' (feminine)." },
+      "sentence_context": "La ___ penna è rossa.",
+      "correct_answer": "mia",
+      "distractors": [],
+      "hints": ["Feminine → mia."],
+      "target_words": ["mio"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-12",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'your' so it agrees with 'casa' (feminine)." },
+      "sentence_context": "La ___ casa è bella.",
+      "correct_answer": "tua",
+      "distractors": [],
+      "hints": ["Feminine → tua."],
+      "target_words": ["tuo"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'his/her' so it agrees with 'cane' (masculine)." },
+      "sentence_context": "Il ___ cane è simpatico.",
+      "correct_answer": "suo",
+      "distractors": [],
+      "hints": ["Masculine → suo."],
+      "target_words": ["suo"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'my' before a family member — no article." },
+      "sentence_context": "___ madre è gentile.",
+      "correct_answer": "Mia",
+      "distractors": [],
+      "hints": ["One family member → 'Mia madre', not 'La mia madre'."],
+      "target_words": ["mio"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'your' before a family member — no article." },
+      "sentence_context": "___ fratello è alto.",
+      "correct_answer": "Tuo",
+      "distractors": [],
+      "hints": ["One family member → 'Tuo fratello'."],
+      "target_words": ["tuo"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'his/her' before a family member — no article." },
+      "sentence_context": "___ sorella è giovane.",
+      "correct_answer": "Sua",
+      "distractors": [],
+      "hints": ["One family member → 'Sua sorella'."],
+      "target_words": ["suo"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'my' with a plural family — article comes back." },
+      "sentence_context": "I ___ fratelli sono simpatici.",
+      "correct_answer": "miei",
+      "distractors": [],
+      "hints": ["Plural family → 'i miei fratelli'."],
+      "target_words": ["mio"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'your' with a plural family — article comes back." },
+      "sentence_context": "Le ___ sorelle sono giovani.",
+      "correct_answer": "tue",
+      "distractors": [],
+      "hints": ["Plural feminine → 'le tue sorelle'."],
+      "target_words": ["tuo"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'My dog is small.'" },
+      "sentence_context": "Il mio cane è piccolo.",
+      "correct_answer": ["Il", "mio", "cane", "è", "piccolo."],
+      "distractors": ["mia", "tuo"],
+      "hints": ["Article + possessive + noun."],
+      "target_words": ["mio"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'My sister is nice.'" },
+      "sentence_context": "Mia sorella è simpatica.",
+      "correct_answer": ["Mia", "sorella", "è", "simpatica."],
+      "distractors": ["La", "mio"],
+      "hints": ["One family member — no article."],
+      "target_words": ["mio"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'His mother is kind.'" },
+      "sentence_context": "Sua madre è gentile.",
+      "correct_answer": ["Sua", "madre", "è", "gentile."],
+      "distractors": ["La", "suo"],
+      "hints": ["One family member — no article."],
+      "target_words": ["suo"]
+    },
+    {
+      "id": "unit-08-lesson-04-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'My grandparents are old.'" },
+      "sentence_context": "I miei nonni sono vecchi.",
+      "correct_answer": ["I", "miei", "nonni", "sono", "vecchi."],
+      "distractors": ["mio", "nonno"],
+      "hints": ["Plural family → keep the article."],
+      "target_words": ["mio"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "mio", "meaning": "My", "example": "Il mio cane è piccolo." },
+    { "word": "tuo", "meaning": "Your (informal)", "example": "La tua macchina è rossa." },
+    { "word": "suo", "meaning": "His / her", "example": "Il suo libro è interessante." }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "unit-07-lesson-04",
+  "unit_id": "unit-07",
+  "name": "Nationalities II (-e)",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-07-lesson-04-tip-01",
+      "title": "Nationalities Ending in -e",
+      "explanation": "Some nationalities end in -e: francese, inglese, cinese, giapponese, portoghese, canadese. Like 'grande' or 'gentile', these don't change for gender — 'un uomo francese', 'una donna francese'.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-07-lesson-04-tip-02",
+      "title": "Plural: -i",
+      "explanation": "In the plural, -e nationalities take -i: 'due ragazzi francesi', 'tre amiche inglesi'. The plural is the same for masculine and feminine.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-07-lesson-04-tip-03",
+      "title": "Spotting -ese Words",
+      "explanation": "Many -e nationalities end in -ese: francese, inglese, portoghese, cinese, giapponese, canadese. The -ese ending is a clue you're looking at a nationality.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-07-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'francese' mean?" },
+      "sentence_context": "Anna è francese.",
+      "correct_answer": "French",
+      "distractors": ["Italian", "Spanish", "English"],
+      "hints": ["From France."],
+      "target_words": ["francese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'inglese' mean?" },
+      "sentence_context": "La donna è inglese.",
+      "correct_answer": "English",
+      "distractors": ["French", "German", "Chinese"],
+      "hints": ["From England."],
+      "target_words": ["inglese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'cinese' mean?" },
+      "sentence_context": "L'amico è cinese.",
+      "correct_answer": "Chinese",
+      "distractors": ["Japanese", "French", "Portuguese"],
+      "hints": ["From China."],
+      "target_words": ["cinese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'giapponese' mean?" },
+      "sentence_context": "Il ragazzo è giapponese.",
+      "correct_answer": "Japanese",
+      "distractors": ["Chinese", "Canadian", "Portuguese"],
+      "hints": ["From Japan."],
+      "target_words": ["giapponese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'portoghese' mean?" },
+      "sentence_context": "L'uomo è portoghese.",
+      "correct_answer": "Portuguese",
+      "distractors": ["Spanish", "French", "Italian"],
+      "hints": ["From Portugal."],
+      "target_words": ["portoghese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'canadese' mean?" },
+      "sentence_context": "Il ragazzo è canadese.",
+      "correct_answer": "Canadian",
+      "distractors": ["American", "Australian", "English"],
+      "hints": ["From Canada."],
+      "target_words": ["canadese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La donna è ___.",
+      "correct_answer": "francese",
+      "distractors": [],
+      "hints": ["The woman is French."],
+      "target_words": ["francese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ragazzo è ___.",
+      "correct_answer": "inglese",
+      "distractors": [],
+      "hints": ["The boy is English."],
+      "target_words": ["inglese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "L'amica è ___.",
+      "correct_answer": "giapponese",
+      "distractors": [],
+      "hints": ["The (female) friend is Japanese."],
+      "target_words": ["giapponese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'French' in Italian?" },
+      "sentence_context": "Anna è francese.",
+      "correct_answer": "francese",
+      "distractors": [],
+      "hints": ["Ends in -ese."],
+      "target_words": ["francese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'English' in Italian?" },
+      "sentence_context": "La donna è inglese.",
+      "correct_answer": "inglese",
+      "distractors": [],
+      "hints": ["Ends in -ese."],
+      "target_words": ["inglese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'Chinese' in Italian?" },
+      "sentence_context": "L'amico è cinese.",
+      "correct_answer": "cinese",
+      "distractors": [],
+      "hints": ["Ends in -ese."],
+      "target_words": ["cinese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'Portuguese' in Italian?" },
+      "sentence_context": "L'uomo è portoghese.",
+      "correct_answer": "portoghese",
+      "distractors": [],
+      "hints": ["Ends in -ese."],
+      "target_words": ["portoghese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'French' — note this -e nationality doesn't change for gender." },
+      "sentence_context": "Il ragazzo è ___.",
+      "correct_answer": "francese",
+      "distractors": [],
+      "hints": ["-e nationalities stay the same."],
+      "target_words": ["francese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'English' — note this -e nationality doesn't change for gender." },
+      "sentence_context": "La donna è ___.",
+      "correct_answer": "inglese",
+      "distractors": [],
+      "hints": ["Same form for masculine and feminine."],
+      "target_words": ["inglese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'Japanese' (plural) — -e becomes -i in plural." },
+      "sentence_context": "I ragazzi sono ___.",
+      "correct_answer": "giapponesi",
+      "distractors": [],
+      "hints": ["Plural of giapponese."],
+      "target_words": ["giapponese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Anna is French.'" },
+      "sentence_context": "Anna è francese.",
+      "correct_answer": ["Anna", "è", "francese."],
+      "distractors": ["italiana", "francesi"],
+      "hints": ["-e nationalities don't change for gender."],
+      "target_words": ["francese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I have a Chinese friend.'" },
+      "sentence_context": "Ho un amico cinese.",
+      "correct_answer": ["Ho", "un", "amico", "cinese."],
+      "distractors": ["cinesi", "italiana"],
+      "hints": ["The nationality comes after the noun."],
+      "target_words": ["cinese"]
+    },
+    {
+      "id": "unit-07-lesson-04-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The English students are tired.'" },
+      "sentence_context": "Gli studenti inglesi sono stanchi.",
+      "correct_answer": ["Gli", "studenti", "inglesi", "sono", "stanchi."],
+      "distractors": ["inglese", "italiana"],
+      "hints": ["Plural -e → -i: inglesi."],
+      "target_words": ["inglese"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "francese", "meaning": "French", "example": "Anna è francese." },
+    { "word": "inglese", "meaning": "English", "example": "La donna è inglese." },
+    { "word": "cinese", "meaning": "Chinese", "example": "L'amico è cinese." },
+    { "word": "giapponese", "meaning": "Japanese", "example": "Il ragazzo è giapponese." },
+    { "word": "portoghese", "meaning": "Portuguese", "example": "L'uomo è portoghese." },
+    { "word": "canadese", "meaning": "Canadian", "example": "Il ragazzo è canadese." }
+  ]
+}

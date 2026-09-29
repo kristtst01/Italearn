@@ -1,0 +1,61 @@
+{
+  "id": "unit-15-lesson-04",
+  "unit_id": "unit-15",
+  "name": "Practice Writing",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-15-lesson-04-tip-01",
+      "title": "Making Plans",
+      "explanation": "Now write about plans, invitations and obligations. Combine volere, potere, dovere with infinitives, and include days, times and places.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-15-lesson-04-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Invite a friend to do something. Say what, when and where. (2-3 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Vuoi venire al cinema stasera? Andiamo alle otto. C'è un film italiano.",
+      "distractors": [],
+      "hints": ["Use 'Vuoi venire' + activity + time."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-04-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Refuse an invitation politely — explain why. (2-3 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Mi dispiace, non posso venire. Devo lavorare stasera. Possiamo andare domani?",
+      "distractors": [],
+      "hints": ["'Mi dispiace, non posso' + 'devo' + reason."],
+      "target_words": ["potere", "dovere"]
+    },
+    {
+      "id": "unit-15-lesson-04-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Talk about three things you have to do this week. (3 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Lunedì devo lavorare tutto il giorno. Martedì devo studiare per l'esame. Sabato devo fare la spesa.",
+      "distractors": [],
+      "hints": ["Day + 'devo' + infinitive."],
+      "target_words": ["dovere"]
+    },
+    {
+      "id": "unit-15-lesson-04-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Order something politely at a café and ask the price. (2-3 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Vorrei un caffè e un tè, per favore. Quanto costa? Grazie!",
+      "distractors": [],
+      "hints": ["'Vorrei' + items + 'Quanto costa?'."],
+      "target_words": ["volere"]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,270 @@
+{
+  "id": "unit-06-lesson-02",
+  "unit_id": "unit-06",
+  "name": "New, Old & Condition",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-06-lesson-02-tip-01",
+      "title": "Describing Condition",
+      "explanation": "These adjectives describe the state of a thing — new or old, clean or dirty, full or empty. They agree with the noun and come after it: 'una macchina nuova', 'un tavolo pulito'.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-06-lesson-02-tip-02",
+      "title": "Opposites Help",
+      "explanation": "Learn these as pairs of opposites: nuovo/vecchio (new/old), pulito/sporco (clean/dirty), pieno/vuoto (full/empty). Pairs are easier to remember together.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-06-lesson-02-tip-03",
+      "title": "Bello Before the Noun",
+      "explanation": "'Bello' often comes before the noun and can change shape there (un bel cane). At A1, the safe rule is to place it after the noun like other adjectives: 'un cane bello' is also fine.",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-06-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'nuovo' mean?" },
+      "sentence_context": "Ho una macchina nuova.",
+      "correct_answer": "New",
+      "distractors": ["Old", "Clean", "Empty"],
+      "hints": ["I have a new car."],
+      "target_words": ["nuovo"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'vecchio' mean?" },
+      "sentence_context": "Lo specchio è vecchio.",
+      "correct_answer": "Old",
+      "distractors": ["New", "Dirty", "Full"],
+      "hints": ["The mirror is old."],
+      "target_words": ["vecchio"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'bello' mean?" },
+      "sentence_context": "Il giardino è bello.",
+      "correct_answer": "Beautiful / nice",
+      "distractors": ["Ugly", "Old", "Dirty"],
+      "hints": ["The garden is beautiful."],
+      "target_words": ["bello"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'brutto' mean?" },
+      "sentence_context": "Il tavolo è brutto.",
+      "correct_answer": "Ugly",
+      "distractors": ["Beautiful", "New", "Clean"],
+      "hints": ["The opposite of 'bello'."],
+      "target_words": ["brutto"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'pulito' mean?" },
+      "sentence_context": "Il bagno è pulito.",
+      "correct_answer": "Clean",
+      "distractors": ["Dirty", "Empty", "Old"],
+      "hints": ["The bathroom is clean."],
+      "target_words": ["pulito"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sporco' mean?" },
+      "sentence_context": "Il tavolo è sporco.",
+      "correct_answer": "Dirty",
+      "distractors": ["Clean", "Full", "New"],
+      "hints": ["The opposite of 'pulito'."],
+      "target_words": ["sporco"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La borsa è ___.",
+      "correct_answer": "piena",
+      "distractors": [],
+      "hints": ["The bag is full."],
+      "target_words": ["pieno"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La stanza è ___.",
+      "correct_answer": "vuota",
+      "distractors": [],
+      "hints": ["The room is empty."],
+      "target_words": ["vuoto"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il telefono è ___.",
+      "correct_answer": "rotto",
+      "distractors": [],
+      "hints": ["The phone is broken."],
+      "target_words": ["rotto"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il telefono è ___.",
+      "correct_answer": "nuovo",
+      "distractors": [],
+      "hints": ["The phone is new."],
+      "target_words": ["nuovo"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'old' (masculine) in Italian?" },
+      "sentence_context": "Il libro è vecchio.",
+      "correct_answer": "vecchio",
+      "distractors": [],
+      "hints": ["The opposite of 'nuovo'."],
+      "target_words": ["vecchio"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'clean' (masculine) in Italian?" },
+      "sentence_context": "Il giardino è pulito.",
+      "correct_answer": "pulito",
+      "distractors": [],
+      "hints": ["The opposite of 'sporco'."],
+      "target_words": ["pulito"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'empty' (masculine) in Italian?" },
+      "sentence_context": "Il bicchiere è vuoto.",
+      "correct_answer": "vuoto",
+      "distractors": [],
+      "hints": ["The opposite of 'pieno'."],
+      "target_words": ["vuoto"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'broken' (masculine) in Italian?" },
+      "sentence_context": "Il tavolo è rotto.",
+      "correct_answer": "rotto",
+      "distractors": [],
+      "hints": ["Something that no longer works."],
+      "target_words": ["rotto"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'new' so it agrees with 'la macchina' (feminine)." },
+      "sentence_context": "La macchina è ___.",
+      "correct_answer": "nuova",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: nuova."],
+      "target_words": ["nuovo"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'dirty' so it agrees with 'la finestra' (feminine)." },
+      "sentence_context": "La finestra è ___.",
+      "correct_answer": "sporca",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: sporca."],
+      "target_words": ["sporco"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'old' so it agrees with 'la casa' (feminine)." },
+      "sentence_context": "La casa è ___.",
+      "correct_answer": "vecchia",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: vecchia."],
+      "target_words": ["vecchio"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'clean' so it agrees with 'la cucina' (feminine)." },
+      "sentence_context": "La cucina è ___.",
+      "correct_answer": "pulita",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: pulita."],
+      "target_words": ["pulito"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I have a new car.'" },
+      "sentence_context": "Ho una macchina nuova.",
+      "correct_answer": ["Ho", "una", "macchina", "nuova."],
+      "distractors": ["nuovo", "vecchia"],
+      "hints": ["'Macchina' is feminine → nuova."],
+      "target_words": ["nuovo"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The garden is beautiful.'" },
+      "sentence_context": "Il giardino è bello.",
+      "correct_answer": ["Il", "giardino", "è", "bello."],
+      "distractors": ["brutto", "bella"],
+      "hints": ["Masculine noun → bello."],
+      "target_words": ["bello"]
+    },
+    {
+      "id": "unit-06-lesson-02-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The room is empty.'" },
+      "sentence_context": "La stanza è vuota.",
+      "correct_answer": ["La", "stanza", "è", "vuota."],
+      "distractors": ["piena", "vuoto"],
+      "hints": ["'Stanza' is feminine → vuota."],
+      "target_words": ["vuoto"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "nuovo", "meaning": "New", "example": "Ho una macchina nuova." },
+    { "word": "vecchio", "meaning": "Old", "example": "Lo specchio è vecchio." },
+    { "word": "bello", "meaning": "Beautiful / nice", "example": "Il giardino è bello." },
+    { "word": "brutto", "meaning": "Ugly", "example": "Il tavolo è brutto." },
+    { "word": "pulito", "meaning": "Clean", "example": "Il bagno è pulito." },
+    { "word": "sporco", "meaning": "Dirty", "example": "Il tavolo è sporco." },
+    { "word": "pieno", "meaning": "Full", "example": "La borsa è piena." },
+    { "word": "vuoto", "meaning": "Empty", "example": "La stanza è vuota." },
+    { "word": "rotto", "meaning": "Broken", "example": "Il telefono è rotto." }
+  ]
+}

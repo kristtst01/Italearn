@@ -1,0 +1,61 @@
+{
+  "id": "unit-17-lesson-05",
+  "unit_id": "unit-17",
+  "name": "Practice Writing",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-17-lesson-05-tip-01",
+      "title": "Shopping",
+      "explanation": "Write about shopping. Use demonstratives (questo / quello), clothes, sizes, money, and asking prices.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-17-lesson-05-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe what you are wearing today. (3-4 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Oggi porto i pantaloni neri e una maglia bianca. Le scarpe sono marroni. Ho anche un cappotto blu.",
+      "distractors": [],
+      "hints": ["Use 'porto' or 'metto' + clothes + colours."],
+      "target_words": ["pantaloni", "maglia", "scarpe"]
+    },
+    {
+      "id": "unit-17-lesson-05-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "You're shopping for clothes — write a small dialogue with the shop assistant. (3-4 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Vorrei provare questa maglia. Che taglia hai? Ho la taglia media. Quanto costa?",
+      "distractors": [],
+      "hints": ["Use 'vorrei provare', 'che taglia', 'quanto costa'."],
+      "target_words": ["provare", "taglia"]
+    },
+    {
+      "id": "unit-17-lesson-05-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Compare two things in a shop — which is more expensive, which is cheaper. Use 'questo' and 'quello'. (3-4 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Questa maglia costa venti euro. Quella costa trenta euro. Questa è economica, quella è cara. Preferisco questa.",
+      "distractors": [],
+      "hints": ["Use 'questo/quello' + price + 'economico/caro'."],
+      "target_words": ["questo", "quello", "economico"]
+    },
+    {
+      "id": "unit-17-lesson-05-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "You buy something — say what, how much it costs, and how you pay. (3-4 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Compro un cappotto e una sciarpa. Il cappotto costa cento euro, la sciarpa venti. C'è uno sconto. Pago in contanti.",
+      "distractors": [],
+      "hints": ["Use 'compro', prices, 'sconto', 'pagare in contanti / con la carta'."],
+      "target_words": ["cappotto", "sciarpa", "sconto", "pagare"]
+    }
+  ],
+  "vocabulary": []
+}

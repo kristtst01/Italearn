@@ -1,0 +1,818 @@
+{
+  "id": "unit-11-lesson-04",
+  "unit_id": "unit-11",
+  "name": "Connectors & Discourse",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-11-lesson-04-tip-01",
+      "title": "Time Sequence",
+      "explanation": "Connect events in time: 'prima' (before/first), 'poi' (then), 'dopo' (after). 'Prima mangio, poi lavoro' = First I eat, then I work.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-11-lesson-04-tip-02",
+      "title": "So & Therefore",
+      "explanation": "'Allora' (so / then) starts many Italian sentences. 'Quindi' (so / therefore) is more logical. 'Così' (so / thus) often shows result: 'Così è meglio' = This way it's better.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-11-lesson-04-tip-03",
+      "title": "Really & Almost",
+      "explanation": "'Davvero' and 'veramente' both mean 'really / truly'. 'Quasi' = almost. 'Appena' = just / barely. 'Abbastanza' = enough / quite.",
+      "before_exercise": 14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-11-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'allora' mean?"
+      },
+      "sentence_context": "Allora, cosa facciamo?",
+      "correct_answer": "So / well then",
+      "distractors": [
+        "Now",
+        "Never",
+        "Yet"
+      ],
+      "hints": [
+        "A common opener."
+      ],
+      "target_words": [
+        "allora"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'poi' mean?"
+      },
+      "sentence_context": "Prima mangio, poi lavoro.",
+      "correct_answer": "Then",
+      "distractors": [
+        "Before",
+        "Now",
+        "Later"
+      ],
+      "hints": [
+        "First I eat, then I work."
+      ],
+      "target_words": [
+        "poi"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'dopo' mean?"
+      },
+      "sentence_context": "Vengo dopo.",
+      "correct_answer": "After / afterwards",
+      "distractors": [
+        "Before",
+        "Now",
+        "Soon"
+      ],
+      "hints": [
+        "I'll come after."
+      ],
+      "target_words": [
+        "dopo"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'prima' mean (as adverb)?"
+      },
+      "sentence_context": "Prima mangio, poi esco.",
+      "correct_answer": "First / before",
+      "distractors": [
+        "After",
+        "Now",
+        "Then"
+      ],
+      "hints": [
+        "First I eat, then I go out."
+      ],
+      "target_words": [
+        "prima"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'così' mean here?"
+      },
+      "sentence_context": "Così è meglio.",
+      "correct_answer": "So / this way",
+      "distractors": [
+        "Almost",
+        "Never",
+        "Already"
+      ],
+      "hints": [
+        "This way it's better."
+      ],
+      "target_words": [
+        "così"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'quindi' mean?"
+      },
+      "sentence_context": "Sono stanco, quindi vado a casa.",
+      "correct_answer": "So / therefore",
+      "distractors": [
+        "But",
+        "However",
+        "Also"
+      ],
+      "hints": [
+        "I'm tired, so I'm going home."
+      ],
+      "target_words": [
+        "quindi"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'davvero' mean?"
+      },
+      "sentence_context": "Davvero?",
+      "correct_answer": "Really?",
+      "distractors": [
+        "When?",
+        "Why?",
+        "How?"
+      ],
+      "hints": [
+        "A common reaction."
+      ],
+      "target_words": [
+        "davvero"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'veramente' mean?"
+      },
+      "sentence_context": "Veramente buono!",
+      "correct_answer": "Really / truly",
+      "distractors": [
+        "Maybe",
+        "Almost",
+        "Hardly"
+      ],
+      "hints": [
+        "Really good!"
+      ],
+      "target_words": [
+        "veramente"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'comunque' mean?"
+      },
+      "sentence_context": "Comunque, vado.",
+      "correct_answer": "Anyway",
+      "distractors": [
+        "Never",
+        "However only",
+        "Therefore"
+      ],
+      "hints": [
+        "Anyway, I'm going."
+      ],
+      "target_words": [
+        "comunque"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'almeno' mean?"
+      },
+      "sentence_context": "Almeno tre persone.",
+      "correct_answer": "At least",
+      "distractors": [
+        "At most",
+        "Almost",
+        "Only"
+      ],
+      "hints": [
+        "At least three people."
+      ],
+      "target_words": [
+        "almeno"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-11",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'abbastanza' mean?"
+      },
+      "sentence_context": "È abbastanza buono.",
+      "correct_answer": "Enough / quite",
+      "distractors": [
+        "Too",
+        "Very",
+        "Almost"
+      ],
+      "hints": [
+        "It's quite good / good enough."
+      ],
+      "target_words": [
+        "abbastanza"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-12",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'invece' mean?"
+      },
+      "sentence_context": "Non vengo, invece resto a casa.",
+      "correct_answer": "Instead",
+      "distractors": [
+        "Also",
+        "Then",
+        "However"
+      ],
+      "hints": [
+        "I'm not coming, instead I'm staying home."
+      ],
+      "target_words": [
+        "invece"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-13",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'quasi' mean?"
+      },
+      "sentence_context": "Quasi pronto.",
+      "correct_answer": "Almost",
+      "distractors": [
+        "Very",
+        "Just",
+        "Already"
+      ],
+      "hints": [
+        "Almost ready."
+      ],
+      "target_words": [
+        "quasi"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-14",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'appena' mean?"
+      },
+      "sentence_context": "Sono appena arrivato.",
+      "correct_answer": "Just (now)",
+      "distractors": [
+        "Almost",
+        "Never",
+        "Soon"
+      ],
+      "hints": [
+        "I've just arrived."
+      ],
+      "target_words": [
+        "appena"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-15",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'mentre' mean?"
+      },
+      "sentence_context": "Mentre mangio, leggo.",
+      "correct_answer": "While",
+      "distractors": [
+        "Before",
+        "After",
+        "Until"
+      ],
+      "hints": [
+        "While I eat, I read."
+      ],
+      "target_words": [
+        "mentre"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-16",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'fino' mean here?"
+      },
+      "sentence_context": "Lavoro fino alle cinque.",
+      "correct_answer": "Until / up to",
+      "distractors": [
+        "Since",
+        "From",
+        "After"
+      ],
+      "hints": [
+        "I work until five."
+      ],
+      "target_words": [
+        "fino"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-17",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'neanche' mean?"
+      },
+      "sentence_context": "Non vengo neanche io.",
+      "correct_answer": "Not even / neither",
+      "distractors": [
+        "Also",
+        "Only",
+        "Always"
+      ],
+      "hints": [
+        "Not even I am coming."
+      ],
+      "target_words": [
+        "neanche"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-18",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'nemmeno' mean?"
+      },
+      "sentence_context": "Non parlo nemmeno francese.",
+      "correct_answer": "Not even",
+      "distractors": [
+        "Also",
+        "Already",
+        "Always"
+      ],
+      "hints": [
+        "Same as 'neanche'."
+      ],
+      "target_words": [
+        "nemmeno"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-19",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: 'First I eat, then I sleep.'"
+      },
+      "sentence_context": "Prima mangio, ___ dormo.",
+      "correct_answer": "poi",
+      "distractors": [],
+      "hints": [
+        "Then = poi."
+      ],
+      "target_words": [
+        "poi"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-20",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: \"So what shall we do?\""
+      },
+      "sentence_context": "___ , cosa facciamo?",
+      "correct_answer": "Allora",
+      "distractors": [],
+      "hints": [
+        "Common opener."
+      ],
+      "target_words": [
+        "allora"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-21",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: 'I am tired, so I am going home.'"
+      },
+      "sentence_context": "Sono stanco, ___ vado a casa.",
+      "correct_answer": "quindi",
+      "distractors": [],
+      "hints": [
+        "Therefore / so."
+      ],
+      "target_words": [
+        "quindi"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-22",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: 'It's almost ready.'"
+      },
+      "sentence_context": "È ___ pronto.",
+      "correct_answer": "quasi",
+      "distractors": [],
+      "hints": [
+        "Almost."
+      ],
+      "target_words": [
+        "quasi"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-23",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: \"I've just arrived.\""
+      },
+      "sentence_context": "Sono ___ arrivato.",
+      "correct_answer": "appena",
+      "distractors": [],
+      "hints": [
+        "Just now."
+      ],
+      "target_words": [
+        "appena"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-24",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'really?' (one word) in Italian?"
+      },
+      "sentence_context": "Davvero?",
+      "correct_answer": "davvero",
+      "distractors": [],
+      "hints": [
+        "A common reaction."
+      ],
+      "target_words": [
+        "davvero"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-25",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'anyway' in Italian?"
+      },
+      "sentence_context": "Comunque, vado.",
+      "correct_answer": "comunque",
+      "distractors": [],
+      "hints": [
+        "Used at the start of a sentence often."
+      ],
+      "target_words": [
+        "comunque"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-26",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'while' in Italian?"
+      },
+      "sentence_context": "Mentre mangio, leggo.",
+      "correct_answer": "mentre",
+      "distractors": [],
+      "hints": [
+        "Connects two simultaneous actions."
+      ],
+      "target_words": [
+        "mentre"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-27",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'First I work, then I rest.'"
+      },
+      "sentence_context": "Prima lavoro, poi mi riposo.",
+      "correct_answer": [
+        "Prima",
+        "lavoro,",
+        "poi",
+        "mi",
+        "riposo."
+      ],
+      "distractors": [
+        "dopo",
+        "allora"
+      ],
+      "hints": [
+        "Prima ... poi sequence."
+      ],
+      "target_words": [
+        "prima",
+        "poi"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-28",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'I am tired, so I am going home.'"
+      },
+      "sentence_context": "Sono stanco, quindi vado a casa.",
+      "correct_answer": [
+        "Sono",
+        "stanco,",
+        "quindi",
+        "vado",
+        "a",
+        "casa."
+      ],
+      "distractors": [
+        "però",
+        "ma"
+      ],
+      "hints": [
+        "Cause + 'quindi' + consequence."
+      ],
+      "target_words": [
+        "quindi"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-29",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'tutto' mean?"
+      },
+      "sentence_context": "Tutto bene!",
+      "correct_answer": "All",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "Tutto bene!"
+      ],
+      "target_words": [
+        "tutto"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-30",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'solo' mean?"
+      },
+      "sentence_context": "Vivo solo.",
+      "correct_answer": "Only",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "Vivo solo."
+      ],
+      "target_words": [
+        "solo"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-31",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'troppo' mean?"
+      },
+      "sentence_context": "È troppo caro.",
+      "correct_answer": "Too much",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "È troppo caro."
+      ],
+      "target_words": [
+        "troppo"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-32",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'già' mean?"
+      },
+      "sentence_context": "Sono già qui.",
+      "correct_answer": "Already",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "Sono già qui."
+      ],
+      "target_words": [
+        "già"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-04-ex-33",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'adesso' mean?"
+      },
+      "sentence_context": "Adesso vado.",
+      "correct_answer": "Now",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "Adesso vado."
+      ],
+      "target_words": [
+        "adesso"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "allora",
+      "meaning": "So / well then",
+      "example": "Allora, cosa facciamo?"
+    },
+    {
+      "word": "poi",
+      "meaning": "Then",
+      "example": "Prima mangio, poi lavoro."
+    },
+    {
+      "word": "dopo",
+      "meaning": "After / afterwards",
+      "example": "Vengo dopo."
+    },
+    {
+      "word": "prima",
+      "meaning": "First / before",
+      "example": "Prima mangio, poi esco."
+    },
+    {
+      "word": "così",
+      "meaning": "So / this way",
+      "example": "Così è meglio."
+    },
+    {
+      "word": "quindi",
+      "meaning": "So / therefore",
+      "example": "Sono stanco, quindi vado a casa."
+    },
+    {
+      "word": "davvero",
+      "meaning": "Really",
+      "example": "Davvero?"
+    },
+    {
+      "word": "veramente",
+      "meaning": "Really / truly",
+      "example": "Veramente buono!"
+    },
+    {
+      "word": "comunque",
+      "meaning": "Anyway",
+      "example": "Comunque, vado."
+    },
+    {
+      "word": "almeno",
+      "meaning": "At least",
+      "example": "Almeno tre persone."
+    },
+    {
+      "word": "abbastanza",
+      "meaning": "Enough / quite",
+      "example": "È abbastanza buono."
+    },
+    {
+      "word": "invece",
+      "meaning": "Instead",
+      "example": "Invece resto a casa."
+    },
+    {
+      "word": "quasi",
+      "meaning": "Almost",
+      "example": "Quasi pronto."
+    },
+    {
+      "word": "appena",
+      "meaning": "Just (now)",
+      "example": "Sono appena arrivato."
+    },
+    {
+      "word": "mentre",
+      "meaning": "While",
+      "example": "Mentre mangio, leggo."
+    },
+    {
+      "word": "fino",
+      "meaning": "Until / up to",
+      "example": "Lavoro fino alle cinque."
+    },
+    {
+      "word": "neanche",
+      "meaning": "Not even / neither",
+      "example": "Non vengo neanche io."
+    },
+    {
+      "word": "nemmeno",
+      "meaning": "Not even",
+      "example": "Non parlo nemmeno francese."
+    },
+    {
+      "word": "tutto",
+      "meaning": "All / everything",
+      "example": "Tutto bene!"
+    },
+    {
+      "word": "solo",
+      "meaning": "Only / alone",
+      "example": "Vivo solo."
+    },
+    {
+      "word": "troppo",
+      "meaning": "Too much / too",
+      "example": "È troppo caro."
+    },
+    {
+      "word": "già",
+      "meaning": "Already",
+      "example": "Sono già qui."
+    },
+    {
+      "word": "adesso",
+      "meaning": "Now",
+      "example": "Adesso vado."
+    }
+  ]
+}

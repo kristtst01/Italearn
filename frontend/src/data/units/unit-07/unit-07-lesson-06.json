@@ -1,0 +1,61 @@
+{
+  "id": "unit-07-lesson-06",
+  "unit_id": "unit-07",
+  "name": "Practice Writing",
+  "order": 6,
+  "grammar_tips": [
+    {
+      "id": "unit-07-lesson-06-tip-01",
+      "title": "Talk About Yourself",
+      "explanation": "Write about where you are from, your nationality, and the languages you speak. Use 'sono di' for your city, 'in' for the country, nationality adjectives (agree with you), and 'parlo'. There is no single correct answer.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-07-lesson-06-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Say where you are from. Give your city and the country it is in (2-3 sentences)." },
+      "sentence_context": "",
+      "correct_answer": "Sono di Londra. Londra è in Inghilterra. L'Inghilterra è in Europa.",
+      "distractors": [],
+      "hints": ["Use 'Sono di' + city, then '[city] è in' + country."],
+      "target_words": ["in", "Inghilterra", "Europa"]
+    },
+    {
+      "id": "unit-07-lesson-06-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Say your nationality and describe yourself a little (3-4 sentences)." },
+      "sentence_context": "",
+      "correct_answer": "Sono inglese. Sono alto e simpatico. Ho un fratello. Il mio fratello è giovane e bravo.",
+      "distractors": [],
+      "hints": ["Use 'Sono' + nationality (no article), then adjectives from Unit 6."],
+      "target_words": ["inglese"]
+    },
+    {
+      "id": "unit-07-lesson-06-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Say which languages you speak, how well, and which one you are learning (3-4 sentences)." },
+      "sentence_context": "",
+      "correct_answer": "Parlo inglese e italiano. Parlo un po' di francese. Imparo l'italiano. L'italiano è una bella lingua.",
+      "distractors": [],
+      "hints": ["Use 'Parlo' + languages. Add 'un po' di' for one you speak only a little, and 'Imparo' for one you're learning."],
+      "target_words": ["parlare", "imparare", "un po'", "lingua"]
+    },
+    {
+      "id": "unit-07-lesson-06-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe a friend from another country — name, where they're from, nationality, languages (3-4 sentences)." },
+      "sentence_context": "",
+      "correct_answer": "Il mio amico è Marco. Marco è di Madrid. È spagnolo. Parla spagnolo e un po' di inglese.",
+      "distractors": [],
+      "hints": ["Combine city, country, nationality and language for one person."],
+      "target_words": ["spagnolo", "parlare"]
+    }
+  ],
+  "vocabulary": []
+}

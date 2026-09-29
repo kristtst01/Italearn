@@ -1,0 +1,91 @@
+{
+  "id": "unit-12-lesson-06",
+  "unit_id": "unit-12",
+  "name": "Practice Writing",
+  "order": 6,
+  "grammar_tips": [
+    {
+      "id": "unit-12-lesson-06-tip-01",
+      "title": "Out and About",
+      "explanation": "Use fare, andare, venire, uscire, stare, dare and dire to write about what you do, where you go, and what's happening today and tonight.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-12-lesson-06-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe what you do in a typical day using fare and andare. (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "La mattina faccio colazione a casa. Poi vado al lavoro. A mezzogiorno faccio una pausa. La sera vado a casa.",
+      "distractors": [],
+      "hints": [
+        "Use both 'fare' (with colazione/spesa/sport) and 'andare a' + place."
+      ],
+      "target_words": [
+        "fare",
+        "andare",
+        "colazione"
+      ]
+    },
+    {
+      "id": "unit-12-lesson-06-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Make plans for tonight. Say what you do, who comes with you, and where you go. (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Stasera esco con gli amici. Andiamo al cinema insieme. Marco viene con noi. Dopo facciamo cena a casa mia.",
+      "distractors": [],
+      "hints": [
+        "Use uscire, venire, andare and 'stasera'."
+      ],
+      "target_words": [
+        "uscire",
+        "venire",
+        "stasera",
+        "insieme"
+      ]
+    },
+    {
+      "id": "unit-12-lesson-06-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Talk about how you and your family are. Who is well, who is unwell, what they say. (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Io sto bene. Mio fratello sta male oggi. Mia madre dice che ho un esame domani. Stiamo tutti a casa.",
+      "distractors": [],
+      "hints": [
+        "Use 'sto/sta', 'dico/dice'."
+      ],
+      "target_words": [
+        "stare",
+        "dire"
+      ]
+    },
+    {
+      "id": "unit-12-lesson-06-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Talk about giving something to someone. Include who you give it to and why. (2-3 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Do un libro a mia sorella. È un libro italiano. Mia sorella impara l'italiano.",
+      "distractors": [],
+      "hints": [
+        "Use 'dare' + object + 'a' + person."
+      ],
+      "target_words": [
+        "dare"
+      ]
+    }
+  ],
+  "vocabulary": []
+}

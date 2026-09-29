@@ -1,0 +1,233 @@
+{
+  "id": "unit-16-lesson-05",
+  "unit_id": "unit-16",
+  "name": "Vorrei & Some / Any",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-16-lesson-05-tip-01",
+      "title": "Vorrei — Polite Ordering",
+      "explanation": "'Vorrei' (I would like) is the polite request you use at a bar, café, restaurant, or shop. 'Vorrei un caffè', 'Vorrei la pasta'. Always softer than 'voglio'.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-16-lesson-05-tip-02",
+      "title": "Partitive — Some / Any",
+      "explanation": "To say 'some' or 'any', Italian uses 'di + article' (the same fusion forms from Unit 13!): del (some + masc), della (some + fem), dei/degli/delle (some + plural). 'Vorrei del pane' = I'd like some bread.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-16-lesson-05-tip-03",
+      "title": "Same Forms, New Use",
+      "explanation": "'Del', 'della', 'dei' you already know as 'of the'. Here they mean 'some / any'. Context tells you which: 'la pagina del libro' (of the book) vs 'vorrei del pane' (some bread).",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-16-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What's the right verb to politely ask for a coffee?" },
+      "sentence_context": "___ un caffè, per favore.",
+      "correct_answer": "Vorrei",
+      "distractors": ["Voglio", "Devo", "Posso"],
+      "hints": ["Polite request → vorrei."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'del' mean here?" },
+      "sentence_context": "Vorrei del pane, per favore.",
+      "correct_answer": "Some",
+      "distractors": ["The", "Of the", "From the"],
+      "hints": ["A partitive — 'some / any'."],
+      "target_words": ["del"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'della' mean here?" },
+      "sentence_context": "Mangio della frutta.",
+      "correct_answer": "Some",
+      "distractors": ["The", "Of the", "From the"],
+      "hints": ["Partitive of 'di + la'."],
+      "target_words": ["della"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'dei' mean here?" },
+      "sentence_context": "Vorrei dei panini.",
+      "correct_answer": "Some (masc. plural)",
+      "distractors": ["Two", "The", "Of the"],
+      "hints": ["Partitive for masculine plural."],
+      "target_words": ["dei"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'altro' mean?" },
+      "sentence_context": "Vorrei un altro caffè.",
+      "correct_answer": "Another / other",
+      "distractors": ["A small", "The same", "A big"],
+      "hints": ["I'd like another coffee."],
+      "target_words": ["altro"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ancora' mean here?" },
+      "sentence_context": "Vorrei ancora del vino.",
+      "correct_answer": "Still / more",
+      "distractors": ["Quickly", "Slowly", "Now"],
+      "hints": ["I'd like some more wine."],
+      "target_words": ["ancora"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in 'di + il' to mean 'some bread'." },
+      "sentence_context": "Vorrei ___ pane.",
+      "correct_answer": "del",
+      "distractors": [],
+      "hints": ["di + il = del (some)."],
+      "target_words": ["del"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in 'di + la' to mean 'some pasta'." },
+      "sentence_context": "Vorrei ___ pasta.",
+      "correct_answer": "della",
+      "distractors": [],
+      "hints": ["di + la = della (some)."],
+      "target_words": ["della"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in 'di + i' to mean 'some sandwiches'." },
+      "sentence_context": "Vorrei ___ panini.",
+      "correct_answer": "dei",
+      "distractors": [],
+      "hints": ["di + i = dei (some)."],
+      "target_words": ["dei"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Fill in 'di + le' to mean 'some apples'." },
+      "sentence_context": "Vorrei ___ mele.",
+      "correct_answer": "delle",
+      "distractors": [],
+      "hints": ["di + le = delle (some)."],
+      "target_words": ["delle"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'Another coffee, please.'" },
+      "sentence_context": "Un ___ caffè, per favore.",
+      "correct_answer": "altro",
+      "distractors": [],
+      "hints": ["Another → altro (masculine)."],
+      "target_words": ["altro"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I would like' (polite)?" },
+      "sentence_context": "Vorrei un caffè.",
+      "correct_answer": "vorrei",
+      "distractors": [],
+      "hints": ["The polite form of volere."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'another' (masculine)?" },
+      "sentence_context": "Un altro caffè.",
+      "correct_answer": "altro",
+      "distractors": [],
+      "hints": ["Agrees like an adjective."],
+      "target_words": ["altro"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Make 'altro' feminine: 'another pizza'." },
+      "sentence_context": "Un'___ pizza.",
+      "correct_answer": "altra",
+      "distractors": [],
+      "hints": ["Feminine → altra."],
+      "target_words": ["altro"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I'd like some bread and cheese.'" },
+      "sentence_context": "Vorrei del pane e del formaggio.",
+      "correct_answer": ["Vorrei", "del", "pane", "e", "del", "formaggio."],
+      "distractors": ["della", "voglio"],
+      "hints": ["Partitive with both masculine nouns."],
+      "target_words": ["del", "pane", "formaggio"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I'd like some pasta with tomato.'" },
+      "sentence_context": "Vorrei della pasta al pomodoro.",
+      "correct_answer": ["Vorrei", "della", "pasta", "al", "pomodoro."],
+      "distractors": ["del", "alla"],
+      "hints": ["'Pasta' is feminine → della."],
+      "target_words": ["della", "pasta"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Another glass of wine, please.'" },
+      "sentence_context": "Un altro bicchiere di vino, per favore.",
+      "correct_answer": ["Un", "altro", "bicchiere", "di", "vino,", "per", "favore."],
+      "distractors": ["altra", "una"],
+      "hints": ["Masculine → altro."],
+      "target_words": ["altro"]
+    },
+    {
+      "id": "unit-16-lesson-05-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I want some more water.'" },
+      "sentence_context": "Voglio ancora dell'acqua.",
+      "correct_answer": ["Voglio", "ancora", "dell'acqua."],
+      "distractors": ["dei", "un"],
+      "hints": ["'Ancora' (more) + partitive."],
+      "target_words": ["ancora"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "del", "meaning": "Some (di + il)", "example": "Vorrei del pane." },
+    { "word": "dei", "meaning": "Some (di + i, masc. plural)", "example": "Vorrei dei panini." },
+    { "word": "delle", "meaning": "Some (di + le, fem. plural)", "example": "Vorrei delle mele." },
+    { "word": "altro", "meaning": "Another / other", "example": "Vorrei un altro caffè." },
+    { "word": "ancora", "meaning": "Still / more / again", "example": "Vorrei ancora del vino." }
+  ]
+}

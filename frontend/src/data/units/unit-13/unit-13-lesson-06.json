@@ -1,0 +1,237 @@
+{
+  "id": "unit-13-lesson-06",
+  "unit_id": "unit-13",
+  "name": "Direction & Time",
+  "order": 6,
+  "grammar_tips": [
+    {
+      "id": "unit-13-lesson-06-tip-01",
+      "title": "Forward & Back",
+      "explanation": "'Avanti' (forward / ahead), 'indietro' (back / backwards). 'Avanti!' = Come in! / Go ahead! 'Torna indietro' = Go back.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-13-lesson-06-tip-02",
+      "title": "Against, Without, Toward",
+      "explanation": "'Contro' (against), 'senza' (without), 'verso' (toward). 'Vado verso casa' = I'm heading home. 'Senza zucchero' = without sugar.",
+      "before_exercise": 5
+    },
+    {
+      "id": "unit-13-lesson-06-tip-03",
+      "title": "During, Through, Along, Around",
+      "explanation": "'Durante' (during), 'attraverso' (through / across), 'lungo' (along — also means 'long'!), 'intorno' (around).",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-13-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'avanti' mean?" },
+      "sentence_context": "Vai avanti.",
+      "correct_answer": "Forward / ahead",
+      "distractors": ["Back", "Around", "Away"],
+      "hints": ["Go ahead / forward."],
+      "target_words": ["avanti"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'indietro' mean?" },
+      "sentence_context": "Torna indietro.",
+      "correct_answer": "Back / backwards",
+      "distractors": ["Forward", "Down", "Up"],
+      "hints": ["Go back."],
+      "target_words": ["indietro"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'contro' mean?" },
+      "sentence_context": "Sono contro l'idea.",
+      "correct_answer": "Against",
+      "distractors": ["For", "Without", "With"],
+      "hints": ["I'm against the idea."],
+      "target_words": ["contro"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'senza' mean?" },
+      "sentence_context": "Caffè senza zucchero.",
+      "correct_answer": "Without",
+      "distractors": ["With", "Plus", "Inside"],
+      "hints": ["Coffee without sugar."],
+      "target_words": ["senza"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'verso' mean here?" },
+      "sentence_context": "Vado verso casa.",
+      "correct_answer": "Toward",
+      "distractors": ["From", "Past", "Behind"],
+      "hints": ["I'm heading home."],
+      "target_words": ["verso"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'durante' mean?" },
+      "sentence_context": "Durante la lezione.",
+      "correct_answer": "During",
+      "distractors": ["Before", "After", "Until"],
+      "hints": ["During the lesson."],
+      "target_words": ["durante"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'attraverso' mean?" },
+      "sentence_context": "Passo attraverso il parco.",
+      "correct_answer": "Through / across",
+      "distractors": ["Around", "Past", "Under"],
+      "hints": ["I go through the park."],
+      "target_words": ["attraverso"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'lungo' mean here?" },
+      "sentence_context": "Cammino lungo il fiume.",
+      "correct_answer": "Along",
+      "distractors": ["Across", "Around", "Through"],
+      "hints": ["I walk along the river. (different meaning from 'long')"],
+      "target_words": ["lungo"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'intorno' mean?" },
+      "sentence_context": "Cammino intorno alla piazza.",
+      "correct_answer": "Around",
+      "distractors": ["Across", "Through", "Toward"],
+      "hints": ["I walk around the square."],
+      "target_words": ["intorno"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'Coffee without sugar, please.'" },
+      "sentence_context": "Caffè ___ zucchero, per favore.",
+      "correct_answer": "senza",
+      "distractors": [],
+      "hints": ["Without."],
+      "target_words": ["senza"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'I'm heading toward the station.'" },
+      "sentence_context": "Vado ___ la stazione.",
+      "correct_answer": "verso",
+      "distractors": [],
+      "hints": ["Toward."],
+      "target_words": ["verso"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'During the day I work.'" },
+      "sentence_context": "___ il giorno lavoro.",
+      "correct_answer": "Durante",
+      "distractors": [],
+      "hints": ["During."],
+      "target_words": ["durante"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'Go back, please.'" },
+      "sentence_context": "Vai ___, per favore.",
+      "correct_answer": "indietro",
+      "distractors": [],
+      "hints": ["Backwards."],
+      "target_words": ["indietro"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'without' in Italian?" },
+      "sentence_context": "Senza zucchero.",
+      "correct_answer": "senza",
+      "distractors": [],
+      "hints": ["Opposite of 'con'."],
+      "target_words": ["senza"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'toward' in Italian?" },
+      "sentence_context": "Vado verso casa.",
+      "correct_answer": "verso",
+      "distractors": [],
+      "hints": ["A direction word."],
+      "target_words": ["verso"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'during' in Italian?" },
+      "sentence_context": "Durante la festa.",
+      "correct_answer": "durante",
+      "distractors": [],
+      "hints": ["A time preposition."],
+      "target_words": ["durante"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I want a coffee without sugar.'" },
+      "sentence_context": "Voglio un caffè senza zucchero.",
+      "correct_answer": ["Voglio", "un", "caffè", "senza", "zucchero."],
+      "distractors": ["con", "vino"],
+      "hints": ["Voglio + un caffè + senza + zucchero."],
+      "target_words": ["senza"]
+    },
+    {
+      "id": "unit-13-lesson-06-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'During the lesson, I listen.'" },
+      "sentence_context": "Durante la lezione, ascolto.",
+      "correct_answer": ["Durante", "la", "lezione,", "ascolto."],
+      "distractors": ["mentre", "parlo"],
+      "hints": ["'Durante' + la + noun."],
+      "target_words": ["durante"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "avanti", "meaning": "Forward / ahead", "example": "Vai avanti." },
+    { "word": "indietro", "meaning": "Back / backwards", "example": "Torna indietro." },
+    { "word": "contro", "meaning": "Against", "example": "Sono contro l'idea." },
+    { "word": "senza", "meaning": "Without", "example": "Caffè senza zucchero." },
+    { "word": "verso", "meaning": "Toward", "example": "Vado verso casa." },
+    { "word": "durante", "meaning": "During", "example": "Durante la lezione." },
+    { "word": "attraverso", "meaning": "Through / across", "example": "Passo attraverso il parco." },
+    { "word": "lungo", "meaning": "Along", "example": "Cammino lungo il fiume." },
+    { "word": "intorno", "meaning": "Around", "example": "Cammino intorno alla piazza." }
+  ]
+}

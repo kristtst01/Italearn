@@ -1,0 +1,50 @@
+{
+  "id": "unit-14-lesson-03",
+  "unit_id": "unit-14",
+  "name": "Practice Writing",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-14-lesson-03-tip-01",
+      "title": "Travelling",
+      "explanation": "Write about how you travel — for work, for fun, on a trip. Use transport vocabulary, 'in' + means of transport, prices, and arrival/departure times.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-14-lesson-03-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe how you get to work or school. (2-3 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Vado al lavoro in autobus. La fermata è vicino a casa. Qualche volta vado a piedi.",
+      "distractors": [],
+      "hints": ["Use 'in' + transport, 'a piedi'."],
+      "target_words": ["autobus", "fermata", "piedi"]
+    },
+    {
+      "id": "unit-14-lesson-03-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Plan a trip — where you're going, how, when you leave and arrive. (3-4 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Faccio un viaggio in Italia. Vado in aereo. L'aereo parte alle otto e arriva alle dieci. Poi prendo il treno per Roma.",
+      "distractors": [],
+      "hints": ["Use 'fare un viaggio', 'in aereo', 'partire', 'arrivare'."],
+      "target_words": ["viaggio", "aereo", "partire", "arrivare"]
+    },
+    {
+      "id": "unit-14-lesson-03-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Buy a ticket at the station — write a small dialogue with the price. (3-4 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Vorrei un biglietto per Roma. Andata e ritorno, per favore. Quanto costa? Costa venti euro.",
+      "distractors": [],
+      "hints": ["Use 'Vorrei un biglietto', 'Quanto costa?', 'Costa X euro'."],
+      "target_words": ["biglietto", "andata", "ritorno", "costare"]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,254 @@
+{
+  "id": "unit-12-lesson-02",
+  "unit_id": "unit-12",
+  "name": "Venire & Uscire",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-12-lesson-02-tip-01",
+      "title": "Venire — G-Insertion",
+      "explanation": "'Venire' (to come) adds a 'g' in the io and loro forms: vengo (io), vieni (tu), viene (lui/lei), veniamo (noi), venite (voi), vengono (loro). Boot pattern again.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-12-lesson-02-tip-02",
+      "title": "Uscire — Vowel Change",
+      "explanation": "'Uscire' (to go out) changes its root vowel u→e in four forms: esco (io), esci (tu), esce (lui/lei), usciamo (noi), uscite (voi), escono (loro). Boot pattern with a twist.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-12-lesson-02-tip-03",
+      "title": "Venire Da, Uscire Con",
+      "explanation": "'Venire da' = to come from: 'Vengo da Roma'. 'Uscire con' = to go out with: 'Esco con gli amici'. Learn these prepositions with the verb.",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-12-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'venire' mean?" },
+      "sentence_context": "Vengo da Roma.",
+      "correct_answer": "To come",
+      "distractors": ["To go", "To stay", "To leave"],
+      "hints": ["I come from Rome."],
+      "target_words": ["venire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'uscire' mean?" },
+      "sentence_context": "Esco con gli amici.",
+      "correct_answer": "To go out",
+      "distractors": ["To come in", "To stay", "To leave (depart)"],
+      "hints": ["I go out with friends."],
+      "target_words": ["uscire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'stasera' mean?" },
+      "sentence_context": "Stasera esco.",
+      "correct_answer": "Tonight / this evening",
+      "distractors": ["Tomorrow", "Yesterday", "Now"],
+      "hints": ["Tonight I'm going out."],
+      "target_words": ["stasera"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'insieme' mean?" },
+      "sentence_context": "Andiamo insieme al cinema.",
+      "correct_answer": "Together",
+      "distractors": ["Alone", "Soon", "Often"],
+      "hints": ["Let's go to the cinema together."],
+      "target_words": ["insieme"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ da Roma.",
+      "correct_answer": "vengo",
+      "distractors": [],
+      "hints": ["I come from Rome. (io form of venire)"],
+      "target_words": ["venire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Tu ___ con me?",
+      "correct_answer": "vieni",
+      "distractors": [],
+      "hints": ["Are you coming with me? (tu form of venire)"],
+      "target_words": ["venire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Anna ___ a casa.",
+      "correct_answer": "viene",
+      "distractors": [],
+      "hints": ["Anna comes home. (lei form of venire)"],
+      "target_words": ["venire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Loro ___ con noi.",
+      "correct_answer": "vengono",
+      "distractors": [],
+      "hints": ["They come with us. (loro form of venire)"],
+      "target_words": ["venire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ stasera.",
+      "correct_answer": "esco",
+      "distractors": [],
+      "hints": ["I'm going out tonight. (io form of uscire)"],
+      "target_words": ["uscire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Marco ___ con gli amici.",
+      "correct_answer": "esce",
+      "distractors": [],
+      "hints": ["Marco is going out with friends. (lui form of uscire)"],
+      "target_words": ["uscire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I come' in Italian?" },
+      "sentence_context": "Vengo da Roma.",
+      "correct_answer": "vengo",
+      "distractors": [],
+      "hints": ["With g-insertion."],
+      "target_words": ["venire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I go out' in Italian?" },
+      "sentence_context": "Esco con gli amici.",
+      "correct_answer": "esco",
+      "distractors": [],
+      "hints": ["u → e in the singular forms."],
+      "target_words": ["uscire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'they go out' in Italian?" },
+      "sentence_context": "Loro escono stasera.",
+      "correct_answer": "escono",
+      "distractors": [],
+      "hints": ["Boot pattern — irregular in loro too."],
+      "target_words": ["uscire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'tonight' in Italian?" },
+      "sentence_context": "Stasera mangiamo a casa.",
+      "correct_answer": "stasera",
+      "distractors": [],
+      "hints": ["sera + this."],
+      "target_words": ["stasera"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'noi' form of 'venire' — regular!" },
+      "sentence_context": "Noi ___ a casa.",
+      "correct_answer": "veniamo",
+      "distractors": [],
+      "hints": ["noi → veniamo (no g)."],
+      "target_words": ["venire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'voi' form of 'uscire'." },
+      "sentence_context": "Voi ___ stasera?",
+      "correct_answer": "uscite",
+      "distractors": [],
+      "hints": ["voi → uscite (u stays)."],
+      "target_words": ["uscire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I come from Italy.'" },
+      "sentence_context": "Vengo dall'Italia.",
+      "correct_answer": ["Vengo", "dall'Italia."],
+      "distractors": ["vai", "in"],
+      "hints": ["'Venire da' + country."],
+      "target_words": ["venire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Are you coming with me?'" },
+      "sentence_context": "Vieni con me?",
+      "correct_answer": ["Vieni", "con", "me?"],
+      "distractors": ["vengo", "te"],
+      "hints": ["Question to a friend."],
+      "target_words": ["venire"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I go out with friends tonight.'" },
+      "sentence_context": "Stasera esco con gli amici.",
+      "correct_answer": ["Stasera", "esco", "con", "gli", "amici."],
+      "distractors": ["domani", "esci"],
+      "hints": ["Start with 'stasera'."],
+      "target_words": ["uscire", "stasera"]
+    },
+    {
+      "id": "unit-12-lesson-02-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'We go to the cinema together.'" },
+      "sentence_context": "Andiamo al cinema insieme.",
+      "correct_answer": ["Andiamo", "al", "cinema", "insieme."],
+      "distractors": ["vado", "stasera"],
+      "hints": ["'Insieme' at the end."],
+      "target_words": ["insieme"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "venire", "meaning": "To come", "example": "Vengo da Roma." },
+    { "word": "uscire", "meaning": "To go out", "example": "Esco con gli amici." },
+    { "word": "stasera", "meaning": "Tonight / this evening", "example": "Stasera esco." },
+    { "word": "insieme", "meaning": "Together", "example": "Andiamo insieme al cinema." }
+  ]
+}
