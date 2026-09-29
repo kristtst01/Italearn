@@ -28,6 +28,10 @@ export interface Unit {
   grammar_focus: string;
   vocabulary_targets: string[];
   grammar_notes: string;
+  /** What the learner can do after the chapter (CEFR can-do style) */
+  can_do?: string;
+  /** Italian title on the chapter's stamp */
+  stamp_title?: string;
   lessons: LessonMeta[];
   order: number;
 }

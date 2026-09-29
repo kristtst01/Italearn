@@ -30,7 +30,7 @@ export default function ReviewSummary({ result }: ReviewSummaryProps) {
           autoFocus
           className="w-full px-4 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors"
         >
-          Back to path
+          Back to Today
         </button>
       </div>
     </div>

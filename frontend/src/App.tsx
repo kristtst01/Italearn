@@ -4,14 +4,16 @@ import { useEffect } from 'react'
 import { Toaster } from 'sonner'
 import { setTokenProvider } from '@/engine/api'
 import HydrationGuard from '@/shared/components/HydrationGuard'
-import LevelUpToast from '@/shared/components/LevelUpToast'
 import AppLayout from '@/shared/components/AppLayout'
-import PathPage from '@/features/path/PathPage'
+import TodayPage from '@/features/today/TodayPage'
+import LibraryPage, { ChaptersTab } from '@/features/library/LibraryPage'
+import ChapterPage from '@/features/library/ChapterPage'
+import GrammarPage from '@/features/grammar/GrammarPage'
+import GrammarUnitPage from '@/features/grammar/GrammarUnitPage'
+import ProgressPage from '@/features/progress/ProgressPage'
 import LessonPage from '@/features/lesson/LessonPage'
 import ReviewPage from '@/features/review/ReviewPage'
-import TestOutPage from '@/features/testout/TestOutPage'
 import ProfilePage from '@/features/profile/ProfilePage'
-import StatsPage from '@/features/stats/StatsPage'
 import WordBankPage from '@/features/words/WordBankPage'
 import LoginPage from '@/features/auth/LoginPage'
 
@@ -39,20 +41,24 @@ export default function App() {
         <SignedIn>
           <HydrationGuard>
             <Toaster position="top-center" richColors />
-            <LevelUpToast />
             <Routes>
-              {/* Tabbed pages — wrapped in AppLayout (shows nav bar) */}
+              {/* Pages with the top bar (AppLayout hides it for immersive routes) */}
               <Route element={<AppLayout />}>
-                <Route path="/" element={<PathPage />} />
-                <Route path="/review" element={<ReviewPage />} />
-                <Route path="/words" element={<WordBankPage />} />
-                <Route path="/stats" element={<StatsPage />} />
+                <Route path="/" element={<TodayPage />} />
+                <Route path="/library" element={<LibraryPage />}>
+                  <Route index element={<ChaptersTab />} />
+                  <Route path="words" element={<WordBankPage />} />
+                </Route>
+                <Route path="/library/:unitId" element={<ChapterPage />} />
+                <Route path="/grammar" element={<GrammarPage />} />
+                <Route path="/grammar/:grammarId" element={<GrammarUnitPage />} />
+                <Route path="/progress" element={<ProgressPage />} />
                 <Route path="/profile" element={<ProfilePage />} />
+                <Route path="/review" element={<ReviewPage />} />
               </Route>
 
-              {/* Immersive pages — no nav bar */}
+              {/* Immersive pages */}
               <Route path="/lesson/:id" element={<LessonPage />} />
-              <Route path="/testout/:unitId" element={<TestOutPage />} />
             </Routes>
           </HydrationGuard>
         </SignedIn>

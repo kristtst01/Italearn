@@ -1,10 +1,7 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { UserProfile, useClerk, useUser } from '@clerk/clerk-react';
 import { TriangleAlert, Pencil, Check, X } from 'lucide-react';
 import StreakCalendar from '@/shared/components/StreakCalendar';
-import ProgressBar from '@/shared/components/ProgressBar';
-import { useProgressStore } from '@/stores/progressStore';
-import { getLevel } from '@/engine/xp';
 import { getMe, updateMe, resetProgress } from '@/engine/api';
 import { clerkAppearance } from '@/features/auth/appearance';
 
@@ -83,16 +80,9 @@ function UserTag() {
 }
 
 export default function ProfilePage() {
-  const xp = useProgressStore((s) => s.xp);
-  const badges = useProgressStore((s) => s.badges);
   const [confirmReset, setConfirmReset] = useState(false);
   const [showAccount, setShowAccount] = useState(false);
   const { signOut } = useClerk();
-
-  const levelInfo = useMemo(() => getLevel(xp), [xp]);
-  const xpInLevel = levelInfo.currentXP - levelInfo.currentThreshold;
-  const xpNeeded = levelInfo.nextThreshold - levelInfo.currentThreshold;
-  const levelProgress = xpNeeded > 0 ? Math.round((xpInLevel / xpNeeded) * 100) : 100;
 
   async function handleReset() {
     try {
@@ -111,39 +101,6 @@ export default function ProfilePage() {
 
         {/* User tag */}
         <UserTag />
-
-        {/* Level & rank card */}
-        <div className="rounded-xl bg-white border border-gray-200 p-4 mb-4">
-          <div className="flex items-center justify-between mb-2">
-            <div>
-              <p className="text-sm font-medium text-gray-500">Level {levelInfo.level}</p>
-              <p className="text-lg font-bold text-gray-900">{levelInfo.rank}</p>
-            </div>
-            <p className="text-sm text-gray-500">{xp.toLocaleString()} XP</p>
-          </div>
-          <div className="mb-1">
-            <ProgressBar progress={levelProgress} />
-          </div>
-          <p className="text-xs text-gray-400">
-            {xpNeeded > 0
-              ? `${xpInLevel} / ${xpNeeded} XP to level ${levelInfo.level + 1}`
-              : 'Max level reached'}
-          </p>
-        </div>
-
-        {/* Badges */}
-        {badges.length > 0 && (
-          <div className="rounded-xl bg-white border border-gray-200 p-4 mb-4">
-            <p className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Badges</p>
-            <div className="flex items-center gap-2">
-              {badges.map((b) => (
-                <span key={b.sectionId} className="text-2xl" title={`Section: ${b.sectionId}`}>
-                  ⭐
-                </span>
-              ))}
-            </div>
-          </div>
-        )}
 
         {/* Streak calendar */}
         <StreakCalendar />

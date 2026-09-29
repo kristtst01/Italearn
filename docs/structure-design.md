@@ -13,6 +13,7 @@ Built on the long-lived branch `feature/new-frontend`, merged when usable.
 | `stores/`, `types/`, `data/` (all lesson content) | **Keep**, extend. |
 | Exercise components, lesson flow (`useLessonState`), review session | **Keep the logic, rebuild the look** with design tokens. |
 | Path page, winding path, CEFR banners, unit test-out, home dashboard, stats page, badges, checkpoints | **Delete.** Replaced by Today, Library and Progress. |
+| XP and levels | **Delete** (decided 2026-09-29). The streak stays as a quiet line in the top bar. |
 
 ## Content model
 
@@ -83,15 +84,16 @@ interface GrammarItem {
 | Route | Screen |
 |---|---|
 | `/` | **Today** |
-| `/library` | **Library**: tabs Chapters / Grammar / Words (word bank moves here) |
+| `/library` | **Library**: tabs Chapters / Words (word bank moves here) |
 | `/library/:unitId` | **Chapter** |
+| `/grammar` | **Grammar**: all grammar units of the level, in order, with status |
 | `/grammar/:grammarId` | **Grammar unit**: study → practice → mastery check, one page |
 | `/progress` | **Progress**: words, grammar tiles, stamp book (replaces stats) |
 | `/lesson/:id` | Lesson (existing flow, restyled) |
 | `/review` | Review (existing flow, restyled, now includes grammar items) |
 | `/profile` | Profile (reached from the top bar, not a main section) |
 
-Top bar sections: Today · Library · Progress. (Grammar is a Library tab, not a top-level section; one fewer thing in the nav.)
+Top bar sections: Today · Library · Grammar · Progress. Grammar is a pillar of the app, so it's top-level (decided 2026-09-29).
 
 ## Progress metrics
 
@@ -118,7 +120,7 @@ Every planned feature gets a visible slot in the UI **now**, built with the same
 | Where | Placeholder |
 |---|---|
 | Chapter page | **Model dialogue** (listen + transcript), **Tell the tutor** (spoken scenario) |
-| Library → Grammar tab | **All ~10 A1 grammar units** listed in order; unwritten ones shown as "Not written yet" |
+| Grammar | **All ~10 A1 grammar units** listed in order; unwritten ones shown as "Not written yet" |
 | Grammar unit | Study / practice / mastery layout fully built; unwritten units show their outline (planned sections) |
 | Exercises | **Planned exercise types** render a styled placeholder card via `renderExercise` instead of nothing: transformation, structured input, find the mistake, full-sentence translation, dialogue completion, dictation, minimal pairs, listen and repeat, spoken answer |
 | Words, example sentences, grammar examples | **Audio play buttons** (disabled, "Audio coming soon") where TTS will go |
@@ -140,6 +142,5 @@ A small **exercise gallery** page (dev-only route, `/dev/exercises`) shows every
 
 ## Open questions
 
-- **XP and levels:** drop them? They're engagement mechanics the new direction doesn't need; streak could stay as a quiet line in the top bar.
 - **Placement check** (replacing test-out): later, after grammar units exist.
 - **Model dialogues:** content per chapter, later.

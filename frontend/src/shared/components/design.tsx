@@ -1,0 +1,239 @@
+import type { CSSProperties, ReactNode } from 'react';
+import { cn } from '@/lib/utils';
+
+/*
+ * Design-system building blocks (docs/design-system.md).
+ * Colours come only from tokens in index.css.
+ */
+
+// ── Type ──────────────────────────────────────────────
+
+export function Label({ children, className }: { children: ReactNode; className?: string }) {
+  return (
+    <p className={cn('text-xs font-bold uppercase tracking-label text-muted-foreground', className)}>
+      {children}
+    </p>
+  );
+}
+
+export function PageHeader({
+  label,
+  title,
+  description,
+  aside,
+}: {
+  label?: ReactNode;
+  title: ReactNode;
+  description?: ReactNode;
+  aside?: ReactNode;
+}) {
+  return (
+    <div className="flex items-end justify-between gap-8">
+      <div className="flex flex-col gap-2">
+        {label && <Label>{label}</Label>}
+        <h1 className="font-display text-title">{title}</h1>
+        {description && <p className="max-w-2xl text-base text-muted-foreground">{description}</p>}
+      </div>
+      {aside}
+    </div>
+  );
+}
+
+// ── Page frame with background shapes ────────────────
+
+type ShapeColor = 'vermiglione' | 'cobalto' | 'ocra';
+
+export interface Shape {
+  kind: 'circle' | 'half';
+  color: ShapeColor;
+  size: number;
+  /** Offsets in px from the page edges; negative values push the shape off-screen */
+  position: Pick<CSSProperties, 'top' | 'right' | 'bottom' | 'left'>;
+}
+
+const SHAPE_BG: Record<ShapeColor, string> = {
+  vermiglione: 'bg-vermiglione',
+  cobalto: 'bg-cobalto',
+  ocra: 'bg-ocra',
+};
+
+/**
+ * A page below the top bar. Background shapes sit behind the content and must only
+ * be placed in empty space (never behind cards or text).
+ */
+export function Page({
+  shapes = [],
+  children,
+  className,
+}: {
+  shapes?: Shape[];
+  children: ReactNode;
+  className?: string;
+}) {
+  return (
+    <div className="relative isolate flex-1 overflow-hidden">
+      {shapes.map((s, i) => (
+        <div
+          key={i}
+          aria-hidden
+          className={cn('absolute -z-10', SHAPE_BG[s.color], s.kind === 'circle' ? 'rounded-full' : 'rounded-t-full')}
+          style={{ ...s.position, width: s.size, height: s.kind === 'circle' ? s.size : s.size / 2 }}
+        />
+      ))}
+      <main className={cn('mx-auto flex max-w-7xl flex-col gap-7 px-14 py-11', className)}>{children}</main>
+    </div>
+  );
+}
+
+// ── Placeholders ──────────────────────────────────────
+
+/** A feature that exists in the design but isn't built yet. Same footprint as the real thing. */
+export function Placeholder({
+  title,
+  description,
+  label = 'Coming soon',
+  className,
+  children,
+}: {
+  title: ReactNode;
+  description?: ReactNode;
+  label?: ReactNode;
+  className?: string;
+  children?: ReactNode;
+}) {
+  return (
+    <div className={cn('flex flex-col gap-1 rounded-lg border-2 border-dashed border-muted-foreground/30 bg-white px-4 py-3.5', className)}>
+      <Label>{label}</Label>
+      <p className="font-bold">{title}</p>
+      {description && <p className="text-sm text-muted-foreground">{description}</p>}
+      {children}
+    </div>
+  );
+}
+
+// ── Status ────────────────────────────────────────────
+
+export type StatusKind = 'learned' | 'in-progress' | 'recommended' | 'not-started';
+
+const STATUS: Record<StatusKind, { label: string; dot?: string; text: string }> = {
+  learned: { label: 'Learned', dot: 'bg-learned', text: 'text-foreground' },
+  'in-progress': { label: 'In progress', dot: 'bg-in-progress', text: 'text-foreground' },
+  recommended: { label: 'Recommended next', dot: 'bg-vermiglione', text: 'text-vermiglione-scuro' },
+  'not-started': { label: 'Not started', text: 'text-muted-foreground' },
+};
+
+export function Status({ kind, label }: { kind: StatusKind; label?: string }) {
+  const s = STATUS[kind];
+  return (
+    <span className={cn('flex items-center gap-1.5 text-xs font-bold', s.text)}>
+      {s.dot && <span className={cn('size-2 rounded-full', s.dot)} />}
+      {label ?? s.label}
+    </span>
+  );
+}
+
+/** Thin bar: learned (green) then in-progress (ochre) segments, in percent. */
+export function SegmentBar({
+  learned,
+  inProgress = 0,
+  fading = 0,
+  thick = false,
+}: {
+  learned: number;
+  inProgress?: number;
+  fading?: number;
+  thick?: boolean;
+}) {
+  return (
+    <div className={cn('flex overflow-hidden rounded-full bg-vuoto', thick ? 'h-2.5' : 'h-1')}>
+      <div className="bg-learned" style={{ width: `${learned}%` }} />
+      <div className="bg-in-progress" style={{ width: `${inProgress}%` }} />
+      <div className="bg-fading" style={{ width: `${fading}%` }} />
+    </div>
+  );
+}
+
+// ── Majolica tiles ────────────────────────────────────
+
+export type TileStatus = 'learned' | 'in-progress' | 'empty';
+
+const TILE_FILL: Record<TileStatus, string> = {
+  learned: 'bg-learned',
+  'in-progress': 'bg-in-progress',
+  empty: 'bg-vuoto',
+};
+
+export function MajolicaTile({ status, size = 44 }: { status: TileStatus; size?: number }) {
+  return (
+    <div
+      className="relative flex items-center justify-center border border-cobalto bg-maiolica"
+      style={{ width: size, height: size }}
+    >
+      <div className={cn('rotate-45', TILE_FILL[status])} style={{ width: size * 0.53, height: size * 0.53 }} />
+      <div className="absolute rounded-full bg-cobalto" style={{ width: size * 0.2, height: size * 0.2 }} />
+    </div>
+  );
+}
+
+export function TileGrid({ tiles, size = 44, columns = 5 }: { tiles: TileStatus[]; size?: number; columns?: number }) {
+  return (
+    <div className="grid w-max" style={{ gridTemplateColumns: `repeat(${columns}, ${size}px)` }}>
+      {tiles.map((t, i) => (
+        <MajolicaTile key={i} status={t} size={size} />
+      ))}
+    </div>
+  );
+}
+
+// ── Stamps & postcard ─────────────────────────────────
+
+export function Stamp({
+  title,
+  caption,
+  earned,
+  className,
+}: {
+  title: string;
+  caption?: string;
+  earned: boolean;
+  className?: string;
+}) {
+  return (
+    <div
+      className={cn(
+        'flex h-37 w-30 shrink-0 flex-col justify-between border-4 border-dotted bg-white p-2.5',
+        earned ? 'border-vermiglione-scuro' : 'border-muted-foreground/40',
+        className,
+      )}
+    >
+      <div className="flex items-start justify-between gap-1">
+        <p className={cn('font-display text-sm leading-tight', earned ? 'text-vermiglione-scuro' : 'text-muted-foreground')}>
+          {title}
+        </p>
+        <span
+          className={cn(
+            'size-4 shrink-0 rounded-full',
+            earned ? 'bg-vermiglione-scuro' : 'border-2 border-muted-foreground/40',
+          )}
+        />
+      </div>
+      {caption && <p className="text-xs leading-snug text-muted-foreground">{caption}</p>}
+    </div>
+  );
+}
+
+/** Airmail-bordered panel with a postmark. Only used for the stamp book. */
+export function Postcard({ children, postmark }: { children: ReactNode; postmark: string }) {
+  return (
+    <div className="airmail rounded p-2.5">
+      <div className="relative flex flex-col gap-3.5 bg-white px-6 pt-5 pb-6">
+        <div className="absolute -top-8 -right-7 flex size-19 -rotate-12 flex-col items-center justify-center rounded-full border-2 border-cobalto bg-white/80 text-cobalto">
+          <span className="text-[9px] font-bold tracking-label">ITALEARN</span>
+          <span className="font-display text-base leading-none">{postmark}</span>
+          <span className="text-[9px] font-bold tracking-label">POSTA AEREA</span>
+        </div>
+        {children}
+      </div>
+    </div>
+  );
+}

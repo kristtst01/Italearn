@@ -1,7 +1,5 @@
-import { useMemo } from 'react';
 import type { LessonResult } from '@/types';
 import Confetti from '@/shared/components/Confetti';
-import { calculateExerciseXP } from '@/engine/xp';
 
 interface CompletionScreenProps {
   result: LessonResult;
@@ -25,11 +23,6 @@ export default function CompletionScreen({
   const seconds = Math.floor((result.timeMs % 60000) / 1000);
   const isPerfect = pct === 100;
 
-  const xpEarned = useMemo(
-    () => result.results.reduce((sum, r) => sum + calculateExerciseXP(r.correct, 1), 0),
-    [result.results],
-  );
-
   return (
     <div className="text-center space-y-6 py-8">
       {!isRetry && <Confetti />}
@@ -47,9 +40,6 @@ export default function CompletionScreen({
             {result.score}/{result.total} correct
           </p>
         </div>
-        {xpEarned > 0 && (
-          <p className="text-amber-600 font-semibold">+{xpEarned} XP</p>
-        )}
         <div className="text-gray-500 text-sm">
           Time: {minutes > 0 ? `${minutes}m ` : ''}
           {seconds}s
@@ -74,7 +64,7 @@ export default function CompletionScreen({
         autoFocus={!hasMistakes}
         className="w-full px-4 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors"
       >
-        Back to path
+        Back to Today
       </button>
     </div>
   );

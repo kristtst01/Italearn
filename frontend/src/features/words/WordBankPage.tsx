@@ -152,12 +152,12 @@ export default function WordBankPage() {
   }, [filtered, sortKey, reversed, cardMap]);
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Sticky header */}
-      <div className="sticky top-0 z-10 bg-gray-50 border-b border-gray-200 px-6 pt-6 pb-3 space-y-3">
-        <div className="max-w-4xl mx-auto space-y-3">
+    <div>
+      {/* Header */}
+      <div className="pb-3 space-y-3">
+        <div className="space-y-3">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-gray-900">Word Bank</h1>
+            <h2 className="font-display text-heading">Word bank</h2>
             <span className="text-sm text-gray-500">{sorted.length} of {words.length}</span>
           </div>
 
@@ -228,7 +228,7 @@ export default function WordBankPage() {
       </div>
 
       {/* Word list */}
-      <div className="max-w-4xl mx-auto px-6 py-4">
+      <div className="py-4">
         {words.length === 0 ? (
           <div className="text-center py-16 text-gray-400 text-sm">
             Complete lessons to unlock vocabulary

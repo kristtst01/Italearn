@@ -1,17 +1,15 @@
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import type { ExerciseResult, ReviewResult, ReviewSession } from '@/types';
 import type { Grade } from 'ts-fsrs';
 import { useSrsStore } from '@/stores/srsStore';
 import { useProgressStore } from '@/stores/progressStore';
 import { buildReviewExercises, getLearnedCardsForUnit, answerToGrade } from '@/engine/reviewRunner';
-import { calculateReviewXP } from '@/engine/xp';
 
 export function useReviewSession(unitId?: string) {
   const dueCards = useSrsStore((s) => s.dueCards);
   const allCards = useSrsStore((s) => s.allCards);
   const reviewableCount = useSrsStore((s) => s.reviewableCount);
   const reviewCard = useSrsStore((s) => s.reviewCard);
-  const addXP = useProgressStore((s) => s.addXP);
   const logActivity = useProgressStore((s) => s.logActivity);
 
   const [session, setSession] = useState<ReviewSession | null>(null);
@@ -19,7 +17,6 @@ export function useReviewSession(unitId?: string) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [correctCount, setCorrectCount] = useState(0);
   const [result, setResult] = useState<ReviewResult | null>(null);
-  const streakRef = useRef(0);
 
   const currentExercise = session?.exercises[currentIndex] ?? null;
   const totalExercises = session?.exercises.length ?? reviewableCount;
@@ -44,7 +41,7 @@ export function useReviewSession(unitId?: string) {
   async function handleExerciseComplete(er: ExerciseResult) {
     if (!session) return;
 
-    // Skipped exercises don't grade SRS cards or affect streak/XP
+    // Skipped exercises don't grade SRS cards
     if (!er.skipped) {
       const cards = currentExercise
         ? session.cardMap.get(currentExercise.id)
@@ -55,14 +52,6 @@ export function useReviewSession(unitId?: string) {
           if (card.id != null) await reviewCard(card.id, grade);
         }
       }
-
-      if (er.correct) {
-        streakRef.current += 1;
-      } else {
-        streakRef.current = 0;
-      }
-      const xp = calculateReviewXP(er.correct, streakRef.current);
-      if (xp > 0) addXP(xp);
     }
 
     const newCorrect = correctCount + (er.correct ? 1 : 0);
