@@ -1,16 +1,50 @@
 # Exercise Generation Guide
 
-How to use AI to generate lesson exercises for ItaLearn. This document is the source of truth for any AI agent creating exercise content.
+How to author lesson content for ItaLearn, by hand or with AI. This document is the source of truth for any agent creating exercise content.
+
+> **Status (2026-09-29):** the app's structure is being redesigned (chapters, whole-system grammar units, grammar in SRS; see [development-plan.md](development-plan.md), Product Shape). The JSON schema and exercise subtypes below describe what is built today. Grammar explanations are moving out of lesson `grammar_tips` into dedicated grammar units.
 
 ## Golden Rules
 
-1. **Every Italian sentence must be natural.** No textbook-only constructions. If a native speaker wouldn't say it in conversation, don't use it.
+1. **Every Italian sentence must be correct and plausible.** Accurate grammar, and something a person could actually say. Drill sentences don't need to be native-level idiomatic (see the content quality philosophy in the development plan), but they must never be wrong or bizarre.
 2. **Vocabulary must follow frequency order.** Use De Mauro's *Vocabolario di Base* (fondamentale → alto uso → alta disponibilità). Don't introduce rare words before common ones.
 3. **98% comprehension rule.** Every exercise sentence should use ≤1 unknown word. All other words must have been introduced in earlier lessons/units.
 4. **Context always.** Words are never taught in isolation. Every vocabulary item has an example sentence. Every exercise has `sentence_context`.
-5. **Mix exercise types.** Each lesson should use at least 3 different subtypes. Start with recognition (multiple_choice), build to production (type_answer, fill_blank, arrange_words).
-6. **Interleave prior material.** At least 20-30% of exercises in each lesson should recycle vocabulary from earlier lessons/units.
-7. **Match the exercise mix to the level.** Mechanical exercises (fill_blank, cloze) build accuracy and dominate early. Production exercises (type_answer, arrange_words) and especially open-ended `free_form` dominate later — a B2 learner is assessed on output, not gap-filling. See the per-level distribution table.
+5. **Mix exercise types.** Move from recognition to production within a lesson, and don't run the same subtype many times in a row.
+6. **Interleave prior material.** Every lesson recycles vocabulary and grammar from earlier lessons and units.
+7. **Match the exercise mix to the level.** Mechanical exercises (fill_blank, cloze) build accuracy and dominate early. Production exercises (type_answer, translation) and especially open-ended `free_form` dominate later — a B2 learner is assessed on output, not gap-filling. See CEFR Level Guidelines.
+8. **Size content to the topic, not to a number.** A lesson covers its topic completely: every word the topic needs, with enough practice that each is genuinely learned. There is no target number of lessons, exercises, or words. The one real count is vocabulary per CEFR level (counted in lemmas).
+
+## Exercise Types: What and Why
+
+Each exercise type trains a specific ability. Choose types for what the learner needs to do with the material, not for variety alone.
+
+| Type | Trains | Use it for | Limits |
+|---|---|---|---|
+| `multiple_choice` | Recognizing meaning | First exposure to a word or form | Low value after first exposure; answers can be found by elimination |
+| `match_pairs` | Recognizing meaning | Quick warm-up and review | Not real learning on its own |
+| `type_answer` | Recall of a word or short phrase | Core vocabulary retrieval | Keep answers short; full sentences belong in translation |
+| `cloze` | Recall in context | Vocabulary in a sentence | Overlaps with `fill_blank`; use `cloze` for vocabulary, `fill_blank` for grammar |
+| `fill_blank` | Producing one grammatical form | Conjugation, articles, agreement, prepositions | One form at a time; pair with transformation for whole systems |
+| `arrange_words` | Word order | Early sentence structure | The word bank makes it a puzzle; prefer translation once learners can type sentences |
+| `read_aloud` | Pronunciation from text | Pronunciation practice | Reading, not speaking; add listen-and-repeat when audio exists |
+| `free_form` | Written production | Writing tasks, open questions | AI-graded; can be long |
+
+**Planned** (not built yet; see development plan, Workstream 0):
+
+| Type | Trains | Why |
+|---|---|---|
+| Transformation | Controlling a grammar system | "Rewrite with *noi*", "make it plural/negative". Drills the whole paradigm, not one blank. |
+| Structured input ("whose is it?") | Noticing form to get meaning | The learner can only answer by attending to the ending, article or pronoun. Effective for features English speakers ignore (VanPatten's processing instruction). |
+| Find the mistake | Noticing errors | Targets English interference (*sono fame*, *la mia madre*). |
+| Full-sentence translation (EN→IT, typed) | Sentence production | The highest-value production drill; LLM validation makes free translations gradeable. Should replace much of `arrange_words`. |
+| Dialogue completion | Using language in an exchange | Write your line in a short dialogue. Fits situational chapters. |
+| Dictation | Decoding speech + spelling | Needs the audio pipeline. |
+| Minimal pairs | Hearing double consonants and similar sounds | *caro/carro*, *pala/palla*. Needs audio. |
+| Listen and repeat | Pronunciation from a model | Better than `read_aloud` for pronunciation. Needs audio. |
+| Answer a spoken question | Short spoken production | Bridge to the AI tutor; leniently LLM-graded. |
+
+**Grammar in review:** once grammar units exist, grammar items (transformation, fill_blank, find the mistake, translation) are scheduled in SRS like words. Today only vocabulary is reviewed.
 
 ## Reference Sources
 
@@ -45,7 +79,7 @@ frontend/src/data/units/
     ...
 ```
 
-The unit directory must be created. Lessons are imported individually in `frontend/src/data/curriculum.ts`.
+Lesson files are discovered automatically (`import.meta.glob` in `data/lessonLoader.ts`). To make a lesson appear, add its `LessonMeta` (`id`, `unit_id`, `name`, `order`) to the unit's `lessons` array in `frontend/src/data/curriculum.ts`.
 
 ## Lesson JSON Schema
 
@@ -55,12 +89,18 @@ The unit directory must be created. Lessons are imported individually in `fronte
   "unit_id": "unit-02",
   "name": "Who Am I?",                 // Short, thematic lesson name
   "order": 1,                          // Position within the unit (1-indexed)
-  "grammar_tips": [                    // 2-3 short explanations shown before exercises
-    "Subject pronouns in Italian: io (I), tu (you informal), lui/lei (he/she), Lei (you formal), noi (we), voi (you all), loro (they).",
-    "Unlike English, Italian often drops the subject pronoun because the verb ending tells you who's speaking: 'Sono italiano' = 'I am Italian'."
+  "grammar_tips": [                    // Short explanations shown in the lesson
+    {
+      "id": "subject-pronouns",
+      "title": "Subject Pronouns",
+      "explanation": "io (I), tu (you, informal), lui/lei (he/she), Lei (you, formal), noi (we), voi (you, plural), loro (they).",
+      "table": [["io", "I"], ["tu", "you"]],          // OPTIONAL — rows of cells
+      "example": { "italian": "Sono italiano.", "english": "I am Italian." },  // OPTIONAL
+      "before_exercise": 3                             // OPTIONAL — show before this exercise index
+    }
   ],
-  "kind": "standard",                  // OPTIONAL — "standard" (default) | "writing" | "listening" | "reading"
-  "passages": [                        // OPTIONAL — only for listening/reading comprehension lessons
+  "kind": "standard",                  // PLANNED, not in the types yet — "standard" | "writing" | "listening" | "reading"
+  "passages": [                        // PLANNED — only for listening/reading comprehension lessons
     {
       "id": "passage-01",
       "format": "audio",               // "audio" | "text"
@@ -82,7 +122,7 @@ The unit directory must be created. Lessons are imported individually in `fronte
 }
 ```
 
-Most lessons omit `kind` and `passages` entirely (a plain `standard` lesson). They're only used for comprehension lessons — see [Comprehension Lessons](#comprehension-lessons-listening--reading).
+`kind` and `passages` are designed but not implemented (`types/curriculum.ts` has neither). They're for comprehension lessons — see [Comprehension Lessons](#comprehension-lessons-listening--reading).
 
 ## Exercise JSON Schema
 
@@ -312,38 +352,24 @@ Listening and reading comprehension are **lesson kinds**, not single exercises. 
 
 ## Lesson Design Patterns
 
-### Exercise Count
-- **15 exercises per lesson** as the standard target for grammar-core and situational lessons (~10 minute session at ~30-40s per exercise).
-- This gives enough room for the full introduce → drill → produce → review cycle.
-- Comprehension and writing lessons run shorter — a comprehension lesson is typically 1-2 passages with 4-6 questions each; a writing lesson is 2-4 `free_form` tasks. `free_form` exercises take longer per item, so the count is lower.
-
 ### Exercise Ordering Within a Lesson
 Follow this progression for each new concept:
 
-1. **Introduce** (2-3 exercises): `multiple_choice` — low-stakes recognition
-2. **Reinforce** (2-3 exercises): more `multiple_choice` with variations, `cloze` for context
-3. **Produce** (4-5 exercises): `type_answer`, `fill_blank` — active recall
-4. **Combine** (2-3 exercises): `arrange_words` — full sentence production
-5. **Review** (2-3 exercises): mix of types, recycling earlier vocabulary from previous lessons
+1. **Introduce:** recognition (`multiple_choice`, structured input) — low-stakes first contact
+2. **Reinforce:** recall in context (`cloze`)
+3. **Produce:** active recall (`type_answer`, `fill_blank`, transformation)
+4. **Combine:** full sentences (translation, `arrange_words` early on)
+5. **Review:** mixed types, recycling earlier lessons
 
-### Exercise Type Distribution — shifts by level
+As many exercises per step as the material needs. A dense topic gets more; a light one fewer.
 
-The right mix changes as the learner advances. Mechanical exercises (`fill_blank`, `cloze`) build accuracy and are valuable early, but a B2 learner needs *production*, not gap-filling. As levels rise, shift toward `type_answer`, `arrange_words`, and especially `free_form`.
+### Exercise Mix — shifts by level
 
-| Subtype | A1 | A2 | B1 | B2 |
-|---|---|---|---|---|
-| multiple_choice | ~25% | ~20% | ~10% | ~5% |
-| fill_blank | ~20% | ~20% | ~15% | ~10% |
-| cloze | ~20% | ~15% | ~15% | ~10% |
-| type_answer | ~20% | ~20% | ~20% | ~15% |
-| arrange_words | ~15% | ~15% | ~15% | ~10% |
-| free_form | — | ~10% | ~25% | ~50% |
-
-This guidance applies to **grammar-core and situational lessons**. Comprehension lessons (passages + questions) and writing lessons (`free_form`) are their own kinds and don't follow this table. `match_pairs` and `read_aloud` are added where a lesson calls for them.
+Mechanical exercises (`fill_blank`, `cloze`) build accuracy and matter most early. As levels rise, shift toward production: `type_answer`, translation, and especially `free_form`. A B2 learner needs output, not gap-filling. Comprehension lessons (passages + questions) and writing lessons have their own formats. `match_pairs` and `read_aloud` are added where a lesson calls for them.
 
 ### Vocabulary Per Lesson
-- Introduce **4-6 new words** per lesson
-- Total per unit (5 lessons): **20-30 new words**
+- Introduce every word the topic needs; there is no per-lesson or per-unit word target
+- One vocabulary entry per **lemma** (headword), not per inflected form
 - The `vocabulary` array in the lesson JSON should contain only words *first introduced* in that lesson
 
 ## Language of Instruction
@@ -363,35 +389,35 @@ The test for any piece of text: **is this the task, or is it teaching?** Teachin
 
 ## CEFR Level Guidelines
 
-Unit counts and the per-level structure are defined in [development-plan.md](development-plan.md) (≈114 units total: A1≈20, A2≈28, B1≈32, B2≈34). Each level is built from three bands — grammar-core, situational, and extended-skills (comprehension + writing) lessons.
+Each level is defined by its coverage (grammar, vocabulary, can-do functions), not by a unit count. See [development-plan.md](development-plan.md), Workstream 4.
 
-### A1 (≈20 units) — Survival Italian
-- **Sentences:** 3-6 words. Simple SVO structure. Present tense only.
+### A1 — Survival Italian
+- **Sentences:** short (typically 3-6 words). Simple SVO structure. Present tense only.
 - **Topics:** greetings, introductions, numbers, family, basic descriptions, food, directions
 - **Grammar:** essere/avere, regular -are/-ere/-ire verbs, articles, adjectives, possessives, reflexives, simple prepositions, modals
 - **Prompts:** Always in English. Hints in English.
-- **Exercise focus:** Heavy on multiple_choice (recognition). Typed answers are 1-2 words. No `free_form` except the written capstone lessons.
+- **Exercise focus:** Recognition for first exposure, then quickly to recall and production. Typed answers are short. `free_form` in the writing tasks.
 
-### A2 (≈28 units) — Everyday Situations
+### A2 — Everyday Situations
 - **Sentences:** 5-10 words. Past tense, future, conditional.
 - **Topics:** past events, travel, shopping, health, plans, opinions
 - **Grammar:** passato prossimo, imperfetto (+ the contrast), futuro semplice, condizionale, object pronouns + ne/ci, imperative, comparatives
 - **Prompts:** English, but can include familiar Italian phrases in quotes
-- **Exercise focus:** More production. type_answer and fill_blank increase, `free_form` starts (~10%). Listening comprehension lessons begin here.
+- **Exercise focus:** More production. `free_form` appears in ordinary lessons. Listening comprehension lessons begin here.
 
-### B1 (≈32 units) — Independent Communication
+### B1 — Independent Communication
 - **Sentences:** 8-15 words. Complex tenses, subjunctive, relative clauses.
 - **Topics:** storytelling, opinions, hypotheticals, formal situations
 - **Grammar:** imperfetto vs passato prossimo, trapassato, congiuntivo presente/passato, periodo ipotetico (1-2), relative clauses, passive
 - **Prompts:** Can start including Italian in prompts. Hints can be Italian.
-- **Exercise focus:** Heavy production. Fewer multiple_choice. `free_form` ~25%. Reading and listening comprehension lessons are a regular presence.
+- **Exercise focus:** Heavy production, little multiple_choice, regular `free_form`. Reading and listening comprehension lessons are a regular presence.
 
-### B2 (≈34 units) — Fluent Discussion
+### B2 — Fluent Discussion
 - **Sentences:** 10-20 words. All tenses, nuanced register, idioms.
 - **Topics:** abstract discussion, formal register, literature, current events
 - **Grammar:** congiuntivo imperfetto/trapassato, periodo ipotetico (3), passato remoto, indirect speech, subjunctive-triggering connectives
 - **Prompts:** Primarily in Italian. English only for new/complex concepts.
-- **Exercise focus:** Primarily `free_form` (~50%). Multiple_choice only for nuanced distinctions. Comprehension and writing lessons dominate the extended-skills band.
+- **Exercise focus:** Mostly `free_form`. Multiple_choice only for nuanced distinctions. Comprehension and writing lessons dominate the extended-skills band.
 
 ## Quality Checklist
 
@@ -405,15 +431,17 @@ Run through this for every generated lesson before committing:
 - [ ] `type_answer`, `fill_blank`, `cloze`, `free_form`, `match_pairs`, `read_aloud` have `distractors: []`
 - [ ] `free_form` has a model answer in `correct_answer`
 - [ ] `match_pairs` `correct_answer` is an array of `"italiano|english"` strings, at least 3 pairs
-- [ ] Comprehension lessons: `kind` is set, `passages` is present, every question has a valid `passage_ref`
-- [ ] Audio passages reference a pre-generated `audio_url` and include a `transcript`
+- [ ] (Once implemented) Comprehension lessons: `kind` is set, `passages` is present, every question has a valid `passage_ref`; audio passages have a pre-generated `audio_url` and a `transcript`
 - [ ] The exercise mix matches the level (more `free_form` at B1/B2, less `fill_blank`/`cloze`)
 - [ ] IDs follow the pattern: `{unit_id}-lesson-{NN}-ex-{NN}`
 - [ ] No word is used that hasn't been introduced in this lesson or an earlier one
 - [ ] The `vocabulary` array only contains words *new* to this lesson
 - [ ] Each vocabulary entry has `word`, `meaning`, and `example`
 - [ ] `target_words` correctly references the vocabulary being tested
-- [ ] Grammar tips are 1-2 sentences each, max 3 per lesson
+- [ ] Grammar tips in lessons are short reminders; full explanations belong in grammar units
+- [ ] No em-dashes in prompts, hints, or grammar tips (use periods, colons, parentheses)
+- [ ] Hints clarify the task without giving away the answer
+- [ ] `multiple_choice` distractors share part of speech and semantic field with the answer
 - [ ] Accented characters are correct (è, é, à, ù, ò, ì) — never missing
 - [ ] No duplicate exercise IDs within or across lessons
 
@@ -423,10 +451,10 @@ When asked to generate exercises for a unit:
 
 1. **Read the curriculum** — Check `frontend/src/data/curriculum.ts` for the unit's `grammar_focus`, `vocabulary_targets`, and position in the curriculum.
 2. **Check what came before** — Read previous unit lesson files to know what vocabulary/grammar is already introduced.
-3. **Plan the unit** — Decide on 5 lesson themes that cover the unit's grammar and vocabulary targets.
+3. **Plan the unit** — Split the unit's grammar and vocabulary into as many lessons as the topic needs.
 4. **Generate one lesson at a time** — Follow the lesson JSON schema exactly. Use the exercise ordering pattern above.
-5. **Validate** — Run the quality checklist. Run `npx tsc -b --noEmit` to verify the JSON is valid.
-6. **Register in curriculum.ts** — Add imports for each lesson file and add them to the unit's `lessons` array.
+5. **Validate** — Run the quality checklist. Run `npm run build` in `frontend/`.
+6. **Register in curriculum.ts** — Add each lesson's `LessonMeta` to the unit's `lessons` array.
 
 ### Prompt Template for Exercise Generation
 
@@ -434,5 +462,5 @@ When generating exercises, include this context in your prompt:
 - The unit's grammar focus and vocabulary targets (from curriculum.ts)
 - The lesson's theme and position within the unit
 - All vocabulary already introduced in previous units/lessons
-- The exercise type distribution targets
+- The level's exercise-mix guidance (CEFR Level Guidelines)
 - 2-3 examples of each exercise subtype from existing lessons (read from unit-01)

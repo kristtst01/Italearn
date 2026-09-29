@@ -2,12 +2,14 @@
 
 Complete plan for the A1 level (CEFR "Breakthrough"). Covers everything a learner needs to survive basic Italian interactions: introducing themselves, describing things, talking about daily life, navigating places, and ordering food.
 
-A1 is **20 units in two parts**:
+A1 is organized in **two parts**:
 
 - **Foundations (Units 1–5)** — form-first. Greetings, *essere*, nouns/gender/articles, numbers, *avere*. These are taught as explicit grammar/vocabulary because they're the machinery every later unit depends on. You can't situate a conversation without pronouns, the two core verbs, and articles.
-- **Situational arc (Units 6–20)** — scenario-organized (notional-functional). Each unit is a real-world situation ("My family", "Finding your way", "At the café"). Grammar is *threaded through* the scenario via a focus-on-form lesson, not the organizing principle. The unit's goal is a thing the learner can *do*.
+- **Situational arc (Units 6–21)** — scenario-organized (notional-functional). Each unit is a real-world situation ("My family", "Finding your way", "At the café"). Grammar is *threaded through* the scenario via a focus-on-form lesson, not the organizing principle. The unit's goal is a thing the learner can *do*.
 
-> **Status:** Units 1–5 are designed in full lesson detail below and partly built. Units 6–20 are currently **unit-level outlines** — detailed lesson breakdowns are the next design step.
+> **Status (2026-09-29):** Content for units 1–21 is built (`frontend/src/data/units/`). The lesson JSON and `curriculum.ts` are the source of truth for the lesson split, which differs in places from the original lesson designs below. This document keeps the *why*: what each unit covers, in what order, and why.
+>
+> **Upcoming restructure:** units are to become chapters in a library, and grammar moves into whole-system grammar units (see [development-plan.md](development-plan.md), Product Shape). The A1 Grammar Coverage Map at the end is the starting point for those units.
 
 ## Design Principles
 
@@ -17,43 +19,26 @@ A1 is **20 units in two parts**:
 
 3. **Grammar threaded, not dropped.** Situational does not mean grammar-free. Each situational unit has a dedicated focus-on-form lesson for whatever structure the scenario needs (e.g. "A Day in My Life" needs regular verbs + reflexives + time). Research-backed sweet spot: communicative backbone + targeted explicit instruction. Pure immersion without focus-on-form fossilizes errors.
 
-4. **Variable sizing.** Units have as many lessons as the topic needs, lessons as many exercises as the content needs, sections as many units as the theme needs.
+4. **Variable sizing.** Units have as many lessons as the topic needs, lessons as many exercises as the content needs. There are no target counts.
 
 5. **Frequency-first vocabulary.** Words come from De Mauro's *vocabolario fondamentale* (the ~2,000 most frequent Italian words covering ~86% of text). Vocabulary is authored as **chunks and collocations** where natural (`vorrei un caffè`, `quanti anni hai`), not just bare lemmas — native-like fluency is heavily formulaic (lexical approach, Lewis).
 
-6. **Honest vocabulary counting.** Counts are **headwords/lemmas**, never inflected forms. Conjugations and plurals are grammar practice, not vocabulary breadth. A1's genuine target is 500–1000 content words; this plan reaches ~650 honestly counted.
+6. **Honest vocabulary counting.** Counts are **headwords/lemmas**, never inflected forms. Conjugations and plurals are grammar practice, not vocabulary breadth. A1's target is the vocabulary expected at A1, defined by a sourced lemma list (still to be chosen; see the development plan, Workstream 4).
 
 7. **Communicative purpose.** Each unit has a clear "by the end, you can…" outcome aligned with CEFR A1 can-do statements.
 
 ## Structure Overview
 
-| Section | Units | Focus | Mode |
-|---------|-------|-------|------|
-| 1: Foundations | 1–5 | Greetings, *essere*, nouns/articles, numbers, *avere* | Form-first |
-| 2: People & Relationships | 6–8 | Describing people/things, origins, family | Situational |
-| 3: Everyday Life | 9–12 | Routines, work & hobbies, conversation, getting out | Situational |
-| 4: Out in the World | 13–15 | Directions, transport, making plans | Situational |
-| 5: Daily Needs | 16–20 | Eating out, shopping, likes, weather, health | Situational |
-| **Total** | **20 units** | | **~650 headwords** |
+| Part | Units | Focus | Mode |
+|------|-------|-------|------|
+| Foundations | 1–5 | Greetings, *essere*, nouns/articles, numbers, *avere* | Form-first |
+| Situational arc | 6–21 | People, daily life, getting around, daily needs, health, travel | Situational |
 
-## The AI Conversation Tutor
+The grouping of units into sections lives in `curriculum.ts`.
 
-A real-time voice AI tutor the learner can talk to in Italian. **Design decision: it is a standalone feature, not gated into the learning tree.** It is always available from anywhere in the app.
+## Capstones and the AI Tutor
 
-- **Context-aware, not tree-locked.** When the learner opens a conversation, the tutor receives context about where they are in the tree — completed units, known vocabulary/grammar — and scopes itself accordingly (simple Italian, only words the learner has plausibly met, switch briefly to English when they're stuck). The learner is never *blocked* from talking; the AI just calibrates.
-- **Closes the loop with SRS.** A post-conversation correction summary turns mistakes into review items, feeding the spaced-repetition system.
-- **Implementation: TBD.** Likely OpenAI Realtime API fronted by a backend endpoint that mints short-lived ephemeral tokens (no API key in the browser). The backend already exists. Decided later.
-
-### Two kinds of capstone
-
-Each situational unit (6–20) ends with **two** capstones — they are deliberately separate:
-
-- **Written capstone — in the tree, required.** A long-form written production lesson (like unit 5's "Practice Writing"). It is a normal lesson: completing it finishes the unit and unlocks the next. This is what gates progression, it needs no backend, and it keeps written production a trained A1 skill. Detailed per-unit written tasks are part of the pending lesson-level design.
-- **Tutor scenario — outside the tree, voluntary.** The spoken practice. Surfaced as a "Practice this unit with your tutor" button on the unit's completion screen, which deep-links into the standalone tutor pre-seeded with that unit's scenario + the learner's tree position. It has **zero** effect on completion or unlocking — skippable, repeatable, pure upside. The button simply isn't rendered until the tutor ships, so the curriculum is never blocked on it.
-
-The tutor is therefore **one feature with multiple context-aware doors**: a global entry (free conversation, AI picks the level) and per-unit entries (focused scenario practice). A button is a shortcut *into* the tutor — it never makes the tutor a tree node.
-
-> **Dependency note:** scoping the AI to "words the learner knows" wants **lemma-level** vocabulary knowledge. The current SRS stores one card per inflected form with no lemma grouping (`ho`/`hai`/`ha` are 3 unrelated cards). A note=lemma / card=form model should be decided before the tutor's context payload is built.
+Each situational unit ends with a **written capstone** (a normal lesson, AI-graded, required to complete the unit). A **spoken tutor scenario** for the same situation is planned as a voluntary extra once the AI tutor exists. The tutor's design is in [development-plan.md](development-plan.md), Workstream 2.
 
 ## Dependency Graph
 
@@ -77,6 +62,7 @@ U4,U6      → U17 Shopping (demonstratives, prices)
 U10        → U18 Likes & preferences (piacere)
 U12        → U19 Weather & small talk (fare/c'è for weather, calendar)
 U5,U12     → U20 Feeling good, feeling bad (stare for health, avere idioms)  ← A1 capstone
+U14,U17    → U21 Hotel & travel (booking, documents, sightseeing)
 ```
 
 ---
@@ -95,7 +81,7 @@ These five units are deliberately *not* situational. Greetings, *essere*, the ar
 
 **Grammar:** None. Everything here is formulaic chunks memorized as fixed phrases. This is deliberate: learners need social survival tools before any grammar analysis. Mirrors how children acquire L1 social routines and how phrasebook Italian actually works.
 
-**Vocabulary:** ~25 words (greetings, politeness, basic responses)
+**Vocabulary:** greetings, politeness, basic responses
 
 **Why this comes first:** Research on communicative competence (Canale & Swain 1980) shows sociolinguistic competence — knowing *when* to say *what* — matters as much as grammatical accuracy. Italian's formal/informal distinction (tu/Lei) is a social minefield. Front-loading it means learners build correct instincts from day one rather than unlearning bad habits later.
 
@@ -139,7 +125,7 @@ Metacommunicative phrases — the tools you need when communication itself break
 
 **Grammar:** Subject pronouns (io, tu, lui, lei, Lei, noi, voi, loro) and the full present tense of *essere* (sono, sei, è, siamo, siete, sono).
 
-**Vocabulary:** ~20 words (pronouns, essere forms, introduction phrases, a few professions)
+**Vocabulary:** pronouns, essere forms, introduction phrases, a few professions
 
 **Prerequisites:** Unit 1 (greetings, formal/informal awareness)
 
@@ -165,7 +151,7 @@ Extends to third person. Also tackles the notorious lei/Lei ambiguity (she vs fo
 - **Key concept:** lei (she) vs Lei (formal you) — identical pronunciation, distinguished by context and capitalization in writing. Teach it here because learners encounter it immediately in real Italian and it causes confusion if not addressed.
 - **Why this sequence:** Going io → tu → lui/lei follows natural conversation flow: you talk about yourself first, then your interlocutor, then others. It's also the standard textbook progression (Nuovo Espresso, Prego, Chiaro!).
 
-### Lesson 3: We, You All, They — The Full Picture
+### Lesson 3: We, You (plural), They — The Full Picture
 
 Completes the essere paradigm with plural forms. Heavier on review and consolidation because the full 6-form paradigm is a lot to hold at once.
 
@@ -179,7 +165,7 @@ Completes the essere paradigm with plural forms. Heavier on review and consolida
 A consolidation lesson. No new grammar. Heavy on production exercises (type_answer, arrange_words) and realistic mini-dialogues. Recycles all of Unit 1 + Unit 2 vocabulary.
 
 - **Focus:** Formal vs informal introductions (Ciao, mi chiamo... vs Buongiorno, sono...), introducing others (Questo è il mio amico Marco — taught as a chunk), asking follow-up questions (Di dove sei? Chi è?)
-- **Why a consolidation lesson:** Essere is used in virtually every subsequent unit. Shaky essere = shaky everything. The investment in a full practice lesson pays dividends throughout A1. This also follows the exercise generation guide's principle of 20-30% review content — here it's 100% review, which is appropriate at this early stage.
+- **Why a consolidation lesson:** Essere is used in virtually every subsequent unit. Shaky essere = shaky everything. The investment in a full practice lesson pays dividends throughout A1. Here it's all review, which is appropriate at this early stage.
 
 ---
 
@@ -189,13 +175,13 @@ A consolidation lesson. No new grammar. Heavy on production exercises (type_answ
 
 **Grammar:** Grammatical gender (masculine/feminine), indefinite articles (un, uno, una, un'), definite articles (il, lo, la, l', i, gli, le), plural formation (-o→-i, -a→-e, -e→-i).
 
-**Vocabulary:** ~28 words (common objects, basic environmental nouns)
+**Vocabulary:** common objects, basic environmental nouns
 
 **Prerequisites:** Unit 2 (essere — needed for "È un libro," "Sono i libri")
 
 **Why this unit exists:** The article+gender system is the structural backbone of Italian. Every noun, every adjective, every possessive, every pronoun must agree in gender and number. Getting this right early is critical because errors here cascade into everything that follows. Standard Italian textbooks (Nocchi's *Grammatica Pratica*, Trifone & Palermo's *Grammatica di base*) all treat this as the first major grammar topic after essere.
 
-**Why it's 4 lessons:** This is genuinely the densest grammar topic in A1. Italian has 7 definite articles (vs English "the") and 4 indefinite articles (vs English "a/an"). Rushing it causes persistent errors. Better to invest time here.
+**Why it gets extra time:** This is genuinely the densest grammar topic in A1. Italian has 7 definite articles (vs English "the") and 4 indefinite articles (vs English "a/an"). Rushing it causes persistent errors.
 
 ### Lesson 1: Masculine & Feminine
 
@@ -215,7 +201,7 @@ Introduces all 7 definite articles and the remaining indefinite articles (uno, u
   - Definite articles: il (default masc), lo (before s+consonant, z, gn, ps, x), la (default fem), l' (before vowel, both genders)
   - Indefinite: uno (same triggers as lo), un' (feminine before vowel)
 - **Key concept:** The "lo/uno" rule trips up every learner. Rather than memorizing abstract rules, teach it with the most common trigger words: lo studente, lo zaino, lo specchio. The rule is phonological (Italian avoids consonant clusters at word boundaries) — explaining the *why* helps retention.
-- **Why this is a lot:** 7 definite articles where English has 1. This needs dedicated drilling. The exercise generation guide recommends ~15 exercises per lesson; this one gets 16 because the content is dense.
+- **Why this is a lot:** 7 definite articles where English has 1. This needs dedicated drilling, more than a typical lesson.
 
 ### Lesson 3: One and Many — Plurals
 
@@ -246,13 +232,12 @@ Consolidation using real-world contexts. The grammar is done — this lesson app
 
 **Grammar:** None. Numbers are pure vocabulary memorization with pattern rules for 21-100.
 
-**Vocabulary:** ~22 words (numbers 0-20 individually, then pattern words for 21-100)
+**Vocabulary:** numbers 0-20 individually, then pattern words for 21-100
 
 **Prerequisites:** None technically, but placed here because numbers are needed for avere + age in Unit 5.
 
 **Why this is its own unit (not bundled with avere):** Numbers and avere have completely different learning modalities. Numbers are rote vocabulary memorization (11 unique words for 0-10, then patterns). Avere is verb conjugation + idiomatic expressions. Bundling them creates a unit with no thematic unity. Separating them lets each topic get the focused practice it needs.
 
-**Why only 2 lessons:** Numbers don't need grammar explanation. You memorize 0-20, learn the pattern for 21-100, and practice. Two focused lessons are more effective than dragging it across 3+ lessons where attention wanders.
 
 ### Lesson 1: Numbers 0-20
 
@@ -279,7 +264,7 @@ After 20, Italian numbers follow predictable patterns. Teach the pattern, drill 
 
 **Grammar:** Present tense of avere (ho, hai, ha, abbiamo, avete, hanno).
 
-**Vocabulary:** ~20 words (avere forms, age expressions, idiomatic states)
+**Vocabulary:** avere forms, age expressions, idiomatic states
 
 **Prerequisites:** Unit 2 (essere — for contrast), Unit 4 (numbers — for age)
 
@@ -324,7 +309,7 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Describing a friend, a family member, or an object to someone who hasn't met/seen them.
 - **Can-do:** Describe physical appearance, personality, size, and colour. "Mia sorella è alta e simpatica." "Ho una macchina rossa."
 - **Grammar (focus-on-form lesson):** Adjective agreement (-o/-a/-i/-e), 2-form -e adjectives, invariable adjectives (blu, rosa, viola), adjective position (after the noun by default).
-- **Vocabulary:** ~40 — appearance (alto, basso, grande, piccolo…), personality (simpatico, intelligente, contento…), colours, common qualities (nuovo, vecchio, bello).
+- **Vocabulary:** appearance (alto, basso, grande, piccolo…), personality (simpatico, intelligente, contento…), colours, common qualities (nuovo, vecchio, bello).
 - **Tutor scenario (voluntary):** Describe a person the tutor "can't see" — the tutor asks follow-up questions.
 
 ## Unit 7: Where We're From
@@ -332,7 +317,7 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Small talk with someone new — where you're from, what languages you speak.
 - **Can-do:** State and ask nationality and origin. "Sono italiano, e tu?" "Parli inglese?"
 - **Grammar (focus-on-form lesson):** Nationality adjectives as a *direct application* of Unit 6 agreement (italiano/a, inglese); countries; `di`/`in` with places; `parlare` + language.
-- **Vocabulary:** ~35 — countries, nationalities, languages, "di dove sei?".
+- **Vocabulary:** countries, nationalities, languages, "di dove sei?".
 - **Tutor scenario (voluntary):** A first-meeting exchange — names, origins, languages.
 
 ## Unit 8: My Family
@@ -340,7 +325,7 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Telling someone about your family.
 - **Can-do:** Name and describe family members, say whose they are. "Mia madre si chiama Anna." "I miei fratelli sono grandi."
 - **Grammar (focus-on-form lesson):** Possessive adjectives (mio/tuo/suo/nostro/vostro/loro), and the family-no-article rule (`mia madre`, but `i miei fratelli`, `la loro madre`).
-- **Vocabulary:** ~30 — family members, possessives.
+- **Vocabulary:** family members, possessives.
 - **Tutor scenario (voluntary):** Describe your family tree to the tutor.
 
 ---
@@ -355,8 +340,8 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 
 - **Situation:** Telling someone what your typical day looks like.
 - **Can-do:** Describe a daily routine with times. "Mi sveglio alle sette, faccio colazione, vado a lavorare."
-- **Grammar (focus-on-form lesson):** Regular **-are verbs**, **reflexive verbs** (mi/ti/si…), **telling time** (Che ore sono? / alle…). This is the densest situational unit — likely 3–4 lessons.
-- **Vocabulary:** ~45 — routine verbs, reflexive verbs, time expressions, parts of the day.
+- **Grammar (focus-on-form lesson):** Regular **-are verbs**, **reflexive verbs** (mi/ti/si…), **telling time** (Che ore sono? / alle…). This is the densest situational unit.
+- **Vocabulary:** routine verbs, reflexive verbs, time expressions, parts of the day.
 - **Tutor scenario (voluntary):** Walk the tutor through your morning.
 
 ## Unit 10: Work, Study & Free Time
@@ -364,7 +349,7 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Talking about what you do — job, studies, hobbies.
 - **Can-do:** Describe activities and interests. "Studio italiano." "Leggo molto." "Gioco a calcio."
 - **Grammar (focus-on-form lesson):** Regular **-ere** and **-ire verbs**, including the **-isc-** pattern (capire, finire, preferire).
-- **Vocabulary:** ~40 — jobs, study, hobbies, sports.
+- **Vocabulary:** jobs, study, hobbies, sports.
 - **Tutor scenario (voluntary):** Talk about your work/studies and what you do for fun.
 
 ## Unit 11: Keeping a Conversation Going
@@ -372,7 +357,7 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Actively participating in a chat — asking back, saying how often, disagreeing.
 - **Can-do:** Ask questions, answer in the negative, say how frequently you do things. "Quando ti svegli?" "Non lavoro il sabato." "Vado spesso al cinema."
 - **Grammar (focus-on-form lesson):** Question words (dove, cosa, quando, come, perché), negation with `non`, frequency adverbs (sempre, spesso, qualche volta, mai).
-- **Vocabulary:** ~30 — question words, connectors (ma, o, perché, anche), frequency adverbs.
+- **Vocabulary:** question words, connectors (ma, o, perché, anche), frequency adverbs.
 - **Tutor scenario (voluntary):** A back-and-forth Q&A where the learner must ask the tutor questions too.
 
 ## Unit 12: Out and About
@@ -380,7 +365,7 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Talking about going out and doing things.
 - **Can-do:** Say where you're going and what you're doing. "Vado al supermercato." "Cosa fai stasera?" "Esco con gli amici."
 - **Grammar (focus-on-form lesson):** Key irregular verbs — fare, andare, venire, uscire, stare, dare, dire — and `andare a` + infinitive.
-- **Vocabulary:** ~35 — the 7 verbs + collocations (fare la spesa, fare colazione…), time-out words (stasera, domani, insieme).
+- **Vocabulary:** the 7 verbs + collocations (fare la spesa, fare colazione…), time-out words (stasera, domani, insieme).
 - **Tutor scenario (voluntary):** Plan an evening out loud with the tutor.
 
 ---
@@ -396,7 +381,7 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Lost in an Italian town, asking for and giving directions.
 - **Can-do:** Ask where things are and follow simple directions. "Dov'è la stazione?" "È a destra, vicino alla banca."
 - **Grammar (focus-on-form lesson):** Simple prepositions (di, a, da, in, con, su, per, tra/fra), articulated prepositions (al, allo, della, nel…), c'è/ci sono recap.
-- **Vocabulary:** ~40 — places in a city, direction words (a destra, dritto, vicino a, davanti a).
+- **Vocabulary:** places in a city, direction words (a destra, dritto, vicino a, davanti a).
 - **Tutor scenario (voluntary):** Ask the tutor for directions to a place.
 
 ## Unit 14: Getting Around
@@ -404,7 +389,7 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Using public transport, buying a ticket.
 - **Can-do:** Talk about how you travel and buy a ticket. "Vado in treno." "Un biglietto per Roma, per favore."
 - **Grammar (focus-on-form lesson):** Prepositions with transport (in macchina, in treno, a piedi), numbers/time review in a travel context.
-- **Vocabulary:** ~30 — transport, travel, ticket/station vocabulary.
+- **Vocabulary:** transport, travel, ticket/station vocabulary.
 - **Tutor scenario (voluntary):** Buy a train ticket from the tutor playing a clerk.
 
 ## Unit 15: Making Plans
@@ -412,7 +397,7 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Inviting someone out and arranging when/where to meet.
 - **Can-do:** Express wants, ability, obligation; arrange a meeting. "Vuoi venire al cinema?" "Non posso, devo lavorare." "Ci vediamo domani."
 - **Grammar (focus-on-form lesson):** Modal verbs (volere, potere, dovere) + infinitive; days of the week.
-- **Vocabulary:** ~30 — modal verbs, days of the week, planning phrases.
+- **Vocabulary:** modal verbs, days of the week, planning phrases.
 - **Tutor scenario (voluntary):** Negotiate a plan to meet up with the tutor.
 
 ---
@@ -428,7 +413,7 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Ordering food and drink at a bar or restaurant.
 - **Can-do:** Order politely, ask for the bill. "Vorrei un caffè." "Per me la pasta." "Il conto, per favore."
 - **Grammar (focus-on-form lesson):** `vorrei` as a polite chunk (conditional grammar deferred to A2), partitive articles (del, della, dei… = "some").
-- **Vocabulary:** ~45 — food, drink, restaurant/bar vocabulary, meal names.
+- **Vocabulary:** food, drink, restaurant/bar vocabulary, meal names.
 - **Tutor scenario (voluntary):** Order a full meal from the tutor playing a waiter.
 
 ## Unit 17: Shopping
@@ -436,7 +421,7 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Buying things in a shop — clothes, groceries — and asking prices.
 - **Can-do:** Ask for items and prices. "Quanto costa questo?" "Vorrei quella maglia rossa."
 - **Grammar (focus-on-form lesson):** Demonstratives questo/quello, `quanto costa/costano`, recap of numbers (prices) and colours.
-- **Vocabulary:** ~40 — shops, clothing, money, sizes.
+- **Vocabulary:** shops, clothing, money, sizes.
 - **Tutor scenario (voluntary):** Buy an item of clothing, haggle over size/colour.
 
 ## Unit 18: Likes & Preferences
@@ -444,7 +429,7 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Talking about what you like, love, and prefer.
 - **Can-do:** Express likes and preferences. "Mi piace la pizza." "Mi piacciono i film italiani." "Preferisco il tè."
 - **Grammar (focus-on-form lesson):** `piacere` (mi piace / mi piacciono — the "it pleases me" construction), `preferire`.
-- **Vocabulary:** ~30 — food/activities/things to like, preference verbs.
+- **Vocabulary:** food/activities/things to like, preference verbs.
 - **Tutor scenario (voluntary):** Compare tastes with the tutor.
 
 ## Unit 19: Weather & Small Talk
@@ -452,7 +437,7 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Making small talk about the weather, seasons, and dates.
 - **Can-do:** Describe the weather, say the date. "Fa caldo oggi." "C'è il sole." "Il mio compleanno è in agosto."
 - **Grammar (focus-on-form lesson):** Weather expressions (`fa` caldo/freddo, `c'è` il sole/vento, `piove`), months, seasons, dates.
-- **Vocabulary:** ~35 — weather, seasons, months, calendar.
+- **Vocabulary:** weather, seasons, months, calendar.
 - **Tutor scenario (voluntary):** Chat about the weather and your favourite season.
 
 ## Unit 20: Feeling Good, Feeling Bad — A1 Capstone
@@ -460,45 +445,28 @@ The payoff lesson: avere is used for age and many physical/emotional states. Thi
 - **Situation:** Saying how you feel, describing a problem at the pharmacy.
 - **Can-do:** Describe physical state and symptoms. "Sto male." "Ho mal di testa." "Mi fa male la gola."
 - **Grammar (focus-on-form lesson):** `stare` for health (recap from Unit 1, now full), avere idioms recap (`ho mal di…`, `ho fame/freddo`), `fare male`.
-- **Vocabulary:** ~35 — the body, ailments, pharmacy vocabulary.
+- **Vocabulary:** the body, ailments, pharmacy vocabulary.
 - **Tutor scenario (voluntary):** The A1 final — a free conversation with the tutor covering self-introduction, routine, plans, and a problem to solve.
+
+## Unit 21: Hotel & Travel
+
+- **Situation:** Staying at a hotel and getting around as a tourist.
+- **Can-do:** Book and check into a room, handle documents and luggage, ask about sights. "Vorrei una camera doppia." "Ecco il mio passaporto."
+- **Grammar:** None new; recycles *vorrei*, prepositions, numbers and dates.
+- **Vocabulary:** hotel and booking, documents and luggage, sightseeing.
+- *Added after the original 20-unit plan. Whether it belongs at the end of A1 or opens A2 is open.*
 
 ---
 
 # Appendix
 
-## Vocabulary Distribution
+## Vocabulary
 
-Counts are **headwords/lemmas** — inflected forms (verb conjugations, plurals, adjective agreement) are *not* counted as separate vocabulary.
-
-| Unit | Domain | New Headwords | Cumulative |
-|------|--------|--------------|------------|
-| 1 | Greetings & survival | ~25 | ~25 |
-| 2 | Essere & introductions | ~20 | ~45 |
-| 3 | Nouns, gender, articles | ~28 | ~73 |
-| 4 | Numbers 0-100 | ~22 | ~95 |
-| 5 | Avere & idioms | ~20 | ~115 |
-| 6 | Describing people & things | ~40 | ~155 |
-| 7 | Where we're from | ~35 | ~190 |
-| 8 | My family | ~30 | ~220 |
-| 9 | A day in my life | ~45 | ~265 |
-| 10 | Work, study & free time | ~40 | ~305 |
-| 11 | Keeping a conversation going | ~30 | ~335 |
-| 12 | Out and about | ~35 | ~370 |
-| 13 | Finding your way | ~40 | ~410 |
-| 14 | Getting around | ~30 | ~440 |
-| 15 | Making plans | ~30 | ~470 |
-| 16 | At the café & restaurant | ~45 | ~515 |
-| 17 | Shopping | ~40 | ~555 |
-| 18 | Likes & preferences | ~30 | ~585 |
-| 19 | Weather & small talk | ~35 | ~620 |
-| 20 | Feeling good, feeling bad | ~35 | ~655 |
-
-**~655 headwords** — genuinely within the 500–1000 word target for A1, counted honestly. SRS may still track inflected forms as separate review *items*, but they do not count toward vocabulary breadth.
+Counts are **headwords/lemmas**: inflected forms (conjugations, plurals, agreement) are not separate vocabulary. The A1 target is a sourced A1 lemma list (to be chosen). The built units currently hold 772 vocabulary entries; these still need de-duplicating to lemmas and checking against that list.
 
 ## A1 Grammar Coverage Map
 
-Every A1 grammar topic, and the unit that owns it:
+Every A1 grammar topic, and the unit that currently teaches it. This is the starting point for the A1 grammar units in the upcoming restructure.
 
 | Grammar topic | Unit |
 |---|---|
@@ -523,16 +491,17 @@ Every A1 grammar topic, and the unit that owns it:
 | Weather expressions, calendar | 19 |
 | *stare* for health, *fare male* | 20 |
 
+Content that reaches beyond A1 and should be reviewed: the imperative (unit 13, lesson 5) and *sembra che* (unit 11, lesson 5, a subjunctive trigger).
+
 ## Open Design Questions
 
-- **Lesson-level detail for Units 6–20** — currently unit-level outlines only; each needs a full lesson breakdown like Units 1–5.
-- **SRS lemma model** — decide note=lemma / card=form before the AI tutor's "known vocabulary" context payload is built (see The AI Conversation Tutor, above).
-- **AI tutor implementation** — API choice (OpenAI Realtime likely), backend ephemeral-token endpoint, UI entry point. Deferred.
-- **Curriculum rebalancing above A1** — A2/B1/B2 unit counts in `curriculum.ts` currently *decrease* with level, which is inverted; each CEFR level needs *more* units than the one below it. Out of scope for this doc but tracked.
+- Where unit 21 (Hotel & Travel) belongs: end of A1 or start of A2.
+- How the units map onto chapters and grammar units in the restructure.
+- SRS lemma model and the AI tutor: see the development plan.
 
-## A1 Checkpoint (End of Section 5)
+## A1 Can-Do Goals
 
-At the end of A1, learners should be able to pass a checkpoint that tests:
+By the end of A1 a learner should be able to do the following. (Section checkpoints were removed from the app; these goals are planned to become progress milestones.)
 - Introduce yourself and others (name, origin, nationality, profession, age)
 - Describe people and things (appearance, personality, colours, size)
 - Talk about family using possessives
