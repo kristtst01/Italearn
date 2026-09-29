@@ -8,7 +8,7 @@ Italian learning app, A1 → B2. React frontend + FastAPI backend. See [README.m
 - Authoring spec: [docs/exercise-generation-guide.md](docs/exercise-generation-guide.md). A1 design: [docs/a1-curriculum-plan.md](docs/a1-curriculum-plan.md). Roadmap and decisions: [docs/development-plan.md](docs/development-plan.md).
 
 ## Tech Stack
-- **Frontend:** React 19 + TypeScript (strict) + Vite 7, Tailwind CSS 4 + shadcn/ui, Zustand 5, React Router 7, ts-fsrs
+- **Frontend:** React 19 + TypeScript (strict) + Vite 7, Tailwind CSS 4 + shadcn/ui, Zustand 5, React Router 7, ts-fsrs. Fonts: Archivo, Archivo Black, Caveat (self-hosted via @fontsource)
 - **Backend:** FastAPI + PostgreSQL (async SQLAlchemy, Alembic), Docker Compose
 - **Auth:** Clerk (frontend `@clerk/clerk-react`, backend verifies JWTs)
 - **AI:** Anthropic API (Claude Haiku) for answer validation and free-form grading; Google Cloud Speech-to-Text for read-aloud
@@ -19,6 +19,7 @@ Frontend (from `frontend/`):
 npm run dev       # Vite dev server
 npm run build     # tsc -b && vite build
 npx eslint src/   # lint (use this; `npm run lint` also picks up .vite cache noise)
+npm run lint:tokens  # list raw colours that should be design tokens
 ```
 Backend (from `backend/`): `make setup` (first run), `make run`, `make migrate`, `make migration msg="..."`, `make logs`.
 
@@ -69,6 +70,7 @@ data/italian-frequency-50k.txt  # Italian word frequency list (reference for voc
 - **Adding a lesson:** drop the JSON in `data/units/unit-NN/` (auto-discovered by `import.meta.glob`) and add its `LessonMeta` to the unit in `curriculum.ts`
 - **Stores:** `use` prefix, async actions that persist through `engine/api.ts`
 - **Hydration:** Centralized in `HydrationGuard`, which seeds vocabulary and hydrates both stores before any route renders. Pages assume stores are ready.
+- **Styling:** colours, fonts and radii come only from the tokens in `src/index.css` (see [docs/design-system.md](docs/design-system.md)). Use token classes (`bg-primary`, `text-learned`, `font-display`), never raw Tailwind colours or hex. `npm run lint:tokens` lists violations.
 - **Types:** PascalCase, all in `types/`, barrel export
 - **Components:** Functional + hooks, PascalCase filenames. Cross-feature code goes in `shared/`.
 

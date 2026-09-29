@@ -72,7 +72,7 @@ Parallel-ish tracks. Rough priority order, but they interleave.
 
 Turn the Product Shape above into a design doc, then build it.
 - **Design doc:** content model (chapter, grammar unit, word set, exercise), the dependency graph, how Today picks a session, grammar items in SRS, coverage metrics, what happens to XP/streaks/test-out.
-- **UI direction:** layout, colour palette, typography, the reading experience for grammar units. Desktop first; mobile is out of scope for now.
+- **UI direction:** decided; see [design-system.md](design-system.md). Tokens are in `frontend/src/index.css`. Existing components still use raw colours (`npm run lint:tokens`) and get migrated as screens are rebuilt.
 - **A1 grammar units:** decide the ~10 A1 units, then write them at textbook depth, using the existing grammar tips as raw material. Have an Italian source (or speaker) check the nuances.
 - **New exercise types** (see [exercise-generation-guide.md](exercise-generation-guide.md), Exercise Types): transformation, structured input ("whose is it?"), find the mistake, full-sentence translation, dialogue completion. Listening and speaking types follow the audio pipeline (2b).
 
@@ -234,6 +234,7 @@ Likely shape:
 - (2026-09-29) Proposed: no visible tree; chapters + separate grammar section + time-budgeted Today plan + coverage-based progress. Pending design doc.
 - (2026-09-29) Grammar is taught as whole systems in one sitting, at textbook depth, then maintained through SRS. Bite-sized is for maintenance only.
 - (2026-09-29) Desktop first. Mobile design is out of scope for now.
+- (2026-09-29) Visual direction: Olivetti colour and type (Archivo) with Mediterranean tiles and stamps; calm UI with background shapes; one token source in `index.css`. See design-system.md.
 
 - A1 opens with form-first foundations (units 1–5), then moves to situational (notional-functional) units.
 - Situational units organize around a scenario; grammar is threaded through via a focus-on-form lesson, not the unit's organizing principle.
