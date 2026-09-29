@@ -97,6 +97,7 @@ Fonts are self-hosted via `@fontsource` packages (no Google Fonts request).
 - **Stamp:** white, dotted border. Earned: Vermiglione scuro border, title and postmark dot. Unearned: grey dotted border, grey title, empty ring (no transparency). Title in Archivo Black, Italian. Used on the Chapter page and in the Progress stamp book only.
 - **Postcard:** airmail border (diagonal Vermiglione / white / Cobalto stripes) around a white panel, with a tilted Cobalto postmark. Only for the stamp book.
 - **Background shapes:** Vermiglione / Cobalto circles and Ocra half-circles, absolutely positioned behind content, following Principle 3.
+- **Placeholder (coming soon):** for features that exist in the design but aren't built. White card, 2px dashed Linea-grey border, radius 10, a small "Coming soon" label (uppercase, Grigio), the feature's name and one line on what it will do. Disabled controls inside it (e.g. a play button) are grey and not clickable. Same size and position as the real thing will have, so nothing moves when it ships.
 - **Correction:** wrong text struck through in Vermiglione scuro, the correction handwritten after it in Caveat.
 
 ## Status of the code
