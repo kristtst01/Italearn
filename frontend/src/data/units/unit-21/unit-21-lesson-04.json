@@ -1,0 +1,61 @@
+{
+  "id": "unit-21-lesson-04",
+  "unit_id": "unit-21",
+  "name": "Practice Writing",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-21-lesson-04-tip-01",
+      "title": "Travelling & Staying",
+      "explanation": "Write about staying at a hotel, checking in, being a tourist, and visiting places. Combine 'vorrei prenotare', hotel vocabulary, sightseeing words, and earlier units' transport and direction vocabulary.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-21-lesson-04-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Book a hotel room — say what you want, for how many nights, what type. (3-4 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Vorrei prenotare una camera doppia. Per tre notti, per favore. La prenotazione è a nome Marco. Quanto costa?",
+      "distractors": [],
+      "hints": ["Use 'vorrei prenotare', room type, nights, price."],
+      "target_words": ["prenotare", "albergo"]
+    },
+    {
+      "id": "unit-21-lesson-04-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Check in at a hotel — short dialogue. (3-4 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Buongiorno, ho una prenotazione. Mi chiamo Marco. Ecco il mio passaporto. Compilo il modulo.",
+      "distractors": [],
+      "hints": ["Greet + prenotazione + passport + form."],
+      "target_words": ["prenotazione", "passaporto", "modulo"]
+    },
+    {
+      "id": "unit-21-lesson-04-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe a day as a tourist — what you see, where you go, photos. (4 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Vado al museo la mattina. C'è un monumento bello in piazza. Faccio molte foto. Il pomeriggio compro una mappa.",
+      "distractors": [],
+      "hints": ["Use places, photos, map, monument."],
+      "target_words": ["monumento", "foto", "mappa"]
+    },
+    {
+      "id": "unit-21-lesson-04-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe a hotel — where it is, what's inside, what floor your room is on. (3-4 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "L'albergo è in centro a Roma. C'è un ascensore e una reception. La mia camera è al terzo piano. È una camera doppia.",
+      "distractors": [],
+      "hints": ["Hotel + location + features + room."],
+      "target_words": ["albergo", "ascensore", "piano"]
+    }
+  ],
+  "vocabulary": []
+}

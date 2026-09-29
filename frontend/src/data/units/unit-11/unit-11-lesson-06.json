@@ -1,0 +1,779 @@
+{
+  "id": "unit-11-lesson-06",
+  "unit_id": "unit-11",
+  "name": "Common Nouns",
+  "order": 6,
+  "grammar_tips": [
+    {
+      "id": "unit-11-lesson-06-tip-01",
+      "title": "Abstract Conversation Nouns",
+      "explanation": "Italian conversation depends on a small core of abstract nouns: modo (way), momento (moment), parte (part), tipo (type), caso (case), storia (story), fine (end), punto (point).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-11-lesson-06-tip-02",
+      "title": "Posto, Numero, Senso",
+      "explanation": "'Il posto' (place/spot), 'il numero' (number), 'il senso' (sense/meaning). 'Non ha senso' = It makes no sense.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-11-lesson-06-tip-03",
+      "title": "Informal Words",
+      "explanation": "'La roba' = stuff (informal). 'Un affare' = a deal / matter ('Che affare!' = What a deal!). 'Il ricordo' = a memory (the noun from ricordare).",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-11-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'modo' mean?"
+      },
+      "sentence_context": "In che modo?",
+      "correct_answer": "Way / manner",
+      "distractors": [
+        "Type",
+        "Place",
+        "Time"
+      ],
+      "hints": [
+        "In what way?"
+      ],
+      "target_words": [
+        "modo"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'momento' mean?"
+      },
+      "sentence_context": "Un momento, per favore.",
+      "correct_answer": "Moment",
+      "distractors": [
+        "Hour",
+        "Day",
+        "Time"
+      ],
+      "hints": [
+        "One moment, please."
+      ],
+      "target_words": [
+        "momento"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'parte' mean?"
+      },
+      "sentence_context": "Una parte del libro.",
+      "correct_answer": "Part",
+      "distractors": [
+        "Whole",
+        "Page",
+        "Chapter"
+      ],
+      "hints": [
+        "A part of the book."
+      ],
+      "target_words": [
+        "parte"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'tipo' mean here?"
+      },
+      "sentence_context": "Che tipo di musica?",
+      "correct_answer": "Type / kind",
+      "distractors": [
+        "Person",
+        "Way",
+        "Style"
+      ],
+      "hints": [
+        "What kind of music?"
+      ],
+      "target_words": [
+        "tipo"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'caso' mean here?"
+      },
+      "sentence_context": "In ogni caso, vado.",
+      "correct_answer": "Case",
+      "distractors": [
+        "Cause",
+        "Reason",
+        "Time"
+      ],
+      "hints": [
+        "In any case."
+      ],
+      "target_words": [
+        "caso"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'storia' mean?"
+      },
+      "sentence_context": "Una storia interessante.",
+      "correct_answer": "Story",
+      "distractors": [
+        "History",
+        "Book",
+        "News"
+      ],
+      "hints": [
+        "An interesting story (could also mean history)."
+      ],
+      "target_words": [
+        "storia"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'fine' mean here?"
+      },
+      "sentence_context": "La fine del film.",
+      "correct_answer": "End",
+      "distractors": [
+        "Start",
+        "Middle",
+        "Quality"
+      ],
+      "hints": [
+        "The end of the film."
+      ],
+      "target_words": [
+        "fine"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'punto' mean?"
+      },
+      "sentence_context": "Un buon punto.",
+      "correct_answer": "Point",
+      "distractors": [
+        "Dot only",
+        "Score",
+        "Place"
+      ],
+      "hints": [
+        "A good point (in an argument)."
+      ],
+      "target_words": [
+        "punto"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'posto' mean?"
+      },
+      "sentence_context": "C'è un posto libero?",
+      "correct_answer": "Place / seat",
+      "distractors": [
+        "Time",
+        "House",
+        "Floor"
+      ],
+      "hints": [
+        "Is there a free seat?"
+      ],
+      "target_words": [
+        "posto"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'numero' mean?"
+      },
+      "sentence_context": "Il mio numero di telefono.",
+      "correct_answer": "Number",
+      "distractors": [
+        "Address",
+        "Name",
+        "Code"
+      ],
+      "hints": [
+        "My phone number."
+      ],
+      "target_words": [
+        "numero"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-11",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'senso' mean?"
+      },
+      "sentence_context": "Non ha senso.",
+      "correct_answer": "Sense / meaning",
+      "distractors": [
+        "Idea",
+        "Smell",
+        "Direction only"
+      ],
+      "hints": [
+        "It makes no sense."
+      ],
+      "target_words": [
+        "senso"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-12",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'ricordo' mean (noun)?"
+      },
+      "sentence_context": "Un bel ricordo.",
+      "correct_answer": "Memory",
+      "distractors": [
+        "Lesson",
+        "Story",
+        "Thought"
+      ],
+      "hints": [
+        "A nice memory."
+      ],
+      "target_words": [
+        "ricordo"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-13",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'affare' mean here?"
+      },
+      "sentence_context": "Che affare!",
+      "correct_answer": "Deal / bargain",
+      "distractors": [
+        "Pity",
+        "Trip",
+        "Trouble"
+      ],
+      "hints": [
+        "What a deal!"
+      ],
+      "target_words": [
+        "affare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-14",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'roba' mean?"
+      },
+      "sentence_context": "Quanta roba!",
+      "correct_answer": "Stuff",
+      "distractors": [
+        "Clothes only",
+        "Food only",
+        "Mess"
+      ],
+      "hints": [
+        "What a lot of stuff!"
+      ],
+      "target_words": [
+        "roba"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-15",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: 'One moment, please.'"
+      },
+      "sentence_context": "Un ___, per favore.",
+      "correct_answer": "momento",
+      "distractors": [],
+      "hints": [
+        "Pause word."
+      ],
+      "target_words": [
+        "momento"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-16",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: 'In any case, I'm going.'"
+      },
+      "sentence_context": "In ogni ___, vado.",
+      "correct_answer": "caso",
+      "distractors": [],
+      "hints": [
+        "Case."
+      ],
+      "target_words": [
+        "caso"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-17",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: 'My phone number.'"
+      },
+      "sentence_context": "Il mio ___ di telefono.",
+      "correct_answer": "numero",
+      "distractors": [],
+      "hints": [
+        "Number."
+      ],
+      "target_words": [
+        "numero"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-18",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'story' in Italian?"
+      },
+      "sentence_context": "Una bella storia.",
+      "correct_answer": "storia",
+      "distractors": [],
+      "hints": [
+        "A feminine noun."
+      ],
+      "target_words": [
+        "storia"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-19",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'place' in Italian?"
+      },
+      "sentence_context": "Un posto bello.",
+      "correct_answer": "posto",
+      "distractors": [],
+      "hints": [
+        "A masculine noun."
+      ],
+      "target_words": [
+        "posto"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-20",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'end' in Italian?"
+      },
+      "sentence_context": "La fine del film.",
+      "correct_answer": "fine",
+      "distractors": [],
+      "hints": [
+        "A feminine noun ending in -e."
+      ],
+      "target_words": [
+        "fine"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'It makes no sense.'"
+      },
+      "sentence_context": "Non ha senso.",
+      "correct_answer": [
+        "Non",
+        "ha",
+        "senso."
+      ],
+      "distractors": [
+        "è",
+        "punto"
+      ],
+      "hints": [
+        "Non + verb + noun."
+      ],
+      "target_words": [
+        "senso"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'I have a nice memory.'"
+      },
+      "sentence_context": "Ho un bel ricordo.",
+      "correct_answer": [
+        "Ho",
+        "un",
+        "bel",
+        "ricordo."
+      ],
+      "distractors": [
+        "la",
+        "bella"
+      ],
+      "hints": [
+        "Avere + 'un bel' + noun."
+      ],
+      "target_words": [
+        "ricordo"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-23",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'domanda' mean?"
+      },
+      "sentence_context": "Una buona domanda.",
+      "correct_answer": "Question",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "Una buona domanda."
+      ],
+      "target_words": [
+        "domanda"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-24",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'prova' mean?"
+      },
+      "sentence_context": "Una prova difficile.",
+      "correct_answer": "Test",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "Una prova difficile."
+      ],
+      "target_words": [
+        "prova"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-25",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'strada' mean?"
+      },
+      "sentence_context": "Una strada lunga.",
+      "correct_answer": "Road",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "Una strada lunga."
+      ],
+      "target_words": [
+        "strada"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-26",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'terra' mean?"
+      },
+      "sentence_context": "La terra è grande.",
+      "correct_answer": "Earth",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "La terra è grande."
+      ],
+      "target_words": [
+        "terra"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-27",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'cuore' mean?"
+      },
+      "sentence_context": "Un cuore generoso.",
+      "correct_answer": "Heart",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "Un cuore generoso."
+      ],
+      "target_words": [
+        "cuore"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-28",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'auto' mean?"
+      },
+      "sentence_context": "L’auto è veloce.",
+      "correct_answer": "Car (short for automobile)",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "L’auto è veloce."
+      ],
+      "target_words": [
+        "auto"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-29",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'colpa' mean?"
+      },
+      "sentence_context": "È colpa mia.",
+      "correct_answer": "Fault",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "È colpa mia."
+      ],
+      "target_words": [
+        "colpa"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-30",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'ciò' mean?"
+      },
+      "sentence_context": "Ciò è vero.",
+      "correct_answer": "This",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "Ciò è vero."
+      ],
+      "target_words": [
+        "ciò"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-06-ex-31",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'alcuno' mean?"
+      },
+      "sentence_context": "Alcuni amici.",
+      "correct_answer": "Some",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "Alcuni amici."
+      ],
+      "target_words": [
+        "alcuno"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "modo",
+      "meaning": "Way / manner",
+      "example": "In che modo?"
+    },
+    {
+      "word": "momento",
+      "meaning": "Moment",
+      "example": "Un momento, per favore."
+    },
+    {
+      "word": "parte",
+      "meaning": "Part",
+      "example": "Una parte del libro."
+    },
+    {
+      "word": "tipo",
+      "meaning": "Type / kind",
+      "example": "Che tipo di musica?"
+    },
+    {
+      "word": "caso",
+      "meaning": "Case",
+      "example": "In ogni caso, vado."
+    },
+    {
+      "word": "storia",
+      "meaning": "Story / history",
+      "example": "Una storia interessante."
+    },
+    {
+      "word": "fine",
+      "meaning": "End",
+      "example": "La fine del film."
+    },
+    {
+      "word": "punto",
+      "meaning": "Point",
+      "example": "Un buon punto."
+    },
+    {
+      "word": "posto",
+      "meaning": "Place / seat",
+      "example": "C'è un posto libero?"
+    },
+    {
+      "word": "numero",
+      "meaning": "Number",
+      "example": "Il mio numero di telefono."
+    },
+    {
+      "word": "senso",
+      "meaning": "Sense / meaning",
+      "example": "Non ha senso."
+    },
+    {
+      "word": "ricordo",
+      "meaning": "Memory",
+      "example": "Un bel ricordo."
+    },
+    {
+      "word": "affare",
+      "meaning": "Deal / bargain",
+      "example": "Che affare!"
+    },
+    {
+      "word": "roba",
+      "meaning": "Stuff",
+      "example": "Quanta roba!"
+    },
+    {
+      "word": "domanda",
+      "meaning": "Question",
+      "example": "Una buona domanda."
+    },
+    {
+      "word": "prova",
+      "meaning": "Test / try",
+      "example": "Una prova difficile."
+    },
+    {
+      "word": "strada",
+      "meaning": "Road / street",
+      "example": "Una strada lunga."
+    },
+    {
+      "word": "terra",
+      "meaning": "Earth / land",
+      "example": "La terra è grande."
+    },
+    {
+      "word": "cuore",
+      "meaning": "Heart",
+      "example": "Un cuore generoso."
+    },
+    {
+      "word": "auto",
+      "meaning": "Car (short for automobile)",
+      "example": "L’auto è veloce."
+    },
+    {
+      "word": "colpa",
+      "meaning": "Fault / blame",
+      "example": "È colpa mia."
+    },
+    {
+      "word": "ciò",
+      "meaning": "This / that (pronoun)",
+      "example": "Ciò è vero."
+    },
+    {
+      "word": "alcuno",
+      "meaning": "Some / any",
+      "example": "Alcuni amici."
+    }
+  ]
+}

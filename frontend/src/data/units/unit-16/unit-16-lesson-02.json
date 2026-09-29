@@ -1,0 +1,218 @@
+{
+  "id": "unit-16-lesson-02",
+  "unit_id": "unit-16",
+  "name": "More Food",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-16-lesson-02-tip-01",
+      "title": "Italian Café Classics",
+      "explanation": "Italian everyday food: la pizza (no introduction needed), un panino (sandwich), il gelato (ice cream), il cornetto (a croissant — for breakfast). These are A1 essentials in Italy.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-16-lesson-02-tip-02",
+      "title": "Salads & Fruit",
+      "explanation": "'L'insalata' = salad. Common fruits at A1: la mela (apple), l'arancia (orange), la banana, il pomodoro (tomato — botanically a fruit, eaten like a vegetable).",
+      "before_exercise": 7
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-16-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'pizza' mean?" },
+      "sentence_context": "Vorrei una pizza margherita.",
+      "correct_answer": "Pizza",
+      "distractors": ["Pasta", "Sandwich", "Salad"],
+      "hints": ["Italy's most famous export."],
+      "target_words": ["pizza"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'panino' mean?" },
+      "sentence_context": "Mangio un panino al bar.",
+      "correct_answer": "Sandwich / roll",
+      "distractors": ["Bread", "Pizza", "Pasta"],
+      "hints": ["I eat a sandwich at the bar."],
+      "target_words": ["panino"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'gelato' mean?" },
+      "sentence_context": "Vorrei un gelato.",
+      "correct_answer": "Ice cream",
+      "distractors": ["Cake", "Pudding", "Coffee"],
+      "hints": ["Italy's famous cold dessert."],
+      "target_words": ["gelato"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'cornetto' mean?" },
+      "sentence_context": "Faccio colazione con un cornetto.",
+      "correct_answer": "Croissant",
+      "distractors": ["Roll", "Bread", "Cookie"],
+      "hints": ["The Italian breakfast pastry."],
+      "target_words": ["cornetto"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'insalata' mean?" },
+      "sentence_context": "Mangio un'insalata.",
+      "correct_answer": "Salad",
+      "distractors": ["Soup", "Pasta", "Pizza"],
+      "hints": ["A bowl of vegetables."],
+      "target_words": ["insalata"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mela' mean?" },
+      "sentence_context": "Mangio una mela.",
+      "correct_answer": "Apple",
+      "distractors": ["Orange", "Banana", "Tomato"],
+      "hints": ["A round fruit."],
+      "target_words": ["mela"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'pomodoro' mean?" },
+      "sentence_context": "La pizza ha il pomodoro.",
+      "correct_answer": "Tomato",
+      "distractors": ["Apple", "Pepper", "Garlic"],
+      "hints": ["The pizza has tomato."],
+      "target_words": ["pomodoro"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "A colazione mangio un ___.",
+      "correct_answer": "cornetto",
+      "distractors": [],
+      "hints": ["For breakfast I have a croissant."],
+      "target_words": ["cornetto"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "A pranzo mangio un'___.",
+      "correct_answer": "insalata",
+      "distractors": [],
+      "hints": ["For lunch I have a salad."],
+      "target_words": ["insalata"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Mangio una ___ rossa.",
+      "correct_answer": "mela",
+      "distractors": [],
+      "hints": ["A red apple."],
+      "target_words": ["mela"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'pizza' in Italian?" },
+      "sentence_context": "Vorrei una pizza.",
+      "correct_answer": "pizza",
+      "distractors": [],
+      "hints": ["Same spelling."],
+      "target_words": ["pizza"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'sandwich' in Italian?" },
+      "sentence_context": "Mangio un panino.",
+      "correct_answer": "panino",
+      "distractors": [],
+      "hints": ["Diminutive of pane (small bread)."],
+      "target_words": ["panino"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'ice cream' in Italian?" },
+      "sentence_context": "Vorrei un gelato.",
+      "correct_answer": "gelato",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["gelato"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'tomato' in Italian?" },
+      "sentence_context": "La pizza ha il pomodoro.",
+      "correct_answer": "pomodoro",
+      "distractors": [],
+      "hints": ["Pomo + d'oro = golden apple."],
+      "target_words": ["pomodoro"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I'd like a pizza, please.'" },
+      "sentence_context": "Vorrei una pizza, per favore.",
+      "correct_answer": ["Vorrei", "una", "pizza,", "per", "favore."],
+      "distractors": ["un", "panino"],
+      "hints": ["'Pizza' is feminine → una."],
+      "target_words": ["pizza"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I have a salad and a sandwich.'" },
+      "sentence_context": "Ho un'insalata e un panino.",
+      "correct_answer": ["Ho", "un'insalata", "e", "un", "panino."],
+      "distractors": ["pizza", "uno"],
+      "hints": ["un' for insalata (feminine vowel), un for panino."],
+      "target_words": ["insalata", "panino"]
+    },
+    {
+      "id": "unit-16-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The ice cream is good.'" },
+      "sentence_context": "Il gelato è buono.",
+      "correct_answer": ["Il", "gelato", "è", "buono."],
+      "distractors": ["cornetto", "buona"],
+      "hints": ["Masculine → buono."],
+      "target_words": ["gelato"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "pizza", "meaning": "Pizza", "example": "Vorrei una pizza margherita." },
+    { "word": "panino", "meaning": "Sandwich / roll", "example": "Mangio un panino al bar." },
+    { "word": "gelato", "meaning": "Ice cream", "example": "Vorrei un gelato." },
+    { "word": "cornetto", "meaning": "Croissant", "example": "Faccio colazione con un cornetto." },
+    { "word": "insalata", "meaning": "Salad", "example": "Mangio un'insalata." },
+    { "word": "mela", "meaning": "Apple", "example": "Mangio una mela." },
+    { "word": "pomodoro", "meaning": "Tomato", "example": "La pizza ha il pomodoro." }
+  ]
+}

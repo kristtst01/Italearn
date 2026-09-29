@@ -1,0 +1,272 @@
+{
+  "id": "unit-07-lesson-01",
+  "unit_id": "unit-07",
+  "name": "European Countries",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-07-lesson-01-tip-01",
+      "title": "Country Names",
+      "explanation": "Many Italian country names look close to English: Italia, Francia, Spagna. They are always written with a capital letter, and most are feminine: l'Italia, la Francia.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-07-lesson-01-tip-02",
+      "title": "In + Country",
+      "explanation": "To say where something is located, use 'in' before a country: 'Roma è in Italia', 'Parigi è in Francia'. No article is needed.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-07-lesson-01-tip-03",
+      "title": "City vs Country",
+      "explanation": "From Unit 2 you know 'Sono di Roma'. 'Di' is for cities. 'In' is for countries: 'Sono di Roma, in Italia'. The capital ('la capitale') is the main city of a country.",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-07-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which country is 'Italia'?" },
+      "sentence_context": "Roma è in Italia.",
+      "correct_answer": "Italy",
+      "distractors": ["Spain", "France", "Germany"],
+      "hints": ["Rome is in Italy."],
+      "target_words": ["Italia"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which country is 'Francia'?" },
+      "sentence_context": "Parigi è in Francia.",
+      "correct_answer": "France",
+      "distractors": ["Italy", "England", "Portugal"],
+      "hints": ["Paris is in France."],
+      "target_words": ["Francia"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which country is 'Germania'?" },
+      "sentence_context": "Berlino è in Germania.",
+      "correct_answer": "Germany",
+      "distractors": ["Spain", "France", "Italy"],
+      "hints": ["Berlin is in Germany."],
+      "target_words": ["Germania"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which country is 'Spagna'?" },
+      "sentence_context": "Madrid è in Spagna.",
+      "correct_answer": "Spain",
+      "distractors": ["Italy", "Germany", "Switzerland"],
+      "hints": ["Madrid is in Spain."],
+      "target_words": ["Spagna"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which country is 'Inghilterra'?" },
+      "sentence_context": "Londra è in Inghilterra.",
+      "correct_answer": "England",
+      "distractors": ["France", "Germany", "Spain"],
+      "hints": ["London is in England."],
+      "target_words": ["Inghilterra"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which country is 'Portogallo'?" },
+      "sentence_context": "Lisbona è in Portogallo.",
+      "correct_answer": "Portugal",
+      "distractors": ["Spain", "Italy", "Switzerland"],
+      "hints": ["Lisbon is in Portugal."],
+      "target_words": ["Portogallo"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which country is 'Svizzera'?" },
+      "sentence_context": "Zurigo è in Svizzera.",
+      "correct_answer": "Switzerland",
+      "distractors": ["Germany", "Portugal", "Italy"],
+      "hints": ["Zurich is in Switzerland."],
+      "target_words": ["Svizzera"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "L'Italia è in ___.",
+      "correct_answer": "Europa",
+      "distractors": [],
+      "hints": ["Italy is in Europe."],
+      "target_words": ["Europa"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "L'Italia è un ___.",
+      "correct_answer": "paese",
+      "distractors": [],
+      "hints": ["Italy is a country."],
+      "target_words": ["paese"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Roma è la ___ d'Italia.",
+      "correct_answer": "capitale",
+      "distractors": [],
+      "hints": ["Rome is the capital of Italy."],
+      "target_words": ["capitale"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Roma è ___ Italia.",
+      "correct_answer": "in",
+      "distractors": [],
+      "hints": ["Rome is in Italy."],
+      "target_words": ["in"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'Italy' in Italian?" },
+      "sentence_context": "Roma è in Italia.",
+      "correct_answer": "Italia",
+      "distractors": [],
+      "hints": ["Capital letter, ends in -a."],
+      "target_words": ["Italia"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'France' in Italian?" },
+      "sentence_context": "Parigi è in Francia.",
+      "correct_answer": "Francia",
+      "distractors": [],
+      "hints": ["Close to the English word."],
+      "target_words": ["Francia"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'England' in Italian?" },
+      "sentence_context": "Londra è in Inghilterra.",
+      "correct_answer": "Inghilterra",
+      "distractors": [],
+      "hints": ["The longest country name in this lesson."],
+      "target_words": ["Inghilterra"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'country' in Italian?" },
+      "sentence_context": "La Spagna è un paese.",
+      "correct_answer": "paese",
+      "distractors": [],
+      "hints": ["A masculine noun: il paese."],
+      "target_words": ["paese"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'Switzerland' in Italian?" },
+      "sentence_context": "Zurigo è in Svizzera.",
+      "correct_answer": "Svizzera",
+      "distractors": [],
+      "hints": ["Ends in -a, like most countries."],
+      "target_words": ["Svizzera"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-17",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'capital' in Italian?" },
+      "sentence_context": "Madrid è la capitale.",
+      "correct_answer": "capitale",
+      "distractors": [],
+      "hints": ["The main city of a country."],
+      "target_words": ["capitale"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Madrid is in Spain.'" },
+      "sentence_context": "Madrid è in Spagna.",
+      "correct_answer": ["Madrid", "è", "in", "Spagna."],
+      "distractors": ["Italia", "sono"],
+      "hints": ["Use 'in' before the country."],
+      "target_words": ["Spagna", "in"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Berlin is in Germany.'" },
+      "sentence_context": "Berlino è in Germania.",
+      "correct_answer": ["Berlino", "è", "in", "Germania."],
+      "distractors": ["Francia", "Italia"],
+      "hints": ["Use 'in' before the country."],
+      "target_words": ["Germania", "in"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Italy is in Europe.'" },
+      "sentence_context": "L'Italia è in Europa.",
+      "correct_answer": ["L'Italia", "è", "in", "Europa."],
+      "distractors": ["paese", "capitale"],
+      "hints": ["Italy is a country in Europe."],
+      "target_words": ["Italia", "Europa"]
+    },
+    {
+      "id": "unit-07-lesson-01-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Rome is the capital of Italy.'" },
+      "sentence_context": "Roma è la capitale d'Italia.",
+      "correct_answer": ["Roma", "è", "la", "capitale", "d'Italia."],
+      "distractors": ["paese", "in"],
+      "hints": ["'La capitale' is a feminine noun."],
+      "target_words": ["capitale"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "Italia", "meaning": "Italy", "example": "Roma è in Italia." },
+    { "word": "Francia", "meaning": "France", "example": "Parigi è in Francia." },
+    { "word": "Germania", "meaning": "Germany", "example": "Berlino è in Germania." },
+    { "word": "Spagna", "meaning": "Spain", "example": "Madrid è in Spagna." },
+    { "word": "Inghilterra", "meaning": "England", "example": "Londra è in Inghilterra." },
+    { "word": "Portogallo", "meaning": "Portugal", "example": "Lisbona è in Portogallo." },
+    { "word": "Svizzera", "meaning": "Switzerland", "example": "Zurigo è in Svizzera." },
+    { "word": "Europa", "meaning": "Europe", "example": "L'Italia è in Europa." },
+    { "word": "paese", "meaning": "Country", "example": "L'Italia è un paese." },
+    { "word": "capitale", "meaning": "Capital (city)", "example": "Roma è la capitale d'Italia." },
+    { "word": "in", "meaning": "In (a country)", "example": "Roma è in Italia." }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "id": "unit-13-lesson-01",
+  "unit_id": "unit-13",
+  "name": "Simple Prepositions",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-13-lesson-01-tip-01",
+      "title": "The Eight Core Prepositions",
+      "explanation": "Italian's main prepositions are: di (of/from), a (to/at), da (from/at someone's), in (in/into), con (with), su (on), per (for/through), tra/fra (between/among). You've already met di and in.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-13-lesson-01-tip-02",
+      "title": "A vs In for Places",
+      "explanation": "'A' is for cities and most specific places: 'a Roma', 'a casa', 'a scuola'. 'In' is for countries, regions, and broad areas: 'in Italia', 'in cucina', 'in centro'. Tricky at first — learn the common pairings.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-13-lesson-01-tip-03",
+      "title": "Tra and Fra",
+      "explanation": "'Tra' and 'fra' mean the same thing — between, among, in [time]. Both are correct: 'tra amici' or 'fra amici'. Italians choose based on what sounds smoother; either is safe.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-13-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'a' mean here?" },
+      "sentence_context": "Vado a Roma.",
+      "correct_answer": "To / at",
+      "distractors": ["From", "With", "On"],
+      "hints": ["I'm going to Rome."],
+      "target_words": ["a"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'da' mean here?" },
+      "sentence_context": "Vengo da Milano.",
+      "correct_answer": "From",
+      "distractors": ["To", "In", "Of"],
+      "hints": ["I come from Milan."],
+      "target_words": ["da"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'con' mean?" },
+      "sentence_context": "Esco con gli amici.",
+      "correct_answer": "With",
+      "distractors": ["Without", "For", "From"],
+      "hints": ["I go out with friends."],
+      "target_words": ["con"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'su' mean?" },
+      "sentence_context": "Il libro è su il tavolo.",
+      "correct_answer": "On",
+      "distractors": ["Under", "In", "Next to"],
+      "hints": ["The book is on the table."],
+      "target_words": ["su"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'per' mean here?" },
+      "sentence_context": "Un regalo per Marco.",
+      "correct_answer": "For",
+      "distractors": ["With", "From", "Of"],
+      "hints": ["A gift for Marco."],
+      "target_words": ["per"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'tra' mean?" },
+      "sentence_context": "Tra Roma e Milano.",
+      "correct_answer": "Between",
+      "distractors": ["On", "For", "With"],
+      "hints": ["Between Rome and Milan."],
+      "target_words": ["tra"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Vado ___ Roma.",
+      "correct_answer": "a",
+      "distractors": [],
+      "hints": ["I'm going to Rome."],
+      "target_words": ["a"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Abito ___ Italia.",
+      "correct_answer": "in",
+      "distractors": [],
+      "hints": ["I live in Italy. (Country → in)"],
+      "target_words": ["in"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Vengo ___ Milano.",
+      "correct_answer": "da",
+      "distractors": [],
+      "hints": ["I come from Milan."],
+      "target_words": ["da"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Esco ___ Marco.",
+      "correct_answer": "con",
+      "distractors": [],
+      "hints": ["I'm going out with Marco."],
+      "target_words": ["con"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Un regalo ___ Anna.",
+      "correct_answer": "per",
+      "distractors": [],
+      "hints": ["A gift for Anna."],
+      "target_words": ["per"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Vado a casa ___ Marco.",
+      "correct_answer": "di",
+      "distractors": [],
+      "hints": ["I'm going to Marco's house. ('di' = of)"],
+      "target_words": ["di"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Pick 'a' or 'in': for a city." },
+      "sentence_context": "Vado ___ Parigi.",
+      "correct_answer": "a",
+      "distractors": [],
+      "hints": ["'A' for cities."],
+      "target_words": ["a"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Pick 'a' or 'in': for a country." },
+      "sentence_context": "Abito ___ Francia.",
+      "correct_answer": "in",
+      "distractors": [],
+      "hints": ["'In' for countries."],
+      "target_words": ["in"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Pick the right preposition." },
+      "sentence_context": "Studio ___ scuola.",
+      "correct_answer": "a",
+      "distractors": [],
+      "hints": ["'A scuola' is a fixed phrase."],
+      "target_words": ["a"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I go to Rome with my brother.'" },
+      "sentence_context": "Vado a Roma con mio fratello.",
+      "correct_answer": ["Vado", "a", "Roma", "con", "mio", "fratello."],
+      "distractors": ["in", "da"],
+      "hints": ["'A' + city, 'con' + person."],
+      "target_words": ["a", "con"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I come from Italy.'" },
+      "sentence_context": "Vengo da Italia.",
+      "correct_answer": ["Vengo", "da", "Italia."],
+      "distractors": ["in", "a"],
+      "hints": ["'Da' = from."],
+      "target_words": ["da"]
+    },
+    {
+      "id": "unit-13-lesson-01-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'A book for you.'" },
+      "sentence_context": "Un libro per te.",
+      "correct_answer": ["Un", "libro", "per", "te."],
+      "distractors": ["con", "da"],
+      "hints": ["'Per' = for."],
+      "target_words": ["per"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "a", "meaning": "To / at (cities, places)", "example": "Vado a Roma." },
+    { "word": "da", "meaning": "From (origin, source)", "example": "Vengo da Milano." },
+    { "word": "con", "meaning": "With", "example": "Esco con gli amici." },
+    { "word": "su", "meaning": "On", "example": "Il libro è su il tavolo." },
+    { "word": "per", "meaning": "For / through", "example": "Un regalo per Marco." },
+    { "word": "tra", "meaning": "Between / among", "example": "Tra Roma e Milano." }
+  ]
+}

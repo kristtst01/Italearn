@@ -1,0 +1,266 @@
+{
+  "id": "unit-10-lesson-03",
+  "unit_id": "unit-10",
+  "name": "The -isc- Pattern",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-10-lesson-03-tip-01",
+      "title": "The -isc- Twist",
+      "explanation": "Some -ire verbs add '-isc-' between the stem and the ending in four forms: io, tu, lui/lei, loro. 'capire' → capisco, capisci, capisce, capiamo, capite, capiscono. Note: noi and voi are normal (capiamo, capite).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-10-lesson-03-tip-02",
+      "title": "The Boot Pattern",
+      "explanation": "The -isc- forms make a 'boot' shape on the conjugation: io, tu, lui/lei, loro have -isc-, while noi and voi don't. This pattern (irregular at the edges, regular in the middle) shows up in other Italian verbs too.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-10-lesson-03-tip-03",
+      "title": "Which -ire Verbs Take -isc-?",
+      "explanation": "There's no rule — you just learn it per verb. Common -isc- verbs: capire (understand), finire (finish), preferire (prefer), pulire (clean), spedire (send).",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-10-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'capire' mean?" },
+      "sentence_context": "Capisco l'italiano.",
+      "correct_answer": "To understand",
+      "distractors": ["To know", "To learn", "To hear"],
+      "hints": ["I understand Italian."],
+      "target_words": ["capire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'finire' mean?" },
+      "sentence_context": "Finisco il lavoro.",
+      "correct_answer": "To finish",
+      "distractors": ["To start", "To leave", "To take"],
+      "hints": ["I finish the work."],
+      "target_words": ["finire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'preferire' mean?" },
+      "sentence_context": "Preferisco il caffè.",
+      "correct_answer": "To prefer",
+      "distractors": ["To like", "To want", "To love"],
+      "hints": ["I prefer coffee."],
+      "target_words": ["preferire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'pulire' mean?" },
+      "sentence_context": "Pulisco la casa.",
+      "correct_answer": "To clean",
+      "distractors": ["To wash", "To open", "To finish"],
+      "hints": ["I clean the house."],
+      "target_words": ["pulire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'spedire' mean?" },
+      "sentence_context": "Spedisco una lettera.",
+      "correct_answer": "To send",
+      "distractors": ["To give", "To take", "To put"],
+      "hints": ["I send a letter."],
+      "target_words": ["spedire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ l'italiano.",
+      "correct_answer": "capisco",
+      "distractors": [],
+      "hints": ["I understand Italian."],
+      "target_words": ["capire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Tu ___ il libro?",
+      "correct_answer": "finisci",
+      "distractors": [],
+      "hints": ["Are you finishing the book?"],
+      "target_words": ["finire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Anna ___ il tè.",
+      "correct_answer": "preferisce",
+      "distractors": [],
+      "hints": ["Anna prefers tea."],
+      "target_words": ["preferire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Loro ___ il giardino.",
+      "correct_answer": "puliscono",
+      "distractors": [],
+      "hints": ["They clean the garden."],
+      "target_words": ["pulire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I prefer' in Italian?" },
+      "sentence_context": "Preferisco il caffè.",
+      "correct_answer": "preferisco",
+      "distractors": [],
+      "hints": ["The io form takes -isc-."],
+      "target_words": ["preferire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I understand' in Italian?" },
+      "sentence_context": "Capisco l'italiano.",
+      "correct_answer": "capisco",
+      "distractors": [],
+      "hints": ["io + -isc- + -o."],
+      "target_words": ["capire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I send' in Italian?" },
+      "sentence_context": "Spedisco una lettera.",
+      "correct_answer": "spedisco",
+      "distractors": [],
+      "hints": ["io + -isc- + -o."],
+      "target_words": ["spedire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'noi' form of 'capire' — careful, no -isc- here!" },
+      "sentence_context": "Noi ___ l'italiano.",
+      "correct_answer": "capiamo",
+      "distractors": [],
+      "hints": ["noi keeps the regular -iamo, no -isc-."],
+      "target_words": ["capire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'voi' form of 'finire' — careful, no -isc- here!" },
+      "sentence_context": "Voi ___ il lavoro?",
+      "correct_answer": "finite",
+      "distractors": [],
+      "hints": ["voi keeps the regular -ite, no -isc-."],
+      "target_words": ["finire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'tu' form of 'preferire'." },
+      "sentence_context": "Tu ___ il caffè o il tè?",
+      "correct_answer": "preferisci",
+      "distractors": [],
+      "hints": ["tu + -isc- + -i."],
+      "target_words": ["preferire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'lui/lei' form of 'pulire'." },
+      "sentence_context": "Marco ___ la cucina.",
+      "correct_answer": "pulisce",
+      "distractors": [],
+      "hints": ["lui/lei + -isc- + -e."],
+      "target_words": ["pulire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'loro' form of 'capire'." },
+      "sentence_context": "Loro ___ tutto.",
+      "correct_answer": "capiscono",
+      "distractors": [],
+      "hints": ["loro + -isc- + -ono."],
+      "target_words": ["capire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I understand Italian.'" },
+      "sentence_context": "Capisco l'italiano.",
+      "correct_answer": ["Capisco", "l'italiano."],
+      "distractors": ["capisci", "lingua"],
+      "hints": ["io + -isc- + -o."],
+      "target_words": ["capire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Anna prefers tea.'" },
+      "sentence_context": "Anna preferisce il tè.",
+      "correct_answer": ["Anna", "preferisce", "il", "tè."],
+      "distractors": ["preferisco", "caffè"],
+      "hints": ["lui/lei + -isc- + -e."],
+      "target_words": ["preferire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'We understand the lesson.'" },
+      "sentence_context": "Noi capiamo la lezione.",
+      "correct_answer": ["Noi", "capiamo", "la", "lezione."],
+      "distractors": ["capisco", "capiscono"],
+      "hints": ["noi keeps -iamo, no -isc-."],
+      "target_words": ["capire"]
+    },
+    {
+      "id": "unit-10-lesson-03-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'They finish the work.'" },
+      "sentence_context": "Loro finiscono il lavoro.",
+      "correct_answer": ["Loro", "finiscono", "il", "lavoro."],
+      "distractors": ["finisco", "finiamo"],
+      "hints": ["loro + -isc- + -ono."],
+      "target_words": ["finire"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "capire", "meaning": "To understand", "example": "Capisco l'italiano." },
+    { "word": "finire", "meaning": "To finish", "example": "Finisco il lavoro." },
+    { "word": "preferire", "meaning": "To prefer", "example": "Preferisco il caffè." },
+    { "word": "pulire", "meaning": "To clean", "example": "Pulisco la casa." },
+    { "word": "spedire", "meaning": "To send", "example": "Spedisco una lettera." }
+  ]
+}

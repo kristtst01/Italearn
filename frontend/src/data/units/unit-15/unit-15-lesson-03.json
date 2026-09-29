@@ -1,0 +1,327 @@
+{
+  "id": "unit-15-lesson-03",
+  "unit_id": "unit-15",
+  "name": "Inviting & Planning",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-15-lesson-03-tip-01",
+      "title": "Inviting Someone",
+      "explanation": "To invite a friend: 'Vuoi venire al cinema?' = Do you want to come to the cinema? Or with 'volere' + infinitive: 'Vuoi mangiare con me stasera?'. Italians often phrase invitations as questions.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-15-lesson-03-tip-02",
+      "title": "Saying Yes or No to Plans",
+      "explanation": "Yes: 'Va bene', 'D'accordo', 'Volentieri' (with pleasure). No: 'Mi dispiace, non posso' (Sorry, I can't), 'Devo lavorare' (I have to work). Soft refusals work best.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-15-lesson-03-tip-03",
+      "title": "Free or Busy",
+      "explanation": "'Sono libero/a' = I'm free. 'Sono occupato/a' = I'm busy. Like all adjectives, they agree with the speaker's gender.",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-15-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'invitare' mean?" },
+      "sentence_context": "Invito Marco a cena.",
+      "correct_answer": "To invite",
+      "distractors": ["To ask", "To answer", "To call"],
+      "hints": ["I invite Marco to dinner."],
+      "target_words": ["invitare"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'festa' mean?" },
+      "sentence_context": "Stasera c'è una festa.",
+      "correct_answer": "Party",
+      "distractors": ["Meeting", "Holiday", "Dinner"],
+      "hints": ["Tonight there's a party."],
+      "target_words": ["festa"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'appuntamento' mean?" },
+      "sentence_context": "Ho un appuntamento alle tre.",
+      "correct_answer": "Appointment / date",
+      "distractors": ["Party", "Lesson", "Trip"],
+      "hints": ["I have an appointment at 3."],
+      "target_words": ["appuntamento"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'libero' mean here?" },
+      "sentence_context": "Sono libero stasera.",
+      "correct_answer": "Free / available",
+      "distractors": ["Busy", "Tired", "Open"],
+      "hints": ["I'm free tonight."],
+      "target_words": ["libero"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'occupato' mean?" },
+      "sentence_context": "Sono occupato oggi.",
+      "correct_answer": "Busy",
+      "distractors": ["Free", "Tired", "Late"],
+      "hints": ["I'm busy today."],
+      "target_words": ["occupato"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'volentieri' mean?" },
+      "sentence_context": "Vieni al cinema? Volentieri!",
+      "correct_answer": "Gladly / with pleasure",
+      "distractors": ["Sorry", "Maybe", "Never"],
+      "hints": ["A happy yes to an invitation."],
+      "target_words": ["volentieri"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Sono ___ stasera.",
+      "correct_answer": "libero",
+      "distractors": [],
+      "hints": ["I'm free tonight (male speaker)."],
+      "target_words": ["libero"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Mi dispiace, sono ___.",
+      "correct_answer": "occupato",
+      "distractors": [],
+      "hints": ["Sorry, I'm busy (male speaker)."],
+      "target_words": ["occupato"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Stasera c'è una ___ da Marco.",
+      "correct_answer": "festa",
+      "distractors": [],
+      "hints": ["There's a party at Marco's tonight."],
+      "target_words": ["festa"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Ho un ___ con il dottore.",
+      "correct_answer": "appuntamento",
+      "distractors": [],
+      "hints": ["I have an appointment with the doctor."],
+      "target_words": ["appuntamento"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'party' in Italian?" },
+      "sentence_context": "C'è una festa stasera.",
+      "correct_answer": "festa",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["festa"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'free' (available, masculine) in Italian?" },
+      "sentence_context": "Sono libero.",
+      "correct_answer": "libero",
+      "distractors": [],
+      "hints": ["The opposite of 'occupato'."],
+      "target_words": ["libero"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'gladly' / 'with pleasure'?" },
+      "sentence_context": "Volentieri!",
+      "correct_answer": "volentieri",
+      "distractors": [],
+      "hints": ["A happy yes."],
+      "target_words": ["volentieri"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Make 'libero' agree with a female speaker." },
+      "sentence_context": "Sono ___ stasera.",
+      "correct_answer": "libera",
+      "distractors": [],
+      "hints": ["Feminine → libera."],
+      "target_words": ["libero"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Make 'occupato' agree with a female speaker." },
+      "sentence_context": "Mi dispiace, sono ___.",
+      "correct_answer": "occupata",
+      "distractors": [],
+      "hints": ["Feminine → occupata."],
+      "target_words": ["occupato"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Do you want to come to the cinema tonight?'" },
+      "sentence_context": "Vuoi venire al cinema stasera?",
+      "correct_answer": ["Vuoi", "venire", "al", "cinema", "stasera?"],
+      "distractors": ["voglio", "domani"],
+      "hints": ["Volere + infinitive + place + time."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: \"Sorry, I can't, I have to work.\"" },
+      "sentence_context": "Mi dispiace, non posso, devo lavorare.",
+      "correct_answer": ["Mi", "dispiace,", "non", "posso,", "devo", "lavorare."],
+      "distractors": ["volentieri", "studiare"],
+      "hints": ["A polite refusal: sorry + can't + have to."],
+      "target_words": ["potere", "dovere"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Yes, gladly! I'm free tonight.'" },
+      "sentence_context": "Sì, volentieri! Sono libero stasera.",
+      "correct_answer": ["Sì,", "volentieri!", "Sono", "libero", "stasera."],
+      "distractors": ["occupato", "domani"],
+      "hints": ["Happy yes + status."],
+      "target_words": ["volentieri", "libero"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I invite Anna to dinner.'" },
+      "sentence_context": "Invito Anna a cena.",
+      "correct_answer": ["Invito", "Anna", "a", "cena."],
+      "distractors": ["festa", "in"],
+      "hints": ["Invitare + person + 'a' + meal."],
+      "target_words": ["invitare"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-20",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'forse' mean?" },
+      "sentence_context": "Forse vengo stasera.",
+      "correct_answer": "Maybe / perhaps",
+      "distractors": ["Surely", "Never", "Already"],
+      "hints": ["Maybe I'll come tonight."],
+      "target_words": ["forse"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-21",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'magari' mean?" },
+      "sentence_context": "Magari posso venire!",
+      "correct_answer": "Maybe / I wish",
+      "distractors": ["Never", "Always", "Of course"],
+      "hints": ["A wishful 'maybe' — 'if only!'"],
+      "target_words": ["magari"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-22",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'certo' mean?" },
+      "sentence_context": "Certo, vengo volentieri!",
+      "correct_answer": "Sure / of course",
+      "distractors": ["Maybe", "Never", "Sorry"],
+      "hints": ["A confident yes."],
+      "target_words": ["certo"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-23",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'pronto' mean here?" },
+      "sentence_context": "Pronto, chi parla?",
+      "correct_answer": "Hello (on the phone)",
+      "distractors": ["Sorry", "Wait", "Yes"],
+      "hints": ["Italian phone greeting."],
+      "target_words": ["pronto"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-24",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "___ il tuo libro!",
+      "correct_answer": "Ecco",
+      "distractors": [],
+      "hints": ["Here is your book!"],
+      "target_words": ["ecco"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-25",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'sure / of course' in Italian?" },
+      "sentence_context": "Certo, vengo!",
+      "correct_answer": "certo",
+      "distractors": [],
+      "hints": ["A confident yes."],
+      "target_words": ["certo"]
+    },
+    {
+      "id": "unit-15-lesson-03-ex-26",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Maybe I come tonight.'" },
+      "sentence_context": "Forse vengo stasera.",
+      "correct_answer": ["Forse", "vengo", "stasera."],
+      "distractors": ["magari", "domani"],
+      "hints": ["Discourse marker at the start."],
+      "target_words": ["forse"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "invitare", "meaning": "To invite", "example": "Invito Marco a cena." },
+    { "word": "festa", "meaning": "Party", "example": "Stasera c'è una festa." },
+    { "word": "appuntamento", "meaning": "Appointment / date", "example": "Ho un appuntamento alle tre." },
+    { "word": "libero", "meaning": "Free / available", "example": "Sono libero stasera." },
+    { "word": "occupato", "meaning": "Busy", "example": "Sono occupato oggi." },
+    { "word": "volentieri", "meaning": "Gladly / with pleasure", "example": "Vieni al cinema? Volentieri!" },
+    { "word": "forse", "meaning": "Maybe / perhaps", "example": "Forse vengo stasera." },
+    { "word": "magari", "meaning": "Maybe / I wish", "example": "Magari posso venire!" },
+    { "word": "certo", "meaning": "Sure / of course", "example": "Certo, vengo volentieri!" },
+    { "word": "pronto", "meaning": "Ready / hello (on the phone)", "example": "Pronto, chi parla?" },
+    { "word": "ecco", "meaning": "Here is / there is", "example": "Ecco il tuo libro!" }
+  ]
+}

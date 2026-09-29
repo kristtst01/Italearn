@@ -1,0 +1,220 @@
+{
+  "id": "unit-18-lesson-03",
+  "unit_id": "unit-18",
+  "name": "Preferring & Comparing",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-18-lesson-03-tip-01",
+      "title": "Preferire — Recap",
+      "explanation": "From Unit 10: 'preferire' is an -isc- verb. 'Preferisco il caffè al tè' = 'I prefer coffee to tea'. The 'to' is 'a' (or 'a' + article).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-18-lesson-03-tip-02",
+      "title": "More and Less",
+      "explanation": "'Più' = more. 'Meno' = less. To compare: 'più ... di / che' (more than), 'meno ... di / che' (less than). 'Il caffè è più caro del tè' = Coffee is more expensive than tea.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-18-lesson-03-tip-03",
+      "title": "Piuttosto",
+      "explanation": "'Piuttosto' = rather. 'Piuttosto che' = rather than. 'Bevo il tè piuttosto che il caffè' = I drink tea rather than coffee.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-18-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'preferire' mean?" },
+      "sentence_context": "Preferisco il caffè.",
+      "correct_answer": "To prefer",
+      "distractors": ["To like", "To want", "To love"],
+      "hints": ["I prefer coffee."],
+      "target_words": ["preferire"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'più' mean?" },
+      "sentence_context": "Il caffè è più caro.",
+      "correct_answer": "More",
+      "distractors": ["Less", "Better", "Very"],
+      "hints": ["Coffee is more expensive."],
+      "target_words": ["più"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'meno' mean?" },
+      "sentence_context": "Il tè è meno caro.",
+      "correct_answer": "Less",
+      "distractors": ["More", "Very", "Not"],
+      "hints": ["Tea is less expensive."],
+      "target_words": ["meno"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'piuttosto' mean?" },
+      "sentence_context": "Bevo il tè piuttosto che il caffè.",
+      "correct_answer": "Rather",
+      "distractors": ["More", "Often", "Less"],
+      "hints": ["I drink tea rather than coffee."],
+      "target_words": ["piuttosto"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ il pesce.",
+      "correct_answer": "preferisco",
+      "distractors": [],
+      "hints": ["I prefer fish. (io + isc + o)"],
+      "target_words": ["preferire"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Anna ___ la pizza alla pasta.",
+      "correct_answer": "preferisce",
+      "distractors": [],
+      "hints": ["Anna prefers pizza to pasta. (lei + isc + e)"],
+      "target_words": ["preferire"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il caffè è ___ caro del tè.",
+      "correct_answer": "più",
+      "distractors": [],
+      "hints": ["Coffee is more expensive than tea."],
+      "target_words": ["più"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il tè è ___ caro del caffè.",
+      "correct_answer": "meno",
+      "distractors": [],
+      "hints": ["Tea is less expensive than coffee."],
+      "target_words": ["meno"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to prefer' in Italian?" },
+      "sentence_context": "Preferisco il caffè.",
+      "correct_answer": "preferire",
+      "distractors": [],
+      "hints": ["-isc- verb."],
+      "target_words": ["preferire"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'more' in Italian?" },
+      "sentence_context": "È più grande.",
+      "correct_answer": "più",
+      "distractors": [],
+      "hints": ["Note the accent."],
+      "target_words": ["più"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'less' in Italian?" },
+      "sentence_context": "È meno grande.",
+      "correct_answer": "meno",
+      "distractors": [],
+      "hints": ["Four letters."],
+      "target_words": ["meno"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'rather' in Italian?" },
+      "sentence_context": "Bevo il tè piuttosto che il caffè.",
+      "correct_answer": "piuttosto",
+      "distractors": [],
+      "hints": ["Used in comparisons."],
+      "target_words": ["piuttosto"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'più' or 'meno' — Italy is bigger than Switzerland." },
+      "sentence_context": "L'Italia è ___ grande della Svizzera.",
+      "correct_answer": "più",
+      "distractors": [],
+      "hints": ["Italy IS bigger → più."],
+      "target_words": ["più"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'più' or 'meno' — a sandwich is cheaper than a pizza." },
+      "sentence_context": "Un panino è ___ caro di una pizza.",
+      "correct_answer": "meno",
+      "distractors": [],
+      "hints": ["Sandwich is cheaper → meno."],
+      "target_words": ["meno"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I prefer coffee to tea.'" },
+      "sentence_context": "Preferisco il caffè al tè.",
+      "correct_answer": ["Preferisco", "il", "caffè", "al", "tè."],
+      "distractors": ["preferisci", "alla"],
+      "hints": ["Preferire + thing + 'a' + thing."],
+      "target_words": ["preferire"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Rome is bigger than Milan.'" },
+      "sentence_context": "Roma è più grande di Milano.",
+      "correct_answer": ["Roma", "è", "più", "grande", "di", "Milano."],
+      "distractors": ["meno", "che"],
+      "hints": ["più ... di + name."],
+      "target_words": ["più"]
+    },
+    {
+      "id": "unit-18-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I drink tea rather than coffee.'" },
+      "sentence_context": "Bevo il tè piuttosto che il caffè.",
+      "correct_answer": ["Bevo", "il", "tè", "piuttosto", "che", "il", "caffè."],
+      "distractors": ["più", "meno"],
+      "hints": ["'Piuttosto che' = rather than."],
+      "target_words": ["piuttosto"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "più", "meaning": "More", "example": "Il caffè è più caro." },
+    { "word": "meno", "meaning": "Less", "example": "Il tè è meno caro." },
+    { "word": "piuttosto", "meaning": "Rather", "example": "Bevo il tè piuttosto che il caffè." }
+  ]
+}

@@ -9,10 +9,26 @@
       "title": "Making Things Plural",
       "explanation": "Italian plurals change the ending: -o becomes -i (libro → libri), -a becomes -e (penna → penne), -e becomes -i (chiave → chiavi). No 's' at the end like English — the vowel does the work.",
       "table": [
-        ["Singular ending", "Plural ending", "Example"],
-        ["-o", "-i", "libro → libri"],
-        ["-a", "-e", "penna → penne"],
-        ["-e", "-i", "chiave → chiavi"]
+        [
+          "Singular ending",
+          "Plural ending",
+          "Example"
+        ],
+        [
+          "-o",
+          "-i",
+          "libro → libri"
+        ],
+        [
+          "-a",
+          "-e",
+          "penna → penne"
+        ],
+        [
+          "-e",
+          "-i",
+          "chiave → chiavi"
+        ]
       ],
       "before_exercise": 0
     },
@@ -21,12 +37,36 @@
       "title": "Plural Articles: i, gli, le",
       "explanation": "'Il' becomes 'i' in the plural: il libro → i libri. 'Lo' becomes 'gli': lo studente → gli studenti. 'La' becomes 'le': la penna → le penne. 'L'' becomes 'gli' (masculine) or 'le' (feminine): l'uomo → gli uomini, l'acqua → le acque.",
       "table": [
-        ["Singular", "Plural", "Example"],
-        ["il", "i", "i libri"],
-        ["lo", "gli", "gli studenti"],
-        ["l' (masc)", "gli", "gli uomini"],
-        ["la", "le", "le penne"],
-        ["l' (fem)", "le", "le amiche"]
+        [
+          "Singular",
+          "Plural",
+          "Example"
+        ],
+        [
+          "il",
+          "i",
+          "i libri"
+        ],
+        [
+          "lo",
+          "gli",
+          "gli studenti"
+        ],
+        [
+          "l' (masc)",
+          "gli",
+          "gli uomini"
+        ],
+        [
+          "la",
+          "le",
+          "le penne"
+        ],
+        [
+          "l' (fem)",
+          "le",
+          "le amiche"
+        ]
       ],
       "before_exercise": 7
     },
@@ -42,211 +82,364 @@
       "id": "unit-03-lesson-03-ex-01",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What is the plural of 'libro'?" },
+      "prompt": {
+        "text": "What is the plural of 'libro'?"
+      },
       "sentence_context": "I libri sono sul tavolo.",
       "correct_answer": "libri",
-      "distractors": ["libra", "libre", "libros"],
-      "hints": ["-o → -i in the plural."],
-      "target_words": ["libro"]
+      "distractors": [
+        "libra",
+        "libre",
+        "libros"
+      ],
+      "hints": [
+        "-o → -i in the plural."
+      ],
+      "target_words": [
+        "libro"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What is the plural of 'penna'?" },
+      "prompt": {
+        "text": "What is the plural of 'penna'?"
+      },
       "sentence_context": "Le penne sono nella borsa.",
       "correct_answer": "penne",
-      "distractors": ["penni", "pennas", "penna"],
-      "hints": ["-a → -e in the plural."],
-      "target_words": ["penna"]
+      "distractors": [
+        "penni",
+        "pennas",
+        "penna"
+      ],
+      "hints": [
+        "-a → -e in the plural."
+      ],
+      "target_words": [
+        "penna"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What is the plural of 'chiave'?" },
+      "prompt": {
+        "text": "What is the plural of 'chiave'?"
+      },
       "sentence_context": "Le chiavi sono qui.",
       "correct_answer": "chiavi",
-      "distractors": ["chiave", "chiaves", "chiavie"],
-      "hints": ["-e → -i in the plural. Same rule for both genders."],
-      "target_words": ["chiave"]
+      "distractors": [
+        "chiave",
+        "chiaves",
+        "chiavie"
+      ],
+      "hints": [
+        "-e → -i in the plural. Same rule for both genders."
+      ],
+      "target_words": [
+        "chiave"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What is the plural of 'sedia'?" },
+      "prompt": {
+        "text": "What is the plural of 'sedia'?"
+      },
       "sentence_context": "Le sedie sono in cucina.",
       "correct_answer": "sedie",
-      "distractors": ["sedii", "sedias", "sedia"],
-      "hints": ["-a → -e in the plural."],
-      "target_words": ["sedia"]
+      "distractors": [
+        "sedii",
+        "sedias",
+        "sedia"
+      ],
+      "hints": [
+        "-a → -e in the plural."
+      ],
+      "target_words": [
+        "sedia"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-05",
       "type": "vocab",
       "subtype": "type_answer",
-      "prompt": { "text": "What is the plural of 'tavolo'?" },
+      "prompt": {
+        "text": "What is the plural of 'tavolo'?"
+      },
       "sentence_context": "I tavoli sono grandi.",
       "correct_answer": "tavoli",
       "distractors": [],
-      "hints": ["-o → -i."],
-      "target_words": ["tavolo"]
+      "hints": [
+        "-o → -i."
+      ],
+      "target_words": [
+        "tavolo"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-06",
       "type": "vocab",
       "subtype": "type_answer",
-      "prompt": { "text": "What is the plural of 'donna'?" },
+      "prompt": {
+        "text": "What is the plural of 'donna'?"
+      },
       "sentence_context": "Le donne sono insegnanti.",
       "correct_answer": "donne",
       "distractors": [],
-      "hints": ["-a → -e."],
-      "target_words": ["donna"]
+      "hints": [
+        "-a → -e."
+      ],
+      "target_words": [
+        "donna"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-07",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "Which plural article goes with 'libri'?" },
+      "prompt": {
+        "text": "Which plural article goes with 'libri'?"
+      },
       "sentence_context": "I libri sono di Marco.",
       "correct_answer": "i",
-      "distractors": ["gli", "le", "il"],
-      "hints": ["'Il libro' in singular. What does 'il' become in plural?"],
-      "target_words": ["libro"]
+      "distractors": [
+        "gli",
+        "le",
+        "il"
+      ],
+      "hints": [
+        "'Il libro' in singular. What does 'il' become in plural?"
+      ],
+      "target_words": [
+        "libro"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-08",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "Which plural article goes with 'studenti'?" },
+      "prompt": {
+        "text": "Which plural article goes with 'studenti'?"
+      },
       "sentence_context": "Gli studenti sono di Firenze.",
       "correct_answer": "gli",
-      "distractors": ["i", "le", "lo"],
-      "hints": ["'Lo studente' in singular. 'Lo' becomes..."],
-      "target_words": ["studente"]
+      "distractors": [
+        "i",
+        "le",
+        "lo"
+      ],
+      "hints": [
+        "'Lo studente' in singular. 'Lo' becomes..."
+      ],
+      "target_words": [
+        "studente"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-09",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "Which plural article goes with 'penne'?" },
+      "prompt": {
+        "text": "Which plural article goes with 'penne'?"
+      },
       "sentence_context": "Le penne sono nella borsa.",
       "correct_answer": "le",
-      "distractors": ["i", "gli", "la"],
-      "hints": ["All feminine plurals use the same article."],
-      "target_words": ["penna"]
+      "distractors": [
+        "i",
+        "gli",
+        "la"
+      ],
+      "hints": [
+        "All feminine plurals use the same article."
+      ],
+      "target_words": [
+        "penna"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-10",
       "type": "writing",
       "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the correct plural article." },
+      "prompt": {
+        "text": "Fill in the correct plural article."
+      },
       "sentence_context": "___ sedie sono in camera.",
       "correct_answer": "Le",
       "distractors": [],
-      "hints": ["'Sedie' is feminine plural. All feminine plurals get the same article."],
-      "target_words": ["sedia"]
+      "hints": [
+        "'Sedie' is feminine plural. All feminine plurals get the same article."
+      ],
+      "target_words": [
+        "sedia"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-11",
       "type": "writing",
       "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the correct plural article." },
+      "prompt": {
+        "text": "Fill in the correct plural article."
+      },
       "sentence_context": "___ uomini sono dottori.",
       "correct_answer": "Gli",
       "distractors": [],
-      "hints": ["'Uomini' starts with a vowel — masculine plural before vowel gets..."],
-      "target_words": ["uomo"]
+      "hints": [
+        "'Uomini' starts with a vowel — masculine plural before vowel gets..."
+      ],
+      "target_words": [
+        "uomo"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-12",
       "type": "writing",
       "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the correct plural article." },
+      "prompt": {
+        "text": "Fill in the correct plural article."
+      },
       "sentence_context": "___ tavoli sono grandi.",
       "correct_answer": "I",
       "distractors": [],
-      "hints": ["'Il tavolo' → plural?"],
-      "target_words": ["tavolo"]
+      "hints": [
+        "'Il tavolo' → plural?"
+      ],
+      "target_words": [
+        "tavolo"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-13",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What is the plural of 'amico'?" },
+      "prompt": {
+        "text": "What is the plural of 'amico'?"
+      },
       "sentence_context": "Gli amici sono di Roma.",
       "correct_answer": "amici",
-      "distractors": ["amicos", "amiche", "amicoi"],
-      "hints": ["-o → -i, and the 'c' stays hard."],
-      "target_words": ["amico"]
+      "distractors": [
+        "amicos",
+        "amiche",
+        "amicoi"
+      ],
+      "hints": [
+        "-o → -i, and the 'c' stays hard."
+      ],
+      "target_words": [
+        "amico"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-14",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What is the plural of 'amica'?" },
+      "prompt": {
+        "text": "What is the plural of 'amica'?"
+      },
       "sentence_context": "Le amiche sono studentesse.",
       "correct_answer": "amiche",
-      "distractors": ["amice", "amichi", "amicas"],
-      "hints": ["The 'h' keeps the hard 'k' sound: ami-ke."],
-      "target_words": ["amica"]
+      "distractors": [
+        "amice",
+        "amichi",
+        "amicas"
+      ],
+      "hints": [
+        "The 'h' keeps the hard 'k' sound: ami-ke."
+      ],
+      "target_words": [
+        "amica"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-15",
       "type": "vocab",
       "subtype": "type_answer",
-      "prompt": { "text": "What is the plural of 'uomo'?" },
+      "prompt": {
+        "text": "What is the plural of 'uomo'?"
+      },
       "sentence_context": "Gli uomini sono insegnanti.",
       "correct_answer": "uomini",
       "distractors": [],
-      "hints": ["This one is irregular — no rule helps. Just memorize it."],
-      "target_words": ["uomo"]
+      "hints": [
+        "This one is irregular — no rule helps. Just memorize it."
+      ],
+      "target_words": [
+        "uomo"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-16",
       "type": "writing",
       "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'The books are on the table.'" },
+      "prompt": {
+        "text": "Arrange the words: 'The books are on the table.'"
+      },
       "sentence_context": "I libri sono sul tavolo.",
-      "correct_answer": ["I", "libri", "sono", "sul", "tavolo."],
-      "distractors": ["le", "gli"],
-      "hints": ["'Libri' is masculine plural — which article?"],
-      "target_words": ["libro"]
+      "correct_answer": [
+        "I",
+        "libri",
+        "sono",
+        "sul",
+        "tavolo."
+      ],
+      "distractors": [
+        "le",
+        "gli"
+      ],
+      "hints": [
+        "'Libri' is masculine plural — which article?"
+      ],
+      "target_words": [
+        "libro"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-17",
       "type": "writing",
       "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'The keys are in the bag.'" },
+      "prompt": {
+        "text": "Arrange the words: 'The keys are in the bag.'"
+      },
       "sentence_context": "Le chiavi sono nella borsa.",
-      "correct_answer": ["Le", "chiavi", "sono", "nella", "borsa."],
-      "distractors": ["i", "gli"],
-      "hints": ["'Chiavi' is feminine plural — all feminine plurals use the same article."],
-      "target_words": ["chiave", "borsa"]
+      "correct_answer": [
+        "Le",
+        "chiavi",
+        "sono",
+        "nella",
+        "borsa."
+      ],
+      "distractors": [
+        "i",
+        "gli"
+      ],
+      "hints": [
+        "'Chiavi' is feminine plural — all feminine plurals use the same article."
+      ],
+      "target_words": [
+        "chiave",
+        "borsa"
+      ]
     },
     {
       "id": "unit-03-lesson-03-ex-18",
       "type": "speaking",
       "subtype": "read_aloud",
-      "prompt": { "text": "Read this sentence aloud." },
+      "prompt": {
+        "text": "Read this sentence aloud."
+      },
       "sentence_context": "I libri sono sul tavolo. Le chiavi sono nella borsa.",
       "correct_answer": "I libri sono sul tavolo. Le chiavi sono nella borsa.",
       "distractors": [],
-      "hints": ["The books are on the table. The keys are in the bag."],
-      "target_words": ["libro", "chiave"]
+      "hints": [
+        "The books are on the table. The keys are in the bag."
+      ],
+      "target_words": [
+        "libro",
+        "chiave"
+      ]
     }
   ],
-  "vocabulary": [
-    { "word": "libri", "meaning": "Books", "example": "I libri sono sul tavolo." },
-    { "word": "tavoli", "meaning": "Tables", "example": "I tavoli sono grandi." },
-    { "word": "penne", "meaning": "Pens", "example": "Le penne sono nella borsa." },
-    { "word": "sedie", "meaning": "Chairs", "example": "Le sedie sono in cucina." },
-    { "word": "amici", "meaning": "Friends (male/mixed)", "example": "Gli amici sono di Roma." },
-    { "word": "amiche", "meaning": "Friends (female)", "example": "Le amiche sono studentesse." },
-    { "word": "studenti", "meaning": "Students", "example": "Gli studenti sono di Firenze." },
-    { "word": "chiavi", "meaning": "Keys", "example": "Le chiavi sono qui." },
-    { "word": "uomini", "meaning": "Men", "example": "Gli uomini sono dottori." },
-    { "word": "donne", "meaning": "Women", "example": "Le donne sono insegnanti." }
-  ]
+  "vocabulary": []
 }

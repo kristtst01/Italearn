@@ -1,0 +1,547 @@
+{
+  "id": "unit-11-lesson-05",
+  "unit_id": "unit-11",
+  "name": "Mental Verbs",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-11-lesson-05-tip-01",
+      "title": "Pensare & Sapere",
+      "explanation": "'Pensare' (to think) is regular -are. 'Sapere' (to know a fact) is irregular: so, sai, sa, sappiamo, sapete, sanno. Different from 'conoscere' which is for people/places.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-11-lesson-05-tip-02",
+      "title": "Remembering & Forgetting",
+      "explanation": "'Ricordare' (to remember) and 'dimenticare' (to forget) — direct opposites. 'Non ricordo' / 'Ho dimenticato'.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-11-lesson-05-tip-03",
+      "title": "Sembra Che... — It Seems",
+      "explanation": "'Sembrare' (to seem) and 'parere' (to seem / think) are similar. 'Mi sembra' / 'Mi pare' = 'It seems to me'. 'Cosa significa?' = What does it mean?",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-11-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'pensare' mean?"
+      },
+      "sentence_context": "Penso a te.",
+      "correct_answer": "To think",
+      "distractors": [
+        "To know",
+        "To remember",
+        "To hope"
+      ],
+      "hints": [
+        "I think about you."
+      ],
+      "target_words": [
+        "pensare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'sapere' mean?"
+      },
+      "sentence_context": "Non lo so.",
+      "correct_answer": "To know (a fact)",
+      "distractors": [
+        "To meet",
+        "To think",
+        "To remember"
+      ],
+      "hints": [
+        "I don't know it."
+      ],
+      "target_words": [
+        "sapere"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'ricordare' mean?"
+      },
+      "sentence_context": "Ricordo la festa.",
+      "correct_answer": "To remember",
+      "distractors": [
+        "To forget",
+        "To know",
+        "To imagine"
+      ],
+      "hints": [
+        "I remember the party."
+      ],
+      "target_words": [
+        "ricordare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'dimenticare' mean?"
+      },
+      "sentence_context": "Dimentico il nome.",
+      "correct_answer": "To forget",
+      "distractors": [
+        "To remember",
+        "To miss",
+        "To leave"
+      ],
+      "hints": [
+        "I forget the name."
+      ],
+      "target_words": [
+        "dimenticare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'sperare' mean?"
+      },
+      "sentence_context": "Spero di venire.",
+      "correct_answer": "To hope",
+      "distractors": [
+        "To wait",
+        "To want",
+        "To try"
+      ],
+      "hints": [
+        "I hope to come."
+      ],
+      "target_words": [
+        "sperare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'immaginare' mean?"
+      },
+      "sentence_context": "Immagino una vacanza.",
+      "correct_answer": "To imagine",
+      "distractors": [
+        "To remember",
+        "To plan",
+        "To think"
+      ],
+      "hints": [
+        "I imagine a holiday."
+      ],
+      "target_words": [
+        "immaginare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'sembrare' mean?"
+      },
+      "sentence_context": "Sembra strano.",
+      "correct_answer": "To seem",
+      "distractors": [
+        "To look at",
+        "To feel",
+        "To be"
+      ],
+      "hints": [
+        "It seems strange."
+      ],
+      "target_words": [
+        "sembrare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'significare' mean?"
+      },
+      "sentence_context": "Cosa significa?",
+      "correct_answer": "To mean",
+      "distractors": [
+        "To say",
+        "To intend",
+        "To imply"
+      ],
+      "hints": [
+        "What does it mean?"
+      ],
+      "target_words": [
+        "significare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'importare' mean here?"
+      },
+      "sentence_context": "Non importa.",
+      "correct_answer": "To matter",
+      "distractors": [
+        "To import",
+        "To care",
+        "To carry"
+      ],
+      "hints": [
+        "It doesn't matter."
+      ],
+      "target_words": [
+        "importare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'parere' mean?"
+      },
+      "sentence_context": "Mi pare di sì.",
+      "correct_answer": "To seem / think",
+      "distractors": [
+        "To look",
+        "To find",
+        "To hear"
+      ],
+      "hints": [
+        "I think so."
+      ],
+      "target_words": [
+        "parere"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-11",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'raccontare' mean?"
+      },
+      "sentence_context": "Racconto una storia.",
+      "correct_answer": "To tell (a story)",
+      "distractors": [
+        "To say",
+        "To count",
+        "To describe"
+      ],
+      "hints": [
+        "I tell a story."
+      ],
+      "target_words": [
+        "raccontare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: 'I think about you.'"
+      },
+      "sentence_context": "Io ___ a te.",
+      "correct_answer": "penso",
+      "distractors": [],
+      "hints": [
+        "io form of pensare."
+      ],
+      "target_words": [
+        "pensare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: \"I don't know.\""
+      },
+      "sentence_context": "Non lo ___ .",
+      "correct_answer": "so",
+      "distractors": [],
+      "hints": [
+        "io form of sapere — just 'so'."
+      ],
+      "target_words": [
+        "sapere"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-14",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: 'I hope to come tomorrow.'"
+      },
+      "sentence_context": "___ di venire domani.",
+      "correct_answer": "Spero",
+      "distractors": [],
+      "hints": [
+        "io form of sperare."
+      ],
+      "target_words": [
+        "sperare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-15",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete: \"What does this word mean?\""
+      },
+      "sentence_context": "Cosa ___ questa parola?",
+      "correct_answer": "significa",
+      "distractors": [],
+      "hints": [
+        "3rd person of significare."
+      ],
+      "target_words": [
+        "significare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'to think' in Italian?"
+      },
+      "sentence_context": "Penso a te.",
+      "correct_answer": "pensare",
+      "distractors": [],
+      "hints": [
+        "Regular -are verb."
+      ],
+      "target_words": [
+        "pensare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-17",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'to know (a fact)' in Italian?"
+      },
+      "sentence_context": "Non lo so.",
+      "correct_answer": "sapere",
+      "distractors": [],
+      "hints": [
+        "Irregular."
+      ],
+      "target_words": [
+        "sapere"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-18",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'to forget' in Italian?"
+      },
+      "sentence_context": "Dimentico spesso le chiavi.",
+      "correct_answer": "dimenticare",
+      "distractors": [],
+      "hints": [
+        "Regular -are verb."
+      ],
+      "target_words": [
+        "dimenticare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-19",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'to seem' in Italian?"
+      },
+      "sentence_context": "Sembra strano.",
+      "correct_answer": "sembrare",
+      "distractors": [],
+      "hints": [
+        "Regular -are verb."
+      ],
+      "target_words": [
+        "sembrare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-20",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Fill in 'tu' form of 'sapere' (irregular)."
+      },
+      "sentence_context": "Tu ___ dov'è Marco?",
+      "correct_answer": "sai",
+      "distractors": [],
+      "hints": [
+        "Three letters."
+      ],
+      "target_words": [
+        "sapere"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'I think it's a good idea.'"
+      },
+      "sentence_context": "Penso che è una buona idea.",
+      "correct_answer": [
+        "Penso",
+        "che",
+        "è",
+        "una",
+        "buona",
+        "idea."
+      ],
+      "distractors": [
+        "pensare",
+        "cosa"
+      ],
+      "hints": [
+        "Penso + che + clause."
+      ],
+      "target_words": [
+        "pensare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange: 'I always forget the keys.'"
+      },
+      "sentence_context": "Dimentico sempre le chiavi.",
+      "correct_answer": [
+        "Dimentico",
+        "sempre",
+        "le",
+        "chiavi."
+      ],
+      "distractors": [
+        "ricordo",
+        "mai"
+      ],
+      "hints": [
+        "Verb + adverb + object."
+      ],
+      "target_words": [
+        "dimenticare"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-05-ex-23",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'funzionare' mean?"
+      },
+      "sentence_context": "Il telefono non funziona.",
+      "correct_answer": "To work",
+      "distractors": [
+        "Big",
+        "Old",
+        "Maybe"
+      ],
+      "hints": [
+        "Il telefono non funziona."
+      ],
+      "target_words": [
+        "funzionare"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "pensare",
+      "meaning": "To think",
+      "example": "Penso a te."
+    },
+    {
+      "word": "sapere",
+      "meaning": "To know (a fact)",
+      "example": "Non lo so."
+    },
+    {
+      "word": "ricordare",
+      "meaning": "To remember",
+      "example": "Ricordo la festa."
+    },
+    {
+      "word": "dimenticare",
+      "meaning": "To forget",
+      "example": "Dimentico il nome."
+    },
+    {
+      "word": "sperare",
+      "meaning": "To hope",
+      "example": "Spero di venire."
+    },
+    {
+      "word": "immaginare",
+      "meaning": "To imagine",
+      "example": "Immagino una vacanza."
+    },
+    {
+      "word": "sembrare",
+      "meaning": "To seem",
+      "example": "Sembra strano."
+    },
+    {
+      "word": "significare",
+      "meaning": "To mean",
+      "example": "Cosa significa?"
+    },
+    {
+      "word": "importare",
+      "meaning": "To matter",
+      "example": "Non importa."
+    },
+    {
+      "word": "parere",
+      "meaning": "To seem / think",
+      "example": "Mi pare di sì."
+    },
+    {
+      "word": "raccontare",
+      "meaning": "To tell (a story)",
+      "example": "Racconto una storia."
+    },
+    {
+      "word": "funzionare",
+      "meaning": "To work / function",
+      "example": "Il telefono non funziona."
+    }
+  ]
+}

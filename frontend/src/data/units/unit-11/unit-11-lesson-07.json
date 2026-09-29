@@ -1,0 +1,91 @@
+{
+  "id": "unit-11-lesson-07",
+  "unit_id": "unit-11",
+  "name": "Practice Writing",
+  "order": 7,
+  "grammar_tips": [
+    {
+      "id": "unit-11-lesson-07-tip-01",
+      "title": "Conversations",
+      "explanation": "Now write short conversations and self-descriptions using question words, negation, connectors and frequency adverbs. Mix what you've learned freely.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-11-lesson-07-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Write 4 questions you could ask a new friend (one with each: dove, cosa, quando, perché)."
+      },
+      "sentence_context": "",
+      "correct_answer": "Dove abiti? Cosa studi? Quando lavori? Perché impari l'italiano?",
+      "distractors": [],
+      "hints": [
+        "Use different question words. Keep it short."
+      ],
+      "target_words": [
+        "dove",
+        "cosa",
+        "quando",
+        "perché"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-07-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Say three things you DON'T do. Use 'non' (3 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "Non parlo francese. Non mangio carne. Non lavoro il sabato.",
+      "distractors": [],
+      "hints": [
+        "'Non' + verb."
+      ],
+      "target_words": [
+        "non"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-07-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe how often you do three things. Use sempre/spesso/qualche volta/mai/raramente (3 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "Studio italiano ogni giorno. Vado spesso al cinema. Non mangio mai la carne.",
+      "distractors": [],
+      "hints": [
+        "Use different frequency adverbs."
+      ],
+      "target_words": [
+        "sempre",
+        "spesso",
+        "mai"
+      ]
+    },
+    {
+      "id": "unit-11-lesson-07-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Talk about a habit and an exception — use 'ma' or 'però' (2-3 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "Mangio sempre a casa, ma qualche volta vado al ristorante. Studio ogni giorno, però il sabato mi riposo.",
+      "distractors": [],
+      "hints": [
+        "Use 'ma' or 'però' to contrast."
+      ],
+      "target_words": [
+        "ma",
+        "però"
+      ]
+    }
+  ],
+  "vocabulary": []
+}

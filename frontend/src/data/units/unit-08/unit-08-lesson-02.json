@@ -1,0 +1,246 @@
+{
+  "id": "unit-08-lesson-02",
+  "unit_id": "unit-08",
+  "name": "Grandparents, Uncles & Cousins",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-08-lesson-02-tip-01",
+      "title": "Extended Family",
+      "explanation": "Grandparents, uncles, aunts, cousins — these follow the same -o/-a pattern: nonno/nonna, zio/zia, cugino/cugina. Once you know the masculine form, the feminine is one letter away.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-08-lesson-02-tip-02",
+      "title": "Nipote — Two Meanings",
+      "explanation": "'Il nipote' or 'la nipote' can mean grandson/granddaughter OR nephew/niece. Context (or asking 'di chi?') tells you which.",
+      "before_exercise": 8
+    },
+    {
+      "id": "unit-08-lesson-02-tip-03",
+      "title": "Plural Family",
+      "explanation": "Plurals follow the noun rules: nonni (grandparents), zii (uncles/uncles+aunts), cugini (cousins). The masculine plural can include a mixed group: 'i miei nonni' = both grandparents.",
+      "before_exercise": 14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-08-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'nonno' mean?" },
+      "sentence_context": "Il nonno è vecchio.",
+      "correct_answer": "Grandfather",
+      "distractors": ["Grandmother", "Uncle", "Brother"],
+      "hints": ["The grandfather is old."],
+      "target_words": ["nonno"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'nonna' mean?" },
+      "sentence_context": "La nonna è gentile.",
+      "correct_answer": "Grandmother",
+      "distractors": ["Grandfather", "Aunt", "Mother"],
+      "hints": ["The grandmother is kind."],
+      "target_words": ["nonna"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'zio' mean?" },
+      "sentence_context": "Mio zio è simpatico.",
+      "correct_answer": "Uncle",
+      "distractors": ["Aunt", "Cousin", "Brother"],
+      "hints": ["My uncle is nice."],
+      "target_words": ["zio"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'zia' mean?" },
+      "sentence_context": "Mia zia è gentile.",
+      "correct_answer": "Aunt",
+      "distractors": ["Uncle", "Sister", "Mother"],
+      "hints": ["My aunt is kind."],
+      "target_words": ["zia"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'cugino' mean?" },
+      "sentence_context": "Mio cugino è giovane.",
+      "correct_answer": "Cousin (male)",
+      "distractors": ["Brother", "Uncle", "Friend"],
+      "hints": ["My (male) cousin is young."],
+      "target_words": ["cugino"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'cugina' mean?" },
+      "sentence_context": "Mia cugina è felice.",
+      "correct_answer": "Cousin (female)",
+      "distractors": ["Sister", "Aunt", "Friend"],
+      "hints": ["My (female) cousin is happy."],
+      "target_words": ["cugina"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'nipote' usually mean?" },
+      "sentence_context": "Il nipote è piccolo.",
+      "correct_answer": "Grandchild / nephew",
+      "distractors": ["Grandfather", "Cousin", "Brother"],
+      "hints": ["Can mean grandson OR nephew."],
+      "target_words": ["nipote"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ___ è vecchio.",
+      "correct_answer": "nonno",
+      "distractors": [],
+      "hints": ["The grandfather is old."],
+      "target_words": ["nonno"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La ___ è gentile.",
+      "correct_answer": "nonna",
+      "distractors": [],
+      "hints": ["The grandmother is kind."],
+      "target_words": ["nonna"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Mia ___ è alta.",
+      "correct_answer": "zia",
+      "distractors": [],
+      "hints": ["My aunt is tall."],
+      "target_words": ["zia"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'uncle' in Italian?" },
+      "sentence_context": "Mio zio è gentile.",
+      "correct_answer": "zio",
+      "distractors": [],
+      "hints": ["The -o pair with 'zia'."],
+      "target_words": ["zio"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say '(male) cousin' in Italian?" },
+      "sentence_context": "Mio cugino è giovane.",
+      "correct_answer": "cugino",
+      "distractors": [],
+      "hints": ["Masculine cousin."],
+      "target_words": ["cugino"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say '(female) cousin' in Italian?" },
+      "sentence_context": "Mia cugina è felice.",
+      "correct_answer": "cugina",
+      "distractors": [],
+      "hints": ["Feminine cousin."],
+      "target_words": ["cugina"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'grandchild / nephew' in Italian?" },
+      "sentence_context": "Il nipote è piccolo.",
+      "correct_answer": "nipote",
+      "distractors": [],
+      "hints": ["One word for two meanings."],
+      "target_words": ["nipote"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the plural: write 'grandparents'." },
+      "sentence_context": "I miei ___ sono italiani.",
+      "correct_answer": "nonni",
+      "distractors": [],
+      "hints": ["Plural of nonno → nonni (covers both genders)."],
+      "target_words": ["nonno"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the plural: write 'cousins' (mixed group)." },
+      "sentence_context": "I miei ___ sono simpatici.",
+      "correct_answer": "cugini",
+      "distractors": [],
+      "hints": ["Plural of cugino → cugini."],
+      "target_words": ["cugino"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'My grandfather is old.'" },
+      "sentence_context": "Mio nonno è vecchio.",
+      "correct_answer": ["Mio", "nonno", "è", "vecchio."],
+      "distractors": ["nonna", "giovane"],
+      "hints": ["No article with one family member."],
+      "target_words": ["nonno"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'My aunt is in the garden.'" },
+      "sentence_context": "Mia zia è in giardino.",
+      "correct_answer": ["Mia", "zia", "è", "in", "giardino."],
+      "distractors": ["zio", "cucina"],
+      "hints": ["Feminine → mia zia."],
+      "target_words": ["zia"]
+    },
+    {
+      "id": "unit-08-lesson-02-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'My grandparents are Italian.'" },
+      "sentence_context": "I miei nonni sono italiani.",
+      "correct_answer": ["I", "miei", "nonni", "sono", "italiani."],
+      "distractors": ["mio", "nonno"],
+      "hints": ["Plural family → use the article."],
+      "target_words": ["nonno"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "nonno", "meaning": "Grandfather", "example": "Il nonno è vecchio." },
+    { "word": "nonna", "meaning": "Grandmother", "example": "La nonna è gentile." },
+    { "word": "zio", "meaning": "Uncle", "example": "Mio zio è simpatico." },
+    { "word": "zia", "meaning": "Aunt", "example": "Mia zia è gentile." },
+    { "word": "cugino", "meaning": "Cousin (male)", "example": "Mio cugino è giovane." },
+    { "word": "cugina", "meaning": "Cousin (female)", "example": "Mia cugina è felice." },
+    { "word": "nipote", "meaning": "Grandchild / nephew / niece", "example": "Il nipote è piccolo." }
+  ]
+}

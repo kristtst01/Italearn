@@ -1,0 +1,258 @@
+{
+  "id": "unit-07-lesson-03",
+  "unit_id": "unit-07",
+  "name": "Nationalities I (-o/-a)",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-07-lesson-03-tip-01",
+      "title": "Nationalities Are Adjectives",
+      "explanation": "A nationality word is an adjective — it agrees just like the adjectives from Unit 6. 'Marco è italiano' (masculine), 'Anna è italiana' (feminine). Same -o/-a rule you already know.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-07-lesson-03-tip-02",
+      "title": "No Article",
+      "explanation": "With 'essere' + a nationality, don't use an article: 'Sono italiano', not 'sono un italiano'. Just the verb and the nationality.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-07-lesson-03-tip-03",
+      "title": "Nationality Pairs",
+      "explanation": "Most -o/-a nationalities pair masculine/feminine: italiano/italiana, spagnolo/spagnola, tedesco/tedesca, russo/russa, americano/americana. Same word, just change the ending.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-07-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'italiano' mean?" },
+      "sentence_context": "Marco è italiano.",
+      "correct_answer": "Italian",
+      "distractors": ["Spanish", "German", "Russian"],
+      "hints": ["Marco is Italian."],
+      "target_words": ["italiano"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'spagnolo' mean?" },
+      "sentence_context": "Il ragazzo è spagnolo.",
+      "correct_answer": "Spanish",
+      "distractors": ["Italian", "American", "Russian"],
+      "hints": ["From Spain."],
+      "target_words": ["spagnolo"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'tedesco' mean?" },
+      "sentence_context": "L'uomo è tedesco.",
+      "correct_answer": "German",
+      "distractors": ["Italian", "Spanish", "Brazilian"],
+      "hints": ["From Germany."],
+      "target_words": ["tedesco"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'americano' mean?" },
+      "sentence_context": "Il ragazzo è americano.",
+      "correct_answer": "American",
+      "distractors": ["Australian", "Italian", "Russian"],
+      "hints": ["From the United States."],
+      "target_words": ["americano"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'russo' mean?" },
+      "sentence_context": "L'uomo è russo.",
+      "correct_answer": "Russian",
+      "distractors": ["German", "Italian", "Spanish"],
+      "hints": ["From Russia."],
+      "target_words": ["russo"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'brasiliano' mean?" },
+      "sentence_context": "Il ragazzo è brasiliano.",
+      "correct_answer": "Brazilian",
+      "distractors": ["Australian", "Spanish", "Russian"],
+      "hints": ["From Brazil."],
+      "target_words": ["brasiliano"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'australiano' mean?" },
+      "sentence_context": "L'amico è australiano.",
+      "correct_answer": "Australian",
+      "distractors": ["American", "Brazilian", "German"],
+      "hints": ["From Australia."],
+      "target_words": ["australiano"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'svizzero' mean?" },
+      "sentence_context": "L'uomo è svizzero.",
+      "correct_answer": "Swiss",
+      "distractors": ["German", "Italian", "Russian"],
+      "hints": ["From Switzerland."],
+      "target_words": ["svizzero"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'Italian' (masculine) in Italian?" },
+      "sentence_context": "Sono italiano.",
+      "correct_answer": "italiano",
+      "distractors": [],
+      "hints": ["No article: 'Sono italiano'."],
+      "target_words": ["italiano"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'German' (masculine) in Italian?" },
+      "sentence_context": "Marco è tedesco.",
+      "correct_answer": "tedesco",
+      "distractors": [],
+      "hints": ["Not close to the English word."],
+      "target_words": ["tedesco"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'Russian' (masculine) in Italian?" },
+      "sentence_context": "L'uomo è russo.",
+      "correct_answer": "russo",
+      "distractors": [],
+      "hints": ["Short — three letters then -o."],
+      "target_words": ["russo"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'Brazilian' (masculine) in Italian?" },
+      "sentence_context": "Il ragazzo è brasiliano.",
+      "correct_answer": "brasiliano",
+      "distractors": [],
+      "hints": ["Close to the English word."],
+      "target_words": ["brasiliano"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'Italian' so it agrees with 'Anna' (feminine)." },
+      "sentence_context": "Anna è ___.",
+      "correct_answer": "italiana",
+      "distractors": [],
+      "hints": ["Feminine → -a: italiana."],
+      "target_words": ["italiano"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'Spanish' so it agrees with 'la ragazza' (feminine)." },
+      "sentence_context": "La ragazza è ___.",
+      "correct_answer": "spagnola",
+      "distractors": [],
+      "hints": ["Feminine → -a: spagnola."],
+      "target_words": ["spagnolo"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'American' so it agrees with 'la donna' (feminine)." },
+      "sentence_context": "La donna è ___.",
+      "correct_answer": "americana",
+      "distractors": [],
+      "hints": ["Feminine → -a: americana."],
+      "target_words": ["americano"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'German' so it agrees with 'la ragazza' (feminine)." },
+      "sentence_context": "La ragazza è ___.",
+      "correct_answer": "tedesca",
+      "distractors": [],
+      "hints": ["Feminine → -a: tedesca."],
+      "target_words": ["tedesco"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Marco is American.'" },
+      "sentence_context": "Marco è americano.",
+      "correct_answer": ["Marco", "è", "americano."],
+      "distractors": ["americana", "italiano"],
+      "hints": ["Masculine → americano."],
+      "target_words": ["americano"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I am Italian.'" },
+      "sentence_context": "Sono italiano.",
+      "correct_answer": ["Sono", "italiano."],
+      "distractors": ["italiana", "un"],
+      "hints": ["No article after 'sono'."],
+      "target_words": ["italiano"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Anna is Spanish.'" },
+      "sentence_context": "Anna è spagnola.",
+      "correct_answer": ["Anna", "è", "spagnola."],
+      "distractors": ["spagnolo", "italiana"],
+      "hints": ["Anna is feminine → spagnola."],
+      "target_words": ["spagnolo"]
+    },
+    {
+      "id": "unit-07-lesson-03-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The man is Swiss.'" },
+      "sentence_context": "L'uomo è svizzero.",
+      "correct_answer": ["L'uomo", "è", "svizzero."],
+      "distractors": ["svizzera", "italiano"],
+      "hints": ["Masculine → svizzero."],
+      "target_words": ["svizzero"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "italiano", "meaning": "Italian", "example": "Marco è italiano." },
+    { "word": "spagnolo", "meaning": "Spanish", "example": "Il ragazzo è spagnolo." },
+    { "word": "tedesco", "meaning": "German", "example": "L'uomo è tedesco." },
+    { "word": "americano", "meaning": "American", "example": "Il ragazzo è americano." },
+    { "word": "russo", "meaning": "Russian", "example": "L'uomo è russo." },
+    { "word": "brasiliano", "meaning": "Brazilian", "example": "Il ragazzo è brasiliano." },
+    { "word": "australiano", "meaning": "Australian", "example": "L'amico è australiano." },
+    { "word": "svizzero", "meaning": "Swiss", "example": "L'uomo è svizzero." }
+  ]
+}

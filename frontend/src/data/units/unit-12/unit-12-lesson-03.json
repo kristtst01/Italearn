@@ -1,0 +1,265 @@
+{
+  "id": "unit-12-lesson-03",
+  "unit_id": "unit-12",
+  "name": "Stare, Dare & Dire",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-12-lesson-03-tip-01",
+      "title": "Stare",
+      "explanation": "'Stare' (to stay / be in a state): sto, stai, sta, stiamo, state, stanno. You already know it from 'Come stai?' — it's for health and states. 'Sto bene', 'Marco sta male'.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-12-lesson-03-tip-02",
+      "title": "Dare",
+      "explanation": "'Dare' (to give): do, dai, dà, diamo, date, danno. Note 'dà' has an accent so you don't confuse it with 'da' (from). 'Mi dai il libro?' = Can you give me the book?",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-12-lesson-03-tip-03",
+      "title": "Dire",
+      "explanation": "'Dire' (to say / tell): dico, dici, dice, diciamo, dite, dicono. Used a lot in conversation. 'Cosa dici?' = What are you saying? 'Come si dice...?' (from Unit 1) literally means 'How does one say...?'",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-12-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'stare' mean?" },
+      "sentence_context": "Sto bene.",
+      "correct_answer": "To stay / be (state)",
+      "distractors": ["To do", "To go", "To say"],
+      "hints": ["I'm well."],
+      "target_words": ["stare"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'dare' mean?" },
+      "sentence_context": "Do il libro a Marco.",
+      "correct_answer": "To give",
+      "distractors": ["To take", "To get", "To put"],
+      "hints": ["I give the book to Marco."],
+      "target_words": ["dare"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'dire' mean?" },
+      "sentence_context": "Dico la verità.",
+      "correct_answer": "To say / tell",
+      "distractors": ["To do", "To hear", "To go"],
+      "hints": ["I tell the truth."],
+      "target_words": ["dire"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'esame' mean?" },
+      "sentence_context": "Domani ho un esame.",
+      "correct_answer": "Exam",
+      "distractors": ["Class", "Lesson", "Book"],
+      "hints": ["Tomorrow I have an exam."],
+      "target_words": ["esame"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ bene.",
+      "correct_answer": "sto",
+      "distractors": [],
+      "hints": ["I'm well. (io form of stare)"],
+      "target_words": ["stare"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Marco ___ male.",
+      "correct_answer": "sta",
+      "distractors": [],
+      "hints": ["Marco is unwell. (lui form of stare)"],
+      "target_words": ["stare"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Noi ___ a casa.",
+      "correct_answer": "stiamo",
+      "distractors": [],
+      "hints": ["We're staying at home. (noi form of stare)"],
+      "target_words": ["stare"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ il libro a Marco.",
+      "correct_answer": "do",
+      "distractors": [],
+      "hints": ["I give the book to Marco. (io form of dare)"],
+      "target_words": ["dare"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Tu ___ il libro a me?",
+      "correct_answer": "dai",
+      "distractors": [],
+      "hints": ["Will you give me the book? (tu form of dare)"],
+      "target_words": ["dare"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ ciao.",
+      "correct_answer": "dico",
+      "distractors": [],
+      "hints": ["I say hello. (io form of dire)"],
+      "target_words": ["dire"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Cosa ___?",
+      "correct_answer": "dici",
+      "distractors": [],
+      "hints": ["What are you saying? (tu form of dire)"],
+      "target_words": ["dire"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Anna ___ la verità.",
+      "correct_answer": "dice",
+      "distractors": [],
+      "hints": ["Anna tells the truth. (lei form of dire)"],
+      "target_words": ["dire"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I'm well' in Italian?" },
+      "sentence_context": "Sto bene.",
+      "correct_answer": "sto bene",
+      "distractors": [],
+      "hints": ["From stare."],
+      "target_words": ["stare"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I give' in Italian?" },
+      "sentence_context": "Do il libro a Marco.",
+      "correct_answer": "do",
+      "distractors": [],
+      "hints": ["Two letters."],
+      "target_words": ["dare"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I say' in Italian?" },
+      "sentence_context": "Dico la verità.",
+      "correct_answer": "dico",
+      "distractors": [],
+      "hints": ["dir- + io ending → dico."],
+      "target_words": ["dire"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'noi' form of 'dire'." },
+      "sentence_context": "Noi ___ ciao.",
+      "correct_answer": "diciamo",
+      "distractors": [],
+      "hints": ["noi → diciamo."],
+      "target_words": ["dire"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'loro' form of 'dare'." },
+      "sentence_context": "Loro ___ il libro a Marco.",
+      "correct_answer": "danno",
+      "distractors": [],
+      "hints": ["loro → danno."],
+      "target_words": ["dare"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'loro' form of 'stare'." },
+      "sentence_context": "Loro ___ bene.",
+      "correct_answer": "stanno",
+      "distractors": [],
+      "hints": ["loro → stanno."],
+      "target_words": ["stare"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I'm staying at home.'" },
+      "sentence_context": "Sto a casa.",
+      "correct_answer": ["Sto", "a", "casa."],
+      "distractors": ["vado", "in"],
+      "hints": ["'Stare' for location and state."],
+      "target_words": ["stare"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I give the book to Marco.'" },
+      "sentence_context": "Do il libro a Marco.",
+      "correct_answer": ["Do", "il", "libro", "a", "Marco."],
+      "distractors": ["dai", "in"],
+      "hints": ["'Dare' + object + 'a' + person."],
+      "target_words": ["dare"]
+    },
+    {
+      "id": "unit-12-lesson-03-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Tomorrow I have an exam.'" },
+      "sentence_context": "Domani ho un esame.",
+      "correct_answer": ["Domani", "ho", "un", "esame."],
+      "distractors": ["lezione", "stasera"],
+      "hints": ["Use 'ho' + 'un esame'."],
+      "target_words": ["esame"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "stare", "meaning": "To stay / to be (state)", "example": "Sto bene." },
+    { "word": "dare", "meaning": "To give", "example": "Do il libro a Marco." },
+    { "word": "dire", "meaning": "To say / tell", "example": "Dico la verità." },
+    { "word": "esame", "meaning": "Exam", "example": "Domani ho un esame." }
+  ]
+}

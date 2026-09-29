@@ -1,0 +1,237 @@
+{
+  "id": "unit-07-lesson-02",
+  "unit_id": "unit-07",
+  "name": "Countries Around the World",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-07-lesson-02-tip-01",
+      "title": "Beyond Europe",
+      "explanation": "More country names: most still end in -a (Cina, Russia, Australia) and are feminine. A few — like 'il Brasile', 'il Giappone', 'gli Stati Uniti' — are masculine.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-07-lesson-02-tip-02",
+      "title": "Stati Uniti — Plural",
+      "explanation": "'Gli Stati Uniti' (the United States) is plural — 'they are united states'. You'll often hear 'America' for the country in everyday speech.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-07-lesson-02-tip-03",
+      "title": "World, City, Country",
+      "explanation": "Three useful words together: 'il mondo' (the world), 'la città' (the city), 'il paese' (the country). 'La città' is feminine but ends in -à, not -a.",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-07-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which country is 'America'?" },
+      "sentence_context": "New York è in America.",
+      "correct_answer": "America (USA)",
+      "distractors": ["Australia", "Brazil", "Japan"],
+      "hints": ["New York is in America."],
+      "target_words": ["America"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which country is 'Cina'?" },
+      "sentence_context": "Pechino è in Cina.",
+      "correct_answer": "China",
+      "distractors": ["Japan", "Russia", "Brazil"],
+      "hints": ["Beijing is in China."],
+      "target_words": ["Cina"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which country is 'Giappone'?" },
+      "sentence_context": "Tokyo è in Giappone.",
+      "correct_answer": "Japan",
+      "distractors": ["China", "Russia", "America"],
+      "hints": ["Tokyo is in Japan."],
+      "target_words": ["Giappone"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which country is 'Russia'?" },
+      "sentence_context": "Mosca è in Russia.",
+      "correct_answer": "Russia",
+      "distractors": ["China", "Brazil", "Australia"],
+      "hints": ["Moscow is in Russia."],
+      "target_words": ["Russia"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which country is 'Brasile'?" },
+      "sentence_context": "Il Brasile è grande.",
+      "correct_answer": "Brazil",
+      "distractors": ["Australia", "Japan", "Russia"],
+      "hints": ["Brazil is big."],
+      "target_words": ["Brasile"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which country is 'Australia'?" },
+      "sentence_context": "Sydney è in Australia.",
+      "correct_answer": "Australia",
+      "distractors": ["America", "Brazil", "Japan"],
+      "hints": ["Sydney is in Australia."],
+      "target_words": ["Australia"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Washington è negli ___ Uniti.",
+      "correct_answer": "Stati",
+      "distractors": [],
+      "hints": ["Washington is in the United States."],
+      "target_words": ["Stati Uniti"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ___ è grande.",
+      "correct_answer": "mondo",
+      "distractors": [],
+      "hints": ["The world is big."],
+      "target_words": ["mondo"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Roma è una bella ___.",
+      "correct_answer": "città",
+      "distractors": [],
+      "hints": ["Rome is a beautiful city."],
+      "target_words": ["città"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'China' in Italian?" },
+      "sentence_context": "Pechino è in Cina.",
+      "correct_answer": "Cina",
+      "distractors": [],
+      "hints": ["One short word."],
+      "target_words": ["Cina"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'Japan' in Italian?" },
+      "sentence_context": "Tokyo è in Giappone.",
+      "correct_answer": "Giappone",
+      "distractors": [],
+      "hints": ["Masculine: il Giappone."],
+      "target_words": ["Giappone"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'Brazil' in Italian?" },
+      "sentence_context": "Il Brasile è grande.",
+      "correct_answer": "Brasile",
+      "distractors": [],
+      "hints": ["Masculine: il Brasile."],
+      "target_words": ["Brasile"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'the world' in Italian?" },
+      "sentence_context": "Il mondo è grande.",
+      "correct_answer": "il mondo",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["mondo"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'city' in Italian?" },
+      "sentence_context": "Roma è una città.",
+      "correct_answer": "città",
+      "distractors": [],
+      "hints": ["Note the accent on the last letter."],
+      "target_words": ["città"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Tokyo is in Japan.'" },
+      "sentence_context": "Tokyo è in Giappone.",
+      "correct_answer": ["Tokyo", "è", "in", "Giappone."],
+      "distractors": ["Cina", "sono"],
+      "hints": ["Use 'in' before the country."],
+      "target_words": ["Giappone"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Beijing is in China.'" },
+      "sentence_context": "Pechino è in Cina.",
+      "correct_answer": ["Pechino", "è", "in", "Cina."],
+      "distractors": ["Giappone", "è"],
+      "hints": ["Use 'in' before the country."],
+      "target_words": ["Cina"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Sydney is a big city.'" },
+      "sentence_context": "Sydney è una grande città.",
+      "correct_answer": ["Sydney", "è", "una", "grande", "città."],
+      "distractors": ["paese", "piccola"],
+      "hints": ["'Grande' often comes before the noun."],
+      "target_words": ["città"]
+    },
+    {
+      "id": "unit-07-lesson-02-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The world is big.'" },
+      "sentence_context": "Il mondo è grande.",
+      "correct_answer": ["Il", "mondo", "è", "grande."],
+      "distractors": ["paese", "piccolo"],
+      "hints": ["Adjective comes after the noun."],
+      "target_words": ["mondo"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "America", "meaning": "America (USA)", "example": "New York è in America." },
+    { "word": "Stati Uniti", "meaning": "United States", "example": "Washington è negli Stati Uniti." },
+    { "word": "Cina", "meaning": "China", "example": "Pechino è in Cina." },
+    { "word": "Giappone", "meaning": "Japan", "example": "Tokyo è in Giappone." },
+    { "word": "Russia", "meaning": "Russia", "example": "Mosca è in Russia." },
+    { "word": "Brasile", "meaning": "Brazil", "example": "Il Brasile è grande." },
+    { "word": "Australia", "meaning": "Australia", "example": "Sydney è in Australia." },
+    { "word": "mondo", "meaning": "World", "example": "Il mondo è grande." },
+    { "word": "città", "meaning": "City", "example": "Roma è una bella città." }
+  ]
+}

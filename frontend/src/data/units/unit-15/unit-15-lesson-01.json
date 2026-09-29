@@ -1,0 +1,252 @@
+{
+  "id": "unit-15-lesson-01",
+  "unit_id": "unit-15",
+  "name": "Volere — Wanting",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-15-lesson-01-tip-01",
+      "title": "Volere — To Want",
+      "explanation": "'Volere' is irregular: voglio (io), vuoi (tu), vuole (lui/lei), vogliamo (noi), volete (voi), vogliono (loro). Boot pattern again — irregular at the edges, regular in the middle.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-15-lesson-01-tip-02",
+      "title": "Volere + Noun or Infinitive",
+      "explanation": "'Voglio un caffè' (I want a coffee). 'Voglio mangiare' (I want to eat). After 'volere', a noun OR an infinitive — never another conjugated verb.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-15-lesson-01-tip-03",
+      "title": "Vorrei — Politely",
+      "explanation": "'Vorrei' (I would like) is the polite form of 'voglio'. At a restaurant or shop, always use 'vorrei': 'Vorrei un caffè, per favore'. Sounds gentle and adult.",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-15-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'volere' mean?" },
+      "sentence_context": "Voglio un caffè.",
+      "correct_answer": "To want",
+      "distractors": ["To have", "To need", "To prefer"],
+      "hints": ["I want a coffee."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'qualcosa' mean?" },
+      "sentence_context": "Voglio qualcosa da mangiare.",
+      "correct_answer": "Something",
+      "distractors": ["Nothing", "Anything", "Everyone"],
+      "hints": ["I want something to eat."],
+      "target_words": ["qualcosa"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'voglio' mean?" },
+      "sentence_context": "Voglio un caffè.",
+      "correct_answer": "I want",
+      "distractors": ["You want", "He wants", "We want"],
+      "hints": ["First-person form of volere."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'vuoi' mean?" },
+      "sentence_context": "Vuoi un tè?",
+      "correct_answer": "You want",
+      "distractors": ["I want", "He wants", "They want"],
+      "hints": ["Do you want a tea?"],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'vorrei' mean?" },
+      "sentence_context": "Vorrei un caffè, per favore.",
+      "correct_answer": "I would like",
+      "distractors": ["I want", "I had", "I will"],
+      "hints": ["The polite form."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ un caffè.",
+      "correct_answer": "voglio",
+      "distractors": [],
+      "hints": ["I want a coffee. (io form)"],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Tu ___ un tè?",
+      "correct_answer": "vuoi",
+      "distractors": [],
+      "hints": ["Do you want a tea? (tu form)"],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Marco ___ andare al cinema.",
+      "correct_answer": "vuole",
+      "distractors": [],
+      "hints": ["Marco wants to go to the cinema."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Noi ___ studiare.",
+      "correct_answer": "vogliamo",
+      "distractors": [],
+      "hints": ["We want to study."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Loro ___ mangiare.",
+      "correct_answer": "vogliono",
+      "distractors": [],
+      "hints": ["They want to eat. (loro form)"],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I want' in Italian?" },
+      "sentence_context": "Voglio un caffè.",
+      "correct_answer": "voglio",
+      "distractors": [],
+      "hints": ["Irregular first-person form."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I would like' (polite) in Italian?" },
+      "sentence_context": "Vorrei un caffè.",
+      "correct_answer": "vorrei",
+      "distractors": [],
+      "hints": ["Conditional polite form."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'something' in Italian?" },
+      "sentence_context": "Voglio qualcosa.",
+      "correct_answer": "qualcosa",
+      "distractors": [],
+      "hints": ["One word."],
+      "target_words": ["qualcosa"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'voi' form of 'volere'." },
+      "sentence_context": "Voi ___ un tè?",
+      "correct_answer": "volete",
+      "distractors": [],
+      "hints": ["voi → volete."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'loro' form of 'volere'." },
+      "sentence_context": "Loro ___ andare a casa.",
+      "correct_answer": "vogliono",
+      "distractors": [],
+      "hints": ["loro → vogliono."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Pick the polite form at a café." },
+      "sentence_context": "___ un caffè, per favore.",
+      "correct_answer": "Vorrei",
+      "distractors": [],
+      "hints": ["Polite → Vorrei."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I want to go to the cinema.'" },
+      "sentence_context": "Voglio andare al cinema.",
+      "correct_answer": ["Voglio", "andare", "al", "cinema."],
+      "distractors": ["vuoi", "in"],
+      "hints": ["Volere + infinitive."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Do you want to come with me?'" },
+      "sentence_context": "Vuoi venire con me?",
+      "correct_answer": ["Vuoi", "venire", "con", "me?"],
+      "distractors": ["voglio", "te"],
+      "hints": ["'Vuoi' + infinitive + 'con me'."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I'd like a coffee, please.'" },
+      "sentence_context": "Vorrei un caffè, per favore.",
+      "correct_answer": ["Vorrei", "un", "caffè,", "per", "favore."],
+      "distractors": ["voglio", "tè"],
+      "hints": ["Polite phrase at a café."],
+      "target_words": ["volere"]
+    },
+    {
+      "id": "unit-15-lesson-01-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I want something to eat.'" },
+      "sentence_context": "Voglio qualcosa da mangiare.",
+      "correct_answer": ["Voglio", "qualcosa", "da", "mangiare."],
+      "distractors": ["bere", "niente"],
+      "hints": ["'Qualcosa da' + infinitive."],
+      "target_words": ["volere", "qualcosa"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "volere", "meaning": "To want (also: vorrei = I would like)", "example": "Voglio un caffè." },
+    { "word": "qualcosa", "meaning": "Something", "example": "Voglio qualcosa da mangiare." }
+  ]
+}

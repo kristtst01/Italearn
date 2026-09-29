@@ -1,0 +1,281 @@
+{
+  "id": "unit-07-lesson-05",
+  "unit_id": "unit-07",
+  "name": "Languages & Speaking",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-07-lesson-05-tip-01",
+      "title": "The Verb Parlare",
+      "explanation": "'Parlare' means to speak. Like all -are verbs (you'll see more in Unit 9), the forms change: 'parlo' (I speak), 'parli' (you speak), 'parla' (he/she speaks).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-07-lesson-05-tip-02",
+      "title": "Languages = Masculine Nationality",
+      "explanation": "A language has the same name as the masculine nationality: italiano, inglese, francese. 'Parlo inglese' (I speak English), 'Marco parla francese' (Marco speaks French).",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-07-lesson-05-tip-03",
+      "title": "A Little",
+      "explanation": "'Un po'' means 'a little'. 'Parlo un po' di italiano' = 'I speak a little Italian'. Use 'molto' for 'a lot' and 'poco' for 'little/not much'.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-07-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'parlare' mean?" },
+      "sentence_context": "Parlare italiano è bello.",
+      "correct_answer": "To speak",
+      "distractors": ["To listen", "To learn", "To read"],
+      "hints": ["Speaking Italian is nice."],
+      "target_words": ["parlare"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'imparare' mean?" },
+      "sentence_context": "Imparo l'italiano.",
+      "correct_answer": "To learn",
+      "distractors": ["To speak", "To teach", "To write"],
+      "hints": ["I am learning Italian."],
+      "target_words": ["imparare"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'lingua' mean?" },
+      "sentence_context": "L'italiano è una bella lingua.",
+      "correct_answer": "Language",
+      "distractors": ["Country", "City", "Word"],
+      "hints": ["Italian is a beautiful language."],
+      "target_words": ["lingua"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'parola' mean?" },
+      "sentence_context": "'Ciao' è una parola italiana.",
+      "correct_answer": "Word",
+      "distractors": ["Language", "Name", "Letter"],
+      "hints": ["A single piece of a sentence."],
+      "target_words": ["parola"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'nome' mean?" },
+      "sentence_context": "Il mio nome è Marco.",
+      "correct_answer": "Name",
+      "distractors": ["Word", "Country", "Language"],
+      "hints": ["What you call someone."],
+      "target_words": ["nome"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'straniero' mean?" },
+      "sentence_context": "Lo studente è straniero.",
+      "correct_answer": "Foreign / foreigner",
+      "distractors": ["Italian", "Friend", "Teacher"],
+      "hints": ["Someone from another country."],
+      "target_words": ["straniero"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ italiano.",
+      "correct_answer": "parlo",
+      "distractors": [],
+      "hints": ["I speak Italian. (io form of parlare)"],
+      "target_words": ["parlare"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Tu ___ inglese?",
+      "correct_answer": "parli",
+      "distractors": [],
+      "hints": ["Do you speak English? (tu form of parlare)"],
+      "target_words": ["parlare"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Marco ___ francese.",
+      "correct_answer": "parla",
+      "distractors": [],
+      "hints": ["Marco speaks French. (lui/lei form of parlare)"],
+      "target_words": ["parlare"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Parlo ___ di francese.",
+      "correct_answer": "un po'",
+      "distractors": [],
+      "hints": ["I speak a little French."],
+      "target_words": ["un po'"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Parlo ___ italiano.",
+      "correct_answer": "molto",
+      "distractors": [],
+      "hints": ["I speak a lot of Italian."],
+      "target_words": ["molto"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Parlo ___ tedesco.",
+      "correct_answer": "poco",
+      "distractors": [],
+      "hints": ["I speak little German."],
+      "target_words": ["poco"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'language' in Italian?" },
+      "sentence_context": "L'italiano è una lingua.",
+      "correct_answer": "lingua",
+      "distractors": [],
+      "hints": ["A feminine noun: la lingua."],
+      "target_words": ["lingua"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to speak' in Italian?" },
+      "sentence_context": "Parlare italiano è bello.",
+      "correct_answer": "parlare",
+      "distractors": [],
+      "hints": ["The base form of the verb."],
+      "target_words": ["parlare"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to learn' in Italian?" },
+      "sentence_context": "Imparare l'italiano è interessante.",
+      "correct_answer": "imparare",
+      "distractors": [],
+      "hints": ["The base form of the verb."],
+      "target_words": ["imparare"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'name' in Italian?" },
+      "sentence_context": "Il mio nome è Marco.",
+      "correct_answer": "nome",
+      "distractors": [],
+      "hints": ["A masculine noun: il nome."],
+      "target_words": ["nome"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'io' form of 'parlare'." },
+      "sentence_context": "Io ___ inglese.",
+      "correct_answer": "parlo",
+      "distractors": [],
+      "hints": ["io → -o ending."],
+      "target_words": ["parlare"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'io' form of 'imparare'." },
+      "sentence_context": "Io ___ l'italiano.",
+      "correct_answer": "imparo",
+      "distractors": [],
+      "hints": ["io → -o ending."],
+      "target_words": ["imparare"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I speak a little Italian.'" },
+      "sentence_context": "Parlo un po' di italiano.",
+      "correct_answer": ["Parlo", "un po'", "di", "italiano."],
+      "distractors": ["parli", "lingua"],
+      "hints": ["Verb, then 'un po'', then 'di', then the language."],
+      "target_words": ["parlare", "un po'"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Marco speaks French.'" },
+      "sentence_context": "Marco parla francese.",
+      "correct_answer": ["Marco", "parla", "francese."],
+      "distractors": ["parlo", "inglese"],
+      "hints": ["Use the 'lui' form of parlare."],
+      "target_words": ["parlare"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I learn Italian.'" },
+      "sentence_context": "Imparo l'italiano.",
+      "correct_answer": ["Imparo", "l'italiano."],
+      "distractors": ["parlo", "lingua"],
+      "hints": ["Use the 'io' form of imparare."],
+      "target_words": ["imparare"]
+    },
+    {
+      "id": "unit-07-lesson-05-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: \"'Ciao' is an Italian word.\"" },
+      "sentence_context": "'Ciao' è una parola italiana.",
+      "correct_answer": ["'Ciao'", "è", "una", "parola", "italiana."],
+      "distractors": ["lingua", "italiano"],
+      "hints": ["'Parola' is feminine → italiana."],
+      "target_words": ["parola"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "parlare", "meaning": "To speak", "example": "Parlo italiano." },
+    { "word": "imparare", "meaning": "To learn", "example": "Imparo l'italiano." },
+    { "word": "lingua", "meaning": "Language", "example": "L'italiano è una bella lingua." },
+    { "word": "parola", "meaning": "Word", "example": "'Ciao' è una parola italiana." },
+    { "word": "nome", "meaning": "Name", "example": "Il mio nome è Marco." },
+    { "word": "straniero", "meaning": "Foreign / foreigner", "example": "Lo studente è straniero." },
+    { "word": "un po'", "meaning": "A little", "example": "Parlo un po' di italiano." },
+    { "word": "molto", "meaning": "A lot / much", "example": "Parlo molto italiano." },
+    { "word": "poco", "meaning": "Little / not much", "example": "Parlo poco tedesco." }
+  ]
+}

@@ -28,197 +28,373 @@
       "id": "unit-02-lesson-02-ex-01",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'lui' mean?" },
+      "prompt": {
+        "text": "What does 'lui' mean?"
+      },
       "sentence_context": "Lui è Marco.",
       "correct_answer": "He",
-      "distractors": ["She", "You", "I"],
-      "hints": ["The masculine third-person pronoun."],
-      "target_words": ["lui"]
+      "distractors": [
+        "She",
+        "You",
+        "I"
+      ],
+      "hints": [
+        "The masculine third-person pronoun."
+      ],
+      "target_words": [
+        "lui"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'lei' (lowercase) mean?" },
+      "prompt": {
+        "text": "What does 'lei' (lowercase) mean?"
+      },
       "sentence_context": "Lei è di Firenze.",
       "correct_answer": "She",
-      "distractors": ["He", "I", "We"],
-      "hints": ["The feminine third-person pronoun — lowercase."],
-      "target_words": ["lei"]
+      "distractors": [
+        "He",
+        "I",
+        "We"
+      ],
+      "hints": [
+        "The feminine third-person pronoun — lowercase."
+      ],
+      "target_words": [
+        "lei"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'è' mean?" },
+      "prompt": {
+        "text": "What does 'è' mean?"
+      },
       "sentence_context": "Marco è di Napoli.",
       "correct_answer": "Is (he/she is)",
-      "distractors": ["Am (I am)", "Are (you are)", "And"],
-      "hints": ["The third-person singular form of essere. Don't confuse 'è' (is) with 'e' (and)!"],
-      "target_words": ["è"]
+      "distractors": [
+        "Am (I am)",
+        "Are (you are)",
+        "And"
+      ],
+      "hints": [
+        "The third-person singular form of essere. Don't confuse 'è' (is) with 'e' (and)!"
+      ],
+      "target_words": [
+        "essere"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'chi' mean?" },
+      "prompt": {
+        "text": "What does 'chi' mean?"
+      },
       "sentence_context": "Chi è? — È Marco!",
       "correct_answer": "Who",
-      "distractors": ["What", "Where", "When"],
-      "hints": ["A one-syllable question word for asking about a person's identity."],
-      "target_words": ["chi"]
+      "distractors": [
+        "What",
+        "Where",
+        "When"
+      ],
+      "hints": [
+        "A one-syllable question word for asking about a person's identity."
+      ],
+      "target_words": [
+        "chi"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-05",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "How do you say 'This is Sara' when introducing a woman?" },
+      "prompt": {
+        "text": "How do you say 'This is Sara' when introducing a woman?"
+      },
       "sentence_context": "Questa è Sara.",
       "correct_answer": "Questa è Sara",
-      "distractors": ["Questo è Sara", "Lei è Sara", "Sono Sara"],
-      "hints": ["For a woman, use the -a ending: 'questa'."],
-      "target_words": ["questa"]
+      "distractors": [
+        "Questo è Sara",
+        "Lei è Sara",
+        "Sono Sara"
+      ],
+      "hints": [
+        "For a woman, use the -a ending: 'questa'."
+      ],
+      "target_words": [
+        "questa"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-06",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'anche' mean?" },
+      "prompt": {
+        "text": "What does 'anche' mean?"
+      },
       "sentence_context": "Sono di Roma. — Anche io!",
       "correct_answer": "Also / Too",
-      "distractors": ["But", "And", "Or"],
-      "hints": ["'Anche io' = me too!"],
-      "target_words": ["anche"]
+      "distractors": [
+        "But",
+        "And",
+        "Or"
+      ],
+      "hints": [
+        "'Anche io' = me too!"
+      ],
+      "target_words": [
+        "anche"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-07",
       "type": "vocab",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
       "sentence_context": "Lui ___ di Milano.",
       "correct_answer": "è",
       "distractors": [],
-      "hints": ["He is from Milan."],
-      "target_words": ["è"]
+      "hints": [
+        "He is from Milan."
+      ],
+      "target_words": [
+        "essere"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-08",
       "type": "vocab",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
       "sentence_context": "___ è? — È Anna!",
       "correct_answer": "Chi",
       "distractors": [],
-      "hints": ["Who is it? — It's Anna!"],
-      "target_words": ["chi"]
+      "hints": [
+        "Who is it? — It's Anna!"
+      ],
+      "target_words": [
+        "chi"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-09",
       "type": "vocab",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
       "sentence_context": "___ è Marco, un amico.",
       "correct_answer": "Questo",
       "distractors": [],
-      "hints": ["This is Marco, a friend."],
-      "target_words": ["questo"]
+      "hints": [
+        "This is Marco, a friend."
+      ],
+      "target_words": [
+        "questo"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-10",
       "type": "vocab",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'he' in Italian?" },
+      "prompt": {
+        "text": "How do you say 'he' in Italian?"
+      },
       "sentence_context": "Lui è Marco.",
       "correct_answer": "lui",
       "distractors": [],
-      "hints": ["Three letters — the masculine pronoun."],
-      "target_words": ["lui"]
+      "hints": [
+        "Three letters — the masculine pronoun."
+      ],
+      "target_words": [
+        "lui"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-11",
       "type": "vocab",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'she' in Italian?" },
+      "prompt": {
+        "text": "How do you say 'she' in Italian?"
+      },
       "sentence_context": "Lei è di Firenze.",
       "correct_answer": "lei",
       "distractors": [],
-      "hints": ["Three letters — the feminine pronoun."],
-      "target_words": ["lei"]
+      "hints": [
+        "Three letters — the feminine pronoun."
+      ],
+      "target_words": [
+        "lei"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-12",
       "type": "vocab",
       "subtype": "type_answer",
-      "prompt": { "text": "Ask 'Who is it?' in Italian." },
+      "prompt": {
+        "text": "Ask 'Who is it?' in Italian."
+      },
       "sentence_context": "Chi è?",
       "correct_answer": "chi è",
       "distractors": [],
-      "hints": ["Two short words: who + is."],
-      "target_words": ["chi", "è"]
+      "hints": [
+        "Two short words: who + is."
+      ],
+      "target_words": [
+        "chi",
+        "essere"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-13",
       "type": "writing",
       "subtype": "fill_blank",
-      "prompt": { "text": "You're introducing a male friend. Fill in the blank." },
+      "prompt": {
+        "text": "You're introducing a male friend. Fill in the blank."
+      },
       "sentence_context": "___ è Paolo.",
       "correct_answer": "Questo",
       "distractors": [],
-      "hints": ["'This is' for a male — ends in -o."],
-      "target_words": ["questo"]
+      "hints": [
+        "'This is' for a male — ends in -o."
+      ],
+      "target_words": [
+        "questo"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-14",
       "type": "writing",
       "subtype": "fill_blank",
-      "prompt": { "text": "You're introducing a female friend. Fill in the blank." },
+      "prompt": {
+        "text": "You're introducing a female friend. Fill in the blank."
+      },
       "sentence_context": "___ è Maria.",
       "correct_answer": "Questa",
       "distractors": [],
-      "hints": ["'This is' for a female — ends in -a."],
-      "target_words": ["questa"]
+      "hints": [
+        "'This is' for a female — ends in -a."
+      ],
+      "target_words": [
+        "questa"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-15",
       "type": "writing",
       "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'She is from Florence. Me too!'" },
+      "prompt": {
+        "text": "Arrange the words: 'She is from Florence. Me too!'"
+      },
       "sentence_context": "Lei è di Firenze. Anche io!",
-      "correct_answer": ["Lei", "è", "di", "Firenze.", "Anche", "io!"],
-      "distractors": ["tu", "sono"],
-      "hints": ["Her origin first, then your reaction."],
-      "target_words": ["lei", "è", "anche"]
+      "correct_answer": [
+        "Lei",
+        "è",
+        "di",
+        "Firenze.",
+        "Anche",
+        "io!"
+      ],
+      "distractors": [
+        "tu",
+        "sono"
+      ],
+      "hints": [
+        "Her origin first, then your reaction."
+      ],
+      "target_words": [
+        "lei",
+        "essere",
+        "anche"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-16",
       "type": "writing",
       "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Who is he? He is Marco.'" },
+      "prompt": {
+        "text": "Arrange the words: 'Who is he? He is Marco.'"
+      },
       "sentence_context": "Chi è lui? Lui è Marco.",
-      "correct_answer": ["Chi", "è", "lui?", "Lui", "è", "Marco."],
-      "distractors": ["lei", "questa"],
-      "hints": ["Question first, then the answer."],
-      "target_words": ["chi", "è", "lui"]
+      "correct_answer": [
+        "Chi",
+        "è",
+        "lui?",
+        "Lui",
+        "è",
+        "Marco."
+      ],
+      "distractors": [
+        "lei",
+        "questa"
+      ],
+      "hints": [
+        "Question first, then the answer."
+      ],
+      "target_words": [
+        "chi",
+        "essere",
+        "lui"
+      ]
     },
     {
       "id": "unit-02-lesson-02-ex-17",
       "type": "speaking",
       "subtype": "read_aloud",
-      "prompt": { "text": "Read this sentence aloud." },
+      "prompt": {
+        "text": "Read this sentence aloud."
+      },
       "sentence_context": "Questa è Anna. Lei è di Firenze.",
       "correct_answer": "Questa è Anna. Lei è di Firenze.",
       "distractors": [],
-      "hints": ["Introduce Anna and say where she's from."],
-      "target_words": ["questa", "è", "lei"]
+      "hints": [
+        "Introduce Anna and say where she's from."
+      ],
+      "target_words": [
+        "questa",
+        "essere",
+        "lei"
+      ]
     }
   ],
   "vocabulary": [
-    { "word": "lui", "meaning": "He", "example": "Lui è Marco." },
-    { "word": "lei", "meaning": "She", "example": "Lei è di Firenze." },
-    { "word": "è", "meaning": "Is (he/she/it is)", "example": "Marco è di Napoli." },
-    { "word": "questo", "meaning": "This (masculine)", "example": "Questo è Paolo." },
-    { "word": "questa", "meaning": "This (feminine)", "example": "Questa è Sara." },
-    { "word": "chi", "meaning": "Who", "example": "Chi è? — È Marco!" },
-    { "word": "anche", "meaning": "Also / Too", "example": "Anche io sono di Roma!" }
+    {
+      "word": "lui",
+      "meaning": "He",
+      "example": "Lui è Marco."
+    },
+    {
+      "word": "lei",
+      "meaning": "She",
+      "example": "Lei è di Firenze."
+    },
+    {
+      "word": "questo",
+      "meaning": "This (masculine)",
+      "example": "Questo è Paolo."
+    },
+    {
+      "word": "questa",
+      "meaning": "This (feminine)",
+      "example": "Questa è Sara."
+    },
+    {
+      "word": "chi",
+      "meaning": "Who",
+      "example": "Chi è? — È Marco!"
+    },
+    {
+      "word": "anche",
+      "meaning": "Also / Too",
+      "example": "Anche io sono di Roma!"
+    }
   ]
 }

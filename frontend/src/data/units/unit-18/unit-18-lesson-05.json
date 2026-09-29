@@ -1,0 +1,90 @@
+{
+  "id": "unit-18-lesson-05",
+  "unit_id": "unit-18",
+  "name": "Practice Writing",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-18-lesson-05-tip-01",
+      "title": "Likes & Preferences",
+      "explanation": "Write about what you like, what you don't like, and what you prefer. Use 'mi piace / mi piacciono' + nouns or infinitives, and 'preferire ... a ...' for preferences.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-18-lesson-05-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Say three things you like — at least one singular and one plural. (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Mi piace il caffè. Mi piacciono i film italiani. Mi piace tanto leggere la sera. Mi piace anche viaggiare.",
+      "distractors": [],
+      "hints": [
+        "Mix singular 'piace' and plural 'piacciono'."
+      ],
+      "target_words": [
+        "piacere",
+        "tanto"
+      ]
+    },
+    {
+      "id": "unit-18-lesson-05-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Say two activities you like to do and one you don't. (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Mi piace ballare e cantare. Mi piace anche viaggiare in Italia. Non mi piace correre la mattina.",
+      "distractors": [],
+      "hints": [
+        "Mi piace + infinitive. Use 'non mi piace' for one."
+      ],
+      "target_words": [
+        "ballare",
+        "cantare",
+        "correre"
+      ]
+    },
+    {
+      "id": "unit-18-lesson-05-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Compare two things using 'più' or 'meno'. (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Roma è più grande di Milano. La pizza è più buona della pasta. Il tè è meno caro del caffè. Preferisco la pizza.",
+      "distractors": [],
+      "hints": [
+        "più / meno + adjective + 'di' + thing."
+      ],
+      "target_words": [
+        "più",
+        "meno",
+        "preferire"
+      ]
+    },
+    {
+      "id": "unit-18-lesson-05-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Talk about what someone in your family likes (use 'a Marco piace...' or 'gli piace'). (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "A mio padre piace il calcio. Gli piace anche guardare la partita la domenica. A mia madre piacciono i libri. Le piace leggere la sera.",
+      "distractors": [],
+      "hints": [
+        "Use 'A [name] piace' or 'gli/le piace'."
+      ],
+      "target_words": [
+        "piacere"
+      ]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,310 @@
+{
+  "id": "unit-06-lesson-05",
+  "unit_id": "unit-06",
+  "name": "Personality & Feelings",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-06-lesson-05-tip-01",
+      "title": "Describing People",
+      "explanation": "To say what someone is like, use 'essere' + an adjective: 'Marco è simpatico', 'Anna è gentile'. The adjective agrees with the person.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-06-lesson-05-tip-02",
+      "title": "Personality in -e",
+      "explanation": "Many personality adjectives end in -e: gentile, intelligente, forte, triste. Like 'grande', these don't change for gender — 'un ragazzo gentile', 'una ragazza gentile'.",
+      "before_exercise": 8
+    },
+    {
+      "id": "unit-06-lesson-05-tip-03",
+      "title": "Feelings Change",
+      "explanation": "Some of these describe a lasting trait (simpatico, intelligente) and some a passing feeling (stanco, contento, nervoso). Italian uses 'essere' for both: 'Sono stanco' = I am tired right now.",
+      "before_exercise": 16
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-06-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'simpatico' mean?" },
+      "sentence_context": "Marco è simpatico.",
+      "correct_answer": "Nice / likeable",
+      "distractors": ["Unpleasant", "Tired", "Shy"],
+      "hints": ["Marco is nice."],
+      "target_words": ["simpatico"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'antipatico' mean?" },
+      "sentence_context": "Il ragazzo è antipatico.",
+      "correct_answer": "Unpleasant",
+      "distractors": ["Nice", "Kind", "Calm"],
+      "hints": ["The opposite of 'simpatico'."],
+      "target_words": ["antipatico"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'intelligente' mean?" },
+      "sentence_context": "Anna è intelligente.",
+      "correct_answer": "Intelligent",
+      "distractors": ["Tired", "Shy", "Strong"],
+      "hints": ["Close to the English word."],
+      "target_words": ["intelligente"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'gentile' mean?" },
+      "sentence_context": "L'insegnante è gentile.",
+      "correct_answer": "Kind",
+      "distractors": ["Rude", "Tired", "Sad"],
+      "hints": ["The teacher is kind."],
+      "target_words": ["gentile"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'bravo' mean?" },
+      "sentence_context": "Marco è bravo.",
+      "correct_answer": "Good / skilled",
+      "distractors": ["Bad", "Lazy", "Weak"],
+      "hints": ["Used for someone good at something."],
+      "target_words": ["bravo"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'generoso' mean?" },
+      "sentence_context": "Mio nonno è generoso.",
+      "correct_answer": "Generous",
+      "distractors": ["Selfish", "Shy", "Nervous"],
+      "hints": ["Someone who gives a lot."],
+      "target_words": ["generoso"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'timido' mean?" },
+      "sentence_context": "La ragazza è timida.",
+      "correct_answer": "Shy",
+      "distractors": ["Loud", "Strong", "Happy"],
+      "hints": ["Someone quiet around new people."],
+      "target_words": ["timido"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ragazzo è ___.",
+      "correct_answer": "stanco",
+      "distractors": [],
+      "hints": ["The boy is tired."],
+      "target_words": ["stanco"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Anna è ___.",
+      "correct_answer": "felice",
+      "distractors": [],
+      "hints": ["Anna is happy."],
+      "target_words": ["felice"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ragazzo è ___.",
+      "correct_answer": "triste",
+      "distractors": [],
+      "hints": ["The boy is sad."],
+      "target_words": ["triste"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il bambino è ___.",
+      "correct_answer": "contento",
+      "distractors": [],
+      "hints": ["The child is glad / pleased."],
+      "target_words": ["contento"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "L'uomo è ___.",
+      "correct_answer": "nervoso",
+      "distractors": [],
+      "hints": ["The man is nervous."],
+      "target_words": ["nervoso"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'young' in Italian?" },
+      "sentence_context": "La donna è giovane.",
+      "correct_answer": "giovane",
+      "distractors": [],
+      "hints": ["The opposite of 'vecchio' for people."],
+      "target_words": ["giovane"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'strong' in Italian?" },
+      "sentence_context": "L'uomo è forte.",
+      "correct_answer": "forte",
+      "distractors": [],
+      "hints": ["An -e adjective."],
+      "target_words": ["forte"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'calm' (masculine) in Italian?" },
+      "sentence_context": "Il nonno è calmo.",
+      "correct_answer": "calmo",
+      "distractors": [],
+      "hints": ["The opposite of 'nervoso'."],
+      "target_words": ["calmo"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'cheerful' (masculine) in Italian?" },
+      "sentence_context": "Il ragazzo è allegro.",
+      "correct_answer": "allegro",
+      "distractors": [],
+      "hints": ["Lively and happy."],
+      "target_words": ["allegro"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'nice' so it agrees with 'Anna' (feminine)." },
+      "sentence_context": "Anna è ___.",
+      "correct_answer": "simpatica",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: simpatica."],
+      "target_words": ["simpatico"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'tired' so it agrees with 'la ragazza' (feminine)." },
+      "sentence_context": "La ragazza è ___.",
+      "correct_answer": "stanca",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: stanca."],
+      "target_words": ["stanco"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-19",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'kind'. It ends in -e, so it doesn't change for gender." },
+      "sentence_context": "La donna è ___.",
+      "correct_answer": "gentile",
+      "distractors": [],
+      "hints": ["-e adjectives stay the same: gentile."],
+      "target_words": ["gentile"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-20",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'shy' so it agrees with 'il ragazzo' (masculine)." },
+      "sentence_context": "Il ragazzo è ___.",
+      "correct_answer": "timido",
+      "distractors": [],
+      "hints": ["Masculine → -o ending: timido."],
+      "target_words": ["timido"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Anna is intelligent.'" },
+      "sentence_context": "Anna è intelligente.",
+      "correct_answer": ["Anna", "è", "intelligente."],
+      "distractors": ["intelligenti", "bravo"],
+      "hints": ["An -e adjective stays the same."],
+      "target_words": ["intelligente"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'My brother is nice.'" },
+      "sentence_context": "Mio fratello è simpatico.",
+      "correct_answer": ["Mio", "fratello", "è", "simpatico."],
+      "distractors": ["simpatica", "triste"],
+      "hints": ["Masculine → simpatico."],
+      "target_words": ["simpatico"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-23",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The girl is happy.'" },
+      "sentence_context": "La ragazza è felice.",
+      "correct_answer": ["La", "ragazza", "è", "felice."],
+      "distractors": ["triste", "felici"],
+      "hints": ["'Felice' is an -e adjective."],
+      "target_words": ["felice"]
+    },
+    {
+      "id": "unit-06-lesson-05-ex-24",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The man is strong.'" },
+      "sentence_context": "L'uomo è forte.",
+      "correct_answer": ["L'uomo", "è", "forte."],
+      "distractors": ["debole", "forti"],
+      "hints": ["'Forte' is an -e adjective."],
+      "target_words": ["forte"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "simpatico", "meaning": "Nice / likeable", "example": "Marco è simpatico." },
+    { "word": "antipatico", "meaning": "Unpleasant", "example": "Il ragazzo è antipatico." },
+    { "word": "intelligente", "meaning": "Intelligent", "example": "Anna è intelligente." },
+    { "word": "gentile", "meaning": "Kind", "example": "L'insegnante è gentile." },
+    { "word": "bravo", "meaning": "Good / skilled", "example": "Marco è bravo." },
+    { "word": "generoso", "meaning": "Generous", "example": "Mio nonno è generoso." },
+    { "word": "timido", "meaning": "Shy", "example": "La ragazza è timida." },
+    { "word": "contento", "meaning": "Glad / pleased", "example": "Il bambino è contento." },
+    { "word": "felice", "meaning": "Happy", "example": "Anna è felice." },
+    { "word": "triste", "meaning": "Sad", "example": "Il ragazzo è triste." },
+    { "word": "stanco", "meaning": "Tired", "example": "Il ragazzo è stanco." },
+    { "word": "nervoso", "meaning": "Nervous", "example": "L'uomo è nervoso." },
+    { "word": "calmo", "meaning": "Calm", "example": "Il nonno è calmo." },
+    { "word": "allegro", "meaning": "Cheerful", "example": "Il ragazzo è allegro." },
+    { "word": "giovane", "meaning": "Young", "example": "La donna è giovane." },
+    { "word": "forte", "meaning": "Strong", "example": "L'uomo è forte." }
+  ]
+}

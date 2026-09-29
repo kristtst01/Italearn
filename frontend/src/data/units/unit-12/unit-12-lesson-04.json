@@ -1,0 +1,297 @@
+{
+  "id": "unit-12-lesson-04",
+  "unit_id": "unit-12",
+  "name": "More Action Verbs",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-12-lesson-04-tip-01",
+      "title": "Coming, Going & Staying",
+      "explanation": "Beyond andare/venire/uscire: 'tornare' (to return), 'entrare' (to enter), 'restare'/'rimanere' (to stay/remain), 'passare' (to pass / drop by).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-12-lesson-04-tip-02",
+      "title": "Carrying & Giving",
+      "explanation": "'Portare' (to bring / wear), 'lasciare' (to leave / let), 'tenere' (to keep / hold), 'aiutare' (to help). 'Lasciare' is also used like English 'let': 'Lascia stare' = Let it be.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-12-lesson-04-tip-03",
+      "title": "Daily Actions",
+      "explanation": "'Cambiare' (to change), 'usare' (to use), 'mandare' (to send), 'controllare' (to check), 'iniziare' (to start) — all regular -are verbs.",
+      "before_exercise": 14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-12-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'tornare' mean?" },
+      "sentence_context": "Torno a casa.",
+      "correct_answer": "To return / go back",
+      "distractors": ["To leave", "To stay", "To enter"],
+      "hints": ["I return home."],
+      "target_words": ["tornare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'lasciare' mean?" },
+      "sentence_context": "Lascio il libro qui.",
+      "correct_answer": "To leave (something)",
+      "distractors": ["To take", "To carry", "To pick up"],
+      "hints": ["I leave the book here."],
+      "target_words": ["lasciare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'portare' mean?" },
+      "sentence_context": "Porto il vino.",
+      "correct_answer": "To bring / carry / wear",
+      "distractors": ["To send", "To leave", "To find"],
+      "hints": ["I bring the wine."],
+      "target_words": ["portare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'aiutare' mean?" },
+      "sentence_context": "Aiuto Anna.",
+      "correct_answer": "To help",
+      "distractors": ["To meet", "To ask", "To call"],
+      "hints": ["I help Anna."],
+      "target_words": ["aiutare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'tenere' mean?" },
+      "sentence_context": "Tengo la chiave.",
+      "correct_answer": "To keep / hold",
+      "distractors": ["To take", "To leave", "To lose"],
+      "hints": ["I keep the key."],
+      "target_words": ["tenere"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'passare' mean here?" },
+      "sentence_context": "Passo da te domani.",
+      "correct_answer": "To drop by / pass",
+      "distractors": ["To go away", "To stay", "To wait"],
+      "hints": ["I'll drop by tomorrow."],
+      "target_words": ["passare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'restare' mean?" },
+      "sentence_context": "Resto a casa.",
+      "correct_answer": "To stay / remain",
+      "distractors": ["To leave", "To go", "To enter"],
+      "hints": ["I stay home."],
+      "target_words": ["restare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'rimanere' mean?" },
+      "sentence_context": "Rimango qui.",
+      "correct_answer": "To remain / stay",
+      "distractors": ["To go", "To return", "To leave"],
+      "hints": ["I remain here."],
+      "target_words": ["rimanere"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'entrare' mean?" },
+      "sentence_context": "Entro in casa.",
+      "correct_answer": "To enter",
+      "distractors": ["To exit", "To stay", "To return"],
+      "hints": ["I enter the house."],
+      "target_words": ["entrare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'cambiare' mean?" },
+      "sentence_context": "Cambio idea.",
+      "correct_answer": "To change",
+      "distractors": ["To keep", "To stop", "To start"],
+      "hints": ["I change my mind."],
+      "target_words": ["cambiare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-11",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'usare' mean?" },
+      "sentence_context": "Uso il telefono.",
+      "correct_answer": "To use",
+      "distractors": ["To take", "To buy", "To find"],
+      "hints": ["I use the phone."],
+      "target_words": ["usare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-12",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mandare' mean?" },
+      "sentence_context": "Mando una lettera.",
+      "correct_answer": "To send",
+      "distractors": ["To receive", "To bring", "To carry"],
+      "hints": ["I send a letter."],
+      "target_words": ["mandare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-13",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'controllare' mean?" },
+      "sentence_context": "Controllo l'orario.",
+      "correct_answer": "To check / control",
+      "distractors": ["To find", "To look", "To remember"],
+      "hints": ["I check the schedule."],
+      "target_words": ["controllare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-14",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'iniziare' mean?" },
+      "sentence_context": "Inizio il lavoro.",
+      "correct_answer": "To start / begin",
+      "distractors": ["To finish", "To continue", "To stop"],
+      "hints": ["I start the work."],
+      "target_words": ["iniziare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-15",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'I return home in the evening.'" },
+      "sentence_context": "La sera ___ a casa.",
+      "correct_answer": "torno",
+      "distractors": [],
+      "hints": ["io form of tornare."],
+      "target_words": ["tornare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-16",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'Can you help me?'" },
+      "sentence_context": "Mi puoi ___ ?",
+      "correct_answer": "aiutare",
+      "distractors": [],
+      "hints": ["Modal + infinitive."],
+      "target_words": ["aiutare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-17",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'I'll drop by tomorrow.'" },
+      "sentence_context": "Domani ___ da te.",
+      "correct_answer": "passo",
+      "distractors": [],
+      "hints": ["io form of passare."],
+      "target_words": ["passare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-18",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to return' in Italian?" },
+      "sentence_context": "Torno a casa.",
+      "correct_answer": "tornare",
+      "distractors": [],
+      "hints": ["Regular -are verb."],
+      "target_words": ["tornare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-19",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to help' in Italian?" },
+      "sentence_context": "Aiuto Marco.",
+      "correct_answer": "aiutare",
+      "distractors": [],
+      "hints": ["Regular -are verb."],
+      "target_words": ["aiutare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-20",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to send' in Italian?" },
+      "sentence_context": "Mando una lettera.",
+      "correct_answer": "mandare",
+      "distractors": [],
+      "hints": ["Regular -are verb."],
+      "target_words": ["mandare"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-21",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'io' form of 'tenere' (irregular: tengo)." },
+      "sentence_context": "Io ___ la chiave.",
+      "correct_answer": "tengo",
+      "distractors": [],
+      "hints": ["g-insertion in io."],
+      "target_words": ["tenere"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-22",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'io' form of 'rimanere' (irregular: rimango)." },
+      "sentence_context": "Io ___ a casa.",
+      "correct_answer": "rimango",
+      "distractors": [],
+      "hints": ["g-insertion in io."],
+      "target_words": ["rimanere"]
+    },
+    {
+      "id": "unit-12-lesson-04-ex-23",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I help my brother every day.'" },
+      "sentence_context": "Aiuto mio fratello ogni giorno.",
+      "correct_answer": ["Aiuto", "mio", "fratello", "ogni", "giorno."],
+      "distractors": ["aiuti", "una"],
+      "hints": ["Verb + family + 'ogni giorno'."],
+      "target_words": ["aiutare"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "tornare", "meaning": "To return / go back", "example": "Torno a casa." },
+    { "word": "lasciare", "meaning": "To leave (something)", "example": "Lascio il libro qui." },
+    { "word": "portare", "meaning": "To bring / carry / wear", "example": "Porto il vino." },
+    { "word": "aiutare", "meaning": "To help", "example": "Aiuto Anna." },
+    { "word": "tenere", "meaning": "To keep / hold", "example": "Tengo la chiave." },
+    { "word": "passare", "meaning": "To pass / drop by", "example": "Passo da te domani." },
+    { "word": "restare", "meaning": "To stay / remain", "example": "Resto a casa." },
+    { "word": "rimanere", "meaning": "To remain / stay", "example": "Rimango qui." },
+    { "word": "entrare", "meaning": "To enter", "example": "Entro in casa." },
+    { "word": "cambiare", "meaning": "To change", "example": "Cambio idea." },
+    { "word": "usare", "meaning": "To use", "example": "Uso il telefono." },
+    { "word": "mandare", "meaning": "To send", "example": "Mando una lettera." },
+    { "word": "controllare", "meaning": "To check", "example": "Controllo l'orario." },
+    { "word": "iniziare", "meaning": "To start / begin", "example": "Inizio il lavoro." }
+  ]
+}

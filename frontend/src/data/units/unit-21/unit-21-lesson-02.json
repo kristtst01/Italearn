@@ -1,0 +1,234 @@
+{
+  "id": "unit-21-lesson-02",
+  "unit_id": "unit-21",
+  "name": "Checking In",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-21-lesson-02-tip-01",
+      "title": "Passport & Documents",
+      "explanation": "At Italian hotels you usually need to show 'il passaporto' (passport) or 'la carta d'identità' (ID card) when checking in. You may also fill in 'il modulo' (form).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-21-lesson-02-tip-02",
+      "title": "Luggage",
+      "explanation": "'La valigia' (suitcase, plural valigie) and 'il bagaglio' (luggage, often used in singular as a collective). 'Dov'è il mio bagaglio?' = Where's my luggage?",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-21-lesson-02-tip-03",
+      "title": "Signing",
+      "explanation": "'Firma qui' = Sign here. 'La firma' = the signature. Used a lot when checking in or paying.",
+      "before_exercise": 10
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-21-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'passaporto' mean?" },
+      "sentence_context": "Mi serve il passaporto.",
+      "correct_answer": "Passport",
+      "distractors": ["ID card", "Ticket", "Form"],
+      "hints": ["Travel document."],
+      "target_words": ["passaporto"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'valigia' mean?" },
+      "sentence_context": "La valigia è pesante.",
+      "correct_answer": "Suitcase",
+      "distractors": ["Backpack", "Bag", "Box"],
+      "hints": ["The suitcase is heavy."],
+      "target_words": ["valigia"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'bagaglio' mean?" },
+      "sentence_context": "Il mio bagaglio è perso.",
+      "correct_answer": "Luggage",
+      "distractors": ["Ticket", "Receipt", "Passport"],
+      "hints": ["My luggage is lost."],
+      "target_words": ["bagaglio"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'modulo' mean?" },
+      "sentence_context": "Compila questo modulo.",
+      "correct_answer": "Form",
+      "distractors": ["Letter", "Card", "Bill"],
+      "hints": ["Fill in this form."],
+      "target_words": ["modulo"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'firma' mean here?" },
+      "sentence_context": "Firma qui, per favore.",
+      "correct_answer": "Signature / sign",
+      "distractors": ["Date", "Name", "Number"],
+      "hints": ["Sign here, please."],
+      "target_words": ["firma"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'identità' mean?" },
+      "sentence_context": "Ho la carta d'identità.",
+      "correct_answer": "Identity",
+      "distractors": ["Passport", "Name", "Ticket"],
+      "hints": ["I have an ID card."],
+      "target_words": ["identità"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Mi serve il ___ per viaggiare.",
+      "correct_answer": "passaporto",
+      "distractors": [],
+      "hints": ["I need my passport to travel."],
+      "target_words": ["passaporto"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "La ___ è in camera.",
+      "correct_answer": "valigia",
+      "distractors": [],
+      "hints": ["The suitcase is in the room."],
+      "target_words": ["valigia"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Compila il ___ , per favore.",
+      "correct_answer": "modulo",
+      "distractors": [],
+      "hints": ["Fill in the form, please."],
+      "target_words": ["modulo"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Metti la ___ qui.",
+      "correct_answer": "firma",
+      "distractors": [],
+      "hints": ["Put the signature here."],
+      "target_words": ["firma"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'passport' in Italian?" },
+      "sentence_context": "Il mio passaporto.",
+      "correct_answer": "passaporto",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["passaporto"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'suitcase' in Italian?" },
+      "sentence_context": "La valigia rossa.",
+      "correct_answer": "valigia",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["valigia"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'luggage' in Italian?" },
+      "sentence_context": "Il bagaglio è perso.",
+      "correct_answer": "bagaglio",
+      "distractors": [],
+      "hints": ["Masculine noun."],
+      "target_words": ["bagaglio"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'form' in Italian?" },
+      "sentence_context": "Compila il modulo.",
+      "correct_answer": "modulo",
+      "distractors": [],
+      "hints": ["A document to fill in."],
+      "target_words": ["modulo"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'signature' in Italian?" },
+      "sentence_context": "La firma qui.",
+      "correct_answer": "firma",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["firma"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I have my passport.'" },
+      "sentence_context": "Ho il mio passaporto.",
+      "correct_answer": ["Ho", "il", "mio", "passaporto."],
+      "distractors": ["la", "valigia"],
+      "hints": ["Avere + possessive + noun."],
+      "target_words": ["passaporto"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Fill in the form, please.'" },
+      "sentence_context": "Compila il modulo, per favore.",
+      "correct_answer": ["Compila", "il", "modulo,", "per", "favore."],
+      "distractors": ["compili", "firma"],
+      "hints": ["Imperative + 'il modulo' + politeness."],
+      "target_words": ["modulo"]
+    },
+    {
+      "id": "unit-21-lesson-02-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'The suitcase is in the room.'" },
+      "sentence_context": "La valigia è in camera.",
+      "correct_answer": ["La", "valigia", "è", "in", "camera."],
+      "distractors": ["il", "bagaglio"],
+      "hints": ["Feminine subject → la, è, in camera."],
+      "target_words": ["valigia"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "passaporto", "meaning": "Passport", "example": "Mi serve il passaporto." },
+    { "word": "valigia", "meaning": "Suitcase", "example": "La valigia è pesante." },
+    { "word": "bagaglio", "meaning": "Luggage", "example": "Il mio bagaglio è perso." },
+    { "word": "modulo", "meaning": "Form (document)", "example": "Compila questo modulo." },
+    { "word": "firma", "meaning": "Signature", "example": "Firma qui, per favore." },
+    { "word": "identità", "meaning": "Identity", "example": "Ho la carta d'identità." }
+  ]
+}

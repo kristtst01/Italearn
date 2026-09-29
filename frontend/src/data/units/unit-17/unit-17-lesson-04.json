@@ -1,0 +1,258 @@
+{
+  "id": "unit-17-lesson-04",
+  "unit_id": "unit-17",
+  "name": "Money & Prices",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-17-lesson-04-tip-01",
+      "title": "Euros and Prices",
+      "explanation": "Italy uses the euro: '20 euro', '50 euro'. 'Euro' is invariable — never 'euros' in Italian. 'Quanto costa?' = How much does it cost? 'Costa venti euro' = It costs €20.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-17-lesson-04-tip-02",
+      "title": "Cheap or Expensive",
+      "explanation": "'Caro' (expensive — you know it from Unit 6) and 'economico' (cheap) are key when shopping. 'Questo è caro!' = This is expensive!",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-17-lesson-04-tip-03",
+      "title": "Paying",
+      "explanation": "'Pagare' (to pay) is regular -are. 'Pago in contanti' (I pay in cash) or 'pago con la carta' (I pay by card). 'Sconto' = discount.",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-17-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'euro' mean?" },
+      "sentence_context": "Costa venti euro.",
+      "correct_answer": "Euro (currency)",
+      "distractors": ["Dollar", "Pound", "Cent"],
+      "hints": ["Italy's currency."],
+      "target_words": ["euro"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'prezzo' mean?" },
+      "sentence_context": "Qual è il prezzo?",
+      "correct_answer": "Price",
+      "distractors": ["Bill", "Tip", "Tax"],
+      "hints": ["What is the price?"],
+      "target_words": ["prezzo"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'pagare' mean?" },
+      "sentence_context": "Pago con la carta.",
+      "correct_answer": "To pay",
+      "distractors": ["To buy", "To owe", "To cost"],
+      "hints": ["I pay with the card."],
+      "target_words": ["pagare"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'contanti' mean?" },
+      "sentence_context": "Pago in contanti.",
+      "correct_answer": "Cash",
+      "distractors": ["Card", "Cheque", "Coin"],
+      "hints": ["I pay in cash."],
+      "target_words": ["contanti"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sconto' mean?" },
+      "sentence_context": "C'è uno sconto del 20%.",
+      "correct_answer": "Discount",
+      "distractors": ["Price", "Bill", "Refund"],
+      "hints": ["There's a 20% discount."],
+      "target_words": ["sconto"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'negozio' mean?" },
+      "sentence_context": "Il negozio è chiuso.",
+      "correct_answer": "Shop",
+      "distractors": ["Office", "Market", "House"],
+      "hints": ["The shop is closed."],
+      "target_words": ["negozio"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'economico' mean?" },
+      "sentence_context": "Questo è economico.",
+      "correct_answer": "Cheap / affordable",
+      "distractors": ["Expensive", "Free", "Special"],
+      "hints": ["The opposite of 'caro'."],
+      "target_words": ["economico"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'carta' mean here?" },
+      "sentence_context": "Pago con la carta.",
+      "correct_answer": "Card (bank card)",
+      "distractors": ["Paper", "Map", "Bill"],
+      "hints": ["I pay by card."],
+      "target_words": ["carta"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Quanto ___?",
+      "correct_answer": "costa",
+      "distractors": [],
+      "hints": ["How much does it cost?"],
+      "target_words": ["costare"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Costa venti ___.",
+      "correct_answer": "euro",
+      "distractors": [],
+      "hints": ["It costs twenty euros."],
+      "target_words": ["euro"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il libro è ___.",
+      "correct_answer": "economico",
+      "distractors": [],
+      "hints": ["The book is cheap."],
+      "target_words": ["economico"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ___ è chiuso il lunedì.",
+      "correct_answer": "negozio",
+      "distractors": [],
+      "hints": ["The shop is closed on Mondays."],
+      "target_words": ["negozio"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'price' in Italian?" },
+      "sentence_context": "Il prezzo è alto.",
+      "correct_answer": "prezzo",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["prezzo"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'discount' in Italian?" },
+      "sentence_context": "C'è uno sconto.",
+      "correct_answer": "sconto",
+      "distractors": [],
+      "hints": ["Masculine, takes 'uno'."],
+      "target_words": ["sconto"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'cash' in Italian?" },
+      "sentence_context": "Pago in contanti.",
+      "correct_answer": "contanti",
+      "distractors": [],
+      "hints": ["Masculine plural."],
+      "target_words": ["contanti"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to pay' in Italian?" },
+      "sentence_context": "Devo pagare.",
+      "correct_answer": "pagare",
+      "distractors": [],
+      "hints": ["Regular -are verb."],
+      "target_words": ["pagare"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'io' form of 'pagare' (don't forget the 'h')." },
+      "sentence_context": "Io ___ in contanti.",
+      "correct_answer": "pago",
+      "distractors": [],
+      "hints": ["io → -o (no h needed here)."],
+      "target_words": ["pagare"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'How much does the dress cost?'" },
+      "sentence_context": "Quanto costa il vestito?",
+      "correct_answer": ["Quanto", "costa", "il", "vestito?"],
+      "distractors": ["costano", "le"],
+      "hints": ["Singular item → costa."],
+      "target_words": ["costare"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I pay in cash, please.'" },
+      "sentence_context": "Pago in contanti, per favore.",
+      "correct_answer": ["Pago", "in", "contanti,", "per", "favore."],
+      "distractors": ["carta", "vorrei"],
+      "hints": ["'In contanti' = in cash."],
+      "target_words": ["pagare", "contanti"]
+    },
+    {
+      "id": "unit-17-lesson-04-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'There is a discount today.'" },
+      "sentence_context": "C'è uno sconto oggi.",
+      "correct_answer": ["C'è", "uno", "sconto", "oggi."],
+      "distractors": ["un", "domani"],
+      "hints": ["'Sconto' takes 'uno'."],
+      "target_words": ["sconto"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "euro", "meaning": "Euro (currency)", "example": "Costa venti euro." },
+    { "word": "prezzo", "meaning": "Price", "example": "Qual è il prezzo?" },
+    { "word": "pagare", "meaning": "To pay", "example": "Pago con la carta." },
+    { "word": "contanti", "meaning": "Cash", "example": "Pago in contanti." },
+    { "word": "sconto", "meaning": "Discount", "example": "C'è uno sconto del 20%." },
+    { "word": "negozio", "meaning": "Shop", "example": "Il negozio è chiuso." },
+    { "word": "economico", "meaning": "Cheap / affordable", "example": "Questo è economico." },
+    { "word": "carta", "meaning": "Card / paper", "example": "Pago con la carta." }
+  ]
+}

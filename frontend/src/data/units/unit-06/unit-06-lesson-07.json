@@ -1,0 +1,93 @@
+{
+  "id": "unit-06-lesson-07",
+  "unit_id": "unit-06",
+  "name": "Practice Writing",
+  "order": 7,
+  "grammar_tips": [
+    {
+      "id": "unit-06-lesson-07-tip-01",
+      "title": "Put It Together",
+      "explanation": "Now write your own sentences describing people and things. Use 'essere' + adjectives, make the adjective agree with the noun, and place it after the noun. There is no single correct answer — just write natural Italian.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-06-lesson-07-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe a person you know. Give their name and say what they look like and what they are like (3-4 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "Il mio amico è Marco. È alto e magro. Marco è simpatico e intelligente. È anche molto gentile.",
+      "distractors": [],
+      "hints": [
+        "Use essere + adjectives. Mix appearance (alto, magro) and personality (simpatico, gentile)."
+      ],
+      "target_words": [
+        "alto",
+        "simpatico",
+        "gentile"
+      ]
+    },
+    {
+      "id": "unit-06-lesson-07-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe something you own. Say what it is, what colour it is, and two more things about it (3-4 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ho una macchina. La macchina è rossa e nuova. È grande e comoda. È una bella macchina.",
+      "distractors": [],
+      "hints": [
+        "Use ho + a noun, then describe it with colour, size and condition adjectives."
+      ],
+      "target_words": [
+        "rosso",
+        "nuovo",
+        "comodo"
+      ]
+    },
+    {
+      "id": "unit-06-lesson-07-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe a room in your house. Say what is in it and describe the things with colours and adjectives (3-4 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ho una camera grande. C'è un letto e una sedia. Il letto è nuovo e comodo. La sedia è verde.",
+      "distractors": [],
+      "hints": [
+        "Use c'è / ci sono for what is in the room, then describe each thing."
+      ],
+      "target_words": [
+        "grande",
+        "comodo",
+        "verde"
+      ]
+    },
+    {
+      "id": "unit-06-lesson-07-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Compare two people or two things — say how they are different, using opposite adjectives (3-4 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ho un cane e un gatto. Il cane è grande e il gatto è piccolo. Il cane è vecchio, il gatto è giovane.",
+      "distractors": [],
+      "hints": [
+        "Use pairs of opposites: grande/piccolo, vecchio/giovane, alto/basso."
+      ],
+      "target_words": [
+        "grande",
+        "piccolo",
+        "giovane"
+      ]
+    }
+  ],
+  "vocabulary": []
+}

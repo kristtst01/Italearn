@@ -1,0 +1,318 @@
+{
+  "id": "unit-10-lesson-06",
+  "unit_id": "unit-10",
+  "name": "More -ere Verbs",
+  "order": 6,
+  "grammar_tips": [
+    {
+      "id": "unit-10-lesson-06-tip-01",
+      "title": "Asking & Answering",
+      "explanation": "'Chiedere' (to ask for) and 'rispondere' (to answer / respond) are the two halves of every conversation. Both regular -ere verbs.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-10-lesson-06-tip-02",
+      "title": "Winning & Losing",
+      "explanation": "'Perdere' (to lose) and 'vincere' (to win) — for games, matches and life in general. 'Chi vince?' = Who's winning? 'Perdo sempre' = I always lose.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-10-lesson-06-tip-03",
+      "title": "Knowing People",
+      "explanation": "'Conoscere' means to know a person, a place, or a thing (be familiar with). Different from 'sapere' (to know a fact — coming next lesson).",
+      "before_exercise": 14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-10-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'chiedere' mean?" },
+      "sentence_context": "Chiedo aiuto.",
+      "correct_answer": "To ask for",
+      "distractors": ["To answer", "To say", "To call"],
+      "hints": ["I ask for help."],
+      "target_words": ["chiedere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'rispondere' mean?" },
+      "sentence_context": "Rispondo alla domanda.",
+      "correct_answer": "To answer / respond",
+      "distractors": ["To ask", "To call", "To say"],
+      "hints": ["I answer the question."],
+      "target_words": ["rispondere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'perdere' mean?" },
+      "sentence_context": "Perdo la partita.",
+      "correct_answer": "To lose",
+      "distractors": ["To win", "To find", "To take"],
+      "hints": ["I lose the match."],
+      "target_words": ["perdere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'vincere' mean?" },
+      "sentence_context": "Vinco la partita.",
+      "correct_answer": "To win",
+      "distractors": ["To lose", "To play", "To finish"],
+      "hints": ["I win the match."],
+      "target_words": ["vincere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ricevere' mean?" },
+      "sentence_context": "Ricevo un regalo.",
+      "correct_answer": "To receive",
+      "distractors": ["To give", "To send", "To take"],
+      "hints": ["I receive a gift."],
+      "target_words": ["ricevere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'chiudere' mean?" },
+      "sentence_context": "Chiudo la porta.",
+      "correct_answer": "To close",
+      "distractors": ["To open", "To break", "To leave"],
+      "hints": ["The opposite of 'aprire'."],
+      "target_words": ["chiudere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'conoscere' mean?" },
+      "sentence_context": "Conosco Marco.",
+      "correct_answer": "To know (a person/place)",
+      "distractors": ["To meet for the first time", "To see", "To learn"],
+      "hints": ["I know Marco."],
+      "target_words": ["conoscere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'decidere' mean?" },
+      "sentence_context": "Decido di partire.",
+      "correct_answer": "To decide",
+      "distractors": ["To want", "To plan", "To choose by lot"],
+      "hints": ["I decide to leave."],
+      "target_words": ["decidere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'rendere' mean?" },
+      "sentence_context": "Mi rende felice.",
+      "correct_answer": "To make / render",
+      "distractors": ["To give back", "To take", "To send"],
+      "hints": ["It makes me happy."],
+      "target_words": ["rendere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'intendere' mean?" },
+      "sentence_context": "Cosa intendi?",
+      "correct_answer": "To mean / intend",
+      "distractors": ["To hear", "To understand", "To say"],
+      "hints": ["What do you mean?"],
+      "target_words": ["intendere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-11",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'godere' mean?" },
+      "sentence_context": "Godo della vacanza.",
+      "correct_answer": "To enjoy",
+      "distractors": ["To rest", "To want", "To wait"],
+      "hints": ["I enjoy the holiday."],
+      "target_words": ["godere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-12",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'succedere' mean?" },
+      "sentence_context": "Cosa succede?",
+      "correct_answer": "To happen",
+      "distractors": ["To follow", "To stop", "To start"],
+      "hints": ["What's happening?"],
+      "target_words": ["succedere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-13",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'riconoscere' mean?" },
+      "sentence_context": "Riconosco Marco da lontano.",
+      "correct_answer": "To recognise",
+      "distractors": ["To meet", "To know", "To remember"],
+      "hints": ["I recognise Marco from afar."],
+      "target_words": ["riconoscere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-14",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete with the 'io' form." },
+      "sentence_context": "Io ___ aiuto.",
+      "correct_answer": "chiedo",
+      "distractors": [],
+      "hints": ["I ask for help."],
+      "target_words": ["chiedere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-15",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete with the 'io' form." },
+      "sentence_context": "Io ___ alla domanda.",
+      "correct_answer": "rispondo",
+      "distractors": [],
+      "hints": ["I answer the question."],
+      "target_words": ["rispondere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-16",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete with the 'io' form." },
+      "sentence_context": "Io ___ Marco.",
+      "correct_answer": "conosco",
+      "distractors": [],
+      "hints": ["I know Marco."],
+      "target_words": ["conoscere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-17",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete with the 'lui/lei' form." },
+      "sentence_context": "Anna ___ un regalo.",
+      "correct_answer": "riceve",
+      "distractors": [],
+      "hints": ["Anna receives a gift."],
+      "target_words": ["ricevere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-18",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the question." },
+      "sentence_context": "Cosa ___?",
+      "correct_answer": "succede",
+      "distractors": [],
+      "hints": ["What's happening?"],
+      "target_words": ["succedere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-19",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to ask for' in Italian?" },
+      "sentence_context": "Chiedo aiuto.",
+      "correct_answer": "chiedere",
+      "distractors": [],
+      "hints": ["Regular -ere verb."],
+      "target_words": ["chiedere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-20",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to know (a person)' in Italian?" },
+      "sentence_context": "Conosco Anna.",
+      "correct_answer": "conoscere",
+      "distractors": [],
+      "hints": ["Different from sapere."],
+      "target_words": ["conoscere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-21",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to win' in Italian?" },
+      "sentence_context": "Vinciamo la partita!",
+      "correct_answer": "vincere",
+      "distractors": [],
+      "hints": ["The opposite of 'perdere'."],
+      "target_words": ["vincere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-22",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'tu' form of 'chiudere'." },
+      "sentence_context": "Tu ___ la porta.",
+      "correct_answer": "chiudi",
+      "distractors": [],
+      "hints": ["tu -ere → -i ending."],
+      "target_words": ["chiudere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-23",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'noi' form of 'decidere'." },
+      "sentence_context": "Noi ___ di partire.",
+      "correct_answer": "decidiamo",
+      "distractors": [],
+      "hints": ["noi → -iamo ending."],
+      "target_words": ["decidere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-24",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I ask Marco for help.'" },
+      "sentence_context": "Chiedo aiuto a Marco.",
+      "correct_answer": ["Chiedo", "aiuto", "a", "Marco."],
+      "distractors": ["rispondo", "in"],
+      "hints": ["Chiedere + object + 'a' + person."],
+      "target_words": ["chiedere"]
+    },
+    {
+      "id": "unit-10-lesson-06-ex-25",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: \"What's happening?\"" },
+      "sentence_context": "Cosa succede?",
+      "correct_answer": ["Cosa", "succede?"],
+      "distractors": ["come", "succedo"],
+      "hints": ["Question word + verb."],
+      "target_words": ["succedere"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "chiedere", "meaning": "To ask for", "example": "Chiedo aiuto." },
+    { "word": "rispondere", "meaning": "To answer / respond", "example": "Rispondo alla domanda." },
+    { "word": "perdere", "meaning": "To lose", "example": "Perdo la partita." },
+    { "word": "vincere", "meaning": "To win", "example": "Vinco la partita." },
+    { "word": "ricevere", "meaning": "To receive", "example": "Ricevo un regalo." },
+    { "word": "chiudere", "meaning": "To close", "example": "Chiudo la porta." },
+    { "word": "conoscere", "meaning": "To know (a person/place)", "example": "Conosco Marco." },
+    { "word": "decidere", "meaning": "To decide", "example": "Decido di partire." },
+    { "word": "rendere", "meaning": "To make / render", "example": "Mi rende felice." },
+    { "word": "intendere", "meaning": "To mean / intend", "example": "Cosa intendi?" },
+    { "word": "godere", "meaning": "To enjoy", "example": "Godo della vacanza." },
+    { "word": "succedere", "meaning": "To happen", "example": "Cosa succede?" },
+    { "word": "riconoscere", "meaning": "To recognise", "example": "Riconosco Marco." }
+  ]
+}

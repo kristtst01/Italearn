@@ -1,0 +1,266 @@
+{
+  "id": "unit-10-lesson-02",
+  "unit_id": "unit-10",
+  "name": "-ire Verbs (Regular)",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-10-lesson-02-tip-01",
+      "title": "The -ire Pattern",
+      "explanation": "Verbs ending in -ire follow this pattern: remove -ire and add -o (io), -i (tu), -e (lui/lei), -iamo (noi), -ite (voi), -ono (loro). 'dormire' → dormo, dormi, dorme, dormiamo, dormite, dormono.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-10-lesson-02-tip-02",
+      "title": "Only Voi Changes",
+      "explanation": "Compared to -ere verbs, only the voi form is different: -ite (not -ete). 'voi leggete' (-ere) but 'voi dormite' (-ire). Everything else is the same.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-10-lesson-02-tip-03",
+      "title": "Not All -ire Verbs Are Regular",
+      "explanation": "Some -ire verbs add '-isc-' in some forms. You'll learn that pattern in the next lesson. For now, these five verbs are all fully regular.",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-10-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'dormire' mean?" },
+      "sentence_context": "Io dormo.",
+      "correct_answer": "To sleep",
+      "distractors": ["To wake up", "To rest", "To open"],
+      "hints": ["I sleep."],
+      "target_words": ["dormire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'partire' mean?" },
+      "sentence_context": "Parto domani.",
+      "correct_answer": "To leave / depart",
+      "distractors": ["To arrive", "To stay", "To open"],
+      "hints": ["I leave tomorrow."],
+      "target_words": ["partire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'aprire' mean?" },
+      "sentence_context": "Apro la porta.",
+      "correct_answer": "To open",
+      "distractors": ["To close", "To find", "To put"],
+      "hints": ["I open the door."],
+      "target_words": ["aprire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sentire' mean?" },
+      "sentence_context": "Sento la musica.",
+      "correct_answer": "To hear / feel",
+      "distractors": ["To listen to", "To see", "To touch"],
+      "hints": ["I hear the music."],
+      "target_words": ["sentire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'offrire' mean?" },
+      "sentence_context": "Offro un caffè.",
+      "correct_answer": "To offer",
+      "distractors": ["To take", "To buy", "To ask"],
+      "hints": ["I offer a coffee."],
+      "target_words": ["offrire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La notte io ___.",
+      "correct_answer": "dormo",
+      "distractors": [],
+      "hints": ["At night I sleep."],
+      "target_words": ["dormire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Tu ___ la finestra.",
+      "correct_answer": "apri",
+      "distractors": [],
+      "hints": ["You open the window."],
+      "target_words": ["aprire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Marco ___ domani.",
+      "correct_answer": "parte",
+      "distractors": [],
+      "hints": ["Marco leaves tomorrow."],
+      "target_words": ["partire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Noi ___ la musica.",
+      "correct_answer": "sentiamo",
+      "distractors": [],
+      "hints": ["We hear the music."],
+      "target_words": ["sentire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Anna ___ un caffè a Marco.",
+      "correct_answer": "offre",
+      "distractors": [],
+      "hints": ["Anna offers a coffee to Marco."],
+      "target_words": ["offrire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I sleep' in Italian?" },
+      "sentence_context": "Io dormo.",
+      "correct_answer": "dormo",
+      "distractors": [],
+      "hints": ["The io form of dormire."],
+      "target_words": ["dormire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I open' in Italian?" },
+      "sentence_context": "Apro la porta.",
+      "correct_answer": "apro",
+      "distractors": [],
+      "hints": ["The io form of aprire."],
+      "target_words": ["aprire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'they leave' in Italian?" },
+      "sentence_context": "Loro partono domani.",
+      "correct_answer": "partono",
+      "distractors": [],
+      "hints": ["loro -ire → -ono."],
+      "target_words": ["partire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'voi' form of 'dormire'." },
+      "sentence_context": "Voi ___ molto.",
+      "correct_answer": "dormite",
+      "distractors": [],
+      "hints": ["voi -ire → -ite ending (not -ete!)."],
+      "target_words": ["dormire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'voi' form of 'aprire'." },
+      "sentence_context": "Voi ___ la porta.",
+      "correct_answer": "aprite",
+      "distractors": [],
+      "hints": ["voi -ire → -ite ending."],
+      "target_words": ["aprire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'lui/lei' form of 'sentire'." },
+      "sentence_context": "Marco ___ la musica.",
+      "correct_answer": "sente",
+      "distractors": [],
+      "hints": ["lui/lei -ire → -e ending."],
+      "target_words": ["sentire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'noi' form of 'offrire'." },
+      "sentence_context": "Noi ___ un caffè.",
+      "correct_answer": "offriamo",
+      "distractors": [],
+      "hints": ["noi -ire → -iamo ending."],
+      "target_words": ["offrire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I sleep at night.'" },
+      "sentence_context": "Io dormo la notte.",
+      "correct_answer": ["Io", "dormo", "la", "notte."],
+      "distractors": ["dormi", "sera"],
+      "hints": ["io → dormo."],
+      "target_words": ["dormire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'You open the window.'" },
+      "sentence_context": "Tu apri la finestra.",
+      "correct_answer": ["Tu", "apri", "la", "finestra."],
+      "distractors": ["apre", "porta"],
+      "hints": ["tu → apri."],
+      "target_words": ["aprire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I leave tomorrow.'" },
+      "sentence_context": "Parto domani.",
+      "correct_answer": ["Parto", "domani."],
+      "distractors": ["parti", "oggi"],
+      "hints": ["io → parto. Subject pronoun dropped."],
+      "target_words": ["partire"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'We hear the music.'" },
+      "sentence_context": "Noi sentiamo la musica.",
+      "correct_answer": ["Noi", "sentiamo", "la", "musica."],
+      "distractors": ["sento", "ascoltiamo"],
+      "hints": ["noi → sentiamo."],
+      "target_words": ["sentire"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "dormire", "meaning": "To sleep", "example": "Io dormo." },
+    { "word": "partire", "meaning": "To leave / depart", "example": "Parto domani." },
+    { "word": "aprire", "meaning": "To open", "example": "Apro la porta." },
+    { "word": "sentire", "meaning": "To hear / feel", "example": "Sento la musica." },
+    { "word": "offrire", "meaning": "To offer", "example": "Offro un caffè." }
+  ]
+}
