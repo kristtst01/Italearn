@@ -1,4 +1,4 @@
-import type { CSSProperties, ReactNode } from 'react';
+import { useId, type CSSProperties, type ReactNode } from 'react';
 import { cn } from '@/lib/utils';
 
 /*
@@ -241,15 +241,35 @@ export function Postcard({
           <Label>{title}</Label>
           <div className="flex items-center gap-5">
             {meta && <span className="text-sm text-muted-foreground">{meta}</span>}
-            <div className="flex size-19 -rotate-12 flex-col items-center justify-center rounded-full border-2 border-cobalto bg-white text-cobalto">
-              <span className="text-[9px] font-bold tracking-label">ITALEARN</span>
-              <span className="font-display text-base leading-none">{postmark}</span>
-              <span className="text-[9px] font-bold tracking-label">POSTA AEREA</span>
-            </div>
+            <Postmark label={postmark} />
           </div>
         </div>
         {children}
       </div>
     </div>
+  );
+}
+
+/** Round cancellation mark: curved text on a double ring, drawn in cobalt. */
+function Postmark({ label }: { label: string }) {
+  const id = useId();
+  return (
+    <svg viewBox="0 0 100 100" className="size-21 shrink-0 -rotate-12 text-cobalto" aria-hidden>
+      <defs>
+        <path id={`${id}-top`} d="M 15,50 A 35,35 0 0 1 85,50" />
+        <path id={`${id}-bottom`} d="M 7,50 A 43,43 0 0 0 93,50" />
+      </defs>
+      <circle cx="50" cy="50" r="47" className="fill-white stroke-current" strokeWidth="2.5" />
+      <circle cx="50" cy="50" r="30" className="fill-none stroke-current" strokeWidth="1.5" />
+      <text className="fill-current font-sans text-[10px] font-bold" letterSpacing="1.5">
+        <textPath href={`#${id}-top`} startOffset="50%" textAnchor="middle">ITALEARN</textPath>
+      </text>
+      <text className="fill-current font-sans text-[10px] font-bold" letterSpacing="1.2">
+        <textPath href={`#${id}-bottom`} startOffset="50%" textAnchor="middle">POSTA AEREA</textPath>
+      </text>
+      <text x="50" y="57" textAnchor="middle" className="fill-current font-display text-[20px]">
+        {label}
+      </text>
+    </svg>
   );
 }
