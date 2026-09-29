@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
 import type { GrammarTip as GrammarTipType } from '@/types';
+import { buttonVariants } from '@/components/ui/button';
+import { Label } from '@/shared/components/design';
+import { ActionBar } from '@/features/exercises/ui';
 
 interface GrammarTipProps {
   tip: GrammarTipType;
@@ -17,54 +20,42 @@ export default function GrammarTip({ tip, onDismiss }: GrammarTipProps) {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [onDismiss]);
+
   return (
-    <div className="flex min-h-[60vh] flex-col">
-      <div className="flex-1">
-        <div className="rounded-2xl border border-amber-200 bg-amber-50 p-6">
-          <div className="mb-1 text-xs font-semibold uppercase tracking-wide text-amber-600">
-            Grammar Tip
-          </div>
-          <h2 className="mb-3 text-xl font-bold text-gray-900">{tip.title}</h2>
-          <p className="leading-relaxed text-gray-700">{tip.explanation}</p>
+    <div className="flex flex-col gap-5 pb-44">
+      <Label className="text-grammar">Grammar note</Label>
+      <h2 className="font-display text-heading">{tip.title}</h2>
+      <p className="max-w-175 text-reading">{tip.explanation}</p>
 
-          {tip.table && (
-            <table className="mt-4 w-full text-sm">
-              <tbody>
-                {tip.table.map((row, i) => (
-                  <tr key={i} className={i % 2 === 0 ? 'bg-amber-100/50' : ''}>
-                    {row.map((cell, j) => (
-                      <td
-                        key={j}
-                        className={`px-3 py-1.5 ${j === 0 ? 'font-medium text-gray-600' : 'text-gray-900'}`}
-                      >
-                        {cell}
-                      </td>
-                    ))}
-                  </tr>
+      {tip.table && (
+        <table className="w-full max-w-175 border border-border bg-white text-base">
+          <tbody>
+            {tip.table.map((row, i) => (
+              <tr key={i} className={i > 0 ? 'border-t border-border' : ''}>
+                {row.map((cell, j) => (
+                  <td key={j} className={`px-4 py-2 ${j === 0 ? 'text-muted-foreground' : ''}`}>
+                    {cell}
+                  </td>
                 ))}
-              </tbody>
-            </table>
-          )}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
 
-          {tip.example && (
-            <div className="mt-4 rounded-lg bg-white/60 px-4 py-3">
-              <p className="font-medium italic text-gray-900">
-                {tip.example.italian}
-              </p>
-              <p className="mt-1 text-sm text-gray-500">
-                {tip.example.english}
-              </p>
-            </div>
-          )}
+      {tip.example && (
+        <div className="flex max-w-175 flex-col gap-0.5 border-l-3 border-grammar py-1 pl-4.5">
+          <p className="text-reading font-medium italic">{tip.example.italian}</p>
+          <p className="text-sm text-muted-foreground">{tip.example.english}</p>
         </div>
-      </div>
+      )}
 
-      <button
-        onClick={onDismiss}
-        className="mt-6 w-full rounded-xl bg-amber-500 py-3 font-semibold text-white transition-colors hover:bg-amber-600"
-      >
-        Got it
-      </button>
+      <ActionBar>
+        <span className="text-sm text-muted-foreground">Press Enter to continue</span>
+        <button type="button" onClick={onDismiss} className={buttonVariants({ variant: 'stroke', size: 'xl', className: 'min-w-40' })}>
+          Got it
+        </button>
+      </ActionBar>
     </div>
   );
 }

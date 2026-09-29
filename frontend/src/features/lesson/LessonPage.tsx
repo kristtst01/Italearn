@@ -9,6 +9,7 @@ import { useLessonState } from './useLessonState';
 import LessonHeader from './LessonHeader';
 import CompletionScreen from './CompletionScreen';
 import GrammarTip from './GrammarTip';
+import { getChapter, isWritingLesson } from '@/engine/chapters';
 
 export default function LessonPage() {
   const { id } = useParams<{ id: string }>();
@@ -59,9 +60,14 @@ function LessonContent({
   const [showExitConfirm, setShowExitConfirm] = useState(false);
   const state = useLessonState(lesson);
 
+  const chapter = getChapter(lesson.unit_id);
+  const meta = chapter?.lessons.find((l) => l.id === lesson.id);
+  const earnsStamp = !!chapter && !!meta && isWritingLesson(meta) && !state.isRetry;
+
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-dvh">
       <LessonHeader
+        label={chapter ? `${chapter.name} · ${lesson.name}` : lesson.name}
         progress={state.progress}
         exercisesDone={state.exercisesDone}
         totalExercises={state.exercises.length}
@@ -71,13 +77,14 @@ function LessonContent({
         onExit={onExit}
       />
 
-      <div className="max-w-2xl mx-auto p-6">
+      <div className="mx-auto max-w-3xl px-8 pt-12">
         {state.isComplete && state.lessonResult ? (
           <CompletionScreen
             result={state.lessonResult}
             lessonName={lesson.name}
             isRetry={state.isRetry}
             hasMistakes={state.lessonResult.score < state.lessonResult.total}
+            stamp={earnsStamp ? { title: chapter.stamp_title ?? chapter.name, caption: `A1 · ${chapter.name}` } : undefined}
             onPracticeMistakes={state.handlePracticeMistakes}
             onContinue={onExit}
           />

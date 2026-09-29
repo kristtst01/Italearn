@@ -273,3 +273,15 @@ function Postmark({ label }: { label: string }) {
     </svg>
   );
 }
+
+// ── Red-pen correction ────────────────────────────────
+
+/** A wrong answer struck through in red, with the correction handwritten after it. */
+export function Correction({ wrong, right }: { wrong?: string; right: string }) {
+  return (
+    <p className="flex flex-wrap items-baseline gap-x-3 text-reading">
+      {wrong && <span className="text-muted-foreground line-through decoration-correction decoration-2">{wrong}</span>}
+      <span className="font-hand text-3xl leading-none text-correction">{right}</span>
+    </p>
+  );
+}

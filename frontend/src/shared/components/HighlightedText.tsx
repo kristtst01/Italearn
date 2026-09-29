@@ -26,7 +26,7 @@ function WordHint({ entry, children }: { entry?: VocabEntry; children: ReactNode
   return (
     <span ref={ref} className="relative inline">
       <mark
-        className="cursor-pointer rounded-sm bg-amber-100/80 px-0.5 font-semibold text-inherit underline decoration-amber-300 decoration-dotted underline-offset-2"
+        className="cursor-pointer bg-transparent font-bold text-inherit underline decoration-cobalto decoration-dotted decoration-2 underline-offset-4"
         onClick={() => setOpen(!open)}
         onMouseEnter={() => setOpen(true)}
         onMouseLeave={() => setOpen(false)}
@@ -34,11 +34,11 @@ function WordHint({ entry, children }: { entry?: VocabEntry; children: ReactNode
         {children}
       </mark>
       {open && entry && (
-        <span className="absolute top-full left-1/2 z-50 mt-2 block w-52 -translate-x-1/2 rounded-lg border border-gray-200 bg-white p-3 text-left shadow-lg">
-          <span className="block text-sm font-bold text-gray-900">{entry.word}</span>
-          <span className="block text-sm text-gray-600">{entry.meaning}</span>
+        <span className="absolute top-full left-1/2 z-50 mt-2 block w-56 -translate-x-1/2 rounded-lg border border-border bg-white p-3.5 text-left text-base font-normal">
+          <span className="block font-bold">{entry.word}</span>
+          <span className="block text-sm text-muted-foreground">{entry.meaning}</span>
           {entry.example && (
-            <span className="block mt-1 text-xs italic text-gray-400">
+            <span className="mt-1.5 block text-sm italic">
               &ldquo;{entry.example}&rdquo;
             </span>
           )}

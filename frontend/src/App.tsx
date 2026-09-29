@@ -11,6 +11,7 @@ import ChapterPage from '@/features/library/ChapterPage'
 import GrammarPage from '@/features/grammar/GrammarPage'
 import GrammarUnitPage from '@/features/grammar/GrammarUnitPage'
 import ProgressPage from '@/features/progress/ProgressPage'
+import ExerciseGallery from '@/features/dev/ExerciseGallery'
 import LessonPage from '@/features/lesson/LessonPage'
 import ReviewPage from '@/features/review/ReviewPage'
 import ProfilePage from '@/features/profile/ProfilePage'
@@ -55,6 +56,7 @@ export default function App() {
                 <Route path="/progress" element={<ProgressPage />} />
                 <Route path="/profile" element={<ProfilePage />} />
                 <Route path="/review" element={<ReviewPage />} />
+                {import.meta.env.DEV && <Route path="/dev/exercises" element={<ExerciseGallery />} />}
               </Route>
 
               {/* Immersive pages */}

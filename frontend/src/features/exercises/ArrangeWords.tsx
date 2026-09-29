@@ -5,6 +5,7 @@ import { getCorrectAnswer } from '@/shared/utils/exercise';
 import { useLLMValidation } from '@/engine/useLLMValidation';
 import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
+import { Chip, Prompt } from './ui';
 
 interface ArrangeWordsProps {
   exercise: Exercise;
@@ -55,41 +56,29 @@ export default function ArrangeWords({
       feedback={feedback}
       onBeforeSubmit={onBeforeSubmit}
     >
-      <p className="mb-6 text-lg font-semibold text-gray-900">
+      <Prompt>
         <HighlightedText text={exercise.prompt.text ?? ''} words={exercise.target_words} />
-      </p>
+      </Prompt>
 
-      {/* Answer area */}
-      <div className="mb-6 min-h-[52px] rounded-xl border-2 border-dashed border-gray-300 p-3">
+      {/* Answer line */}
+      <div className="flex min-h-16 flex-wrap items-center gap-2 border-b-2 border-foreground pb-3">
         {placed.length === 0 ? (
-          <span className="text-sm text-gray-400">
-            Tap words below to build your answer
-          </span>
+          <span className="text-sm text-muted-foreground">Click the words below to build your answer</span>
         ) : (
-          <div className="flex flex-wrap gap-2">
-            {placed.map((wordIndex, posIndex) => (
-              <button
-                key={posIndex}
-                onClick={() => removeWord(posIndex)}
-                className="rounded-lg bg-blue-100 px-3 py-1.5 text-sm font-medium text-blue-700 transition-colors hover:bg-blue-200"
-              >
-                {words[wordIndex]}
-              </button>
-            ))}
-          </div>
+          placed.map((wordIndex, posIndex) => (
+            <Chip key={posIndex} active onClick={() => removeWord(posIndex)}>
+              {words[wordIndex]}
+            </Chip>
+          ))
         )}
       </div>
 
       {/* Word bank */}
       <div className="flex flex-wrap gap-2">
         {remaining.map(({ word, i }) => (
-          <button
-            key={i}
-            onClick={() => addWord(i)}
-            className="rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-700 transition-colors hover:border-gray-400 hover:bg-gray-50"
-          >
+          <Chip key={i} onClick={() => addWord(i)}>
             {word}
-          </button>
+          </Chip>
         ))}
       </div>
     </ExerciseShell>

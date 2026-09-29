@@ -3,6 +3,7 @@ import type { Exercise, ExerciseResult } from '@/types';
 import { useLLMValidation } from '@/engine/useLLMValidation';
 import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
+import { Prompt, TextField } from './ui';
 
 interface TypeAnswerProps {
   exercise: Exercise;
@@ -31,21 +32,15 @@ export default function TypeAnswer({
       feedback={feedback}
       onBeforeSubmit={onBeforeSubmit}
     >
-      <p className="mb-6 text-lg font-semibold text-gray-900">
+      <Prompt>
         <HighlightedText text={exercise.prompt.text ?? ''} words={exercise.target_words} />
-      </p>
+      </Prompt>
 
-      <input
-        type="text"
+      <TextField
         value={answer}
         onChange={(e) => setAnswer(e.target.value)}
         placeholder="Type your answer…"
         autoFocus
-        autoComplete="off"
-        autoCorrect="off"
-        autoCapitalize="off"
-        spellCheck={false}
-        className="w-full rounded-xl border-2 border-gray-200 px-4 py-3 text-gray-900 outline-none transition-colors focus:border-blue-500"
       />
     </ExerciseShell>
   );

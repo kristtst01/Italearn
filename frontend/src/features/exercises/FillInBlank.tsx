@@ -3,6 +3,7 @@ import type { Exercise, ExerciseResult } from '@/types';
 import { useLLMValidation } from '@/engine/useLLMValidation';
 import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
+import { Prompt } from './ui';
 
 interface FillInBlankProps {
   exercise: Exercise;
@@ -34,28 +35,27 @@ export default function FillInBlank({
       feedback={feedback}
       onBeforeSubmit={onBeforeSubmit}
     >
-      {exercise.prompt.text && (
-        <p className="mb-2 text-sm text-gray-500">
-          <HighlightedText text={exercise.prompt.text} words={exercise.target_words} />
-        </p>
-      )}
+      <Prompt
+        instruction={exercise.prompt.text && <HighlightedText text={exercise.prompt.text} words={exercise.target_words} />}
+      />
 
-      {exercise.hints.length > 0 && (
-        <p className="mb-4 text-base italic text-gray-600">
-          {exercise.hints[0]}
-        </p>
-      )}
+      {exercise.hints.length > 0 && <p className="-mt-4 text-base italic text-muted-foreground">{exercise.hints[0]}</p>}
 
-      <p className="mb-6 text-lg font-semibold text-gray-900">
+      <p className="text-2xl font-bold leading-relaxed">
         {parts[0]}
-        <span className="mx-1 inline-block min-w-[80px] border-b-2 border-blue-400 text-center">
+        <span className="mx-1.5 inline-block min-w-28 border-b-3 border-cobalto align-baseline">
           <input
             type="text"
             value={answer}
             onChange={(e) => setAnswer(e.target.value)}
-            placeholder="..."
+            placeholder="…"
             autoFocus
-            className="w-full bg-transparent text-center text-blue-600 outline-none"
+            autoComplete="off"
+            autoCorrect="off"
+            autoCapitalize="off"
+            spellCheck={false}
+            size={Math.max(answer.length, 6)}
+            className="bg-transparent text-center text-cobalto outline-none placeholder:text-muted-foreground/50"
           />
         </span>
         {parts[1]}

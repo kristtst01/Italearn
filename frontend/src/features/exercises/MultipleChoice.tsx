@@ -4,6 +4,7 @@ import { shuffle } from '@/shared/utils/shuffle';
 import { getFirstCorrectAnswer } from '@/shared/utils/exercise';
 import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
+import { Choice, Prompt } from './ui';
 
 interface MultipleChoiceProps {
   exercise: Exercise;
@@ -31,23 +32,15 @@ export default function MultipleChoice({
       isCorrect={selected === correctAnswer}
       canSubmit={selected !== null}
     >
-      <p className="mb-6 text-lg font-semibold text-gray-900">
+      <Prompt>
         <HighlightedText text={exercise.prompt.text ?? ''} words={exercise.target_words} />
-      </p>
+      </Prompt>
 
-      <div className="space-y-3">
+      <div className="grid grid-cols-2 gap-3">
         {options.map((option) => (
-          <button
-            key={option}
-            onClick={() => setSelected(option)}
-            className={`w-full rounded-xl border-2 px-4 py-3 text-left transition-colors ${
-              selected === option
-                ? 'border-blue-500 bg-blue-50 text-blue-700'
-                : 'border-gray-200 bg-white text-gray-900 hover:border-gray-300'
-            }`}
-          >
+          <Choice key={option} selected={selected === option} onClick={() => setSelected(option)}>
             {option}
-          </button>
+          </Choice>
         ))}
       </div>
     </ExerciseShell>

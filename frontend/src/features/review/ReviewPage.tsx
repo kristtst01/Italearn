@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import ProgressBar from '@/shared/components/ProgressBar';
+import SessionHeader from '@/shared/components/SessionHeader';
 import { ExerciseProvider } from '@/shared/components/ExerciseContext';
 import CloseIcon from '@/shared/components/CloseIcon';
 import renderExercise from '@/features/exercises/renderExercise';
@@ -45,26 +45,24 @@ export default function ReviewPage() {
   const progress = ((currentIndex + 1) / totalExercises) * 100;
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="sticky top-0 bg-white border-b border-gray-200 px-4 py-3 z-10">
-        <div className="max-w-2xl mx-auto flex items-center gap-4">
+    <div className="min-h-dvh">
+      <SessionHeader
+        label={unitId ? 'Chapter review' : 'Review'}
+        progress={progress}
+        counter={`${currentIndex + 1} / ${totalExercises}`}
+        exit={
           <button
+            type="button"
             onClick={() => navigate('/')}
-            className="text-gray-400 hover:text-gray-600 transition-colors"
+            className="text-muted-foreground transition-colors hover:text-foreground"
             aria-label="Exit review"
           >
             <CloseIcon />
           </button>
-          <div className="flex-1">
-            <ProgressBar progress={progress} />
-          </div>
-          <span className="text-sm text-gray-500 whitespace-nowrap">
-            Review {currentIndex + 1}/{totalExercises}
-          </span>
-        </div>
-      </div>
+        }
+      />
 
-      <div className="max-w-2xl mx-auto p-6">
+      <div className="mx-auto max-w-3xl px-8 pt-12">
         <ExerciseProvider value={{ hintsDisabled: true }}>
           {currentExercise &&
             renderExercise({

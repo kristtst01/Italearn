@@ -1,7 +1,9 @@
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { getCorrectAnswer } from '@/shared/utils/exercise';
+import { buttonVariants } from '@/components/ui/button';
 import Feedback from './Feedback';
+import { ActionBar } from './ui';
 
 interface ExerciseShellProps {
   exercise: Exercise;
@@ -90,31 +92,30 @@ export default function ExerciseShell({
   }, [handleKeyDown]);
 
   return (
-    <div className="flex min-h-[60vh] flex-col">
-      <div className="flex-1">{children}</div>
+    <div className="flex flex-col gap-8 pb-44">
+      {children}
 
       {!submitted && (
-        <div className="mt-6 flex flex-col items-center gap-2">
+        <ActionBar>
+          <button type="button" onClick={handleSkip} className="text-sm font-medium text-muted-foreground hover:text-foreground">
+            Skip
+          </button>
           <button
+            type="button"
             onClick={handleSubmit}
             disabled={!canSubmit || validating}
-            className="w-full rounded-xl bg-blue-600 py-3 font-semibold text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-gray-300"
+            className={buttonVariants({ size: 'xl', className: 'min-w-40' })}
           >
             {validating ? 'Checking…' : 'Check'}
           </button>
-          <button
-            onClick={handleSkip}
-            className="text-sm text-gray-400 hover:text-gray-600 transition-colors"
-          >
-            Skip
-          </button>
-        </div>
+        </ActionBar>
       )}
 
       {submitted && (
         <Feedback
           correct={isCorrect}
           correctAnswer={correctAnswer}
+          userAnswer={userAnswer}
           exercise={exercise}
           feedback={feedback}
           onContinue={handleContinue}
