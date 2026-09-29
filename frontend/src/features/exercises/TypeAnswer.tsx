@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { useLLMValidation } from '@/engine/useLLMValidation';
-import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
-import { Prompt, TextField } from './ui';
+import { ExercisePrompt, TextField } from './ui';
 
 interface TypeAnswerProps {
   exercise: Exercise;
@@ -32,9 +31,7 @@ export default function TypeAnswer({
       feedback={feedback}
       onBeforeSubmit={onBeforeSubmit}
     >
-      <Prompt>
-        <HighlightedText text={exercise.prompt.text ?? ''} words={exercise.target_words} />
-      </Prompt>
+      <ExercisePrompt exercise={exercise} />
 
       <TextField
         value={answer}

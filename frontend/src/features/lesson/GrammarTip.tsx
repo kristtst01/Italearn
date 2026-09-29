@@ -1,8 +1,7 @@
 import { useEffect } from 'react';
 import type { GrammarTip as GrammarTipType } from '@/types';
-import { buttonVariants } from '@/components/ui/button';
 import { Label } from '@/shared/components/design';
-import { ActionBar } from '@/features/exercises/ui';
+import { ActionButton, ActionRow } from '@/features/exercises/ui';
 
 interface GrammarTipProps {
   tip: GrammarTipType;
@@ -22,7 +21,7 @@ export default function GrammarTip({ tip, onDismiss }: GrammarTipProps) {
   }, [onDismiss]);
 
   return (
-    <div className="flex flex-col gap-5 pb-44">
+    <div className="flex flex-col gap-5">
       <Label className="text-grammar">Grammar note</Label>
       <h2 className="font-display text-heading">{tip.title}</h2>
       <p className="max-w-175 text-reading">{tip.explanation}</p>
@@ -50,12 +49,12 @@ export default function GrammarTip({ tip, onDismiss }: GrammarTipProps) {
         </div>
       )}
 
-      <ActionBar>
+      <ActionRow>
         <span className="text-sm text-muted-foreground">Press Enter to continue</span>
-        <button type="button" onClick={onDismiss} className={buttonVariants({ variant: 'stroke', size: 'xl', className: 'min-w-40' })}>
+        <ActionButton tone="stroke" onClick={onDismiss}>
           Got it
-        </button>
-      </ActionBar>
+        </ActionButton>
+      </ActionRow>
     </div>
   );
 }

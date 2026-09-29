@@ -17,6 +17,7 @@ export function useReviewSession(unitId?: string) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [correctCount, setCorrectCount] = useState(0);
   const [result, setResult] = useState<ReviewResult | null>(null);
+  const [results, setResults] = useState<{ correct: boolean; skipped?: boolean }[]>([]);
 
   const currentExercise = session?.exercises[currentIndex] ?? null;
   const totalExercises = session?.exercises.length ?? reviewableCount;
@@ -54,6 +55,7 @@ export function useReviewSession(unitId?: string) {
       }
     }
 
+    setResults((prev) => [...prev, { correct: er.correct, skipped: er.skipped }]);
     const newCorrect = correctCount + (er.correct ? 1 : 0);
     setCorrectCount(newCorrect);
 
@@ -74,6 +76,7 @@ export function useReviewSession(unitId?: string) {
     currentIndex,
     totalExercises,
     result,
+    results,
     handleStart,
     handleExerciseComplete,
   };

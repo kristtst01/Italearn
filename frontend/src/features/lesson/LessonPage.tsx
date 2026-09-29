@@ -9,7 +9,10 @@ import { useLessonState } from './useLessonState';
 import LessonHeader from './LessonHeader';
 import CompletionScreen from './CompletionScreen';
 import GrammarTip from './GrammarTip';
-import { getChapter, isWritingLesson } from '@/engine/chapters';
+import { getChapter, isWritingLesson, stampEarned } from '@/engine/chapters';
+import { useProgressStore } from '@/stores/progressStore';
+import SessionLayout from '@/shared/components/SessionLayout';
+import { toSegments } from '@/shared/utils/segments';
 
 export default function LessonPage() {
   const { id } = useParams<{ id: string }>();
@@ -63,12 +66,16 @@ function LessonContent({
   const chapter = getChapter(lesson.unit_id);
   const meta = chapter?.lessons.find((l) => l.id === lesson.id);
   const earnsStamp = !!chapter && !!meta && isWritingLesson(meta) && !state.isRetry;
+  const completed = useProgressStore((s) => s.lessons_completed);
 
   return (
-    <div className="min-h-dvh">
+    <SessionLayout
+      header={
       <LessonHeader
-        label={chapter ? `${chapter.name} · ${lesson.name}` : lesson.name}
-        progress={state.progress}
+        context={chapter ? `Chapter ${String(chapter.order).padStart(2, '0')} · ${chapter.name}` : undefined}
+        title={lesson.name}
+        segments={toSegments(state.results, state.exercises.length)}
+        stamp={chapter ? { earned: stampEarned(chapter, completed) } : undefined}
         exercisesDone={state.exercisesDone}
         totalExercises={state.exercises.length}
         isComplete={state.isComplete}
@@ -76,8 +83,8 @@ function LessonContent({
         onToggleExit={() => setShowExitConfirm(!showExitConfirm)}
         onExit={onExit}
       />
-
-      <div className="mx-auto max-w-3xl px-8 pt-12">
+      }
+    >
         {state.isComplete && state.lessonResult ? (
           <CompletionScreen
             result={state.lessonResult}
@@ -100,7 +107,6 @@ function LessonContent({
             onComplete: state.handleExerciseComplete,
           })
         ) : null}
-      </div>
-    </div>
+    </SessionLayout>
   );
 }

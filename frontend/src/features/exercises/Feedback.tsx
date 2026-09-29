@@ -1,8 +1,7 @@
 import type { Exercise } from '@/types';
 import HighlightedText from '@/shared/components/HighlightedText';
 import { Correction } from '@/shared/components/design';
-import { buttonVariants } from '@/components/ui/button';
-import { ActionBar } from './ui';
+import { ActionButton, FeedbackCard } from './ui';
 
 interface FeedbackProps {
   correct: boolean;
@@ -14,37 +13,33 @@ interface FeedbackProps {
   onContinue: () => void;
 }
 
-/** Shown in the bottom bar after answering: result, red-pen correction, the full sentence. */
+/** Shown in place of the Check row after answering. */
 export default function Feedback({ correct, correctAnswer, userAnswer, exercise, feedback, onContinue }: FeedbackProps) {
-  const showCorrection = !correct && exercise.subtype !== 'match_pairs';
+  // Multiple choice and match pairs show right/wrong in the answers themselves
+  const showCorrection = !correct && !['match_pairs', 'multiple_choice'].includes(exercise.subtype);
+  const hint = !correct ? exercise.hints[0] : undefined;
+  const sentence = exercise.sentence_context?.replace('___', correctAnswer);
 
   return (
-    <ActionBar tone={correct ? 'learned' : 'correction'}>
-      <div className="flex min-w-0 flex-col gap-2">
-        <p className={`font-display text-xl ${correct ? 'text-learned' : 'text-correction'}`}>
-          {correct ? 'Giusto!' : 'Not quite'}
+    <FeedbackCard
+      tone={correct ? 'learned' : 'correction'}
+      action={
+        <ActionButton tone={correct ? 'learned' : 'primary'} onClick={onContinue}>
+          Continue
+        </ActionButton>
+      }
+    >
+      <p className={`font-display text-2xl ${correct ? 'text-learned' : 'text-correction'}`}>
+        {correct ? 'Giusto!' : 'Not quite'}
+      </p>
+      {showCorrection && <Correction wrong={userAnswer || undefined} right={correctAnswer} />}
+      {feedback && <p className="text-sm text-muted-foreground">{feedback}</p>}
+      {hint && exercise.subtype !== 'cloze' && <p className="max-w-lg text-sm text-muted-foreground">{hint}</p>}
+      {sentence && (
+        <p className="text-lg italic">
+          <HighlightedText text={sentence} words={exercise.target_words} />
         </p>
-        {showCorrection && <Correction wrong={userAnswer || undefined} right={correctAnswer} />}
-        {feedback && <p className="text-sm text-muted-foreground">{feedback}</p>}
-        {exercise.sentence_context && (
-          <p className="text-base italic text-foreground/80">
-            <HighlightedText
-              text={exercise.sentence_context.replace('___', correctAnswer)}
-              words={exercise.target_words}
-            />
-          </p>
-        )}
-      </div>
-      <button
-        type="button"
-        onClick={onContinue}
-        className={buttonVariants({
-          size: 'xl',
-          className: `min-w-40 shrink-0 ${correct ? 'bg-learned hover:bg-learned/90' : ''}`,
-        })}
-      >
-        Continue
-      </button>
-    </ActionBar>
+      )}
+    </FeedbackCard>
   );
 }

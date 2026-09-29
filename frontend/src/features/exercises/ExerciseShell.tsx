@@ -1,9 +1,8 @@
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { getCorrectAnswer } from '@/shared/utils/exercise';
-import { buttonVariants } from '@/components/ui/button';
 import Feedback from './Feedback';
-import { ActionBar } from './ui';
+import { ActionButton, ActionRow } from './ui';
 
 interface ExerciseShellProps {
   exercise: Exercise;
@@ -15,7 +14,10 @@ interface ExerciseShellProps {
   feedback?: string;
   /** Optional async hook called before showing feedback (e.g., LLM validation) */
   onBeforeSubmit?: () => Promise<void>;
-  children: ReactNode;
+  /** Called once the answer has been checked (e.g. to lock the answer) */
+  onSubmitted?: () => void;
+  /** Content, or a function of whether the answer has been checked (to show right/wrong) */
+  children: ReactNode | ((submitted: boolean) => ReactNode);
 }
 
 export default function ExerciseShell({
@@ -26,6 +28,7 @@ export default function ExerciseShell({
   canSubmit,
   feedback,
   onBeforeSubmit,
+  onSubmitted,
   children,
 }: ExerciseShellProps) {
   const [submitted, setSubmitted] = useState(false);
@@ -45,6 +48,7 @@ export default function ExerciseShell({
       setValidating(false);
     }
     setSubmitted(true);
+    onSubmitted?.();
   }
 
   function handleContinue() {
@@ -92,26 +96,22 @@ export default function ExerciseShell({
   }, [handleKeyDown]);
 
   return (
-    <div className="flex flex-col gap-8 pb-44">
-      {children}
+    <div className="flex flex-col gap-7">
+      {typeof children === 'function' ? children(submitted) : children}
 
-      {!submitted && (
-        <ActionBar>
-          <button type="button" onClick={handleSkip} className="text-sm font-medium text-muted-foreground hover:text-foreground">
-            Skip
-          </button>
-          <button
-            type="button"
-            onClick={handleSubmit}
-            disabled={!canSubmit || validating}
-            className={buttonVariants({ size: 'xl', className: 'min-w-40' })}
-          >
+      {!submitted ? (
+        <ActionRow>
+          <p className="text-sm text-muted-foreground">
+            <button type="button" onClick={handleSkip} className="font-bold text-foreground hover:underline">
+              Skip
+            </button>
+            <span> · press Enter to check</span>
+          </p>
+          <ActionButton onClick={handleSubmit} disabled={!canSubmit || validating}>
             {validating ? 'Checking…' : 'Check'}
-          </button>
-        </ActionBar>
-      )}
-
-      {submitted && (
+          </ActionButton>
+        </ActionRow>
+      ) : (
         <Feedback
           correct={isCorrect}
           correctAnswer={correctAnswer}

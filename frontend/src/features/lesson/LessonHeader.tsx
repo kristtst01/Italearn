@@ -1,11 +1,14 @@
 import SessionHeader from '@/shared/components/SessionHeader';
+import type { Segment } from '@/shared/utils/segments';
 import ExitButton from './ExitButton';
 
 interface LessonHeaderProps {
-  label: string;
-  progress: number;
+  context?: string;
+  title: string;
+  segments: Segment[];
   exercisesDone: number;
   totalExercises: number;
+  stamp?: { earned: boolean };
   isComplete: boolean;
   showExitConfirm: boolean;
   onToggleExit: () => void;
@@ -13,10 +16,12 @@ interface LessonHeaderProps {
 }
 
 export default function LessonHeader({
-  label,
-  progress,
+  context,
+  title,
+  segments,
   exercisesDone,
   totalExercises,
+  stamp,
   isComplete,
   showExitConfirm,
   onToggleExit,
@@ -24,8 +29,10 @@ export default function LessonHeader({
 }: LessonHeaderProps) {
   return (
     <SessionHeader
-      label={label}
-      progress={progress}
+      context={context}
+      title={title}
+      segments={segments}
+      stamp={stamp}
       counter={`${Math.min(exercisesDone + 1, totalExercises)} / ${totalExercises}`}
       exit={<ExitButton showConfirm={showExitConfirm} onToggle={onToggleExit} onExit={onExit} inProgress={!isComplete} />}
     />

@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import SessionHeader from '@/shared/components/SessionHeader';
+import SessionLayout from '@/shared/components/SessionLayout';
+import { toSegments } from '@/shared/utils/segments';
 import { ExerciseProvider } from '@/shared/components/ExerciseContext';
 import CloseIcon from '@/shared/components/CloseIcon';
 import renderExercise from '@/features/exercises/renderExercise';
@@ -20,6 +22,7 @@ export default function ReviewPage() {
     currentIndex,
     totalExercises,
     result,
+    results,
     handleStart,
     handleExerciseComplete,
   } = useReviewSession(unitId);
@@ -42,35 +45,34 @@ export default function ReviewPage() {
     return <ReviewSummary result={result} />;
   }
 
-  const progress = ((currentIndex + 1) / totalExercises) * 100;
-
   return (
-    <div className="min-h-dvh">
-      <SessionHeader
-        label={unitId ? 'Chapter review' : 'Review'}
-        progress={progress}
-        counter={`${currentIndex + 1} / ${totalExercises}`}
-        exit={
-          <button
-            type="button"
-            onClick={() => navigate('/')}
-            className="text-muted-foreground transition-colors hover:text-foreground"
-            aria-label="Exit review"
-          >
-            <CloseIcon />
-          </button>
-        }
-      />
-
-      <div className="mx-auto max-w-3xl px-8 pt-12">
-        <ExerciseProvider value={{ hintsDisabled: true }}>
-          {currentExercise &&
-            renderExercise({
-              exercise: currentExercise,
-              onComplete: handleExerciseComplete,
-            })}
-        </ExerciseProvider>
-      </div>
-    </div>
+    <SessionLayout
+      header={
+        <SessionHeader
+          context="Review"
+          title={unitId ? 'Chapter review' : 'Due cards'}
+          segments={toSegments(results, totalExercises)}
+          counter={`${currentIndex + 1} / ${totalExercises}`}
+          exit={
+            <button
+              type="button"
+              onClick={() => navigate('/')}
+              className="text-muted-foreground transition-colors hover:text-foreground"
+              aria-label="Exit review"
+            >
+              <CloseIcon />
+            </button>
+          }
+        />
+      }
+    >
+      <ExerciseProvider value={{ hintsDisabled: true }}>
+        {currentExercise &&
+          renderExercise({
+            exercise: currentExercise,
+            onComplete: handleExerciseComplete,
+          })}
+      </ExerciseProvider>
+    </SessionLayout>
   );
 }

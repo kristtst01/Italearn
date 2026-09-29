@@ -1,7 +1,6 @@
 import type { Exercise, ExerciseResult } from '@/types';
 import { Placeholder } from '@/shared/components/design';
-import { buttonVariants } from '@/components/ui/button';
-import { ActionBar, Prompt } from './ui';
+import { ActionButton, ActionRow, Prompt } from './ui';
 import { PLANNED_EXERCISES } from './plannedExercises';
 
 interface PlannedExerciseCardProps {
@@ -15,7 +14,7 @@ export default function PlannedExerciseCard({ exercise, onComplete }: PlannedExe
   const name = planned?.name ?? exercise.subtype;
 
   return (
-    <div className="flex flex-col gap-8 pb-44">
+    <div className="flex flex-col gap-7">
       <Prompt instruction={name}>{exercise.prompt.text}</Prompt>
       <Placeholder title={`${name}: ${planned?.trains ?? 'coming soon'}`} description={planned?.description}>
         {planned && (
@@ -26,18 +25,17 @@ export default function PlannedExerciseCard({ exercise, onComplete }: PlannedExe
           </div>
         )}
       </Placeholder>
-      <ActionBar>
+      <ActionRow>
         <span className="text-sm text-muted-foreground">This exercise type is coming soon.</span>
-        <button
-          type="button"
-          className={buttonVariants({ variant: 'stroke', size: 'xl', className: 'min-w-40' })}
+        <ActionButton
+          tone="stroke"
           onClick={() =>
             onComplete({ exercise_id: exercise.id, correct: false, user_answer: '', time_spent_ms: 0, skipped: true })
           }
         >
           Continue
-        </button>
-      </ActionBar>
+        </ActionButton>
+      </ActionRow>
     </div>
   );
 }

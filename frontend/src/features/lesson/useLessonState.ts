@@ -172,6 +172,7 @@ export function useLessonState(lesson: Lesson) {
     currentStep,
     currentIndex,
     exercisesDone,
+    results,
     isComplete,
     isRetry,
     progress,

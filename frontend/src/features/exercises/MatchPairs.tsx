@@ -129,7 +129,7 @@ export default function MatchPairs({ exercise, onComplete }: MatchPairsProps) {
             const tone = matchIdx !== -1 ? MATCH_TONES[matchIdx % MATCH_TONES.length] : undefined;
 
             return (
-              <Choice key={idx} tone={tone} selected={selectedLeft === idx} onClick={() => handleLeftClick(idx)}>
+              <Choice key={idx} tone={tone} state={selectedLeft === idx ? 'selected' : 'idle'} onClick={() => handleLeftClick(idx)}>
                 {item}
               </Choice>
             );
@@ -143,7 +143,7 @@ export default function MatchPairs({ exercise, onComplete }: MatchPairsProps) {
             const tone = matchIdx !== -1 ? MATCH_TONES[matchIdx % MATCH_TONES.length] : undefined;
 
             return (
-              <Choice key={idx} tone={tone} selected={selectedRight === idx} onClick={() => handleRightClick(idx)}>
+              <Choice key={idx} tone={tone} state={selectedRight === idx ? 'selected' : 'idle'} onClick={() => handleRightClick(idx)}>
                 {item}
               </Choice>
             );

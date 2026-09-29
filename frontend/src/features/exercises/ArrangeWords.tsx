@@ -3,9 +3,8 @@ import type { Exercise, ExerciseResult } from '@/types';
 import { shuffle } from '@/shared/utils/shuffle';
 import { getCorrectAnswer } from '@/shared/utils/exercise';
 import { useLLMValidation } from '@/engine/useLLMValidation';
-import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
-import { Chip, Prompt } from './ui';
+import { Chip, ExercisePrompt } from './ui';
 
 interface ArrangeWordsProps {
   exercise: Exercise;
@@ -56,9 +55,7 @@ export default function ArrangeWords({
       feedback={feedback}
       onBeforeSubmit={onBeforeSubmit}
     >
-      <Prompt>
-        <HighlightedText text={exercise.prompt.text ?? ''} words={exercise.target_words} />
-      </Prompt>
+      <ExercisePrompt exercise={exercise} />
 
       {/* Answer line */}
       <div className="flex min-h-16 flex-wrap items-center gap-2 border-b-2 border-foreground pb-3">

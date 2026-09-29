@@ -5,8 +5,7 @@ import { buildCurriculumContext } from '@/engine/curriculumContext';
 import { useProgressStore } from '@/stores/progressStore';
 import { getFirstCorrectAnswer } from '@/shared/utils/exercise';
 import HighlightedText from '@/shared/components/HighlightedText';
-import { buttonVariants } from '@/components/ui/button';
-import { ActionBar, Prompt } from './ui';
+import { ActionButton, ActionRow, FeedbackCard, Prompt } from './ui';
 
 interface FreeResponseProps {
   exercise: Exercise;
@@ -81,7 +80,7 @@ export default function FreeResponse({ exercise, onComplete }: FreeResponseProps
   }, [handleKeyDown]);
 
   return (
-    <div className="flex flex-col gap-6 pb-44">
+    <div className="flex flex-col gap-6">
       <Prompt>
         <HighlightedText text={exercise.prompt.text ?? ''} words={exercise.target_words} />
       </Prompt>
@@ -108,19 +107,24 @@ export default function FreeResponse({ exercise, onComplete }: FreeResponseProps
         </div>
       </div>
 
-      {!submitted && (
-        <ActionBar>
+      {!submitted ? (
+        <ActionRow>
           <span className="text-sm text-muted-foreground">Graded by AI against what you've learned so far</span>
-          <button type="button" onClick={handleSubmit} disabled={!canSubmit} className={buttonVariants({ size: 'xl', className: 'min-w-40' })}>
+          <ActionButton onClick={handleSubmit} disabled={!canSubmit}>
             {grading ? 'Grading…' : 'Submit'}
-          </button>
-        </ActionBar>
-      )}
-
-      {submitted && result && (
-        <ActionBar tone={result.accepted ? 'learned' : 'in-progress'}>
-          <div className="flex min-w-0 flex-col gap-1.5">
-            <p className={`font-display text-xl ${result.accepted ? 'text-learned' : 'text-foreground'}`}>
+          </ActionButton>
+        </ActionRow>
+      ) : (
+        result && (
+          <FeedbackCard
+            tone={result.accepted ? 'learned' : 'in-progress'}
+            action={
+              <ActionButton tone={result.accepted ? 'learned' : 'primary'} onClick={handleContinue}>
+                Continue
+              </ActionButton>
+            }
+          >
+            <p className={`font-display text-2xl ${result.accepted ? 'text-learned' : 'text-foreground'}`}>
               {result.accepted ? 'Bravo!' : 'Keep practising'}
             </p>
             <p className="text-sm">{result.feedback}</p>
@@ -129,18 +133,8 @@ export default function FreeResponse({ exercise, onComplete }: FreeResponseProps
                 (Grading service unavailable, so your answer was accepted automatically)
               </p>
             )}
-          </div>
-          <button
-            type="button"
-            onClick={handleContinue}
-            className={buttonVariants({
-              size: 'xl',
-              className: `min-w-40 shrink-0 ${result.accepted ? 'bg-learned hover:bg-learned/90' : ''}`,
-            })}
-          >
-            Continue
-          </button>
-        </ActionBar>
+          </FeedbackCard>
+        )
       )}
     </div>
   );
