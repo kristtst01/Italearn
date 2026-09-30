@@ -79,7 +79,7 @@ frontend/src/data/units/
     ...
 ```
 
-Lesson files are discovered automatically (`import.meta.glob` in `data/lessonLoader.ts`). To make a lesson appear, add its `LessonMeta` (`id`, `unit_id`, `name`, `order`) to the unit's `lessons` array in `frontend/src/data/curriculum.ts`.
+Lesson files are discovered automatically (`import.meta.glob` in `data/lessonLoader.ts`). To make a lesson appear, add its `LessonMeta` (`id`, `unit_id`, `name`, `role`, `order`) to the unit's `lessons` array. `role` is `words`, `grammar`, `practice` or `writing` in `frontend/src/data/curriculum.ts`.
 
 ## Lesson JSON Schema
 
@@ -454,7 +454,7 @@ When asked to generate exercises for a unit:
 3. **Plan the unit** — Split the unit's grammar and vocabulary into as many lessons as the topic needs.
 4. **Generate one lesson at a time** — Follow the lesson JSON schema exactly. Use the exercise ordering pattern above.
 5. **Validate** — Run the quality checklist. Run `npm run build` in `frontend/`.
-6. **Register in curriculum.ts** — Add each lesson's `LessonMeta` to the unit's `lessons` array.
+6. **Register in curriculum.ts** — Add each lesson's `LessonMeta` (with its `role`) to the unit's `lessons` array.
 
 ### Prompt Template for Exercise Generation
 

@@ -2,7 +2,7 @@ import { Link, useParams } from 'react-router-dom';
 import { useProgressStore } from '@/stores/progressStore';
 import { getChapter, isWritingLesson, stampEarned } from '@/engine/chapters';
 import { grammarForChapter } from '@/data/grammarPlan';
-import type { LessonMeta } from '@/types';
+import type { LessonMeta, LessonRole } from '@/types';
 import { Label, Page, PageHeader, Placeholder, Stamp, Status } from '@/shared/components/design';
 import EmptyState from '@/shared/components/EmptyState';
 
@@ -39,8 +39,10 @@ export default function ChapterPage() {
     return <EmptyState title="Chapter not found" message="This chapter doesn't exist." />;
   }
 
-  const lessons = unit.lessons.filter((l) => !isWritingLesson(l));
-  const writing = unit.lessons.filter(isWritingLesson);
+  const byRole = (role: LessonRole) => unit.lessons.filter((l) => l.role === role);
+  const words = byRole('words');
+  const grammarLessons = byRole('grammar');
+  const useIt = [...byRole('practice'), ...unit.lessons.filter(isWritingLesson)];
   const grammar = grammarForChapter(unit.id);
   const earned = stampEarned(unit, completed);
 
@@ -70,16 +72,27 @@ export default function ChapterPage() {
           <Section n={1} title="Listen first">
             <Placeholder title="Model dialogue" description="Two people in this chapter's situation, with audio and a transcript." />
           </Section>
-          <Section n={2} title="Lessons">
+          {words.length > 0 && (
+            <Section n={2} title="Words">
+              <div className="grid grid-cols-2 gap-2.5">
+                {words.map((l) => (
+                  <LessonCard key={l.id} lesson={l} done={completed.includes(l.id)} />
+                ))}
+              </div>
+            </Section>
+          )}
+          {grammarLessons.length > 0 && (
+            <Section n={words.length > 0 ? 3 : 2} title="Grammar in context">
+              <div className="grid grid-cols-2 gap-2.5">
+                {grammarLessons.map((l) => (
+                  <LessonCard key={l.id} lesson={l} done={completed.includes(l.id)} />
+                ))}
+              </div>
+            </Section>
+          )}
+          <Section n={2 + (words.length > 0 ? 1 : 0) + (grammarLessons.length > 0 ? 1 : 0)} title="Use it">
             <div className="grid grid-cols-2 gap-2.5">
-              {lessons.map((l) => (
-                <LessonCard key={l.id} lesson={l} done={completed.includes(l.id)} />
-              ))}
-            </div>
-          </Section>
-          <Section n={3} title="Use it">
-            <div className="grid grid-cols-2 gap-2.5">
-              {writing.map((l) => (
+              {useIt.map((l) => (
                 <LessonCard key={l.id} lesson={l} done={completed.includes(l.id)} />
               ))}
               <Placeholder title="Tell the tutor" description="Practise this chapter out loud with the AI tutor." />

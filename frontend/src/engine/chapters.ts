@@ -11,9 +11,9 @@ export function getChapter(unitId: string): Unit | undefined {
   return getChapters().find((u) => u.id === unitId);
 }
 
-/** Writing lessons (chapter capstones). Until lessons carry a `role`, identified by name. */
+/** Writing lessons: the chapter capstone that earns its stamp. */
 export function isWritingLesson(lesson: LessonMeta): boolean {
-  return lesson.name.startsWith('Practice Writing');
+  return lesson.role === 'writing';
 }
 
 export function chapterProgress(unit: Unit, completed: string[]): number {

@@ -130,6 +130,12 @@ Every planned feature gets a visible slot in the UI **now**, built with the same
 
 A small **exercise gallery** page (dev-only route, `/dev/exercises`) shows every exercise type, real and placeholder, side by side for design review.
 
+## Status (2026-09-30)
+
+Built on `feature/new-frontend`: app shell and top bar; Today, Library (+ Words), Chapter, Grammar, Grammar unit (layout with placeholders), Progress; exercises, lessons and review in the "Focus" design; placeholder cards for planned exercise types; `/dev/exercises` gallery; lesson roles in `curriculum.ts`; zero raw colours (Tailwind's default palette is switched off).
+
+Not built yet: grammar unit content and format (step 4), grammar items in SRS and the `grammar_units` progress field, the Today planner beyond v0 (step 6), new exercise types.
+
 ## Build order
 
 1. **App shell:** top bar, new routes, empty Today / Library / Chapter / Progress pages in the new style, and the `Placeholder` component. Delete path, test-out, home, stats.

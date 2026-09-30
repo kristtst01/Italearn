@@ -18,8 +18,12 @@ export interface LessonMeta {
   id: string;
   unit_id: string;
   name: string;
+  /** How the Chapter page groups it: vocabulary, grammar in context, consolidation, or the writing task */
+  role: LessonRole;
   order: number;
 }
+
+export type LessonRole = 'words' | 'grammar' | 'practice' | 'writing';
 
 export interface Unit {
   id: string;
