@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
-import { getPlannedGrammarUnit } from '@/data/grammarPlan';
+import { GRAMMAR_PLAN, getPlannedGrammarUnit } from '@/data/grammarPlan';
 import { getChapter } from '@/engine/chapters';
 import { Label, Page, Placeholder } from '@/shared/components/design';
 import EmptyState from '@/shared/components/EmptyState';
@@ -39,7 +39,7 @@ export default function GrammarUnitPage() {
 
       <article className="flex max-w-175 flex-1 flex-col gap-5.5 text-reading">
         <div className="flex flex-col gap-1.5">
-          <Label>A1 grammar · Unit {unit.order} of 10</Label>
+          <Label>A1 grammar · Unit {unit.order} of {GRAMMAR_PLAN.length}</Label>
           <h1 className="font-display text-title">{unit.title}</h1>
         </div>
         <Placeholder

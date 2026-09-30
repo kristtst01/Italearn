@@ -78,7 +78,7 @@ export default function TodayPage() {
           <div className="flex flex-col gap-3">
             <Label>A1 grammar</Label>
             <div className="flex items-center gap-3.5">
-              <TileGrid tiles={grammarTiles()} size={36} />
+              <TileGrid tiles={grammarTiles()} size={36} columns={6} />
               <p className="text-sm text-muted-foreground">
                 <b className="text-foreground">0 learned</b>
                 <br />

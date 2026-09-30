@@ -14,7 +14,7 @@ export default function GrammarPage() {
       className="pb-24"
     >
       <PageHeader
-        label="A1 · 10 units"
+        label={`A1 · ${GRAMMAR_PLAN.length} units`}
         title="Grammar"
         description="Each unit covers one system of Italian grammar in a single sitting: read it, practise it, pass the check. After that it comes back in your reviews."
       />

@@ -50,7 +50,7 @@ export default function ProgressPage() {
           </div>
         </div>
         <div className="flex w-105 shrink-0 items-center gap-5.5">
-          <TileGrid tiles={grammarTiles()} size={44} />
+          <TileGrid tiles={grammarTiles()} size={44} columns={6} />
           <div className="flex flex-col gap-1">
             <Label>Grammar units</Label>
             <p className="font-display text-3xl">

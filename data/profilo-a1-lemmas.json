@@ -1,0 +1,2432 @@
+[
+{
+"n": 1,
+"lemma": "a",
+"pos": "prep."
+},
+{
+"n": 2,
+"lemma": "abitare",
+"pos": "v. int."
+},
+{
+"n": 3,
+"lemma": "aceto",
+"pos": "s.m."
+},
+{
+"n": 4,
+"lemma": "acqua",
+"pos": "s.f."
+},
+{
+"n": 5,
+"lemma": "adesso",
+"pos": "avv."
+},
+{
+"n": 6,
+"lemma": "aereo",
+"pos": "aeroplano"
+},
+{
+"n": 7,
+"lemma": "aeroporto",
+"pos": "s.m."
+},
+{
+"n": 8,
+"lemma": "affetto",
+"pos": "s.m."
+},
+{
+"n": 9,
+"lemma": "agenzia",
+"pos": "s.f."
+},
+{
+"n": 10,
+"lemma": "agosto",
+"pos": "s.m."
+},
+{
+"n": 11,
+"lemma": "aiuto",
+"pos": "inter."
+},
+{
+"n": 12,
+"lemma": "albergo",
+"pos": "s.m."
+},
+{
+"n": 13,
+"lemma": "albero",
+"pos": "s.m."
+},
+{
+"n": 14,
+"lemma": "alfabeto",
+"pos": "s.m."
+},
+{
+"n": 15,
+"lemma": "alto",
+"pos": "agg."
+},
+{
+"n": 16,
+"lemma": "amare",
+"pos": "v.t."
+},
+{
+"n": 17,
+"lemma": "ambasciata",
+"pos": "s.f."
+},
+{
+"n": 18,
+"lemma": "amico/a",
+"pos": "s.m. – s.f."
+},
+{
+"n": 19,
+"lemma": "amore",
+"pos": "s.m"
+},
+{
+"n": 20,
+"lemma": "anche",
+"pos": "cong."
+},
+{
+"n": 21,
+"lemma": "andare",
+"pos": "v. int."
+},
+{
+"n": 22,
+"lemma": "animale",
+"pos": "s.m."
+},
+{
+"n": 23,
+"lemma": "anno",
+"pos": "s.m."
+},
+{
+"n": 24,
+"lemma": "appartamento",
+"pos": "s.m."
+},
+{
+"n": 25,
+"lemma": "appuntamento",
+"pos": "s.m."
+},
+{
+"n": 26,
+"lemma": "aprile",
+"pos": "s.m."
+},
+{
+"n": 27,
+"lemma": "aprire",
+"pos": "v.t."
+},
+{
+"n": 28,
+"lemma": "arrivare",
+"pos": "v.intr."
+},
+{
+"n": 29,
+"lemma": "arrivederci",
+"pos": "inter."
+},
+{
+"n": 30,
+"lemma": "arte",
+"pos": "s.f."
+},
+{
+"n": 31,
+"lemma": "ascoltare",
+"pos": "v.t."
+},
+{
+"n": 32,
+"lemma": "aspettare",
+"pos": "v.t"
+},
+{
+"n": 33,
+"lemma": "attento",
+"pos": "agg."
+},
+{
+"n": 34,
+"lemma": "attenzione",
+"pos": "s.f."
+},
+{
+"n": 35,
+"lemma": "augurio",
+"pos": "s.m."
+},
+{
+"n": 36,
+"lemma": "autobus",
+"pos": "s.m."
+},
+{
+"n": 37,
+"lemma": "autunno",
+"pos": "s.m."
+},
+{
+"n": 38,
+"lemma": "avanti",
+"pos": "avv."
+},
+{
+"n": 39,
+"lemma": "avere",
+"pos": "v.t."
+},
+{
+"n": 40,
+"lemma": "bacio",
+"pos": "s.m."
+},
+{
+"n": 41,
+"lemma": "bagno",
+"pos": "s.m."
+},
+{
+"n": 42,
+"lemma": "ballare",
+"pos": "v.int."
+},
+{
+"n": 43,
+"lemma": "bambino/a",
+"pos": "s.m - s.f."
+},
+{
+"n": 44,
+"lemma": "banca",
+"pos": "s.f."
+},
+{
+"n": 45,
+"lemma": "bar",
+"pos": "s.m."
+},
+{
+"n": 46,
+"lemma": "bello",
+"pos": "agg."
+},
+{
+"n": 47,
+"lemma": "bene",
+"pos": "avv."
+},
+{
+"n": 48,
+"lemma": "bere",
+"pos": "v.t."
+},
+{
+"n": 49,
+"lemma": "bianco",
+"pos": "agg."
+},
+{
+"n": 50,
+"lemma": "bicchiere",
+"pos": "s.m."
+},
+{
+"n": 51,
+"lemma": "bici",
+"pos": "cletta"
+},
+{
+"n": 52,
+"lemma": "biglietto",
+"pos": "s.m."
+},
+{
+"n": 53,
+"lemma": "biondo",
+"pos": "agg."
+},
+{
+"n": 54,
+"lemma": "birra",
+"pos": "s.f."
+},
+{
+"n": 55,
+"lemma": "blu",
+"pos": "agg."
+},
+{
+"n": 56,
+"lemma": "borsa",
+"pos": "s.f."
+},
+{
+"n": 57,
+"lemma": "bottiglia",
+"pos": "s.f."
+},
+{
+"n": 58,
+"lemma": "bravo",
+"pos": "agg. - inter."
+},
+{
+"n": 59,
+"lemma": "buonanotte",
+"pos": "inter."
+},
+{
+"n": 60,
+"lemma": "buonasera",
+"pos": "inter."
+},
+{
+"n": 61,
+"lemma": "buongiorno",
+"pos": "inter."
+},
+{
+"n": 62,
+"lemma": "buono",
+"pos": "agg."
+},
+{
+"n": 63,
+"lemma": "busta",
+"pos": "s.f."
+},
+{
+"n": 64,
+"lemma": "caffè",
+"pos": "s.m."
+},
+{
+"n": 65,
+"lemma": "caldo",
+"pos": "agg."
+},
+{
+"n": 66,
+"lemma": "calza",
+"pos": "s.f."
+},
+{
+"n": 67,
+"lemma": "cambiare",
+"pos": "v.t"
+},
+{
+"n": 68,
+"lemma": "camera",
+"pos": "s.f."
+},
+{
+"n": 69,
+"lemma": "cameriere/a",
+"pos": "s.m.- s.f."
+},
+{
+"n": 70,
+"lemma": "camicia",
+"pos": "s.f."
+},
+{
+"n": 71,
+"lemma": "campagna",
+"pos": "s.f."
+},
+{
+"n": 72,
+"lemma": "cane",
+"pos": "s.m."
+},
+{
+"n": 73,
+"lemma": "cantare",
+"pos": "v.t."
+},
+{
+"n": 74,
+"lemma": "canzone",
+"pos": "s.f."
+},
+{
+"n": 75,
+"lemma": "capello",
+"pos": "s.m."
+},
+{
+"n": 76,
+"lemma": "capire",
+"pos": "v.t."
+},
+{
+"n": 77,
+"lemma": "cappotto",
+"pos": "s.m."
+},
+{
+"n": 78,
+"lemma": "cappuccino",
+"pos": "s.m."
+},
+{
+"n": 79,
+"lemma": "carne",
+"pos": "s.f."
+},
+{
+"n": 80,
+"lemma": "caro",
+"pos": "agg."
+},
+{
+"n": 81,
+"lemma": "carta",
+"pos": "s.f."
+},
+{
+"n": 82,
+"lemma": "cartolina",
+"pos": "s.f."
+},
+{
+"n": 83,
+"lemma": "casa",
+"pos": "s.f."
+},
+{
+"n": 84,
+"lemma": "castano",
+"pos": "agg."
+},
+{
+"n": 85,
+"lemma": "cd",
+"pos": "s.m"
+},
+{
+"n": 86,
+"lemma": "cellulare",
+"pos": "s.m."
+},
+{
+"n": 87,
+"lemma": "cena",
+"pos": "s.f."
+},
+{
+"n": 88,
+"lemma": "cenare",
+"pos": "v.int."
+},
+{
+"n": 89,
+"lemma": "centro",
+"pos": "s.m."
+},
+{
+"n": 90,
+"lemma": "cercare",
+"pos": "v.t."
+},
+{
+"n": 91,
+"lemma": "certo",
+"pos": "avv."
+},
+{
+"n": 92,
+"lemma": "che",
+"pos": "pron."
+},
+{
+"n": 93,
+"lemma": "check-in",
+"pos": "s.m."
+},
+{
+"n": 94,
+"lemma": "chi",
+"pos": "pron."
+},
+{
+"n": 95,
+"lemma": "chiamare/si",
+"pos": "v.t. – v.int. pron."
+},
+{
+"n": 96,
+"lemma": "chiave",
+"pos": "s.f."
+},
+{
+"n": 97,
+"lemma": "chiesa",
+"pos": "s.f."
+},
+{
+"n": 98,
+"lemma": "chiudere",
+"pos": "v.t."
+},
+{
+"n": 99,
+"lemma": "ci",
+"pos": "part. pron. luogo"
+},
+{
+"n": 100,
+"lemma": "ciao",
+"pos": "inter."
+},
+{
+"n": 101,
+"lemma": "cibo",
+"pos": "s.m."
+},
+{
+"n": 102,
+"lemma": "cin cin",
+"pos": "inter."
+},
+{
+"n": 103,
+"lemma": "cinema",
+"pos": "s.m."
+},
+{
+"n": 104,
+"lemma": "città",
+"pos": "s.f."
+},
+{
+"n": 105,
+"lemma": "classe",
+"pos": "s.f."
+},
+{
+"n": 106,
+"lemma": "cognome",
+"pos": "s.m."
+},
+{
+"n": 107,
+"lemma": "colazione",
+"pos": "s.f."
+},
+{
+"n": 108,
+"lemma": "colore",
+"pos": "s.m."
+},
+{
+"n": 109,
+"lemma": "coltello",
+"pos": "s.m"
+},
+{
+"n": 110,
+"lemma": "come",
+"pos": "avv."
+},
+{
+"n": 111,
+"lemma": "cominciare",
+"pos": "v.int."
+},
+{
+"n": 112,
+"lemma": "compagno/a",
+"pos": "s.m. – s.f."
+},
+{
+"n": 113,
+"lemma": "compleanno",
+"pos": "s.m."
+},
+{
+"n": 114,
+"lemma": "comprare",
+"pos": "v.t."
+},
+{
+"n": 115,
+"lemma": "computer",
+"pos": "s.m."
+},
+{
+"n": 116,
+"lemma": "con",
+"pos": "prep."
+},
+{
+"n": 117,
+"lemma": "consolato",
+"pos": "s.m."
+},
+{
+"n": 118,
+"lemma": "conto",
+"pos": "s.m."
+},
+{
+"n": 119,
+"lemma": "corso",
+"pos": "s.m."
+},
+{
+"n": 120,
+"lemma": "corto",
+"pos": "agg."
+},
+{
+"n": 121,
+"lemma": "cosa",
+"pos": "s.f."
+},
+{
+"n": 122,
+"lemma": "costare",
+"pos": "v.t."
+},
+{
+"n": 123,
+"lemma": "credito",
+"pos": "s.m."
+},
+{
+"n": 124,
+"lemma": "cucchiaio",
+"pos": "s.m."
+},
+{
+"n": 125,
+"lemma": "cucina",
+"pos": "s.f."
+},
+{
+"n": 126,
+"lemma": "dare",
+"pos": "v.t."
+},
+{
+"n": 127,
+"lemma": "data",
+"pos": "s.f."
+},
+{
+"n": 128,
+"lemma": "davanti",
+"pos": "avv."
+},
+{
+"n": 129,
+"lemma": "dentro",
+"pos": "avv."
+},
+{
+"n": 130,
+"lemma": "destra",
+"pos": "s.f."
+},
+{
+"n": 131,
+"lemma": "di",
+"pos": "prep."
+},
+{
+"n": 132,
+"lemma": "dicembre",
+"pos": "s.m."
+},
+{
+"n": 133,
+"lemma": "dietro",
+"pos": "avv."
+},
+{
+"n": 134,
+"lemma": "difficile",
+"pos": "agg."
+},
+{
+"n": 135,
+"lemma": "dire",
+"pos": "v.t."
+},
+{
+"n": 136,
+"lemma": "doccia",
+"pos": "s.f."
+},
+{
+"n": 137,
+"lemma": "documento",
+"pos": "s.m."
+},
+{
+"n": 138,
+"lemma": "domanda",
+"pos": "s.f."
+},
+{
+"n": 139,
+"lemma": "domandare",
+"pos": "v.t."
+},
+{
+"n": 140,
+"lemma": "domani",
+"pos": "avv."
+},
+{
+"n": 141,
+"lemma": "domenica",
+"pos": "s.f."
+},
+{
+"n": 142,
+"lemma": "donna",
+"pos": "s.f."
+},
+{
+"n": 143,
+"lemma": "dopo",
+"pos": "avv."
+},
+{
+"n": 144,
+"lemma": "doppio",
+"pos": "agg."
+},
+{
+"n": 145,
+"lemma": "dormire",
+"pos": "v.int."
+},
+{
+"n": 146,
+"lemma": "dottore/ssa",
+"pos": "s.m. – s.f."
+},
+{
+"n": 147,
+"lemma": "dove",
+"pos": "avv."
+},
+{
+"n": 148,
+"lemma": "dovere",
+"pos": "v.int."
+},
+{
+"n": 149,
+"lemma": "e",
+"pos": "cong."
+},
+{
+"n": 150,
+"lemma": "e-mail",
+"pos": "s.f."
+},
+{
+"n": 151,
+"lemma": "entrare",
+"pos": "v.int."
+},
+{
+"n": 152,
+"lemma": "esercizio",
+"pos": "s.m."
+},
+{
+"n": 153,
+"lemma": "essere",
+"pos": "v.int."
+},
+{
+"n": 154,
+"lemma": "estate",
+"pos": "s.f."
+},
+{
+"n": 155,
+"lemma": "estero",
+"pos": "s.m."
+},
+{
+"n": 156,
+"lemma": "euro",
+"pos": "s.m."
+},
+{
+"n": 157,
+"lemma": "fabbrica",
+"pos": "s.f."
+},
+{
+"n": 158,
+"lemma": "facile",
+"pos": "agg."
+},
+{
+"n": 159,
+"lemma": "falso",
+"pos": "agg."
+},
+{
+"n": 160,
+"lemma": "fame",
+"pos": "s.f."
+},
+{
+"n": 161,
+"lemma": "famiglia",
+"pos": "s.f."
+},
+{
+"n": 162,
+"lemma": "fare",
+"pos": "v.t."
+},
+{
+"n": 163,
+"lemma": "farmacia",
+"pos": "s.f."
+},
+{
+"n": 164,
+"lemma": "favore",
+"pos": "s.m."
+},
+{
+"n": 165,
+"lemma": "fax",
+"pos": "s.m."
+},
+{
+"n": 166,
+"lemma": "febbraio",
+"pos": "s.m."
+},
+{
+"n": 167,
+"lemma": "felice",
+"pos": "agg."
+},
+{
+"n": 168,
+"lemma": "femmina",
+"pos": "s.f."
+},
+{
+"n": 169,
+"lemma": "fermata",
+"pos": "s.f."
+},
+{
+"n": 170,
+"lemma": "festa",
+"pos": "s.f."
+},
+{
+"n": 171,
+"lemma": "figlio/a",
+"pos": "s.m. – s.f."
+},
+{
+"n": 172,
+"lemma": "film",
+"pos": "s.m."
+},
+{
+"n": 173,
+"lemma": "finestra",
+"pos": "s.f."
+},
+{
+"n": 174,
+"lemma": "finire",
+"pos": "v.int."
+},
+{
+"n": 175,
+"lemma": "fiore",
+"pos": "s.m."
+},
+{
+"n": 176,
+"lemma": "forchetta",
+"pos": "s.f."
+},
+{
+"n": 177,
+"lemma": "fotografia",
+"pos": "s.f."
+},
+{
+"n": 178,
+"lemma": "francobollo",
+"pos": "s.m."
+},
+{
+"n": 179,
+"lemma": "fratello",
+"pos": "s.m."
+},
+{
+"n": 180,
+"lemma": "freddo",
+"pos": "agg."
+},
+{
+"n": 181,
+"lemma": "frutta",
+"pos": "s.f."
+},
+{
+"n": 182,
+"lemma": "fumare",
+"pos": "v.t."
+},
+{
+"n": 183,
+"lemma": "fuori",
+"pos": "avv."
+},
+{
+"n": 184,
+"lemma": "gatto",
+"pos": "s.m."
+},
+{
+"n": 185,
+"lemma": "gennaio",
+"pos": "s.m."
+},
+{
+"n": 186,
+"lemma": "gentile",
+"pos": "agg."
+},
+{
+"n": 187,
+"lemma": "giacca",
+"pos": "s.f."
+},
+{
+"n": 188,
+"lemma": "giallo",
+"pos": "agg."
+},
+{
+"n": 189,
+"lemma": "giardino",
+"pos": "s.m."
+},
+{
+"n": 190,
+"lemma": "giocare",
+"pos": "v.intr."
+},
+{
+"n": 191,
+"lemma": "giornale",
+"pos": "s.m."
+},
+{
+"n": 192,
+"lemma": "giornata",
+"pos": "s.f."
+},
+{
+"n": 193,
+"lemma": "giorno",
+"pos": "s.m."
+},
+{
+"n": 194,
+"lemma": "giovane",
+"pos": "agg."
+},
+{
+"n": 195,
+"lemma": "giovedì",
+"pos": "s.m."
+},
+{
+"n": 196,
+"lemma": "giù",
+"pos": "avv."
+},
+{
+"n": 197,
+"lemma": "giugno",
+"pos": "s.m."
+},
+{
+"n": 198,
+"lemma": "gli",
+"pos": "art."
+},
+{
+"n": 199,
+"lemma": "gonna",
+"pos": "s.f."
+},
+{
+"n": 200,
+"lemma": "grande",
+"pos": "agg."
+},
+{
+"n": 201,
+"lemma": "grazie",
+"pos": "inter."
+},
+{
+"n": 202,
+"lemma": "guardare",
+"pos": "v.t."
+},
+{
+"n": 203,
+"lemma": "hobby",
+"pos": "s.m."
+},
+{
+"n": 204,
+"lemma": "hotel",
+"pos": "s.m."
+},
+{
+"n": 205,
+"lemma": "i",
+"pos": "art."
+},
+{
+"n": 206,
+"lemma": "ieri",
+"pos": "avv."
+},
+{
+"n": 207,
+"lemma": "il",
+"pos": "art."
+},
+{
+"n": 208,
+"lemma": "imparare",
+"pos": "v.t."
+},
+{
+"n": 209,
+"lemma": "importante",
+"pos": "agg."
+},
+{
+"n": 210,
+"lemma": "in",
+"pos": "prep."
+},
+{
+"n": 211,
+"lemma": "incontrare",
+"pos": "v.t."
+},
+{
+"n": 212,
+"lemma": "indietro",
+"pos": "avv."
+},
+{
+"n": 213,
+"lemma": "indirizzo",
+"pos": "s.m."
+},
+{
+"n": 214,
+"lemma": "industria",
+"pos": "s.f."
+},
+{
+"n": 215,
+"lemma": "informazione",
+"pos": "s.f."
+},
+{
+"n": 216,
+"lemma": "insegnante",
+"pos": "s.m – s.f."
+},
+{
+"n": 217,
+"lemma": "insegnare",
+"pos": "v.t."
+},
+{
+"n": 218,
+"lemma": "intelligente",
+"pos": "agg."
+},
+{
+"n": 219,
+"lemma": "interessante",
+"pos": "agg."
+},
+{
+"n": 220,
+"lemma": "internazionale",
+"pos": "agg."
+},
+{
+"n": 221,
+"lemma": "internet",
+"pos": "s.f."
+},
+{
+"n": 222,
+"lemma": "inverno",
+"pos": "s.m."
+},
+{
+"n": 223,
+"lemma": "io",
+"pos": "pron."
+},
+{
+"n": 224,
+"lemma": "italiano",
+"pos": "s.m."
+},
+{
+"n": 225,
+"lemma": "la",
+"pos": "art."
+},
+{
+"n": 226,
+"lemma": "là",
+"pos": "avv."
+},
+{
+"n": 227,
+"lemma": "lago",
+"pos": "s.m."
+},
+{
+"n": 228,
+"lemma": "largo",
+"pos": "agg."
+},
+{
+"n": 229,
+"lemma": "latte",
+"pos": "s.m."
+},
+{
+"n": 230,
+"lemma": "lavorare",
+"pos": "v.int."
+},
+{
+"n": 231,
+"lemma": "lavoro",
+"pos": "s.m."
+},
+{
+"n": 232,
+"lemma": "le",
+"pos": "art."
+},
+{
+"n": 233,
+"lemma": "leggere",
+"pos": "v.t."
+},
+{
+"n": 234,
+"lemma": "lei",
+"pos": "pron."
+},
+{
+"n": 235,
+"lemma": "lettera",
+"pos": "s.f."
+},
+{
+"n": 236,
+"lemma": "letto",
+"pos": "s.m."
+},
+{
+"n": 237,
+"lemma": "lezione",
+"pos": "s.f."
+},
+{
+"n": 238,
+"lemma": "lì",
+"pos": "avv."
+},
+{
+"n": 239,
+"lemma": "libro",
+"pos": "s.m."
+},
+{
+"n": 240,
+"lemma": "lingua",
+"pos": "s.f."
+},
+{
+"n": 241,
+"lemma": "lo",
+"pos": "art."
+},
+{
+"n": 242,
+"lemma": "lontano",
+"pos": "avv."
+},
+{
+"n": 243,
+"lemma": "loro",
+"pos": "pron."
+},
+{
+"n": 244,
+"lemma": "luglio",
+"pos": "s.m."
+},
+{
+"n": 245,
+"lemma": "lui",
+"pos": "pron."
+},
+{
+"n": 246,
+"lemma": "lunedì",
+"pos": "s.m."
+},
+{
+"n": 247,
+"lemma": "lungo",
+"pos": "agg."
+},
+{
+"n": 248,
+"lemma": "macchina",
+"pos": "s.f."
+},
+{
+"n": 249,
+"lemma": "madre",
+"pos": "s.f."
+},
+{
+"n": 250,
+"lemma": "maggio",
+"pos": "s.m."
+},
+{
+"n": 251,
+"lemma": "maglietta",
+"pos": "s.f."
+},
+{
+"n": 252,
+"lemma": "maglione",
+"pos": "s.m."
+},
+{
+"n": 253,
+"lemma": "magro",
+"pos": "agg."
+},
+{
+"n": 254,
+"lemma": "mai",
+"pos": "avv."
+},
+{
+"n": 255,
+"lemma": "malato",
+"pos": "agg."
+},
+{
+"n": 256,
+"lemma": "male",
+"pos": "avv."
+},
+{
+"n": 257,
+"lemma": "mamma",
+"pos": "s.f."
+},
+{
+"n": 258,
+"lemma": "mangiare",
+"pos": "v.t."
+},
+{
+"n": 259,
+"lemma": "mare",
+"pos": "s.m."
+},
+{
+"n": 260,
+"lemma": "marito",
+"pos": "s.m."
+},
+{
+"n": 261,
+"lemma": "martedì",
+"pos": "s.m."
+},
+{
+"n": 262,
+"lemma": "marzo",
+"pos": "s.m."
+},
+{
+"n": 263,
+"lemma": "maschio",
+"pos": "s.m."
+},
+{
+"n": 264,
+"lemma": "matita",
+"pos": "s.f."
+},
+{
+"n": 265,
+"lemma": "mattina",
+"pos": "s.f."
+},
+{
+"n": 266,
+"lemma": "me",
+"pos": "pron."
+},
+{
+"n": 267,
+"lemma": "medicina",
+"pos": "s.f."
+},
+{
+"n": 268,
+"lemma": "meno",
+"pos": "avv."
+},
+{
+"n": 269,
+"lemma": "menù",
+"pos": "s.m."
+},
+{
+"n": 270,
+"lemma": "mercato",
+"pos": "s.m."
+},
+{
+"n": 271,
+"lemma": "mercoledì",
+"pos": "s.m."
+},
+{
+"n": 272,
+"lemma": "mese",
+"pos": "s.m."
+},
+{
+"n": 273,
+"lemma": "metà",
+"pos": "s.f."
+},
+{
+"n": 274,
+"lemma": "mettere",
+"pos": "v.t."
+},
+{
+"n": 275,
+"lemma": "mezzanotte",
+"pos": "s.f."
+},
+{
+"n": 276,
+"lemma": "mezzo",
+"pos": "agg."
+},
+{
+"n": 277,
+"lemma": "mezzogiorno",
+"pos": "s.m."
+},
+{
+"n": 278,
+"lemma": "mi",
+"pos": "pron."
+},
+{
+"n": 279,
+"lemma": "minuto",
+"pos": "s.m."
+},
+{
+"n": 280,
+"lemma": "mio",
+"pos": "agg."
+},
+{
+"n": 281,
+"lemma": "moglie",
+"pos": "s.f."
+},
+{
+"n": 282,
+"lemma": "molto",
+"pos": "agg. - avv."
+},
+{
+"n": 283,
+"lemma": "momento",
+"pos": "s.m."
+},
+{
+"n": 284,
+"lemma": "montagna",
+"pos": "s.f."
+},
+{
+"n": 285,
+"lemma": "morire",
+"pos": "v. int."
+},
+{
+"n": 286,
+"lemma": "moto",
+"pos": "cicletta"
+},
+{
+"n": 287,
+"lemma": "museo",
+"pos": "s.m."
+},
+{
+"n": 288,
+"lemma": "musica",
+"pos": "s.f."
+},
+{
+"n": 289,
+"lemma": "nascere",
+"pos": "v.int."
+},
+{
+"n": 290,
+"lemma": "Natale",
+"pos": "s.m."
+},
+{
+"n": 291,
+"lemma": "nazionalità",
+"pos": "s.f."
+},
+{
+"n": 292,
+"lemma": "nazione",
+"pos": "s.f."
+},
+{
+"n": 293,
+"lemma": "negozio",
+"pos": "s.m."
+},
+{
+"n": 294,
+"lemma": "nero",
+"pos": "agg."
+},
+{
+"n": 295,
+"lemma": "nessuno",
+"pos": "pron."
+},
+{
+"n": 296,
+"lemma": "niente",
+"pos": "pron. - avv."
+},
+{
+"n": 297,
+"lemma": "no",
+"pos": "avv."
+},
+{
+"n": 298,
+"lemma": "noi",
+"pos": "pron."
+},
+{
+"n": 299,
+"lemma": "nome",
+"pos": "s.m."
+},
+{
+"n": 300,
+"lemma": "non",
+"pos": "avv."
+},
+{
+"n": 301,
+"lemma": "nonno/a",
+"pos": "s.m. – s.f."
+},
+{
+"n": 302,
+"lemma": "notte",
+"pos": "s.f."
+},
+{
+"n": 303,
+"lemma": "novembre",
+"pos": "s.m."
+},
+{
+"n": 304,
+"lemma": "numero",
+"pos": "s.m."
+},
+{
+"n": 305,
+"lemma": "nuovo",
+"pos": "agg."
+},
+{
+"n": 306,
+"lemma": "o",
+"pos": "cong."
+},
+{
+"n": 307,
+"lemma": "occhiale",
+"pos": "s.m."
+},
+{
+"n": 308,
+"lemma": "oggi",
+"pos": "avv."
+},
+{
+"n": 309,
+"lemma": "olio",
+"pos": "s.m."
+},
+{
+"n": 310,
+"lemma": "ombrello",
+"pos": "s.m."
+},
+{
+"n": 311,
+"lemma": "ora",
+"pos": "s.f. - avv."
+},
+{
+"n": 312,
+"lemma": "orologio",
+"pos": "s.m."
+},
+{
+"n": 313,
+"lemma": "ospedale",
+"pos": "s.m."
+},
+{
+"n": 314,
+"lemma": "ottobre",
+"pos": "s.m."
+},
+{
+"n": 315,
+"lemma": "pacco",
+"pos": "s.m."
+},
+{
+"n": 316,
+"lemma": "padre",
+"pos": "s.m."
+},
+{
+"n": 317,
+"lemma": "pagare",
+"pos": "v.t."
+},
+{
+"n": 318,
+"lemma": "pane",
+"pos": "s.m."
+},
+{
+"n": 319,
+"lemma": "pantalone",
+"pos": "s.m."
+},
+{
+"n": 320,
+"lemma": "papà",
+"pos": "s.m."
+},
+{
+"n": 321,
+"lemma": "parcheggio",
+"pos": "s.m."
+},
+{
+"n": 322,
+"lemma": "parco",
+"pos": "s.m."
+},
+{
+"n": 323,
+"lemma": "parlare",
+"pos": "v.t.- v.int."
+},
+{
+"n": 324,
+"lemma": "parola",
+"pos": "s.f."
+},
+{
+"n": 325,
+"lemma": "partire",
+"pos": "v.int."
+},
+{
+"n": 326,
+"lemma": "Pasqua",
+"pos": "s.f."
+},
+{
+"n": 327,
+"lemma": "passaporto",
+"pos": "s.m."
+},
+{
+"n": 328,
+"lemma": "pasta",
+"pos": "s.f."
+},
+{
+"n": 329,
+"lemma": "penna",
+"pos": "s.f."
+},
+{
+"n": 330,
+"lemma": "pepe",
+"pos": "s.m."
+},
+{
+"n": 331,
+"lemma": "per",
+"pos": "prep."
+},
+{
+"n": 332,
+"lemma": "perché",
+"pos": "avv. - cong."
+},
+{
+"n": 333,
+"lemma": "pesce",
+"pos": "s.m."
+},
+{
+"n": 334,
+"lemma": "piacere",
+"pos": "v.int. - s.m."
+},
+{
+"n": 335,
+"lemma": "piano",
+"pos": "avv. – s.m."
+},
+{
+"n": 336,
+"lemma": "pianta",
+"pos": "s.f."
+},
+{
+"n": 337,
+"lemma": "piatto",
+"pos": "s.m."
+},
+{
+"n": 338,
+"lemma": "piazza",
+"pos": "s.f."
+},
+{
+"n": 339,
+"lemma": "piccolo",
+"pos": "agg."
+},
+{
+"n": 340,
+"lemma": "piovere",
+"pos": "v.int."
+},
+{
+"n": 341,
+"lemma": "più",
+"pos": "avv."
+},
+{
+"n": 342,
+"lemma": "pizza",
+"pos": "s.f."
+},
+{
+"n": 343,
+"lemma": "pizzeria",
+"pos": "s.f."
+},
+{
+"n": 344,
+"lemma": "poco",
+"pos": "po’"
+},
+{
+"n": 345,
+"lemma": "polizia",
+"pos": "s.f."
+},
+{
+"n": 346,
+"lemma": "pomeriggio",
+"pos": "s.m."
+},
+{
+"n": 347,
+"lemma": "pomodoro",
+"pos": "s.m."
+},
+{
+"n": 348,
+"lemma": "porta",
+"pos": "s.f."
+},
+{
+"n": 349,
+"lemma": "portare",
+"pos": "v.t."
+},
+{
+"n": 350,
+"lemma": "posta",
+"pos": "s.f."
+},
+{
+"n": 351,
+"lemma": "posto",
+"pos": "s.m."
+},
+{
+"n": 352,
+"lemma": "potere",
+"pos": "v.int."
+},
+{
+"n": 353,
+"lemma": "pranzare",
+"pos": "v.int"
+},
+{
+"n": 354,
+"lemma": "pranzo",
+"pos": "s.m."
+},
+{
+"n": 355,
+"lemma": "prego",
+"pos": "inter."
+},
+{
+"n": 356,
+"lemma": "prendere",
+"pos": "v.t."
+},
+{
+"n": 357,
+"lemma": "prenotare",
+"pos": "v.t."
+},
+{
+"n": 358,
+"lemma": "presto",
+"pos": "avv."
+},
+{
+"n": 359,
+"lemma": "prezzo",
+"pos": "s.m."
+},
+{
+"n": 360,
+"lemma": "primavera",
+"pos": "s.f."
+},
+{
+"n": 361,
+"lemma": "professore/ssa",
+"pos": "s.m. – s.f."
+},
+{
+"n": 362,
+"lemma": "pulire",
+"pos": "v.t."
+},
+{
+"n": 363,
+"lemma": "qua",
+"pos": "avv."
+},
+{
+"n": 364,
+"lemma": "quaderno",
+"pos": "s.m."
+},
+{
+"n": 365,
+"lemma": "quadro",
+"pos": "s.m."
+},
+{
+"n": 366,
+"lemma": "quale",
+"pos": "pron."
+},
+{
+"n": 367,
+"lemma": "quando",
+"pos": "avv."
+},
+{
+"n": 368,
+"lemma": "quanto",
+"pos": "agg. – pron. – avv."
+},
+{
+"n": 369,
+"lemma": "quarto",
+"pos": "s.m."
+},
+{
+"n": 370,
+"lemma": "quasi",
+"pos": "avv."
+},
+{
+"n": 371,
+"lemma": "quello",
+"pos": "agg. – pron."
+},
+{
+"n": 372,
+"lemma": "questo",
+"pos": "agg. – pron."
+},
+{
+"n": 373,
+"lemma": "qui",
+"pos": "avv."
+},
+{
+"n": 374,
+"lemma": "radio",
+"pos": "s.f."
+},
+{
+"n": 375,
+"lemma": "ragazzo/a",
+"pos": "s.m. – s.f."
+},
+{
+"n": 376,
+"lemma": "ricco",
+"pos": "agg."
+},
+{
+"n": 377,
+"lemma": "ripetere",
+"pos": "v.t."
+},
+{
+"n": 378,
+"lemma": "riso",
+"pos": "s.m."
+},
+{
+"n": 379,
+"lemma": "rispondere",
+"pos": "v.int."
+},
+{
+"n": 380,
+"lemma": "risposta",
+"pos": "s.f."
+},
+{
+"n": 381,
+"lemma": "ristorante",
+"pos": "s.m."
+},
+{
+"n": 382,
+"lemma": "ritornare",
+"pos": "v.int."
+},
+{
+"n": 383,
+"lemma": "rosso",
+"pos": "agg."
+},
+{
+"n": 384,
+"lemma": "sabato",
+"pos": "s.m."
+},
+{
+"n": 385,
+"lemma": "sale",
+"pos": "s.m."
+},
+{
+"n": 386,
+"lemma": "salute",
+"pos": "inter."
+},
+{
+"n": 387,
+"lemma": "saluto",
+"pos": "s.m."
+},
+{
+"n": 388,
+"lemma": "sapere",
+"pos": "v.t."
+},
+{
+"n": 389,
+"lemma": "scarpa",
+"pos": "s.f."
+},
+{
+"n": 390,
+"lemma": "scrivere",
+"pos": "v.t."
+},
+{
+"n": 391,
+"lemma": "scuola",
+"pos": "s.f."
+},
+{
+"n": 392,
+"lemma": "scusare",
+"pos": "v.t."
+},
+{
+"n": 393,
+"lemma": "secondo",
+"pos": "s.m."
+},
+{
+"n": 394,
+"lemma": "sedia",
+"pos": "s.f."
+},
+{
+"n": 395,
+"lemma": "segreteria",
+"pos": "s.f."
+},
+{
+"n": 396,
+"lemma": "sempre",
+"pos": "avv."
+},
+{
+"n": 397,
+"lemma": "senza",
+"pos": "prep.- avv."
+},
+{
+"n": 398,
+"lemma": "sera",
+"pos": "s.f."
+},
+{
+"n": 399,
+"lemma": "sete",
+"pos": "s.f."
+},
+{
+"n": 400,
+"lemma": "settembre",
+"pos": "s.m."
+},
+{
+"n": 401,
+"lemma": "settimana",
+"pos": "s.f."
+},
+{
+"n": 402,
+"lemma": "si",
+"pos": "pron."
+},
+{
+"n": 403,
+"lemma": "sì",
+"pos": "avv."
+},
+{
+"n": 404,
+"lemma": "sigaretta",
+"pos": "s.f."
+},
+{
+"n": 405,
+"lemma": "significare",
+"pos": "v.t."
+},
+{
+"n": 406,
+"lemma": "signore/a",
+"pos": "s.m. – s.f."
+},
+{
+"n": 407,
+"lemma": "simpatico",
+"pos": "agg."
+},
+{
+"n": 408,
+"lemma": "singolo",
+"pos": "agg."
+},
+{
+"n": 409,
+"lemma": "sinistra",
+"pos": "s.f."
+},
+{
+"n": 410,
+"lemma": "soggiorno",
+"pos": "s.m."
+},
+{
+"n": 411,
+"lemma": "soldo",
+"pos": "s.m."
+},
+{
+"n": 412,
+"lemma": "sole",
+"pos": "s.m."
+},
+{
+"n": 413,
+"lemma": "sonno",
+"pos": "s.m."
+},
+{
+"n": 414,
+"lemma": "sopra",
+"pos": "avv."
+},
+{
+"n": 415,
+"lemma": "sorella",
+"pos": "s.f."
+},
+{
+"n": 416,
+"lemma": "sotto",
+"pos": "avv."
+},
+{
+"n": 417,
+"lemma": "spaghetto",
+"pos": "s.m."
+},
+{
+"n": 418,
+"lemma": "spedire",
+"pos": "v.t."
+},
+{
+"n": 419,
+"lemma": "spesa",
+"pos": "s.f."
+},
+{
+"n": 420,
+"lemma": "spesso",
+"pos": "avv."
+},
+{
+"n": 421,
+"lemma": "spiaggia",
+"pos": "s.f."
+},
+{
+"n": 422,
+"lemma": "sporco",
+"pos": "agg."
+},
+{
+"n": 423,
+"lemma": "sport",
+"pos": "s.m."
+},
+{
+"n": 424,
+"lemma": "sposare",
+"pos": "v.t."
+},
+{
+"n": 425,
+"lemma": "stanco",
+"pos": "agg."
+},
+{
+"n": 426,
+"lemma": "stare",
+"pos": "v.int."
+},
+{
+"n": 427,
+"lemma": "stazione",
+"pos": "s.f."
+},
+{
+"n": 428,
+"lemma": "stop",
+"pos": "s.m."
+},
+{
+"n": 429,
+"lemma": "strada",
+"pos": "s.f."
+},
+{
+"n": 430,
+"lemma": "straniero",
+"pos": "agg."
+},
+{
+"n": 431,
+"lemma": "stretto",
+"pos": "agg."
+},
+{
+"n": 432,
+"lemma": "studente/ssa",
+"pos": "s.m. – s.f."
+},
+{
+"n": 433,
+"lemma": "studiare",
+"pos": "v.t."
+},
+{
+"n": 434,
+"lemma": "su",
+"pos": "avv."
+},
+{
+"n": 435,
+"lemma": "suonare",
+"pos": "v.t."
+},
+{
+"n": 436,
+"lemma": "supermercato",
+"pos": "s.m."
+},
+{
+"n": 437,
+"lemma": "svegliarsi",
+"pos": "v.int. pron."
+},
+{
+"n": 438,
+"lemma": "tanto",
+"pos": "agg. – avv."
+},
+{
+"n": 439,
+"lemma": "tardi",
+"pos": "avv."
+},
+{
+"n": 440,
+"lemma": "tavolo",
+"pos": "s.m."
+},
+{
+"n": 441,
+"lemma": "taxi",
+"pos": "s.m."
+},
+{
+"n": 442,
+"lemma": "te",
+"pos": "pron."
+},
+{
+"n": 443,
+"lemma": "tè",
+"pos": "s.m."
+},
+{
+"n": 444,
+"lemma": "teatro",
+"pos": "s.m."
+},
+{
+"n": 445,
+"lemma": "telefonare",
+"pos": "v. int."
+},
+{
+"n": 446,
+"lemma": "telefono",
+"pos": "s.m."
+},
+{
+"n": 447,
+"lemma": "televisione",
+"pos": "s.f."
+},
+{
+"n": 448,
+"lemma": "ti",
+"pos": "pron."
+},
+{
+"n": 449,
+"lemma": "tornare",
+"pos": "v.int."
+},
+{
+"n": 450,
+"lemma": "treno",
+"pos": "s.m."
+},
+{
+"n": 451,
+"lemma": "triste",
+"pos": "agg."
+},
+{
+"n": 452,
+"lemma": "troppo",
+"pos": "agg. – avv."
+},
+{
+"n": 453,
+"lemma": "trovare",
+"pos": "v.t."
+},
+{
+"n": 454,
+"lemma": "tu",
+"pos": "pron."
+},
+{
+"n": 455,
+"lemma": "tuo",
+"pos": "agg."
+},
+{
+"n": 456,
+"lemma": "turista",
+"pos": "s.m. – s.f."
+},
+{
+"n": 457,
+"lemma": "tutto",
+"pos": "agg."
+},
+{
+"n": 458,
+"lemma": "tv",
+"pos": "s.f"
+},
+{
+"n": 459,
+"lemma": "ufficio",
+"pos": "s.m."
+},
+{
+"n": 460,
+"lemma": "un/o/a",
+"pos": "art."
+},
+{
+"n": 461,
+"lemma": "università",
+"pos": "s.f."
+},
+{
+"n": 462,
+"lemma": "uomo",
+"pos": "s.m."
+},
+{
+"n": 463,
+"lemma": "uovo",
+"pos": "s.m."
+},
+{
+"n": 464,
+"lemma": "uscire",
+"pos": "v.int."
+},
+{
+"n": 465,
+"lemma": "vacanza",
+"pos": "s.f."
+},
+{
+"n": 466,
+"lemma": "valigia",
+"pos": "s.f."
+},
+{
+"n": 467,
+"lemma": "vecchio",
+"pos": "agg."
+},
+{
+"n": 468,
+"lemma": "vedersi",
+"pos": "v. rifl. recip."
+},
+{
+"n": 469,
+"lemma": "venerdì",
+"pos": "s.m."
+},
+{
+"n": 470,
+"lemma": "venire",
+"pos": "v.int."
+},
+{
+"n": 471,
+"lemma": "verde",
+"pos": "agg."
+},
+{
+"n": 472,
+"lemma": "verdura",
+"pos": "s.f."
+},
+{
+"n": 473,
+"lemma": "vero",
+"pos": "agg."
+},
+{
+"n": 474,
+"lemma": "vestito",
+"pos": "s.m."
+},
+{
+"n": 475,
+"lemma": "via",
+"pos": "s.f."
+},
+{
+"n": 476,
+"lemma": "viaggiare",
+"pos": "v.int."
+},
+{
+"n": 477,
+"lemma": "viaggio",
+"pos": "s.m."
+},
+{
+"n": 478,
+"lemma": "vicino",
+"pos": "avv."
+},
+{
+"n": 479,
+"lemma": "vino",
+"pos": "s.m."
+},
+{
+"n": 480,
+"lemma": "visitare",
+"pos": "v.t."
+},
+{
+"n": 481,
+"lemma": "visto",
+"pos": "s.m."
+},
+{
+"n": 482,
+"lemma": "vivere",
+"pos": "v.int."
+},
+{
+"n": 483,
+"lemma": "voi",
+"pos": "pron."
+},
+{
+"n": 484,
+"lemma": "volere",
+"pos": "v.int."
+},
+{
+"n": 485,
+"lemma": "zaino",
+"pos": "s.m."
+},
+{
+"n": 486,
+"lemma": "zucchero",
+"pos": "s.m."
+}
+]
