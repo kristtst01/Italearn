@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
-import { Search } from 'lucide-react';
+import { ArrowDown, ArrowUp, Search } from 'lucide-react';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { cn } from '@/lib/utils';
 import { getVocab } from '@/engine/vocabCache';
 import { useSrsStore } from '@/stores/srsStore';
@@ -51,7 +52,7 @@ const SORT_OPTIONS: { key: SortKey; label: string }[] = [
   { key: 'alpha', label: 'A–Z' },
   { key: 'strength', label: 'Strength' },
   { key: 'due', label: 'Due date' },
-  { key: 'unit', label: 'Unit' },
+  { key: 'unit', label: 'Chapter' },
 ];
 
 /** Map unit IDs to human-readable names from curriculum. */
@@ -67,6 +68,34 @@ function getUnitName(unitId: string): string {
 function unitOrder(unitId: string): number {
   const match = unitId.match(/(\d+)/);
   return match ? parseInt(match[1], 10) : 0;
+}
+
+/** A dropdown for the toolbar (shadcn Select). `options` maps each value to its label. */
+function Dropdown({
+  label,
+  value,
+  options,
+  onChange,
+}: {
+  label: string;
+  value: string;
+  options: { value: string; label: string }[];
+  onChange: (value: string) => void;
+}) {
+  return (
+    <Select items={options} value={value} onValueChange={(v) => v !== null && onChange(v)}>
+      <SelectTrigger size="lg" aria-label={label}>
+        <SelectValue />
+      </SelectTrigger>
+      <SelectContent alignItemWithTrigger={false} align="start">
+        {options.map((o) => (
+          <SelectItem key={o.value} value={o.value}>
+            {o.label}
+          </SelectItem>
+        ))}
+      </SelectContent>
+    </Select>
+  );
 }
 
 export default function WordBankPage() {
@@ -151,11 +180,7 @@ export default function WordBankPage() {
     return list;
   }, [filtered, sortKey, reversed, cardMap]);
 
-  const pill = (active: boolean) =>
-    cn(
-      'cursor-pointer rounded-full border px-3 py-1 text-sm font-medium whitespace-nowrap transition-colors',
-      active ? 'border-foreground bg-foreground text-white' : 'border-border bg-white text-muted-foreground hover:text-foreground',
-    );
+  const control = 'h-11 rounded-lg border-2 border-border bg-white text-base outline-none transition-colors focus:border-cobalto';
 
   return (
     <div className="flex flex-col gap-5">
@@ -164,52 +189,64 @@ export default function WordBankPage() {
         <span className="text-sm text-muted-foreground">{sorted.length} of {words.length}</span>
       </div>
 
-      <div className="relative max-w-xl">
-        <Search className="absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-muted-foreground" />
-        <input
-          type="text"
-          placeholder="Search words…"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          className="w-full rounded-lg border-2 border-border bg-white py-2.5 pr-4 pl-10 text-base outline-none transition-colors focus:border-cobalto"
-        />
-      </div>
+      {/* One toolbar: search, status, chapter, sort. Controls stay the same size however many chapters exist. */}
+      <div className="flex flex-wrap items-center gap-3">
+        <div className="relative min-w-60 flex-1">
+          <Search className="absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-muted-foreground" />
+          <input
+            type="text"
+            placeholder="Search words…"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className={cn(control, 'w-full pr-4 pl-10')}
+          />
+        </div>
 
-      <div className="flex flex-col gap-2.5">
-        <div className="flex flex-wrap items-center gap-1.5">
-          <span className="mr-1 text-xs font-bold tracking-label text-muted-foreground uppercase">Sort</span>
-          {SORT_OPTIONS.map((opt) => (
+        <div role="group" aria-label="Filter by status" className="flex h-11 rounded-lg border-2 border-border bg-white p-0.5">
+          {([null, 'due', 'learning', 'mature'] as (SRSStatus | null)[]).map((st) => (
             <button
-              key={opt.key}
+              key={st ?? 'all'}
               type="button"
-              onClick={() => {
-                if (sortKey === opt.key) {
-                  setReversed((r) => !r);
-                } else {
-                  setSortKey(opt.key);
-                  setReversed(false);
-                }
-              }}
-              className={pill(sortKey === opt.key)}
+              aria-pressed={filterStatus === st}
+              onClick={() => setFilterStatus(st)}
+              className={cn(
+                'rounded-md px-3.5 text-sm font-medium transition-colors',
+                filterStatus === st ? 'bg-foreground text-white' : 'text-muted-foreground hover:text-foreground',
+              )}
             >
-              {opt.label}
-              {sortKey === opt.key && (reversed ? ' ↑' : ' ↓')}
+              {st ? STATUS_INFO[st].label : 'All'}
             </button>
           ))}
         </div>
-        <div className="flex flex-wrap items-center gap-1.5">
-          <span className="mr-1 text-xs font-bold tracking-label text-muted-foreground uppercase">Show</span>
-          {(['due', 'learning', 'mature', 'new'] as SRSStatus[]).map((st) => (
-            <button key={st} type="button" onClick={() => setFilterStatus(filterStatus === st ? null : st)} className={pill(filterStatus === st)}>
-              {STATUS_INFO[st].label}
-            </button>
-          ))}
-          <span className="mx-1 h-5 w-px shrink-0 bg-border" />
-          {units.map((uid) => (
-            <button key={uid} type="button" onClick={() => setFilterUnit(filterUnit === uid ? null : uid)} className={pill(filterUnit === uid)}>
-              {getUnitName(uid)}
-            </button>
-          ))}
+
+        <Dropdown
+          label="Chapter"
+          value={filterUnit ?? 'all'}
+          options={[
+            { value: 'all', label: 'All chapters' },
+            ...units.map((uid) => ({ value: uid, label: getUnitName(uid) })),
+          ]}
+          onChange={(v) => setFilterUnit(v === 'all' ? null : v)}
+        />
+
+        <div className="flex items-center gap-1">
+          <Dropdown
+            label="Sort by"
+            value={sortKey}
+            options={SORT_OPTIONS.map((opt) => ({ value: opt.key, label: opt.label }))}
+            onChange={(v) => {
+              setSortKey(v as SortKey);
+              setReversed(false);
+            }}
+          />
+          <button
+            type="button"
+            onClick={() => setReversed((r) => !r)}
+            aria-label={reversed ? 'Sort descending' : 'Sort ascending'}
+            className={cn(control, 'flex w-11 items-center justify-center text-muted-foreground hover:text-foreground')}
+          >
+            {reversed ? <ArrowUp className="size-4" /> : <ArrowDown className="size-4" />}
+          </button>
         </div>
       </div>
 

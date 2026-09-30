@@ -38,7 +38,7 @@ function TopBar() {
               end={to === '/'}
               className={({ isActive }) =>
                 cn(
-                  'flex h-full items-center border-b-3 pt-0.5 text-base',
+                  'flex h-full items-center border-b-3 pt-0.5 text-base outline-none focus-visible:ring-2 focus-visible:ring-cobalto focus-visible:ring-inset',
                   isActive
                     ? 'border-vermiglione font-bold text-foreground'
                     : 'border-transparent font-medium text-muted-foreground hover:text-foreground',

@@ -13,7 +13,7 @@ function Tab({ to, children }: { to: string; children: string }) {
       end
       className={({ isActive }) =>
         cn(
-          'border-b-2 pb-1.5 text-base',
+          'border-b-2 pb-1.5 text-base outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cobalto',
           isActive ? 'border-foreground font-bold text-foreground' : 'border-transparent font-medium text-muted-foreground hover:text-foreground',
         )
       }
