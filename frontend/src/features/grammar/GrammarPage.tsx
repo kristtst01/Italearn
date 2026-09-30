@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { GRAMMAR_PLAN } from '@/data/grammarPlan';
 import { getChapter } from '@/engine/chapters';
+import { grammarUnitStatus } from '@/engine/grammar';
 import { MajolicaTile, Page, PageHeader } from '@/shared/components/design';
 
 export default function GrammarPage() {
@@ -24,7 +25,7 @@ export default function GrammarPage() {
               to={`/grammar/${g.id}`}
               className="flex items-center gap-5 rounded-lg border border-border bg-white px-5 py-4 text-foreground hover:border-muted-foreground/40"
             >
-              <MajolicaTile status="empty" size={40} />
+              <MajolicaTile status={grammarUnitStatus(g.id)} size={40} />
               <div className="flex flex-1 flex-col gap-0.5">
                 <span className="font-display text-sm text-muted-foreground">{String(g.order).padStart(2, '0')}</span>
                 <span className="text-lg font-bold">{g.title}</span>

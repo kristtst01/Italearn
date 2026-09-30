@@ -1,7 +1,9 @@
 import { Link, NavLink, Outlet } from 'react-router-dom';
 import { useProgressStore } from '@/stores/progressStore';
 import { chapterProgress, chapterStatus, getChapters, recommendedChapter } from '@/engine/chapters';
-import { Page, PageHeader, Placeholder, SegmentBar, Status } from '@/shared/components/design';
+import { GrammarChip, Page, PageHeader, Placeholder, SegmentBar, Status } from '@/shared/components/design';
+import { grammarForChapter } from '@/data/grammarPlan';
+import { grammarUnitStatus } from '@/engine/grammar';
 import { cn } from '@/lib/utils';
 
 function Tab({ to, children }: { to: string; children: string }) {
@@ -55,7 +57,7 @@ export function ChaptersTab() {
     <>
       <div className="flex items-baseline justify-between">
         <h2 className="font-display text-heading">A1 · Breakthrough</h2>
-        <p className="text-sm text-muted-foreground">Everything is open. Chapters show what they build on.</p>
+        <p className="text-sm text-muted-foreground">Everything is open. Each chapter shows the grammar it uses.</p>
       </div>
       <div className="grid grid-cols-3 gap-3.5">
         {getChapters().map((unit) => {
@@ -75,7 +77,12 @@ export function ChaptersTab() {
                 <span className="font-display text-sm text-muted-foreground">{String(unit.order).padStart(2, '0')}</span>
                 <Status kind={isNext ? 'recommended' : status} />
               </div>
-              <p className="flex-1 text-lg font-bold leading-snug">{unit.name}</p>
+              <p className="text-lg font-bold leading-snug">{unit.name}</p>
+              <div className="flex flex-1 flex-wrap content-start gap-x-3.5 gap-y-1.5">
+                {grammarForChapter(unit.id).map((g) => (
+                  <GrammarChip key={g.id} label={g.short} status={grammarUnitStatus(g.id)} />
+                ))}
+              </div>
               <p className="text-sm text-muted-foreground">{unit.lessons.length} lessons</p>
               <SegmentBar learned={status === 'learned' ? 100 : 0} inProgress={status === 'in-progress' ? pct : 0} />
             </Link>

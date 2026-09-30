@@ -3,6 +3,7 @@ import { useSrsStore } from '@/stores/srsStore';
 import { getAllVocab } from '@/engine/vocabCache';
 import { getChapters, stampEarned } from '@/engine/chapters';
 import { GRAMMAR_PLAN } from '@/data/grammarPlan';
+import { grammarTiles } from '@/engine/grammar';
 import { Label, Page, PageHeader, Postcard, SegmentBar, Stamp, TileGrid } from '@/shared/components/design';
 
 export default function ProgressPage() {
@@ -50,11 +51,12 @@ export default function ProgressPage() {
           </div>
         </div>
         <div className="flex w-105 shrink-0 items-center gap-5.5">
-          <TileGrid tiles={GRAMMAR_PLAN.map(() => 'empty')} size={44} />
+          <TileGrid tiles={grammarTiles()} size={44} />
           <div className="flex flex-col gap-1">
             <Label>Grammar units</Label>
             <p className="font-display text-3xl">
-              0<span className="font-sans text-base font-medium text-muted-foreground"> of {GRAMMAR_PLAN.length}</span>
+              {grammarTiles().filter((t) => t === 'learned').length}
+              <span className="font-sans text-base font-medium text-muted-foreground"> of {GRAMMAR_PLAN.length}</span>
             </p>
             <p className="text-sm text-muted-foreground">Coming soon</p>
           </div>

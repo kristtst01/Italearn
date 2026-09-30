@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom';
 import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
 import { nextLesson, recommendedChapter } from '@/engine/chapters';
-import { GRAMMAR_PLAN, grammarForChapter } from '@/data/grammarPlan';
+import { grammarForChapter } from '@/data/grammarPlan';
+import { grammarTiles } from '@/engine/grammar';
 import { buttonVariants } from '@/components/ui/button';
 import { Label, Page, PageHeader, Placeholder, TileGrid } from '@/shared/components/design';
 
@@ -82,7 +83,7 @@ export default function TodayPage() {
           <div className="flex flex-col gap-3">
             <Label>A1 grammar</Label>
             <div className="flex items-center gap-3.5">
-              <TileGrid tiles={GRAMMAR_PLAN.map(() => 'empty')} size={36} />
+              <TileGrid tiles={grammarTiles()} size={36} />
               <p className="text-sm text-muted-foreground">
                 <b className="text-foreground">0 learned</b>
                 <br />

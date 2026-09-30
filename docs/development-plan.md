@@ -213,6 +213,7 @@ Likely shape:
 - More speaking exercises: listen-and-repeat, respond to a spoken prompt (tiered: short answers via browser speech recognition, longer via server STT, LLM for lenient grading)
 - Listening exercises: listen-and-choose, dictation, minimal pairs (need the audio pipeline, Workstream 2b)
 - Badges: decide whether to keep them now that checkpoints are gone
+- **Recommended course in Today** (user idea, 2026-09-30): a suggested order through chapters and grammar units. E.g. once the learner has finished the chapters that sit at their current grammar level, Today recommends the next grammar unit before more chapters. Builds on the Today planner and the chapter → grammar unit links (`data/grammarPlan.ts`).
 
 ## Open Questions
 

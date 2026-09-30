@@ -286,3 +286,16 @@ export function Correction({ wrong, right }: { wrong?: string; right: string }) 
     </p>
   );
 }
+
+// ── Grammar chip ──────────────────────────────────────
+
+/** A grammar unit a chapter uses, with its status as a small majolica tile. */
+export function GrammarChip({ label, status }: { label: string; status: TileStatus }) {
+  const text = { learned: 'learned', 'in-progress': 'in progress', empty: 'not started' }[status];
+  return (
+    <span className="flex items-center gap-1.5 text-sm font-medium" title={`${label}: ${text}`}>
+      <MajolicaTile status={status} size={18} />
+      {label}
+    </span>
+  );
+}

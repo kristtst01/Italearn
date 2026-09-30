@@ -33,7 +33,7 @@ export const curriculum: Curriculum = {
         {
           id: 'unit-02',
           section_id: 'section-01',
-          name: 'Who Am I? — Essere & Introductions',
+          name: 'Who Am I?',
           grammar_focus: 'Subject pronouns (io, tu, lui/lei, noi, voi, loro), full present tense of essere',
           vocabulary_targets: ['mi chiamo', 'sono', 'sei', 'è', 'siamo', 'siete', 'di dove', 'chi'],
           grammar_notes: 'Essere is the #1 most frequent Italian verb. Origin expressed as "Sono di [città]" — nationalities are NOT introduced yet (require adjective agreement from Unit 6). Pronoun dropping taught from the start.',
@@ -51,7 +51,7 @@ export const curriculum: Curriculum = {
         {
           id: 'unit-03',
           section_id: 'section-01',
-          name: 'Things — Nouns, Gender & Articles',
+          name: 'Things',
           grammar_focus: 'Grammatical gender, indefinite articles (un, uno, una, un\'), definite articles (il, lo, la, l\', i, gli, le), plural formation',
           vocabulary_targets: ['libro', 'penna', 'tavolo', 'sedia', 'casa', 'acqua', 'c\'è', 'ci sono'],
           grammar_notes: 'The article+gender system is the structural backbone of Italian. Every noun is masculine or feminine, and articles must agree. This is the densest grammar topic in A1 — 7 definite articles and 4 indefinite articles.',
@@ -68,7 +68,7 @@ export const curriculum: Curriculum = {
         {
           id: 'unit-04',
           section_id: 'section-01',
-          name: 'Counting — Numbers 0-100',
+          name: 'Counting',
           grammar_focus: 'None — pure vocabulary memorization with pattern rules for 21-100',
           vocabulary_targets: ['zero', 'uno', 'due', 'dieci', 'venti', 'trenta', 'cento', 'quanto'],
           grammar_notes: 'Numbers are rote vocabulary. 0-20 are unique words. 21-100 follow predictable patterns: [tens]+[units], dropping final vowel before uno/otto (ventuno, ventotto). Tre takes accent when appended (ventitré).',
@@ -93,7 +93,7 @@ export const curriculum: Curriculum = {
         {
           id: 'unit-05',
           section_id: 'section-02',
-          name: 'Having & Needing — Avere',
+          name: 'Having & Needing',
           grammar_focus: 'Present tense of avere (ho, hai, ha, abbiamo, avete, hanno)',
           vocabulary_targets: ['ho', 'hai', 'ha', 'abbiamo', 'hanno', 'avere idioms (age, hunger, thirst, cold, fear)'],
           grammar_notes: 'Avere is the #2 most frequent Italian verb. Beyond possession, it\'s used idiomatically for age (ho 25 anni), hunger (ho fame), thirst (ho sete), cold (ho freddo), heat (ho caldo), fear (ho paura), and need (ho bisogno di). These are avere + noun with no article.',
