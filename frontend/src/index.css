@@ -16,6 +16,12 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
+    /* Only our palette exists: Tailwind's default colours are switched off, so raw
+       colours (bg-blue-500) don't compile to anything. */
+    --color-*: initial;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
     /* Palette */
     --color-bianco: #FCFCFA;
     --color-nero: #1B1B1B;
