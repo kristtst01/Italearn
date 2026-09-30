@@ -2,7 +2,10 @@ import { Link } from 'react-router-dom';
 import { GRAMMAR_PLAN } from '@/data/grammarPlan';
 import { getChapter } from '@/engine/chapters';
 import { grammarUnitStatus } from '@/engine/grammar';
-import { MajolicaTile, Page, PageHeader } from '@/shared/components/design';
+import { isGrammarUnitWritten } from '@/data/grammarLoader';
+import { MajolicaTile, Page, PageHeader, Status } from '@/shared/components/design';
+
+const TILE_TO_STATUS = { learned: 'learned', 'in-progress': 'in-progress', empty: 'not-started' } as const;
 
 export default function GrammarPage() {
   return (
@@ -33,7 +36,11 @@ export default function GrammarPage() {
                   Used in {g.chapters.map((c) => getChapter(c)?.name).filter(Boolean).join(', ')}
                 </span>
               </div>
-              <span className="text-xs font-bold uppercase tracking-label text-muted-foreground">Not written yet</span>
+              {isGrammarUnitWritten(g.id) ? (
+                <Status kind={TILE_TO_STATUS[grammarUnitStatus(g.id)]} />
+              ) : (
+                <span className="text-xs font-bold uppercase tracking-label text-muted-foreground">Not written yet</span>
+              )}
             </Link>
           </li>
         ))}

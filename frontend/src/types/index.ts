@@ -31,3 +31,12 @@ export type {
   VocabEntry,
   XPLogEntry,
 } from './progress';
+
+export type {
+  GrammarPoint,
+  GrammarPractice,
+  GrammarStop,
+  GrammarUnitContent,
+  GrammarUnitProgress,
+  MasteryAttempt,
+} from './grammar';

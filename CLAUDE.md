@@ -30,7 +30,7 @@ frontend/src/
   features/            # One folder per feature: page + components + hooks
     today/             # / — Today: plan built from due reviews + recommended chapter
     library/           # /library (chapter grid, Words tab) and /library/:unitId (Chapter page)
-    grammar/           # /grammar (A1 grammar units) and /grammar/:grammarId (unit: study → practice → mastery)
+    grammar/           # /grammar, /grammar/:grammarId (the reading), /grammar/:grammarId/practice/:stopId and /check (sessions)
     progress/          # /progress — words known, grammar tiles, stamp book
     lesson/            # /lesson/:id — LessonPage, useLessonState (retry, completion, SRS card creation), GrammarTip
     review/            # /review — SRS review session
@@ -56,7 +56,10 @@ frontend/src/
   types/               # All interfaces, barrel export from types/index.ts
   data/
     curriculum.ts      # A1 sections → units (chapters: can_do, stamp_title) → LessonMeta (with role)
-    grammarPlan.ts     # The planned A1 grammar units (not written yet)
+    grammarPlan.ts     # The A1 grammar units in order (title, covers, chapters that use them)
+    grammarLoader.ts   # Lazy-loads written units from grammar/
+    grammar/           # <id>.md = the reading (Markdown; `> Italian` + `> English` lines are examples);
+                       #   <id>.practice.json = practice stops (each placed after a reading heading) + mastery check; exercises tagged with grammar_points
     lessonLoader.ts    # Lazy-loads lesson JSON via import.meta.glob
     units/unit-NN/     # One JSON file per lesson: unit-NN-lesson-NN.json
 
@@ -93,8 +96,8 @@ data/italian-frequency-50k.txt  # Italian word frequency list (reference for voc
 3. `free_form` exercises are graded by `/grade-free-response` against the model answer.
 
 ## Exercise Subtypes
-Implemented: `multiple_choice`, `type_answer`, `arrange_words`, `fill_blank`, `cloze`, `match_pairs`, `read_aloud`, `free_form`.
-Planned (render as a "coming soon" card via `PlannedExerciseCard`, described in `exercises/plannedExercises.ts`): `transformation`, `structured_input`, `find_mistake`, `translation`, `dialogue_completion`, `dictation`, `minimal_pair`, `listen_and_choose`, `listen_and_repeat`, `spoken_answer`. `reading_comprehension` is superseded by comprehension lesson kinds.
+Implemented: `multiple_choice`, `type_answer`, `arrange_words`, `fill_blank`, `cloze`, `match_pairs`, `read_aloud`, `free_form`, `transformation` and `find_mistake` (both `RewriteSentence`; `correct_answer` lists every accepted sentence, model answer first). `strict_accents: true` makes a missing accent wrong (for è/e and similar).
+Planned (render as a "coming soon" card via `PlannedExerciseCard`, described in `exercises/plannedExercises.ts`): `structured_input`, `translation`, `dialogue_completion`, `dictation`, `minimal_pair`, `listen_and_choose`, `listen_and_repeat`, `spoken_answer`. `reading_comprehension` is superseded by comprehension lesson kinds.
 
 ## Known Issues
 - `npx eslint src/` reports 9 errors and 1 warning (react-hooks rules and shadcn `only-export-components`), all pre-existing.

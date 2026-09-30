@@ -22,6 +22,22 @@ class DailyActivity(BaseModel):
     reviews: int = 0
 
 
+class MasteryAttempt(BaseModel):
+    score: int
+    total: int
+    passed: bool
+    at: str
+    missedPoints: list[str] = []
+
+
+class GrammarUnitProgress(BaseModel):
+    studiedAt: str | None = None
+    stopsDone: list[str] = []
+    practisedAt: str | None = None
+    learnedAt: str | None = None
+    lastCheck: MasteryAttempt | None = None
+
+
 class ProgressResponse(BaseModel):
     id: uuid.UUID
     current_section: str
@@ -36,6 +52,7 @@ class ProgressResponse(BaseModel):
     badges: list[Badge]
     streak_dates: list[str]
     daily_activity: dict[str, DailyActivity]
+    grammar_units: dict[str, GrammarUnitProgress] = {}
 
     model_config = {"from_attributes": True}
 
@@ -53,3 +70,4 @@ class ProgressUpdate(BaseModel):
     badges: list[Any] | None = None
     streak_dates: list[str] | None = None
     daily_activity: dict[str, Any] | None = None
+    grammar_units: dict[str, Any] | None = None

@@ -10,6 +10,7 @@ import LibraryPage, { ChaptersTab } from '@/features/library/LibraryPage'
 import ChapterPage from '@/features/library/ChapterPage'
 import GrammarPage from '@/features/grammar/GrammarPage'
 import GrammarUnitPage from '@/features/grammar/GrammarUnitPage'
+import GrammarSessionPage from '@/features/grammar/GrammarSessionPage'
 import ProgressPage from '@/features/progress/ProgressPage'
 import ExerciseGallery from '@/features/dev/ExerciseGallery'
 import LessonPage from '@/features/lesson/LessonPage'
@@ -61,6 +62,8 @@ export default function App() {
 
               {/* Immersive pages */}
               <Route path="/lesson/:id" element={<LessonPage />} />
+              <Route path="/grammar/:grammarId/practice/:stopId" element={<GrammarSessionPage mode="practice" />} />
+              <Route path="/grammar/:grammarId/check" element={<GrammarSessionPage mode="check" />} />
             </Routes>
           </HydrationGuard>
         </SignedIn>

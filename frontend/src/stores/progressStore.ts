@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import type { Badge, DailyActivity, LessonScore, UserProgress } from '../types';
+import type { Badge, DailyActivity, GrammarUnitProgress, LessonScore, MasteryAttempt, UserProgress } from '../types';
 import { getCurrentStreak, todayDateString } from '../engine/streak';
 import { findLesson, collectTargetWords } from '../engine/lessonRunner';
 import * as api from '../engine/api';
@@ -19,6 +19,7 @@ const DEFAULT_PROGRESS: UserProgress = {
   badges: [],
   streak_dates: [],
   daily_activity: {},
+  grammar_units: {},
 };
 
 interface ProgressState extends UserProgress {
@@ -29,6 +30,9 @@ interface ProgressState extends UserProgress {
   resetLesson: (lessonId: string) => Promise<void>;
   unlockUnit: (unitId: string) => Promise<void>;
   logActivity: (type: 'lesson' | 'review') => Promise<void>;
+  markGrammarStep: (unitId: string, step: 'studiedAt' | 'practisedAt') => void;
+  completeGrammarStop: (unitId: string, stopId: string, allStopIds: string[]) => void;
+  recordMasteryCheck: (unitId: string, attempt: MasteryAttempt) => void;
 }
 
 function toData(state: ProgressState): Omit<UserProgress, 'id'> {
@@ -44,6 +48,7 @@ function toData(state: ProgressState): Omit<UserProgress, 'id'> {
     badges: state.badges,
     streak_dates: state.streak_dates,
     daily_activity: state.daily_activity,
+    grammar_units: state.grammar_units,
   };
 }
 
@@ -73,6 +78,7 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
         badges: (saved.badges as Badge[]) ?? [],
         streak_dates: (saved.streak_dates as string[]) ?? [],
         daily_activity: (saved.daily_activity as Record<string, DailyActivity>) ?? {},
+        grammar_units: (saved.grammar_units as Record<string, GrammarUnitProgress>) ?? {},
         hydrated: true,
       });
     } catch (err) {
@@ -120,6 +126,41 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
 
   async unlockUnit(unitId: string) {
     set({ current_unit: unitId });
+    persist(get());
+  },
+
+  /** First time the reading was finished or the practice completed (kept once set). */
+  markGrammarStep(unitId, step) {
+    const current = get().grammar_units[unitId] ?? {};
+    if (current[step]) return;
+    set({ grammar_units: { ...get().grammar_units, [unitId]: { ...current, [step]: new Date().toISOString() } } });
+    persist(get());
+  },
+
+  /** Records a finished practice stop; the unit is practised once every stop is done. */
+  completeGrammarStop(unitId, stopId, allStopIds) {
+    const current = get().grammar_units[unitId] ?? {};
+    const stopsDone = current.stopsDone?.includes(stopId) ? current.stopsDone : [...(current.stopsDone ?? []), stopId];
+    const allDone = allStopIds.every((id) => stopsDone.includes(id));
+    const updated: GrammarUnitProgress = {
+      ...current,
+      studiedAt: current.studiedAt ?? new Date().toISOString(),
+      stopsDone,
+      practisedAt: current.practisedAt ?? (allDone ? new Date().toISOString() : undefined),
+    };
+    set({ grammar_units: { ...get().grammar_units, [unitId]: updated } });
+    persist(get());
+  },
+
+  /** Keeps the latest attempt; a pass makes the unit learned (for good, even if a later retake fails). */
+  recordMasteryCheck(unitId, attempt) {
+    const current = get().grammar_units[unitId] ?? {};
+    const updated: GrammarUnitProgress = {
+      ...current,
+      lastCheck: attempt,
+      learnedAt: current.learnedAt ?? (attempt.passed ? attempt.at : undefined),
+    };
+    set({ grammar_units: { ...get().grammar_units, [unitId]: updated } });
     persist(get());
   },
 

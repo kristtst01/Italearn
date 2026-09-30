@@ -1,0 +1,1271 @@
+{
+  "unit_id": "a1-avere",
+  "points": {
+    "avere-forms": {
+      "label": "The forms of avere",
+      "section": "Avere: to have"
+    },
+    "silent-h": {
+      "label": "The silent h",
+      "section": "Avere: to have"
+    },
+    "avere-uses": {
+      "label": "Possession, family and age",
+      "section": "What avere is used for"
+    },
+    "avere-expressions": {
+      "label": "Avere expressions",
+      "section": "Avere expressions"
+    },
+    "hot-cold": {
+      "label": "Hot and cold",
+      "section": "Hot and cold: avere, essere or fare?"
+    },
+    "essere-or-avere": {
+      "label": "Essere or avere?",
+      "section": "Essere or avere?"
+    },
+    "questions-negatives": {
+      "label": "Questions and negatives",
+      "section": "Questions and negatives"
+    }
+  },
+  "stops": [
+    {
+      "id": "forms",
+      "title": "The forms of avere",
+      "after": "Avere: to have",
+      "exercises": [
+        {
+          "id": "a1-avere-p-01",
+          "type": "vocab",
+          "subtype": "match_pairs",
+          "prompt": {
+            "text": "Match each pronoun with its form of avere."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "io|ho",
+            "tu|hai",
+            "lui|ha",
+            "noi|abbiamo",
+            "voi|avete",
+            "loro|hanno"
+          ],
+          "distractors": [],
+          "hints": [],
+          "target_words": [],
+          "grammar_points": [
+            "avere-forms"
+          ]
+        },
+        {
+          "id": "a1-avere-p-02",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of avere."
+          },
+          "sentence_context": "Tu ___ un gatto?",
+          "correct_answer": "hai",
+          "distractors": [],
+          "hints": [
+            "The tu form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-forms",
+            "silent-h"
+          ]
+        },
+        {
+          "id": "a1-avere-p-03",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of avere."
+          },
+          "sentence_context": "Noi ___ una macchina.",
+          "correct_answer": "abbiamo",
+          "distractors": [],
+          "hints": [
+            "The noi form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-forms"
+          ]
+        },
+        {
+          "id": "a1-avere-p-04",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of avere."
+          },
+          "sentence_context": "Voi ___ fratelli?",
+          "correct_answer": "avete",
+          "distractors": [],
+          "hints": [
+            "The voi form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-forms"
+          ]
+        },
+        {
+          "id": "a1-avere-p-05",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of avere."
+          },
+          "sentence_context": "Marco e Anna ___ un cane.",
+          "correct_answer": "hanno",
+          "distractors": [],
+          "hints": [
+            "Marco and Anna = loro."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-forms",
+            "silent-h"
+          ]
+        },
+        {
+          "id": "a1-avere-p-06",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of avere."
+          },
+          "sentence_context": "Giulia ___ una sorella.",
+          "correct_answer": "ha",
+          "distractors": [],
+          "hints": [
+            "Giulia = lei."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-forms",
+            "silent-h"
+          ]
+        },
+        {
+          "id": "a1-avere-p-07",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'we have' in Italian?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "abbiamo",
+            "noi abbiamo"
+          ],
+          "distractors": [],
+          "hints": [
+            "The noi form of avere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-forms"
+          ]
+        },
+        {
+          "id": "a1-avere-p-08",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with ho (I have) or o (or)."
+          },
+          "sentence_context": "Un caffè ___ un'acqua?",
+          "correct_answer": "o",
+          "distractors": [],
+          "hints": [
+            "'Or' has no h."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "silent-h"
+          ]
+        },
+        {
+          "id": "a1-avere-p-09",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with ha (has) or a (at)."
+          },
+          "sentence_context": "Marco ___ un cane.",
+          "correct_answer": "ha",
+          "distractors": [],
+          "hints": [
+            "'Has' keeps its h."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "silent-h"
+          ]
+        },
+        {
+          "id": "a1-avere-p-10",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with ha (has) or a (at)."
+          },
+          "sentence_context": "Sono ___ casa.",
+          "correct_answer": "a",
+          "distractors": [],
+          "hints": [
+            "'At' has no h."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "silent-h"
+          ]
+        },
+        {
+          "id": "a1-avere-p-11",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with hanno (they have) or anno (year)."
+          },
+          "sentence_context": "Loro ___ due gatti.",
+          "correct_answer": "hanno",
+          "distractors": [],
+          "hints": [
+            "'They have' keeps its h."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "silent-h"
+          ]
+        },
+        {
+          "id": "a1-avere-p-12",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite the sentence with noi."
+          },
+          "sentence_context": "Ho un cane.",
+          "correct_answer": [
+            "Abbiamo un cane.",
+            "Noi abbiamo un cane."
+          ],
+          "distractors": [],
+          "hints": [
+            "Noi abbiamo."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-forms"
+          ]
+        },
+        {
+          "id": "a1-avere-p-13",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite the question with loro."
+          },
+          "sentence_context": "Hai una macchina?",
+          "correct_answer": [
+            "Hanno una macchina?",
+            "Loro hanno una macchina?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Loro hanno."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-forms"
+          ]
+        },
+        {
+          "id": "a1-avere-p-14",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite the question with voi."
+          },
+          "sentence_context": "Ha un fratello?",
+          "correct_answer": [
+            "Avete un fratello?",
+            "Voi avete un fratello?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Voi avete."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-forms"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uses",
+      "title": "Possession, family and age",
+      "after": "What avere is used for",
+      "exercises": [
+        {
+          "id": "a1-avere-p-15",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'I'm 25'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Ho 25 anni.",
+          "distractors": [
+            "Sono 25 anni.",
+            "Ho 25."
+          ],
+          "hints": [
+            "Age uses avere, and anni is always needed."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-uses"
+          ]
+        },
+        {
+          "id": "a1-avere-p-16",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Ask a friend 'How old are you?'"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Quanti anni hai?",
+            "Tu quanti anni hai?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Literally: how many years do you have?"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-uses"
+          ]
+        },
+        {
+          "id": "a1-avere-p-17",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: 'My grandmother is 80.'"
+          },
+          "sentence_context": "Mia nonna ___ 80 anni.",
+          "correct_answer": "ha",
+          "distractors": [],
+          "hints": [
+            "Age uses avere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-uses",
+            "silent-h"
+          ]
+        },
+        {
+          "id": "a1-avere-p-18",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: 'I'm 30.'"
+          },
+          "sentence_context": "Ho 30 ___.",
+          "correct_answer": "anni",
+          "distractors": [],
+          "hints": [
+            "The number needs 'years' after it."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-uses"
+          ]
+        },
+        {
+          "id": "a1-avere-p-19",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite the sentence with tu."
+          },
+          "sentence_context": "Ho 18 anni.",
+          "correct_answer": [
+            "Hai 18 anni.",
+            "Tu hai 18 anni."
+          ],
+          "distractors": [],
+          "hints": [
+            "Tu hai."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-uses",
+            "avere-forms"
+          ]
+        },
+        {
+          "id": "a1-avere-p-20",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'Hai fratelli?' mean?"
+          },
+          "sentence_context": "Hai fratelli?",
+          "correct_answer": "Do you have any brothers or sisters?",
+          "distractors": [
+            "Are you brothers?",
+            "Do you have a brother?"
+          ],
+          "hints": [
+            "Fratelli can mean brothers, or brothers and sisters together."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-uses"
+          ]
+        },
+        {
+          "id": "a1-avere-p-21",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Ask formally: 'Do you have a car?'"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Ha la macchina?",
+            "Lei ha la macchina?",
+            "Ha una macchina?",
+            "Lei ha una macchina?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Formal Lei takes ha."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-uses",
+            "avere-forms"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expressions",
+      "title": "Avere expressions, hot and cold",
+      "after": "Hot and cold: avere, essere or fare?",
+      "exercises": [
+        {
+          "id": "a1-avere-p-22",
+          "type": "vocab",
+          "subtype": "match_pairs",
+          "prompt": {
+            "text": "Match each noun with its meaning in avere + noun."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "fame|hungry",
+            "sete|thirsty",
+            "sonno|sleepy",
+            "paura|afraid",
+            "fretta|in a hurry",
+            "ragione|right"
+          ],
+          "distractors": [],
+          "hints": [],
+          "target_words": [],
+          "grammar_points": [
+            "avere-expressions"
+          ]
+        },
+        {
+          "id": "a1-avere-p-23",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'I'm hungry'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Ho fame.",
+          "distractors": [
+            "Sono fame.",
+            "Ho la fame."
+          ],
+          "hints": [
+            "Avere + fame, with no article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-expressions"
+          ]
+        },
+        {
+          "id": "a1-avere-p-24",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'I'm thirsty'?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Ho sete.",
+            "Io ho sete."
+          ],
+          "distractors": [],
+          "hints": [
+            "Avere + sete."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-expressions"
+          ]
+        },
+        {
+          "id": "a1-avere-p-25",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'We're in a hurry'?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Abbiamo fretta.",
+            "Noi abbiamo fretta."
+          ],
+          "distractors": [],
+          "hints": [
+            "Avere + fretta."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-expressions",
+            "avere-forms"
+          ]
+        },
+        {
+          "id": "a1-avere-p-26",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: 'You're right!' (to a friend)"
+          },
+          "sentence_context": "___ ragione!",
+          "correct_answer": [
+            "Hai",
+            "hai"
+          ],
+          "distractors": [],
+          "hints": [
+            "Being right is avere ragione."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-expressions"
+          ]
+        },
+        {
+          "id": "a1-avere-p-27",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with 'very': I'm very hungry."
+          },
+          "sentence_context": "Ho ___ fame.",
+          "correct_answer": "molta",
+          "distractors": [],
+          "hints": [
+            "Fame is feminine, so molto becomes molta."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-expressions"
+          ]
+        },
+        {
+          "id": "a1-avere-p-28",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with 'very': I'm very cold."
+          },
+          "sentence_context": "Ho ___ freddo.",
+          "correct_answer": "molto",
+          "distractors": [],
+          "hints": [
+            "Freddo is masculine."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-expressions"
+          ]
+        },
+        {
+          "id": "a1-avere-p-29",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: 'I need help.'"
+          },
+          "sentence_context": "Ho bisogno ___ aiuto.",
+          "correct_answer": "di",
+          "distractors": [],
+          "hints": [
+            "Bisogno takes di."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-expressions"
+          ]
+        },
+        {
+          "id": "a1-avere-p-30",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'I feel like a coffee'?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Ho voglia di un caffè.",
+            "Ho voglia di caffè."
+          ],
+          "distractors": [],
+          "hints": [
+            "Avere voglia di + what you feel like."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-expressions"
+          ]
+        },
+        {
+          "id": "a1-avere-p-31",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You feel cold. What do you say?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Ho freddo.",
+          "distractors": [
+            "Sono freddo.",
+            "È freddo."
+          ],
+          "hints": [
+            "A person feeling cold: avere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "hot-cold"
+          ]
+        },
+        {
+          "id": "a1-avere-p-32",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "It's a hot day. How do you say 'It's hot today'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Oggi fa caldo.",
+          "distractors": [
+            "Oggi ha caldo.",
+            "Oggi sono caldo."
+          ],
+          "hints": [
+            "The weather: fare."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "hot-cold"
+          ]
+        },
+        {
+          "id": "a1-avere-p-33",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Your coffee has gone cold. What do you say?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Il caffè è freddo.",
+          "distractors": [
+            "Il caffè ha freddo.",
+            "Il caffè fa freddo."
+          ],
+          "hints": [
+            "A thing being cold: essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "hot-cold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Essere or avere, and mixed mistakes",
+      "after": "Questions and negatives",
+      "exercises": [
+        {
+          "id": "a1-avere-p-34",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with essere or avere."
+          },
+          "sentence_context": "Marco ___ stanco.",
+          "correct_answer": "è",
+          "distractors": [],
+          "hints": [
+            "Tired is an adjective: essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-or-avere"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-avere-p-35",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with essere or avere."
+          },
+          "sentence_context": "Marco ___ fame.",
+          "correct_answer": "ha",
+          "distractors": [],
+          "hints": [
+            "Hunger is a noun: avere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-or-avere"
+          ]
+        },
+        {
+          "id": "a1-avere-p-36",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with essere or avere."
+          },
+          "sentence_context": "Noi ___ di Roma.",
+          "correct_answer": "siamo",
+          "distractors": [],
+          "hints": [
+            "Where you're from: essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-or-avere"
+          ]
+        },
+        {
+          "id": "a1-avere-p-37",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with essere or avere."
+          },
+          "sentence_context": "Noi ___ 20 anni.",
+          "correct_answer": "abbiamo",
+          "distractors": [],
+          "hints": [
+            "Age: avere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-or-avere"
+          ]
+        },
+        {
+          "id": "a1-avere-p-38",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with essere or avere."
+          },
+          "sentence_context": "Tu ___ ragione.",
+          "correct_answer": "hai",
+          "distractors": [],
+          "hints": [
+            "Being right: avere ragione."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-or-avere"
+          ]
+        },
+        {
+          "id": "a1-avere-p-39",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with essere or avere."
+          },
+          "sentence_context": "Tu ___ italiano?",
+          "correct_answer": "sei",
+          "distractors": [],
+          "hints": [
+            "Nationality: essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-or-avere"
+          ]
+        },
+        {
+          "id": "a1-avere-p-40",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make the sentence negative."
+          },
+          "sentence_context": "Ho fame.",
+          "correct_answer": [
+            "Non ho fame."
+          ],
+          "distractors": [],
+          "hints": [
+            "Non goes directly before the verb."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questions-negatives"
+          ]
+        },
+        {
+          "id": "a1-avere-p-41",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Answer 'no' in a full sentence: Avete un cane?"
+          },
+          "sentence_context": "Avete un cane?",
+          "correct_answer": [
+            "No, non abbiamo un cane.",
+            "No, noi non abbiamo un cane."
+          ],
+          "distractors": [],
+          "hints": [
+            "Answer with noi, and put non before the verb."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questions-negatives",
+            "avere-forms"
+          ]
+        },
+        {
+          "id": "a1-avere-p-42",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Sono 20 anni.",
+          "correct_answer": [
+            "Ho 20 anni."
+          ],
+          "distractors": [],
+          "hints": [
+            "Age uses avere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-uses"
+          ]
+        },
+        {
+          "id": "a1-avere-p-43",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Sono fame.",
+          "correct_answer": [
+            "Ho fame."
+          ],
+          "distractors": [],
+          "hints": [
+            "Hunger uses avere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-expressions"
+          ]
+        },
+        {
+          "id": "a1-avere-p-44",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Ho molto fame.",
+          "correct_answer": [
+            "Ho molta fame."
+          ],
+          "distractors": [],
+          "hints": [
+            "Molto agrees with la fame."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-expressions"
+          ]
+        },
+        {
+          "id": "a1-avere-p-45",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Ho bisogno un caffè.",
+          "correct_answer": [
+            "Ho bisogno di un caffè."
+          ],
+          "distractors": [],
+          "hints": [
+            "Bisogno needs di."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-expressions"
+          ]
+        },
+        {
+          "id": "a1-avere-p-46",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake: you want to say 'I'm right'."
+          },
+          "sentence_context": "Sono giusto.",
+          "correct_answer": [
+            "Ho ragione."
+          ],
+          "distractors": [],
+          "hints": [
+            "Being right is avere ragione."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-expressions"
+          ]
+        },
+        {
+          "id": "a1-avere-p-47",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "È freddo oggi.",
+          "correct_answer": [
+            "Oggi fa freddo.",
+            "Fa freddo oggi."
+          ],
+          "distractors": [],
+          "hints": [
+            "The weather uses fare."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "hot-cold"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-avere-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the correct form of avere."
+        },
+        "sentence_context": "Voi ___ un gatto?",
+        "correct_answer": "avete",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "avere-forms"
+        ]
+      },
+      {
+        "id": "a1-avere-m-02",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the correct form of avere."
+        },
+        "sentence_context": "Luca e Sara ___ una casa a Roma.",
+        "correct_answer": "hanno",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "avere-forms",
+          "silent-h"
+        ]
+      },
+      {
+        "id": "a1-avere-m-03",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Complete with ha (has) or a (at)."
+        },
+        "sentence_context": "Anna ___ una sorella.",
+        "correct_answer": "ha",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "silent-h"
+        ]
+      },
+      {
+        "id": "a1-avere-m-04",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Rewrite the question with noi."
+        },
+        "sentence_context": "Hai fretta?",
+        "correct_answer": [
+          "Abbiamo fretta?",
+          "Noi abbiamo fretta?"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "avere-forms",
+          "avere-expressions"
+        ]
+      },
+      {
+        "id": "a1-avere-m-05",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Make the sentence negative."
+        },
+        "sentence_context": "Abbiamo tempo.",
+        "correct_answer": [
+          "Non abbiamo tempo."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "questions-negatives"
+        ]
+      },
+      {
+        "id": "a1-avere-m-06",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "How do you say 'I'm 40'?"
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Ho 40 anni.",
+          "Ho quarant'anni.",
+          "Ho quaranta anni."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "avere-uses"
+        ]
+      },
+      {
+        "id": "a1-avere-m-07",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Ask a friend 'Are you thirsty?'"
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Hai sete?",
+          "Tu hai sete?"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "avere-expressions"
+        ]
+      },
+      {
+        "id": "a1-avere-m-08",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "How do you say 'I need help'?"
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Ho bisogno di aiuto.",
+          "Ho bisogno d'aiuto."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "avere-expressions"
+        ]
+      },
+      {
+        "id": "a1-avere-m-09",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Complete with 'very': I'm very sleepy."
+        },
+        "sentence_context": "Ho ___ sonno.",
+        "correct_answer": "molto",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "avere-expressions"
+        ]
+      },
+      {
+        "id": "a1-avere-m-10",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "You're sitting in the sun and feel hot. What do you say?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Ho caldo.",
+        "distractors": [
+          "Sono caldo.",
+          "È caldo."
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "hot-cold"
+        ]
+      },
+      {
+        "id": "a1-avere-m-11",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "The water is cold. How do you say it?"
+        },
+        "sentence_context": "",
+        "correct_answer": "L'acqua è fredda.",
+        "distractors": [
+          "L'acqua ha freddo.",
+          "L'acqua fa freddo."
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "hot-cold"
+        ]
+      },
+      {
+        "id": "a1-avere-m-12",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Complete with essere or avere."
+        },
+        "sentence_context": "Giulia ___ 30 anni.",
+        "correct_answer": "ha",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "essere-or-avere"
+        ]
+      },
+      {
+        "id": "a1-avere-m-13",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Complete with essere or avere."
+        },
+        "sentence_context": "Io ___ studente.",
+        "correct_answer": "sono",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "essere-or-avere"
+        ]
+      },
+      {
+        "id": "a1-avere-m-14",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Sono sete.",
+        "correct_answer": [
+          "Ho sete."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "avere-expressions"
+        ]
+      },
+      {
+        "id": "a1-avere-m-15",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Ho voglia un caffè.",
+        "correct_answer": [
+          "Ho voglia di un caffè."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "avere-expressions"
+        ]
+      }
+    ]
+  }
+}

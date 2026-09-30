@@ -16,6 +16,8 @@ const SAMPLES: Exercise[] = [
   { ...base, id: 'dev-cloze', type: 'vocab', subtype: 'cloze', prompt: { text: 'Complete the sentence.' }, sentence_context: 'Ho due ___ e una sorella.', correct_answer: 'fratelli', hints: ['I have two brothers and a sister.'] },
   { ...base, id: 'dev-match', type: 'vocab', subtype: 'match_pairs', prompt: { text: 'Match the Italian words with their meanings.' }, sentence_context: '', correct_answer: ['madre|mother', 'padre|father', 'nonno|grandfather', 'zia|aunt'] },
   { ...base, id: 'dev-read', type: 'speaking', subtype: 'read_aloud', prompt: { text: 'Read this sentence aloud.' }, sentence_context: 'Mia madre si chiama Anna.', correct_answer: 'Mia madre si chiama Anna.' },
+  { ...base, id: 'dev-transform', type: 'writing', subtype: 'transformation', prompt: { text: 'Rewrite the sentence with noi.' }, sentence_context: 'Sono di Roma.', correct_answer: ['Siamo di Roma.', 'Noi siamo di Roma.'], hints: ['Noi siamo.'] },
+  { ...base, id: 'dev-mistake', type: 'writing', subtype: 'find_mistake', prompt: { text: 'Fix the mistake.' }, sentence_context: 'Sono fame.', correct_answer: ['Ho fame.'], hints: ['Hunger uses avere.'] },
   { ...base, id: 'dev-free', type: 'writing', subtype: 'free_form', prompt: { text: 'Describe your family in three or four sentences.' }, sentence_context: '', correct_answer: 'Nella mia famiglia siamo in quattro. Mio padre si chiama Paolo e mia madre si chiama Anna. Ho un fratello.', hints: ['Use mio / mia and the family rule.'] },
 ];
 

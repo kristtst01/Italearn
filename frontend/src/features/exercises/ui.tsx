@@ -34,7 +34,7 @@ export function ExercisePrompt({ exercise, showContext = false }: { exercise: Ex
 
   if (!split) {
     return (
-      <p className="text-2xl font-bold leading-snug">
+      <p className="min-h-[2lh] text-2xl font-bold leading-snug">
         <HighlightedText text={text} words={exercise.target_words} />
       </p>
     );
@@ -61,7 +61,7 @@ export function Prompt({ instruction, children }: { instruction?: ReactNode; chi
   return (
     <div className="flex flex-col gap-2">
       {instruction && <Label>{instruction}</Label>}
-      {children && <p className="text-2xl font-bold leading-snug">{children}</p>}
+      {children && <p className="min-h-[2lh] text-2xl font-bold leading-snug">{children}</p>}
     </div>
   );
 }

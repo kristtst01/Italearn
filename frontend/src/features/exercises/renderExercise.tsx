@@ -6,6 +6,7 @@ import FillInBlank from './FillInBlank';
 import MatchPairs from './MatchPairs';
 import ReadAloud from './ReadAloud';
 import FreeResponse from './FreeResponse';
+import RewriteSentence from './RewriteSentence';
 import PlannedExerciseCard from './PlannedExerciseCard';
 
 interface ExerciseProps {
@@ -32,6 +33,9 @@ export default function renderExercise({ exercise, onComplete }: ExerciseProps) 
       return <ReadAloud key={exercise.id} {...props} />;
     case 'free_form':
       return <FreeResponse key={exercise.id} {...props} />;
+    case 'transformation':
+    case 'find_mistake':
+      return <RewriteSentence key={exercise.id} {...props} />;
     default:
       return <PlannedExerciseCard key={exercise.id} {...props} />;
   }

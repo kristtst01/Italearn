@@ -10,23 +10,11 @@ export interface PlannedExercise {
 }
 
 export const PLANNED_EXERCISES: Partial<Record<ExerciseSubtype, PlannedExercise>> = {
-  transformation: {
-    name: 'Transform',
-    trains: 'Controlling a whole grammar system',
-    description: 'Rewrite a sentence for another person, number or gender.',
-    example: { prompt: 'Io parlo italiano. → noi', answer: 'Noi parliamo italiano.' },
-  },
   structured_input: {
     name: 'Whose is it?',
     trains: 'Noticing form to get the meaning',
     description: 'Answer a question you can only get right by paying attention to an ending, article or pronoun.',
     example: { prompt: '"Parlano italiano." Who is speaking?', answer: 'They' },
-  },
-  find_mistake: {
-    name: 'Fix the mistake',
-    trains: 'Noticing errors, especially English interference',
-    description: 'Spot what is wrong in a sentence and correct it.',
-    example: { prompt: 'Sono fame.', answer: 'Ho fame.' },
   },
   translation: {
     name: 'Translate',

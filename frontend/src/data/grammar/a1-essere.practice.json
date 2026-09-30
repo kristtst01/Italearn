@@ -1,0 +1,1365 @@
+{
+  "unit_id": "a1-essere",
+  "points": {
+    "pronouns": {
+      "label": "Subject pronouns",
+      "section": "Subject pronouns"
+    },
+    "address": {
+      "label": "Tu, Lei and voi",
+      "section": "Tu, Lei and voi"
+    },
+    "pronoun-drop": {
+      "label": "Dropping the pronoun",
+      "section": "Dropping the pronoun"
+    },
+    "essere-forms": {
+      "label": "The forms of essere",
+      "section": "Essere: to be"
+    },
+    "accent-e": {
+      "label": "È and e",
+      "section": "Essere: to be"
+    },
+    "essere-uses": {
+      "label": "What essere is used for",
+      "section": "What essere is used for"
+    },
+    "essere-stare": {
+      "label": "Essere and stare",
+      "section": "Essere and stare"
+    },
+    "questions-negatives": {
+      "label": "Questions and negatives",
+      "section": "Questions and negatives"
+    }
+  },
+  "stops": [
+    {
+      "id": "pronouns",
+      "title": "Pronouns and tu, Lei or voi",
+      "after": "Tu, Lei and voi",
+      "exercises": [
+        {
+          "id": "a1-essere-p-01",
+          "type": "vocab",
+          "subtype": "match_pairs",
+          "prompt": {
+            "text": "Match each pronoun with its meaning."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "io|I",
+            "tu|you (informal)",
+            "lui|he",
+            "lei|she",
+            "noi|we",
+            "voi|you (plural)",
+            "loro|they"
+          ],
+          "distractors": [],
+          "hints": [],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-essere-p-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'loro' mean?"
+          },
+          "sentence_context": "Loro sono di Firenze.",
+          "correct_answer": "they",
+          "distractors": [
+            "you (plural)",
+            "we",
+            "she"
+          ],
+          "hints": [
+            "Loro covers any group: men, women or mixed."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-essere-p-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which pronoun means 'you (formal)'?"
+          },
+          "sentence_context": "Signora, ___ è di Roma?",
+          "correct_answer": "Lei",
+          "distractors": [
+            "tu",
+            "voi",
+            "lui"
+          ],
+          "hints": [
+            "One person, formal: the capital-L pronoun with the 3rd-person verb."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns",
+            "address"
+          ]
+        },
+        {
+          "id": "a1-essere-p-04",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You ask a friend where they're from. Which 'you'?"
+          },
+          "sentence_context": "Di dove sei?",
+          "correct_answer": "tu",
+          "distractors": [
+            "Lei",
+            "voi"
+          ],
+          "hints": [
+            "A friend is someone you know well."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "address"
+          ]
+        },
+        {
+          "id": "a1-essere-p-05",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You ask an older stranger on a train where they're from. Which 'you'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Lei",
+          "distractors": [
+            "tu",
+            "voi"
+          ],
+          "hints": [
+            "One person you don't know: formal."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "address"
+          ]
+        },
+        {
+          "id": "a1-essere-p-06",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You ask two classmates where they're from. Which 'you'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "voi",
+          "distractors": [
+            "tu",
+            "Lei"
+          ],
+          "hints": [
+            "Two or more people, formal or informal."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "address"
+          ]
+        },
+        {
+          "id": "a1-essere-p-07",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You ask a group of doctors at a conference where they're from. Which 'you'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "voi",
+          "distractors": [
+            "Lei",
+            "tu"
+          ],
+          "hints": [
+            "Any group takes voi, even a formal one."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "address"
+          ]
+        },
+        {
+          "id": "a1-essere-p-08",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you ask a male shop assistant 'Are you Italian?'"
+          },
+          "sentence_context": "",
+          "correct_answer": "Lei è italiano?",
+          "distractors": [
+            "Sei italiano?",
+            "Siete italiano?"
+          ],
+          "hints": [
+            "Formal Lei takes the same verb as lui and lei: è."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "address",
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-09",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "'Lei è di Napoli.' Who could this be about?"
+          },
+          "sentence_context": "Lei è di Napoli.",
+          "correct_answer": "she, or you (formal)",
+          "distractors": [
+            "only she",
+            "only you (formal)",
+            "they"
+          ],
+          "hints": [
+            "lei (she) and Lei (formal you) sound the same and take the same verb. Context decides."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "address",
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-essere-p-10",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: you're speaking formally to Mrs Bianchi."
+          },
+          "sentence_context": "Signora Bianchi, ___ è di Milano?",
+          "correct_answer": [
+            "Lei",
+            "lei"
+          ],
+          "distractors": [],
+          "hints": [
+            "One person, formal."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "address"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "The forms of essere",
+      "after": "Essere: to be",
+      "exercises": [
+        {
+          "id": "a1-essere-p-11",
+          "type": "vocab",
+          "subtype": "match_pairs",
+          "prompt": {
+            "text": "Match each pronoun with its form of essere."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "io|sono",
+            "tu|sei",
+            "lui|è",
+            "noi|siamo",
+            "voi|siete"
+          ],
+          "distractors": [],
+          "hints": [],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-12",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of essere."
+          },
+          "sentence_context": "Noi ___ studenti.",
+          "correct_answer": "siamo",
+          "distractors": [],
+          "hints": [
+            "The noi form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-13",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of essere."
+          },
+          "sentence_context": "Voi ___ di Roma?",
+          "correct_answer": "siete",
+          "distractors": [],
+          "hints": [
+            "The voi form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-14",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of essere."
+          },
+          "sentence_context": "Marco e Anna ___ di Firenze.",
+          "correct_answer": "sono",
+          "distractors": [],
+          "hints": [
+            "Marco and Anna = loro."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-15",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of essere."
+          },
+          "sentence_context": "Anna e io ___ di Roma.",
+          "correct_answer": "siamo",
+          "distractors": [],
+          "hints": [
+            "Anna and I = noi."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-16",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of essere."
+          },
+          "sentence_context": "Tu e Marco ___ di Milano?",
+          "correct_answer": "siete",
+          "distractors": [],
+          "hints": [
+            "You and Marco = voi."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-17",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "'Sono di Milano.' Who could be speaking or being spoken about?"
+          },
+          "sentence_context": "Sono di Milano.",
+          "correct_answer": "I, or they",
+          "distractors": [
+            "only I",
+            "only they",
+            "we"
+          ],
+          "hints": [
+            "Sono is both 'I am' and 'they are'."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-18",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'you (plural) are' in Italian?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "siete",
+            "voi siete"
+          ],
+          "distractors": [],
+          "hints": [
+            "The voi form of essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-19",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite the sentence with noi."
+          },
+          "sentence_context": "Sono di Roma.",
+          "correct_answer": [
+            "Siamo di Roma.",
+            "Noi siamo di Roma."
+          ],
+          "distractors": [],
+          "hints": [
+            "Noi siamo."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-20",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite the sentence with tu."
+          },
+          "sentence_context": "Sono studente.",
+          "correct_answer": [
+            "Sei studente.",
+            "Tu sei studente."
+          ],
+          "distractors": [],
+          "hints": [
+            "Tu sei."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-21",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite the sentence with loro."
+          },
+          "sentence_context": "È di Torino.",
+          "correct_answer": [
+            "Sono di Torino.",
+            "Loro sono di Torino."
+          ],
+          "distractors": [],
+          "hints": [
+            "Loro sono."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-22",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite the sentence with voi."
+          },
+          "sentence_context": "Sei di Milano?",
+          "correct_answer": [
+            "Siete di Milano?",
+            "Voi siete di Milano?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Voi siete."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-23",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite the question for Lei (formal)."
+          },
+          "sentence_context": "Sei di Firenze?",
+          "correct_answer": [
+            "Lei è di Firenze?",
+            "È di Firenze?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Formal Lei takes è."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms",
+            "address"
+          ]
+        },
+        {
+          "id": "a1-essere-p-24",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with e (and) or è (is)."
+          },
+          "sentence_context": "Marco ___ di Roma.",
+          "correct_answer": "è",
+          "distractors": [],
+          "hints": [
+            "Is or and?"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "accent-e"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-essere-p-25",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with e (and) or è (is)."
+          },
+          "sentence_context": "Marco ___ Anna sono di Roma.",
+          "correct_answer": "e",
+          "distractors": [],
+          "hints": [
+            "Is or and?"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "accent-e"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-essere-p-26",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You introduce yourself. Which is the natural, neutral way?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Sono Marco.",
+          "distractors": [
+            "Io sono Marco.",
+            "Marco sono."
+          ],
+          "hints": [
+            "The verb ending already says who it is. Io here sounds emphatic."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronoun-drop"
+          ]
+        },
+        {
+          "id": "a1-essere-p-27",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: you contrast yourself with someone else."
+          },
+          "sentence_context": "___ sono di Roma, lui è di Napoli.",
+          "correct_answer": [
+            "Io",
+            "io"
+          ],
+          "distractors": [],
+          "hints": [
+            "Contrast is a reason to keep the pronoun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronoun-drop"
+          ]
+        },
+        {
+          "id": "a1-essere-p-28",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Someone says 'Sono stanco.' How do you say 'Me too'?"
+          },
+          "sentence_context": "Sono stanco.",
+          "correct_answer": "Anch'io.",
+          "distractors": [
+            "Anche sono.",
+            "Anche me."
+          ],
+          "hints": [
+            "After anche you need the pronoun: anch'io or anche io."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronoun-drop"
+          ]
+        },
+        {
+          "id": "a1-essere-p-29",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "'Chi è di Milano?' You are. What do you answer?"
+          },
+          "sentence_context": "Chi è di Milano?",
+          "correct_answer": "Io.",
+          "distractors": [
+            "Sono.",
+            "Me."
+          ],
+          "hints": [
+            "A pronoun on its own needs the subject form, io."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronoun-drop"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uses",
+      "title": "Using essere, and stare",
+      "after": "Essere and stare",
+      "exercises": [
+        {
+          "id": "a1-essere-p-30",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say where you're from: Bologna."
+          },
+          "sentence_context": "Sono ___ Bologna.",
+          "correct_answer": "di",
+          "distractors": [],
+          "hints": [
+            "Essere di + city."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-uses"
+          ]
+        },
+        {
+          "id": "a1-essere-p-31",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "A woman from Italy says:"
+          },
+          "sentence_context": "",
+          "correct_answer": "Sono italiana.",
+          "distractors": [
+            "Sono italiano.",
+            "Sono di Italia."
+          ],
+          "hints": [
+            "A woman says italiana. Di goes with cities, not countries."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-uses"
+          ]
+        },
+        {
+          "id": "a1-essere-p-32",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "A man from Italy says:"
+          },
+          "sentence_context": "",
+          "correct_answer": "Sono italiano.",
+          "distractors": [
+            "Sono italiana.",
+            "Sono di Italia."
+          ],
+          "hints": [
+            "A man says italiano."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-uses"
+          ]
+        },
+        {
+          "id": "a1-essere-p-33",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "A woman from England says:"
+          },
+          "sentence_context": "",
+          "correct_answer": "Sono inglese.",
+          "distractors": [
+            "Sono inglesa.",
+            "Sono di Inghilterra."
+          ],
+          "hints": [
+            "Nationalities ending in -e are the same for a man and a woman."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-uses"
+          ]
+        },
+        {
+          "id": "a1-essere-p-34",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'I'm a teacher'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Sono insegnante.",
+          "distractors": [
+            "Ho insegnante.",
+            "Sto insegnante."
+          ],
+          "hints": [
+            "Professions use essere, usually without an article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-uses"
+          ]
+        },
+        {
+          "id": "a1-essere-p-35",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you ask a friend 'Where are you from?'"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Di dove sei?",
+            "Tu di dove sei?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Di dove + essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-uses"
+          ]
+        },
+        {
+          "id": "a1-essere-p-36",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: 'Where is the station?'"
+          },
+          "sentence_context": "___ la stazione?",
+          "correct_answer": [
+            "Dov'è",
+            "dov'è"
+          ],
+          "distractors": [],
+          "hints": [
+            "Dove + è, shortened before the vowel."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-uses",
+            "accent-e"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-essere-p-37",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "A friend asks 'Come stai?' You're well."
+          },
+          "sentence_context": "Come stai?",
+          "correct_answer": "Sto bene.",
+          "distractors": [
+            "Sono bene.",
+            "Ho bene."
+          ],
+          "hints": [
+            "How you are uses stare."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-stare"
+          ]
+        },
+        {
+          "id": "a1-essere-p-38",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which sentence means 'I'm tired'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Sono stanco.",
+          "distractors": [
+            "Sto stanco.",
+            "Ho stanco."
+          ],
+          "hints": [
+            "Describing yourself with an adjective uses essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-stare",
+            "essere-uses"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Questions, negatives and mixed mistakes",
+      "after": "Questions and negatives",
+      "exercises": [
+        {
+          "id": "a1-essere-p-39",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make the sentence negative."
+          },
+          "sentence_context": "Sono di Roma.",
+          "correct_answer": [
+            "Non sono di Roma."
+          ],
+          "distractors": [],
+          "hints": [
+            "Non goes directly before the verb."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questions-negatives"
+          ]
+        },
+        {
+          "id": "a1-essere-p-40",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make the sentence negative."
+          },
+          "sentence_context": "Marco è a casa.",
+          "correct_answer": [
+            "Marco non è a casa."
+          ],
+          "distractors": [],
+          "hints": [
+            "Non goes directly before the verb."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questions-negatives"
+          ]
+        },
+        {
+          "id": "a1-essere-p-41",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Turn the statement into a question."
+          },
+          "sentence_context": "Sei italiano.",
+          "correct_answer": [
+            "Sei italiano?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Same words, with a question mark."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questions-negatives"
+          ]
+        },
+        {
+          "id": "a1-essere-p-42",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Answer 'no' in a full sentence: Siete studenti?"
+          },
+          "sentence_context": "Siete studenti?",
+          "correct_answer": [
+            "No, non siamo studenti.",
+            "No, noi non siamo studenti."
+          ],
+          "distractors": [],
+          "hints": [
+            "Answer with noi, and put non before the verb."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questions-negatives",
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-43",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Lui e di Milano.",
+          "correct_answer": [
+            "Lui è di Milano.",
+            "È di Milano."
+          ],
+          "distractors": [],
+          "hints": [
+            "'Is' needs an accent."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "accent-e"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-essere-p-44",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Sono da Londra.",
+          "correct_answer": [
+            "Sono di Londra."
+          ],
+          "distractors": [],
+          "hints": [
+            "Where you're from is essere di + city."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-uses"
+          ]
+        },
+        {
+          "id": "a1-essere-p-45",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake: a woman is speaking."
+          },
+          "sentence_context": "Sono americano.",
+          "correct_answer": [
+            "Sono americana."
+          ],
+          "distractors": [],
+          "hints": [
+            "Nationalities in -o change for a woman: -o becomes -a."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-uses"
+          ]
+        },
+        {
+          "id": "a1-essere-p-46",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Come stai? Sono bene.",
+          "correct_answer": [
+            "Come stai? Sto bene."
+          ],
+          "distractors": [],
+          "hints": [
+            "How you are uses stare."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-stare"
+          ]
+        },
+        {
+          "id": "a1-essere-p-47",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Sono di Italia.",
+          "correct_answer": [
+            "Sono italiano.",
+            "Sono italiana."
+          ],
+          "distractors": [],
+          "hints": [
+            "Di goes with cities. For a country, use your nationality."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-uses"
+          ]
+        },
+        {
+          "id": "a1-essere-p-48",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Noi siete a casa.",
+          "correct_answer": [
+            "Noi siamo a casa.",
+            "Siamo a casa."
+          ],
+          "distractors": [],
+          "hints": [
+            "Check which form goes with noi."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "essere-forms"
+          ]
+        },
+        {
+          "id": "a1-essere-p-49",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake: you're speaking formally."
+          },
+          "sentence_context": "Signora, sei di Roma?",
+          "correct_answer": [
+            "Signora, è di Roma?",
+            "Signora, Lei è di Roma?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Formal Lei takes the 3rd-person verb."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "address"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-essere-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the correct form of essere."
+        },
+        "sentence_context": "Voi ___ di Palermo?",
+        "correct_answer": "siete",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "essere-forms"
+        ]
+      },
+      {
+        "id": "a1-essere-m-02",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the correct form of essere."
+        },
+        "sentence_context": "Giulia e io ___ a casa.",
+        "correct_answer": "siamo",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "essere-forms"
+        ]
+      },
+      {
+        "id": "a1-essere-m-03",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the correct form of essere."
+        },
+        "sentence_context": "Anna ___ insegnante.",
+        "correct_answer": "è",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "essere-forms",
+          "accent-e"
+        ],
+        "strict_accents": true
+      },
+      {
+        "id": "a1-essere-m-04",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Rewrite the sentence with loro."
+        },
+        "sentence_context": "Sei di Bari.",
+        "correct_answer": [
+          "Sono di Bari.",
+          "Loro sono di Bari."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "essere-forms"
+        ]
+      },
+      {
+        "id": "a1-essere-m-05",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Rewrite the question for Lei (formal)."
+        },
+        "sentence_context": "Sei medico?",
+        "correct_answer": [
+          "Lei è medico?",
+          "È medico?"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "essere-forms",
+          "address"
+        ]
+      },
+      {
+        "id": "a1-essere-m-06",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Make the sentence negative."
+        },
+        "sentence_context": "Siamo italiani.",
+        "correct_answer": [
+          "Non siamo italiani."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "questions-negatives"
+        ]
+      },
+      {
+        "id": "a1-essere-m-07",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "You ask your teacher, whom you don't know well, 'Are you from Rome?'"
+        },
+        "sentence_context": "",
+        "correct_answer": "Lei è di Roma?",
+        "distractors": [
+          "Sei di Roma?",
+          "Siete di Roma?"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "address"
+        ]
+      },
+      {
+        "id": "a1-essere-m-08",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "You ask three friends 'Are you tired?'"
+        },
+        "sentence_context": "",
+        "correct_answer": "Siete stanchi?",
+        "distractors": [
+          "Sei stanco?",
+          "È stanco?"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "address",
+          "essere-forms"
+        ]
+      },
+      {
+        "id": "a1-essere-m-09",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "Someone says 'Sono di Verona.' How do you say 'Me too'?"
+        },
+        "sentence_context": "Sono di Verona.",
+        "correct_answer": "Anch'io.",
+        "distractors": [
+          "Anche sono.",
+          "Anche me."
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "pronoun-drop"
+        ]
+      },
+      {
+        "id": "a1-essere-m-10",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "How do you say 'I'm well' in Italian?"
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Sto bene."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "essere-stare"
+        ]
+      },
+      {
+        "id": "a1-essere-m-11",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "A woman says 'I'm Italian'. Write it in Italian."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Sono italiana."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "essere-uses"
+        ]
+      },
+      {
+        "id": "a1-essere-m-12",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Marco e di Torino.",
+        "correct_answer": [
+          "Marco è di Torino."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "accent-e"
+        ],
+        "strict_accents": true
+      },
+      {
+        "id": "a1-essere-m-13",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Loro siamo studenti.",
+        "correct_answer": [
+          "Loro sono studenti.",
+          "Sono studenti."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "essere-forms"
+        ]
+      },
+      {
+        "id": "a1-essere-m-14",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Sono bene, grazie.",
+        "correct_answer": [
+          "Sto bene, grazie."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "essere-stare"
+        ]
+      },
+      {
+        "id": "a1-essere-m-15",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Siamo da Milano.",
+        "correct_answer": [
+          "Siamo di Milano."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "essere-uses"
+        ]
+      }
+    ]
+  }
+}

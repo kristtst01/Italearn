@@ -11,6 +11,11 @@ export interface ValidationResult {
   normalizedInput: string;
 }
 
+export interface ValidateOptions {
+  /** A missing or wrong accent makes the answer wrong (for exercises that test the accent) */
+  strictAccents?: boolean;
+}
+
 /** Normalize whitespace and strip trailing punctuation (?.!). */
 function normalize(s: string): string {
   return s.trim().replace(/\s+/g, ' ').replace(/[?!.]+$/, '');
@@ -79,6 +84,7 @@ function maxAllowedDistance(length: number): number {
 export function validateAnswer(
   userInput: string,
   correctAnswer: string,
+  { strictAccents = false }: ValidateOptions = {},
 ): ValidationResult {
   const normalizedInput = normalize(userInput);
   const normalizedExpected = normalize(correctAnswer);
@@ -92,8 +98,17 @@ export function validateAnswer(
   }
 
   // Tier 2: Match ignoring accents → correct but remind about accents
+  // (wrong when the accent is what's being tested)
   if (matchIgnoringAccents(inputLower, expectedLower)) {
     if (hasMissingAccents(inputLower, expectedLower)) {
+      if (strictAccents) {
+        return {
+          correct: false,
+          almostCorrect: true,
+          feedback: buildAccentFeedback(normalizedInput, normalizedExpected),
+          normalizedInput,
+        };
+      }
       return {
         correct: true,
         almostCorrect: false,
@@ -133,12 +148,13 @@ export function validateAnswer(
 export function validateAnswerMulti(
   userInput: string,
   correctAnswers: string | string[],
+  options: ValidateOptions = {},
 ): ValidationResult {
   const answers = Array.isArray(correctAnswers) ? correctAnswers : [correctAnswers];
   let bestResult: ValidationResult | null = null;
 
   for (const answer of answers) {
-    const result = validateAnswer(userInput, answer);
+    const result = validateAnswer(userInput, answer, options);
     if (result.correct) return result;
     if (!bestResult || result.almostCorrect) bestResult = result;
   }

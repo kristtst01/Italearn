@@ -41,7 +41,7 @@ export default function FillInBlank({
 
       {exercise.hints.length > 0 && <p className="-mt-4 text-base italic text-muted-foreground">{exercise.hints[0]}</p>}
 
-      <p className="text-2xl font-bold leading-relaxed">
+      <p className="min-h-[2lh] text-2xl font-bold leading-relaxed">
         {parts[0]}
         <span className="mx-1.5 inline-block min-w-28 border-b-3 border-cobalto align-baseline">
           <input

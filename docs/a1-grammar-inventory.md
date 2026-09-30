@@ -48,21 +48,22 @@ Grammar comes first: the unit order below is decided on its own merits (dependen
 
 | # | Unit | Covers | Chapters (provisional) |
 |---|---|---|---|
-| 1 | Essere, avere & subject pronouns | Pronouns, dropping them, essere, avere, essere vs avere, avere idioms | 2, 5 |
-| 2 | Nouns & the article system | Gender, -e nouns, invariables, plurals, all articles, c'è / ci sono | 3 |
-| 3 | The present tense | -are/-ere/-ire, -isc-, key irregulars, modals, vorrei, per + infinitive | 7, 9, 10, 12, 15 |
-| 4 | Questions, negation & linking | Question words, word order, non, double negatives, frequency, e/ma/perché/quando | 11 |
-| 5 | Adjectives, demonstratives & quantities | Agreement, position, nationalities, questo/quello, molto/poco/tanto/tutto/qualche, nessuno/niente | 6, 7, 17 |
-| 6 | Prepositions | Simple, a vs in with places, articulated, partitives, transport | 13, 14, 16 |
-| 7 | Numbers, time & dates | 0–100, ordinals, telling the time, days, months, seasons, dates | 4, 9, 19 |
-| 8 | Possessive adjectives | Forms, agreement, the article, the family rule, Suo | 8 |
-| 9 | Piacere | Mi piace/piacciono, indirect pronouns with piacere, piacere + infinitive, preferire | 18 |
-| 10 | Reflexive verbs | Pronouns, placement, common verbs | 9 |
-| 11 | The imperative | Tu and voi, affirmative and negative, va'/fa'/di', formal set phrases | 13 |
-| 12 | The passato prossimo | Participles, avere or essere, agreement with essere, irregular participles, reflexives, time expressions | 20 |
+| 1 | Subject pronouns & essere | Pronouns, tu/Lei/voi, dropping them, essere and its uses, essere vs stare, questions and non | 2 |
+| 2 | Avere | Avere, the silent h, age, avere expressions, hot and cold, essere or avere | 5 |
+| 3 | Nouns & the article system | Gender, -e nouns, invariables, plurals, all articles, c'è / ci sono | 3 |
+| 4 | The present tense | -are/-ere/-ire, -isc-, key irregulars, modals, vorrei, per + infinitive | 7, 9, 10, 12, 15 |
+| 5 | Questions, negation & linking | Question words, word order, non, double negatives, frequency, e/ma/perché/quando | 11 |
+| 6 | Adjectives, demonstratives & quantities | Agreement, position, nationalities, questo/quello, molto/poco/tanto/tutto/qualche, nessuno/niente | 6, 7, 17 |
+| 7 | Prepositions | Simple, a vs in with places, articulated, partitives, transport | 13, 14, 16 |
+| 8 | Numbers, time & dates | 0–100, ordinals, telling the time, days, months, seasons, dates | 4, 9, 19 |
+| 9 | Possessive adjectives | Forms, agreement, the article, the family rule, Suo | 8 |
+| 10 | Piacere | Mi piace/piacciono, indirect pronouns with piacere, piacere + infinitive, preferire | 18 |
+| 11 | Reflexive verbs | Pronouns, placement, common verbs | 9 |
+| 12 | The imperative | Tu and voi, affirmative and negative, va'/fa'/di', formal set phrases | 13 |
+| 13 | The passato prossimo | Participles, avere or essere, agreement with essere, irregular participles, reflexives, time expressions | 20 |
 
 Why this order:
-- The present tense comes third because almost every later unit needs working verbs.
+- The present tense comes straight after essere, avere and nouns, because almost every later unit needs working verbs.
 - Questions and negation follow straight after, since they only need the present.
 - Numbers, time and dates come after prepositions, because telling the time and giving dates use articulated prepositions (alle tre, dal lunedì).
 - Piacere comes before reflexives: it is more useful early and introduces the pronoun placement that reflexives reuse.
@@ -72,7 +73,7 @@ Why this order:
 
 1. **The passato prossimo is in A1**, as the last unit. CILS A1 and Nuovo Espresso 1 teach it, although the Profilo puts it at A2.
 2. **The imperative is in A1, lightly:** tu and voi, affirmative and negative, the common irregular forms, and formal forms only as set phrases (scusi, senta).
-3. **Essere and avere stay together** as one unit, the textbook approach. The chapters move to fit the grammar.
+3. **Essere and avere are two units**, pronouns + essere first, then avere. They were one unit at first; split so the first unit is lighter and each mastery check is focused. The essere/avere contrast is taught at the end of the avere unit.
 4. **Grammar drives chapters.** Chapters are reordered and rebuilt around this sequence.
 
 ## Vocabulary
