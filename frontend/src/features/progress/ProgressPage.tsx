@@ -44,10 +44,9 @@ export default function ProgressPage() {
             {known.size} <span className="font-sans text-base font-medium text-muted-foreground">known of {total}</span>
           </p>
           <SegmentBar learned={solidPct} fading={fadingPct} thick />
-          <div className="flex gap-4.5 text-sm text-muted-foreground">
+          <div className="flex flex-wrap gap-x-5 gap-y-1 text-sm whitespace-nowrap text-muted-foreground">
             <span className="flex items-center gap-1.5"><span className="size-2 rounded-full bg-learned" />{solidPct}% solid</span>
             <span className="flex items-center gap-1.5"><span className="size-2 rounded-full bg-fading" />{fadingPct}% due for review</span>
-            <span>Target is provisional until the A1 word list is sourced</span>
           </div>
         </div>
         <div className="flex w-105 shrink-0 items-center gap-5.5">
@@ -68,9 +67,9 @@ export default function ProgressPage() {
         meta={`${earnedCount} of ${stamps.length} collected`}
         postmark="A1"
       >
-        <div className="grid grid-cols-[repeat(7,7.5rem)] justify-between gap-y-5">
+        <div className="grid grid-cols-[repeat(auto-fill,minmax(7.5rem,1fr))] gap-5">
           {stamps.map(({ unit, earned }) => (
-            <Stamp key={unit.id} title={unit.stamp_title ?? unit.name} caption={`A1 · ${unit.name}`} earned={earned} />
+            <Stamp key={unit.id} title={unit.stamp_title ?? unit.name} caption={`A1 · ${unit.name}`} earned={earned} fluid />
           ))}
         </div>
       </Postcard>

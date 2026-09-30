@@ -192,17 +192,21 @@ export function Stamp({
   title,
   caption,
   earned,
+  fluid = false,
   className,
 }: {
   title: string;
   caption?: string;
   earned: boolean;
+  /** Fill the width of its container (e.g. a grid cell) and keep stamp proportions */
+  fluid?: boolean;
   className?: string;
 }) {
   return (
     <div
       className={cn(
-        'flex h-37 w-30 shrink-0 flex-col justify-between border-4 border-dotted bg-white p-2.5',
+        'flex shrink-0 flex-col justify-between border-4 border-dotted bg-white p-2.5',
+        fluid ? 'aspect-[120/148] w-full' : 'h-37 w-30',
         earned ? 'border-vermiglione-scuro' : 'border-muted-foreground/40',
         className,
       )}

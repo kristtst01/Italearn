@@ -97,5 +97,5 @@ Implemented: `multiple_choice`, `type_answer`, `arrange_words`, `fill_blank`, `c
 Planned (render as a "coming soon" card via `PlannedExerciseCard`, described in `exercises/plannedExercises.ts`): `transformation`, `structured_input`, `find_mistake`, `translation`, `dialogue_completion`, `dictation`, `minimal_pair`, `listen_and_choose`, `listen_and_repeat`, `spoken_answer`. `reading_comprehension` is superseded by comprehension lesson kinds.
 
 ## Known Issues
-- `npx eslint src/` reports 10 errors and 1 warning (react-hooks rules and shadcn `only-export-components`), all pre-existing.
+- `npx eslint src/` reports 9 errors and 1 warning (react-hooks rules and shadcn `only-export-components`), all pre-existing.
 - No tests.

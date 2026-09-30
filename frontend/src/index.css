@@ -129,7 +129,12 @@
     }
   html {
     @apply font-sans;
-    /* Reserve scrollbar space so pages don't shift when switching between short and long pages */
-    scrollbar-gutter: stable;
+    /* Hide the scrollbar (pages still scroll): no layout shift between short and long
+       pages, and no unpainted strip at the edge */
+    scrollbar-width: none;
+    }
+  /* Safari */
+  html::-webkit-scrollbar {
+    display: none;
     }
 }
