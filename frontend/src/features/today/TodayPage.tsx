@@ -70,11 +70,6 @@ export default function TodayPage() {
               <Link to={startHref} className={buttonVariants({ size: 'xl' })}>
                 Start session
               </Link>
-              {chapter && grammar && (
-                <p className="max-w-sm text-sm text-white/80">
-                  Why this next? {chapter.name} uses {grammar.title.toLowerCase()}.
-                </p>
-              )}
             </div>
           </div>
         </section>
