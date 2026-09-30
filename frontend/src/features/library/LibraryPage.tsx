@@ -55,10 +55,7 @@ export function ChaptersTab() {
 
   return (
     <>
-      <div className="flex items-baseline justify-between">
-        <h2 className="font-display text-heading">A1 · Breakthrough</h2>
-        <p className="text-sm text-muted-foreground">Everything is open. Each chapter shows the grammar it uses.</p>
-      </div>
+      <h2 className="font-display text-heading">A1 · Breakthrough</h2>
       <div className="grid grid-cols-3 gap-3.5">
         {getChapters().map((unit) => {
           const status = chapterStatus(unit, completed);
