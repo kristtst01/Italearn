@@ -130,7 +130,7 @@ Content is generated via LLM following CEFR progression and university Italian c
 
 ## Tech Stack
 
-- **Frontend:** Vite + React 19 + TypeScript, Tailwind CSS 4, shadcn/ui, Zustand, React Router
+- **Frontend:** Vite + React 19 + TypeScript, Tailwind CSS 4 (design tokens in `index.css`), shadcn/ui, Zustand, React Router
 - **Backend:** FastAPI + PostgreSQL (SQLAlchemy/Alembic), Docker Compose
 - **Auth:** Clerk
 - **FSRS:** ts-fsrs for spaced repetition scheduling
@@ -164,6 +164,7 @@ Needs `backend/.env` with `CLERK_SECRET_KEY`, `CLERK_PUBLISHABLE_KEY`, `ANTHROPI
 | [docs/development-plan.md](docs/development-plan.md) | Roadmap, what's built, open questions, decisions log |
 | [docs/a1-curriculum-plan.md](docs/a1-curriculum-plan.md) | A1 design: what it covers and why it's ordered this way |
 | [docs/exercise-generation-guide.md](docs/exercise-generation-guide.md) | Spec for authoring lesson content |
+| [docs/design-system.md](docs/design-system.md) | Colours, type, components and UI rules; tokens live in `frontend/src/index.css` |
 
 ## Research Sources
 

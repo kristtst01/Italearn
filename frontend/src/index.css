@@ -1,94 +1,71 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
-@import "@fontsource-variable/geist";
+@import "@fontsource-variable/archivo/wght.css";
+@import "@fontsource-variable/archivo/wght-italic.css";
+@import "@fontsource/archivo-black";
+@import "@fontsource/caveat/500.css";
 
+/*
+ * Design tokens: the single source of truth for colour, type and shape.
+ * See docs/design-system.md. Components use these token names only,
+ * never raw colours (bg-blue-500, #1F4FA8, text-[#...]).
+ */
+
+/* Dark mode is out of scope; the variant exists only so shadcn components compile. */
 @custom-variant dark (&:is(.dark *));
 
-:root {
-    --background: oklch(1 0 0);
-    --foreground: oklch(0.145 0 0);
-    --card: oklch(1 0 0);
-    --card-foreground: oklch(0.145 0 0);
-    --popover: oklch(1 0 0);
-    --popover-foreground: oklch(0.145 0 0);
-    --primary: oklch(0.205 0 0);
-    --primary-foreground: oklch(0.985 0 0);
-    --secondary: oklch(0.97 0 0);
-    --secondary-foreground: oklch(0.205 0 0);
-    --muted: oklch(0.97 0 0);
-    --muted-foreground: oklch(0.556 0 0);
-    --accent: oklch(0.97 0 0);
-    --accent-foreground: oklch(0.205 0 0);
-    --destructive: oklch(0.577 0.245 27.325);
-    --border: oklch(0.922 0 0);
-    --input: oklch(0.922 0 0);
-    --ring: oklch(0.708 0 0);
-    --chart-1: oklch(0.809 0.105 251.813);
-    --chart-2: oklch(0.623 0.214 259.815);
-    --chart-3: oklch(0.546 0.245 262.881);
-    --chart-4: oklch(0.488 0.243 264.376);
-    --chart-5: oklch(0.424 0.199 265.638);
-    --radius: 0.625rem;
-    --sidebar: oklch(0.985 0 0);
-    --sidebar-foreground: oklch(0.145 0 0);
-    --sidebar-primary: oklch(0.205 0 0);
-    --sidebar-primary-foreground: oklch(0.985 0 0);
-    --sidebar-accent: oklch(0.97 0 0);
-    --sidebar-accent-foreground: oklch(0.205 0 0);
-    --sidebar-border: oklch(0.922 0 0);
-    --sidebar-ring: oklch(0.708 0 0);
+@theme {
+    /* Palette */
+    --color-bianco: #FCFCFA;
+    --color-nero: #1B1B1B;
+    --color-grigio: #55504A;
+    --color-linea: #E4E4E0;
+    --color-vuoto: #E6E2DA;
+    --color-vermiglione: #E0482B;
+    --color-vermiglione-scuro: #B8341B;
+    --color-ocra: #D9A23A;
+    --color-cobalto: #1F4FA8;
+    --color-verde: #1F5E4A;
+    --color-maiolica: #FBF6EC;
+
+    /* Meaning */
+    --color-learned: var(--color-verde);
+    --color-in-progress: var(--color-ocra);
+    --color-fading: var(--color-vermiglione);
+    --color-grammar: var(--color-cobalto);
+    --color-correction: var(--color-vermiglione-scuro);
+
+    /* Type */
+    --font-sans: 'Archivo Variable', system-ui, sans-serif;
+    --font-display: 'Archivo Black', 'Archivo Variable', system-ui, sans-serif;
+    --font-hand: 'Caveat', cursive;
 }
 
-.dark {
-    --background: oklch(0.145 0 0);
-    --foreground: oklch(0.985 0 0);
-    --card: oklch(0.205 0 0);
-    --card-foreground: oklch(0.985 0 0);
-    --popover: oklch(0.205 0 0);
-    --popover-foreground: oklch(0.985 0 0);
-    --primary: oklch(0.922 0 0);
-    --primary-foreground: oklch(0.205 0 0);
-    --secondary: oklch(0.269 0 0);
-    --secondary-foreground: oklch(0.985 0 0);
-    --muted: oklch(0.269 0 0);
-    --muted-foreground: oklch(0.708 0 0);
-    --accent: oklch(0.269 0 0);
-    --accent-foreground: oklch(0.985 0 0);
-    --destructive: oklch(0.704 0.191 22.216);
-    --border: oklch(1 0 0 / 10%);
-    --input: oklch(1 0 0 / 15%);
-    --ring: oklch(0.556 0 0);
-    --chart-1: oklch(0.809 0.105 251.813);
-    --chart-2: oklch(0.623 0.214 259.815);
-    --chart-3: oklch(0.546 0.245 262.881);
-    --chart-4: oklch(0.488 0.243 264.376);
-    --chart-5: oklch(0.424 0.199 265.638);
-    --sidebar: oklch(0.205 0 0);
-    --sidebar-foreground: oklch(0.985 0 0);
-    --sidebar-primary: oklch(0.488 0.243 264.376);
-    --sidebar-primary-foreground: oklch(0.985 0 0);
-    --sidebar-accent: oklch(0.269 0 0);
-    --sidebar-accent-foreground: oklch(0.985 0 0);
-    --sidebar-border: oklch(1 0 0 / 10%);
-    --sidebar-ring: oklch(0.556 0 0);
+/* shadcn's semantic variables, mapped onto the palette */
+:root {
+    --background: var(--color-bianco);
+    --foreground: var(--color-nero);
+    --card: #FFFFFF;
+    --card-foreground: var(--color-nero);
+    --popover: #FFFFFF;
+    --popover-foreground: var(--color-nero);
+    --primary: var(--color-vermiglione-scuro);
+    --primary-foreground: #FFFFFF;
+    --secondary: var(--color-vuoto);
+    --secondary-foreground: var(--color-nero);
+    --muted: var(--color-vuoto);
+    --muted-foreground: var(--color-grigio);
+    --accent: var(--color-vuoto);
+    --accent-foreground: var(--color-nero);
+    --destructive: var(--color-vermiglione-scuro);
+    --border: var(--color-linea);
+    --input: var(--color-linea);
+    --ring: var(--color-cobalto);
+    --radius: 0.625rem;
 }
 
 @theme inline {
-    --font-sans: 'Geist Variable', sans-serif;
-    --color-sidebar-ring: var(--sidebar-ring);
-    --color-sidebar-border: var(--sidebar-border);
-    --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-    --color-sidebar-accent: var(--sidebar-accent);
-    --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-    --color-sidebar-primary: var(--sidebar-primary);
-    --color-sidebar-foreground: var(--sidebar-foreground);
-    --color-sidebar: var(--sidebar);
-    --color-chart-5: var(--chart-5);
-    --color-chart-4: var(--chart-4);
-    --color-chart-3: var(--chart-3);
-    --color-chart-2: var(--chart-2);
-    --color-chart-1: var(--chart-1);
     --color-ring: var(--ring);
     --color-input: var(--input);
     --color-border: var(--border);
