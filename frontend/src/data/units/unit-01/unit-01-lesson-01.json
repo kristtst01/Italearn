@@ -3,70 +3,51 @@
   "unit_id": "unit-01",
   "name": "Hello & Goodbye",
   "order": 1,
-  "grammar_tips": [
-    {
-      "id": "unit-01-lesson-01-tip-01",
-      "title": "Two Worlds: Formal and Informal",
-      "explanation": "Every Italian interaction splits into formal or informal. Use 'ciao' with friends and family. Use 'buongiorno' or 'buonasera' with strangers, elders, or anyone you'd call 'Sir' or 'Ma'am'. Getting this right matters — Italians notice immediately.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-01-lesson-01-tip-02",
-      "title": "Greeting by the Clock",
-      "explanation": "'Buongiorno' covers morning through early afternoon. 'Buonasera' takes over from late afternoon onward. But 'buonanotte' is NOT a greeting — it's only for bedtime, like saying 'sleep well'. You would never walk into a restaurant at 9 PM and say 'buonanotte'.",
-      "before_exercise": 5
-    },
-    {
-      "id": "unit-01-lesson-01-tip-03",
-      "title": "Salve — Your Safety Net",
-      "explanation": "Not sure if someone is a 'ciao' person or a 'buongiorno' person? Say 'salve'. It works at any time, in any register — perfectly neutral. From Latin, meaning 'be well'.",
-      "before_exercise": 10
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-01-lesson-01-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
+      "subtype": "type_answer",
       "prompt": { "text": "What does 'ciao' mean?" },
       "sentence_context": "Ciao, Marco!",
-      "correct_answer": "Hello / Goodbye (informal)",
-      "distractors": ["Good morning (formal)", "Good night", "See you again"],
-      "hints": ["This word pulls double duty — it works for both arriving and leaving. But only with people you know well."],
+      "correct_answer": ["hello / goodbye", "hello", "goodbye"],
+      "distractors": [],
+      "hints": ["It works for both arriving and leaving, but only with people you know well."],
       "target_words": ["ciao"]
     },
     {
       "id": "unit-01-lesson-01-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
+      "subtype": "type_answer",
       "prompt": { "text": "What does 'buongiorno' mean?" },
       "sentence_context": "Buongiorno, signora!",
-      "correct_answer": "Good morning / Good day",
-      "distractors": ["Good evening", "Good night", "Hello (informal)"],
+      "correct_answer": ["good morning", "good day"],
+      "distractors": [],
       "hints": ["Two parts: 'buon' (good) + 'giorno' (day)."],
       "target_words": ["buongiorno"]
-    },
-    {
-      "id": "unit-01-lesson-01-ex-03",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'arrivederci' mean?" },
-      "sentence_context": "Arrivederci, signore. A presto!",
-      "correct_answer": "Goodbye (formal)",
-      "distractors": ["Good morning", "Good night", "Hello"],
-      "hints": ["Literally: 'until we see each other again'. Used when parting formally."],
-      "target_words": ["arrivederci"]
     },
     {
       "id": "unit-01-lesson-01-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "Which Italian word is ONLY used at bedtime?" },
+      "prompt": { "text": "Which of these is only used at bedtime?" },
       "sentence_context": "Buonanotte, dormi bene!",
       "correct_answer": "Buonanotte",
       "distractors": ["Buonasera", "Arrivederci", "Salve"],
-      "hints": ["This is NOT an evening greeting. It means 'sleep well' — said only when someone is heading to bed."],
+      "hints": ["It means 'sleep well', said when someone is heading to bed."],
       "target_words": ["buonanotte"]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "___, signora!",
+      "correct_answer": ["Buongiorno", "Buonasera", "Salve", "Arrivederci"],
+      "distractors": [],
+      "hints": ["Good morning, madam! (Good evening, hello or goodbye work too.)"],
+      "target_words": ["buongiorno"]
     },
     {
       "id": "unit-01-lesson-01-ex-05",
@@ -80,28 +61,6 @@
       "target_words": ["buonasera"]
     },
     {
-      "id": "unit-01-lesson-01-ex-06",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "You meet someone but aren't sure whether to be formal or informal. Which greeting is always safe?" },
-      "sentence_context": "Salve! Tutto bene?",
-      "correct_answer": "Salve",
-      "distractors": ["Ciao", "Buonanotte", "Arrivederci"],
-      "hints": ["This neutral greeting works in any situation — formal or informal, any time of day."],
-      "target_words": ["salve"]
-    },
-    {
-      "id": "unit-01-lesson-01-ex-07",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "___, signora!",
-      "correct_answer": ["Buongiorno", "Buonasera", "Salve"],
-      "distractors": [],
-      "hints": ["Good morning, ma'am! (or Good evening / Hello)"],
-      "target_words": ["buongiorno"]
-    },
-    {
       "id": "unit-01-lesson-01-ex-08",
       "type": "vocab",
       "subtype": "cloze",
@@ -113,48 +72,15 @@
       "target_words": ["buonanotte"]
     },
     {
-      "id": "unit-01-lesson-01-ex-09",
+      "id": "unit-01-lesson-01-ex-06",
       "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "Your Italian friend waves at you across the street. How do you greet them?" },
-      "sentence_context": "Ciao, Marco!",
-      "correct_answer": "ciao",
-      "distractors": [],
-      "hints": ["The informal greeting — works for both hello and goodbye."],
-      "target_words": ["ciao"]
-    },
-    {
-      "id": "unit-01-lesson-01-ex-10",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "It's 9 AM. How do you greet someone politely in Italian?" },
-      "sentence_context": "Buongiorno a tutti!",
-      "correct_answer": "buongiorno",
-      "distractors": [],
-      "hints": ["'Good' + 'day' — the standard morning greeting."],
-      "target_words": ["buongiorno"]
-    },
-    {
-      "id": "unit-01-lesson-01-ex-11",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "You're leaving a formal dinner. Say goodbye politely." },
-      "sentence_context": "Arrivederci, e grazie!",
-      "correct_answer": "arrivederci",
-      "distractors": [],
-      "hints": ["The formal goodbye — 'until we see each other again'."],
-      "target_words": ["arrivederci"]
-    },
-    {
-      "id": "unit-01-lesson-01-ex-12",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'good evening' in Italian?" },
-      "sentence_context": "Buonasera a tutti!",
-      "correct_answer": "buonasera",
-      "distractors": [],
-      "hints": ["'Good' + 'evening' — used from late afternoon onward."],
-      "target_words": ["buonasera"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You meet someone but aren't sure whether to be formal or informal. Which greeting is always safe?" },
+      "sentence_context": "Salve! Tutto bene?",
+      "correct_answer": "Salve",
+      "distractors": ["Ciao", "Buonanotte", "Arrivederci"],
+      "hints": ["This neutral greeting works in any situation, at any time of day."],
+      "target_words": ["salve"]
     },
     {
       "id": "unit-01-lesson-01-ex-13",
@@ -188,6 +114,61 @@
       "distractors": ["ciao", "buongiorno"],
       "hints": ["Start with the formal goodbye."],
       "target_words": ["arrivederci"]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "Your Italian friend waves at you across the street. How do you greet them?" },
+      "sentence_context": "Ciao, Marco!",
+      "correct_answer": "ciao",
+      "distractors": [],
+      "hints": ["The informal greeting, for both hello and goodbye."],
+      "target_words": ["ciao"]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "It's 9 AM. How do you greet someone politely in Italian?" },
+      "sentence_context": "Buongiorno a tutti!",
+      "correct_answer": "buongiorno",
+      "distractors": [],
+      "hints": ["'Good' + 'day': the standard morning greeting."],
+      "target_words": ["buongiorno"]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "You're leaving a formal dinner. Say goodbye politely." },
+      "sentence_context": "Arrivederci, e grazie!",
+      "correct_answer": "arrivederci",
+      "distractors": [],
+      "hints": ["The formal goodbye, literally 'until we see each other again'."],
+      "target_words": ["arrivederci"]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'good evening' in Italian?" },
+      "sentence_context": "Buonasera a tutti!",
+      "correct_answer": "buonasera",
+      "distractors": [],
+      "hints": ["'Good' + 'evening', used from late afternoon onward."],
+      "target_words": ["buonasera"]
+    },
+    {
+      "id": "unit-01-lesson-01-ex-16",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Your flatmate is going to bed. Say good night." },
+      "sentence_context": "",
+      "correct_answer": ["buonanotte"],
+      "distractors": [],
+      "hints": ["Only for bedtime."],
+      "target_words": ["buonanotte"]
     }
   ],
   "vocabulary": [
@@ -196,6 +177,6 @@
     { "word": "buonasera", "meaning": "Good evening", "example": "Buonasera a tutti!" },
     { "word": "buonanotte", "meaning": "Good night (bedtime only)", "example": "Buonanotte, dormi bene!" },
     { "word": "arrivederci", "meaning": "Goodbye (formal)", "example": "Arrivederci! A presto!" },
-    { "word": "salve", "meaning": "Hello (neutral — any context)", "example": "Salve! Tutto bene?" }
+    { "word": "salve", "meaning": "Hello (neutral, any situation)", "example": "Salve! Tutto bene?" }
   ]
 }

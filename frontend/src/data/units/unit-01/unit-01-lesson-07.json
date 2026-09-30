@@ -1,0 +1,54 @@
+{
+  "id": "unit-01-lesson-07",
+  "unit_id": "unit-01",
+  "name": "Your First Conversations",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-01-lesson-07-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "You meet a new neighbour one morning. Greet them politely, tell them your name and ask theirs." },
+      "sentence_context": "",
+      "correct_answer": "Buongiorno! Mi chiamo Anna. Come si chiama?",
+      "distractors": [],
+      "hints": ["A neighbour you don't know yet: use the formal forms."],
+      "target_words": ["buongiorno", "mi chiamo", "come si chiama"]
+    },
+    {
+      "id": "unit-01-lesson-07-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "A friend of a friend says 'Ciao! Come stai?'. Answer, and ask how they are." },
+      "sentence_context": "Ciao! Come stai?",
+      "correct_answer": "Ciao! Sto bene, grazie. E tu?",
+      "distractors": [],
+      "hints": ["Say how you are, thank them, and ask back informally."],
+      "target_words": ["sto bene", "grazie", "e tu"]
+    },
+    {
+      "id": "unit-01-lesson-07-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "You didn't catch what a shop assistant said. Apologise, say you don't understand, and ask them to repeat." },
+      "sentence_context": "",
+      "correct_answer": "Scusi, non capisco. Può ripetere, per favore?",
+      "distractors": [],
+      "hints": ["A shop assistant: formal. 'Scusi', then your two lifelines."],
+      "target_words": ["scusi", "non capisco", "può ripetere", "per favore"]
+    },
+    {
+      "id": "unit-01-lesson-07-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Your friend is leaving for a holiday. Say goodbye and wish them well." },
+      "sentence_context": "",
+      "correct_answer": "Ciao! Buon viaggio e buone vacanze!",
+      "distractors": [],
+      "hints": ["Use 'buon' or 'buone' with the occasion."],
+      "target_words": ["ciao", "buon viaggio", "buone vacanze"]
+    }
+  ],
+  "vocabulary": []
+}

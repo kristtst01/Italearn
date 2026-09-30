@@ -3,7 +3,7 @@ import type { Curriculum } from '../types';
 export const curriculum: Curriculum = {
   sections: [
     // ═══════════════════════════════════════════════════════
-    //   A1 — FOUNDATIONS (Sections 1–3)
+    //   A1: FOUNDATIONS (Sections 1–3)
     // ═══════════════════════════════════════════════════════
     {
       id: 'section-01',
@@ -16,10 +16,10 @@ export const curriculum: Curriculum = {
           id: 'unit-01',
           section_id: 'section-01',
           name: 'Greetings & Survival Phrases',
-          grammar_focus: 'None — formulaic chunks (formal/informal greetings, polite phrases, survival expressions)',
+          grammar_focus: 'None: formulaic chunks (formal/informal greetings, polite phrases, survival expressions)',
           vocabulary_targets: ['ciao', 'buongiorno', 'grazie', 'per favore', 'come stai', 'non capisco'],
           grammar_notes: 'No grammar analysis yet. Everything is memorized as fixed phrases. The key concept is the formal/informal distinction (tu vs Lei) which runs through all of Italian.',
-          can_do: 'Greet people, be polite, and manage when you don\'t understand.',
+          can_do: 'Greet people, be polite, say your name, and manage when you don\'t understand.',
           stamp_title: 'Ciao!',
           order: 1,
           lessons: [
@@ -28,6 +28,9 @@ export const curriculum: Curriculum = {
             { id: 'unit-01-lesson-03', unit_id: 'unit-01', name: 'How Are You?', role: 'words', order: 3 },
             { id: 'unit-01-lesson-04', unit_id: 'unit-01', name: "When You're Lost", role: 'words', order: 4 },
             { id: 'unit-01-lesson-05', unit_id: 'unit-01', name: 'Wishes & Set Phrases', role: 'words', order: 5 },
+            { id: 'unit-01-lesson-06', unit_id: 'unit-01', name: 'Introducing Yourself', role: 'words', order: 6 },
+            { id: 'unit-01-lesson-07', unit_id: 'unit-01', name: 'Your First Conversations', role: 'writing', order: 7 },
+            { id: 'unit-01-lesson-08', unit_id: 'unit-01', name: 'Say It Out Loud', role: 'speaking', order: 8 },
           ],
         },
         {
@@ -36,7 +39,7 @@ export const curriculum: Curriculum = {
           name: 'Who Am I?',
           grammar_focus: 'Subject pronouns (io, tu, lui/lei, noi, voi, loro), full present tense of essere',
           vocabulary_targets: ['mi chiamo', 'sono', 'sei', 'è', 'siamo', 'siete', 'di dove', 'chi'],
-          grammar_notes: 'Essere is the #1 most frequent Italian verb. Origin expressed as "Sono di [città]" — nationalities are NOT introduced yet (require adjective agreement from Unit 6). Pronoun dropping taught from the start.',
+          grammar_notes: 'Essere is the #1 most frequent Italian verb. Origin expressed as "Sono di [città]": nationalities are NOT introduced yet (require adjective agreement from Unit 6). Pronoun dropping taught from the start.',
           can_do: 'Introduce yourself and others: who you are and where you\'re from.',
           stamp_title: 'Mi presento',
           order: 2,
@@ -54,7 +57,7 @@ export const curriculum: Curriculum = {
           name: 'Things',
           grammar_focus: 'Grammatical gender, indefinite articles (un, uno, una, un\'), definite articles (il, lo, la, l\', i, gli, le), plural formation',
           vocabulary_targets: ['libro', 'penna', 'tavolo', 'sedia', 'casa', 'acqua', 'c\'è', 'ci sono'],
-          grammar_notes: 'The article+gender system is the structural backbone of Italian. Every noun is masculine or feminine, and articles must agree. This is the densest grammar topic in A1 — 7 definite articles and 4 indefinite articles.',
+          grammar_notes: 'The article+gender system is the structural backbone of Italian. Every noun is masculine or feminine, and articles must agree. This is the densest grammar topic in A1: 7 definite articles and 4 indefinite articles.',
           can_do: 'Name everyday things with the right article, singular and plural.',
           stamp_title: 'Le cose',
           order: 3,
@@ -69,7 +72,7 @@ export const curriculum: Curriculum = {
           id: 'unit-04',
           section_id: 'section-01',
           name: 'Counting',
-          grammar_focus: 'None — pure vocabulary memorization with pattern rules for 21-100',
+          grammar_focus: 'None: pure vocabulary memorization with pattern rules for 21-100',
           vocabulary_targets: ['zero', 'uno', 'due', 'dieci', 'venti', 'trenta', 'cento', 'quanto'],
           grammar_notes: 'Numbers are rote vocabulary. 0-20 are unique words. 21-100 follow predictable patterns: [tens]+[units], dropping final vowel before uno/otto (ventuno, ventotto). Tre takes accent when appended (ventitré).',
           can_do: 'Use numbers for ages, prices and phone numbers.',
@@ -170,8 +173,8 @@ export const curriculum: Curriculum = {
             { id: 'unit-08-lesson-01', unit_id: 'unit-08', name: 'Close Family', role: 'words', order: 1 },
             { id: 'unit-08-lesson-02', unit_id: 'unit-08', name: 'Grandparents, Uncles & Cousins', role: 'words', order: 2 },
             { id: 'unit-08-lesson-03', unit_id: 'unit-08', name: 'Husband, Wife & Kids', role: 'words', order: 3 },
-            { id: 'unit-08-lesson-04', unit_id: 'unit-08', name: 'Possessives I — Mio, Tuo, Suo', role: 'grammar', order: 4 },
-            { id: 'unit-08-lesson-05', unit_id: 'unit-08', name: 'Possessives II — Nostro, Vostro, Loro', role: 'grammar', order: 5 },
+            { id: 'unit-08-lesson-04', unit_id: 'unit-08', name: 'Possessives I: Mio, Tuo, Suo', role: 'grammar', order: 4 },
+            { id: 'unit-08-lesson-05', unit_id: 'unit-08', name: 'Possessives II: Nostro, Vostro, Loro', role: 'grammar', order: 5 },
             { id: 'unit-08-lesson-06', unit_id: 'unit-08', name: 'People & Life', role: 'words', order: 6 },
             { id: 'unit-08-lesson-07', unit_id: 'unit-08', name: 'Practice Writing', role: 'writing', order: 7 },
           ],
@@ -219,7 +222,7 @@ export const curriculum: Curriculum = {
     },
 
     // ═══════════════════════════════════════════════════════
-    //   A1 — Around Town & Daily Needs (Sections 4–5)
+    //   A1: Around Town & Daily Needs (Sections 4–5)
     // ═══════════════════════════════════════════════════════
     {
       id: 'section-04',
@@ -323,8 +326,8 @@ export const curriculum: Curriculum = {
           stamp_title: 'Ci vediamo',
           order: 15,
           lessons: [
-            { id: 'unit-15-lesson-01', unit_id: 'unit-15', name: 'Volere — Wanting', role: 'grammar', order: 1 },
-            { id: 'unit-15-lesson-02', unit_id: 'unit-15', name: 'Potere & Dovere — Can & Must', role: 'grammar', order: 2 },
+            { id: 'unit-15-lesson-01', unit_id: 'unit-15', name: 'Volere: Wanting', role: 'grammar', order: 1 },
+            { id: 'unit-15-lesson-02', unit_id: 'unit-15', name: 'Potere & Dovere: Can & Must', role: 'grammar', order: 2 },
             { id: 'unit-15-lesson-03', unit_id: 'unit-15', name: 'Inviting & Planning', role: 'words', order: 3 },
             { id: 'unit-15-lesson-04', unit_id: 'unit-15', name: 'Practice Writing', role: 'writing', order: 4 },
           ],
@@ -389,7 +392,7 @@ export const curriculum: Curriculum = {
     {
       id: 'section-06',
       name: 'Small Talk & Health',
-      description: 'Weather, seasons, the calendar, the body, health expressions — closing out A1.',
+      description: 'Weather, seasons, the calendar, the body, health expressions: closing out A1.',
       order: 6,
       cefr_level: 'A1',
       units: [
@@ -415,7 +418,7 @@ export const curriculum: Curriculum = {
           id: 'unit-20',
           section_id: 'section-06',
           name: 'Feeling Good, Feeling Bad',
-          grammar_focus: 'Stare for health, the body, ailments at the pharmacy — A1 capstone',
+          grammar_focus: 'Stare for health, the body, ailments at the pharmacy: A1 capstone',
           vocabulary_targets: ['body parts', 'symptoms', 'pharmacy'],
           grammar_notes: '',
           can_do: 'Say how you feel and describe a problem at the pharmacy.',
@@ -426,7 +429,7 @@ export const curriculum: Curriculum = {
             { id: 'unit-20-lesson-02', unit_id: 'unit-20', name: 'How Are You Feeling?', role: 'words', order: 2 },
             { id: 'unit-20-lesson-03', unit_id: 'unit-20', name: 'At the Pharmacy', role: 'words', order: 3 },
             { id: 'unit-20-lesson-04', unit_id: 'unit-20', name: 'More Health & Body', role: 'words', order: 4 },
-            { id: 'unit-20-lesson-05', unit_id: 'unit-20', name: 'Practice Writing — A1 Capstone', role: 'writing', order: 5 },
+            { id: 'unit-20-lesson-05', unit_id: 'unit-20', name: 'Practice Writing: A1 Capstone', role: 'writing', order: 5 },
           ],
         },
         {

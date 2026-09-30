@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
+import { useGoBack } from '@/shared/utils/useGoBack';
 import SessionHeader from '@/shared/components/SessionHeader';
 import SessionLayout from '@/shared/components/SessionLayout';
 import { toSegments } from '@/shared/utils/segments';
@@ -11,7 +12,7 @@ import ReviewIntro from './ReviewIntro';
 import ReviewSummary from './ReviewSummary';
 
 export default function ReviewPage() {
-  const navigate = useNavigate();
+  const goBack = useGoBack('/');
   const [searchParams] = useSearchParams();
   const unitId = searchParams.get('unit') ?? undefined;
 
@@ -56,7 +57,7 @@ export default function ReviewPage() {
           exit={
             <button
               type="button"
-              onClick={() => navigate('/')}
+              onClick={goBack}
               className="text-muted-foreground transition-colors hover:text-foreground"
               aria-label="Exit review"
             >

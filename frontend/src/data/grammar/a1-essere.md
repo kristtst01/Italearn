@@ -29,10 +29,10 @@ sources:
 
 ### Tu, Lei and voi
 
-Italian has three ways to say "you".
+You've already met the formal and informal phrases (*come stai? / come sta?*). Here are the pronouns behind them. Italian has three ways to say "you".
 
 - **tu** for one person you know well: friends, family, children, and people your age in informal settings.
-- **Lei** for one person you don't know, or someone you owe respect to: a shop assistant, a doctor, a teacher, an older stranger.
+- **Lei** for one person in a formal or service setting, someone clearly older than you, or someone you owe respect to: a shop assistant, a doctor, a teacher, an older stranger.
 - **voi** for two or more people, formal or informal.
 
 *Lei* takes the same verb form as *lui* and *lei* (he, she). So *Lei è* means "you are" when you're speaking to someone formally, and *lei è* means "she is". In speech they sound identical and context decides.

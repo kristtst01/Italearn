@@ -1,0 +1,181 @@
+{
+  "id": "unit-01-lesson-06",
+  "unit_id": "unit-01",
+  "name": "Introducing Yourself",
+  "order": 6,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-01-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'come ti chiami?' mean?" },
+      "sentence_context": "Ciao! Come ti chiami?",
+      "correct_answer": ["what's your name?"],
+      "distractors": [],
+      "hints": ["'Ti' is the informal 'you'."],
+      "target_words": ["come ti chiami"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which is the formal way to ask someone's name?" },
+      "sentence_context": "Buongiorno. Come si chiama?",
+      "correct_answer": "Come si chiama?",
+      "distractors": ["Come ti chiami?", "Come sta?", "Come si dice?"],
+      "hints": ["The formal question ends in -a, like 'come sta?'."],
+      "target_words": ["come si chiama"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Ciao! Come ti ___?",
+      "correct_answer": "chiami",
+      "distractors": [],
+      "hints": ["Hi! What's your name?"],
+      "target_words": ["come ti chiami"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You're at a party and want to ask a child their name. Which question do you use?" },
+      "sentence_context": "",
+      "correct_answer": "Come ti chiami?",
+      "distractors": ["Come si chiama?", "Come stai?"],
+      "hints": ["Adults use the informal form with children."],
+      "target_words": ["come ti chiami"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Buongiorno, signora. Come si ___?",
+      "correct_answer": "chiama",
+      "distractors": [],
+      "hints": ["Good morning, madam. What's your name?"],
+      "target_words": ["come si chiama"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Someone tells you their name. What do you say?" },
+      "sentence_context": "Mi chiamo Luca.",
+      "correct_answer": "Piacere!",
+      "distractors": ["Prego!", "Mi dispiace!", "Buon appetito!"],
+      "hints": ["'Nice to meet you.'"],
+      "target_words": ["piacere"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Mi ___ Anna.",
+      "correct_answer": "chiamo",
+      "distractors": [],
+      "hints": ["My name is Anna."],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Someone says 'Piacere!' to you. How can you reply?" },
+      "sentence_context": "Piacere!",
+      "correct_answer": "Piacere mio!",
+      "distractors": ["Prego!", "Non capisco!", "Buonanotte!"],
+      "hints": ["'The pleasure is mine.'"],
+      "target_words": ["piacere mio"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-13",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Hi! My name is Marco. And you?'" },
+      "sentence_context": "Ciao! Mi chiamo Marco. E tu?",
+      "correct_answer": ["Ciao!", "Mi", "chiamo", "Marco.", "E", "tu?"],
+      "distractors": ["Lei", "chiama"],
+      "hints": ["Greeting, then your name, then ask back."],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-14",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Good morning. What's your name?' (formal)" },
+      "sentence_context": "Buongiorno. Come si chiama?",
+      "correct_answer": ["Buongiorno.", "Come", "si", "chiama?"],
+      "distractors": ["ti", "chiami?"],
+      "hints": ["The formal question."],
+      "target_words": ["come si chiama"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a new classmate your age their name." },
+      "sentence_context": "",
+      "correct_answer": ["come ti chiami", "ciao, come ti chiami"],
+      "distractors": [],
+      "hints": ["People your age in a relaxed setting use the informal form, even when meeting for the first time."],
+      "target_words": ["come ti chiami"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Tell someone your name is Sara." },
+      "sentence_context": "",
+      "correct_answer": ["mi chiamo Sara"],
+      "distractors": [],
+      "hints": ["'My name is' + Sara."],
+      "target_words": ["mi chiamo"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'nice to meet you' in Italian?" },
+      "sentence_context": "",
+      "correct_answer": ["piacere"],
+      "distractors": [],
+      "hints": ["One word, literally 'pleasure'."],
+      "target_words": ["piacere"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-16",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask an older woman at the post office her name." },
+      "sentence_context": "",
+      "correct_answer": ["come si chiama", "scusi, come si chiama", "buongiorno, come si chiama"],
+      "distractors": [],
+      "hints": ["Older and a formal setting: the formal question."],
+      "target_words": ["come si chiama"]
+    },
+    {
+      "id": "unit-01-lesson-06-ex-17",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Someone says 'Piacere!'. Reply that the pleasure is yours." },
+      "sentence_context": "",
+      "correct_answer": ["piacere mio"],
+      "distractors": [],
+      "hints": ["Two words: pleasure + mine."],
+      "target_words": ["piacere mio"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "come ti chiami", "meaning": "What's your name? (informal)", "example": "Ciao! Come ti chiami?" },
+    { "word": "come si chiama", "meaning": "What's your name? (formal)", "example": "Buongiorno. Come si chiama?" },
+    { "word": "mi chiamo", "meaning": "My name is", "example": "Mi chiamo Giulia." },
+    { "word": "piacere", "meaning": "Nice to meet you", "example": "Mi chiamo Luca. Piacere!" },
+    { "word": "piacere mio", "meaning": "The pleasure is mine", "example": "Piacere! Piacere mio." }
+  ]
+}

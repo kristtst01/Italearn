@@ -1,0 +1,991 @@
+{
+  "unit_id": "a1-first-phrases",
+  "points": {
+    "register": {
+      "label": "Formal and informal",
+      "section": "Formal and informal"
+    },
+    "greetings": {
+      "label": "Hello and goodbye",
+      "section": "Hello and goodbye"
+    },
+    "politeness": {
+      "label": "Please, thank you and sorry",
+      "section": "Please, thank you and sorry"
+    },
+    "how-are-you": {
+      "label": "How are you?",
+      "section": "How are you?"
+    },
+    "names": {
+      "label": "Names",
+      "section": "Names"
+    },
+    "lost": {
+      "label": "When you're lost",
+      "section": "When you're lost"
+    },
+    "wishes": {
+      "label": "Wishes",
+      "section": "Wishes"
+    }
+  },
+  "stops": [
+    {
+      "id": "greetings",
+      "title": "Formal, informal and greetings",
+      "after": "Hello and goodbye",
+      "exercises": [
+        {
+          "id": "a1-first-phrases-p-01",
+          "type": "vocab",
+          "subtype": "match_pairs",
+          "prompt": {
+            "text": "Match each informal phrase with its formal version."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Ciao!|Buongiorno!",
+            "Scusa!|Scusi!",
+            "Come stai?|Come sta?",
+            "Come ti chiami?|Come si chiama?",
+            "E tu?|E Lei?"
+          ],
+          "distractors": [],
+          "hints": [],
+          "target_words": [],
+          "grammar_points": [
+            "register"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You walk into a bakery at 10 AM. How do you greet the baker?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Buongiorno!",
+          "distractors": [
+            "Ciao!",
+            "Buonasera!",
+            "Buonanotte!"
+          ],
+          "hints": [
+            "A shop in the morning: formal, and it's before the afternoon."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "register",
+            "greetings"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You walk into a restaurant at 8 PM. How do you greet the waiter?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Buonasera!",
+          "distractors": [
+            "Buongiorno!",
+            "Buonanotte!",
+            "Ciao!"
+          ],
+          "hints": [
+            "Evening, and someone you don't know."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "register",
+            "greetings"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-04",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Your friend Marco arrives at your house. How do you greet him?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Ciao, Marco!",
+          "distractors": [
+            "Buongiorno, Marco!",
+            "Arrivederci, Marco!"
+          ],
+          "hints": [
+            "A friend: informal."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "register",
+            "greetings"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-05",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You're not sure whether to be formal or informal. Which greeting is safe?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Salve!",
+          "distractors": [
+            "Ciao!",
+            "Buonanotte!"
+          ],
+          "hints": [
+            "It's neutral and works at any time."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "greetings"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-06",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Your flatmate is going to bed. What do you say?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Buonanotte!",
+          "distractors": [
+            "Buonasera!",
+            "Arrivederci!"
+          ],
+          "hints": [
+            "Bedtime."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "greetings"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-07",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You're leaving the bakery. What do you say to the baker?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Arrivederci!",
+          "distractors": [
+            "Ciao!",
+            "Buonanotte!"
+          ],
+          "hints": [
+            "The standard goodbye with someone you don't use tu with."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "register",
+            "greetings"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-08",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which of these can mean both 'hello' and 'goodbye'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Ciao",
+          "distractors": [
+            "Buongiorno",
+            "Arrivederci",
+            "Salve"
+          ],
+          "hints": [
+            "The informal one."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "greetings"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-09",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "When in doubt, which version should you use?"
+          },
+          "sentence_context": "",
+          "correct_answer": "The formal one",
+          "distractors": [
+            "The informal one",
+            "Either, it doesn't matter"
+          ],
+          "hints": [
+            "Being too polite is never a problem."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "register"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politeness",
+      "title": "Politeness and how are you",
+      "after": "How are you?",
+      "exercises": [
+        {
+          "id": "a1-first-phrases-p-10",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You bump into an older man on the street. What do you say?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Scusi!",
+          "distractors": [
+            "Scusa!",
+            "Prego!",
+            "Permesso!"
+          ],
+          "hints": [
+            "An older person you don't know: the formal 'sorry'."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "register",
+            "politeness"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-11",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You need to get past people to reach the door of a crowded bus. What do you say?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Permesso!",
+          "distractors": [
+            "Prego!",
+            "Mi dispiace!",
+            "Per favore!"
+          ],
+          "hints": [
+            "The word for passing through someone's space."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "politeness"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-12",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "A friend says 'Grazie!'. What do you reply?"
+          },
+          "sentence_context": "Grazie!",
+          "correct_answer": "Prego!",
+          "distractors": [
+            "Grazie!",
+            "Per favore!",
+            "Scusa!"
+          ],
+          "hints": [
+            "The reply to grazie."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "politeness"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-13",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You tell a friend you can't come to their party. How do you say you're sorry?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Mi dispiace!",
+          "distractors": [
+            "Scusa!",
+            "Permesso!",
+            "Prego!"
+          ],
+          "hints": [
+            "Real regret, not a small slip."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "politeness"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-14",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: order a coffee politely."
+          },
+          "sentence_context": "Un caffè, ___.",
+          "correct_answer": [
+            "per favore"
+          ],
+          "distractors": [],
+          "hints": [
+            "'Please' is two words."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "politeness"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-15",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You ask your new boss how she is. Which question?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Come sta?",
+          "distractors": [
+            "Come stai?",
+            "Come ti chiami?"
+          ],
+          "hints": [
+            "A boss you've just met: formal."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "register",
+            "how-are-you"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-16",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Your friend asks 'Come stai?'. You're well. What do you answer?"
+          },
+          "sentence_context": "Come stai?",
+          "correct_answer": "Sto bene, grazie. E tu?",
+          "distractors": [
+            "Sono bene, grazie. E tu?",
+            "Sto bene, grazie. E Lei?"
+          ],
+          "hints": [
+            "'How you are' uses stare, and a friend gets 'e tu'."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "how-are-you",
+            "register"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-17",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "An older neighbour asks 'Come sta?'. You're so-so. What do you answer?"
+          },
+          "sentence_context": "Come sta?",
+          "correct_answer": "Così così. E Lei?",
+          "distractors": [
+            "Così così. E tu?",
+            "Non capisco. E Lei?"
+          ],
+          "hints": [
+            "Answer, then ask back formally."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "how-are-you",
+            "register"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-18",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'I'm not well'?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "sto male"
+          ],
+          "distractors": [],
+          "hints": [
+            "The same verb as 'sto bene'."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "how-are-you"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-19",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'not bad'?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "non c'è male"
+          ],
+          "distractors": [],
+          "hints": [
+            "Three words, literally 'there isn't bad'."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "how-are-you"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "names-lost-wishes",
+      "title": "Names, getting by and wishes",
+      "after": "Wishes",
+      "exercises": [
+        {
+          "id": "a1-first-phrases-p-20",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You meet a new colleague your age at a party. How do you ask their name?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Come ti chiami?",
+          "distractors": [
+            "Come si chiama?",
+            "Come stai?"
+          ],
+          "hints": [
+            "Your age, a relaxed setting: informal."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "register",
+            "names"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-21",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "At the doctor's, the receptionist needs your name. How does she ask?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Come si chiama?",
+          "distractors": [
+            "Come ti chiami?",
+            "Come sta?"
+          ],
+          "hints": [
+            "Formal."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "register",
+            "names"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-22",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Someone says 'Mi chiamo Paolo.' What do you say?"
+          },
+          "sentence_context": "Mi chiamo Paolo.",
+          "correct_answer": "Piacere!",
+          "distractors": [
+            "Prego!",
+            "Permesso!",
+            "Buon appetito!"
+          ],
+          "hints": [
+            "'Nice to meet you.'"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "names"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-23",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Tell someone your name is Elena."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "mi chiamo Elena"
+          ],
+          "distractors": [],
+          "hints": [
+            "'My name is...'"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "names"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-24",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "A waiter speaks too fast. What do you say first?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Non capisco.",
+          "distractors": [
+            "Va bene.",
+            "D'accordo.",
+            "Piacere."
+          ],
+          "hints": [
+            "Say that you don't understand."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "lost"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-25",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You want the waiter to say it again. What do you ask?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Può ripetere?",
+          "distractors": [
+            "Come si dice?",
+            "Come sta?"
+          ],
+          "hints": [
+            "'Can you repeat?' (formal)"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "lost"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-26",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Ask how to say 'fork' in Italian."
+          },
+          "sentence_context": "Come si ___ 'fork' in italiano?",
+          "correct_answer": "dice",
+          "distractors": [],
+          "hints": [
+            "How does one say...?"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "lost"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-27",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Answer 'yes'."
+          },
+          "sentence_context": "___, grazie!",
+          "correct_answer": [
+            "Sì",
+            "sì"
+          ],
+          "distractors": [],
+          "hints": [
+            "Don't forget the accent."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "lost"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-first-phrases-p-28",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Your friend is leaving for Rome tomorrow. What do you wish them?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Buon viaggio!",
+          "distractors": [
+            "Buon appetito!",
+            "Buonanotte!",
+            "Buon anno!"
+          ],
+          "hints": [
+            "A trip."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "wishes"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-29",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Your family is about to start dinner. What do you say?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Buon appetito!",
+          "distractors": [
+            "Buona giornata!",
+            "Buon viaggio!"
+          ],
+          "hints": [
+            "A meal."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "wishes"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-30",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "It's a friend's birthday. What do you say?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Buon compleanno!",
+          "distractors": [
+            "Buon anno!",
+            "Congratulazioni!",
+            "Buone vacanze!"
+          ],
+          "hints": [
+            "Compleanno = birthday."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "wishes"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-31",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "A colleague just got married. What do you say?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Congratulazioni!",
+          "distractors": [
+            "Buon appetito!",
+            "Buon viaggio!",
+            "Permesso!"
+          ],
+          "hints": [
+            "A big life event."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "wishes"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-first-phrases-m-01",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "You walk into a pharmacy at 11 AM. How do you greet the pharmacist?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Buongiorno!",
+        "distractors": [
+          "Ciao!",
+          "Buonasera!",
+          "Buonanotte!"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "register",
+          "greetings"
+        ]
+      },
+      {
+        "id": "a1-first-phrases-m-02",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "You're leaving a friend's house at midnight. They're staying up. What do you say?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Ciao, a presto!",
+        "distractors": [
+          "Buongiorno!",
+          "Buonasera!"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "register",
+          "greetings"
+        ]
+      },
+      {
+        "id": "a1-first-phrases-m-03",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "You arrive at a hotel at 7 PM. How do you greet the receptionist?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Buonasera!",
+        "distractors": [
+          "Buonanotte!",
+          "Ciao!",
+          "Buongiorno!"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "register",
+          "greetings"
+        ]
+      },
+      {
+        "id": "a1-first-phrases-m-04",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "On the bus, you step on an older woman's foot. What do you say?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Scusi!",
+        "distractors": [
+          "Scusa!",
+          "Prego!",
+          "Grazie!"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "register",
+          "politeness"
+        ]
+      },
+      {
+        "id": "a1-first-phrases-m-05",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "Someone thanks you for holding the door. What do you say?"
+        },
+        "sentence_context": "Grazie!",
+        "correct_answer": "Prego!",
+        "distractors": [
+          "Grazie!",
+          "Scusi!",
+          "Mi dispiace!"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "politeness"
+        ]
+      },
+      {
+        "id": "a1-first-phrases-m-06",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "You want to walk through a crowded doorway. What do you say?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Permesso!",
+        "distractors": [
+          "Prego!",
+          "Mi dispiace!"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "politeness"
+        ]
+      },
+      {
+        "id": "a1-first-phrases-m-07",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Ask an older stranger formally how they are."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "come sta",
+          "buongiorno, come sta",
+          "buonasera, come sta"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "register",
+          "how-are-you"
+        ]
+      },
+      {
+        "id": "a1-first-phrases-m-08",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Answer that you're well, thank them, and ask back informally."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "sto bene, grazie, e tu",
+          "bene, grazie, e tu",
+          "sto bene grazie e tu",
+          "bene grazie e tu"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "how-are-you"
+        ]
+      },
+      {
+        "id": "a1-first-phrases-m-09",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Ask a child their name."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "come ti chiami",
+          "ciao, come ti chiami"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "register",
+          "names"
+        ]
+      },
+      {
+        "id": "a1-first-phrases-m-10",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "You didn't understand what the ticket officer said. What do you ask?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Può ripetere, per favore?",
+        "distractors": [
+          "Come si dice, per favore?",
+          "Come sta, per favore?"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "lost"
+        ]
+      },
+      {
+        "id": "a1-first-phrases-m-11",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "A friend is going on holiday. What do you say?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Buone vacanze!",
+        "distractors": [
+          "Buon appetito!",
+          "Buonanotte!",
+          "Congratulazioni!"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "wishes"
+        ]
+      },
+      {
+        "id": "a1-first-phrases-m-12",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Come stai? Sono bene, grazie.",
+        "correct_answer": [
+          "Come stai? Sto bene, grazie."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "how-are-you"
+        ]
+      },
+      {
+        "id": "a1-first-phrases-m-13",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake: you're talking to a shop assistant."
+        },
+        "sentence_context": "Ciao! Un caffè, per favore.",
+        "correct_answer": [
+          "Buongiorno! Un caffè, per favore.",
+          "Buonasera! Un caffè, per favore.",
+          "Salve! Un caffè, per favore."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "register",
+          "greetings"
+        ]
+      }
+    ]
+  }
+}

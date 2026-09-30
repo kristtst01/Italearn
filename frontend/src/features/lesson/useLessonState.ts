@@ -1,11 +1,12 @@
 import { useState, useMemo } from 'react';
-import type { Exercise, ExerciseResult, GrammarTip, Lesson, LessonResult } from '@/types';
+import type { Exercise, ExerciseResult, GrammarTip, Lesson, LessonResult, LessonVocab } from '@/types';
 import { buildLessonResult } from '@/engine/lessonRunner';
 import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
 
 
 export type LessonStep =
+  | { kind: 'words'; words: LessonVocab[] }
   | { kind: 'exercise'; exercise: Exercise }
   | { kind: 'tip'; tip: GrammarTip };
 
@@ -70,11 +71,12 @@ export function useLessonState(lesson: Lesson) {
   const exercises = retryExercises ?? lesson.exercises;
   const isRetry = retryExercises !== null;
 
-  // Build interleaved steps — no tips during retry
-  const steps = useMemo(
-    () => buildSteps(exercises, isRetry ? [] : lesson.grammar_tips),
-    [exercises, isRetry, lesson.grammar_tips],
-  );
+  // The lesson's new words come first, then exercises (with any tips). A retry skips both.
+  const steps = useMemo(() => {
+    const built = buildSteps(exercises, isRetry ? [] : lesson.grammar_tips);
+    const words = lesson.vocabulary ?? [];
+    return !isRetry && words.length > 0 ? [{ kind: 'words', words } as LessonStep, ...built] : built;
+  }, [exercises, isRetry, lesson.grammar_tips, lesson.vocabulary]);
 
   const currentStep = steps[currentIndex] as LessonStep | undefined;
   const isComplete = !!lessonResult;

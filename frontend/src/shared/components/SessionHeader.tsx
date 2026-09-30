@@ -11,7 +11,7 @@ const SEGMENT_STYLE: Record<Segment, string> = {
 };
 
 interface SessionHeaderProps {
-  /** Exit control (a close button, possibly with a confirm dialog) */
+  /** Exit control (a close button, possibly with a confirm dialog), shown at the right end */
   exit: ReactNode;
   /** Small label above the title, e.g. "Chapter 01 · Greetings & Survival Phrases" */
   context?: string;
@@ -27,7 +27,6 @@ export default function SessionHeader({ exit, context, title, segments, counter,
   return (
     <header className="sticky top-0 z-20 border-b border-border bg-white">
       <div className="mx-auto flex h-18 max-w-7xl items-center gap-7 px-14">
-        {exit}
         <div className="flex shrink-0 flex-col">
           {context && <span className="text-xs font-bold tracking-label text-muted-foreground uppercase">{context}</span>}
           <span className="font-bold">{title}</span>
@@ -49,6 +48,8 @@ export default function SessionHeader({ exit, context, title, segments, counter,
             <span className={cn('size-1.5 rounded-full', stamp.earned ? 'bg-vermiglione-scuro' : 'border border-muted-foreground/60')} />
           </div>
         )}
+        {/* Exit sits at the top right, like the close button on grammar units */}
+        {exit}
       </div>
     </header>
   );

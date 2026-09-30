@@ -16,9 +16,29 @@ export interface ValidateOptions {
   strictAccents?: boolean;
 }
 
-/** Normalize whitespace and strip trailing punctuation (?.!). */
+/**
+ * Words with two accepted spellings (Treccani lists both), mapped to one form so
+ * either spelling matches. The one-word form is the more common.
+ */
+const SPELLING_VARIANTS: [RegExp, string][] = [
+  [/\bbuon giorno\b/gi, 'buongiorno'],
+  [/\bbuona sera\b/gi, 'buonasera'],
+  [/\bbuona notte\b/gi, 'buonanotte'],
+];
+
+/**
+ * Normalize for comparison: punctuation is ignored everywhere (a missing comma isn't a mistake,
+ * and speech transcripts punctuate unpredictably), apostrophes are kept since they're part of
+ * words (c'è, dov'è), whitespace is collapsed and spelling variants unified.
+ */
 function normalize(s: string): string {
-  return s.trim().replace(/\s+/g, ' ').replace(/[?!.]+$/, '');
+  let out = s
+    .replace(/’/g, "'")
+    .replace(/[.,!?;:¡¿"“”«»…()]/g, ' ')
+    .trim()
+    .replace(/\s+/g, ' ');
+  for (const [pattern, canonical] of SPELLING_VARIANTS) out = out.replace(pattern, canonical);
+  return out;
 }
 
 /** Strip diacritics using Unicode NFD decomposition. */
@@ -73,12 +93,31 @@ function maxAllowedDistance(length: number): number {
 }
 
 /**
+ * If the two answers are the same except for one misspelled word, returns that word as the
+ * expected answer spells it. Both strings are normalized and lower-case; accents are ignored
+ * when comparing but kept in the word returned.
+ */
+function singleMisspelledWord(input: string, expected: string): string | null {
+  const inputWords = stripAccents(input).split(' ');
+  const expectedWords = expected.split(' ');
+  if (inputWords.length !== expectedWords.length) return null;
+
+  const plain = expectedWords.map(stripAccents);
+  const differing = plain.flatMap((w, i) => (w === inputWords[i] ? [] : [i]));
+  if (differing.length !== 1) return null;
+
+  const i = differing[0];
+  const allowed = maxAllowedDistance(plain[i].length);
+  return allowed > 0 && leven(inputWords[i], plain[i]) <= allowed ? expectedWords[i] : null;
+}
+
+/**
  * Validate a user's typed answer against the expected correct answer.
  *
  * Validation tiers:
  * 1. Exact match (case-insensitive) → correct
  * 2. Match ignoring accents → correct + accent reminder
- * 3. Within Levenshtein threshold → incorrect + "almost correct" hint
+ * 3. One word slightly misspelled → incorrect + "almost correct" hint
  * 4. Otherwise → incorrect
  */
 export function validateAnswer(
@@ -120,21 +159,17 @@ export function validateAnswer(
     return { correct: true, almostCorrect: false, normalizedInput };
   }
 
-  // Tier 3: Typo tolerance via Levenshtein distance (on accent-stripped strings)
-  const strippedInput = stripAccents(inputLower);
-  const strippedExpected = stripAccents(expectedLower);
-  const maxDist = maxAllowedDistance(strippedExpected.length);
-
-  if (maxDist > 0) {
-    const distance = leven(strippedInput, strippedExpected);
-    if (distance <= maxDist) {
-      return {
-        correct: false,
-        almostCorrect: true,
-        feedback: `You typed "${normalizedInput}" — close! The correct answer is "${normalizedExpected}".`,
-        normalizedInput,
-      };
-    }
+  // Tier 3: Typo tolerance, word by word. Only one word may differ, and only by a small
+  // misspelling for its length. Short words get none, so real differences (si/ti, sei/sai,
+  // sono/sto) aren't mistaken for typos and go on to the LLM check instead.
+  const typoWord = singleMisspelledWord(inputLower, expectedLower);
+  if (typoWord) {
+    return {
+      correct: false,
+      almostCorrect: true,
+      feedback: `Almost: check the spelling of "${typoWord}".`,
+      normalizedInput,
+    };
   }
 
   // Tier 4: Incorrect

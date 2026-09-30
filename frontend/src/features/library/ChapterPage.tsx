@@ -1,29 +1,78 @@
+import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useProgressStore } from '@/stores/progressStore';
 import { getChapter, isWritingLesson, stampEarned } from '@/engine/chapters';
+import { findLesson } from '@/engine/lessonRunner';
+import { grammarUnitStatus } from '@/engine/grammar';
 import { grammarForChapter } from '@/data/grammarPlan';
-import type { LessonMeta, LessonRole } from '@/types';
+import { isGrammarUnitWritten } from '@/data/grammarLoader';
+import type { Lesson, LessonMeta, LessonRole } from '@/types';
 import { Label, Page, PageHeader, Placeholder, Stamp, Status } from '@/shared/components/design';
 import EmptyState from '@/shared/components/EmptyState';
 
-function LessonCard({ lesson, done }: { lesson: LessonMeta; done: boolean }) {
+/** What kind of task a lesson is, so it's clear before opening it (e.g. "Exercises · 15", "Writing · 4 texts"). */
+function lessonKind(meta: LessonMeta, lesson?: Lesson): { label: string; note?: string } {
+  const n = lesson?.exercises.length;
+  switch (meta.role) {
+    case 'writing':
+      return {
+        label: n ? `Writing · ${n} ${n === 1 ? 'text' : 'texts'}` : 'Writing',
+        note: 'Write your own answers and get feedback',
+      };
+    case 'reading':
+      return {
+        label: n ? `Reading · ${n} questions` : 'Reading',
+        note: 'A short text, then questions on it',
+      };
+    case 'speaking':
+      return {
+        label: n ? `Speaking · ${n} ${n === 1 ? 'sentence' : 'sentences'}` : 'Speaking',
+        note: 'Read aloud, with a microphone',
+      };
+    default:
+      return { label: n ? `Exercises · ${n}` : 'Exercises' };
+  }
+}
+
+function LessonCard({ meta, lesson, done }: { meta: LessonMeta; lesson?: Lesson; done: boolean }) {
+  const kind = lessonKind(meta, lesson);
   return (
     <Link
-      to={`/lesson/${lesson.id}`}
-      className="flex items-center justify-between gap-3 rounded-lg border border-border bg-white px-4.5 py-3.5 text-foreground hover:border-muted-foreground/40"
+      to={`/lesson/${meta.id}`}
+      className="flex items-start justify-between gap-3 rounded-lg border border-border bg-white px-4.5 py-3.5 text-foreground hover:border-muted-foreground/40"
     >
-      <span className="font-bold">{lesson.name}</span>
+      <div className="flex flex-col gap-1">
+        <Label>{kind.label}</Label>
+        <span className="font-bold">{meta.name}</span>
+        {kind.note && <span className="text-sm text-muted-foreground">{kind.note}</span>}
+      </div>
       <Status kind={done ? 'learned' : 'not-started'} label={done ? 'Done' : 'Start'} />
     </Link>
   );
 }
 
-function Section({ n, title, children }: { n: number; title: string; children: React.ReactNode }) {
+/** Loads a chapter's lessons for their exercise counts (small, lazily loaded files). */
+function useChapterLessons(ids: string[]): Record<string, Lesson> {
+  const key = ids.join(',');
+  const [loaded, setLoaded] = useState<{ key: string; lessons: Record<string, Lesson> }>({ key: '', lessons: {} });
+  useEffect(() => {
+    let cancelled = false;
+    Promise.all(key.split(',').map((id) => findLesson(id))).then((lessons) => {
+      if (cancelled) return;
+      setLoaded({ key, lessons: Object.fromEntries(lessons.filter((l): l is Lesson => !!l).map((l) => [l.id, l])) });
+    });
+    return () => { cancelled = true; };
+  }, [key]);
+  return loaded.key === key ? loaded.lessons : {};
+}
+
+function Section({ n, title, note, children }: { n: number; title: string; note?: string; children: React.ReactNode }) {
   return (
     <section className="flex flex-col gap-2.5">
       <h2 className="flex items-baseline gap-3 font-bold">
         <span className="font-display text-muted-foreground">{n}</span>
         {title}
+        {note && <span className="text-sm font-normal text-muted-foreground">{note}</span>}
       </h2>
       {children}
     </section>
@@ -34,6 +83,7 @@ export default function ChapterPage() {
   const { unitId } = useParams<{ unitId: string }>();
   const completed = useProgressStore((s) => s.lessons_completed);
   const unit = unitId ? getChapter(unitId) : undefined;
+  const lessons = useChapterLessons(unit?.lessons.map((l) => l.id) ?? []);
 
   if (!unit) {
     return <EmptyState title="Chapter not found" message="This chapter doesn't exist." />;
@@ -42,9 +92,41 @@ export default function ChapterPage() {
   const byRole = (role: LessonRole) => unit.lessons.filter((l) => l.role === role);
   const words = byRole('words');
   const grammarLessons = byRole('grammar');
-  const useIt = [...byRole('practice'), ...unit.lessons.filter(isWritingLesson)];
+  const practice = byRole('practice');
+  const reading = byRole('reading');
+  const writing = unit.lessons.filter(isWritingLesson);
+  const speaking = byRole('speaking');
   const grammar = grammarForChapter(unit.id);
   const earned = stampEarned(unit, completed);
+
+  const cards = (list: LessonMeta[], extra?: React.ReactNode) => (
+    <div className="grid grid-cols-2 gap-2.5">
+      {list.map((l) => (
+        <LessonCard key={l.id} meta={l} lesson={lessons[l.id]} done={completed.includes(l.id)} />
+      ))}
+      {extra}
+    </div>
+  );
+  // Silent work first; writing and speaking have their own sections, since they need time or a
+  // microphone. Sections with no lessons are left out, and the rest are numbered in order.
+  const sections = [
+    words.length > 0 && { title: 'Words', content: cards(words) },
+    grammarLessons.length > 0 && { title: 'Grammar in context', content: cards(grammarLessons) },
+    practice.length > 0 && { title: 'Practice', content: cards(practice) },
+    reading.length > 0 && { title: 'Read', content: cards(reading) },
+    writing.length > 0 && { title: 'Write', content: cards(writing) },
+    {
+      title: 'Speak & listen',
+      note: 'Needs sound and a microphone',
+      content: cards(
+        speaking,
+        <>
+          <Placeholder title="Model dialogue" description="Two people in this chapter's situation, with audio and a transcript." />
+          <Placeholder title="Tell the tutor" description="Practise this chapter out loud with the AI tutor." />
+        </>,
+      ),
+    },
+  ].filter((s) => s !== false);
 
   return (
     <Page
@@ -69,35 +151,11 @@ export default function ChapterPage() {
 
       <div className="flex items-start gap-10">
         <div className="flex flex-1 flex-col gap-6">
-          <Section n={1} title="Listen first">
-            <Placeholder title="Model dialogue" description="Two people in this chapter's situation, with audio and a transcript." />
-          </Section>
-          {words.length > 0 && (
-            <Section n={2} title="Words">
-              <div className="grid grid-cols-2 gap-2.5">
-                {words.map((l) => (
-                  <LessonCard key={l.id} lesson={l} done={completed.includes(l.id)} />
-                ))}
-              </div>
+          {sections.map((s, i) => (
+            <Section key={s.title} n={i + 1} title={s.title} note={'note' in s ? s.note : undefined}>
+              {s.content}
             </Section>
-          )}
-          {grammarLessons.length > 0 && (
-            <Section n={words.length > 0 ? 3 : 2} title="Grammar in context">
-              <div className="grid grid-cols-2 gap-2.5">
-                {grammarLessons.map((l) => (
-                  <LessonCard key={l.id} lesson={l} done={completed.includes(l.id)} />
-                ))}
-              </div>
-            </Section>
-          )}
-          <Section n={2 + (words.length > 0 ? 1 : 0) + (grammarLessons.length > 0 ? 1 : 0)} title="Use it">
-            <div className="grid grid-cols-2 gap-2.5">
-              {useIt.map((l) => (
-                <LessonCard key={l.id} lesson={l} done={completed.includes(l.id)} />
-              ))}
-              <Placeholder title="Tell the tutor" description="Practise this chapter out loud with the AI tutor." />
-            </div>
-          </Section>
+          ))}
         </div>
 
         <aside className="flex w-70 shrink-0 flex-col gap-3">
@@ -105,7 +163,12 @@ export default function ChapterPage() {
           {grammar.length === 0 && <p className="text-sm text-muted-foreground">{unit.grammar_focus}</p>}
           {grammar.map((g) => (
             <Link key={g.id} to={`/grammar/${g.id}`} className="flex flex-col gap-1 bg-cobalto p-4.5 text-white">
-              <span className="text-xs font-bold uppercase tracking-label text-white/75">Grammar unit · coming soon</span>
+              <span className="text-xs font-bold uppercase tracking-label text-white/75">
+                Grammar unit {g.order} ·{' '}
+                {!isGrammarUnitWritten(g.id)
+                  ? 'coming soon'
+                  : { learned: 'learned', 'in-progress': 'in progress', empty: 'not started' }[grammarUnitStatus(g.id)]}
+              </span>
               <span className="font-display text-xl">{g.title}</span>
             </Link>
           ))}

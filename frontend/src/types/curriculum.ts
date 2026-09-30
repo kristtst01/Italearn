@@ -18,12 +18,13 @@ export interface LessonMeta {
   id: string;
   unit_id: string;
   name: string;
-  /** How the Chapter page groups it: vocabulary, grammar in context, consolidation, or the writing task */
+  /** What kind of lesson it is: vocabulary exercises, grammar in context, consolidation, a reading text, the writing task,
+   *  or speaking (needs a microphone, so it has its own section) */
   role: LessonRole;
   order: number;
 }
 
-export type LessonRole = 'words' | 'grammar' | 'practice' | 'writing';
+export type LessonRole = 'words' | 'grammar' | 'practice' | 'reading' | 'writing' | 'speaking';
 
 export interface Unit {
   id: string;

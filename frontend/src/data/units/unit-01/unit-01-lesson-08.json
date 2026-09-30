@@ -1,0 +1,98 @@
+{
+  "id": "unit-01-lesson-08",
+  "unit_id": "unit-01",
+  "name": "Say It Out Loud",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-01-lesson-08-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "Buongiorno! Come sta?",
+      "correct_answer": "Buongiorno! Come sta?",
+      "distractors": [],
+      "hints": ["A formal greeting, then the formal 'how are you?'"],
+      "target_words": ["buongiorno", "come sta"]
+    },
+    {
+      "id": "unit-01-lesson-08-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "Ciao! Come stai? Bene, grazie, e tu?",
+      "correct_answer": "Ciao! Come stai? Bene, grazie, e tu?",
+      "distractors": [],
+      "hints": ["Informal: a question, then an answer that asks back."],
+      "target_words": ["ciao", "come stai", "e tu"]
+    },
+    {
+      "id": "unit-01-lesson-08-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "Piacere, mi chiamo Giulia.",
+      "correct_answer": "Piacere, mi chiamo Giulia.",
+      "distractors": [],
+      "hints": ["Say 'piacere', then your name."],
+      "target_words": ["piacere", "mi chiamo"]
+    },
+    {
+      "id": "unit-01-lesson-08-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "Scusi, non capisco. Può ripetere?",
+      "correct_answer": "Scusi, non capisco. Può ripetere?",
+      "distractors": [],
+      "hints": ["Your two lifelines."],
+      "target_words": ["scusi", "non capisco", "può ripetere"]
+    },
+    {
+      "id": "unit-01-lesson-08-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "Un cappuccino, per favore. Grazie!",
+      "correct_answer": "Un cappuccino, per favore. Grazie!",
+      "distractors": [],
+      "hints": ["Ordering at the bar."],
+      "target_words": ["per favore", "grazie"]
+    },
+    {
+      "id": "unit-01-lesson-08-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "Mi dispiace, sono in ritardo.",
+      "correct_answer": "Mi dispiace, sono in ritardo.",
+      "distractors": [],
+      "hints": ["An apology."],
+      "target_words": ["mi dispiace"]
+    },
+    {
+      "id": "unit-01-lesson-08-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "Buonasera a tutti!",
+      "correct_answer": "Buonasera a tutti!",
+      "distractors": [],
+      "hints": ["An evening greeting to a group."],
+      "target_words": ["buonasera"]
+    },
+    {
+      "id": "unit-01-lesson-08-ex-08",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "Buon compleanno e tanti auguri!",
+      "correct_answer": "Buon compleanno e tanti auguri!",
+      "distractors": [],
+      "hints": ["A birthday wish."],
+      "target_words": ["buon compleanno", "auguri"]
+    }
+  ],
+  "vocabulary": []
+}

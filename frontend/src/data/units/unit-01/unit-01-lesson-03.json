@@ -3,93 +3,29 @@
   "unit_id": "unit-01",
   "name": "How Are You?",
   "order": 3,
-  "grammar_tips": [
-    {
-      "id": "unit-01-lesson-03-tip-01",
-      "title": "Stai vs. Sta — Informal and Formal Again",
-      "explanation": "'Come stai?' is informal (friends). 'Come sta?' is formal (strangers, elders). Same split as 'ciao' vs 'buongiorno' and 'scusa' vs 'scusi'. This pattern runs through ALL of Italian — get used to it!",
-      "example": { "italian": "Buongiorno, professore. Come sta?", "english": "Good morning, professor. How are you?" },
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-01-lesson-03-tip-02",
-      "title": "Stare, Not Essere",
-      "explanation": "To say how you feel, Italian uses 'stare' — NOT 'essere'. 'Sto bene' (I'm well) is correct. 'Sono bene' is WRONG. For now just memorize 'sto bene' and 'sto male' as chunks — the full verb comes later.",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-01-lesson-03-tip-03",
-      "title": "Always Ask Back",
-      "explanation": "In Italian, answering 'How are you?' without asking back is rude. Always add 'e tu?' (informal) or 'e Lei?' (formal). The full pattern: Bene, grazie, e tu? (Well, thanks, and you?)",
-      "before_exercise": 10
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-01-lesson-03-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
+      "subtype": "type_answer",
       "prompt": { "text": "What does 'come stai?' mean?" },
       "sentence_context": "Ciao, Anna! Come stai?",
-      "correct_answer": "How are you? (informal)",
-      "distractors": ["How are you? (formal)", "What's your name?", "Where are you from?"],
-      "hints": ["'Stai' is the informal form — used with people you'd greet with 'ciao'."],
+      "correct_answer": ["how are you?"],
+      "distractors": [],
+      "hints": ["'Stai' is the informal form, used with people you'd greet with 'ciao'."],
       "target_words": ["come stai"]
     },
     {
       "id": "unit-01-lesson-03-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "Which is the FORMAL way to ask 'How are you?'" },
+      "prompt": { "text": "Which is the formal way to ask 'How are you?'" },
       "sentence_context": "Buongiorno, dottore. Come sta?",
       "correct_answer": "Come sta?",
       "distractors": ["Come stai?", "Come sei?", "Come vai?"],
       "hints": ["Formal = 'Lei' form. The verb ending changes from -ai to -a."],
       "target_words": ["come sta"]
-    },
-    {
-      "id": "unit-01-lesson-03-ex-03",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "Your friend asks 'Come stai?' and you feel neither great nor terrible. What do you say?" },
-      "sentence_context": "Come stai? — Così così.",
-      "correct_answer": "Così così",
-      "distractors": ["Sto bene", "Sto male", "Non c'è male"],
-      "hints": ["The doubled word suggests something in between — 'so-so'."],
-      "target_words": ["così così"]
-    },
-    {
-      "id": "unit-01-lesson-03-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'sto male' mean?" },
-      "sentence_context": "Sto male oggi. Ho mal di testa.",
-      "correct_answer": "I'm not well / I feel bad",
-      "distractors": ["I'm well", "I'm sorry", "Not bad"],
-      "hints": ["'Male' means 'bad' or 'unwell'. The opposite of 'bene'."],
-      "target_words": ["sto male"]
-    },
-    {
-      "id": "unit-01-lesson-03-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'non c'è male' literally mean?" },
-      "sentence_context": "Come va? — Non c'è male!",
-      "correct_answer": "Not bad (literally: 'there is no bad')",
-      "distractors": ["Very well", "I feel terrible", "So-so"],
-      "hints": ["'Non' = not, 'c'è' = there is, 'male' = bad. Put them together."],
-      "target_words": ["non c'è male"]
-    },
-    {
-      "id": "unit-01-lesson-03-ex-06",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "After answering 'Come stai?', what should you always add?" },
-      "sentence_context": "Bene, grazie, e tu?",
-      "correct_answer": "'E tu?' or 'E Lei?' — ask back",
-      "distractors": ["'Arrivederci' — say goodbye", "'Prego' — you're welcome", "'Ciao' — say hi again"],
-      "hints": ["In Italian, not asking back is considered rude."],
-      "target_words": ["e tu", "e Lei"]
     },
     {
       "id": "unit-01-lesson-03-ex-07",
@@ -103,6 +39,17 @@
       "target_words": ["sto bene"]
     },
     {
+      "id": "unit-01-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Your friend asks 'Come stai?' and you feel neither great nor terrible. What do you say?" },
+      "sentence_context": "Come stai? — Così così.",
+      "correct_answer": "Così così",
+      "distractors": ["Sto bene", "Sto male", "Non c'è male"],
+      "hints": ["The doubled word suggests something in between: 'so-so'."],
+      "target_words": ["così così"]
+    },
+    {
       "id": "unit-01-lesson-03-ex-08",
       "type": "vocab",
       "subtype": "cloze",
@@ -110,8 +57,19 @@
       "sentence_context": "Come ___? — Bene!",
       "correct_answer": ["stai", "sta"],
       "distractors": [],
-      "hints": ["How are you? — Well!"],
+      "hints": ["How are you? Well!"],
       "target_words": ["come stai"]
+    },
+    {
+      "id": "unit-01-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "After answering 'Come stai?', what's the polite thing to add?" },
+      "sentence_context": "Bene, grazie, e tu?",
+      "correct_answer": "Ask back: 'E tu?' or 'E Lei?'",
+      "distractors": ["Say goodbye: 'Arrivederci'", "Say you're welcome: 'Prego'", "Say hi again: 'Ciao'"],
+      "hints": ["It's polite to ask how the other person is too."],
+      "target_words": ["e tu", "e Lei"]
     },
     {
       "id": "unit-01-lesson-03-ex-09",
@@ -123,6 +81,50 @@
       "distractors": [],
       "hints": ["Well, thanks, and you?"],
       "target_words": ["e tu"]
+    },
+    {
+      "id": "unit-01-lesson-03-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Complete with the informal 'How are you?'" },
+      "sentence_context": "Ciao, Paolo! Come ___?",
+      "correct_answer": "stai",
+      "distractors": [],
+      "hints": ["The informal form ends in -ai."],
+      "target_words": ["come stai"]
+    },
+    {
+      "id": "unit-01-lesson-03-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Complete with the formal 'How are you?'" },
+      "sentence_context": "Buongiorno, signora. Come ___?",
+      "correct_answer": "sta",
+      "distractors": [],
+      "hints": ["The formal form ends in -a."],
+      "target_words": ["come sta"]
+    },
+    {
+      "id": "unit-01-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Well, thanks, and you?' (informal)" },
+      "sentence_context": "Bene, grazie, e tu?",
+      "correct_answer": ["Bene,", "grazie,", "e", "tu?"],
+      "distractors": ["Lei", "male"],
+      "hints": ["Answer first, then thank, then ask back."],
+      "target_words": ["bene", "e tu"]
+    },
+    {
+      "id": "unit-01-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Good morning! How are you?' (formal)" },
+      "sentence_context": "Buongiorno! Come sta?",
+      "correct_answer": ["Buongiorno!", "Come", "sta?"],
+      "distractors": ["stai", "ciao"],
+      "hints": ["Formal greeting first, then the formal question."],
+      "target_words": ["buongiorno", "come sta"]
     },
     {
       "id": "unit-01-lesson-03-ex-10",
@@ -165,52 +167,19 @@
       "sentence_context": "Bene, grazie, e tu?",
       "correct_answer": "e tu",
       "distractors": [],
-      "hints": ["Two short words — a conjunction and an informal pronoun."],
+      "hints": ["Two short words: 'and' plus the informal 'you'."],
       "target_words": ["e tu"]
     },
     {
-      "id": "unit-01-lesson-03-ex-14",
+      "id": "unit-01-lesson-03-ex-18",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Complete with the informal 'How are you?'" },
-      "sentence_context": "Ciao, Paolo! Come ___?",
-      "correct_answer": "stai",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I'm not well'?" },
+      "sentence_context": "",
+      "correct_answer": ["sto male"],
       "distractors": [],
-      "hints": ["The informal form — ends in -ai."],
-      "target_words": ["come stai"]
-    },
-    {
-      "id": "unit-01-lesson-03-ex-15",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Complete with the formal 'How are you?'" },
-      "sentence_context": "Buongiorno, signora. Come ___?",
-      "correct_answer": "sta",
-      "distractors": [],
-      "hints": ["The formal form — ends in -a."],
-      "target_words": ["come sta"]
-    },
-    {
-      "id": "unit-01-lesson-03-ex-16",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Well, thanks, and you?' (informal)" },
-      "sentence_context": "Bene, grazie, e tu?",
-      "correct_answer": ["Bene,", "grazie,", "e", "tu?"],
-      "distractors": ["Lei", "male"],
-      "hints": ["Answer first, then thank, then ask back."],
-      "target_words": ["bene", "e tu"]
-    },
-    {
-      "id": "unit-01-lesson-03-ex-17",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Good morning! How are you?' (formal)" },
-      "sentence_context": "Buongiorno! Come sta?",
-      "correct_answer": ["Buongiorno!", "Come", "sta?"],
-      "distractors": ["stai", "ciao"],
-      "hints": ["Formal greeting first, then the formal question."],
-      "target_words": ["buongiorno", "come sta"]
+      "hints": ["The opposite of 'sto bene'."],
+      "target_words": ["sto male"]
     }
   ],
   "vocabulary": [
