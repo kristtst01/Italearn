@@ -48,7 +48,8 @@ export interface Shape {
   kind: 'circle' | 'half';
   color: ShapeColor;
   size: number;
-  /** Offsets in px from the page edges; negative values push the shape off-screen */
+  /** Offsets in px from the page edges; negative values push the shape off-screen.
+   *  A half-circle's flat side must sit on the bottom edge (bottom: 0), or it looks cut off. */
   position: Pick<CSSProperties, 'top' | 'right' | 'bottom' | 'left'>;
   /** Only show on wide screens, for pages whose content would otherwise run under the shape */
   wideOnly?: boolean;

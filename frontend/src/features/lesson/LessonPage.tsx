@@ -10,6 +10,7 @@ import LessonHeader from './LessonHeader';
 import CompletionScreen from './CompletionScreen';
 import GrammarTip from './GrammarTip';
 import NewWords from './NewWords';
+import ReadingPanel from './ReadingPanel';
 import { getChapter, isWritingLesson, stampEarned } from '@/engine/chapters';
 import { useProgressStore } from '@/stores/progressStore';
 import SessionLayout from '@/shared/components/SessionLayout';
@@ -68,11 +69,29 @@ function LessonContent({
 
   const chapter = getChapter(lesson.unit_id);
   const meta = chapter?.lessons.find((l) => l.id === lesson.id);
-  const earnsStamp = !!chapter && !!meta && isWritingLesson(meta) && !state.isRetry;
   const completed = useProgressStore((s) => s.lessons_completed);
+  // The stamp comes with the chapter's last writing lesson: this one, once all the others are done
+  const earnsStamp =
+    !!chapter &&
+    !!meta &&
+    isWritingLesson(meta) &&
+    !state.isRetry &&
+    chapter.lessons.filter(isWritingLesson).every((l) => l.id === lesson.id || completed.includes(l.id));
+
+  const step =
+    state.currentStep?.kind === 'words' ? (
+      <NewWords words={state.currentStep.words} onStart={state.handleTipDismiss} />
+    ) : state.currentStep?.kind === 'tip' ? (
+      <GrammarTip key={state.currentStep.tip.id} tip={state.currentStep.tip} onDismiss={state.handleTipDismiss} />
+    ) : state.currentStep?.kind === 'exercise' ? (
+      renderExercise({ exercise: state.currentStep.exercise, onComplete: state.handleExerciseComplete })
+    ) : null;
+  // Reading lessons keep the text beside every question
+  const reading = lesson.reading && !state.isComplete;
 
   return (
     <SessionLayout
+      wide={!!reading}
       header={
       <LessonHeader
         context={chapter ? `Chapter ${String(chapter.order).padStart(2, '0')} · ${chapter.name}` : undefined}
@@ -98,20 +117,14 @@ function LessonContent({
             onPracticeMistakes={state.handlePracticeMistakes}
             onContinue={onExit}
           />
-        ) : state.currentStep?.kind === 'words' ? (
-          <NewWords words={state.currentStep.words} onStart={state.handleTipDismiss} />
-        ) : state.currentStep?.kind === 'tip' ? (
-          <GrammarTip
-            key={state.currentStep.tip.id}
-            tip={state.currentStep.tip}
-            onDismiss={state.handleTipDismiss}
-          />
-        ) : state.currentStep?.kind === 'exercise' ? (
-          renderExercise({
-            exercise: state.currentStep.exercise,
-            onComplete: state.handleExerciseComplete,
-          })
-        ) : null}
+        ) : reading && lesson.reading ? (
+          <div className="grid grid-cols-[minmax(0,5fr)_minmax(0,6fr)] items-start gap-10">
+            <ReadingPanel text={lesson.reading} />
+            <div className="min-w-0">{step}</div>
+          </div>
+        ) : (
+          step
+        )}
     </SessionLayout>
   );
 }

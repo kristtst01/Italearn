@@ -67,6 +67,14 @@ export interface Lesson {
   grammar_tips: GrammarTip[];
   order: number;
   vocabulary?: LessonVocab[];
+  /** Reading lessons: the text, shown beside every question */
+  reading?: ReadingText;
+}
+
+export interface ReadingText {
+  title: string;
+  /** Paragraphs of the text, in Italian */
+  paragraphs: string[];
 }
 
 export interface Curriculum {

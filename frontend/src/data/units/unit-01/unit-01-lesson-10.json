@@ -1,0 +1,21 @@
+{
+  "id": "unit-01-lesson-10",
+  "unit_id": "unit-01",
+  "name": "At the Shop",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-01-lesson-10-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "You didn't catch what a shop assistant said. Apologise, say you don't understand, and ask them to repeat." },
+      "sentence_context": "",
+      "correct_answer": "Scusi, non capisco. Può ripetere, per favore?",
+      "distractors": [],
+      "hints": ["A shop assistant: formal. 'Scusi', then your two lifelines."],
+      "target_words": ["scusi", "non capisco", "può ripetere", "per favore"]
+    }
+  ],
+  "vocabulary": []
+}

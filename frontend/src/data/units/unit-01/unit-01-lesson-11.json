@@ -1,0 +1,21 @@
+{
+  "id": "unit-01-lesson-11",
+  "unit_id": "unit-01",
+  "name": "Wishing a Friend Well",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-01-lesson-11-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Your friend is leaving for a holiday. Say goodbye and wish them well." },
+      "sentence_context": "",
+      "correct_answer": "Ciao! Buon viaggio e buone vacanze!",
+      "distractors": [],
+      "hints": ["Use 'buon' or 'buone' with the occasion."],
+      "target_words": ["ciao", "buon viaggio", "buone vacanze"]
+    }
+  ],
+  "vocabulary": []
+}

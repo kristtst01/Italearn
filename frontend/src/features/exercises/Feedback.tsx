@@ -19,8 +19,8 @@ export default function Feedback({ correct, correctAnswer, userAnswer, exercise,
   const showCorrection = !correct && !['match_pairs', 'multiple_choice'].includes(exercise.subtype);
   const hint = !correct ? exercise.hints[0] : undefined;
   // The full sentence, with the blank filled by your answer if it was right. Rewrite exercises
-  // show the sentence you started from (for find_mistake, the faulty one), so it isn't repeated.
-  const rewrite = ['transformation', 'find_mistake'].includes(exercise.subtype);
+  // and dialogues already show their sentence or exchange (for find_mistake, the faulty one), so it isn't repeated.
+  const rewrite = ['transformation', 'find_mistake', 'dialogue_completion'].includes(exercise.subtype);
   let filled = correct && userAnswer.trim() ? userAnswer.trim() : correctAnswer;
   if (exercise.sentence_context?.startsWith('___')) filled = filled.charAt(0).toUpperCase() + filled.slice(1);
   const sentence = rewrite ? undefined : exercise.sentence_context?.replace('___', filled);

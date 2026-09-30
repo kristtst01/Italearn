@@ -6,6 +6,7 @@ export type {
   LessonMeta,
   LessonRole,
   LessonVocab,
+  ReadingText,
   GrammarTip,
   Curriculum,
   UnitStatus,
@@ -16,6 +17,7 @@ export type {
   ExerciseSubtype,
   ExercisePrompt,
   Exercise,
+  DialogueLine,
 } from './exercise';
 
 export type {

@@ -1,0 +1,21 @@
+{
+  "id": "unit-01-lesson-09",
+  "unit_id": "unit-01",
+  "name": "Catching Up",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-01-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "A friend of a friend says 'Ciao! Come stai?'. Answer, and ask how they are." },
+      "sentence_context": "Ciao! Come stai?",
+      "correct_answer": "Ciao! Sto bene, grazie. E tu?",
+      "distractors": [],
+      "hints": ["Say how you are, thank them, and ask back informally."],
+      "target_words": ["sto bene", "grazie", "e tu"]
+    }
+  ],
+  "vocabulary": []
+}

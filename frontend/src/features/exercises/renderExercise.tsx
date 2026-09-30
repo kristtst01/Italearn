@@ -7,6 +7,7 @@ import MatchPairs from './MatchPairs';
 import ReadAloud from './ReadAloud';
 import FreeResponse from './FreeResponse';
 import RewriteSentence from './RewriteSentence';
+import DialogueCompletion from './DialogueCompletion';
 import PlannedExerciseCard from './PlannedExerciseCard';
 
 interface ExerciseProps {
@@ -36,6 +37,8 @@ export default function renderExercise({ exercise, onComplete }: ExerciseProps) 
     case 'transformation':
     case 'find_mistake':
       return <RewriteSentence key={exercise.id} {...props} />;
+    case 'dialogue_completion':
+      return <DialogueCompletion key={exercise.id} {...props} />;
     default:
       return <PlannedExerciseCard key={exercise.id} {...props} />;
   }

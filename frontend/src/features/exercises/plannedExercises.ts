@@ -22,12 +22,6 @@ export const PLANNED_EXERCISES: Partial<Record<ExerciseSubtype, PlannedExercise>
     description: 'Write a whole sentence in Italian. Graded leniently, so any correct version counts.',
     example: { prompt: 'My brother lives in Rome.', answer: 'Mio fratello abita a Roma.' },
   },
-  dialogue_completion: {
-    name: 'Your line',
-    trains: 'Using language in an exchange',
-    description: 'Write your part in a short dialogue.',
-    example: { prompt: '— Buongiorno! Cosa prende? — …', answer: 'Un caffè, per favore.' },
-  },
   dictation: {
     name: 'Dictation',
     trains: 'Hearing and spelling',

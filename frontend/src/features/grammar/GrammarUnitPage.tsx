@@ -39,7 +39,7 @@ export default function GrammarUnitPage() {
     <Page
       shapes={[
         { kind: 'circle', color: 'vermiglione', size: 260, position: { right: -110, top: 110 }, wideOnly: true },
-        { kind: 'half', color: 'ocra', size: 300, position: { right: -80, top: 900 }, wideOnly: true },
+        { kind: 'circle', color: 'ocra', size: 220, position: { right: -120, top: 900 }, wideOnly: true },
       ]}
       className="pb-24"
     >

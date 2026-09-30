@@ -16,7 +16,7 @@ function lessonKind(meta: LessonMeta, lesson?: Lesson): { label: string; note?: 
   switch (meta.role) {
     case 'writing':
       return {
-        label: n ? `Writing · ${n} ${n === 1 ? 'text' : 'texts'}` : 'Writing',
+        label: 'Writing',
         note: 'Write your own answers and get feedback',
       };
     case 'reading':
@@ -90,9 +90,8 @@ export default function ChapterPage() {
   }
 
   const byRole = (role: LessonRole) => unit.lessons.filter((l) => l.role === role);
-  const words = byRole('words');
-  const grammarLessons = byRole('grammar');
-  const practice = byRole('practice');
+  // Exercise lessons (words, grammar in context, practice) share one section, in chapter order
+  const exerciseLessons = unit.lessons.filter((l) => ['words', 'grammar', 'practice'].includes(l.role));
   const reading = byRole('reading');
   const writing = unit.lessons.filter(isWritingLesson);
   const speaking = byRole('speaking');
@@ -110,9 +109,7 @@ export default function ChapterPage() {
   // Silent work first; writing and speaking have their own sections, since they need time or a
   // microphone. Sections with no lessons are left out, and the rest are numbered in order.
   const sections = [
-    words.length > 0 && { title: 'Words', content: cards(words) },
-    grammarLessons.length > 0 && { title: 'Grammar in context', content: cards(grammarLessons) },
-    practice.length > 0 && { title: 'Practice', content: cards(practice) },
+    exerciseLessons.length > 0 && { title: 'Lessons', content: cards(exerciseLessons) },
     reading.length > 0 && { title: 'Read', content: cards(reading) },
     writing.length > 0 && { title: 'Write', content: cards(writing) },
     {

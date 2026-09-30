@@ -41,4 +41,11 @@ export interface Exercise {
   grammar_points?: string[];
   /** A missing accent counts as wrong (e.g. è vs e), instead of correct with a reminder */
   strict_accents?: boolean;
+  /** dialogue_completion: the exchange, in order. The line without `text` is the learner's. */
+  dialogue?: DialogueLine[];
+}
+
+export interface DialogueLine {
+  speaker: string;
+  text?: string;
 }

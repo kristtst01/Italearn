@@ -60,6 +60,10 @@ Decide whether the student's answer is acceptable. An answer is acceptable if:
 - It is a valid Italian translation/response even if it differs from the expected answers
 - It uses a synonym or alternative phrasing that conveys the same meaning
 - Minor differences in formality (tu/Lei) are acceptable unless the prompt asks for one, either directly ("formally", "informally") or through the situation (a friend, a child, a classmate your age, a shop assistant, an older stranger). When the situation implies a register, the other register is wrong: say so.
+- For dialogue_completion exercises: the sentence context is a short exchange and "___" \
+is the student's turn. Accept any reply in Italian that fits the conversation and the \
+instruction, including names, cities or details the student picks themselves. The expected \
+answer is only an example.
 - For arrange_words exercises: the student builds a sentence from word cards. \
 Dropping subject pronouns (io, tu, lui, lei, noi, voi, loro) is natural Italian \
 and should be accepted; unused cards are fine as long as the sentence is grammatically \

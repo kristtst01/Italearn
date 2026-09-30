@@ -1,0 +1,334 @@
+{
+  "source": "Chapter 1 (unit-01), lessons 1-5, before the rework",
+  "removed": "2026-09-30",
+  "why": "Library lessons no longer carry grammar tips (their explanations moved to the grammar unit 'First phrases'), and 'What does X mean?' questions were cut where a typed answer covers the same phrase. Kept here for reuse, e.g. as review items or notes.",
+  "tips": [
+    {
+      "id": "unit-01-lesson-01-tip-01",
+      "title": "Two Worlds: Formal and Informal",
+      "explanation": "Every Italian interaction splits into formal or informal. Use 'ciao' with friends and family. Use 'buongiorno' or 'buonasera' with strangers, elders, or anyone you'd call 'Sir' or 'Ma'am'. Getting this right matters — Italians notice immediately.",
+      "before_exercise": 0,
+      "source_lesson": "unit-01-lesson-01"
+    },
+    {
+      "id": "unit-01-lesson-01-tip-02",
+      "title": "Greeting by the Clock",
+      "explanation": "'Buongiorno' covers morning through early afternoon. 'Buonasera' takes over from late afternoon onward. But 'buonanotte' is NOT a greeting — it's only for bedtime, like saying 'sleep well'. You would never walk into a restaurant at 9 PM and say 'buonanotte'.",
+      "before_exercise": 5,
+      "source_lesson": "unit-01-lesson-01"
+    },
+    {
+      "id": "unit-01-lesson-01-tip-03",
+      "title": "Salve — Your Safety Net",
+      "explanation": "Not sure if someone is a 'ciao' person or a 'buongiorno' person? Say 'salve'. It works at any time, in any register — perfectly neutral. From Latin, meaning 'be well'.",
+      "before_exercise": 10,
+      "source_lesson": "unit-01-lesson-01"
+    },
+    {
+      "id": "unit-01-lesson-02-tip-01",
+      "title": "Scusi vs. Scusa — The Formal/Informal Split Again",
+      "explanation": "Just like 'ciao' vs 'buongiorno', Italian splits 'excuse me' into formal and informal. 'Scusi' for strangers and formal situations. 'Scusa' for friends. When in doubt, use 'scusi' — being too polite is never a problem.",
+      "before_exercise": 0,
+      "source_lesson": "unit-01-lesson-02"
+    },
+    {
+      "id": "unit-01-lesson-02-tip-02",
+      "title": "Permesso — A Word English Doesn't Have",
+      "explanation": "'Permesso' is said when you physically need to pass through or enter someone's space. On a crowded bus, pushing through a doorway, entering someone's home — say 'permesso'. It's like 'coming through' but polite. There's no exact English equivalent.",
+      "before_exercise": 6,
+      "source_lesson": "unit-01-lesson-02"
+    },
+    {
+      "id": "unit-01-lesson-02-tip-03",
+      "title": "Prego Does Everything",
+      "explanation": "'Prego' is the reply to 'grazie' (you're welcome), but Italians use it for much more. A waiter hands you the menu: 'Prego.' Someone asks if they can sit: 'Prego!' (Please, go ahead.) It's Italian for 'help yourself'.",
+      "before_exercise": 10,
+      "source_lesson": "unit-01-lesson-02"
+    },
+    {
+      "id": "unit-01-lesson-03-tip-01",
+      "title": "Stai vs. Sta — Informal and Formal Again",
+      "explanation": "'Come stai?' is informal (friends). 'Come sta?' is formal (strangers, elders). Same split as 'ciao' vs 'buongiorno' and 'scusa' vs 'scusi'. This pattern runs through ALL of Italian — get used to it!",
+      "example": {
+        "italian": "Buongiorno, professore. Come sta?",
+        "english": "Good morning, professor. How are you?"
+      },
+      "before_exercise": 0,
+      "source_lesson": "unit-01-lesson-03"
+    },
+    {
+      "id": "unit-01-lesson-03-tip-02",
+      "title": "Stare, Not Essere",
+      "explanation": "To say how you feel, Italian uses 'stare' — NOT 'essere'. 'Sto bene' (I'm well) is correct. 'Sono bene' is WRONG. For now just memorize 'sto bene' and 'sto male' as chunks — the full verb comes later.",
+      "before_exercise": 6,
+      "source_lesson": "unit-01-lesson-03"
+    },
+    {
+      "id": "unit-01-lesson-03-tip-03",
+      "title": "Always Ask Back",
+      "explanation": "In Italian, answering 'How are you?' without asking back is rude. Always add 'e tu?' (informal) or 'e Lei?' (formal). The full pattern: Bene, grazie, e tu? (Well, thanks, and you?)",
+      "before_exercise": 10,
+      "source_lesson": "unit-01-lesson-03"
+    },
+    {
+      "id": "unit-01-lesson-04-tip-01",
+      "title": "Your Two Lifelines",
+      "explanation": "When a conversation moves too fast, you have two essential tools: 'Non capisco' (I don't understand) to signal the problem, and 'Può ripetere?' (Can you repeat?) to ask for help. Use them freely — Italians appreciate the effort more than they judge the struggle.",
+      "before_exercise": 0,
+      "source_lesson": "unit-01-lesson-04"
+    },
+    {
+      "id": "unit-01-lesson-04-tip-02",
+      "title": "Come si dice...? — Learn Mid-Conversation",
+      "explanation": "'Come si dice...?' means 'How do you say...?' It lets you learn new words right inside a conversation. Point at something and ask 'Come si dice questo in italiano?' (How do you say this in Italian?) — and you'll get a mini lesson on the spot.",
+      "before_exercise": 5,
+      "source_lesson": "unit-01-lesson-04"
+    },
+    {
+      "id": "unit-01-lesson-04-tip-03",
+      "title": "Va bene vs. D'accordo",
+      "explanation": "Both mean 'okay', but they feel different. 'Va bene' is relaxed — 'alright, fine'. 'D'accordo' emphasizes agreement — 'agreed, deal'. You'll hear 'va bene' more in casual conversation and 'd'accordo' when confirming plans.",
+      "before_exercise": 10,
+      "source_lesson": "unit-01-lesson-04"
+    },
+    {
+      "id": "unit-01-lesson-05-tip-01",
+      "title": "Buon + Event",
+      "explanation": "Italians wish each other well constantly. The pattern is 'buon/buona/buoni/buone' (good) + the occasion: 'Buon compleanno!' (Happy birthday!), 'Buon viaggio!' (Have a good trip!), 'Buone vacanze!' (Happy holidays!).",
+      "before_exercise": 0,
+      "source_lesson": "unit-01-lesson-05"
+    },
+    {
+      "id": "unit-01-lesson-05-tip-02",
+      "title": "Auguri & Complimenti",
+      "explanation": "'Auguri!' is a one-word 'best wishes!' for any occasion. 'Complimenti!' = well done / congratulations. 'Congratulazioni!' is more formal — used for big achievements (marriage, graduation).",
+      "before_exercise": 6,
+      "source_lesson": "unit-01-lesson-05"
+    },
+    {
+      "id": "unit-01-lesson-05-tip-03",
+      "title": "Daily Wishes",
+      "explanation": "'Buona giornata!' (Have a good day!), 'Buona serata!' (Have a good evening!), 'Buon appetito!' (Enjoy your meal!) — these are said constantly. Italians never just say 'bye' without one of these.",
+      "before_exercise": 12,
+      "source_lesson": "unit-01-lesson-05"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-01-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'arrivederci' mean?"
+      },
+      "sentence_context": "Arrivederci, signore. A presto!",
+      "correct_answer": "Goodbye (formal)",
+      "distractors": [
+        "Good morning",
+        "Good night",
+        "Hello"
+      ],
+      "hints": [
+        "Literally: 'until we see each other again'. Used when parting formally."
+      ],
+      "target_words": [
+        "arrivederci"
+      ],
+      "source_lesson": "unit-01-lesson-01"
+    },
+    {
+      "id": "unit-01-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'mi dispiace' mean?"
+      },
+      "sentence_context": "Mi dispiace, non posso venire.",
+      "correct_answer": "I'm sorry",
+      "distractors": [
+        "Excuse me",
+        "Thank you",
+        "Please"
+      ],
+      "hints": [
+        "Literally: 'it displeases me'. Used to express genuine regret or apology."
+      ],
+      "target_words": [
+        "mi dispiace"
+      ],
+      "source_lesson": "unit-01-lesson-02"
+    },
+    {
+      "id": "unit-01-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'sto male' mean?"
+      },
+      "sentence_context": "Sto male oggi. Ho mal di testa.",
+      "correct_answer": "I'm not well / I feel bad",
+      "distractors": [
+        "I'm well",
+        "I'm sorry",
+        "Not bad"
+      ],
+      "hints": [
+        "'Male' means 'bad' or 'unwell'. The opposite of 'bene'."
+      ],
+      "target_words": [
+        "sto male"
+      ],
+      "source_lesson": "unit-01-lesson-03"
+    },
+    {
+      "id": "unit-01-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'non c'è male' literally mean?"
+      },
+      "sentence_context": "Come va? — Non c'è male!",
+      "correct_answer": "Not bad (literally: 'there is no bad')",
+      "distractors": [
+        "Very well",
+        "I feel terrible",
+        "So-so"
+      ],
+      "hints": [
+        "'Non' = not, 'c'è' = there is, 'male' = bad. Put them together."
+      ],
+      "target_words": [
+        "non c'è male"
+      ],
+      "source_lesson": "unit-01-lesson-03"
+    },
+    {
+      "id": "unit-01-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'va bene' mean?"
+      },
+      "sentence_context": "Va bene, ci vediamo alle otto!",
+      "correct_answer": "Okay / Alright",
+      "distractors": [
+        "I understand",
+        "I'm sorry",
+        "See you later"
+      ],
+      "hints": [
+        "Literally: 'it goes well'. Used like English 'alright' or 'fine'."
+      ],
+      "target_words": [
+        "va bene"
+      ],
+      "source_lesson": "unit-01-lesson-04"
+    },
+    {
+      "id": "unit-01-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "Translate to Italian: 'no'"
+      },
+      "sentence_context": "No, grazie.",
+      "correct_answer": "no",
+      "distractors": [],
+      "hints": [
+        "Same as English!"
+      ],
+      "target_words": [
+        "no"
+      ],
+      "source_lesson": "unit-01-lesson-04"
+    },
+    {
+      "id": "unit-01-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'buon anno' mean?"
+      },
+      "sentence_context": "Buon anno!",
+      "correct_answer": "Happy new year",
+      "distractors": [
+        "Happy birthday",
+        "Good year",
+        "Goodbye"
+      ],
+      "hints": [
+        "Said on January 1st."
+      ],
+      "target_words": [
+        "buon anno"
+      ],
+      "source_lesson": "unit-01-lesson-05"
+    },
+    {
+      "id": "unit-01-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'buona giornata' mean?"
+      },
+      "sentence_context": "Ciao, buona giornata!",
+      "correct_answer": "Have a good day",
+      "distractors": [
+        "Good morning",
+        "Goodbye",
+        "Good evening"
+      ],
+      "hints": [
+        "Said when parting during the day."
+      ],
+      "target_words": [
+        "buona giornata"
+      ],
+      "source_lesson": "unit-01-lesson-05"
+    },
+    {
+      "id": "unit-01-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'congratulazioni' mean?"
+      },
+      "sentence_context": "Congratulazioni per il lavoro!",
+      "correct_answer": "Congratulations",
+      "distractors": [
+        "Welcome",
+        "Goodbye",
+        "Thanks"
+      ],
+      "hints": [
+        "For a big achievement."
+      ],
+      "target_words": [
+        "congratulazioni"
+      ],
+      "source_lesson": "unit-01-lesson-05"
+    },
+    {
+      "id": "unit-01-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'complimenti' mean?"
+      },
+      "sentence_context": "Complimenti, bravo!",
+      "correct_answer": "Well done",
+      "distractors": [
+        "Thanks",
+        "Welcome",
+        "Goodbye"
+      ],
+      "hints": [
+        "A compliment for someone's effort."
+      ],
+      "target_words": [
+        "complimenti"
+      ],
+      "source_lesson": "unit-01-lesson-05"
+    }
+  ]
+}

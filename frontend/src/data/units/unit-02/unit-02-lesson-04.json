@@ -1,377 +1,141 @@
 {
   "id": "unit-02-lesson-04",
   "unit_id": "unit-02",
-  "name": "Introductions Practice",
+  "name": "Talking About Others",
   "order": 4,
-  "grammar_tips": [
-    {
-      "id": "unit-02-lesson-04-tip-01",
-      "title": "Putting It All Together",
-      "explanation": "You now know all six forms of essere, how to give your name, say where you're from, and introduce others. This lesson is pure practice — no new grammar. By the end, you should be able to handle a basic Italian introduction without thinking twice.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-02-lesson-04-tip-02",
-      "title": "Formal vs Informal Introductions",
-      "explanation": "With friends: 'Ciao, mi chiamo Marco. Sono di Roma.' With a stranger: 'Buongiorno, sono Marco. Sono di Roma.' The content is almost the same — it's the greeting that sets the register. 'Mi chiamo' works in both, but 'Sono + name' feels slightly more formal.",
-      "before_exercise": 7
-    },
-    {
-      "id": "unit-02-lesson-04-tip-03",
-      "title": "Piacere — Nice to Meet You",
-      "explanation": "'Piacere' means 'nice to meet you' (literally: 'pleasure'). Say it after someone introduces themselves. It works in any register — formal or informal. You can also say 'Piacere mio' (the pleasure is mine) to be extra polite.",
-      "before_exercise": 13
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-02-lesson-04-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'piacere' mean when meeting someone?"
-      },
-      "sentence_context": "Mi chiamo Anna. — Piacere!",
-      "correct_answer": "Nice to meet you",
-      "distractors": [
-        "Thank you",
-        "You're welcome",
-        "Goodbye"
-      ],
-      "hints": [
-        "Literally 'pleasure' — said after introductions."
-      ],
-      "target_words": [
-        "piacere"
-      ]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'chi è?' mean?" },
+      "sentence_context": "Chi è? È Marco.",
+      "correct_answer": ["who is it?", "who is he?", "who is she?"],
+      "distractors": [],
+      "hints": ["'Chi' = who."],
+      "target_words": ["chi è"]
     },
     {
       "id": "unit-02-lesson-04-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "Which is the correct informal introduction?"
-      },
-      "sentence_context": "Ciao! Mi chiamo Luca.",
-      "correct_answer": "Ciao! Mi chiamo Luca.",
-      "distractors": [
-        "Buongiorno, sono il signor Rossi.",
-        "Arrivederci, mi chiamo Luca.",
-        "Scusi, mi chiamo Luca."
-      ],
-      "hints": [
-        "Informal = 'ciao' people. Just name, no title."
-      ],
-      "target_words": [
-        "mi chiamo"
-      ]
+      "prompt": { "text": "You introduce your friend Sara to your teacher. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Questa è Sara.",
+      "distractors": ["Questo è Sara.", "Lei sono Sara."],
+      "hints": ["Sara is a woman: questa."],
+      "target_words": ["questa è"]
     },
     {
       "id": "unit-02-lesson-04-ex-03",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the correct form of essere."
-      },
-      "sentence_context": "Tu ___ di Firenze?",
-      "correct_answer": "sei",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: This is Paul. He is American." },
+      "sentence_context": "___ è Paul. È americano.",
+      "correct_answer": ["Questo", "questo"],
       "distractors": [],
-      "hints": [
-        "'Tu' → which form of essere?"
-      ],
-      "target_words": [
-        "essere"
-      ]
+      "hints": ["Paul is a man."],
+      "target_words": ["questo è"]
     },
     {
       "id": "unit-02-lesson-04-ex-04",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the correct form of essere."
-      },
-      "sentence_context": "Noi ___ studenti.",
-      "correct_answer": "siamo",
-      "distractors": [],
-      "hints": [
-        "'Noi' → which form of essere?"
-      ],
-      "target_words": [
-        "essere"
-      ]
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Someone points at a man across the room and asks \"Chi è?\". It's Marco, a doctor. What do you answer?" },
+      "sentence_context": "Chi è?",
+      "correct_answer": "È Marco. È medico.",
+      "distractors": ["Sono Marco. Sono medico.", "È Marco. Sei medico."],
+      "hints": ["Talking about him: è."],
+      "target_words": ["chi è"]
     },
     {
       "id": "unit-02-lesson-04-ex-05",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the correct form of essere."
-      },
-      "sentence_context": "Lui ___ dottore.",
-      "correct_answer": "è",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Emma's from London. Paul is from London too." },
+      "sentence_context": "Emma è di Londra. ___ Paul è di Londra.",
+      "correct_answer": ["Anche", "anche"],
       "distractors": [],
-      "hints": [
-        "'Lui' → which form of essere?"
-      ],
-      "target_words": [
-        "essere"
-      ]
+      "hints": ["'Too' goes before the person it's about."],
+      "target_words": ["anche"]
     },
     {
       "id": "unit-02-lesson-04-ex-06",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the correct form of essere."
-      },
-      "sentence_context": "Loro ___ insegnanti.",
-      "correct_answer": "sono",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend asks about the woman you are with." },
+      "sentence_context": "Friend: Chi è?\nYou: ___",
+      "correct_answer": ["È Giulia. È insegnante.", "Questa è Giulia, è di Firenze."],
       "distractors": [],
-      "hints": [
-        "'Loro' → which form of essere? (Same as 'io'!)"
-      ],
-      "target_words": [
-        "essere"
+      "hints": ["Her name, and something about her."],
+      "target_words": ["chi è"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Chi è?" },
+        { "speaker": "You" }
       ]
     },
     {
       "id": "unit-02-lesson-04-ex-07",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Buongiorno, ___ il dottor Rossi.",
-      "correct_answer": "sono",
-      "distractors": [],
-      "hints": [
-        "Good morning, I am Doctor Rossi."
-      ],
-      "target_words": [
-        "essere"
-      ]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "\"Lei è di Roma.\" Your friend Marco says this while looking at his colleague Anna. Who is from Rome?" },
+      "sentence_context": "Lei è di Roma.",
+      "correct_answer": "Anna",
+      "distractors": ["You", "Marco"],
+      "hints": ["Lowercase lei = she."],
+      "target_words": ["lei"]
     },
     {
       "id": "unit-02-lesson-04-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Di ___ siete?",
-      "correct_answer": "dove",
+      "prompt": { "text": "Complete: They are from Madrid." },
+      "sentence_context": "___ sono di Madrid.",
+      "correct_answer": ["Loro", "loro"],
       "distractors": [],
-      "hints": [
-        "Where are you (plural) from?"
-      ],
-      "target_words": [
-        "dove"
-      ]
+      "hints": ["'They'."],
+      "target_words": ["loro"]
     },
     {
       "id": "unit-02-lesson-04-ex-09",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "Someone introduces themselves. Say 'nice to meet you' in Italian."
-      },
-      "sentence_context": "Sono Marco. — Piacere!",
-      "correct_answer": "piacere",
-      "distractors": [],
-      "hints": [
-        "One word — literally 'pleasure'."
-      ],
-      "target_words": [
-        "piacere"
-      ]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'This is Keiko. She's Japanese and she's an engineer.'" },
+      "sentence_context": "Questa è Keiko. È giapponese ed è ingegnere.",
+      "correct_answer": ["Questa", "è", "Keiko.", "È", "giapponese", "ed", "è", "ingegnere."],
+      "distractors": ["Questo", "sono"],
+      "hints": ["Before a vowel, 'e' (and) often becomes 'ed'."],
+      "target_words": ["questa è"]
     },
     {
       "id": "unit-02-lesson-04-ex-10",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you ask 'Where are you from?' informally?"
-      },
-      "sentence_context": "Di dove sei?",
-      "correct_answer": "di dove sei",
+      "prompt": { "text": "Introduce your friend Luca, a waiter from Naples." },
+      "sentence_context": "",
+      "correct_answer": ["questo è Luca, è cameriere, è di Napoli", "questo è Luca. è cameriere di Napoli", "questo è Luca, cameriere, di Napoli"],
       "distractors": [],
-      "hints": [
-        "Three words: from + where + you are."
-      ],
-      "target_words": [
-        "dove",
-        "essere"
-      ]
+      "hints": ["Questo è + name, then what he does and where he is from."],
+      "target_words": ["questo è"]
     },
     {
       "id": "unit-02-lesson-04-ex-11",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'I am a teacher' in Italian?"
-      },
-      "sentence_context": "Sono insegnante.",
-      "correct_answer": "sono insegnante",
+      "prompt": { "text": "Say that Anna and Marta aren't Italian: they're Spanish." },
+      "sentence_context": "",
+      "correct_answer": ["Anna e Marta non sono italiane, sono spagnole", "non sono italiane, sono spagnole"],
       "distractors": [],
-      "hints": [
-        "Two words — no article needed with professions."
-      ],
-      "target_words": [
-        "essere",
-        "insegnante"
-      ]
-    },
-    {
-      "id": "unit-02-lesson-04-ex-12",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "Ask 'Who is she?' in Italian."
-      },
-      "sentence_context": "Chi è lei?",
-      "correct_answer": "chi è lei",
-      "distractors": [],
-      "hints": [
-        "Three words: who + is + she."
-      ],
-      "target_words": [
-        "chi",
-        "essere",
-        "lei"
-      ]
-    },
-    {
-      "id": "unit-02-lesson-04-ex-13",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'Hello, my name is Anna. Nice to meet you!'"
-      },
-      "sentence_context": "Ciao, mi chiamo Anna. Piacere!",
-      "correct_answer": [
-        "Ciao,",
-        "mi",
-        "chiamo",
-        "Anna.",
-        "Piacere!"
-      ],
-      "distractors": [
-        "sono",
-        "di"
-      ],
-      "hints": [
-        "Greeting, then name, then 'pleasure'."
-      ],
-      "target_words": [
-        "mi chiamo",
-        "piacere"
-      ]
-    },
-    {
-      "id": "unit-02-lesson-04-ex-14",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'This is Paolo. He is a doctor.'"
-      },
-      "sentence_context": "Questo è Paolo. Lui è dottore.",
-      "correct_answer": [
-        "Questo",
-        "è",
-        "Paolo.",
-        "Lui",
-        "è",
-        "dottore."
-      ],
-      "distractors": [
-        "questa",
-        "insegnante"
-      ],
-      "hints": [
-        "Introduce him first (this is...), then say what he does."
-      ],
-      "target_words": [
-        "questo",
-        "essere",
-        "dottore"
-      ]
-    },
-    {
-      "id": "unit-02-lesson-04-ex-15",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'Good morning, I am Doctor Rossi. I am from Venice.'"
-      },
-      "sentence_context": "Buongiorno, sono il dottor Rossi. Sono di Venezia.",
-      "correct_answer": [
-        "Buongiorno,",
-        "sono",
-        "il",
-        "dottor",
-        "Rossi.",
-        "Sono",
-        "di",
-        "Venezia."
-      ],
-      "distractors": [
-        "ciao",
-        "mi chiamo"
-      ],
-      "hints": [
-        "Formal greeting, then title + name, then origin."
-      ],
-      "target_words": [
-        "essere",
-        "di"
-      ]
-    },
-    {
-      "id": "unit-02-lesson-04-ex-16",
-      "type": "speaking",
-      "subtype": "read_aloud",
-      "prompt": {
-        "text": "Read this introduction aloud."
-      },
-      "sentence_context": "Buongiorno! Mi chiamo Anna. Sono di Firenze. Sono insegnante. Piacere!",
-      "correct_answer": "Buongiorno! Mi chiamo Anna. Sono di Firenze. Sono insegnante. Piacere!",
-      "distractors": [],
-      "hints": [
-        "A full formal introduction: greeting, name, city, profession, nice to meet you."
-      ],
-      "target_words": [
-        "mi chiamo",
-        "essere",
-        "di",
-        "insegnante",
-        "piacere"
-      ]
-    },
-    {
-      "id": "unit-02-lesson-04-ex-17",
-      "type": "speaking",
-      "subtype": "read_aloud",
-      "prompt": {
-        "text": "Read this dialogue aloud."
-      },
-      "sentence_context": "Ciao! Mi chiamo Luca. Di dove sei?",
-      "correct_answer": "Ciao! Mi chiamo Luca. Di dove sei?",
-      "distractors": [],
-      "hints": [
-        "An informal introduction followed by a question."
-      ],
-      "target_words": [
-        "mi chiamo",
-        "dove",
-        "essere"
-      ]
+      "hints": ["Two women: -e for the plural."],
+      "target_words": ["spagnolo"]
     }
   ],
   "vocabulary": [
-    {
-      "word": "piacere",
-      "meaning": "Nice to meet you / Pleasure",
-      "example": "Piacere! Mi chiamo Marco."
-    }
+    { "word": "questo è", "meaning": "this is (a man)", "example": "Questo è Marco." },
+    { "word": "questa è", "meaning": "this is (a woman)", "example": "Questa è Giulia." },
+    { "word": "chi è", "meaning": "who is it? who is he/she?", "example": "Chi è? È Paul." },
+    { "word": "lui", "meaning": "he", "example": "Lui è medico." },
+    { "word": "lei", "meaning": "she", "example": "Lei è di Roma." }
   ]
 }

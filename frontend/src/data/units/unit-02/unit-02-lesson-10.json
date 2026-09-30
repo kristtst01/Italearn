@@ -1,0 +1,21 @@
+{
+  "id": "unit-02-lesson-10",
+  "unit_id": "unit-02",
+  "name": "At the Hotel Desk",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-02-lesson-10-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "At a hotel, the receptionist asks: 'Buonasera! Come si chiama? Di dov'è?' Answer politely." },
+      "sentence_context": "",
+      "correct_answer": "Buonasera! Mi chiamo Paul Smith. Sono americano, di Chicago.",
+      "distractors": [],
+      "hints": ["A formal situation: start with a greeting."],
+      "target_words": ["come si chiama", "di dov'è"]
+    }
+  ],
+  "vocabulary": []
+}
