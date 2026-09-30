@@ -5,6 +5,7 @@ import { transcribeAudio } from '@/engine/api';
 import { validateAnswerMulti } from '@/engine/validation';
 import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
+import { Prompt } from './ui';
 
 interface ReadAloudProps {
   exercise: Exercise;
@@ -145,10 +146,9 @@ export default function ReadAloud({ exercise, onComplete }: ReadAloudProps) {
       canSubmit={transcript.length > 0}
       feedback={validation.feedback}
     >
-      <p className="mb-2 text-sm font-medium text-gray-500">Read aloud in Italian:</p>
-      <p className="mb-8 text-2xl font-bold text-gray-900">
+      <Prompt instruction="Read aloud in Italian">
         <HighlightedText text={expectedText} words={exercise.target_words} />
-      </p>
+      </Prompt>
 
       <div className="flex flex-col items-center gap-5">
         {/* Mic / Stop / Spinner button */}
@@ -156,7 +156,7 @@ export default function ReadAloud({ exercise, onComplete }: ReadAloudProps) {
           <button
             type="button"
             onClick={startRecording}
-            className="flex h-20 w-20 items-center justify-center rounded-full bg-blue-600 text-white shadow-lg transition-transform hover:scale-105 hover:bg-blue-700 active:scale-95"
+            className="flex size-20 items-center justify-center rounded-full bg-primary text-primary-foreground transition-transform hover:scale-105 active:scale-95"
           >
             <Mic className="h-8 w-8" />
           </button>
@@ -166,43 +166,43 @@ export default function ReadAloud({ exercise, onComplete }: ReadAloudProps) {
           <button
             type="button"
             onClick={stopRecording}
-            className="flex h-20 w-20 animate-pulse items-center justify-center rounded-full bg-red-500 text-white shadow-lg transition-transform hover:scale-105 active:scale-95"
+            className="flex size-20 animate-pulse items-center justify-center rounded-full bg-vermiglione text-white transition-transform hover:scale-105 active:scale-95"
           >
             <Square className="h-6 w-6" />
           </button>
         )}
 
         {state === 'transcribing' && (
-          <div className="flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
-            <Loader2 className="h-8 w-8 animate-spin text-gray-400" />
+          <div className="flex size-20 items-center justify-center rounded-full bg-vuoto">
+            <Loader2 className="h-8 w-8 animate-spin text-muted-foreground" />
           </div>
         )}
 
         {/* Volume meter while recording */}
         {state === 'recording' && (
           <div className="flex items-center gap-3">
-            <div className="h-1.5 w-40 overflow-hidden rounded-full bg-gray-200">
+            <div className="h-1.5 w-40 overflow-hidden rounded-full bg-vuoto">
               <div
-                className="h-full rounded-full bg-red-400 transition-all duration-75"
+                className="h-full rounded-full bg-vermiglione transition-all duration-75"
                 style={{ width: `${Math.min(volume, 100)}%` }}
               />
             </div>
-            <span className="text-xs tabular-nums text-gray-400">{volume}%</span>
+            <span className="text-xs tabular-nums text-muted-foreground">{volume}%</span>
           </div>
         )}
 
         {/* Result: what we heard */}
         {state === 'idle' && transcript && (
-          <div className="w-full rounded-xl border-2 border-gray-200 px-4 py-3 text-center">
-            <p className="text-sm text-gray-500">We heard:</p>
-            <p className="mt-1 text-lg font-semibold text-gray-900">"{transcript}"</p>
+          <div className="w-full rounded-lg border-2 border-border bg-white px-4.5 py-3.5 text-center">
+            <p className="text-sm text-muted-foreground">We heard:</p>
+            <p className="mt-1 text-lg font-bold">"{transcript}"</p>
           </div>
         )}
 
         {/* Error state */}
         {error && (
-          <div className="w-full rounded-xl border-2 border-red-200 bg-red-50 px-4 py-3 text-center">
-            <p className="text-sm text-red-600">{error}</p>
+          <div className="w-full rounded-lg border-2 border-correction/40 bg-white px-4.5 py-3.5 text-center">
+            <p className="text-sm text-correction">{error}</p>
           </div>
         )}
 
@@ -216,7 +216,7 @@ export default function ReadAloud({ exercise, onComplete }: ReadAloudProps) {
           <button
             type="button"
             onClick={startRecording}
-            className="flex items-center gap-2 text-sm font-medium text-blue-600 hover:text-blue-700"
+            className="flex items-center gap-2 text-sm font-bold text-cobalto hover:underline"
           >
             <RotateCcw className="h-4 w-4" /> Try again
           </button>
@@ -224,13 +224,13 @@ export default function ReadAloud({ exercise, onComplete }: ReadAloudProps) {
 
         {/* Hint text */}
         {state === 'idle' && !transcript && !error && (
-          <p className="text-sm text-gray-400">Tap the microphone and read the text above</p>
+          <p className="text-sm text-muted-foreground">Tap the microphone and read the text above</p>
         )}
         {state === 'recording' && (
-          <p className="text-sm text-gray-400">Listening… tap to stop</p>
+          <p className="text-sm text-muted-foreground">Listening… tap to stop</p>
         )}
         {state === 'transcribing' && (
-          <p className="text-sm text-gray-400">Processing…</p>
+          <p className="text-sm text-muted-foreground">Processing…</p>
         )}
       </div>
     </ExerciseShell>

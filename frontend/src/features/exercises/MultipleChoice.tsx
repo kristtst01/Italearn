@@ -1,20 +1,18 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { shuffle } from '@/shared/utils/shuffle';
 import { getFirstCorrectAnswer } from '@/shared/utils/exercise';
-import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
+import { Choice, ExercisePrompt, type ChoiceState } from './ui';
 
 interface MultipleChoiceProps {
   exercise: Exercise;
   onComplete: (result: ExerciseResult) => void;
 }
 
-export default function MultipleChoice({
-  exercise,
-  onComplete,
-}: MultipleChoiceProps) {
+export default function MultipleChoice({ exercise, onComplete }: MultipleChoiceProps) {
   const [selected, setSelected] = useState<string | null>(null);
+  const [locked, setLocked] = useState(false);
 
   const correctAnswer = getFirstCorrectAnswer(exercise);
 
@@ -23,6 +21,23 @@ export default function MultipleChoice({
     [correctAnswer, exercise.distractors],
   );
 
+  // Number keys 1–4 pick an answer
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (locked) return;
+      const n = Number(e.key);
+      if (n >= 1 && n <= options.length) setSelected(options[n - 1]);
+    }
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [locked, options]);
+
+  function stateFor(option: string, submitted: boolean): ChoiceState {
+    if (!submitted) return selected === option ? 'selected' : 'idle';
+    if (option === correctAnswer) return 'correct';
+    return option === selected ? 'wrong' : 'idle';
+  }
+
   return (
     <ExerciseShell
       exercise={exercise}
@@ -30,26 +45,26 @@ export default function MultipleChoice({
       userAnswer={selected ?? ''}
       isCorrect={selected === correctAnswer}
       canSubmit={selected !== null}
+      onSubmitted={() => setLocked(true)}
     >
-      <p className="mb-6 text-lg font-semibold text-gray-900">
-        <HighlightedText text={exercise.prompt.text ?? ''} words={exercise.target_words} />
-      </p>
-
-      <div className="space-y-3">
-        {options.map((option) => (
-          <button
-            key={option}
-            onClick={() => setSelected(option)}
-            className={`w-full rounded-xl border-2 px-4 py-3 text-left transition-colors ${
-              selected === option
-                ? 'border-blue-500 bg-blue-50 text-blue-700'
-                : 'border-gray-200 bg-white text-gray-900 hover:border-gray-300'
-            }`}
-          >
-            {option}
-          </button>
-        ))}
-      </div>
+      {(submitted) => (
+          <>
+            <ExercisePrompt exercise={exercise} showContext />
+            <div className="grid grid-cols-2 gap-3">
+              {options.map((option, i) => (
+                <Choice
+                  key={option}
+                  keyLabel={String(i + 1)}
+                  state={stateFor(option, submitted)}
+                  disabled={submitted}
+                  onClick={() => setSelected(option)}
+                >
+                  {option}
+                </Choice>
+              ))}
+            </div>
+          </>
+      )}
     </ExerciseShell>
   );
 }

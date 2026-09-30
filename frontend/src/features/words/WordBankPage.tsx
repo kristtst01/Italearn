@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
-import { Search } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { ArrowDown, ArrowUp, Search } from 'lucide-react';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { cn } from '@/lib/utils';
 import { getVocab } from '@/engine/vocabCache';
 import { useSrsStore } from '@/stores/srsStore';
 import type { SRSCard, VocabEntry } from '@/types';
@@ -39,11 +39,12 @@ function formatNextReview(due: Date | null, status: SRSStatus): string {
   return `Review in ${diffDays} days`;
 }
 
-const STATUS_BADGE: Record<SRSStatus, { label: string; variant: 'default' | 'secondary' | 'outline' | 'destructive' }> = {
-  new: { label: 'New', variant: 'outline' },
-  learning: { label: 'Learning', variant: 'secondary' },
-  due: { label: 'Due', variant: 'destructive' },
-  mature: { label: 'Mature', variant: 'default' },
+/** How each SRS status is shown, using the design system's status colours. */
+const STATUS_INFO: Record<SRSStatus, { label: string; dot?: string }> = {
+  new: { label: 'New' },
+  learning: { label: 'Learning', dot: 'bg-in-progress' },
+  due: { label: 'Due', dot: 'bg-fading' },
+  mature: { label: 'Solid', dot: 'bg-learned' },
 };
 
 const SORT_OPTIONS: { key: SortKey; label: string }[] = [
@@ -51,7 +52,7 @@ const SORT_OPTIONS: { key: SortKey; label: string }[] = [
   { key: 'alpha', label: 'A–Z' },
   { key: 'strength', label: 'Strength' },
   { key: 'due', label: 'Due date' },
-  { key: 'unit', label: 'Unit' },
+  { key: 'unit', label: 'Chapter' },
 ];
 
 /** Map unit IDs to human-readable names from curriculum. */
@@ -67,6 +68,34 @@ function getUnitName(unitId: string): string {
 function unitOrder(unitId: string): number {
   const match = unitId.match(/(\d+)/);
   return match ? parseInt(match[1], 10) : 0;
+}
+
+/** A dropdown for the toolbar (shadcn Select). `options` maps each value to its label. */
+function Dropdown({
+  label,
+  value,
+  options,
+  onChange,
+}: {
+  label: string;
+  value: string;
+  options: { value: string; label: string }[];
+  onChange: (value: string) => void;
+}) {
+  return (
+    <Select items={options} value={value} onValueChange={(v) => v !== null && onChange(v)}>
+      <SelectTrigger size="lg" aria-label={label}>
+        <SelectValue />
+      </SelectTrigger>
+      <SelectContent alignItemWithTrigger={false} align="start">
+        {options.map((o) => (
+          <SelectItem key={o.value} value={o.value}>
+            {o.label}
+          </SelectItem>
+        ))}
+      </SelectContent>
+    </Select>
+  );
 }
 
 export default function WordBankPage() {
@@ -151,149 +180,122 @@ export default function WordBankPage() {
     return list;
   }, [filtered, sortKey, reversed, cardMap]);
 
+  const control = 'h-11 rounded-lg border-2 border-border bg-white text-base outline-none transition-colors focus:border-cobalto';
+
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Sticky header */}
-      <div className="sticky top-0 z-10 bg-gray-50 border-b border-gray-200 px-6 pt-6 pb-3 space-y-3">
-        <div className="max-w-4xl mx-auto space-y-3">
-          <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-gray-900">Word Bank</h1>
-            <span className="text-sm text-gray-500">{sorted.length} of {words.length}</span>
-          </div>
+    <div className="flex flex-col gap-5">
+      <div className="flex items-center justify-between">
+        <h2 className="font-display text-heading">Word bank</h2>
+        <span className="text-sm text-muted-foreground">{sorted.length} of {words.length}</span>
+      </div>
 
-          {/* Search */}
-          <div className="relative">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
-            <input
-              type="text"
-              placeholder="Search words..."
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              className="w-full pl-9 pr-4 py-2.5 rounded-xl border border-gray-200 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400"
-            />
-          </div>
+      {/* One toolbar: search, status, chapter, sort. Controls stay the same size however many chapters exist. */}
+      <div className="flex flex-wrap items-center gap-3">
+        <div className="relative min-w-60 flex-1">
+          <Search className="absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-muted-foreground" />
+          <input
+            type="text"
+            placeholder="Search words…"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className={cn(control, 'w-full pr-4 pl-10')}
+          />
+        </div>
 
-          {/* Sort */}
-          <div className="flex gap-1.5 overflow-x-auto">
-            {SORT_OPTIONS.map((opt) => (
-              <button
-                key={opt.key}
-                onClick={() => {
-                  if (sortKey === opt.key) {
-                    setReversed((r) => !r);
-                  } else {
-                    setSortKey(opt.key);
-                    setReversed(false);
-                  }
-                }}
-                className={`px-2.5 py-1 rounded-full text-xs font-medium whitespace-nowrap cursor-pointer transition-colors ${
-                  sortKey === opt.key ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                }`}
-              >
-                {opt.label}
-                {sortKey === opt.key && (reversed ? ' ↑' : ' ↓')}
-              </button>
-            ))}
-          </div>
+        <div role="group" aria-label="Filter by status" className="flex h-11 rounded-lg border-2 border-border bg-white p-0.5">
+          {([null, 'due', 'learning', 'mature'] as (SRSStatus | null)[]).map((st) => (
+            <button
+              key={st ?? 'all'}
+              type="button"
+              aria-pressed={filterStatus === st}
+              onClick={() => setFilterStatus(st)}
+              className={cn(
+                'rounded-md px-3.5 text-sm font-medium transition-colors',
+                filterStatus === st ? 'bg-foreground text-white' : 'text-muted-foreground hover:text-foreground',
+              )}
+            >
+              {st ? STATUS_INFO[st].label : 'All'}
+            </button>
+          ))}
+        </div>
 
-          {/* Filters row */}
-          <div className="flex gap-1.5 overflow-x-auto">
-            {/* Status filters */}
-            {(['due', 'learning', 'mature', 'new'] as SRSStatus[]).map((s) => (
-              <button
-                key={s}
-                onClick={() => setFilterStatus(filterStatus === s ? null : s)}
-                className={`px-2.5 py-1 rounded-full text-xs font-medium whitespace-nowrap cursor-pointer transition-colors ${
-                  filterStatus === s ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                }`}
-              >
-                {STATUS_BADGE[s].label}
-              </button>
-            ))}
-            <div className="w-px bg-gray-200 mx-1 shrink-0" />
-            {/* Unit filters */}
-            {units.map((uid) => (
-              <button
-                key={uid}
-                onClick={() => setFilterUnit(filterUnit === uid ? null : uid)}
-                className={`px-2.5 py-1 rounded-full text-xs font-medium whitespace-nowrap cursor-pointer transition-colors ${
-                  filterUnit === uid ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                }`}
-              >
-                {getUnitName(uid)}
-              </button>
-            ))}
-          </div>
+        <Dropdown
+          label="Chapter"
+          value={filterUnit ?? 'all'}
+          options={[
+            { value: 'all', label: 'All chapters' },
+            ...units.map((uid) => ({ value: uid, label: getUnitName(uid) })),
+          ]}
+          onChange={(v) => setFilterUnit(v === 'all' ? null : v)}
+        />
+
+        <div className="flex items-center gap-1">
+          <Dropdown
+            label="Sort by"
+            value={sortKey}
+            options={SORT_OPTIONS.map((opt) => ({ value: opt.key, label: opt.label }))}
+            onChange={(v) => {
+              setSortKey(v as SortKey);
+              setReversed(false);
+            }}
+          />
+          <button
+            type="button"
+            onClick={() => setReversed((r) => !r)}
+            aria-label={reversed ? 'Sort descending' : 'Sort ascending'}
+            className={cn(control, 'flex w-11 items-center justify-center text-muted-foreground hover:text-foreground')}
+          >
+            {reversed ? <ArrowUp className="size-4" /> : <ArrowDown className="size-4" />}
+          </button>
         </div>
       </div>
 
-      {/* Word list */}
-      <div className="max-w-4xl mx-auto px-6 py-4">
-        {words.length === 0 ? (
-          <div className="text-center py-16 text-gray-400 text-sm">
-            Complete lessons to unlock vocabulary
-          </div>
-        ) : sorted.length === 0 ? (
-          <div className="text-center py-16 text-gray-400 text-sm">
-            No words match your filters
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            {sorted.map((w) => {
-              const { status, stability, reps, due } = getCardStats(cardMap.get(w.id));
-              const badge = STATUS_BADGE[status];
-              const strength = getStrength(stability);
-              const nextReview = formatNextReview(due, status);
-              const strengthColor =
-                strength >= 70 ? 'bg-green-500' : strength >= 30 ? 'bg-amber-500' : 'bg-red-400';
+      {words.length === 0 ? (
+        <p className="py-16 text-center text-muted-foreground">Complete lessons to collect vocabulary.</p>
+      ) : sorted.length === 0 ? (
+        <p className="py-16 text-center text-muted-foreground">No words match your filters.</p>
+      ) : (
+        <div className="grid grid-cols-2 gap-2.5">
+          {sorted.map((w) => {
+            const { status, stability, reps, due } = getCardStats(cardMap.get(w.id));
+            const info = STATUS_INFO[status];
+            const strength = getStrength(stability);
+            const nextReview = formatNextReview(due, status);
+            const strengthColor = strength >= 70 ? 'bg-learned' : strength >= 30 ? 'bg-in-progress' : 'bg-fading';
 
-              return (
-                <Card key={w.id}>
-                  <CardContent className="p-4">
-                    <div className="flex items-start justify-between gap-2">
-                      <div className="min-w-0 flex-1">
-                        <div className="flex items-center gap-2">
-                          <span className="font-semibold text-gray-900">{w.word}</span>
-                          <Badge variant={badge.variant} className="text-[10px]">{badge.label}</Badge>
-                        </div>
-                        <p className="text-sm text-gray-600">{w.meaning}</p>
-                        {w.example && (
-                          <p className="text-xs text-gray-400 mt-1 italic">"{w.example}"</p>
-                        )}
-
-                        {status === 'new' && (
-                          <p className="mt-2 text-[11px] text-gray-400">{getUnitName(w.unit_id)}</p>
-                        )}
-
-                        {status !== 'new' && (
-                          <div className="mt-2 space-y-1">
-                            {/* Strength bar */}
-                            <div className="flex items-center gap-2">
-                              <div className="h-1.5 flex-1 rounded-full bg-gray-100">
-                                <div
-                                  className={`h-full rounded-full transition-all ${strengthColor}`}
-                                  style={{ width: `${strength}%` }}
-                                />
-                              </div>
-                              <span className="text-[10px] tabular-nums text-gray-400">{strength}%</span>
-                            </div>
-                            {/* Review info */}
-                            <div className="flex items-center gap-3 text-[11px] text-gray-400">
-                              {reps > 0 && <span>{reps} review{reps !== 1 ? 's' : ''}</span>}
-                              {nextReview && <span>{nextReview}</span>}
-                              <span>{getUnitName(w.unit_id)}</span>
-                            </div>
-                          </div>
-                        )}
+            return (
+              <div key={w.id} className="flex flex-col gap-1 rounded-lg border border-border bg-white px-4.5 py-3.5">
+                <div className="flex items-center justify-between gap-3">
+                  <span className="text-lg font-bold">{w.word}</span>
+                  <span className="flex items-center gap-1.5 text-xs font-bold text-muted-foreground">
+                    {info.dot && <span className={cn('size-2 rounded-full', info.dot)} />}
+                    {info.label}
+                  </span>
+                </div>
+                <p className="text-muted-foreground">{w.meaning}</p>
+                {w.example && <p className="text-sm italic">{w.example}</p>}
+                {status === 'new' ? (
+                  <p className="mt-1 text-xs text-muted-foreground">{getUnitName(w.unit_id)}</p>
+                ) : (
+                  <div className="mt-2 flex flex-col gap-1.5">
+                    <div className="flex items-center gap-2">
+                      <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-vuoto">
+                        <div className={cn('h-full rounded-full', strengthColor)} style={{ width: `${strength}%` }} />
                       </div>
+                      <span className="text-xs tabular-nums text-muted-foreground">{strength}%</span>
                     </div>
-                  </CardContent>
-                </Card>
-              );
-            })}
-          </div>
-        )}
-      </div>
+                    <div className="flex items-center gap-3 text-xs text-muted-foreground">
+                      {reps > 0 && <span>{reps} review{reps !== 1 ? 's' : ''}</span>}
+                      {nextReview && <span>{nextReview}</span>}
+                      <span>{getUnitName(w.unit_id)}</span>
+                    </div>
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }

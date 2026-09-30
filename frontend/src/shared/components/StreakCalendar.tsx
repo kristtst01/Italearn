@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import { useProgressStore } from '@/stores/progressStore';
+import { cn } from '@/lib/utils';
 import { getCurrentStreak, getLongestStreak, isActiveToday, todayDateString } from '@/engine/streak';
 
 const DAY_LABELS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
@@ -27,37 +28,36 @@ export default function StreakCalendar() {
   const today = todayDateString();
 
   return (
-    <div className="rounded-xl bg-white border border-gray-200 p-4 mb-6">
-      {/* Stats row */}
-      <div className="flex items-center justify-between mb-4">
-        <div className="flex items-center gap-2">
-          <span className="text-2xl font-bold text-gray-900">{currentStreak}</span>
-          <span className="text-sm text-gray-500">day streak</span>
-        </div>
-        <div className="flex items-center gap-2">
-          <span className="text-sm text-gray-400">Best: {longestStreak}</span>
+    <div className="flex flex-col gap-4 rounded-lg border border-border bg-white px-5 py-4">
+      <div className="flex items-center justify-between">
+        <p className="flex items-baseline gap-2">
+          <span className="font-display text-3xl">{currentStreak}</span>
+          <span className="text-sm text-muted-foreground">day streak</span>
+        </p>
+        <div className="flex items-center gap-4 text-sm text-muted-foreground">
+          <span>Best: {longestStreak}</span>
           {activeToday && (
-            <span className="inline-flex items-center rounded-full bg-green-100 px-2 py-0.5 text-xs font-medium text-green-700">
+            <span className="flex items-center gap-1.5 font-bold text-foreground">
+              <span className="size-2 rounded-full bg-learned" />
               Active today
             </span>
           )}
         </div>
       </div>
 
-      {/* Last 7 days */}
       <div className="flex justify-between gap-2">
         {days.map(({ date, label }) => {
           const isActive = activeSet.has(date);
           const isToday = date === today;
           return (
             <div key={date} className="flex flex-col items-center gap-1">
-              <span className="text-[10px] text-gray-400">{label}</span>
+              <span className="text-xs text-muted-foreground">{label}</span>
               <div
-                className={`w-9 h-9 rounded-full flex items-center justify-center text-xs font-medium ${
-                  isActive
-                    ? 'bg-green-500 text-white'
-                    : 'bg-gray-100 text-gray-400'
-                } ${isToday ? 'ring-2 ring-offset-1 ring-gray-400' : ''}`}
+                className={cn(
+                  'flex size-9 items-center justify-center rounded-full text-sm font-medium',
+                  isActive ? 'bg-cobalto text-white' : 'bg-vuoto text-muted-foreground',
+                  isToday && 'ring-2 ring-foreground ring-offset-2',
+                )}
                 title={date}
               >
                 {new Date(date + 'T00:00:00').getDate()}

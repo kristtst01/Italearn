@@ -12,7 +12,15 @@ export type ExerciseSubtype =
   | 'minimal_pair'
   | 'match_pairs'
   | 'free_form'
-  | 'reading_comprehension';
+  | 'reading_comprehension'
+  // Planned (render as placeholders until built; see docs/exercise-generation-guide.md)
+  | 'transformation'
+  | 'structured_input'
+  | 'find_mistake'
+  | 'translation'
+  | 'dialogue_completion'
+  | 'listen_and_repeat'
+  | 'spoken_answer';
 
 export interface ExercisePrompt {
   text?: string;

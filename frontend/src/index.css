@@ -16,6 +16,12 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
+    /* Only our palette exists: Tailwind's default colours are switched off, so raw
+       colours (bg-blue-500) don't compile to anything. */
+    --color-*: initial;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
     /* Palette */
     --color-bianco: #FCFCFA;
     --color-nero: #1B1B1B;
@@ -40,6 +46,27 @@
     --font-sans: 'Archivo Variable', system-ui, sans-serif;
     --font-display: 'Archivo Black', 'Archivo Variable', system-ui, sans-serif;
     --font-hand: 'Caveat', cursive;
+
+    /* Type scale (docs/design-system.md) */
+    --text-title: 2.75rem;
+    --text-title--line-height: 1.05;
+    --text-title--letter-spacing: -0.02em;
+    --text-heading: 1.5rem;
+    --text-heading--line-height: 1.2;
+    --text-reading: 1.0625rem;
+    --text-reading--line-height: 1.6;
+    --tracking-label: 0.1em;
+}
+
+/* Airmail border for the stamp book postcard */
+@utility airmail {
+    background: repeating-linear-gradient(
+        135deg,
+        var(--color-vermiglione) 0 14px,
+        white 14px 22px,
+        var(--color-cobalto) 22px 36px,
+        white 36px 44px
+    );
 }
 
 /* shadcn's semantic variables, mapped onto the palette */
@@ -102,5 +129,12 @@
     }
   html {
     @apply font-sans;
+    /* Hide the scrollbar (pages still scroll): no layout shift between short and long
+       pages, and no unpainted strip at the edge */
+    scrollbar-width: none;
+    }
+  /* Safari */
+  html::-webkit-scrollbar {
+    display: none;
     }
 }

@@ -1,75 +1,45 @@
 import type { Exercise } from '@/types';
 import HighlightedText from '@/shared/components/HighlightedText';
+import { Correction } from '@/shared/components/design';
+import { ActionButton, FeedbackCard } from './ui';
 
 interface FeedbackProps {
   correct: boolean;
   correctAnswer: string;
+  userAnswer: string;
   exercise: Exercise;
   /** Optional validation feedback (accent reminders, typo hints) */
   feedback?: string;
   onContinue: () => void;
 }
 
-export default function Feedback({
-  correct,
-  correctAnswer,
-  exercise,
-  feedback,
-  onContinue,
-}: FeedbackProps) {
+/** Shown in place of the Check row after answering. */
+export default function Feedback({ correct, correctAnswer, userAnswer, exercise, feedback, onContinue }: FeedbackProps) {
+  // Multiple choice and match pairs show right/wrong in the answers themselves
+  const showCorrection = !correct && !['match_pairs', 'multiple_choice'].includes(exercise.subtype);
+  const hint = !correct ? exercise.hints[0] : undefined;
+  const sentence = exercise.sentence_context?.replace('___', correctAnswer);
+
   return (
-    <div
-      className={`fixed inset-x-0 bottom-0 p-6 ${
-        correct ? 'bg-green-50 border-t-2 border-green-400' : 'bg-red-50 border-t-2 border-red-400'
-      }`}
-    >
-      <div className="mx-auto max-w-lg">
-        <div className="mb-1 flex items-center gap-2">
-          {correct ? (
-            <>
-              <span className="text-2xl text-green-600">&#10003;</span>
-              <span className="text-lg font-bold text-green-700">Correct!</span>
-            </>
-          ) : (
-            <>
-              <span className="text-2xl text-red-600">&#10007;</span>
-              <span className="text-lg font-bold text-red-700">Incorrect</span>
-            </>
-          )}
-        </div>
-
-        {feedback && (
-          <p className={`mb-3 text-sm ${correct ? 'text-amber-700' : 'text-red-700'}`}>
-            {feedback}
-          </p>
-        )}
-
-        {!correct && !feedback && (
-          <p className="mb-3 text-sm text-red-700">
-            Correct answer: <span className="font-semibold">{correctAnswer}</span>
-          </p>
-        )}
-
-        {exercise.sentence_context && (
-          <p className="mb-3 rounded-md bg-white/60 px-3 py-2 text-sm italic text-gray-700">
-            <HighlightedText
-              text={exercise.sentence_context.replace('___', correctAnswer)}
-              words={exercise.target_words}
-            />
-          </p>
-        )}
-
-        <button
-          onClick={onContinue}
-          className={`w-full rounded-xl py-3 font-semibold text-white transition-colors ${
-            correct
-              ? 'bg-green-500 hover:bg-green-600'
-              : 'bg-red-500 hover:bg-red-600'
-          }`}
-        >
+    <FeedbackCard
+      tone={correct ? 'learned' : 'correction'}
+      action={
+        <ActionButton tone={correct ? 'learned' : 'primary'} onClick={onContinue}>
           Continue
-        </button>
-      </div>
-    </div>
+        </ActionButton>
+      }
+    >
+      <p className={`font-display text-2xl ${correct ? 'text-learned' : 'text-correction'}`}>
+        {correct ? 'Giusto!' : 'Not quite'}
+      </p>
+      {showCorrection && <Correction wrong={userAnswer || undefined} right={correctAnswer} />}
+      {feedback && <p className="text-sm text-muted-foreground">{feedback}</p>}
+      {hint && exercise.subtype !== 'cloze' && <p className="max-w-lg text-sm text-muted-foreground">{hint}</p>}
+      {sentence && (
+        <p className="text-lg italic">
+          <HighlightedText text={sentence} words={exercise.target_words} />
+        </p>
+      )}
+    </FeedbackCard>
   );
 }

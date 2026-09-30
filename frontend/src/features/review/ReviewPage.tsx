@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import ProgressBar from '@/shared/components/ProgressBar';
+import SessionHeader from '@/shared/components/SessionHeader';
+import SessionLayout from '@/shared/components/SessionLayout';
+import { toSegments } from '@/shared/utils/segments';
 import { ExerciseProvider } from '@/shared/components/ExerciseContext';
 import CloseIcon from '@/shared/components/CloseIcon';
 import renderExercise from '@/features/exercises/renderExercise';
@@ -20,6 +22,7 @@ export default function ReviewPage() {
     currentIndex,
     totalExercises,
     result,
+    results,
     handleStart,
     handleExerciseComplete,
   } = useReviewSession(unitId);
@@ -42,37 +45,34 @@ export default function ReviewPage() {
     return <ReviewSummary result={result} />;
   }
 
-  const progress = ((currentIndex + 1) / totalExercises) * 100;
-
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="sticky top-0 bg-white border-b border-gray-200 px-4 py-3 z-10">
-        <div className="max-w-2xl mx-auto flex items-center gap-4">
-          <button
-            onClick={() => navigate('/')}
-            className="text-gray-400 hover:text-gray-600 transition-colors"
-            aria-label="Exit review"
-          >
-            <CloseIcon />
-          </button>
-          <div className="flex-1">
-            <ProgressBar progress={progress} />
-          </div>
-          <span className="text-sm text-gray-500 whitespace-nowrap">
-            Review {currentIndex + 1}/{totalExercises}
-          </span>
-        </div>
-      </div>
-
-      <div className="max-w-2xl mx-auto p-6">
-        <ExerciseProvider value={{ hintsDisabled: true }}>
-          {currentExercise &&
-            renderExercise({
-              exercise: currentExercise,
-              onComplete: handleExerciseComplete,
-            })}
-        </ExerciseProvider>
-      </div>
-    </div>
+    <SessionLayout
+      header={
+        <SessionHeader
+          context="Review"
+          title={unitId ? 'Chapter review' : 'Due cards'}
+          segments={toSegments(results, totalExercises)}
+          counter={`${currentIndex + 1} / ${totalExercises}`}
+          exit={
+            <button
+              type="button"
+              onClick={() => navigate('/')}
+              className="text-muted-foreground transition-colors hover:text-foreground"
+              aria-label="Exit review"
+            >
+              <CloseIcon />
+            </button>
+          }
+        />
+      }
+    >
+      <ExerciseProvider value={{ hintsDisabled: true }}>
+        {currentExercise &&
+          renderExercise({
+            exercise: currentExercise,
+            onComplete: handleExerciseComplete,
+          })}
+      </ExerciseProvider>
+    </SessionLayout>
   );
 }

@@ -18,8 +18,12 @@ export interface LessonMeta {
   id: string;
   unit_id: string;
   name: string;
+  /** How the Chapter page groups it: vocabulary, grammar in context, consolidation, or the writing task */
+  role: LessonRole;
   order: number;
 }
+
+export type LessonRole = 'words' | 'grammar' | 'practice' | 'writing';
 
 export interface Unit {
   id: string;
@@ -28,6 +32,10 @@ export interface Unit {
   grammar_focus: string;
   vocabulary_targets: string[];
   grammar_notes: string;
+  /** What the learner can do after the chapter (CEFR can-do style) */
+  can_do?: string;
+  /** Italian title on the chapter's stamp */
+  stamp_title?: string;
   lessons: LessonMeta[];
   order: number;
 }

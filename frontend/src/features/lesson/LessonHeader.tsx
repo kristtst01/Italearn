@@ -1,10 +1,14 @@
-import ProgressBar from '@/shared/components/ProgressBar';
+import SessionHeader from '@/shared/components/SessionHeader';
+import type { Segment } from '@/shared/utils/segments';
 import ExitButton from './ExitButton';
 
 interface LessonHeaderProps {
-  progress: number;
+  context?: string;
+  title: string;
+  segments: Segment[];
   exercisesDone: number;
   totalExercises: number;
+  stamp?: { earned: boolean };
   isComplete: boolean;
   showExitConfirm: boolean;
   onToggleExit: () => void;
@@ -12,30 +16,25 @@ interface LessonHeaderProps {
 }
 
 export default function LessonHeader({
-  progress,
+  context,
+  title,
+  segments,
   exercisesDone,
   totalExercises,
+  stamp,
   isComplete,
   showExitConfirm,
   onToggleExit,
   onExit,
 }: LessonHeaderProps) {
   return (
-    <div className="sticky top-0 bg-white border-b border-gray-200 px-4 py-3 z-10">
-      <div className="max-w-2xl mx-auto flex items-center gap-4">
-        <ExitButton
-          showConfirm={showExitConfirm}
-          onToggle={onToggleExit}
-          onExit={onExit}
-          inProgress={!isComplete}
-        />
-        <div className="flex-1">
-          <ProgressBar progress={progress} />
-        </div>
-        <span className="text-sm text-gray-500 whitespace-nowrap">
-          {Math.min(exercisesDone + 1, totalExercises)}/{totalExercises}
-        </span>
-      </div>
-    </div>
+    <SessionHeader
+      context={context}
+      title={title}
+      segments={segments}
+      stamp={stamp}
+      counter={`${Math.min(exercisesDone + 1, totalExercises)} / ${totalExercises}`}
+      exit={<ExitButton showConfirm={showExitConfirm} onToggle={onToggleExit} onExit={onExit} inProgress={!isComplete} />}
+    />
   );
 }

@@ -5,6 +5,7 @@ import { buildCurriculumContext } from '@/engine/curriculumContext';
 import { useProgressStore } from '@/stores/progressStore';
 import { getFirstCorrectAnswer } from '@/shared/utils/exercise';
 import HighlightedText from '@/shared/components/HighlightedText';
+import { ActionButton, ActionRow, FeedbackCard, Prompt } from './ui';
 
 interface FreeResponseProps {
   exercise: Exercise;
@@ -79,16 +80,14 @@ export default function FreeResponse({ exercise, onComplete }: FreeResponseProps
   }, [handleKeyDown]);
 
   return (
-    <div className="flex min-h-[60vh] flex-col">
-      <div className="flex-1">
-        <p className="mb-2 text-lg font-semibold text-gray-900">
-          <HighlightedText text={exercise.prompt.text ?? ''} words={exercise.target_words} />
-        </p>
+    <div className="flex flex-col gap-6">
+      <Prompt>
+        <HighlightedText text={exercise.prompt.text ?? ''} words={exercise.target_words} />
+      </Prompt>
 
-        {exercise.hints.length > 0 && (
-          <p className="mb-4 text-sm text-gray-500">{exercise.hints[0]}</p>
-        )}
+      {exercise.hints.length > 0 && <p className="-mt-2 text-sm text-muted-foreground">{exercise.hints[0]}</p>}
 
+      <div className="flex flex-col gap-1.5">
         <textarea
           value={answer}
           onChange={(e) => setAnswer(e.target.value.slice(0, MAX_CHARS))}
@@ -98,74 +97,44 @@ export default function FreeResponse({ exercise, onComplete }: FreeResponseProps
           autoCorrect="off"
           autoCapitalize="off"
           spellCheck={false}
-          rows={4}
+          rows={6}
           disabled={submitted}
-          className="w-full resize-none rounded-xl border-2 border-gray-200 px-4 py-3 text-gray-900 outline-none transition-colors focus:border-blue-500 disabled:bg-gray-50 disabled:text-gray-700"
+          className="w-full resize-none rounded-lg border-2 border-border bg-white px-4.5 py-3.5 text-reading outline-none transition-colors focus:border-cobalto disabled:text-muted-foreground"
         />
-
-        <div className="mt-1 flex justify-between text-xs text-gray-400">
-          <span>Press Ctrl+Enter to submit</span>
-          <span className={charsLeft < 100 ? 'text-amber-500' : ''}>
-            {charsLeft.toLocaleString()} chars left
-          </span>
+        <div className="flex justify-between text-xs text-muted-foreground">
+          <span>Ctrl+Enter to submit</span>
+          <span className={charsLeft < 100 ? 'text-correction' : ''}>{charsLeft.toLocaleString()} characters left</span>
         </div>
       </div>
 
-      {!submitted && (
-        <button
-          onClick={handleSubmit}
-          disabled={!canSubmit}
-          className="mt-6 w-full rounded-xl bg-blue-600 py-3 font-semibold text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-gray-300"
-        >
-          {grading ? 'Grading…' : 'Submit'}
-        </button>
-      )}
-
-      {submitted && result && (
-        <div
-          className={`fixed inset-x-0 bottom-0 p-6 ${
-            result.accepted
-              ? 'border-t-2 border-green-400 bg-green-50'
-              : 'border-t-2 border-amber-400 bg-amber-50'
-          }`}
-        >
-          <div className="mx-auto max-w-lg">
-            <div className="mb-1 flex items-center gap-2">
-              {result.accepted ? (
-                <>
-                  <span className="text-2xl text-green-600">&#10003;</span>
-                  <span className="text-lg font-bold text-green-700">Good work!</span>
-                </>
-              ) : (
-                <>
-                  <span className="text-2xl text-amber-600">&#9998;</span>
-                  <span className="text-lg font-bold text-amber-700">Keep practicing</span>
-                </>
-              )}
-            </div>
-
-            <p className={`mb-3 text-sm ${result.accepted ? 'text-green-800' : 'text-amber-800'}`}>
-              {result.feedback}
+      {!submitted ? (
+        <ActionRow>
+          <span className="text-sm text-muted-foreground">Graded by AI against what you've learned so far</span>
+          <ActionButton onClick={handleSubmit} disabled={!canSubmit}>
+            {grading ? 'Grading…' : 'Submit'}
+          </ActionButton>
+        </ActionRow>
+      ) : (
+        result && (
+          <FeedbackCard
+            tone={result.accepted ? 'learned' : 'in-progress'}
+            action={
+              <ActionButton tone={result.accepted ? 'learned' : 'primary'} onClick={handleContinue}>
+                Continue
+              </ActionButton>
+            }
+          >
+            <p className={`font-display text-2xl ${result.accepted ? 'text-learned' : 'text-foreground'}`}>
+              {result.accepted ? 'Bravo!' : 'Keep practising'}
             </p>
-
+            <p className="text-sm">{result.feedback}</p>
             {error && (
-              <p className="mb-3 text-xs text-gray-500 italic">
-                (Grading service unavailable — your answer was accepted automatically)
+              <p className="text-xs italic text-muted-foreground">
+                (Grading service unavailable, so your answer was accepted automatically)
               </p>
             )}
-
-            <button
-              onClick={handleContinue}
-              className={`w-full rounded-xl py-3 font-semibold text-white transition-colors ${
-                result.accepted
-                  ? 'bg-green-500 hover:bg-green-600'
-                  : 'bg-amber-500 hover:bg-amber-600'
-              }`}
-            >
-              Continue
-            </button>
-          </div>
-        </div>
+          </FeedbackCard>
+        )
       )}
     </div>
   );

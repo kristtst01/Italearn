@@ -1,6 +1,6 @@
 # ItaLearn - AI Agent Guide
 
-Italian learning app, A1 → B2. React frontend + FastAPI backend. See [README.md](README.md) for the vision and principles.
+Italian learning app for serious learners, A1 → B2 (current scope: A1). React frontend + FastAPI backend. See [README.md](README.md) for the vision and principles.
 
 ## Content philosophy (read before touching curriculum or lessons)
 - The curriculum is driven by **coverage of Italian**: each CEFR level has grammar, vocabulary, and can-do functions it must teach. Units and lessons group that content and are as large as the topic needs.
@@ -28,29 +28,35 @@ Backend (from `backend/`): `make setup` (first run), `make run`, `make migrate`,
 frontend/src/
   App.tsx              # Router, Clerk wiring, HydrationGuard
   features/            # One folder per feature: page + components + hooks
+    today/             # / — Today: plan built from due reviews + recommended chapter
+    library/           # /library (chapter grid, Words tab) and /library/:unitId (Chapter page)
+    grammar/           # /grammar (A1 grammar units) and /grammar/:grammarId (unit: study → practice → mastery)
+    progress/          # /progress — words known, grammar tiles, stamp book
     lesson/            # /lesson/:id — LessonPage, useLessonState (retry, completion, SRS card creation), GrammarTip
     review/            # /review — SRS review session
-    path/              # / — learning path (PathNode, CEFRBanner, LessonList)
-    testout/           # /testout/:unitId — skip a unit by passing a test
-    exercises/         # Exercise components shared by lesson/review/testout; renderExercise.tsx dispatches by subtype
-    words/             # /words — word bank
-    stats/, profile/   # /stats, /profile
-    auth/              # Clerk login/register pages
-  shared/components/   # HydrationGuard, AppLayout, ExerciseContext, HighlightedText, ProgressBar, etc.
-  shared/utils/        # shuffle, exercise answer helpers, vocab helpers (distractor picking)
+    exercises/         # Exercise components (lesson + review); ui.tsx = shared exercise primitives;
+                       #   renderExercise.tsx dispatches by subtype; planned types render PlannedExerciseCard
+    words/             # Word bank (shown in the Library's Words tab)
+    profile/, auth/    # /profile, Clerk sign-in/up
+    dev/               # /dev/exercises gallery (dev build only)
+  shared/components/   # design.tsx (Page, PageHeader, Label, Placeholder, Status, tiles, Stamp, Postcard, Correction),
+                       #   AppLayout (top bar), SessionLayout/SessionHeader (lessons + review), HydrationGuard, etc.
+  shared/utils/        # shuffle, exercise answer helpers, vocab helpers, progress segments
   components/ui/       # shadcn/ui primitives
   stores/              # progressStore, srsStore (Zustand, persisted via the API)
   engine/              # Pure logic + API client
     api.ts             # All backend calls (progress, SRS cards, validate, grade, transcribe)
+    chapters.ts        # Chapter status, progress, recommended next, stamp earned
     srs.ts             # ts-fsrs wrapper (90% target retention)
     validation.ts      # Local answer validation: exact → accent-tolerant → typo-tolerant (Levenshtein)
     useLLMValidation.ts# LLM fallback when local validation rejects
     vocabCache.ts      # In-memory vocabulary, seeded from lesson JSON at startup
     reviewRunner.ts    # Builds review exercises from due cards; answerToGrade
-    lessonRunner.ts, testOutRunner.ts, mastery.ts, streak.ts, xp.ts, curriculumContext.ts
+    lessonRunner.ts, mastery.ts, streak.ts, curriculumContext.ts
   types/               # All interfaces, barrel export from types/index.ts
   data/
-    curriculum.ts      # Sections → units → LessonMeta (structure only)
+    curriculum.ts      # A1 sections → units (chapters: can_do, stamp_title) → LessonMeta (with role)
+    grammarPlan.ts     # The planned A1 grammar units (not written yet)
     lessonLoader.ts    # Lazy-loads lesson JSON via import.meta.glob
     units/unit-NN/     # One JSON file per lesson: unit-NN-lesson-NN.json
 
@@ -67,7 +73,7 @@ data/italian-frequency-50k.txt  # Italian word frequency list (reference for voc
 ## Key Conventions
 - **Path alias:** `@/` maps to `frontend/src/`
 - **IDs:** `section-01`, `unit-01`, `unit-01-lesson-01`, `unit-01-lesson-01-ex-01`
-- **Adding a lesson:** drop the JSON in `data/units/unit-NN/` (auto-discovered by `import.meta.glob`) and add its `LessonMeta` to the unit in `curriculum.ts`
+- **Adding a lesson:** drop the JSON in `data/units/unit-NN/` (auto-discovered by `import.meta.glob`) and add its `LessonMeta` to the unit in `curriculum.ts`, with a `role`: `words`, `grammar`, `practice` or `writing` (the writing lesson earns the chapter's stamp)
 - **Stores:** `use` prefix, async actions that persist through `engine/api.ts`
 - **Hydration:** Centralized in `HydrationGuard`, which seeds vocabulary and hydrates both stores before any route renders. Pages assume stores are ready.
 - **Styling:** colours, fonts and radii come only from the tokens in `src/index.css` (see [docs/design-system.md](docs/design-system.md)). Use token classes (`bg-primary`, `text-learned`, `font-display`), never raw Tailwind colours or hex. `npm run lint:tokens` lists violations.
@@ -88,9 +94,8 @@ data/italian-frequency-50k.txt  # Italian word frequency list (reference for voc
 
 ## Exercise Subtypes
 Implemented: `multiple_choice`, `type_answer`, `arrange_words`, `fill_blank`, `cloze`, `match_pairs`, `read_aloud`, `free_form`.
-Declared in types but not built: `dictation`, `listen_and_choose`, `minimal_pair`, `reading_comprehension` (these wait on the audio pipeline / comprehension lesson kinds, see the development plan).
+Planned (render as a "coming soon" card via `PlannedExerciseCard`, described in `exercises/plannedExercises.ts`): `transformation`, `structured_input`, `find_mistake`, `translation`, `dialogue_completion`, `dictation`, `minimal_pair`, `listen_and_choose`, `listen_and_repeat`, `spoken_answer`. `reading_comprehension` is superseded by comprehension lesson kinds.
 
 ## Known Issues
-- `curriculum.ts` has two units with id `unit-21` ("Hotel & Travel" and an empty leftover "Adverbs & Connectors"), and no A2 section: A1 is followed directly by the old B1 units 22–30.
-- `npx eslint src/` reports 10 errors (react-hooks rules and shadcn `only-export-components`).
+- `npx eslint src/` reports 9 errors and 1 warning (react-hooks rules and shadcn `only-export-components`), all pre-existing.
 - No tests.

@@ -1,7 +1,6 @@
-import { useState, useRef, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import type { Exercise, ExerciseResult, GrammarTip, Lesson, LessonResult } from '@/types';
 import { buildLessonResult } from '@/engine/lessonRunner';
-import { calculateExerciseXP } from '@/engine/xp';
 import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
 
@@ -55,7 +54,6 @@ function getInitialRetryExercises(
 export function useLessonState(lesson: Lesson) {
   const completeLesson = useProgressStore((s) => s.completeLesson);
   const saveLessonScore = useProgressStore((s) => s.saveLessonScore);
-  const addXP = useProgressStore((s) => s.addXP);
   const logActivity = useProgressStore((s) => s.logActivity);
   const lessonScore = useProgressStore((s) => s.lesson_scores[lesson.id]);
   const addCards = useSrsStore((s) => s.addCards);
@@ -68,8 +66,6 @@ export function useLessonState(lesson: Lesson) {
   const [results, setResults] = useState<ExerciseResult[]>([]);
   const [lessonResult, setLessonResult] = useState<LessonResult | null>(null);
   const [startTime, setStartTime] = useState(() => Date.now());
-  const streakRef = useRef(0);
-  const pendingXPRef = useRef(0);
 
   const exercises = retryExercises ?? lesson.exercises;
   const isRetry = retryExercises !== null;
@@ -89,18 +85,6 @@ export function useLessonState(lesson: Lesson) {
   const progress = (exercisesDone / exerciseCount) * 100;
 
   function handleExerciseComplete(result: ExerciseResult) {
-    // Track streak, accumulate XP (awarded at lesson end)
-    // Skips are neutral — don't break streak, don't earn XP
-    if (result.skipped) {
-      // no-op for streak and XP
-    } else if (result.correct) {
-      streakRef.current += 1;
-      pendingXPRef.current += calculateExerciseXP(true, streakRef.current);
-    } else {
-      streakRef.current = 0;
-      pendingXPRef.current += calculateExerciseXP(false, streakRef.current);
-    }
-
     const updatedResults = [...results, result];
     setResults(updatedResults);
     advanceOrComplete(currentIndex, updatedResults);
@@ -132,11 +116,6 @@ export function useLessonState(lesson: Lesson) {
     );
     setLessonResult(result);
 
-    // Award all accumulated XP at once
-    if (pendingXPRef.current > 0) {
-      await addXP(pendingXPRef.current);
-      pendingXPRef.current = 0;
-    }
 
     if (isRetry && lessonScore) {
       const stillMissedIds = result.results
@@ -185,7 +164,6 @@ export function useLessonState(lesson: Lesson) {
     setCurrentIndex(0);
     setResults([]);
     setLessonResult(null);
-    streakRef.current = 0;
   }
 
   return {
@@ -194,6 +172,7 @@ export function useLessonState(lesson: Lesson) {
     currentStep,
     currentIndex,
     exercisesDone,
+    results,
     isComplete,
     isRetry,
     progress,

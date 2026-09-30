@@ -4,6 +4,7 @@ export type {
   Unit,
   Lesson,
   LessonMeta,
+  LessonRole,
   LessonVocab,
   GrammarTip,
   Curriculum,

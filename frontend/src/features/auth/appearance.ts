@@ -1,21 +1,31 @@
-export const clerkAppearance = {
-  variables: {
-    colorPrimary: '#2563eb',       // blue-600
-    colorText: '#111827',          // gray-900
-    colorTextSecondary: '#6b7280', // gray-500
-    colorBackground: '#ffffff',
-    colorInputBackground: '#ffffff',
-    colorInputText: '#111827',
-    borderRadius: '0.625rem',      // matches --radius
-    fontFamily: "'Geist Variable', sans-serif",
-  },
-  elements: {
-    card: 'shadow-lg border border-gray-200 rounded-xl',
-    headerTitle: 'text-2xl font-bold text-gray-900',
-    headerSubtitle: 'text-gray-500',
-    socialButtonsBlockButton: 'border-gray-200 hover:bg-gray-50 rounded-lg',
-    formButtonPrimary: 'bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold',
-    formFieldInput: 'border-gray-200 focus:border-blue-500 focus:ring-blue-500 rounded-lg',
-    footerActionLink: 'text-blue-600 hover:text-blue-700 font-medium',
-  },
+/**
+ * Clerk styling. Clerk needs real colour values, so they are read from the design
+ * tokens in index.css at render time; no colours are defined here.
+ */
+function token(name: string): string {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+
+export function clerkAppearance() {
+  return {
+    variables: {
+      colorPrimary: token('--color-vermiglione-scuro'),
+      colorText: token('--color-nero'),
+      colorTextSecondary: token('--color-grigio'),
+      colorBackground: token('--color-white'),
+      colorInputBackground: token('--color-white'),
+      colorInputText: token('--color-nero'),
+      borderRadius: '0.625rem',
+      fontFamily: "'Archivo Variable', system-ui, sans-serif",
+    },
+    elements: {
+      card: 'shadow-none border border-border rounded-lg',
+      headerTitle: 'font-display text-2xl text-foreground',
+      headerSubtitle: 'text-muted-foreground',
+      socialButtonsBlockButton: 'border-border hover:bg-vuoto rounded-lg',
+      formButtonPrimary: 'bg-primary hover:bg-primary/90 rounded-lg font-bold',
+      formFieldInput: 'border-border focus:border-cobalto focus:ring-cobalto rounded-lg',
+      footerActionLink: 'text-cobalto hover:underline font-bold',
+    },
+  };
 }

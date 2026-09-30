@@ -1,5 +1,6 @@
 import * as AlertDialog from '@radix-ui/react-alert-dialog';
 import CloseIcon from '@/shared/components/CloseIcon';
+import { buttonVariants } from '@/components/ui/button';
 
 interface ExitButtonProps {
   showConfirm: boolean;
@@ -18,7 +19,7 @@ export default function ExitButton({
     return (
       <button
         onClick={onExit}
-        className="text-gray-400 hover:text-gray-600 transition-colors"
+        className="text-muted-foreground transition-colors hover:text-foreground"
         aria-label="Exit lesson"
       >
         <CloseIcon />
@@ -30,33 +31,33 @@ export default function ExitButton({
     <AlertDialog.Root open={showConfirm} onOpenChange={onToggle}>
       <AlertDialog.Trigger asChild>
         <button
-          className="text-gray-400 hover:text-gray-600 transition-colors"
+          className="text-muted-foreground transition-colors hover:text-foreground"
           aria-label="Exit lesson"
         >
           <CloseIcon />
         </button>
       </AlertDialog.Trigger>
       <AlertDialog.Portal>
-        <AlertDialog.Overlay className="fixed inset-0 bg-black/40 z-40" />
-        <AlertDialog.Content className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 bg-white rounded-lg shadow-lg p-6 z-50">
-          <AlertDialog.Title className="text-lg font-semibold text-gray-900">
+        <AlertDialog.Overlay className="fixed inset-0 z-40 bg-foreground/40" />
+        <AlertDialog.Content className="fixed top-1/2 left-1/2 z-50 w-96 -translate-x-1/2 -translate-y-1/2 rounded-lg bg-white p-7">
+          <AlertDialog.Title className="font-display text-xl">
             Exit lesson?
           </AlertDialog.Title>
-          <AlertDialog.Description className="text-sm text-gray-500 mt-2">
-            Progress will be lost.
+          <AlertDialog.Description className="mt-2 text-sm text-muted-foreground">
+            Your answers in this lesson so far will be lost.
           </AlertDialog.Description>
-          <div className="flex gap-3 mt-5">
+          <div className="mt-6 flex gap-3">
             <AlertDialog.Action asChild>
               <button
                 onClick={onExit}
-                className="flex-1 px-3 py-2 text-sm rounded-md bg-red-600 text-white hover:bg-red-700 transition-colors font-medium"
+                className={buttonVariants({ size: 'xl', className: 'flex-1' })}
               >
                 Exit
               </button>
             </AlertDialog.Action>
             <AlertDialog.Cancel asChild>
-              <button className="flex-1 px-3 py-2 text-sm rounded-md border border-gray-300 hover:bg-gray-50 transition-colors font-medium">
-                Cancel
+              <button className={buttonVariants({ variant: 'stroke', size: 'xl', className: 'flex-1' })}>
+                Keep going
               </button>
             </AlertDialog.Cancel>
           </div>

@@ -2,16 +2,18 @@ import { useMemo, useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { shuffle } from '@/shared/utils/shuffle';
 import ExerciseShell from './ExerciseShell';
+import { Choice, Prompt } from './ui';
 
 const PAIR_SEPARATOR = '|';
 
-const MATCH_COLORS = [
-  { bg: 'bg-blue-100', text: 'text-blue-700', border: 'border-blue-300' },
-  { bg: 'bg-purple-100', text: 'text-purple-700', border: 'border-purple-300' },
-  { bg: 'bg-amber-100', text: 'text-amber-700', border: 'border-amber-300' },
-  { bg: 'bg-emerald-100', text: 'text-emerald-700', border: 'border-emerald-300' },
-  { bg: 'bg-rose-100', text: 'text-rose-700', border: 'border-rose-300' },
-  { bg: 'bg-cyan-100', text: 'text-cyan-700', border: 'border-cyan-300' },
+/** Each matched pair gets its own tint, all from design tokens. */
+const MATCH_TONES = [
+  'border-cobalto bg-cobalto/10',
+  'border-learned bg-learned/10',
+  'border-ocra bg-ocra/15',
+  'border-vermiglione bg-vermiglione/10',
+  'border-foreground bg-foreground/5',
+  'border-muted-foreground bg-muted-foreground/10',
 ];
 
 interface MatchPairsProps {
@@ -117,63 +119,33 @@ export default function MatchPairs({ exercise, onComplete }: MatchPairsProps) {
       canSubmit={allMatched}
       feedback={feedback}
     >
-      <p className="mb-6 text-lg font-semibold text-gray-900">
-        {exercise.prompt.text}
-      </p>
+      <Prompt>{exercise.prompt.text}</Prompt>
 
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-2 gap-x-6 gap-y-3">
         {/* Left column */}
-        <div className="space-y-2">
+        <div className="flex flex-col gap-2.5">
           {leftItems.map((item, idx) => {
             const matchIdx = getMatchIndex(idx);
-            const color =
-              matchIdx !== -1
-                ? MATCH_COLORS[matchIdx % MATCH_COLORS.length]
-                : null;
-            const isSelected = selectedLeft === idx;
+            const tone = matchIdx !== -1 ? MATCH_TONES[matchIdx % MATCH_TONES.length] : undefined;
 
             return (
-              <button
-                key={idx}
-                onClick={() => handleLeftClick(idx)}
-                className={`w-full rounded-xl border-2 px-3 py-2.5 text-sm font-medium transition-colors ${
-                  color
-                    ? `${color.bg} ${color.text} ${color.border}`
-                    : isSelected
-                      ? 'border-blue-500 bg-blue-50 text-blue-700'
-                      : 'border-gray-200 bg-white text-gray-900 hover:border-gray-300'
-                }`}
-              >
+              <Choice key={idx} tone={tone} state={selectedLeft === idx ? 'selected' : 'idle'} onClick={() => handleLeftClick(idx)}>
                 {item}
-              </button>
+              </Choice>
             );
           })}
         </div>
 
         {/* Right column */}
-        <div className="space-y-2">
+        <div className="flex flex-col gap-2.5">
           {rightItems.map((item, idx) => {
             const matchIdx = getMatchIndexByRight(idx);
-            const color =
-              matchIdx !== -1
-                ? MATCH_COLORS[matchIdx % MATCH_COLORS.length]
-                : null;
-            const isSelected = selectedRight === idx;
+            const tone = matchIdx !== -1 ? MATCH_TONES[matchIdx % MATCH_TONES.length] : undefined;
 
             return (
-              <button
-                key={idx}
-                onClick={() => handleRightClick(idx)}
-                className={`w-full rounded-xl border-2 px-3 py-2.5 text-sm font-medium transition-colors ${
-                  color
-                    ? `${color.bg} ${color.text} ${color.border}`
-                    : isSelected
-                      ? 'border-blue-500 bg-blue-50 text-blue-700'
-                      : 'border-gray-200 bg-white text-gray-900 hover:border-gray-300'
-                }`}
-              >
+              <Choice key={idx} tone={tone} state={selectedRight === idx ? 'selected' : 'idle'} onClick={() => handleRightClick(idx)}>
                 {item}
-              </button>
+              </Choice>
             );
           })}
         </div>

@@ -6,6 +6,7 @@ import FillInBlank from './FillInBlank';
 import MatchPairs from './MatchPairs';
 import ReadAloud from './ReadAloud';
 import FreeResponse from './FreeResponse';
+import PlannedExerciseCard from './PlannedExerciseCard';
 
 interface ExerciseProps {
   exercise: Exercise;
@@ -32,10 +33,6 @@ export default function renderExercise({ exercise, onComplete }: ExerciseProps) 
     case 'free_form':
       return <FreeResponse key={exercise.id} {...props} />;
     default:
-      return (
-        <div className="text-gray-500">
-          Exercise type &ldquo;{exercise.subtype}&rdquo; is not yet supported.
-        </div>
-      );
+      return <PlannedExerciseCard key={exercise.id} {...props} />;
   }
 }

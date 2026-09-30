@@ -9,6 +9,10 @@ import { useLessonState } from './useLessonState';
 import LessonHeader from './LessonHeader';
 import CompletionScreen from './CompletionScreen';
 import GrammarTip from './GrammarTip';
+import { getChapter, isWritingLesson, stampEarned } from '@/engine/chapters';
+import { useProgressStore } from '@/stores/progressStore';
+import SessionLayout from '@/shared/components/SessionLayout';
+import { toSegments } from '@/shared/utils/segments';
 
 export default function LessonPage() {
   const { id } = useParams<{ id: string }>();
@@ -59,10 +63,19 @@ function LessonContent({
   const [showExitConfirm, setShowExitConfirm] = useState(false);
   const state = useLessonState(lesson);
 
+  const chapter = getChapter(lesson.unit_id);
+  const meta = chapter?.lessons.find((l) => l.id === lesson.id);
+  const earnsStamp = !!chapter && !!meta && isWritingLesson(meta) && !state.isRetry;
+  const completed = useProgressStore((s) => s.lessons_completed);
+
   return (
-    <div className="min-h-screen bg-gray-50">
+    <SessionLayout
+      header={
       <LessonHeader
-        progress={state.progress}
+        context={chapter ? `Chapter ${String(chapter.order).padStart(2, '0')} · ${chapter.name}` : undefined}
+        title={lesson.name}
+        segments={toSegments(state.results, state.exercises.length)}
+        stamp={chapter ? { earned: stampEarned(chapter, completed) } : undefined}
         exercisesDone={state.exercisesDone}
         totalExercises={state.exercises.length}
         isComplete={state.isComplete}
@@ -70,14 +83,15 @@ function LessonContent({
         onToggleExit={() => setShowExitConfirm(!showExitConfirm)}
         onExit={onExit}
       />
-
-      <div className="max-w-2xl mx-auto p-6">
+      }
+    >
         {state.isComplete && state.lessonResult ? (
           <CompletionScreen
             result={state.lessonResult}
             lessonName={lesson.name}
             isRetry={state.isRetry}
             hasMistakes={state.lessonResult.score < state.lessonResult.total}
+            stamp={earnsStamp ? { title: chapter.stamp_title ?? chapter.name, caption: `A1 · ${chapter.name}` } : undefined}
             onPracticeMistakes={state.handlePracticeMistakes}
             onContinue={onExit}
           />
@@ -93,7 +107,6 @@ function LessonContent({
             onComplete: state.handleExerciseComplete,
           })
         ) : null}
-      </div>
-    </div>
+    </SessionLayout>
   );
 }

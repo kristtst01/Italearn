@@ -1,80 +1,72 @@
-import { Outlet, useLocation, NavLink } from 'react-router-dom';
-import { BookOpen, RotateCcw, Library, BarChart3, User } from 'lucide-react';
-import { useSrsStore } from '@/stores/srsStore';
+import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
+import { useProgressStore } from '@/stores/progressStore';
+import { cn } from '@/lib/utils';
 
-const TABS = [
-  { to: '/', icon: BookOpen, label: 'Learn' },
-  { to: '/review', icon: RotateCcw, label: 'Review' },
-  { to: '/words', icon: Library, label: 'Words' },
-  { to: '/stats', icon: BarChart3, label: 'Stats' },
-  { to: '/profile', icon: User, label: 'Profile' },
+const SECTIONS = [
+  { to: '/', label: 'Today' },
+  { to: '/library', label: 'Library' },
+  { to: '/grammar', label: 'Grammar' },
+  { to: '/progress', label: 'Progress' },
 ] as const;
 
-const REVIEW_BATCH_SIZE = 20;
+/** Routes that take over the whole screen (no top bar). */
+const IMMERSIVE_PREFIXES = ['/lesson/', '/review'];
 
-/** Routes where the tab bar should be hidden (immersive screens). */
-const IMMERSIVE_PREFIXES = ['/lesson/', '/testout/'];
+function Logo() {
+  return (
+    <span aria-hidden className="flex items-end">
+      <span className="size-4.5 rounded-full bg-vermiglione" />
+      <span className="-ml-1.5 h-2.25 w-4.5 rounded-t-full bg-ocra" />
+    </span>
+  );
+}
+
+function TopBar() {
+  const streak = useProgressStore((s) => s.streak);
+  return (
+    <header className="sticky top-0 z-40 h-16 shrink-0 border-b border-border bg-white">
+      <div className="mx-auto flex h-full max-w-7xl items-center gap-12 px-14">
+        <Link to="/" className="flex items-center gap-2.5 text-foreground">
+          <Logo />
+          <span className="font-display text-xl">ItaLearn</span>
+        </Link>
+        <nav className="flex h-full flex-1 gap-8">
+          {SECTIONS.map(({ to, label }) => (
+            <NavLink
+              key={to}
+              to={to}
+              end={to === '/'}
+              className={({ isActive }) =>
+                cn(
+                  'flex h-full items-center border-b-3 pt-0.5 text-base outline-none focus-visible:ring-2 focus-visible:ring-cobalto focus-visible:ring-inset',
+                  isActive
+                    ? 'border-vermiglione font-bold text-foreground'
+                    : 'border-transparent font-medium text-muted-foreground hover:text-foreground',
+                )
+              }
+            >
+              {label}
+            </NavLink>
+          ))}
+        </nav>
+        <div className="flex items-center gap-6 text-sm text-muted-foreground">
+          <span>A1{streak > 0 && ` · ${streak}-day streak`}</span>
+          <Link to="/profile" className="font-medium text-muted-foreground hover:text-foreground">
+            Profile
+          </Link>
+        </div>
+      </div>
+    </header>
+  );
+}
 
 export default function AppLayout() {
   const { pathname } = useLocation();
-  const hideNav = IMMERSIVE_PREFIXES.some((p) => pathname.startsWith(p));
-  const reviewableCount = useSrsStore((s) => s.reviewableCount);
-  const showReviewDot = reviewableCount >= REVIEW_BATCH_SIZE;
-
-  if (hideNav) return <Outlet />;
+  if (IMMERSIVE_PREFIXES.some((p) => pathname.startsWith(p))) return <Outlet />;
 
   return (
-    <div className="min-h-screen pb-16 md:pb-0 md:pl-20">
-      {/* Desktop sidebar */}
-      <nav className="hidden md:flex fixed left-0 top-0 bottom-0 w-20 flex-col items-center gap-1 pt-6 bg-white border-r border-gray-200 z-50">
-        {TABS.map(({ to, icon: Icon, label }) => (
-          <NavLink
-            key={to}
-            to={to}
-            end={to === '/'}
-            className={({ isActive }) =>
-              `flex flex-col items-center gap-0.5 px-3 py-2.5 rounded-xl text-[10px] font-medium transition-colors w-16 ${
-                isActive
-                  ? 'bg-blue-50 text-blue-600'
-                  : 'text-gray-400 hover:text-gray-600 hover:bg-gray-50'
-              }`
-            }
-          >
-            <span className="relative">
-              <Icon className="w-5 h-5" />
-              {to === '/review' && showReviewDot && (
-                <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-blue-500 rounded-full" />
-              )}
-            </span>
-            {label}
-          </NavLink>
-        ))}
-      </nav>
-
-      {/* Mobile bottom tab bar */}
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 flex items-center justify-around bg-white border-t border-gray-200 z-50 h-16 safe-bottom">
-        {TABS.map(({ to, icon: Icon, label }) => (
-          <NavLink
-            key={to}
-            to={to}
-            end={to === '/'}
-            className={({ isActive }) =>
-              `flex flex-col items-center gap-0.5 px-3 py-1.5 text-[10px] font-medium transition-colors ${
-                isActive ? 'text-blue-600' : 'text-gray-400'
-              }`
-            }
-          >
-            <span className="relative">
-              <Icon className="w-5 h-5" />
-              {to === '/review' && showReviewDot && (
-                <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-blue-500 rounded-full" />
-              )}
-            </span>
-            {label}
-          </NavLink>
-        ))}
-      </nav>
-
+    <div className="flex min-h-dvh flex-col">
+      <TopBar />
       <Outlet />
     </div>
   );

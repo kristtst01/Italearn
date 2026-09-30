@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react'
 import type { Exercise, ExerciseResult } from '@/types';
 import { getCorrectAnswer } from '@/shared/utils/exercise';
 import Feedback from './Feedback';
+import { ActionButton, ActionRow } from './ui';
 
 interface ExerciseShellProps {
   exercise: Exercise;
@@ -13,7 +14,10 @@ interface ExerciseShellProps {
   feedback?: string;
   /** Optional async hook called before showing feedback (e.g., LLM validation) */
   onBeforeSubmit?: () => Promise<void>;
-  children: ReactNode;
+  /** Called once the answer has been checked (e.g. to lock the answer) */
+  onSubmitted?: () => void;
+  /** Content, or a function of whether the answer has been checked (to show right/wrong) */
+  children: ReactNode | ((submitted: boolean) => ReactNode);
 }
 
 export default function ExerciseShell({
@@ -24,6 +28,7 @@ export default function ExerciseShell({
   canSubmit,
   feedback,
   onBeforeSubmit,
+  onSubmitted,
   children,
 }: ExerciseShellProps) {
   const [submitted, setSubmitted] = useState(false);
@@ -43,6 +48,7 @@ export default function ExerciseShell({
       setValidating(false);
     }
     setSubmitted(true);
+    onSubmitted?.();
   }
 
   function handleContinue() {
@@ -90,31 +96,26 @@ export default function ExerciseShell({
   }, [handleKeyDown]);
 
   return (
-    <div className="flex min-h-[60vh] flex-col">
-      <div className="flex-1">{children}</div>
+    <div className="flex flex-col gap-7">
+      {typeof children === 'function' ? children(submitted) : children}
 
-      {!submitted && (
-        <div className="mt-6 flex flex-col items-center gap-2">
-          <button
-            onClick={handleSubmit}
-            disabled={!canSubmit || validating}
-            className="w-full rounded-xl bg-blue-600 py-3 font-semibold text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-gray-300"
-          >
+      {!submitted ? (
+        <ActionRow>
+          <p className="text-sm text-muted-foreground">
+            <button type="button" onClick={handleSkip} className="font-bold text-foreground hover:underline">
+              Skip
+            </button>
+            <span> · press Enter to check</span>
+          </p>
+          <ActionButton onClick={handleSubmit} disabled={!canSubmit || validating}>
             {validating ? 'Checking…' : 'Check'}
-          </button>
-          <button
-            onClick={handleSkip}
-            className="text-sm text-gray-400 hover:text-gray-600 transition-colors"
-          >
-            Skip
-          </button>
-        </div>
-      )}
-
-      {submitted && (
+          </ActionButton>
+        </ActionRow>
+      ) : (
         <Feedback
           correct={isCorrect}
           correctAnswer={correctAnswer}
+          userAnswer={userAnswer}
           exercise={exercise}
           feedback={feedback}
           onContinue={handleContinue}

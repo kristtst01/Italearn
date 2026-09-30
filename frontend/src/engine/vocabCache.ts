@@ -4,33 +4,36 @@ import { loadAllLessons } from '../data/lessonLoader';
 /** In-memory vocabulary lookup — replaces Dexie vocabulary table. */
 let _entries: VocabEntry[] = [];
 let _byId: Map<string, VocabEntry> = new Map();
-let _seeded = false;
+/** The one seeding run; concurrent callers (e.g. React StrictMode effects) share it. */
+let _seeding: Promise<void> | null = null;
 
-/** Seed vocabulary from static lesson JSON. Call once on app init. */
-export async function seedVocabulary(): Promise<void> {
-  if (_seeded) return;
+/** Seed vocabulary from static lesson JSON. Safe to call more than once. */
+export function seedVocabulary(): Promise<void> {
+  _seeding ??= (async () => {
+    const lessons = await loadAllLessons();
+    const seen = new Set<string>();
+    const entries: VocabEntry[] = [];
 
-  const lessons = await loadAllLessons();
-  const seen = new Set<string>();
-
-  for (const lesson of lessons) {
-    if (!lesson.vocabulary) continue;
-    for (const v of lesson.vocabulary) {
-      const id = v.id ?? v.word;
-      if (seen.has(id)) continue;
-      seen.add(id);
-      _entries.push({
-        id,
-        word: v.word,
-        meaning: v.meaning,
-        example: v.example,
-        unit_id: lesson.unit_id,
-      });
+    for (const lesson of lessons) {
+      if (!lesson.vocabulary) continue;
+      for (const v of lesson.vocabulary) {
+        const id = v.id ?? v.word;
+        if (seen.has(id)) continue;
+        seen.add(id);
+        entries.push({
+          id,
+          word: v.word,
+          meaning: v.meaning,
+          example: v.example,
+          unit_id: lesson.unit_id,
+        });
+      }
     }
-  }
 
-  _byId = new Map(_entries.map((e) => [e.id, e]));
-  _seeded = true;
+    _entries = entries;
+    _byId = new Map(entries.map((e) => [e.id, e]));
+  })();
+  return _seeding;
 }
 
 /** Get a single vocab entry by ID. */
