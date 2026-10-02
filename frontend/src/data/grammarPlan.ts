@@ -53,16 +53,19 @@ export const GRAMMAR_PLAN: PlannedGrammarUnit[] = [
     id: 'a1-nouns-articles', level: 'A1', order: 5, title: 'Nouns & the article system', short: 'Articles',
     covers: ['Gender', 'Nouns in -e, invariable nouns, irregular plurals', 'Indefinite articles', 'Definite articles', 'Plurals', "C'è and ci sono"],
     chapters: ['unit-03'],
+    ready: true,
   },
   {
     id: 'a1-regular-verbs', level: 'A1', order: 6, title: 'The present tense: regular verbs', short: 'Regular verbs',
     covers: ['The three verb groups', '-are verbs', '-ere verbs', '-ire verbs', '-isc- verbs', 'Using the present'],
     chapters: ['unit-07', 'unit-09', 'unit-10', 'unit-12'],
+    ready: true,
   },
   {
     id: 'a1-irregular-verbs', level: 'A1', order: 7, title: 'The present tense: irregular verbs & modals', short: 'Irregular verbs',
     covers: ['Fare, andare, stare, venire, uscire, dare', 'Volere, potere, dovere', 'Vorrei', 'Per + infinitive'],
     chapters: ['unit-09', 'unit-10', 'unit-12', 'unit-15'],
+    ready: true,
   },
   {
     id: 'a1-questions-negation', level: 'A1', order: 8, title: 'Questions, negation & linking', short: 'Questions & negation',
