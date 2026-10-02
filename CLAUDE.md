@@ -99,8 +99,8 @@ data/italian-frequency-50k.txt  # Italian word frequency list (reference for voc
 3. `free_form` exercises are graded by `/grade-free-response` against the model answer.
 
 ## Exercise Subtypes
-Implemented: `multiple_choice`, `type_answer`, `arrange_words`, `fill_blank`, `cloze`, `match_pairs`, `read_aloud`, `free_form`, `transformation` and `find_mistake` (both `RewriteSentence`; `correct_answer` lists every accepted sentence, model answer first). `strict_accents: true` makes a missing accent wrong (for è/e and similar).
-Planned (render as a "coming soon" card via `PlannedExerciseCard`, described in `exercises/plannedExercises.ts`): `structured_input`, `translation`, `dialogue_completion`, `dictation`, `minimal_pair`, `listen_and_choose`, `listen_and_repeat`, `spoken_answer`. `reading_comprehension` is superseded by comprehension lesson kinds.
+Implemented: `multiple_choice`, `type_answer`, `arrange_words`, `fill_blank`, `cloze`, `match_pairs`, `read_aloud`, `free_form`, `dialogue_completion` ("Your line", `DialogueCompletion`: one turn of an exchange, judged by the AI check), `transformation` and `find_mistake` (both `RewriteSentence`; `correct_answer` lists every accepted sentence, model answer first). `strict_accents: true` makes a missing accent wrong (for è/e and similar).
+Planned (render as a "coming soon" card via `PlannedExerciseCard`, described in `exercises/plannedExercises.ts`): `structured_input`, `translation`, `dictation`, `minimal_pair`, `listen_and_choose`, `listen_and_repeat`, `spoken_answer`. `reading_comprehension` is superseded by comprehension lesson kinds.
 
 ## Known Issues
 - `npx eslint src/` reports 9 errors and 1 warning (react-hooks rules and shadcn `only-export-components`), all pre-existing.

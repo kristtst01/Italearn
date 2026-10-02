@@ -67,7 +67,7 @@ The verb ending already shows who is doing the action, so Italian normally leave
 > Siamo di Milano.
 > We're from Milan.
 
-Saying *Io sono Marco* in a neutral sentence is not wrong, but it sounds emphatic, as if you're insisting on *I*. Use the pronoun when:
+Saying *Io sono di Milano* in a neutral sentence is not wrong, but it usually sounds emphatic, as if you're insisting on *I*. (In introductions, *Io sono Marco* is common too.) Use the pronoun when:
 
 1. **You contrast two people.**
    > Io sono di Roma, lui è di Napoli.
@@ -101,7 +101,7 @@ Saying *Io sono Marco* in a neutral sentence is not wrong, but it sounds emphati
 - **Sono** is both "I am" and "they are". Context, or a pronoun, tells them apart.
 - **È** (is) has an accent. Without it, **e** means "and": *Marco è alto e simpatico.* (Marco is tall and nice.)
 - At the start of a sentence, the capital is **È**. You will often see *E'* with an apostrophe, typed on keyboards without an È key, but *È* is the correct form.
-- Before a vowel, *dove* (where) and *come* (how, what ... like) usually drop their final *e*: *Dov'è?* (Where is it?), *Com'è?* (What's it like?)
+- Before *è*, *dove* (where) and *come* (how, what ... like) drop their final *e*: *Dov'è?* (Where is it?), *Com'è?* (What's it like?). Before other words they stay whole: *Dove abiti?*
 
 ### What essere is used for
 
@@ -136,7 +136,7 @@ Most nationality adjectives change their ending to agree with the person (*itali
 > Lei è medico?
 > Are you a doctor?
 
-With a profession on its own, Italian usually leaves out the article: *Sono insegnante* is more common than *Sono un insegnante*, though both are correct. When there's an adjective, the article is needed: *È un bravo insegnante.* (He's a good teacher.)
+With a profession on its own, Italian usually leaves out the article: *Sono insegnante* is more common than *Sono un insegnante*, though both are correct. Many job words also have a feminine form, so a woman says *Sono studentessa*; the unit on nouns covers these. When there's an adjective, the article is needed: *È un bravo insegnante.* (He's a good teacher.)
 
 **Description.**
 > La casa è grande.
@@ -158,12 +158,14 @@ The small words *a*, *in* and *di* are covered in the unit on prepositions.
 
 ### Essere and stare
 
-To say how you are (well, not well), Italian uses **stare**, not essere:
+Italian has a second verb that English also translates as "to be": **stare**. In standard Italian the split is clear for one case you need now: how you are (well, not well) uses *stare*.
 
 > Come stai? Sto bene, grazie.
 > How are you? I'm well, thanks.
 
-*Sono bene* is wrong. *Stare* is covered with the present tense. Until then, learn *sto bene* and *sto male* as set phrases.
+*Sono bene* is wrong. Learn *sto bene* and *sto male* as set phrases for now; *stare* gets its full forms in the unit on irregular verbs.
+
+*Stare* also means **to stay**, and you'll meet it in fixed phrases like *stare attento* (to be careful). But the line between the two verbs isn't the same everywhere. In much of central and southern Italy, people use *stare* where the standard uses *essere*, especially for where someone is: *Sto a Napoli* (I'm in Naples), *Dove stai?* (Where are you?). You'll hear this, and it's normal in those regions. In standard Italian, use **essere** for who and where you are (*Sono a casa*) and **stare** for how you are (*Sto bene*).
 
 ## Questions and negatives
 
@@ -201,8 +203,6 @@ A short answer can be just *sì* or *no*, and "no" before a negative sentence is
 
 ## Summary
 
-**Pronouns and essere**
-
 | | | | |
 |---|---|---|---|
 | io | I | **sono** | I am |
@@ -213,37 +213,4 @@ A short answer can be just *sì* or *no*, and "no" before a negative sentence is
 | voi | you (plural) | **siete** | you are |
 | loro | they | **sono** | they are |
 
-- *Sono* is both "I am" and "they are". *È* (is) always has its accent; *e* means "and".
-- *Io* has a capital only at the start of a sentence.
-
-**Which "you"**
-
-- **tu** for one person you know well: *Di dove sei?*
-- **Lei** for one person you don't know, or owe respect to. It takes the same verb as *lui* and *lei*: *Signora, Lei è di Roma?*
-- **voi** for any group, formal or informal: *Di dove siete?*
-
-**Using the pronoun or not**
-
-Leave it out in a neutral sentence: *Sono Marco.* Use it to:
-- contrast two people: *Io sono di Roma, lui è di Napoli.*
-- stress who it is: *Pago io.*
-- stand on its own or after *anche*: *Chi è di Milano? Io.* / *Anch'io.*
-- make clear who you mean when *è* could be he, she or you.
-
-**What essere is used for**
-
-| Use | Example |
-|---|---|
-| Who someone is | *Sono Giulia. Questo è Luca.* |
-| Where you're from: *di* + city | *Sono di Torino.* (not *da*) |
-| Nationality, agreeing with the person | *Sono italiano / italiana. Sono inglese.* |
-| Profession, usually with no article | *Sono studente.* |
-| What someone or something is like | *La casa è grande.* |
-| Where someone or something is | *Sono a casa. Dov'è la stazione?* |
-
-How you *are* (well, not well) uses **stare**: *Sto bene*, never *Sono bene*.
-
-**Questions and negatives**
-
-- A question has the same words as a statement, with a rising voice: *Sei italiano?*
-- **Non** goes directly before the verb: *Non sono di Roma.*
+Use **tu** with one person you know well, **Lei** (with the *è* form) with one person formally, and **voi** with any group. Leave the pronoun out unless you're contrasting, stressing, or using it on its own (*Anch'io*). Essere says who someone is, where they're from (*di* + city), their nationality and job, what they're like and where they are; how they *are* uses *stare* (*Sto bene*). For a question, raise your voice; for a negative, put **non** before the verb.

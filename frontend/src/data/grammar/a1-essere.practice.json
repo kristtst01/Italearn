@@ -570,16 +570,16 @@
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
-            "text": "You introduce yourself. Which is the natural, neutral way?"
+            "text": "You introduce yourself. Which is correct?"
           },
           "sentence_context": "",
           "correct_answer": "Sono Marco.",
           "distractors": [
-            "Io sono Marco.",
+            "Mi sono Marco.",
             "Marco sono."
           ],
           "hints": [
-            "The verb ending already says who it is. Io here sounds emphatic."
+            "Sono + name, or mi chiamo + name: not both mixed. (Io sono Marco is fine too.)"
           ],
           "target_words": [],
           "grammar_points": [
@@ -837,7 +837,7 @@
             "Ho stanco."
           ],
           "hints": [
-            "Describing yourself with an adjective uses essere."
+            "In standard Italian, how tired or happy you are uses essere: sono stanco. (Sto stanco is regional.)"
           ],
           "target_words": [],
           "grammar_points": [
@@ -1216,7 +1216,7 @@
         "type": "vocab",
         "subtype": "multiple_choice",
         "prompt": {
-          "text": "You ask three friends 'Are you tired?'"
+          "text": "You ask three friends (two men and a woman) 'Are you tired?'"
         },
         "sentence_context": "",
         "correct_answer": "Siete stanchi?",

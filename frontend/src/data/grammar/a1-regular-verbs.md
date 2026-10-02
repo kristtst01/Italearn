@@ -56,9 +56,9 @@ Common -are verbs:
 Two spelling details:
 
 - **-care and -gare** add an **h** before *i*, to keep the hard sound: *cercare → cerchi, cerchiamo*; *pagare → paghi, paghiamo*.
-- **-iare** verbs don't double the *i*: *studiare → studi* (not *studii*), *mangiare → mangi, mangiamo*.
+- **-iare** verbs usually don't double the *i*: *studiare → studi* (not *studii*), *mangiare → mangi, mangiamo*. (A few verbs where that *i* is stressed, like *sciare*, to ski, keep both: *tu scii*.)
 
-**Stress.** In the *loro* form the stress stays on the stem, not on the ending: ***par**lano*, ***la**vorano*. The same goes for the other groups: ***pren**dono*, ***dor**mono*.
+**Stress.** The *loro* form is stressed on the same syllable as the *io* form, never on the ending: ***par**lo → **par**lano*, *la**vo**ro → la**vo**rano*, ***a**bito → **a**bitano*. The same goes for the other groups: ***pren**dono*, ***dor**mono*. English speakers often stress the ending (*lavoRAno*), so it's worth saying a few out loud.
 
 ## -ere verbs
 
@@ -120,6 +120,8 @@ Many -ire verbs add **-isc-** in four of the six forms:
 - Others: **preferire** (to prefer), **pulire** (to clean), **spedire** (to send).
 - The infinitive doesn't show whether a verb takes *-isc-*, so learn it with the verb: *capire (capisco)*.
 
+That's four patterns in one go. Don't worry if they blur together at first: the *-are* pattern covers most verbs, and the chapters after this unit use these verbs constantly, so the endings will settle with practice.
+
 **Sound.** *Sc* is hard before *o* (*capi**sco***: "sk") and soft before *i* and *e* (*capi**sci***, *capi**sce***: "sh").
 
 ## Using the present
@@ -132,9 +134,28 @@ The Italian present covers several English forms:
 > Domani parto.
 > I'm leaving tomorrow.
 
-- **I do / I'm doing:** one form for both. Don't add *essere*: *Studio italiano*, never *Sono studio*.
+- **I do / I'm doing:** one form for both. Don't add *essere*: *Studio italiano*, never *Sono studio*. Italian also has a form for "right at this moment", *Sto studiando* (with *stare*), which comes in a later unit. The simple present is always correct, and it's what Italians use most.
 - **The near future:** with a time word, the present says what's going to happen: *Domani lavoro* (I'm working tomorrow).
 - **Questions and negatives** work as with *essere* and *avere*: *Parli inglese? Non parlo tedesco.*
+
+## How long: the present with da
+
+To say how long something has been going on, Italian uses the **present** with **da** and the length of time:
+
+> Studio italiano da due anni.
+> I've been studying Italian for two years.
+
+> Abito a Roma da tre mesi.
+> I've been living in Rome for three months.
+
+English switches to "have been ...ing" here, but Italian keeps the present, because the action is still going on. This is one of the places English speakers get wrong for a long time, so it's worth getting used to early.
+
+To ask, use **da quanto tempo** (since how much time):
+
+> Da quanto tempo abiti qui? Da un anno.
+> How long have you been living here? For a year.
+
+*Da* also works with a starting point: *Lavoro qui da lunedì* (I've been working here since Monday). **Per** is different: it gives the *whole* length of a period, not how long it has lasted so far. *Studio a Roma per un mese* means a one-month stay (a planned or total period); *Studio a Roma da un mese* means you've been there a month so far.
 
 ## Typical mistakes
 
@@ -146,8 +167,9 @@ The Italian present covers several English forms:
 | Voi dormete. | Voi dormite. | -ire verbs: *-ite*. |
 | Non capo. | Non capisco. | *Capire* takes *-isc-*. |
 | Tu cerci. | Tu cerchi. | -care verbs add *h* before *i*. |
-| Tu studii. | Tu studi. | -iare verbs don't double the *i*. |
+| Tu studii. | Tu studi. | -iare verbs usually don't double the *i*. |
 | Sono studio italiano. | Studio italiano. | The present needs no *essere*. |
+| Studio italiano per due anni. (meaning: so far) | Studio italiano da due anni. | How long so far: present + *da*. |
 
 ## Summary
 
@@ -161,6 +183,7 @@ The Italian present covers several English forms:
 | loro | -ano | -ono | -ono | -iscono |
 
 - **Stem + ending:** *parl-o*, *prend-i*, *dorm-e*. The pronoun is usually dropped.
-- **Spelling:** *-care / -gare* add *h* before *i* (*cerchi*); *-iare* keeps one *i* (*studi*).
+- **Spelling:** *-care / -gare* add *h* before *i* (*cerchi*); *-iare* usually keeps one *i* (*studi*).
 - **-isc-** in *io*, *tu*, *lui / lei* and *loro*: *capisco, capisci, capisce, capiscono*.
 - **One present for English's two:** *leggo* = I read / I'm reading. With a time word, it's also the near future.
+- **How long:** present + *da*: *Studio italiano da due anni* (I've been studying Italian for two years).

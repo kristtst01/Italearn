@@ -23,7 +23,7 @@ Italian speaks to people in two ways:
 
 What decides it is age, status and setting, more than whether you know the person. Students, young people and peers in a relaxed setting use *tu* with each other straight away, even when meeting for the first time: two new classmates would never say *Come si chiama?* to each other.
 
-It isn't always symmetrical either: an adult uses *tu* with a child, while children are taught to use *Lei* with adults they don't know, like a teacher or a friend's parent.
+It isn't always symmetrical either: an adult uses *tu* with a child, while children are taught to use *Lei* with adults they don't know, like a friend's parent or a shopkeeper. (Young children often use *tu* with their primary-school teacher; *Lei* comes later.)
 
 Many everyday phrases come in both versions:
 
@@ -35,7 +35,9 @@ Many everyday phrases come in both versions:
 | **Come ti chiami?** | **Come si chiama?** | What's your name? |
 | **E tu?** | **E Lei?** | And you? |
 
-When you're not sure, use the formal version. Being too polite is never a problem, and Italians will often invite you to switch: *Diamoci del tu!* (Let's use *tu*!)
+When you're not sure, use the formal version: it's the safer mistake, and the other person will offer *tu* if they want it.
+
+**Moving from Lei to tu.** A formal relationship often becomes informal after a while, and there's a polite way it happens. Usually the older or more senior person offers, with *Diamoci del tu!* (Let's use *tu*!) or the question *Possiamo darci del tu?* (Can we use *tu*?). Between equals, whoever feels it first can ask. Accept with *Certo!* (Of course!). Customs vary: in many shops and bars, young staff use *tu* with young customers, while banks, offices and older people keep to *Lei*. If someone keeps using *Lei* with you, keep using it back.
 
 You'll learn how *tu* and *Lei* work as pronouns in the unit on essere. For now, learn the phrases in pairs.
 
@@ -45,15 +47,15 @@ You'll learn how *tu* and *Lei* work as pronouns in the unit on essere. For now,
 |---|---|---|
 | **Ciao!** | Hello and goodbye, any time | informal |
 | **Salve!** | Hello, any time | neutral |
-| **Buongiorno!** | Hello, in the morning and early afternoon | formal or neutral |
-| **Buonasera!** | Hello, from late afternoon | formal or neutral |
+| **Buongiorno!** | Hello or goodbye, in the morning and early afternoon | formal or neutral |
+| **Buonasera!** | Hello or goodbye, in the afternoon and evening | formal or neutral |
 | **Arrivederci!** | Goodbye | formal or neutral |
-| **Buonanotte!** | Good night, when someone goes to bed | any |
+| **Buonanotte!** | Goodbye late at night, or at bedtime | any |
 
 - **Ciao** is both "hello" and "goodbye", but only with people you'd use *tu* with.
-- **Buongiorno** and **buonasera** are how you greet anyone formally: in a shop, a bar, an office. The switch from one to the other happens roughly in the late afternoon, and varies a little by region.
+- **Buongiorno** and **buonasera** are how you greet anyone formally: in a shop, a bar, an office. Both also work as a goodbye when you leave. The switch from one to the other happens sometime in the afternoon: right after lunch in many regions, later in others. If you're unsure in the afternoon, *buonasera* or *salve* is safe.
 - **Salve** is a safe middle ground when you're not sure which register fits. It's a little less formal than *buongiorno*.
-- **Buonanotte** is only for bedtime, like "sleep well". You don't greet anyone with it, even late at night.
+- **Buonanotte** is only a goodbye, never a hello: say it when you part late at night, or when someone goes to bed. Arriving somewhere at 10 PM, you still say *buonasera*.
 - **Arrivederci** is the standard goodbye with anyone you don't use *tu* with. *A presto!* (see you soon) works with anyone.
 
 > Buongiorno! Un caffè, per favore.
@@ -64,33 +66,33 @@ You'll learn how *tu* and *Lei* work as pronouns in the unit on essere. For now,
 
 ## Please, thank you and sorry
 
-| | English | Notes |
-|---|---|---|
-| **per favore** | please | Added to any request. |
-| **grazie** | thank you | *Grazie mille*: thanks a lot. |
-| **prego** | you're welcome / go ahead | The reply to *grazie*, and also "please, go ahead". |
-| **scusa / scusi** | excuse me, sorry | Informal / formal. |
-| **mi dispiace** | I'm sorry | For real regret or bad news. |
-| **permesso** | may I? coming through | For passing someone or entering a space. |
+**Please and thank you.** Add **per favore** to any request: *Un caffè, per favore.* Say thank you with **grazie**, or **grazie mille** (thanks a lot) when someone has gone out of their way.
 
-**Prego** does more than "you're welcome". A waiter hands you the menu: *Prego.* Someone asks if they can sit down: *Prego!* It's how you let someone go ahead.
+**Prego** is the reply to *grazie* (you're welcome), but it does much more. A waiter hands you the menu: *Prego.* Someone asks if they can sit down: *Prego!* A shop assistant turns to you: *Prego?*, meaning "What can I do for you?". It's how you let someone go ahead, or invite them to speak. With friends, you'll also hear *Figurati!* or *Di niente!* (don't mention it) in reply to *grazie*.
 
-**Scusa / scusi** is for small things: getting someone's attention, bumping into someone, interrupting. **Mi dispiace** is for real regret: being late, bad news, not being able to help.
+**Sorry and excuse me.** Where English mostly uses "sorry" or "excuse me", Italian has three words, and each has its own job:
+
+- **Scusa / scusi** (informal / formal) apologises for something you did, especially small things: getting someone's attention, bumping into someone, interrupting, being late.
 
 > Scusi, dov'è la stazione?
 > Excuse me, where's the station?
 
-> Mi dispiace, sono in ritardo.
-> I'm sorry, I'm late.
+> Scusa, sono in ritardo!
+> Sorry, I'm late!
 
-**Permesso** has no exact English equivalent. Say it when you squeeze through a crowded bus, go through a door in front of someone, or step into someone's home.
+- **Mi dispiace** expresses regret or sympathy, including for things that aren't your fault: bad news, saying no, not being able to help. It literally means "it displeases me".
+
+> Mi dispiace, non posso.
+> I'm sorry, I can't.
+
+- **Permesso** has no exact English equivalent. Say it when you squeeze through a crowded bus, go through a door in front of someone, or step into someone's home. It's asking for permission to pass.
 
 ## How are you?
 
 | Question | Answers |
 |---|---|
 | **Come stai?** (informal) | **Sto bene.** I'm well. |
-| **Come sta?** (formal) | **Sto male.** I'm not well. |
+| **Come sta?** (formal) | **Sto male.** I'm not well / I feel bad. |
 | **Come va?** (either) | **Così così.** So-so. |
 | | **Non c'è male.** Not bad. |
 
@@ -163,7 +165,7 @@ Three more, for special occasions:
 | ✗ | ✓ | Why |
 |---|---|---|
 | Ciao! (to a shop assistant) | Buongiorno! | *Ciao* is only for people you'd use *tu* with. |
-| Buonanotte! (arriving at 9 PM) | Buonasera! | *Buonanotte* is only for bedtime. |
+| Buonanotte! (arriving at 9 PM) | Buonasera! | *Buonanotte* is only a goodbye. |
 | Come stai? (to an older stranger) | Come sta? | Older people you don't know get the formal form. |
 | Scusa! (to a shop assistant) | Scusi! | Service settings are formal. |
 | Sono bene. | Sto bene. | "How you are" uses *stare*. |
@@ -171,24 +173,6 @@ Three more, for special occasions:
 
 ## Summary
 
-**Formal or informal.** Use the informal set with friends, family, children, and people your age in relaxed settings, even when you've just met. Use the formal set with adults in formal or service settings, people clearly older than you, and anyone with authority. When in doubt, go formal.
+Italian has an informal and a formal way to talk to people. Use the informal phrases (*ciao*, *scusa*, *come stai?*) with friends, family, children and people your age in relaxed settings, and the formal ones (*buongiorno*, *scusi*, *come sta?*) with adults in formal or service settings, older people and anyone with authority. When in doubt, go formal, and let the other person offer *tu*.
 
-| Informal | Formal |
-|---|---|
-| Ciao! | Buongiorno! / Buonasera! |
-| Scusa! | Scusi! |
-| Come stai? | Come sta? |
-| Come ti chiami? | Come si chiama? |
-| E tu? | E Lei? |
-
-**Greetings by time.** *Buongiorno* until the late afternoon, *buonasera* after that, *buonanotte* only at bedtime. *Salve* is neutral at any time, and *arrivederci* is the standard goodbye.
-
-**Politeness.** *Per favore* (please), *grazie* (thank you), *prego* (you're welcome, go ahead), *scusa / scusi* (excuse me), *mi dispiace* (I'm sorry), *permesso* (coming through).
-
-**How are you.** *Come stai? / Come sta?* Answer with *sto bene*, *sto male*, *così così* or *non c'è male*, and ask back.
-
-**Names.** *Come ti chiami? / Come si chiama?* *Mi chiamo…* *Piacere!*
-
-**When you're lost.** *Non capisco. Può ripetere? Come si dice…?*
-
-**Wishes.** *Buon* or *buona* + the occasion: *buona giornata*, *buon viaggio*, *buon compleanno*. Plus *auguri*, *complimenti*, *congratulazioni*.
+Greet with *buongiorno* in the morning and *buonasera* from the afternoon, and use both to say goodbye too; *buonanotte* is only for parting late at night. Ask for things with *per favore*, thank with *grazie*, and answer thanks with *prego*. Use *scusa / scusi* to apologise for something you did, *mi dispiace* for regret or sympathy, and *permesso* to get through. When you're lost: *Non capisco. Può ripetere?* And wish people well with *buon* or *buona* + the occasion.

@@ -24,6 +24,10 @@
     "using": {
       "label": "Using the present",
       "section": "Using the present"
+    },
+    "da": {
+      "label": "How long: the present with da",
+      "section": "How long: the present with da"
     }
   },
   "stops": [
@@ -609,7 +613,7 @@
     {
       "id": "using",
       "title": "Using the present",
-      "after": "Using the present",
+      "after": "How long: the present with da",
       "exercises": [
         {
           "id": "a1-regular-verbs-p-30",
@@ -726,7 +730,8 @@
           "correct_answer": [
             "abitiamo a Roma",
             "viviamo a Roma",
-            "noi abitiamo a Roma"
+            "noi abitiamo a Roma",
+            "noi viviamo a Roma"
           ],
           "distractors": [],
           "hints": [
@@ -768,7 +773,8 @@
           },
           "sentence_context": "Sono lavoro a Milano.",
           "correct_answer": [
-            "Lavoro a Milano."
+            "Lavoro a Milano.",
+            "Io lavoro a Milano."
           ],
           "distractors": [],
           "hints": [
@@ -777,6 +783,69 @@
           "target_words": [],
           "grammar_points": [
             "using"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-38",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say 'I've been studying Italian for two years.'"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "studio italiano da due anni",
+            "studio l'italiano da due anni"
+          ],
+          "distractors": [],
+          "hints": [
+            "Present + da: the action is still going on."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "da"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-39",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you ask a friend 'How long have you been living here?'"
+          },
+          "sentence_context": "",
+          "correct_answer": "Da quanto tempo abiti qui?",
+          "distractors": [
+            "Per quanto tempo abiti qui?",
+            "Quanto tempo abiti qui?"
+          ],
+          "hints": [
+            "Da quanto tempo + present."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "da"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-40",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You've lived in Rome for three months and still do. Which is right?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Abito a Roma da tre mesi.",
+          "distractors": [
+            "Abito a Roma per tre mesi.",
+            "Abito a Roma tre mesi."
+          ],
+          "hints": [
+            "Still going on: present + da."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "da"
           ]
         }
       ]
@@ -888,7 +957,7 @@
         "prompt": {
           "text": "Fill in the right form of offrire."
         },
-        "sentence_context": "Io ___ un caffè.",
+        "sentence_context": "Oggi ___ io il caffè.",
         "correct_answer": "offro",
         "distractors": [],
         "hints": [],
@@ -1038,6 +1107,27 @@
         "target_words": [],
         "grammar_points": [
           "using"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-16",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say 'We've been living in Milan for a year.'"
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "abitiamo a Milano da un anno",
+          "viviamo a Milano da un anno",
+          "noi abitiamo a Milano da un anno",
+          "noi viviamo a Milano da un anno"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "da"
         ]
       }
     ]

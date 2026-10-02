@@ -9,6 +9,10 @@
       "label": "Plurals",
       "section": "Plurals"
     },
+    "hard-start": {
+      "label": "Il or lo?",
+      "section": "Il or lo?"
+    },
     "indefinite": {
       "label": "Un, uno, una, un'",
       "section": "Indefinite articles"
@@ -88,7 +92,7 @@
             "either"
           ],
           "hints": [
-            "Nouns in -ione are feminine."
+            "Nouns in -zione are feminine."
           ],
           "target_words": [],
           "grammar_points": [
@@ -335,7 +339,7 @@
           ],
           "distractors": [],
           "hints": [
-            "One of the common ones in -ci."
+            "The big exception: -co becomes -ci here."
           ],
           "target_words": [],
           "grammar_points": [
@@ -510,6 +514,25 @@
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
+            "text": "Add the right article: a psychologist."
+          },
+          "sentence_context": "___ psicologo",
+          "correct_answer": "uno",
+          "distractors": [],
+          "hints": [
+            "Ps is one of the hard starts."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "indefinite",
+            "hard-start"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-25",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
             "text": "Add the right article: a pen."
           },
           "sentence_context": "___ penna",
@@ -524,7 +547,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-25",
+          "id": "a1-nouns-articles-p-26",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -544,7 +567,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-26",
+          "id": "a1-nouns-articles-p-27",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -562,7 +585,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-27",
+          "id": "a1-nouns-articles-p-28",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -583,7 +606,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-28",
+          "id": "a1-nouns-articles-p-29",
           "type": "writing",
           "subtype": "find_mistake",
           "prompt": {
@@ -610,7 +633,7 @@
       "after": "Definite articles",
       "exercises": [
         {
-          "id": "a1-nouns-articles-p-29",
+          "id": "a1-nouns-articles-p-30",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -628,7 +651,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-30",
+          "id": "a1-nouns-articles-p-31",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -646,7 +669,26 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-31",
+          "id": "a1-nouns-articles-p-32",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add 'the'."
+          },
+          "sentence_context": "___ yogurt",
+          "correct_answer": "lo",
+          "distractors": [],
+          "hints": [
+            "Y is one of the rarer hard starts."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "definite",
+            "hard-start"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-33",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -666,7 +708,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-32",
+          "id": "a1-nouns-articles-p-34",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -684,7 +726,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-33",
+          "id": "a1-nouns-articles-p-35",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -702,7 +744,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-34",
+          "id": "a1-nouns-articles-p-36",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -720,7 +762,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-35",
+          "id": "a1-nouns-articles-p-37",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -738,7 +780,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-36",
+          "id": "a1-nouns-articles-p-38",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -756,7 +798,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-37",
+          "id": "a1-nouns-articles-p-39",
           "type": "writing",
           "subtype": "transformation",
           "prompt": {
@@ -777,7 +819,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-38",
+          "id": "a1-nouns-articles-p-40",
           "type": "writing",
           "subtype": "transformation",
           "prompt": {
@@ -798,7 +840,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-39",
+          "id": "a1-nouns-articles-p-41",
           "type": "writing",
           "subtype": "transformation",
           "prompt": {
@@ -819,7 +861,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-40",
+          "id": "a1-nouns-articles-p-42",
           "type": "writing",
           "subtype": "find_mistake",
           "prompt": {
@@ -846,7 +888,7 @@
       "after": "C'è and ci sono",
       "exercises": [
         {
-          "id": "a1-nouns-articles-p-41",
+          "id": "a1-nouns-articles-p-43",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -867,7 +909,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-42",
+          "id": "a1-nouns-articles-p-44",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -888,7 +930,67 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-43",
+          "id": "a1-nouns-articles-p-45",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'Italy is beautiful'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "L'Italia è bella.",
+          "distractors": [
+            "Italia è bella.",
+            "La Italia è bella."
+          ],
+          "hints": [
+            "Countries take the article, l' before a vowel."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "using-articles"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-46",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'I speak Italian, but Italian is hard'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Parlo italiano, ma l'italiano è difficile.",
+          "distractors": [
+            "Parlo l'italiano, ma italiano è difficile.",
+            "Parlo italiano, ma italiano è difficile."
+          ],
+          "hints": [
+            "No article after parlare; the article when the language is the topic."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "using-articles"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-47",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: I'm at home."
+          },
+          "sentence_context": "Sono a ___.",
+          "correct_answer": "casa",
+          "distractors": [],
+          "hints": [
+            "A casa: no article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "using-articles"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-48",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -909,7 +1011,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-44",
+          "id": "a1-nouns-articles-p-49",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -930,7 +1032,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-45",
+          "id": "a1-nouns-articles-p-50",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -951,7 +1053,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-46",
+          "id": "a1-nouns-articles-p-51",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -972,7 +1074,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-47",
+          "id": "a1-nouns-articles-p-52",
           "type": "writing",
           "subtype": "transformation",
           "prompt": {
@@ -992,7 +1094,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-48",
+          "id": "a1-nouns-articles-p-53",
           "type": "writing",
           "subtype": "transformation",
           "prompt": {
@@ -1013,7 +1115,7 @@
           ]
         },
         {
-          "id": "a1-nouns-articles-p-49",
+          "id": "a1-nouns-articles-p-54",
           "type": "writing",
           "subtype": "find_mistake",
           "prompt": {
@@ -1110,6 +1212,23 @@
         "type": "writing",
         "subtype": "fill_blank",
         "prompt": {
+          "text": "Add 'the'."
+        },
+        "sentence_context": "___ psicologi",
+        "correct_answer": "gli",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "definite",
+          "hard-start"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-06",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
           "text": "Add the right article: an idea."
         },
         "sentence_context": "___ idea",
@@ -1124,7 +1243,7 @@
         ]
       },
       {
-        "id": "a1-nouns-articles-m-06",
+        "id": "a1-nouns-articles-m-07",
         "type": "writing",
         "subtype": "fill_blank",
         "prompt": {
@@ -1141,7 +1260,7 @@
         ]
       },
       {
-        "id": "a1-nouns-articles-m-07",
+        "id": "a1-nouns-articles-m-08",
         "type": "vocab",
         "subtype": "multiple_choice",
         "prompt": {
@@ -1160,7 +1279,7 @@
         ]
       },
       {
-        "id": "a1-nouns-articles-m-08",
+        "id": "a1-nouns-articles-m-09",
         "type": "writing",
         "subtype": "transformation",
         "prompt": {
@@ -1179,7 +1298,7 @@
         ]
       },
       {
-        "id": "a1-nouns-articles-m-09",
+        "id": "a1-nouns-articles-m-10",
         "type": "writing",
         "subtype": "transformation",
         "prompt": {
@@ -1198,7 +1317,7 @@
         ]
       },
       {
-        "id": "a1-nouns-articles-m-10",
+        "id": "a1-nouns-articles-m-11",
         "type": "writing",
         "subtype": "transformation",
         "prompt": {
@@ -1217,7 +1336,7 @@
         ]
       },
       {
-        "id": "a1-nouns-articles-m-11",
+        "id": "a1-nouns-articles-m-12",
         "type": "writing",
         "subtype": "find_mistake",
         "prompt": {
@@ -1235,7 +1354,7 @@
         ]
       },
       {
-        "id": "a1-nouns-articles-m-12",
+        "id": "a1-nouns-articles-m-13",
         "type": "writing",
         "subtype": "find_mistake",
         "prompt": {
@@ -1253,7 +1372,7 @@
         ]
       },
       {
-        "id": "a1-nouns-articles-m-13",
+        "id": "a1-nouns-articles-m-14",
         "type": "writing",
         "subtype": "find_mistake",
         "prompt": {
@@ -1271,7 +1390,7 @@
         ]
       },
       {
-        "id": "a1-nouns-articles-m-14",
+        "id": "a1-nouns-articles-m-15",
         "type": "vocab",
         "subtype": "multiple_choice",
         "prompt": {
@@ -1290,7 +1409,26 @@
         ]
       },
       {
-        "id": "a1-nouns-articles-m-15",
+        "id": "a1-nouns-articles-m-16",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "How do you say 'France is big'?"
+        },
+        "sentence_context": "",
+        "correct_answer": "La Francia è grande.",
+        "distractors": [
+          "Francia è grande.",
+          "Il Francia è grande."
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "using-articles"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-17",
         "type": "writing",
         "subtype": "type_answer",
         "prompt": {

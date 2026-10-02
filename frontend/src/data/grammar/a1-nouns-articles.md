@@ -5,7 +5,7 @@ level: A1
 sources:
   - Profilo della lingua italiana, A1 nouns and articles (unistrapg.it/profilo_lingua_italiana)
   - CILS A1 syllabus, Università per Stranieri di Siena
-  - "Treccani: articolo (Enciclopedia dell'Italiano)"
+  - "Treccani: articolo (Enciclopedia dell'Italiano); articoli determinativi; articoli indeterminativi (La grammatica italiana)"
 ---
 
 # Nouns & the article system
@@ -26,7 +26,7 @@ The ending of a noun usually tells you its gender:
 
 Nouns in **-e** have to be learned with their gender. Two endings help:
 
-- **-ione** is feminine: *stazione* (station), *lezione* (lesson).
+- **-ione** is usually feminine (and *-zione*, *-sione* almost always): *stazione* (station), *lezione* (lesson). An exception you'll meet: *il milione* (million).
 - **-ore** is masculine: *dottore* (doctor), *colore* (colour).
 
 A few common exceptions:
@@ -34,7 +34,7 @@ A few common exceptions:
 - **Masculine in -a:** *problema* (problem), *programma* (programme).
 - **Feminine in -o:** *mano* (hand), and the short forms *foto* (photo), *radio* (radio), *moto* (motorbike).
 
-For people, the ending usually follows the person: *ragazzo / ragazza*, *amico / amica* (friend), *cameriere / cameriera*. Some have a special feminine form: *studente / studentessa*, *dottore / dottoressa*. Nouns in *-ista* and *-ante* are the same for both: *turista*, *insegnante*.
+For people, the ending usually follows the person: *ragazzo / ragazza*, *amico / amica* (friend), *cameriere / cameriera*. Some have a special feminine form: *studente / studentessa*, *dottore / dottoressa*. Nouns in *-ista* and *-ante* have one form for both, and the article shows who you mean: *il turista / la turista*, *l'insegnante / un'insegnante*. In the plural, *-ista* splits: *i turisti*, *le turiste*.
 
 The best habit is to learn every noun **with its article**, so the gender comes with it: not "chiave" but *la chiave*.
 
@@ -50,9 +50,9 @@ Most nouns change their last vowel:
 
 Masculine nouns in *-a* take **-i**: *problema → problemi*.
 
-**Spelling to keep the sound.** In *-ca* and *-ga* an *h* is added, so the hard sound stays: *amica → amiche*. Nouns in *-co* and *-go* usually do the same (*parco → parchi*, park), but some very common ones don't: **amico → amici**, **medico → medici**. Learn these as you meet them.
+**Spelling to keep the sound.** In feminine nouns in *-ca* and *-ga* an *h* is added, so the hard sound stays: *amica → amiche*. Nouns in *-co* and *-go* depend on where the stress falls. If it falls on the second-to-last syllable, they usually keep the hard sound: *parco → parchi* (park), *lago → laghi* (lake). If it falls earlier, they usually soften: ***me**dico → medici*, *psi**co**logo → psicologi*. The big exception is **amico → amici**. This is a tendency, not a law, so learn the common ones as you meet them.
 
-**Nouns in -io** lose the *o*: *figlio → figli*, *negozio → negozi* (shop).
+**Nouns in -io** usually lose the *o*: *figlio → figli*, *negozio → negozi* (shop). When the *i* is stressed, it stays: *zio → zii* (uncles).
 
 **Nouns that don't change:**
 
@@ -62,6 +62,23 @@ Masculine nouns in *-a* take **-i**: *problema → problemi*.
 
 **A few irregular ones** worth knowing now: *l'uomo → gli uomini* (man → men), *la mano → le mani* (hand), *l'uovo → le uova* (egg, and the plural is feminine).
 
+## Il or lo?
+
+Masculine words have two sets of articles: **il / un / i** for most words, and **lo / uno / gli** for words with a "hard" start, one that would be awkward to say straight after *il* or *un*. Those are words starting with:
+
+| Start | Examples |
+|---|---|
+| **s + consonant** | *lo studente*, *lo sport*, *lo sci* (skiing) |
+| **z** | *lo zaino* (backpack), *lo zio* (uncle) |
+| **gn** | *lo gnocco* (a gnocco) |
+| **ps, pn** | *lo psicologo* (psychologist), *gli pneumatici* (tyres) |
+| **x, y** | *lo xilofono* (xylophone), *lo yogurt* (yogurt) |
+| **i or j + vowel**, said like English *y* | *lo iogurt* (another spelling of yogurt) |
+
+The first two are the ones you'll meet every day; the others are rare. With *pn*, everyday speech often says *i pneumatici* anyway, and both are accepted.
+
+The same goes for **un / uno** and **i / gli**: *un libro, i libri* but *uno zaino, gli zaini*. Feminine words don't have this split.
+
 ## Indefinite articles
 
 *A* / *an* in Italian:
@@ -69,11 +86,11 @@ Masculine nouns in *-a* take **-i**: *problema → problemi*.
 | | Before | Article | Examples |
 |---|---|---|---|
 | Masculine | most words | **un** | *un libro, un amico* |
-| Masculine | s + consonant, z | **uno** | *uno zaino* (backpack), *uno studente* |
+| Masculine | a hard start (s + consonant, z…) | **uno** | *uno zaino, uno studente* |
 | Feminine | a consonant | **una** | *una casa, una penna* |
 | Feminine | a vowel | **un'** | *un'amica, un'idea* |
 
-- **Uno** is used before *s* + another consonant (*studente*, *sport*) and before *z* (*zaino*). It's also used before the rarer *gn*, *ps* and *y*.
+- **Uno** goes before the hard starts from the section above: *uno studente*, *uno zaino*, *uno psicologo*, *uno yogurt*.
 - **Un'** with an apostrophe is only for feminine words: *un'amica* (a female friend), but *un amico* (a male friend), without one.
 
 These have no plural. For "some", Italian uses other words (*dei*, *delle*), which come in the unit on prepositions.
@@ -85,7 +102,7 @@ These have no plural. For "some", Italian uses other words (*dei*, *delle*), whi
 | | Singular | Plural | Before |
 |---|---|---|---|
 | Masculine | **il** | **i** | most words: *il libro, i libri* |
-| Masculine | **lo** | **gli** | s + consonant, z: *lo zaino, gli zaini* |
+| Masculine | **lo** | **gli** | a hard start (s + consonant, z…): *lo zaino, gli zaini* |
 | Masculine | **l'** | **gli** | a vowel: *l'amico, gli amici* |
 | Feminine | **la** | **le** | a consonant: *la casa, le case* |
 | Feminine | **l'** | **le** | a vowel: *l'amica, le amiche* |
@@ -97,12 +114,36 @@ These have no plural. For "some", Italian uses other words (*dei*, *delle*), whi
 > Il libro è qui. Gli studenti sono a casa.
 > The book is here. The students are at home.
 
+Seven forms of "the" is a lot to take in at once. You don't need to have them all down before moving on: articles are in nearly every sentence from here, so the chapters will give you plenty of practice, and the right form will start to sound right.
+
 ## When to use the article
 
-Italian uses the definite article more than English, and in a few places less.
+Knowing the forms is the easy part. Knowing *when* to use the article is harder, because Italian uses it in places where English has nothing, and leaves it out in a few places where you might expect it. There's no single rule behind it. Below are the cases you'll meet at A1; even advanced learners pick up the rest mostly by noticing it in what they read and hear.
 
-- **Things in general** take the article: *Il caffè è italiano* (coffee is Italian).
-- **Titles with a name** take the article when you talk *about* someone, and drop it when you talk *to* them:
+**Things in general.** When you talk about something as a whole category, Italian uses the definite article, where English uses none:
+
+> Il caffè italiano è buono.
+> Italian coffee is good.
+
+Compare a single cup, which takes *un*: *Prendo un caffè* (I'll have a coffee).
+
+**Languages.** After *parlare* (to speak), the language usually has no article: *Parlo italiano*. When the language is what the sentence is about, it takes one:
+
+> Parlo italiano, ma l'italiano è difficile!
+> I speak Italian, but Italian is hard!
+
+After *studiare*, both are common: *Studio italiano* and *Studio l'italiano*.
+
+**Countries and cities.** Countries usually take the article: *l'Italia*, *la Francia*, *gli Stati Uniti* (the United States). Cities usually don't: *Roma*, *Londra*. That's why *Sono di Roma* has no article. For a country, Italians say the nationality instead: *Sono italiano*, not *Sono dell'Italia*. A few exceptions are learned one by one: *Israele*, *Cuba* and *Malta* have no article; *L'Aquila* and *La Spezia* do.
+
+> L'Italia è bella. Roma è grande.
+> Italy is beautiful. Rome is big.
+
+After some prepositions the article drops: *Vado in Italia* (I'm going to Italy). The unit on prepositions explains when.
+
+**Home.** *A casa* (at home, home) has no article: *Sono a casa*, *Vado a casa*.
+
+**People.** In standard Italian, names have no article: *Marco è di Roma*. (In the north you'll often hear *la Giulia*, *il Marco* in casual speech. It's regional, and best avoided in writing.) Titles with a name take the article when you talk *about* someone, and drop it when you talk *to* them:
 
 > Il signor Rossi è medico.
 > Mr Rossi is a doctor.
@@ -110,9 +151,11 @@ Italian uses the definite article more than English, and in a few places less.
 > Buongiorno, signor Rossi!
 > Good morning, Mr Rossi!
 
-- **Signore** becomes **signor** before a name: *il signor Rossi*. *Signora* doesn't change: *la signora Bianchi*.
-- **Jobs after essere** usually have no article, as you saw with essere: *Sono insegnante.*
-- **Names of people** have no article: *Marco è di Roma.*
+*Signore* becomes **signor** before a name: *il signor Rossi*. Titles in *-ore* do the same: *il dottor Bianchi*, *il professor Neri*. *Signora* doesn't change: *la signora Bianchi*.
+
+**Jobs after essere** usually have no article, as you saw with essere: *Sono insegnante.*
+
+Later you'll meet another place where Italian uses the article and English doesn't: with words like *my* and *your* (*il mio libro*, my book). That comes in the unit on possessives.
 
 ## C'è and ci sono
 
@@ -138,6 +181,7 @@ Italian uses the definite article more than English, and in a few places less.
 | ✗ | ✓ | Why |
 |---|---|---|
 | il zaino | lo zaino | Before z, the article is *lo*. |
+| il yogurt | lo yogurt | *Y* is one of the rarer hard starts. |
 | un studente | uno studente | Before s + consonant, *uno*. |
 | la problema | il problema | *Problema* is masculine. |
 | i amici | gli amici | *Gli* before a vowel. |
@@ -149,18 +193,18 @@ Italian uses the definite article more than English, and in a few places less.
 
 ## Summary
 
-**Gender.** *-o* is usually masculine, *-a* usually feminine, *-e* either; *-ione* is feminine and *-ore* masculine. Watch *il problema* and *la mano*. Learn nouns with their article.
+**Gender.** *-o* is usually masculine, *-a* usually feminine, *-e* either; *-ione* is usually feminine and *-ore* masculine. Watch *il problema* and *la mano*. Learn nouns with their article.
 
-**Plurals.** *-o → -i*, *-a → -e*, *-e → -i*. *-ca → -che*; *-co → -chi* or *-ci* (*amici*, *medici*); *-io → -i*. No change for accented endings (*caffè*, *città*), consonant endings (*bar*, *film*) and short forms (*foto*, *bici*). Irregular: *uomini*, *mani*, *uova*.
+**Plurals.** *-o → -i*, *-a → -e*, *-e → -i*. *-ca → -che*; *-co / -go* depend on the stress (*parchi*, but *medici*, and *amici*); *-io → -i* (but *zii*). No change for accented endings (*caffè*, *città*), consonant endings (*bar*, *film*) and short forms (*foto*, *bici*). Irregular: *uomini*, *mani*, *uova*.
 
 | | Indefinite | Definite (sing.) | Definite (plural) |
 |---|---|---|---|
 | Masculine, most words | un | il | i |
-| Masculine, s + consonant, z | uno | lo | gli |
+| Masculine, hard start (s + consonant, z…) | uno | lo | gli |
 | Masculine, vowel | un | l' | gli |
 | Feminine, consonant | una | la | le |
 | Feminine, vowel | un' | l' | le |
 
-**Using the article.** Yes for things in general and for titles when talking *about* someone (*il signor Rossi*); no when speaking *to* them, with names, and with jobs after essere.
+**Using the article.** Yes for things in general (*il caffè*), most countries (*l'Italia*), a language as the topic (*l'italiano è difficile*) and titles when talking *about* someone (*il signor Rossi*). No with most cities, names, *a casa*, jobs after essere, after *parlare* (*parlo italiano*), and when speaking *to* someone (*Buongiorno, signor Rossi*).
 
 **There is / there are.** *C'è* + singular, *ci sono* + plural. *C'è un bar?* (is there one?) versus *Dov'è il bar?* (where is it?).

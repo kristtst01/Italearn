@@ -21,6 +21,10 @@
       "label": "Vorrei",
       "section": "Vorrei"
     },
+    "sapere-conoscere": {
+      "label": "Sapere, conoscere and potere",
+      "section": "Sapere, conoscere and potere"
+    },
     "per": {
       "label": "Per + infinitive",
       "section": "Per + infinitive"
@@ -548,13 +552,94 @@
         {
           "id": "a1-irregular-verbs-p-27",
           "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: do you know Marco?"
+          },
+          "sentence_context": "___ Marco?",
+          "correct_answer": [
+            "Conosci",
+            "conosci"
+          ],
+          "distractors": [],
+          "hints": [
+            "Knowing a person: conoscere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "sapere-conoscere"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-28",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: I don't know where he lives."
+          },
+          "sentence_context": "Non ___ dove abita.",
+          "correct_answer": "so",
+          "distractors": [],
+          "hints": [
+            "Knowing a fact: sapere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "sapere-conoscere"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-29",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'I can swim' (I know how)?"
+          },
+          "sentence_context": "",
+          "correct_answer": "So nuotare.",
+          "distractors": [
+            "Posso nuotare.",
+            "Conosco nuotare."
+          ],
+          "hints": [
+            "A learned skill: sapere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "sapere-conoscere"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-30",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "At a friend's door, how do you ask 'Can I come in?'"
+          },
+          "sentence_context": "",
+          "correct_answer": "Posso entrare?",
+          "distractors": [
+            "So entrare?",
+            "Conosco entrare?"
+          ],
+          "hints": [
+            "Being allowed: potere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "sapere-conoscere"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-31",
+          "type": "writing",
           "subtype": "type_answer",
           "prompt": {
-            "text": "Say 'I'd like to speak to Giulia.'"
+            "text": "Say 'I'd like to eat an ice cream.'"
           },
           "sentence_context": "",
           "correct_answer": [
-            "vorrei parlare con Giulia"
+            "vorrei mangiare un gelato"
           ],
           "distractors": [],
           "hints": [
@@ -566,7 +651,7 @@
           ]
         },
         {
-          "id": "a1-irregular-verbs-p-28",
+          "id": "a1-irregular-verbs-p-32",
           "type": "writing",
           "subtype": "find_mistake",
           "prompt": {
@@ -593,13 +678,13 @@
       "after": "Per + infinitive",
       "exercises": [
         {
-          "id": "a1-irregular-verbs-p-29",
+          "id": "a1-irregular-verbs-p-33",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
-            "text": "Complete: I'm going to Rome to see Marco."
+            "text": "Complete: I'm studying Italian to work in Rome."
           },
-          "sentence_context": "Vado a Roma ___ vedere Marco.",
+          "sentence_context": "Studio italiano ___ lavorare a Roma.",
           "correct_answer": "per",
           "distractors": [],
           "hints": [
@@ -611,20 +696,20 @@
           ]
         },
         {
-          "id": "a1-irregular-verbs-p-30",
+          "id": "a1-irregular-verbs-p-34",
           "type": "writing",
           "subtype": "type_answer",
           "prompt": {
-            "text": "Say 'I'm studying Italian to work in Italy.'"
+            "text": "Say 'I'm going to Rome to see Marco.'"
           },
           "sentence_context": "",
           "correct_answer": [
-            "studio italiano per lavorare in Italia",
-            "studio l'italiano per lavorare in Italia"
+            "vado a Roma per vedere Marco",
+            "vado a Roma a vedere Marco"
           ],
           "distractors": [],
           "hints": [
-            "Per + infinitive."
+            "After a verb of movement: per or a + infinitive."
           ],
           "target_words": [],
           "grammar_points": [
@@ -632,7 +717,7 @@
           ]
         },
         {
-          "id": "a1-irregular-verbs-p-31",
+          "id": "a1-irregular-verbs-p-35",
           "type": "writing",
           "subtype": "find_mistake",
           "prompt": {
@@ -640,6 +725,7 @@
           },
           "sentence_context": "Vado a casa dormire.",
           "correct_answer": [
+            "Vado a casa a dormire.",
             "Vado a casa per dormire."
           ],
           "distractors": [],
@@ -652,7 +738,7 @@
           ]
         },
         {
-          "id": "a1-irregular-verbs-p-32",
+          "id": "a1-irregular-verbs-p-36",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -673,7 +759,7 @@
           ]
         },
         {
-          "id": "a1-irregular-verbs-p-33",
+          "id": "a1-irregular-verbs-p-37",
           "type": "writing",
           "subtype": "type_answer",
           "prompt": {
@@ -694,7 +780,7 @@
           ]
         },
         {
-          "id": "a1-irregular-verbs-p-34",
+          "id": "a1-irregular-verbs-p-38",
           "type": "writing",
           "subtype": "type_answer",
           "prompt": {
@@ -716,7 +802,7 @@
           ]
         },
         {
-          "id": "a1-irregular-verbs-p-35",
+          "id": "a1-irregular-verbs-p-39",
           "type": "writing",
           "subtype": "find_mistake",
           "prompt": {
@@ -964,9 +1050,9 @@
         "prompt": {
           "text": "Fix the mistake."
         },
-        "sentence_context": "Studio italiano lavorare in Italia.",
+        "sentence_context": "Studio italiano lavorare a Roma.",
         "correct_answer": [
-          "Studio italiano per lavorare in Italia."
+          "Studio italiano per lavorare a Roma."
         ],
         "distractors": [],
         "hints": [],
@@ -984,6 +1070,7 @@
         },
         "sentence_context": "",
         "correct_answer": [
+          "vado a casa a dormire",
           "vado a casa per dormire"
         ],
         "distractors": [],
@@ -992,6 +1079,25 @@
         "grammar_points": [
           "fare-andare-stare",
           "per"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-16",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Complete: they know Rome very well."
+        },
+        "sentence_context": "___ Roma molto bene.",
+        "correct_answer": [
+          "Conoscono",
+          "conoscono"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "sapere-conoscere"
         ]
       }
     ]

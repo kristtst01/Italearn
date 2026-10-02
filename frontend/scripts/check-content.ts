@@ -70,7 +70,7 @@ function forms(word: string): string[] {
   if (w.length > 4 && /(are|ere|ire)$/.test(w)) out.push(...conjugate(w));
   const stem = (n: number) => w.slice(0, w.length - n);
   if (w.endsWith('co')) out.push(stem(1) + 'a', stem(1) + 'hi', stem(1) + 'he', stem(1) + 'i');
-  else if (w.endsWith('go')) out.push(stem(1) + 'a', stem(1) + 'hi', stem(1) + 'he');
+  else if (w.endsWith('go')) out.push(stem(1) + 'a', stem(1) + 'hi', stem(1) + 'he', stem(1) + 'i'); // albergo → alberghi, psicologo → psicologi
   else if (w.endsWith('io')) out.push(stem(1), stem(1) + 'a', stem(1) + 'e');
   else if (w.endsWith('o')) out.push(stem(1) + 'a', stem(1) + 'i', stem(1) + 'e');
   else if (w.endsWith('ca')) out.push(stem(1) + 'he');

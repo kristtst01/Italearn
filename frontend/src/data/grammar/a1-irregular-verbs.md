@@ -25,8 +25,14 @@ Some of the most used verbs in Italian don't follow the regular patterns: *fare*
 
 **Fare** is used for many everyday activities, and for the weather, which you've already met:
 
-> Che lavoro fai? Faccio la spesa. Fa freddo.
-> What do you do? I do the shopping. It's cold.
+> Che lavoro fai?
+> What's your job? (lit. what work do you do?)
+
+> Faccio la spesa.
+> I do the shopping.
+
+> Fa freddo.
+> It's cold.
 
 **Andare** + *a* + a city or *casa*; *andare* + *a* + a verb:
 
@@ -51,7 +57,7 @@ Some of the most used verbs in Italian don't follow the regular patterns: *fare*
 > Vieni a casa? Stasera esco con Marco.
 > Are you coming home? Tonight I'm going out with Marco.
 
-**Venire da** is the other way to say where you're from. *Sono di Londra* (I'm from London) and *Vengo da Londra* (I come from London) mean the same, but *essere* takes **di** and *venire* takes **da**.
+**Venire da** is the other way to say where you're from: *Sono di Londra* and *Vengo da Londra* both mean "I'm from London" (with *venire* it can also mean you're arriving from there right now). *Essere* takes **di**, *venire* takes **da**. Both work with cities; for a country, use your nationality for now: *Sono inglese*.
 
 ## Dare, bere, dire and sapere
 
@@ -65,6 +71,8 @@ Four more you'll need often:
 | noi | **diamo** | **beviamo** | **diciamo** | **sappiamo** |
 | voi | **date** | **bevete** | **dite** | **sapete** |
 | loro | **danno** | **bevono** | **dicono** | **sanno** |
+
+These are a lot of tables to learn at once. You don't need them all perfect before moving on: these are the verbs you'll use most, so you'll meet them in almost every chapter from here, and they'll stick through use.
 
 - **Dà** (gives) has an accent, to tell it apart from **da** (from).
 - **Bere** works like a regular -ere verb on the stem *bev-*: *bevo, bevi, beve*.
@@ -90,7 +98,31 @@ The infinitive comes straight after, with no word in between:
 
 - **Non** goes before the modal: *Non posso venire* (I can't come).
 - You already know *Può ripetere?*: it's *potere* in the formal *Lei* form.
-- **Volere** can also take a noun: *Voglio un gelato* (I want an ice cream). To a waiter or shop assistant, that sounds abrupt. Use *vorrei* instead.
+- **Volere** can also take a noun: *Voglio un gelato* (I want an ice cream). To a waiter or shop assistant, that sounds abrupt. Use *vorrei* instead. Offering is different: *Vuoi un caffè?* (Do you want a coffee?) is friendly and normal.
+
+## Sapere, conoscere and potere
+
+English uses *know* and *can* for things Italian keeps apart.
+
+**Sapere or conoscere?** Both mean *to know*, but not the same kind of knowing:
+
+- **Sapere** is knowing a fact, or knowing how to do something: *So dove abita* (I know where he lives), *Sai nuotare?* (Can you swim?).
+- **Conoscere** is knowing a person, a place or a thing: being familiar with it. It's a regular *-ere* verb: *conosco, conosci, conosce, conosciamo, conoscete, conoscono*.
+
+> Conosci Marco? Sì, ma non so dove abita.
+> Do you know Marco? Yes, but I don't know where he lives.
+
+> Conosco Roma molto bene.
+> I know Rome very well.
+
+As with *leggere*, the sound changes but the spelling doesn't: *conosco* (hard "sk"), *conosci* (soft "sh").
+
+**Sapere or potere?** English *can* covers both:
+
+- **Sapere** + infinitive is *can* in the sense of a skill you've learned: *So nuotare* (I can swim, I know how).
+- **Potere** is *can* in the sense of being allowed, or able right now: *Posso entrare?* (Can I come in?), *Oggi non posso nuotare: devo lavorare* (I can't swim today: I have to work).
+
+The line isn't completely sharp: you'll sometimes hear *potere* where *sapere* would be the textbook choice. But keeping them apart this way is always correct.
 
 ## Vorrei
 
@@ -117,7 +149,9 @@ Like *volere*, it takes a noun or an infinitive. The other forms you'll hear mos
 > Vado a Roma per vedere Marco.
 > I'm going to Rome to see Marco.
 
-English often leaves out "in order", and Italian can't leave out **per**: *Vado a Roma per vedere Marco*, not *Vado a Roma vedere Marco*.
+English often leaves out "in order", and Italian can't leave out the little word before the infinitive: *Studio italiano per lavorare a Roma*, not *Studio italiano lavorare a Roma*.
+
+After verbs of movement like *andare* and *venire*, you can also use **a**, and it often sounds more natural: *Vado a casa a dormire*, *Vado a Roma a vedere Marco*. You've already seen it in *Vado a mangiare*. *Per* works after any verb; *a* only after verbs of movement.
 
 ## Typical mistakes
 
@@ -130,22 +164,16 @@ English often leaves out "in order", and Italian can't leave out **per**: *Vado 
 | Devo di lavorare. | Devo lavorare. | The same with *dovere*. |
 | Voglio un caffè. (to a barista) | Vorrei un caffè. | *Vorrei* is the polite form. |
 | Vengo di Londra. | Vengo da Londra. | *Venire da*, *essere di*. |
-| Vado a Roma vedere Marco. | Vado a Roma per vedere Marco. | "In order to" needs *per*. |
+| Studio italiano lavorare a Roma. | Studio italiano per lavorare a Roma. | "In order to" needs *per* (or *a* after verbs of movement). |
 | Lui da un libro. | Lui dà un libro. | *Dà* (gives) has an accent. |
 
 ## Summary
 
-| | fare | andare | venire | uscire | volere | potere | dovere |
-|---|---|---|---|---|---|---|---|
-| io | faccio | vado | vengo | esco | voglio | posso | devo |
-| tu | fai | vai | vieni | esci | vuoi | puoi | devi |
-| lui / lei | fa | va | viene | esce | vuole | può | deve |
-| noi | facciamo | andiamo | veniamo | usciamo | vogliamo | possiamo | dobbiamo |
-| voi | fate | andate | venite | uscite | volete | potete | dovete |
-| loro | fanno | vanno | vengono | escono | vogliono | possono | devono |
+None of these follow the regular patterns, so learn their forms by heart. Some patterns help:
 
-- **Stare:** *sto, stai, sta, stiamo, state, stanno*. **Dare:** *do, dai, dà, diamo, date, danno*. **Bere:** *bev-* + regular endings. **Dire:** *dico, dici, dice, diciamo, dite, dicono*. **Sapere:** *so, sai, sa, sappiamo, sapete, sanno*.
-- **Modals + infinitive**, nothing in between: *Posso entrare?*
-- **Vorrei** (I'd like) to ask politely; *vorresti* to a friend, *vorrebbe* formally.
-- **Per + infinitive** = in order to: *Studio per lavorare in Italia.*
-- **Venire da**, but **essere di**.
+- **The voi form is almost always regular** (*andate, uscite, venite, potete*), and so are many *noi* forms (*andiamo, usciamo, veniamo*).
+- **A -g- in io and loro**: *vengo, vengono*.
+- **A changed stem in four forms**: *esco, esci, esce, escono*, but *usciamo, uscite*.
+- **Short, accented forms** in *lui / lei*: *può*, *dà*.
+
+Use the **modals** with an infinitive straight after (*Posso entrare?*), **vorrei** to ask politely, and **per** + infinitive for "in order to". **Sapere** is knowing a fact or a skill, **conoscere** knowing a person or place, and **potere** being allowed or able. And remember **venire da** but **essere di**.

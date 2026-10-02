@@ -195,14 +195,14 @@
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
-            "text": "Which of these can mean both 'hello' and 'goodbye'?"
+            "text": "Which of these is both 'hello' and 'goodbye' with friends?"
           },
           "sentence_context": "",
           "correct_answer": "Ciao",
           "distractors": [
-            "Buongiorno",
             "Arrivederci",
-            "Salve"
+            "Salve",
+            "Piacere"
           ],
           "hints": [
             "The informal one."
@@ -217,6 +217,27 @@
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
+            "text": "Your older colleague smiles and says 'Diamoci del tu!'. What does she mean?"
+          },
+          "sentence_context": "Diamoci del tu!",
+          "correct_answer": "Let's use tu with each other.",
+          "distractors": [
+            "Let's speak more slowly.",
+            "Let's use Lei with each other."
+          ],
+          "hints": [
+            "Dare del tu: using tu."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "register"
+          ]
+        },
+        {
+          "id": "a1-first-phrases-p-10",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
             "text": "When in doubt, which version should you use?"
           },
           "sentence_context": "",
@@ -226,7 +247,7 @@
             "Either, it doesn't matter"
           ],
           "hints": [
-            "Being too polite is never a problem."
+            "It's the safer mistake: the other person will offer tu if they want it."
           ],
           "target_words": [],
           "grammar_points": [
@@ -241,7 +262,7 @@
       "after": "How are you?",
       "exercises": [
         {
-          "id": "a1-first-phrases-p-10",
+          "id": "a1-first-phrases-p-11",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -264,7 +285,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-11",
+          "id": "a1-first-phrases-p-12",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -286,7 +307,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-12",
+          "id": "a1-first-phrases-p-13",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -308,11 +329,11 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-13",
+          "id": "a1-first-phrases-p-14",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
-            "text": "You tell a friend you can't come to their party. How do you say you're sorry?"
+            "text": "A friend tells you their cat is ill. What do you say?"
           },
           "sentence_context": "",
           "correct_answer": "Mi dispiace!",
@@ -322,7 +343,7 @@
             "Prego!"
           ],
           "hints": [
-            "Real regret, not a small slip."
+            "Sympathy for something that isn't your fault: mi dispiace."
           ],
           "target_words": [],
           "grammar_points": [
@@ -330,7 +351,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-14",
+          "id": "a1-first-phrases-p-15",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -350,7 +371,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-15",
+          "id": "a1-first-phrases-p-16",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -372,7 +393,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-16",
+          "id": "a1-first-phrases-p-17",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -394,7 +415,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-17",
+          "id": "a1-first-phrases-p-18",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -416,7 +437,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-18",
+          "id": "a1-first-phrases-p-19",
           "type": "writing",
           "subtype": "type_answer",
           "prompt": {
@@ -424,7 +445,8 @@
           },
           "sentence_context": "",
           "correct_answer": [
-            "sto male"
+            "sto male",
+            "non sto bene"
           ],
           "distractors": [],
           "hints": [
@@ -436,7 +458,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-19",
+          "id": "a1-first-phrases-p-20",
           "type": "writing",
           "subtype": "type_answer",
           "prompt": {
@@ -463,7 +485,7 @@
       "after": "Wishes",
       "exercises": [
         {
-          "id": "a1-first-phrases-p-20",
+          "id": "a1-first-phrases-p-21",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -485,7 +507,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-21",
+          "id": "a1-first-phrases-p-22",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -507,7 +529,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-22",
+          "id": "a1-first-phrases-p-23",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -529,7 +551,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-23",
+          "id": "a1-first-phrases-p-24",
           "type": "writing",
           "subtype": "type_answer",
           "prompt": {
@@ -537,7 +559,8 @@
           },
           "sentence_context": "",
           "correct_answer": [
-            "mi chiamo Elena"
+            "mi chiamo Elena",
+            "sono Elena"
           ],
           "distractors": [],
           "hints": [
@@ -549,7 +572,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-24",
+          "id": "a1-first-phrases-p-25",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -571,7 +594,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-25",
+          "id": "a1-first-phrases-p-26",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -592,7 +615,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-26",
+          "id": "a1-first-phrases-p-27",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -610,7 +633,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-27",
+          "id": "a1-first-phrases-p-28",
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
@@ -632,7 +655,7 @@
           "strict_accents": true
         },
         {
-          "id": "a1-first-phrases-p-28",
+          "id": "a1-first-phrases-p-29",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -654,7 +677,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-29",
+          "id": "a1-first-phrases-p-30",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -675,7 +698,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-30",
+          "id": "a1-first-phrases-p-31",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {
@@ -697,7 +720,7 @@
           ]
         },
         {
-          "id": "a1-first-phrases-p-31",
+          "id": "a1-first-phrases-p-32",
           "type": "vocab",
           "subtype": "multiple_choice",
           "prompt": {

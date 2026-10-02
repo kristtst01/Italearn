@@ -29,7 +29,7 @@ You need numbers from the start: for your age, a phone number, how many of somet
 | 10 | **dieci** | | |
 
 - 0 to 10 have to be learned one by one.
-- **11 to 16** end in **-dici** (from *dieci*, ten), with the unit first: *un-dici*, *do-dici*, *tre-dici*.
+- **11 to 16** end in **-dici** (from *dieci*, ten), with the unit first: *un-dici*, *do-dici*, *tre-dici*. The unit is sometimes disguised: *quattordici* (14), *quindici* (15), *sedici* (16).
 - **17 to 19** turn it round: ten first, then the unit: **diciassette** (ten + seven), **diciotto** (ten + eight), **diciannove** (ten + nine).
 - **Sei** is both "six" and "you are" (*tu sei*). Context always makes it clear: *sei gatti* (six cats), *Sei di Roma?* (are you from Rome?).
 
@@ -45,7 +45,7 @@ You need numbers from the start: for your age, a phone number, how many of somet
 | 50 | **cinquanta** | 90 | **novanta** |
 | | | 100 | **cento** |
 
-From *trenta* on, every ten ends in **-anta**, and most look like their unit: *quattro → quaranta*, *sei → sessanta*, *sette → settanta*, *otto → ottanta*, *nove → novanta*.
+From *trenta* on, every ten ends in **-anta**, and most look like their unit: *sei → sessanta*, *sette → settanta*, *otto → ottanta*, *nove → novanta*. *Quaranta* (40) and *cinquanta* (50) are less obvious.
 
 **Building numbers.** Put the ten and the unit together **as one word**, with nothing in between:
 
@@ -58,7 +58,7 @@ Three small adjustments:
    - *venti + uno →* **ventuno** (21), *venti + otto →* **ventotto** (28)
    - *trenta + uno →* **trentuno** (31), *trenta + otto →* **trentotto** (38)
    - The same for every ten: *quarantuno, cinquantotto, novantuno*.
-2. **Tre at the end takes an accent**, because the stress falls on it: **ventitré** (23), **trentatré** (33), **novantatré** (93). On its own, *tre* has no accent.
+2. **Tre at the end takes an accent**, the acute *é* (slanting up to the right), because the stress falls on it: **ventitré** (23), **trentatré** (33), **novantatré** (93). On its own, *tre* has no accent.
 3. **No "and"**: 32 is *trentadue*, never *trenta e due*.
 
 | | | | |
@@ -78,7 +78,7 @@ A number goes **before** the noun, and the noun is plural from 2 up:
 > due fratelli, tre gatti, venti studenti
 > two brothers, three cats, twenty students
 
-**Uno** before a noun becomes **un** or **una**, like "a" in English: *un fratello*, *una sorella*. You'll see how *un* and *una* work in the unit on nouns and articles.
+**Uno** before a noun usually becomes **un** or **una**, like "a" in English: *un fratello*, *una sorella*. It stays *uno* before some words, like *uno studente*; the unit on nouns and articles explains when.
 
 **Years** (*anni*) are how you'll say your age, with avere in the next unit: *ventitré anni*. Two spellings are common, and both are correct:
 
@@ -108,18 +108,17 @@ Either way is fine. Saying the digits one by one is the safest when you're spell
 | ventiotto | ventotto | The same before *otto*. |
 | ventitre | ventitré | *Tre* at the end of a number takes an accent. |
 | trenta e due | trentadue | One word, no "and". |
-| uno cento | cento | *Cento* stands alone. |
-| uno fratello | un fratello | Before a noun, *uno* becomes *un* or *una*. |
+| uno fratello | un fratello | Before most nouns, *uno* becomes *un* or *una*. |
 
 ## Summary
 
-**0–20.** zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci, undici, dodici, tredici, quattordici, quindici, sedici, diciassette, diciotto, diciannove, venti.
+**0–20.** Learn these by heart. 11–16 end in *-dici*; 17–19 start with *dici-*.
 
-**The tens.** venti, trenta, quaranta, cinquanta, sessanta, settanta, ottanta, novanta, cento.
+**The tens.** *Venti*, then *-anta* from *trenta* to *novanta*; 100 is *cento*.
 
 **21–100.** Ten + unit, as one word: *ventidue*, *trentacinque*. Before *uno* and *otto* the ten drops its vowel (*ventuno*, *ventotto*); *tre* at the end takes an accent (*ventitré*).
 
-**With nouns.** The number goes first and the noun is plural: *due fratelli*. One is *un* / *una*: *un fratello*, *una sorella*.
+**With nouns.** The number goes first and the noun is plural: *due fratelli*. One is usually *un* / *una*: *un fratello*, *una sorella*.
 
 **Years.** *Ventitré anni.* *Vent'anni* and *ventun anni* are common spellings.
 
