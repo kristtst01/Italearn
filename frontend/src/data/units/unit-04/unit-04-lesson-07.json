@@ -1,0 +1,21 @@
+{
+  "id": "unit-04-lesson-07",
+  "unit_id": "unit-04",
+  "name": "People I Know",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-04-lesson-07-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Write about three people you know: their names, how old they are and where they are from." },
+      "sentence_context": "",
+      "correct_answer": "Marco ha trentadue anni ed è di Milano. Sara ha diciotto anni ed è di Roma. Paul ha cinquant'anni ed è americano.",
+      "distractors": [],
+      "hints": ["For each person: name, age (ha … anni), where they are from."],
+      "target_words": ["anni"]
+    }
+  ],
+  "vocabulary": []
+}

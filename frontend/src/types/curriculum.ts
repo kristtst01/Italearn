@@ -37,6 +37,8 @@ export interface Unit {
   can_do?: string;
   /** Italian title on the chapter's stamp */
   stamp_title?: string;
+  /** Reworked and reviewed. Other chapters still work, but are listed under "Under construction". */
+  ready?: boolean;
   lessons: LessonMeta[];
   order: number;
 }

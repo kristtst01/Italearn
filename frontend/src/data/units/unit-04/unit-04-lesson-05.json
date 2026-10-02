@@ -1,0 +1,102 @@
+{
+  "id": "unit-04-lesson-05",
+  "unit_id": "unit-04",
+  "name": "How Old Is Everyone?",
+  "order": 5,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-04-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How old is Emma?" },
+      "sentence_context": "",
+      "correct_answer": "24",
+      "distractors": ["42", "34", "14"],
+      "hints": ["'Ventiquattro.'"],
+      "target_words": ["ventiquattro"]
+    },
+    {
+      "id": "unit-04-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Keiko is 23." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["She says 'trentadue': 32."],
+      "target_words": ["trenta"]
+    },
+    {
+      "id": "unit-04-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who is the oldest student?" },
+      "sentence_context": "",
+      "correct_answer": "Marta",
+      "distractors": ["Paul", "Keiko", "Emma"],
+      "hints": ["Giulia is the teacher, not a student."],
+      "target_words": ["anni"]
+    },
+    {
+      "id": "unit-04-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Paul first says he is 18. Why doesn't Emma believe him?" },
+      "sentence_context": "",
+      "correct_answer": "He's a doctor, so he can't be 18",
+      "distractors": ["He looks very old", "Giulia already told her his age"],
+      "hints": ["'Sei medico!'"],
+      "target_words": ["medico"]
+    },
+    {
+      "id": "unit-04-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How old is Paul really?" },
+      "sentence_context": "",
+      "correct_answer": "38",
+      "distractors": ["18", "28", "83"],
+      "hints": ["'Trentotto.'"],
+      "target_words": ["trenta"]
+    },
+    {
+      "id": "unit-04-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How old is Giulia?" },
+      "sentence_context": "",
+      "correct_answer": "45",
+      "distractors": ["54", "35", "40"],
+      "hints": ["'Quarantacinque.'"],
+      "target_words": ["quaranta"]
+    },
+    {
+      "id": "unit-04-lesson-05-ex-07",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quanti anni ha Marta?" },
+      "sentence_context": "Quanti anni ha Marta?",
+      "correct_answer": ["ha cinquantun anni", "Marta ha cinquantun anni", "ha cinquantuno anni"],
+      "distractors": [],
+      "hints": ["Ha + her age + anni."],
+      "target_words": ["anni"]
+    },
+    {
+      "id": "unit-04-lesson-05-ex-08",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Chi ha trentadue anni?" },
+      "sentence_context": "Chi ha trentadue anni?",
+      "correct_answer": ["Keiko", "Keiko ha trentadue anni"],
+      "distractors": [],
+      "hints": ["One of the students."],
+      "target_words": ["anni"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Quanti anni avete?",
+    "paragraphs": ["Giulia: Buongiorno a tutti! Emma, quanti anni hai?", "Emma: Ho ventiquattro anni.", "Giulia: E tu, Keiko?", "Keiko: Ho trentadue anni.", "Giulia: Marta?", "Marta: Ho cinquantun anni.", "Giulia: E Lei, Paul? Quanti anni ha?", "Paul: Io? Ho… diciotto anni!", "Emma: Diciotto? No, Paul! Sei medico!", "Paul: Va bene, va bene. Ho trentotto anni.", "Giulia: E io ho quarantacinque anni. Complimenti a tutti!"]
+  }
+}

@@ -76,7 +76,7 @@ data/italian-frequency-50k.txt  # Italian word frequency list (reference for voc
 ## Key Conventions
 - **Path alias:** `@/` maps to `frontend/src/`
 - **IDs:** `section-01`, `unit-01`, `unit-01-lesson-01`, `unit-01-lesson-01-ex-01`
-- **Adding a lesson:** drop the JSON in `data/units/unit-NN/` (auto-discovered by `import.meta.glob`) and add its `LessonMeta` to the unit in `curriculum.ts`, with a `role`: `words`, `grammar`, `practice` or `writing` (the writing lesson earns the chapter's stamp)
+- **Adding a lesson:** drop the JSON in `data/units/unit-NN/` (auto-discovered by `import.meta.glob`) and add its `LessonMeta` to the unit in `curriculum.ts`, with a `role`: `words`, `grammar`, `practice`, `reading` (has a `reading` text), `writing` (one free-form text; completing all of a chapter's writing lessons earns its stamp) or `speaking` (read-aloud). Lessons carry no grammar tips; explanations live in grammar units. Good content that no longer fits goes to `data/pool/`, not the bin
 - **Stores:** `use` prefix, async actions that persist through `engine/api.ts`
 - **Hydration:** Centralized in `HydrationGuard`, which seeds vocabulary and hydrates both stores before any route renders. Pages assume stores are ready.
 - **Styling:** colours, fonts and radii come only from the tokens in `src/index.css` (see [docs/design-system.md](docs/design-system.md)). Use token classes (`bg-primary`, `text-learned`, `font-display`), never raw Tailwind colours or hex. `npm run lint:tokens` lists violations.

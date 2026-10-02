@@ -1,0 +1,21 @@
+{
+  "id": "unit-04-lesson-06",
+  "unit_id": "unit-04",
+  "name": "At the Gym Desk",
+  "order": 6,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-04-lesson-06-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "You're joining a gym. The receptionist asks: 'Come si chiama? Quanti anni ha? Numero di telefono?' Answer all three." },
+      "sentence_context": "",
+      "correct_answer": "Mi chiamo Anna Bianchi. Ho trentadue anni. Tre quattro sette, uno due tre, quattro cinque sei sette.",
+      "distractors": [],
+      "hints": ["Your name, your age with anni, and your number digit by digit."],
+      "target_words": ["come si chiama", "quanti anni ha", "numero di telefono"]
+    }
+  ],
+  "vocabulary": []
+}

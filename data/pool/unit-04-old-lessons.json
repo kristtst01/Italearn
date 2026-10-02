@@ -1,0 +1,1305 @@
+{
+  "source": "unit-04, all lessons before the chapter 3 rework",
+  "removed": "2026-10-01",
+  "why": "The Counting chapter merged into chapter 3 'Having & Needing' (numbers are first needed for age). Its exercises leaned on ci sono, plurals and articles (ci sono tre sedie, libri sul tavolo) before those are taught, and its tips explained number formation, which now goes in the new-words list and later the numbers grammar unit.",
+  "lessons": [
+    {
+      "id": "unit-04-lesson-01",
+      "unit_id": "unit-04",
+      "name": "Numbers 0-10",
+      "order": 1,
+      "grammar_tips": [
+        {
+          "id": "unit-04-lesson-01-tip-01",
+          "title": "11 Unique Words",
+          "explanation": "Italian numbers 0-10 are each a unique word — there are no patterns to help you. You just have to memorize them. The good news: once you know these 11 words, the rest of the number system is built from them.",
+          "before_exercise": 0
+        },
+        {
+          "id": "unit-04-lesson-01-tip-02",
+          "title": "Sei = Six AND You Are",
+          "explanation": "'Sei' means both 'six' and 'you are' (from essere). Context always makes it clear: 'Sei di Roma?' (you are) vs 'Ho sei libri' (six). Italian is full of words that do double duty — you'll get used to it.",
+          "before_exercise": 8
+        }
+      ],
+      "exercises": [
+        {
+          "id": "unit-04-lesson-01-ex-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What is 'uno' in English?"
+          },
+          "sentence_context": "Ho uno zaino.",
+          "correct_answer": "One",
+          "distractors": [
+            "Two",
+            "Three",
+            "Zero"
+          ],
+          "hints": [
+            "The very first number after zero."
+          ],
+          "target_words": [
+            "uno"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What is 'due' in English?"
+          },
+          "sentence_context": "Ho due libri.",
+          "correct_answer": "Two",
+          "distractors": [
+            "One",
+            "Three",
+            "Four"
+          ],
+          "hints": [
+            "Think 'duo' or 'dual'."
+          ],
+          "target_words": [
+            "due"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What is 'tre' in English?"
+          },
+          "sentence_context": "Ci sono tre sedie.",
+          "correct_answer": "Three",
+          "distractors": [
+            "Two",
+            "Four",
+            "Five"
+          ],
+          "hints": [
+            "Think 'triple' or 'trio'."
+          ],
+          "target_words": [
+            "tre"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-04",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What is 'quattro' in English?"
+          },
+          "sentence_context": "Ho quattro amici.",
+          "correct_answer": "Four",
+          "distractors": [
+            "Three",
+            "Five",
+            "Six"
+          ],
+          "hints": [
+            "Think 'quarter' — four quarters make a whole."
+          ],
+          "target_words": [
+            "quattro"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-05",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What is 'cinque' in English?"
+          },
+          "sentence_context": "Ci sono cinque penne.",
+          "correct_answer": "Five",
+          "distractors": [
+            "Four",
+            "Six",
+            "Seven"
+          ],
+          "hints": [
+            "A hand has this many fingers."
+          ],
+          "target_words": [
+            "cinque"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-06",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'zero' in Italian?"
+          },
+          "sentence_context": "Ho zero penne.",
+          "correct_answer": "zero",
+          "distractors": [],
+          "hints": [
+            "Same word in both languages!"
+          ],
+          "target_words": [
+            "zero"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-07",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'one' in Italian?"
+          },
+          "sentence_context": "Ho uno zaino.",
+          "correct_answer": "uno",
+          "distractors": [],
+          "hints": [
+            "Think 'unit' or 'union' — one thing."
+          ],
+          "target_words": [
+            "uno"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-08",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'six' in Italian?"
+          },
+          "sentence_context": "Ho sei libri.",
+          "correct_answer": "sei",
+          "distractors": [],
+          "hints": [
+            "Same word as 'you are' — context tells you which!"
+          ],
+          "target_words": [
+            "sei-number"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-09",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'seven' in Italian?"
+          },
+          "sentence_context": "Ci sono sette giorni.",
+          "correct_answer": "sette",
+          "distractors": [],
+          "hints": [
+            "Starts with 's', has double 't'."
+          ],
+          "target_words": [
+            "sette"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-10",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What number is 'otto'?"
+          },
+          "sentence_context": "Ci sono otto studenti.",
+          "correct_answer": "Eight",
+          "distractors": [
+            "Six",
+            "Seven",
+            "Nine"
+          ],
+          "hints": [
+            "Think 'octopus' — eight legs."
+          ],
+          "target_words": [
+            "otto"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-11",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What number is 'nove'?"
+          },
+          "sentence_context": "Ho nove chiavi.",
+          "correct_answer": "Nine",
+          "distractors": [
+            "Seven",
+            "Eight",
+            "Ten"
+          ],
+          "hints": [
+            "Think 'November' — originally the ninth month."
+          ],
+          "target_words": [
+            "nove"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-12",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'ten' in Italian?"
+          },
+          "sentence_context": "Ho dieci penne.",
+          "correct_answer": "dieci",
+          "distractors": [],
+          "hints": [
+            "Think 'decimal' — base ten."
+          ],
+          "target_words": [
+            "dieci"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-13",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing number."
+          },
+          "sentence_context": "Ci sono ___ libri sul tavolo.",
+          "correct_answer": "sei",
+          "distractors": [],
+          "hints": [
+            "There are 6 books on the table."
+          ],
+          "target_words": [
+            "sei-number"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-14",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing number."
+          },
+          "sentence_context": "Ci sono ___ sedie in cucina.",
+          "correct_answer": "cinque",
+          "distractors": [],
+          "hints": [
+            "There are 5 chairs in the kitchen."
+          ],
+          "target_words": [
+            "cinque"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-15",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing number."
+          },
+          "sentence_context": "Ho ___ penne.",
+          "correct_answer": "tre",
+          "distractors": [],
+          "hints": [
+            "I have 3 pens."
+          ],
+          "target_words": [
+            "tre"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-16",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'eight' in Italian?"
+          },
+          "sentence_context": "Ci sono otto studenti.",
+          "correct_answer": "otto",
+          "distractors": [],
+          "hints": [
+            "Think 'octopus' — eight legs."
+          ],
+          "target_words": [
+            "otto"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-17",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'I have three books.'"
+          },
+          "sentence_context": "Ho tre libri.",
+          "correct_answer": [
+            "Ho",
+            "tre",
+            "libri."
+          ],
+          "distractors": [
+            "cinque",
+            "sei"
+          ],
+          "hints": [
+            "Verb first, then the number, then the noun."
+          ],
+          "target_words": [
+            "tre"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-01-ex-18",
+          "type": "speaking",
+          "subtype": "read_aloud",
+          "prompt": {
+            "text": "Read these numbers aloud."
+          },
+          "sentence_context": "Zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci.",
+          "correct_answer": "Zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci.",
+          "distractors": [],
+          "hints": [
+            "Count from zero to ten."
+          ],
+          "target_words": [
+            "zero",
+            "uno",
+            "due",
+            "tre",
+            "quattro",
+            "cinque",
+            "sei-number",
+            "sette",
+            "otto",
+            "nove",
+            "dieci"
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "zero",
+          "meaning": "Zero",
+          "example": "Ho zero penne."
+        },
+        {
+          "word": "uno",
+          "meaning": "One",
+          "example": "Ho uno zaino."
+        },
+        {
+          "word": "due",
+          "meaning": "Two",
+          "example": "Ho due libri."
+        },
+        {
+          "word": "tre",
+          "meaning": "Three",
+          "example": "Ci sono tre sedie."
+        },
+        {
+          "word": "quattro",
+          "meaning": "Four",
+          "example": "Ho quattro amici."
+        },
+        {
+          "word": "cinque",
+          "meaning": "Five",
+          "example": "Ci sono cinque penne."
+        },
+        {
+          "id": "sei-number",
+          "word": "sei",
+          "meaning": "Six",
+          "example": "Ho sei libri."
+        },
+        {
+          "word": "sette",
+          "meaning": "Seven",
+          "example": "Ci sono sette giorni."
+        },
+        {
+          "word": "otto",
+          "meaning": "Eight",
+          "example": "Ci sono otto studenti."
+        },
+        {
+          "word": "nove",
+          "meaning": "Nine",
+          "example": "Ho nove chiavi."
+        },
+        {
+          "word": "dieci",
+          "meaning": "Ten",
+          "example": "Ho dieci penne."
+        }
+      ]
+    },
+    {
+      "id": "unit-04-lesson-02",
+      "unit_id": "unit-04",
+      "name": "Numbers 11-20",
+      "order": 2,
+      "grammar_tips": [
+        {
+          "id": "unit-04-lesson-02-tip-01",
+          "title": "Two Groups of Teens",
+          "explanation": "Numbers 11-16 each have a unique form you need to memorize: undici, dodici, tredici, quattordici, quindici, sedici. Notice the pattern — the unit digit comes first, then '-dici' (from dieci). But each one is slightly irregular, so treat them as individual words.",
+          "before_exercise": 0
+        },
+        {
+          "id": "unit-04-lesson-02-tip-02",
+          "title": "The Flipped Teens: 17-19",
+          "explanation": "Numbers 17-19 flip the pattern: 'dici' (ten) comes FIRST, then the unit. Dici + sette = diciassette (17). Dici + otto = diciotto (18). Dici + nove = diciannove (19). Notice the double letters: diciassette (ss), diciannove (nn). Diciotto drops the 'i' because otto starts with 'o'.",
+          "before_exercise": 8
+        }
+      ],
+      "exercises": [
+        {
+          "id": "unit-04-lesson-02-ex-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What number is 'undici'?"
+          },
+          "sentence_context": "Ci sono undici studenti.",
+          "correct_answer": "Eleven",
+          "distractors": [
+            "Ten",
+            "Twelve",
+            "Thirteen"
+          ],
+          "hints": [
+            "The first teen — 'un' + 'dici'."
+          ],
+          "target_words": [
+            "undici"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What number is 'dodici'?"
+          },
+          "sentence_context": "Ci sono dodici sedie.",
+          "correct_answer": "Twelve",
+          "distractors": [
+            "Eleven",
+            "Thirteen",
+            "Fourteen"
+          ],
+          "hints": [
+            "'Do' (two) + 'dici' (ten)."
+          ],
+          "target_words": [
+            "dodici"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What number is 'tredici'?"
+          },
+          "sentence_context": "Ho tredici libri.",
+          "correct_answer": "Thirteen",
+          "distractors": [
+            "Twelve",
+            "Fourteen",
+            "Fifteen"
+          ],
+          "hints": [
+            "'Tre' (three) + 'dici' (ten)."
+          ],
+          "target_words": [
+            "tredici"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-04",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'fourteen' in Italian?"
+          },
+          "sentence_context": "Ho quattordici penne.",
+          "correct_answer": "quattordici",
+          "distractors": [],
+          "hints": [
+            "'Quattro' (four) + 'dici' — but shortened to 'quattor-'."
+          ],
+          "target_words": [
+            "quattordici"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-05",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What number is 'quindici'?"
+          },
+          "sentence_context": "Ho quindici chiavi.",
+          "correct_answer": "Fifteen",
+          "distractors": [
+            "Fourteen",
+            "Sixteen",
+            "Thirteen"
+          ],
+          "hints": [
+            "'Quin' (five) + 'dici' (ten). Five-teen."
+          ],
+          "target_words": [
+            "quindici"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-06",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'sixteen' in Italian?"
+          },
+          "sentence_context": "Ho sedici amici.",
+          "correct_answer": "sedici",
+          "distractors": [],
+          "hints": [
+            "'Sei' (six) + 'dici' — but shortened to 'se-'."
+          ],
+          "target_words": [
+            "sedici"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-07",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'eleven' in Italian?"
+          },
+          "sentence_context": "Ci sono undici studenti.",
+          "correct_answer": "undici",
+          "distractors": [],
+          "hints": [
+            "'Un' (one) + 'dici' (ten)."
+          ],
+          "target_words": [
+            "undici"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-08",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What number is 'diciassette'?"
+          },
+          "sentence_context": "Ci sono diciassette studenti.",
+          "correct_answer": "Seventeen",
+          "distractors": [
+            "Sixteen",
+            "Eighteen",
+            "Nineteen"
+          ],
+          "hints": [
+            "'Dici' (ten) + 'sette' (seven) — notice the double 's'."
+          ],
+          "target_words": [
+            "diciassette"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-09",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What number is 'diciotto'?"
+          },
+          "sentence_context": "Ho diciotto chiavi.",
+          "correct_answer": "Eighteen",
+          "distractors": [
+            "Sixteen",
+            "Seventeen",
+            "Nineteen"
+          ],
+          "hints": [
+            "'Dici' (ten) + 'otto' (eight) — the 'i' drops before 'o'."
+          ],
+          "target_words": [
+            "diciotto"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-10",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'nineteen' in Italian?"
+          },
+          "sentence_context": "Ho diciannove libri.",
+          "correct_answer": "diciannove",
+          "distractors": [],
+          "hints": [
+            "'Dici' (ten) + 'nove' (nine) — notice the double 'n'."
+          ],
+          "target_words": [
+            "diciannove"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-11",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing number."
+          },
+          "sentence_context": "Ho ___ penne.",
+          "correct_answer": "undici",
+          "distractors": [],
+          "hints": [
+            "I have 11 pens."
+          ],
+          "target_words": [
+            "undici"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-12",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing number."
+          },
+          "sentence_context": "Ci sono ___ studenti.",
+          "correct_answer": "quindici",
+          "distractors": [],
+          "hints": [
+            "There are 15 students."
+          ],
+          "target_words": [
+            "quindici"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-13",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'twelve' in Italian?"
+          },
+          "sentence_context": "Ci sono dodici sedie.",
+          "correct_answer": "dodici",
+          "distractors": [],
+          "hints": [
+            "'Do' (two) + 'dici' (ten)."
+          ],
+          "target_words": [
+            "dodici"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-14",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'thirteen' in Italian?"
+          },
+          "sentence_context": "Ho tredici libri.",
+          "correct_answer": "tredici",
+          "distractors": [],
+          "hints": [
+            "'Tre' (three) + 'dici' (ten)."
+          ],
+          "target_words": [
+            "tredici"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-15",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What number is 'venti'?"
+          },
+          "sentence_context": "Ho venti penne.",
+          "correct_answer": "Twenty",
+          "distractors": [
+            "Eighteen",
+            "Nineteen",
+            "Twelve"
+          ],
+          "hints": [
+            "The last number in this group — the base for the twenties."
+          ],
+          "target_words": [
+            "venti"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-16",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'twenty' in Italian?"
+          },
+          "sentence_context": "Ho venti libri.",
+          "correct_answer": "venti",
+          "distractors": [],
+          "hints": [
+            "The base number for the twenties."
+          ],
+          "target_words": [
+            "venti"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-17",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing number."
+          },
+          "sentence_context": "Ho ___ chiavi.",
+          "correct_answer": "diciotto",
+          "distractors": [],
+          "hints": [
+            "I have 18 keys."
+          ],
+          "target_words": [
+            "diciotto"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-02-ex-18",
+          "type": "speaking",
+          "subtype": "read_aloud",
+          "prompt": {
+            "text": "Read these numbers aloud."
+          },
+          "sentence_context": "Undici, dodici, tredici, quattordici, quindici, sedici, diciassette, diciotto, diciannove, venti.",
+          "correct_answer": "Undici, dodici, tredici, quattordici, quindici, sedici, diciassette, diciotto, diciannove, venti.",
+          "distractors": [],
+          "hints": [
+            "Count from eleven to twenty."
+          ],
+          "target_words": [
+            "undici",
+            "dodici",
+            "tredici",
+            "quattordici",
+            "quindici",
+            "sedici",
+            "diciassette",
+            "diciotto",
+            "diciannove",
+            "venti"
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "undici",
+          "meaning": "Eleven",
+          "example": "Ci sono undici studenti."
+        },
+        {
+          "word": "dodici",
+          "meaning": "Twelve",
+          "example": "Ci sono dodici sedie."
+        },
+        {
+          "word": "tredici",
+          "meaning": "Thirteen",
+          "example": "Ho tredici libri."
+        },
+        {
+          "word": "quattordici",
+          "meaning": "Fourteen",
+          "example": "Ho quattordici penne."
+        },
+        {
+          "word": "quindici",
+          "meaning": "Fifteen",
+          "example": "Ho quindici chiavi."
+        },
+        {
+          "word": "sedici",
+          "meaning": "Sixteen",
+          "example": "Ho sedici amici."
+        },
+        {
+          "word": "diciassette",
+          "meaning": "Seventeen",
+          "example": "Ci sono diciassette studenti."
+        },
+        {
+          "word": "diciotto",
+          "meaning": "Eighteen",
+          "example": "Ho diciotto chiavi."
+        },
+        {
+          "word": "diciannove",
+          "meaning": "Nineteen",
+          "example": "Ho diciannove libri."
+        },
+        {
+          "word": "venti",
+          "meaning": "Twenty",
+          "example": "Ho venti penne."
+        }
+      ]
+    },
+    {
+      "id": "unit-04-lesson-03",
+      "unit_id": "unit-04",
+      "name": "Numbers 21-100",
+      "order": 3,
+      "grammar_tips": [
+        {
+          "id": "unit-04-lesson-03-tip-01",
+          "title": "The Pattern: Tens + Units",
+          "explanation": "After 20, Italian numbers are predictable: take the tens word (venti, trenta, quaranta...) and add the unit. Venti + due = ventidue (22). Trenta + tre = trentatré (33). You already know all the units from lesson 1 — now you just combine them.",
+          "before_exercise": 0
+        },
+        {
+          "id": "unit-04-lesson-03-tip-02",
+          "title": "Drop the Vowel Before Uno and Otto",
+          "explanation": "When adding 'uno' or 'otto' to a tens word, the final vowel of the tens drops: venti + uno = ventuno (NOT ventiuno), venti + otto = ventotto (NOT ventiotto). This happens because Italian avoids clashing vowels. The same rule applies to all tens: trentuno, trentotto, quarantuno, etc.",
+          "before_exercise": 6
+        },
+        {
+          "id": "unit-04-lesson-03-tip-03",
+          "title": "Tre Gets an Accent",
+          "explanation": "When 'tre' is added to a tens word, it takes an accent: ventitré, trentatré, quarantatré. The accent marks where the stress falls. On its own, 'tre' has no accent — only when it's part of a compound number.",
+          "before_exercise": 12
+        }
+      ],
+      "exercises": [
+        {
+          "id": "unit-04-lesson-03-ex-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What is 'trenta' in English?"
+          },
+          "sentence_context": "Ci sono trenta studenti.",
+          "correct_answer": "Thirty",
+          "distractors": [
+            "Twenty",
+            "Forty",
+            "Fifty"
+          ],
+          "hints": [
+            "The tens word after venti (20)."
+          ],
+          "target_words": [
+            "trenta"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What is 'quaranta' in English?"
+          },
+          "sentence_context": "Ho quaranta libri.",
+          "correct_answer": "Forty",
+          "distractors": [
+            "Thirty",
+            "Fifty",
+            "Sixty"
+          ],
+          "hints": [
+            "Think 'quarantine' — originally 40 days of isolation."
+          ],
+          "target_words": [
+            "quaranta"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What is 'cinquanta' in English?"
+          },
+          "sentence_context": "Ci sono cinquanta sedie.",
+          "correct_answer": "Fifty",
+          "distractors": [
+            "Forty",
+            "Sixty",
+            "Seventy"
+          ],
+          "hints": [
+            "Cinque (5) → cinquanta (50)."
+          ],
+          "target_words": [
+            "cinquanta"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-04",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What is 'cento' in English?"
+          },
+          "sentence_context": "Ho cento penne.",
+          "correct_answer": "One hundred",
+          "distractors": [
+            "Ninety",
+            "Eighty",
+            "Seventy"
+          ],
+          "hints": [
+            "Think 'century' — 100 years, or 'cent' — 100 cents."
+          ],
+          "target_words": [
+            "cento"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-05",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'sixty' in Italian?"
+          },
+          "sentence_context": "Ho sessanta libri.",
+          "correct_answer": "sessanta",
+          "distractors": [],
+          "hints": [
+            "Sei (6) → sess... + anta."
+          ],
+          "target_words": [
+            "sessanta"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-06",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say '21' in Italian?"
+          },
+          "sentence_context": "Ho ventuno libri.",
+          "correct_answer": "ventuno",
+          "distractors": [
+            "ventiuno",
+            "ventino",
+            "venteuno"
+          ],
+          "hints": [
+            "Venti + uno, but the 'i' drops before 'uno'."
+          ],
+          "target_words": [
+            "ventuno"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-07",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say '28' in Italian?"
+          },
+          "sentence_context": "Ho ventotto libri.",
+          "correct_answer": "ventotto",
+          "distractors": [
+            "ventiotto",
+            "ventoto",
+            "venteotto"
+          ],
+          "hints": [
+            "Venti + otto, but the 'i' drops before 'otto'."
+          ],
+          "target_words": [
+            "ventotto"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-08",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say '22' in Italian?"
+          },
+          "sentence_context": "Ho ventidue libri.",
+          "correct_answer": "ventidue",
+          "distractors": [
+            "ventdue",
+            "ventadue",
+            "ventedue"
+          ],
+          "hints": [
+            "Venti + due — no vowel drops here, only before uno/otto."
+          ],
+          "target_words": [
+            "ventidue"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-09",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say '31' in Italian?"
+          },
+          "sentence_context": "Ho trentuno libri.",
+          "correct_answer": "trentuno",
+          "distractors": [],
+          "hints": [
+            "Trenta + uno — drop the 'a' before uno."
+          ],
+          "target_words": [
+            "trentuno"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-10",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say '45' in Italian?"
+          },
+          "sentence_context": "Ci sono quarantacinque studenti.",
+          "correct_answer": "quarantacinque",
+          "distractors": [],
+          "hints": [
+            "Quaranta + cinque — no vowel drop needed."
+          ],
+          "target_words": [
+            "quarantacinque"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-11",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say '70' in Italian?"
+          },
+          "sentence_context": "Ho settanta libri.",
+          "correct_answer": "settanta",
+          "distractors": [],
+          "hints": [
+            "Sette (7) → sett... + anta."
+          ],
+          "target_words": [
+            "settanta"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-12",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say '23' in Italian?"
+          },
+          "sentence_context": "Ho ventitré penne.",
+          "correct_answer": "ventitré",
+          "distractors": [
+            "ventitre",
+            "ventetre",
+            "ventire"
+          ],
+          "hints": [
+            "Venti + tre — but tre gets an accent when combined!"
+          ],
+          "target_words": [
+            "ventitré"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-13",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say '33' in Italian?"
+          },
+          "sentence_context": "Ho trentatré libri.",
+          "correct_answer": "trentatré",
+          "distractors": [],
+          "hints": [
+            "Trenta + tre — tre gets an accent."
+          ],
+          "target_words": [
+            "trentatré"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-14",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'quanto' mean?"
+          },
+          "sentence_context": "Quanto costa?",
+          "correct_answer": "How much",
+          "distractors": [
+            "How many",
+            "When",
+            "Where"
+          ],
+          "hints": [
+            "Think 'quantity' — asking about amount or price."
+          ],
+          "target_words": [
+            "quanto"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-15",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing word."
+          },
+          "sentence_context": "___ costa?",
+          "correct_answer": "Quanto",
+          "distractors": [],
+          "hints": [
+            "How much does it cost?"
+          ],
+          "target_words": [
+            "quanto"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-16",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'There are fifty chairs.'"
+          },
+          "sentence_context": "Ci sono cinquanta sedie.",
+          "correct_answer": [
+            "Ci",
+            "sono",
+            "cinquanta",
+            "sedie."
+          ],
+          "distractors": [
+            "c'è",
+            "trenta"
+          ],
+          "hints": [
+            "Plural — use 'ci sono'. Then the number, then the noun."
+          ],
+          "target_words": [
+            "ci sono",
+            "cinquanta"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-17",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'How much does it cost?'"
+          },
+          "sentence_context": "Quanto costa?",
+          "correct_answer": [
+            "Quanto",
+            "costa?"
+          ],
+          "distractors": [
+            "quanta",
+            "come"
+          ],
+          "hints": [
+            "'Quanto' first, then the verb."
+          ],
+          "target_words": [
+            "quanto"
+          ]
+        },
+        {
+          "id": "unit-04-lesson-03-ex-18",
+          "type": "speaking",
+          "subtype": "read_aloud",
+          "prompt": {
+            "text": "Read these numbers aloud."
+          },
+          "sentence_context": "Venti, trenta, quaranta, cinquanta, sessanta, settanta, ottanta, novanta, cento.",
+          "correct_answer": "Venti, trenta, quaranta, cinquanta, sessanta, settanta, ottanta, novanta, cento.",
+          "distractors": [],
+          "hints": [
+            "Count by tens from 20 to 100."
+          ],
+          "target_words": [
+            "venti",
+            "trenta",
+            "quaranta",
+            "cinquanta",
+            "sessanta",
+            "settanta",
+            "ottanta",
+            "novanta",
+            "cento"
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "ventuno",
+          "meaning": "Twenty-one",
+          "example": "Ho ventuno libri."
+        },
+        {
+          "word": "ventidue",
+          "meaning": "Twenty-two",
+          "example": "Ho ventidue penne."
+        },
+        {
+          "word": "trenta",
+          "meaning": "Thirty",
+          "example": "Ci sono trenta studenti."
+        },
+        {
+          "word": "quaranta",
+          "meaning": "Forty",
+          "example": "Ho quaranta libri."
+        },
+        {
+          "word": "cinquanta",
+          "meaning": "Fifty",
+          "example": "Ci sono cinquanta sedie."
+        },
+        {
+          "word": "sessanta",
+          "meaning": "Sixty",
+          "example": "Ho sessanta penne."
+        },
+        {
+          "word": "settanta",
+          "meaning": "Seventy",
+          "example": "Ho settanta libri."
+        },
+        {
+          "word": "ottanta",
+          "meaning": "Eighty",
+          "example": "Ci sono ottanta studenti."
+        },
+        {
+          "word": "novanta",
+          "meaning": "Ninety",
+          "example": "Ho novanta chiavi."
+        },
+        {
+          "word": "cento",
+          "meaning": "One hundred",
+          "example": "Ho cento penne."
+        },
+        {
+          "word": "quanto",
+          "meaning": "How much",
+          "example": "Quanto costa?"
+        }
+      ]
+    }
+  ]
+}

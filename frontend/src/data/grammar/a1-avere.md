@@ -51,13 +51,13 @@ Leaving out the h is a common spelling mistake, even among Italians. *Ha un cane
 > I have a sister.
 
 **Age.** Italian says how many years you *have*:
-> Quanti anni hai? Ho 25 anni.
+> Quanti anni hai? Ho venticinque anni.
 > How old are you? I'm 25.
 
-> Mia nonna ha 80 anni.
-> My grandmother is 80.
+> Paolo ha ottant'anni.
+> Paolo is 80.
 
-*Anni* (years) is always needed: *Ho 25* on its own is not a sentence. *Venti anni* is often shortened to *vent'anni*, and the same goes for *trent'anni*, *quarant'anni* and so on. Both spellings are correct.
+*Anni* (years) is always needed: *Ho venticinque* on its own is not a sentence. As in the numbers unit, *vent'anni* and *ventun anni* are common spellings.
 
 ### Avere expressions
 
@@ -124,7 +124,7 @@ English uses "to be" in some places where Italian uses avere. Use this as a chec
 | I'm a student. | Sono studente / studentessa. | essere |
 | I'm tired. | Sono stanco / stanca. | essere |
 | I'm at home. | Sono a casa. | essere |
-| I'm 30. | Ho 30 anni. | **avere** |
+| I'm 30. | Ho trent'anni. | **avere** |
 | I'm hungry / thirsty. | Ho fame / sete. | **avere** |
 | I'm cold / hot. | Ho freddo / caldo. | **avere** |
 | I'm sleepy. | Ho sonno. | **avere** |
@@ -151,8 +151,8 @@ These work as they do with essere: **non** before the verb, and a rising voice f
 
 | ✗ | ✓ | Why |
 |---|---|---|
-| Sono 20 anni. | Ho 20 anni. | Age uses avere. |
-| Ho 20. | Ho 20 anni. | *Anni* is always needed. |
+| Sono vent'anni. | Ho vent'anni. | Age uses avere. |
+| Ho venti. | Ho vent'anni. | *Anni* is always needed. |
 | Sono fame. | Ho fame. | Hunger, thirst, cold, heat, sleep, fear and hurry use avere. |
 | Sono freddo. (feeling cold) | Ho freddo. | *Sono freddo* usually means you're an unfriendly person. |
 | È freddo oggi. | Oggi fa freddo. | The weather uses *fare*. |
@@ -181,7 +181,7 @@ The **h** is never pronounced, but always written. It tells *ho* (I have) from *
 |---|---|
 | Possession | *Ho un gatto. Avete la macchina?* |
 | Family | *Ho una sorella. Hai fratelli?* |
-| Age, always with *anni* | *Quanti anni hai? Ho 25 anni.* |
+| Age, always with *anni* | *Quanti anni hai? Ho venticinque anni.* |
 
 **Avere expressions**
 

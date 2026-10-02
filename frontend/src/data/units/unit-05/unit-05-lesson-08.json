@@ -1,0 +1,21 @@
+{
+  "id": "unit-05-lesson-08",
+  "unit_id": "unit-05",
+  "name": "At the Bar",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-05-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "You walk into a bar, hungry and cold. Greet the barista, say how you feel and order." },
+      "sentence_context": "",
+      "correct_answer": "Buongiorno! Ho fame e ho freddo. Un caffè e un panino, per favore.",
+      "distractors": [],
+      "hints": ["A greeting, two avere expressions, then your order."],
+      "target_words": ["fame", "freddo", "un panino"]
+    }
+  ],
+  "vocabulary": []
+}

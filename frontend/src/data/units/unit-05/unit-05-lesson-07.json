@@ -1,0 +1,21 @@
+{
+  "id": "unit-05-lesson-07",
+  "unit_id": "unit-05",
+  "name": "All About Me",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-05-lesson-07-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Write a short message to a new language partner: your age, where you are from, your family and any pets." },
+      "sentence_context": "",
+      "correct_answer": "Ciao! Mi chiamo Tom e ho trentadue anni. Sono inglese, di Leeds. Ho una sorella e due fratelli. Ho un cane, si chiama Rex.",
+      "distractors": [],
+      "hints": ["Age with avere, family with ho + number, pets with si chiama."],
+      "target_words": ["anni", "fratello", "cane"]
+    }
+  ],
+  "vocabulary": []
+}

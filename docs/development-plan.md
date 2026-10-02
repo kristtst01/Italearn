@@ -120,6 +120,18 @@ Open implementation work:
 - Backend `/realtime/session` endpoint to mint short-lived ephemeral tokens (no API key in browser). The FastAPI backend already exists.
 - `features/conversation/` (or `features/tutor/`) frontend module.
 - Context payload format — depends on Workstream 3.
+- Cost (estimate, 2026-10-01, single user): ElevenLabs Agents ≈ $0.17–0.18 per minute (≈ $35–80/month at 15 min a few times a week to daily); a self-built pipeline (Google speech-to-text + Claude + cheaper TTS) ≈ $0.03–0.05/min. Start with Agents to test usefulness, move to a pipeline if usage is heavy. The tutor's language model should be Sonnet (quality vs latency).
+
+### 2a. Text chat: "Talk about it" (before the voice tutor)
+
+Written back-and-forth with an AI partner, the step between one-off writing tasks and live speaking. Same "brain" as the voice tutor, without the voice, so it doubles as a cheap way to test conversation quality before paying per minute for speech.
+
+- **Grounded in a reading.** After a reading lesson, the AI asks about the text in Italian, then moves to the learner's own life (*Di dov'è Chloé? E tu, di dove sei?*).
+- **Kept to the learner's level** using the same curriculum context the writing feedback gets: grammar and words covered so far.
+- **Corrections without interrupting:** the AI recasts mistakes in its replies; a summary at the end lists the ones worth knowing, linked to grammar sections (and later into reviews).
+- **A clear end:** 6–10 learner turns, then the summary. A lesson, not an open chatbot.
+- **Limits for real users:** turn cap per conversation, a daily allowance per user, short context (reading + level + last few turns), and a topic guard that steers back to the reading.
+- Cost: text only, roughly $0.01–0.05 per conversation.
 
 ### 2b. TTS for pronunciation (app-wide)
 
@@ -202,6 +214,22 @@ Likely shape:
 - Calendar-based session booking (italki-style)
 - Or low-friction "match me with another A1 learner now"
 - Or async voice-message practice (post a 30-second answer, get one back)
+
+### 6b. Costs and business model (later, if the app gains users)
+
+Not a money-making project: the aim is an open, free platform. Costs have to stay predictable for a solo maintainer.
+
+**Who pays for what (decided 2026-10-01):**
+- **Free for everyone, no AI:** lessons, grammar units, readings, local answer checks.
+- **Paid by the maintainer, with caps:** AI answer checks (Haiku), writing feedback (Sonnet), text chat "Talk about it". Roughly $1–3 per active user per month each.
+- **The learner's own API key:** the real-time voice tutor (the expensive part, ≈ $0.03–0.18 per minute). The key stays in the learner's browser, never stored on the server.
+- **Needed before real users:** a per-user daily AI allowance, a global monthly budget guard that pauses AI features gracefully before the cap, and the bring-your-own-key input for voice.
+
+**Transparent finances (idea, if it gains traction):**
+- A public "Where the money goes" page with real monthly costs per service (from the budget guard's tracking) next to income, plus what we'd like to fund (native-speaker review, better voices, content) and what's missing.
+- An optional supporter subscription with a published split: API costs, content review, maintainer. It could include voice tutor minutes, so supporters don't need their own key. Free users keep everything else.
+- Maintainer pay: propose a figure with the reasoning (hours, costs) and ask the community for feedback, rather than an open "what's fair?" (which tends to anchor low and favours the loudest voices).
+- Options to look at: Open Collective (public ledger, can act as fiscal host); a merchant-of-record payment provider (Paddle, Lemon Squeezy) to handle EU/EEA VAT on digital subscriptions; local rules on side income before taking any money.
 
 ### 7. Backlog (from the original phase plans, not yet built)
 

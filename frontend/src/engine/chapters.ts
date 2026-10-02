@@ -28,8 +28,10 @@ export function chapterStatus(unit: Unit, completed: string[]): Exclude<StatusKi
 }
 
 /** The first chapter, in order, that isn't learned yet. */
+/** The first unfinished chapter, preferring ready ones over those still under construction. */
 export function recommendedChapter(completed: string[]): Unit | undefined {
-  return getChapters().find((u) => chapterStatus(u, completed) !== 'learned');
+  const unfinished = getChapters().filter((u) => chapterStatus(u, completed) !== 'learned');
+  return unfinished.find((u) => u.ready) ?? unfinished[0];
 }
 
 export function nextLesson(unit: Unit, completed: string[]): LessonMeta | undefined {

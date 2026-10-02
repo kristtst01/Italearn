@@ -1,320 +1,132 @@
 {
   "id": "unit-05-lesson-03",
   "unit_id": "unit-05",
-  "name": "How Old Are You?",
+  "name": "How You Feel",
   "order": 3,
-  "grammar_tips": [
-    {
-      "id": "unit-05-lesson-03-tip-01",
-      "title": "I Have 25 Years",
-      "explanation": "In English you say 'I am 25 years old.' In Italian, you say 'Ho venticinque anni' — literally 'I have 25 years.' Age always uses avere, never essere! To ask someone's age: 'Quanti anni hai?' (How many years do you have?).",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-05-lesson-03-tip-02",
-      "title": "Don't Forget Anni!",
-      "explanation": "You can't just say 'Ho venti' for 'I'm 20.' You need 'anni' (years): 'Ho venti anni.' When the tens number ends in a vowel before 'anni', they can merge in writing: trent'anni (30), quarant'anni (40). But 'venti anni' stays as two words.",
-      "before_exercise": 7
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-05-lesson-03-ex-01",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "How do you ask 'How old are you?' in Italian?"
-      },
-      "sentence_context": "Quanti anni hai?",
-      "correct_answer": "Quanti anni hai?",
-      "distractors": [
-        "Come stai?",
-        "Di dove sei?",
-        "Come ti chiami?"
-      ],
-      "hints": [
-        "Literally: 'How many years do you have?'"
-      ],
-      "target_words": [
-        "quanti anni hai"
-      ]
+      "prompt": { "text": "It's 11 PM and you can't keep your eyes open. You say:" },
+      "sentence_context": "",
+      "correct_answer": "Ho sonno.",
+      "distractors": ["Sono sonno.", "Ho fame."],
+      "hints": ["Being sleepy: avere sonno."],
+      "target_words": ["sonno"]
     },
     {
       "id": "unit-05-lesson-03-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'Ho venti anni' mean?"
-      },
-      "sentence_context": "Ho venti anni.",
-      "correct_answer": "I'm 20 years old",
-      "distractors": [
-        "I have 20 books",
-        "I want 20 years",
-        "I am in year 20"
-      ],
-      "hints": [
-        "Italian uses 'I have ... years' for age."
-      ],
-      "target_words": [
-        "anni"
-      ]
+      "prompt": { "text": "You're outside in January in a T-shirt. You say:" },
+      "sentence_context": "",
+      "correct_answer": "Ho freddo!",
+      "distractors": ["Sono freddo!", "Fa caldo!"],
+      "hints": ["You feel cold: avere."],
+      "target_words": ["freddo"]
     },
     {
       "id": "unit-05-lesson-03-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "Maria ha dodici anni. How old is Maria?"
-      },
-      "sentence_context": "Maria ha dodici anni.",
-      "correct_answer": "12 years old",
-      "distractors": [
-        "2 years old",
-        "20 years old",
-        "10 years old"
-      ],
-      "hints": [
-        "'Dodici' = 12. She HAS twelve years."
-      ],
-      "target_words": [
-        "anni",
-        "avere"
-      ]
+      "prompt": { "text": "It's 35°C in Rome in August. How do you describe the weather?" },
+      "sentence_context": "",
+      "correct_answer": "Fa caldo!",
+      "distractors": ["Sono caldo!", "Ha caldo!"],
+      "hints": ["The weather: fa."],
+      "target_words": ["fa caldo"]
     },
     {
       "id": "unit-05-lesson-03-ex-04",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence about age."
-      },
-      "sentence_context": "Ho quindici ___.",
-      "correct_answer": "anni",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "At lunchtime, a colleague asks you a question." },
+      "sentence_context": "Colleague: Hai fame?\nYou: ___",
+      "correct_answer": ["Sì, ho molta fame!", "No, non ho fame.", "Sì, ho fame."],
       "distractors": [],
-      "hints": [
-        "I'm 15 years old. What word means 'years'?"
-      ],
-      "target_words": [
-        "anni"
+      "hints": ["Yes or no, with avere."],
+      "target_words": ["fame"],
+      "dialogue": [
+        { "speaker": "Colleague", "text": "Hai fame?" },
+        { "speaker": "You" }
       ]
     },
     {
       "id": "unit-05-lesson-03-ex-05",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Fill in the verb."
-      },
-      "sentence_context": "___ venti anni.",
-      "correct_answer": "Ho",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend offers you a coffee, but your train leaves in five minutes." },
+      "sentence_context": "Friend: Un caffè?\nYou: ___",
+      "correct_answer": ["No, grazie. Ho fretta!", "Mi dispiace, ho fretta."],
       "distractors": [],
-      "hints": [
-        "I'm 20 years old. Age uses avere!"
-      ],
-      "target_words": [
-        "avere"
+      "hints": ["Say no, and why."],
+      "target_words": ["fretta"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Un caffè?" },
+        { "speaker": "You" }
       ]
     },
     {
       "id": "unit-05-lesson-03-ex-06",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Fill in the missing word."
-      },
-      "sentence_context": "Quanti ___ hai?",
-      "correct_answer": "anni",
-      "distractors": [],
-      "hints": [
-        "How many YEARS do you have?"
-      ],
-      "target_words": [
-        "anni"
-      ]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Your friend sees a big dog and steps back. She says:" },
+      "sentence_context": "",
+      "correct_answer": "Ho paura!",
+      "distractors": ["Sono paura!", "Ho fretta!"],
+      "hints": ["Being afraid: avere paura."],
+      "target_words": ["paura"]
     },
     {
       "id": "unit-05-lesson-03-ex-07",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'I'm 18 years old' in Italian?"
-      },
-      "sentence_context": "Ho diciotto anni.",
-      "correct_answer": "ho diciotto anni",
+      "prompt": { "text": "Say 'We're cold.'" },
+      "sentence_context": "",
+      "correct_answer": ["abbiamo freddo"],
       "distractors": [],
-      "hints": [
-        "'I have 18 years' — remember, age uses avere!"
-      ],
-      "target_words": [
-        "avere",
-        "anni"
-      ]
+      "hints": ["We: abbiamo."],
+      "target_words": ["freddo"]
     },
     {
       "id": "unit-05-lesson-03-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": {
-        "text": "Ask 'How old are you?' in Italian (informal)."
-      },
-      "sentence_context": "Quanti anni hai?",
-      "correct_answer": "quanti anni hai",
+      "prompt": { "text": "Tell your friend 'You're right!'" },
+      "sentence_context": "",
+      "correct_answer": ["hai ragione"],
       "distractors": [],
-      "hints": [
-        "Literally: 'How many years do you have?'"
-      ],
-      "target_words": [
-        "quanti anni hai"
-      ]
+      "hints": ["Being right: avere ragione."],
+      "target_words": ["ragione"]
     },
     {
       "id": "unit-05-lesson-03-ex-09",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the verb: talking about Maria's age."
-      },
-      "sentence_context": "Maria ___ venticinque anni.",
-      "correct_answer": "ha",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: It's hot! I'm hot." },
+      "sentence_context": "Fa ___! Ho caldo.",
+      "correct_answer": "caldo",
       "distractors": [],
-      "hints": [
-        "Maria IS 25 years old — but Italian uses avere for age!"
-      ],
-      "target_words": [
-        "avere"
-      ]
+      "hints": ["The weather: fa caldo."],
+      "target_words": ["fa caldo"]
     },
     {
       "id": "unit-05-lesson-03-ex-10",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the verb: talking about your group's age."
-      },
-      "sentence_context": "Noi ___ trent'anni.",
-      "correct_answer": "abbiamo",
-      "distractors": [],
-      "hints": [
-        "We are 30 years old — use the noi form of avere."
-      ],
-      "target_words": [
-        "avere"
-      ]
-    },
-    {
-      "id": "unit-05-lesson-03-ex-11",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the verb: asking someone's age."
-      },
-      "sentence_context": "Quanti anni ___?",
-      "correct_answer": "hai",
-      "distractors": [],
-      "hints": [
-        "How old are YOU? Use the tu form of avere."
-      ],
-      "target_words": [
-        "avere"
-      ]
-    },
-    {
-      "id": "unit-05-lesson-03-ex-12",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the verb: stating your age."
-      },
-      "sentence_context": "___ dodici anni.",
-      "correct_answer": "Ho",
-      "distractors": [],
-      "hints": [
-        "I'm 12 years old — use avere, not essere!"
-      ],
-      "target_words": [
-        "avere"
-      ]
-    },
-    {
-      "id": "unit-05-lesson-03-ex-13",
-      "type": "writing",
       "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'I'm 18 years old.'"
-      },
-      "sentence_context": "Ho diciotto anni.",
-      "correct_answer": [
-        "Ho",
-        "diciotto",
-        "anni."
-      ],
-      "distractors": [
-        "sono",
-        "sei"
-      ],
-      "hints": [
-        "'I have' + number + 'years.' Don't use essere for age!"
-      ],
-      "target_words": [
-        "avere",
-        "anni"
-      ]
-    },
-    {
-      "id": "unit-05-lesson-03-ex-14",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'How old are you?'"
-      },
-      "sentence_context": "Quanti anni hai?",
-      "correct_answer": [
-        "Quanti",
-        "anni",
-        "hai?"
-      ],
-      "distractors": [
-        "come",
-        "sei"
-      ],
-      "hints": [
-        "'How many' + 'years' + 'do you have?'"
-      ],
-      "target_words": [
-        "quanti anni hai"
-      ]
-    },
-    {
-      "id": "unit-05-lesson-03-ex-15",
-      "type": "speaking",
-      "subtype": "read_aloud",
-      "prompt": {
-        "text": "Read this mini-dialogue aloud."
-      },
-      "sentence_context": "Quanti anni hai? — Ho venti anni.",
-      "correct_answer": "Quanti anni hai? — Ho venti anni.",
-      "distractors": [],
-      "hints": [
-        "How old are you? — I'm 20 years old."
-      ],
-      "target_words": [
-        "quanti anni hai",
-        "avere",
-        "anni"
-      ]
+      "prompt": { "text": "Arrange: 'I'm sleepy and I'm cold.'" },
+      "sentence_context": "Ho sonno e ho freddo.",
+      "correct_answer": ["Ho", "sonno", "e", "ho", "freddo."],
+      "distractors": ["sono", "fa"],
+      "hints": ["Both use avere."],
+      "target_words": ["sonno", "freddo"]
     }
   ],
   "vocabulary": [
-    {
-      "word": "quanti anni hai",
-      "meaning": "How old are you?",
-      "example": "Quanti anni hai?"
-    },
-    {
-      "word": "anni",
-      "meaning": "Years (used for age)",
-      "example": "Ho venti anni."
-    }
+    { "word": "fa freddo", "meaning": "it's cold (the weather)", "example": "Oggi fa freddo!" },
+    { "word": "fa caldo", "meaning": "it's hot (the weather)", "example": "Fa caldo! Ho sete." },
+    { "word": "molto", "meaning": "very · molta with feminine nouns", "example": "Ho molta fame! Ho molto freddo!" }
   ]
 }

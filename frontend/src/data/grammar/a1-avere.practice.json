@@ -323,10 +323,10 @@
             "text": "How do you say 'I'm 25'?"
           },
           "sentence_context": "",
-          "correct_answer": "Ho 25 anni.",
+          "correct_answer": "Ho venticinque anni.",
           "distractors": [
-            "Sono 25 anni.",
-            "Ho 25."
+            "Sono venticinque anni.",
+            "Ho venticinque."
           ],
           "hints": [
             "Age uses avere, and anni is always needed."
@@ -362,9 +362,9 @@
           "type": "writing",
           "subtype": "fill_blank",
           "prompt": {
-            "text": "Complete: 'My grandmother is 80.'"
+            "text": "Complete: 'Paolo is 80.'"
           },
-          "sentence_context": "Mia nonna ___ 80 anni.",
+          "sentence_context": "Paolo ___ ottant'anni.",
           "correct_answer": "ha",
           "distractors": [],
           "hints": [
@@ -383,7 +383,7 @@
           "prompt": {
             "text": "Complete: 'I'm 30.'"
           },
-          "sentence_context": "Ho 30 ___.",
+          "sentence_context": "Ho trenta ___.",
           "correct_answer": "anni",
           "distractors": [],
           "hints": [
@@ -401,10 +401,10 @@
           "prompt": {
             "text": "Rewrite the sentence with tu."
           },
-          "sentence_context": "Ho 18 anni.",
+          "sentence_context": "Ho diciotto anni.",
           "correct_answer": [
-            "Hai 18 anni.",
-            "Tu hai 18 anni."
+            "Hai diciotto anni.",
+            "Tu hai diciotto anni."
           ],
           "distractors": [],
           "hints": [
@@ -783,7 +783,7 @@
           "prompt": {
             "text": "Complete with essere or avere."
           },
-          "sentence_context": "Noi ___ 20 anni.",
+          "sentence_context": "Noi ___ vent'anni.",
           "correct_answer": "abbiamo",
           "distractors": [],
           "hints": [
@@ -879,9 +879,10 @@
           "prompt": {
             "text": "Fix the mistake."
           },
-          "sentence_context": "Sono 20 anni.",
+          "sentence_context": "Sono vent'anni.",
           "correct_answer": [
-            "Ho 20 anni."
+            "Ho vent'anni.",
+            "Ho venti anni."
           ],
           "distractors": [],
           "hints": [
@@ -1095,7 +1096,6 @@
         },
         "sentence_context": "",
         "correct_answer": [
-          "Ho 40 anni.",
           "Ho quarant'anni.",
           "Ho quaranta anni."
         ],
@@ -1205,7 +1205,7 @@
         "prompt": {
           "text": "Complete with essere or avere."
         },
-        "sentence_context": "Giulia ___ 30 anni.",
+        "sentence_context": "Giulia ___ trent'anni.",
         "correct_answer": "ha",
         "distractors": [],
         "hints": [],

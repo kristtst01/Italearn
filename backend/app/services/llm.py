@@ -153,8 +153,10 @@ async def grade_free_response(
     logger.info("[llm] Grading free response for prompt: %r", prompt)
 
     try:
+        # Writing feedback is low volume and quality matters most, so it uses Sonnet;
+        # quick answer checks stay on Haiku for speed and cost
         response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
+            model="claude-sonnet-5-5",
             max_tokens=500,
             system=FREE_RESPONSE_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": user_message}],
