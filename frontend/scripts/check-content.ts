@@ -47,10 +47,27 @@ function tokens(text: string): string[] {
     .filter((t) => t.length > 0);
 }
 
-/** Simple inflections, so tedesco also allows tedesca/tedeschi/tedesche. */
+/** Present-tense forms of a regular verb (with -isc- forms too, since the infinitive doesn't show it). */
+function conjugate(inf: string): string[] {
+  const stem = inf.slice(0, -3);
+  const ending = inf.slice(-3);
+  if (ending === 'are') {
+    const hard = /[cg]$/.test(stem) ? stem + 'h' : stem; // cercare → cerchi
+    const soft = stem.endsWith('i') ? stem.slice(0, -1) : stem; // studiare → studi
+    const i = stem.endsWith('i') ? soft : hard;
+    return [stem + 'o', i + 'i', stem + 'a', i + 'iamo', stem + 'ate', stem + 'ano'];
+  }
+  const shared = [stem + 'o', stem + 'i', stem + 'e', stem + 'iamo', stem + 'ono'];
+  if (ending === 'ere') return [...shared, stem + 'ete'];
+  if (ending === 'ire') return [...shared, stem + 'ite', stem + 'isco', stem + 'isci', stem + 'isce', stem + 'iscono'];
+  return [];
+}
+
+/** Simple inflections, so tedesco also allows tedesca/tedeschi/tedesche, and verbs their present tense. */
 function forms(word: string): string[] {
   const w = word.toLowerCase();
   const out = [w];
+  if (w.length > 4 && /(are|ere|ire)$/.test(w)) out.push(...conjugate(w));
   const stem = (n: number) => w.slice(0, w.length - n);
   if (w.endsWith('co')) out.push(stem(1) + 'a', stem(1) + 'hi', stem(1) + 'he', stem(1) + 'i');
   else if (w.endsWith('go')) out.push(stem(1) + 'a', stem(1) + 'hi', stem(1) + 'he');
@@ -91,6 +108,7 @@ const GRAMMAR_FORMS: Record<string, string[]> = {
   'a1-essere': ['io', 'tu', 'lui', 'lei', 'noi', 'voi', 'loro', 'sono', 'sei', 'è', 'siamo', 'siete', 'e', 'ed', 'non', 'di', "d'", 'a', 'anche', "anch'io", "dov'è", "com'è", 'chi', 'dove', 'come', 'questo', 'questa'],
   'a1-numbers': numberWords(),
   // un/una appear here as part of fixed phrases (ho un cane); the article system is its own unit
+  'a1-nouns-articles': ['il', 'lo', 'la', "l'", 'i', 'gli', 'le', 'un', 'uno', 'una', "un'", "c'è", 'ci', 'signor'],
   'a1-avere': ['ho', 'hai', 'ha', 'abbiamo', 'avete', 'hanno', 'anni', 'un', 'una', "un'", 'fa', 'molto', 'molta'],
 };
 
@@ -207,7 +225,8 @@ function checkExercise(where: string, e: Exercise, ids: Set<string>) {
 const known = new Set<string>();
 const introducedIn = new Map<string, string>();
 const learn = (word: string, where: string) => {
-  for (const t of tokens(word)) for (const f of forms(t)) {
+  const parts = tokens(word).flatMap((t) => (t.includes("'") ? [t, ...t.split("'").filter(Boolean)] : [t]));
+  for (const t of parts) for (const f of forms(t)) {
     if (!known.has(f)) introducedIn.set(f, where);
     known.add(f);
   }

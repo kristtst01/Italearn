@@ -1,0 +1,1045 @@
+{
+  "unit_id": "a1-regular-verbs",
+  "points": {
+    "groups": {
+      "label": "The three verb groups",
+      "section": "The three verb groups"
+    },
+    "are": {
+      "label": "-are verbs",
+      "section": "-are verbs"
+    },
+    "ere": {
+      "label": "-ere verbs",
+      "section": "-ere verbs"
+    },
+    "ire": {
+      "label": "-ire verbs",
+      "section": "-ire verbs"
+    },
+    "isc": {
+      "label": "-isc- verbs",
+      "section": "-isc- verbs"
+    },
+    "using": {
+      "label": "Using the present",
+      "section": "Using the present"
+    }
+  },
+  "stops": [
+    {
+      "id": "are",
+      "title": "-are verbs",
+      "after": "-are verbs",
+      "exercises": [
+        {
+          "id": "a1-regular-verbs-p-01",
+          "type": "vocab",
+          "subtype": "match_pairs",
+          "prompt": {
+            "text": "Match each pronoun with its form of parlare."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "io|parlo",
+            "tu|parli",
+            "lui|parla",
+            "noi|parliamo",
+            "voi|parlate",
+            "loro|parlano"
+          ],
+          "distractors": [],
+          "hints": [],
+          "target_words": [],
+          "grammar_points": [
+            "are"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-02",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of abitare."
+          },
+          "sentence_context": "Io ___ a Roma.",
+          "correct_answer": "abito",
+          "distractors": [],
+          "hints": [
+            "io: -o."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "are"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-03",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of lavorare."
+          },
+          "sentence_context": "Marco ___ in centro.",
+          "correct_answer": "lavora",
+          "distractors": [],
+          "hints": [
+            "lui: -a."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "are"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-04",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of studiare."
+          },
+          "sentence_context": "Noi ___ italiano.",
+          "correct_answer": "studiamo",
+          "distractors": [],
+          "hints": [
+            "noi: -iamo, with one i."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "are"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-05",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of comprare."
+          },
+          "sentence_context": "Voi ___ un gelato?",
+          "correct_answer": "comprate",
+          "distractors": [],
+          "hints": [
+            "voi: -ate."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "are"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-06",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of aspettare."
+          },
+          "sentence_context": "Loro ___ Giulia.",
+          "correct_answer": "aspettano",
+          "distractors": [],
+          "hints": [
+            "loro: -ano."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "are"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-07",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of cercare."
+          },
+          "sentence_context": "Tu ___ un bar?",
+          "correct_answer": "cerchi",
+          "distractors": [],
+          "hints": [
+            "-care: add h before i."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "are"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-08",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of pagare."
+          },
+          "sentence_context": "Noi ___ il caffè.",
+          "correct_answer": "paghiamo",
+          "distractors": [],
+          "hints": [
+            "-gare: add h before i."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "are"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-09",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of mangiare."
+          },
+          "sentence_context": "Tu ___ un panino?",
+          "correct_answer": "mangi",
+          "distractors": [],
+          "hints": [
+            "-iare: only one i."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "are"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-10",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite the sentence with noi."
+          },
+          "sentence_context": "Parlo inglese.",
+          "correct_answer": [
+            "Parliamo inglese.",
+            "Noi parliamo inglese."
+          ],
+          "distractors": [],
+          "hints": [
+            "Noi: -iamo."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "are"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-11",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite the sentence with loro."
+          },
+          "sentence_context": "Guarda un film.",
+          "correct_answer": [
+            "Guardano un film.",
+            "Loro guardano un film."
+          ],
+          "distractors": [],
+          "hints": [
+            "Loro: -ano."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "are"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ere",
+      "title": "-ere verbs",
+      "after": "-ere verbs",
+      "exercises": [
+        {
+          "id": "a1-regular-verbs-p-12",
+          "type": "vocab",
+          "subtype": "match_pairs",
+          "prompt": {
+            "text": "Match each pronoun with its form of prendere."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "io|prendo",
+            "tu|prendi",
+            "lui|prende",
+            "noi|prendiamo",
+            "voi|prendete",
+            "loro|prendono"
+          ],
+          "distractors": [],
+          "hints": [],
+          "target_words": [],
+          "grammar_points": [
+            "ere"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-13",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of leggere."
+          },
+          "sentence_context": "Io ___ un libro.",
+          "correct_answer": "leggo",
+          "distractors": [],
+          "hints": [
+            "io: -o."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ere"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-14",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of scrivere."
+          },
+          "sentence_context": "Anna ___ a Marco.",
+          "correct_answer": "scrive",
+          "distractors": [],
+          "hints": [
+            "lei: -e."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ere"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-15",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of vivere."
+          },
+          "sentence_context": "Voi ___ a Milano?",
+          "correct_answer": "vivete",
+          "distractors": [],
+          "hints": [
+            "voi: -ete."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ere"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-16",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of rispondere."
+          },
+          "sentence_context": "Loro non ___.",
+          "correct_answer": "rispondono",
+          "distractors": [],
+          "hints": [
+            "loro: -ono."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ere"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-17",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "At the bar, how do you say 'I'll have a cappuccino'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Prendo un cappuccino.",
+          "distractors": [
+            "Prende un cappuccino.",
+            "Ho prendo un cappuccino."
+          ],
+          "hints": [
+            "Prendere for food and drink; io: -o."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ere"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-18",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite the sentence with tu."
+          },
+          "sentence_context": "Vedo Marco.",
+          "correct_answer": [
+            "Vedi Marco.",
+            "Tu vedi Marco."
+          ],
+          "distractors": [],
+          "hints": [
+            "Tu: -i."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ere"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-19",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Loro prendano un caffè.",
+          "correct_answer": [
+            "Loro prendono un caffè.",
+            "Prendono un caffè."
+          ],
+          "distractors": [],
+          "hints": [
+            "-ere verbs: -ono."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ere"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ire-isc",
+      "title": "-ire and -isc- verbs",
+      "after": "-isc- verbs",
+      "exercises": [
+        {
+          "id": "a1-regular-verbs-p-20",
+          "type": "vocab",
+          "subtype": "match_pairs",
+          "prompt": {
+            "text": "Match each pronoun with its form of dormire."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "io|dormo",
+            "tu|dormi",
+            "lui|dorme",
+            "noi|dormiamo",
+            "voi|dormite",
+            "loro|dormono"
+          ],
+          "distractors": [],
+          "hints": [],
+          "target_words": [],
+          "grammar_points": [
+            "ire"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-21",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of partire."
+          },
+          "sentence_context": "Domani ___. (I)",
+          "correct_answer": "parto",
+          "distractors": [],
+          "hints": [
+            "io: -o."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ire"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-22",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of aprire."
+          },
+          "sentence_context": "Voi ___ il libro?",
+          "correct_answer": "aprite",
+          "distractors": [],
+          "hints": [
+            "voi: -ite."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ire"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-23",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of sentire."
+          },
+          "sentence_context": "Lei non ___.",
+          "correct_answer": "sente",
+          "distractors": [],
+          "hints": [
+            "lei: -e."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ire"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-24",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of finire."
+          },
+          "sentence_context": "Io ___ il libro domani.",
+          "correct_answer": "finisco",
+          "distractors": [],
+          "hints": [
+            "finire takes -isc-."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "isc"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-25",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of capire."
+          },
+          "sentence_context": "Tu ___ l'italiano?",
+          "correct_answer": "capisci",
+          "distractors": [],
+          "hints": [
+            "capire takes -isc-."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "isc"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-26",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of preferire."
+          },
+          "sentence_context": "Noi ___ il caffè.",
+          "correct_answer": "preferiamo",
+          "distractors": [],
+          "hints": [
+            "noi has no -isc-."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "isc"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-27",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of pulire."
+          },
+          "sentence_context": "Loro ___ la casa.",
+          "correct_answer": "puliscono",
+          "distractors": [],
+          "hints": [
+            "loro has -isc-."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "isc"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-28",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which form of 'capire' has no -isc-?"
+          },
+          "sentence_context": "",
+          "correct_answer": "capite",
+          "distractors": [
+            "capisco",
+            "capisce",
+            "capiscono"
+          ],
+          "hints": [
+            "Noi and voi are regular."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "isc"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-29",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Non capo.",
+          "correct_answer": [
+            "Non capisco."
+          ],
+          "distractors": [],
+          "hints": [
+            "Capire takes -isc-."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "isc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "using",
+      "title": "Using the present",
+      "after": "Using the present",
+      "exercises": [
+        {
+          "id": "a1-regular-verbs-p-30",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'I'm studying Italian'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Studio italiano.",
+          "distractors": [
+            "Sono studio italiano.",
+            "Sono studiando italiano."
+          ],
+          "hints": [
+            "One present for both English forms."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "using"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-31",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "'Domani parto.' What does it mean?"
+          },
+          "sentence_context": "Domani parto.",
+          "correct_answer": "I'm leaving tomorrow.",
+          "distractors": [
+            "I left yesterday.",
+            "I leave every day."
+          ],
+          "hints": [
+            "The present with a time word: the near future."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "using"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-32",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make the sentence negative."
+          },
+          "sentence_context": "Parlo tedesco.",
+          "correct_answer": [
+            "Non parlo tedesco."
+          ],
+          "distractors": [],
+          "hints": [
+            "Non before the verb."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "using"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-33",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Turn it into a question for a friend."
+          },
+          "sentence_context": "Parlo inglese.",
+          "correct_answer": [
+            "Parli inglese?",
+            "Tu parli inglese?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Tu form, with a question mark."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "using"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-34",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which group does 'leggere' belong to?"
+          },
+          "sentence_context": "",
+          "correct_answer": "-ere",
+          "distractors": [
+            "-are",
+            "-ire"
+          ],
+          "hints": [
+            "Look at the infinitive's ending."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "groups"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-35",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say 'We live in Rome.'"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "abitiamo a Roma",
+            "viviamo a Roma",
+            "noi abitiamo a Roma"
+          ],
+          "distractors": [],
+          "hints": [
+            "Abitare or vivere, noi form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "are",
+            "ere"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-36",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say 'They sleep a lot.'"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "dormono molto",
+            "loro dormono molto"
+          ],
+          "distractors": [],
+          "hints": [
+            "Dormire, loro form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ire"
+          ]
+        },
+        {
+          "id": "a1-regular-verbs-p-37",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Sono lavoro a Milano.",
+          "correct_answer": [
+            "Lavoro a Milano."
+          ],
+          "distractors": [],
+          "hints": [
+            "No essere with another verb."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "using"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-regular-verbs-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of abitare."
+        },
+        "sentence_context": "Loro ___ a Napoli.",
+        "correct_answer": "abitano",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "are"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-02",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of ascoltare."
+        },
+        "sentence_context": "Tu ___ Giulia?",
+        "correct_answer": "ascolti",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "are"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-03",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of cercare."
+        },
+        "sentence_context": "Noi ___ la stazione.",
+        "correct_answer": "cerchiamo",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "are"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-04",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of studiare."
+        },
+        "sentence_context": "Tu ___ inglese?",
+        "correct_answer": "studi",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "are"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-05",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of chiudere."
+        },
+        "sentence_context": "Lei ___ il libro.",
+        "correct_answer": "chiude",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "ere"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-06",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of leggere."
+        },
+        "sentence_context": "Voi ___ molto?",
+        "correct_answer": "leggete",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "ere"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-07",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of offrire."
+        },
+        "sentence_context": "Io ___ un caffè.",
+        "correct_answer": "offro",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "ire"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-08",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of dormire."
+        },
+        "sentence_context": "Voi ___ bene?",
+        "correct_answer": "dormite",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "ire"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-09",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of finire."
+        },
+        "sentence_context": "Loro ___ il lavoro domani.",
+        "correct_answer": "finiscono",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "isc"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-10",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of preferire."
+        },
+        "sentence_context": "Lui ___ il cappuccino.",
+        "correct_answer": "preferisce",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "isc"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-11",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Rewrite the sentence with noi."
+        },
+        "sentence_context": "Scrivo a Marco.",
+        "correct_answer": [
+          "Scriviamo a Marco.",
+          "Noi scriviamo a Marco."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "ere"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-12",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Rewrite the sentence with loro."
+        },
+        "sentence_context": "Parte domani.",
+        "correct_answer": [
+          "Partono domani.",
+          "Loro partono domani."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "ire"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-13",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Loro mangiono un panino.",
+        "correct_answer": [
+          "Loro mangiano un panino.",
+          "Mangiano un panino."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "are"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-14",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Sono parlo italiano.",
+        "correct_answer": [
+          "Parlo italiano.",
+          "Io parlo italiano."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "using"
+        ]
+      },
+      {
+        "id": "a1-regular-verbs-m-15",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "How do you say 'I'm working tomorrow'?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Domani lavoro.",
+        "distractors": [
+          "Domani sono lavoro.",
+          "Domani lavora."
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "using"
+        ]
+      }
+    ]
+  }
+}

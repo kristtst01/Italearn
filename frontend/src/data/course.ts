@@ -20,4 +20,7 @@ export const COURSE: CourseStep[] = [
   g('a1-avere'),
   c('unit-04'), // Numbers & Age
   c('unit-05'), // Having & Needing
+  g('a1-nouns-articles'),
+  g('a1-regular-verbs'),
+  g('a1-irregular-verbs'),
 ];

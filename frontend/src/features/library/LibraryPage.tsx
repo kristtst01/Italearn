@@ -66,7 +66,8 @@ function ChapterCard({ unit, completed, isNext }: { unit: Unit; completed: strin
         <Status kind={isNext ? 'recommended' : status} />
       </div>
       <p className="text-lg font-bold leading-snug">{unit.name}</p>
-      <div className="flex flex-1 flex-wrap content-start gap-x-3.5 gap-y-1.5">
+      {/* Pushed to the bottom, just above the lesson count, so chips line up across cards */}
+      <div className="mt-auto flex flex-wrap gap-x-3.5 gap-y-1.5">
         {grammarForChapter(unit.id).map((g) => (
           <GrammarChip key={g.id} label={g.short} status={grammarUnitStatus(g.id)} />
         ))}

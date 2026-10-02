@@ -1,0 +1,1314 @@
+{
+  "unit_id": "a1-nouns-articles",
+  "points": {
+    "gender": {
+      "label": "Masculine and feminine",
+      "section": "Masculine and feminine"
+    },
+    "plurals": {
+      "label": "Plurals",
+      "section": "Plurals"
+    },
+    "indefinite": {
+      "label": "Un, uno, una, un'",
+      "section": "Indefinite articles"
+    },
+    "definite": {
+      "label": "Il, lo, l', la, i, gli, le",
+      "section": "Definite articles"
+    },
+    "using-articles": {
+      "label": "When to use the article",
+      "section": "When to use the article"
+    },
+    "ce-ci-sono": {
+      "label": "C'è and ci sono",
+      "section": "C'è and ci sono"
+    }
+  },
+  "stops": [
+    {
+      "id": "gender",
+      "title": "Masculine and feminine",
+      "after": "Masculine and feminine",
+      "exercises": [
+        {
+          "id": "a1-nouns-articles-p-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Is 'casa' masculine or feminine?"
+          },
+          "sentence_context": "",
+          "correct_answer": "feminine",
+          "distractors": [
+            "masculine",
+            "either"
+          ],
+          "hints": [
+            "It ends in -a."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "gender"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Is 'libro' masculine or feminine?"
+          },
+          "sentence_context": "",
+          "correct_answer": "masculine",
+          "distractors": [
+            "feminine",
+            "either"
+          ],
+          "hints": [
+            "It ends in -o."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "gender"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Is 'stazione' masculine or feminine?"
+          },
+          "sentence_context": "",
+          "correct_answer": "feminine",
+          "distractors": [
+            "masculine",
+            "either"
+          ],
+          "hints": [
+            "Nouns in -ione are feminine."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "gender"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-04",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Is 'dottore' masculine or feminine?"
+          },
+          "sentence_context": "",
+          "correct_answer": "masculine",
+          "distractors": [
+            "feminine",
+            "either"
+          ],
+          "hints": [
+            "Nouns in -ore are masculine."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "gender"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-05",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Is 'problema' masculine or feminine?"
+          },
+          "sentence_context": "",
+          "correct_answer": "masculine",
+          "distractors": [
+            "feminine",
+            "either"
+          ],
+          "hints": [
+            "One of the exceptions: masculine in -a."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "gender"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-06",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Is 'mano' masculine or feminine?"
+          },
+          "sentence_context": "",
+          "correct_answer": "feminine",
+          "distractors": [
+            "masculine",
+            "either"
+          ],
+          "hints": [
+            "One of the exceptions: feminine in -o."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "gender"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-07",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Who can 'turista' describe?"
+          },
+          "sentence_context": "",
+          "correct_answer": "a man or a woman",
+          "distractors": [
+            "only a man",
+            "only a woman"
+          ],
+          "hints": [
+            "Nouns in -ista are the same for both."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "gender"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-08",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: the female form of 'studente'."
+          },
+          "sentence_context": "studente → ___",
+          "correct_answer": "studentessa",
+          "distractors": [],
+          "hints": [
+            "A special feminine form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "gender"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-09",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: the female form of 'amico'."
+          },
+          "sentence_context": "amico → ___",
+          "correct_answer": "amica",
+          "distractors": [],
+          "hints": [
+            "-o becomes -a."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "gender"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plurals",
+      "title": "Plurals",
+      "after": "Plurals",
+      "exercises": [
+        {
+          "id": "a1-nouns-articles-p-10",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the plural of 'libro'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "libri"
+          ],
+          "distractors": [],
+          "hints": [
+            "-o becomes -i."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-11",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the plural of 'casa'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "case"
+          ],
+          "distractors": [],
+          "hints": [
+            "-a becomes -e."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-12",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the plural of 'chiave'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "chiavi"
+          ],
+          "distractors": [],
+          "hints": [
+            "-e becomes -i."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-13",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the plural of 'problema'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "problemi"
+          ],
+          "distractors": [],
+          "hints": [
+            "A masculine noun in -a: -i."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-14",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the plural of 'amica'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "amiche"
+          ],
+          "distractors": [],
+          "hints": [
+            "Add h to keep the hard sound."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-15",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the plural of 'amico'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "amici"
+          ],
+          "distractors": [],
+          "hints": [
+            "One of the common ones in -ci."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-16",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the plural of 'figlio'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "figli"
+          ],
+          "distractors": [],
+          "hints": [
+            "-io loses the o."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-17",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What is the plural of 'caffè'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "caffè",
+          "distractors": [
+            "caffèi",
+            "caffès"
+          ],
+          "hints": [
+            "Accented endings don't change."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-18",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What is the plural of 'bar'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "bar",
+          "distractors": [
+            "bari",
+            "bars"
+          ],
+          "hints": [
+            "Consonant endings don't change."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-19",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the plural of 'uomo'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "uomini"
+          ],
+          "distractors": [],
+          "hints": [
+            "One of the irregular ones."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-20",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Due caffès, per favore.",
+          "correct_answer": [
+            "Due caffè, per favore."
+          ],
+          "distractors": [],
+          "hints": [
+            "Accented endings don't change in the plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "plurals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indefinite",
+      "title": "Un, uno, una, un'",
+      "after": "Indefinite articles",
+      "exercises": [
+        {
+          "id": "a1-nouns-articles-p-21",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the right article: a book."
+          },
+          "sentence_context": "___ libro",
+          "correct_answer": "un",
+          "distractors": [],
+          "hints": [
+            "Masculine, most words."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "indefinite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-22",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the right article: a backpack."
+          },
+          "sentence_context": "___ zaino",
+          "correct_answer": "uno",
+          "distractors": [],
+          "hints": [
+            "Masculine, before z."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "indefinite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-23",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the right article: a student (man)."
+          },
+          "sentence_context": "___ studente",
+          "correct_answer": "uno",
+          "distractors": [],
+          "hints": [
+            "Masculine, before s + consonant."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "indefinite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-24",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the right article: a pen."
+          },
+          "sentence_context": "___ penna",
+          "correct_answer": "una",
+          "distractors": [],
+          "hints": [
+            "Feminine, before a consonant."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "indefinite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-25",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the right article: a friend (woman)."
+          },
+          "sentence_context": "___ amica",
+          "correct_answer": [
+            "un'"
+          ],
+          "distractors": [],
+          "hints": [
+            "Feminine, before a vowel."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "indefinite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-26",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the right article: a friend (man)."
+          },
+          "sentence_context": "___ amico",
+          "correct_answer": "un",
+          "distractors": [],
+          "hints": [
+            "Masculine: no apostrophe."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "indefinite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-27",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which means 'a female friend'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "un'amica",
+          "distractors": [
+            "un amica",
+            "uno amica"
+          ],
+          "hints": [
+            "Feminine before a vowel: un'."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "indefinite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-28",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Ho un zaino.",
+          "correct_answer": [
+            "Ho uno zaino."
+          ],
+          "distractors": [],
+          "hints": [
+            "Before z, uno."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "indefinite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "definite",
+      "title": "Il, lo, l', la, i, gli, le",
+      "after": "Definite articles",
+      "exercises": [
+        {
+          "id": "a1-nouns-articles-p-29",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add 'the'."
+          },
+          "sentence_context": "___ libro",
+          "correct_answer": "il",
+          "distractors": [],
+          "hints": [
+            "Masculine, most words."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "definite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-30",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add 'the'."
+          },
+          "sentence_context": "___ zaino",
+          "correct_answer": "lo",
+          "distractors": [],
+          "hints": [
+            "Masculine, before z."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "definite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-31",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add 'the'."
+          },
+          "sentence_context": "___ amico",
+          "correct_answer": [
+            "l'"
+          ],
+          "distractors": [],
+          "hints": [
+            "Before a vowel."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "definite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-32",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add 'the'."
+          },
+          "sentence_context": "___ casa",
+          "correct_answer": "la",
+          "distractors": [],
+          "hints": [
+            "Feminine, before a consonant."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "definite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-33",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add 'the'."
+          },
+          "sentence_context": "___ libri",
+          "correct_answer": "i",
+          "distractors": [],
+          "hints": [
+            "The plural of il."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "definite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-34",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add 'the'."
+          },
+          "sentence_context": "___ zaini",
+          "correct_answer": "gli",
+          "distractors": [],
+          "hints": [
+            "The plural of lo."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "definite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-35",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add 'the'."
+          },
+          "sentence_context": "___ amici",
+          "correct_answer": "gli",
+          "distractors": [],
+          "hints": [
+            "The plural of l' (masculine)."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "definite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-36",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add 'the'."
+          },
+          "sentence_context": "___ amiche",
+          "correct_answer": "le",
+          "distractors": [],
+          "hints": [
+            "The feminine plural is always le."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "definite"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-37",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it plural."
+          },
+          "sentence_context": "lo studente",
+          "correct_answer": [
+            "gli studenti"
+          ],
+          "distractors": [],
+          "hints": [
+            "Lo becomes gli; -e becomes -i."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "definite",
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-38",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it plural."
+          },
+          "sentence_context": "l'amica",
+          "correct_answer": [
+            "le amiche"
+          ],
+          "distractors": [],
+          "hints": [
+            "Feminine plural: le, and -ca becomes -che."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "definite",
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-39",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it plural."
+          },
+          "sentence_context": "il problema",
+          "correct_answer": [
+            "i problemi"
+          ],
+          "distractors": [],
+          "hints": [
+            "Il becomes i; problema is masculine."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "definite",
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-40",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "i amici",
+          "correct_answer": [
+            "gli amici"
+          ],
+          "distractors": [],
+          "hints": [
+            "Gli before a vowel."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "definite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "using-ce",
+      "title": "Using the article, c'è and ci sono",
+      "after": "C'è and ci sono",
+      "exercises": [
+        {
+          "id": "a1-nouns-articles-p-41",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You meet Mr Rossi in the street. How do you greet him?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Buongiorno, signor Rossi!",
+          "distractors": [
+            "Buongiorno, il signor Rossi!",
+            "Buongiorno, signore Rossi!"
+          ],
+          "hints": [
+            "No article when you speak to him; signore becomes signor before a name."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "using-articles"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-42",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You tell a friend that Mr Rossi is a doctor."
+          },
+          "sentence_context": "",
+          "correct_answer": "Il signor Rossi è medico.",
+          "distractors": [
+            "Signor Rossi è medico.",
+            "Il signore Rossi è medico."
+          ],
+          "hints": [
+            "Talking about him: il signor Rossi."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "using-articles"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-43",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: there's a bar here."
+          },
+          "sentence_context": "___ un bar qui.",
+          "correct_answer": [
+            "C'è",
+            "c'è"
+          ],
+          "distractors": [],
+          "hints": [
+            "Singular: c'è."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ce-ci-sono"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-44",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: there are two bars here."
+          },
+          "sentence_context": "___ due bar qui.",
+          "correct_answer": [
+            "Ci sono",
+            "ci sono"
+          ],
+          "distractors": [],
+          "hints": [
+            "Plural: ci sono."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ce-ci-sono"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-45",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You're new in town. How do you ask if there's a pharmacy?"
+          },
+          "sentence_context": "",
+          "correct_answer": "C'è una farmacia?",
+          "distractors": [
+            "Ci sono una farmacia?",
+            "È una farmacia?"
+          ],
+          "hints": [
+            "Whether one exists: c'è + un/una."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ce-ci-sono"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-46",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You know there's a station. How do you ask where it is?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Dov'è la stazione?",
+          "distractors": [
+            "C'è la stazione?",
+            "Ci sono la stazione?"
+          ],
+          "hints": [
+            "Where a particular one is: dov'è + il/la."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ce-ci-sono"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-47",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it negative."
+          },
+          "sentence_context": "C'è un bar.",
+          "correct_answer": [
+            "Non c'è un bar."
+          ],
+          "distractors": [],
+          "hints": [
+            "Non before c'è."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ce-ci-sono"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-48",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it plural, with two."
+          },
+          "sentence_context": "C'è un libro.",
+          "correct_answer": [
+            "Ci sono due libri."
+          ],
+          "distractors": [],
+          "hints": [
+            "Ci sono, and a plural noun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ce-ci-sono",
+            "plurals"
+          ]
+        },
+        {
+          "id": "a1-nouns-articles-p-49",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "C'è due bar.",
+          "correct_answer": [
+            "Ci sono due bar."
+          ],
+          "distractors": [],
+          "hints": [
+            "Two bars: plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ce-ci-sono"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-nouns-articles-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add 'the'."
+        },
+        "sentence_context": "___ stazione",
+        "correct_answer": "la",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "definite",
+          "gender"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-02",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add 'the'."
+        },
+        "sentence_context": "___ sport",
+        "correct_answer": "lo",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "definite"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-03",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add 'the'."
+        },
+        "sentence_context": "___ uomo",
+        "correct_answer": [
+          "l'"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "definite"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-04",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add 'the'."
+        },
+        "sentence_context": "___ studenti",
+        "correct_answer": "gli",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "definite"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-05",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add the right article: an idea."
+        },
+        "sentence_context": "___ idea",
+        "correct_answer": [
+          "un'"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "indefinite"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-06",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add the right article: a problem."
+        },
+        "sentence_context": "___ problema",
+        "correct_answer": "un",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "indefinite",
+          "gender"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-07",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "Is 'colore' masculine or feminine?"
+        },
+        "sentence_context": "",
+        "correct_answer": "masculine",
+        "distractors": [
+          "feminine",
+          "either"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "gender"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-08",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Make it plural."
+        },
+        "sentence_context": "la città",
+        "correct_answer": [
+          "le città"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "definite",
+          "plurals"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-09",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Make it plural."
+        },
+        "sentence_context": "il medico",
+        "correct_answer": [
+          "i medici"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "definite",
+          "plurals"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-10",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Make it plural."
+        },
+        "sentence_context": "la mano",
+        "correct_answer": [
+          "le mani"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "definite",
+          "plurals"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-11",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "la problema",
+        "correct_answer": [
+          "il problema"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "gender"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-12",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "C'è tre studenti.",
+        "correct_answer": [
+          "Ci sono tre studenti."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "ce-ci-sono"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-13",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Buonasera, la signora Bianchi!",
+        "correct_answer": [
+          "Buonasera, signora Bianchi!"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "using-articles"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-14",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "How do you ask 'Is there a bar?'"
+        },
+        "sentence_context": "",
+        "correct_answer": "C'è un bar?",
+        "distractors": [
+          "Ci sono un bar?",
+          "È un bar?"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "ce-ci-sono"
+        ]
+      },
+      {
+        "id": "a1-nouns-articles-m-15",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say 'There are two students here.'"
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "ci sono due studenti qui",
+          "qui ci sono due studenti"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "ce-ci-sono",
+          "plurals"
+        ]
+      }
+    ]
+  }
+}
