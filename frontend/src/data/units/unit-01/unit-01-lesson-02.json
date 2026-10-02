@@ -65,7 +65,7 @@
       "type": "vocab",
       "subtype": "cloze",
       "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "___! Non volevo!",
+      "sentence_context": "___, Marco!",
       "correct_answer": ["Scusa", "Scusi"],
       "distractors": [],
       "hints": ["Sorry! I didn't mean to!"],
@@ -153,7 +153,7 @@
       "type": "vocab",
       "subtype": "type_answer",
       "prompt": { "text": "You need to push past someone politely. What do you say?" },
-      "sentence_context": "Permesso! Posso passare?",
+      "sentence_context": "Permesso! Grazie!",
       "correct_answer": "permesso",
       "distractors": [],
       "hints": ["Think 'permission': it has the same Latin root."],
@@ -164,7 +164,7 @@
       "type": "vocab",
       "subtype": "type_answer",
       "prompt": { "text": "You forgot your friend's birthday. Say 'I'm sorry' in Italian." },
-      "sentence_context": "Mi dispiace tanto!",
+      "sentence_context": "Mi dispiace, Marco!",
       "correct_answer": "mi dispiace",
       "distractors": [],
       "hints": ["Two words: 'mi' (to me) + 'dispiace' (it displeases)."],
@@ -183,12 +183,15 @@
     }
   ],
   "vocabulary": [
-    { "word": "grazie", "meaning": "Thank you", "example": "Grazie, molto gentile!" },
+    { "word": "grazie", "meaning": "Thank you", "example": "Grazie mille!" },
     { "word": "per favore", "meaning": "Please", "example": "Un cappuccino, per favore." },
     { "word": "scusi", "meaning": "Excuse me (formal)", "example": "Scusi! Mi dispiace!" },
-    { "word": "scusa", "meaning": "Excuse me / Sorry (informal)", "example": "Scusa! Non volevo!" },
+    { "word": "scusa", "meaning": "Excuse me / Sorry (informal)", "example": "Scusa, Marco!" },
     { "word": "prego", "meaning": "You're welcome / Go ahead", "example": "Grazie! — Prego!" },
     { "word": "mi dispiace", "meaning": "I'm sorry", "example": "Mi dispiace, sono in ritardo." },
-    { "word": "permesso", "meaning": "May I pass / Coming through", "example": "Permesso! Posso passare?" }
+    { "word": "permesso", "meaning": "May I pass / Coming through", "example": "Permesso! Grazie!" },
+    { "word": "molto gentile", "meaning": "very kind", "example": "Grazie, molto gentile!" },
+    { "word": "un cappuccino", "meaning": "a cappuccino", "example": "Un cappuccino, grazie!" },
+    { "word": "un momento", "meaning": "one moment", "example": "Un momento, per favore." }
   ]
 }

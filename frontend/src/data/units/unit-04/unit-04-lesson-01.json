@@ -133,7 +133,7 @@
   ],
   "vocabulary": [
     { "word": "zero", "meaning": "0", "example": "Zero, uno, due, tre…" },
-    { "word": "uno", "meaning": "1", "example": "Ho un gatto. (uno → un before a noun)" },
+    { "word": "uno", "meaning": "1", "example": "Ho un gatto." },
     { "word": "due", "meaning": "2", "example": "Ho due sorelle." },
     { "word": "tre", "meaning": "3", "example": "Ho tre fratelli." },
     { "word": "quattro", "meaning": "4", "example": "Anna ha quattro anni." },

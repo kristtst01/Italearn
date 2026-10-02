@@ -20,6 +20,8 @@ npm run dev       # Vite dev server
 npm run build     # tsc -b && vite build
 npx eslint src/   # lint (use this; `npm run lint` also picks up .vite cache noise)
 npm run lint:tokens  # list raw colours that should be design tokens
+npm run check:content  # content check: words/grammar taught before use, structure, answers, style, Profilo A1 coverage
+                      #   (--all includes chapters under construction, --info shows coverage notes, --missing lists untaught Profilo words)
 ```
 Backend (from `backend/`): `make setup` (first run), `make run`, `make migrate`, `make migration msg="..."`, `make logs`.
 
@@ -76,6 +78,7 @@ data/italian-frequency-50k.txt  # Italian word frequency list (reference for voc
 ## Key Conventions
 - **Path alias:** `@/` maps to `frontend/src/`
 - **IDs:** `section-01`, `unit-01`, `unit-01-lesson-01`, `unit-01-lesson-01-ex-01`
+- **Course order:** `data/course.ts` lists grammar units and chapters in the order a learner meets them; the content check uses it. Deliberate early fixed phrases go in `frontend/scripts/content-allowlist.json` with a reason.
 - **Adding a lesson:** drop the JSON in `data/units/unit-NN/` (auto-discovered by `import.meta.glob`) and add its `LessonMeta` to the unit in `curriculum.ts`, with a `role`: `words`, `grammar`, `practice`, `reading` (has a `reading` text), `writing` (one free-form text; completing all of a chapter's writing lessons earns its stamp) or `speaking` (read-aloud). Lessons carry no grammar tips; explanations live in grammar units. Good content that no longer fits goes to `data/pool/`, not the bin
 - **Stores:** `use` prefix, async actions that persist through `engine/api.ts`
 - **Hydration:** Centralized in `HydrationGuard`, which seeds vocabulary and hydrates both stores before any route renders. Pages assume stores are ready.

@@ -50,6 +50,8 @@ export interface LessonVocab {
   word: string;
   meaning: string;
   example: string;
+  /** A fixed phrase kept as its own entry even though it contains another entry (non c'è male) */
+  phrase?: boolean;
 }
 
 export interface GrammarTip {

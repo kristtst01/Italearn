@@ -203,7 +203,8 @@
           "sentence_context": "Sei di Roma?",
           "correct_answer": "you are",
           "distractors": [
-            "six"
+            "six",
+            "you have"
           ],
           "hints": [
             "The verb essere."

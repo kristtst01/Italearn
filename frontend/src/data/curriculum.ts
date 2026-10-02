@@ -67,7 +67,7 @@ export const curriculum: Curriculum = {
           section_id: 'section-01',
           name: 'Numbers & Age',
           grammar_focus: 'Uses numbers 0–100 with avere: ages, counting people and things, phone numbers',
-          vocabulary_targets: ['numbers 0–100', 'quanti anni hai', 'quanti anni ha', 'numero di telefono'],
+          vocabulary_targets: ['numbers 0–100', 'quanti anni hai', 'quanti anni ha', 'numero'],
           grammar_notes: 'Comes after the grammar units Avere and Numbers 0–100. Number formation is drilled in the unit; here numbers are used in situations. No articles (beyond un/una as chunks), possessives or other verbs yet.',
           can_do: 'Say and understand numbers up to 100: ages, how many, phone numbers.',
           stamp_title: 'Uno, due, tre',

@@ -36,7 +36,7 @@
       "correct_answer": "Sto",
       "distractors": [],
       "hints": ["I'm well, thanks!"],
-      "target_words": ["sto bene"]
+      "target_words": ["bene"]
     },
     {
       "id": "unit-01-lesson-03-ex-03",
@@ -135,7 +135,7 @@
       "correct_answer": "sto bene",
       "distractors": [],
       "hints": ["Two words: 'sto' (I am) + 'bene' (well)."],
-      "target_words": ["sto bene"]
+      "target_words": ["bene"]
     },
     {
       "id": "unit-01-lesson-03-ex-11",
@@ -179,18 +179,16 @@
       "correct_answer": ["sto male"],
       "distractors": [],
       "hints": ["The opposite of 'sto bene'."],
-      "target_words": ["sto male"]
+      "target_words": ["male"]
     }
   ],
   "vocabulary": [
     { "word": "come stai", "meaning": "How are you? (informal)", "example": "Ciao, Anna! Come stai?" },
     { "word": "come sta", "meaning": "How are you? (formal)", "example": "Buongiorno, dottore. Come sta?" },
-    { "word": "sto bene", "meaning": "I'm well", "example": "Sto bene, grazie!" },
-    { "word": "sto male", "meaning": "I'm not well", "example": "Sto male oggi." },
-    { "word": "bene", "meaning": "Well / Good", "example": "Bene, grazie!" },
-    { "word": "male", "meaning": "Bad / Unwell", "example": "Sto male oggi." },
+    { "word": "bene", "meaning": "well, fine · sto bene = I'm well", "example": "Sto bene, grazie!" },
+    { "word": "male", "meaning": "badly, unwell · sto male = I'm not well", "example": "Sto male." },
     { "word": "così così", "meaning": "So-so", "example": "Come stai? — Così così." },
-    { "word": "non c'è male", "meaning": "Not bad", "example": "Come va? — Non c'è male!" },
+    { "word": "non c'è male", "meaning": "Not bad", "example": "Come va? — Non c'è male!", "phrase": true },
     { "word": "e tu", "meaning": "And you? (informal)", "example": "Bene, grazie, e tu?" },
     { "word": "e Lei", "meaning": "And you? (formal)", "example": "Bene, grazie, e Lei?" }
   ]

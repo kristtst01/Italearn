@@ -141,11 +141,11 @@
       "id": "unit-01-lesson-05-ex-18",
       "type": "writing",
       "subtype": "arrange_words",
-      "prompt": { "text": "Arrange: 'Congratulations on the job!'" },
-      "sentence_context": "Congratulazioni per il lavoro!",
-      "correct_answer": ["Congratulazioni", "per", "il", "lavoro!"],
-      "distractors": ["auguri", "studio"],
-      "hints": ["'Congratulazioni' + 'per' + noun."],
+      "prompt": { "text": "Arrange: 'Congratulations, Anna!'" },
+      "sentence_context": "Congratulazioni, Anna!",
+      "correct_answer": ["Congratulazioni,", "Anna!"],
+      "distractors": ["auguri", "buon"],
+      "hints": ["'Congratulazioni', then the name."],
       "target_words": ["congratulazioni"]
     },
     {
@@ -211,8 +211,9 @@
     { "word": "buon anno", "meaning": "Happy new year", "example": "Buon anno!" },
     { "word": "buona giornata", "meaning": "Have a good day", "example": "Ciao, buona giornata!" },
     { "word": "buon appetito", "meaning": "Enjoy your meal", "example": "Buon appetito!" },
-    { "word": "auguri", "meaning": "Best wishes", "example": "Tanti auguri!" },
+    { "word": "auguri", "meaning": "best wishes · tanti auguri = many happy returns, best wishes", "example": "Tanti auguri!" },
     { "word": "complimenti", "meaning": "Well done / compliments", "example": "Complimenti, bravo!" },
-    { "word": "congratulazioni", "meaning": "Congratulations", "example": "Congratulazioni per il lavoro!" }
+    { "word": "congratulazioni", "meaning": "Congratulations", "example": "Congratulazioni, Anna!" },
+    { "word": "bravo", "meaning": "well done (to a man) · brava (to a woman)", "example": "Bravo, Marco!" }
   ]
 }

@@ -14,7 +14,7 @@
       "correct_answer": ["Tre quattro sette, due uno otto, cinque cinque zero nove.", "Tre tre tre, nove zero otto, uno due tre quattro."],
       "distractors": [],
       "hints": ["Your number, digit by digit or in pairs."],
-      "target_words": ["numero di telefono"],
+      "target_words": ["numero"],
       "dialogue": [
         { "speaker": "Receptionist", "text": "Numero di telefono, per favore?" },
         { "speaker": "You" }
@@ -81,7 +81,6 @@
     }
   ],
   "vocabulary": [
-    { "word": "numero di telefono", "meaning": "phone number", "example": "Numero di telefono, per favore?" },
-    { "word": "numero", "meaning": "number", "example": "Che numero?" }
+    { "word": "numero", "meaning": "number · numero di telefono = phone number", "example": "Numero di telefono, per favore?" }
   ]
 }

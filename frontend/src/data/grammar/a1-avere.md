@@ -107,7 +107,7 @@ The noun comes straight after the verb with **no article**: *Ho fame*, never *Ho
 | | Verb | Example |
 |---|---|---|
 | A person feels hot or cold | **avere** | *Ho freddo.* I'm cold. |
-| A thing is hot or cold | **essere** | *Il caffè è freddo.* The coffee is cold. |
+| A thing is hot or cold | **essere** | *Questo caffè è freddo.* This coffee is cold. |
 | The weather is hot or cold | **fare** | *Oggi fa caldo.* It's hot today. |
 
 *Sono freddo* usually describes your personality: a cold, unfriendly person. To say you feel cold, use *Ho freddo*.
@@ -204,7 +204,7 @@ Where English says "I'm hungry", Italian says "I have hunger": avere + a noun, w
 | Who or what is hot or cold | Verb | Example |
 |---|---|---|
 | A person | **avere** | *Ho freddo.* |
-| A thing | **essere** | *Il caffè è freddo.* |
+| A thing | **essere** | *Questo caffè è freddo.* |
 | The weather | **fare** | *Oggi fa caldo.* |
 
 **Essere or avere?**

@@ -21,7 +21,7 @@
       "type": "vocab",
       "subtype": "type_answer",
       "prompt": { "text": "What does 'd'accordo' mean?" },
-      "sentence_context": "D'accordo, alle dieci.",
+      "sentence_context": "D'accordo, grazie!",
       "correct_answer": ["agreed", "okay"],
       "distractors": [],
       "hints": ["It stresses agreement, like 'agreed' or 'deal'. Same root as English 'accord'."],
@@ -76,7 +76,7 @@
       "type": "vocab",
       "subtype": "cloze",
       "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "___, ci vediamo domani!",
+      "sentence_context": "___, a presto!",
       "correct_answer": ["Va bene", "D'accordo"],
       "distractors": [],
       "hints": ["Okay, see you tomorrow!"],
@@ -187,9 +187,10 @@
     { "word": "non capisco", "meaning": "I don't understand", "example": "Non capisco. Più lentamente, per favore." },
     { "word": "può ripetere", "meaning": "Can you repeat? (formal)", "example": "Scusi, può ripetere?" },
     { "word": "come si dice", "meaning": "How do you say...?", "example": "Come si dice 'water' in italiano?" },
-    { "word": "va bene", "meaning": "Okay / Alright", "example": "Va bene, ci vediamo alle otto!" },
-    { "word": "d'accordo", "meaning": "Agreed / Okay", "example": "D'accordo, alle dieci." },
+    { "word": "va bene", "meaning": "Okay / Alright", "example": "Va bene, a presto!" },
+    { "word": "d'accordo", "meaning": "Agreed / Okay", "example": "D'accordo, grazie!" },
     { "word": "sì", "meaning": "Yes", "example": "Sì, certo!" },
-    { "word": "no", "meaning": "No", "example": "No, grazie." }
+    { "word": "no", "meaning": "No", "example": "No, grazie." },
+    { "word": "certo", "meaning": "of course, sure", "example": "Certo, va bene!" }
   ]
 }

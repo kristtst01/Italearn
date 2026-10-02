@@ -47,7 +47,7 @@
       "correct_answer": "Numero di telefono: tre quattro sette, otto uno due.",
       "distractors": [],
       "hints": ["Digit by digit."],
-      "target_words": ["numero di telefono"]
+      "target_words": ["numero"]
     },
     {
       "id": "unit-04-lesson-08-ex-05",

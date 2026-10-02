@@ -32,7 +32,7 @@
       "type": "vocab",
       "subtype": "multiple_choice",
       "prompt": { "text": "Which of these is only used at bedtime?" },
-      "sentence_context": "Buonanotte, dormi bene!",
+      "sentence_context": "Buonanotte, Marco!",
       "correct_answer": "Buonanotte",
       "distractors": ["Buonasera", "Arrivederci", "Salve"],
       "hints": ["It means 'sleep well', said when someone is heading to bed."],
@@ -54,7 +54,7 @@
       "type": "vocab",
       "subtype": "multiple_choice",
       "prompt": { "text": "It's 7 PM and you walk into a restaurant. Which greeting fits?" },
-      "sentence_context": "Buonasera! Un tavolo per due?",
+      "sentence_context": "Buonasera, signora!",
       "correct_answer": "Buonasera",
       "distractors": ["Buongiorno", "Buonanotte", "Arrivederci"],
       "hints": ["Late afternoon and evening calls for the evening greeting."],
@@ -65,7 +65,7 @@
       "type": "vocab",
       "subtype": "cloze",
       "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "___, dormi bene!",
+      "sentence_context": "___, Marco!",
       "correct_answer": "Buonanotte",
       "distractors": [],
       "hints": ["Good night, sleep well!"],
@@ -175,8 +175,10 @@
     { "word": "ciao", "meaning": "Hello / Goodbye (informal)", "example": "Ciao, Marco!" },
     { "word": "buongiorno", "meaning": "Good morning / Good day", "example": "Buongiorno, signora!" },
     { "word": "buonasera", "meaning": "Good evening", "example": "Buonasera a tutti!" },
-    { "word": "buonanotte", "meaning": "Good night (bedtime only)", "example": "Buonanotte, dormi bene!" },
+    { "word": "buonanotte", "meaning": "Good night (bedtime only)", "example": "Buonanotte, Marco!" },
     { "word": "arrivederci", "meaning": "Goodbye (formal)", "example": "Arrivederci! A presto!" },
-    { "word": "salve", "meaning": "Hello (neutral, any situation)", "example": "Salve! Tutto bene?" }
+    { "word": "salve", "meaning": "Hello (neutral, any situation)", "example": "Salve! Tutto bene?" },
+    { "word": "a tutti", "meaning": "to everyone (Buonasera a tutti! = Good evening, everyone!)", "example": "Ciao a tutti!" },
+    { "word": "tutto bene", "meaning": "all good? / everything's fine", "example": "Ciao, Marco! Tutto bene?" }
   ]
 }

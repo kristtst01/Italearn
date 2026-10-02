@@ -91,7 +91,7 @@
       "correct_answer": "Piacere mio!",
       "distractors": ["Prego!", "Non capisco!", "Buonanotte!"],
       "hints": ["'The pleasure is mine.'"],
-      "target_words": ["piacere mio"]
+      "target_words": ["piacere"]
     },
     {
       "id": "unit-01-lesson-06-ex-13",
@@ -168,14 +168,13 @@
       "correct_answer": ["piacere mio"],
       "distractors": [],
       "hints": ["Two words: pleasure + mine."],
-      "target_words": ["piacere mio"]
+      "target_words": ["piacere"]
     }
   ],
   "vocabulary": [
     { "word": "come ti chiami", "meaning": "What's your name? (informal)", "example": "Ciao! Come ti chiami?" },
     { "word": "come si chiama", "meaning": "What's your name? (formal)", "example": "Buongiorno. Come si chiama?" },
     { "word": "mi chiamo", "meaning": "My name is", "example": "Mi chiamo Giulia." },
-    { "word": "piacere", "meaning": "Nice to meet you", "example": "Mi chiamo Luca. Piacere!" },
-    { "word": "piacere mio", "meaning": "The pleasure is mine", "example": "Piacere! Piacere mio." }
+    { "word": "piacere", "meaning": "nice to meet you · piacere mio = the pleasure is mine", "example": "Piacere! Piacere mio." }
   ]
 }

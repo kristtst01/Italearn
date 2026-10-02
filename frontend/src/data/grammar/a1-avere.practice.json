@@ -180,7 +180,7 @@
           "prompt": {
             "text": "Complete with ho (I have) or o (or)."
           },
-          "sentence_context": "Un caffè ___ un'acqua?",
+          "sentence_context": "Un caffè ___ un cappuccino?",
           "correct_answer": "o",
           "distractors": [],
           "hints": [
@@ -701,10 +701,10 @@
             "text": "Your coffee has gone cold. What do you say?"
           },
           "sentence_context": "",
-          "correct_answer": "Il caffè è freddo.",
+          "correct_answer": "Questo caffè è freddo.",
           "distractors": [
-            "Il caffè ha freddo.",
-            "Il caffè fa freddo."
+            "Questo caffè ha freddo.",
+            "Questo caffè fa freddo."
           ],
           "hints": [
             "A thing being cold: essere."
@@ -1076,9 +1076,9 @@
         "prompt": {
           "text": "Make the sentence negative."
         },
-        "sentence_context": "Abbiamo tempo.",
+        "sentence_context": "Abbiamo fame.",
         "correct_answer": [
-          "Non abbiamo tempo."
+          "Non abbiamo fame."
         ],
         "distractors": [],
         "hints": [],
@@ -1184,13 +1184,13 @@
         "type": "vocab",
         "subtype": "multiple_choice",
         "prompt": {
-          "text": "The water is cold. How do you say it?"
+          "text": "Your cappuccino has gone cold. How do you say it?"
         },
         "sentence_context": "",
-        "correct_answer": "L'acqua è fredda.",
+        "correct_answer": "Questo cappuccino è freddo.",
         "distractors": [
-          "L'acqua ha freddo.",
-          "L'acqua fa freddo."
+          "Questo cappuccino ha freddo.",
+          "Questo cappuccino fa freddo."
         ],
         "hints": [],
         "target_words": [],
