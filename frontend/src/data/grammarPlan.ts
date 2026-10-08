@@ -1,8 +1,8 @@
 import type { CEFRLevel } from '@/types';
 
 /**
- * The planned A1 grammar units (docs/structure-design.md). None are written yet;
- * pages show them as placeholders until their content exists in data/grammar/.
+ * The A1 grammar units. Written ones have a reading and practice in data/grammar/;
+ * the others show their outline as a placeholder.
  */
 export interface PlannedGrammarUnit {
   id: string;

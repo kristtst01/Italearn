@@ -2,7 +2,7 @@
 
 How to author lesson content for ItaLearn, by hand or with AI. This document is the source of truth for any agent creating exercise content.
 
-> **Status (2026-09-29):** the app's structure is being redesigned (chapters, whole-system grammar units, grammar in SRS; see [development-plan.md](development-plan.md), Product Shape). The JSON schema and exercise subtypes below describe what is built today. Grammar explanations are moving out of lesson `grammar_tips` into dedicated grammar units.
+> **Status (2026-10-08):** this describes the format used by grammar units 1–7 and chapters 1–4, which follow it fully. Chapters 5–21 predate it (they still have grammar tips and read-aloud inside lessons) and are brought into line as each is reworked. Helpers for writing content are in [tools/authoring/](../tools/authoring/).
 
 ## Golden Rules
 
@@ -17,36 +17,118 @@ How to author lesson content for ItaLearn, by hand or with AI. This document is 
 9. **Grammar: simple, but true.** Present rules simply, but never present a tendency as an absolute. Say "usually" or "most" where it applies and name the common exceptions in the same place; mark deliberate A1 simplifications as simplifications ("there's a fuller rule; for now, learn these"); say how regular a system is (numbers are almost fully regular, gender mostly predictable, irregular verbs have to be memorised); prefer real usage where it differs from textbook purity. Check a rule's completeness against a source (Treccani, Accademia della Crusca) before writing it.
 10. **Grammar readings: form follows content.** Don't write every unit to one template. Use tables for paradigms (conjugations, articles, numbers) and prose with examples for usage and judgement (tu/Lei/voi, when to use the article, essere vs stare); lead with examples where usage is easier to show than state. Size the typical-mistakes section to the topic (a full table, a sentence or two, or nothing), choose the summary's form to fit (table, a few sentences, or none), and add background where it helps a rule stick. Where a section is dense (many forms at once), a short reassurance helps ("you don't need all of these yet; you'll practise them in every chapter from here"); use it sparingly, and only promise practice that actually exists.
 
+## How the Course Is Built
+
+A learner alternates between **grammar units** and **chapters**, in the order listed in `frontend/src/data/course.ts`:
+
+First phrases → chapter 1 → Essere → chapter 2 → Numbers → Avere → chapters 3 and 4 → Nouns & articles → Regular verbs → Irregular verbs → …
+
+- **Grammar decides the order.** The unit sequence is set on its own merits (dependencies, usefulness, sources: see [a1-grammar-inventory.md](a1-grammar-inventory.md)). Chapters are built around it, and a chapter comes after every unit it needs.
+- **Grammar units explain; chapters use.** All explanation lives in grammar units. Lessons in chapters carry no grammar tips.
+- **Early on, about one chapter per grammar unit.** Once articles and the present tense are in, several vocabulary-heavy chapters can follow one unit; each heavy unit should be used substantially in two or three chapters after it.
+- **Existing content is never fixed.** Lessons and chapters can be restructured, renamed, split or merged whenever the course is better for it. Good content that no longer fits goes to `data/pool/` with a note on where it came from and why, not in the bin.
+- A unit or chapter is marked `ready: true` (in `grammarPlan.ts` or `curriculum.ts`) once it's written and reviewed; the rest are listed under "Under construction".
+
+## How to Write a Grammar Unit
+
+A unit teaches one system of Italian in depth: a reading, practice placed inside the reading, and a mastery check. Files: `frontend/src/data/grammar/<id>.md` and `<id>.practice.json`, plus an entry in `grammarPlan.ts` and `course.ts`.
+
+**The reading (`<id>.md`)**
+- Front matter with `id`, `title`, `level` and `sources` (shown at the end of the page). Then `# Title`, an introduction, and `##` sections; `###` for subsections.
+- An example is two blockquote lines, Italian then English:
+  ```
+  > Sono di Roma.
+  > I'm from Rome.
+  ```
+- A table whose header starts with `✗ | ✓` is the typical-mistakes table (the wrong form gets a squiggly underline, the correction is handwritten).
+- Every Italian word the unit uses should appear with a translation (an example line, or a table with a meaning), because that is what counts as "introduced" for the content check.
+- **Simple, but true** (golden rule 9) and **form follows content** (rule 10): tables for paradigms, prose for usage and judgement; mistakes and summary sized to the topic; a short reassurance note where a section is dense. Check each rule against Treccani or the Accademia della Crusca before writing it.
+- Don't reuse a heading's text inside the summary: headings become link targets and practice stops attach to them. Use bold lead-ins there instead.
+
+**Practice and mastery (`<id>.practice.json`)**
+```jsonc
+{
+  "unit_id": "a1-essere",
+  "points": {                          // the grammar points exercises are tagged with
+    "essere-forms": { "label": "The forms of essere", "section": "Essere: to be" }   // section = a heading in the reading
+  },
+  "stops": [                           // practice stops, shown as cards inside the reading
+    { "id": "forms", "title": "The forms of essere", "after": "Essere: to be", "exercises": [ /* ... */ ] }
+  ],
+  "mastery": { "pass_mark": 0.85, "exercises": [ /* ... */ ] }
+}
+```
+- A stop is placed right **after the section named in `after`** (before the next heading), so learners practise what they've just read. As many stops as the reading has natural breaks; the last one mixes everything.
+- Every exercise carries `grammar_points`. After a failed check, the learner is sent back to the sections of the points they missed.
+- Unit practice is about **form and rule**: fill in the form, rewrite for another subject (`transformation`), fix a typical mistake (`find_mistake`), choose between forms. Situations and vocabulary are the chapters' job.
+- The mastery check uses new sentences, not ones from practice, and leans on production.
+- Exercises may only use words introduced by earlier units and chapters, or by this unit's reading.
+
+**Before marking it ready:** run `npm run check:content`, then an AI review pass on the reading and practice (correctness, naturalness, register, oversimplified rules, ambiguous exercises), as recorded in [reviews/](reviews/).
+
+## How to Write a Chapter
+
+A chapter is a situation with its vocabulary: it uses the grammar learners already have. Files: one JSON per lesson in `frontend/src/data/units/<unit>/`, the unit's entry in `curriculum.ts` (with each lesson's `role`), and a line in `course.ts`.
+
+**Start from what the learner has.** List the grammar units before this chapter in `course.ts`, and write nothing that needs later grammar. Fixed phrases used deliberately before their grammar (like *un caffè* before the articles unit) go in `frontend/scripts/content-allowlist.json` with a reason.
+
+**Lessons, by role** (the chapter page groups them: Lessons, Read, Write, Speak & listen):
+
+| Role | What it is |
+|---|---|
+| `words` | Introduces a set of words and practises them in situations. The point of each exercise is a communicative task (saying where you're from, choosing tu or Lei), with the words varying to support it; no exercise exists just to drill one word. |
+| `practice` | Combines what's been learned into exchanges, mostly "Your line" dialogues. |
+| `reading` | A text (`reading`: title and paragraphs) that stays beside the questions. Comprehension questions in English, then one or two answers in Italian. Dialogue lines are written `Name: text`. Stories reuse a small recurring cast (Emma, Paul, Chloé, Giulia's class in Florence). |
+| `writing` | One free-form text per lesson, with a model answer; finishing all of a chapter's writing lessons earns its stamp. |
+| `speaking` | Read-aloud sentences. Speaking and listening get their own lessons because they need a microphone or sound. |
+
+**Inside a lesson**
+- The lesson's `vocabulary` is shown first as a "New in this lesson" list, so nothing is asked before it's been seen. One entry per word: a phrase built from a word on the same list goes into that word's meaning and example (`bene: well · sto bene = I'm well`), unless it's a fixed phrase that can't be broken down yet (`"phrase": true`). Each word needs its own example.
+- Order exercises **recognise → recall → produce**: typed Italian → English recall of the new words; situational multiple choice mixed with cloze; fill in the blank; arrange the words; typed English → Italian at the end.
+- Prefer typed recall to "What does X mean?" multiple choice. Keep multiple choice for situations where the options are all plausible and the learner has to choose.
+- Every word introduced should be used in at least one exercise.
+
+**Accepted answers.** Give one model answer and at most an obvious alternative; the AI check judges other wordings. Don't list every possible translation. Never use a wrong option that is actually acceptable Italian (check regional and colloquial usage).
+
+## Writing Style
+
+For everything a learner reads: prompts, hints, readings, UI text.
+
+- Plain, direct English. No em-dashes (use a comma, colon or full stop), no capitals for emphasis, no forced "not X, but Y" contrasts.
+- Nothing on screen that is written for developers.
+- Don't overclaim about Italians or Italian ("Italians never…"). Say what is usual.
+- Translate *voi* as "you (plural)", never "you all".
+- Hints explain the point being tested; they aren't shown before answering in most exercise types, but fill-in-the-blank shows its first hint up front, so that one mustn't give the answer away.
+
 ## Exercise Types: What and Why
 
 Each exercise type trains a specific ability. Choose types for what the learner needs to do with the material, not for variety alone.
 
 | Type | Trains | Use it for | Limits |
 |---|---|---|---|
-| `multiple_choice` | Recognizing meaning | First exposure to a word or form | Low value after first exposure; answers can be found by elimination |
+| `multiple_choice` | Choosing between plausible options | Situations where the learner has to pick the right phrase or form | Weak for plain meaning ("What does X mean?"): answers can be found by elimination. Use typed recall for that |
 | `match_pairs` | Recognizing meaning | Quick warm-up and review | Not real learning on its own |
-| `type_answer` | Recall of a word or short phrase | Core vocabulary retrieval | Keep answers short; full sentences belong in translation |
+| `type_answer` | Recall of a word, phrase or short sentence | Italian → English recall of new words; English → Italian production | One model answer; the AI check judges other wordings |
 | `cloze` | Recall in context | Vocabulary in a sentence | Overlaps with `fill_blank`; use `cloze` for vocabulary, `fill_blank` for grammar |
 | `fill_blank` | Producing one grammatical form | Conjugation, articles, agreement, prepositions | One form at a time; pair with transformation for whole systems |
 | `arrange_words` | Word order | Early sentence structure | The word bank makes it a puzzle; prefer translation once learners can type sentences |
 | `read_aloud` | Pronunciation from text | Pronunciation practice | Reading, not speaking; add listen-and-repeat when audio exists |
-| `free_form` | Written production | Writing tasks, open questions | AI-graded; can be long |
+| `free_form` | Written production | Writing lessons, one text each | AI-graded (Sonnet); can be long |
+| `dialogue_completion` ("Your line") | Using language in an exchange | Write one turn of a short dialogue | Open answers, judged by the AI check |
+| `transformation` | Controlling a grammar system | "Rewrite with *noi*", "make it negative" | Grammar unit practice, mostly |
+| `find_mistake` | Noticing errors | Typical English-speaker mistakes (*sono fame*) | The answer box starts with the faulty sentence |
 
-**Planned** (not built yet; see development plan, Workstream 0):
+**Planned** (not built yet):
 
 | Type | Trains | Why |
 |---|---|---|
-| Transformation | Controlling a grammar system | "Rewrite with *noi*", "make it plural/negative". Drills the whole paradigm, not one blank. |
-| Structured input ("whose is it?") | Noticing form to get meaning | The learner can only answer by attending to the ending, article or pronoun. Effective for features English speakers ignore (VanPatten's processing instruction). |
-| Find the mistake | Noticing errors | Targets English interference (*sono fame*, *la mia madre*). |
-| Full-sentence translation (EN→IT, typed) | Sentence production | The highest-value production drill; LLM validation makes free translations gradeable. Should replace much of `arrange_words`. |
-| Dialogue completion | Using language in an exchange | Write your line in a short dialogue. Fits situational chapters. |
+| Structured input ("whose is it?") | Noticing form to get meaning | The learner can only answer by attending to the ending, article or pronoun (VanPatten's processing instruction). |
 | Dictation | Decoding speech + spelling | Needs the audio pipeline. |
 | Minimal pairs | Hearing double consonants and similar sounds | *caro/carro*, *pala/palla*. Needs audio. |
 | Listen and repeat | Pronunciation from a model | Better than `read_aloud` for pronunciation. Needs audio. |
-| Answer a spoken question | Short spoken production | Bridge to the AI tutor; leniently LLM-graded. |
+| Answer a spoken question | Short spoken production | Bridge to the AI tutor; leniently graded. |
 
-**Grammar in review:** once grammar units exist, grammar items (transformation, fill_blank, find the mistake, translation) are scheduled in SRS like words. Today only vocabulary is reviewed.
+**Grammar in review:** planned (issue #67). Today only vocabulary is reviewed; a passed grammar unit doesn't come back yet.
 
 ## Reference Sources
 
@@ -81,7 +163,9 @@ frontend/src/data/units/
     ...
 ```
 
-Lesson files are discovered automatically (`import.meta.glob` in `data/lessonLoader.ts`). To make a lesson appear, add its `LessonMeta` (`id`, `unit_id`, `name`, `role`, `order`) to the unit's `lessons` array. `role` is `words`, `grammar`, `practice` or `writing` in `frontend/src/data/curriculum.ts`.
+Lesson files are discovered automatically (`import.meta.glob` in `data/lessonLoader.ts`). To make a lesson appear, add its `LessonMeta` (`id`, `unit_id`, `name`, `role`, `order`) to the unit's `lessons` array in `frontend/src/data/curriculum.ts`. `role` is `words`, `practice`, `reading`, `writing` or `speaking` (see How to Write a Chapter; `grammar` survives only in chapters not yet reworked).
+
+Grammar units live in `frontend/src/data/grammar/` (`<id>.md` and `<id>.practice.json`), are listed in `grammarPlan.ts`, and are discovered automatically. The order a learner meets everything is `data/course.ts`.
 
 ## Lesson JSON Schema
 
@@ -89,42 +173,29 @@ Lesson files are discovered automatically (`import.meta.glob` in `data/lessonLoa
 {
   "id": "unit-02-lesson-01",           // {unit_id}-lesson-{NN}
   "unit_id": "unit-02",
-  "name": "Who Am I?",                 // Short, thematic lesson name
-  "order": 1,                          // Position within the unit (1-indexed)
-  "grammar_tips": [                    // Short explanations shown in the lesson
-    {
-      "id": "subject-pronouns",
-      "title": "Subject Pronouns",
-      "explanation": "io (I), tu (you, informal), lui/lei (he/she), Lei (you, formal), noi (we), voi (you, plural), loro (they).",
-      "table": [["io", "I"], ["tu", "you"]],          // OPTIONAL — rows of cells
-      "example": { "italian": "Sono italiano.", "english": "I am Italian." },  // OPTIONAL
-      "before_exercise": 3                             // OPTIONAL — show before this exercise index
-    }
-  ],
-  "kind": "standard",                  // PLANNED, not in the types yet — "standard" | "writing" | "listening" | "reading"
-  "passages": [                        // PLANNED — only for listening/reading comprehension lessons
-    {
-      "id": "passage-01",
-      "format": "audio",               // "audio" | "text"
-      "style": "dialogue",             // audio only: "monologue" | "dialogue"
-      "audio_url": "/audio/unit-22/lesson-04/passage-01.mp3",  // format: audio
-      "text": "...",                   // format: text (reading comprehension)
-      "transcript": "...",             // audio only — revealed after the learner answers
-      "speakers": ["Marco", "Giulia"]  // audio only
-    }
-  ],
+  "name": "Where Are You From?",       // Short, thematic lesson name
+  "order": 1,
+  "grammar_tips": [],                  // Always empty in reworked chapters: explanations live in grammar units
   "exercises": [ /* ... see below ... */ ],
-  "vocabulary": [                      // New words introduced in this lesson
+  "vocabulary": [                      // Words first introduced in this lesson, shown as "New in this lesson"
     {
-      "word": "sono",
-      "meaning": "I am / they are",
-      "example": "Sono italiano."
+      "word": "tedesco",               // One entry per lemma
+      "meaning": "German",             // Other forms can be given here: "student (man) · studentessa (woman)"
+      "example": "Anna è tedesca, di Berlino.",   // Its own example, using only known words
+      "phrase": true                   // OPTIONAL: a fixed phrase kept as its own entry (non c'è male)
     }
-  ]
+  ],
+  "reading": {                         // Reading lessons only: the text shown beside every question
+    "title": "Un caffè a Roma",
+    "paragraphs": [
+      "Paul è a Roma. È americano, di Chicago, ed è medico.",
+      "Paul: Buonasera! Scusi, Lei è italiana?"    // "Name: text" lines show the speaker in bold
+    ]
+  }
 }
 ```
 
-`kind` and `passages` are designed but not implemented (`types/curriculum.ts` has neither). They're for comprehension lessons — see [Comprehension Lessons](#comprehension-lessons-listening--reading).
+Write lesson files with the helpers in `tools/authoring/`, or run `format_lessons.py` after a hand edit, so short objects and arrays stay on one line as in the existing files.
 
 ## Exercise JSON Schema
 
@@ -138,8 +209,11 @@ Every exercise has the same shape regardless of subtype:
   "prompt": {
     "text": "What does 'sono' mean in 'Io sono italiano'?"
   },
-  "sentence_context": "Io sono italiano.",   // Full Italian sentence for context
-  "correct_answer": "I am",            // String or string[] (arrange_words uses array)
+  "sentence_context": "Io sono italiano.",   // The Italian sentence shown or completed; "" where there is none
+                                             //   (a situational question, a writing task)
+  "correct_answer": "I am",            // String, or string[]: for arrange_words the words in order, for match_pairs
+                                       //   the "italiano|english" pairs, for everything else the accepted answers
+                                       //   (model answer first)
   "distractors": [                     // For multiple_choice: 3 wrong options
     "I have",                          // For arrange_words: extra distractor words
     "You are",                         // Empty [] for type_answer, fill_blank, cloze
@@ -148,8 +222,13 @@ Every exercise has the same shape regardless of subtype:
   "hints": [                           // Optional hints shown to the user
     "The verb 'essere' conjugates irregularly."
   ],
-  "target_words": ["sono"],            // Words this exercise teaches (for SRS card creation)
-  "passage_ref": "passage-01"          // OPTIONAL — in comprehension lessons, the passage this question tests
+  "target_words": ["sono"],            // Vocabulary entries this exercise practises (for SRS card creation)
+  "grammar_points": ["essere-forms"],  // Grammar unit practice only: keys of the unit's "points"
+  "strict_accents": true,              // OPTIONAL: a missing accent is wrong (è/e, sì/si, ventitré), not just a reminder
+  "dialogue": [                        // dialogue_completion only: the exchange; the line without "text" is the learner's
+    { "speaker": "Luca", "text": "Di dove sei?" },
+    { "speaker": "You" }
+  ]
 }
 ```
 
@@ -329,41 +408,60 @@ User reads an Italian sentence aloud; speech is captured and checked against the
 }
 ```
 
-## Comprehension Lessons (Listening & Reading)
+### `dialogue_completion` (type: `writing`) — "Your line"
+A short exchange where the learner writes one turn. The `prompt.text` sets the scene, `dialogue` holds the lines (the one without `text` is the learner's), and `sentence_context` is the same exchange as plain text with `___` for the learner's line (the AI check reads it). Answers are open, so `correct_answer` gives one or two model replies and the AI check accepts anything that fits.
 
-Listening and reading comprehension are **lesson kinds**, not single exercises. A comprehension lesson holds one or more *passages* plus a set of questions about them — the same way a writing lesson is just a lesson of `free_form` exercises.
+```json
+{
+  "id": "unit-02-lesson-03-ex-02",
+  "type": "writing",
+  "subtype": "dialogue_completion",
+  "prompt": { "text": "Luca asks where you are from." },
+  "sentence_context": "Luca: Di dove sei?\nYou: ___",
+  "correct_answer": ["Sono di Londra.", "Sono inglese, di Londra."],
+  "distractors": [],
+  "hints": ["Di + your city, or your nationality."],
+  "target_words": ["di dove sei"],
+  "dialogue": [{ "speaker": "Luca", "text": "Di dove sei?" }, { "speaker": "You" }]
+}
+```
 
-- Set the lesson `kind` to `"listening"` or `"reading"`.
-- Add a `passages` array (see the Lesson JSON Schema). A lesson may have several passages — e.g. one monologue and one dialogue, each with its own questions.
-- Each question exercise carries a `passage_ref` pointing at the passage it tests.
-- Questions **reuse ordinary subtypes** — `multiple_choice`, `type_answer`, and `free_form`. There is no dedicated "comprehension" exercise subtype.
-- The transcript (audio) or full text (reading) is revealed after the learner answers.
+### `transformation` and `find_mistake` (type: `writing`)
+Both show a sentence (`sentence_context`) and ask for a rewritten one. `transformation`: "Rewrite the sentence with noi", "Make it negative". `find_mistake`: "Fix the mistake", with the faulty sentence pre-filled for editing. `correct_answer` lists every accepted sentence, model answer first. Use typical learner mistakes for `find_mistake`, not slips nobody makes.
 
-### Listening passages
-- `format: "audio"`, with `style: "monologue"` (one speaker reading/narrating) or `style: "dialogue"` (two or more speakers in conversation).
-- Audio is **pre-generated at authoring time**, never at runtime. Use ElevenLabs — Text to Speech for monologues, Text to Dialogue (v3, multi-speaker) for dialogues. Store the result as a static asset and reference it by `audio_url`.
-- Keep each dialogue script under ~2,000 characters per generation request.
-- Always store the `transcript` in the lesson JSON.
+```json
+{
+  "id": "a1-essere-p-21",
+  "type": "writing",
+  "subtype": "transformation",
+  "prompt": { "text": "Rewrite the sentence with noi." },
+  "sentence_context": "Sono di Roma.",
+  "correct_answer": ["Siamo di Roma.", "Noi siamo di Roma."],
+  "distractors": [],
+  "hints": ["Noi siamo."],
+  "target_words": [],
+  "grammar_points": ["essere-forms"]
+}
+```
 
-### Reading passages
-- `format: "text"`, with the passage in the `text` field. No audio.
+## Reading and Listening Lessons
 
-### Question mix in comprehension lessons
-- **A2:** mostly `multiple_choice` and short `type_answer` — "did you catch the key fact?"
-- **B1/B2:** increasingly `free_form` — "explain", "summarize", "what did the speaker mean?" — AI-graded. A B2 listening lesson is mostly free-form questions.
+**Reading lessons are built.** A lesson with role `reading` has a `reading` text (title and paragraphs) that stays on screen beside every question. Questions are ordinary exercises: comprehension in English (`multiple_choice`, including true/false), then one or two answers in Italian (`type_answer` with a prompt starting "Answer in Italian:"). The text uses only words and grammar the learner has, plus a few new words on the lesson's own list. A text that is a small story, with a turn at the end, is better than a list of facts.
+
+**Listening lessons are planned** and need the audio pipeline (issue #68). Audio is pre-generated at authoring time with ElevenLabs, never at runtime; a transcript is always stored. Model dialogues for chapters (issue #69) use two voices.
 
 ## Lesson Design Patterns
 
 ### Exercise Ordering Within a Lesson
-Follow this progression for each new concept:
+The lesson's new words are shown first, on the "New in this lesson" screen. Then:
 
-1. **Introduce:** recognition (`multiple_choice`, structured input) — low-stakes first contact
-2. **Reinforce:** recall in context (`cloze`)
-3. **Produce:** active recall (`type_answer`, `fill_blank`, transformation)
-4. **Combine:** full sentences (translation, `arrange_words` early on)
-5. **Review:** mixed types, recycling earlier lessons
+1. **Recall the meaning:** typed Italian → English for the new words (`type_answer`, "What does 'X' mean?")
+2. **Choose and complete:** situational `multiple_choice` alternating with `cloze`
+3. **Produce a form:** `fill_blank`
+4. **Build a sentence:** `arrange_words`, "Your line" dialogues
+5. **Produce:** typed English → Italian (`type_answer`) to end the lesson
 
-As many exercises per step as the material needs. A dense topic gets more; a light one fewer.
+As many exercises per step as the material needs. A dense topic gets more; a light one fewer. Research behind this order (typed recall beats recognition; Italian → English first for new words) is summarised in the development plan's decisions.
 
 ### Exercise Mix — shifts by level
 
@@ -383,7 +481,7 @@ Core principle: **the practice immerses, the explanation stays clear.** As the l
 | `sentence_context`, vocabulary, the Italian being practiced | Always Italian |
 | `prompt.text` — the task/question | Gradient: English (A1) → mostly Italian (B2). See per-level guidance below. |
 | Comprehension questions | Follow the prompt gradient — Italian by B2 |
-| `grammar_tips` | **English always** (optionally bilingual English + Italian) |
+| Grammar unit readings | **English always**, with Italian examples translated |
 | `hints` that explain a rule | English, or bilingual |
 | App UI chrome ("Check", "Continue", screens) | English always — never affected by level |
 
@@ -425,44 +523,40 @@ Each level is defined by its coverage (grammar, vocabulary, can-do functions), n
 
 Run through this for every generated lesson before committing:
 
-- [ ] Every `sentence_context` is natural Italian (not word-for-word translated from English)
-- [ ] Every exercise has a valid `sentence_context` (never empty)
-- [ ] `fill_blank` and `cloze` exercises have exactly one `___` in `sentence_context`
-- [ ] `arrange_words` and `match_pairs` have `correct_answer` as an array; others have it as a string
-- [ ] `multiple_choice` has exactly 3 distractors of the same category as the answer
-- [ ] `type_answer`, `fill_blank`, `cloze`, `free_form`, `match_pairs`, `read_aloud` have `distractors: []`
-- [ ] `free_form` has a model answer in `correct_answer`
-- [ ] `match_pairs` `correct_answer` is an array of `"italiano|english"` strings, at least 3 pairs
-- [ ] (Once implemented) Comprehension lessons: `kind` is set, `passages` is present, every question has a valid `passage_ref`; audio passages have a pre-generated `audio_url` and a `transcript`
-- [ ] The exercise mix matches the level (more `free_form` at B1/B2, less `fill_blank`/`cloze`)
-- [ ] IDs follow the pattern: `{unit_id}-lesson-{NN}-ex-{NN}`
-- [ ] No word is used that hasn't been introduced in this lesson or an earlier one
-- [ ] The `vocabulary` array only contains words *new* to this lesson
-- [ ] Each vocabulary entry has `word`, `meaning`, and `example`
-- [ ] `target_words` correctly references the vocabulary being tested
-- [ ] Grammar tips in lessons are short reminders; full explanations belong in grammar units
-- [ ] No em-dashes in prompts, hints, or grammar tips (use periods, colons, parentheses)
-- [ ] Hints clarify the task without giving away the answer
-- [ ] `multiple_choice` distractors share part of speech and semantic field with the answer
-- [ ] Accented characters are correct (è, é, à, ù, ò, ì) — never missing
-- [ ] No duplicate exercise IDs within or across lessons
+- [ ] `npm run check:content` passes with no errors or warnings (it checks taught-before-used, word lists, structure, accepted answers and style)
+- [ ] Every Italian sentence is correct and natural (not word-for-word from English); doubtful usage is checked against a source
+- [ ] No "wrong" option is acceptable Italian, including regional or colloquial usage
+- [ ] No question has two defensible answers; situations give the cue explicitly ("a new classmate your age", not "a stranger")
+- [ ] `fill_blank` and `cloze` have exactly one `___` in `sentence_context`
+- [ ] `multiple_choice` options are plausible and of the same kind as the answer
+- [ ] `free_form` has a model answer; writing lessons have one text each
+- [ ] Reading lessons have a `reading` text; speaking lessons hold the read-aloud
+- [ ] One vocabulary entry per word, each with its own example; every new word is used in an exercise
+- [ ] Hints explain the point without giving the answer away (fill-in-the-blank shows its first hint up front)
+- [ ] No em-dashes, capitals for emphasis or overclaims in anything the learner reads
+- [ ] Accents are correct, and `strict_accents` is set where the accent is the point
+- [ ] Grammar readings: rules checked against a source, tendencies marked as tendencies, exceptions named
 
 ## Workflow for AI Agents
 
-When asked to generate exercises for a unit:
+When asked to write a chapter or a grammar unit:
 
-1. **Read the curriculum** — Check `frontend/src/data/curriculum.ts` for the unit's `grammar_focus`, `vocabulary_targets`, and position in the curriculum.
-2. **Check what came before** — Read previous unit lesson files to know what vocabulary/grammar is already introduced.
-3. **Plan the unit** — Split the unit's grammar and vocabulary into as many lessons as the topic needs.
-4. **Generate one lesson at a time** — Follow the lesson JSON schema exactly. Use the exercise ordering pattern above.
-5. **Validate** — Run the quality checklist. Run `npm run build` in `frontend/`.
-6. **Register in curriculum.ts** — Add each lesson's `LessonMeta` (with its `role`) to the unit's `lessons` array.
+1. **Find its place.** Read `frontend/src/data/course.ts` to see what comes before it, and `grammarPlan.ts` / `curriculum.ts` for the unit or chapter itself.
+2. **Know what the learner has.** Read the grammar units before it (the readings) and skim the earlier chapters' word lists. `npm run check:content -- --missing` lists Profilo A1 words not taught yet, which is a good source of vocabulary for new chapters.
+3. **Plan it** as described in How to Write a Grammar Unit / How to Write a Chapter, sized to the topic.
+4. **Write it,** using `tools/authoring/` (see its README and examples) or by hand.
+5. **Register it:** `curriculum.ts` (lessons and roles) or `grammarPlan.ts`, and `course.ts`.
+6. **Check it:** `npm run check:content`, then `npm run build` in `frontend/`. Fix what it flags: teach the word, rephrase, or allowlist a deliberate phrase.
+7. **Review it:** for a grammar unit, an AI review pass (see [reviews/](reviews/)); for everything, play through it.
+8. **Mark it ready** only after review.
+
+Move anything good that no longer fits to `data/pool/` rather than deleting it.
 
 ### Prompt Template for Exercise Generation
 
 When generating exercises, include this context in your prompt:
 - The unit's grammar focus and vocabulary targets (from curriculum.ts)
 - The lesson's theme and position within the unit
-- All vocabulary already introduced in previous units/lessons
+- The grammar units and chapters that come before it in `course.ts`, and the words they introduce
 - The level's exercise-mix guidance (CEFR Level Guidelines)
-- 2-3 examples of each exercise subtype from existing lessons (read from unit-01)
+- 2-3 examples of each exercise subtype from a reworked chapter (`unit-02` or `unit-05`), and the matching example in `tools/authoring/examples/`

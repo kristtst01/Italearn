@@ -1,5 +1,7 @@
 # New Structure: Design
 
+> **Status (2026-10-08): built.** The structure described here is implemented and merged into the working branch. Where it differs from the app, the app and [CLAUDE.md](../CLAUDE.md) are right. Later changes (grammar-first order, practice stops inside readings, new-words lists, separate reading / writing / speaking lessons) are in the [development plan](development-plan.md)'s decisions log.
+
 How the new frontend is organized: content model, screens, progress, and what replaces what. Implements the Product Shape in [development-plan.md](development-plan.md); visuals follow [design-system.md](design-system.md). Scope: **A1 only**, desktop only.
 
 Built on the long-lived branch `feature/new-frontend`, merged when usable.

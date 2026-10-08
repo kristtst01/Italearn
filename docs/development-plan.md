@@ -33,11 +33,16 @@ Agreed direction, pending a design doc (Workstream 0). Mockup: https://claude.ai
 
 ## What's Built
 
-- **Content:** A1 units 1–21 authored (lesson JSON in `frontend/src/data/units/`). Needs a quality audit (see Known Quality Issues) and a coverage check against a sourced A1 inventory.
-- **Learning:** lessons with grammar tips, 8 exercise types (multiple_choice, type_answer, arrange_words, fill_blank, cloze, match_pairs, read_aloud, free_form), retry of missed exercises, skip button, FSRS review, test-out per unit.
+*Status as of 2026-10-08. Open work is tracked as GitHub issues (#62–#81).*
+
+- **App structure:** Today, Library (chapters and words), Grammar, Progress; lessons, grammar practice and reviews as full-screen sessions. No visible tree. Design system with a single token source ([design-system.md](design-system.md)).
+- **Course:** grammar units and chapters interleaved, in the order in `frontend/src/data/course.ts`. Written and reviewed so far: grammar units 1–7 of 16 (First phrases, essere, numbers, avere, nouns & articles, regular verbs, irregular verbs & modals) and chapters 1–4. Chapters 5–21 exist from before the redesign and are listed as "Under construction" until reworked.
+- **Grammar units:** a textbook-depth reading with practice stops inside it and a mastery check; progress saved per unit. Not yet in reviews (#67).
+- **Lessons:** a "New in this lesson" word list, then exercises ordered recognise → recall → produce; reading lessons with the text beside the questions; single-text writing lessons (AI feedback) that earn the chapter's stamp; speaking lessons. 11 exercise types, including "Your line" dialogues, transformation and fix-the-mistake.
+- **Quality:** `npm run check:content` (taught before used, word lists, structure, accepted answers, style, Profilo A1 coverage); AI review of units 1–7 in [reviews/](reviews/); misplaced content kept in `data/pool/`. No tests or CI yet (#80, #81).
 - **Backend:** FastAPI + PostgreSQL + Clerk auth. Progress and SRS cards live server-side.
-- **AI:** Claude fallback for answers local validation rejects (with verdict cache), AI grading of free-form writing, Google Speech-to-Text for read-aloud.
-- **Motivation & UI:** XP and levels, streaks with calendar, unit mastery from SRS state, winding path with CEFR banners and completion animations, word bank, stats and profile pages.
+- **AI:** Claude Haiku as fallback for answers local validation rejects (with verdict cache), Claude Sonnet for feedback on free-form writing, Google Speech-to-Text for read-aloud.
+- **Progress:** words known, grammar tiles, chapter stamps on a postcard, streak; word bank and profile pages. XP, levels and the winding path are gone.
 - **Removed:** section checkpoints (test-out covers skipping; badges exist in the data model but nothing awards them now).
 
 ## Content Quality Philosophy
@@ -68,17 +73,13 @@ To audit and fix systematically (see Workstream 5):
 
 Parallel-ish tracks. Rough priority order, but they interleave.
 
-### 0. Structure redesign (next)
+### 0. Structure redesign (done)
 
-Turn the Product Shape above into a design doc, then build it.
-- **Design doc:** content model (chapter, grammar unit, word set, exercise), the dependency graph, how Today picks a session, grammar items in SRS, coverage metrics, what happens to XP/streaks/test-out.
-- **UI direction:** decided; see [design-system.md](design-system.md). Tokens are in `frontend/src/index.css`. Existing components still use raw colours (`npm run lint:tokens`) and get migrated as screens are rebuilt.
-- **A1 grammar units:** decide the ~10 A1 units, then write them at textbook depth, using the existing grammar tips as raw material. Have an Italian source (or speaker) check the nuances.
-- **New exercise types** (see [exercise-generation-guide.md](exercise-generation-guide.md), Exercise Types): transformation, structured input ("whose is it?"), find the mistake, full-sentence translation, dialogue completion. Listening and speaking types follow the audio pipeline (2b).
+Built in September–October 2026: the app structure, the design system, the grammar unit format, the chapter format and the content check. What remains from it is tracked as issues: grammar in reviews (#67), the recommended course in Today (#73), and structured input and the audio exercise types (with #68).
 
 ### 1. Finish and audit A1
 
-The A1 design is in [a1-curriculum-plan.md](a1-curriculum-plan.md): form-first foundations (units 1–5), then situational units, each with a focus-on-form lesson and a **written capstone lesson** (required to complete the unit). Content for units 1–21 exists.
+The course order is in `frontend/src/data/course.ts` and the grammar units in [a1-grammar-inventory.md](a1-grammar-inventory.md). The older chapter-first A1 design is in [a1-curriculum-plan.md](a1-curriculum-plan.md) (partly superseded): form-first foundations (units 1–5), then situational units, each with a focus-on-form lesson and a **written capstone lesson** (required to complete the unit). Content for units 1–21 exists.
 
 - **Review existing content** with a stronger model: accuracy, naturalness, distractor quality, forward-reaching vocabulary/grammar (see Known Quality Issues).
 - **Check coverage** against a sourced A1 inventory (Workstream 4): which A1 grammar points and lemmas are taught, which are missing, which are taught but belong to a higher level.
@@ -263,6 +264,14 @@ Not a money-making project: the aim is an open, free platform. Costs have to sta
 - (2026-09-29) Proposed: no visible tree; chapters + separate grammar section + time-budgeted Today plan + coverage-based progress. Pending design doc.
 - (2026-09-29) Grammar is taught as whole systems in one sitting, at textbook depth, then maintained through SRS. Bite-sized is for maintenance only.
 - (2026-09-29) Desktop first. Mobile design is out of scope for now.
+- (2026-10-02) Grammar is written "simple, but true" (name exceptions, flag simplifications, check rules against Treccani / Crusca) and each unit's form follows its content; see the authoring guide, rules 9 and 10.
+- (2026-10-02) Quality pipeline: automatic content check on every change → AI review per unit → hands-on play-through (#62) → testers' error data. Native-speaker review when someone is available.
+- (2026-10-01) Numbers 0–100 is its own early grammar unit (before avere); the present tense is split into regular verbs and irregular verbs & modals. A1 has 16 grammar units.
+- (2026-10-01) Who pays: the maintainer covers capped text AI; voice needs the learner's own key (section 6b).
+- (2026-09-30) Lessons: every word is introduced on a new-words list before it's asked for; exercises run recognise → recall → produce. Typed recall replaces "What does X mean?" multiple choice (production beats recognition, Webb 2009; Italian → English first for new words; multiple choice only with plausible options, Little & Bjork 2012).
+- (2026-09-30) Accepted answers: one model answer, the AI check judges variants; effort goes into validating the AI's verdicts (#72), not listing every translation.
+- (2026-09-30) No grammar tips in lessons; explanations live in grammar units. Speaking and long-form writing are separate lessons in their own chapter sections. Misplaced good content goes to `data/pool/`.
+- (2026-09-30) Grammar decides the order; chapters are built around it and interleave with the units (`course.ts`). Existing chapters are never fixed and can be restructured freely.
 - (2026-09-29) Visual direction: Olivetti colour and type (Archivo) with Mediterranean tiles and stamps; calm UI with background shapes; one token source in `index.css`. See design-system.md.
 
 - A1 opens with form-first foundations (units 1–5), then moves to situational (notional-functional) units.

@@ -16,3 +16,6 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 *.sw?
+
+# Authoring tool output
+tools/authoring/out/
