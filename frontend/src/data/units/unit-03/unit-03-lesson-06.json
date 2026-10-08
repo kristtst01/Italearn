@@ -1,0 +1,160 @@
+{
+  "id": "unit-03-lesson-06",
+  "unit_id": "unit-03",
+  "name": "Where's the Passport?",
+  "order": 6,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where are Emma and Marta?" },
+      "sentence_context": "",
+      "correct_answer": "At the station in Florence",
+      "distractors": ["At the station in Rome", "In class", "At a bar"],
+      "hints": ["Sono in stazione, a…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where are they travelling to?" },
+      "sentence_context": "",
+      "correct_answer": "Rome",
+      "distractors": ["Florence", "London"],
+      "hints": ["Due biglietti per…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is Emma carrying?" },
+      "sentence_context": "",
+      "correct_answer": "A backpack and a bag",
+      "distractors": ["Two backpacks", "Only a bag"],
+      "hints": ["Uno zaino e una borsa."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Emma has the tickets." },
+      "sentence_context": "",
+      "correct_answer": "True",
+      "distractors": ["False"],
+      "hints": ["Ecco i biglietti."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What can't Emma find?" },
+      "sentence_context": "",
+      "correct_answer": "Her passport",
+      "distractors": ["Her wallet", "Her keys", "Her phone"],
+      "hints": ["Dov'è il passaporto?"],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which of these is in Emma's bag?" },
+      "sentence_context": "",
+      "correct_answer": "Her glasses",
+      "distractors": ["Her computer", "An umbrella", "Two notebooks"],
+      "hints": ["Nella borsa ci sono…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is in the backpack?" },
+      "sentence_context": "",
+      "correct_answer": "A computer, an umbrella, two notebooks and three pencils",
+      "distractors": ["A computer, two books and a pen", "An umbrella, the keys and three pencils"],
+      "hints": ["Nello zaino c'è…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-06-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why doesn't the credit card help?" },
+      "sentence_context": "",
+      "correct_answer": "It isn't an identity document",
+      "distractors": ["Emma doesn't have it with her", "It is in the backpack"],
+      "hints": ["Non è un documento!"],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-06-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is the passport in the end?" },
+      "sentence_context": "",
+      "correct_answer": "In Emma's hand",
+      "distractors": ["In the bag", "In the backpack", "Marta has it"],
+      "hints": ["In mano."],
+      "target_words": ["in mano"]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Marta say Emma needs?" },
+      "sentence_context": "",
+      "correct_answer": "A coffee",
+      "distractors": ["A new bag", "More time"],
+      "hints": ["Hai bisogno di…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-06-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quante matite ci sono nello zaino?" },
+      "sentence_context": "Quante matite ci sono nello zaino?",
+      "correct_answer": ["tre", "ci sono tre matite"],
+      "distractors": [],
+      "hints": ["Look at what's in the backpack."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-06-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dov'è il passaporto?" },
+      "sentence_context": "Dov'è il passaporto?",
+      "correct_answer": ["in mano", "è in mano", "Emma ha il passaporto in mano"],
+      "distractors": [],
+      "hints": ["Where Emma is holding it."],
+      "target_words": ["in mano"]
+    },
+    {
+      "id": "unit-03-lesson-06-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Emma e Marta hanno tempo?" },
+      "sentence_context": "Emma e Marta hanno tempo?",
+      "correct_answer": ["sì, hanno tempo", "sì"],
+      "distractors": [],
+      "hints": ["Yes or no, then the loro form of avere."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "in stazione", "meaning": "at the station", "example": "Emma è in stazione.", "phrase": true },
+    { "word": "in mano", "meaning": "in your hand", "example": "Ho il biglietto in mano.", "phrase": true }
+  ],
+  "reading": {
+    "title": "Dov'è il passaporto?",
+    "paragraphs": ["Oggi Emma e Marta sono in stazione, a Firenze. Hanno due biglietti per Roma. Emma ha uno zaino e una borsa. Marta ha uno zaino.", "Marta: Emma, hai i biglietti?", "Emma: Sì, ecco i biglietti: uno, due. Ma… un momento. Dov'è il passaporto?", "Marta: Non è nella borsa?", "Emma: No. Nella borsa ci sono le chiavi, il portafoglio, gli occhiali e un libro. C'è anche una penna. Il passaporto non c'è!", "Marta: E nello zaino? Che cosa c'è?", "Emma: Nello zaino c'è il computer, c'è un ombrello e ci sono due quaderni. Ci sono anche tre matite… Il passaporto non c'è. Oh, no!", "Marta: Hai un documento?", "Emma: Ho la carta di credito. Non è un documento!", "Marta: Emma… che cosa hai in mano?", "Emma: In mano? Ho il cellulare e… il passaporto! Scusa, Marta. Oggi sono un po' stanca.", "Marta: Non è un problema. Abbiamo tempo, e tu hai bisogno di un caffè!"]
+  }
+}

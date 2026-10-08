@@ -1,0 +1,21 @@
+{
+  "id": "unit-03-lesson-09",
+  "unit_id": "unit-03",
+  "name": "My Home",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe your home: how many rooms there are, which rooms, and one or two things in them." },
+      "sentence_context": "",
+      "correct_answer": "Ho un appartamento a Londra. Ci sono tre stanze: il soggiorno, la cucina e la camera. In camera c'è un letto e in soggiorno c'è la televisione. Non c'è un giardino.",
+      "distractors": [],
+      "hints": ["Ci sono… stanze, then in cucina c'è…, in camera c'è…"],
+      "target_words": ["stanza"]
+    }
+  ],
+  "vocabulary": []
+}

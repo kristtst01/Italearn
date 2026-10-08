@@ -1,0 +1,151 @@
+{
+  "id": "unit-03-lesson-07",
+  "unit_id": "unit-03",
+  "name": "A Flat in Florence",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-07-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who is Keiko?" },
+      "sentence_context": "",
+      "correct_answer": "A Japanese engineer",
+      "distractors": ["A Japanese student", "An Italian teacher"],
+      "hints": ["È giapponese… ed è ingegnere."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-07-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Keiko need?" },
+      "sentence_context": "",
+      "correct_answer": "A flat in Florence",
+      "distractors": ["A job in Florence", "A hotel in Rome"],
+      "hints": ["Ha bisogno di…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-07-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How many rooms does the flat have?" },
+      "sentence_context": "",
+      "correct_answer": "Two",
+      "distractors": ["One", "Three", "Four"],
+      "hints": ["Ci sono due stanze."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-07-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is the kitchen?" },
+      "sentence_context": "",
+      "correct_answer": "In the living room",
+      "distractors": ["In the bedroom", "There is no kitchen"],
+      "hints": ["La cucina è qui, in soggiorno."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is there in the kitchen?" },
+      "sentence_context": "",
+      "correct_answer": "A table, two chairs and a television",
+      "distractors": ["Two tables and a chair", "A table and two windows"],
+      "hints": ["C'è un tavolo e ci sono…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is there in the bedroom?" },
+      "sentence_context": "",
+      "correct_answer": "A bed and two windows",
+      "distractors": ["Two beds and a window", "A bed and a shower"],
+      "hints": ["In camera c'è…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-07-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: there is a pharmacy in the square." },
+      "sentence_context": "",
+      "correct_answer": "True",
+      "distractors": ["False"],
+      "hints": ["C'è una farmacia in piazza."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-07-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is the 'garden'?" },
+      "sentence_context": "",
+      "correct_answer": "A plant on the table",
+      "distractors": ["A park near the flat", "A large garden behind the house"],
+      "hints": ["È una pianta!"],
+      "target_words": ["pianta"]
+    },
+    {
+      "id": "unit-03-lesson-07-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Keiko decide?" },
+      "sentence_context": "",
+      "correct_answer": "She'll take the flat, because it is in the centre",
+      "distractors": ["She won't take it, because it is small", "She'll look for a flat with a garden"],
+      "hints": ["Ma è in centro. D'accordo!"],
+      "target_words": ["centro"]
+    },
+    {
+      "id": "unit-03-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quante stanze ci sono?" },
+      "sentence_context": "Quante stanze ci sono?",
+      "correct_answer": ["due", "ci sono due stanze"],
+      "distractors": [],
+      "hints": ["Mrs Bianchi says so at the start."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-07-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dov'è il giardino?" },
+      "sentence_context": "Dov'è il giardino?",
+      "correct_answer": ["sul tavolo", "è sul tavolo"],
+      "distractors": [],
+      "hints": ["Mrs Bianchi points at it."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-07-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Com'è l'appartamento?" },
+      "sentence_context": "Com'è l'appartamento?",
+      "correct_answer": ["è piccolo", "piccolo", "è piccolo, ma è in centro"],
+      "distractors": [],
+      "hints": ["Keiko says it at the end."],
+      "target_words": ["piccolo"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "via", "meaning": "street, road · in via Roma = in Via Roma", "example": "C'è un bar in via Roma." },
+    { "word": "pianta", "meaning": "plant", "example": "In soggiorno ci sono due piante." },
+    { "word": "piccolo", "meaning": "small", "example": "Il bagno è piccolo." },
+    { "word": "centro", "meaning": "centre · in centro = in the centre, in town", "example": "Il bar è in centro." }
+  ],
+  "reading": {
+    "title": "Un appartamento a Firenze",
+    "paragraphs": ["Keiko è giapponese, di Tokyo, ed è ingegnere. Adesso è a Firenze e ha bisogno di un appartamento. Oggi è in via Roma, in un appartamento in centro. C'è anche la signora Bianchi.", "Signora Bianchi: Buongiorno! Ecco l'appartamento. Ci sono due stanze: la camera e il soggiorno.", "Keiko: E la cucina?", "Signora Bianchi: La cucina è qui, in soggiorno. Ecco: c'è un tavolo e ci sono due sedie. C'è anche la televisione.", "Keiko: Bene. In camera c'è il letto?", "Signora Bianchi: Certo! In camera c'è un letto e ci sono due finestre. E in bagno c'è la doccia.", "Keiko: C'è una farmacia qui vicino?", "Signora Bianchi: Sì, c'è una farmacia in piazza. E ci sono due bar.", "Keiko: Bene. E il giardino? Dov'è il giardino?", "Signora Bianchi: Il giardino è qui, sul tavolo!", "Keiko: Sul tavolo? Ma… è una pianta!", "Signora Bianchi: Sì. È un giardino un po' piccolo.", "Keiko: Va bene, signora. L'appartamento è piccolo e il giardino è molto piccolo… ma è in centro. D'accordo!"]
+  }
+}

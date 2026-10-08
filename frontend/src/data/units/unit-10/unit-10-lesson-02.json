@@ -1,0 +1,203 @@
+{
+  "id": "unit-10-lesson-02",
+  "unit_id": "unit-10",
+  "name": "At Work",
+  "order": 2,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-10-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'ospedale' mean?" },
+      "sentence_context": "Paul lavora in ospedale.",
+      "correct_answer": ["hospital"],
+      "distractors": [],
+      "hints": ["Where a doctor works."],
+      "target_words": ["ospedale"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'collega' mean?" },
+      "sentence_context": "Ho un collega francese.",
+      "correct_answer": ["colleague", "coworker", "co-worker"],
+      "distractors": [],
+      "hints": ["Someone you work with."],
+      "target_words": ["collega"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'insegna' mean?" },
+      "sentence_context": "Giulia insegna italiano.",
+      "correct_answer": ["teaches", "she teaches"],
+      "distractors": [],
+      "hints": ["What an insegnante does."],
+      "target_words": ["insegnare"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "At a dinner, you talk to a man your parents' age. You ask where he works:" },
+      "sentence_context": "",
+      "correct_answer": "Dove lavora?",
+      "distractors": ["Dove lavori?", "Dove lavorate?"],
+      "hints": ["An older stranger: the Lei form."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-02-ex-05",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Marco works in a bank." },
+      "sentence_context": "Marco lavora in ___.",
+      "correct_answer": "banca",
+      "distractors": [],
+      "hints": ["In banca, with no article."],
+      "target_words": ["banca"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Chloé è cameriera. Dove lavora?" },
+      "sentence_context": "Chloé è cameriera. Dove lavora?",
+      "correct_answer": "Lavora in un bar.",
+      "distractors": ["Lavora in ospedale.", "Lavora in banca."],
+      "hints": ["Where does a waitress work?"],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-02-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: We work in an office in the centre." },
+      "sentence_context": "___ in ufficio, in centro.",
+      "correct_answer": "Lavoriamo",
+      "distractors": [],
+      "hints": ["The noi form of lavorare."],
+      "target_words": ["ufficio"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The children are at school." },
+      "sentence_context": "I bambini sono a ___.",
+      "correct_answer": "scuola",
+      "distractors": [],
+      "hints": ["A scuola, with no article."],
+      "target_words": ["scuola"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Giulia is a teacher. She says:" },
+      "sentence_context": "",
+      "correct_answer": "Insegno italiano in una scuola.",
+      "distractors": ["Insegna italiano in una scuola.", "Insegno italiano in un scuola."],
+      "hints": ["She is talking about herself, and scuola is feminine."],
+      "target_words": ["insegnare", "scuola"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-10",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: They work in a factory." },
+      "sentence_context": "Lavorano in ___.",
+      "correct_answer": "fabbrica",
+      "distractors": [],
+      "hints": ["In fabbrica, with no article."],
+      "target_words": ["fabbrica"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-11",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You meet a friend's friend, about your age." },
+      "sentence_context": "Luca: Che lavoro fai?\nYou: ___",
+      "correct_answer": ["Sono impiegato. Lavoro in banca.", "Sono insegnante. Lavoro in una scuola."],
+      "distractors": [],
+      "hints": ["Your job, then where: lavoro in…"],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Luca", "text": "Che lavoro fai?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-12",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Mrs Bianchi, your landlady, makes conversation." },
+      "sentence_context": "Signora Bianchi: Lei dove lavora?\nYou: ___",
+      "correct_answer": ["Lavoro in un ufficio in centro.", "Lavoro in ospedale. Sono medico."],
+      "distractors": [],
+      "hints": ["Lavoro in…"],
+      "target_words": ["ufficio"],
+      "dialogue": [
+        { "speaker": "Signora Bianchi", "text": "Lei dove lavora?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-13",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I work in a restaurant in the centre.'" },
+      "sentence_context": "Lavoro in un ristorante in centro.",
+      "correct_answer": ["Lavoro", "in", "un", "ristorante", "in", "centro."],
+      "distractors": ["lavora", "una"],
+      "hints": ["Ristorante is masculine: un."],
+      "target_words": ["ristorante"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend where they work." },
+      "sentence_context": "",
+      "correct_answer": ["dove lavori"],
+      "distractors": [],
+      "hints": ["The tu form of lavorare."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say Paul works in a hospital." },
+      "sentence_context": "",
+      "correct_answer": ["Paul lavora in ospedale", "Paul lavora in un ospedale"],
+      "distractors": [],
+      "hints": ["The lui form of lavorare."],
+      "target_words": ["ospedale"]
+    },
+    {
+      "id": "unit-10-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you aren't working tomorrow." },
+      "sentence_context": "",
+      "correct_answer": ["domani non lavoro", "non lavoro domani"],
+      "distractors": [],
+      "hints": ["The present with domani."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "ufficio", "meaning": "office · in ufficio = at the office", "example": "Lavoro in ufficio." },
+    { "word": "banca", "meaning": "bank · in banca = at the bank, in a bank", "example": "Marco lavora in banca." },
+    { "word": "ospedale", "meaning": "hospital · in ospedale = in hospital", "example": "Paul lavora in ospedale." },
+    { "word": "fabbrica", "meaning": "factory · in fabbrica = in a factory", "example": "Lavorano in fabbrica." },
+    { "word": "scuola", "meaning": "school · a scuola = at school", "example": "I bambini sono a scuola." },
+    { "word": "ristorante", "meaning": "restaurant", "example": "Lavoro in un ristorante." },
+    { "word": "collega", "meaning": "colleague (il collega, la collega · i colleghi, le colleghe)", "example": "Ho un collega francese." },
+    { "word": "insegnare", "meaning": "to teach", "example": "Giulia insegna italiano." }
+  ]
+}

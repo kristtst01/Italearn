@@ -55,9 +55,9 @@ Grammar comes first: the unit order below is decided on its own merits (dependen
 | 5 | Nouns & the article system | Gender, -e nouns, invariables, plurals, all articles, c'è / ci sono | 5 (Things) |
 | 6 | The present tense: regular verbs | -are, -ere, -ire and -isc- verbs; spelling (cerchi, studi); using the present for now and the near future | 7, 9, 10, 12 |
 | 7 | The present tense: irregular verbs & modals | fare, andare, stare, venire, uscire, dare, bere, dire, sapere; volere, potere, dovere; vorrei; per + infinitive | 9, 10, 12, 15 |
-| 8 | Questions, negation & linking | Question words, word order, non, double negatives, frequency, e/ma/perché/quando | 11 |
-| 9 | Adjectives, demonstratives & quantities | Agreement, position, nationalities, questo/quello, molto/poco/tanto/tutto/qualche, nessuno/niente | 6, 7, 17 |
-| 10 | Prepositions | Simple, a vs in with places, articulated, partitives, transport | 13, 14, 16 |
+| 8 | Prepositions | Simple, a vs in with places, articulated, partitives, transport | 13, 14, 16 |
+| 9 | Questions, negation & linking | Question words, word order, non, double negatives, frequency, e/ma/perché/quando | 11 |
+| 10 | Adjectives, demonstratives & quantities | Agreement, position, nationalities, questo/quello, molto/poco/tanto/tutto/qualche, nessuno/niente | 6, 7, 17 |
 | 11 | Time & dates | Ordinals, telling the time, days, months, seasons, dates | 9, 19 |
 | 12 | Possessive adjectives | Forms, agreement, the article, the family rule, Suo | 8 |
 | 13 | Piacere | Mi piace/piacciono, indirect pronouns with piacere, piacere + infinitive, preferire | 18 |
@@ -67,7 +67,9 @@ Grammar comes first: the unit order below is decided on its own merits (dependen
 
 Why this order:
 - The present tense comes straight after essere, avere and nouns, because almost every later unit needs working verbs. It's split in two (regular verbs, then irregular verbs and modals), like essere and avere, so each mastery check tests one thing.
-- Questions and negation follow straight after, since they only need the present.
+- Prepositions follow straight after the present tense (moved up from tenth, 2026-10-08). Articulated prepositions are a preposition plus an article, so they build directly on the articles unit, and their main uses need *andare* and *venire* from the irregular verbs unit. They unlock places, directions, transport and food, and standard courses explain them about halfway through A1 (*Nuovo Espresso 1* does it in lesson 5 of 10, before adjective agreement). Chapters before this unit use simple prepositions as vocabulary and a few articulated ones as fixed phrases (*sul tavolo*, *al bar*).
+- The Prepositions unit opens from what the learner already says. By then the chapters have used articulated prepositions as fixed phrases, so the reading can start with them ("you've been saying *al bar*, *sul tavolo*, *nella borsa*: here's what's inside them") and the table of forms organises things already known by ear. The chapters before the unit therefore seed phrases on purpose, spread across the prepositions and article forms. Seeded so far: *al bar*, *al banco*, *al tavolo*, *all'università*, *all'italiana* (a); *nella borsa*, *nello zaino*, *nel tempo libero* (in); *sul tavolo* (su); and *di* for quantities (*un bicchiere di vino*, *una bottiglia d'acqua*), which the partitives build on. Not seeded: *di* and *da* with an article (*del*, *dal medico*) and plural forms (*alle otto*, *ai bambini*, *negli Stati Uniti*), so the unit introduces those itself.
+- Questions and negation, then adjectives, come next. Both only need the present, and both are lighter.
 - Numbers 0–100 come third, before avere, in the same order as their chapters. The unit uses no verbs beyond essere; ages as sentences (*Ho 25 anni*) are taught in the avere unit, and chapter 3 (Numbers & Age) follows both.
 - Time and dates come after prepositions, because telling the time and giving dates use articulated prepositions (alle tre, dal lunedì).
 - Piacere comes before reflexives: it is more useful early and introduces the pronoun placement that reflexives reuse.

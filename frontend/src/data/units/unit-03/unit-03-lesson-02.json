@@ -1,0 +1,193 @@
+{
+  "id": "unit-03-lesson-02",
+  "unit_id": "unit-03",
+  "name": "In Class",
+  "order": 2,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'quaderno' mean?" },
+      "sentence_context": "Ho un quaderno e una penna.",
+      "correct_answer": ["notebook", "exercise book"],
+      "distractors": [],
+      "hints": ["You write in it."],
+      "target_words": ["quaderno"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'domanda' mean?" },
+      "sentence_context": "Scusi, ho una domanda.",
+      "correct_answer": ["question"],
+      "distractors": [],
+      "hints": ["What you ask."],
+      "target_words": ["domanda"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'parole' mean?" },
+      "sentence_context": "Ci sono dieci parole.",
+      "correct_answer": ["words"],
+      "distractors": [],
+      "hints": ["Una parola, due parole."],
+      "target_words": ["parola"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "In class, there is something you'd like to ask Giulia, the teacher. You say:" },
+      "sentence_context": "",
+      "correct_answer": "Scusi, ho una domanda.",
+      "distractors": ["Scusi, sono una domanda.", "Scusi, ho una risposta."],
+      "hints": ["You ask a domanda and get a risposta."],
+      "target_words": ["domanda"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-05",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: There are two computers in the classroom." },
+      "sentence_context": "In classe ci sono due ___.",
+      "correct_answer": "computer",
+      "distractors": [],
+      "hints": ["Words that end in a consonant don't change in the plural."],
+      "target_words": ["computer", "classe"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Giulia asks what is on your table: two notebooks and a pencil. You answer:" },
+      "sentence_context": "",
+      "correct_answer": "Ci sono due quaderni e una matita.",
+      "distractors": ["C'è due quaderni e una matita.", "Ci sono due quaderno e una matita."],
+      "hints": ["More than one thing: ci sono, and the plural in -i."],
+      "target_words": ["quaderno", "matita"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The students are in class." },
+      "sentence_context": "___ studenti sono in classe.",
+      "correct_answer": "Gli",
+      "distractors": [],
+      "hints": ["Before s + consonant, the plural article is gli."],
+      "target_words": ["classe"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The answer is yes." },
+      "sentence_context": "La ___ è sì.",
+      "correct_answer": "risposta",
+      "distractors": [],
+      "hints": ["The opposite of domanda."],
+      "target_words": ["risposta"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-09",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The lesson is starting and your classmate has nothing to write with." },
+      "sentence_context": "Classmate: Hai una penna?\nYou: ___",
+      "correct_answer": ["Sì, ecco la penna.", "No, mi dispiace. Ho una matita."],
+      "distractors": [],
+      "hints": ["Hand it over with ecco, or say what you have."],
+      "target_words": ["matita"],
+      "dialogue": [
+        { "speaker": "Classmate", "text": "Hai una penna?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Giulia hands out today's work and says 'Here are the exercises.' In Italian:" },
+      "sentence_context": "",
+      "correct_answer": "Ecco gli esercizi.",
+      "distractors": ["Ecco i esercizi.", "Ecco l'esercizi."],
+      "hints": ["Before a vowel, the masculine plural article is gli."],
+      "target_words": ["esercizio"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-11",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Giulia has finished explaining." },
+      "sentence_context": "Giulia: Ci sono domande?\nYou: ___",
+      "correct_answer": ["Sì, ho una domanda.", "No, grazie."],
+      "distractors": [],
+      "hints": ["Say you have one, or say no."],
+      "target_words": ["domanda"],
+      "dialogue": [
+        { "speaker": "Giulia", "text": "Ci sono domande?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-12",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'There are ten chairs and one table.'" },
+      "sentence_context": "Ci sono dieci sedie e un tavolo.",
+      "correct_answer": ["Ci", "sono", "dieci", "sedie", "e", "un", "tavolo."],
+      "distractors": ["c'è", "sedia"],
+      "hints": ["Sedia, sedie."],
+      "target_words": ["sedia"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a classmate if they have a pencil." },
+      "sentence_context": "",
+      "correct_answer": ["hai una matita"],
+      "distractors": [],
+      "hints": ["Matita is feminine: una."],
+      "target_words": ["matita"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say there's a chair here." },
+      "sentence_context": "",
+      "correct_answer": ["c'è una sedia qui", "qui c'è una sedia"],
+      "distractors": [],
+      "hints": ["One thing: c'è."],
+      "target_words": ["sedia"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say the notebooks are here." },
+      "sentence_context": "",
+      "correct_answer": ["i quaderni sono qui"],
+      "distractors": [],
+      "hints": ["Il quaderno, i quaderni."],
+      "target_words": ["quaderno"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "classe", "meaning": "class, classroom (feminine: la classe) · in classe = in class", "example": "In classe ci sono dieci studenti." },
+    { "word": "quaderno", "meaning": "notebook, exercise book", "example": "Ho un quaderno e una penna." },
+    { "word": "matita", "meaning": "pencil", "example": "Hai una matita?" },
+    { "word": "computer", "meaning": "computer (no change in the plural: i computer)", "example": "In classe ci sono due computer." },
+    { "word": "sedia", "meaning": "chair", "example": "C'è una sedia qui." },
+    { "word": "esercizio", "meaning": "exercise (l'esercizio, gli esercizi)", "example": "Oggi ci sono tre esercizi." },
+    { "word": "parola", "meaning": "word", "example": "Ci sono dieci parole." },
+    { "word": "domanda", "meaning": "question · ho una domanda = I have a question", "example": "Scusi, ho una domanda." },
+    { "word": "risposta", "meaning": "answer", "example": "La risposta è sì." }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "unit-10-lesson-07",
+  "unit_id": "unit-10",
+  "name": "The Colleague",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-10-lesson-07-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is Paul?" },
+      "sentence_context": "",
+      "correct_answer": "In a bar in Rome",
+      "distractors": ["In a hospital in Rome", "At home"],
+      "hints": ["Prende un caffè in…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is the other man doing?" },
+      "sentence_context": "",
+      "correct_answer": "Reading the newspaper and waiting for a sandwich",
+      "distractors": ["Writing an email", "Waiting for a colleague"],
+      "hints": ["Legge… e aspetta…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is Paul from?" },
+      "sentence_context": "",
+      "correct_answer": "Chicago",
+      "distractors": ["New York", "London"],
+      "hints": ["Sono americano, di…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How long has Paul lived in Rome?" },
+      "sentence_context": "",
+      "correct_answer": "Two years",
+      "distractors": ["Two months", "Two weeks"],
+      "hints": ["Da due anni."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where does Paul work?" },
+      "sentence_context": "",
+      "correct_answer": "In a hospital near the bar",
+      "distractors": ["In an office in the centre", "In a bar"],
+      "hints": ["Lavoro in…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Marco is a doctor too." },
+      "sentence_context": "",
+      "correct_answer": "True",
+      "distractors": ["False"],
+      "hints": ["Anche io sono…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What do both men say about their work?" },
+      "sentence_context": "",
+      "correct_answer": "They work every day",
+      "distractors": ["They work in an office", "They have a lot of free time"],
+      "hints": ["Lavoro… ogni giorno."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Chloé point out?" },
+      "sentence_context": "",
+      "correct_answer": "The two men have been colleagues for two years",
+      "distractors": ["The two men live together", "Marco is American too"],
+      "hints": ["Siete colleghi…"],
+      "target_words": ["collega"]
+    },
+    {
+      "id": "unit-10-lesson-07-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why didn't the two men know each other?" },
+      "sentence_context": "",
+      "correct_answer": "The hospital is very big, and they have no time",
+      "distractors": ["Paul is new in Rome", "Marco works in a bank"],
+      "hints": ["È un ospedale molto grande!"],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa legge Marco?" },
+      "sentence_context": "Che cosa legge Marco?",
+      "correct_answer": ["il giornale", "legge il giornale"],
+      "distractors": [],
+      "hints": ["Legge…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Da quanto tempo Marco lavora in ospedale?" },
+      "sentence_context": "Da quanto tempo Marco lavora in ospedale?",
+      "correct_answer": ["da due anni", "lavora in ospedale da due anni"],
+      "distractors": [],
+      "hints": ["Da + how long."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dove mangia Paul?" },
+      "sentence_context": "Dove mangia Paul?",
+      "correct_answer": ["in ospedale", "mangia in ospedale"],
+      "distractors": [],
+      "hints": ["Mangia in…"],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Il collega",
+    "paragraphs": ["È sera. Paul prende un caffè in un bar a Roma. Chloé, la cameriera, lavora. C'è anche un uomo: legge il giornale e aspetta un panino.", "Uomo: Buonasera. Scusi, Lei è di qui?", "Paul: No, sono americano, di Chicago. Ma abito a Roma da due anni.", "Uomo: Parla italiano molto bene! E lavora qui?", "Paul: Grazie! Sì, sono medico. Lavoro in un ospedale qui vicino. E Lei?", "Uomo: Anche io sono medico! E anche io lavoro in un ospedale qui vicino. Mi chiamo Marco, piacere.", "Paul: Piacere, Paul. Da quanto tempo lavora lì?", "Marco: Da due anni. Lavoro molto, ogni giorno. Non ho tempo e non dormo molto!", "Paul: Anche io lavoro ogni giorno. Mangio in ospedale e dormo in ospedale!", "Chloé: Ecco il panino, dottor Rossi. Dottor Rossi, dottor Miller… voi lavorate insieme! Siete colleghi da due anni!", "Paul: Colleghi? Ma… è un ospedale molto grande!", "Marco: E noi non abbiamo tempo!"]
+  }
+}

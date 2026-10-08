@@ -1,0 +1,21 @@
+{
+  "id": "unit-10-lesson-08",
+  "unit_id": "unit-10",
+  "name": "My Life",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-10-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Write about your life: where you live and who with, where you work or what you study, and since when." },
+      "sentence_context": "",
+      "correct_answer": "Abito a Londra, in centro, con due amici. Lavoro in un ufficio da tre anni. Studio italiano da sei mesi: ho un corso ogni settimana.",
+      "distractors": [],
+      "hints": ["Abito…, lavoro…, studio…, each with da + how long."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,150 @@
+{
+  "id": "unit-23-lesson-07",
+  "unit_id": "unit-23",
+  "name": "Breakfast, Italian Style",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-23-lesson-07-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How long has Marta been in Florence?" },
+      "sentence_context": "",
+      "correct_answer": "A week",
+      "distractors": ["A month", "Two days"],
+      "hints": ["Da una settimana."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-07-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Marta have for breakfast in Madrid?" },
+      "sentence_context": "",
+      "correct_answer": "Bread, an orange juice and a coffee",
+      "distractors": ["A coffee and a croissant", "Only a coffee"],
+      "hints": ["A Madrid la mattina mangio…"],
+      "target_words": ["pane"]
+    },
+    {
+      "id": "unit-23-lesson-07-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where does she have breakfast in Madrid?" },
+      "sentence_context": "",
+      "correct_answer": "At home, at the table, with the newspaper",
+      "distractors": ["At a bar, at the counter", "At work"],
+      "hints": ["Faccio colazione a casa…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-07-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do Italians have breakfast, according to Marta?" },
+      "sentence_context": "",
+      "correct_answer": "A coffee and a croissant, standing at the counter",
+      "distractors": ["Bread and juice at home", "A long breakfast at a table"],
+      "hints": ["Prendono… al banco. Non hanno una sedia!"],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How long does it take?" },
+      "sentence_context": "",
+      "correct_answer": "Two minutes",
+      "distractors": ["Ten minutes", "An hour"],
+      "hints": ["Due minuti…"],
+      "target_words": ["minuto"]
+    },
+    {
+      "id": "unit-23-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: at first, Marta thinks it is a proper breakfast." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["Non è una colazione. È un caffè!"],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-07-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Marta usually prefer in the morning?" },
+      "sentence_context": "",
+      "correct_answer": "Bread",
+      "distractors": ["Something sweet", "Nothing at all"],
+      "hints": ["Io preferisco…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-07-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What happens today?" },
+      "sentence_context": "",
+      "correct_answer": "She has a warm croissant, and it is very good",
+      "distractors": ["She has breakfast at home", "She only has a coffee"],
+      "hints": ["Oggi prendo…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-07-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Marta say when Emma wants to leave?" },
+      "sentence_context": "",
+      "correct_answer": "She'd like another croissant",
+      "distractors": ["She has to pay", "She wants to go home"],
+      "hints": ["Vorrei un altro…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dove fa colazione Marta a Firenze?" },
+      "sentence_context": "Dove fa colazione Marta a Firenze?",
+      "correct_answer": ["al bar", "fa colazione al bar", "al bar con Emma"],
+      "distractors": [],
+      "hints": ["Fa colazione…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-07-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Com'è il cornetto oggi?" },
+      "sentence_context": "Com'è il cornetto oggi?",
+      "correct_answer": ["è buono", "è molto buono", "è caldo", "è caldo e molto buono", "caldo e buono"],
+      "distractors": [],
+      "hints": ["Marta says so herself."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-07-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quanti cornetti vuole Marta domani?" },
+      "sentence_context": "Quanti cornetti vuole Marta domani?",
+      "correct_answer": ["due", "due cornetti", "vuole due cornetti"],
+      "distractors": [],
+      "hints": ["Look at the last line."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "all'italiana", "meaning": "the Italian way, Italian style", "example": "È una colazione all'italiana.", "phrase": true },
+    { "word": "pane", "meaning": "bread", "example": "La mattina mangio pane." },
+    { "word": "minuto", "meaning": "minute", "example": "Ho due minuti." }
+  ],
+  "reading": {
+    "title": "Colazione all'italiana",
+    "paragraphs": ["Lunedì", "Sono a Firenze da una settimana e ho una domanda: gli italiani fanno colazione?", "A Madrid la mattina mangio molto: pane, un succo d'arancia e un caffè. E faccio colazione a casa, al tavolo, con il giornale.", "Qui a Firenze faccio colazione al bar con Emma. Gli italiani prendono un caffè e un cornetto al banco. Non hanno una sedia! Bevono il caffè, mangiano il cornetto, pagano e vanno a lavorare. Due minuti, e la colazione finisce.", "Emma dice: «È la colazione all'italiana!» Io dico: «Non è una colazione. È un caffè!» E il cornetto è dolce. La mattina io preferisco il pane.", "Ma oggi prendo un cornetto caldo, con un cappuccino. È buono? Sì. È molto buono.", "Emma paga e dice: «Andiamo a lezione?» Io rispondo: «Un momento. Vorrei un altro cornetto.»", "Domani faccio colazione all'italiana. Ma con due cornetti!"]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "unit-23-lesson-10",
+  "unit_id": "unit-23",
+  "name": "Say It Out Loud",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-23-lesson-10-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Vorrei un caffè, per favore.",
+      "correct_answer": "Vorrei un caffè, per favore.",
+      "distractors": [],
+      "hints": ["Roll the double r in vorrei."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-10-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Voglio una bottiglia d'acqua.",
+      "correct_answer": "Voglio una bottiglia d'acqua.",
+      "distractors": [],
+      "hints": ["Gl in voglio and bottiglia sounds like the 'lli' in 'million'."],
+      "target_words": ["bottiglia"]
+    },
+    {
+      "id": "unit-23-lesson-10-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Vuoi un tè?",
+      "correct_answer": "Vuoi un tè?",
+      "distractors": [],
+      "hints": ["Vuoi is one syllable: \"vwoy\"."],
+      "target_words": ["tè"]
+    },
+    {
+      "id": "unit-23-lesson-10-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Posso pagare con la carta?",
+      "correct_answer": "Posso pagare con la carta?",
+      "distractors": [],
+      "hints": ["Say both s sounds in posso."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-10-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Facciamo colazione al bar.",
+      "correct_answer": "Facciamo colazione al bar.",
+      "distractors": [],
+      "hints": ["Cci sounds like \"chee\", held a little longer."],
+      "target_words": ["colazione"]
+    },
+    {
+      "id": "unit-23-lesson-10-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Quanto costa un cornetto?",
+      "correct_answer": "Quanto costa un cornetto?",
+      "distractors": [],
+      "hints": ["Let your voice rise at the end."],
+      "target_words": ["costare", "cornetto"]
+    },
+    {
+      "id": "unit-23-lesson-10-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Il conto, per favore.",
+      "correct_answer": "Il conto, per favore.",
+      "distractors": [],
+      "hints": ["Asking to pay."],
+      "target_words": ["conto"]
+    },
+    {
+      "id": "unit-23-lesson-10-ex-08",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Non posso, devo lavorare.",
+      "correct_answer": "Non posso, devo lavorare.",
+      "distractors": [],
+      "hints": ["Turning an invitation down."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

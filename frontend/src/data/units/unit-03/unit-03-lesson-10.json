@@ -1,0 +1,23 @@
+{
+  "id": "unit-03-lesson-10",
+  "unit_id": "unit-03",
+  "name": "Before You Book",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-10-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "You are about to book a flat in Florence. Write to the owner, Mrs Bianchi: greet her and ask three things about the flat or what is near it."
+      },
+      "sentence_context": "",
+      "correct_answer": "Buongiorno, signora Bianchi! Ho bisogno di un appartamento a Firenze. Quante camere ci sono? In bagno c'è la doccia? E c'è una farmacia lì vicino? Grazie!",
+      "distractors": [],
+      "hints": ["C'è…? asks if there is one. Quante…? asks how many."],
+      "target_words": ["appartamento"]
+    }
+  ],
+  "vocabulary": []
+}

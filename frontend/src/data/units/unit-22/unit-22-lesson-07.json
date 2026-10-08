@@ -1,0 +1,148 @@
+{
+  "id": "unit-22-lesson-07",
+  "unit_id": "unit-22",
+  "name": "A Day Off",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-22-lesson-07-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is Paul?" },
+      "sentence_context": "",
+      "correct_answer": "At the bar",
+      "distractors": ["At home", "At the hospital"],
+      "hints": ["Prende un caffè…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-07-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why is Paul tired?" },
+      "sentence_context": "",
+      "correct_answer": "He has worked every day for two weeks",
+      "distractors": ["He has not slept for two days", "He has been travelling"],
+      "hints": ["Lavora… ogni giorno, da…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-07-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is Paul's plan for tomorrow?" },
+      "sentence_context": "",
+      "correct_answer": "Sleep, read, listen to music, cook and watch a film",
+      "distractors": ["Work and watch the match", "Travel and visit a museum"],
+      "hints": ["Dormo molto, leggo…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-07-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is happening at the bar tomorrow?" },
+      "sentence_context": "",
+      "correct_answer": "Chloé, Marco and two friends are watching the match",
+      "distractors": ["Chloé is not working", "There is a film on"],
+      "hints": ["Guardiamo la partita qui…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Paul loves football." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["Non amo…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What happens next?" },
+      "sentence_context": "",
+      "correct_answer": "Paul's phone rings",
+      "distractors": ["Chloé puts the match on", "Marco arrives"],
+      "hints": ["Il telefono suona."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-07-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is the problem?" },
+      "sentence_context": "",
+      "correct_answer": "The hospital needs a doctor, so Paul is working tomorrow",
+      "distractors": ["Paul has no time for a coffee", "The film is not on tomorrow"],
+      "hints": ["Hanno bisogno di…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-07-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Paul mean by 'Il film aspetta'?" },
+      "sentence_context": "",
+      "correct_answer": "The film will have to wait",
+      "distractors": ["He is waiting for a film", "The film starts late"],
+      "hints": ["Aspettare = to wait."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-07-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is Paul's new plan for tomorrow evening?" },
+      "sentence_context": "",
+      "correct_answer": "A coffee, a sandwich and the match at the bar",
+      "distractors": ["A film at home", "A book and some music"],
+      "hints": ["Domani sera sono qui…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa preferisce Paul: il calcio o un film?" },
+      "sentence_context": "Che cosa preferisce Paul: il calcio o un film?",
+      "correct_answer": ["un film", "preferisce un film"],
+      "distractors": [],
+      "hints": ["Preferisce…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-07-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dove lavora Paul domani?" },
+      "sentence_context": "Dove lavora Paul domani?",
+      "correct_answer": ["in ospedale", "lavora in ospedale"],
+      "distractors": [],
+      "hints": ["Lavora in…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-07-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Chi guarda la partita al bar?" },
+      "sentence_context": "Chi guarda la partita al bar?",
+      "correct_answer": ["Chloé, Marco e due amici", "Chloé, Marco, due amici e Paul", "Chloé e Marco"],
+      "distractors": [],
+      "hints": ["Chloé says who."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "pronto", "meaning": "hello (answering the phone)", "example": "Pronto? Chi è?", "phrase": true }
+  ],
+  "reading": {
+    "title": "Domani non lavoro",
+    "paragraphs": ["È sera. Paul prende un caffè al bar e parla con Chloé. È stanco: lavora in ospedale ogni giorno, da due settimane.", "Paul: Chloé, domani non lavoro! Dormo molto, leggo un libro e ascolto musica. Cucino… e la sera guardo un film.", "Chloé: Da solo?", "Paul: Sì, da solo. Sono contento!", "Chloé: E la partita? Domani gioca la Roma! Guardiamo la partita qui al bar, con Marco e due amici.", "Paul: No, grazie. Non amo il calcio. Preferisco un film.", "Chloé: Un dottore americano a Roma… e non guarda il calcio!", "Il telefono suona.", "Paul: Pronto? Sì, sono io. Sì… sì… Domani? Capisco. Va bene.", "Chloé: Un problema, dottore?", "Paul: Sì. Domani lavoro. In ospedale hanno bisogno di un medico.", "Chloé: Mi dispiace! E il libro? La musica? Il film?", "Paul: Il film aspetta. Ma domani sera sono qui: un caffè, un panino… e la partita!", "Chloé: Bravo, dottore!"]
+  }
+}

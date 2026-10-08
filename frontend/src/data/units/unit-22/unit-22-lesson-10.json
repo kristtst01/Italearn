@@ -1,0 +1,98 @@
+{
+  "id": "unit-22-lesson-10",
+  "unit_id": "unit-22",
+  "name": "Say It Out Loud",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-22-lesson-10-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Gioco a calcio.",
+      "correct_answer": "Gioco a calcio.",
+      "distractors": [],
+      "hints": ["A hard g, and ci like \"chee\"."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-10-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Giochi a tennis?",
+      "correct_answer": "Giochi a tennis?",
+      "distractors": [],
+      "hints": ["The h keeps the hard k sound: \"jo-kee\"."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-10-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Suono la chitarra.",
+      "correct_answer": "Suono la chitarra.",
+      "distractors": [],
+      "hints": ["Chi sounds like \"key\"."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-10-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Guardano la partita.",
+      "correct_answer": "Guardano la partita.",
+      "distractors": [],
+      "hints": ["Stress the first a: GUARdano."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-10-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Preferiscono un film.",
+      "correct_answer": "Preferiscono un film.",
+      "distractors": [],
+      "hints": ["Sc before o sounds like \"sk\"."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-10-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Nel tempo libero leggo.",
+      "correct_answer": "Nel tempo libero leggo.",
+      "distractors": [],
+      "hints": ["Stress the first syllable of libero."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-10-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "La sera ascoltiamo musica.",
+      "correct_answer": "La sera ascoltiamo musica.",
+      "distractors": [],
+      "hints": ["Sc before o sounds like \"sk\"."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-10-ex-08",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Il fine settimana cucino.",
+      "correct_answer": "Il fine settimana cucino.",
+      "distractors": [],
+      "hints": ["Ci sounds like \"chee\"."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

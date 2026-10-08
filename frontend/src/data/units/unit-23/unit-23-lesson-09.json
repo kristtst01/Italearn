@@ -1,0 +1,21 @@
+{
+  "id": "unit-23-lesson-09",
+  "unit_id": "unit-23",
+  "name": "Coffee Tomorrow?",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-23-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Luca, a friend, has invited you for a coffee tomorrow morning. Write back: say you can't and why, and suggest another time." },
+      "sentence_context": "",
+      "correct_answer": "Ciao Luca! Grazie, ma domani mattina non posso: devo lavorare. Vuoi prendere un caffè domani sera? Offro io! A presto.",
+      "distractors": [],
+      "hints": ["Non posso, devo + a verb. Then vuoi…? for the new suggestion."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

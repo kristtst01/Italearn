@@ -1,0 +1,173 @@
+{
+  "id": "unit-10-lesson-04",
+  "unit_id": "unit-10",
+  "name": "Getting to Know Someone",
+  "order": 4,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-10-lesson-04-ex-01",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "First day of a course. The classmate next to you, about your age, says hello." },
+      "sentence_context": "Classmate: Ciao! Dove abiti?\nYou: ___",
+      "correct_answer": ["Abito in centro, con due amici.", "Abito a Firenze."],
+      "distractors": [],
+      "hints": ["Abito + where."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Classmate", "text": "Ciao! Dove abiti?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-02",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The same classmate is curious about your Italian." },
+      "sentence_context": "Classmate: Da quanto tempo studi italiano?\nYou: ___",
+      "correct_answer": ["Studio italiano da tre mesi.", "Da un anno."],
+      "distractors": [],
+      "hints": ["The present, with da + how long."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Classmate", "text": "Da quanto tempo studi italiano?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You ask the same classmate the question back:" },
+      "sentence_context": "",
+      "correct_answer": "E tu, da quanto tempo studi italiano?",
+      "distractors": ["E Lei, da quanto tempo studia italiano?", "E tu, per quanto tempo studi italiano?"],
+      "hints": ["A classmate your age: tu. How long so far: da."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-04-ex-04",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "In the lift, your new neighbour, an elderly lady, speaks to you." },
+      "sentence_context": "Neighbour: Buongiorno! Lei abita qui?\nYou: ___",
+      "correct_answer": ["Sì, abito qui da un mese.", "Buongiorno! Sì, abito qui."],
+      "distractors": [],
+      "hints": ["Yes, and since when."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Neighbour", "text": "Buongiorno! Lei abita qui?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-05",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "She goes on." },
+      "sentence_context": "Neighbour: E che lavoro fa?\nYou: ___",
+      "correct_answer": ["Sono studente. Studio all'università.", "Lavoro in un ufficio in centro."],
+      "distractors": [],
+      "hints": ["Your job, or where you work or study."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Neighbour", "text": "E che lavoro fa?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You ask the elderly lady whether she works:" },
+      "sentence_context": "",
+      "correct_answer": "E Lei, signora, lavora?",
+      "distractors": ["E tu, signora, lavori?", "E Lei, signora, lavori?"],
+      "hints": ["Lei, with the Lei form of the verb."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-04-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete, to an older stranger: How long have you lived here?" },
+      "sentence_context": "Da quanto tempo ___ qui?",
+      "correct_answer": "abita",
+      "distractors": [],
+      "hints": ["The Lei form of abitare."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-04-ex-08",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake: 'I've been studying Italian for two years.'" },
+      "sentence_context": "Studio italiano per due anni.",
+      "correct_answer": ["Studio italiano da due anni."],
+      "distractors": [],
+      "hints": ["How long so far is da."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-04-ex-09",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake: 'I work in a bank.'" },
+      "sentence_context": "Sono lavoro in banca.",
+      "correct_answer": ["Lavoro in banca."],
+      "distractors": [],
+      "hints": ["The verb is enough on its own."],
+      "target_words": ["banca"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-10",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "At a dinner, a stranger is impressed by your Italian." },
+      "sentence_context": "Stranger: Lei è di qui?\nYou: ___",
+      "correct_answer": ["No, sono inglese. Studio italiano da due anni.", "No, sono di Londra."],
+      "distractors": [],
+      "hints": ["Where you are from, and how long you have studied."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Stranger", "text": "Lei è di qui?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-11",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I've been working here for two weeks.'" },
+      "sentence_context": "Lavoro qui da due settimane.",
+      "correct_answer": ["Lavoro", "qui", "da", "due", "settimane."],
+      "distractors": ["per", "sono"],
+      "hints": ["Still going on: da."],
+      "target_words": ["settimana"]
+    },
+    {
+      "id": "unit-10-lesson-04-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a classmate how long they have lived here." },
+      "sentence_context": "",
+      "correct_answer": ["da quanto tempo abiti qui"],
+      "distractors": [],
+      "hints": ["Da quanto tempo + the tu form."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-04-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask an older woman politely where she works." },
+      "sentence_context": "",
+      "correct_answer": ["scusi, dove lavora", "dove lavora", "Lei dove lavora"],
+      "distractors": [],
+      "hints": ["The Lei form of lavorare."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

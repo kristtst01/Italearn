@@ -1,0 +1,196 @@
+{
+  "id": "unit-03-lesson-03",
+  "unit_id": "unit-03",
+  "name": "At Home",
+  "order": 3,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'camera' mean?" },
+      "sentence_context": "C'è un letto in camera.",
+      "correct_answer": ["bedroom", "room"],
+      "distractors": [],
+      "hints": ["It looks like 'camera', but it's a room."],
+      "target_words": ["camera"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'soggiorno' mean?" },
+      "sentence_context": "In soggiorno c'è la televisione.",
+      "correct_answer": ["living room", "sitting room", "lounge"],
+      "distractors": [],
+      "hints": ["The room where you sit in the evening."],
+      "target_words": ["soggiorno"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'finestre' mean?" },
+      "sentence_context": "In cucina ci sono due finestre.",
+      "correct_answer": ["windows"],
+      "distractors": [],
+      "hints": ["Una finestra, due finestre."],
+      "target_words": ["finestra"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'doccia' mean?" },
+      "sentence_context": "In bagno c'è la doccia.",
+      "correct_answer": ["shower"],
+      "distractors": [],
+      "hints": ["It's in the bathroom."],
+      "target_words": ["doccia"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You are at a friend's flat for the first time and need the bathroom. You ask:" },
+      "sentence_context": "",
+      "correct_answer": "Scusa, dov'è il bagno?",
+      "distractors": ["Scusa, dov'è la bagno?", "Scusa, dove sono il bagno?"],
+      "hints": ["One thing, masculine: dov'è il."],
+      "target_words": ["bagno"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-06",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: There's a table in the kitchen." },
+      "sentence_context": "In ___ c'è un tavolo.",
+      "correct_answer": "cucina",
+      "distractors": [],
+      "hints": ["In cucina, with no article."],
+      "target_words": ["cucina"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A friend asks about your new flat. It has two bedrooms. You say:" },
+      "sentence_context": "",
+      "correct_answer": "Ci sono due camere.",
+      "distractors": ["C'è due camere.", "Ci sono due camera."],
+      "hints": ["Plural: ci sono, and camere."],
+      "target_words": ["camera"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The flat is in Florence." },
+      "sentence_context": "___ appartamento è a Firenze.",
+      "correct_answer": ["L'", "l'"],
+      "distractors": [],
+      "hints": ["Before a vowel, the article is l'."],
+      "target_words": ["appartamento"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: There are two doors and three windows in the living room." },
+      "sentence_context": "In soggiorno ci sono due ___ e tre finestre.",
+      "correct_answer": "porte",
+      "distractors": [],
+      "hints": ["Una porta, due…"],
+      "target_words": ["porta", "soggiorno"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-10",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend is surprised by how quiet your flat is." },
+      "sentence_context": "Friend: Hai la televisione?\nYou: ___",
+      "correct_answer": ["No, non ho la televisione.", "Sì, la televisione è in soggiorno."],
+      "distractors": [],
+      "hints": ["Yes or no, with la televisione."],
+      "target_words": ["televisione"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Hai la televisione?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-11",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A classmate asks about your flat." },
+      "sentence_context": "Classmate: Com'è l'appartamento?\nYou: ___",
+      "correct_answer": ["È grande. Ci sono tre stanze e un bagno.", "Ci sono due camere, una cucina e un bagno."],
+      "distractors": [],
+      "hints": ["Say what there is: c'è, ci sono."],
+      "target_words": ["appartamento", "stanza"],
+      "dialogue": [
+        { "speaker": "Classmate", "text": "Com'è l'appartamento?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-12",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'In the bathroom there is a shower.'" },
+      "sentence_context": "In bagno c'è una doccia.",
+      "correct_answer": ["In", "bagno", "c'è", "una", "doccia."],
+      "distractors": ["sono", "un"],
+      "hints": ["Doccia is feminine: una."],
+      "target_words": ["doccia", "bagno"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say there are two beds in the bedroom." },
+      "sentence_context": "",
+      "correct_answer": ["in camera ci sono due letti", "ci sono due letti in camera"],
+      "distractors": [],
+      "hints": ["Un letto, due letti."],
+      "target_words": ["letto", "camera"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say there are four rooms." },
+      "sentence_context": "",
+      "correct_answer": ["ci sono quattro stanze"],
+      "distractors": [],
+      "hints": ["Una stanza, quattro stanze."],
+      "target_words": ["stanza"]
+    },
+    {
+      "id": "unit-03-lesson-03-ex-15",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask if there is a garden." },
+      "sentence_context": "",
+      "correct_answer": ["c'è un giardino", "c'è il giardino"],
+      "distractors": [],
+      "hints": ["The same words as the statement: c'è…"],
+      "target_words": ["giardino"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "appartamento", "meaning": "flat, apartment (un appartamento, l'appartamento)", "example": "Ho un appartamento a Firenze." },
+    { "word": "stanza", "meaning": "room", "example": "Ci sono tre stanze." },
+    { "word": "camera", "meaning": "bedroom, room · in camera = in the bedroom", "example": "C'è un letto in camera." },
+    { "word": "cucina", "meaning": "kitchen · in cucina = in the kitchen", "example": "In cucina c'è un tavolo." },
+    { "word": "bagno", "meaning": "bathroom · in bagno = in the bathroom", "example": "Scusi, dov'è il bagno?" },
+    { "word": "soggiorno", "meaning": "living room · in soggiorno = in the living room", "example": "In soggiorno c'è la televisione." },
+    { "word": "giardino", "meaning": "garden", "example": "C'è un giardino?" },
+    { "word": "letto", "meaning": "bed", "example": "Ci sono due letti." },
+    { "word": "porta", "meaning": "door", "example": "Ecco la porta." },
+    { "word": "finestra", "meaning": "window", "example": "In cucina ci sono due finestre." },
+    { "word": "doccia", "meaning": "shower", "example": "In bagno c'è la doccia." },
+    { "word": "televisione", "meaning": "television, TV (feminine: la televisione)", "example": "Non ho la televisione." }
+  ]
+}

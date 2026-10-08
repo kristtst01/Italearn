@@ -1,0 +1,185 @@
+{
+  "id": "unit-03-lesson-05",
+  "unit_id": "unit-03",
+  "name": "Is There One Near Here?",
+  "order": 5,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You have a headache and need a pharmacy, any pharmacy. You ask a passer-by:" },
+      "sentence_context": "",
+      "correct_answer": "Scusi, c'è una farmacia qui vicino?",
+      "distractors": ["Scusi, ci sono una farmacia qui vicino?", "Scusi, c'è uno farmacia qui vicino?"],
+      "hints": ["Is there one: c'è + una."],
+      "target_words": ["vicino"]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You are late for your train and need to find the station. You ask a passer-by:" },
+      "sentence_context": "",
+      "correct_answer": "Scusi, dov'è la stazione?",
+      "distractors": ["Scusi, dove sono la stazione?", "Scusi, dov'è lo stazione?"],
+      "hints": ["A particular place: dov'è + la."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-05-ex-03",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A tourist stops you in the street. You know the town well." },
+      "sentence_context": "Tourist: Scusi, c'è un bar qui vicino?\nYou: ___",
+      "correct_answer": ["Sì, c'è un bar in piazza.", "No, mi dispiace, non c'è."],
+      "distractors": [],
+      "hints": ["Yes, there is one (and where), or no, there isn't."],
+      "target_words": ["piazza", "vicino"],
+      "dialogue": [
+        { "speaker": "Tourist", "text": "Scusi, c'è un bar qui vicino?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-04",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Is there a park near here?" },
+      "sentence_context": "C'è un parco qui ___?",
+      "correct_answer": "vicino",
+      "distractors": [],
+      "hints": ["Qui vicino = near here."],
+      "target_words": ["vicino"]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-05",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The tourist has one more question. You can see the cinema from where you stand." },
+      "sentence_context": "Tourist: E dov'è il cinema?\nYou: ___",
+      "correct_answer": ["Il cinema è lì.", "È lì, in piazza."],
+      "distractors": [],
+      "hints": ["Point: è lì."],
+      "target_words": ["lì"],
+      "dialogue": [
+        { "speaker": "Tourist", "text": "E dov'è il cinema?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A friend asks about your town. It has two cinemas. You say:" },
+      "sentence_context": "",
+      "correct_answer": "Ci sono due cinema.",
+      "distractors": ["Ci sono due cinemi.", "Ci sono due cineme."],
+      "hints": ["Cinema is a short form, so it doesn't change in the plural."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-05-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: There are two bars in the square." },
+      "sentence_context": "In piazza ci ___ due bar.",
+      "correct_answer": "sono",
+      "distractors": [],
+      "hints": ["Two bars: plural."],
+      "target_words": ["piazza"]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-08",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You have just arrived at your hotel and need a pharmacy." },
+      "sentence_context": "Receptionist: Buonasera. Prego?\nYou: ___",
+      "correct_answer": ["Buonasera. C'è una farmacia qui vicino?", "Scusi, c'è una farmacia qui vicino?"],
+      "distractors": [],
+      "hints": ["Ask if there is one near here."],
+      "target_words": ["vicino"],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Buonasera. Prego?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-09",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend phones while you are having a coffee." },
+      "sentence_context": "Friend: Ciao! Dove sei?\nYou: ___",
+      "correct_answer": ["Sono al bar, in piazza.", "Sono al bar."],
+      "distractors": [],
+      "hints": ["At the bar: al bar."],
+      "target_words": ["al bar"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Ciao! Dove sei?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-10",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Excuse me, is there a bar near here?'" },
+      "sentence_context": "Scusi, c'è un bar qui vicino?",
+      "correct_answer": ["Scusi,", "c'è", "un", "bar", "qui", "vicino?"],
+      "distractors": ["dov'è", "una"],
+      "hints": ["Is there one: c'è."],
+      "target_words": ["vicino"]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a passer-by where the pharmacy is." },
+      "sentence_context": "",
+      "correct_answer": ["scusi, dov'è la farmacia"],
+      "distractors": [],
+      "hints": ["A particular one: dov'è la…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-05-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say Marta is at the bar." },
+      "sentence_context": "",
+      "correct_answer": ["Marta è al bar"],
+      "distractors": [],
+      "hints": ["At the bar: al bar."],
+      "target_words": ["al bar"]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say the station is there." },
+      "sentence_context": "",
+      "correct_answer": ["la stazione è lì"],
+      "distractors": [],
+      "hints": ["Lì, with an accent."],
+      "target_words": ["lì"]
+    },
+    {
+      "id": "unit-03-lesson-05-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say there isn't a cinema here." },
+      "sentence_context": "",
+      "correct_answer": ["qui non c'è un cinema", "non c'è un cinema qui"],
+      "distractors": [],
+      "hints": ["Non goes before c'è."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "vicino", "meaning": "near, nearby · qui vicino = near here", "example": "C'è un bar qui vicino?" },
+    { "word": "lì", "meaning": "there", "example": "La farmacia è lì." },
+    { "word": "piazza", "meaning": "square · in piazza = in the square", "example": "C'è un bar in piazza." },
+    { "word": "al bar", "meaning": "at the bar, at the café", "example": "Emma è al bar.", "phrase": true }
+  ]
+}

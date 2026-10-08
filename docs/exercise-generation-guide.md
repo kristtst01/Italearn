@@ -2,7 +2,7 @@
 
 How to author lesson content for ItaLearn, by hand or with AI. This document is the source of truth for any agent creating exercise content.
 
-> **Status (2026-10-08):** this describes the format used by grammar units 1–7 and chapters 1–4, which follow it fully. Chapters 5–21 predate it (they still have grammar tips and read-aloud inside lessons) and are brought into line as each is reworked. Helpers for writing content are in [tools/authoring/](../tools/authoring/).
+> **Status (2026-10-08):** this describes the format used by grammar units 1–7 and chapters 1–8, which follow it fully. Chapters 9–23 predate it (they still have grammar tips and read-aloud inside lessons) and are brought into line as each is reworked. Helpers for writing content are in [tools/authoring/](../tools/authoring/).
 
 ## Golden Rules
 
@@ -21,7 +21,7 @@ How to author lesson content for ItaLearn, by hand or with AI. This document is 
 
 A learner alternates between **grammar units** and **chapters**, in the order listed in `frontend/src/data/course.ts`:
 
-First phrases → chapter 1 → Essere → chapter 2 → Numbers → Avere → chapters 3 and 4 → Nouns & articles → Regular verbs → Irregular verbs → …
+First phrases → chapter 1 → Essere → chapter 2 → Numbers → Avere → chapters 3 and 4 → Nouns & articles → chapter 5 → Regular verbs → chapters 6 and 7 → Irregular verbs → chapter 8 → Prepositions → …
 
 - **Grammar decides the order.** The unit sequence is set on its own merits (dependencies, usefulness, sources: see [a1-grammar-inventory.md](a1-grammar-inventory.md)). Chapters are built around it, and a chapter comes after every unit it needs.
 - **Grammar units explain; chapters use.** All explanation lives in grammar units. Lessons in chapters carry no grammar tips.
@@ -70,7 +70,7 @@ A unit teaches one system of Italian in depth: a reading, practice placed inside
 
 A chapter is a situation with its vocabulary: it uses the grammar learners already have. Files: one JSON per lesson in `frontend/src/data/units/<unit>/`, the unit's entry in `curriculum.ts` (with each lesson's `role`), and a line in `course.ts`.
 
-**Start from what the learner has.** List the grammar units before this chapter in `course.ts`, and write nothing that needs later grammar. Fixed phrases used deliberately before their grammar (like *un caffè* before the articles unit) go in `frontend/scripts/content-allowlist.json` with a reason.
+**Start from what the learner has.** List the grammar units before this chapter in `course.ts`, and write nothing that needs later grammar explained. Simple prepositions (*a, in, di, con, da, per*) are ordinary vocabulary from the start. Articulated ones can be taught before the Prepositions unit as fixed phrases on a word list (*sul tavolo*, *al bar*, *nella borsa*), as standard courses do; the unit then opens from the phrases learners already know (see the note in [a1-grammar-inventory.md](a1-grammar-inventory.md)). Other fixed phrases used deliberately before their grammar go in `frontend/scripts/content-allowlist.json` with a reason.
 
 **Lessons, by role** (the chapter page groups them: Lessons, Read, Write, Speak & listen):
 
@@ -78,7 +78,7 @@ A chapter is a situation with its vocabulary: it uses the grammar learners alrea
 |---|---|
 | `words` | Introduces a set of words and practises them in situations. The point of each exercise is a communicative task (saying where you're from, choosing tu or Lei), with the words varying to support it; no exercise exists just to drill one word. |
 | `practice` | Combines what's been learned into exchanges, mostly "Your line" dialogues. |
-| `reading` | A text (`reading`: title and paragraphs) that stays beside the questions. Comprehension questions in English, then one or two answers in Italian. Dialogue lines are written `Name: text`. Stories reuse a small recurring cast (Emma, Paul, Chloé, Giulia's class in Florence). |
+| `reading` | A text (`reading`: title and paragraphs) that stays beside the questions. Comprehension questions in English, then two or three answers in Italian. Dialogue lines are written `Name: text`; list lines (a price list, a timetable) are written `Item · detail`. Vary the text type across a chapter: a dialogue, an email, a diary entry, a notice or price list with a short scene. Stories reuse a small recurring cast (Emma, Paul, Chloé, Giulia's class in Florence). |
 | `writing` | One free-form text per lesson, with a model answer; finishing all of a chapter's writing lessons earns its stamp. |
 | `speaking` | Read-aloud sentences. Speaking and listening get their own lessons because they need a microphone or sound. |
 
@@ -446,7 +446,7 @@ Both show a sentence (`sentence_context`) and ask for a rewritten one. `transfor
 
 ## Reading and Listening Lessons
 
-**Reading lessons are built.** A lesson with role `reading` has a `reading` text (title and paragraphs) that stays on screen beside every question. Questions are ordinary exercises: comprehension in English (`multiple_choice`, including true/false), then one or two answers in Italian (`type_answer` with a prompt starting "Answer in Italian:"). The text uses only words and grammar the learner has, plus a few new words on the lesson's own list. A text that is a small story, with a turn at the end, is better than a list of facts.
+**Reading lessons are built.** A lesson with role `reading` has a `reading` text (title and paragraphs) that stays on screen beside every question. Questions are ordinary exercises: comprehension in English (`multiple_choice`, including true/false), then one or two answers in Italian (`type_answer` with a prompt starting "Answer in Italian:"). The text uses only words and grammar the learner has, plus a few new words on the lesson's own list. A text that is a small story, with a turn at the end, is better than a list of facts. Texts grow with the learner: write as much as the words and grammar so far can carry, with narration as well as dialogue, and don't copy the length of an earlier chapter's reading. The first chapters' texts are short only because the learner has so little to read with.
 
 **Listening lessons are planned** and need the audio pipeline (issue #68). Audio is pre-generated at authoring time with ElevenLabs, never at runtime; a transcript is always stored. Model dialogues for chapters (issue #69) use two voices.
 
@@ -559,4 +559,4 @@ When generating exercises, include this context in your prompt:
 - The lesson's theme and position within the unit
 - The grammar units and chapters that come before it in `course.ts`, and the words they introduce
 - The level's exercise-mix guidance (CEFR Level Guidelines)
-- 2-3 examples of each exercise subtype from a reworked chapter (`unit-02` or `unit-05`), and the matching example in `tools/authoring/examples/`
+- 2-3 examples of each exercise subtype from a reworked chapter (`unit-05`, `unit-10` or `unit-23`), and the matching example in `tools/authoring/examples/`

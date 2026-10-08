@@ -1,0 +1,23 @@
+{
+  "id": "unit-22-lesson-09",
+  "unit_id": "unit-22",
+  "name": "A New Flatmate",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-22-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "You are moving into a shared flat. Write to Luca, your future flatmate: say what you do in the evening and at the weekend, and ask him two questions about his habits."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ciao Luca! La sera leggo o guardo un film, e il fine settimana suono la chitarra. Cucino molto! E tu? Guardi la tv la sera? Preferisci la musica o il calcio? A presto!",
+      "distractors": [],
+      "hints": ["Luca is your age: use tu for the questions."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

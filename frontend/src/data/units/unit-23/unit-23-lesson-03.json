@@ -1,0 +1,207 @@
+{
+  "id": "unit-23-lesson-03",
+  "unit_id": "unit-23",
+  "name": "Ordering & Paying",
+  "order": 3,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-23-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'conto' mean?" },
+      "sentence_context": "Il conto, per favore.",
+      "correct_answer": ["bill", "the bill", "check", "the check"],
+      "distractors": [],
+      "hints": ["You ask for it at the end."],
+      "target_words": ["conto"]
+    },
+    {
+      "id": "unit-23-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'subito' mean?" },
+      "sentence_context": "Un caffè? Subito!",
+      "correct_answer": ["right away", "straight away", "immediately", "at once"],
+      "distractors": [],
+      "hints": ["With no waiting."],
+      "target_words": ["subito"]
+    },
+    {
+      "id": "unit-23-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'basta così' mean?" },
+      "sentence_context": "No, grazie, basta così.",
+      "correct_answer": ["that's all", "that's enough", "that's it"],
+      "distractors": [],
+      "hints": ["When you want nothing more."],
+      "target_words": ["basta così"]
+    },
+    {
+      "id": "unit-23-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You order a coffee from a waiter, politely:" },
+      "sentence_context": "",
+      "correct_answer": "Vorrei un caffè, per favore.",
+      "distractors": ["Vorrebbe un caffè, per favore.", "Vorresti un caffè, per favore."],
+      "hints": ["I would like: the io form."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A friend has come round. You offer a coffee:" },
+      "sentence_context": "",
+      "correct_answer": "Vuoi un caffè?",
+      "distractors": ["Vuole un caffè?", "Voglio un caffè?"],
+      "hints": ["A friend: the tu form of volere."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-03-ex-06",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: How much does a croissant cost?" },
+      "sentence_context": "Quanto ___ un cornetto?",
+      "correct_answer": "costa",
+      "distractors": [],
+      "hints": ["One thing: the lui form of costare."],
+      "target_words": ["costare"]
+    },
+    {
+      "id": "unit-23-lesson-03-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: A coffee and a croissant cost three euros." },
+      "sentence_context": "Un caffè e un cornetto ___ tre euro.",
+      "correct_answer": "costano",
+      "distractors": [],
+      "hints": ["Two things: the loro form."],
+      "target_words": ["costare"]
+    },
+    {
+      "id": "unit-23-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "The barista asks 'Altro?'. You have everything you want. You answer:" },
+      "sentence_context": "Altro?",
+      "correct_answer": "No, grazie, basta così.",
+      "distractors": ["No, grazie, subito.", "No, grazie, cin cin."],
+      "hints": ["That's all."],
+      "target_words": ["altro", "basta così"]
+    },
+    {
+      "id": "unit-23-lesson-03-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Two coffees cost two euros." },
+      "sentence_context": "Due caffè costano due ___.",
+      "correct_answer": "euro",
+      "distractors": [],
+      "hints": ["Euro doesn't change in the plural."],
+      "target_words": ["euro"]
+    },
+    {
+      "id": "unit-23-lesson-03-ex-10",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The waiter has taken your order." },
+      "sentence_context": "Waiter: Un caffè e un cornetto. Altro?\nYou: ___",
+      "correct_answer": ["No, grazie, basta così.", "Sì, anche un bicchiere d'acqua, per favore."],
+      "distractors": [],
+      "hints": ["That's all, or one more thing."],
+      "target_words": ["altro"],
+      "dialogue": [
+        { "speaker": "Waiter", "text": "Un caffè e un cornetto. Altro?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-03-ex-11",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You have finished and want to pay." },
+      "sentence_context": "Waiter: Tutto bene?\nYou: ___",
+      "correct_answer": ["Sì, grazie. Il conto, per favore.", "Sì, grazie. Quant'è?"],
+      "distractors": [],
+      "hints": ["Ask for the bill."],
+      "target_words": ["conto", "quant'è"],
+      "dialogue": [
+        { "speaker": "Waiter", "text": "Tutto bene?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-03-ex-12",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your friends raise their glasses." },
+      "sentence_context": "Friend: Cin cin!\nYou: ___",
+      "correct_answer": ["Cin cin!"],
+      "distractors": [],
+      "hints": ["Say it back."],
+      "target_words": ["cin cin"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Cin cin!" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-03-ex-13",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'How much is a glass of wine?'" },
+      "sentence_context": "Quanto costa un bicchiere di vino?",
+      "correct_answer": ["Quanto", "costa", "un", "bicchiere", "di", "vino?"],
+      "distractors": ["costano", "una"],
+      "hints": ["One glass: costa."],
+      "target_words": ["costare"]
+    },
+    {
+      "id": "unit-23-lesson-03-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask for the bill politely." },
+      "sentence_context": "",
+      "correct_answer": ["il conto, per favore"],
+      "distractors": [],
+      "hints": ["Il conto + per favore."],
+      "target_words": ["conto"]
+    },
+    {
+      "id": "unit-23-lesson-03-ex-15",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask how much a coffee costs." },
+      "sentence_context": "",
+      "correct_answer": ["quanto costa un caffè"],
+      "distractors": [],
+      "hints": ["Quanto costa…"],
+      "target_words": ["costare"]
+    },
+    {
+      "id": "unit-23-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend if they want a beer." },
+      "sentence_context": "",
+      "correct_answer": ["vuoi una birra"],
+      "distractors": [],
+      "hints": ["The tu form of volere."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "conto", "meaning": "bill", "example": "Il conto, per favore." },
+    { "word": "euro", "meaning": "euro (no change in the plural: due euro)", "example": "Un caffè costa un euro." },
+    { "word": "costare", "meaning": "to cost · quanto costa? = how much is it?", "example": "Quanto costa un cornetto?" },
+    { "word": "quant'è", "meaning": "how much is it (altogether)?", "example": "Quant'è? Sono quattro euro.", "phrase": true },
+    { "word": "subito", "meaning": "right away", "example": "Un caffè? Subito!" },
+    { "word": "altro", "meaning": "other, another · Altro? = Anything else?", "example": "Un caffè. Altro?" },
+    { "word": "basta così", "meaning": "that's all, that's enough", "example": "No, grazie, basta così.", "phrase": true },
+    { "word": "cin cin", "meaning": "cheers", "example": "Cin cin!", "phrase": true }
+  ]
+}

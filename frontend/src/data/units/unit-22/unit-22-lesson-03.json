@@ -1,0 +1,193 @@
+{
+  "id": "unit-22-lesson-03",
+  "unit_id": "unit-22",
+  "name": "Hobbies",
+  "order": 3,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-22-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'nel tempo libero' mean?" },
+      "sentence_context": "Nel tempo libero leggo.",
+      "correct_answer": ["in my free time", "in free time", "in the free time"],
+      "distractors": [],
+      "hints": ["When you are not working."],
+      "target_words": ["libero"]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'fine settimana' mean?" },
+      "sentence_context": "Il fine settimana dormo molto.",
+      "correct_answer": ["weekend", "the weekend", "at the weekend"],
+      "distractors": [],
+      "hints": ["The end (fine) of the week."],
+      "target_words": ["fine settimana"]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'viaggiamo' mean?" },
+      "sentence_context": "Viaggiamo molto.",
+      "correct_answer": ["we travel", "we're travelling", "we are travelling"],
+      "distractors": [],
+      "hints": ["The noi form of viaggiare."],
+      "target_words": ["viaggiare"]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You tell a friend you love music:" },
+      "sentence_context": "",
+      "correct_answer": "Amo la musica.",
+      "distractors": ["Amo musica.", "Amo il musica."],
+      "hints": ["Music in general takes the article, and musica is feminine."],
+      "target_words": ["amare"]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-05",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I cook every evening." },
+      "sentence_context": "___ ogni sera.",
+      "correct_answer": "Cucino",
+      "distractors": [],
+      "hints": ["The io form of cucinare."],
+      "target_words": ["cucinare"]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-06",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: In my free time I read." },
+      "sentence_context": "Nel tempo ___ leggo.",
+      "correct_answer": "libero",
+      "distractors": [],
+      "hints": ["Tempo …"],
+      "target_words": ["libero"]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You and a friend are tourists in Florence. You say what you are doing today:" },
+      "sentence_context": "",
+      "correct_answer": "Visitiamo un museo.",
+      "distractors": ["Visitiamo uno museo.", "Visitiamo una museo."],
+      "hints": ["Museo is masculine and starts with m."],
+      "target_words": ["visitare", "museo"]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I have two hobbies." },
+      "sentence_context": "Ho due ___.",
+      "correct_answer": "hobby",
+      "distractors": [],
+      "hints": ["A borrowed word: it doesn't change."],
+      "target_words": ["hobby"]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-09",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A new friend wants to know more about you." },
+      "sentence_context": "Friend: Hai un hobby?\nYou: ___",
+      "correct_answer": ["Sì, la fotografia.", "Sì, cucino molto.", "Sì, suono la chitarra."],
+      "distractors": [],
+      "hints": ["Name it, or say what you do."],
+      "target_words": ["hobby", "fotografia"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Hai un hobby?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-10",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A colleague is back from a business trip and asks about you." },
+      "sentence_context": "Colleague: Viaggi molto?\nYou: ___",
+      "correct_answer": ["Sì, viaggio molto per lavoro.", "No, non viaggio molto."],
+      "distractors": [],
+      "hints": ["Viaggio…"],
+      "target_words": ["viaggiare"],
+      "dialogue": [
+        { "speaker": "Colleague", "text": "Viaggi molto?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-11",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: At the weekend we visit Rome." },
+      "sentence_context": "Il fine settimana ___ Roma.",
+      "correct_answer": "visitiamo",
+      "distractors": [],
+      "hints": ["The noi form of visitare."],
+      "target_words": ["visitare", "fine settimana"]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-12",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'In my free time I cook and listen to music.'" },
+      "sentence_context": "Nel tempo libero cucino e ascolto musica.",
+      "correct_answer": ["Nel", "tempo", "libero", "cucino", "e", "ascolto", "musica."],
+      "distractors": ["la", "suono"],
+      "hints": ["Nel tempo libero comes first."],
+      "target_words": ["libero", "cucinare"]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you love photography." },
+      "sentence_context": "",
+      "correct_answer": ["amo la fotografia"],
+      "distractors": [],
+      "hints": ["With the article: la."],
+      "target_words": ["amare", "fotografia"]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you sleep a lot at the weekend." },
+      "sentence_context": "",
+      "correct_answer": ["il fine settimana dormo molto", "dormo molto il fine settimana"],
+      "distractors": [],
+      "hints": ["Il fine settimana, with no word for \"at\"."],
+      "target_words": ["fine settimana"]
+    },
+    {
+      "id": "unit-22-lesson-03-ex-15",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend if they cook." },
+      "sentence_context": "",
+      "correct_answer": ["cucini"],
+      "distractors": [],
+      "hints": ["The tu form of cucinare."],
+      "target_words": ["cucinare"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "libero", "meaning": "free · tempo libero = free time · nel tempo libero = in my free time", "example": "Nel tempo libero leggo." },
+    { "word": "fine settimana", "meaning": "weekend (masculine: il fine settimana)", "example": "Il fine settimana dormo molto.", "phrase": true },
+    { "word": "hobby", "meaning": "hobby (no change in the plural)", "example": "Ho due hobby." },
+    { "word": "cucinare", "meaning": "to cook", "example": "Cucino ogni sera." },
+    { "word": "viaggiare", "meaning": "to travel", "example": "Viaggiamo molto." },
+    { "word": "visitare", "meaning": "to visit (a place)", "example": "Visitiamo Roma." },
+    { "word": "museo", "meaning": "museum", "example": "Visito un museo." },
+    { "word": "fotografia", "meaning": "photograph; photography", "example": "La fotografia è un hobby." },
+    { "word": "amare", "meaning": "to love", "example": "Amo la musica." }
+  ]
+}

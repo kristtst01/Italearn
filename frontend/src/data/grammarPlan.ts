@@ -58,29 +58,29 @@ export const GRAMMAR_PLAN: PlannedGrammarUnit[] = [
   {
     id: 'a1-regular-verbs', level: 'A1', order: 6, title: 'The present tense: regular verbs', short: 'Regular verbs',
     covers: ['The three verb groups', '-are verbs', '-ere verbs', '-ire verbs', '-isc- verbs', 'Using the present'],
-    chapters: ['unit-07', 'unit-09', 'unit-10', 'unit-12'],
+    chapters: ['unit-10', 'unit-22', 'unit-07', 'unit-09', 'unit-12'],
     ready: true,
   },
   {
     id: 'a1-irregular-verbs', level: 'A1', order: 7, title: 'The present tense: irregular verbs & modals', short: 'Irregular verbs',
     covers: ['Fare, andare, stare, venire, uscire, dare', 'Volere, potere, dovere', 'Vorrei', 'Per + infinitive'],
-    chapters: ['unit-09', 'unit-10', 'unit-12', 'unit-15'],
+    chapters: ['unit-23', 'unit-09', 'unit-12', 'unit-15'],
     ready: true,
   },
   {
-    id: 'a1-questions-negation', level: 'A1', order: 8, title: 'Questions, negation & linking', short: 'Questions & negation',
+    id: 'a1-prepositions', level: 'A1', order: 8, title: 'Prepositions', short: 'Prepositions',
+    covers: ['Simple prepositions', 'A and in with places', 'Articulated prepositions', 'Partitives (del, della…)', 'Transport'],
+    chapters: ['unit-13', 'unit-14', 'unit-16'],
+  },
+  {
+    id: 'a1-questions-negation', level: 'A1', order: 9, title: 'Questions, negation & linking', short: 'Questions & negation',
     covers: ['Question words', 'Word order in questions', 'Non and double negatives', 'Frequency adverbs', 'Linking: e, ma, perché, quando'],
     chapters: ['unit-11'],
   },
   {
-    id: 'a1-adjectives', level: 'A1', order: 9, title: 'Adjectives, demonstratives & quantities', short: 'Adjectives',
+    id: 'a1-adjectives', level: 'A1', order: 10, title: 'Adjectives, demonstratives & quantities', short: 'Adjectives',
     covers: ['Agreement (-o/-a/-i/-e)', 'Position', 'Invariable adjectives', 'Nationalities', 'Questo and quello', 'Molto, poco, tanto, tutto, qualche', 'Nessuno and niente'],
     chapters: ['unit-06', 'unit-07', 'unit-17'],
-  },
-  {
-    id: 'a1-prepositions', level: 'A1', order: 10, title: 'Prepositions', short: 'Prepositions',
-    covers: ['Simple prepositions', 'A and in with places', 'Articulated prepositions', 'Partitives (del, della…)', 'Transport'],
-    chapters: ['unit-13', 'unit-14', 'unit-16'],
   },
   {
     id: 'a1-time-dates', level: 'A1', order: 11, title: 'Time & dates', short: 'Time & dates',

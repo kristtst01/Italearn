@@ -1,0 +1,109 @@
+{
+  "id": "unit-03-lesson-11",
+  "unit_id": "unit-03",
+  "name": "Say It Out Loud",
+  "order": 11,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-11-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Lo zaino è qui.",
+      "correct_answer": "Lo zaino è qui.",
+      "distractors": [],
+      "hints": ["Lo before z."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-11-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Gli occhiali sono sul tavolo.",
+      "correct_answer": "Gli occhiali sono sul tavolo.",
+      "distractors": [],
+      "hints": ["Gli sounds like the 'lli' in 'million'."],
+      "target_words": ["occhiali", "sul tavolo"]
+    },
+    {
+      "id": "unit-03-lesson-11-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Il computer è nello zaino.",
+      "correct_answer": "Il computer è nello zaino.",
+      "distractors": [],
+      "hints": ["Say both l sounds in nello."],
+      "target_words": ["nello zaino"]
+    },
+    {
+      "id": "unit-03-lesson-11-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Hai un ombrello?",
+      "correct_answer": "Hai un ombrello?",
+      "distractors": [],
+      "hints": ["Let your voice rise at the end."],
+      "target_words": ["ombrello"]
+    },
+    {
+      "id": "unit-03-lesson-11-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ecco il passaporto e i biglietti.",
+      "correct_answer": "Ecco il passaporto e i biglietti.",
+      "distractors": [],
+      "hints": ["Handing things over."],
+      "target_words": ["passaporto", "biglietto"]
+    },
+    {
+      "id": "unit-03-lesson-11-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "L'appartamento è a Firenze.",
+      "correct_answer": "L'appartamento è a Firenze.",
+      "distractors": [],
+      "hints": ["L' runs straight into the next word."],
+      "target_words": ["appartamento"]
+    },
+    {
+      "id": "unit-03-lesson-11-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "In camera ci sono due letti.",
+      "correct_answer": "In camera ci sono due letti.",
+      "distractors": [],
+      "hints": ["Say both t sounds in letti."],
+      "target_words": ["camera", "letto"]
+    },
+    {
+      "id": "unit-03-lesson-11-ex-08",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Quante chiavi ci sono?",
+      "correct_answer": "Quante chiavi ci sono?",
+      "distractors": [],
+      "hints": ["Chi sounds like 'key'."],
+      "target_words": ["quanti"]
+    },
+    {
+      "id": "unit-03-lesson-11-ex-09",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Scusi, c'è una farmacia qui vicino?",
+      "correct_answer": "Scusi, c'è una farmacia qui vicino?",
+      "distractors": [],
+      "hints": ["A question for a passer-by."],
+      "target_words": ["vicino"]
+    }
+  ],
+  "vocabulary": []
+}

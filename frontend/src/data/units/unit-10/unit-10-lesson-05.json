@@ -1,0 +1,186 @@
+{
+  "id": "unit-10-lesson-05",
+  "unit_id": "unit-10",
+  "name": "Talking About Others",
+  "order": 5,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-10-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Emma and Marta are in the same class. Emma says: 'We study together.'" },
+      "sentence_context": "",
+      "correct_answer": "Studiamo insieme.",
+      "distractors": ["Studiano insieme.", "Studiate insieme."],
+      "hints": ["Emma is one of the two: noi."],
+      "target_words": ["insieme"]
+    },
+    {
+      "id": "unit-10-lesson-05-ex-02",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Emma and Marta live in the centre." },
+      "sentence_context": "Emma e Marta ___ in centro.",
+      "correct_answer": "abitano",
+      "distractors": [],
+      "hints": ["Two people: the loro form."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-05-ex-03",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Paul and I work in a hospital." },
+      "sentence_context": "Paul e io ___ in ospedale.",
+      "correct_answer": "lavoriamo",
+      "distractors": [],
+      "hints": ["Paul and I: noi."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A friend asks what Keiko does. She is an engineer in an office. You say:" },
+      "sentence_context": "",
+      "correct_answer": "È ingegnere. Lavora in un ufficio.",
+      "distractors": ["È ingegnere. Lavoro in un ufficio.", "È ingegnere. Lavorano in un ufficio."],
+      "hints": ["One other person: the lei form."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-05-ex-05",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend sees a photo of your class." },
+      "sentence_context": "Friend: Chi è Marta?\nYou: ___",
+      "correct_answer": ["È una compagna di corso. È spagnola e insegna spagnolo.", "È una compagna di corso."],
+      "distractors": [],
+      "hints": ["Say who she is and what she does."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Chi è Marta?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-10-lesson-05-ex-06",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete, to a friend: Are you looking for a job?" },
+      "sentence_context": "___ un lavoro?",
+      "correct_answer": "Cerchi",
+      "distractors": [],
+      "hints": ["Verbs in -care add an h before i."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-05-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: We're paying tomorrow." },
+      "sentence_context": "___ domani.",
+      "correct_answer": "Paghiamo",
+      "distractors": [],
+      "hints": ["Verbs in -gare add an h before i."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-05-ex-08",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend asks about your classmates." },
+      "sentence_context": "Friend: Emma e Marta abitano insieme?\nYou: ___",
+      "correct_answer": ["Sì, abitano insieme in centro.", "No, Emma abita da sola."],
+      "distractors": [],
+      "hints": ["Abitano for both, abita for one."],
+      "target_words": ["insieme"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Emma e Marta abitano insieme?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-10-lesson-05-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Giulia asks the class 'Capite?'. You answer for everyone:" },
+      "sentence_context": "Capite?",
+      "correct_answer": "Sì, capiamo.",
+      "distractors": ["Sì, capiscono.", "Sì, capisciamo."],
+      "hints": ["The noi form has no -isc-."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-05-ex-10",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The students finish the exercise." },
+      "sentence_context": "Gli studenti ___ l'esercizio.",
+      "correct_answer": "finiscono",
+      "distractors": [],
+      "hints": ["Finire takes -isc- in the loro form."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-05-ex-11",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake: 'Paul works every day.'" },
+      "sentence_context": "Paul lavoro ogni giorno.",
+      "correct_answer": ["Paul lavora ogni giorno."],
+      "distractors": [],
+      "hints": ["Paul is lui."],
+      "target_words": ["ogni"]
+    },
+    {
+      "id": "unit-10-lesson-05-ex-12",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Emma and Paul read the newspaper together.'" },
+      "sentence_context": "Emma e Paul leggono il giornale insieme.",
+      "correct_answer": ["Emma", "e", "Paul", "leggono", "il", "giornale", "insieme."],
+      "distractors": ["legge", "leggiamo"],
+      "hints": ["Two people: the loro form."],
+      "target_words": ["insieme"]
+    },
+    {
+      "id": "unit-10-lesson-05-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say they study every day." },
+      "sentence_context": "",
+      "correct_answer": ["studiano ogni giorno"],
+      "distractors": [],
+      "hints": ["The loro form of studiare."],
+      "target_words": ["ogni"]
+    },
+    {
+      "id": "unit-10-lesson-05-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say Giulia teaches Italian in Florence." },
+      "sentence_context": "",
+      "correct_answer": ["Giulia insegna italiano a Firenze"],
+      "distractors": [],
+      "hints": ["The lei form of insegnare."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-05-ex-15",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask two friends where they live." },
+      "sentence_context": "",
+      "correct_answer": ["dove abitate"],
+      "distractors": [],
+      "hints": ["Two people you know: voi."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "insieme", "meaning": "together", "example": "Studiamo insieme." },
+    { "word": "ogni", "meaning": "every · ogni giorno = every day", "example": "Lavoro ogni giorno." }
+  ]
+}

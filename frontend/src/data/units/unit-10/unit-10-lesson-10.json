@@ -1,0 +1,23 @@
+{
+  "id": "unit-10-lesson-10",
+  "unit_id": "unit-10",
+  "name": "At the School Office",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-10-lesson-10-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "You are enrolling at a language school in Florence. Tell the secretary, politely: your name, where you are from, where you live in Florence, what you do, and how long you've studied Italian."
+      },
+      "sentence_context": "",
+      "correct_answer": "Buongiorno. Mi chiamo Anna Smith e sono inglese, di Londra. Abito a Firenze, in via Roma, da una settimana. Sono ingegnere e lavoro in un ufficio a Londra. Studio italiano da sei mesi e ho bisogno di un corso.",
+      "distractors": [],
+      "hints": ["Start with buongiorno, and use da + how long."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

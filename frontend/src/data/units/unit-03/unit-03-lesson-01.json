@@ -1,0 +1,239 @@
+{
+  "id": "unit-03-lesson-01",
+  "unit_id": "unit-03",
+  "name": "In My Bag",
+  "order": 1,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'portafoglio' mean?" },
+      "sentence_context": "Dov'è il portafoglio?",
+      "correct_answer": ["wallet"],
+      "distractors": [],
+      "hints": ["You keep your money and cards in it."],
+      "target_words": ["portafoglio"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'occhiali' mean?" },
+      "sentence_context": "Dove sono gli occhiali?",
+      "correct_answer": ["glasses"],
+      "distractors": [],
+      "hints": ["Always plural, as in English."],
+      "target_words": ["occhiali"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'biglietti' mean?" },
+      "sentence_context": "Ho due biglietti.",
+      "correct_answer": ["tickets"],
+      "distractors": [],
+      "hints": ["Un biglietto, due biglietti."],
+      "target_words": ["biglietto"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "At a hotel desk, the receptionist asks 'Ha un documento?'. You hand over your passport and say:" },
+      "sentence_context": "Ha un documento?",
+      "correct_answer": "Ecco il passaporto.",
+      "distractors": ["Ecco lo passaporto.", "Ecco la passaporto."],
+      "hints": ["Passaporto is masculine and starts with p: il."],
+      "target_words": ["passaporto", "documento"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-05",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Do you have an umbrella?" },
+      "sentence_context": "Hai ___ ombrello?",
+      "correct_answer": "un",
+      "distractors": [],
+      "hints": ["Ombrello is masculine, so there is no apostrophe."],
+      "target_words": ["ombrello"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You can't find your glasses. You ask your flatmate:" },
+      "sentence_context": "",
+      "correct_answer": "Dove sono gli occhiali?",
+      "distractors": ["Dov'è gli occhiali?", "Dove sono i occhiali?"],
+      "hints": ["Plural, and before a vowel: dove sono, gli."],
+      "target_words": ["occhiali"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Where is the backpack?" },
+      "sentence_context": "Dov'è ___ zaino?",
+      "correct_answer": "lo",
+      "distractors": [],
+      "hints": ["Before z, the article is lo."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-01-ex-08",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You are leaving the house with a friend." },
+      "sentence_context": "Friend: Hai le chiavi?\nYou: ___",
+      "correct_answer": ["Sì, ho le chiavi in borsa.", "No, non ho le chiavi!"],
+      "distractors": [],
+      "hints": ["Yes or no, with le chiavi."],
+      "target_words": ["borsa"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Hai le chiavi?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "It's raining and you have nothing to cover your head. You ask a friend:" },
+      "sentence_context": "",
+      "correct_answer": "Hai un ombrello?",
+      "distractors": ["Hai un'ombrello?", "Hai uno ombrello?"],
+      "hints": ["Un' is only for feminine words; uno is for a hard start like z or s + consonant."],
+      "target_words": ["ombrello"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Your flatmate asks where the keys are. You can see them on the table. You answer:" },
+      "sentence_context": "",
+      "correct_answer": "Sono sul tavolo.",
+      "distractors": ["È sul tavolo.", "Sono sul tavoli."],
+      "hints": ["Le chiavi is plural: sono."],
+      "target_words": ["sul tavolo"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-11",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The book is in the backpack." },
+      "sentence_context": "Il libro è ___ zaino.",
+      "correct_answer": "nello",
+      "distractors": [],
+      "hints": ["A phrase from the word list: in the backpack."],
+      "target_words": ["nello zaino"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-12",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I have a credit card." },
+      "sentence_context": "Ho una ___ di credito.",
+      "correct_answer": "carta",
+      "distractors": [],
+      "hints": ["Una carta di credito."],
+      "target_words": ["carta"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-13",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The mobile phone is in my bag." },
+      "sentence_context": "Il cellulare è in ___.",
+      "correct_answer": "borsa",
+      "distractors": [],
+      "hints": ["In borsa, with no article."],
+      "target_words": ["borsa", "cellulare"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-14",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "On the train, the inspector stops at your seat." },
+      "sentence_context": "Inspector: Buongiorno. Il biglietto, per favore.\nYou: ___",
+      "correct_answer": ["Ecco il biglietto.", "Buongiorno. Ecco il biglietto."],
+      "distractors": [],
+      "hints": ["Hand it over with ecco."],
+      "target_words": ["biglietto"],
+      "dialogue": [
+        { "speaker": "Inspector", "text": "Buongiorno. Il biglietto, per favore." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you don't have the wallet." },
+      "sentence_context": "",
+      "correct_answer": ["non ho il portafoglio"],
+      "distractors": [],
+      "hints": ["Non before the verb, and il portafoglio."],
+      "target_words": ["portafoglio"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'The passport and the tickets are here.'" },
+      "sentence_context": "Il passaporto e i biglietti sono qui.",
+      "correct_answer": ["Il", "passaporto", "e", "i", "biglietti", "sono", "qui."],
+      "distractors": ["lo", "gli"],
+      "hints": ["Il passaporto, i biglietti."],
+      "target_words": ["passaporto", "biglietto"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-17",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend where the glasses are." },
+      "sentence_context": "",
+      "correct_answer": ["dove sono gli occhiali"],
+      "distractors": [],
+      "hints": ["Plural: dove sono."],
+      "target_words": ["occhiali"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-18",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say the glasses are on the table." },
+      "sentence_context": "",
+      "correct_answer": ["gli occhiali sono sul tavolo"],
+      "distractors": [],
+      "hints": ["On the table: sul tavolo."],
+      "target_words": ["occhiali", "sul tavolo"]
+    },
+    {
+      "id": "unit-03-lesson-01-ex-19",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a stranger politely if they have an umbrella." },
+      "sentence_context": "",
+      "correct_answer": ["scusi, ha un ombrello", "scusi, Lei ha un ombrello"],
+      "distractors": [],
+      "hints": ["A stranger: scusi, and the Lei form of avere."],
+      "target_words": ["ombrello"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "borsa", "meaning": "bag, handbag · in borsa = in my bag · nella borsa = in the bag", "example": "Ho le chiavi in borsa." },
+    { "word": "portafoglio", "meaning": "wallet", "example": "Dov'è il portafoglio?" },
+    { "word": "cellulare", "meaning": "mobile phone (masculine: il cellulare)", "example": "Ho un cellulare." },
+    { "word": "documento", "meaning": "document, ID", "example": "Scusi, ha un documento?" },
+    { "word": "passaporto", "meaning": "passport", "example": "Ecco il passaporto." },
+    { "word": "biglietto", "meaning": "ticket", "example": "Ho due biglietti." },
+    { "word": "occhiali", "meaning": "glasses (always plural: gli occhiali)", "example": "Dove sono gli occhiali?" },
+    { "word": "ombrello", "meaning": "umbrella (un ombrello, l'ombrello)", "example": "Hai un ombrello?" },
+    { "word": "carta", "meaning": "card; paper · carta di credito = credit card", "example": "Ho una carta di credito." },
+    { "word": "sul tavolo", "meaning": "on the table", "example": "Le chiavi sono sul tavolo.", "phrase": true },
+    { "word": "nello zaino", "meaning": "in the backpack", "example": "Il libro è nello zaino.", "phrase": true }
+  ]
+}

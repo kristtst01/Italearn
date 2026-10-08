@@ -1,0 +1,164 @@
+{
+  "id": "unit-03-lesson-04",
+  "unit_id": "unit-03",
+  "name": "Lost Property",
+  "order": 4,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-04-ex-01",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You left your backpack on the train. At the lost property desk, the clerk has one and checks that it is yours." },
+      "sentence_context": "Clerk: Che cosa c'è dentro?\nYou: ___",
+      "correct_answer": ["C'è un computer e ci sono due libri.", "Ci sono un computer e due libri."],
+      "distractors": [],
+      "hints": ["C'è for one thing, ci sono for more."],
+      "target_words": ["che cosa", "dentro"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "Che cosa c'è dentro?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "The clerk asks 'Quante chiavi ci sono?'. There are three. You answer:" },
+      "sentence_context": "Quante chiavi ci sono?",
+      "correct_answer": "Ci sono tre chiavi.",
+      "distractors": ["C'è tre chiavi.", "Ci sono tre chiave."],
+      "hints": ["Una chiave, tre chiavi."],
+      "target_words": ["quanti"]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-03",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: How many books are there?" },
+      "sentence_context": "___ libri ci sono?",
+      "correct_answer": "Quanti",
+      "distractors": [],
+      "hints": ["Libri is masculine plural."],
+      "target_words": ["quanti"]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-04",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: How many pens are there?" },
+      "sentence_context": "___ penne ci sono?",
+      "correct_answer": "Quante",
+      "distractors": [],
+      "hints": ["Penne is feminine plural."],
+      "target_words": ["quanti"]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-05",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The clerk wants to be sure the backpack is yours." },
+      "sentence_context": "Clerk: C'è un documento nello zaino?\nYou: ___",
+      "correct_answer": ["Sì, c'è il passaporto.", "Sì, c'è un passaporto."],
+      "distractors": [],
+      "hints": ["Name the document that is inside."],
+      "target_words": ["dentro"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "C'è un documento nello zaino?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-06",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The clerk needs your details for the form." },
+      "sentence_context": "Clerk: Nome e cognome, per favore.\nYou: ___",
+      "correct_answer": ["Emma Wilson.", "Mi chiamo Emma Wilson."],
+      "distractors": [],
+      "hints": ["Your own first name and surname."],
+      "target_words": ["nome", "cognome"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "Nome e cognome, per favore." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You spot your umbrella on the shelf behind the clerk. You point and say:" },
+      "sentence_context": "",
+      "correct_answer": "Ecco l'ombrello!",
+      "distractors": ["Ecco lo ombrello!", "Ecco il ombrello!"],
+      "hints": ["Before a vowel, the article is l'."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-04-ex-08",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The clerk gives you the backpack. You look inside, and something is missing." },
+      "sentence_context": "Clerk: Ecco lo zaino. Tutto bene?\nYou: ___",
+      "correct_answer": ["No! Non c'è il portafoglio!", "Sì, tutto bene. Grazie!"],
+      "distractors": [],
+      "hints": ["Say what isn't there: non c'è…"],
+      "target_words": ["dentro"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "Ecco lo zaino. Tutto bene?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-09",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask what is inside." },
+      "sentence_context": "",
+      "correct_answer": ["che cosa c'è dentro", "cosa c'è dentro"],
+      "distractors": [],
+      "hints": ["What is there: che cosa c'è."],
+      "target_words": ["che cosa", "dentro"]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-10",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'How many keys are there in the bag?'" },
+      "sentence_context": "Quante chiavi ci sono nella borsa?",
+      "correct_answer": ["Quante", "chiavi", "ci", "sono", "nella", "borsa?"],
+      "distractors": ["quanti", "c'è"],
+      "hints": ["Chiavi is feminine plural: quante."],
+      "target_words": ["quanti"]
+    },
+    {
+      "id": "unit-03-lesson-04-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say there are two tickets and a credit card." },
+      "sentence_context": "",
+      "correct_answer": ["ci sono due biglietti e una carta di credito"],
+      "distractors": [],
+      "hints": ["More than one thing: ci sono."],
+      "target_words": []
+    },
+    {
+      "id": "unit-03-lesson-04-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask someone formally for their first name and surname." },
+      "sentence_context": "",
+      "correct_answer": ["nome e cognome, per favore"],
+      "distractors": [],
+      "hints": ["Two nouns and per favore are enough."],
+      "target_words": ["nome", "cognome"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "che cosa", "meaning": "what · che cosa c'è? = what is there?", "example": "Che cosa c'è in borsa?" },
+    { "word": "dentro", "meaning": "inside", "example": "Che cosa c'è dentro?" },
+    { "word": "quanti", "meaning": "how many · quante with feminine nouns", "example": "Quante chiavi ci sono?" },
+    { "word": "nome", "meaning": "name, first name", "example": "Nome, per favore?" },
+    { "word": "cognome", "meaning": "surname · nome e cognome = first name and surname", "example": "Rossi è un cognome italiano." }
+  ]
+}
