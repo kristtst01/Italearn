@@ -1,0 +1,148 @@
+{
+  "id": "unit-22-lesson-06",
+  "unit_id": "unit-22",
+  "name": "The Guitar",
+  "order": 6,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-22-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where does Emma live?" },
+      "sentence_context": "",
+      "correct_answer": "In a small flat in the centre",
+      "distractors": ["In a house in the countryside", "In a big flat near the station"],
+      "hints": ["In un appartamento in centro…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Emma's neighbour do every evening?" },
+      "sentence_context": "",
+      "correct_answer": "She plays the guitar and sings",
+      "distractors": ["She watches TV", "She listens to the radio"],
+      "hints": ["Suona… e canta."],
+      "target_words": ["la vicina"]
+    },
+    {
+      "id": "unit-22-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Emma thinks the neighbour plays well." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["Suona male…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Marta do in the evening?" },
+      "sentence_context": "",
+      "correct_answer": "She watches a Spanish series and cooks",
+      "distractors": ["She reads the newspaper", "She plays cards"],
+      "hints": ["Io guardo… e cucino…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Keiko do at the weekend?" },
+      "sentence_context": "",
+      "correct_answer": "She plays tennis",
+      "distractors": ["She writes emails", "She plays football"],
+      "hints": ["Il fine settimana…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How long has Emma been sleeping badly?" },
+      "sentence_context": "",
+      "correct_answer": "A week",
+      "distractors": ["A month", "Two days"],
+      "hints": ["Non dormo da…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Giulia ask Emma?" },
+      "sentence_context": "",
+      "correct_answer": "Where she lives",
+      "distractors": ["What she reads", "Whether she sings"],
+      "hints": ["E dove abiti?"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-06-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who is the neighbour?" },
+      "sentence_context": "",
+      "correct_answer": "Giulia, the teacher",
+      "distractors": ["Marta", "Keiko"],
+      "hints": ["Anche io abito in via Roma…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-06-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What will Giulia do tomorrow?" },
+      "sentence_context": "",
+      "correct_answer": "Sing",
+      "distractors": ["Play the guitar", "Nothing: she will stay quiet"],
+      "hints": ["Domani non suono…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-06-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa suona la vicina?" },
+      "sentence_context": "Che cosa suona la vicina?",
+      "correct_answer": ["la chitarra", "suona la chitarra"],
+      "distractors": [],
+      "hints": ["Suona…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-06-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Emma guarda la tv la sera?" },
+      "sentence_context": "Emma guarda la tv la sera?",
+      "correct_answer": ["no, non guarda la tv", "no"],
+      "distractors": [],
+      "hints": ["Yes or no, then the lei form."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-06-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dove abita Giulia?" },
+      "sentence_context": "Dove abita Giulia?",
+      "correct_answer": ["in via Roma", "abita in via Roma"],
+      "distractors": [],
+      "hints": ["Abita in…"],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "la vicina", "meaning": "the neighbour (a woman) · il vicino (a man)", "example": "La vicina è italiana.", "phrase": true }
+  ],
+  "reading": {
+    "title": "La chitarra",
+    "paragraphs": ["Emma abita in un appartamento in centro, in via Roma. È piccolo, ma Emma è contenta. C'è un problema: la vicina. Ogni sera la vicina suona la chitarra e canta. Suona male… e canta molto male! Emma non legge, non studia e non dorme.", "Oggi, in classe, Giulia ha una domanda.", "Giulia: Che cosa preferite la sera? Guardate la tv? Leggete? Ascoltate musica?", "Marta: Io guardo una serie spagnola. E cucino molto!", "Keiko: Io leggo il giornale e scrivo e-mail. Il fine settimana gioco a tennis.", "Giulia: E tu, Emma?", "Emma: Io non guardo la tv e non leggo. La sera ascolto la vicina: suona la chitarra e canta. Ogni sera! E suona male, molto male. Non dormo da una settimana!", "Giulia: Mi dispiace! E dove abiti?", "Emma: In via Roma.", "Giulia: In via Roma… Anche io abito in via Roma. E la sera suono la chitarra. Amo la musica!", "Emma: Oh, no…", "Giulia: Non è un problema, Emma. Domani non suono: canto!"]
+  }
+}

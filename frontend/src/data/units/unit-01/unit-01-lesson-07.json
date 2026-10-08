@@ -1,0 +1,21 @@
+{
+  "id": "unit-01-lesson-07",
+  "unit_id": "unit-01",
+  "name": "Meeting the Neighbour",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-01-lesson-07-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "You meet a new neighbour one morning. Greet them politely, tell them your name and ask theirs." },
+      "sentence_context": "",
+      "correct_answer": "Buongiorno! Mi chiamo Anna. Come si chiama?",
+      "distractors": [],
+      "hints": ["A neighbour you don't know yet: use the formal forms."],
+      "target_words": ["buongiorno", "mi chiamo", "come si chiama"]
+    }
+  ],
+  "vocabulary": []
+}

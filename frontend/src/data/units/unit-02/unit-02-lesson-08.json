@@ -1,0 +1,87 @@
+{
+  "id": "unit-02-lesson-08",
+  "unit_id": "unit-02",
+  "name": "Say It Out Loud",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-02-lesson-08-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ciao! Mi chiamo Emma. Sono inglese, di Londra.",
+      "correct_answer": "Ciao! Mi chiamo Emma. Sono inglese, di Londra.",
+      "distractors": [],
+      "hints": ["Name, nationality, city."],
+      "target_words": ["mi chiamo", "inglese"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Buongiorno. Di dov'è?",
+      "correct_answer": "Buongiorno. Di dov'è?",
+      "distractors": [],
+      "hints": ["The formal question."],
+      "target_words": ["di dov'è"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Questo è Paul. È americano, ed è medico.",
+      "correct_answer": "Questo è Paul. È americano, ed è medico.",
+      "distractors": [],
+      "hints": ["Introducing someone."],
+      "target_words": ["questo è"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Questa è Keiko. È giapponese, di Tokyo.",
+      "correct_answer": "Questa è Keiko. È giapponese, di Tokyo.",
+      "distractors": [],
+      "hints": ["Questa for a woman."],
+      "target_words": ["questa è"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Non sono italiana. Sono tedesca, di Berlino.",
+      "correct_answer": "Non sono italiana. Sono tedesca, di Berlino.",
+      "distractors": [],
+      "hints": ["Non before the verb."],
+      "target_words": ["tedesco"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Che lavoro fai? Sono studente.",
+      "correct_answer": "Che lavoro fai? Sono studente.",
+      "distractors": [],
+      "hints": ["Question and answer."],
+      "target_words": ["che lavoro fai"]
+    },
+    {
+      "id": "unit-02-lesson-08-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Come si scrive? A, doppia N, A.",
+      "correct_answer": "Come si scrive? A, doppia N, A.",
+      "distractors": [],
+      "hints": ["Spelling a name."],
+      "target_words": ["come si scrive", "doppia"]
+    }
+  ],
+  "vocabulary": []
+}

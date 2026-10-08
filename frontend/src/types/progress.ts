@@ -1,5 +1,6 @@
 import type { Card as FSRSCard, ReviewLog } from 'ts-fsrs';
 import type { Exercise, ExerciseType } from './exercise';
+import type { GrammarUnitProgress } from './grammar';
 
 export interface ExerciseResult {
   exercise_id: string;
@@ -83,6 +84,8 @@ export interface UserProgress {
   streak_dates: string[];
   /** Daily activity counts, keyed by ISO date string */
   daily_activity: Record<string, DailyActivity>;
+  /** Per grammar unit: studied, practised, learned (mastery check passed) */
+  grammar_units: Record<string, GrammarUnitProgress>;
 }
 
 /** Daily activity counters for streak threshold evaluation */

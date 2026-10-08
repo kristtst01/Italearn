@@ -1,0 +1,194 @@
+{
+  "id": "unit-23-lesson-05",
+  "unit_id": "unit-23",
+  "name": "Coffee with Friends",
+  "order": 5,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-23-lesson-05-ex-01",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A classmate catches you after the lesson." },
+      "sentence_context": "Classmate: Andiamo al bar?\nYou: ___",
+      "correct_answer": ["Sì, volentieri!", "Mi dispiace, non posso. Devo lavorare."],
+      "distractors": [],
+      "hints": ["Gladly, or you cannot and why."],
+      "target_words": ["volentieri"],
+      "dialogue": [
+        { "speaker": "Classmate", "text": "Andiamo al bar?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You suggest going for a coffee:" },
+      "sentence_context": "",
+      "correct_answer": "Andiamo a prendere un caffè?",
+      "distractors": ["Andiamo prendere un caffè?", "Andiamo per prendiamo un caffè?"],
+      "hints": ["After andare: a + the infinitive."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-05-ex-03",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "At the bar, your friend is ready to order." },
+      "sentence_context": "Friend: Che cosa prendi?\nYou: ___",
+      "correct_answer": ["Prendo un cappuccino.", "Un tè, grazie."],
+      "distractors": [],
+      "hints": ["Prendo…"],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Che cosa prendi?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-05-ex-04",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete, to a friend: Do you want a coffee?" },
+      "sentence_context": "___ un caffè?",
+      "correct_answer": "Vuoi",
+      "distractors": [],
+      "hints": ["The tu form of volere."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-05-ex-05",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I can't come, I have to study." },
+      "sentence_context": "Non ___ venire, devo studiare.",
+      "correct_answer": "posso",
+      "distractors": [],
+      "hints": ["The io form of potere."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You want to pay for everyone today. You say:" },
+      "sentence_context": "",
+      "correct_answer": "Oggi offro io!",
+      "distractors": ["Oggi offri io!", "Oggi offre io!"],
+      "hints": ["The io form of offrire."],
+      "target_words": ["offro io"]
+    },
+    {
+      "id": "unit-23-lesson-05-ex-07",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your friend gets to the till first." },
+      "sentence_context": "Friend: Offro io!\nYou: ___",
+      "correct_answer": ["Grazie! Domani offro io.", "Grazie, molto gentile!"],
+      "distractors": [],
+      "hints": ["Thank them."],
+      "target_words": ["offro io"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Offro io!" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-05-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Emma and Marta want to go to the bar." },
+      "sentence_context": "Emma e Marta ___ andare al bar.",
+      "correct_answer": "vogliono",
+      "distractors": [],
+      "hints": ["The loro form of volere."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-05-ex-09",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake: 'I can't come.'" },
+      "sentence_context": "Non posso vengo.",
+      "correct_answer": ["Non posso venire."],
+      "distractors": [],
+      "hints": ["After potere, the infinitive."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-05-ex-10",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake: 'We have to pay.'" },
+      "sentence_context": "Dobbiamo a pagare.",
+      "correct_answer": ["Dobbiamo pagare."],
+      "distractors": [],
+      "hints": ["Nothing between dovere and the infinitive."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-05-ex-11",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend phones in the afternoon." },
+      "sentence_context": "Friend: Vieni al bar stasera?\nYou: ___",
+      "correct_answer": ["Sì, vengo volentieri!", "No, stasera non posso. Devo studiare."],
+      "distractors": [],
+      "hints": ["Vengo, or non posso and why."],
+      "target_words": ["volentieri"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Vieni al bar stasera?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-05-ex-12",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Do you (plural) want to have a coffee?'" },
+      "sentence_context": "Volete prendere un caffè?",
+      "correct_answer": ["Volete", "prendere", "un", "caffè?"],
+      "distractors": ["vogliono", "prendete"],
+      "hints": ["Volete + the infinitive."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-05-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Suggest going to the bar: 'Shall we go to the bar?'" },
+      "sentence_context": "",
+      "correct_answer": ["andiamo al bar"],
+      "distractors": [],
+      "hints": ["The noi form of andare, as a question."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-05-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you can't, you have to work." },
+      "sentence_context": "",
+      "correct_answer": ["non posso, devo lavorare", "non posso. devo lavorare", "non posso: devo lavorare"],
+      "distractors": [],
+      "hints": ["Non posso, then devo + the infinitive."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-05-ex-15",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend what they are having." },
+      "sentence_context": "",
+      "correct_answer": ["che cosa prendi", "cosa prendi"],
+      "distractors": [],
+      "hints": ["Che cosa + the tu form of prendere."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "offro io", "meaning": "it's on me, my treat", "example": "Oggi offro io!", "phrase": true },
+    { "word": "volentieri", "meaning": "gladly, with pleasure", "example": "Un caffè? Volentieri!" }
+  ]
+}

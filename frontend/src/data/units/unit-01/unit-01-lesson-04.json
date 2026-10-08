@@ -3,27 +3,30 @@
   "unit_id": "unit-01",
   "name": "When You're Lost",
   "order": 4,
-  "grammar_tips": [
-    {
-      "id": "unit-01-lesson-04-tip-01",
-      "title": "Your Two Lifelines",
-      "explanation": "When a conversation moves too fast, you have two essential tools: 'Non capisco' (I don't understand) to signal the problem, and 'Può ripetere?' (Can you repeat?) to ask for help. Use them freely — Italians appreciate the effort more than they judge the struggle.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-01-lesson-04-tip-02",
-      "title": "Come si dice...? — Learn Mid-Conversation",
-      "explanation": "'Come si dice...?' means 'How do you say...?' It lets you learn new words right inside a conversation. Point at something and ask 'Come si dice questo in italiano?' (How do you say this in Italian?) — and you'll get a mini lesson on the spot.",
-      "before_exercise": 5
-    },
-    {
-      "id": "unit-01-lesson-04-tip-03",
-      "title": "Va bene vs. D'accordo",
-      "explanation": "Both mean 'okay', but they feel different. 'Va bene' is relaxed — 'alright, fine'. 'D'accordo' emphasizes agreement — 'agreed, deal'. You'll hear 'va bene' more in casual conversation and 'd'accordo' when confirming plans.",
-      "before_exercise": 10
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
+    {
+      "id": "unit-01-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'può ripetere?' mean?" },
+      "sentence_context": "Scusi, può ripetere?",
+      "correct_answer": ["can you repeat?"],
+      "distractors": [],
+      "hints": ["'Può' = can you (formal), 'ripetere' = to repeat."],
+      "target_words": ["può ripetere"]
+    },
+    {
+      "id": "unit-01-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'd'accordo' mean?" },
+      "sentence_context": "D'accordo, grazie!",
+      "correct_answer": ["agreed", "okay"],
+      "distractors": [],
+      "hints": ["It stresses agreement, like 'agreed' or 'deal'. Same root as English 'accord'."],
+      "target_words": ["d'accordo"]
+    },
     {
       "id": "unit-01-lesson-04-ex-01",
       "type": "vocab",
@@ -36,15 +39,15 @@
       "target_words": ["non capisco"]
     },
     {
-      "id": "unit-01-lesson-04-ex-02",
+      "id": "unit-01-lesson-04-ex-06",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'può ripetere?' mean?" },
-      "sentence_context": "Scusi, può ripetere?",
-      "correct_answer": "Can you repeat? (formal)",
-      "distractors": ["Can you speak? (formal)", "Can you understand?", "Can you help me?"],
-      "hints": ["'Può' = can you (formal), 'ripetere' = to repeat."],
-      "target_words": ["può ripetere"]
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Come si ___ 'thank you' in italiano?",
+      "correct_answer": "dice",
+      "distractors": [],
+      "hints": ["How do you say 'thank you' in Italian?"],
+      "target_words": ["come si dice"]
     },
     {
       "id": "unit-01-lesson-04-ex-03",
@@ -54,40 +57,7 @@
       "sentence_context": "Come si dice 'water' in italiano?",
       "correct_answer": "Come si dice...?",
       "distractors": ["Non capisco", "Può ripetere?", "Va bene?"],
-      "hints": ["Literally: 'How does one say...?' — the magic phrase for learning on the fly."],
-      "target_words": ["come si dice"]
-    },
-    {
-      "id": "unit-01-lesson-04-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'va bene' mean?" },
-      "sentence_context": "Va bene, ci vediamo alle otto!",
-      "correct_answer": "Okay / Alright",
-      "distractors": ["I understand", "I'm sorry", "See you later"],
-      "hints": ["Literally: 'it goes well'. Used like English 'alright' or 'fine'."],
-      "target_words": ["va bene"]
-    },
-    {
-      "id": "unit-01-lesson-04-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "Your colleague proposes a meeting time. You want to confirm you agree. What do you say?" },
-      "sentence_context": "D'accordo, alle dieci.",
-      "correct_answer": "D'accordo",
-      "distractors": ["Va bene", "Non capisco", "Mi dispiace"],
-      "hints": ["This word emphasizes agreement — like 'agreed' or 'deal'. Same root as English 'accord'."],
-      "target_words": ["d'accordo"]
-    },
-    {
-      "id": "unit-01-lesson-04-ex-06",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Come si ___ 'thank you' in italiano?",
-      "correct_answer": "dice",
-      "distractors": [],
-      "hints": ["How do you say 'thank you' in Italian?"],
+      "hints": ["Literally 'How does one say...?', the phrase for learning on the fly."],
       "target_words": ["come si dice"]
     },
     {
@@ -106,11 +76,44 @@
       "type": "vocab",
       "subtype": "cloze",
       "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "___, ci vediamo domani!",
+      "sentence_context": "___, a presto!",
       "correct_answer": ["Va bene", "D'accordo"],
       "distractors": [],
       "hints": ["Okay, see you tomorrow!"],
       "target_words": ["va bene"]
+    },
+    {
+      "id": "unit-01-lesson-04-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "You missed what someone said. Ask them to repeat (formally)." },
+      "sentence_context": "Scusi, ___ ripetere?",
+      "correct_answer": "può",
+      "distractors": [],
+      "hints": ["The formal 'can you', from the verb 'potere'."],
+      "target_words": ["può ripetere"]
+    },
+    {
+      "id": "unit-01-lesson-04-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I don't understand. Can you repeat?'" },
+      "sentence_context": "Non capisco. Può ripetere?",
+      "correct_answer": ["Non", "capisco.", "Può", "ripetere?"],
+      "distractors": ["bene", "grazie"],
+      "hints": ["First say the problem, then ask for help."],
+      "target_words": ["non capisco", "può ripetere"]
+    },
+    {
+      "id": "unit-01-lesson-04-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'How do you say \"hello\" in Italian?'" },
+      "sentence_context": "Come si dice 'hello' in italiano?",
+      "correct_answer": ["Come", "si", "dice", "'hello'", "in", "italiano?"],
+      "distractors": ["capisco", "bene"],
+      "hints": ["Start with 'how', then 'one says', then the English word."],
+      "target_words": ["come si dice"]
     },
     {
       "id": "unit-01-lesson-04-ex-09",
@@ -120,19 +123,9 @@
       "sentence_context": "Sì, certo!",
       "correct_answer": "sì",
       "distractors": [],
-      "hints": ["Short word, but don't forget the accent mark on the i!"],
-      "target_words": ["sì"]
-    },
-    {
-      "id": "unit-01-lesson-04-ex-10",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "Translate to Italian: 'no'" },
-      "sentence_context": "No, grazie.",
-      "correct_answer": "no",
-      "distractors": [],
-      "hints": ["Same as English!"],
-      "target_words": ["no"]
+      "hints": ["Don't forget the accent: without it, 'si' is a different word."],
+      "target_words": ["sì"],
+      "strict_accents": true
     },
     {
       "id": "unit-01-lesson-04-ex-11",
@@ -164,50 +157,40 @@
       "sentence_context": "Va bene!",
       "correct_answer": "va bene",
       "distractors": [],
-      "hints": ["Two words — literally 'it goes well'."],
+      "hints": ["Two words, literally 'it goes well'."],
       "target_words": ["va bene"]
     },
     {
-      "id": "unit-01-lesson-04-ex-14",
+      "id": "unit-01-lesson-04-ex-17",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "You missed what someone said. Ask them to repeat (formally)." },
-      "sentence_context": "Scusi, ___ ripetere?",
-      "correct_answer": "può",
+      "subtype": "type_answer",
+      "prompt": { "text": "Agree to a plan: say 'agreed' in Italian." },
+      "sentence_context": "",
+      "correct_answer": ["d'accordo"],
       "distractors": [],
-      "hints": ["The formal 'can you' — from the verb 'potere'."],
+      "hints": ["It stresses agreement."],
+      "target_words": ["d'accordo"]
+    },
+    {
+      "id": "unit-01-lesson-04-ex-18",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "You didn't catch that. Ask the waiter to repeat." },
+      "sentence_context": "",
+      "correct_answer": ["può ripetere", "scusi, può ripetere", "può ripetere, per favore"],
+      "distractors": [],
+      "hints": ["The formal 'can you repeat?'"],
       "target_words": ["può ripetere"]
-    },
-    {
-      "id": "unit-01-lesson-04-ex-15",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I don't understand. Can you repeat?'" },
-      "sentence_context": "Non capisco. Può ripetere?",
-      "correct_answer": ["Non", "capisco.", "Può", "ripetere?"],
-      "distractors": ["bene", "grazie"],
-      "hints": ["First say the problem, then ask for help."],
-      "target_words": ["non capisco", "può ripetere"]
-    },
-    {
-      "id": "unit-01-lesson-04-ex-16",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'How do you say \"hello\" in Italian?'" },
-      "sentence_context": "Come si dice 'hello' in italiano?",
-      "correct_answer": ["Come", "si", "dice", "'hello'", "in", "italiano?"],
-      "distractors": ["capisco", "bene"],
-      "hints": ["Start with 'how', then 'one says', then the English word."],
-      "target_words": ["come si dice"]
     }
   ],
   "vocabulary": [
     { "word": "non capisco", "meaning": "I don't understand", "example": "Non capisco. Più lentamente, per favore." },
     { "word": "può ripetere", "meaning": "Can you repeat? (formal)", "example": "Scusi, può ripetere?" },
     { "word": "come si dice", "meaning": "How do you say...?", "example": "Come si dice 'water' in italiano?" },
-    { "word": "va bene", "meaning": "Okay / Alright", "example": "Va bene, ci vediamo alle otto!" },
-    { "word": "d'accordo", "meaning": "Agreed / Okay", "example": "D'accordo, alle dieci." },
+    { "word": "va bene", "meaning": "Okay / Alright", "example": "Va bene, a presto!" },
+    { "word": "d'accordo", "meaning": "Agreed / Okay", "example": "D'accordo, grazie!" },
     { "word": "sì", "meaning": "Yes", "example": "Sì, certo!" },
-    { "word": "no", "meaning": "No", "example": "No, grazie." }
+    { "word": "no", "meaning": "No", "example": "No, grazie." },
+    { "word": "certo", "meaning": "of course, sure", "example": "Certo, va bene!" }
   ]
 }

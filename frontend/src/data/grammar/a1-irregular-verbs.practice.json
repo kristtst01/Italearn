@@ -1,0 +1,1105 @@
+{
+  "unit_id": "a1-irregular-verbs",
+  "points": {
+    "fare-andare-stare": {
+      "label": "Fare, andare and stare",
+      "section": "Fare, andare and stare"
+    },
+    "venire-uscire": {
+      "label": "Venire and uscire",
+      "section": "Venire and uscire"
+    },
+    "dare-bere-dire-sapere": {
+      "label": "Dare, bere, dire and sapere",
+      "section": "Dare, bere, dire and sapere"
+    },
+    "modals": {
+      "label": "Volere, potere and dovere",
+      "section": "Volere, potere and dovere"
+    },
+    "vorrei": {
+      "label": "Vorrei",
+      "section": "Vorrei"
+    },
+    "sapere-conoscere": {
+      "label": "Sapere, conoscere and potere",
+      "section": "Sapere, conoscere and potere"
+    },
+    "per": {
+      "label": "Per + infinitive",
+      "section": "Per + infinitive"
+    }
+  },
+  "stops": [
+    {
+      "id": "fare-andare-stare",
+      "title": "Fare, andare and stare",
+      "after": "Fare, andare and stare",
+      "exercises": [
+        {
+          "id": "a1-irregular-verbs-p-01",
+          "type": "vocab",
+          "subtype": "match_pairs",
+          "prompt": {
+            "text": "Match each pronoun with its form of andare."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "io|vado",
+            "tu|vai",
+            "lui|va",
+            "noi|andiamo",
+            "voi|andate",
+            "loro|vanno"
+          ],
+          "distractors": [],
+          "hints": [],
+          "target_words": [],
+          "grammar_points": [
+            "fare-andare-stare"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-02",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of fare."
+          },
+          "sentence_context": "Io ___ la spesa.",
+          "correct_answer": "faccio",
+          "distractors": [],
+          "hints": [
+            "io: faccio."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "fare-andare-stare"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-03",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of fare."
+          },
+          "sentence_context": "Che lavoro ___ Marco?",
+          "correct_answer": "fa",
+          "distractors": [],
+          "hints": [
+            "lui: fa."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "fare-andare-stare"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-04",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of fare."
+          },
+          "sentence_context": "Loro ___ la spesa.",
+          "correct_answer": "fanno",
+          "distractors": [],
+          "hints": [
+            "loro: fanno."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "fare-andare-stare"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-05",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of andare."
+          },
+          "sentence_context": "Noi ___ a Roma.",
+          "correct_answer": "andiamo",
+          "distractors": [],
+          "hints": [
+            "noi: andiamo, the regular part."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "fare-andare-stare"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-06",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of andare."
+          },
+          "sentence_context": "Tu ___ a casa?",
+          "correct_answer": "vai",
+          "distractors": [],
+          "hints": [
+            "tu: vai."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "fare-andare-stare"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-07",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of stare."
+          },
+          "sentence_context": "Loro ___ bene.",
+          "correct_answer": "stanno",
+          "distractors": [],
+          "hints": [
+            "loro: stanno."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "fare-andare-stare"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-08",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite the sentence with loro."
+          },
+          "sentence_context": "Va a casa.",
+          "correct_answer": [
+            "Vanno a casa.",
+            "Loro vanno a casa."
+          ],
+          "distractors": [],
+          "hints": [
+            "Loro: vanno."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "fare-andare-stare"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-09",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Loro andano a Milano.",
+          "correct_answer": [
+            "Loro vanno a Milano.",
+            "Vanno a Milano."
+          ],
+          "distractors": [],
+          "hints": [
+            "Andare is irregular."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "fare-andare-stare"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "more-verbs",
+      "title": "Venire, uscire, dare, bere, dire, sapere",
+      "after": "Dare, bere, dire and sapere",
+      "exercises": [
+        {
+          "id": "a1-irregular-verbs-p-10",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of venire."
+          },
+          "sentence_context": "Io ___ da Londra.",
+          "correct_answer": "vengo",
+          "distractors": [],
+          "hints": [
+            "io: vengo."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "venire-uscire"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-11",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of venire."
+          },
+          "sentence_context": "Tu ___ a casa?",
+          "correct_answer": "vieni",
+          "distractors": [],
+          "hints": [
+            "tu: vieni."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "venire-uscire"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-12",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of uscire."
+          },
+          "sentence_context": "Stasera ___ con Marco. (I)",
+          "correct_answer": "esco",
+          "distractors": [],
+          "hints": [
+            "io: esco."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "venire-uscire"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-13",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of uscire."
+          },
+          "sentence_context": "Noi ___ stasera.",
+          "correct_answer": "usciamo",
+          "distractors": [],
+          "hints": [
+            "noi: usciamo, the regular part."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "venire-uscire"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-14",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of bere."
+          },
+          "sentence_context": "Io ___ un caffè.",
+          "correct_answer": "bevo",
+          "distractors": [],
+          "hints": [
+            "bere: stem bev-."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "dare-bere-dire-sapere"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-15",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of dire."
+          },
+          "sentence_context": "Cosa ___ Giulia?",
+          "correct_answer": "dice",
+          "distractors": [],
+          "hints": [
+            "lei: dice."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "dare-bere-dire-sapere"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-16",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of sapere."
+          },
+          "sentence_context": "Non lo ___. (I)",
+          "correct_answer": "so",
+          "distractors": [],
+          "hints": [
+            "io: so."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "dare-bere-dire-sapere"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-17",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: he gives a book to Marco."
+          },
+          "sentence_context": "Lui ___ un libro a Marco.",
+          "correct_answer": "dà",
+          "distractors": [],
+          "hints": [
+            "Dà (gives) has an accent."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "dare-bere-dire-sapere"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-irregular-verbs-p-18",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which means 'I come from Rome'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Vengo da Roma.",
+          "distractors": [
+            "Vengo di Roma.",
+            "Sono da Roma."
+          ],
+          "hints": [
+            "Venire da, essere di."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "venire-uscire"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modals-vorrei",
+      "title": "Volere, potere, dovere and vorrei",
+      "after": "Vorrei",
+      "exercises": [
+        {
+          "id": "a1-irregular-verbs-p-19",
+          "type": "vocab",
+          "subtype": "match_pairs",
+          "prompt": {
+            "text": "Match each form with its meaning."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "voglio|I want",
+            "posso|I can",
+            "devo|I have to",
+            "vorrei|I'd like"
+          ],
+          "distractors": [],
+          "hints": [],
+          "target_words": [],
+          "grammar_points": [
+            "modals",
+            "vorrei"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-20",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of potere."
+          },
+          "sentence_context": "___ entrare? (I)",
+          "correct_answer": [
+            "Posso",
+            "posso"
+          ],
+          "distractors": [],
+          "hints": [
+            "io: posso."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "modals"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-21",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of dovere."
+          },
+          "sentence_context": "Noi ___ lavorare.",
+          "correct_answer": "dobbiamo",
+          "distractors": [],
+          "hints": [
+            "noi: dobbiamo."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "modals"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-22",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of volere."
+          },
+          "sentence_context": "Tu ___ un gelato?",
+          "correct_answer": "vuoi",
+          "distractors": [],
+          "hints": [
+            "tu: vuoi."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "modals"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-23",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the right form of potere."
+          },
+          "sentence_context": "Lei ___ ripetere?",
+          "correct_answer": "può",
+          "distractors": [],
+          "hints": [
+            "Lei: può, with an accent."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "modals"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-irregular-verbs-p-24",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make the sentence negative."
+          },
+          "sentence_context": "Posso venire.",
+          "correct_answer": [
+            "Non posso venire."
+          ],
+          "distractors": [],
+          "hints": [
+            "Non before the modal."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "modals"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-25",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "At the bar, which is the polite way to order?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Vorrei un cappuccino, per favore.",
+          "distractors": [
+            "Voglio un cappuccino.",
+            "Devo un cappuccino."
+          ],
+          "hints": [
+            "Vorrei is the polite form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "vorrei"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-26",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You offer a friend an ice cream. What do you ask?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Vorresti un gelato?",
+          "distractors": [
+            "Vorrebbe un gelato?",
+            "Vorrei un gelato?"
+          ],
+          "hints": [
+            "To a friend: vorresti."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "vorrei"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-27",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: do you know Marco?"
+          },
+          "sentence_context": "___ Marco?",
+          "correct_answer": [
+            "Conosci",
+            "conosci"
+          ],
+          "distractors": [],
+          "hints": [
+            "Knowing a person: conoscere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "sapere-conoscere"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-28",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: I don't know where he lives."
+          },
+          "sentence_context": "Non ___ dove abita.",
+          "correct_answer": "so",
+          "distractors": [],
+          "hints": [
+            "Knowing a fact: sapere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "sapere-conoscere"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-29",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'I can swim' (I know how)?"
+          },
+          "sentence_context": "",
+          "correct_answer": "So nuotare.",
+          "distractors": [
+            "Posso nuotare.",
+            "Conosco nuotare."
+          ],
+          "hints": [
+            "A learned skill: sapere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "sapere-conoscere"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-30",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "At a friend's door, how do you ask 'Can I come in?'"
+          },
+          "sentence_context": "",
+          "correct_answer": "Posso entrare?",
+          "distractors": [
+            "So entrare?",
+            "Conosco entrare?"
+          ],
+          "hints": [
+            "Being allowed: potere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "sapere-conoscere"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-31",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say 'I'd like to eat an ice cream.'"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "vorrei mangiare un gelato"
+          ],
+          "distractors": [],
+          "hints": [
+            "Vorrei + infinitive."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "vorrei"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-32",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Voglio a mangiare.",
+          "correct_answer": [
+            "Voglio mangiare."
+          ],
+          "distractors": [],
+          "hints": [
+            "Nothing between the modal and the infinitive."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "modals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "per",
+      "title": "Per + infinitive, and mixed",
+      "after": "Per + infinitive",
+      "exercises": [
+        {
+          "id": "a1-irregular-verbs-p-33",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: I'm studying Italian to work in Rome."
+          },
+          "sentence_context": "Studio italiano ___ lavorare a Roma.",
+          "correct_answer": "per",
+          "distractors": [],
+          "hints": [
+            "'In order to': per."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "per"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-34",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say 'I'm going to Rome to see Marco.'"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "vado a Roma per vedere Marco",
+            "vado a Roma a vedere Marco"
+          ],
+          "distractors": [],
+          "hints": [
+            "After a verb of movement: per or a + infinitive."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "per"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-35",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Vado a casa dormire.",
+          "correct_answer": [
+            "Vado a casa a dormire.",
+            "Vado a casa per dormire."
+          ],
+          "distractors": [],
+          "hints": [
+            "Per before the infinitive."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "per"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-36",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "'Devo lavorare.' What does it mean?"
+          },
+          "sentence_context": "Devo lavorare.",
+          "correct_answer": "I have to work.",
+          "distractors": [
+            "I want to work.",
+            "I can work."
+          ],
+          "hints": [
+            "Dovere: have to."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "modals"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-37",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say 'We can't come.'"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "non possiamo venire"
+          ],
+          "distractors": [],
+          "hints": [
+            "Non + possiamo + venire."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "modals",
+            "venire-uscire"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-38",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say 'They're going out tonight.'"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "escono stasera",
+            "stasera escono",
+            "loro escono stasera"
+          ],
+          "distractors": [],
+          "hints": [
+            "Uscire, loro form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "venire-uscire"
+          ]
+        },
+        {
+          "id": "a1-irregular-verbs-p-39",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake: you're ordering."
+          },
+          "sentence_context": "Voglio un panino.",
+          "correct_answer": [
+            "Vorrei un panino.",
+            "Vorrei un panino, per favore."
+          ],
+          "distractors": [],
+          "hints": [
+            "To a barista, use vorrei."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "vorrei"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-irregular-verbs-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of fare."
+        },
+        "sentence_context": "Voi ___ la spesa?",
+        "correct_answer": "fate",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "fare-andare-stare"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-02",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of andare."
+        },
+        "sentence_context": "Io ___ a Milano.",
+        "correct_answer": "vado",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "fare-andare-stare"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-03",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of stare."
+        },
+        "sentence_context": "Noi ___ a casa.",
+        "correct_answer": "stiamo",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "fare-andare-stare"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-04",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of venire."
+        },
+        "sentence_context": "Loro ___ da Napoli.",
+        "correct_answer": "vengono",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "venire-uscire"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-05",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of uscire."
+        },
+        "sentence_context": "Tu ___ stasera?",
+        "correct_answer": "esci",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "venire-uscire"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-06",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of bere."
+        },
+        "sentence_context": "Loro ___ un caffè.",
+        "correct_answer": "bevono",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "dare-bere-dire-sapere"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-07",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of sapere."
+        },
+        "sentence_context": "Voi ___ parlare inglese?",
+        "correct_answer": "sapete",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "dare-bere-dire-sapere"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-08",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of volere."
+        },
+        "sentence_context": "Loro ___ mangiare.",
+        "correct_answer": "vogliono",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "modals"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-09",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of dovere."
+        },
+        "sentence_context": "Tu ___ lavorare domani?",
+        "correct_answer": "devi",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "modals"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-10",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Fill in the right form of potere."
+        },
+        "sentence_context": "Noi ___ venire.",
+        "correct_answer": "possiamo",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "modals"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-11",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "How do you politely ask for a sandwich?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Vorrei un panino, per favore.",
+        "distractors": [
+          "Voglio un panino.",
+          "Posso un panino."
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "vorrei"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-12",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Devo di partire.",
+        "correct_answer": [
+          "Devo partire."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "modals"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-13",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Vengo di Londra.",
+        "correct_answer": [
+          "Vengo da Londra."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "venire-uscire"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-14",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Studio italiano lavorare a Roma.",
+        "correct_answer": [
+          "Studio italiano per lavorare a Roma."
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "per"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-15",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say 'I'm going home to sleep.'"
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "vado a casa a dormire",
+          "vado a casa per dormire"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "fare-andare-stare",
+          "per"
+        ]
+      },
+      {
+        "id": "a1-irregular-verbs-m-16",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Complete: they know Rome very well."
+        },
+        "sentence_context": "___ Roma molto bene.",
+        "correct_answer": [
+          "Conoscono",
+          "conoscono"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "sapere-conoscere"
+        ]
+      }
+    ]
+  }
+}

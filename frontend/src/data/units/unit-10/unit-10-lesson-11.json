@@ -1,0 +1,98 @@
+{
+  "id": "unit-10-lesson-11",
+  "unit_id": "unit-10",
+  "name": "Say It Out Loud",
+  "order": 11,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-10-lesson-11-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Abitano in centro.",
+      "correct_answer": "Abitano in centro.",
+      "distractors": [],
+      "hints": ["Stress the first a: Abitano."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-11-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Lavorano in banca.",
+      "correct_answer": "Lavorano in banca.",
+      "distractors": [],
+      "hints": ["Stress the o in the middle: lavOrano."],
+      "target_words": ["banca"]
+    },
+    {
+      "id": "unit-10-lesson-11-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Capisco un po' di italiano.",
+      "correct_answer": "Capisco un po' di italiano.",
+      "distractors": [],
+      "hints": ["Sc before o sounds like 'sk'."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-11-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Capisci la domanda?",
+      "correct_answer": "Capisci la domanda?",
+      "distractors": [],
+      "hints": ["Sc before i sounds like 'sh'."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-11-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Studio italiano da due anni.",
+      "correct_answer": "Studio italiano da due anni.",
+      "distractors": [],
+      "hints": ["How long so far."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-11-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Leggo il giornale ogni giorno.",
+      "correct_answer": "Leggo il giornale ogni giorno.",
+      "distractors": [],
+      "hints": ["A hard g in leggo, a soft one in giornale and giorno."],
+      "target_words": ["giornale", "ogni"]
+    },
+    {
+      "id": "unit-10-lesson-11-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Dove abitate?",
+      "correct_answer": "Dove abitate?",
+      "distractors": [],
+      "hints": ["A question for two people."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-11-ex-08",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Paghiamo domani.",
+      "correct_answer": "Paghiamo domani.",
+      "distractors": [],
+      "hints": ["Gh sounds like the g in 'go'."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

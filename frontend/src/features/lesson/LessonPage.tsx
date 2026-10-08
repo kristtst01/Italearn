@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { findLesson } from '@/engine/lessonRunner';
 import type { Lesson } from '@/types';
 import EmptyState from '@/shared/components/EmptyState';
@@ -9,14 +9,18 @@ import { useLessonState } from './useLessonState';
 import LessonHeader from './LessonHeader';
 import CompletionScreen from './CompletionScreen';
 import GrammarTip from './GrammarTip';
+import NewWords from './NewWords';
+import ReadingPanel from './ReadingPanel';
 import { getChapter, isWritingLesson, stampEarned } from '@/engine/chapters';
 import { useProgressStore } from '@/stores/progressStore';
 import SessionLayout from '@/shared/components/SessionLayout';
 import { toSegments } from '@/shared/utils/segments';
+import { useGoBack } from '@/shared/utils/useGoBack';
 
 export default function LessonPage() {
   const { id } = useParams<{ id: string }>();
-  const navigate = useNavigate();
+  // Back to where the lesson was opened from; the lesson's chapter if opened directly
+  const goBack = useGoBack(id ? `/library/${id.replace(/-lesson-\d+$/, '')}` : '/library');
   const [lesson, setLesson] = useState<Lesson | undefined | null>(() => id ? null : undefined);
 
   useEffect(() => {
@@ -50,7 +54,7 @@ export default function LessonPage() {
     );
   }
 
-  return <LessonContent lesson={lesson} onExit={() => navigate('/')} />;
+  return <LessonContent lesson={lesson} onExit={goBack} />;
 }
 
 function LessonContent({
@@ -65,11 +69,29 @@ function LessonContent({
 
   const chapter = getChapter(lesson.unit_id);
   const meta = chapter?.lessons.find((l) => l.id === lesson.id);
-  const earnsStamp = !!chapter && !!meta && isWritingLesson(meta) && !state.isRetry;
   const completed = useProgressStore((s) => s.lessons_completed);
+  // The stamp comes with the chapter's last writing lesson: this one, once all the others are done
+  const earnsStamp =
+    !!chapter &&
+    !!meta &&
+    isWritingLesson(meta) &&
+    !state.isRetry &&
+    chapter.lessons.filter(isWritingLesson).every((l) => l.id === lesson.id || completed.includes(l.id));
+
+  const step =
+    state.currentStep?.kind === 'words' ? (
+      <NewWords words={state.currentStep.words} onStart={state.handleTipDismiss} />
+    ) : state.currentStep?.kind === 'tip' ? (
+      <GrammarTip key={state.currentStep.tip.id} tip={state.currentStep.tip} onDismiss={state.handleTipDismiss} />
+    ) : state.currentStep?.kind === 'exercise' ? (
+      renderExercise({ exercise: state.currentStep.exercise, onComplete: state.handleExerciseComplete })
+    ) : null;
+  // Reading lessons keep the text beside every question
+  const reading = lesson.reading && !state.isComplete;
 
   return (
     <SessionLayout
+      wide={!!reading}
       header={
       <LessonHeader
         context={chapter ? `Chapter ${String(chapter.order).padStart(2, '0')} · ${chapter.name}` : undefined}
@@ -95,18 +117,15 @@ function LessonContent({
             onPracticeMistakes={state.handlePracticeMistakes}
             onContinue={onExit}
           />
-        ) : state.currentStep?.kind === 'tip' ? (
-          <GrammarTip
-            key={state.currentStep.tip.id}
-            tip={state.currentStep.tip}
-            onDismiss={state.handleTipDismiss}
-          />
-        ) : state.currentStep?.kind === 'exercise' ? (
-          renderExercise({
-            exercise: state.currentStep.exercise,
-            onComplete: state.handleExerciseComplete,
-          })
-        ) : null}
+        ) : reading && lesson.reading ? (
+          // The text column is as wide as its line length allows; the question takes a slim column beside it
+          <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-[minmax(0,auto)_var(--container-aside)] lg:justify-center">
+            <ReadingPanel text={lesson.reading} />
+            <div className="min-w-0 lg:sticky lg:top-24 lg:max-h-[calc(100dvh-8rem)] lg:overflow-y-auto">{step}</div>
+          </div>
+        ) : (
+          step
+        )}
     </SessionLayout>
   );
 }

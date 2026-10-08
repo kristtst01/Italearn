@@ -1,0 +1,158 @@
+{
+  "id": "unit-23-lesson-04",
+  "unit_id": "unit-23",
+  "name": "At the Counter",
+  "order": 4,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-23-lesson-04-ex-01",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Morning. You walk into a bar." },
+      "sentence_context": "Barista: Buongiorno! Prego?\nYou: ___",
+      "correct_answer": ["Buongiorno! Vorrei un cappuccino e un cornetto, per favore.", "Un caffè, per favore."],
+      "distractors": [],
+      "hints": ["Greet, then vorrei…"],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Barista", "text": "Buongiorno! Prego?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-04-ex-02",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The barista wants to know where you will have it." },
+      "sentence_context": "Barista: Al banco o al tavolo?\nYou: ___",
+      "correct_answer": ["Al banco, grazie.", "Al tavolo, per favore."],
+      "distractors": [],
+      "hints": ["Standing or sitting."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Barista", "text": "Al banco o al tavolo?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You have no cash. You ask whether you can pay by card:" },
+      "sentence_context": "",
+      "correct_answer": "Posso pagare con la carta?",
+      "distractors": ["Posso pago con la carta?", "Può pagare con la carta?"],
+      "hints": ["Posso + the infinitive."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-04-ex-04",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You would also like some water." },
+      "sentence_context": "Barista: Altro?\nYou: ___",
+      "correct_answer": ["Sì, una bottiglia d'acqua, per favore.", "Sì, un bicchiere d'acqua, per favore."],
+      "distractors": [],
+      "hints": ["Sì, then what you want."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Barista", "text": "Altro?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-04-ex-05",
+      "type": "writing",
+      "subtype": "transformation",
+      "prompt": { "text": "Make it polite: you are speaking to a waiter." },
+      "sentence_context": "Voglio un tè.",
+      "correct_answer": ["Vorrei un tè.", "Vorrei un tè, per favore."],
+      "distractors": [],
+      "hints": ["Voglio sounds abrupt to a waiter. Use the \"I would like\" form."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-04-ex-06",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete, as a waiter to a customer: What would you like, madam?" },
+      "sentence_context": "Che cosa ___, signora?",
+      "correct_answer": "vorrebbe",
+      "distractors": [],
+      "hints": ["The Lei form that goes with vorrei."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You are in a hurry. You tell the barista: 'I have to pay right away.'" },
+      "sentence_context": "",
+      "correct_answer": "Devo pagare subito.",
+      "distractors": ["Devo pago subito.", "Dovo pagare subito."],
+      "hints": ["Devo + the infinitive."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-04-ex-08",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You are ready to leave." },
+      "sentence_context": "Barista: Sono quattro euro.\nYou: ___",
+      "correct_answer": ["Ecco cinque euro.", "Posso pagare con la carta?"],
+      "distractors": [],
+      "hints": ["Hand over the money, or ask about the card."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Barista", "text": "Sono quattro euro." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-04-ex-09",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Can I have a glass of water, please?'" },
+      "sentence_context": "Posso avere un bicchiere d'acqua, per favore?",
+      "correct_answer": ["Posso", "avere", "un", "bicchiere", "d'acqua,", "per", "favore?"],
+      "distractors": ["può", "una"],
+      "hints": ["Posso + avere."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-04-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask how much it is altogether." },
+      "sentence_context": "",
+      "correct_answer": ["quant'è", "quanto costa"],
+      "distractors": [],
+      "hints": ["Two short words joined by an apostrophe."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-04-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Order two coffees politely." },
+      "sentence_context": "",
+      "correct_answer": ["vorrei due caffè, per favore", "due caffè, per favore"],
+      "distractors": [],
+      "hints": ["Caffè doesn't change in the plural."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-04-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you'd like to pay." },
+      "sentence_context": "",
+      "correct_answer": ["vorrei pagare"],
+      "distractors": [],
+      "hints": ["Vorrei + the infinitive."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

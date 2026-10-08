@@ -1,0 +1,119 @@
+{
+  "id": "unit-02-lesson-11",
+  "unit_id": "unit-02",
+  "name": "A Coffee in Rome",
+  "order": 11,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-02-lesson-11-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is Paul?" },
+      "sentence_context": "",
+      "correct_answer": "In Rome",
+      "distractors": ["In Chicago", "In Lyon", "In Paris"],
+      "hints": ["'Paul è a Roma.'"],
+      "target_words": ["di"]
+    },
+    {
+      "id": "unit-02-lesson-11-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is Paul's job?" },
+      "sentence_context": "",
+      "correct_answer": "Doctor",
+      "distractors": ["Tourist", "Waiter", "Teacher"],
+      "hints": ["'Sono medico.'"],
+      "target_words": ["medico"]
+    },
+    {
+      "id": "unit-02-lesson-11-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How does Paul feel?" },
+      "sentence_context": "",
+      "correct_answer": "Tired, but happy",
+      "distractors": ["Happy and not tired", "Tired and sad"],
+      "hints": ["'Stanco, ma contento.'"],
+      "target_words": ["contento"]
+    },
+    {
+      "id": "unit-02-lesson-11-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Chloé is Italian." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'Non sono italiana.'"],
+      "target_words": ["italiano"]
+    },
+    {
+      "id": "unit-02-lesson-11-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is Chloé from?" },
+      "sentence_context": "",
+      "correct_answer": "Lyon, in France",
+      "distractors": ["Rome", "Chicago", "Paris"],
+      "hints": ["'Sono francese, di Lione.'"],
+      "target_words": ["francese"]
+    },
+    {
+      "id": "unit-02-lesson-11-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Paul thinks Chloé might be a tourist. What is she really?" },
+      "sentence_context": "",
+      "correct_answer": "The waitress at the bar",
+      "distractors": ["A doctor", "A tourist from France", "A teacher"],
+      "hints": ["'Sono cameriera… qui!'"],
+      "target_words": ["cameriere"]
+    },
+    {
+      "id": "unit-02-lesson-11-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why does Chloé call Paul \"dottore\"?" },
+      "sentence_context": "",
+      "correct_answer": "He told her he is a doctor",
+      "distractors": ["It is his surname", "He is her teacher", "All tourists are called dottore"],
+      "hints": ["'Dottore' is also used as a title for doctors."],
+      "target_words": ["dottore"]
+    },
+    {
+      "id": "unit-02-lesson-11-ex-08",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Di dov'è Chloé?" },
+      "sentence_context": "Di dov'è Chloé?",
+      "correct_answer": ["è di Lione", "Chloé è di Lione", "è francese, di Lione"],
+      "distractors": [],
+      "hints": ["She says it when Paul asks if she is Italian."],
+      "target_words": ["di"]
+    },
+    {
+      "id": "unit-02-lesson-11-ex-09",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Chloé è turista?" },
+      "sentence_context": "Chloé è turista?",
+      "correct_answer": ["no, è cameriera", "no, non è turista, è cameriera", "no, Chloé è cameriera"],
+      "distractors": [],
+      "hints": ["No, and say what she is."],
+      "target_words": ["turista"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "sera", "meaning": "evening · è sera = it's evening", "example": "È sera. Buonasera!" },
+    { "word": "donna", "meaning": "woman", "example": "Donna: Buonasera! Non sono italiana." },
+    { "word": "turista", "meaning": "tourist (man or woman)", "example": "Lei è turista?" },
+    { "word": "qui", "meaning": "here", "example": "Sono cameriera qui." },
+    { "word": "dottore", "meaning": "doctor (as a title: dottore, dottor Rossi)", "example": "Un caffè, dottore?" }
+  ],
+  "reading": {
+    "title": "Un caffè a Roma",
+    "paragraphs": ["Paul è a Roma. È americano, di Chicago, ed è medico. È sera. Paul è stanco, ma contento.", "Paul: Buonasera! Scusi, Lei è italiana?", "Donna: Buonasera! No, non sono italiana. Sono francese, di Lione. E Lei?", "Paul: Io sono americano. Mi chiamo Paul. Piacere!", "Donna: Piacere mio! Mi chiamo Chloé. Lei è turista?", "Paul: No, non sono turista. Sono medico. E Lei? Anche Lei è turista?", "Chloé: No, no! Sono cameriera… qui! Un caffè, dottore?", "Paul: Sì, grazie!"]
+  }
+}

@@ -28,4 +28,5 @@ class UserProgress(Base):
     badges: Mapped[dict] = mapped_column(JSONB, default=list)
     streak_dates: Mapped[dict] = mapped_column(JSONB, default=list)
     daily_activity: Mapped[dict] = mapped_column(JSONB, default=dict)
+    grammar_units: Mapped[dict] = mapped_column(JSONB, default=dict, server_default="{}")
     updated_at: Mapped[datetime] = mapped_column(server_default=func.now(), onupdate=func.now())

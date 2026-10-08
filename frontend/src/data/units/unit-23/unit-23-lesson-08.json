@@ -1,0 +1,23 @@
+{
+  "id": "unit-23-lesson-08",
+  "unit_id": "unit-23",
+  "name": "Your Order",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-23-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "You and a friend walk into a bar. Write what you say to the barista: greet them, order for both of you, say where you will have it, ask the price and pay."
+      },
+      "sentence_context": "",
+      "correct_answer": "Buongiorno! Vorrei un cappuccino, un tè e due cornetti, per favore. Al banco, grazie. Quant'è? Ecco cinque euro. Grazie, arrivederci!",
+      "distractors": [],
+      "hints": ["Vorrei… for the order, then al banco or al tavolo, then quant'è?"],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

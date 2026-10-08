@@ -1,398 +1,159 @@
 {
   "id": "unit-05-lesson-01",
   "unit_id": "unit-05",
-  "name": "I Have, You Have",
+  "name": "Family & Pets",
   "order": 1,
-  "grammar_tips": [
-    {
-      "id": "unit-05-lesson-01-tip-01",
-      "title": "Your Second Verb",
-      "explanation": "'Avere' (to have) is the second most important Italian verb after essere. Like essere, it changes form depending on who's speaking: 'ho' (I have), 'hai' (you have), 'ha' (he/she has). With essere and avere together, you can already say a lot.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-05-lesson-01-tip-02",
-      "title": "The Silent H",
-      "explanation": "Ho, hai, ha all start with a silent H — you never pronounce it. The H exists only for spelling: 'ho' (I have) vs 'o' (or), 'hai' (you have) vs 'ai' (to the), 'ha' (has) vs 'a' (to/at). In speech, context makes it clear.",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-05-lesson-01-tip-03",
-      "title": "Have vs Be",
-      "explanation": "Don't confuse avere with essere! 'Sono Marco' (I AM Marco) = identity. 'Ho un cane' (I HAVE a dog) = possession. If you're describing what something IS, use essere. If you're talking about what someone HAS, use avere.",
-      "before_exercise": 12
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-05-lesson-01-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'ho' mean?"
-      },
-      "sentence_context": "Ho un cane.",
-      "correct_answer": "I have",
-      "distractors": [
-        "I am",
-        "You have",
-        "He has"
-      ],
-      "hints": [
-        "The 'io' form of avere."
-      ],
-      "target_words": [
-        "avere"
-      ]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'figlia' mean?" },
+      "sentence_context": "Anna ha una figlia.",
+      "correct_answer": ["daughter"],
+      "distractors": [],
+      "hints": ["Figlio is son; -a for a girl."],
+      "target_words": ["figlia"]
     },
     {
       "id": "unit-05-lesson-01-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'hai' mean?"
-      },
-      "sentence_context": "Hai una sorella?",
-      "correct_answer": "You have",
-      "distractors": [
-        "I have",
-        "He has",
-        "You are"
-      ],
-      "hints": [
-        "The 'tu' form of avere."
-      ],
-      "target_words": [
-        "avere"
-      ]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'sposata' mean?" },
+      "sentence_context": "Marta è sposata.",
+      "correct_answer": ["married"],
+      "distractors": [],
+      "hints": ["A woman: -a."],
+      "target_words": ["sposato"]
     },
     {
       "id": "unit-05-lesson-01-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'ha' mean?"
-      },
-      "sentence_context": "Maria ha un gatto.",
-      "correct_answer": "He/She has",
-      "distractors": [
-        "I have",
-        "You have",
-        "We have"
-      ],
-      "hints": [
-        "The lui/lei form of avere."
-      ],
-      "target_words": [
-        "avere"
-      ]
+      "prompt": { "text": "A new colleague asks 'Hai fratelli?'. You have one sister. What do you answer?" },
+      "sentence_context": "Hai fratelli?",
+      "correct_answer": "Sì, ho una sorella.",
+      "distractors": ["Sì, sono una sorella.", "Sì, ho un fratello."],
+      "hints": ["Having a sister: avere."],
+      "target_words": ["sorella"]
     },
     {
       "id": "unit-05-lesson-01-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What is 'un cane' in English?"
-      },
-      "sentence_context": "Ho un cane.",
-      "correct_answer": "A dog",
-      "distractors": [
-        "A cat",
-        "A car",
-        "A brother"
-      ],
-      "hints": [
-        "Man's best friend — think 'canine'."
-      ],
-      "target_words": [
-        "cane"
-      ]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I have a dog. His name is Max." },
+      "sentence_context": "Ho un cane. ___ chiama Max.",
+      "correct_answer": ["Si", "si"],
+      "distractors": [],
+      "hints": ["His name is: si chiama."],
+      "target_words": ["si chiama"]
     },
     {
       "id": "unit-05-lesson-01-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What is 'un gatto' in English?"
-      },
-      "sentence_context": "Hai un gatto?",
-      "correct_answer": "A cat",
-      "distractors": [
-        "A dog",
-        "A bicycle",
-        "A sister"
-      ],
-      "hints": [
-        "The other popular pet."
-      ],
-      "target_words": [
-        "gatto"
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your new neighbour, an older lady, is curious about you." },
+      "sentence_context": "Neighbour: Lei è sposato?\nYou: ___",
+      "correct_answer": ["Sì, sono sposato.", "No, non sono sposato.", "Sì, sono sposata.", "No, non sono sposata."],
+      "distractors": [],
+      "hints": ["Married is essere + sposato/sposata."],
+      "target_words": ["sposato"],
+      "dialogue": [
+        { "speaker": "Neighbour", "text": "Lei è sposato?" },
+        { "speaker": "You" }
       ]
     },
     {
       "id": "unit-05-lesson-01-ex-06",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Fill in the correct form of avere."
-      },
-      "sentence_context": "___ un cane.",
-      "correct_answer": "Ho",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A colleague asks about your family." },
+      "sentence_context": "Colleague: Hai figli?\nYou: ___",
+      "correct_answer": ["Sì, ho due figli.", "No, non ho figli.", "Sì, ho una figlia."],
       "distractors": [],
-      "hints": [
-        "I have a dog."
-      ],
-      "target_words": [
-        "avere"
+      "hints": ["Say how many, or that you have none."],
+      "target_words": ["figlio"],
+      "dialogue": [
+        { "speaker": "Colleague", "text": "Hai figli?" },
+        { "speaker": "You" }
       ]
     },
     {
       "id": "unit-05-lesson-01-ex-07",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Fill in the correct form of avere."
-      },
-      "sentence_context": "Tu ___ una macchina?",
-      "correct_answer": "hai",
-      "distractors": [],
-      "hints": [
-        "Do you have a car?"
-      ],
-      "target_words": [
-        "avere"
-      ]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Anna has a son and a daughter. How does she say it?" },
+      "sentence_context": "",
+      "correct_answer": "Ho un figlio e una figlia.",
+      "distractors": ["Ho due figlie.", "Ho un figlia e una figlio."],
+      "hints": ["Un figlio, una figlia."],
+      "target_words": ["figlio", "figlia"]
     },
     {
       "id": "unit-05-lesson-01-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": {
-        "text": "Fill in the correct form of avere."
-      },
-      "sentence_context": "Marco ___ un gatto.",
-      "correct_answer": "ha",
+      "prompt": { "text": "Complete: Marta is married." },
+      "sentence_context": "Marta è ___.",
+      "correct_answer": "sposata",
       "distractors": [],
-      "hints": [
-        "Marco has a cat."
-      ],
-      "target_words": [
-        "avere"
-      ]
+      "hints": ["Marta is a woman."],
+      "target_words": ["sposato"]
     },
     {
       "id": "unit-05-lesson-01-ex-09",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'I have' in Italian?"
-      },
-      "sentence_context": "Ho una bicicletta.",
-      "correct_answer": "ho",
+      "prompt": { "text": "Say you have a dog called Rex." },
+      "sentence_context": "",
+      "correct_answer": ["ho un cane, si chiama Rex", "ho un cane. si chiama Rex", "ho un cane che si chiama Rex"],
       "distractors": [],
-      "hints": [
-        "Starts with a silent H."
-      ],
-      "target_words": [
-        "avere"
-      ]
+      "hints": ["Ho un cane, then 'si chiama'."],
+      "target_words": ["cane", "si chiama"]
     },
     {
       "id": "unit-05-lesson-01-ex-10",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'you have' (informal) in Italian?"
-      },
-      "sentence_context": "Hai un fratello?",
-      "correct_answer": "hai",
+      "prompt": { "text": "Say you don't have any brothers or sisters." },
+      "sentence_context": "",
+      "correct_answer": ["non ho fratelli"],
       "distractors": [],
-      "hints": [
-        "The 'tu' form — also starts with a silent H."
-      ],
-      "target_words": [
-        "avere"
-      ]
+      "hints": ["Fratelli covers brothers and sisters."],
+      "target_words": ["fratello"]
     },
     {
       "id": "unit-05-lesson-01-ex-11",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'a car' in Italian?"
-      },
-      "sentence_context": "Ho una macchina.",
-      "correct_answer": "una macchina",
-      "distractors": [],
-      "hints": [
-        "Think 'machine' — it's related!"
-      ],
-      "target_words": [
-        "macchina"
-      ]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Luca is married and has two children.'" },
+      "sentence_context": "Luca è sposato e ha due figli.",
+      "correct_answer": ["Luca", "è", "sposato", "e", "ha", "due", "figli."],
+      "distractors": ["sono", "figlio"],
+      "hints": ["Married: essere. Children: avere."],
+      "target_words": ["sposato", "figlio"]
     },
     {
       "id": "unit-05-lesson-01-ex-12",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "Which sentence means 'I have a sister'?"
-      },
-      "sentence_context": "Ho una sorella.",
-      "correct_answer": "Ho una sorella",
-      "distractors": [
-        "Sono una sorella",
-        "Ha una sorella",
-        "Hai una sorella"
-      ],
-      "hints": [
-        "'I have' = ho. 'A sister' = una sorella."
-      ],
-      "target_words": [
-        "avere",
-        "sorella"
-      ]
-    },
-    {
-      "id": "unit-05-lesson-01-ex-13",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the verb: someone is talking about what they own."
-      },
-      "sentence_context": "___ una bicicletta.",
-      "correct_answer": "Ho",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend if they have a cat." },
+      "sentence_context": "",
+      "correct_answer": ["hai un gatto"],
       "distractors": [],
-      "hints": [
-        "I have a bicycle — use avere, not essere."
-      ],
-      "target_words": [
-        "avere"
-      ]
-    },
-    {
-      "id": "unit-05-lesson-01-ex-14",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Fill in the verb: talking about what Luca has."
-      },
-      "sentence_context": "Luca ___ un fratello.",
-      "correct_answer": "ha",
-      "distractors": [],
-      "hints": [
-        "Luca has a brother. Use the lui/lei form."
-      ],
-      "target_words": [
-        "avere"
-      ]
-    },
-    {
-      "id": "unit-05-lesson-01-ex-15",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'I have a dog.'"
-      },
-      "sentence_context": "Ho un cane.",
-      "correct_answer": [
-        "Ho",
-        "un",
-        "cane."
-      ],
-      "distractors": [
-        "sono",
-        "sei"
-      ],
-      "hints": [
-        "Verb first, then article, then noun."
-      ],
-      "target_words": [
-        "avere",
-        "cane"
-      ]
-    },
-    {
-      "id": "unit-05-lesson-01-ex-16",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'Do you have a car?'"
-      },
-      "sentence_context": "Hai una macchina?",
-      "correct_answer": [
-        "Hai",
-        "una",
-        "macchina?"
-      ],
-      "distractors": [
-        "ho",
-        "ha"
-      ],
-      "hints": [
-        "'You have' first, then article, then noun."
-      ],
-      "target_words": [
-        "avere",
-        "macchina"
-      ]
-    },
-    {
-      "id": "unit-05-lesson-01-ex-17",
-      "type": "speaking",
-      "subtype": "read_aloud",
-      "prompt": {
-        "text": "Read this sentence aloud."
-      },
-      "sentence_context": "Ho un cane e un gatto. Hai una macchina?",
-      "correct_answer": "Ho un cane e un gatto. Hai una macchina?",
-      "distractors": [],
-      "hints": [
-        "I have a dog and a cat. Do you have a car?"
-      ],
-      "target_words": [
-        "avere",
-        "cane",
-        "gatto",
-        "macchina"
-      ]
+      "hints": ["The informal question."],
+      "target_words": ["gatto"]
     }
   ],
   "vocabulary": [
-    {
-      "word": "avere",
-      "meaning": "To have",
-      "example": "Avere un cane è bello."
-    },
-    {
-      "word": "cane",
-      "meaning": "Dog",
-      "example": "Ho un cane."
-    },
-    {
-      "word": "gatto",
-      "meaning": "Cat",
-      "example": "Hai un gatto?"
-    },
-    {
-      "word": "macchina",
-      "meaning": "Car",
-      "example": "Ho una macchina."
-    },
-    {
-      "word": "bicicletta",
-      "meaning": "Bicycle",
-      "example": "Hai una bicicletta?"
-    },
-    {
-      "word": "fratello",
-      "meaning": "Brother",
-      "example": "Luca ha un fratello."
-    },
-    {
-      "word": "sorella",
-      "meaning": "Sister",
-      "example": "Ho una sorella."
-    }
+    { "word": "fratello", "meaning": "brother · fratelli = brothers, or brothers and sisters", "example": "Ho un fratello." },
+    { "word": "sorella", "meaning": "sister · sorelle = sisters", "example": "Ho due sorelle." },
+    { "word": "figlio", "meaning": "son · figli = sons, or children", "example": "Hai figli?" },
+    { "word": "figlia", "meaning": "daughter", "example": "Anna ha una figlia." },
+    { "word": "sposato", "meaning": "married · sposata (a woman)", "example": "Sei sposato?" },
+    { "word": "cane", "meaning": "dog", "example": "Ho un cane." },
+    { "word": "gatto", "meaning": "cat", "example": "Hai un gatto?" },
+    { "word": "si chiama", "meaning": "his / her / its name is", "example": "Ho un cane. Si chiama Max." }
   ]
 }

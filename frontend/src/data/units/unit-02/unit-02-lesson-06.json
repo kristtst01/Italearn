@@ -1,0 +1,107 @@
+{
+  "id": "unit-02-lesson-06",
+  "unit_id": "unit-02",
+  "name": "First Day of Class",
+  "order": 6,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-02-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who is the teacher of the class?" },
+      "sentence_context": "",
+      "correct_answer": "Giulia",
+      "distractors": ["Emma", "Marta", "Keiko"],
+      "hints": ["She welcomes everyone."],
+      "target_words": ["insegnante"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is Emma from?" },
+      "sentence_context": "",
+      "correct_answer": "London",
+      "distractors": ["New York", "Florence", "Madrid"],
+      "hints": ["Read her introduction."],
+      "target_words": ["di"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Paul is English." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'Non sono inglese.'"],
+      "target_words": ["inglese"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is Keiko's job?" },
+      "sentence_context": "",
+      "correct_answer": "Engineer",
+      "distractors": ["Doctor", "Teacher", "Student"],
+      "hints": ["'Sono ingegnere.'"],
+      "target_words": ["ingegnere"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How does Emma feel?" },
+      "sentence_context": "",
+      "correct_answer": "A bit tired, but happy",
+      "distractors": ["Very tired and sad", "Happy and not tired"],
+      "hints": ["'Un po' stanca, ma contenta.'"],
+      "target_words": ["contento"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who has the same job as Giulia?" },
+      "sentence_context": "",
+      "correct_answer": "Marta",
+      "distractors": ["Paul", "Emma", "Keiko"],
+      "hints": ["'Anche io sono insegnante.'"],
+      "target_words": ["anche"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-07",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Di dov'è Paul?" },
+      "sentence_context": "Di dov'è Paul?",
+      "correct_answer": ["è di New York", "Paul è di New York", "di New York"],
+      "distractors": [],
+      "hints": ["He says it in his introduction."],
+      "target_words": ["di"]
+    },
+    {
+      "id": "unit-02-lesson-06-ex-08",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Marta è italiana?" },
+      "sentence_context": "Marta è italiana?",
+      "correct_answer": ["no, è spagnola", "no, non è italiana, è spagnola", "no, Marta è spagnola"],
+      "distractors": [],
+      "hints": ["No, and say what she is."],
+      "target_words": ["spagnolo"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "ma", "meaning": "but", "example": "Sono stanca, ma contenta." },
+    { "word": "un po'", "meaning": "a bit", "example": "Sono un po' stanco." },
+    { "word": "contento", "meaning": "happy, glad", "example": "Sono contenta!" },
+    { "word": "benvenuti", "meaning": "welcome (to a group)", "example": "Benvenuti a Firenze!" }
+  ],
+  "reading": {
+    "title": "Primo giorno a Firenze",
+    "paragraphs": ["Benvenuti! Io sono Giulia e sono insegnante. Sono italiana, di Firenze. E voi? Chi siete? Di dove siete?", "Ciao a tutti! Mi chiamo Emma. Sono inglese, di Londra, e sono studentessa. Sono un po' stanca, ma contenta!", "Io sono Paul. Non sono inglese: sono americano, di New York. Sono medico.", "Buongiorno. Mi chiamo Keiko. Sono giapponese, di Tokyo. Sono ingegnere.", "E io sono Marta. Sono spagnola, di Madrid. Anche io sono insegnante… di spagnolo!"]
+  }
+}

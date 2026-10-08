@@ -1,0 +1,94 @@
+{
+  "id": "unit-10-lesson-07",
+  "unit_id": "unit-10",
+  "name": "Practice Writing",
+  "order": 7,
+  "grammar_tips": [
+    {
+      "id": "unit-10-lesson-07-tip-01",
+      "title": "Write About Yourself",
+      "explanation": "Now write about your work, study and free time. Use -are, -ere and -ire verbs (including -isc-), and the new nouns from this unit. There is no single correct answer.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-10-lesson-07-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Say what you do for work or study (3-4 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "Sono studente. Studio all'università. Leggo molti libri. Scrivo al computer ogni giorno.",
+      "distractors": [],
+      "hints": [
+        "Use 'sono' + profession, then -ere/-ire verbs and work/study nouns."
+      ],
+      "target_words": [
+        "studiare",
+        "leggere",
+        "scrivere"
+      ]
+    },
+    {
+      "id": "unit-10-lesson-07-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe a typical day at work or school (3-4 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "La mattina vado in ufficio. Finisco il lavoro alle cinque. Capisco molto l'italiano. La sera leggo il giornale.",
+      "distractors": [],
+      "hints": [
+        "Use parts of day + -ere/-ire verbs + work nouns."
+      ],
+      "target_words": [
+        "finire",
+        "capire",
+        "leggere"
+      ]
+    },
+    {
+      "id": "unit-10-lesson-07-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Talk about your hobbies and what you do in your free time (3-4 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "Nel tempo libero ascolto la musica. Gioco a calcio con gli amici. Guardo un film al cinema. Preferisco i film italiani.",
+      "distractors": [],
+      "hints": [
+        "Use 'nel tempo libero', then verbs + hobby nouns."
+      ],
+      "target_words": [
+        "tempo libero",
+        "musica",
+        "calcio",
+        "preferire"
+      ]
+    },
+    {
+      "id": "unit-10-lesson-07-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Compare what you do during the week and at the weekend (3-4 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "Lunedì lavoro in ufficio. Il pomeriggio leggo il giornale. Sabato gioco a calcio. Domenica guardo un film a casa.",
+      "distractors": [],
+      "hints": [
+        "Use days + verbs + locations to contrast week vs weekend."
+      ],
+      "target_words": [
+        "lavorare",
+        "calcio",
+        "film"
+      ]
+    }
+  ],
+  "vocabulary": []
+}

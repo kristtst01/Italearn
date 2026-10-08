@@ -55,6 +55,12 @@
     --text-heading--line-height: 1.2;
     --text-reading: 1.0625rem;
     --text-reading--line-height: 1.6;
+    /* Lesson texts: grows with the window, so a wide screen gives bigger type, not longer lines */
+    --text-passage: clamp(1.125rem, 0.85rem + 0.5vw, 1.375rem);
+    --text-passage--line-height: 1.6;
+
+    /* Layout: the column that holds the question beside a lesson text */
+    --container-aside: clamp(20rem, 26vw, 26rem);
     --tracking-label: 0.1em;
 }
 

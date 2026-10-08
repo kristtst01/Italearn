@@ -1,0 +1,54 @@
+{
+  "source": "Grammar unit a1-numbers, first version",
+  "removed": "2026-10-01",
+  "why": "Quanti/quante is a question word that agrees with its noun; it belongs in the Questions unit, not Numbers. Kept for that unit.",
+  "reading_section": "## Asking how many\n\n**Quanti** (how many) agrees with the noun it asks about: **quanti** with masculine nouns, **quante** with feminine ones.\n\n> Quanti anni hai?\n> How old are you? (literally: how many years do you have?)\n\n> Quanti fratelli hai? Quante sorelle hai?\n> How many brothers do you have? How many sisters?\n\nTypical mistake: *Quanti sorelle hai?* → *Quante sorelle hai?* (quanti agrees with the noun).",
+  "exercises": [
+    {
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "Which asks 'How many sisters do you have?'"
+      },
+      "sentence_context": "",
+      "correct_answer": "Quante sorelle hai?",
+      "distractors": [
+        "Quanti sorelle hai?",
+        "Quanta sorelle hai?"
+      ],
+      "hints": [
+        "Sorelle is feminine."
+      ]
+    },
+    {
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Complete: How many brothers do you have?"
+      },
+      "sentence_context": "___ fratelli hai?",
+      "correct_answer": [
+        "Quanti",
+        "quanti"
+      ],
+      "distractors": [],
+      "hints": [
+        "Fratelli is masculine."
+      ]
+    },
+    {
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": {
+        "text": "Complete: How many sisters does Anna have?"
+      },
+      "sentence_context": "___ sorelle ha Anna?",
+      "correct_answer": [
+        "Quante",
+        "quante"
+      ],
+      "distractors": [],
+      "hints": []
+    }
+  ]
+}

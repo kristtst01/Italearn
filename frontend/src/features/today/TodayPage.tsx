@@ -78,11 +78,11 @@ export default function TodayPage() {
           <div className="flex flex-col gap-3">
             <Label>A1 grammar</Label>
             <div className="flex items-center gap-3.5">
-              <TileGrid tiles={grammarTiles()} size={36} />
+              <TileGrid tiles={grammarTiles()} size={36} columns={8} />
               <p className="text-sm text-muted-foreground">
-                <b className="text-foreground">0 learned</b>
+                <b className="text-foreground">{grammarTiles().filter((t) => t === 'learned').length} learned</b>
                 <br />
-                Units coming soon
+                {grammarTiles().filter((t) => t === 'in-progress').length} in progress
               </p>
             </div>
           </div>

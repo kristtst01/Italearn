@@ -1,0 +1,105 @@
+{
+  "id": "unit-05-lesson-06",
+  "unit_id": "unit-05",
+  "name": "Paul in a Hurry",
+  "order": 6,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-05-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What's the weather like?" },
+      "sentence_context": "",
+      "correct_answer": "It's cold",
+      "distractors": ["It's hot", "It's raining"],
+      "hints": ["'Fa freddo.'"],
+      "target_words": ["fa freddo"]
+    },
+    {
+      "id": "unit-05-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Paul order?" },
+      "sentence_context": "",
+      "correct_answer": "A coffee and a sandwich",
+      "distractors": ["Two coffees", "An ice cream", "Water"],
+      "hints": ["'Un caffè e un panino.'"],
+      "target_words": ["un panino"]
+    },
+    {
+      "id": "unit-05-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How does Paul feel?" },
+      "sentence_context": "",
+      "correct_answer": "Cold, hungry and in a hurry",
+      "distractors": ["Hot and thirsty", "Sleepy and afraid"],
+      "hints": ["Read the first line."],
+      "target_words": ["fretta"]
+    },
+    {
+      "id": "unit-05-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Paul is hot." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'Ho molto freddo.'"],
+      "target_words": ["freddo"]
+    },
+    {
+      "id": "unit-05-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is Paul's problem?" },
+      "sentence_context": "",
+      "correct_answer": "He has no money",
+      "distractors": ["He has no time", "He is not hungry", "Chloé has no coffee"],
+      "hints": ["'Non ho soldi!'"],
+      "target_words": ["soldi"]
+    },
+    {
+      "id": "unit-05-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Chloé say?" },
+      "sentence_context": "",
+      "correct_answer": "It's not a problem: he can pay tomorrow",
+      "distractors": ["He has to pay now", "The coffee is for her"],
+      "hints": ["'Non è un problema. Domani!'"],
+      "target_words": ["domani"]
+    },
+    {
+      "id": "unit-05-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Paul says 'Domani, due caffè!'. What does he mean?" },
+      "sentence_context": "",
+      "correct_answer": "Tomorrow he'll pay for two coffees",
+      "distractors": ["He wants two coffees now", "He has two coffees tomorrow at home"],
+      "hints": ["One for today, one for tomorrow."],
+      "target_words": ["domani"]
+    },
+    {
+      "id": "unit-05-lesson-06-ex-08",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Paul ha soldi?" },
+      "sentence_context": "Paul ha soldi?",
+      "correct_answer": ["no, non ha soldi", "no, Paul non ha soldi"],
+      "distractors": [],
+      "hints": ["No, with non."],
+      "target_words": ["soldi"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "ecco", "meaning": "here it is, here you are", "example": "Ecco: un caffè!" },
+    { "word": "domani", "meaning": "tomorrow", "example": "Domani!" }
+  ],
+  "reading": {
+    "title": "Paul ha fretta",
+    "paragraphs": ["Oggi fa freddo. Paul ha fretta, ha freddo e ha molta fame.", "Paul: Buongiorno, Chloé! Un caffè e un panino, per favore. Ho fame e ho fretta!", "Chloé: Buongiorno, dottore! Ha freddo?", "Paul: Sì, ho molto freddo!", "Chloé: Ecco: caffè e panino!", "Paul: Grazie! Oh, no… Non ho soldi!", "Chloé: Non è un problema, dottore. Domani!", "Paul: Grazie, Chloé. Domani, due caffè!"]
+  }
+}

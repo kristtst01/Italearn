@@ -16,8 +16,8 @@ export function useLLMValidation(
   exercise: Exercise,
 ) {
   const syncResult = useMemo(
-    () => validateAnswerMulti(answer, correctAnswers),
-    [answer, correctAnswers],
+    () => validateAnswerMulti(answer, correctAnswers, { strictAccents: exercise.strict_accents }),
+    [answer, correctAnswers, exercise.strict_accents],
   );
 
   const [llmOverride, setLlmOverride] = useState<{

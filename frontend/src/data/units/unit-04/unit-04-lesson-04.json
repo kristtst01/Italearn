@@ -1,0 +1,86 @@
+{
+  "id": "unit-04-lesson-04",
+  "unit_id": "unit-04",
+  "name": "Phone Numbers",
+  "order": 4,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-04-lesson-04-ex-01",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "At the gym desk, the receptionist needs your details." },
+      "sentence_context": "Receptionist: Numero di telefono, per favore?\nYou: ___",
+      "correct_answer": ["Tre quattro sette, due uno otto, cinque cinque zero nove.", "Tre tre tre, nove zero otto, uno due tre quattro."],
+      "distractors": [],
+      "hints": ["Your number, digit by digit or in pairs."],
+      "target_words": ["numero"],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Numero di telefono, per favore?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-04-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You hear: 'zero sei, ventitré, quarantacinque'. Which number is it?" },
+      "sentence_context": "",
+      "correct_answer": "06 23 45",
+      "distractors": ["06 32 54", "60 23 45"],
+      "hints": ["Zero sei = 06, then 23, then 45."],
+      "target_words": ["numero"]
+    },
+    {
+      "id": "unit-04-lesson-04-ex-03",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say this number digit by digit: 333 908" },
+      "sentence_context": "",
+      "correct_answer": ["tre tre tre nove zero otto", "tre tre tre, nove zero otto"],
+      "distractors": [],
+      "hints": ["One word per digit."],
+      "target_words": ["numero"]
+    },
+    {
+      "id": "unit-04-lesson-04-ex-04",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The receptionist says the number too fast and you miss it." },
+      "sentence_context": "Receptionist: Tre due otto, quattro nove uno…\nYou: ___",
+      "correct_answer": ["Scusi, può ripetere?", "Scusi, non capisco. Può ripetere, per favore?"],
+      "distractors": [],
+      "hints": ["Your lifeline from chapter 1."],
+      "target_words": ["numero"],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Tre due otto, quattro nove uno…" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-04-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Someone says 'quarantotto' as part of a phone number. Which digits?" },
+      "sentence_context": "",
+      "correct_answer": "48",
+      "distractors": ["84", "408", "14"],
+      "hints": ["Quaranta + otto."],
+      "target_words": ["numero"]
+    },
+    {
+      "id": "unit-04-lesson-04-ex-06",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Write these digits as numbers: tre quattro nove, uno uno due." },
+      "sentence_context": "",
+      "correct_answer": ["349112", "349 112"],
+      "distractors": [],
+      "hints": ["Write the digits."],
+      "target_words": ["numero"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "numero", "meaning": "number · numero di telefono = phone number", "example": "Numero di telefono, per favore?" }
+  ]
+}

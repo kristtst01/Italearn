@@ -1,5 +1,7 @@
 # A1 Curriculum Plan
 
+> **Status (2026-10-08): partly superseded.** This describes the chapter-first design from before the grammar-first redesign. The topics and can-do goals are still a useful reference, but the order, the lesson structure and the "focus-on-form lesson" are not: grammar units now decide the order (`frontend/src/data/course.ts`, [a1-grammar-inventory.md](a1-grammar-inventory.md)) and chapters follow the [authoring guide](exercise-generation-guide.md). Chapters 1–4 have been rebuilt; the rest are reworked as their grammar units are written.
+
 Complete plan for the A1 level (CEFR "Breakthrough"). Covers everything a learner needs to survive basic Italian interactions: introducing themselves, describing things, talking about daily life, navigating places, and ordering food.
 
 A1 is organized in **two parts**:

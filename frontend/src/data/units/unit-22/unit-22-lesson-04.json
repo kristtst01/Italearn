@@ -1,0 +1,162 @@
+{
+  "id": "unit-22-lesson-04",
+  "unit_id": "unit-22",
+  "name": "What Do You Do in the Evening?",
+  "order": 4,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-22-lesson-04-ex-01",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your new flatmate finds you in front of the TV." },
+      "sentence_context": "Flatmate: Che cosa guardi?\nYou: ___",
+      "correct_answer": ["Guardo un film italiano.", "Guardo la partita."],
+      "distractors": [],
+      "hints": ["Guardo + what."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Flatmate", "text": "Che cosa guardi?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-04-ex-02",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your flatmate has noticed the case in your room." },
+      "sentence_context": "Flatmate: Suoni la chitarra?\nYou: ___",
+      "correct_answer": ["Sì, suono la chitarra da due anni.", "No, ma canto!"],
+      "distractors": [],
+      "hints": ["Yes, and since when, or no."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Flatmate", "text": "Suoni la chitarra?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You ask your elderly neighbour whether she listens to the radio:" },
+      "sentence_context": "",
+      "correct_answer": "Lei ascolta la radio?",
+      "distractors": ["Tu ascolti la radio?", "Lei ascolti la radio?"],
+      "hints": ["An older neighbour: Lei, with the Lei form of the verb."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-04-ex-04",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The neighbour sees the books under your arm." },
+      "sentence_context": "Neighbour: Lei legge molto?\nYou: ___",
+      "correct_answer": ["Sì, leggo un libro ogni settimana.", "No, non leggo molto."],
+      "distractors": [],
+      "hints": ["Leggo…"],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Neighbour", "text": "Lei legge molto?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-04-ex-05",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete, to an older neighbour: Do you cook a lot?" },
+      "sentence_context": "___ molto?",
+      "correct_answer": "Cucina",
+      "distractors": [],
+      "hints": ["The Lei form of cucinare."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-04-ex-06",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake: 'I listen to music.'" },
+      "sentence_context": "Ascolto a musica.",
+      "correct_answer": ["Ascolto musica.", "Ascolto la musica."],
+      "distractors": [],
+      "hints": ["No word for 'to' after ascoltare."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-04-ex-07",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake: 'In the evening I watch TV.'" },
+      "sentence_context": "La sera sono guardo la tv.",
+      "correct_answer": ["La sera guardo la tv."],
+      "distractors": [],
+      "hints": ["The verb is enough on its own."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-04-ex-08",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A colleague sits down next to you at lunch." },
+      "sentence_context": "Colleague: Che cosa leggi?\nYou: ___",
+      "correct_answer": ["Leggo il giornale.", "Leggo un libro italiano."],
+      "distractors": [],
+      "hints": ["Leggo + what."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Colleague", "text": "Che cosa leggi?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-04-ex-09",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend is planning something." },
+      "sentence_context": "Friend: Il fine settimana lavori?\nYou: ___",
+      "correct_answer": ["No, il fine settimana dormo e leggo.", "Sì, lavoro in un ristorante."],
+      "distractors": [],
+      "hints": ["Yes or no, and what you do."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Il fine settimana lavori?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-04-ex-10",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Do you (plural) play cards in the evening?'" },
+      "sentence_context": "La sera giocate a carte?",
+      "correct_answer": ["La", "sera", "giocate", "a", "carte?"],
+      "distractors": ["suonate", "giocano"],
+      "hints": ["A game: giocare, in the voi form."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-04-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend what they watch in the evening." },
+      "sentence_context": "",
+      "correct_answer": ["che cosa guardi la sera", "la sera che cosa guardi", "cosa guardi la sera"],
+      "distractors": [],
+      "hints": ["Che cosa + the tu form."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-04-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask an older man politely if he plays tennis." },
+      "sentence_context": "",
+      "correct_answer": ["Lei gioca a tennis", "gioca a tennis", "scusi, Lei gioca a tennis"],
+      "distractors": [],
+      "hints": ["The Lei form of giocare."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

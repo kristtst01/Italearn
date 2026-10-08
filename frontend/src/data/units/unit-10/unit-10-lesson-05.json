@@ -1,282 +1,186 @@
 {
   "id": "unit-10-lesson-05",
   "unit_id": "unit-10",
-  "name": "Free Time & Hobbies",
+  "name": "Talking About Others",
   "order": 5,
-  "grammar_tips": [
-    {
-      "id": "unit-10-lesson-05-tip-01",
-      "title": "Free Time",
-      "explanation": "'Il tempo libero' literally means 'free time'. 'Nel tempo libero' = 'in (one's) free time'. 'Nel tempo libero leggo' = 'In my free time I read'.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-10-lesson-05-tip-02",
-      "title": "Playing Sport vs. Playing a Game",
-      "explanation": "Italian uses 'giocare a' + sport/game: 'gioco a calcio' (I play football), 'gioco a tennis'. For an instrument, it's 'suonare' (a separate verb you'll meet later).",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-10-lesson-05-tip-03",
-      "title": "Going to the Cinema",
-      "explanation": "'Vado al cinema' = 'I go to the cinema'. 'Guardo un film' = 'I watch a film'. 'Film' is a borrowed word and doesn't change in the plural: un film, due film.",
-      "before_exercise": 12
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-10-lesson-05-ex-01",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'sport' mean?" },
-      "sentence_context": "Faccio sport.",
-      "correct_answer": "Sport",
-      "distractors": ["Hobby", "Game", "Music"],
-      "hints": ["A direct borrow from English."],
-      "target_words": ["sport"]
+      "prompt": { "text": "Emma and Marta are in the same class. Emma says: 'We study together.'" },
+      "sentence_context": "",
+      "correct_answer": "Studiamo insieme.",
+      "distractors": ["Studiano insieme.", "Studiate insieme."],
+      "hints": ["Emma is one of the two: noi."],
+      "target_words": ["insieme"]
     },
     {
       "id": "unit-10-lesson-05-ex-02",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'calcio' mean?" },
-      "sentence_context": "Gioco a calcio.",
-      "correct_answer": "Football / soccer",
-      "distractors": ["Tennis", "Basketball", "Game"],
-      "hints": ["The most popular sport in Italy."],
-      "target_words": ["calcio"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Emma and Marta live in the centre." },
+      "sentence_context": "Emma e Marta ___ in centro.",
+      "correct_answer": "abitano",
+      "distractors": [],
+      "hints": ["Two people: the loro form."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-05-ex-03",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'musica' mean?" },
-      "sentence_context": "Ascolto la musica.",
-      "correct_answer": "Music",
-      "distractors": ["Song", "Film", "Sound"],
-      "hints": ["I listen to music."],
-      "target_words": ["musica"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Paul and I work in a hospital." },
+      "sentence_context": "Paul e io ___ in ospedale.",
+      "correct_answer": "lavoriamo",
+      "distractors": [],
+      "hints": ["Paul and I: noi."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-05-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'cinema' mean?" },
-      "sentence_context": "Vado al cinema.",
-      "correct_answer": "Cinema / movie theatre",
-      "distractors": ["Film", "Theatre", "Music"],
-      "hints": ["Where you go to watch films."],
-      "target_words": ["cinema"]
+      "prompt": { "text": "A friend asks what Keiko does. She is an engineer in an office. You say:" },
+      "sentence_context": "",
+      "correct_answer": "È ingegnere. Lavora in un ufficio.",
+      "distractors": ["È ingegnere. Lavoro in un ufficio.", "È ingegnere. Lavorano in un ufficio."],
+      "hints": ["One other person: the lei form."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-05-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'film' mean?" },
-      "sentence_context": "Guardo un film italiano.",
-      "correct_answer": "Film / movie",
-      "distractors": ["Cinema", "Book", "Show"],
-      "hints": ["A direct borrow from English."],
-      "target_words": ["film"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend sees a photo of your class." },
+      "sentence_context": "Friend: Chi è Marta?\nYou: ___",
+      "correct_answer": ["È una compagna di corso. È spagnola e insegna spagnolo.", "È una compagna di corso."],
+      "distractors": [],
+      "hints": ["Say who she is and what she does."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Chi è Marta?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-10-lesson-05-ex-06",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'gioco' mean (as a noun)?" },
-      "sentence_context": "Il gioco è facile.",
-      "correct_answer": "Game",
-      "distractors": ["Sport", "Toy", "Match"],
-      "hints": ["A noun this time, not a verb."],
-      "target_words": ["gioco"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete, to a friend: Are you looking for a job?" },
+      "sentence_context": "___ un lavoro?",
+      "correct_answer": "Cerchi",
+      "distractors": [],
+      "hints": ["Verbs in -care add an h before i."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-05-ex-07",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'partita' mean?" },
-      "sentence_context": "Guardo la partita.",
-      "correct_answer": "Match (in sport)",
-      "distractors": ["Game (board)", "Team", "Player"],
-      "hints": ["I watch the match."],
-      "target_words": ["partita"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: We're paying tomorrow." },
+      "sentence_context": "___ domani.",
+      "correct_answer": "Paghiamo",
+      "distractors": [],
+      "hints": ["Verbs in -gare add an h before i."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-05-ex-08",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'squadra' mean?" },
-      "sentence_context": "La squadra è forte.",
-      "correct_answer": "Team",
-      "distractors": ["Match", "Sport", "Player"],
-      "hints": ["The team is strong."],
-      "target_words": ["squadra"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend asks about your classmates." },
+      "sentence_context": "Friend: Emma e Marta abitano insieme?\nYou: ___",
+      "correct_answer": ["Sì, abitano insieme in centro.", "No, Emma abita da sola."],
+      "distractors": [],
+      "hints": ["Abitano for both, abita for one."],
+      "target_words": ["insieme"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Emma e Marta abitano insieme?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-10-lesson-05-ex-09",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Gioco a ___.",
-      "correct_answer": "calcio",
-      "distractors": [],
-      "hints": ["I play football."],
-      "target_words": ["calcio"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Giulia asks the class 'Capite?'. You answer for everyone:" },
+      "sentence_context": "Capite?",
+      "correct_answer": "Sì, capiamo.",
+      "distractors": ["Sì, capiscono.", "Sì, capisciamo."],
+      "hints": ["The noi form has no -isc-."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-05-ex-10",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Ascolto la ___.",
-      "correct_answer": "musica",
+      "prompt": { "text": "Complete: The students finish the exercise." },
+      "sentence_context": "Gli studenti ___ l'esercizio.",
+      "correct_answer": "finiscono",
       "distractors": [],
-      "hints": ["I listen to music."],
-      "target_words": ["musica"]
+      "hints": ["Finire takes -isc- in the loro form."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-05-ex-11",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Vado al ___.",
-      "correct_answer": "cinema",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake: 'Paul works every day.'" },
+      "sentence_context": "Paul lavoro ogni giorno.",
+      "correct_answer": ["Paul lavora ogni giorno."],
       "distractors": [],
-      "hints": ["I go to the cinema."],
-      "target_words": ["cinema"]
+      "hints": ["Paul is lui."],
+      "target_words": ["ogni"]
     },
     {
       "id": "unit-10-lesson-05-ex-12",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Nel ___ libero leggo.",
-      "correct_answer": "tempo",
-      "distractors": [],
-      "hints": ["In my free time I read."],
-      "target_words": ["tempo libero"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Emma and Paul read the newspaper together.'" },
+      "sentence_context": "Emma e Paul leggono il giornale insieme.",
+      "correct_answer": ["Emma", "e", "Paul", "leggono", "il", "giornale", "insieme."],
+      "distractors": ["legge", "leggiamo"],
+      "hints": ["Two people: the loro form."],
+      "target_words": ["insieme"]
     },
     {
       "id": "unit-10-lesson-05-ex-13",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Il mio ___ è leggere.",
-      "correct_answer": "hobby",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say they study every day." },
+      "sentence_context": "",
+      "correct_answer": ["studiano ogni giorno"],
       "distractors": [],
-      "hints": ["My hobby is reading."],
-      "target_words": ["hobby"]
+      "hints": ["The loro form of studiare."],
+      "target_words": ["ogni"]
     },
     {
       "id": "unit-10-lesson-05-ex-14",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'football / soccer' in Italian?" },
-      "sentence_context": "Gioco a calcio.",
-      "correct_answer": "calcio",
+      "prompt": { "text": "Say Giulia teaches Italian in Florence." },
+      "sentence_context": "",
+      "correct_answer": ["Giulia insegna italiano a Firenze"],
       "distractors": [],
-      "hints": ["The Italian national sport."],
-      "target_words": ["calcio"]
+      "hints": ["The lei form of insegnare."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-05-ex-15",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'music' in Italian?" },
-      "sentence_context": "Ascolto la musica.",
-      "correct_answer": "musica",
-      "distractors": [],
-      "hints": ["A feminine noun: la musica."],
-      "target_words": ["musica"]
-    },
-    {
-      "id": "unit-10-lesson-05-ex-16",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'film' in Italian?" },
-      "sentence_context": "Guardo un film.",
-      "correct_answer": "film",
-      "distractors": [],
-      "hints": ["A borrowed word — doesn't change in plural."],
-      "target_words": ["film"]
-    },
-    {
-      "id": "unit-10-lesson-05-ex-17",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'team' in Italian?" },
-      "sentence_context": "La squadra è forte.",
-      "correct_answer": "squadra",
-      "distractors": [],
-      "hints": ["A feminine noun."],
-      "target_words": ["squadra"]
-    },
-    {
-      "id": "unit-10-lesson-05-ex-18",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'hobby' in Italian?" },
-      "sentence_context": "Il mio hobby è leggere.",
-      "correct_answer": "hobby",
-      "distractors": [],
-      "hints": ["A borrowed word."],
-      "target_words": ["hobby"]
-    },
-    {
-      "id": "unit-10-lesson-05-ex-19",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I play football with friends.'" },
-      "sentence_context": "Gioco a calcio con gli amici.",
-      "correct_answer": ["Gioco", "a", "calcio", "con", "gli", "amici."],
-      "distractors": ["musica", "scuola"],
-      "hints": ["'Giocare a' + sport."],
-      "target_words": ["calcio"]
-    },
-    {
-      "id": "unit-10-lesson-05-ex-20",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I watch a film at the cinema.'" },
-      "sentence_context": "Guardo un film al cinema.",
-      "correct_answer": ["Guardo", "un", "film", "al", "cinema."],
-      "distractors": ["partita", "scuola"],
-      "hints": ["Verb + object + 'al cinema'."],
-      "target_words": ["film", "cinema"]
-    },
-    {
-      "id": "unit-10-lesson-05-ex-21",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'In my free time I listen to music.'" },
-      "sentence_context": "Nel tempo libero ascolto la musica.",
-      "correct_answer": ["Nel", "tempo", "libero", "ascolto", "la", "musica."],
-      "distractors": ["lavoro", "guardo"],
-      "hints": ["'Nel tempo libero' = in my free time."],
-      "target_words": ["tempo libero", "musica"]
-    },
-    {
-      "id": "unit-10-lesson-05-ex-22",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'My team is strong.'" },
-      "sentence_context": "La mia squadra è forte.",
-      "correct_answer": ["La", "mia", "squadra", "è", "forte."],
-      "distractors": ["squadre", "deboli"],
-      "hints": ["Feminine noun → mia."],
-      "target_words": ["squadra"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask two friends where they live." },
+      "sentence_context": "",
+      "correct_answer": ["dove abitate"],
+      "distractors": [],
+      "hints": ["Two people you know: voi."],
+      "target_words": []
     }
   ],
   "vocabulary": [
-    { "word": "sport", "meaning": "Sport", "example": "Faccio sport." },
-    { "word": "calcio", "meaning": "Football / soccer", "example": "Gioco a calcio." },
-    { "word": "musica", "meaning": "Music", "example": "Ascolto la musica." },
-    { "word": "cinema", "meaning": "Cinema / movie theatre", "example": "Vado al cinema." },
-    { "word": "film", "meaning": "Film / movie", "example": "Guardo un film italiano." },
-    { "word": "gioco", "meaning": "Game", "example": "Il gioco è facile." },
-    { "word": "partita", "meaning": "Match (in sport)", "example": "Guardo la partita." },
-    { "word": "squadra", "meaning": "Team", "example": "La squadra è forte." },
-    { "word": "hobby", "meaning": "Hobby", "example": "Il mio hobby è leggere." },
-    { "word": "tempo libero", "meaning": "Free time", "example": "Nel tempo libero leggo." }
+    { "word": "insieme", "meaning": "together", "example": "Studiamo insieme." },
+    { "word": "ogni", "meaning": "every · ogni giorno = every day", "example": "Lavoro ogni giorno." }
   ]
 }

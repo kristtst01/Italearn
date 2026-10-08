@@ -1,266 +1,203 @@
 {
   "id": "unit-10-lesson-02",
   "unit_id": "unit-10",
-  "name": "-ire Verbs (Regular)",
+  "name": "At Work",
   "order": 2,
-  "grammar_tips": [
-    {
-      "id": "unit-10-lesson-02-tip-01",
-      "title": "The -ire Pattern",
-      "explanation": "Verbs ending in -ire follow this pattern: remove -ire and add -o (io), -i (tu), -e (lui/lei), -iamo (noi), -ite (voi), -ono (loro). 'dormire' → dormo, dormi, dorme, dormiamo, dormite, dormono.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-10-lesson-02-tip-02",
-      "title": "Only Voi Changes",
-      "explanation": "Compared to -ere verbs, only the voi form is different: -ite (not -ete). 'voi leggete' (-ere) but 'voi dormite' (-ire). Everything else is the same.",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-10-lesson-02-tip-03",
-      "title": "Not All -ire Verbs Are Regular",
-      "explanation": "Some -ire verbs add '-isc-' in some forms. You'll learn that pattern in the next lesson. For now, these five verbs are all fully regular.",
-      "before_exercise": 11
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-10-lesson-02-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'dormire' mean?" },
-      "sentence_context": "Io dormo.",
-      "correct_answer": "To sleep",
-      "distractors": ["To wake up", "To rest", "To open"],
-      "hints": ["I sleep."],
-      "target_words": ["dormire"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'ospedale' mean?" },
+      "sentence_context": "Paul lavora in ospedale.",
+      "correct_answer": ["hospital"],
+      "distractors": [],
+      "hints": ["Where a doctor works."],
+      "target_words": ["ospedale"]
     },
     {
       "id": "unit-10-lesson-02-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'partire' mean?" },
-      "sentence_context": "Parto domani.",
-      "correct_answer": "To leave / depart",
-      "distractors": ["To arrive", "To stay", "To open"],
-      "hints": ["I leave tomorrow."],
-      "target_words": ["partire"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'collega' mean?" },
+      "sentence_context": "Ho un collega francese.",
+      "correct_answer": ["colleague", "coworker", "co-worker"],
+      "distractors": [],
+      "hints": ["Someone you work with."],
+      "target_words": ["collega"]
     },
     {
       "id": "unit-10-lesson-02-ex-03",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'aprire' mean?" },
-      "sentence_context": "Apro la porta.",
-      "correct_answer": "To open",
-      "distractors": ["To close", "To find", "To put"],
-      "hints": ["I open the door."],
-      "target_words": ["aprire"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'insegna' mean?" },
+      "sentence_context": "Giulia insegna italiano.",
+      "correct_answer": ["teaches", "she teaches"],
+      "distractors": [],
+      "hints": ["What an insegnante does."],
+      "target_words": ["insegnare"]
     },
     {
       "id": "unit-10-lesson-02-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'sentire' mean?" },
-      "sentence_context": "Sento la musica.",
-      "correct_answer": "To hear / feel",
-      "distractors": ["To listen to", "To see", "To touch"],
-      "hints": ["I hear the music."],
-      "target_words": ["sentire"]
+      "prompt": { "text": "At a dinner, you talk to a man your parents' age. You ask where he works:" },
+      "sentence_context": "",
+      "correct_answer": "Dove lavora?",
+      "distractors": ["Dove lavori?", "Dove lavorate?"],
+      "hints": ["An older stranger: the Lei form."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-02-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'offrire' mean?" },
-      "sentence_context": "Offro un caffè.",
-      "correct_answer": "To offer",
-      "distractors": ["To take", "To buy", "To ask"],
-      "hints": ["I offer a coffee."],
-      "target_words": ["offrire"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Marco works in a bank." },
+      "sentence_context": "Marco lavora in ___.",
+      "correct_answer": "banca",
+      "distractors": [],
+      "hints": ["In banca, with no article."],
+      "target_words": ["banca"]
     },
     {
       "id": "unit-10-lesson-02-ex-06",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "La notte io ___.",
-      "correct_answer": "dormo",
-      "distractors": [],
-      "hints": ["At night I sleep."],
-      "target_words": ["dormire"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Chloé è cameriera. Dove lavora?" },
+      "sentence_context": "Chloé è cameriera. Dove lavora?",
+      "correct_answer": "Lavora in un bar.",
+      "distractors": ["Lavora in ospedale.", "Lavora in banca."],
+      "hints": ["Where does a waitress work?"],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-02-ex-07",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Tu ___ la finestra.",
-      "correct_answer": "apri",
+      "prompt": { "text": "Complete: We work in an office in the centre." },
+      "sentence_context": "___ in ufficio, in centro.",
+      "correct_answer": "Lavoriamo",
       "distractors": [],
-      "hints": ["You open the window."],
-      "target_words": ["aprire"]
+      "hints": ["The noi form of lavorare."],
+      "target_words": ["ufficio"]
     },
     {
       "id": "unit-10-lesson-02-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Marco ___ domani.",
-      "correct_answer": "parte",
+      "prompt": { "text": "Complete: The children are at school." },
+      "sentence_context": "I bambini sono a ___.",
+      "correct_answer": "scuola",
       "distractors": [],
-      "hints": ["Marco leaves tomorrow."],
-      "target_words": ["partire"]
+      "hints": ["A scuola, with no article."],
+      "target_words": ["scuola"]
     },
     {
       "id": "unit-10-lesson-02-ex-09",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Noi ___ la musica.",
-      "correct_answer": "sentiamo",
-      "distractors": [],
-      "hints": ["We hear the music."],
-      "target_words": ["sentire"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Giulia is a teacher. She says:" },
+      "sentence_context": "",
+      "correct_answer": "Insegno italiano in una scuola.",
+      "distractors": ["Insegna italiano in una scuola.", "Insegno italiano in un scuola."],
+      "hints": ["She is talking about herself, and scuola is feminine."],
+      "target_words": ["insegnare", "scuola"]
     },
     {
       "id": "unit-10-lesson-02-ex-10",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Anna ___ un caffè a Marco.",
-      "correct_answer": "offre",
+      "prompt": { "text": "Complete: They work in a factory." },
+      "sentence_context": "Lavorano in ___.",
+      "correct_answer": "fabbrica",
       "distractors": [],
-      "hints": ["Anna offers a coffee to Marco."],
-      "target_words": ["offrire"]
+      "hints": ["In fabbrica, with no article."],
+      "target_words": ["fabbrica"]
     },
     {
       "id": "unit-10-lesson-02-ex-11",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'I sleep' in Italian?" },
-      "sentence_context": "Io dormo.",
-      "correct_answer": "dormo",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You meet a friend's friend, about your age." },
+      "sentence_context": "Luca: Che lavoro fai?\nYou: ___",
+      "correct_answer": ["Sono impiegato. Lavoro in banca.", "Sono insegnante. Lavoro in una scuola."],
       "distractors": [],
-      "hints": ["The io form of dormire."],
-      "target_words": ["dormire"]
+      "hints": ["Your job, then where: lavoro in…"],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Luca", "text": "Che lavoro fai?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-10-lesson-02-ex-12",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'I open' in Italian?" },
-      "sentence_context": "Apro la porta.",
-      "correct_answer": "apro",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Mrs Bianchi, your landlady, makes conversation." },
+      "sentence_context": "Signora Bianchi: Lei dove lavora?\nYou: ___",
+      "correct_answer": ["Lavoro in un ufficio in centro.", "Lavoro in ospedale. Sono medico."],
       "distractors": [],
-      "hints": ["The io form of aprire."],
-      "target_words": ["aprire"]
+      "hints": ["Lavoro in…"],
+      "target_words": ["ufficio"],
+      "dialogue": [
+        { "speaker": "Signora Bianchi", "text": "Lei dove lavora?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-10-lesson-02-ex-13",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'they leave' in Italian?" },
-      "sentence_context": "Loro partono domani.",
-      "correct_answer": "partono",
-      "distractors": [],
-      "hints": ["loro -ire → -ono."],
-      "target_words": ["partire"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I work in a restaurant in the centre.'" },
+      "sentence_context": "Lavoro in un ristorante in centro.",
+      "correct_answer": ["Lavoro", "in", "un", "ristorante", "in", "centro."],
+      "distractors": ["lavora", "una"],
+      "hints": ["Ristorante is masculine: un."],
+      "target_words": ["ristorante"]
     },
     {
       "id": "unit-10-lesson-02-ex-14",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'voi' form of 'dormire'." },
-      "sentence_context": "Voi ___ molto.",
-      "correct_answer": "dormite",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend where they work." },
+      "sentence_context": "",
+      "correct_answer": ["dove lavori"],
       "distractors": [],
-      "hints": ["voi -ire → -ite ending (not -ete!)."],
-      "target_words": ["dormire"]
+      "hints": ["The tu form of lavorare."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-02-ex-15",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'voi' form of 'aprire'." },
-      "sentence_context": "Voi ___ la porta.",
-      "correct_answer": "aprite",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say Paul works in a hospital." },
+      "sentence_context": "",
+      "correct_answer": ["Paul lavora in ospedale", "Paul lavora in un ospedale"],
       "distractors": [],
-      "hints": ["voi -ire → -ite ending."],
-      "target_words": ["aprire"]
+      "hints": ["The lui form of lavorare."],
+      "target_words": ["ospedale"]
     },
     {
       "id": "unit-10-lesson-02-ex-16",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'lui/lei' form of 'sentire'." },
-      "sentence_context": "Marco ___ la musica.",
-      "correct_answer": "sente",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you aren't working tomorrow." },
+      "sentence_context": "",
+      "correct_answer": ["domani non lavoro", "non lavoro domani"],
       "distractors": [],
-      "hints": ["lui/lei -ire → -e ending."],
-      "target_words": ["sentire"]
-    },
-    {
-      "id": "unit-10-lesson-02-ex-17",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'noi' form of 'offrire'." },
-      "sentence_context": "Noi ___ un caffè.",
-      "correct_answer": "offriamo",
-      "distractors": [],
-      "hints": ["noi -ire → -iamo ending."],
-      "target_words": ["offrire"]
-    },
-    {
-      "id": "unit-10-lesson-02-ex-18",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I sleep at night.'" },
-      "sentence_context": "Io dormo la notte.",
-      "correct_answer": ["Io", "dormo", "la", "notte."],
-      "distractors": ["dormi", "sera"],
-      "hints": ["io → dormo."],
-      "target_words": ["dormire"]
-    },
-    {
-      "id": "unit-10-lesson-02-ex-19",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'You open the window.'" },
-      "sentence_context": "Tu apri la finestra.",
-      "correct_answer": ["Tu", "apri", "la", "finestra."],
-      "distractors": ["apre", "porta"],
-      "hints": ["tu → apri."],
-      "target_words": ["aprire"]
-    },
-    {
-      "id": "unit-10-lesson-02-ex-20",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I leave tomorrow.'" },
-      "sentence_context": "Parto domani.",
-      "correct_answer": ["Parto", "domani."],
-      "distractors": ["parti", "oggi"],
-      "hints": ["io → parto. Subject pronoun dropped."],
-      "target_words": ["partire"]
-    },
-    {
-      "id": "unit-10-lesson-02-ex-21",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'We hear the music.'" },
-      "sentence_context": "Noi sentiamo la musica.",
-      "correct_answer": ["Noi", "sentiamo", "la", "musica."],
-      "distractors": ["sento", "ascoltiamo"],
-      "hints": ["noi → sentiamo."],
-      "target_words": ["sentire"]
+      "hints": ["The present with domani."],
+      "target_words": []
     }
   ],
   "vocabulary": [
-    { "word": "dormire", "meaning": "To sleep", "example": "Io dormo." },
-    { "word": "partire", "meaning": "To leave / depart", "example": "Parto domani." },
-    { "word": "aprire", "meaning": "To open", "example": "Apro la porta." },
-    { "word": "sentire", "meaning": "To hear / feel", "example": "Sento la musica." },
-    { "word": "offrire", "meaning": "To offer", "example": "Offro un caffè." }
+    { "word": "ufficio", "meaning": "office · in ufficio = at the office", "example": "Lavoro in ufficio." },
+    { "word": "banca", "meaning": "bank · in banca = at the bank, in a bank", "example": "Marco lavora in banca." },
+    { "word": "ospedale", "meaning": "hospital · in ospedale = in hospital", "example": "Paul lavora in ospedale." },
+    { "word": "fabbrica", "meaning": "factory · in fabbrica = in a factory", "example": "Lavorano in fabbrica." },
+    { "word": "scuola", "meaning": "school · a scuola = at school", "example": "I bambini sono a scuola." },
+    { "word": "ristorante", "meaning": "restaurant", "example": "Lavoro in un ristorante." },
+    { "word": "collega", "meaning": "colleague (il collega, la collega · i colleghi, le colleghe)", "example": "Ho un collega francese." },
+    { "word": "insegnare", "meaning": "to teach", "example": "Giulia insegna italiano." }
   ]
 }

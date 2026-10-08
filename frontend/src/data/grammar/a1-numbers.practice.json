@@ -1,0 +1,916 @@
+{
+  "unit_id": "a1-numbers",
+  "points": {
+    "zero-twenty": {
+      "label": "Numbers 0–20",
+      "section": "Numbers 0–20"
+    },
+    "tens": {
+      "label": "The tens",
+      "section": "Numbers 21–100"
+    },
+    "building": {
+      "label": "Building numbers 21–100",
+      "section": "Numbers 21–100"
+    },
+    "with-nouns": {
+      "label": "Numbers with nouns",
+      "section": "Numbers with nouns"
+    },
+    "phone": {
+      "label": "Phone numbers",
+      "section": "Phone numbers"
+    }
+  },
+  "stops": [
+    {
+      "id": "zero-twenty",
+      "title": "Numbers 0–20",
+      "after": "Numbers 0–20",
+      "exercises": [
+        {
+          "id": "a1-numbers-p-01",
+          "type": "vocab",
+          "subtype": "match_pairs",
+          "prompt": {
+            "text": "Match the numbers."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "11|undici",
+            "12|dodici",
+            "13|tredici",
+            "14|quattordici",
+            "15|quindici",
+            "16|sedici"
+          ],
+          "distractors": [],
+          "hints": [],
+          "target_words": [],
+          "grammar_points": [
+            "zero-twenty"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which is 18?"
+          },
+          "sentence_context": "",
+          "correct_answer": "diciotto",
+          "distractors": [
+            "diciassette",
+            "diciannove",
+            "ottodici"
+          ],
+          "hints": [
+            "Ten first, then eight."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "zero-twenty"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which is 13?"
+          },
+          "sentence_context": "",
+          "correct_answer": "tredici",
+          "distractors": [
+            "trenta",
+            "terdici",
+            "trediciotto"
+          ],
+          "hints": [
+            "Unit first, then -dici."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "zero-twenty"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-04",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write 17 in Italian."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "diciassette"
+          ],
+          "distractors": [],
+          "hints": [
+            "Ten + seven, with a double s."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "zero-twenty"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-05",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write 19 in Italian."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "diciannove"
+          ],
+          "distractors": [],
+          "hints": [
+            "Ten + nine, with a double n."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "zero-twenty"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-06",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write 15 in Italian."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "quindici"
+          ],
+          "distractors": [],
+          "hints": [
+            "Ends in -dici."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "zero-twenty"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-07",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "What number is 'sedici'? Write it in digits."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "16"
+          ],
+          "distractors": [],
+          "hints": [
+            "Six, plus -dici."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "zero-twenty"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-08",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: 14 years."
+          },
+          "sentence_context": "___ anni",
+          "correct_answer": "quattordici",
+          "distractors": [],
+          "hints": [
+            "14 = quattro + dici."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "zero-twenty"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-09",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "'Sei di Roma?' What does 'sei' mean here?"
+          },
+          "sentence_context": "Sei di Roma?",
+          "correct_answer": "you are",
+          "distractors": [
+            "six",
+            "you have"
+          ],
+          "hints": [
+            "The verb essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "zero-twenty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tens-building",
+      "title": "Numbers 21–100",
+      "after": "Numbers 21–100",
+      "exercises": [
+        {
+          "id": "a1-numbers-p-10",
+          "type": "vocab",
+          "subtype": "match_pairs",
+          "prompt": {
+            "text": "Match the tens."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "30|trenta",
+            "40|quaranta",
+            "50|cinquanta",
+            "60|sessanta",
+            "70|settanta",
+            "80|ottanta",
+            "90|novanta"
+          ],
+          "distractors": [],
+          "hints": [],
+          "target_words": [],
+          "grammar_points": [
+            "tens"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-11",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which is 21?"
+          },
+          "sentence_context": "",
+          "correct_answer": "ventuno",
+          "distractors": [
+            "ventiuno",
+            "venti e uno",
+            "trentuno"
+          ],
+          "hints": [
+            "Venti drops its i before uno."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "building"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-12",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which is 38?"
+          },
+          "sentence_context": "",
+          "correct_answer": "trentotto",
+          "distractors": [
+            "trentaotto",
+            "trenta e otto",
+            "ottantatré"
+          ],
+          "hints": [
+            "Trenta drops its a before otto."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "building"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-13",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What number is 'settantotto'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "78",
+          "distractors": [
+            "87",
+            "68",
+            "77"
+          ],
+          "hints": [
+            "Settanta + otto."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tens",
+            "building"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-14",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write 23 in Italian."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "ventitré"
+          ],
+          "distractors": [],
+          "hints": [
+            "Tre at the end takes an accent."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "building"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-numbers-p-15",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write 45 in Italian."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "quarantacinque"
+          ],
+          "distractors": [],
+          "hints": [
+            "Ten + unit, one word."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tens",
+            "building"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-16",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write 67 in Italian."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "sessantasette"
+          ],
+          "distractors": [],
+          "hints": [
+            "Ten + unit, one word."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tens",
+            "building"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-17",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write 91 in Italian."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "novantuno"
+          ],
+          "distractors": [],
+          "hints": [
+            "Novanta drops its a before uno."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "building"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-18",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write 100 in Italian."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "cento"
+          ],
+          "distractors": [],
+          "hints": [
+            "Just one word."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "building"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-19",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "trenta e due",
+          "correct_answer": [
+            "trentadue"
+          ],
+          "distractors": [],
+          "hints": [
+            "One word, no 'and'."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "building"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-20",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "ventiotto",
+          "correct_answer": [
+            "ventotto"
+          ],
+          "distractors": [],
+          "hints": [
+            "The ten drops its vowel before otto."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "building"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "using",
+      "title": "Numbers with nouns, and phone numbers",
+      "after": "Phone numbers",
+      "exercises": [
+        {
+          "id": "a1-numbers-p-21",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'one brother'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "un fratello",
+          "distractors": [
+            "uno fratello",
+            "una fratello"
+          ],
+          "hints": [
+            "Before most nouns, uno becomes un or una."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "with-nouns"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-22",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete: one sister."
+          },
+          "sentence_context": "___ sorella",
+          "correct_answer": "una",
+          "distractors": [],
+          "hints": [
+            "Sorella is feminine."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "with-nouns"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-23",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say 'three cats'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "tre gatti"
+          ],
+          "distractors": [],
+          "hints": [
+            "Number, then the plural noun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "with-nouns"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-24",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "due fratello",
+          "correct_answer": [
+            "due fratelli"
+          ],
+          "distractors": [],
+          "hints": [
+            "From two up, the noun is plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "with-nouns"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-25",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say '31 years'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "trentun anni",
+            "trentuno anni"
+          ],
+          "distractors": [],
+          "hints": [
+            "Trentuno often becomes trentun before anni."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "with-nouns"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-26",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say '40 years'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "quarant'anni",
+            "quaranta anni"
+          ],
+          "distractors": [],
+          "hints": [
+            "Quaranta + anni, often shortened."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "with-nouns"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-27",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which means '21 years'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "ventun anni",
+          "distractors": [
+            "ventuno anno",
+            "venti uno anni"
+          ],
+          "hints": [
+            "Anni is plural, and the number is one word."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "with-nouns"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-28",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say 'one brother and two sisters'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "un fratello e due sorelle"
+          ],
+          "distractors": [],
+          "hints": [
+            "One: un. Two: plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "with-nouns"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-29",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "uno gatto",
+          "correct_answer": [
+            "un gatto"
+          ],
+          "distractors": [],
+          "hints": [
+            "Before most masculine nouns, uno becomes un."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "with-nouns"
+          ]
+        },
+        {
+          "id": "a1-numbers-p-30",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say this phone number digit by digit: 340 215"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "tre quattro zero due uno cinque",
+            "tre quattro zero, due uno cinque"
+          ],
+          "distractors": [],
+          "hints": [
+            "One word per digit."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "phone"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-numbers-m-01",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Write 16 in Italian."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "sedici"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "zero-twenty"
+        ]
+      },
+      {
+        "id": "a1-numbers-m-02",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Write 19 in Italian."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "diciannove"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "zero-twenty"
+        ]
+      },
+      {
+        "id": "a1-numbers-m-03",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "Which is 15?"
+        },
+        "sentence_context": "",
+        "correct_answer": "quindici",
+        "distractors": [
+          "cinquedici",
+          "quindeci",
+          "cinquanta"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "zero-twenty"
+        ]
+      },
+      {
+        "id": "a1-numbers-m-04",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Write 28 in Italian."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "ventotto"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "building"
+        ]
+      },
+      {
+        "id": "a1-numbers-m-05",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Write 53 in Italian."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "cinquantatré"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "building"
+        ],
+        "strict_accents": true
+      },
+      {
+        "id": "a1-numbers-m-06",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Write 74 in Italian."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "settantaquattro"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "tens",
+          "building"
+        ]
+      },
+      {
+        "id": "a1-numbers-m-07",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Write 81 in Italian."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "ottantuno"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "building"
+        ]
+      },
+      {
+        "id": "a1-numbers-m-08",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "What number is 'novantasei'?"
+        },
+        "sentence_context": "",
+        "correct_answer": "96",
+        "distractors": [
+          "69",
+          "86",
+          "16"
+        ],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "tens",
+          "building"
+        ]
+      },
+      {
+        "id": "a1-numbers-m-09",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "trenta e cinque",
+        "correct_answer": [
+          "trentacinque"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "building"
+        ]
+      },
+      {
+        "id": "a1-numbers-m-10",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "ventitre",
+        "correct_answer": [
+          "ventitré"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "building"
+        ],
+        "strict_accents": true
+      },
+      {
+        "id": "a1-numbers-m-11",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say '22 years'."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "ventidue anni"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "with-nouns"
+        ]
+      },
+      {
+        "id": "a1-numbers-m-12",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Complete: one cat."
+        },
+        "sentence_context": "___ gatto",
+        "correct_answer": "un",
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "with-nouns"
+        ]
+      },
+      {
+        "id": "a1-numbers-m-13",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "tre gatto",
+        "correct_answer": [
+          "tre gatti"
+        ],
+        "distractors": [],
+        "hints": [],
+        "target_words": [],
+        "grammar_points": [
+          "with-nouns"
+        ]
+      }
+    ]
+  }
+}

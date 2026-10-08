@@ -1,0 +1,1939 @@
+{
+  "source": "Chapter 2 (unit-02) 'Who Am I?', all five lessons before the rework",
+  "removed": "2026-09-30",
+  "why": "Lessons 1-4 mostly drilled essere forms, which the grammar unit 'Subject pronouns & essere' now teaches and practises. Lesson 5 (spelling) used avere and articles before they're taught. Some items are reused in the new chapter 2; everything is kept whole here.",
+  "lessons": [
+    {
+      "id": "unit-02-lesson-01",
+      "unit_id": "unit-02",
+      "name": "I Am, You Are",
+      "order": 1,
+      "grammar_tips": [
+        {
+          "id": "unit-02-lesson-01-tip-01",
+          "title": "Your First Real Verb",
+          "explanation": "Until now, everything was memorized phrases. Now you learn how Italian verbs actually work. 'Essere' (to be) changes its form depending on who you're talking about. 'Io sono' = I am. 'Tu sei' = you are. This shape-shifting is called conjugation — and it's how Italian works.",
+          "before_exercise": 0
+        },
+        {
+          "id": "unit-02-lesson-01-tip-02",
+          "title": "Drop the Pronoun",
+          "explanation": "In English, 'I am Marco' needs the 'I'. In Italian, 'Sono Marco' is more natural than 'Io sono Marco'. The verb ending already tells you who's speaking. You only add the pronoun for emphasis or contrast: 'IO sono di Roma, TU sei di Milano.'",
+          "before_exercise": 5
+        },
+        {
+          "id": "unit-02-lesson-01-tip-03",
+          "title": "Mi chiamo — A Chunk for Now",
+          "explanation": "'Mi chiamo' literally means 'I call myself'. It's a reflexive verb, but don't worry about that yet — just memorize it as a chunk meaning 'my name is'. You'll learn how reflexive verbs actually work in a later unit.",
+          "before_exercise": 10
+        }
+      ],
+      "exercises": [
+        {
+          "id": "unit-02-lesson-01-ex-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'io' mean?"
+          },
+          "sentence_context": "Io sono Marco.",
+          "correct_answer": "I",
+          "distractors": [
+            "You",
+            "He",
+            "We"
+          ],
+          "hints": [
+            "The first person — the one speaking."
+          ],
+          "target_words": [
+            "io"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'tu' mean?"
+          },
+          "sentence_context": "Tu sei Anna?",
+          "correct_answer": "You (informal)",
+          "distractors": [
+            "I",
+            "He",
+            "She"
+          ],
+          "hints": [
+            "The person you're talking to — informal, like 'ciao' people."
+          ],
+          "target_words": [
+            "tu"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'sono' mean in this sentence?"
+          },
+          "sentence_context": "Sono di Roma.",
+          "correct_answer": "I am",
+          "distractors": [
+            "You are",
+            "He is",
+            "We are"
+          ],
+          "hints": [
+            "No pronoun is stated — the verb ending tells you it's 'I'."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-04",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You want to say 'You are Anna'. Which verb form fits?"
+          },
+          "sentence_context": "Tu sei Anna.",
+          "correct_answer": "sei",
+          "distractors": [
+            "sono",
+            "è",
+            "siamo"
+          ],
+          "hints": [
+            "'Tu' needs its own form of essere — it rhymes with 'lei'."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-05",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'mi chiamo' mean?"
+          },
+          "sentence_context": "Ciao, mi chiamo Luca!",
+          "correct_answer": "My name is",
+          "distractors": [
+            "I am from",
+            "I understand",
+            "I like"
+          ],
+          "hints": [
+            "Literally 'I call myself' — the standard way to give your name."
+          ],
+          "target_words": [
+            "mi chiamo"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-06",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'I am from Milan' in Italian?"
+          },
+          "sentence_context": "Sono di Milano.",
+          "correct_answer": "Sono di Milano",
+          "distractors": [
+            "Sono Milano",
+            "Mi chiamo Milano",
+            "Sei di Milano"
+          ],
+          "hints": [
+            "'Di' = from. 'Sono' = I am. City name stays as-is."
+          ],
+          "target_words": [
+            "di"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-07",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing word."
+          },
+          "sentence_context": "___ Marco. Piacere!",
+          "correct_answer": "Sono",
+          "distractors": [],
+          "hints": [
+            "I am Marco. Nice to meet you!"
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-08",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing word."
+          },
+          "sentence_context": "Tu ___ di Napoli?",
+          "correct_answer": "sei",
+          "distractors": [],
+          "hints": [
+            "You are from Naples?"
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-09",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing word."
+          },
+          "sentence_context": "Mi ___ Sara. E tu?",
+          "correct_answer": "chiamo",
+          "distractors": [],
+          "hints": [
+            "My name is Sara. And you?"
+          ],
+          "target_words": [
+            "mi chiamo"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-10",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'I am' in Italian?"
+          },
+          "sentence_context": "Sono di Firenze.",
+          "correct_answer": "sono",
+          "distractors": [],
+          "hints": [
+            "The 'io' form of essere."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-11",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'you are' (informal) in Italian?"
+          },
+          "sentence_context": "Tu sei molto gentile!",
+          "correct_answer": "sei",
+          "distractors": [],
+          "hints": [
+            "The 'tu' form of essere."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-12",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Introduce yourself: say 'My name is' in Italian."
+          },
+          "sentence_context": "Mi chiamo Paolo.",
+          "correct_answer": "mi chiamo",
+          "distractors": [],
+          "hints": [
+            "Two words — literally 'I call myself'."
+          ],
+          "target_words": [
+            "mi chiamo"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-13",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'dove' mean?"
+          },
+          "sentence_context": "Di dove sei?",
+          "correct_answer": "Where",
+          "distractors": [
+            "When",
+            "Who",
+            "How"
+          ],
+          "hints": [
+            "'Di dove sei?' = Where are you from?"
+          ],
+          "target_words": [
+            "dove"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-14",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Someone asks where you're from. Fill in the verb."
+          },
+          "sentence_context": "___ di Venezia.",
+          "correct_answer": "Sono",
+          "distractors": [],
+          "hints": [
+            "I am from Venice — no pronoun needed."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-15",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'My name is Luca. I am from Rome.'"
+          },
+          "sentence_context": "Mi chiamo Luca. Sono di Roma.",
+          "correct_answer": [
+            "Mi",
+            "chiamo",
+            "Luca.",
+            "Sono",
+            "di",
+            "Roma."
+          ],
+          "distractors": [
+            "sei",
+            "tu"
+          ],
+          "hints": [
+            "Name first, then origin."
+          ],
+          "target_words": [
+            "mi chiamo",
+            "essere",
+            "di"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-16",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'Where are you from?'"
+          },
+          "sentence_context": "Di dove sei?",
+          "correct_answer": [
+            "Di",
+            "dove",
+            "sei?"
+          ],
+          "distractors": [
+            "sono",
+            "mi"
+          ],
+          "hints": [
+            "Starts with 'di' (from), then 'where', then the verb."
+          ],
+          "target_words": [
+            "dove",
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-01-ex-17",
+          "type": "speaking",
+          "subtype": "read_aloud",
+          "prompt": {
+            "text": "Read this sentence aloud."
+          },
+          "sentence_context": "Ciao, mi chiamo Marco. Sono di Roma.",
+          "correct_answer": "Ciao, mi chiamo Marco. Sono di Roma.",
+          "distractors": [],
+          "hints": [
+            "Introduce yourself: name, then where you're from."
+          ],
+          "target_words": [
+            "mi chiamo",
+            "essere",
+            "di"
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "io",
+          "meaning": "I",
+          "example": "Io sono Marco."
+        },
+        {
+          "word": "tu",
+          "meaning": "You (informal)",
+          "example": "Tu sei Anna?"
+        },
+        {
+          "word": "essere",
+          "meaning": "To be",
+          "example": "Io sono Marco."
+        },
+        {
+          "word": "mi chiamo",
+          "meaning": "My name is",
+          "example": "Mi chiamo Luca."
+        },
+        {
+          "word": "di",
+          "meaning": "From / Of",
+          "example": "Sono di Milano."
+        },
+        {
+          "word": "dove",
+          "meaning": "Where",
+          "example": "Di dove sei?"
+        }
+      ]
+    },
+    {
+      "id": "unit-02-lesson-02",
+      "unit_id": "unit-02",
+      "name": "He Is, She Is",
+      "order": 2,
+      "grammar_tips": [
+        {
+          "id": "unit-02-lesson-02-tip-01",
+          "title": "The Third Person: è",
+          "explanation": "'È' means both 'he is' and 'she is' — the verb form is the same. 'Lui è Marco' (he is Marco), 'Lei è Sara' (she is Sara). The accent on è is important: without it, 'e' just means 'and'.",
+          "before_exercise": 0
+        },
+        {
+          "id": "unit-02-lesson-02-tip-02",
+          "title": "lei vs Lei — Same Sound, Different Meaning",
+          "explanation": "'lei' (lowercase) = she. 'Lei' (capitalized) = you (formal). In speech they sound identical — context tells you which one. When a waiter says 'Lei è di Roma?' they're asking about YOU, not some woman named Roma.",
+          "before_exercise": 6
+        },
+        {
+          "id": "unit-02-lesson-02-tip-03",
+          "title": "Questo è... Questa è... — Pointing at People",
+          "explanation": "'Questo è Marco' = This is Marco. 'Questa è Sara' = This is Sara. 'Questo' for males, 'questa' for females. Don't overthink the pattern — it's just -o for him, -a for her. You'll see this pattern everywhere in Italian.",
+          "before_exercise": 11
+        }
+      ],
+      "exercises": [
+        {
+          "id": "unit-02-lesson-02-ex-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'lui' mean?"
+          },
+          "sentence_context": "Lui è Marco.",
+          "correct_answer": "He",
+          "distractors": [
+            "She",
+            "You",
+            "I"
+          ],
+          "hints": [
+            "The masculine third-person pronoun."
+          ],
+          "target_words": [
+            "lui"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'lei' (lowercase) mean?"
+          },
+          "sentence_context": "Lei è di Firenze.",
+          "correct_answer": "She",
+          "distractors": [
+            "He",
+            "I",
+            "We"
+          ],
+          "hints": [
+            "The feminine third-person pronoun — lowercase."
+          ],
+          "target_words": [
+            "lei"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'è' mean?"
+          },
+          "sentence_context": "Marco è di Napoli.",
+          "correct_answer": "Is (he/she is)",
+          "distractors": [
+            "Am (I am)",
+            "Are (you are)",
+            "And"
+          ],
+          "hints": [
+            "The third-person singular form of essere. Don't confuse 'è' (is) with 'e' (and)!"
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-04",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'chi' mean?"
+          },
+          "sentence_context": "Chi è? — È Marco!",
+          "correct_answer": "Who",
+          "distractors": [
+            "What",
+            "Where",
+            "When"
+          ],
+          "hints": [
+            "A one-syllable question word for asking about a person's identity."
+          ],
+          "target_words": [
+            "chi"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-05",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'This is Sara' when introducing a woman?"
+          },
+          "sentence_context": "Questa è Sara.",
+          "correct_answer": "Questa è Sara",
+          "distractors": [
+            "Questo è Sara",
+            "Lei è Sara",
+            "Sono Sara"
+          ],
+          "hints": [
+            "For a woman, use the -a ending: 'questa'."
+          ],
+          "target_words": [
+            "questa"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-06",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'anche' mean?"
+          },
+          "sentence_context": "Sono di Roma. — Anche io!",
+          "correct_answer": "Also / Too",
+          "distractors": [
+            "But",
+            "And",
+            "Or"
+          ],
+          "hints": [
+            "'Anche io' = me too!"
+          ],
+          "target_words": [
+            "anche"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-07",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing word."
+          },
+          "sentence_context": "Lui ___ di Milano.",
+          "correct_answer": "è",
+          "distractors": [],
+          "hints": [
+            "He is from Milan."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-08",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing word."
+          },
+          "sentence_context": "___ è? — È Anna!",
+          "correct_answer": "Chi",
+          "distractors": [],
+          "hints": [
+            "Who is it? — It's Anna!"
+          ],
+          "target_words": [
+            "chi"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-09",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing word."
+          },
+          "sentence_context": "___ è Marco, un amico.",
+          "correct_answer": "Questo",
+          "distractors": [],
+          "hints": [
+            "This is Marco, a friend."
+          ],
+          "target_words": [
+            "questo"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-10",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'he' in Italian?"
+          },
+          "sentence_context": "Lui è Marco.",
+          "correct_answer": "lui",
+          "distractors": [],
+          "hints": [
+            "Three letters — the masculine pronoun."
+          ],
+          "target_words": [
+            "lui"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-11",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'she' in Italian?"
+          },
+          "sentence_context": "Lei è di Firenze.",
+          "correct_answer": "lei",
+          "distractors": [],
+          "hints": [
+            "Three letters — the feminine pronoun."
+          ],
+          "target_words": [
+            "lei"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-12",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Ask 'Who is it?' in Italian."
+          },
+          "sentence_context": "Chi è?",
+          "correct_answer": "chi è",
+          "distractors": [],
+          "hints": [
+            "Two short words: who + is."
+          ],
+          "target_words": [
+            "chi",
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-13",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "You're introducing a male friend. Fill in the blank."
+          },
+          "sentence_context": "___ è Paolo.",
+          "correct_answer": "Questo",
+          "distractors": [],
+          "hints": [
+            "'This is' for a male — ends in -o."
+          ],
+          "target_words": [
+            "questo"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-14",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "You're introducing a female friend. Fill in the blank."
+          },
+          "sentence_context": "___ è Maria.",
+          "correct_answer": "Questa",
+          "distractors": [],
+          "hints": [
+            "'This is' for a female — ends in -a."
+          ],
+          "target_words": [
+            "questa"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-15",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'She is from Florence. Me too!'"
+          },
+          "sentence_context": "Lei è di Firenze. Anche io!",
+          "correct_answer": [
+            "Lei",
+            "è",
+            "di",
+            "Firenze.",
+            "Anche",
+            "io!"
+          ],
+          "distractors": [
+            "tu",
+            "sono"
+          ],
+          "hints": [
+            "Her origin first, then your reaction."
+          ],
+          "target_words": [
+            "lei",
+            "essere",
+            "anche"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-16",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'Who is he? He is Marco.'"
+          },
+          "sentence_context": "Chi è lui? Lui è Marco.",
+          "correct_answer": [
+            "Chi",
+            "è",
+            "lui?",
+            "Lui",
+            "è",
+            "Marco."
+          ],
+          "distractors": [
+            "lei",
+            "questa"
+          ],
+          "hints": [
+            "Question first, then the answer."
+          ],
+          "target_words": [
+            "chi",
+            "essere",
+            "lui"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-02-ex-17",
+          "type": "speaking",
+          "subtype": "read_aloud",
+          "prompt": {
+            "text": "Read this sentence aloud."
+          },
+          "sentence_context": "Questa è Anna. Lei è di Firenze.",
+          "correct_answer": "Questa è Anna. Lei è di Firenze.",
+          "distractors": [],
+          "hints": [
+            "Introduce Anna and say where she's from."
+          ],
+          "target_words": [
+            "questa",
+            "essere",
+            "lei"
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "lui",
+          "meaning": "He",
+          "example": "Lui è Marco."
+        },
+        {
+          "word": "lei",
+          "meaning": "She",
+          "example": "Lei è di Firenze."
+        },
+        {
+          "word": "questo",
+          "meaning": "This (masculine)",
+          "example": "Questo è Paolo."
+        },
+        {
+          "word": "questa",
+          "meaning": "This (feminine)",
+          "example": "Questa è Sara."
+        },
+        {
+          "word": "chi",
+          "meaning": "Who",
+          "example": "Chi è? — È Marco!"
+        },
+        {
+          "word": "anche",
+          "meaning": "Also / Too",
+          "example": "Anche io sono di Roma!"
+        }
+      ]
+    },
+    {
+      "id": "unit-02-lesson-03",
+      "unit_id": "unit-02",
+      "name": "The Full Picture",
+      "order": 3,
+      "grammar_tips": [
+        {
+          "id": "unit-02-lesson-03-tip-01",
+          "title": "Three New Pronouns, Three New Forms",
+          "explanation": "'Noi siamo' = we are. 'Voi siete' = you (plural) are. 'Loro sono' = they are. Notice that 'sono' does double duty — it means both 'I am' (io sono) AND 'they are' (loro sono). Context always makes it clear which one.",
+          "before_exercise": 0
+        },
+        {
+          "id": "unit-02-lesson-03-tip-02",
+          "title": "The Full Essere Table",
+          "explanation": "Here's the complete picture: io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono. Six forms, but 'sono' covers two of them. That leaves just five unique forms to memorize. Not bad for the most important verb in Italian.",
+          "table": [
+            [
+              "Pronoun",
+              "Essere",
+              "English"
+            ],
+            [
+              "io",
+              "sono",
+              "I am"
+            ],
+            [
+              "tu",
+              "sei",
+              "you are"
+            ],
+            [
+              "lui/lei",
+              "è",
+              "he/she is"
+            ],
+            [
+              "noi",
+              "siamo",
+              "we are"
+            ],
+            [
+              "voi",
+              "siete",
+              "you (plural) are"
+            ],
+            [
+              "loro",
+              "sono",
+              "they are"
+            ]
+          ],
+          "before_exercise": 5
+        },
+        {
+          "id": "unit-02-lesson-03-tip-03",
+          "title": "Professions with Essere",
+          "explanation": "To say what someone does, use essere: 'Sono studente' (I'm a student), 'Lei è dottoressa' (She's a doctor). In Italian you can drop the article ('un/una') with professions — both 'Sono un insegnante' and 'Sono insegnante' work.",
+          "before_exercise": 11
+        }
+      ],
+      "exercises": [
+        {
+          "id": "unit-02-lesson-03-ex-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'noi' mean?"
+          },
+          "sentence_context": "Noi siamo di Torino.",
+          "correct_answer": "We",
+          "distractors": [
+            "You (plural)",
+            "They",
+            "I"
+          ],
+          "hints": [
+            "The first person plural — the group that includes you."
+          ],
+          "target_words": [
+            "noi"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'voi' mean?"
+          },
+          "sentence_context": "Voi siete di Milano?",
+          "correct_answer": "You (plural)",
+          "distractors": [
+            "We",
+            "They",
+            "He"
+          ],
+          "hints": [
+            "Addressing a group of people — the plural 'you'."
+          ],
+          "target_words": [
+            "voi"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'loro' mean?"
+          },
+          "sentence_context": "Loro sono di Napoli.",
+          "correct_answer": "They",
+          "distractors": [
+            "We",
+            "You (plural)",
+            "She"
+          ],
+          "hints": [
+            "The third person plural — a group of other people."
+          ],
+          "target_words": [
+            "loro"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-04",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "'Loro sono di Roma.' What does 'sono' mean here?"
+          },
+          "sentence_context": "Loro sono di Roma.",
+          "correct_answer": "They are",
+          "distractors": [
+            "I am",
+            "We are",
+            "You are"
+          ],
+          "hints": [
+            "'Sono' means both 'I am' and 'they are'. The pronoun 'loro' tells you which."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-05",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which verb form goes with 'noi'?"
+          },
+          "sentence_context": "Noi siamo studenti.",
+          "correct_answer": "siamo",
+          "distractors": [
+            "sono",
+            "siete",
+            "sei"
+          ],
+          "hints": [
+            "The 'we' form of essere."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-06",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which verb form goes with 'voi'?"
+          },
+          "sentence_context": "Voi siete molto gentili!",
+          "correct_answer": "siete",
+          "distractors": [
+            "siamo",
+            "sono",
+            "è"
+          ],
+          "hints": [
+            "The 'voi' form of essere."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-07",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing word."
+          },
+          "sentence_context": "Noi ___ di Torino.",
+          "correct_answer": "siamo",
+          "distractors": [],
+          "hints": [
+            "We are from Turin."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-08",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing word."
+          },
+          "sentence_context": "Voi ___ studenti?",
+          "correct_answer": "siete",
+          "distractors": [],
+          "hints": [
+            "Are you (plural) students?"
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-09",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing word."
+          },
+          "sentence_context": "Loro ___ di Napoli.",
+          "correct_answer": "sono",
+          "distractors": [],
+          "hints": [
+            "They are from Naples."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-10",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'we are' in Italian?"
+          },
+          "sentence_context": "Siamo di Roma!",
+          "correct_answer": "siamo",
+          "distractors": [],
+          "hints": [
+            "The 'noi' form of essere."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-11",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'studente' mean?"
+          },
+          "sentence_context": "Sono studente.",
+          "correct_answer": "Student",
+          "distractors": [
+            "Teacher",
+            "Doctor",
+            "Friend"
+          ],
+          "hints": [
+            "Very close to the English word — almost a cognate."
+          ],
+          "target_words": [
+            "studente"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-12",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'insegnante' mean?"
+          },
+          "sentence_context": "Lei è insegnante.",
+          "correct_answer": "Teacher",
+          "distractors": [
+            "Student",
+            "Doctor",
+            "Engineer"
+          ],
+          "hints": [
+            "From 'insegnare' (to teach)."
+          ],
+          "target_words": [
+            "insegnante"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-13",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'you (plural) are' in Italian?"
+          },
+          "sentence_context": "Voi siete molto gentili!",
+          "correct_answer": "siete",
+          "distractors": [],
+          "hints": [
+            "The 'voi' form of essere."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-14",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of essere."
+          },
+          "sentence_context": "Marco e Anna ___ di Firenze.",
+          "correct_answer": "sono",
+          "distractors": [],
+          "hints": [
+            "Marco and Anna = they (loro). Which form of essere goes with 'loro'?"
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-15",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of essere."
+          },
+          "sentence_context": "Io e Luca ___ studenti.",
+          "correct_answer": "siamo",
+          "distractors": [],
+          "hints": [
+            "'Io e Luca' = we (noi)."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-16",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'We are students. They are teachers.'"
+          },
+          "sentence_context": "Noi siamo studenti. Loro sono insegnanti.",
+          "correct_answer": [
+            "Noi",
+            "siamo",
+            "studenti.",
+            "Loro",
+            "sono",
+            "insegnanti."
+          ],
+          "distractors": [
+            "siete",
+            "sei"
+          ],
+          "hints": [
+            "'We' first, then 'they'."
+          ],
+          "target_words": [
+            "essere",
+            "studente",
+            "insegnante"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-17",
+          "type": "speaking",
+          "subtype": "read_aloud",
+          "prompt": {
+            "text": "Read this sentence aloud."
+          },
+          "sentence_context": "Noi siamo studenti. Siamo di Roma.",
+          "correct_answer": "Noi siamo studenti. Siamo di Roma.",
+          "distractors": [],
+          "hints": [
+            "Say what you are, then where you're from."
+          ],
+          "target_words": [
+            "essere",
+            "studente"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-03-ex-18",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'Are you (plural) from Milan?'"
+          },
+          "sentence_context": "Voi siete di Milano?",
+          "correct_answer": [
+            "Voi",
+            "siete",
+            "di",
+            "Milano?"
+          ],
+          "distractors": [
+            "siamo",
+            "noi"
+          ],
+          "hints": [
+            "Pronoun first, then the 'voi' form of essere."
+          ],
+          "target_words": [
+            "voi",
+            "essere"
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "noi",
+          "meaning": "We",
+          "example": "Noi siamo di Torino."
+        },
+        {
+          "word": "voi",
+          "meaning": "You (plural)",
+          "example": "Voi siete di Milano?"
+        },
+        {
+          "word": "loro",
+          "meaning": "They",
+          "example": "Loro sono di Napoli."
+        },
+        {
+          "word": "studente",
+          "meaning": "Student",
+          "example": "Sono studente."
+        },
+        {
+          "word": "studentessa",
+          "meaning": "Student (female)",
+          "example": "Lei è studentessa."
+        },
+        {
+          "word": "insegnante",
+          "meaning": "Teacher",
+          "example": "Lui è insegnante."
+        },
+        {
+          "word": "dottore",
+          "meaning": "Doctor (male)",
+          "example": "Lui è dottore."
+        },
+        {
+          "word": "dottoressa",
+          "meaning": "Doctor (female)",
+          "example": "Lei è dottoressa."
+        }
+      ]
+    },
+    {
+      "id": "unit-02-lesson-04",
+      "unit_id": "unit-02",
+      "name": "Introductions Practice",
+      "order": 4,
+      "grammar_tips": [
+        {
+          "id": "unit-02-lesson-04-tip-01",
+          "title": "Putting It All Together",
+          "explanation": "You now know all six forms of essere, how to give your name, say where you're from, and introduce others. This lesson is pure practice — no new grammar. By the end, you should be able to handle a basic Italian introduction without thinking twice.",
+          "before_exercise": 0
+        },
+        {
+          "id": "unit-02-lesson-04-tip-02",
+          "title": "Formal vs Informal Introductions",
+          "explanation": "With friends: 'Ciao, mi chiamo Marco. Sono di Roma.' With a stranger: 'Buongiorno, sono Marco. Sono di Roma.' The content is almost the same — it's the greeting that sets the register. 'Mi chiamo' works in both, but 'Sono + name' feels slightly more formal.",
+          "before_exercise": 7
+        },
+        {
+          "id": "unit-02-lesson-04-tip-03",
+          "title": "Piacere — Nice to Meet You",
+          "explanation": "'Piacere' means 'nice to meet you' (literally: 'pleasure'). Say it after someone introduces themselves. It works in any register — formal or informal. You can also say 'Piacere mio' (the pleasure is mine) to be extra polite.",
+          "before_exercise": 13
+        }
+      ],
+      "exercises": [
+        {
+          "id": "unit-02-lesson-04-ex-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'piacere' mean when meeting someone?"
+          },
+          "sentence_context": "Mi chiamo Anna. — Piacere!",
+          "correct_answer": "Nice to meet you",
+          "distractors": [
+            "Thank you",
+            "You're welcome",
+            "Goodbye"
+          ],
+          "hints": [
+            "Literally 'pleasure' — said after introductions."
+          ],
+          "target_words": [
+            "piacere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which is the correct informal introduction?"
+          },
+          "sentence_context": "Ciao! Mi chiamo Luca.",
+          "correct_answer": "Ciao! Mi chiamo Luca.",
+          "distractors": [
+            "Buongiorno, sono il signor Rossi.",
+            "Arrivederci, mi chiamo Luca.",
+            "Scusi, mi chiamo Luca."
+          ],
+          "hints": [
+            "Informal = 'ciao' people. Just name, no title."
+          ],
+          "target_words": [
+            "mi chiamo"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-03",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of essere."
+          },
+          "sentence_context": "Tu ___ di Firenze?",
+          "correct_answer": "sei",
+          "distractors": [],
+          "hints": [
+            "'Tu' → which form of essere?"
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-04",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of essere."
+          },
+          "sentence_context": "Noi ___ studenti.",
+          "correct_answer": "siamo",
+          "distractors": [],
+          "hints": [
+            "'Noi' → which form of essere?"
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-05",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of essere."
+          },
+          "sentence_context": "Lui ___ dottore.",
+          "correct_answer": "è",
+          "distractors": [],
+          "hints": [
+            "'Lui' → which form of essere?"
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-06",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the correct form of essere."
+          },
+          "sentence_context": "Loro ___ insegnanti.",
+          "correct_answer": "sono",
+          "distractors": [],
+          "hints": [
+            "'Loro' → which form of essere? (Same as 'io'!)"
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-07",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing word."
+          },
+          "sentence_context": "Buongiorno, ___ il dottor Rossi.",
+          "correct_answer": "sono",
+          "distractors": [],
+          "hints": [
+            "Good morning, I am Doctor Rossi."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-08",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence with the missing word."
+          },
+          "sentence_context": "Di ___ siete?",
+          "correct_answer": "dove",
+          "distractors": [],
+          "hints": [
+            "Where are you (plural) from?"
+          ],
+          "target_words": [
+            "dove"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-09",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Someone introduces themselves. Say 'nice to meet you' in Italian."
+          },
+          "sentence_context": "Sono Marco. — Piacere!",
+          "correct_answer": "piacere",
+          "distractors": [],
+          "hints": [
+            "One word — literally 'pleasure'."
+          ],
+          "target_words": [
+            "piacere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-10",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you ask 'Where are you from?' informally?"
+          },
+          "sentence_context": "Di dove sei?",
+          "correct_answer": "di dove sei",
+          "distractors": [],
+          "hints": [
+            "Three words: from + where + you are."
+          ],
+          "target_words": [
+            "dove",
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-11",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'I am a teacher' in Italian?"
+          },
+          "sentence_context": "Sono insegnante.",
+          "correct_answer": "sono insegnante",
+          "distractors": [],
+          "hints": [
+            "Two words — no article needed with professions."
+          ],
+          "target_words": [
+            "essere",
+            "insegnante"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-12",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Ask 'Who is she?' in Italian."
+          },
+          "sentence_context": "Chi è lei?",
+          "correct_answer": "chi è lei",
+          "distractors": [],
+          "hints": [
+            "Three words: who + is + she."
+          ],
+          "target_words": [
+            "chi",
+            "essere",
+            "lei"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-13",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'Hello, my name is Anna. Nice to meet you!'"
+          },
+          "sentence_context": "Ciao, mi chiamo Anna. Piacere!",
+          "correct_answer": [
+            "Ciao,",
+            "mi",
+            "chiamo",
+            "Anna.",
+            "Piacere!"
+          ],
+          "distractors": [
+            "sono",
+            "di"
+          ],
+          "hints": [
+            "Greeting, then name, then 'pleasure'."
+          ],
+          "target_words": [
+            "mi chiamo",
+            "piacere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-14",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'This is Paolo. He is a doctor.'"
+          },
+          "sentence_context": "Questo è Paolo. Lui è dottore.",
+          "correct_answer": [
+            "Questo",
+            "è",
+            "Paolo.",
+            "Lui",
+            "è",
+            "dottore."
+          ],
+          "distractors": [
+            "questa",
+            "insegnante"
+          ],
+          "hints": [
+            "Introduce him first (this is...), then say what he does."
+          ],
+          "target_words": [
+            "questo",
+            "essere",
+            "dottore"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-15",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'Good morning, I am Doctor Rossi. I am from Venice.'"
+          },
+          "sentence_context": "Buongiorno, sono il dottor Rossi. Sono di Venezia.",
+          "correct_answer": [
+            "Buongiorno,",
+            "sono",
+            "il",
+            "dottor",
+            "Rossi.",
+            "Sono",
+            "di",
+            "Venezia."
+          ],
+          "distractors": [
+            "ciao",
+            "mi chiamo"
+          ],
+          "hints": [
+            "Formal greeting, then title + name, then origin."
+          ],
+          "target_words": [
+            "essere",
+            "di"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-16",
+          "type": "speaking",
+          "subtype": "read_aloud",
+          "prompt": {
+            "text": "Read this introduction aloud."
+          },
+          "sentence_context": "Buongiorno! Mi chiamo Anna. Sono di Firenze. Sono insegnante. Piacere!",
+          "correct_answer": "Buongiorno! Mi chiamo Anna. Sono di Firenze. Sono insegnante. Piacere!",
+          "distractors": [],
+          "hints": [
+            "A full formal introduction: greeting, name, city, profession, nice to meet you."
+          ],
+          "target_words": [
+            "mi chiamo",
+            "essere",
+            "di",
+            "insegnante",
+            "piacere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-04-ex-17",
+          "type": "speaking",
+          "subtype": "read_aloud",
+          "prompt": {
+            "text": "Read this dialogue aloud."
+          },
+          "sentence_context": "Ciao! Mi chiamo Luca. Di dove sei?",
+          "correct_answer": "Ciao! Mi chiamo Luca. Di dove sei?",
+          "distractors": [],
+          "hints": [
+            "An informal introduction followed by a question."
+          ],
+          "target_words": [
+            "mi chiamo",
+            "dove",
+            "essere"
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "piacere",
+          "meaning": "Nice to meet you / Pleasure",
+          "example": "Piacere! Mi chiamo Marco."
+        }
+      ]
+    },
+    {
+      "id": "unit-02-lesson-05",
+      "unit_id": "unit-02",
+      "name": "Spelling & The Alphabet",
+      "order": 5,
+      "grammar_tips": [
+        {
+          "id": "unit-02-lesson-05-tip-01",
+          "title": "L'Alfabeto Italiano",
+          "explanation": "Italian has 21 letters in its standard alphabet (no j, k, w, x, y in native words — they only appear in foreign borrowings). Letter names: a, bi, ci, di, e, effe, gi, acca, i, elle, emme, enne, o, pi, qu, erre, esse, ti, u, vu, zeta.",
+          "before_exercise": 0
+        },
+        {
+          "id": "unit-02-lesson-05-tip-02",
+          "title": "Spelling Your Name",
+          "explanation": "'Come si scrive?' = 'How do you spell it?'. Reply by saying each letter: 'M-A-R-C-O'. Useful on the phone or with new acquaintances.",
+          "before_exercise": 5
+        },
+        {
+          "id": "unit-02-lesson-05-tip-03",
+          "title": "Doppia — Double Letters",
+          "explanation": "Many Italian words have double consonants ('mamma', 'caffè', 'anno'). When spelling, you say 'doppia' (double) before the letter: 'M-A-doppia M-A' for 'mamma'.",
+          "before_exercise": 10
+        }
+      ],
+      "exercises": [
+        {
+          "id": "unit-02-lesson-05-ex-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'alfabeto' mean?"
+          },
+          "sentence_context": "L'alfabeto italiano ha 21 lettere.",
+          "correct_answer": "Alphabet",
+          "distractors": [
+            "Letter",
+            "Word",
+            "Number"
+          ],
+          "hints": [
+            "The Italian alphabet has 21 letters."
+          ],
+          "target_words": [
+            "alfabeto"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-05-ex-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'lettera' mean here?"
+          },
+          "sentence_context": "La prima lettera è 'A'.",
+          "correct_answer": "Letter (of the alphabet)",
+          "distractors": [
+            "Letter (mail)",
+            "Word",
+            "Sound"
+          ],
+          "hints": [
+            "A letter — like in the alphabet."
+          ],
+          "target_words": [
+            "lettera"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-05-ex-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'doppia' mean here?"
+          },
+          "sentence_context": "M-A-doppia M-A: mamma.",
+          "correct_answer": "Double",
+          "distractors": [
+            "Last",
+            "Big",
+            "Silent"
+          ],
+          "hints": [
+            "Used when spelling double consonants."
+          ],
+          "target_words": [
+            "doppia"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-05-ex-04",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence."
+          },
+          "sentence_context": "Come si ___ 'Marco'?",
+          "correct_answer": "scrive",
+          "distractors": [],
+          "hints": [
+            "How do you spell 'Marco'? (lui form of scrivere)"
+          ],
+          "target_words": [
+            "scrivere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-05-ex-05",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete: 'The alphabet has 21 ___'."
+          },
+          "sentence_context": "L'alfabeto ha 21 ___.",
+          "correct_answer": "lettere",
+          "distractors": [],
+          "hints": [
+            "Plural of 'lettera'."
+          ],
+          "target_words": [
+            "lettera"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-05-ex-06",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'alphabet' in Italian?"
+          },
+          "sentence_context": "L'alfabeto italiano.",
+          "correct_answer": "alfabeto",
+          "distractors": [],
+          "hints": [
+            "Close to the English word."
+          ],
+          "target_words": [
+            "alfabeto"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-05-ex-07",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'letter' (alphabet) in Italian?"
+          },
+          "sentence_context": "La prima lettera è A.",
+          "correct_answer": "lettera",
+          "distractors": [],
+          "hints": [
+            "A feminine noun."
+          ],
+          "target_words": [
+            "lettera"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-05-ex-08",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'double' (in spelling)?"
+          },
+          "sentence_context": "Doppia M.",
+          "correct_answer": "doppia",
+          "distractors": [],
+          "hints": [
+            "Feminine form of doppio."
+          ],
+          "target_words": [
+            "doppia"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-05-ex-09",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "How would you ask someone to spell their name?"
+          },
+          "sentence_context": "Come si ___ il tuo nome?",
+          "correct_answer": "scrive",
+          "distractors": [],
+          "hints": [
+            "'How is your name written?' (lui form)"
+          ],
+          "target_words": [
+            "scrivere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-05-ex-10",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange: 'How do you spell your name?'"
+          },
+          "sentence_context": "Come si scrive il tuo nome?",
+          "correct_answer": [
+            "Come",
+            "si",
+            "scrive",
+            "il",
+            "tuo",
+            "nome?"
+          ],
+          "distractors": [
+            "è",
+            "chiama"
+          ],
+          "hints": [
+            "'Come si scrive' = how is it written."
+          ],
+          "target_words": [
+            "scrivere"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-05-ex-11",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange: 'The Italian alphabet has 21 letters.'"
+          },
+          "sentence_context": "L'alfabeto italiano ha 21 lettere.",
+          "correct_answer": [
+            "L'alfabeto",
+            "italiano",
+            "ha",
+            "21",
+            "lettere."
+          ],
+          "distractors": [
+            "lettera",
+            "francese"
+          ],
+          "hints": [
+            "L'alfabeto + adjective + ha + number + plural noun."
+          ],
+          "target_words": [
+            "alfabeto",
+            "lettera"
+          ]
+        },
+        {
+          "id": "unit-02-lesson-05-ex-12",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange: 'My name is Anna, A-N-N-A.'"
+          },
+          "sentence_context": "Mi chiamo Anna, A-N-N-A.",
+          "correct_answer": [
+            "Mi",
+            "chiamo",
+            "Anna,",
+            "A-N-N-A."
+          ],
+          "distractors": [
+            "sono",
+            "doppia"
+          ],
+          "hints": [
+            "Self-introduction + spelling."
+          ],
+          "target_words": [
+            "alfabeto"
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "alfabeto",
+          "meaning": "Alphabet",
+          "example": "L'alfabeto italiano ha 21 lettere."
+        },
+        {
+          "word": "lettera",
+          "meaning": "Letter (of the alphabet)",
+          "example": "La prima lettera è A."
+        },
+        {
+          "word": "doppia",
+          "meaning": "Double (in spelling)",
+          "example": "M-A-doppia M-A: mamma."
+        }
+      ]
+    }
+  ]
+}

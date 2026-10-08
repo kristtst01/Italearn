@@ -1,0 +1,76 @@
+{
+  "id": "unit-04-lesson-08",
+  "unit_id": "unit-04",
+  "name": "Say It Out Loud",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-04-lesson-08-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Quanti anni hai? Ho ventiquattro anni.",
+      "correct_answer": "Quanti anni hai? Ho ventiquattro anni.",
+      "distractors": [],
+      "hints": ["Question and answer."],
+      "target_words": ["quanti anni hai"]
+    },
+    {
+      "id": "unit-04-lesson-08-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Marta ha cinquantun anni.",
+      "correct_answer": "Marta ha cinquantun anni.",
+      "distractors": [],
+      "hints": ["Cinquantun before anni."],
+      "target_words": ["anni"]
+    },
+    {
+      "id": "unit-04-lesson-08-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ho due fratelli e una sorella.",
+      "correct_answer": "Ho due fratelli e una sorella.",
+      "distractors": [],
+      "hints": ["Counting family."],
+      "target_words": ["due"]
+    },
+    {
+      "id": "unit-04-lesson-08-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Numero di telefono: tre quattro sette, otto uno due.",
+      "correct_answer": "Numero di telefono: tre quattro sette, otto uno due.",
+      "distractors": [],
+      "hints": ["Digit by digit."],
+      "target_words": ["numero"]
+    },
+    {
+      "id": "unit-04-lesson-08-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Paul ha trentotto anni, non diciotto!",
+      "correct_answer": "Paul ha trentotto anni, non diciotto!",
+      "distractors": [],
+      "hints": ["Two numbers that sound alike."],
+      "target_words": ["trenta"]
+    },
+    {
+      "id": "unit-04-lesson-08-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ho diciassette anni.",
+      "correct_answer": "Ho diciassette anni.",
+      "distractors": [],
+      "hints": ["A tricky teen."],
+      "target_words": ["diciassette"]
+    }
+  ],
+  "vocabulary": []
+}

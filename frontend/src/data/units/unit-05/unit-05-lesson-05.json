@@ -1,78 +1,116 @@
 {
   "id": "unit-05-lesson-05",
   "unit_id": "unit-05",
-  "name": "Practice Writing",
+  "name": "Emma's Message",
   "order": 5,
-  "grammar_tips": [
-    {
-      "id": "unit-05-lesson-05-tip-01",
-      "title": "Time to Write!",
-      "explanation": "In these exercises, there's no single correct answer — write freely using what you've learned. A teacher will read your response and give you feedback. Don't worry about being perfect. Use what you know: mi chiamo, sono di, ho ... anni, ho fame/sete/freddo, and anything else from earlier units.",
-      "before_exercise": 0
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-05-lesson-05-ex-01",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Introduce yourself in Italian. Include your name, where you're from, and your age."
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How old is Emma?" },
       "sentence_context": "",
-      "correct_answer": "Ciao! Mi chiamo Marco. Sono di Roma. Ho venti anni.",
-      "distractors": [],
-      "hints": [
-        "Use mi chiamo, sono di, and ho ... anni."
-      ],
-      "target_words": [
-        "mi chiamo",
-        "essere",
-        "di",
-        "avere",
-        "anni"
-      ]
+      "correct_answer": "24",
+      "distractors": ["42", "34", "30"],
+      "hints": ["'Ventiquattro.'"],
+      "target_words": ["anni"]
     },
     {
       "id": "unit-05-lesson-05-ex-02",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Describe what you have. Mention at least 2 things you own (pets, objects, family members)."
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is Emma now?" },
       "sentence_context": "",
-      "correct_answer": "Ho un cane e un gatto. Ho una macchina. Ho un fratello e una sorella.",
-      "distractors": [],
-      "hints": [
-        "Use ho + un/una. Think about: cane, gatto, macchina, bicicletta, fratello, sorella."
-      ],
-      "target_words": [
-        "avere"
-      ]
+      "correct_answer": "In Florence",
+      "distractors": ["In London", "In Rome", "With Kate"],
+      "hints": ["'Adesso sono a Firenze.'"],
+      "target_words": ["adesso"]
     },
     {
       "id": "unit-05-lesson-05-ex-03",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "How are you feeling right now? Write 2-3 sentences about how you feel using avere idioms."
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who is Kate?" },
       "sentence_context": "",
-      "correct_answer": "Ho fame e ho sete. Non ho sonno. Ho voglia di un caffè!",
+      "correct_answer": "Emma's sister",
+      "distractors": ["Emma's daughter", "Emma's teacher", "Emma's cat"],
+      "hints": ["'Ho una sorella, Kate.'"],
+      "target_words": ["sorella"]
+    },
+    {
+      "id": "unit-05-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Kate is married." },
+      "sentence_context": "",
+      "correct_answer": "True",
+      "distractors": ["False"],
+      "hints": ["'È sposata.'"],
+      "target_words": ["sposato"]
+    },
+    {
+      "id": "unit-05-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How old is Lily?" },
+      "sentence_context": "",
+      "correct_answer": "3",
+      "distractors": ["6", "30", "13"],
+      "hints": ["'Lily ha tre anni.'"],
+      "target_words": ["anni"]
+    },
+    {
+      "id": "unit-05-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What pet does Emma have?" },
+      "sentence_context": "",
+      "correct_answer": "A cat called Biscotto",
+      "distractors": ["A dog called Biscotto", "Two cats", "No pets"],
+      "hints": ["'Ho anche un gatto.'"],
+      "target_words": ["gatto"]
+    },
+    {
+      "id": "unit-05-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why does Emma feel like an ice cream?" },
+      "sentence_context": "",
+      "correct_answer": "It's hot and she's thirsty",
+      "distractors": ["She's hungry and cold", "It's her birthday"],
+      "hints": ["'Fa caldo e ho sete.'"],
+      "target_words": ["un gelato"]
+    },
+    {
+      "id": "unit-05-lesson-05-ex-08",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quanti anni ha Kate?" },
+      "sentence_context": "Quanti anni ha Kate?",
+      "correct_answer": ["ha trent'anni", "Kate ha trent'anni", "ha trenta anni"],
       "distractors": [],
-      "hints": [
-        "Use: ho fame, ho sete, ho freddo, ho caldo, ho sonno, ho paura, ho voglia di..."
-      ],
-      "target_words": [
-        "fame",
-        "sete",
-        "freddo",
-        "caldo",
-        "sonno",
-        "paura",
-        "voglia"
-      ]
+      "hints": ["Ha + age + anni."],
+      "target_words": ["anni"]
+    },
+    {
+      "id": "unit-05-lesson-05-ex-09",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Emma ha un cane?" },
+      "sentence_context": "Emma ha un cane?",
+      "correct_answer": ["no, ha un gatto", "no, non ha un cane, ha un gatto", "no, Emma ha un gatto"],
+      "distractors": [],
+      "hints": ["No, and say what she has."],
+      "target_words": ["cane"]
     }
   ],
-  "vocabulary": []
+  "vocabulary": [
+    { "word": "adesso", "meaning": "now", "example": "Adesso sono a Firenze." },
+    { "word": "oggi", "meaning": "today", "example": "Oggi fa caldo." }
+  ],
+  "reading": {
+    "title": "Ciao da Firenze!",
+    "paragraphs": ["Ciao Marco!", "Mi chiamo Emma e ho ventiquattro anni. Sono inglese, di Londra, ma adesso sono a Firenze. Sono studentessa di italiano.", "Ho una sorella, Kate. Kate ha trent'anni, è sposata e ha due figli, Tom e Lily. Tom ha sei anni e Lily ha tre anni.", "Ho anche un gatto. Si chiama Biscotto ed è un gatto italiano!", "Oggi fa caldo e ho sete. Ho voglia di un gelato!", "E tu? Quanti anni hai? Hai fratelli?", "Ciao, Emma"]
+  }
 }

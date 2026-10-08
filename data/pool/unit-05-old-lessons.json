@@ -1,0 +1,1638 @@
+{
+  "source": "unit-05, all lessons before the chapter 3 rework",
+  "removed": "2026-10-01",
+  "why": "Lessons 1-4 drilled avere forms, which the grammar unit 'Avere' now teaches and practises; the writing lesson is replaced by single-text writing lessons. Rebuilt as chapter 3.",
+  "lessons": [
+    {
+      "id": "unit-05-lesson-01",
+      "unit_id": "unit-05",
+      "name": "I Have, You Have",
+      "order": 1,
+      "grammar_tips": [
+        {
+          "id": "unit-05-lesson-01-tip-01",
+          "title": "Your Second Verb",
+          "explanation": "'Avere' (to have) is the second most important Italian verb after essere. Like essere, it changes form depending on who's speaking: 'ho' (I have), 'hai' (you have), 'ha' (he/she has). With essere and avere together, you can already say a lot.",
+          "before_exercise": 0
+        },
+        {
+          "id": "unit-05-lesson-01-tip-02",
+          "title": "The Silent H",
+          "explanation": "Ho, hai, ha all start with a silent H — you never pronounce it. The H exists only for spelling: 'ho' (I have) vs 'o' (or), 'hai' (you have) vs 'ai' (to the), 'ha' (has) vs 'a' (to/at). In speech, context makes it clear.",
+          "before_exercise": 6
+        },
+        {
+          "id": "unit-05-lesson-01-tip-03",
+          "title": "Have vs Be",
+          "explanation": "Don't confuse avere with essere! 'Sono Marco' (I AM Marco) = identity. 'Ho un cane' (I HAVE a dog) = possession. If you're describing what something IS, use essere. If you're talking about what someone HAS, use avere.",
+          "before_exercise": 12
+        }
+      ],
+      "exercises": [
+        {
+          "id": "unit-05-lesson-01-ex-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'ho' mean?"
+          },
+          "sentence_context": "Ho un cane.",
+          "correct_answer": "I have",
+          "distractors": [
+            "I am",
+            "You have",
+            "He has"
+          ],
+          "hints": [
+            "The 'io' form of avere."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'hai' mean?"
+          },
+          "sentence_context": "Hai una sorella?",
+          "correct_answer": "You have",
+          "distractors": [
+            "I have",
+            "He has",
+            "You are"
+          ],
+          "hints": [
+            "The 'tu' form of avere."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'ha' mean?"
+          },
+          "sentence_context": "Maria ha un gatto.",
+          "correct_answer": "He/She has",
+          "distractors": [
+            "I have",
+            "You have",
+            "We have"
+          ],
+          "hints": [
+            "The lui/lei form of avere."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-04",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What is 'un cane' in English?"
+          },
+          "sentence_context": "Ho un cane.",
+          "correct_answer": "A dog",
+          "distractors": [
+            "A cat",
+            "A car",
+            "A brother"
+          ],
+          "hints": [
+            "Man's best friend — think 'canine'."
+          ],
+          "target_words": [
+            "cane"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-05",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What is 'un gatto' in English?"
+          },
+          "sentence_context": "Hai un gatto?",
+          "correct_answer": "A cat",
+          "distractors": [
+            "A dog",
+            "A bicycle",
+            "A sister"
+          ],
+          "hints": [
+            "The other popular pet."
+          ],
+          "target_words": [
+            "gatto"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-06",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Fill in the correct form of avere."
+          },
+          "sentence_context": "___ un cane.",
+          "correct_answer": "Ho",
+          "distractors": [],
+          "hints": [
+            "I have a dog."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-07",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Fill in the correct form of avere."
+          },
+          "sentence_context": "Tu ___ una macchina?",
+          "correct_answer": "hai",
+          "distractors": [],
+          "hints": [
+            "Do you have a car?"
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-08",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Fill in the correct form of avere."
+          },
+          "sentence_context": "Marco ___ un gatto.",
+          "correct_answer": "ha",
+          "distractors": [],
+          "hints": [
+            "Marco has a cat."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-09",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'I have' in Italian?"
+          },
+          "sentence_context": "Ho una bicicletta.",
+          "correct_answer": "ho",
+          "distractors": [],
+          "hints": [
+            "Starts with a silent H."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-10",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'you have' (informal) in Italian?"
+          },
+          "sentence_context": "Hai un fratello?",
+          "correct_answer": "hai",
+          "distractors": [],
+          "hints": [
+            "The 'tu' form — also starts with a silent H."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-11",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'a car' in Italian?"
+          },
+          "sentence_context": "Ho una macchina.",
+          "correct_answer": "una macchina",
+          "distractors": [],
+          "hints": [
+            "Think 'machine' — it's related!"
+          ],
+          "target_words": [
+            "macchina"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-12",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which sentence means 'I have a sister'?"
+          },
+          "sentence_context": "Ho una sorella.",
+          "correct_answer": "Ho una sorella",
+          "distractors": [
+            "Sono una sorella",
+            "Ha una sorella",
+            "Hai una sorella"
+          ],
+          "hints": [
+            "'I have' = ho. 'A sister' = una sorella."
+          ],
+          "target_words": [
+            "avere",
+            "sorella"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-13",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the verb: someone is talking about what they own."
+          },
+          "sentence_context": "___ una bicicletta.",
+          "correct_answer": "Ho",
+          "distractors": [],
+          "hints": [
+            "I have a bicycle — use avere, not essere."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-14",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the verb: talking about what Luca has."
+          },
+          "sentence_context": "Luca ___ un fratello.",
+          "correct_answer": "ha",
+          "distractors": [],
+          "hints": [
+            "Luca has a brother. Use the lui/lei form."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-15",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'I have a dog.'"
+          },
+          "sentence_context": "Ho un cane.",
+          "correct_answer": [
+            "Ho",
+            "un",
+            "cane."
+          ],
+          "distractors": [
+            "sono",
+            "sei"
+          ],
+          "hints": [
+            "Verb first, then article, then noun."
+          ],
+          "target_words": [
+            "avere",
+            "cane"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-16",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'Do you have a car?'"
+          },
+          "sentence_context": "Hai una macchina?",
+          "correct_answer": [
+            "Hai",
+            "una",
+            "macchina?"
+          ],
+          "distractors": [
+            "ho",
+            "ha"
+          ],
+          "hints": [
+            "'You have' first, then article, then noun."
+          ],
+          "target_words": [
+            "avere",
+            "macchina"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-01-ex-17",
+          "type": "speaking",
+          "subtype": "read_aloud",
+          "prompt": {
+            "text": "Read this sentence aloud."
+          },
+          "sentence_context": "Ho un cane e un gatto. Hai una macchina?",
+          "correct_answer": "Ho un cane e un gatto. Hai una macchina?",
+          "distractors": [],
+          "hints": [
+            "I have a dog and a cat. Do you have a car?"
+          ],
+          "target_words": [
+            "avere",
+            "cane",
+            "gatto",
+            "macchina"
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "avere",
+          "meaning": "To have",
+          "example": "Avere un cane è bello."
+        },
+        {
+          "word": "cane",
+          "meaning": "Dog",
+          "example": "Ho un cane."
+        },
+        {
+          "word": "gatto",
+          "meaning": "Cat",
+          "example": "Hai un gatto?"
+        },
+        {
+          "word": "macchina",
+          "meaning": "Car",
+          "example": "Ho una macchina."
+        },
+        {
+          "word": "bicicletta",
+          "meaning": "Bicycle",
+          "example": "Hai una bicicletta?"
+        },
+        {
+          "word": "fratello",
+          "meaning": "Brother",
+          "example": "Luca ha un fratello."
+        },
+        {
+          "word": "sorella",
+          "meaning": "Sister",
+          "example": "Ho una sorella."
+        }
+      ]
+    },
+    {
+      "id": "unit-05-lesson-02",
+      "unit_id": "unit-05",
+      "name": "We Have, They Have",
+      "order": 2,
+      "grammar_tips": [
+        {
+          "id": "unit-05-lesson-02-tip-01",
+          "title": "The Full Picture",
+          "explanation": "Now you know all of avere: ho (I have), hai (you have), ha (he/she has), abbiamo (we have), avete (you all have), hanno (they have). Like essere, the endings tell you who — so pronouns are optional.",
+          "before_exercise": 0
+        },
+        {
+          "id": "unit-05-lesson-02-tip-02",
+          "title": "Hanno vs Anno",
+          "explanation": "'Hanno' (they have) and 'anno' (year) sound almost identical. The H is silent — it's only there for spelling. Even Italian kids mix these up! Context makes it obvious: 'Hanno un cane' (they have) vs 'un anno' (one year).",
+          "before_exercise": 6
+        },
+        {
+          "id": "unit-05-lesson-02-tip-03",
+          "title": "Essere or Avere?",
+          "explanation": "These two verbs show up side by side constantly. Keep the contrast clear: 'Siamo studenti' (we ARE students — identity) vs 'Abbiamo un libro' (we HAVE a book — possession). When in doubt: IS something → essere. HAS something → avere.",
+          "before_exercise": 11
+        }
+      ],
+      "exercises": [
+        {
+          "id": "unit-05-lesson-02-ex-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'abbiamo' mean?"
+          },
+          "sentence_context": "Abbiamo un problema.",
+          "correct_answer": "We have",
+          "distractors": [
+            "We are",
+            "They have",
+            "You (plural) have"
+          ],
+          "hints": [
+            "The 'noi' form of avere."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'avete' mean?"
+          },
+          "sentence_context": "Avete tempo?",
+          "correct_answer": "You (plural) have",
+          "distractors": [
+            "We have",
+            "They have",
+            "You (plural) are"
+          ],
+          "hints": [
+            "The 'voi' form of avere."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'hanno' mean?"
+          },
+          "sentence_context": "Hanno due gatti.",
+          "correct_answer": "They have",
+          "distractors": [
+            "We have",
+            "They are",
+            "I have"
+          ],
+          "hints": [
+            "The 'loro' form of avere — starts with a silent H."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-04",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'tempo' mean?"
+          },
+          "sentence_context": "Non ho tempo.",
+          "correct_answer": "Time",
+          "distractors": [
+            "Money",
+            "Problem",
+            "Idea"
+          ],
+          "hints": [
+            "Think 'tempo' in music — it's about time."
+          ],
+          "target_words": [
+            "tempo"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-05",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'un problema' mean?"
+          },
+          "sentence_context": "Abbiamo un problema.",
+          "correct_answer": "A problem",
+          "distractors": [
+            "An idea",
+            "A reason",
+            "Time"
+          ],
+          "hints": [
+            "Looks almost the same in English!"
+          ],
+          "target_words": [
+            "problema"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-06",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Fill in the correct form of avere."
+          },
+          "sentence_context": "Noi ___ un'idea.",
+          "correct_answer": "abbiamo",
+          "distractors": [],
+          "hints": [
+            "We have an idea."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-07",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Fill in the correct form of avere."
+          },
+          "sentence_context": "Voi ___ tempo?",
+          "correct_answer": "avete",
+          "distractors": [],
+          "hints": [
+            "Do you (plural) have time?"
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-08",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Fill in the correct form of avere."
+          },
+          "sentence_context": "Loro ___ tre cani.",
+          "correct_answer": "hanno",
+          "distractors": [],
+          "hints": [
+            "They have three dogs."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-09",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'we have' in Italian?"
+          },
+          "sentence_context": "Abbiamo un problema.",
+          "correct_answer": "abbiamo",
+          "distractors": [],
+          "hints": [
+            "The 'noi' form — double 'b' in the middle."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-10",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'they have' in Italian?"
+          },
+          "sentence_context": "Hanno due macchine.",
+          "correct_answer": "hanno",
+          "distractors": [],
+          "hints": [
+            "Starts with a silent H, double 'n'."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-11",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Essere or avere? Fill in the correct verb."
+          },
+          "sentence_context": "Io ___ un cane.",
+          "correct_answer": "ho",
+          "distractors": [],
+          "hints": [
+            "I HAVE a dog — possession, use avere."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-12",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Essere or avere? Fill in the correct verb."
+          },
+          "sentence_context": "Noi ___ studenti.",
+          "correct_answer": "siamo",
+          "distractors": [],
+          "hints": [
+            "We ARE students — identity, use essere."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-13",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Essere or avere? Fill in the correct verb."
+          },
+          "sentence_context": "Loro ___ un problema.",
+          "correct_answer": "hanno",
+          "distractors": [],
+          "hints": [
+            "They HAVE a problem — use avere."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-14",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Essere or avere? Fill in the correct verb."
+          },
+          "sentence_context": "Voi ___ di Roma?",
+          "correct_answer": "siete",
+          "distractors": [],
+          "hints": [
+            "You (plural) ARE from Rome — origin uses essere."
+          ],
+          "target_words": [
+            "essere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-15",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'We have a problem.'"
+          },
+          "sentence_context": "Abbiamo un problema.",
+          "correct_answer": [
+            "Abbiamo",
+            "un",
+            "problema."
+          ],
+          "distractors": [
+            "siamo",
+            "hanno"
+          ],
+          "hints": [
+            "Verb first, then article, then noun."
+          ],
+          "target_words": [
+            "avere",
+            "problema"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-16",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'They have two cats.'"
+          },
+          "sentence_context": "Hanno due gatti.",
+          "correct_answer": [
+            "Hanno",
+            "due",
+            "gatti."
+          ],
+          "distractors": [
+            "ho",
+            "sono"
+          ],
+          "hints": [
+            "'They have' first, then the number, then the noun."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-02-ex-17",
+          "type": "speaking",
+          "subtype": "read_aloud",
+          "prompt": {
+            "text": "Read these sentences aloud."
+          },
+          "sentence_context": "Abbiamo un problema. Non abbiamo tempo.",
+          "correct_answer": "Abbiamo un problema. Non abbiamo tempo.",
+          "distractors": [],
+          "hints": [
+            "We have a problem. We don't have time."
+          ],
+          "target_words": [
+            "avere",
+            "problema",
+            "tempo"
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "tempo",
+          "meaning": "Time",
+          "example": "Non ho tempo."
+        },
+        {
+          "word": "problema",
+          "meaning": "Problem",
+          "example": "Abbiamo un problema."
+        },
+        {
+          "word": "idea",
+          "meaning": "Idea",
+          "example": "Ho un'idea!"
+        },
+        {
+          "word": "soldi",
+          "meaning": "Money",
+          "example": "Non abbiamo soldi."
+        },
+        {
+          "word": "ragione",
+          "meaning": "Reason / To be right",
+          "example": "Hai ragione."
+        }
+      ]
+    },
+    {
+      "id": "unit-05-lesson-03",
+      "unit_id": "unit-05",
+      "name": "How Old Are You?",
+      "order": 3,
+      "grammar_tips": [
+        {
+          "id": "unit-05-lesson-03-tip-01",
+          "title": "I Have 25 Years",
+          "explanation": "In English you say 'I am 25 years old.' In Italian, you say 'Ho venticinque anni' — literally 'I have 25 years.' Age always uses avere, never essere! To ask someone's age: 'Quanti anni hai?' (How many years do you have?).",
+          "before_exercise": 0
+        },
+        {
+          "id": "unit-05-lesson-03-tip-02",
+          "title": "Don't Forget Anni!",
+          "explanation": "You can't just say 'Ho venti' for 'I'm 20.' You need 'anni' (years): 'Ho venti anni.' When the tens number ends in a vowel before 'anni', they can merge in writing: trent'anni (30), quarant'anni (40). But 'venti anni' stays as two words.",
+          "before_exercise": 7
+        }
+      ],
+      "exercises": [
+        {
+          "id": "unit-05-lesson-03-ex-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you ask 'How old are you?' in Italian?"
+          },
+          "sentence_context": "Quanti anni hai?",
+          "correct_answer": "Quanti anni hai?",
+          "distractors": [
+            "Come stai?",
+            "Di dove sei?",
+            "Come ti chiami?"
+          ],
+          "hints": [
+            "Literally: 'How many years do you have?'"
+          ],
+          "target_words": [
+            "quanti anni hai"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'Ho venti anni' mean?"
+          },
+          "sentence_context": "Ho venti anni.",
+          "correct_answer": "I'm 20 years old",
+          "distractors": [
+            "I have 20 books",
+            "I want 20 years",
+            "I am in year 20"
+          ],
+          "hints": [
+            "Italian uses 'I have ... years' for age."
+          ],
+          "target_words": [
+            "anni"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Maria ha dodici anni. How old is Maria?"
+          },
+          "sentence_context": "Maria ha dodici anni.",
+          "correct_answer": "12 years old",
+          "distractors": [
+            "2 years old",
+            "20 years old",
+            "10 years old"
+          ],
+          "hints": [
+            "'Dodici' = 12. She HAS twelve years."
+          ],
+          "target_words": [
+            "anni",
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-04",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Complete the sentence about age."
+          },
+          "sentence_context": "Ho quindici ___.",
+          "correct_answer": "anni",
+          "distractors": [],
+          "hints": [
+            "I'm 15 years old. What word means 'years'?"
+          ],
+          "target_words": [
+            "anni"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-05",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Fill in the verb."
+          },
+          "sentence_context": "___ venti anni.",
+          "correct_answer": "Ho",
+          "distractors": [],
+          "hints": [
+            "I'm 20 years old. Age uses avere!"
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-06",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Fill in the missing word."
+          },
+          "sentence_context": "Quanti ___ hai?",
+          "correct_answer": "anni",
+          "distractors": [],
+          "hints": [
+            "How many YEARS do you have?"
+          ],
+          "target_words": [
+            "anni"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-07",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'I'm 18 years old' in Italian?"
+          },
+          "sentence_context": "Ho diciotto anni.",
+          "correct_answer": "ho diciotto anni",
+          "distractors": [],
+          "hints": [
+            "'I have 18 years' — remember, age uses avere!"
+          ],
+          "target_words": [
+            "avere",
+            "anni"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-08",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Ask 'How old are you?' in Italian (informal)."
+          },
+          "sentence_context": "Quanti anni hai?",
+          "correct_answer": "quanti anni hai",
+          "distractors": [],
+          "hints": [
+            "Literally: 'How many years do you have?'"
+          ],
+          "target_words": [
+            "quanti anni hai"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-09",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the verb: talking about Maria's age."
+          },
+          "sentence_context": "Maria ___ venticinque anni.",
+          "correct_answer": "ha",
+          "distractors": [],
+          "hints": [
+            "Maria IS 25 years old — but Italian uses avere for age!"
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-10",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the verb: talking about your group's age."
+          },
+          "sentence_context": "Noi ___ trent'anni.",
+          "correct_answer": "abbiamo",
+          "distractors": [],
+          "hints": [
+            "We are 30 years old — use the noi form of avere."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-11",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the verb: asking someone's age."
+          },
+          "sentence_context": "Quanti anni ___?",
+          "correct_answer": "hai",
+          "distractors": [],
+          "hints": [
+            "How old are YOU? Use the tu form of avere."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-12",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the verb: stating your age."
+          },
+          "sentence_context": "___ dodici anni.",
+          "correct_answer": "Ho",
+          "distractors": [],
+          "hints": [
+            "I'm 12 years old — use avere, not essere!"
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-13",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'I'm 18 years old.'"
+          },
+          "sentence_context": "Ho diciotto anni.",
+          "correct_answer": [
+            "Ho",
+            "diciotto",
+            "anni."
+          ],
+          "distractors": [
+            "sono",
+            "sei"
+          ],
+          "hints": [
+            "'I have' + number + 'years.' Don't use essere for age!"
+          ],
+          "target_words": [
+            "avere",
+            "anni"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-14",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'How old are you?'"
+          },
+          "sentence_context": "Quanti anni hai?",
+          "correct_answer": [
+            "Quanti",
+            "anni",
+            "hai?"
+          ],
+          "distractors": [
+            "come",
+            "sei"
+          ],
+          "hints": [
+            "'How many' + 'years' + 'do you have?'"
+          ],
+          "target_words": [
+            "quanti anni hai"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-03-ex-15",
+          "type": "speaking",
+          "subtype": "read_aloud",
+          "prompt": {
+            "text": "Read this mini-dialogue aloud."
+          },
+          "sentence_context": "Quanti anni hai? — Ho venti anni.",
+          "correct_answer": "Quanti anni hai? — Ho venti anni.",
+          "distractors": [],
+          "hints": [
+            "How old are you? — I'm 20 years old."
+          ],
+          "target_words": [
+            "quanti anni hai",
+            "avere",
+            "anni"
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "quanti anni hai",
+          "meaning": "How old are you?",
+          "example": "Quanti anni hai?"
+        },
+        {
+          "word": "anni",
+          "meaning": "Years (used for age)",
+          "example": "Ho venti anni."
+        }
+      ]
+    },
+    {
+      "id": "unit-05-lesson-04",
+      "unit_id": "unit-05",
+      "name": "Avere Idioms",
+      "order": 4,
+      "grammar_tips": [
+        {
+          "id": "unit-05-lesson-04-tip-01",
+          "title": "I Have Hunger, Not I Am Hungry",
+          "explanation": "Italian uses avere for many feelings where English uses 'to be': ho fame (I'm hungry), ho sete (I'm thirsty), ho freddo (I'm cold), ho caldo (I'm hot), ho sonno (I'm sleepy), ho paura (I'm scared). It's always avere + noun, with NO article: 'Ho fame' — NOT 'Ho la fame.'",
+          "before_exercise": 0
+        },
+        {
+          "id": "unit-05-lesson-04-tip-02",
+          "title": "Don't Say Sono!",
+          "explanation": "English speakers constantly say *'Sono freddo' when they mean 'Ho freddo.' Be careful: 'Sono freddo' actually means 'I am a cold/distant person' — very different from feeling chilly! Same trap with all these expressions: use avere, never essere.",
+          "before_exercise": 7
+        },
+        {
+          "id": "unit-05-lesson-04-tip-03",
+          "title": "I Need, I Feel Like, I'm in a Hurry",
+          "explanation": "Three more useful avere expressions: 'Ho bisogno di...' (I need...), 'Ho voglia di...' (I feel like...), 'Ho fretta' (I'm in a hurry). Notice 'bisogno' and 'voglia' need 'di' before what you need or want: 'Ho bisogno di acqua.' 'Ho voglia di un caffè.'",
+          "before_exercise": 12
+        }
+      ],
+      "exercises": [
+        {
+          "id": "unit-05-lesson-04-ex-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'Ho fame' mean?"
+          },
+          "sentence_context": "Ho fame!",
+          "correct_answer": "I'm hungry",
+          "distractors": [
+            "I have a family",
+            "I am famous",
+            "I'm thirsty"
+          ],
+          "hints": [
+            "'Fame' = hunger. Italian says 'I have hunger.'"
+          ],
+          "target_words": [
+            "fame"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'Ho sete' mean?"
+          },
+          "sentence_context": "Ho sete!",
+          "correct_answer": "I'm thirsty",
+          "distractors": [
+            "I'm hungry",
+            "I'm tired",
+            "I'm cold"
+          ],
+          "hints": [
+            "'Sete' = thirst. Italian says 'I have thirst.'"
+          ],
+          "target_words": [
+            "sete"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-03",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'Ho freddo' mean?"
+          },
+          "sentence_context": "Ho freddo!",
+          "correct_answer": "I'm cold",
+          "distractors": [
+            "I'm hot",
+            "I'm hungry",
+            "I'm scared"
+          ],
+          "hints": [
+            "'Freddo' = cold. NOT 'Sono freddo' — that means something different!"
+          ],
+          "target_words": [
+            "freddo"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-04",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'Ho caldo' mean?"
+          },
+          "sentence_context": "Ho caldo!",
+          "correct_answer": "I'm hot (feeling warm)",
+          "distractors": [
+            "I'm cold",
+            "I'm hungry",
+            "I have a heater"
+          ],
+          "hints": [
+            "'Caldo' = heat/warmth. 'I have heat.'"
+          ],
+          "target_words": [
+            "caldo"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-05",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'Ho sonno' mean?"
+          },
+          "sentence_context": "Ho sonno.",
+          "correct_answer": "I'm sleepy",
+          "distractors": [
+            "I'm dreaming",
+            "I'm hungry",
+            "I'm cold"
+          ],
+          "hints": [
+            "'Sonno' = sleepiness. 'I have sleepiness.'"
+          ],
+          "target_words": [
+            "sonno"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-06",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'Ho paura' mean?"
+          },
+          "sentence_context": "Ho paura!",
+          "correct_answer": "I'm scared",
+          "distractors": [
+            "I'm tired",
+            "I'm cold",
+            "I'm in a hurry"
+          ],
+          "hints": [
+            "'Paura' = fear. 'I have fear.'"
+          ],
+          "target_words": [
+            "paura"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-07",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Fill in the missing word."
+          },
+          "sentence_context": "Ho ___! Dov'è l'acqua?",
+          "correct_answer": "sete",
+          "distractors": [],
+          "hints": [
+            "I'm thirsty! Where's the water?"
+          ],
+          "target_words": [
+            "sete"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-08",
+          "type": "vocab",
+          "subtype": "cloze",
+          "prompt": {
+            "text": "Fill in the missing word."
+          },
+          "sentence_context": "Ho ___! Quando mangiamo?",
+          "correct_answer": "fame",
+          "distractors": [],
+          "hints": [
+            "I'm hungry! When do we eat?"
+          ],
+          "target_words": [
+            "fame"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-09",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'I'm hungry' in Italian?"
+          },
+          "sentence_context": "Ho fame!",
+          "correct_answer": "ho fame",
+          "distractors": [],
+          "hints": [
+            "'I have hunger' — two words, starts with a silent H."
+          ],
+          "target_words": [
+            "fame"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-10",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'I'm cold' in Italian?"
+          },
+          "sentence_context": "Ho freddo!",
+          "correct_answer": "ho freddo",
+          "distractors": [],
+          "hints": [
+            "'I have cold' — NOT 'sono freddo'!"
+          ],
+          "target_words": [
+            "freddo"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-11",
+          "type": "vocab",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "How do you say 'I'm scared' in Italian?"
+          },
+          "sentence_context": "Ho paura!",
+          "correct_answer": "ho paura",
+          "distractors": [],
+          "hints": [
+            "'I have fear' — same pattern as ho fame, ho sete."
+          ],
+          "target_words": [
+            "paura"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-12",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'Ho bisogno di acqua' mean?"
+          },
+          "sentence_context": "Ho bisogno di acqua.",
+          "correct_answer": "I need water",
+          "distractors": [
+            "I have water",
+            "I'm thirsty for water",
+            "I like water"
+          ],
+          "hints": [
+            "'Ho bisogno di' = I need. Literally 'I have need of.'"
+          ],
+          "target_words": [
+            "bisogno"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-13",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'Ho voglia di un caffè' mean?"
+          },
+          "sentence_context": "Ho voglia di un caffè.",
+          "correct_answer": "I feel like having a coffee",
+          "distractors": [
+            "I have a coffee",
+            "I need coffee",
+            "I'm making coffee"
+          ],
+          "hints": [
+            "'Ho voglia di' = I feel like / I want. Literally 'I have desire for.'"
+          ],
+          "target_words": [
+            "voglia"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-14",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'Ho fretta' mean?"
+          },
+          "sentence_context": "Ho fretta!",
+          "correct_answer": "I'm in a hurry",
+          "distractors": [
+            "I'm cold",
+            "I'm scared",
+            "I'm sleepy"
+          ],
+          "hints": [
+            "'Fretta' = hurry. 'I have hurry.'"
+          ],
+          "target_words": [
+            "fretta"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-15",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the verb: someone says they feel hot."
+          },
+          "sentence_context": "___ caldo!",
+          "correct_answer": "Ho",
+          "distractors": [],
+          "hints": [
+            "I'm hot — use avere, not essere!"
+          ],
+          "target_words": [
+            "caldo"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-16",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Fill in the verb: Sara is scared."
+          },
+          "sentence_context": "Sara ___ paura.",
+          "correct_answer": "ha",
+          "distractors": [],
+          "hints": [
+            "Sara HAS fear — use the lui/lei form of avere."
+          ],
+          "target_words": [
+            "paura"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-17",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'Anna is hungry and thirsty.'"
+          },
+          "sentence_context": "Anna ha fame e sete.",
+          "correct_answer": [
+            "Anna",
+            "ha",
+            "fame",
+            "e",
+            "sete."
+          ],
+          "distractors": [
+            "è",
+            "ho"
+          ],
+          "hints": [
+            "Anna HAS hunger and thirst — use avere."
+          ],
+          "target_words": [
+            "fame",
+            "sete"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-18",
+          "type": "writing",
+          "subtype": "arrange_words",
+          "prompt": {
+            "text": "Arrange the words: 'I need water.'"
+          },
+          "sentence_context": "Ho bisogno di acqua.",
+          "correct_answer": [
+            "Ho",
+            "bisogno",
+            "di",
+            "acqua."
+          ],
+          "distractors": [
+            "sono",
+            "sete"
+          ],
+          "hints": [
+            "'I have need of water' — ho bisogno di..."
+          ],
+          "target_words": [
+            "bisogno"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-04-ex-19",
+          "type": "speaking",
+          "subtype": "read_aloud",
+          "prompt": {
+            "text": "Read these sentences aloud."
+          },
+          "sentence_context": "Ho fame e ho sete. Ho bisogno di acqua!",
+          "correct_answer": "Ho fame e ho sete. Ho bisogno di acqua!",
+          "distractors": [],
+          "hints": [
+            "I'm hungry and I'm thirsty. I need water!"
+          ],
+          "target_words": [
+            "fame",
+            "sete",
+            "bisogno"
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "fame",
+          "meaning": "Hunger (ho fame = I'm hungry)",
+          "example": "Ho fame!"
+        },
+        {
+          "word": "sete",
+          "meaning": "Thirst (ho sete = I'm thirsty)",
+          "example": "Ho sete!"
+        },
+        {
+          "word": "freddo",
+          "meaning": "Cold (ho freddo = I'm cold)",
+          "example": "Ho freddo!"
+        },
+        {
+          "word": "caldo",
+          "meaning": "Hot/Heat (ho caldo = I'm hot)",
+          "example": "Ho caldo!"
+        },
+        {
+          "word": "sonno",
+          "meaning": "Sleepiness (ho sonno = I'm sleepy)",
+          "example": "Ho sonno."
+        },
+        {
+          "word": "paura",
+          "meaning": "Fear (ho paura = I'm scared)",
+          "example": "Ho paura!"
+        },
+        {
+          "word": "bisogno",
+          "meaning": "Need (ho bisogno di = I need)",
+          "example": "Ho bisogno di acqua."
+        },
+        {
+          "word": "voglia",
+          "meaning": "Desire/Wish (ho voglia di = I feel like)",
+          "example": "Ho voglia di un caffè."
+        },
+        {
+          "word": "fretta",
+          "meaning": "Hurry (ho fretta = I'm in a hurry)",
+          "example": "Ho fretta!"
+        }
+      ]
+    },
+    {
+      "id": "unit-05-lesson-05",
+      "unit_id": "unit-05",
+      "name": "Practice Writing",
+      "order": 5,
+      "grammar_tips": [
+        {
+          "id": "unit-05-lesson-05-tip-01",
+          "title": "Time to Write!",
+          "explanation": "In these exercises, there's no single correct answer — write freely using what you've learned. A teacher will read your response and give you feedback. Don't worry about being perfect. Use what you know: mi chiamo, sono di, ho ... anni, ho fame/sete/freddo, and anything else from earlier units.",
+          "before_exercise": 0
+        }
+      ],
+      "exercises": [
+        {
+          "id": "unit-05-lesson-05-ex-01",
+          "type": "writing",
+          "subtype": "free_form",
+          "prompt": {
+            "text": "Introduce yourself in Italian. Include your name, where you're from, and your age."
+          },
+          "sentence_context": "",
+          "correct_answer": "Ciao! Mi chiamo Marco. Sono di Roma. Ho venti anni.",
+          "distractors": [],
+          "hints": [
+            "Use mi chiamo, sono di, and ho ... anni."
+          ],
+          "target_words": [
+            "mi chiamo",
+            "essere",
+            "di",
+            "avere",
+            "anni"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-05-ex-02",
+          "type": "writing",
+          "subtype": "free_form",
+          "prompt": {
+            "text": "Describe what you have. Mention at least 2 things you own (pets, objects, family members)."
+          },
+          "sentence_context": "",
+          "correct_answer": "Ho un cane e un gatto. Ho una macchina. Ho un fratello e una sorella.",
+          "distractors": [],
+          "hints": [
+            "Use ho + un/una. Think about: cane, gatto, macchina, bicicletta, fratello, sorella."
+          ],
+          "target_words": [
+            "avere"
+          ]
+        },
+        {
+          "id": "unit-05-lesson-05-ex-03",
+          "type": "writing",
+          "subtype": "free_form",
+          "prompt": {
+            "text": "How are you feeling right now? Write 2-3 sentences about how you feel using avere idioms."
+          },
+          "sentence_context": "",
+          "correct_answer": "Ho fame e ho sete. Non ho sonno. Ho voglia di un caffè!",
+          "distractors": [],
+          "hints": [
+            "Use: ho fame, ho sete, ho freddo, ho caldo, ho sonno, ho paura, ho voglia di..."
+          ],
+          "target_words": [
+            "fame",
+            "sete",
+            "freddo",
+            "caldo",
+            "sonno",
+            "paura",
+            "voglia"
+          ]
+        }
+      ],
+      "vocabulary": []
+    }
+  ]
+}

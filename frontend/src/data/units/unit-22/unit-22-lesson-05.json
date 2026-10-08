@@ -1,0 +1,168 @@
+{
+  "id": "unit-22-lesson-05",
+  "unit_id": "unit-22",
+  "name": "This or That?",
+  "order": 5,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-22-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A friend says 'Amo il calcio!'. So do you. You answer:" },
+      "sentence_context": "Amo il calcio!",
+      "correct_answer": "Anche io!",
+      "distractors": ["Anche tu!", "Io no!"],
+      "hints": ["Me too."],
+      "target_words": ["anche io"]
+    },
+    {
+      "id": "unit-22-lesson-05-ex-02",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend is choosing what to put on TV." },
+      "sentence_context": "Friend: Preferisci il calcio o il tennis?\nYou: ___",
+      "correct_answer": ["Preferisco il tennis.", "Preferisco il calcio."],
+      "distractors": [],
+      "hints": ["Preferisco + il…"],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Preferisci il calcio o il tennis?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-05-ex-03",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete, to a friend: Do you prefer a film or a series?" },
+      "sentence_context": "___ un film o una serie?",
+      "correct_answer": "Preferisci",
+      "distractors": [],
+      "hints": ["Preferire takes -isc- in the tu form."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-05-ex-04",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: We prefer music." },
+      "sentence_context": "___ la musica.",
+      "correct_answer": "Preferiamo",
+      "distractors": [],
+      "hints": ["The noi form has no -isc-."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Emma and Marta would rather watch a film. You say:" },
+      "sentence_context": "",
+      "correct_answer": "Preferiscono un film.",
+      "distractors": ["Preferono un film.", "Preferiamo un film."],
+      "hints": ["Two other people: the loro form, with -isc-."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-05-ex-06",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend tells you about their evenings." },
+      "sentence_context": "Friend: Io guardo molto la tv. E tu?\nYou: ___",
+      "correct_answer": ["Anche io. Guardo una serie ogni sera.", "Io no. Preferisco un libro."],
+      "distractors": [],
+      "hints": ["Anche io, or io no."],
+      "target_words": ["anche io", "io no"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Io guardo molto la tv. E tu?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-05-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Paul and Chloé love music." },
+      "sentence_context": "Paul e Chloé ___ la musica.",
+      "correct_answer": "amano",
+      "distractors": [],
+      "hints": ["Two people: the loro form of amare."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-05-ex-08",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake: 'We prefer football.'" },
+      "sentence_context": "Preferisciamo il calcio.",
+      "correct_answer": ["Preferiamo il calcio."],
+      "distractors": [],
+      "hints": ["No -isc- with noi."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-05-ex-09",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend asks about your classmate." },
+      "sentence_context": "Friend: Keiko gioca a tennis?\nYou: ___",
+      "correct_answer": ["No, preferisce la fotografia.", "Sì, gioca a tennis ogni settimana."],
+      "distractors": [],
+      "hints": ["One other person: the lei form."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Keiko gioca a tennis?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-05-ex-10",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'They play cards, but we prefer a film.'" },
+      "sentence_context": "Giocano a carte, ma noi preferiamo un film.",
+      "correct_answer": ["Giocano", "a", "carte,", "ma", "noi", "preferiamo", "un", "film."],
+      "distractors": ["preferiscono", "suonano"],
+      "hints": ["Noi preferiamo, with no -isc-."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-05-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say 'me too'." },
+      "sentence_context": "",
+      "correct_answer": ["anche io", "anch'io"],
+      "distractors": [],
+      "hints": ["Anche + io."],
+      "target_words": ["anche io"]
+    },
+    {
+      "id": "unit-22-lesson-05-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you prefer tennis." },
+      "sentence_context": "",
+      "correct_answer": ["preferisco il tennis"],
+      "distractors": [],
+      "hints": ["With the article: il tennis."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-05-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask two friends if they prefer music or a film." },
+      "sentence_context": "",
+      "correct_answer": ["preferite la musica o un film"],
+      "distractors": [],
+      "hints": ["The voi form of preferire."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "anche io", "meaning": "me too (also written anch'io)", "example": "Amo la musica. Anche io!", "phrase": true },
+    { "word": "io no", "meaning": "not me, I don't", "example": "Guardi il calcio? Io no.", "phrase": true }
+  ]
+}

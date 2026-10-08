@@ -1,0 +1,193 @@
+{
+  "id": "unit-23-lesson-01",
+  "unit_id": "unit-23",
+  "name": "Drinks",
+  "order": 1,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-23-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'latte' mean?" },
+      "sentence_context": "Il bambino beve latte.",
+      "correct_answer": ["milk"],
+      "distractors": [],
+      "hints": ["Not a coffee: in Italian it's just this."],
+      "target_words": ["latte"]
+    },
+    {
+      "id": "unit-23-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'bicchiere' mean?" },
+      "sentence_context": "Un bicchiere di vino, per favore.",
+      "correct_answer": ["glass", "a glass"],
+      "distractors": [],
+      "hints": ["You drink from it."],
+      "target_words": ["bicchiere"]
+    },
+    {
+      "id": "unit-23-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'bevo' mean?" },
+      "sentence_context": "Bevo un tè.",
+      "correct_answer": ["I drink", "I'm drinking", "I am drinking"],
+      "distractors": [],
+      "hints": ["The io form of bere."],
+      "target_words": ["tè"]
+    },
+    {
+      "id": "unit-23-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "It's hot and you are thirsty. You ask the barista politely for a bottle of water:" },
+      "sentence_context": "",
+      "correct_answer": "Vorrei una bottiglia d'acqua, per favore.",
+      "distractors": ["Vorrei una bottiglia acqua, per favore.", "Vorrei un bottiglia d'acqua, per favore."],
+      "hints": ["Bottiglia is feminine, and 'of' is di."],
+      "target_words": ["bottiglia"]
+    },
+    {
+      "id": "unit-23-lesson-01-ex-05",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: We're having a beer." },
+      "sentence_context": "___ una birra.",
+      "correct_answer": "Beviamo",
+      "distractors": [],
+      "hints": ["The noi form of bere."],
+      "target_words": ["birra"]
+    },
+    {
+      "id": "unit-23-lesson-01-ex-06",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete, to a friend: What are you drinking?" },
+      "sentence_context": "Che cosa ___?",
+      "correct_answer": "bevi",
+      "distractors": [],
+      "hints": ["The tu form of bere."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Paul and Marco are at lunch on a work day. You say what they drink:" },
+      "sentence_context": "",
+      "correct_answer": "Bevono acqua.",
+      "distractors": ["Bevano acqua.", "Beveno acqua."],
+      "hints": ["The loro form of bere: on the stem bev-."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-01-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I don't take sugar." },
+      "sentence_context": "Non prendo lo ___.",
+      "correct_answer": "zucchero",
+      "distractors": [],
+      "hints": ["It goes in coffee."],
+      "target_words": ["zucchero"]
+    },
+    {
+      "id": "unit-23-lesson-01-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The sugar is on the table." },
+      "sentence_context": "___ zucchero è sul tavolo.",
+      "correct_answer": "Lo",
+      "distractors": [],
+      "hints": ["Before z."],
+      "target_words": ["zucchero"]
+    },
+    {
+      "id": "unit-23-lesson-01-ex-10",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You are at a friend's flat." },
+      "sentence_context": "Friend: Che cosa bevi? Tè o caffè?\nYou: ___",
+      "correct_answer": ["Bevo un tè, grazie.", "Un caffè, grazie."],
+      "distractors": [],
+      "hints": ["Choose one, and say thank you."],
+      "target_words": ["tè"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Che cosa bevi? Tè o caffè?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-01-ex-11",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "At a bar in the evening, the waiter comes to your table." },
+      "sentence_context": "Waiter: Vino o birra?\nYou: ___",
+      "correct_answer": ["Un bicchiere di vino, per favore.", "Una birra, per favore."],
+      "distractors": [],
+      "hints": ["Choose one, with per favore."],
+      "target_words": ["vino", "birra"],
+      "dialogue": [
+        { "speaker": "Waiter", "text": "Vino o birra?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-01-ex-12",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I'd like an orange juice, please.'" },
+      "sentence_context": "Vorrei un succo d'arancia, per favore.",
+      "correct_answer": ["Vorrei", "un", "succo", "d'arancia,", "per", "favore."],
+      "distractors": ["voglio", "una"],
+      "hints": ["Succo is masculine: un."],
+      "target_words": ["succo", "arancia"]
+    },
+    {
+      "id": "unit-23-lesson-01-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say Marco drinks wine." },
+      "sentence_context": "",
+      "correct_answer": ["Marco beve vino", "Marco beve il vino"],
+      "distractors": [],
+      "hints": ["The lui form of bere."],
+      "target_words": ["vino"]
+    },
+    {
+      "id": "unit-23-lesson-01-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend if they drink milk." },
+      "sentence_context": "",
+      "correct_answer": ["bevi latte", "bevi il latte"],
+      "distractors": [],
+      "hints": ["The tu form of bere."],
+      "target_words": ["latte"]
+    },
+    {
+      "id": "unit-23-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask politely for a glass of water." },
+      "sentence_context": "",
+      "correct_answer": ["vorrei un bicchiere d'acqua, per favore", "un bicchiere d'acqua, per favore", "vorrei un bicchiere di acqua, per favore"],
+      "distractors": [],
+      "hints": ["Vorrei + un bicchiere di…"],
+      "target_words": ["bicchiere"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "tè", "meaning": "tea", "example": "Bevo un tè." },
+    { "word": "latte", "meaning": "milk (masculine: il latte)", "example": "Il bambino beve latte." },
+    { "word": "succo", "meaning": "juice · succo d'arancia = orange juice", "example": "Prendo un succo." },
+    { "word": "arancia", "meaning": "orange", "example": "Un succo d'arancia, per favore." },
+    { "word": "birra", "meaning": "beer", "example": "Beviamo una birra?" },
+    { "word": "vino", "meaning": "wine", "example": "Marco beve vino." },
+    { "word": "bicchiere", "meaning": "glass (masculine) · un bicchiere di vino = a glass of wine", "example": "Un bicchiere di vino, per favore." },
+    { "word": "bottiglia", "meaning": "bottle · una bottiglia d'acqua = a bottle of water", "example": "Abbiamo una bottiglia d'acqua." },
+    { "word": "zucchero", "meaning": "sugar (lo zucchero)", "example": "Non prendo lo zucchero." }
+  ]
+}

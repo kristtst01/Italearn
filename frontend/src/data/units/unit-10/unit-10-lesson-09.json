@@ -1,0 +1,23 @@
+{
+  "id": "unit-10-lesson-09",
+  "unit_id": "unit-10",
+  "name": "A Language Partner",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-10-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Write a first message to Luca, a language exchange partner. Say who you are, which languages you speak and how long you've been learning Italian, then ask him two questions."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ciao Luca! Mi chiamo Anna e sono inglese, di Londra. Parlo inglese e un po' di italiano: studio italiano da un anno. E tu? Dove abiti? Studi o lavori? A presto!",
+      "distractors": [],
+      "hints": ["Luca is your age: use tu for the questions."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,244 @@
+{
+  "id": "unit-03-lesson-02",
+  "unit_id": "unit-03",
+  "name": "The Full Article System",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-03-lesson-02-tip-01",
+      "title": "The — More Than One Way to Say It",
+      "explanation": "English has one word for 'the'. Italian has several, and the right one depends on the noun's gender and what letter it starts with. Don't panic — most of the time you'll use just 'il' (masculine) or 'la' (feminine). The others handle special cases.",
+      "table": [
+        ["Article", "Used before", "Example"],
+        ["il", "most masculine nouns", "il libro"],
+        ["lo", "s+consonant, z, gn, ps", "lo studente, lo zaino"],
+        ["la", "most feminine nouns", "la penna"],
+        ["l'", "any vowel (masc or fem)", "l'uomo, l'acqua"]
+      ],
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-03-lesson-02-tip-02",
+      "title": "Why 'lo' Exists",
+      "explanation": "Say 'il studente' out loud — that 'l-st' mash-up is hard to pronounce. Italian hates consonant clusters at word boundaries, so it uses 'lo' instead: 'lo studente'. Same reason for 'lo zaino', 'lo specchio'. It's not random — it's phonology. Your mouth will thank you.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-03-lesson-02-tip-03",
+      "title": "Uno and Un' — The Indefinite Side",
+      "explanation": "You already know 'un' (masculine) and 'una' (feminine). Two more: 'uno' goes before the same consonant clusters as 'lo' (uno studente, uno zaino). 'Un'' (with apostrophe) is 'una' shortened before a feminine vowel: un'amica, un'acqua.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'zaino' mean?" },
+      "sentence_context": "È lo zaino di Marco.",
+      "correct_answer": "Backpack",
+      "distractors": ["Mirror", "Student", "Door"],
+      "hints": ["A bag you carry on your back."],
+      "target_words": ["zaino"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'acqua' mean?" },
+      "sentence_context": "È l'acqua.",
+      "correct_answer": "Water",
+      "distractors": ["Door", "Key", "Window"],
+      "hints": ["Think 'aqua' — same Latin root."],
+      "target_words": ["acqua"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which article goes with 'libro'?" },
+      "sentence_context": "Il libro è sul tavolo.",
+      "correct_answer": "il",
+      "distractors": ["lo", "la", "l'"],
+      "hints": ["'Libro' is masculine and starts with a regular consonant — the default."],
+      "target_words": ["libro"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which article goes with 'studente'?" },
+      "sentence_context": "Lo studente è di Roma.",
+      "correct_answer": "lo",
+      "distractors": ["il", "la", "l'"],
+      "hints": ["'Studente' starts with s + consonant (st-). That triggers 'lo'."],
+      "target_words": ["studente"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which article goes with 'acqua'?" },
+      "sentence_context": "L'acqua è buona.",
+      "correct_answer": "l'",
+      "distractors": ["la", "il", "lo"],
+      "hints": ["'Acqua' is feminine and starts with a vowel — the article shortens."],
+      "target_words": ["acqua"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'specchio' mean?" },
+      "sentence_context": "Lo specchio è grande.",
+      "correct_answer": "Mirror",
+      "distractors": ["Backpack", "Window", "Door"],
+      "hints": ["Think 'spectacle' — something you look into."],
+      "target_words": ["specchio"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-07",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the correct definite article (il, lo, la, l')." },
+      "sentence_context": "___ zaino è di Luca.",
+      "correct_answer": "Lo",
+      "distractors": [],
+      "hints": ["'Zaino' starts with z — which article handles z?"],
+      "target_words": ["zaino"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-08",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the correct definite article." },
+      "sentence_context": "___ porta è chiusa.",
+      "correct_answer": "La",
+      "distractors": [],
+      "hints": ["'Porta' is feminine, starts with a consonant — default feminine article."],
+      "target_words": ["porta"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-09",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the correct definite article." },
+      "sentence_context": "___ uomo è di Napoli.",
+      "correct_answer": "L'",
+      "distractors": [],
+      "hints": ["'Uomo' is masculine and starts with a vowel."],
+      "target_words": ["uomo"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'donna' mean?" },
+      "sentence_context": "La donna è insegnante.",
+      "correct_answer": "Woman",
+      "distractors": ["Man", "Girl", "Friend"],
+      "hints": ["Think 'prima donna' in English."],
+      "target_words": ["donna"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'uomo' mean?" },
+      "sentence_context": "L'uomo è dottore.",
+      "correct_answer": "Man",
+      "distractors": ["Woman", "Boy", "Student"],
+      "hints": ["The masculine counterpart of 'donna'."],
+      "target_words": ["uomo"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "È ___ studente di Milano.",
+      "correct_answer": "uno",
+      "distractors": [],
+      "hints": ["He is a student from Milan. 'Studente' starts with st- — same rule as 'lo'."],
+      "target_words": ["studente"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Questa è ___ amica.",
+      "correct_answer": "un'",
+      "distractors": [],
+      "hints": ["This is a (female) friend. 'Amica' is feminine and starts with a vowel."],
+      "target_words": ["amica"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'the backpack' in Italian?" },
+      "sentence_context": "Lo zaino è grande.",
+      "correct_answer": "lo zaino",
+      "distractors": [],
+      "hints": ["'Zaino' starts with z — needs the special article."],
+      "target_words": ["zaino"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'the water' in Italian?" },
+      "sentence_context": "L'acqua è buona.",
+      "correct_answer": "l'acqua",
+      "distractors": [],
+      "hints": ["Feminine noun starting with a vowel — the article shortens."],
+      "target_words": ["acqua"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the correct indefinite article (un, uno, una, un')." },
+      "sentence_context": "È ___ specchio.",
+      "correct_answer": "uno",
+      "distractors": [],
+      "hints": ["'Specchio' starts with sp- (s + consonant). Same trigger as 'lo'."],
+      "target_words": ["specchio"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The student is from Florence.'" },
+      "sentence_context": "Lo studente è di Firenze.",
+      "correct_answer": ["Lo", "studente", "è", "di", "Firenze."],
+      "distractors": ["il", "la"],
+      "hints": ["'Studente' starts with st- — pick the right article."],
+      "target_words": ["studente"]
+    },
+    {
+      "id": "unit-03-lesson-02-ex-18",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this sentence aloud." },
+      "sentence_context": "Il libro è sul tavolo. Lo zaino è di Marco.",
+      "correct_answer": "Il libro è sul tavolo. Lo zaino è di Marco.",
+      "distractors": [],
+      "hints": ["The book is on the table. The backpack is Marco's."],
+      "target_words": ["libro", "zaino"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "zaino", "meaning": "Backpack", "example": "Lo zaino è grande." },
+    { "word": "specchio", "meaning": "Mirror", "example": "Lo specchio è in bagno." },
+    { "word": "uomo", "meaning": "Man", "example": "L'uomo è dottore." },
+    { "word": "donna", "meaning": "Woman", "example": "La donna è insegnante." },
+    { "word": "acqua", "meaning": "Water", "example": "L'acqua è buona." },
+    { "word": "casa", "meaning": "House / Home", "example": "La casa è grande." },
+    { "word": "chiave", "meaning": "Key", "example": "La chiave è sul tavolo." },
+    { "word": "porta", "meaning": "Door", "example": "La porta è chiusa." },
+    { "word": "finestra", "meaning": "Window", "example": "La finestra è aperta." }
+  ]
+}

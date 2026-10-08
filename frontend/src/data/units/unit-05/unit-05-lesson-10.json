@@ -1,0 +1,87 @@
+{
+  "id": "unit-05-lesson-10",
+  "unit_id": "unit-05",
+  "name": "Say It Out Loud",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-05-lesson-10-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ho un fratello e due sorelle.",
+      "correct_answer": "Ho un fratello e due sorelle.",
+      "distractors": [],
+      "hints": ["Family."],
+      "target_words": ["fratello", "sorella"]
+    },
+    {
+      "id": "unit-05-lesson-10-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ho un cane. Si chiama Max.",
+      "correct_answer": "Ho un cane. Si chiama Max.",
+      "distractors": [],
+      "hints": ["A pet with a name."],
+      "target_words": ["cane", "si chiama"]
+    },
+    {
+      "id": "unit-05-lesson-10-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Mi dispiace, non ho tempo.",
+      "correct_answer": "Mi dispiace, non ho tempo.",
+      "distractors": [],
+      "hints": ["Saying no politely."],
+      "target_words": ["tempo"]
+    },
+    {
+      "id": "unit-05-lesson-10-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ho un'idea! Abbiamo un problema.",
+      "correct_answer": "Ho un'idea! Abbiamo un problema.",
+      "distractors": [],
+      "hints": ["Un'idea, un problema."],
+      "target_words": ["idea", "problema"]
+    },
+    {
+      "id": "unit-05-lesson-10-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Oggi fa caldo e ho sete.",
+      "correct_answer": "Oggi fa caldo e ho sete.",
+      "distractors": [],
+      "hints": ["Weather and feeling."],
+      "target_words": ["fa caldo"]
+    },
+    {
+      "id": "unit-05-lesson-10-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Scusi, ho bisogno di aiuto!",
+      "correct_answer": "Scusi, ho bisogno di aiuto!",
+      "distractors": [],
+      "hints": ["Asking for help."],
+      "target_words": ["aiuto"]
+    },
+    {
+      "id": "unit-05-lesson-10-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ho fame. Un panino, per favore!",
+      "correct_answer": "Ho fame. Un panino, per favore!",
+      "distractors": [],
+      "hints": ["Ordering."],
+      "target_words": ["un panino"]
+    }
+  ],
+  "vocabulary": []
+}

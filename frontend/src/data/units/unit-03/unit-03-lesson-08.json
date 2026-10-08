@@ -1,0 +1,21 @@
+{
+  "id": "unit-03-lesson-08",
+  "unit_id": "unit-03",
+  "name": "What's in My Bag",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-03-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Say what is in your bag or backpack today. Name at least four things, and one thing you do not have with you." },
+      "sentence_context": "",
+      "correct_answer": "Oggi nella borsa ci sono le chiavi, il portafoglio, il cellulare e un libro. C'è anche un ombrello. Non ho gli occhiali.",
+      "distractors": [],
+      "hints": ["Ci sono for a list, c'è for one thing, non ho for what is missing."],
+      "target_words": ["borsa"]
+    }
+  ],
+  "vocabulary": []
+}

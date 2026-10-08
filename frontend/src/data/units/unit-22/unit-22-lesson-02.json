@@ -1,0 +1,192 @@
+{
+  "id": "unit-22-lesson-02",
+  "unit_id": "unit-22",
+  "name": "Sport & Games",
+  "order": 2,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-22-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'partita' mean?" },
+      "sentence_context": "Guardo la partita.",
+      "correct_answer": ["match", "game", "the match", "the game"],
+      "distractors": [],
+      "hints": ["Two teams play one."],
+      "target_words": ["partita"]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'squadra' mean?" },
+      "sentence_context": "Abbiamo una squadra.",
+      "correct_answer": ["team", "a team"],
+      "distractors": [],
+      "hints": ["Eleven players in football."],
+      "target_words": ["squadra"]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'vince' mean?" },
+      "sentence_context": "La squadra vince!",
+      "correct_answer": ["wins", "is winning"],
+      "distractors": [],
+      "hints": ["The opposite of perde."],
+      "target_words": ["vincere"]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You tell a friend you play football:" },
+      "sentence_context": "",
+      "correct_answer": "Gioco a calcio.",
+      "distractors": ["Suono il calcio.", "Gioco il calcio."],
+      "hints": ["A game or sport: giocare a, with no article."],
+      "target_words": ["giocare", "calcio"]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You tell a friend you play the guitar:" },
+      "sentence_context": "",
+      "correct_answer": "Suono la chitarra.",
+      "distractors": ["Gioco la chitarra.", "Gioco a chitarra."],
+      "hints": ["An instrument: suonare."],
+      "target_words": ["suonare"]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-06",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete, to a friend: Do you play tennis?" },
+      "sentence_context": "___ a tennis?",
+      "correct_answer": "Giochi",
+      "distractors": [],
+      "hints": ["Verbs in -care add an h before i."],
+      "target_words": ["giocare", "tennis"]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: We play cards in the evening." },
+      "sentence_context": "La sera ___ a carte.",
+      "correct_answer": "giochiamo",
+      "distractors": [],
+      "hints": ["The noi form, with an h."],
+      "target_words": ["giocare a carte"]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The team loses the match." },
+      "sentence_context": "La squadra ___ la partita.",
+      "correct_answer": "perde",
+      "distractors": [],
+      "hints": ["The lei form of perdere."],
+      "target_words": ["perdere", "squadra"]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-09",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A colleague is a football fan." },
+      "sentence_context": "Colleague: Guardi la partita domani?\nYou: ___",
+      "correct_answer": ["Sì, guardo la partita con due amici.", "No, non guardo il calcio."],
+      "distractors": [],
+      "hints": ["Yes or no, with guardo."],
+      "target_words": ["partita"],
+      "dialogue": [
+        { "speaker": "Colleague", "text": "Guardi la partita domani?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-10",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A classmate is looking for someone to play with." },
+      "sentence_context": "Classmate: Giochi a tennis?\nYou: ___",
+      "correct_answer": ["Sì, gioco a tennis ogni settimana.", "No, gioco a calcio."],
+      "distractors": [],
+      "hints": ["Gioco a + the sport."],
+      "target_words": ["tennis"],
+      "dialogue": [
+        { "speaker": "Classmate", "text": "Giochi a tennis?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-11",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake: 'I play football.'" },
+      "sentence_context": "Suono a calcio.",
+      "correct_answer": ["Gioco a calcio."],
+      "distractors": [],
+      "hints": ["Suonare is for instruments."],
+      "target_words": ["giocare"]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-12",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'They play football every week.'" },
+      "sentence_context": "Giocano a calcio ogni settimana.",
+      "correct_answer": ["Giocano", "a", "calcio", "ogni", "settimana."],
+      "distractors": ["suonano", "il"],
+      "hints": ["A sport: giocare a."],
+      "target_words": ["giocare", "calcio"]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you're watching the match tomorrow." },
+      "sentence_context": "",
+      "correct_answer": ["domani guardo la partita", "guardo la partita domani"],
+      "distractors": [],
+      "hints": ["The present with domani."],
+      "target_words": ["partita"]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend if they play football." },
+      "sentence_context": "",
+      "correct_answer": ["giochi a calcio"],
+      "distractors": [],
+      "hints": ["The tu form has an h."],
+      "target_words": ["giocare"]
+    },
+    {
+      "id": "unit-22-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say the team wins." },
+      "sentence_context": "",
+      "correct_answer": ["la squadra vince"],
+      "distractors": [],
+      "hints": ["The lei form of vincere."],
+      "target_words": ["vincere"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "giocare", "meaning": "to play (a game, a sport) · giocare a calcio = to play football", "example": "Gioco a calcio." },
+    { "word": "calcio", "meaning": "football", "example": "Guardiamo il calcio in tv." },
+    { "word": "tennis", "meaning": "tennis", "example": "Giochi a tennis?" },
+    { "word": "partita", "meaning": "match, game", "example": "Guardo la partita." },
+    { "word": "squadra", "meaning": "team", "example": "Abbiamo una squadra." },
+    { "word": "giocare a carte", "meaning": "to play cards", "example": "La sera giocano a carte.", "phrase": true },
+    { "word": "vincere", "meaning": "to win", "example": "La squadra vince!" },
+    { "word": "perdere", "meaning": "to lose", "example": "Oggi perdiamo." }
+  ]
+}

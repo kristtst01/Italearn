@@ -162,7 +162,7 @@ Needs `backend/.env` with `CLERK_SECRET_KEY`, `CLERK_PUBLISHABLE_KEY`, `ANTHROPI
 |---|---|
 | [CLAUDE.md](CLAUDE.md) | Code layout and conventions (for humans and AI agents) |
 | [docs/development-plan.md](docs/development-plan.md) | Roadmap, what's built, open questions, decisions log |
-| [docs/a1-curriculum-plan.md](docs/a1-curriculum-plan.md) | A1 design: what it covers and why it's ordered this way |
+| [docs/a1-curriculum-plan.md](docs/a1-curriculum-plan.md) | The original A1 chapter design (partly superseded; see its status note) |
 | [docs/exercise-generation-guide.md](docs/exercise-generation-guide.md) | Spec for authoring lesson content |
 | [docs/design-system.md](docs/design-system.md) | Colours, type, components and UI rules; tokens live in `frontend/src/index.css` |
 

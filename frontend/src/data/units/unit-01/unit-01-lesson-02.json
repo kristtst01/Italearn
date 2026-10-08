@@ -3,46 +3,27 @@
   "unit_id": "unit-01",
   "name": "Please & Thank You",
   "order": 2,
-  "grammar_tips": [
-    {
-      "id": "unit-01-lesson-02-tip-01",
-      "title": "Scusi vs. Scusa — The Formal/Informal Split Again",
-      "explanation": "Just like 'ciao' vs 'buongiorno', Italian splits 'excuse me' into formal and informal. 'Scusi' for strangers and formal situations. 'Scusa' for friends. When in doubt, use 'scusi' — being too polite is never a problem.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-01-lesson-02-tip-02",
-      "title": "Permesso — A Word English Doesn't Have",
-      "explanation": "'Permesso' is said when you physically need to pass through or enter someone's space. On a crowded bus, pushing through a doorway, entering someone's home — say 'permesso'. It's like 'coming through' but polite. There's no exact English equivalent.",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-01-lesson-02-tip-03",
-      "title": "Prego Does Everything",
-      "explanation": "'Prego' is the reply to 'grazie' (you're welcome), but Italians use it for much more. A waiter hands you the menu: 'Prego.' Someone asks if they can sit: 'Prego!' (Please, go ahead.) It's Italian for 'help yourself'.",
-      "before_exercise": 10
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-01-lesson-02-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
+      "subtype": "type_answer",
       "prompt": { "text": "What does 'grazie' mean?" },
       "sentence_context": "Grazie, molto gentile!",
-      "correct_answer": "Thank you",
-      "distractors": ["Please", "Excuse me", "You're welcome"],
+      "correct_answer": ["thank you", "thanks"],
+      "distractors": [],
       "hints": ["The most essential politeness word in Italian. You'll say it dozens of times a day."],
       "target_words": ["grazie"]
     },
     {
       "id": "unit-01-lesson-02-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
+      "subtype": "type_answer",
       "prompt": { "text": "What does 'per favore' mean?" },
       "sentence_context": "Un caffè, per favore.",
-      "correct_answer": "Please",
-      "distractors": ["Thank you", "You're welcome", "I'm sorry"],
+      "correct_answer": ["please"],
+      "distractors": [],
       "hints": ["Literally: 'as a favor'. Added to any request to make it polite."],
       "target_words": ["per favore"]
     },
@@ -50,45 +31,12 @@
       "id": "unit-01-lesson-02-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "You accidentally bump into a stranger. Which is more appropriate?" },
+      "prompt": { "text": "You accidentally bump into an older man on the street. What do you say?" },
       "sentence_context": "Scusi! Mi dispiace!",
-      "correct_answer": "Scusi — because it's a stranger (formal)",
-      "distractors": ["Scusa — because it's a stranger (informal)", "Permesso — because you touched them", "Prego — because you're sorry"],
-      "hints": ["Stranger = formal. 'Scusi' is the formal form of 'excuse me'."],
+      "correct_answer": "Scusi",
+      "distractors": ["Scusa", "Permesso", "Prego"],
+      "hints": ["An older person you don't know: the formal 'scusi'."],
       "target_words": ["scusi"]
-    },
-    {
-      "id": "unit-01-lesson-02-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'mi dispiace' mean?" },
-      "sentence_context": "Mi dispiace, non posso venire.",
-      "correct_answer": "I'm sorry",
-      "distractors": ["Excuse me", "Thank you", "Please"],
-      "hints": ["Literally: 'it displeases me'. Used to express genuine regret or apology."],
-      "target_words": ["mi dispiace"]
-    },
-    {
-      "id": "unit-01-lesson-02-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "Someone says 'Grazie!' to you. What do you reply?" },
-      "sentence_context": "Grazie! — Prego!",
-      "correct_answer": "Prego",
-      "distractors": ["Grazie", "Per favore", "Scusi"],
-      "hints": ["The standard Italian reply when someone thanks you."],
-      "target_words": ["prego"]
-    },
-    {
-      "id": "unit-01-lesson-02-ex-06",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "You need to squeeze past people on a crowded train. What do you say?" },
-      "sentence_context": "Permesso! Permesso!",
-      "correct_answer": "Permesso",
-      "distractors": ["Scusi", "Mi dispiace", "Prego"],
-      "hints": ["This word is specifically for passing through physical space — like 'coming through'."],
-      "target_words": ["permesso"]
     },
     {
       "id": "unit-01-lesson-02-ex-07",
@@ -102,15 +50,37 @@
       "target_words": ["per favore"]
     },
     {
+      "id": "unit-01-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Someone says 'Grazie!' to you. What do you reply?" },
+      "sentence_context": "Grazie! — Prego!",
+      "correct_answer": "Prego",
+      "distractors": ["Grazie", "Per favore", "Scusi"],
+      "hints": ["The standard Italian reply when someone thanks you."],
+      "target_words": ["prego"]
+    },
+    {
       "id": "unit-01-lesson-02-ex-08",
       "type": "vocab",
       "subtype": "cloze",
       "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "___! Non volevo!",
+      "sentence_context": "___, Marco!",
       "correct_answer": ["Scusa", "Scusi"],
       "distractors": [],
       "hints": ["Sorry! I didn't mean to!"],
       "target_words": ["scusa"]
+    },
+    {
+      "id": "unit-01-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You need to squeeze past people on a crowded train. What do you say?" },
+      "sentence_context": "Permesso! Permesso!",
+      "correct_answer": "Permesso",
+      "distractors": ["Scusi", "Mi dispiace", "Prego"],
+      "hints": ["This word is for passing through a physical space, like 'coming through'."],
+      "target_words": ["permesso"]
     },
     {
       "id": "unit-01-lesson-02-ex-09",
@@ -121,50 +91,6 @@
       "correct_answer": "Mi dispiace",
       "distractors": [],
       "hints": ["I'm sorry, I'm late."],
-      "target_words": ["mi dispiace"]
-    },
-    {
-      "id": "unit-01-lesson-02-ex-10",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "You received a gift. Say 'thank you' in Italian." },
-      "sentence_context": "Grazie mille!",
-      "correct_answer": "grazie",
-      "distractors": [],
-      "hints": ["The most common word of politeness in Italian."],
-      "target_words": ["grazie"]
-    },
-    {
-      "id": "unit-01-lesson-02-ex-11",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "You want to add 'please' to your request. What word?" },
-      "sentence_context": "Un momento, per favore.",
-      "correct_answer": "per favore",
-      "distractors": [],
-      "hints": ["Two words — literally 'as a favor'."],
-      "target_words": ["per favore"]
-    },
-    {
-      "id": "unit-01-lesson-02-ex-12",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "You need to push past someone politely. What do you say?" },
-      "sentence_context": "Permesso! Posso passare?",
-      "correct_answer": "permesso",
-      "distractors": [],
-      "hints": ["Think 'permission' — same Latin root."],
-      "target_words": ["permesso"]
-    },
-    {
-      "id": "unit-01-lesson-02-ex-13",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "You forgot your friend's birthday. Say 'I'm sorry' in Italian." },
-      "sentence_context": "Mi dispiace tanto!",
-      "correct_answer": "mi dispiace",
-      "distractors": [],
-      "hints": ["Two words: 'mi' (to me) + 'dispiace' (it displeases)."],
       "target_words": ["mi dispiace"]
     },
     {
@@ -199,15 +125,73 @@
       "distractors": ["scusa", "prego"],
       "hints": ["Start with the apology."],
       "target_words": ["mi dispiace"]
+    },
+    {
+      "id": "unit-01-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "You received a gift. Say 'thank you' in Italian." },
+      "sentence_context": "Grazie mille!",
+      "correct_answer": "grazie",
+      "distractors": [],
+      "hints": ["The most common word of politeness in Italian."],
+      "target_words": ["grazie"]
+    },
+    {
+      "id": "unit-01-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "You want to add 'please' to your request. What word?" },
+      "sentence_context": "Un momento, per favore.",
+      "correct_answer": "per favore",
+      "distractors": [],
+      "hints": ["Two words, literally 'as a favour'."],
+      "target_words": ["per favore"]
+    },
+    {
+      "id": "unit-01-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "You need to push past someone politely. What do you say?" },
+      "sentence_context": "Permesso! Grazie!",
+      "correct_answer": "permesso",
+      "distractors": [],
+      "hints": ["Think 'permission': it has the same Latin root."],
+      "target_words": ["permesso"]
+    },
+    {
+      "id": "unit-01-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "You forgot your friend's birthday. Say 'I'm sorry' in Italian." },
+      "sentence_context": "Mi dispiace, Marco!",
+      "correct_answer": "mi dispiace",
+      "distractors": [],
+      "hints": ["Two words: 'mi' (to me) + 'dispiace' (it displeases)."],
+      "target_words": ["mi dispiace"]
+    },
+    {
+      "id": "unit-01-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "A friend says 'Grazie!'. Reply in Italian." },
+      "sentence_context": "",
+      "correct_answer": ["prego"],
+      "distractors": [],
+      "hints": ["The reply to 'grazie'."],
+      "target_words": ["prego"]
     }
   ],
   "vocabulary": [
-    { "word": "grazie", "meaning": "Thank you", "example": "Grazie, molto gentile!" },
+    { "word": "grazie", "meaning": "Thank you", "example": "Grazie mille!" },
     { "word": "per favore", "meaning": "Please", "example": "Un cappuccino, per favore." },
     { "word": "scusi", "meaning": "Excuse me (formal)", "example": "Scusi! Mi dispiace!" },
-    { "word": "scusa", "meaning": "Excuse me / Sorry (informal)", "example": "Scusa! Non volevo!" },
+    { "word": "scusa", "meaning": "Excuse me / Sorry (informal)", "example": "Scusa, Marco!" },
     { "word": "prego", "meaning": "You're welcome / Go ahead", "example": "Grazie! — Prego!" },
     { "word": "mi dispiace", "meaning": "I'm sorry", "example": "Mi dispiace, sono in ritardo." },
-    { "word": "permesso", "meaning": "May I pass / Coming through", "example": "Permesso! Posso passare?" }
+    { "word": "permesso", "meaning": "May I pass / Coming through", "example": "Permesso! Grazie!" },
+    { "word": "molto gentile", "meaning": "very kind", "example": "Grazie, molto gentile!" },
+    { "word": "un cappuccino", "meaning": "a cappuccino", "example": "Un cappuccino, grazie!" },
+    { "word": "un momento", "meaning": "one moment", "example": "Un momento, per favore." }
   ]
 }

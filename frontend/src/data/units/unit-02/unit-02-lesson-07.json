@@ -1,0 +1,23 @@
+{
+  "id": "unit-02-lesson-07",
+  "unit_id": "unit-02",
+  "name": "Introduce Yourself",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-02-lesson-07-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "It's the first day of an Italian course. Introduce yourself to the class: your name, where you're from, your nationality and your job."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ciao a tutti! Mi chiamo Tom. Sono inglese, di Manchester. Sono impiegato.",
+      "distractors": [],
+      "hints": ["Use mi chiamo, sono di, and sono + nationality and job."],
+      "target_words": ["mi chiamo", "di", "inglese"]
+    }
+  ],
+  "vocabulary": []
+}

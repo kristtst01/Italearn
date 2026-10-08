@@ -1,290 +1,229 @@
 {
   "id": "unit-10-lesson-01",
   "unit_id": "unit-10",
-  "name": "-ere Verbs",
+  "name": "Where Do You Live?",
   "order": 1,
-  "grammar_tips": [
-    {
-      "id": "unit-10-lesson-01-tip-01",
-      "title": "The -ere Pattern",
-      "explanation": "Verbs ending in -ere follow this pattern: remove -ere and add -o (io), -i (tu), -e (lui/lei), -iamo (noi), -ete (voi), -ono (loro). 'scrivere' → scrivo, scrivi, scrive, scriviamo, scrivete, scrivono.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-10-lesson-01-tip-02",
-      "title": "Compare With -are",
-      "explanation": "The io, tu and noi endings are the same as for -are verbs (-o, -i, -iamo). The differences are: lui/lei -e (not -a), voi -ete (not -ate), loro -ono (not -ano).",
-      "before_exercise": 8
-    },
-    {
-      "id": "unit-10-lesson-01-tip-03",
-      "title": "Same Endings, New Verbs",
-      "explanation": "Once you know the -ere endings, you can use any -ere verb: leggere (read), prendere (take), vivere (live), vedere (see), credere (believe), mettere (put).",
-      "before_exercise": 14
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-10-lesson-01-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'scrivere' mean?" },
-      "sentence_context": "Io scrivo.",
-      "correct_answer": "To write",
-      "distractors": ["To read", "To take", "To see"],
-      "hints": ["I write."],
-      "target_words": ["scrivere"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'con' mean?" },
+      "sentence_context": "Abito con due amici.",
+      "correct_answer": ["with"],
+      "distractors": [],
+      "hints": ["Who you share with."],
+      "target_words": ["con"]
     },
     {
       "id": "unit-10-lesson-01-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'leggere' mean?" },
-      "sentence_context": "Io leggo un libro.",
-      "correct_answer": "To read",
-      "distractors": ["To write", "To listen", "To take"],
-      "hints": ["I read a book."],
-      "target_words": ["leggere"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'da solo' mean?" },
+      "sentence_context": "Vivo da solo.",
+      "correct_answer": ["alone", "on my own", "by myself"],
+      "distractors": [],
+      "hints": ["With nobody else."],
+      "target_words": ["da solo"]
     },
     {
       "id": "unit-10-lesson-01-ex-03",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'prendere' mean?" },
-      "sentence_context": "Prendo il libro.",
-      "correct_answer": "To take",
-      "distractors": ["To give", "To put", "To find"],
-      "hints": ["I take the book."],
-      "target_words": ["prendere"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'settimana' mean?" },
+      "sentence_context": "Sono qui da una settimana.",
+      "correct_answer": ["week", "a week"],
+      "distractors": [],
+      "hints": ["Seven days."],
+      "target_words": ["settimana"]
     },
     {
       "id": "unit-10-lesson-01-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'vivere' mean?" },
-      "sentence_context": "Vivo in Italia.",
-      "correct_answer": "To live",
-      "distractors": ["To die", "To work", "To stay"],
-      "hints": ["A close synonym of 'abitare'."],
-      "target_words": ["vivere"]
+      "prompt": { "text": "A new classmate asks 'Dove abiti?'. You live in the centre of Florence. You answer:" },
+      "sentence_context": "Dove abiti?",
+      "correct_answer": "Abito a Firenze, in centro.",
+      "distractors": ["Abito in Firenze, a centro.", "Abita a Firenze, in centro."],
+      "hints": ["A + city, in centro, and the io form."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-01-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'vedere' mean?" },
-      "sentence_context": "Vedo la casa.",
-      "correct_answer": "To see",
-      "distractors": ["To watch", "To look for", "To find"],
-      "hints": ["With your eyes."],
-      "target_words": ["vedere"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: We live in the countryside." },
+      "sentence_context": "Abitiamo in ___.",
+      "correct_answer": "campagna",
+      "distractors": [],
+      "hints": ["In campagna, with no article."],
+      "target_words": ["campagna"]
     },
     {
       "id": "unit-10-lesson-01-ex-06",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'credere' mean?" },
-      "sentence_context": "Credo a Marco.",
-      "correct_answer": "To believe",
-      "distractors": ["To know", "To think", "To say"],
-      "hints": ["To accept as true."],
-      "target_words": ["credere"]
+      "prompt": { "text": "Emma shares a flat with two friends, both women. How does she say it?" },
+      "sentence_context": "",
+      "correct_answer": "Abito con due amiche.",
+      "distractors": ["Abita con due amiche.", "Abito con due amica."],
+      "hints": ["The io form, and the plural of amica."],
+      "target_words": ["con"]
     },
     {
       "id": "unit-10-lesson-01-ex-07",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'mettere' mean?" },
-      "sentence_context": "Metto il libro sul tavolo.",
-      "correct_answer": "To put",
-      "distractors": ["To take", "To find", "To give"],
-      "hints": ["I put the book on the table."],
-      "target_words": ["mettere"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I've been living here for three months." },
+      "sentence_context": "Abito qui ___ tre mesi.",
+      "correct_answer": "da",
+      "distractors": [],
+      "hints": ["Still going on: the present with this word."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-01-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Io ___ una lettera.",
-      "correct_answer": "scrivo",
+      "prompt": { "text": "Complete: Where do you (plural) live?" },
+      "sentence_context": "Dove ___?",
+      "correct_answer": "abitate",
       "distractors": [],
-      "hints": ["I write a letter."],
-      "target_words": ["scrivere"]
+      "hints": ["The voi form of abitare."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-01-ex-09",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Tu ___ un libro.",
-      "correct_answer": "leggi",
-      "distractors": [],
-      "hints": ["You read a book."],
-      "target_words": ["leggere"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Keiko lives on her own. She says:" },
+      "sentence_context": "",
+      "correct_answer": "Vivo da sola.",
+      "distractors": ["Vivo da solo.", "Vive da sola."],
+      "hints": ["Keiko is a woman, and she is talking about herself."],
+      "target_words": ["da solo"]
     },
     {
       "id": "unit-10-lesson-01-ex-10",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Marco ___ in Italia.",
-      "correct_answer": "vive",
+      "prompt": { "text": "Complete: Paul has been in Rome for three days." },
+      "sentence_context": "Paul è a Roma da tre ___.",
+      "correct_answer": "giorni",
       "distractors": [],
-      "hints": ["Marco lives in Italy."],
-      "target_words": ["vivere"]
+      "hints": ["Un giorno, tre…"],
+      "target_words": ["giorno"]
     },
     {
       "id": "unit-10-lesson-01-ex-11",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Noi ___ il cane.",
-      "correct_answer": "vediamo",
+      "prompt": { "text": "Complete: They have a house in the mountains." },
+      "sentence_context": "Hanno una casa in ___.",
+      "correct_answer": "montagna",
       "distractors": [],
-      "hints": ["We see the dog."],
-      "target_words": ["vedere"]
+      "hints": ["In montagna, with no article."],
+      "target_words": ["montagna"]
     },
     {
       "id": "unit-10-lesson-01-ex-12",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'I read' in Italian?" },
-      "sentence_context": "Io leggo un libro.",
-      "correct_answer": "leggo",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A new classmate, about your age, starts a conversation." },
+      "sentence_context": "Classmate: Dove abiti?\nYou: ___",
+      "correct_answer": ["Abito a Firenze, in centro.", "Abito a Londra."],
       "distractors": [],
-      "hints": ["The io form of leggere."],
-      "target_words": ["leggere"]
+      "hints": ["Abito a + city."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Classmate", "text": "Dove abiti?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-10-lesson-01-ex-13",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'I take' in Italian?" },
-      "sentence_context": "Io prendo il libro.",
-      "correct_answer": "prendo",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your new neighbour, an older man, is curious." },
+      "sentence_context": "Neighbour: Da quanto tempo abita qui?\nYou: ___",
+      "correct_answer": ["Abito qui da due anni.", "Da tre mesi."],
       "distractors": [],
-      "hints": ["The io form of prendere."],
-      "target_words": ["prendere"]
+      "hints": ["Da + how long."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Neighbour", "text": "Da quanto tempo abita qui?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-10-lesson-01-ex-14",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'we put' in Italian?" },
-      "sentence_context": "Noi mettiamo il libro sul tavolo.",
-      "correct_answer": "mettiamo",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend asks about your flat." },
+      "sentence_context": "Friend: Abiti da solo?\nYou: ___",
+      "correct_answer": ["No, abito con due amici.", "Sì, abito da solo.", "Sì, abito da sola."],
       "distractors": [],
-      "hints": ["noi → -iamo."],
-      "target_words": ["mettere"]
+      "hints": ["Alone, or con + who."],
+      "target_words": ["da solo", "con"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Abiti da solo?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-10-lesson-01-ex-15",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'lui/lei' form of 'scrivere'." },
-      "sentence_context": "Marco ___ una lettera.",
-      "correct_answer": "scrive",
-      "distractors": [],
-      "hints": ["lui/lei -ere → -e ending."],
-      "target_words": ["scrivere"]
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'We live in a village near Rome.'" },
+      "sentence_context": "Abitiamo in un paese vicino a Roma.",
+      "correct_answer": ["Abitiamo", "in", "un", "paese", "vicino", "a", "Roma."],
+      "distractors": ["abitano", "con"],
+      "hints": ["Vicino a + city."],
+      "target_words": ["paese"]
     },
     {
       "id": "unit-10-lesson-01-ex-16",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'voi' form of 'leggere'." },
-      "sentence_context": "Voi ___ un libro.",
-      "correct_answer": "leggete",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you live with your parents. Italian can leave out \"your\" here." },
+      "sentence_context": "",
+      "correct_answer": ["abito con i genitori", "vivo con i genitori", "abito con i miei genitori"],
       "distractors": [],
-      "hints": ["voi -ere → -ete ending."],
-      "target_words": ["leggere"]
+      "hints": ["Con i genitori."],
+      "target_words": ["genitori", "con"]
     },
     {
       "id": "unit-10-lesson-01-ex-17",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'loro' form of 'vivere'." },
-      "sentence_context": "Loro ___ in Francia.",
-      "correct_answer": "vivono",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend where they live." },
+      "sentence_context": "",
+      "correct_answer": ["dove abiti"],
       "distractors": [],
-      "hints": ["loro -ere → -ono ending."],
-      "target_words": ["vivere"]
+      "hints": ["The tu form of abitare."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-01-ex-18",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'tu' form of 'vedere'." },
-      "sentence_context": "Tu ___ Marco?",
-      "correct_answer": "vedi",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you've been here for a week." },
+      "sentence_context": "",
+      "correct_answer": ["sono qui da una settimana"],
       "distractors": [],
-      "hints": ["tu -ere → -i ending."],
-      "target_words": ["vedere"]
-    },
-    {
-      "id": "unit-10-lesson-01-ex-19",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'noi' form of 'credere'." },
-      "sentence_context": "Noi ___ a Marco.",
-      "correct_answer": "crediamo",
-      "distractors": [],
-      "hints": ["noi -ere → -iamo ending."],
-      "target_words": ["credere"]
-    },
-    {
-      "id": "unit-10-lesson-01-ex-20",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I read a book.'" },
-      "sentence_context": "Io leggo un libro.",
-      "correct_answer": ["Io", "leggo", "un", "libro."],
-      "distractors": ["scrivo", "leggi"],
-      "hints": ["io → leggo."],
-      "target_words": ["leggere"]
-    },
-    {
-      "id": "unit-10-lesson-01-ex-21",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Anna writes a letter.'" },
-      "sentence_context": "Anna scrive una lettera.",
-      "correct_answer": ["Anna", "scrive", "una", "lettera."],
-      "distractors": ["scrivo", "scriviamo"],
-      "hints": ["lui/lei → scrive."],
-      "target_words": ["scrivere"]
-    },
-    {
-      "id": "unit-10-lesson-01-ex-22",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'We live in Italy.'" },
-      "sentence_context": "Noi viviamo in Italia.",
-      "correct_answer": ["Noi", "viviamo", "in", "Italia."],
-      "distractors": ["vivo", "vivono"],
-      "hints": ["noi → viviamo."],
-      "target_words": ["vivere"]
-    },
-    {
-      "id": "unit-10-lesson-01-ex-23",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'They see the cat.'" },
-      "sentence_context": "Loro vedono il gatto.",
-      "correct_answer": ["Loro", "vedono", "il", "gatto."],
-      "distractors": ["vede", "vediamo"],
-      "hints": ["loro → vedono."],
-      "target_words": ["vedere"]
+      "hints": ["The present, with da."],
+      "target_words": ["settimana"]
     }
   ],
   "vocabulary": [
-    { "word": "scrivere", "meaning": "To write", "example": "Io scrivo." },
-    { "word": "leggere", "meaning": "To read", "example": "Io leggo un libro." },
-    { "word": "prendere", "meaning": "To take", "example": "Prendo il libro." },
-    { "word": "vivere", "meaning": "To live", "example": "Vivo in Italia." },
-    { "word": "vedere", "meaning": "To see", "example": "Vedo la casa." },
-    { "word": "credere", "meaning": "To believe", "example": "Credo a Marco." },
-    { "word": "mettere", "meaning": "To put", "example": "Metto il libro sul tavolo." }
+    { "word": "con", "meaning": "with", "example": "Abito con due amici." },
+    { "word": "da solo", "meaning": "alone, on my own · da sola (a woman)", "example": "Vivo da solo." },
+    { "word": "genitori", "meaning": "parents", "example": "Abiti con i genitori?" },
+    { "word": "campagna", "meaning": "countryside · in campagna = in the countryside", "example": "Abitiamo in campagna." },
+    { "word": "montagna", "meaning": "mountain · in montagna = in the mountains", "example": "Hanno una casa in montagna." },
+    { "word": "paese", "meaning": "village, small town", "example": "Abito in un paese vicino a Firenze." },
+    { "word": "settimana", "meaning": "week", "example": "Sono qui da una settimana." },
+    { "word": "giorno", "meaning": "day", "example": "Paul è a Roma da tre giorni." }
   ]
 }

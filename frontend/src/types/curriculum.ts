@@ -18,12 +18,13 @@ export interface LessonMeta {
   id: string;
   unit_id: string;
   name: string;
-  /** How the Chapter page groups it: vocabulary, grammar in context, consolidation, or the writing task */
+  /** What kind of lesson it is: vocabulary exercises, grammar in context, consolidation, a reading text, the writing task,
+   *  or speaking (needs a microphone, so it has its own section) */
   role: LessonRole;
   order: number;
 }
 
-export type LessonRole = 'words' | 'grammar' | 'practice' | 'writing';
+export type LessonRole = 'words' | 'grammar' | 'practice' | 'reading' | 'writing' | 'speaking';
 
 export interface Unit {
   id: string;
@@ -36,6 +37,8 @@ export interface Unit {
   can_do?: string;
   /** Italian title on the chapter's stamp */
   stamp_title?: string;
+  /** Reworked and reviewed. Other chapters still work, but are listed under "Under construction". */
+  ready?: boolean;
   lessons: LessonMeta[];
   order: number;
 }
@@ -47,6 +50,8 @@ export interface LessonVocab {
   word: string;
   meaning: string;
   example: string;
+  /** A fixed phrase kept as its own entry even though it contains another entry (non c'è male) */
+  phrase?: boolean;
 }
 
 export interface GrammarTip {
@@ -66,6 +71,14 @@ export interface Lesson {
   grammar_tips: GrammarTip[];
   order: number;
   vocabulary?: LessonVocab[];
+  /** Reading lessons: the text, shown beside every question */
+  reading?: ReadingText;
+}
+
+export interface ReadingText {
+  title: string;
+  /** Paragraphs of the text, in Italian */
+  paragraphs: string[];
 }
 
 export interface Curriculum {

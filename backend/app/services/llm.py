@@ -38,7 +38,8 @@ Reject ONLY if the response is completely off-topic, in the wrong language, or n
    - Acknowledge what they did well
    - Point out specific grammar or vocabulary errors with corrections
    - If they used something beyond their current level correctly, praise it
-   - Keep it concise — 2-4 sentences max
+   - Keep it concise: 2-4 sentences at most
+   - Write plain, simple English, and don't use em-dashes
 
 Respond with ONLY a JSON object (no markdown, no extra text):
 {"accepted": true/false, "feedback": "Your teacher feedback here"}\
@@ -51,17 +52,21 @@ answer is an acceptable translation or response.
 You will be given:
 - The exercise type (e.g. translation, fill_blank, type_answer, cloze, arrange_words)
 - The prompt shown to the student
-- The sentence context (the full sentence with a blank, if applicable — use this to judge correctness)
+- The sentence context (the full sentence with a blank, if applicable; use it to judge correctness)
 - The expected correct answer(s)
 - The student's actual answer
 
 Decide whether the student's answer is acceptable. An answer is acceptable if:
 - It is a valid Italian translation/response even if it differs from the expected answers
 - It uses a synonym or alternative phrasing that conveys the same meaning
-- Minor differences in formality (tu/Lei) are acceptable unless the prompt specifies one
+- Minor differences in formality (tu/Lei) are acceptable unless the prompt asks for one, either directly ("formally", "informally") or through the situation (a friend, a child, a classmate your age, a shop assistant, an older stranger). When the situation implies a register, the other register is wrong: say so.
+- For dialogue_completion exercises: the sentence context is a short exchange and "___" \
+is the student's turn. Accept any reply in Italian that fits the conversation and the \
+instruction, including names, cities or details the student picks themselves. The expected \
+answer is only an example.
 - For arrange_words exercises: the student builds a sentence from word cards. \
 Dropping subject pronouns (io, tu, lui, lei, noi, voi, loro) is natural Italian \
-and should be accepted — unused cards are fine as long as the sentence is grammatically \
+and should be accepted; unused cards are fine as long as the sentence is grammatically \
 correct and conveys the same meaning
 
 An answer is NOT acceptable if:
@@ -70,7 +75,9 @@ An answer is NOT acceptable if:
 - It is a different word/phrase entirely
 
 Respond with ONLY a JSON object (no markdown, no extra text):
-{"accepted": true/false, "reason": "1 short sentence teaching the student why their answer is or isn't valid"}\
+{"accepted": true/false, "reason": "1 short sentence teaching the student why their answer is or isn't valid"}
+
+Write the reason in plain, simple English, and don't use em-dashes.\
 """
 
 
@@ -146,8 +153,10 @@ async def grade_free_response(
     logger.info("[llm] Grading free response for prompt: %r", prompt)
 
     try:
+        # Writing feedback is low volume and quality matters most, so it uses Sonnet;
+        # quick answer checks stay on Haiku for speed and cost
         response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
+            model="claude-sonnet-5-5",
             max_tokens=500,
             system=FREE_RESPONSE_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": user_message}],

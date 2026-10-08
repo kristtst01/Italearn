@@ -1,236 +1,164 @@
 {
   "id": "unit-03-lesson-04",
   "unit_id": "unit-03",
-  "name": "Things Around Me",
+  "name": "Lost Property",
   "order": 4,
-  "grammar_tips": [
-    {
-      "id": "unit-03-lesson-04-tip-01",
-      "title": "C'è and Ci sono — There Is / There Are",
-      "explanation": "'C'è' means 'there is' (singular). 'Ci sono' means 'there are' (plural). These are the most natural way to describe what's in a space: 'C'è un libro sul tavolo' (there's a book on the table), 'Ci sono due sedie' (there are two chairs).",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-03-lesson-04-tip-02",
-      "title": "Rooms of the House",
-      "explanation": "Now that you can name objects and use articles, let's place them in real rooms. La cucina (kitchen), il bagno (bathroom), la camera (bedroom), il giardino (garden). Notice the gender — you already know the rule: -a is usually feminine, -o is usually masculine.",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-03-lesson-04-tip-03",
-      "title": "Everything Together",
-      "explanation": "You now have the full toolkit: gender, articles (all 7 definite + 4 indefinite), plurals, and c'è/ci sono. Every Italian sentence about objects uses this system. From here on, every new noun you learn comes with its article — that's how natives learn too.",
-      "before_exercise": 13
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-03-lesson-04-ex-01",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'c'è' mean?" },
-      "sentence_context": "C'è un libro sul tavolo.",
-      "correct_answer": "There is",
-      "distractors": ["There are", "It is", "Where is"],
-      "hints": ["Singular — just one thing."],
-      "target_words": ["c'è"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You left your backpack on the train. At the lost property desk, the clerk has one and checks that it is yours." },
+      "sentence_context": "Clerk: Che cosa c'è dentro?\nYou: ___",
+      "correct_answer": ["C'è un computer e ci sono due libri.", "Ci sono un computer e due libri."],
+      "distractors": [],
+      "hints": ["C'è for one thing, ci sono for more."],
+      "target_words": ["che cosa", "dentro"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "Che cosa c'è dentro?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-03-lesson-04-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'ci sono' mean?" },
-      "sentence_context": "Ci sono tre sedie in cucina.",
-      "correct_answer": "There are",
-      "distractors": ["There is", "They are", "Where are"],
-      "hints": ["Plural — more than one thing."],
-      "target_words": ["ci sono"]
+      "prompt": { "text": "The clerk asks 'Quante chiavi ci sono?'. There are three. You answer:" },
+      "sentence_context": "Quante chiavi ci sono?",
+      "correct_answer": "Ci sono tre chiavi.",
+      "distractors": ["C'è tre chiavi.", "Ci sono tre chiave."],
+      "hints": ["Una chiave, tre chiavi."],
+      "target_words": ["quanti"]
     },
     {
       "id": "unit-03-lesson-04-ex-03",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'cucina' mean?" },
-      "sentence_context": "La cucina è grande.",
-      "correct_answer": "Kitchen",
-      "distractors": ["Bedroom", "Bathroom", "Garden"],
-      "hints": ["Where you cook — think 'cuisine'."],
-      "target_words": ["cucina"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: How many books are there?" },
+      "sentence_context": "___ libri ci sono?",
+      "correct_answer": "Quanti",
+      "distractors": [],
+      "hints": ["Libri is masculine plural."],
+      "target_words": ["quanti"]
     },
     {
       "id": "unit-03-lesson-04-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'bagno' mean?" },
-      "sentence_context": "Il bagno è qui.",
-      "correct_answer": "Bathroom",
-      "distractors": ["Kitchen", "Bedroom", "Garden"],
-      "hints": ["Where you bathe — 'bagno' comes from the same root."],
-      "target_words": ["bagno"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: How many pens are there?" },
+      "sentence_context": "___ penne ci sono?",
+      "correct_answer": "Quante",
+      "distractors": [],
+      "hints": ["Penne is feminine plural."],
+      "target_words": ["quanti"]
     },
     {
       "id": "unit-03-lesson-04-ex-05",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "___ un libro sul tavolo.",
-      "correct_answer": "C'è",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The clerk wants to be sure the backpack is yours." },
+      "sentence_context": "Clerk: C'è un documento nello zaino?\nYou: ___",
+      "correct_answer": ["Sì, c'è il passaporto.", "Sì, c'è un passaporto."],
       "distractors": [],
-      "hints": ["There is a book on the table. Singular."],
-      "target_words": ["c'è"]
+      "hints": ["Name the document that is inside."],
+      "target_words": ["dentro"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "C'è un documento nello zaino?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-03-lesson-04-ex-06",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing words." },
-      "sentence_context": "___ tre penne nella borsa.",
-      "correct_answer": "Ci sono",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The clerk needs your details for the form." },
+      "sentence_context": "Clerk: Nome e cognome, per favore.\nYou: ___",
+      "correct_answer": ["Emma Wilson.", "Mi chiamo Emma Wilson."],
       "distractors": [],
-      "hints": ["There are three pens in the bag. Plural."],
-      "target_words": ["ci sono"]
+      "hints": ["Your own first name and surname."],
+      "target_words": ["nome", "cognome"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "Nome e cognome, per favore." },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-03-lesson-04-ex-07",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'camera' mean?" },
-      "sentence_context": "La camera è grande.",
-      "correct_answer": "Bedroom",
-      "distractors": ["Kitchen", "Bathroom", "Living room"],
-      "hints": ["Not 'camera' as in photography — in Italian it means 'room/bedroom'."],
-      "target_words": ["camera"]
+      "prompt": { "text": "You spot your umbrella on the shelf behind the clerk. You point and say:" },
+      "sentence_context": "",
+      "correct_answer": "Ecco l'ombrello!",
+      "distractors": ["Ecco lo ombrello!", "Ecco il ombrello!"],
+      "hints": ["Before a vowel, the article is l'."],
+      "target_words": []
     },
     {
       "id": "unit-03-lesson-04-ex-08",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'letto' mean?" },
-      "sentence_context": "Il letto è nella camera.",
-      "correct_answer": "Bed",
-      "distractors": ["Table", "Chair", "Door"],
-      "hints": ["The main piece of furniture in a bedroom."],
-      "target_words": ["letto"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The clerk gives you the backpack. You look inside, and something is missing." },
+      "sentence_context": "Clerk: Ecco lo zaino. Tutto bene?\nYou: ___",
+      "correct_answer": ["No! Non c'è il portafoglio!", "Sì, tutto bene. Grazie!"],
+      "distractors": [],
+      "hints": ["Say what isn't there: non c'è…"],
+      "target_words": ["dentro"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "Ecco lo zaino. Tutto bene?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-03-lesson-04-ex-09",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'giardino' mean?" },
-      "sentence_context": "Il giardino è grande.",
-      "correct_answer": "Garden",
-      "distractors": ["Kitchen", "Bathroom", "Bedroom"],
-      "hints": ["Almost the same word in English!"],
-      "target_words": ["giardino"]
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask what is inside." },
+      "sentence_context": "",
+      "correct_answer": ["che cosa c'è dentro", "cosa c'è dentro"],
+      "distractors": [],
+      "hints": ["What is there: che cosa c'è."],
+      "target_words": ["che cosa", "dentro"]
     },
     {
       "id": "unit-03-lesson-04-ex-10",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in 'c'è' or 'ci sono'." },
-      "sentence_context": "___ uno specchio in bagno.",
-      "correct_answer": "C'è",
-      "distractors": [],
-      "hints": ["One mirror — singular."],
-      "target_words": ["c'è", "specchio"]
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'How many keys are there in the bag?'" },
+      "sentence_context": "Quante chiavi ci sono nella borsa?",
+      "correct_answer": ["Quante", "chiavi", "ci", "sono", "nella", "borsa?"],
+      "distractors": ["quanti", "c'è"],
+      "hints": ["Chiavi is feminine plural: quante."],
+      "target_words": ["quanti"]
     },
     {
       "id": "unit-03-lesson-04-ex-11",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in 'c'è' or 'ci sono'." },
-      "sentence_context": "___ due finestre in cucina.",
-      "correct_answer": "Ci sono",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say there are two tickets and a credit card." },
+      "sentence_context": "",
+      "correct_answer": ["ci sono due biglietti e una carta di credito"],
       "distractors": [],
-      "hints": ["Two windows — plural."],
-      "target_words": ["ci sono", "finestra"]
+      "hints": ["More than one thing: ci sono."],
+      "target_words": []
     },
     {
       "id": "unit-03-lesson-04-ex-12",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the correct article." },
-      "sentence_context": "___ letto è nella camera.",
-      "correct_answer": "Il",
-      "distractors": [],
-      "hints": ["'Letto' is masculine, starts with a regular consonant."],
-      "target_words": ["letto"]
-    },
-    {
-      "id": "unit-03-lesson-04-ex-13",
-      "type": "vocab",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'there is' in Italian?" },
-      "sentence_context": "C'è una penna sul tavolo.",
-      "correct_answer": "c'è",
+      "prompt": { "text": "Ask someone formally for their first name and surname." },
+      "sentence_context": "",
+      "correct_answer": ["nome e cognome, per favore"],
       "distractors": [],
-      "hints": ["Two words contracted into one — ci + è."],
-      "target_words": ["c'è"]
-    },
-    {
-      "id": "unit-03-lesson-04-ex-14",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'there are' in Italian?" },
-      "sentence_context": "Ci sono tre libri.",
-      "correct_answer": "ci sono",
-      "distractors": [],
-      "hints": ["Two separate words."],
-      "target_words": ["ci sono"]
-    },
-    {
-      "id": "unit-03-lesson-04-ex-15",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'the kitchen' in Italian?" },
-      "sentence_context": "La cucina è grande.",
-      "correct_answer": "la cucina",
-      "distractors": [],
-      "hints": ["Feminine noun — which definite article?"],
-      "target_words": ["cucina"]
-    },
-    {
-      "id": "unit-03-lesson-04-ex-16",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'There is a bed in the bedroom.'" },
-      "sentence_context": "C'è un letto nella camera.",
-      "correct_answer": ["C'è", "un", "letto", "nella", "camera."],
-      "distractors": ["ci sono", "una"],
-      "hints": ["One bed — singular. 'Letto' is masculine."],
-      "target_words": ["c'è", "letto", "camera"]
-    },
-    {
-      "id": "unit-03-lesson-04-ex-17",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'There are three chairs in the kitchen.'" },
-      "sentence_context": "Ci sono tre sedie in cucina.",
-      "correct_answer": ["Ci", "sono", "tre", "sedie", "in", "cucina."],
-      "distractors": ["c'è", "sedia"],
-      "hints": ["Three chairs — plural. Use 'ci sono'."],
-      "target_words": ["ci sono", "sedia", "cucina"]
-    },
-    {
-      "id": "unit-03-lesson-04-ex-18",
-      "type": "speaking",
-      "subtype": "read_aloud",
-      "prompt": { "text": "Read this sentence aloud." },
-      "sentence_context": "C'è un letto nella camera. Ci sono due sedie in cucina.",
-      "correct_answer": "C'è un letto nella camera. Ci sono due sedie in cucina.",
-      "distractors": [],
-      "hints": ["There's a bed in the bedroom. There are two chairs in the kitchen."],
-      "target_words": ["c'è", "ci sono", "letto", "camera", "cucina"]
+      "hints": ["Two nouns and per favore are enough."],
+      "target_words": ["nome", "cognome"]
     }
   ],
   "vocabulary": [
-    { "word": "c'è", "meaning": "There is", "example": "C'è un libro sul tavolo." },
-    { "word": "ci sono", "meaning": "There are", "example": "Ci sono tre sedie." },
-    { "word": "stanza", "meaning": "Room", "example": "La stanza è grande." },
-    { "word": "camera", "meaning": "Bedroom", "example": "La camera è qui." },
-    { "word": "letto", "meaning": "Bed", "example": "Il letto è nella camera." },
-    { "word": "cucina", "meaning": "Kitchen", "example": "La cucina è grande." },
-    { "word": "bagno", "meaning": "Bathroom", "example": "Il bagno è qui." },
-    { "word": "giardino", "meaning": "Garden", "example": "Il giardino è grande." }
+    { "word": "che cosa", "meaning": "what · che cosa c'è? = what is there?", "example": "Che cosa c'è in borsa?" },
+    { "word": "dentro", "meaning": "inside", "example": "Che cosa c'è dentro?" },
+    { "word": "quanti", "meaning": "how many · quante with feminine nouns", "example": "Quante chiavi ci sono?" },
+    { "word": "nome", "meaning": "name, first name", "example": "Nome, per favore?" },
+    { "word": "cognome", "meaning": "surname · nome e cognome = first name and surname", "example": "Rossi è un cognome italiano." }
   ]
 }

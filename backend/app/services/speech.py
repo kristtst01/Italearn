@@ -23,6 +23,18 @@ def _get_client() -> speech.SpeechClient:
     return _client
 
 
+def _opus_channel_count(audio_bytes: bytes) -> int:
+    """Channel count from the recording's Opus header, which Google requires the config to match.
+
+    Browsers record mono or stereo depending on the microphone. The OpusHead block is the
+    8-byte magic, a version byte, then the channel count. Defaults to 1 if it can't be found.
+    """
+    i = audio_bytes.find(b"OpusHead")
+    if i == -1 or i + 9 >= len(audio_bytes):
+        return 1
+    return audio_bytes[i + 9] or 1
+
+
 def transcribe(audio_bytes: bytes, expected_text: str | None = None) -> dict:
     client = _get_client()
 
@@ -31,7 +43,7 @@ def transcribe(audio_bytes: bytes, expected_text: str | None = None) -> dict:
     config = speech.RecognitionConfig(
         language_code="it-IT",
         enable_automatic_punctuation=True,
-        audio_channel_count=2,
+        audio_channel_count=_opus_channel_count(audio_bytes),
     )
 
     if expected_text:

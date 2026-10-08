@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { useGoBack } from '@/shared/utils/useGoBack';
 import type { ReviewResult } from '@/types';
 import { buttonVariants } from '@/components/ui/button';
 import { Label } from '@/shared/components/design';
@@ -8,6 +8,7 @@ interface ReviewSummaryProps {
 }
 
 export default function ReviewSummary({ result }: ReviewSummaryProps) {
+  const goBack = useGoBack('/');
   const pct = result.total > 0 ? Math.round((result.correct / result.total) * 100) : 0;
 
   return (
@@ -25,7 +26,9 @@ export default function ReviewSummary({ result }: ReviewSummaryProps) {
             <span className="text-sm text-muted-foreground">card{result.total !== 1 ? 's' : ''} reviewed</span>
           </div>
         </div>
-        <Link to="/" autoFocus className={buttonVariants({ size: 'xl', className: 'self-start' })}>Back to Today</Link>
+        <button type="button" onClick={goBack} autoFocus className={buttonVariants({ size: 'xl', className: 'self-start' })}>
+          Done
+        </button>
       </div>
     </div>
   );

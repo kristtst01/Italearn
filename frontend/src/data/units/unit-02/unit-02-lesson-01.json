@@ -1,399 +1,186 @@
 {
   "id": "unit-02-lesson-01",
   "unit_id": "unit-02",
-  "name": "I Am, You Are",
+  "name": "Where Are You From?",
   "order": 1,
-  "grammar_tips": [
-    {
-      "id": "unit-02-lesson-01-tip-01",
-      "title": "Your First Real Verb",
-      "explanation": "Until now, everything was memorized phrases. Now you learn how Italian verbs actually work. 'Essere' (to be) changes its form depending on who you're talking about. 'Io sono' = I am. 'Tu sei' = you are. This shape-shifting is called conjugation — and it's how Italian works.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-02-lesson-01-tip-02",
-      "title": "Drop the Pronoun",
-      "explanation": "In English, 'I am Marco' needs the 'I'. In Italian, 'Sono Marco' is more natural than 'Io sono Marco'. The verb ending already tells you who's speaking. You only add the pronoun for emphasis or contrast: 'IO sono di Roma, TU sei di Milano.'",
-      "before_exercise": 5
-    },
-    {
-      "id": "unit-02-lesson-01-tip-03",
-      "title": "Mi chiamo — A Chunk for Now",
-      "explanation": "'Mi chiamo' literally means 'I call myself'. It's a reflexive verb, but don't worry about that yet — just memorize it as a chunk meaning 'my name is'. You'll learn how reflexive verbs actually work in a later unit.",
-      "before_exercise": 10
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-02-lesson-01-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'io' mean?"
-      },
-      "sentence_context": "Io sono Marco.",
-      "correct_answer": "I",
-      "distractors": [
-        "You",
-        "He",
-        "We"
-      ],
-      "hints": [
-        "The first person — the one speaking."
-      ],
-      "target_words": [
-        "io"
-      ]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'di dove sei?' mean?" },
+      "sentence_context": "Ciao! Di dove sei?",
+      "correct_answer": ["where are you from?"],
+      "distractors": [],
+      "hints": ["'Di dove' = from where. 'Sei' is the informal 'you are'."],
+      "target_words": ["di dove sei"]
     },
     {
       "id": "unit-02-lesson-01-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'tu' mean?"
-      },
-      "sentence_context": "Tu sei Anna?",
-      "correct_answer": "You (informal)",
-      "distractors": [
-        "I",
-        "He",
-        "She"
-      ],
-      "hints": [
-        "The person you're talking to — informal, like 'ciao' people."
-      ],
-      "target_words": [
-        "tu"
-      ]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'tedesca' mean?" },
+      "sentence_context": "Anna è tedesca.",
+      "correct_answer": ["German"],
+      "distractors": [],
+      "hints": ["A woman's nationality ending in -a. The man's form is 'tedesco'."],
+      "target_words": ["tedesco"]
     },
     {
       "id": "unit-02-lesson-01-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'sono' mean in this sentence?"
-      },
-      "sentence_context": "Sono di Roma.",
-      "correct_answer": "I am",
-      "distractors": [
-        "You are",
-        "He is",
-        "We are"
-      ],
-      "hints": [
-        "No pronoun is stated — the verb ending tells you it's 'I'."
-      ],
-      "target_words": [
-        "essere"
-      ]
+      "prompt": { "text": "A woman you've just met at a hostel asks where you're from. What did she say?" },
+      "sentence_context": "",
+      "correct_answer": "Di dove sei?",
+      "distractors": ["Di dov'è?", "Come stai?", "Come ti chiami?"],
+      "hints": ["People your age in a relaxed setting: informal."],
+      "target_words": ["di dove sei"]
     },
     {
       "id": "unit-02-lesson-01-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "You want to say 'You are Anna'. Which verb form fits?"
-      },
-      "sentence_context": "Tu sei Anna.",
-      "correct_answer": "sei",
-      "distractors": [
-        "sono",
-        "è",
-        "siamo"
-      ],
-      "hints": [
-        "'Tu' needs its own form of essere — it rhymes with 'lei'."
-      ],
-      "target_words": [
-        "essere"
-      ]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Emma is from London." },
+      "sentence_context": "Emma è ___ Londra.",
+      "correct_answer": "di",
+      "distractors": [],
+      "hints": ["Where someone is from: 'di' + city."],
+      "target_words": ["di"]
     },
     {
       "id": "unit-02-lesson-01-ex-05",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'mi chiamo' mean?"
-      },
-      "sentence_context": "Ciao, mi chiamo Luca!",
-      "correct_answer": "My name is",
-      "distractors": [
-        "I am from",
-        "I understand",
-        "I like"
-      ],
-      "hints": [
-        "Literally 'I call myself' — the standard way to give your name."
-      ],
-      "target_words": [
-        "mi chiamo"
-      ]
+      "prompt": { "text": "At the hotel desk, the receptionist asks where you're from. What did he say?" },
+      "sentence_context": "",
+      "correct_answer": "Di dov'è?",
+      "distractors": ["Di dove sei?", "Chi è?", "Come sta?"],
+      "hints": ["A receptionist uses the formal form."],
+      "target_words": ["di dov'è"]
     },
     {
       "id": "unit-02-lesson-01-ex-06",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "How do you say 'I am from Milan' in Italian?"
-      },
-      "sentence_context": "Sono di Milano.",
-      "correct_answer": "Sono di Milano",
-      "distractors": [
-        "Sono Milano",
-        "Mi chiamo Milano",
-        "Sei di Milano"
-      ],
-      "hints": [
-        "'Di' = from. 'Sono' = I am. City name stays as-is."
-      ],
-      "target_words": [
-        "di"
-      ]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Marta is Spanish." },
+      "sentence_context": "Marta è ___.",
+      "correct_answer": "spagnola",
+      "distractors": [],
+      "hints": ["Marta is a woman: -o becomes -a."],
+      "target_words": ["spagnolo"]
     },
     {
       "id": "unit-02-lesson-01-ex-07",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "___ Marco. Piacere!",
-      "correct_answer": "Sono",
-      "distractors": [],
-      "hints": [
-        "I am Marco. Nice to meet you!"
-      ],
-      "target_words": [
-        "essere"
-      ]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Paul is from New York. How does he describe himself?" },
+      "sentence_context": "",
+      "correct_answer": "Sono americano, di New York.",
+      "distractors": ["Sono americana, di New York.", "Sono di America, New York."],
+      "hints": ["Nationality, then di + city."],
+      "target_words": ["americano"]
     },
     {
       "id": "unit-02-lesson-01-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Tu ___ di Napoli?",
-      "correct_answer": "sei",
+      "prompt": { "text": "Complete: Sophie is French." },
+      "sentence_context": "Sophie è ___.",
+      "correct_answer": "francese",
       "distractors": [],
-      "hints": [
-        "You are from Naples?"
-      ],
-      "target_words": [
-        "essere"
-      ]
+      "hints": ["Nationalities in -e don't change for a woman."],
+      "target_words": ["francese"]
     },
     {
       "id": "unit-02-lesson-01-ex-09",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "Mi ___ Sara. E tu?",
-      "correct_answer": "chiamo",
-      "distractors": [],
-      "hints": [
-        "My name is Sara. And you?"
-      ],
-      "target_words": [
-        "mi chiamo"
-      ]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Li and Wei are from Beijing. How do they say where they're from?" },
+      "sentence_context": "",
+      "correct_answer": "Siamo di Pechino.",
+      "distractors": ["Sono di Pechino.", "Siete di Pechino."],
+      "hints": ["Li and Wei talking about themselves: 'we'."],
+      "target_words": ["cinese"]
     },
     {
       "id": "unit-02-lesson-01-ex-10",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'I am' in Italian?"
-      },
-      "sentence_context": "Sono di Firenze.",
-      "correct_answer": "sono",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Keiko is Japanese, from Tokyo." },
+      "sentence_context": "Keiko è ___, di Tokyo.",
+      "correct_answer": "giapponese",
       "distractors": [],
-      "hints": [
-        "The 'io' form of essere."
-      ],
-      "target_words": [
-        "essere"
-      ]
+      "hints": ["Another -e nationality."],
+      "target_words": ["giapponese"]
     },
     {
       "id": "unit-02-lesson-01-ex-11",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'you are' (informal) in Italian?"
-      },
-      "sentence_context": "Tu sei molto gentile!",
-      "correct_answer": "sei",
-      "distractors": [],
-      "hints": [
-        "The 'tu' form of essere."
-      ],
-      "target_words": [
-        "essere"
-      ]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Anna is German, from Berlin.'" },
+      "sentence_context": "Anna è tedesca, di Berlino.",
+      "correct_answer": ["Anna", "è", "tedesca,", "di", "Berlino."],
+      "distractors": ["tedesco", "da"],
+      "hints": ["Nationality first, then the city."],
+      "target_words": ["tedesco"]
     },
     {
       "id": "unit-02-lesson-01-ex-12",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": {
-        "text": "Introduce yourself: say 'My name is' in Italian."
-      },
-      "sentence_context": "Mi chiamo Paolo.",
-      "correct_answer": "mi chiamo",
+      "prompt": { "text": "Say you're English (as a man)." },
+      "sentence_context": "",
+      "correct_answer": ["sono inglese"],
       "distractors": [],
-      "hints": [
-        "Two words — literally 'I call myself'."
-      ],
-      "target_words": [
-        "mi chiamo"
-      ]
+      "hints": ["One form for men and women."],
+      "target_words": ["inglese"]
     },
     {
       "id": "unit-02-lesson-01-ex-13",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'dove' mean?"
-      },
-      "sentence_context": "Di dove sei?",
-      "correct_answer": "Where",
-      "distractors": [
-        "When",
-        "Who",
-        "How"
-      ],
-      "hints": [
-        "'Di dove sei?' = Where are you from?"
-      ],
-      "target_words": [
-        "dove"
-      ]
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend where they're from." },
+      "sentence_context": "",
+      "correct_answer": ["di dove sei", "tu di dove sei"],
+      "distractors": [],
+      "hints": ["The informal question."],
+      "target_words": ["di dove sei"]
     },
     {
       "id": "unit-02-lesson-01-ex-14",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": {
-        "text": "Someone asks where you're from. Fill in the verb."
-      },
-      "sentence_context": "___ di Venezia.",
-      "correct_answer": "Sono",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask an older gentleman on the train where he's from." },
+      "sentence_context": "",
+      "correct_answer": ["di dov'è", "scusi, di dov'è", "Lei di dov'è"],
       "distractors": [],
-      "hints": [
-        "I am from Venice — no pronoun needed."
-      ],
-      "target_words": [
-        "essere"
-      ]
+      "hints": ["Formal: dove + è, shortened."],
+      "target_words": ["di dov'è"]
     },
     {
       "id": "unit-02-lesson-01-ex-15",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'My name is Luca. I am from Rome.'"
-      },
-      "sentence_context": "Mi chiamo Luca. Sono di Roma.",
-      "correct_answer": [
-        "Mi",
-        "chiamo",
-        "Luca.",
-        "Sono",
-        "di",
-        "Roma."
-      ],
-      "distractors": [
-        "sei",
-        "tu"
-      ],
-      "hints": [
-        "Name first, then origin."
-      ],
-      "target_words": [
-        "mi chiamo",
-        "essere",
-        "di"
-      ]
-    },
-    {
-      "id": "unit-02-lesson-01-ex-16",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'Where are you from?'"
-      },
-      "sentence_context": "Di dove sei?",
-      "correct_answer": [
-        "Di",
-        "dove",
-        "sei?"
-      ],
-      "distractors": [
-        "sono",
-        "mi"
-      ],
-      "hints": [
-        "Starts with 'di' (from), then 'where', then the verb."
-      ],
-      "target_words": [
-        "dove",
-        "essere"
-      ]
-    },
-    {
-      "id": "unit-02-lesson-01-ex-17",
-      "type": "speaking",
-      "subtype": "read_aloud",
-      "prompt": {
-        "text": "Read this sentence aloud."
-      },
-      "sentence_context": "Ciao, mi chiamo Marco. Sono di Roma.",
-      "correct_answer": "Ciao, mi chiamo Marco. Sono di Roma.",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say that Marco is Italian, from Naples." },
+      "sentence_context": "",
+      "correct_answer": ["Marco è italiano, di Napoli", "è italiano, di Napoli"],
       "distractors": [],
-      "hints": [
-        "Introduce yourself: name, then where you're from."
-      ],
-      "target_words": [
-        "mi chiamo",
-        "essere",
-        "di"
-      ]
+      "hints": ["Nationality, then di + city."],
+      "target_words": ["italiano"]
     }
   ],
   "vocabulary": [
-    {
-      "word": "io",
-      "meaning": "I",
-      "example": "Io sono Marco."
-    },
-    {
-      "word": "tu",
-      "meaning": "You (informal)",
-      "example": "Tu sei Anna?"
-    },
-    {
-      "word": "essere",
-      "meaning": "To be",
-      "example": "Io sono Marco."
-    },
-    {
-      "word": "mi chiamo",
-      "meaning": "My name is",
-      "example": "Mi chiamo Luca."
-    },
-    {
-      "word": "di",
-      "meaning": "From / Of",
-      "example": "Sono di Milano."
-    },
-    {
-      "word": "dove",
-      "meaning": "Where",
-      "example": "Di dove sei?"
-    }
+    { "word": "di dove sei", "meaning": "Where are you from? (informal)", "example": "Ciao! Di dove sei?" },
+    { "word": "di dov'è", "meaning": "Where are you from? (formal)", "example": "Buongiorno. Di dov'è?" },
+    { "word": "italiano", "meaning": "Italian", "example": "Sono italiano, di Roma. / Sono italiana, di Milano." },
+    { "word": "inglese", "meaning": "English", "example": "Emma è inglese, di Londra." },
+    { "word": "americano", "meaning": "American", "example": "Paul è americano, di New York." },
+    { "word": "francese", "meaning": "French", "example": "Sono francese, di Parigi." },
+    { "word": "tedesco", "meaning": "German", "example": "Anna è tedesca, di Berlino." },
+    { "word": "spagnolo", "meaning": "Spanish", "example": "Marta è spagnola, di Madrid." },
+    { "word": "cinese", "meaning": "Chinese", "example": "Li è cinese, di Pechino." },
+    { "word": "giapponese", "meaning": "Japanese", "example": "Keiko è giapponese, di Tokyo." }
   ]
 }

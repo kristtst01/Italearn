@@ -1,94 +1,146 @@
 {
   "id": "unit-10-lesson-07",
   "unit_id": "unit-10",
-  "name": "Practice Writing",
+  "name": "The Colleague",
   "order": 7,
-  "grammar_tips": [
-    {
-      "id": "unit-10-lesson-07-tip-01",
-      "title": "Write About Yourself",
-      "explanation": "Now write about your work, study and free time. Use -are, -ere and -ire verbs (including -isc-), and the new nouns from this unit. There is no single correct answer.",
-      "before_exercise": 0
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-10-lesson-07-ex-01",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Say what you do for work or study (3-4 sentences)."
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is Paul?" },
       "sentence_context": "",
-      "correct_answer": "Sono studente. Studio all'università. Leggo molti libri. Scrivo al computer ogni giorno.",
-      "distractors": [],
-      "hints": [
-        "Use 'sono' + profession, then -ere/-ire verbs and work/study nouns."
-      ],
-      "target_words": [
-        "studiare",
-        "leggere",
-        "scrivere"
-      ]
+      "correct_answer": "In a bar in Rome",
+      "distractors": ["In a hospital in Rome", "At home"],
+      "hints": ["Prende un caffè in…"],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-07-ex-02",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Describe a typical day at work or school (3-4 sentences)."
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is the other man doing?" },
       "sentence_context": "",
-      "correct_answer": "La mattina vado in ufficio. Finisco il lavoro alle cinque. Capisco molto l'italiano. La sera leggo il giornale.",
-      "distractors": [],
-      "hints": [
-        "Use parts of day + -ere/-ire verbs + work nouns."
-      ],
-      "target_words": [
-        "finire",
-        "capire",
-        "leggere"
-      ]
+      "correct_answer": "Reading the newspaper and waiting for a sandwich",
+      "distractors": ["Writing an email", "Waiting for a colleague"],
+      "hints": ["Legge… e aspetta…"],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-07-ex-03",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Talk about your hobbies and what you do in your free time (3-4 sentences)."
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is Paul from?" },
       "sentence_context": "",
-      "correct_answer": "Nel tempo libero ascolto la musica. Gioco a calcio con gli amici. Guardo un film al cinema. Preferisco i film italiani.",
-      "distractors": [],
-      "hints": [
-        "Use 'nel tempo libero', then verbs + hobby nouns."
-      ],
-      "target_words": [
-        "tempo libero",
-        "musica",
-        "calcio",
-        "preferire"
-      ]
+      "correct_answer": "Chicago",
+      "distractors": ["New York", "London"],
+      "hints": ["Sono americano, di…"],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-07-ex-04",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Compare what you do during the week and at the weekend (3-4 sentences)."
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How long has Paul lived in Rome?" },
       "sentence_context": "",
-      "correct_answer": "Lunedì lavoro in ufficio. Il pomeriggio leggo il giornale. Sabato gioco a calcio. Domenica guardo un film a casa.",
+      "correct_answer": "Two years",
+      "distractors": ["Two months", "Two weeks"],
+      "hints": ["Da due anni."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where does Paul work?" },
+      "sentence_context": "",
+      "correct_answer": "In a hospital near the bar",
+      "distractors": ["In an office in the centre", "In a bar"],
+      "hints": ["Lavoro in…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Marco is a doctor too." },
+      "sentence_context": "",
+      "correct_answer": "True",
+      "distractors": ["False"],
+      "hints": ["Anche io sono…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What do both men say about their work?" },
+      "sentence_context": "",
+      "correct_answer": "They work every day",
+      "distractors": ["They work in an office", "They have a lot of free time"],
+      "hints": ["Lavoro… ogni giorno."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Chloé point out?" },
+      "sentence_context": "",
+      "correct_answer": "The two men have been colleagues for two years",
+      "distractors": ["The two men live together", "Marco is American too"],
+      "hints": ["Siete colleghi…"],
+      "target_words": ["collega"]
+    },
+    {
+      "id": "unit-10-lesson-07-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why didn't the two men know each other?" },
+      "sentence_context": "",
+      "correct_answer": "The hospital is very big, and they have no time",
+      "distractors": ["Paul is new in Rome", "Marco works in a bank"],
+      "hints": ["È un ospedale molto grande!"],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa legge Marco?" },
+      "sentence_context": "Che cosa legge Marco?",
+      "correct_answer": ["il giornale", "legge il giornale"],
       "distractors": [],
-      "hints": [
-        "Use days + verbs + locations to contrast week vs weekend."
-      ],
-      "target_words": [
-        "lavorare",
-        "calcio",
-        "film"
-      ]
+      "hints": ["Legge…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Da quanto tempo Marco lavora in ospedale?" },
+      "sentence_context": "Da quanto tempo Marco lavora in ospedale?",
+      "correct_answer": ["da due anni", "lavora in ospedale da due anni"],
+      "distractors": [],
+      "hints": ["Da + how long."],
+      "target_words": []
+    },
+    {
+      "id": "unit-10-lesson-07-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dove mangia Paul?" },
+      "sentence_context": "Dove mangia Paul?",
+      "correct_answer": ["in ospedale", "mangia in ospedale"],
+      "distractors": [],
+      "hints": ["Mangia in…"],
+      "target_words": []
     }
   ],
-  "vocabulary": []
+  "vocabulary": [],
+  "reading": {
+    "title": "Il collega",
+    "paragraphs": ["È sera. Paul prende un caffè in un bar a Roma. Chloé, la cameriera, lavora. C'è anche un uomo: legge il giornale e aspetta un panino.", "Uomo: Buonasera. Scusi, Lei è di qui?", "Paul: No, sono americano, di Chicago. Ma abito a Roma da due anni.", "Uomo: Parla italiano molto bene! E lavora qui?", "Paul: Grazie! Sì, sono medico. Lavoro in un ospedale qui vicino. E Lei?", "Uomo: Anche io sono medico! E anche io lavoro in un ospedale qui vicino. Mi chiamo Marco, piacere.", "Paul: Piacere, Paul. Da quanto tempo lavora lì?", "Marco: Da due anni. Lavoro molto, ogni giorno. Non ho tempo e non dormo molto!", "Paul: Anche io lavoro ogni giorno. Mangio in ospedale e dormo in ospedale!", "Chloé: Ecco il panino, dottor Rossi. Dottor Rossi, dottor Miller… voi lavorate insieme! Siete colleghi da due anni!", "Paul: Colleghi? Ma… è un ospedale molto grande!", "Marco: E noi non abbiamo tempo!"]
+  }
 }

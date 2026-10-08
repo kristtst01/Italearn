@@ -1,0 +1,21 @@
+{
+  "id": "unit-22-lesson-08",
+  "unit_id": "unit-22",
+  "name": "My Free Time",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-22-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Write about your free time: what you do in the evening and at the weekend, and one thing you prefer or love." },
+      "sentence_context": "",
+      "correct_answer": "La sera cucino e guardo una serie. Non guardo il calcio: preferisco il tennis. Il fine settimana leggo, ascolto musica e suono la chitarra. Amo la musica italiana!",
+      "distractors": [],
+      "hints": ["La sera…, il fine settimana…, then preferisco or amo."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

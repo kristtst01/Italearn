@@ -48,8 +48,11 @@ export interface Shape {
   kind: 'circle' | 'half';
   color: ShapeColor;
   size: number;
-  /** Offsets in px from the page edges; negative values push the shape off-screen */
+  /** Offsets in px from the page edges; negative values push the shape off-screen.
+   *  A half-circle's flat side must sit on the bottom edge (bottom: 0), or it looks cut off. */
   position: Pick<CSSProperties, 'top' | 'right' | 'bottom' | 'left'>;
+  /** Only show on wide screens, for pages whose content would otherwise run under the shape */
+  wideOnly?: boolean;
 }
 
 const SHAPE_BG: Record<ShapeColor, string> = {
@@ -72,12 +75,17 @@ export function Page({
   className?: string;
 }) {
   return (
-    <div className="relative isolate flex-1 overflow-hidden">
+    <div className="relative isolate flex-1 overflow-clip">
       {shapes.map((s, i) => (
         <div
           key={i}
           aria-hidden
-          className={cn('absolute -z-10', SHAPE_BG[s.color], s.kind === 'circle' ? 'rounded-full' : 'rounded-t-full')}
+          className={cn(
+            'absolute -z-10',
+            SHAPE_BG[s.color],
+            s.kind === 'circle' ? 'rounded-full' : 'rounded-t-full',
+            s.wideOnly && 'hidden 2xl:block',
+          )}
           style={{ ...s.position, width: s.size, height: s.kind === 'circle' ? s.size : s.size / 2 }}
         />
       ))}

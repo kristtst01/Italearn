@@ -24,7 +24,7 @@ _UPDATABLE_FIELDS = {
     "current_section", "current_unit", "current_lesson",
     "xp", "streak", "level",
     "lessons_completed", "checkpoints_passed", "lesson_scores",
-    "badges", "streak_dates", "daily_activity",
+    "badges", "streak_dates", "daily_activity", "grammar_units",
 }
 
 

@@ -18,7 +18,12 @@ export default function Feedback({ correct, correctAnswer, userAnswer, exercise,
   // Multiple choice and match pairs show right/wrong in the answers themselves
   const showCorrection = !correct && !['match_pairs', 'multiple_choice'].includes(exercise.subtype);
   const hint = !correct ? exercise.hints[0] : undefined;
-  const sentence = exercise.sentence_context?.replace('___', correctAnswer);
+  // The full sentence, with the blank filled by your answer if it was right. Rewrite exercises
+  // and dialogues already show their sentence or exchange (for find_mistake, the faulty one), so it isn't repeated.
+  const rewrite = ['transformation', 'find_mistake', 'dialogue_completion'].includes(exercise.subtype);
+  let filled = correct && userAnswer.trim() ? userAnswer.trim() : correctAnswer;
+  if (exercise.sentence_context?.startsWith('___')) filled = filled.charAt(0).toUpperCase() + filled.slice(1);
+  const sentence = rewrite ? undefined : exercise.sentence_context?.replace('___', filled);
 
   return (
     <FeedbackCard

@@ -6,6 +6,7 @@ export type {
   LessonMeta,
   LessonRole,
   LessonVocab,
+  ReadingText,
   GrammarTip,
   Curriculum,
   UnitStatus,
@@ -16,6 +17,7 @@ export type {
   ExerciseSubtype,
   ExercisePrompt,
   Exercise,
+  DialogueLine,
 } from './exercise';
 
 export type {
@@ -31,3 +33,12 @@ export type {
   VocabEntry,
   XPLogEntry,
 } from './progress';
+
+export type {
+  GrammarPoint,
+  GrammarPractice,
+  GrammarStop,
+  GrammarUnitContent,
+  GrammarUnitProgress,
+  MasteryAttempt,
+} from './grammar';

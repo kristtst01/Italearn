@@ -1,0 +1,204 @@
+{
+  "id": "unit-22-lesson-01",
+  "unit_id": "unit-22",
+  "name": "Music & Screens",
+  "order": 1,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-22-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'canzone' mean?" },
+      "sentence_context": "È una canzone italiana.",
+      "correct_answer": ["song", "a song"],
+      "distractors": [],
+      "hints": ["You sing it."],
+      "target_words": ["canzone"]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'suono' mean?" },
+      "sentence_context": "Suono la chitarra.",
+      "correct_answer": ["I play", "I'm playing", "I am playing"],
+      "distractors": [],
+      "hints": ["For an instrument."],
+      "target_words": ["suonare"]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'la sera' mean?" },
+      "sentence_context": "La sera leggo.",
+      "correct_answer": ["in the evening", "in the evenings", "evenings"],
+      "distractors": [],
+      "hints": ["Sera with la in front says when."],
+      "target_words": ["la sera"]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A friend asks what you do after work. You watch TV. You say:" },
+      "sentence_context": "",
+      "correct_answer": "La sera guardo la tv.",
+      "distractors": ["La sera guardo a la tv.", "La sera guarda la tv."],
+      "hints": ["The io form, and nothing between guardare and what you watch."],
+      "target_words": ["tv", "la sera"]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-05",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I listen to music." },
+      "sentence_context": "___ musica.",
+      "correct_answer": "Ascolto",
+      "distractors": [],
+      "hints": ["Italian has no word for 'to' after this verb."],
+      "target_words": ["musica"]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You tell a friend you listen to the radio:" },
+      "sentence_context": "",
+      "correct_answer": "Ascolto la radio.",
+      "distractors": ["Ascolto alla radio.", "Ascolto a la radio."],
+      "hints": ["Ascoltare takes the thing directly, with no word for 'to'."],
+      "target_words": []
+    },
+    {
+      "id": "unit-22-lesson-01-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Emma plays the guitar." },
+      "sentence_context": "Emma ___ la chitarra.",
+      "correct_answer": "suona",
+      "distractors": [],
+      "hints": ["The lei form of suonare."],
+      "target_words": ["suonare", "chitarra"]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: We sing a song." },
+      "sentence_context": "Cantiamo una ___.",
+      "correct_answer": "canzone",
+      "distractors": [],
+      "hints": ["Una …"],
+      "target_words": ["canzone", "cantare"]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "At a party the music starts. You turn to a friend and suggest dancing:" },
+      "sentence_context": "",
+      "correct_answer": "Balliamo?",
+      "distractors": ["Ballo?", "Ballano?"],
+      "hints": ["A suggestion for the two of you: the noi form."],
+      "target_words": ["ballare"]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-10",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I watch two series." },
+      "sentence_context": "Guardo due ___.",
+      "correct_answer": "serie",
+      "distractors": [],
+      "hints": ["Serie doesn't change in the plural."],
+      "target_words": ["serie"]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-11",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend is curious about your taste." },
+      "sentence_context": "Friend: Che musica ascolti?\nYou: ___",
+      "correct_answer": ["Ascolto musica italiana.", "Ascolto la radio."],
+      "distractors": [],
+      "hints": ["Ascolto + what."],
+      "target_words": ["musica"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Che musica ascolti?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-12",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A classmate asks about your evenings." },
+      "sentence_context": "Classmate: Guardi la tv la sera?\nYou: ___",
+      "correct_answer": ["Sì, guardo una serie.", "No, la sera leggo."],
+      "distractors": [],
+      "hints": ["Yes and what, or no and what you do."],
+      "target_words": ["tv", "serie"],
+      "dialogue": [
+        { "speaker": "Classmate", "text": "Guardi la tv la sera?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-13",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'In the evening we watch a film.'" },
+      "sentence_context": "La sera guardiamo un film.",
+      "correct_answer": ["La", "sera", "guardiamo", "un", "film."],
+      "distractors": ["guardano", "il"],
+      "hints": ["The noi form of guardare."],
+      "target_words": ["la sera"]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you play the guitar." },
+      "sentence_context": "",
+      "correct_answer": ["suono la chitarra"],
+      "distractors": [],
+      "hints": ["Suonare for an instrument, with la."],
+      "target_words": ["suonare", "chitarra"]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you sing badly." },
+      "sentence_context": "",
+      "correct_answer": ["canto male"],
+      "distractors": [],
+      "hints": ["Male = badly."],
+      "target_words": ["cantare"]
+    },
+    {
+      "id": "unit-22-lesson-01-ex-16",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask two friends if they watch TV." },
+      "sentence_context": "",
+      "correct_answer": ["guardate la tv"],
+      "distractors": [],
+      "hints": ["The voi form of guardare."],
+      "target_words": ["tv"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "musica", "meaning": "music", "example": "Ascolto musica italiana." },
+    { "word": "canzone", "meaning": "song (feminine: la canzone)", "example": "È una canzone italiana." },
+    { "word": "tv", "meaning": "TV · guardare la tv = to watch TV", "example": "La sera guardo la tv." },
+    { "word": "serie", "meaning": "series (no change in the plural: le serie)", "example": "Guardo una serie americana." },
+    { "word": "cantare", "meaning": "to sing", "example": "Canto male!" },
+    { "word": "ballare", "meaning": "to dance", "example": "Balliamo?" },
+    { "word": "suonare", "meaning": "to play (an instrument) · also: to ring", "example": "Suono la chitarra." },
+    { "word": "chitarra", "meaning": "guitar", "example": "Hai una chitarra?" },
+    { "word": "la sera", "meaning": "in the evening", "example": "La sera leggo.", "phrase": true }
+  ]
+}

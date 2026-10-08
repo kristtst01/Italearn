@@ -5,6 +5,7 @@ import { GrammarChip, Page, PageHeader, Placeholder, SegmentBar, Status } from '
 import { grammarForChapter } from '@/data/grammarPlan';
 import { grammarUnitStatus } from '@/engine/grammar';
 import { cn } from '@/lib/utils';
+import type { Unit } from '@/types';
 
 function Tab({ to, children }: { to: string; children: string }) {
   return (
@@ -49,43 +50,60 @@ export default function LibraryPage() {
   );
 }
 
+function ChapterCard({ unit, completed, isNext }: { unit: Unit; completed: string[]; isNext: boolean }) {
+  const status = chapterStatus(unit, completed);
+  const pct = chapterProgress(unit, completed);
+  return (
+    <Link
+      to={`/library/${unit.id}`}
+      className={cn(
+        'flex min-h-30 flex-col gap-2.5 rounded-lg bg-white px-4.5 py-4 text-foreground',
+        isNext ? 'border-2 border-foreground' : 'border border-border hover:border-muted-foreground/40',
+      )}
+    >
+      <div className="flex items-center justify-between">
+        <span className="font-display text-sm text-muted-foreground">{String(unit.order).padStart(2, '0')}</span>
+        <Status kind={isNext ? 'recommended' : status} />
+      </div>
+      <p className="text-lg font-bold leading-snug">{unit.name}</p>
+      {/* Pushed to the bottom, just above the lesson count, so chips line up across cards */}
+      <div className="mt-auto flex flex-wrap gap-x-3.5 gap-y-1.5">
+        {grammarForChapter(unit.id).map((g) => (
+          <GrammarChip key={g.id} label={g.short} status={grammarUnitStatus(g.id)} />
+        ))}
+      </div>
+      <p className="text-sm text-muted-foreground">{unit.lessons.length} lessons</p>
+      <SegmentBar learned={status === 'learned' ? 100 : 0} inProgress={status === 'in-progress' ? pct : 0} />
+    </Link>
+  );
+}
+
 export function ChaptersTab() {
   const completed = useProgressStore((s) => s.lessons_completed);
   const recommended = recommendedChapter(completed);
+  const chapters = getChapters();
+  const grid = (list: Unit[]) => (
+    <div className="grid grid-cols-3 gap-3.5">
+      {list.map((unit) => (
+        <ChapterCard key={unit.id} unit={unit} completed={completed} isNext={unit.id === recommended?.id} />
+      ))}
+    </div>
+  );
+  const building = chapters.filter((u) => !u.ready);
 
   return (
     <>
       <h2 className="font-display text-heading">A1 · Breakthrough</h2>
-      <div className="grid grid-cols-3 gap-3.5">
-        {getChapters().map((unit) => {
-          const status = chapterStatus(unit, completed);
-          const isNext = unit.id === recommended?.id;
-          const pct = chapterProgress(unit, completed);
-          return (
-            <Link
-              key={unit.id}
-              to={`/library/${unit.id}`}
-              className={cn(
-                'flex min-h-30 flex-col gap-2.5 rounded-lg bg-white px-4.5 py-4 text-foreground',
-                isNext ? 'border-2 border-foreground' : 'border border-border hover:border-muted-foreground/40',
-              )}
-            >
-              <div className="flex items-center justify-between">
-                <span className="font-display text-sm text-muted-foreground">{String(unit.order).padStart(2, '0')}</span>
-                <Status kind={isNext ? 'recommended' : status} />
-              </div>
-              <p className="text-lg font-bold leading-snug">{unit.name}</p>
-              <div className="flex flex-1 flex-wrap content-start gap-x-3.5 gap-y-1.5">
-                {grammarForChapter(unit.id).map((g) => (
-                  <GrammarChip key={g.id} label={g.short} status={grammarUnitStatus(g.id)} />
-                ))}
-              </div>
-              <p className="text-sm text-muted-foreground">{unit.lessons.length} lessons</p>
-              <SegmentBar learned={status === 'learned' ? 100 : 0} inProgress={status === 'in-progress' ? pct : 0} />
-            </Link>
-          );
-        })}
-      </div>
+      {grid(chapters.filter((u) => u.ready))}
+      {building.length > 0 && (
+        <section className="mt-6 flex flex-col gap-3.5">
+          <div className="flex flex-col gap-1">
+            <h2 className="font-display text-heading">Under construction</h2>
+            <p className="text-base text-muted-foreground">These chapters work, but are still being rewritten.</p>
+          </div>
+          {grid(building)}
+        </section>
+      )}
       <Placeholder
         className="max-w-md"
         title="Placement check"

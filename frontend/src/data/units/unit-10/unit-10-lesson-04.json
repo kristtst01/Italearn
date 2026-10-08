@@ -1,270 +1,173 @@
 {
   "id": "unit-10-lesson-04",
   "unit_id": "unit-10",
-  "name": "Work & Study",
+  "name": "Getting to Know Someone",
   "order": 4,
-  "grammar_tips": [
-    {
-      "id": "unit-10-lesson-04-tip-01",
-      "title": "Lavoro — Noun and Verb",
-      "explanation": "'Lavoro' can be either the noun 'work / job' (il lavoro) or the 'io' form of 'lavorare' ('I work'). Context tells you which.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-10-lesson-04-tip-02",
-      "title": "At Work, At School",
-      "explanation": "For 'at work' use 'al lavoro'; for 'at school' use 'a scuola' (no article); for 'at the office' use 'in ufficio'. These small prepositions are a bit fiddly — learn them as chunks.",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-10-lesson-04-tip-03",
-      "title": "Professions",
-      "explanation": "From Unit 2 you know dottore/dottoressa, studente/studentessa, insegnante. 'La professione' is the general word for job/career. 'Che lavoro fai?' = 'What do you do for work?'",
-      "before_exercise": 11
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-10-lesson-04-ex-01",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'lavoro' mean (as a noun)?" },
-      "sentence_context": "Il lavoro è importante.",
-      "correct_answer": "Work / job",
-      "distractors": ["School", "Office", "Day"],
-      "hints": ["Work is important."],
-      "target_words": ["lavoro"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "First day of a course. The classmate next to you, about your age, says hello." },
+      "sentence_context": "Classmate: Ciao! Dove abiti?\nYou: ___",
+      "correct_answer": ["Abito in centro, con due amici.", "Abito a Firenze."],
+      "distractors": [],
+      "hints": ["Abito + where."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Classmate", "text": "Ciao! Dove abiti?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-10-lesson-04-ex-02",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'scuola' mean?" },
-      "sentence_context": "La scuola è grande.",
-      "correct_answer": "School",
-      "distractors": ["Office", "University", "Class"],
-      "hints": ["The school is big."],
-      "target_words": ["scuola"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The same classmate is curious about your Italian." },
+      "sentence_context": "Classmate: Da quanto tempo studi italiano?\nYou: ___",
+      "correct_answer": ["Studio italiano da tre mesi.", "Da un anno."],
+      "distractors": [],
+      "hints": ["The present, with da + how long."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Classmate", "text": "Da quanto tempo studi italiano?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-10-lesson-04-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'ufficio' mean?" },
-      "sentence_context": "Lavoro in ufficio.",
-      "correct_answer": "Office",
-      "distractors": ["School", "Shop", "Home"],
-      "hints": ["I work in the office."],
-      "target_words": ["ufficio"]
+      "prompt": { "text": "You ask the same classmate the question back:" },
+      "sentence_context": "",
+      "correct_answer": "E tu, da quanto tempo studi italiano?",
+      "distractors": ["E Lei, da quanto tempo studia italiano?", "E tu, per quanto tempo studi italiano?"],
+      "hints": ["A classmate your age: tu. How long so far: da."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-04-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'università' mean?" },
-      "sentence_context": "Studio all'università.",
-      "correct_answer": "University",
-      "distractors": ["School", "Office", "Library"],
-      "hints": ["I study at the university."],
-      "target_words": ["università"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "In the lift, your new neighbour, an elderly lady, speaks to you." },
+      "sentence_context": "Neighbour: Buongiorno! Lei abita qui?\nYou: ___",
+      "correct_answer": ["Sì, abito qui da un mese.", "Buongiorno! Sì, abito qui."],
+      "distractors": [],
+      "hints": ["Yes, and since when."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Neighbour", "text": "Buongiorno! Lei abita qui?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-10-lesson-04-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'classe' mean?" },
-      "sentence_context": "La classe è piccola.",
-      "correct_answer": "Class (group/room)",
-      "distractors": ["School", "Year", "Book"],
-      "hints": ["The class is small."],
-      "target_words": ["classe"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "She goes on." },
+      "sentence_context": "Neighbour: E che lavoro fa?\nYou: ___",
+      "correct_answer": ["Sono studente. Studio all'università.", "Lavoro in un ufficio in centro."],
+      "distractors": [],
+      "hints": ["Your job, or where you work or study."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Neighbour", "text": "E che lavoro fa?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-10-lesson-04-ex-06",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'lezione' mean?" },
-      "sentence_context": "La lezione è interessante.",
-      "correct_answer": "Lesson",
-      "distractors": ["Class", "Book", "Teacher"],
-      "hints": ["The lesson is interesting."],
-      "target_words": ["lezione"]
+      "prompt": { "text": "You ask the elderly lady whether she works:" },
+      "sentence_context": "",
+      "correct_answer": "E Lei, signora, lavora?",
+      "distractors": ["E tu, signora, lavori?", "E Lei, signora, lavori?"],
+      "hints": ["Lei, with the Lei form of the verb."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-04-ex-07",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'professione' mean?" },
-      "sentence_context": "Che professione hai?",
-      "correct_answer": "Profession / job",
-      "distractors": ["School", "Class", "Lesson"],
-      "hints": ["What's your profession?"],
-      "target_words": ["professione"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete, to an older stranger: How long have you lived here?" },
+      "sentence_context": "Da quanto tempo ___ qui?",
+      "correct_answer": "abita",
+      "distractors": [],
+      "hints": ["The Lei form of abitare."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-04-ex-08",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Vado a ___.",
-      "correct_answer": "scuola",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake: 'I've been studying Italian for two years.'" },
+      "sentence_context": "Studio italiano per due anni.",
+      "correct_answer": ["Studio italiano da due anni."],
       "distractors": [],
-      "hints": ["I go to school."],
-      "target_words": ["scuola"]
+      "hints": ["How long so far is da."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-04-ex-09",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Lavoro in ___.",
-      "correct_answer": "ufficio",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake: 'I work in a bank.'" },
+      "sentence_context": "Sono lavoro in banca.",
+      "correct_answer": ["Lavoro in banca."],
       "distractors": [],
-      "hints": ["I work in the office."],
-      "target_words": ["ufficio"]
+      "hints": ["The verb is enough on its own."],
+      "target_words": ["banca"]
     },
     {
       "id": "unit-10-lesson-04-ex-10",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Studio all' ___.",
-      "correct_answer": "università",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "At a dinner, a stranger is impressed by your Italian." },
+      "sentence_context": "Stranger: Lei è di qui?\nYou: ___",
+      "correct_answer": ["No, sono inglese. Studio italiano da due anni.", "No, sono di Londra."],
       "distractors": [],
-      "hints": ["I study at university."],
-      "target_words": ["università"]
+      "hints": ["Where you are from, and how long you have studied."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Stranger", "text": "Lei è di qui?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-10-lesson-04-ex-11",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Leggo un ___.",
-      "correct_answer": "giornale",
-      "distractors": [],
-      "hints": ["I read a newspaper."],
-      "target_words": ["giornale"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I've been working here for two weeks.'" },
+      "sentence_context": "Lavoro qui da due settimane.",
+      "correct_answer": ["Lavoro", "qui", "da", "due", "settimane."],
+      "distractors": ["per", "sono"],
+      "hints": ["Still going on: da."],
+      "target_words": ["settimana"]
     },
     {
       "id": "unit-10-lesson-04-ex-12",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Scrivo al ___.",
-      "correct_answer": "computer",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a classmate how long they have lived here." },
+      "sentence_context": "",
+      "correct_answer": ["da quanto tempo abiti qui"],
       "distractors": [],
-      "hints": ["I write at the computer."],
-      "target_words": ["computer"]
+      "hints": ["Da quanto tempo + the tu form."],
+      "target_words": []
     },
     {
       "id": "unit-10-lesson-04-ex-13",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'office' in Italian?" },
-      "sentence_context": "L'ufficio è grande.",
-      "correct_answer": "ufficio",
-      "distractors": [],
-      "hints": ["A masculine noun."],
-      "target_words": ["ufficio"]
-    },
-    {
-      "id": "unit-10-lesson-04-ex-14",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'school' in Italian?" },
-      "sentence_context": "La scuola è grande.",
-      "correct_answer": "scuola",
-      "distractors": [],
-      "hints": ["A feminine noun."],
-      "target_words": ["scuola"]
-    },
-    {
-      "id": "unit-10-lesson-04-ex-15",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'lesson' in Italian?" },
-      "sentence_context": "La lezione è interessante.",
-      "correct_answer": "lezione",
-      "distractors": [],
-      "hints": ["A feminine noun ending in -e."],
-      "target_words": ["lezione"]
-    },
-    {
-      "id": "unit-10-lesson-04-ex-16",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'class' in Italian?" },
-      "sentence_context": "La classe è piccola.",
-      "correct_answer": "classe",
-      "distractors": [],
-      "hints": ["A feminine noun ending in -e."],
-      "target_words": ["classe"]
-    },
-    {
-      "id": "unit-10-lesson-04-ex-17",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'newspaper' in Italian?" },
-      "sentence_context": "Leggo il giornale.",
-      "correct_answer": "giornale",
-      "distractors": [],
-      "hints": ["You read it daily."],
-      "target_words": ["giornale"]
-    },
-    {
-      "id": "unit-10-lesson-04-ex-18",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I work in the office.'" },
-      "sentence_context": "Lavoro in ufficio.",
-      "correct_answer": ["Lavoro", "in", "ufficio."],
-      "distractors": ["scuola", "lavora"],
-      "hints": ["Use 'in' + ufficio."],
-      "target_words": ["ufficio"]
-    },
-    {
-      "id": "unit-10-lesson-04-ex-19",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Anna studies at the university.'" },
-      "sentence_context": "Anna studia all'università.",
-      "correct_answer": ["Anna", "studia", "all'università."],
-      "distractors": ["scuola", "ufficio"],
-      "hints": ["Use 'all'' + università."],
-      "target_words": ["università"]
-    },
-    {
-      "id": "unit-10-lesson-04-ex-20",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I read the newspaper at home.'" },
-      "sentence_context": "Leggo il giornale a casa.",
-      "correct_answer": ["Leggo", "il", "giornale", "a", "casa."],
-      "distractors": ["scrivo", "libro"],
-      "hints": ["Verb + object + 'a casa'."],
-      "target_words": ["giornale"]
-    },
-    {
-      "id": "unit-10-lesson-04-ex-21",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'The lesson is interesting.'" },
-      "sentence_context": "La lezione è interessante.",
-      "correct_answer": ["La", "lezione", "è", "interessante."],
-      "distractors": ["lezioni", "noiosa"],
-      "hints": ["Feminine noun."],
-      "target_words": ["lezione"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask an older woman politely where she works." },
+      "sentence_context": "",
+      "correct_answer": ["scusi, dove lavora", "dove lavora", "Lei dove lavora"],
+      "distractors": [],
+      "hints": ["The Lei form of lavorare."],
+      "target_words": []
     }
   ],
-  "vocabulary": [
-    { "word": "lavoro", "meaning": "Work / job", "example": "Il lavoro è importante." },
-    { "word": "scuola", "meaning": "School", "example": "La scuola è grande." },
-    { "word": "ufficio", "meaning": "Office", "example": "Lavoro in ufficio." },
-    { "word": "università", "meaning": "University", "example": "Studio all'università." },
-    { "word": "classe", "meaning": "Class (group / room)", "example": "La classe è piccola." },
-    { "word": "lezione", "meaning": "Lesson", "example": "La lezione è interessante." },
-    { "word": "professione", "meaning": "Profession / job", "example": "Che professione hai?" },
-    { "word": "giornale", "meaning": "Newspaper", "example": "Leggo il giornale." },
-    { "word": "computer", "meaning": "Computer", "example": "Scrivo al computer." }
-  ]
+  "vocabulary": []
 }

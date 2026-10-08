@@ -1,0 +1,21 @@
+{
+  "id": "unit-05-lesson-09",
+  "unit_id": "unit-05",
+  "name": "Can't Make It",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-05-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "A friend invites you out tonight. Say you're sorry and explain why you can't come: you're tired, and you have no time or money." },
+      "sentence_context": "",
+      "correct_answer": "Mi dispiace! Sono stanco e non ho tempo. E non ho soldi!",
+      "distractors": [],
+      "hints": ["Mi dispiace, then the reasons: essere for tired, avere for time and money."],
+      "target_words": ["tempo", "soldi"]
+    }
+  ],
+  "vocabulary": []
+}

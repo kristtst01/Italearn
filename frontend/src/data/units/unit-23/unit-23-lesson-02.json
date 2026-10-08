@@ -1,0 +1,191 @@
+{
+  "id": "unit-23-lesson-02",
+  "unit_id": "unit-23",
+  "name": "Breakfast at the Bar",
+  "order": 2,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-23-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'colazione' mean?" },
+      "sentence_context": "Faccio colazione a casa.",
+      "correct_answer": ["breakfast"],
+      "distractors": [],
+      "hints": ["The first meal of the day."],
+      "target_words": ["colazione"]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'la mattina' mean?" },
+      "sentence_context": "La mattina bevo un caffè.",
+      "correct_answer": ["in the morning", "in the mornings", "mornings"],
+      "distractors": [],
+      "hints": ["Like la sera, for the start of the day."],
+      "target_words": ["mattina"]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'al banco' mean?" },
+      "sentence_context": "Prendo il caffè al banco.",
+      "correct_answer": ["at the counter", "at the bar"],
+      "distractors": [],
+      "hints": ["Standing up, not sitting down."],
+      "target_words": ["al banco"]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You tell a colleague you have breakfast at the bar:" },
+      "sentence_context": "",
+      "correct_answer": "Faccio colazione al bar.",
+      "distractors": ["Ho colazione al bar.", "Mangio colazione al bar."],
+      "hints": ["Italian says \"do breakfast\": fare colazione."],
+      "target_words": ["colazione"]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-05",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: We have breakfast at home." },
+      "sentence_context": "___ colazione a casa.",
+      "correct_answer": "Facciamo",
+      "distractors": [],
+      "hints": ["The noi form of fare."],
+      "target_words": ["colazione"]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-06",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: In the morning I have a cappuccino and a croissant." },
+      "sentence_context": "La mattina prendo un cappuccino e un ___.",
+      "correct_answer": "cornetto",
+      "distractors": [],
+      "hints": ["Sweet, and eaten at the bar."],
+      "target_words": ["cornetto"]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Chloé asks 'Al banco o al tavolo?'. You are in a hurry and will drink your coffee standing. You answer:" },
+      "sentence_context": "Al banco o al tavolo?",
+      "correct_answer": "Al banco, grazie.",
+      "distractors": ["Al tavolo, grazie.", "A casa, grazie."],
+      "hints": ["Standing: at the counter."],
+      "target_words": ["al banco", "al tavolo"]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete, to a friend: Do you have breakfast in the morning?" },
+      "sentence_context": "La mattina ___ colazione?",
+      "correct_answer": "fai",
+      "distractors": [],
+      "hints": ["The tu form of fare."],
+      "target_words": ["mattina"]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The croissant is sweet." },
+      "sentence_context": "Il cornetto è ___.",
+      "correct_answer": "dolce",
+      "distractors": [],
+      "hints": ["With sugar."],
+      "target_words": ["dolce"]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-10",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A colleague is surprised to see you eating at your desk." },
+      "sentence_context": "Colleague: Fai colazione a casa?\nYou: ___",
+      "correct_answer": ["No, faccio colazione al bar.", "Sì, la mattina bevo un tè."],
+      "distractors": [],
+      "hints": ["Faccio colazione + where."],
+      "target_words": ["colazione"],
+      "dialogue": [
+        { "speaker": "Colleague", "text": "Fai colazione a casa?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-11",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Morning, at the bar near your flat." },
+      "sentence_context": "Barista: Buongiorno! Che cosa prende?\nYou: ___",
+      "correct_answer": ["Un cappuccino e un cornetto, per favore.", "Vorrei un caffè, per favore."],
+      "distractors": [],
+      "hints": ["What you want, with per favore."],
+      "target_words": ["cornetto"],
+      "dialogue": [
+        { "speaker": "Barista", "text": "Buongiorno! Che cosa prende?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-12",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'They have breakfast at the counter.'" },
+      "sentence_context": "Fanno colazione al banco.",
+      "correct_answer": ["Fanno", "colazione", "al", "banco."],
+      "distractors": ["fa", "tavolo"],
+      "hints": ["The loro form of fare."],
+      "target_words": ["al banco"]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you have breakfast at the bar." },
+      "sentence_context": "",
+      "correct_answer": ["faccio colazione al bar"],
+      "distractors": [],
+      "hints": ["Fare colazione."],
+      "target_words": ["colazione"]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Suggest a pizza to a friend: 'Shall we eat a pizza?'" },
+      "sentence_context": "",
+      "correct_answer": ["mangiamo una pizza"],
+      "distractors": [],
+      "hints": ["The noi form, as a question."],
+      "target_words": ["pizza"]
+    },
+    {
+      "id": "unit-23-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you drink a coffee in the morning." },
+      "sentence_context": "",
+      "correct_answer": ["la mattina bevo un caffè", "bevo un caffè la mattina", "la mattina prendo un caffè"],
+      "distractors": [],
+      "hints": ["La mattina, with no word for \"in\"."],
+      "target_words": ["mattina"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "colazione", "meaning": "breakfast · fare colazione = to have breakfast", "example": "Faccio colazione a casa." },
+    { "word": "cornetto", "meaning": "croissant", "example": "Un cappuccino e un cornetto, per favore." },
+    { "word": "pizza", "meaning": "pizza", "example": "Mangiamo una pizza?" },
+    { "word": "mattina", "meaning": "morning · la mattina = in the morning", "example": "La mattina bevo un caffè." },
+    { "word": "al banco", "meaning": "at the counter, standing", "example": "Prendo il caffè al banco.", "phrase": true },
+    { "word": "al tavolo", "meaning": "at a table, at the table", "example": "Siamo al tavolo.", "phrase": true },
+    { "word": "dolce", "meaning": "sweet", "example": "Il cornetto è dolce." }
+  ]
+}

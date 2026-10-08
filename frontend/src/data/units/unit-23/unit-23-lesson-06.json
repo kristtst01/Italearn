@@ -1,0 +1,148 @@
+{
+  "id": "unit-23-lesson-06",
+  "unit_id": "unit-23",
+  "name": "Bar Roma",
+  "order": 6,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-23-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where are Emma and Marta?" },
+      "sentence_context": "",
+      "correct_answer": "In a square in Rome",
+      "distractors": ["At the station in Rome", "In a square in Florence"],
+      "hints": ["Sono a Roma, in…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why do they stop at the bar?" },
+      "sentence_context": "",
+      "correct_answer": "They are thirsty",
+      "distractors": ["They are hungry", "They are cold"],
+      "hints": ["Hanno sete."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How much is a cappuccino on the price list?" },
+      "sentence_context": "",
+      "correct_answer": "Two euros",
+      "distractors": ["One euro", "Three euros"],
+      "hints": ["Cappuccino · …"],
+      "target_words": ["prezzo"]
+    },
+    {
+      "id": "unit-23-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is the most expensive thing on the list?" },
+      "sentence_context": "",
+      "correct_answer": "A sandwich",
+      "distractors": ["An orange juice", "A cappuccino"],
+      "hints": ["Look for the highest price."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where do they sit?" },
+      "sentence_context": "",
+      "correct_answer": "At a table in the square",
+      "distractors": ["At the counter", "At a table inside"],
+      "hints": ["Prendono un tavolo…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What do they order?" },
+      "sentence_context": "",
+      "correct_answer": "Two cappuccinos and two croissants",
+      "distractors": ["Two coffees and two sandwiches", "A cappuccino and two croissants"],
+      "hints": ["Due… e due…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How much is the bill?" },
+      "sentence_context": "",
+      "correct_answer": "Twelve euros",
+      "distractors": ["Six euros", "Two euros"],
+      "hints": ["Sono… euro."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-06-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why is the bill higher than they expected?" },
+      "sentence_context": "",
+      "correct_answer": "Prices at a table are higher than at the counter",
+      "distractors": ["The waiter made a mistake", "They ordered more than they thought"],
+      "hints": ["Sei euro al banco… Al tavolo…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-06-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What will they do tomorrow?" },
+      "sentence_context": "",
+      "correct_answer": "Have breakfast at the counter",
+      "distractors": ["Have breakfast at home", "Go to a different bar"],
+      "hints": ["Domani facciamo colazione…"],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-06-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quanto costa un panino?" },
+      "sentence_context": "Quanto costa un panino?",
+      "correct_answer": ["quattro euro", "costa quattro euro", "4 euro"],
+      "distractors": [],
+      "hints": ["Look at the price list."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-06-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa prendono Emma e Marta?" },
+      "sentence_context": "Che cosa prendono Emma e Marta?",
+      "correct_answer": ["due cappuccini e due cornetti", "prendono due cappuccini e due cornetti"],
+      "distractors": [],
+      "hints": ["Marta orders for both."],
+      "target_words": []
+    },
+    {
+      "id": "unit-23-lesson-06-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dove fanno colazione domani?" },
+      "sentence_context": "Dove fanno colazione domani?",
+      "correct_answer": ["al banco", "fanno colazione al banco"],
+      "distractors": [],
+      "hints": ["Emma says so at the end."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "prezzo", "meaning": "price", "example": "Ecco i prezzi." }
+  ],
+  "reading": {
+    "title": "Bar Roma",
+    "paragraphs": ["Emma e Marta sono a Roma, in piazza. Hanno sete. In piazza c'è un bar, il Bar Roma. Ecco i prezzi:", "Caffè · 1 euro", "Cappuccino · 2 euro", "Tè · 2 euro", "Succo d'arancia · 3 euro", "Cornetto · 1 euro", "Panino · 4 euro", "Marta: Un cappuccino costa due euro. Va bene! Prendiamo un tavolo?", "Emma: Sì! Sono stanca e voglio stare un po' qui.", "Emma e Marta prendono un tavolo in piazza. Arriva il cameriere.", "Cameriere: Buongiorno! Che cosa prendete?", "Marta: Due cappuccini e due cornetti, per favore.", "Emma e Marta bevono, mangiano e parlano. Stanno molto bene! Ma adesso devono andare, e Marta vuole pagare.", "Marta: Scusi, il conto, per favore!", "Cameriere: Subito! Sono dodici euro.", "Marta: Dodici euro? Ma due cappuccini e due cornetti costano sei euro!", "Cameriere: Sei euro al banco, signora. Al tavolo costano dodici euro.", "Emma: Domani facciamo colazione al banco!"]
+  }
+}
