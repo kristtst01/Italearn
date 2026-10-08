@@ -75,6 +75,7 @@ Fonts are self-hosted via `@fontsource` packages (no Google Fonts request).
 | Section heading | 24 | Archivo Black |
 | Card title | 17 | Archivo, bold |
 | Reading body (grammar units) | 17 | Line height 1.6, measure ≤ 700px |
+| Lesson texts (reading lessons) | 18–22 | `text-passage`: grows with the window. Line height 1.6, measure `max-w-prose`. The text's line length sets the layout width; the question sits beside it in `--container-aside` |
 | Body | 16 | |
 | Secondary text | 14 | Minimum size for normal text |
 | Labels | 12 | Uppercase, bold, letter-spacing 1.2px, Grigio. Only for short labels. |

@@ -12,7 +12,7 @@ export default function SessionLayout({
   children,
 }: {
   header: ReactNode;
-  /** A wider column, for sessions that show a text beside the exercise (reading lessons) */
+  /** No width cap: the content sets its own width (reading lessons, where the text's line length decides) */
   wide?: boolean;
   children: ReactNode;
 }) {
@@ -22,7 +22,7 @@ export default function SessionLayout({
       <div aria-hidden className="fixed -right-22.5 -bottom-22.5 -z-10 size-65 rounded-full bg-vermiglione" />
       {header}
       <main className="flex flex-1 flex-col px-8">
-        <div className={cn('mx-auto w-full pb-12', wide ? 'max-w-6xl pt-12' : 'max-w-190 pt-[max(3rem,12vh)]')}>{children}</div>
+        <div className={cn('mx-auto w-full pb-12', wide ? 'pt-12' : 'max-w-190 pt-[max(3rem,12vh)]')}>{children}</div>
       </main>
     </div>
   );

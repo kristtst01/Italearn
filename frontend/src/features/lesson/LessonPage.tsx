@@ -118,9 +118,10 @@ function LessonContent({
             onContinue={onExit}
           />
         ) : reading && lesson.reading ? (
-          <div className="grid grid-cols-[minmax(0,5fr)_minmax(0,6fr)] items-start gap-10">
+          // The text column is as wide as its line length allows; the question takes a slim column beside it
+          <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-[minmax(0,auto)_var(--container-aside)] lg:justify-center">
             <ReadingPanel text={lesson.reading} />
-            <div className="min-w-0">{step}</div>
+            <div className="min-w-0 lg:sticky lg:top-24 lg:max-h-[calc(100dvh-8rem)] lg:overflow-y-auto">{step}</div>
           </div>
         ) : (
           step
