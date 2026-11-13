@@ -8,7 +8,7 @@ Italian learning app for serious learners, A1 → B2 (current scope: A1). React 
 - **Grammar decides the order.** Grammar units come first and chapters are built around them; `frontend/src/data/course.ts` is the order a learner meets them in. Explanations live in grammar units, never in lessons.
 - **Existing content is never fixed.** Restructure freely. Good content that no longer fits goes to `frontend/src/data/pool/`, not the bin.
 - **Grammar is simple, but true:** say when a rule is a tendency, name the exceptions, flag simplifications, and check rules against sources (Treccani, Accademia della Crusca, Profilo della lingua italiana).
-- Authoring spec (read it before writing any content): [docs/exercise-generation-guide.md](docs/exercise-generation-guide.md). Grammar inventory: [docs/a1-grammar-inventory.md](docs/a1-grammar-inventory.md). Roadmap, status and decisions: [docs/development-plan.md](docs/development-plan.md). Open work: GitHub issues.
+- Authoring spec (read it before writing any content): [docs/exercise-generation-guide.md](docs/exercise-generation-guide.md). Grammar inventory: [docs/a1-grammar-inventory.md](docs/a1-grammar-inventory.md). Chapter plan for the rest of A1: [docs/a1-chapter-plan.md](docs/a1-chapter-plan.md). Roadmap, status and decisions: [docs/development-plan.md](docs/development-plan.md). Open work: GitHub issues.
 
 ## Working with the maintainer
 - **Ask before every git commit and push**, even when running autonomously.

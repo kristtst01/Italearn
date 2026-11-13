@@ -79,7 +79,7 @@ Built in September–October 2026: the app structure, the design system, the gra
 
 ### 1. Finish and audit A1
 
-The course order is in `frontend/src/data/course.ts` and the grammar units in [a1-grammar-inventory.md](a1-grammar-inventory.md). The older chapter-first A1 design is in [a1-curriculum-plan.md](a1-curriculum-plan.md) (partly superseded): form-first foundations (units 1–5), then situational units, each with a focus-on-form lesson and a **written capstone lesson** (required to complete the unit). Content for units 1–21 exists.
+The course order is in `frontend/src/data/course.ts` and the grammar units in [a1-grammar-inventory.md](a1-grammar-inventory.md). The chapters for the rest of A1 are planned in [a1-chapter-plan.md](a1-chapter-plan.md). The older chapter-first A1 design is in [a1-curriculum-plan.md](a1-curriculum-plan.md) (superseded): form-first foundations (units 1–5), then situational units, each with a focus-on-form lesson and a **written capstone lesson** (required to complete the unit). Content for units 1–21 exists.
 
 - **Review existing content** with a stronger model: accuracy, naturalness, distractor quality, forward-reaching vocabulary/grammar (see Known Quality Issues).
 - **Check coverage** against a sourced A1 inventory (Workstream 4): which A1 grammar points and lemmas are taught, which are missing, which are taught but belong to a higher level.
