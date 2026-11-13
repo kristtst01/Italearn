@@ -34,7 +34,7 @@ export function ExercisePrompt({ exercise, showContext = false }: { exercise: Ex
 
   if (!split) {
     return (
-      <p className="min-h-[2lh] text-2xl font-bold leading-snug">
+      <p className="min-h-[2lh] text-xl font-bold leading-snug sm:text-2xl">
         <HighlightedText text={text} words={exercise.target_words} />
       </p>
     );
@@ -44,7 +44,7 @@ export function ExercisePrompt({ exercise, showContext = false }: { exercise: Ex
     <div className="flex flex-col gap-1.5">
       <Label>{split.instruction}</Label>
       <div className="flex flex-wrap items-baseline gap-x-5 gap-y-2">
-        <span className="font-display text-7xl leading-none tracking-tight">{split.hero}</span>
+        <span className="font-display text-[3.25rem] leading-none tracking-tight sm:text-6xl lg:text-7xl">{split.hero}</span>
         {showContext && exercise.sentence_context && (
           <span className="flex items-center gap-2 self-center text-base text-muted-foreground">
             <AudioButton />
@@ -61,7 +61,7 @@ export function Prompt({ instruction, children }: { instruction?: ReactNode; chi
   return (
     <div className="flex flex-col gap-2">
       {instruction && <Label>{instruction}</Label>}
-      {children && <p className="min-h-[2lh] text-2xl font-bold leading-snug">{children}</p>}
+      {children && <p className="min-h-[2lh] text-xl font-bold leading-snug sm:text-2xl">{children}</p>}
     </div>
   );
 }
@@ -89,14 +89,15 @@ export function Choice({
     <button
       type="button"
       className={cn(
-        'flex w-full items-center gap-3.5 rounded-lg border-2 px-4.5 py-4 text-left text-lg font-semibold transition-colors',
+        'flex min-h-13 w-full items-center gap-3.5 rounded-lg border-2 px-4 py-3 text-left text-base font-semibold transition-colors sm:px-4.5 sm:py-4 sm:text-lg',
         tone ?? style.box,
         className,
       )}
       {...props}
     >
       {keyLabel && (
-        <span className={cn('flex size-7.5 shrink-0 items-center justify-center rounded-md border-2 font-display text-sm', style.key)}>
+        // Number keys only help with a keyboard
+        <span className={cn('flex size-7.5 shrink-0 items-center justify-center rounded-md border-2 font-display text-sm max-sm:hidden pointer-coarse:hidden', style.key)}>
           {keyLabel}
         </span>
       )}
@@ -139,9 +140,16 @@ export function Chip({ active, className, ...props }: ButtonHTMLAttributes<HTMLB
   );
 }
 
-/** The row under the answers: secondary info on the left, the main action on the right. */
+/**
+ * The row under the answers: secondary info on the left, the main action on the right.
+ * On a phone the action goes full width on top, with the secondary info under it.
+ */
 export function ActionRow({ children }: { children: ReactNode }) {
-  return <div className="flex items-center justify-between gap-8">{children}</div>;
+  return (
+    <div className="flex flex-col-reverse items-stretch gap-2 text-center sm:flex-row sm:items-center sm:justify-between sm:gap-8 sm:text-left">
+      {children}
+    </div>
+  );
 }
 
 /** Primary action (Check, Continue…). Disabled looks quiet, not broken. */
@@ -155,7 +163,7 @@ export function ActionButton({
       type="button"
       className={cn(
         buttonVariants({ variant: tone === 'stroke' ? 'stroke' : 'default', size: 'xl' }),
-        'min-w-40 shrink-0 disabled:border-2 disabled:border-border disabled:bg-white disabled:text-muted-foreground disabled:opacity-100',
+        'shrink-0 max-sm:w-full sm:min-w-40 disabled:border-2 disabled:border-border disabled:bg-white disabled:text-muted-foreground disabled:opacity-100',
         tone === 'learned' && 'bg-learned hover:bg-learned/90',
         className,
       )}
@@ -177,7 +185,7 @@ export function FeedbackCard({
   return (
     <div
       className={cn(
-        'flex items-end justify-between gap-7 rounded-lg border border-t-5 border-border bg-white px-6 py-5',
+        'flex flex-col items-stretch gap-4 panel border-t-5 px-4 py-4 sm:flex-row sm:items-end sm:justify-between sm:gap-7 sm:px-6 sm:py-5',
         tone === 'learned' && 'border-t-learned',
         tone === 'correction' && 'border-t-correction',
         tone === 'in-progress' && 'border-t-in-progress',

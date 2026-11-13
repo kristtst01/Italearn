@@ -21,19 +21,21 @@ export function PageHeader({
   title,
   description,
   aside,
+  className,
 }: {
   /** Always present, so titles line up across pages (no jump when switching sections) */
   label: ReactNode;
   title: ReactNode;
   description?: ReactNode;
   aside?: ReactNode;
+  className?: string;
 }) {
   return (
-    <div className="flex items-end justify-between gap-8">
-      <div className="flex flex-col gap-2">
+    <div className={cn('flex items-end justify-between gap-4 sm:gap-8', className)}>
+      <div className="flex min-w-0 flex-col gap-1.5 sm:gap-2">
         <Label>{label}</Label>
         <h1 className="font-display text-title">{title}</h1>
-        {description && <p className="max-w-2xl text-base text-muted-foreground">{description}</p>}
+        {description && <p className="max-w-2xl text-[0.9375rem] text-muted-foreground sm:text-base">{description}</p>}
       </div>
       {aside}
     </div>
@@ -62,8 +64,30 @@ const SHAPE_BG: Record<ShapeColor, string> = {
 };
 
 /**
+ * Decorative shapes behind a container's content. The container needs `relative isolate`.
+ * `fixed` pins them to the window instead (session screens, where the page scrolls under them).
+ */
+export function Shapes({ shapes, fixed = false, className }: { shapes: Shape[]; fixed?: boolean; className?: string }) {
+  return shapes.map((s, i) => (
+    <div
+      key={i}
+      aria-hidden
+      className={cn(
+        fixed ? 'fixed' : 'absolute',
+        '-z-10',
+        SHAPE_BG[s.color],
+        s.kind === 'circle' ? 'rounded-full' : 'rounded-t-full',
+        s.wideOnly && 'hidden 2xl:block',
+        className,
+      )}
+      style={{ ...s.position, width: s.size, height: s.kind === 'circle' ? s.size : s.size / 2 }}
+    />
+  ));
+}
+
+/**
  * A page below the top bar. Background shapes sit behind the content and must only
- * be placed in empty space (never behind cards or text).
+ * be placed in empty space (never behind cards or text), so narrower layouts leave them out.
  */
 export function Page({
   shapes = [],
@@ -76,20 +100,64 @@ export function Page({
 }) {
   return (
     <div className="relative isolate flex-1 overflow-clip">
-      {shapes.map((s, i) => (
-        <div
-          key={i}
-          aria-hidden
-          className={cn(
-            'absolute -z-10',
-            SHAPE_BG[s.color],
-            s.kind === 'circle' ? 'rounded-full' : 'rounded-t-full',
-            s.wideOnly && 'hidden 2xl:block',
-          )}
-          style={{ ...s.position, width: s.size, height: s.kind === 'circle' ? s.size : s.size / 2 }}
-        />
+      <Shapes shapes={shapes} className="max-lg:hidden" />
+      <main className={cn('mx-auto flex max-w-7xl flex-col gap-5 px-4 py-5 sm:px-6 sm:py-7 lg:gap-7 lg:px-14 lg:py-11', className)}>
+        {children}
+      </main>
+    </div>
+  );
+}
+
+// ── Brand ─────────────────────────────────────────────
+
+/** The sun-and-hill mark with the wordmark. `large` on the sign-in screen. */
+export function Logo({ large = false }: { large?: boolean }) {
+  return (
+    <span className={cn('flex items-center', large ? 'gap-3' : 'gap-2.5')}>
+      <span aria-hidden className="flex items-end">
+        <span className={cn('rounded-full bg-vermiglione', large ? 'size-7' : 'size-4.5')} />
+        <span className={cn('rounded-t-full bg-ocra', large ? '-ml-2 h-3.5 w-7' : '-ml-1.5 h-2.25 w-4.5')} />
+      </span>
+      <span className={cn('font-display', large ? 'text-3xl' : 'text-xl')}>ItaLearn</span>
+    </span>
+  );
+}
+
+// ── Numbers ───────────────────────────────────────────
+
+/** A big number with a quieter tail: "12 of 16", "340 known of 900". */
+export function Count({
+  value,
+  rest,
+  large = false,
+  className,
+}: {
+  value: ReactNode;
+  rest?: ReactNode;
+  /** Title size (result screens); otherwise stat size */
+  large?: boolean;
+  className?: string;
+}) {
+  return (
+    <p className={cn('font-display', large ? 'text-title' : 'text-3xl sm:text-4xl', className)}>
+      {value}
+      {rest && (
+        <span className={cn('font-sans font-medium text-muted-foreground', large ? 'text-2xl' : 'text-base')}> {rest}</span>
+      )}
+    </p>
+  );
+}
+
+/** A row of figures between two rules, for result screens. */
+export function StatRow({ stats }: { stats: { value: ReactNode; caption: ReactNode }[] }) {
+  return (
+    <div className="grid gap-x-3 border-y border-border py-5 sm:py-6" style={{ gridTemplateColumns: `repeat(${stats.length}, minmax(0, 1fr))` }}>
+      {stats.map((s, i) => (
+        <div key={i} className="flex flex-col gap-1">
+          <span className="font-display text-3xl sm:text-4xl">{s.value}</span>
+          <span className="text-sm text-muted-foreground">{s.caption}</span>
+        </div>
       ))}
-      <main className={cn('mx-auto flex max-w-7xl flex-col gap-7 px-14 py-11', className)}>{children}</main>
     </div>
   );
 }
@@ -184,9 +252,19 @@ export function MajolicaTile({ status, size = 44 }: { status: TileStatus; size?:
   );
 }
 
-export function TileGrid({ tiles, size = 44, columns = 5 }: { tiles: TileStatus[]; size?: number; columns?: number }) {
+export function TileGrid({
+  tiles,
+  size = 44,
+  columns = 5,
+  className,
+}: {
+  tiles: TileStatus[];
+  size?: number;
+  columns?: number;
+  className?: string;
+}) {
   return (
-    <div className="grid w-max" style={{ gridTemplateColumns: `repeat(${columns}, ${size}px)` }}>
+    <div className={cn('grid w-max shrink-0', className)} style={{ gridTemplateColumns: `repeat(${columns}, ${size}px)` }}>
       {tiles.map((t, i) => (
         <MajolicaTile key={i} status={t} size={size} />
       ))}
@@ -201,6 +279,7 @@ export function Stamp({
   caption,
   earned,
   fluid = false,
+  compact = false,
   className,
 }: {
   title: string;
@@ -208,8 +287,28 @@ export function Stamp({
   earned: boolean;
   /** Fill the width of its container (e.g. a grid cell) and keep stamp proportions */
   fluid?: boolean;
+  /** Small, title only: page headers on narrower screens */
+  compact?: boolean;
   className?: string;
 }) {
+  if (compact) {
+    return (
+      <div
+        className={cn(
+          'flex h-22 w-18 shrink-0 items-start justify-between gap-0.5 border-3 border-dotted bg-white p-1.5',
+          earned ? 'border-vermiglione-scuro' : 'border-muted-foreground/40',
+          className,
+        )}
+      >
+        <p className={cn('font-display text-[0.6875rem] leading-tight', earned ? 'text-vermiglione-scuro' : 'text-muted-foreground')}>
+          {title}
+        </p>
+        <span
+          className={cn('size-2.5 shrink-0 rounded-full', earned ? 'bg-vermiglione-scuro' : 'border-[1.5px] border-muted-foreground/40')}
+        />
+      </div>
+    );
+  }
   return (
     <div
       className={cn(
@@ -249,8 +348,8 @@ export function Postcard({
 }) {
   return (
     <div className="airmail rounded p-2.5">
-      <div className="flex flex-col gap-6 bg-white px-10 pt-7 pb-10">
-        <div className="flex items-center justify-between gap-6">
+      <div className="flex flex-col gap-6 bg-white px-4 pt-5 pb-6 sm:px-10 sm:pt-7 sm:pb-10">
+        <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3">
           <Label>{title}</Label>
           <div className="flex items-center gap-5">
             {meta && <span className="text-sm text-muted-foreground">{meta}</span>}

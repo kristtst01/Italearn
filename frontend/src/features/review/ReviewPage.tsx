@@ -5,7 +5,7 @@ import SessionHeader from '@/shared/components/SessionHeader';
 import SessionLayout from '@/shared/components/SessionLayout';
 import { toSegments } from '@/shared/utils/segments';
 import { ExerciseProvider } from '@/shared/components/ExerciseContext';
-import CloseIcon from '@/shared/components/CloseIcon';
+import CloseButton from '@/shared/components/CloseButton';
 import renderExercise from '@/features/exercises/renderExercise';
 import { useReviewSession } from './useReviewSession';
 import ReviewIntro from './ReviewIntro';
@@ -55,14 +55,7 @@ export default function ReviewPage() {
           segments={toSegments(results, totalExercises)}
           counter={`${currentIndex + 1} / ${totalExercises}`}
           exit={
-            <button
-              type="button"
-              onClick={goBack}
-              className="text-muted-foreground transition-colors hover:text-foreground"
-              aria-label="Exit review"
-            >
-              <CloseIcon />
-            </button>
+            <CloseButton onClick={goBack} aria-label="Exit review" />
           }
         />
       }

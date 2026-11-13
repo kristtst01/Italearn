@@ -12,7 +12,7 @@ import EmptyState from '@/shared/components/EmptyState';
 import LoadingScreen from '@/shared/components/LoadingScreen';
 import SessionHeader from '@/shared/components/SessionHeader';
 import SessionLayout from '@/shared/components/SessionLayout';
-import { Label, MajolicaTile } from '@/shared/components/design';
+import { Count, Label, MajolicaTile } from '@/shared/components/design';
 import { buttonVariants } from '@/components/ui/button';
 import { toSegments } from '@/shared/utils/segments';
 import { cn } from '@/lib/utils';
@@ -161,10 +161,7 @@ function Score({ label, score, total }: { label: string; score: number; total: n
   return (
     <div className="flex flex-col gap-2">
       <Label>{label}</Label>
-      <p className="font-display text-title">
-        {score}
-        <span className="font-sans text-2xl font-medium text-muted-foreground"> of {total}</span>
-      </p>
+      <Count value={score} rest={`of ${total}`} large />
     </div>
   );
 }
@@ -191,7 +188,7 @@ function PracticeResult({
       <p className="max-w-150 text-reading">
         {mistakes === 0 ? `No mistakes. When you're ready, ${next}.` : `Go over your mistakes, or ${next} when you're ready.`}
       </p>
-      <div className="flex gap-3">
+      <div className="flex flex-col gap-2.5 sm:flex-row sm:flex-wrap sm:gap-3">
         {isLast ? (
           <Link to={`/grammar/${unit.id}/check`} className={buttonVariants({ size: 'xl' })}>
             Take the check
@@ -241,7 +238,7 @@ function CheckResult({
           : `You need ${needed} of ${attempt.total} to pass. Read these parts again, then retake the check.`}
       </p>
       {missed.length > 0 && (
-        <div className={cn('flex max-w-150 flex-col gap-1.5 rounded-lg border border-border border-t-5 bg-white px-5 py-4', attempt.passed ? 'border-t-in-progress' : 'border-t-correction')}>
+        <div className={cn('panel flex max-w-150 flex-col gap-1.5 border-t-5 px-5 py-4', attempt.passed ? 'border-t-in-progress' : 'border-t-correction')}>
           <Label>{attempt.passed ? 'Worth a second look' : 'Read again'}</Label>
           {missed.map((p) => (
             <Link key={p.label} to={`/grammar/${unit.id}#${sectionAnchor(p.section)}`} className="font-medium text-cobalto">
@@ -250,7 +247,7 @@ function CheckResult({
           ))}
         </div>
       )}
-      <div className="flex gap-3">
+      <div className="flex flex-col gap-2.5 sm:flex-row sm:flex-wrap sm:gap-3">
         <Link to={`/grammar/${unit.id}`} className={buttonVariants({ size: 'xl' })}>
           Back to the unit
         </Link>

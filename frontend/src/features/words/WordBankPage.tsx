@@ -191,7 +191,7 @@ export default function WordBankPage() {
 
       {/* One toolbar: search, status, chapter, sort. Controls stay the same size however many chapters exist. */}
       <div className="flex flex-wrap items-center gap-3">
-        <div className="relative min-w-60 flex-1">
+        <div className="relative min-w-60 flex-1 max-sm:basis-full">
           <Search className="absolute top-1/2 left-3.5 size-4 -translate-y-1/2 text-muted-foreground" />
           <input
             type="text"
@@ -202,7 +202,7 @@ export default function WordBankPage() {
           />
         </div>
 
-        <div role="group" aria-label="Filter by status" className="flex h-11 rounded-lg border-2 border-border bg-white p-0.5">
+        <div role="group" aria-label="Filter by status" className="flex h-11 rounded-lg border-2 border-border bg-white p-0.5 max-sm:w-full max-sm:[&>button]:flex-1">
           {([null, 'due', 'learning', 'mature'] as (SRSStatus | null)[]).map((st) => (
             <button
               key={st ?? 'all'}
@@ -255,7 +255,7 @@ export default function WordBankPage() {
       ) : sorted.length === 0 ? (
         <p className="py-16 text-center text-muted-foreground">No words match your filters.</p>
       ) : (
-        <div className="grid grid-cols-2 gap-2.5">
+        <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
           {sorted.map((w) => {
             const { status, stability, reps, due } = getCardStats(cardMap.get(w.id));
             const info = STATUS_INFO[status];
@@ -264,7 +264,7 @@ export default function WordBankPage() {
             const strengthColor = strength >= 70 ? 'bg-learned' : strength >= 30 ? 'bg-in-progress' : 'bg-fading';
 
             return (
-              <div key={w.id} className="flex flex-col gap-1 rounded-lg border border-border bg-white px-4.5 py-3.5">
+              <div key={w.id} className="flex flex-col gap-1 panel px-4.5 py-3.5">
                 <div className="flex items-center justify-between gap-3">
                   <span className="text-lg font-bold">{w.word}</span>
                   <span className="flex items-center gap-1.5 text-xs font-bold text-muted-foreground">

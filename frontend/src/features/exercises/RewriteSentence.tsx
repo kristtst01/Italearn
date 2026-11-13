@@ -35,7 +35,7 @@ export default function RewriteSentence({ exercise, onComplete }: RewriteSentenc
       onBeforeSubmit={onBeforeSubmit}
     >
       <Prompt instruction={exercise.prompt.text}>
-        <span className="font-display text-4xl leading-tight tracking-tight">{exercise.sentence_context}</span>
+        <span className="font-display text-3xl leading-tight sm:text-4xl tracking-tight">{exercise.sentence_context}</span>
       </Prompt>
 
       <TextField

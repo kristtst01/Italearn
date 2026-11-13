@@ -121,7 +121,7 @@ export default function MatchPairs({ exercise, onComplete }: MatchPairsProps) {
     >
       <Prompt>{exercise.prompt.text}</Prompt>
 
-      <div className="grid grid-cols-2 gap-x-6 gap-y-3">
+      <div className="grid grid-cols-2 gap-x-3 gap-y-3 sm:gap-x-6">
         {/* Left column */}
         <div className="flex flex-col gap-2.5">
           {leftItems.map((item, idx) => {

@@ -45,10 +45,10 @@ export default function DialogueCompletion({ exercise, onComplete }: DialogueCom
                       placeholder="Your reply…"
                       autoFocus
                       disabled={submitted}
-                      className="min-w-96"
+                      className="w-[min(24rem,72vw)]"
                     />
                   ) : (
-                    <p className="rounded-lg border border-border bg-white px-4.5 py-3 text-lg">{line.text}</p>
+                    <p className="panel px-4.5 py-3 text-lg">{line.text}</p>
                   )}
                 </div>
               );

@@ -50,7 +50,7 @@ export default function MultipleChoice({ exercise, onComplete }: MultipleChoiceP
       {(submitted) => (
           <>
             <ExercisePrompt exercise={exercise} showContext />
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-3">
               {options.map((option, i) => (
                 <Choice
                   key={option}

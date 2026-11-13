@@ -39,7 +39,7 @@ export default function LibraryPage() {
         label={`A1 · ${getChapters().length} chapters`}
         title="Library"
         aside={
-          <nav className="flex gap-7">
+          <nav className="flex gap-5 sm:gap-7">
             <Tab to="/library">Chapters</Tab>
             <Tab to="/library/words">Words</Tab>
           </nav>
@@ -83,7 +83,7 @@ export function ChaptersTab() {
   const recommended = recommendedChapter(completed);
   const chapters = getChapters();
   const grid = (list: Unit[]) => (
-    <div className="grid grid-cols-3 gap-3.5">
+    <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2 sm:gap-3.5 lg:grid-cols-3">
       {list.map((unit) => (
         <ChapterCard key={unit.id} unit={unit} completed={completed} isNext={unit.id === recommended?.id} />
       ))}

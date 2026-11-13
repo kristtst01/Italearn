@@ -1,5 +1,5 @@
 import * as AlertDialog from '@radix-ui/react-alert-dialog';
-import CloseIcon from '@/shared/components/CloseIcon';
+import CloseButton from '@/shared/components/CloseButton';
 import { buttonVariants } from '@/components/ui/button';
 
 interface ExitButtonProps {
@@ -9,37 +9,18 @@ interface ExitButtonProps {
   inProgress: boolean;
 }
 
-export default function ExitButton({
-  showConfirm,
-  onToggle,
-  onExit,
-  inProgress,
-}: ExitButtonProps) {
-  if (!inProgress) {
-    return (
-      <button
-        onClick={onExit}
-        className="text-muted-foreground transition-colors hover:text-foreground"
-        aria-label="Exit lesson"
-      >
-        <CloseIcon />
-      </button>
-    );
-  }
+/** Leaves a lesson or grammar session; asks first if answers would be lost. */
+export default function ExitButton({ showConfirm, onToggle, onExit, inProgress }: ExitButtonProps) {
+  if (!inProgress) return <CloseButton onClick={onExit} aria-label="Exit lesson" />;
 
   return (
     <AlertDialog.Root open={showConfirm} onOpenChange={onToggle}>
       <AlertDialog.Trigger asChild>
-        <button
-          className="text-muted-foreground transition-colors hover:text-foreground"
-          aria-label="Exit lesson"
-        >
-          <CloseIcon />
-        </button>
+        <CloseButton aria-label="Exit lesson" />
       </AlertDialog.Trigger>
       <AlertDialog.Portal>
         <AlertDialog.Overlay className="fixed inset-0 z-40 bg-foreground/40" />
-        <AlertDialog.Content className="fixed top-1/2 left-1/2 z-50 w-96 -translate-x-1/2 -translate-y-1/2 rounded-lg bg-white p-7">
+        <AlertDialog.Content className="fixed top-1/2 left-1/2 z-50 w-[calc(100%-2rem)] max-w-96 -translate-x-1/2 -translate-y-1/2 rounded-lg bg-white p-7">
           <AlertDialog.Title className="font-display text-xl">
             Exit lesson?
           </AlertDialog.Title>

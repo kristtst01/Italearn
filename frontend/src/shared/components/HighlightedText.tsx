@@ -34,7 +34,7 @@ function WordHint({ entry, children }: { entry?: VocabEntry; children: ReactNode
         {children}
       </mark>
       {open && entry && (
-        <span className="absolute top-full left-1/2 z-50 mt-2 block w-56 -translate-x-1/2 rounded-lg border border-border bg-white p-3.5 text-left text-base font-normal">
+        <span className="absolute top-full left-1/2 z-50 mt-2 block w-56 -translate-x-1/2 panel p-3.5 text-left text-base font-normal">
           <span className="block font-bold">{entry.word}</span>
           <span className="block text-sm text-muted-foreground">{entry.meaning}</span>
           {entry.example && (

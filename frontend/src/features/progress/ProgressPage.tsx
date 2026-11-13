@@ -4,7 +4,7 @@ import { getAllVocab } from '@/engine/vocabCache';
 import { getChapters, stampEarned } from '@/engine/chapters';
 import { GRAMMAR_PLAN } from '@/data/grammarPlan';
 import { grammarTiles } from '@/engine/grammar';
-import { Label, Page, PageHeader, Postcard, SegmentBar, Stamp, TileGrid } from '@/shared/components/design';
+import { Count, Label, Page, PageHeader, Postcard, SegmentBar, Stamp, TileGrid } from '@/shared/components/design';
 
 export default function ProgressPage() {
   const completed = useProgressStore((s) => s.lessons_completed);
@@ -22,6 +22,7 @@ export default function ProgressPage() {
   const chapters = getChapters();
   const stamps = chapters.map((u) => ({ unit: u, earned: stampEarned(u, completed) }));
   const earnedCount = stamps.filter((s) => s.earned).length;
+  const tiles = grammarTiles();
 
   return (
     <Page
@@ -37,28 +38,24 @@ export default function ProgressPage() {
         description="What you actually know, measured by your reviews. It drops if you stop practising."
       />
 
-      <div className="flex items-start gap-12">
-        <div className="flex flex-1 flex-col gap-3">
+      <div className="flex flex-col gap-8 lg:flex-row lg:items-start lg:gap-12">
+        <div className="flex flex-col gap-3 lg:flex-1">
           <Label>Words · of the A1 vocabulary</Label>
-          <p className="font-display text-4xl">
-            {known.size} <span className="font-sans text-base font-medium text-muted-foreground">known of {total}</span>
-          </p>
+          <Count value={known.size} rest={`known of ${total}`} />
           <SegmentBar learned={solidPct} fading={fadingPct} thick />
           <div className="flex flex-wrap gap-x-5 gap-y-1 text-sm whitespace-nowrap text-muted-foreground">
             <span className="flex items-center gap-1.5"><span className="size-2 rounded-full bg-learned" />{solidPct}% solid</span>
             <span className="flex items-center gap-1.5"><span className="size-2 rounded-full bg-fading" />{fadingPct}% due for review</span>
           </div>
         </div>
-        <div className="flex w-105 shrink-0 items-center gap-5.5">
-          <TileGrid tiles={grammarTiles()} size={44} columns={8} />
+        <div className="flex items-center gap-4 sm:gap-5.5 lg:w-105 lg:shrink-0">
+          <TileGrid tiles={tiles} size={44} columns={8} className="max-sm:hidden" />
+          <TileGrid tiles={tiles} size={26} columns={8} className="sm:hidden" />
           <div className="flex flex-col gap-1">
             <Label>Grammar units</Label>
-            <p className="font-display text-3xl">
-              {grammarTiles().filter((t) => t === 'learned').length}
-              <span className="font-sans text-base font-medium text-muted-foreground"> of {GRAMMAR_PLAN.length}</span>
-            </p>
+            <Count value={tiles.filter((t) => t === 'learned').length} rest={`of ${GRAMMAR_PLAN.length}`} className="text-3xl" />
             <p className="text-sm text-muted-foreground">
-              {grammarTiles().filter((t) => t === 'in-progress').length} in progress
+              {tiles.filter((t) => t === 'in-progress').length} in progress
             </p>
           </div>
         </div>
@@ -69,7 +66,7 @@ export default function ProgressPage() {
         meta={`${earnedCount} of ${stamps.length} collected`}
         postmark="A1"
       >
-        <div className="grid grid-cols-[repeat(auto-fill,minmax(7.5rem,1fr))] gap-5">
+        <div className="grid grid-cols-[repeat(auto-fill,minmax(6.5rem,1fr))] gap-3 sm:grid-cols-[repeat(auto-fill,minmax(7.5rem,1fr))] sm:gap-5">
           {stamps.map(({ unit, earned }) => (
             <Stamp key={unit.id} title={unit.stamp_title ?? unit.name} caption={`A1 · ${unit.name}`} earned={earned} fluid />
           ))}

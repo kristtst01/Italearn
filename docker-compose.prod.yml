@@ -1,0 +1,46 @@
+# Production stack for the server: Postgres + API. Caddy on the host terminates HTTPS
+# and proxies to 127.0.0.1:8010. Needs DB_PASSWORD and CORS_ORIGINS in a .env next to this file.
+name: italearn
+
+# Docker keeps container logs forever unless capped.
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: 100m
+    max-file: "3"
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    logging: *logging
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: italearn
+      POSTGRES_USER: italearn
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?set DB_PASSWORD in .env}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U italearn"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  api:
+    build: ./backend
+    restart: unless-stopped
+    logging: *logging
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --proxy-headers --forwarded-allow-ips=*
+    ports:
+      - "127.0.0.1:8010:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file:
+      - ./backend/.env
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://italearn:${DB_PASSWORD}@db:5432/italearn
+      - CORS_ORIGINS=${CORS_ORIGINS:?set CORS_ORIGINS in .env}
+
+volumes:
+  pgdata:

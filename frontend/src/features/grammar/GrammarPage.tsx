@@ -14,12 +14,12 @@ function list(units: PlannedGrammarUnit[]) {
         <li key={g.id}>
           <Link
             to={`/grammar/${g.id}`}
-            className="flex items-center gap-5 rounded-lg border border-border bg-white px-5 py-4 text-foreground hover:border-muted-foreground/40"
+            className="flex items-center gap-3.5 panel px-3.5 py-3 text-foreground hover:border-muted-foreground/40 sm:gap-5 sm:px-5 sm:py-4"
           >
             <MajolicaTile status={grammarUnitStatus(g.id)} size={40} />
-            <div className="flex flex-1 flex-col gap-0.5">
+            <div className="flex min-w-0 flex-1 flex-col gap-0.5">
               <span className="font-display text-sm text-muted-foreground">{String(g.order).padStart(2, '0')}</span>
-              <span className="text-lg font-bold">{g.title}</span>
+              <span className="font-bold sm:text-lg">{g.title}</span>
               <span className="text-sm text-muted-foreground">
                 Used in {g.chapters.map((c) => getChapter(c)?.name).filter(Boolean).join(', ')}
               </span>

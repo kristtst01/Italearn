@@ -1,7 +1,8 @@
 import { useGoBack } from '@/shared/utils/useGoBack';
 import type { ReviewResult } from '@/types';
 import { buttonVariants } from '@/components/ui/button';
-import { Label } from '@/shared/components/design';
+import { PageHeader, StatRow } from '@/shared/components/design';
+import SessionLayout from '@/shared/components/SessionLayout';
 
 interface ReviewSummaryProps {
   result: ReviewResult;
@@ -12,24 +13,19 @@ export default function ReviewSummary({ result }: ReviewSummaryProps) {
   const pct = result.total > 0 ? Math.round((result.correct / result.total) * 100) : 0;
 
   return (
-    <div className="flex min-h-dvh items-center justify-center p-8">
-      <div className="flex w-full max-w-lg flex-col gap-6">
-        <Label>Review complete</Label>
-        <h1 className="font-display text-title">Fatto!</h1>
-        <div className="grid grid-cols-2 border-y border-border py-6">
-          <div className="flex flex-col gap-1">
-            <span className="font-display text-4xl">{pct}%</span>
-            <span className="text-sm text-muted-foreground">{result.correct} of {result.total} correct</span>
-          </div>
-          <div className="flex flex-col gap-1">
-            <span className="font-display text-4xl">{result.total}</span>
-            <span className="text-sm text-muted-foreground">card{result.total !== 1 ? 's' : ''} reviewed</span>
-          </div>
-        </div>
-        <button type="button" onClick={goBack} autoFocus className={buttonVariants({ size: 'xl', className: 'self-start' })}>
+    <SessionLayout>
+      <div className="flex flex-col gap-8 py-6">
+        <PageHeader label="Review complete" title="Fatto!" />
+        <StatRow
+          stats={[
+            { value: `${pct}%`, caption: `${result.correct} of ${result.total} correct` },
+            { value: result.total, caption: `card${result.total !== 1 ? 's' : ''} reviewed` },
+          ]}
+        />
+        <button type="button" onClick={goBack} autoFocus className={buttonVariants({ size: 'xl', className: 'self-stretch sm:min-w-44 sm:self-start' })}>
           Done
         </button>
       </div>
-    </div>
+    </SessionLayout>
   );
 }

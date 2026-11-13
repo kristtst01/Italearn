@@ -39,7 +39,7 @@ function UserTag() {
   }
 
   return (
-    <div className="rounded-lg border border-border bg-white px-5 py-4">
+    <div className="panel px-5 py-4">
       <div className="flex items-center gap-4">
         <div className="flex size-12 items-center justify-center rounded-full bg-cobalto font-display text-lg text-white">
           {(displayName ?? user?.firstName ?? '?')[0].toUpperCase()}
@@ -112,7 +112,7 @@ export default function ProfilePage() {
           {showAccount ? 'Hide account settings' : 'Account settings'}
         </button>
         {showAccount && (
-          <div className="w-full overflow-hidden rounded-lg border border-border bg-white">
+          <div className="w-full overflow-hidden panel">
             <UserProfile
               routing="hash"
               appearance={{
@@ -147,7 +147,7 @@ export default function ProfilePage() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-3">
+            <div className="flex flex-col gap-2.5 sm:flex-row sm:gap-3">
               <button type="button" onClick={handleReset} className={buttonVariants({ size: 'xl' })}>
                 Yes, reset everything
               </button>

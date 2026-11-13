@@ -50,7 +50,7 @@ export default function GrammarTip({ tip, onDismiss }: GrammarTipProps) {
       )}
 
       <ActionRow>
-        <span className="text-sm text-muted-foreground">Press Enter to continue</span>
+        <span className="text-sm text-muted-foreground max-sm:hidden pointer-coarse:hidden">Press Enter to continue</span>
         <ActionButton tone="stroke" onClick={onDismiss}>
           Got it
         </ActionButton>

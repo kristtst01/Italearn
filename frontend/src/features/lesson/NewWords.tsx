@@ -25,22 +25,22 @@ export default function NewWords({ words, onStart }: { words: LessonVocab[]; onS
         </h2>
       </div>
 
-      <ul className="flex flex-col divide-y divide-border rounded-lg border border-border bg-white">
+      <ul className="flex flex-col divide-y divide-border panel">
         {words.map((w) => (
           <li
             key={w.id ?? w.word}
-            className="grid grid-cols-[auto_minmax(0,2fr)_minmax(0,3fr)] items-center gap-x-4 gap-y-0.5 px-5 py-3.5"
+            className="grid grid-cols-[auto_minmax(0,1fr)] items-center gap-x-3 gap-y-0.5 px-4 py-3 sm:grid-cols-[auto_minmax(0,2fr)_minmax(0,3fr)] sm:gap-x-4 sm:px-5 sm:py-3.5"
           >
             <AudioButton />
             <span className="text-lg font-bold">{w.word}</span>
-            <span className="text-lg text-muted-foreground">{w.meaning}</span>
-            {w.example && <span className="col-start-2 col-span-2 text-base italic">{w.example}</span>}
+            <span className="col-start-2 text-base text-muted-foreground sm:col-start-auto sm:text-lg">{w.meaning}</span>
+            {w.example && <span className="col-start-2 text-base italic sm:col-end-4">{w.example}</span>}
           </li>
         ))}
       </ul>
 
       <ActionRow>
-        <span className="text-sm text-muted-foreground">Press Enter to start</span>
+        <span className="text-sm text-muted-foreground max-sm:hidden pointer-coarse:hidden">Press Enter to start</span>
         <ActionButton onClick={onStart}>Start</ActionButton>
       </ActionRow>
     </div>
