@@ -1,0 +1,1494 @@
+{
+  "unit_id": "a1-prepositions",
+  "points": {
+    "simple": {
+      "label": "The simple prepositions",
+      "section": "The simple prepositions"
+    },
+    "joined": {
+      "label": "Joined forms (al, nel, sul…)",
+      "section": "Prepositions with the article"
+    },
+    "cities": {
+      "label": "Cities and countries",
+      "section": "Cities and countries"
+    },
+    "town": {
+      "label": "Places in town",
+      "section": "Places in town"
+    },
+    "da-person": {
+      "label": "At someone's place: da",
+      "section": "At someone's place: da"
+    },
+    "transport": {
+      "label": "Transport",
+      "section": "How you travel"
+    },
+    "origin": {
+      "label": "Where you're from",
+      "section": "Where you're from"
+    },
+    "di-owner": {
+      "label": "Di for whose",
+      "section": "Di: of and 's"
+    },
+    "partitive": {
+      "label": "Some: del, della, dei",
+      "section": "Some: del, della, dei"
+    }
+  },
+  "stops": [
+    {
+      "id": "joined",
+      "title": "Prepositions and their joined forms",
+      "after": "Prepositions with the article",
+      "exercises": [
+        {
+          "id": "a1-prepositions-p-01",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'per te' mean?"
+          },
+          "sentence_context": "Il caffè è per te.",
+          "correct_answer": "for you",
+          "distractors": [
+            "with you",
+            "from you"
+          ],
+          "hints": [
+            "Per: for."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "simple"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'fra' mean here?"
+          },
+          "sentence_context": "Arrivo fra cinque minuti.",
+          "correct_answer": "in (five minutes' time)",
+          "distractors": [
+            "between",
+            "for"
+          ],
+          "hints": [
+            "With a time, tra / fra means in."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "simple"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-03",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Join the preposition and the article."
+          },
+          "sentence_context": "Il libro è ___ tavolo.",
+          "correct_answer": "sul",
+          "distractors": [],
+          "hints": [
+            "su + il"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "joined"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-04",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Join the preposition and the article."
+          },
+          "sentence_context": "Il cellulare è ___ borsa.",
+          "correct_answer": "nella",
+          "distractors": [],
+          "hints": [
+            "in + la"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "joined"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-05",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Join the preposition and the article."
+          },
+          "sentence_context": "Il quaderno è ___ zaino.",
+          "correct_answer": "nello",
+          "distractors": [],
+          "hints": [
+            "in + lo"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "joined"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-06",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Join the preposition and the article."
+          },
+          "sentence_context": "Studio ___ università.",
+          "correct_answer": [
+            "all'"
+          ],
+          "distractors": [],
+          "hints": [
+            "a + l'"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "joined"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-07",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Join the preposition and the article."
+          },
+          "sentence_context": "La macchina ___ dottore è qui.",
+          "correct_answer": "del",
+          "distractors": [],
+          "hints": [
+            "di + il"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "joined"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-08",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Join the preposition and the article."
+          },
+          "sentence_context": "I libri ___ studenti sono sul tavolo.",
+          "correct_answer": "degli",
+          "distractors": [],
+          "hints": [
+            "di + gli"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "joined"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-09",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Join the preposition and the article."
+          },
+          "sentence_context": "La borsa è ___ sedia.",
+          "correct_answer": "sulla",
+          "distractors": [],
+          "hints": [
+            "su + la"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "joined"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-10",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Join the preposition and the article."
+          },
+          "sentence_context": "Do il gelato ___ bambini.",
+          "correct_answer": "ai",
+          "distractors": [],
+          "hints": [
+            "a + i"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "joined"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-11",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the joined form: di + le."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "delle"
+          ],
+          "distractors": [],
+          "hints": [
+            "Di becomes de-; le becomes -lle."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "joined"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-12",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the joined form: in + gli."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "negli"
+          ],
+          "distractors": [],
+          "hints": [
+            "In becomes ne-."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "joined"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-13",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'for the child'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "per il bambino",
+          "distractors": [
+            "pel bambino",
+            "peril bambino"
+          ],
+          "hints": [
+            "Per doesn't join in modern Italian."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "joined"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-14",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Il libro è su il tavolo.",
+          "correct_answer": [
+            "Il libro è sul tavolo."
+          ],
+          "distractors": [],
+          "hints": [
+            "Su + il always joins."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "joined"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-15",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Vado a il bar.",
+          "correct_answer": [
+            "Vado al bar."
+          ],
+          "distractors": [],
+          "hints": [
+            "A + il always joins."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "joined"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "places",
+      "title": "Where you are and where you're going",
+      "after": "At someone's place: da",
+      "exercises": [
+        {
+          "id": "a1-prepositions-p-16",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Abito ___ Roma.",
+          "correct_answer": "a",
+          "distractors": [],
+          "hints": [
+            "A city."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "cities"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-17",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Abito ___ Italia.",
+          "correct_answer": "in",
+          "distractors": [],
+          "hints": [
+            "A country."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "cities"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-18",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Domani vado ___ Francia.",
+          "correct_answer": "in",
+          "distractors": [],
+          "hints": [
+            "A country."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "cities"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-19",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Lavoro ___ Stati Uniti.",
+          "correct_answer": "negli",
+          "distractors": [],
+          "hints": [
+            "A plural country name."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "cities"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-20",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Stasera sono ___ casa.",
+          "correct_answer": "a",
+          "distractors": [],
+          "hints": [
+            "Home."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "town"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-21",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Domani lavoro ___ ufficio.",
+          "correct_answer": "in",
+          "distractors": [],
+          "hints": [
+            "The office."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "town"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-22",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Vado ___ supermercato.",
+          "correct_answer": "al",
+          "distractors": [],
+          "hints": [
+            "The supermarket takes a + the article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "town"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-23",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Prendo un caffè ___ bar.",
+          "correct_answer": "al",
+          "distractors": [],
+          "hints": [
+            "The bar takes a + the article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "town"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-24",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Oggi vado ___ medico.",
+          "correct_answer": "dal",
+          "distractors": [],
+          "hints": [
+            "To a person's place."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "da-person"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-25",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Stasera ceniamo ___ Giulia.",
+          "correct_answer": "da",
+          "distractors": [],
+          "hints": [
+            "At a person's place."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "da-person"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-26",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You're telling a friend you're at the pharmacy."
+          },
+          "sentence_context": "",
+          "correct_answer": "Sono in farmacia.",
+          "distractors": [
+            "Sono a farmacia.",
+            "Sono da farmacia."
+          ],
+          "hints": [
+            "Many shops in -ia take in."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "town"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-27",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'Tomorrow we're going to the mountains'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Domani andiamo in montagna.",
+          "distractors": [
+            "Domani andiamo a montagna.",
+            "Domani andiamo da montagna."
+          ],
+          "hints": [
+            "In montagna, in campagna; but al mare."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "town"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-28",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'in Marco's office'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "nell'ufficio di Marco",
+          "distractors": [
+            "in ufficio di Marco",
+            "all'ufficio di Marco"
+          ],
+          "hints": [
+            "When you say which one, the article comes back."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "town"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-29",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite: say you're going there."
+          },
+          "sentence_context": "Sono a Roma.",
+          "correct_answer": [
+            "Vado a Roma."
+          ],
+          "distractors": [],
+          "hints": [
+            "Being and going take the same preposition."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "cities"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-30",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Abito in Roma.",
+          "correct_answer": [
+            "Abito a Roma."
+          ],
+          "distractors": [],
+          "hints": [
+            "Cities take a."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "cities"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-31",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Vado al medico.",
+          "correct_answer": [
+            "Vado dal medico."
+          ],
+          "distractors": [],
+          "hints": [
+            "To a person's place: da."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "da-person"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-32",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: I live in Florence, in Tuscany."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Abito a Firenze, in Toscana."
+          ],
+          "distractors": [],
+          "hints": [
+            "A city, then a region."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "cities"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-origin",
+      "title": "Transport and where you're from",
+      "after": "Where you're from",
+      "exercises": [
+        {
+          "id": "a1-prepositions-p-33",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Vado a Roma ___ treno.",
+          "correct_answer": "in",
+          "distractors": [],
+          "hints": [
+            "Transport."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "transport"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-34",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Marco va in ufficio ___ bici.",
+          "correct_answer": "in",
+          "distractors": [],
+          "hints": [
+            "Transport."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "transport"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-35",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Vado in centro ___ piedi.",
+          "correct_answer": "a",
+          "distractors": [],
+          "hints": [
+            "On foot."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "transport"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-36",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'I'm going by plane'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Vado in aereo.",
+          "distractors": [
+            "Vado con aereo.",
+            "Vado a aereo."
+          ],
+          "hints": [
+            "Transport: in, no article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "transport"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-37",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which means 'on foot'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "a piedi",
+          "distractors": [
+            "in piedi",
+            "da piedi"
+          ],
+          "hints": [
+            "In piedi means standing."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "transport"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-38",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Sono ___ Milano.",
+          "correct_answer": "di",
+          "distractors": [],
+          "hints": [
+            "Essere + where you're from."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "origin"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-39",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Vengo ___ Milano.",
+          "correct_answer": "da",
+          "distractors": [],
+          "hints": [
+            "Venire + where you're from."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "origin"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-40",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Vengo ___ Francia.",
+          "correct_answer": "dalla",
+          "distractors": [],
+          "hints": [
+            "A country keeps its article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "origin"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-41",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Vengo ___ Stati Uniti.",
+          "correct_answer": "dagli",
+          "distractors": [],
+          "hints": [
+            "A plural country name keeps its article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "origin"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-42",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition: I'm coming back from work."
+          },
+          "sentence_context": "Torno ___ lavoro.",
+          "correct_answer": "dal",
+          "distractors": [],
+          "hints": [
+            "Coming back from somewhere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "origin"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-43",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Sono da Londra.",
+          "correct_answer": [
+            "Sono di Londra.",
+            "Vengo da Londra."
+          ],
+          "distractors": [],
+          "hints": [
+            "Essere di, venire da."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "origin"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-44",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Vengo da Francia.",
+          "correct_answer": [
+            "Vengo dalla Francia."
+          ],
+          "distractors": [],
+          "hints": [
+            "Countries keep their article after da."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "origin"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-45",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: I'm going home by bus."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Vado a casa in autobus."
+          ],
+          "distractors": [],
+          "hints": [
+            "A casa; transport with in."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "transport",
+            "town"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "di-some",
+      "title": "Di, some, and everything together",
+      "after": "Some: del, della, dei",
+      "exercises": [
+        {
+          "id": "a1-prepositions-p-46",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: Marco's car."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "la macchina di Marco"
+          ],
+          "distractors": [],
+          "hints": [
+            "The owner goes after di."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "di-owner"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-47",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Il cane ___ vicina è piccolo.",
+          "correct_answer": "della",
+          "distractors": [],
+          "hints": [
+            "Di + la."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "di-owner"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-48",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add the preposition."
+          },
+          "sentence_context": "Dove sono le chiavi ___ ufficio?",
+          "correct_answer": [
+            "dell'"
+          ],
+          "distractors": [],
+          "hints": [
+            "Di + l'."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "di-owner"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-49",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add 'some'."
+          },
+          "sentence_context": "Compro ___ pane.",
+          "correct_answer": "del",
+          "distractors": [],
+          "hints": [
+            "Some: di + il."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "partitive"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-50",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add 'some'."
+          },
+          "sentence_context": "Vorrei ___ acqua, per favore.",
+          "correct_answer": [
+            "dell'"
+          ],
+          "distractors": [],
+          "hints": [
+            "Some: di + l'."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "partitive"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-51",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add 'some'."
+          },
+          "sentence_context": "Stasera vengono ___ amici.",
+          "correct_answer": "degli",
+          "distractors": [],
+          "hints": [
+            "Some: di + gli."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "partitive"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-52",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Add 'some'."
+          },
+          "sentence_context": "Compro ___ bottiglie di vino.",
+          "correct_answer": "delle",
+          "distractors": [],
+          "hints": [
+            "Some: di + le."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "partitive"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-53",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it plural."
+          },
+          "sentence_context": "Stasera viene un amico.",
+          "correct_answer": [
+            "Stasera vengono degli amici."
+          ],
+          "distractors": [],
+          "hints": [
+            "The plural of un amico is degli amici."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "partitive"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-54",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it negative."
+          },
+          "sentence_context": "C'è del latte.",
+          "correct_answer": [
+            "Non c'è latte."
+          ],
+          "distractors": [],
+          "hints": [
+            "In negatives, leave out the partitive."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "partitive"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-55",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Il cane di la vicina è piccolo.",
+          "correct_answer": [
+            "Il cane della vicina è piccolo."
+          ],
+          "distractors": [],
+          "hints": [
+            "Di + la is della."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "di-owner",
+            "joined"
+          ]
+        },
+        {
+          "id": "a1-prepositions-p-56",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: Some friends are coming to Rome by train."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Degli amici vengono a Roma in treno.",
+            "Vengono degli amici a Roma in treno."
+          ],
+          "distractors": [],
+          "hints": [
+            "Degli amici; a with a city; in with transport."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "partitive",
+            "cities",
+            "transport"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-prepositions-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add the preposition."
+        },
+        "sentence_context": "Lavoro ___ Milano.",
+        "correct_answer": "a",
+        "distractors": [],
+        "hints": [
+          "A city."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "cities"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-02",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add the preposition."
+        },
+        "sentence_context": "Abitiamo ___ Inghilterra.",
+        "correct_answer": "in",
+        "distractors": [],
+        "hints": [
+          "A country."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "cities"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-03",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add the preposition."
+        },
+        "sentence_context": "Gli occhiali sono ___ tavolo.",
+        "correct_answer": "sul",
+        "distractors": [],
+        "hints": [
+          "On the table."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "joined"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-04",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add the preposition."
+        },
+        "sentence_context": "Il passaporto è ___ zaino.",
+        "correct_answer": "nello",
+        "distractors": [],
+        "hints": [
+          "In the backpack."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "joined"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-05",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add the preposition."
+        },
+        "sentence_context": "Domani vado ___ Marco.",
+        "correct_answer": "da",
+        "distractors": [],
+        "hints": [
+          "To a person's place."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "da-person"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-06",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add the preposition."
+        },
+        "sentence_context": "Vado ___ banca.",
+        "correct_answer": "in",
+        "distractors": [],
+        "hints": [
+          "The bank."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "town"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-07",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add the preposition."
+        },
+        "sentence_context": "Studio ___ biblioteca.",
+        "correct_answer": "in",
+        "distractors": [],
+        "hints": [
+          "The library."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "town"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-08",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add the preposition."
+        },
+        "sentence_context": "Stasera mangiamo ___ ristorante.",
+        "correct_answer": "al",
+        "distractors": [],
+        "hints": [
+          "The restaurant."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "town"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-09",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add the preposition."
+        },
+        "sentence_context": "Vengo ___ Stati Uniti.",
+        "correct_answer": "dagli",
+        "distractors": [],
+        "hints": [
+          "Where you're from, with a plural country name."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "origin"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-10",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Add 'some'."
+        },
+        "sentence_context": "Compro ___ zucchero.",
+        "correct_answer": "dello",
+        "distractors": [],
+        "hints": [
+          "Some, before z."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "partitive"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-11",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: I'm going to the doctor's by car."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Vado dal medico in macchina."
+        ],
+        "distractors": [],
+        "hints": [
+          "Da + the person; in + transport."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "da-person",
+          "transport"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-12",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: I live in Italy, in Florence."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Abito in Italia, a Firenze."
+        ],
+        "distractors": [],
+        "hints": [
+          "In with a country, a with a city."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "cities"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-13",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: the neighbour's cat."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "il gatto della vicina"
+        ],
+        "distractors": [],
+        "hints": [
+          "The owner goes after di."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "di-owner"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-14",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Make it negative."
+        },
+        "sentence_context": "Ho dei soldi.",
+        "correct_answer": [
+          "Non ho soldi."
+        ],
+        "distractors": [],
+        "hints": [
+          "In negatives, leave out the partitive."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "partitive"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-15",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Vado a scuola in piedi.",
+        "correct_answer": [
+          "Vado a scuola a piedi."
+        ],
+        "distractors": [],
+        "hints": [
+          "In piedi means standing."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "transport"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-16",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Vado a Stati Uniti.",
+        "correct_answer": [
+          "Vado negli Stati Uniti."
+        ],
+        "distractors": [],
+        "hints": [
+          "Countries take in; a plural name joins with the article."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "cities"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-17",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Studio a università.",
+        "correct_answer": [
+          "Studio all'università."
+        ],
+        "distractors": [],
+        "hints": [
+          "All'università: a + the article."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "town"
+        ]
+      },
+      {
+        "id": "a1-prepositions-m-18",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Sono da Roma.",
+        "correct_answer": [
+          "Sono di Roma.",
+          "Vengo da Roma."
+        ],
+        "distractors": [],
+        "hints": [
+          "Essere di, venire da."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "origin"
+        ]
+      }
+    ]
+  }
+}

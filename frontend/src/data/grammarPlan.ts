@@ -69,7 +69,7 @@ export const GRAMMAR_PLAN: PlannedGrammarUnit[] = [
   },
   {
     id: 'a1-prepositions', level: 'A1', order: 8, title: 'Prepositions', short: 'Prepositions',
-    covers: ['Simple prepositions', 'A and in with places', 'Articulated prepositions', 'Partitives (del, della…)', 'Transport'],
+    covers: ['The simple prepositions', 'Joined forms (al, nel, sul…)', 'A and in with places', 'Da with people', 'Transport', 'Where you\'re from', 'Di for whose', 'Partitives (del, della…)'],
     chapters: ['unit-13', 'unit-14', 'unit-16'],
   },
   {
