@@ -7,7 +7,7 @@ export default function CloseButton({ className, ...props }: ComponentProps<'but
   return (
     <button
       type="button"
-      className={cn('text-muted-foreground transition-colors hover:text-foreground', className)}
+      className={cn('flex size-10 items-center justify-center text-muted-foreground transition-colors hover:text-foreground', className)}
       {...props}
     >
       <X className="size-6" />

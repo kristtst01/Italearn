@@ -263,7 +263,7 @@ Not a money-making project: the aim is an open, free platform. Costs have to sta
 - (2026-09-29) Target audience is serious learners on an accelerated timeline.
 - (2026-09-29) Proposed: no visible tree; chapters + separate grammar section + time-budgeted Today plan + coverage-based progress. Pending design doc.
 - (2026-09-29) Grammar is taught as whole systems in one sitting, at textbook depth, then maintained through SRS. Bite-sized is for maintenance only.
-- (2026-09-29) Desktop first. Mobile design is out of scope for now.
+- (2026-09-29) Desktop first. Mobile design is out of scope for now. *Superseded 2026-11-13:* three layouts by width (full from 1024px, half a laptop screen from 600px, phone below), with touch only changing details; see design-system.md.
 - (2026-10-02) Grammar is written "simple, but true" (name exceptions, flag simplifications, check rules against Treccani / Crusca) and each unit's form follows its content; see the authoring guide, rules 9 and 10.
 - (2026-10-02) Quality pipeline: automatic content check on every change → AI review per unit → hands-on play-through (#62) → testers' error data. Native-speaker review when someone is available.
 - (2026-10-01) Numbers 0–100 is its own early grammar unit (before avere); the present tense is split into regular verbs and irregular verbs & modals. A1 has 16 grammar units.

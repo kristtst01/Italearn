@@ -22,7 +22,7 @@ export default function ReviewSummary({ result }: ReviewSummaryProps) {
             { value: result.total, caption: `card${result.total !== 1 ? 's' : ''} reviewed` },
           ]}
         />
-        <button type="button" onClick={goBack} autoFocus className={buttonVariants({ size: 'xl', className: 'min-w-44 self-start' })}>
+        <button type="button" onClick={goBack} autoFocus className={buttonVariants({ size: 'xl', className: 'self-stretch sm:min-w-44 sm:self-start' })}>
           Done
         </button>
       </div>

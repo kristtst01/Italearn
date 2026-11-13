@@ -19,7 +19,7 @@ export default function ReviewIntro({ dueCount, onStart }: ReviewIntroProps) {
               title="All caught up"
               description="Nothing is due right now. Come back later, or keep learning."
             />
-            <Link to="/" className={buttonVariants({ size: 'xl', className: 'min-w-44 self-start' })}>Back to Today</Link>
+            <Link to="/" className={buttonVariants({ size: 'xl', className: 'self-stretch sm:min-w-44 sm:self-start' })}>Back to Today</Link>
           </>
         ) : (
           <>
@@ -28,7 +28,7 @@ export default function ReviewIntro({ dueCount, onStart }: ReviewIntroProps) {
               title={`${dueCount} ${dueCount === 1 ? 'card' : 'cards'} due`}
               description="Short retrievals keep what you've learned from fading."
             />
-            <div className="flex gap-3">
+            <div className="flex flex-col gap-2.5 sm:flex-row sm:flex-wrap sm:gap-3">
               <button type="button" onClick={onStart} autoFocus className={buttonVariants({ size: 'xl', className: 'min-w-44' })}>
                 Start
               </button>

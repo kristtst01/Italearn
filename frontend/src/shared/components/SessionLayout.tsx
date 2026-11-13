@@ -25,10 +25,13 @@ export default function SessionLayout({
 }) {
   return (
     <div className="relative isolate flex min-h-dvh flex-col overflow-clip">
-      <Shapes shapes={SHAPES} fixed />
+      {/* Narrower, the content fills the width and there's no empty space for shapes */}
+      <Shapes shapes={SHAPES} fixed className="max-lg:hidden" />
       {header}
-      <main className="flex flex-1 flex-col px-8">
-        <div className={cn('mx-auto w-full pb-12', wide ? 'pt-12' : 'max-w-190 pt-[max(3rem,12vh)]')}>{children}</div>
+      <main className="flex flex-1 flex-col px-4 sm:px-6 lg:px-8">
+        <div className={cn('mx-auto w-full pb-12', wide ? 'pt-6 sm:pt-12' : 'max-w-190 pt-6 sm:pt-9 lg:pt-[max(3rem,12vh)]')}>
+          {children}
+        </div>
       </main>
     </div>
   );

@@ -38,7 +38,7 @@ function toBlocks(paragraphs: string[]): Block[] {
  */
 export default function ReadingPanel({ text }: { text: ReadingText }) {
   return (
-    <article className="panel px-10 py-8">
+    <article className="panel px-4 py-5 sm:px-10 sm:py-8">
       <div className="flex max-w-prose flex-col gap-5 text-passage">
         <div className="flex flex-col gap-2">
           <Label>Read</Label>
@@ -47,7 +47,7 @@ export default function ReadingPanel({ text }: { text: ReadingText }) {
         {toBlocks(text.paragraphs).map((block, i) => {
           if (block.kind === 'list') {
             return (
-              <dl key={i} className="flex w-2/3 flex-col gap-1">
+              <dl key={i} className="flex w-full flex-col gap-1 sm:w-2/3">
                 {block.items.map(([item, detail]) => (
                   <div key={item} className="flex items-baseline gap-3">
                     <dt>{item}</dt>

@@ -188,7 +188,7 @@ function PracticeResult({
       <p className="max-w-150 text-reading">
         {mistakes === 0 ? `No mistakes. When you're ready, ${next}.` : `Go over your mistakes, or ${next} when you're ready.`}
       </p>
-      <div className="flex gap-3">
+      <div className="flex flex-col gap-2.5 sm:flex-row sm:flex-wrap sm:gap-3">
         {isLast ? (
           <Link to={`/grammar/${unit.id}/check`} className={buttonVariants({ size: 'xl' })}>
             Take the check
@@ -247,7 +247,7 @@ function CheckResult({
           ))}
         </div>
       )}
-      <div className="flex gap-3">
+      <div className="flex flex-col gap-2.5 sm:flex-row sm:flex-wrap sm:gap-3">
         <Link to={`/grammar/${unit.id}`} className={buttonVariants({ size: 'xl' })}>
           Back to the unit
         </Link>

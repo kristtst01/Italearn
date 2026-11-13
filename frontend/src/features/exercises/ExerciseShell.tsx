@@ -96,7 +96,7 @@ export default function ExerciseShell({
             <button type="button" onClick={handleSkip} className="font-bold text-foreground hover:underline">
               Skip
             </button>
-            <span> · press Enter to check</span>
+            <span className="max-sm:hidden pointer-coarse:hidden"> · press Enter to check</span>
           </p>
           <ActionButton onClick={handleSubmit} disabled={!canSubmit || validating}>
             {validating ? 'Checking…' : 'Check'}

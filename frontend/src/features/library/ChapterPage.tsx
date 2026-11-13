@@ -39,7 +39,7 @@ function LessonCard({ meta, lesson, done }: { meta: LessonMeta; lesson?: Lesson;
   return (
     <Link
       to={`/lesson/${meta.id}`}
-      className="flex items-start justify-between gap-3 panel px-4.5 py-3.5 text-foreground hover:border-muted-foreground/40"
+      className="flex items-start justify-between gap-3 panel px-3.5 py-3 text-foreground hover:border-muted-foreground/40 sm:px-4.5 sm:py-3.5"
     >
       <div className="flex flex-col gap-1">
         <Label>{kind.label}</Label>
@@ -99,7 +99,7 @@ export default function ChapterPage() {
   const earned = stampEarned(unit, completed);
 
   const cards = (list: LessonMeta[], extra?: React.ReactNode) => (
-    <div className="grid grid-cols-2 gap-2.5">
+    <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-2.5">
       {list.map((l) => (
         <LessonCard key={l.id} meta={l} lesson={lessons[l.id]} done={completed.includes(l.id)} />
       ))}
@@ -133,21 +133,23 @@ export default function ChapterPage() {
       ]}
       className="pb-36"
     >
-      <Link to="/library" className="text-sm font-bold text-cobalto">‹ Library</Link>
+      <Link to="/library" className="self-start text-sm font-bold text-cobalto">‹ Library</Link>
       <PageHeader
         label={`Chapter ${String(unit.order).padStart(2, '0')} · A1`}
         title={unit.name}
         description={unit.can_do ?? unit.grammar_focus}
+        className="max-lg:items-start"
         aside={
           <div className="flex flex-col items-center gap-1.5">
-            <Stamp title={unit.stamp_title ?? unit.name} caption={`A1 · ${unit.name}`} earned={earned} />
-            <span className="text-xs text-muted-foreground">{earned ? 'Stamp earned' : 'Earn this stamp'}</span>
+            <Stamp title={unit.stamp_title ?? unit.name} caption={`A1 · ${unit.name}`} earned={earned} className="max-lg:hidden" />
+            <Stamp title={unit.stamp_title ?? unit.name} earned={earned} compact className="lg:hidden" />
+            <span className="text-xs text-muted-foreground max-lg:hidden">{earned ? 'Stamp earned' : 'Earn this stamp'}</span>
           </div>
         }
       />
 
-      <div className="flex items-start gap-10">
-        <div className="flex flex-1 flex-col gap-6">
+      <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:gap-10">
+        <div className="flex flex-col gap-6 lg:flex-1">
           {sections.map((s, i) => (
             <Section key={s.title} n={i + 1} title={s.title} note={'note' in s ? s.note : undefined}>
               {s.content}
@@ -155,18 +157,23 @@ export default function ChapterPage() {
           ))}
         </div>
 
-        <aside className="flex w-70 shrink-0 flex-col gap-3">
-          <Label>Grammar this chapter uses</Label>
-          {grammar.length === 0 && <p className="text-sm text-muted-foreground">{unit.grammar_focus}</p>}
+        <aside className="flex flex-col gap-2 max-lg:order-first lg:w-70 lg:shrink-0 lg:gap-3">
+          <Label className="max-lg:hidden">Grammar this chapter uses</Label>
+          {grammar.length === 0 && <p className="text-sm text-muted-foreground max-lg:hidden">{unit.grammar_focus}</p>}
           {grammar.map((g) => (
-            <Link key={g.id} to={`/grammar/${g.id}`} className="flex flex-col gap-1 bg-cobalto p-4.5 text-white">
-              <span className="text-xs font-bold uppercase tracking-label text-white/75">
-                Grammar unit {g.order} ·{' '}
+            <Link
+              key={g.id}
+              to={`/grammar/${g.id}`}
+              className="flex flex-col gap-0.5 bg-cobalto px-4 py-3 text-white lg:gap-1 lg:p-4.5"
+            >
+              <span className="text-[0.6875rem] font-bold uppercase tracking-label text-white/75 lg:text-xs">
+                <span className="lg:hidden">Grammar it uses · </span>
+                <span className="max-lg:hidden">Grammar unit {g.order} · </span>
                 {!isGrammarUnitWritten(g.id)
                   ? 'coming soon'
                   : { learned: 'learned', 'in-progress': 'in progress', empty: 'not started' }[grammarUnitStatus(g.id)]}
               </span>
-              <span className="font-display text-xl">{g.title}</span>
+              <span className="font-display text-lg lg:text-xl">{g.title}</span>
             </Link>
           ))}
         </aside>

@@ -147,7 +147,7 @@ export default function ProfilePage() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-3">
+            <div className="flex flex-col gap-2.5 sm:flex-row sm:gap-3">
               <button type="button" onClick={handleReset} className={buttonVariants({ size: 'xl' })}>
                 Yes, reset everything
               </button>

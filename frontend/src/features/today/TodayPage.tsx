@@ -55,8 +55,9 @@ export default function TodayPage() {
     >
       <PageHeader label={`${today} · your plan`} title="Today" />
 
-      <div className="flex items-start gap-10">
-        <section className="relative isolate flex-1 overflow-hidden bg-cobalto px-8 py-7 text-white">
+      <div className="flex flex-col gap-5 sm:gap-6 lg:flex-row lg:items-start lg:gap-10">
+        {/* Edge to edge on a phone */}
+        <section className="relative isolate overflow-hidden bg-cobalto px-4 py-5.5 text-white max-sm:-mx-4 sm:px-6 sm:py-6 lg:flex-1 lg:px-8 lg:py-7">
           <Shapes
             shapes={[
               { kind: 'half', color: 'ocra', size: 200, position: { right: -40, bottom: -80 } },
@@ -68,12 +69,12 @@ export default function TodayPage() {
             {steps.length === 0 ? (
               <p className="text-lg font-bold">Nothing planned. Pick anything from the Library.</p>
             ) : (
-              <ol className="flex flex-col gap-4.5">
+              <ol className="flex flex-col gap-3.5 sm:gap-4.5">
                 {steps.map((step, i) => (
-                  <li key={step.title} className="flex items-baseline gap-4">
+                  <li key={step.title} className="flex items-baseline gap-3 sm:gap-4">
                     <span className="w-4.5 font-display text-lg text-white/60">{i + 1}</span>
                     <div className="flex flex-col gap-0.5">
-                      <span className="text-lg font-bold">{step.title}</span>
+                      <span className="font-bold sm:text-lg">{step.title}</span>
                       <span className="text-sm text-white/80">{step.detail}</span>
                     </div>
                   </li>
@@ -81,29 +82,30 @@ export default function TodayPage() {
               </ol>
             )}
             <div className="flex items-center gap-4.5">
-              <Link to={startHref} className={buttonVariants({ size: 'xl' })}>
+              <Link to={startHref} className={buttonVariants({ size: 'xl', className: 'max-sm:w-full' })}>
                 Start session
               </Link>
             </div>
           </div>
         </section>
 
-        <aside className="flex w-75 shrink-0 flex-col gap-7 pt-1">
+        <aside className="grid gap-5 sm:grid-cols-[auto_minmax(0,1fr)] sm:gap-x-6 lg:flex lg:w-75 lg:shrink-0 lg:flex-col lg:gap-7 lg:pt-1">
           <div className="flex flex-col gap-3">
             <Label>A1 grammar</Label>
-            <div className="flex items-center gap-3.5">
-              <TileGrid tiles={tiles} size={36} columns={8} />
+            <div className="flex flex-wrap items-center gap-x-3.5 gap-y-2">
+              <TileGrid tiles={tiles} size={30} columns={8} />
               <p className="text-sm text-muted-foreground">
                 <b className="text-foreground">{tiles.filter((t) => t === 'learned').length} learned</b>
-                <br />
+                <br className="lg:hidden" />
+                <span className="max-lg:hidden"> · </span>
                 {tiles.filter((t) => t === 'in-progress').length} in progress
               </p>
             </div>
           </div>
-          <div className="border-t border-border pt-5">
+          <div className="sm:col-span-2 sm:row-start-2 lg:border-t lg:border-border lg:pt-5">
             <Placeholder title="Talk to your tutor" description="A spoken conversation, pitched at what you know." />
           </div>
-          <div className="flex flex-col gap-2 border-t border-border pt-5">
+          <div className="flex flex-col gap-2 max-sm:border-t max-sm:border-border max-sm:pt-4 sm:border-l sm:border-border sm:pl-6 lg:border-l-0 lg:border-t lg:pt-5 lg:pl-0">
             <Label>Or choose for yourself</Label>
             <Link to="/library" className="font-semibold text-cobalto hover:underline">Browse chapters</Link>
             <Link to="/grammar" className="font-semibold text-cobalto hover:underline">Grammar</Link>

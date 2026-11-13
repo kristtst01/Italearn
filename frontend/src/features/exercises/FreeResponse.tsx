@@ -102,7 +102,7 @@ export default function FreeResponse({ exercise, onComplete }: FreeResponseProps
           className="w-full resize-none rounded-lg border-2 border-border bg-white px-4.5 py-3.5 text-reading outline-none transition-colors focus:border-cobalto disabled:text-muted-foreground"
         />
         <div className="flex justify-between text-xs text-muted-foreground">
-          <span>Ctrl+Enter to submit</span>
+          <span className="max-sm:invisible pointer-coarse:invisible">Ctrl+Enter to submit</span>
           <span className={charsLeft < 100 ? 'text-correction' : ''}>{charsLeft.toLocaleString()} characters left</span>
         </div>
       </div>

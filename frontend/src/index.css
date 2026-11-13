@@ -47,11 +47,16 @@
     --font-display: 'Archivo Black', 'Archivo Variable', system-ui, sans-serif;
     --font-hand: 'Caveat', cursive;
 
-    /* Type scale (docs/design-system.md) */
-    --text-title: 2.75rem;
+    /* Layouts (docs/design-system.md, "Screen sizes"): phone below sm, half a laptop screen
+       from sm, the full layout from lg. Width decides the layout; touch only changes details. */
+    --breakpoint-sm: 37.5rem;
+    --breakpoint-lg: 64rem;
+
+    /* Type scale (docs/design-system.md). Titles shrink smoothly with the window. */
+    --text-title: clamp(2rem, 1.4rem + 1.9vw, 2.75rem);
     --text-title--line-height: 1.05;
     --text-title--letter-spacing: -0.02em;
-    --text-heading: 1.5rem;
+    --text-heading: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
     --text-heading--line-height: 1.2;
     --text-reading: 1.0625rem;
     --text-reading--line-height: 1.6;

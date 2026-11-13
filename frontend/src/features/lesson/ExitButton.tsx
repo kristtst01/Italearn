@@ -20,7 +20,7 @@ export default function ExitButton({ showConfirm, onToggle, onExit, inProgress }
       </AlertDialog.Trigger>
       <AlertDialog.Portal>
         <AlertDialog.Overlay className="fixed inset-0 z-40 bg-foreground/40" />
-        <AlertDialog.Content className="fixed top-1/2 left-1/2 z-50 w-96 -translate-x-1/2 -translate-y-1/2 rounded-lg bg-white p-7">
+        <AlertDialog.Content className="fixed top-1/2 left-1/2 z-50 w-[calc(100%-2rem)] max-w-96 -translate-x-1/2 -translate-y-1/2 rounded-lg bg-white p-7">
           <AlertDialog.Title className="font-display text-xl">
             Exit lesson?
           </AlertDialog.Title>

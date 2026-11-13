@@ -38,7 +38,8 @@ export default function CompletionScreen({
         aside={
           stamp && (
             <div className="flex flex-col items-center gap-1.5">
-              <Stamp title={stamp.title} caption={stamp.caption} earned />
+              <Stamp title={stamp.title} caption={stamp.caption} earned className="max-sm:hidden" />
+              <Stamp title={stamp.title} earned compact className="sm:hidden" />
               <span className="text-xs font-bold text-correction">Stamp earned</span>
             </div>
           )
@@ -53,7 +54,7 @@ export default function CompletionScreen({
         ]}
       />
 
-      <div className="flex gap-3">
+      <div className="flex flex-col gap-2.5 sm:flex-row sm:flex-wrap sm:gap-3">
         <button
           type="button"
           onClick={onContinue}
