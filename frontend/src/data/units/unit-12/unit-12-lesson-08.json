@@ -1,0 +1,21 @@
+{
+  "id": "unit-12-lesson-08",
+  "unit_id": "unit-12",
+  "name": "My Neighbourhood",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-12-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe where you live: what's near your home, what's far, and how you get to town." },
+      "sentence_context": "",
+      "correct_answer": "Abito a Leeds, vicino alla stazione. Sotto casa c'è un supermercato, e di fronte c'è un parco. La banca e la posta sono in centro, lontano da casa. Vado in centro in autobus. Nel fine settimana incontro gli amici al bar.",
+      "distractors": [],
+      "hints": ["Vicino a, sotto casa, di fronte, lontano da; then transport with in or a piedi."],
+      "target_words": ["sotto", "di fronte", "lontano"]
+    }
+  ],
+  "vocabulary": []
+}

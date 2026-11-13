@@ -1,0 +1,151 @@
+{
+  "id": "unit-12-lesson-07",
+  "unit_id": "unit-12",
+  "name": "Paul's List",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-12-lesson-07-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How long has Paul been in Florence?" },
+      "sentence_context": "",
+      "correct_answer": "A week",
+      "distractors": ["A month", "A day"],
+      "hints": ["'Da una settimana.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-12-lesson-07-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Paul need at the bank?" },
+      "sentence_context": "",
+      "correct_answer": "To change money",
+      "distractors": ["To send a parcel", "To buy stamps"],
+      "hints": ["Read the list."],
+      "target_words": ["cambiare"]
+    },
+    {
+      "id": "unit-12-lesson-07-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is the parcel going?" },
+      "sentence_context": "",
+      "correct_answer": "To London",
+      "distractors": ["To Florence", "To Paris"],
+      "hints": ["Read the list."],
+      "target_words": ["pacco"]
+    },
+    {
+      "id": "unit-12-lesson-07-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What's the problem at the bank?" },
+      "sentence_context": "",
+      "correct_answer": "He doesn't have his passport",
+      "distractors": ["The bank is far away", "He has no money"],
+      "hints": ["'Senza passaporto non può cambiare soldi.'"],
+      "target_words": ["senza"]
+    },
+    {
+      "id": "unit-12-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Paul do after the bank?" },
+      "sentence_context": "",
+      "correct_answer": "He goes to the post office",
+      "distractors": ["He goes to the supermarket", "He goes home first"],
+      "hints": ["'Allora va in posta.'"],
+      "target_words": ["allora"]
+    },
+    {
+      "id": "unit-12-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Paul goes to the supermarket today." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'E il supermercato? Domani.'"],
+      "target_words": ["lista"]
+    },
+    {
+      "id": "unit-12-lesson-07-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: Here is the list." },
+      "sentence_context": "Ecco la ___.",
+      "correct_answer": "lista",
+      "distractors": [],
+      "hints": ["Paul writes one."],
+      "target_words": ["lista"]
+    },
+    {
+      "id": "unit-12-lesson-07-ex-08",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'senza' mean?" },
+      "sentence_context": "Senza passaporto non può cambiare soldi.",
+      "correct_answer": ["without"],
+      "distractors": [],
+      "hints": ["Paul has no passport."],
+      "target_words": ["senza"]
+    },
+    {
+      "id": "unit-12-lesson-07-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'allora' mean?" },
+      "sentence_context": "Non ha il passaporto. Allora va in posta.",
+      "correct_answer": ["so", "then", "so then"],
+      "distractors": [],
+      "hints": ["What he does next, because of that."],
+      "target_words": ["allora"]
+    },
+    {
+      "id": "unit-12-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa compra Paul in posta?" },
+      "sentence_context": "Che cosa compra Paul in posta?",
+      "correct_answer": ["due francobolli", "compra due francobolli", "i francobolli"],
+      "distractors": [],
+      "hints": ["Read the list."],
+      "target_words": ["francobollo"]
+    },
+    {
+      "id": "unit-12-lesson-07-ex-11",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why does Paul go home in the end?" },
+      "sentence_context": "",
+      "correct_answer": "To get his passport",
+      "distractors": ["To leave the parcel", "To have lunch"],
+      "hints": ["'Torna a casa a prendere il passaporto.'"],
+      "target_words": ["senza"]
+    },
+    {
+      "id": "unit-12-lesson-07-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dove va Paul prima?" },
+      "sentence_context": "Dove va Paul prima?",
+      "correct_answer": ["in banca", "va in banca", "prima va in banca"],
+      "distractors": [],
+      "hints": ["Prima…"],
+      "target_words": ["prima"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "lista", "meaning": "list", "example": "Ecco la lista: pane, latte, acqua." },
+    { "word": "senza", "meaning": "without", "example": "Senza passaporto non può cambiare soldi." },
+    { "word": "prima", "meaning": "first, before · prima … poi = first … then", "example": "Prima va in banca, poi in posta." },
+    { "word": "allora", "meaning": "so, then", "example": "Non ho soldi. Allora vado in banca." }
+  ],
+  "reading": {
+    "title": "Oggi in centro",
+    "paragraphs": ["Paul è a Firenze da una settimana. Oggi deve andare in centro. Ecco la lista:", "Banca · cambiare soldi", "Posta · spedire un pacco a Londra, due francobolli", "Supermercato · pane, latte, acqua", "Prima va in banca. Ma c'è un problema: Paul non ha il passaporto, e senza passaporto non può cambiare soldi.", "Allora va in posta, spedisce il pacco e compra i francobolli. Poi torna a casa a prendere il passaporto.", "Che giornata! E il supermercato? Domani."]
+  }
+}

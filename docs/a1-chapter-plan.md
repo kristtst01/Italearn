@@ -34,7 +34,7 @@ The order in [course.ts](../frontend/src/data/course.ts) follows this table as c
 
 | Chapter | Profilo words to include |
 |---|---|
-| Around Town | *attenzione, cambiare, incontrare, portare, chiesa, posta, francobollo, busta, pacco, indirizzo, parcheggio, polizia, giù, là, arte, quadro* |
+| Around Town (written) | *attenzione, cambiare, incontrare, portare, chiesa, posta, francobollo, busta, pacco, indirizzo, parcheggio, polizia, là, senza*, and the location words *davanti, dietro, sopra, sotto, fuori, lontano*. Still to place: *giù, arte, quadro* |
 | Food & the Market | *carne, pesce, verdura, pasta, riso, pomodoro, frutta, menù, piatto, forchetta, coltello, cucchiaio, pepe, aceto, cibo, spaghetto, mercato, metà* |
 | Getting to Know Someone | *dopo, posto, quasi, significare, strada, domandare, scusare, saluto, telefonare, internet, fumare, sigaretta, falso* |
 | Describing People & Things | *corto, lungo, largo, stretto, magro, ricco, sporco, felice, triste, importante, intelligente, interessante, biondo, castano, maschio, femmina* |
@@ -44,7 +44,7 @@ The order in [course.ts](../frontend/src/data/course.ts) follows this table as c
 | My Family | *famiglia, amore, bacio, affetto, animale* |
 | Likes & Plans | *appuntamento, festa* |
 | A Day in My Life | *orologio, trovare* |
-| Finding Your Way | *destra, sinistra, sopra, sotto, davanti, dietro, avanti, indietro, fuori, lontano, senza* |
+| Finding Your Way | *destra, sinistra, avanti, indietro* (the location words moved to Around Town, which needs them to say where places are) |
 | Feeling Unwell | *malato, medicina, salute* |
 | A Trip | *albergo, hotel, piano, prenotare, valigia, straniero, estero, nazione, internazionale, agenzia, informazione, check-in, singolo, doppio, cartolina, ambasciata, consolato, ritornare, morire* |
 | Not placed yet | *industria, segreteria, stop*: wherever a chapter uses them. *Alfabeto* and *nazionalità* belong in chapters 1–2. |

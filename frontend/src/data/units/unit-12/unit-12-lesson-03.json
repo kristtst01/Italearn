@@ -1,265 +1,166 @@
 {
   "id": "unit-12-lesson-03",
   "unit_id": "unit-12",
-  "name": "Stare, Dare & Dire",
+  "name": "Errands",
   "order": 3,
-  "grammar_tips": [
-    {
-      "id": "unit-12-lesson-03-tip-01",
-      "title": "Stare",
-      "explanation": "'Stare' (to stay / be in a state): sto, stai, sta, stiamo, state, stanno. You already know it from 'Come stai?' — it's for health and states. 'Sto bene', 'Marco sta male'.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-12-lesson-03-tip-02",
-      "title": "Dare",
-      "explanation": "'Dare' (to give): do, dai, dà, diamo, date, danno. Note 'dà' has an accent so you don't confuse it with 'da' (from). 'Mi dai il libro?' = Can you give me the book?",
-      "before_exercise": 7
-    },
-    {
-      "id": "unit-12-lesson-03-tip-03",
-      "title": "Dire",
-      "explanation": "'Dire' (to say / tell): dico, dici, dice, diciamo, dite, dicono. Used a lot in conversation. 'Cosa dici?' = What are you saying? 'Come si dice...?' (from Unit 1) literally means 'How does one say...?'",
-      "before_exercise": 13
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-12-lesson-03-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'stare' mean?" },
-      "sentence_context": "Sto bene.",
-      "correct_answer": "To stay / be (state)",
-      "distractors": ["To do", "To go", "To say"],
-      "hints": ["I'm well."],
-      "target_words": ["stare"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'francobollo' mean?" },
+      "sentence_context": "Un francobollo, per favore.",
+      "correct_answer": ["stamp", "a stamp"],
+      "distractors": [],
+      "hints": ["You put it on a letter."],
+      "target_words": ["francobollo"]
     },
     {
       "id": "unit-12-lesson-03-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'dare' mean?" },
-      "sentence_context": "Do il libro a Marco.",
-      "correct_answer": "To give",
-      "distractors": ["To take", "To get", "To put"],
-      "hints": ["I give the book to Marco."],
-      "target_words": ["dare"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'pacco' mean?" },
+      "sentence_context": "Devo spedire un pacco.",
+      "correct_answer": ["parcel", "a parcel", "package", "a package"],
+      "distractors": [],
+      "hints": ["Something you send by post."],
+      "target_words": ["pacco"]
     },
     {
       "id": "unit-12-lesson-03-ex-03",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'dire' mean?" },
-      "sentence_context": "Dico la verità.",
-      "correct_answer": "To say / tell",
-      "distractors": ["To do", "To hear", "To go"],
-      "hints": ["I tell the truth."],
-      "target_words": ["dire"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'incontro' mean?" },
+      "sentence_context": "Oggi incontro Giulia in centro.",
+      "correct_answer": ["I meet", "I'm meeting", "I am meeting"],
+      "distractors": [],
+      "hints": ["Incontrare, io."],
+      "target_words": ["incontrare"]
     },
     {
       "id": "unit-12-lesson-03-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'esame' mean?" },
-      "sentence_context": "Domani ho un esame.",
-      "correct_answer": "Exam",
-      "distractors": ["Class", "Lesson", "Book"],
-      "hints": ["Tomorrow I have an exam."],
-      "target_words": ["esame"]
+      "prompt": { "text": "At the post office, you want to send a parcel to England." },
+      "sentence_context": "",
+      "correct_answer": "Vorrei spedire un pacco in Inghilterra.",
+      "distractors": ["Vorrei portare un francobollo in Inghilterra.", "Vorrei cambiare un pacco in Inghilterra."],
+      "hints": ["Spedire un pacco."],
+      "target_words": ["pacco"]
     },
     {
       "id": "unit-12-lesson-03-ex-05",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Io ___ bene.",
-      "correct_answer": "sto",
+      "prompt": { "text": "Complete: I need an envelope." },
+      "sentence_context": "Ho bisogno di una ___.",
+      "correct_answer": "busta",
       "distractors": [],
-      "hints": ["I'm well. (io form of stare)"],
-      "target_words": ["stare"]
+      "hints": ["For a letter."],
+      "target_words": ["busta"]
     },
     {
       "id": "unit-12-lesson-03-ex-06",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Marco ___ male.",
-      "correct_answer": "sta",
+      "prompt": { "text": "Complete: I have to change money at the bank." },
+      "sentence_context": "Devo ___ soldi in banca.",
+      "correct_answer": "cambiare",
       "distractors": [],
-      "hints": ["Marco is unwell. (lui form of stare)"],
-      "target_words": ["stare"]
+      "hints": ["To change."],
+      "target_words": ["cambiare"]
     },
     {
       "id": "unit-12-lesson-03-ex-07",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Noi ___ a casa.",
-      "correct_answer": "stiamo",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend asks what you are doing in town today." },
+      "sentence_context": "Friend: Che cosa fai oggi in centro?\nYou: ___",
+      "correct_answer": ["Vado in posta a spedire un pacco.", "Devo andare in banca e in posta.", "Incontro Marco in piazza."],
       "distractors": [],
-      "hints": ["We're staying at home. (noi form of stare)"],
-      "target_words": ["stare"]
+      "hints": ["Where you are going, and why."],
+      "target_words": ["pacco"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Che cosa fai oggi in centro?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-12-lesson-03-ex-08",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Io ___ il libro a Marco.",
-      "correct_answer": "do",
-      "distractors": [],
-      "hints": ["I give the book to Marco. (io form of dare)"],
-      "target_words": ["dare"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A car is coming and your friend hasn't seen it. You shout:" },
+      "sentence_context": "",
+      "correct_answer": "Attenzione!",
+      "distractors": ["Permesso!", "Prego!"],
+      "hints": ["Watch out!"],
+      "target_words": ["attenzione"]
     },
     {
       "id": "unit-12-lesson-03-ex-09",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Tu ___ il libro a me?",
-      "correct_answer": "dai",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you're taking the parcel to the post office." },
+      "sentence_context": "",
+      "correct_answer": ["porto il pacco in posta", "porto il pacco alla posta"],
       "distractors": [],
-      "hints": ["Will you give me the book? (tu form of dare)"],
-      "target_words": ["dare"]
+      "hints": ["Portare."],
+      "target_words": ["portare", "pacco"]
     },
     {
       "id": "unit-12-lesson-03-ex-10",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Io ___ ciao.",
-      "correct_answer": "dico",
-      "distractors": [],
-      "hints": ["I say hello. (io form of dire)"],
-      "target_words": ["dire"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I'm meeting Marco in the square.'" },
+      "sentence_context": "Incontro Marco in piazza.",
+      "correct_answer": ["Incontro", "Marco", "in", "piazza."],
+      "distractors": ["alla", "incontra"],
+      "hints": ["Incontrare, io."],
+      "target_words": ["incontrare"]
     },
     {
       "id": "unit-12-lesson-03-ex-11",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Cosa ___?",
-      "correct_answer": "dici",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you have Giulia's address." },
+      "sentence_context": "",
+      "correct_answer": ["ho l'indirizzo di Giulia"],
       "distractors": [],
-      "hints": ["What are you saying? (tu form of dire)"],
-      "target_words": ["dire"]
+      "hints": ["L'indirizzo di Giulia."],
+      "target_words": ["indirizzo"]
     },
     {
       "id": "unit-12-lesson-03-ex-12",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Anna ___ la verità.",
-      "correct_answer": "dice",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'indirizzo' mean?" },
+      "sentence_context": "Ho un indirizzo a Firenze.",
+      "correct_answer": ["address", "an address"],
       "distractors": [],
-      "hints": ["Anna tells the truth. (lei form of dire)"],
-      "target_words": ["dire"]
+      "hints": ["Where someone lives."],
+      "target_words": ["indirizzo"]
     },
     {
       "id": "unit-12-lesson-03-ex-13",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'I'm well' in Italian?" },
-      "sentence_context": "Sto bene.",
-      "correct_answer": "sto bene",
+      "prompt": { "text": "Ask for two stamps for England." },
+      "sentence_context": "",
+      "correct_answer": ["due francobolli per l'Inghilterra, per favore", "due francobolli per l'Inghilterra"],
       "distractors": [],
-      "hints": ["From stare."],
-      "target_words": ["stare"]
-    },
-    {
-      "id": "unit-12-lesson-03-ex-14",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'I give' in Italian?" },
-      "sentence_context": "Do il libro a Marco.",
-      "correct_answer": "do",
-      "distractors": [],
-      "hints": ["Two letters."],
-      "target_words": ["dare"]
-    },
-    {
-      "id": "unit-12-lesson-03-ex-15",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'I say' in Italian?" },
-      "sentence_context": "Dico la verità.",
-      "correct_answer": "dico",
-      "distractors": [],
-      "hints": ["dir- + io ending → dico."],
-      "target_words": ["dire"]
-    },
-    {
-      "id": "unit-12-lesson-03-ex-16",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'noi' form of 'dire'." },
-      "sentence_context": "Noi ___ ciao.",
-      "correct_answer": "diciamo",
-      "distractors": [],
-      "hints": ["noi → diciamo."],
-      "target_words": ["dire"]
-    },
-    {
-      "id": "unit-12-lesson-03-ex-17",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'loro' form of 'dare'." },
-      "sentence_context": "Loro ___ il libro a Marco.",
-      "correct_answer": "danno",
-      "distractors": [],
-      "hints": ["loro → danno."],
-      "target_words": ["dare"]
-    },
-    {
-      "id": "unit-12-lesson-03-ex-18",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'loro' form of 'stare'." },
-      "sentence_context": "Loro ___ bene.",
-      "correct_answer": "stanno",
-      "distractors": [],
-      "hints": ["loro → stanno."],
-      "target_words": ["stare"]
-    },
-    {
-      "id": "unit-12-lesson-03-ex-19",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I'm staying at home.'" },
-      "sentence_context": "Sto a casa.",
-      "correct_answer": ["Sto", "a", "casa."],
-      "distractors": ["vado", "in"],
-      "hints": ["'Stare' for location and state."],
-      "target_words": ["stare"]
-    },
-    {
-      "id": "unit-12-lesson-03-ex-20",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I give the book to Marco.'" },
-      "sentence_context": "Do il libro a Marco.",
-      "correct_answer": ["Do", "il", "libro", "a", "Marco."],
-      "distractors": ["dai", "in"],
-      "hints": ["'Dare' + object + 'a' + person."],
-      "target_words": ["dare"]
-    },
-    {
-      "id": "unit-12-lesson-03-ex-21",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Tomorrow I have an exam.'" },
-      "sentence_context": "Domani ho un esame.",
-      "correct_answer": ["Domani", "ho", "un", "esame."],
-      "distractors": ["lezione", "stasera"],
-      "hints": ["Use 'ho' + 'un esame'."],
-      "target_words": ["esame"]
+      "hints": ["Francobolli, plural."],
+      "target_words": ["francobollo"]
     }
   ],
   "vocabulary": [
-    { "word": "stare", "meaning": "To stay / to be (state)", "example": "Sto bene." },
-    { "word": "dare", "meaning": "To give", "example": "Do il libro a Marco." },
-    { "word": "dire", "meaning": "To say / tell", "example": "Dico la verità." },
-    { "word": "esame", "meaning": "Exam", "example": "Domani ho un esame." }
+    { "word": "francobollo", "meaning": "stamp · francobolli = stamps", "example": "Un francobollo per l'Inghilterra, per favore." },
+    { "word": "busta", "meaning": "envelope; also a shopping bag", "example": "Ho bisogno di una busta." },
+    { "word": "pacco", "meaning": "parcel, package · pacchi = parcels", "example": "Devo spedire un pacco." },
+    { "word": "indirizzo", "meaning": "address", "example": "Ho l'indirizzo di Giulia." },
+    { "word": "cambiare", "meaning": "to change · cambiare soldi = to change money", "example": "Devo cambiare soldi in banca." },
+    { "word": "portare", "meaning": "to bring, to take, to carry", "example": "Porto il pacco in posta." },
+    { "word": "incontrare", "meaning": "to meet (someone)", "example": "Oggi incontro Giulia in centro." },
+    { "word": "attenzione", "meaning": "attention · Attenzione! = Careful! Watch out!", "example": "Attenzione! C'è una macchina!" }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "id": "unit-12-lesson-09",
+  "unit_id": "unit-12",
+  "name": "A Note for a Guest",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-12-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "A friend is staying at your place while you're at work. Leave a note: where they can find a bar, a supermarket and a pharmacy nearby, and where the keys are."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ciao! C'è un bar sotto casa. Il supermercato è in piazza, accanto alla chiesa, e la farmacia è di fronte alla posta. Le chiavi sono sul tavolo, in cucina. A presto!",
+      "distractors": [],
+      "hints": ["Where each place is, with accanto a, di fronte a, sotto casa."],
+      "target_words": ["accanto", "di fronte", "sotto"]
+    }
+  ],
+  "vocabulary": []
+}

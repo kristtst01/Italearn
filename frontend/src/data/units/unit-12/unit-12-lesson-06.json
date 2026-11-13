@@ -1,91 +1,115 @@
 {
   "id": "unit-12-lesson-06",
   "unit_id": "unit-12",
-  "name": "Practice Writing",
+  "name": "Where Giulia Lives",
   "order": 6,
-  "grammar_tips": [
-    {
-      "id": "unit-12-lesson-06-tip-01",
-      "title": "Out and About",
-      "explanation": "Use fare, andare, venire, uscire, stare, dare and dire to write about what you do, where you go, and what's happening today and tonight.",
-      "before_exercise": 0
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-12-lesson-06-ex-01",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Describe what you do in a typical day using fare and andare. (3-4 sentences)"
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where does Giulia live?" },
       "sentence_context": "",
-      "correct_answer": "La mattina faccio colazione a casa. Poi vado al lavoro. A mezzogiorno faccio una pausa. La sera vado a casa.",
-      "distractors": [],
-      "hints": [
-        "Use both 'fare' (with colazione/spesa/sport) and 'andare a' + place."
-      ],
-      "target_words": [
-        "fare",
-        "andare",
-        "colazione"
-      ]
+      "correct_answer": "In the centre of Florence",
+      "distractors": ["Near the station", "In the countryside"],
+      "hints": ["'In un appartamento in centro.'"],
+      "target_words": []
     },
     {
       "id": "unit-12-lesson-06-ex-02",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Make plans for tonight. Say what you do, who comes with you, and where you go. (3-4 sentences)"
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What's downstairs from Giulia's flat?" },
       "sentence_context": "",
-      "correct_answer": "Stasera esco con gli amici. Andiamo al cinema insieme. Marco viene con noi. Dopo facciamo cena a casa mia.",
-      "distractors": [],
-      "hints": [
-        "Use uscire, venire, andare and 'stasera'."
-      ],
-      "target_words": [
-        "uscire",
-        "venire",
-        "stasera",
-        "insieme"
-      ]
+      "correct_answer": "A bar",
+      "distractors": ["A pharmacy", "A supermarket"],
+      "hints": ["'Sotto casa c'è un bar.'"],
+      "target_words": ["sotto"]
     },
     {
       "id": "unit-12-lesson-06-ex-03",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Talk about how you and your family are. Who is well, who is unwell, what they say. (3-4 sentences)"
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is the supermarket?" },
       "sentence_context": "",
-      "correct_answer": "Io sto bene. Mio fratello sta male oggi. Mia madre dice che ho un esame domani. Stiamo tutti a casa.",
-      "distractors": [],
-      "hints": [
-        "Use 'sto/sta', 'dico/dice'."
-      ],
-      "target_words": [
-        "stare",
-        "dire"
-      ]
+      "correct_answer": "Next to the pharmacy",
+      "distractors": ["Behind the church", "Opposite the bar"],
+      "hints": ["'Accanto alla farmacia.'"],
+      "target_words": ["accanto"]
     },
     {
       "id": "unit-12-lesson-06-ex-04",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Talk about giving something to someone. Include who you give it to and why. (2-3 sentences)"
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: the post office is close to Giulia's flat." },
       "sentence_context": "",
-      "correct_answer": "Do un libro a mia sorella. È un libro italiano. Mia sorella impara l'italiano.",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'La posta, invece, è lontano.'"],
+      "target_words": ["invece"]
+    },
+    {
+      "id": "unit-12-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How does Giulia get to work?" },
+      "sentence_context": "",
+      "correct_answer": "On foot or by bike",
+      "distractors": ["By bus", "By car"],
+      "hints": ["'A piedi o in bici.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-12-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why doesn't Giulia have a car?" },
+      "sentence_context": "",
+      "correct_answer": "There's nowhere to park in the centre",
+      "distractors": ["She lives far from the centre", "She has no money"],
+      "hints": ["'In centro non c'è parcheggio!'"],
+      "target_words": ["parcheggio"]
+    },
+    {
+      "id": "unit-12-lesson-06-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The bank is near. The post office, on the other hand, is far." },
+      "sentence_context": "La banca è vicino. La posta, ___, è lontano.",
+      "correct_answer": "invece",
       "distractors": [],
-      "hints": [
-        "Use 'dare' + object + 'a' + person."
-      ],
-      "target_words": [
-        "dare"
-      ]
+      "hints": ["On the other hand."],
+      "target_words": ["invece"]
+    },
+    {
+      "id": "unit-12-lesson-06-ex-08",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dov'è la banca?" },
+      "sentence_context": "Dov'è la banca?",
+      "correct_answer": ["è dietro la chiesa", "dietro la chiesa", "la banca è dietro la chiesa"],
+      "distractors": [],
+      "hints": ["Read the third paragraph."],
+      "target_words": ["dietro"]
+    },
+    {
+      "id": "unit-12-lesson-06-ex-09",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dove lavora Giulia?" },
+      "sentence_context": "Dove lavora Giulia?",
+      "correct_answer": ["in una scuola di lingue", "lavora in una scuola di lingue", "Giulia lavora in una scuola di lingue"],
+      "distractors": [],
+      "hints": ["Insegna inglese…"],
+      "target_words": []
     }
   ],
-  "vocabulary": []
+  "vocabulary": [
+    { "word": "invece", "meaning": "on the other hand, instead", "example": "La banca è vicino. La posta, invece, è lontano." }
+  ],
+  "reading": {
+    "title": "Dove abita Giulia",
+    "paragraphs": ["Giulia abita a Firenze, in un appartamento in centro, vicino a piazza San Marco.", "Sotto casa c'è un bar. Ogni mattina Giulia prende un caffè al bar, al banco, e poi va al lavoro.", "Di fronte al bar c'è una farmacia, e accanto alla farmacia c'è un piccolo supermercato. La banca è vicino, dietro la chiesa. La posta, invece, è lontano.", "Giulia insegna inglese in una scuola di lingue. Non prende l'autobus: va a scuola a piedi o in bici.", "Nel fine settimana incontra gli amici in piazza, o va al cinema.", "Giulia non ha la macchina: in centro non c'è parcheggio!"]
+  }
 }

@@ -1,0 +1,87 @@
+{
+  "id": "unit-12-lesson-10",
+  "unit_id": "unit-12",
+  "name": "Say It Out Loud",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-12-lesson-10-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Scusi, dov'è la posta?",
+      "correct_answer": "Scusi, dov'è la posta?",
+      "distractors": [],
+      "hints": ["Asking the way, politely."],
+      "target_words": ["posta"]
+    },
+    {
+      "id": "unit-12-lesson-10-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "La farmacia è accanto alla banca.",
+      "correct_answer": "La farmacia è accanto alla banca.",
+      "distractors": [],
+      "hints": ["Accanto alla."],
+      "target_words": ["accanto"]
+    },
+    {
+      "id": "unit-12-lesson-10-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Il bar è di fronte alla chiesa.",
+      "correct_answer": "Il bar è di fronte alla chiesa.",
+      "distractors": [],
+      "hints": ["Di fronte alla."],
+      "target_words": ["di fronte", "chiesa"]
+    },
+    {
+      "id": "unit-12-lesson-10-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Il parcheggio è dietro la stazione.",
+      "correct_answer": "Il parcheggio è dietro la stazione.",
+      "distractors": [],
+      "hints": ["Dietro la."],
+      "target_words": ["dietro", "parcheggio"]
+    },
+    {
+      "id": "unit-12-lesson-10-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Vado in centro a piedi.",
+      "correct_answer": "Vado in centro a piedi.",
+      "distractors": [],
+      "hints": ["In centro, a piedi."],
+      "target_words": []
+    },
+    {
+      "id": "unit-12-lesson-10-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Devo spedire un pacco in Inghilterra.",
+      "correct_answer": "Devo spedire un pacco in Inghilterra.",
+      "distractors": [],
+      "hints": ["Spedire un pacco."],
+      "target_words": ["pacco"]
+    },
+    {
+      "id": "unit-12-lesson-10-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Scusi, la stazione è lontano da qui?",
+      "correct_answer": "Scusi, la stazione è lontano da qui?",
+      "distractors": [],
+      "hints": ["Lontano da qui."],
+      "target_words": ["lontano"]
+    }
+  ],
+  "vocabulary": []
+}

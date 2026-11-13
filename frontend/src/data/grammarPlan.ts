@@ -58,19 +58,19 @@ export const GRAMMAR_PLAN: PlannedGrammarUnit[] = [
   {
     id: 'a1-regular-verbs', level: 'A1', order: 6, title: 'The present tense: regular verbs', short: 'Regular verbs',
     covers: ['The three verb groups', '-are verbs', '-ere verbs', '-ire verbs', '-isc- verbs', 'Using the present'],
-    chapters: ['unit-10', 'unit-22', 'unit-07', 'unit-09', 'unit-12'],
+    chapters: ['unit-10', 'unit-22'],
     ready: true,
   },
   {
     id: 'a1-irregular-verbs', level: 'A1', order: 7, title: 'The present tense: irregular verbs & modals', short: 'Irregular verbs',
     covers: ['Fare, andare, stare, venire, uscire, dare', 'Volere, potere, dovere', 'Vorrei', 'Per + infinitive'],
-    chapters: ['unit-23', 'unit-09', 'unit-12', 'unit-15'],
+    chapters: ['unit-23'],
     ready: true,
   },
   {
     id: 'a1-prepositions', level: 'A1', order: 8, title: 'Prepositions', short: 'Prepositions',
     covers: ['The simple prepositions', 'Joined forms (al, nel, sul…)', 'A and in with places', 'Da with people', 'Transport', 'Where you\'re from', 'Di for whose', 'Partitives (del, della…)'],
-    chapters: ['unit-13', 'unit-14', 'unit-16'],
+    chapters: ['unit-12', 'unit-16'],
   },
   {
     id: 'a1-questions-negation', level: 'A1', order: 9, title: 'Questions, negation & linking', short: 'Questions & negation',
@@ -80,12 +80,12 @@ export const GRAMMAR_PLAN: PlannedGrammarUnit[] = [
   {
     id: 'a1-adjectives', level: 'A1', order: 10, title: 'Adjectives, demonstratives & quantities', short: 'Adjectives',
     covers: ['Agreement (-o/-a/-i/-e)', 'Invariable adjectives', 'Position', 'Bello and buono', 'Nationalities', 'Questo and quello', 'Molto, poco, tanto, troppo', 'Tutto, ogni, qualche'],
-    chapters: ['unit-06', 'unit-07', 'unit-17'],
+    chapters: ['unit-06', 'unit-17'],
   },
   {
     id: 'a1-time-dates', level: 'A1', order: 11, title: 'Time & dates', short: 'Time & dates',
     covers: ['Ordinal numbers', 'Telling the time', 'Days, months, seasons', 'Dates'],
-    chapters: ['unit-09', 'unit-19'],
+    chapters: ['unit-14', 'unit-19'],
   },
   {
     id: 'a1-possessives', level: 'A1', order: 12, title: 'Possessive adjectives', short: 'Possessives',
@@ -105,12 +105,12 @@ export const GRAMMAR_PLAN: PlannedGrammarUnit[] = [
   {
     id: 'a1-imperative', level: 'A1', order: 15, title: 'The imperative', short: 'Imperative',
     covers: ['Tu and voi commands', 'Negative commands', 'Common irregular forms (va’, fa’, di’)', 'Formal set phrases (scusi, senta)'],
-    chapters: ['unit-13'],
+    chapters: ['unit-13', 'unit-20'],
   },
   {
     id: 'a1-passato-prossimo', level: 'A1', order: 16, title: 'The passato prossimo', short: 'Passato prossimo',
     covers: ['Forming the past participle', 'Avere or essere?', 'Agreement with essere', 'Common irregular participles', 'Reflexive verbs in the past', 'Time expressions: ieri, la settimana scorsa, fa'],
-    chapters: ['unit-20'],
+    chapters: ['unit-21'],
   },
 ];
 

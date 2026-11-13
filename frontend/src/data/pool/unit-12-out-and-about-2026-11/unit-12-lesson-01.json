@@ -1,0 +1,366 @@
+{
+  "id": "unit-12-lesson-01",
+  "unit_id": "unit-12",
+  "name": "Fare & Andare",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-12-lesson-01-tip-01",
+      "title": "Fare — Completely Irregular",
+      "explanation": "'Fare' (to do / to make) is one of the most useful verbs in Italian. Its forms are irregular: faccio (io), fai (tu), fa (lui/lei), facciamo (noi), fate (voi), fanno (loro). You'll use it constantly.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-12-lesson-01-tip-02",
+      "title": "Fare Idioms",
+      "explanation": "Italians use 'fare' for many activities: fare colazione (eat breakfast), fare la spesa (do the grocery shopping), fare sport (play sport), fare un viaggio (take a trip). These are fixed phrases — learn them as chunks.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-12-lesson-01-tip-03",
+      "title": "Andare — The Boot Pattern",
+      "explanation": "'Andare' (to go) is irregular only in 4 forms: vado (io), vai (tu), va (lui/lei), vanno (loro). The 'noi' and 'voi' forms are regular: andiamo, andate. This is the 'boot' pattern — irregular at the corners, regular in the middle.",
+      "before_exercise": 11
+    },
+    {
+      "id": "unit-12-lesson-01-tip-04",
+      "title": "Andare A",
+      "explanation": "'Andare a' + place: 'vado a Roma' (cities), 'vado a casa' (home), 'vado al cinema' (the cinema). 'Andare a' + infinitive means going TO DO something: 'vado a mangiare' (I'm going to eat).",
+      "before_exercise": 17
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-12-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'fare' mean?" },
+      "sentence_context": "Faccio sport.",
+      "correct_answer": "To do / to make",
+      "distractors": ["To go", "To come", "To say"],
+      "hints": ["I do sport."],
+      "target_words": ["fare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'andare' mean?" },
+      "sentence_context": "Vado al cinema.",
+      "correct_answer": "To go",
+      "distractors": ["To come", "To do", "To stay"],
+      "hints": ["I go to the cinema."],
+      "target_words": ["andare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'colazione' mean?" },
+      "sentence_context": "Faccio colazione la mattina.",
+      "correct_answer": "Breakfast",
+      "distractors": ["Lunch", "Dinner", "Snack"],
+      "hints": ["The first meal of the day."],
+      "target_words": ["colazione"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'pranzo' mean?" },
+      "sentence_context": "Il pranzo è a mezzogiorno.",
+      "correct_answer": "Lunch",
+      "distractors": ["Breakfast", "Dinner", "Snack"],
+      "hints": ["The midday meal."],
+      "target_words": ["pranzo"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'cena' mean?" },
+      "sentence_context": "La cena è alle otto.",
+      "correct_answer": "Dinner",
+      "distractors": ["Lunch", "Breakfast", "Snack"],
+      "hints": ["The evening meal."],
+      "target_words": ["cena"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'spesa' mean here?" },
+      "sentence_context": "Faccio la spesa al supermercato.",
+      "correct_answer": "Grocery shopping",
+      "distractors": ["Cooking", "Cleaning", "Travel"],
+      "hints": ["What you do to buy food."],
+      "target_words": ["spesa"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ sport.",
+      "correct_answer": "faccio",
+      "distractors": [],
+      "hints": ["I do sport. (io form of fare)"],
+      "target_words": ["fare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Cosa ___ stasera?",
+      "correct_answer": "fai",
+      "distractors": [],
+      "hints": ["What are you doing tonight? (tu form of fare)"],
+      "target_words": ["fare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Marco ___ la spesa.",
+      "correct_answer": "fa",
+      "distractors": [],
+      "hints": ["Marco is doing the shopping. (lui form of fare)"],
+      "target_words": ["fare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ al cinema.",
+      "correct_answer": "vado",
+      "distractors": [],
+      "hints": ["I go to the cinema. (io form of andare)"],
+      "target_words": ["andare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Tu ___ a casa.",
+      "correct_answer": "vai",
+      "distractors": [],
+      "hints": ["You go home. (tu form of andare)"],
+      "target_words": ["andare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Anna ___ a Roma.",
+      "correct_answer": "va",
+      "distractors": [],
+      "hints": ["Anna is going to Rome. (lei form of andare)"],
+      "target_words": ["andare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I do' in Italian?" },
+      "sentence_context": "Faccio sport.",
+      "correct_answer": "faccio",
+      "distractors": [],
+      "hints": ["Irregular: starts with 'fac-'."],
+      "target_words": ["fare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I go' in Italian?" },
+      "sentence_context": "Vado al cinema.",
+      "correct_answer": "vado",
+      "distractors": [],
+      "hints": ["Three letters."],
+      "target_words": ["andare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'they go' in Italian?" },
+      "sentence_context": "Loro vanno a casa.",
+      "correct_answer": "vanno",
+      "distractors": [],
+      "hints": ["Boot pattern: irregular in loro."],
+      "target_words": ["andare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'noi' form of 'andare'. Watch out — this one is REGULAR." },
+      "sentence_context": "Noi ___ a Roma.",
+      "correct_answer": "andiamo",
+      "distractors": [],
+      "hints": ["noi → regular -iamo: andiamo."],
+      "target_words": ["andare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'noi' form of 'fare'." },
+      "sentence_context": "Noi ___ colazione.",
+      "correct_answer": "facciamo",
+      "distractors": [],
+      "hints": ["noi → facciamo (double c)."],
+      "target_words": ["fare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'loro' form of 'fare'." },
+      "sentence_context": "Loro ___ sport.",
+      "correct_answer": "fanno",
+      "distractors": [],
+      "hints": ["loro → fanno."],
+      "target_words": ["fare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I have breakfast in the morning.'" },
+      "sentence_context": "Faccio colazione la mattina.",
+      "correct_answer": ["Faccio", "colazione", "la", "mattina."],
+      "distractors": ["pranzo", "fai"],
+      "hints": ["'Fare colazione' is a fixed phrase."],
+      "target_words": ["fare", "colazione"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Anna goes to Rome.'" },
+      "sentence_context": "Anna va a Roma.",
+      "correct_answer": ["Anna", "va", "a", "Roma."],
+      "distractors": ["vado", "in"],
+      "hints": ["'Andare a' + city."],
+      "target_words": ["andare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I do the shopping at the supermarket.'" },
+      "sentence_context": "Faccio la spesa al supermercato.",
+      "correct_answer": ["Faccio", "la", "spesa", "al", "supermercato."],
+      "distractors": ["colazione", "vado"],
+      "hints": ["'Fare la spesa' is a fixed phrase."],
+      "target_words": ["fare", "spesa"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'We go to dinner at eight.'" },
+      "sentence_context": "Andiamo a cena alle otto.",
+      "correct_answer": ["Andiamo", "a", "cena", "alle", "otto."],
+      "distractors": ["vado", "colazione"],
+      "hints": ["'Andare a' + meal."],
+      "target_words": ["andare", "cena"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-23",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'attenzione' mean?" },
+      "sentence_context": "Faccio attenzione.",
+      "correct_answer": "Attention",
+      "distractors": ["A trip", "A pause", "A walk"],
+      "hints": ["'Fare attenzione' = pay attention."],
+      "target_words": ["attenzione"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-24",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'pausa' mean?" },
+      "sentence_context": "Faccio una pausa.",
+      "correct_answer": "Break / pause",
+      "distractors": ["Trip", "Walk", "Lesson"],
+      "hints": ["I take a break."],
+      "target_words": ["pausa"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-25",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mare' mean?" },
+      "sentence_context": "Vado al mare.",
+      "correct_answer": "Sea",
+      "distractors": ["Mountain", "Lake", "River"],
+      "hints": ["I'm going to the sea / beach."],
+      "target_words": ["mare"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-26",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Faccio una ___ in giardino.",
+      "correct_answer": "passeggiata",
+      "distractors": [],
+      "hints": ["I take a walk in the garden."],
+      "target_words": ["passeggiata"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-27",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Vado in ___ in Italia.",
+      "correct_answer": "vacanza",
+      "distractors": [],
+      "hints": ["I'm going on holiday in Italy."],
+      "target_words": ["vacanza"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-28",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'attention' in Italian?" },
+      "sentence_context": "Faccio attenzione.",
+      "correct_answer": "attenzione",
+      "distractors": [],
+      "hints": ["Used with 'fare'."],
+      "target_words": ["attenzione"]
+    },
+    {
+      "id": "unit-12-lesson-01-ex-29",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I take a walk by the sea.'" },
+      "sentence_context": "Faccio una passeggiata al mare.",
+      "correct_answer": ["Faccio", "una", "passeggiata", "al", "mare."],
+      "distractors": ["pausa", "in"],
+      "hints": ["'Fare una passeggiata' + 'al mare'."],
+      "target_words": ["passeggiata", "mare"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "fare", "meaning": "To do / to make", "example": "Faccio sport." },
+    { "word": "andare", "meaning": "To go", "example": "Vado al cinema." },
+    { "word": "colazione", "meaning": "Breakfast", "example": "Faccio colazione la mattina." },
+    { "word": "pranzo", "meaning": "Lunch", "example": "Il pranzo è a mezzogiorno." },
+    { "word": "cena", "meaning": "Dinner", "example": "La cena è alle otto." },
+    { "word": "spesa", "meaning": "Grocery shopping", "example": "Faccio la spesa al supermercato." },
+    { "word": "attenzione", "meaning": "Attention", "example": "Faccio attenzione." },
+    { "word": "pausa", "meaning": "Break / pause", "example": "Faccio una pausa." },
+    { "word": "passeggiata", "meaning": "Walk / stroll", "example": "Faccio una passeggiata in giardino." },
+    { "word": "mare", "meaning": "Sea", "example": "Vado al mare." },
+    { "word": "vacanza", "meaning": "Holiday / vacation", "example": "Vado in vacanza in Italia." }
+  ]
+}
