@@ -84,7 +84,7 @@ Fonts are self-hosted via `@fontsource` packages (no Google Fonts request).
 
 - Use Tailwind's spacing scale; avoid arbitrary values (`p-[13px]`).
 - Page padding: 56px horizontal (`px-14`). Top bar height: 64px.
-- Cards: white, 1px `border` colour, radius 10px. No shadows.
+- Cards: white, 1px `border` colour, radius 10px. No shadows. Use the `panel` utility (`index.css`) and add padding and any accent (`border-t-5 border-t-correction`) where it's used.
 - Standout cards (e.g. Today's session): solid Cobalto, square corners, white text.
 - Gaps: 8 / 12 / 16 / 24 / 32 / 48.
 
@@ -104,4 +104,4 @@ Fonts are self-hosted via `@fontsource` packages (no Google Fonts request).
 
 ## Status of the code
 
-The tokens are defined in `index.css`, and shadcn's variables map onto them. Most existing components still use raw Tailwind colours (about 400 uses at the time of writing). They get migrated as screens are rebuilt for the new structure. `npm run lint:tokens` lists what's left. Once it reports zero, Tailwind's default colour palette gets removed so raw colours can't come back.
+The tokens are defined in `index.css`, and shadcn's variables map onto them. Tailwind's default palette is switched off, so raw colours don't compile, and `npm run lint:tokens` reports none. Shared building blocks (`PageHeader`, `Page`, `Shapes`, `Logo`, `Count`, `StatRow`, `Status`, tiles, stamps, `Postcard`, `Correction`) live in `shared/components/design.tsx`; exercise primitives are in `features/exercises/ui.tsx`.

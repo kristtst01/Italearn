@@ -25,7 +25,7 @@ export default function NewWords({ words, onStart }: { words: LessonVocab[]; onS
         </h2>
       </div>
 
-      <ul className="flex flex-col divide-y divide-border rounded-lg border border-border bg-white">
+      <ul className="flex flex-col divide-y divide-border panel">
         {words.map((w) => (
           <li
             key={w.id ?? w.word}

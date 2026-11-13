@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { buttonVariants } from '@/components/ui/button';
-import { Label } from '@/shared/components/design';
+import { PageHeader } from '@/shared/components/design';
+import SessionLayout from '@/shared/components/SessionLayout';
 
 interface ReviewIntroProps {
   dueCount: number;
@@ -9,23 +10,26 @@ interface ReviewIntroProps {
 
 export default function ReviewIntro({ dueCount, onStart }: ReviewIntroProps) {
   return (
-    <div className="flex min-h-dvh items-center justify-center p-8">
-      <div className="flex max-w-lg flex-col gap-5">
-        <Label>Review</Label>
+    <SessionLayout>
+      <div className="flex flex-col gap-8 py-6">
         {dueCount === 0 ? (
           <>
-            <h1 className="font-display text-title">All caught up</h1>
-            <p className="text-reading text-muted-foreground">Nothing is due right now. Come back later, or keep learning.</p>
-            <Link to="/" className={buttonVariants({ size: 'xl', className: 'self-start' })}>Back to Today</Link>
+            <PageHeader
+              label="Review"
+              title="All caught up"
+              description="Nothing is due right now. Come back later, or keep learning."
+            />
+            <Link to="/" className={buttonVariants({ size: 'xl', className: 'min-w-44 self-start' })}>Back to Today</Link>
           </>
         ) : (
           <>
-            <h1 className="font-display text-title">
-              {dueCount} {dueCount === 1 ? 'card' : 'cards'} due
-            </h1>
-            <p className="text-reading text-muted-foreground">Short retrievals keep what you've learned from fading.</p>
+            <PageHeader
+              label="Review"
+              title={`${dueCount} ${dueCount === 1 ? 'card' : 'cards'} due`}
+              description="Short retrievals keep what you've learned from fading."
+            />
             <div className="flex gap-3">
-              <button type="button" onClick={onStart} autoFocus className={buttonVariants({ size: 'xl', className: 'min-w-40' })}>
+              <button type="button" onClick={onStart} autoFocus className={buttonVariants({ size: 'xl', className: 'min-w-44' })}>
                 Start
               </button>
               <Link to="/" className={buttonVariants({ variant: 'stroke', size: 'xl' })}>Later</Link>
@@ -33,6 +37,6 @@ export default function ReviewIntro({ dueCount, onStart }: ReviewIntroProps) {
           </>
         )}
       </div>
-    </div>
+    </SessionLayout>
   );
 }

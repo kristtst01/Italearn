@@ -1,6 +1,6 @@
 import type { LessonResult } from '@/types';
 import Confetti from '@/shared/components/Confetti';
-import { Label, Stamp } from '@/shared/components/design';
+import { PageHeader, Stamp, StatRow } from '@/shared/components/design';
 import { buttonVariants } from '@/components/ui/button';
 
 interface CompletionScreenProps {
@@ -30,34 +30,28 @@ export default function CompletionScreen({
   return (
     <div className="flex flex-col gap-8 py-6">
       {stamp && <Confetti />}
-      <div className="flex items-start justify-between gap-8">
-        <div className="flex flex-col gap-2">
-          <Label>{isRetry ? 'Mistakes practised' : 'Lesson complete'}</Label>
-          <h1 className="font-display text-title">{pct === 100 ? 'Perfetto!' : 'Fatto!'}</h1>
-          <p className="text-muted-foreground">{lessonName}</p>
-        </div>
-        {stamp && (
-          <div className="flex flex-col items-center gap-1.5">
-            <Stamp title={stamp.title} caption={stamp.caption} earned />
-            <span className="text-xs font-bold text-correction">Stamp earned</span>
-          </div>
-        )}
-      </div>
+      <PageHeader
+        className="items-start"
+        label={isRetry ? 'Mistakes practised' : 'Lesson complete'}
+        title={pct === 100 ? 'Perfetto!' : 'Fatto!'}
+        description={lessonName}
+        aside={
+          stamp && (
+            <div className="flex flex-col items-center gap-1.5">
+              <Stamp title={stamp.title} caption={stamp.caption} earned />
+              <span className="text-xs font-bold text-correction">Stamp earned</span>
+            </div>
+          )
+        }
+      />
 
-      <div className="grid grid-cols-3 border-y border-border py-6">
-        <div className="flex flex-col gap-1">
-          <span className="font-display text-4xl">{pct}%</span>
-          <span className="text-sm text-muted-foreground">{result.score} of {result.total} correct</span>
-        </div>
-        <div className="flex flex-col gap-1">
-          <span className="font-display text-4xl">{result.wordsEncountered.length}</span>
-          <span className="text-sm text-muted-foreground">words practised</span>
-        </div>
-        <div className="flex flex-col gap-1">
-          <span className="font-display text-4xl">{minutes > 0 ? `${minutes}m ` : ''}{seconds}s</span>
-          <span className="text-sm text-muted-foreground">time</span>
-        </div>
-      </div>
+      <StatRow
+        stats={[
+          { value: `${pct}%`, caption: `${result.score} of ${result.total} correct` },
+          { value: result.wordsEncountered.length, caption: 'words practised' },
+          { value: `${minutes > 0 ? `${minutes}m ` : ''}${seconds}s`, caption: 'time' },
+        ]}
+      />
 
       <div className="flex gap-3">
         <button

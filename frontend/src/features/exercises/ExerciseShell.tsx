@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { getCorrectAnswer } from '@/shared/utils/exercise';
 import Feedback from './Feedback';
@@ -70,30 +70,21 @@ export default function ExerciseShell({
     });
   }
 
-  const handleKeyDown = useCallback(
-    (e: KeyboardEvent) => {
+  // Enter checks, then continues. Re-subscribed each render so it always sees the current answer.
+  useEffect(() => {
+    function onKeyDown(e: KeyboardEvent) {
       if (e.key !== 'Enter') return;
       if (!submitted && !validating && canSubmit) {
         e.preventDefault();
         handleSubmit();
       } else if (submitted) {
         e.preventDefault();
-        onComplete({
-          exercise_id: exercise.id,
-          correct: isCorrect,
-          user_answer: userAnswer,
-          time_spent_ms: Date.now() - startTime.current,
-        });
+        handleContinue();
       }
-    },
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [submitted, validating, canSubmit, isCorrect, userAnswer, exercise.id, onComplete],
-  );
-
-  useEffect(() => {
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [handleKeyDown]);
+    }
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  });
 
   return (
     <div className="flex flex-col gap-7">

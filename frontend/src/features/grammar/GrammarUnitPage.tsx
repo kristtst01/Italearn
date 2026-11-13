@@ -219,7 +219,7 @@ function StopCard({
   return (
     <div
       id={`stop-${stop.id}`}
-      className="my-4 flex scroll-mt-24 items-center justify-between gap-8 rounded-lg border border-border border-l-5 border-l-grammar bg-white px-6 py-5"
+      className="my-4 flex scroll-mt-24 items-center justify-between gap-8 panel border-l-5 border-l-grammar px-6 py-5"
     >
       <div className="flex flex-col gap-1">
         <Label className="text-grammar">
@@ -274,7 +274,7 @@ function MasteryCheck({ unitId, practice }: { unitId: string; practice: GrammarP
       </div>
 
       {missed.length > 0 && (
-        <div className="flex flex-col gap-1.5 rounded-lg border border-border border-t-5 border-t-correction bg-white px-5 py-4">
+        <div className="flex flex-col gap-1.5 panel border-t-5 border-t-correction px-5 py-4">
           <Label>Read again before retaking</Label>
           {missed.map((p) => (
             <a key={p.label} href={`#${sectionAnchor(p.section)}`} className="font-medium text-cobalto">

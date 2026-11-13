@@ -1,5 +1,5 @@
 import * as AlertDialog from '@radix-ui/react-alert-dialog';
-import CloseIcon from '@/shared/components/CloseIcon';
+import CloseButton from '@/shared/components/CloseButton';
 import { buttonVariants } from '@/components/ui/button';
 
 interface ExitButtonProps {
@@ -9,33 +9,14 @@ interface ExitButtonProps {
   inProgress: boolean;
 }
 
-export default function ExitButton({
-  showConfirm,
-  onToggle,
-  onExit,
-  inProgress,
-}: ExitButtonProps) {
-  if (!inProgress) {
-    return (
-      <button
-        onClick={onExit}
-        className="text-muted-foreground transition-colors hover:text-foreground"
-        aria-label="Exit lesson"
-      >
-        <CloseIcon />
-      </button>
-    );
-  }
+/** Leaves a lesson or grammar session; asks first if answers would be lost. */
+export default function ExitButton({ showConfirm, onToggle, onExit, inProgress }: ExitButtonProps) {
+  if (!inProgress) return <CloseButton onClick={onExit} aria-label="Exit lesson" />;
 
   return (
     <AlertDialog.Root open={showConfirm} onOpenChange={onToggle}>
       <AlertDialog.Trigger asChild>
-        <button
-          className="text-muted-foreground transition-colors hover:text-foreground"
-          aria-label="Exit lesson"
-        >
-          <CloseIcon />
-        </button>
+        <CloseButton aria-label="Exit lesson" />
       </AlertDialog.Trigger>
       <AlertDialog.Portal>
         <AlertDialog.Overlay className="fixed inset-0 z-40 bg-foreground/40" />

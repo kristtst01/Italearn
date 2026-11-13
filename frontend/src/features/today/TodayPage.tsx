@@ -3,14 +3,14 @@ import { useProgressStore } from '@/stores/progressStore';
 import { useSrsStore } from '@/stores/srsStore';
 import { nextLesson, recommendedChapter } from '@/engine/chapters';
 import { grammarForChapter } from '@/data/grammarPlan';
-import { grammarTiles } from '@/engine/grammar';
+import { grammarTiles, grammarUnitStatus } from '@/engine/grammar';
 import { buttonVariants } from '@/components/ui/button';
-import { Label, Page, PageHeader, Placeholder, TileGrid } from '@/shared/components/design';
+import { Label, Page, PageHeader, Placeholder, Shapes, TileGrid } from '@/shared/components/design';
 
 interface Step {
   title: string;
   detail: string;
-  soon?: boolean;
+  href: string;
 }
 
 export default function TodayPage() {
@@ -19,14 +19,31 @@ export default function TodayPage() {
 
   const chapter = recommendedChapter(completed);
   const lesson = chapter ? nextLesson(chapter, completed) : undefined;
-  const grammar = chapter ? grammarForChapter(chapter.id)[0] : undefined;
+  // The first written grammar unit the chapter needs that isn't learned yet
+  const grammar = chapter
+    ? grammarForChapter(chapter.id).find((g) => g.ready && grammarUnitStatus(g.id) !== 'learned')
+    : undefined;
+  const tiles = grammarTiles();
 
   const steps: Step[] = [];
-  if (dueCount > 0) steps.push({ title: 'Review', detail: `${dueCount} cards are due` });
-  if (grammar) steps.push({ title: `Study: ${grammar.title}`, detail: 'Grammar units are coming soon', soon: true });
-  if (chapter && lesson) steps.push({ title: `${chapter.name}: ${lesson.name}`, detail: chapter.can_do ?? chapter.grammar_focus });
+  if (dueCount > 0) steps.push({ title: 'Review', detail: `${dueCount} cards are due`, href: '/review' });
+  if (grammar) {
+    const started = grammarUnitStatus(grammar.id) === 'in-progress';
+    steps.push({
+      title: `Study: ${grammar.title}`,
+      detail: started ? 'Carry on reading, then pass the check' : 'Read the unit, then pass the check',
+      href: `/grammar/${grammar.id}`,
+    });
+  }
+  if (chapter && lesson) {
+    steps.push({
+      title: `${chapter.name}: ${lesson.name}`,
+      detail: chapter.can_do ?? chapter.grammar_focus,
+      href: `/lesson/${lesson.id}`,
+    });
+  }
 
-  const startHref = dueCount > 0 ? '/review' : lesson ? `/lesson/${lesson.id}` : '/library';
+  const startHref = steps[0]?.href ?? '/library';
   const today = new Date().toLocaleDateString('en-GB', { weekday: 'long' });
 
   return (
@@ -39,10 +56,14 @@ export default function TodayPage() {
       <PageHeader label={`${today} · your plan`} title="Today" />
 
       <div className="flex items-start gap-10">
-        <section className="relative flex-1 overflow-hidden bg-cobalto px-8 py-7 text-white">
-          <div aria-hidden className="absolute -right-10 -bottom-20 h-25 w-50 rounded-t-full bg-ocra" />
-          <div aria-hidden className="absolute -top-10 right-15 size-22 rounded-full bg-vermiglione" />
-          <div className="relative flex flex-col gap-6">
+        <section className="relative isolate flex-1 overflow-hidden bg-cobalto px-8 py-7 text-white">
+          <Shapes
+            shapes={[
+              { kind: 'half', color: 'ocra', size: 200, position: { right: -40, bottom: -80 } },
+              { kind: 'circle', color: 'vermiglione', size: 88, position: { right: 60, top: -40 } },
+            ]}
+          />
+          <div className="flex flex-col gap-6">
             <p className="text-xs font-bold uppercase tracking-label text-white/75">Your session</p>
             {steps.length === 0 ? (
               <p className="text-lg font-bold">Nothing planned. Pick anything from the Library.</p>
@@ -52,14 +73,7 @@ export default function TodayPage() {
                   <li key={step.title} className="flex items-baseline gap-4">
                     <span className="w-4.5 font-display text-lg text-white/60">{i + 1}</span>
                     <div className="flex flex-col gap-0.5">
-                      <span className="text-lg font-bold">
-                        {step.title}
-                        {step.soon && (
-                          <span className="ml-2 rounded-full border border-white/50 px-2 py-0.5 align-middle text-xs font-bold uppercase tracking-label">
-                            Soon
-                          </span>
-                        )}
-                      </span>
+                      <span className="text-lg font-bold">{step.title}</span>
                       <span className="text-sm text-white/80">{step.detail}</span>
                     </div>
                   </li>
@@ -78,11 +92,11 @@ export default function TodayPage() {
           <div className="flex flex-col gap-3">
             <Label>A1 grammar</Label>
             <div className="flex items-center gap-3.5">
-              <TileGrid tiles={grammarTiles()} size={36} columns={8} />
+              <TileGrid tiles={tiles} size={36} columns={8} />
               <p className="text-sm text-muted-foreground">
-                <b className="text-foreground">{grammarTiles().filter((t) => t === 'learned').length} learned</b>
+                <b className="text-foreground">{tiles.filter((t) => t === 'learned').length} learned</b>
                 <br />
-                {grammarTiles().filter((t) => t === 'in-progress').length} in progress
+                {tiles.filter((t) => t === 'in-progress').length} in progress
               </p>
             </div>
           </div>

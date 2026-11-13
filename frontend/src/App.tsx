@@ -44,7 +44,7 @@ export default function App() {
           <HydrationGuard>
             <Toaster position="top-center" richColors />
             <Routes>
-              {/* Pages with the top bar (AppLayout hides it for immersive routes) */}
+              {/* Pages with the top bar */}
               <Route element={<AppLayout />}>
                 <Route path="/" element={<TodayPage />} />
                 <Route path="/library" element={<LibraryPage />}>
@@ -56,11 +56,11 @@ export default function App() {
                 <Route path="/grammar/:grammarId" element={<GrammarUnitPage />} />
                 <Route path="/progress" element={<ProgressPage />} />
                 <Route path="/profile" element={<ProfilePage />} />
-                <Route path="/review" element={<ReviewPage />} />
                 {import.meta.env.DEV && <Route path="/dev/exercises" element={<ExerciseGallery />} />}
               </Route>
 
-              {/* Immersive pages */}
+              {/* Immersive pages: sessions take the whole screen */}
+              <Route path="/review" element={<ReviewPage />} />
               <Route path="/lesson/:id" element={<LessonPage />} />
               <Route path="/grammar/:grammarId/practice/:stopId" element={<GrammarSessionPage mode="practice" />} />
               <Route path="/grammar/:grammarId/check" element={<GrammarSessionPage mode="check" />} />

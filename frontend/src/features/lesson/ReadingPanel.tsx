@@ -38,7 +38,7 @@ function toBlocks(paragraphs: string[]): Block[] {
  */
 export default function ReadingPanel({ text }: { text: ReadingText }) {
   return (
-    <article className="rounded-lg border border-border bg-white px-10 py-8">
+    <article className="panel px-10 py-8">
       <div className="flex max-w-prose flex-col gap-5 text-passage">
         <div className="flex flex-col gap-2">
           <Label>Read</Label>

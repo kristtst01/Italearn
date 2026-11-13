@@ -1,5 +1,11 @@
 import type { ReactNode } from 'react';
 import { cn } from '@/lib/utils';
+import { Shapes, type Shape } from './design';
+
+const SHAPES: Shape[] = [
+  { kind: 'half', color: 'ocra', size: 420, position: { left: -80, bottom: 0 } },
+  { kind: 'circle', color: 'vermiglione', size: 260, position: { right: -90, bottom: -90 } },
+];
 
 /**
  * Immersive session page: header on top, the exercise in a centred column, quiet shapes in the corners.
@@ -11,15 +17,15 @@ export default function SessionLayout({
   wide = false,
   children,
 }: {
-  header: ReactNode;
+  /** Left out for the screens before and after a session (review intro and summary) */
+  header?: ReactNode;
   /** No width cap: the content sets its own width (reading lessons, where the text's line length decides) */
   wide?: boolean;
   children: ReactNode;
 }) {
   return (
     <div className="relative isolate flex min-h-dvh flex-col overflow-clip">
-      <div aria-hidden className="fixed bottom-0 -left-20 -z-10 h-52.5 w-105 rounded-t-full bg-ocra" />
-      <div aria-hidden className="fixed -right-22.5 -bottom-22.5 -z-10 size-65 rounded-full bg-vermiglione" />
+      <Shapes shapes={SHAPES} fixed />
       {header}
       <main className="flex flex-1 flex-col px-8">
         <div className={cn('mx-auto w-full pb-12', wide ? 'pt-12' : 'max-w-190 pt-[max(3rem,12vh)]')}>{children}</div>

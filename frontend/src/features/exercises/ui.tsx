@@ -177,7 +177,7 @@ export function FeedbackCard({
   return (
     <div
       className={cn(
-        'flex items-end justify-between gap-7 rounded-lg border border-t-5 border-border bg-white px-6 py-5',
+        'flex items-end justify-between gap-7 panel border-t-5 px-6 py-5',
         tone === 'learned' && 'border-t-learned',
         tone === 'correction' && 'border-t-correction',
         tone === 'in-progress' && 'border-t-in-progress',

@@ -21,15 +21,17 @@ export function PageHeader({
   title,
   description,
   aside,
+  className,
 }: {
   /** Always present, so titles line up across pages (no jump when switching sections) */
   label: ReactNode;
   title: ReactNode;
   description?: ReactNode;
   aside?: ReactNode;
+  className?: string;
 }) {
   return (
-    <div className="flex items-end justify-between gap-8">
+    <div className={cn('flex items-end justify-between gap-8', className)}>
       <div className="flex flex-col gap-2">
         <Label>{label}</Label>
         <h1 className="font-display text-title">{title}</h1>
@@ -62,6 +64,27 @@ const SHAPE_BG: Record<ShapeColor, string> = {
 };
 
 /**
+ * Decorative shapes behind a container's content. The container needs `relative isolate`.
+ * `fixed` pins them to the window instead (session screens, where the page scrolls under them).
+ */
+export function Shapes({ shapes, fixed = false }: { shapes: Shape[]; fixed?: boolean }) {
+  return shapes.map((s, i) => (
+    <div
+      key={i}
+      aria-hidden
+      className={cn(
+        fixed ? 'fixed' : 'absolute',
+        '-z-10',
+        SHAPE_BG[s.color],
+        s.kind === 'circle' ? 'rounded-full' : 'rounded-t-full',
+        s.wideOnly && 'hidden 2xl:block',
+      )}
+      style={{ ...s.position, width: s.size, height: s.kind === 'circle' ? s.size : s.size / 2 }}
+    />
+  ));
+}
+
+/**
  * A page below the top bar. Background shapes sit behind the content and must only
  * be placed in empty space (never behind cards or text).
  */
@@ -76,20 +99,62 @@ export function Page({
 }) {
   return (
     <div className="relative isolate flex-1 overflow-clip">
-      {shapes.map((s, i) => (
-        <div
-          key={i}
-          aria-hidden
-          className={cn(
-            'absolute -z-10',
-            SHAPE_BG[s.color],
-            s.kind === 'circle' ? 'rounded-full' : 'rounded-t-full',
-            s.wideOnly && 'hidden 2xl:block',
-          )}
-          style={{ ...s.position, width: s.size, height: s.kind === 'circle' ? s.size : s.size / 2 }}
-        />
-      ))}
+      <Shapes shapes={shapes} />
       <main className={cn('mx-auto flex max-w-7xl flex-col gap-7 px-14 py-11', className)}>{children}</main>
+    </div>
+  );
+}
+
+// ── Brand ─────────────────────────────────────────────
+
+/** The sun-and-hill mark with the wordmark. `large` on the sign-in screen. */
+export function Logo({ large = false }: { large?: boolean }) {
+  return (
+    <span className={cn('flex items-center', large ? 'gap-3' : 'gap-2.5')}>
+      <span aria-hidden className="flex items-end">
+        <span className={cn('rounded-full bg-vermiglione', large ? 'size-7' : 'size-4.5')} />
+        <span className={cn('rounded-t-full bg-ocra', large ? '-ml-2 h-3.5 w-7' : '-ml-1.5 h-2.25 w-4.5')} />
+      </span>
+      <span className={cn('font-display', large ? 'text-3xl' : 'text-xl')}>ItaLearn</span>
+    </span>
+  );
+}
+
+// ── Numbers ───────────────────────────────────────────
+
+/** A big number with a quieter tail: "12 of 16", "340 known of 900". */
+export function Count({
+  value,
+  rest,
+  large = false,
+  className,
+}: {
+  value: ReactNode;
+  rest?: ReactNode;
+  /** Title size (result screens); otherwise stat size */
+  large?: boolean;
+  className?: string;
+}) {
+  return (
+    <p className={cn('font-display', large ? 'text-title' : 'text-4xl', className)}>
+      {value}
+      {rest && (
+        <span className={cn('font-sans font-medium text-muted-foreground', large ? 'text-2xl' : 'text-base')}> {rest}</span>
+      )}
+    </p>
+  );
+}
+
+/** A row of figures between two rules, for result screens. */
+export function StatRow({ stats }: { stats: { value: ReactNode; caption: ReactNode }[] }) {
+  return (
+    <div className="grid border-y border-border py-6" style={{ gridTemplateColumns: `repeat(${stats.length}, minmax(0, 1fr))` }}>
+      {stats.map((s, i) => (
+        <div key={i} className="flex flex-col gap-1">
+          <span className="font-display text-4xl">{s.value}</span>
+          <span className="text-sm text-muted-foreground">{s.caption}</span>
+        </div>
+      ))}
     </div>
   );
 }

@@ -264,7 +264,7 @@ export default function WordBankPage() {
             const strengthColor = strength >= 70 ? 'bg-learned' : strength >= 30 ? 'bg-in-progress' : 'bg-fading';
 
             return (
-              <div key={w.id} className="flex flex-col gap-1 rounded-lg border border-border bg-white px-4.5 py-3.5">
+              <div key={w.id} className="flex flex-col gap-1 panel px-4.5 py-3.5">
                 <div className="flex items-center justify-between gap-3">
                   <span className="text-lg font-bold">{w.word}</span>
                   <span className="flex items-center gap-1.5 text-xs font-bold text-muted-foreground">

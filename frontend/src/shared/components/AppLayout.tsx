@@ -1,6 +1,7 @@
-import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
+import { Link, NavLink, Outlet } from 'react-router-dom';
 import { useProgressStore } from '@/stores/progressStore';
 import { cn } from '@/lib/utils';
+import { Logo } from './design';
 
 const SECTIONS = [
   { to: '/', label: 'Today' },
@@ -9,26 +10,13 @@ const SECTIONS = [
   { to: '/progress', label: 'Progress' },
 ] as const;
 
-/** Routes that take over the whole screen (no top bar). */
-const IMMERSIVE_PREFIXES = ['/lesson/', '/review'];
-
-function Logo() {
-  return (
-    <span aria-hidden className="flex items-end">
-      <span className="size-4.5 rounded-full bg-vermiglione" />
-      <span className="-ml-1.5 h-2.25 w-4.5 rounded-t-full bg-ocra" />
-    </span>
-  );
-}
-
 function TopBar() {
   const streak = useProgressStore((s) => s.streak);
   return (
     <header className="sticky top-0 z-40 h-16 shrink-0 border-b border-border bg-white">
       <div className="mx-auto flex h-full max-w-7xl items-center gap-12 px-14">
-        <Link to="/" className="flex items-center gap-2.5 text-foreground">
+        <Link to="/" className="text-foreground">
           <Logo />
-          <span className="font-display text-xl">ItaLearn</span>
         </Link>
         <nav className="flex h-full flex-1 gap-8">
           {SECTIONS.map(({ to, label }) => (
@@ -61,9 +49,6 @@ function TopBar() {
 }
 
 export default function AppLayout() {
-  const { pathname } = useLocation();
-  if (IMMERSIVE_PREFIXES.some((p) => pathname.startsWith(p))) return <Outlet />;
-
   return (
     <div className="flex min-h-dvh flex-col">
       <TopBar />

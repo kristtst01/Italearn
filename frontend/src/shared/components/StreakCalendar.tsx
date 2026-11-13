@@ -28,7 +28,7 @@ export default function StreakCalendar() {
   const today = todayDateString();
 
   return (
-    <div className="flex flex-col gap-4 rounded-lg border border-border bg-white px-5 py-4">
+    <div className="flex flex-col gap-4 panel px-5 py-4">
       <div className="flex items-center justify-between">
         <p className="flex items-baseline gap-2">
           <span className="font-display text-3xl">{currentStreak}</span>

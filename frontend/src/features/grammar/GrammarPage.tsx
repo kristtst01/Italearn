@@ -14,7 +14,7 @@ function list(units: PlannedGrammarUnit[]) {
         <li key={g.id}>
           <Link
             to={`/grammar/${g.id}`}
-            className="flex items-center gap-5 rounded-lg border border-border bg-white px-5 py-4 text-foreground hover:border-muted-foreground/40"
+            className="flex items-center gap-5 panel px-5 py-4 text-foreground hover:border-muted-foreground/40"
           >
             <MajolicaTile status={grammarUnitStatus(g.id)} size={40} />
             <div className="flex flex-1 flex-col gap-0.5">

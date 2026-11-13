@@ -48,7 +48,7 @@ export default function DialogueCompletion({ exercise, onComplete }: DialogueCom
                       className="min-w-96"
                     />
                   ) : (
-                    <p className="rounded-lg border border-border bg-white px-4.5 py-3 text-lg">{line.text}</p>
+                    <p className="panel px-4.5 py-3 text-lg">{line.text}</p>
                   )}
                 </div>
               );

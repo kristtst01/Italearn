@@ -39,7 +39,7 @@ function LessonCard({ meta, lesson, done }: { meta: LessonMeta; lesson?: Lesson;
   return (
     <Link
       to={`/lesson/${meta.id}`}
-      className="flex items-start justify-between gap-3 rounded-lg border border-border bg-white px-4.5 py-3.5 text-foreground hover:border-muted-foreground/40"
+      className="flex items-start justify-between gap-3 panel px-4.5 py-3.5 text-foreground hover:border-muted-foreground/40"
     >
       <div className="flex flex-col gap-1">
         <Label>{kind.label}</Label>

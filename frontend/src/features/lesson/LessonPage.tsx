@@ -6,13 +6,14 @@ import EmptyState from '@/shared/components/EmptyState';
 import LoadingScreen from '@/shared/components/LoadingScreen';
 import renderExercise from '@/features/exercises/renderExercise';
 import { useLessonState } from './useLessonState';
-import LessonHeader from './LessonHeader';
+import ExitButton from './ExitButton';
 import CompletionScreen from './CompletionScreen';
 import GrammarTip from './GrammarTip';
 import NewWords from './NewWords';
 import ReadingPanel from './ReadingPanel';
 import { getChapter, isWritingLesson, stampEarned } from '@/engine/chapters';
 import { useProgressStore } from '@/stores/progressStore';
+import SessionHeader from '@/shared/components/SessionHeader';
 import SessionLayout from '@/shared/components/SessionLayout';
 import { toSegments } from '@/shared/utils/segments';
 import { useGoBack } from '@/shared/utils/useGoBack';
@@ -93,18 +94,21 @@ function LessonContent({
     <SessionLayout
       wide={!!reading}
       header={
-      <LessonHeader
-        context={chapter ? `Chapter ${String(chapter.order).padStart(2, '0')} · ${chapter.name}` : undefined}
-        title={lesson.name}
-        segments={toSegments(state.results, state.exercises.length)}
-        stamp={chapter ? { earned: stampEarned(chapter, completed) } : undefined}
-        exercisesDone={state.exercisesDone}
-        totalExercises={state.exercises.length}
-        isComplete={state.isComplete}
-        showExitConfirm={showExitConfirm}
-        onToggleExit={() => setShowExitConfirm(!showExitConfirm)}
-        onExit={onExit}
-      />
+        <SessionHeader
+          context={chapter ? `Chapter ${String(chapter.order).padStart(2, '0')} · ${chapter.name}` : undefined}
+          title={lesson.name}
+          segments={toSegments(state.results, state.exercises.length)}
+          counter={`${Math.min(state.exercisesDone + 1, state.exercises.length)} / ${state.exercises.length}`}
+          stamp={chapter ? { earned: stampEarned(chapter, completed) } : undefined}
+          exit={
+            <ExitButton
+              showConfirm={showExitConfirm}
+              onToggle={() => setShowExitConfirm(!showExitConfirm)}
+              onExit={onExit}
+              inProgress={!state.isComplete}
+            />
+          }
+        />
       }
     >
         {state.isComplete && state.lessonResult ? (

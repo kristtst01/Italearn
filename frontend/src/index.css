@@ -64,6 +64,11 @@
     --tracking-label: 0.1em;
 }
 
+/* The white card used for lists, notes and form blocks. Padding and accents are set where it's used. */
+@utility panel {
+    @apply rounded-lg border border-border bg-white;
+}
+
 /* Airmail border for the stamp book postcard */
 @utility airmail {
     background: repeating-linear-gradient(
