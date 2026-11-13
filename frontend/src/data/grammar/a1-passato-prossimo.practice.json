@@ -1,0 +1,1206 @@
+{
+  "unit_id": "a1-passato-prossimo",
+  "points": {
+    "formation": {
+      "label": "How it's made",
+      "section": "How it's made"
+    },
+    "avere-essere": {
+      "label": "Avere or essere?",
+      "section": "Avere or essere?"
+    },
+    "agreement": {
+      "label": "Agreement with essere",
+      "section": "Agreement with essere"
+    },
+    "irregular": {
+      "label": "Irregular participles",
+      "section": "Irregular participles"
+    },
+    "reflexive": {
+      "label": "Reflexive verbs in the past",
+      "section": "Reflexive verbs in the past"
+    },
+    "use": {
+      "label": "When and how: time words, non, già",
+      "section": "When and how"
+    }
+  },
+  "stops": [
+    {
+      "id": "form-helper",
+      "title": "Forming it, avere or essere, agreement",
+      "after": "Agreement with essere",
+      "exercises": [
+        {
+          "id": "a1-passato-prossimo-p-01",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I ate a pizza."
+          },
+          "sentence_context": "Ho ___ una pizza.",
+          "correct_answer": "mangiato",
+          "distractors": [],
+          "hints": [
+            "-are: -ato."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "formation"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-02",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: We slept a lot."
+          },
+          "sentence_context": "Abbiamo ___ molto.",
+          "correct_answer": "dormito",
+          "distractors": [],
+          "hints": [
+            "-ire: -ito."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "formation"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-03",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Did you understand?"
+          },
+          "sentence_context": "Hai ___?",
+          "correct_answer": "capito",
+          "distractors": [],
+          "hints": [
+            "-ire: -ito."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "formation"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-04",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: They spoke Italian."
+          },
+          "sentence_context": "___ parlato italiano.",
+          "correct_answer": "Hanno",
+          "distractors": [],
+          "hints": [
+            "Avere, loro."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "formation"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-05",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: You (plural) worked a lot."
+          },
+          "sentence_context": "___ lavorato molto.",
+          "correct_answer": "Avete",
+          "distractors": [],
+          "hints": [
+            "Avere, voi."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "formation"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-06",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I went to Rome."
+          },
+          "sentence_context": "___ andato a Roma.",
+          "correct_answer": "Sono",
+          "distractors": [],
+          "hints": [
+            "Andare uses essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-essere"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-07",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: We bought the bread."
+          },
+          "sentence_context": "___ comprato il pane.",
+          "correct_answer": "Abbiamo",
+          "distractors": [],
+          "hints": [
+            "Comprare uses avere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-essere"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-08",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'I arrived at eight' (a man speaking)?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Sono arrivato alle otto.",
+          "distractors": [
+            "Ho arrivato alle otto.",
+            "Sono arrivata alle otto."
+          ],
+          "hints": [
+            "Arrivare uses essere; a man: -o."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-essere",
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-09",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'I liked the film'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Mi è piaciuto il film.",
+          "distractors": [
+            "Mi ha piaciuto il film.",
+            "Ho piaciuto il film."
+          ],
+          "hints": [
+            "Piacere uses essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-essere"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-10",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Giulia went to Florence."
+          },
+          "sentence_context": "Giulia è ___ a Firenze.",
+          "correct_answer": "andata",
+          "distractors": [],
+          "hints": [
+            "Essere: it agrees with Giulia."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-11",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Marco and Paul went out."
+          },
+          "sentence_context": "Marco e Paul sono ___.",
+          "correct_answer": "usciti",
+          "distractors": [],
+          "hints": [
+            "Masculine plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-12",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Giulia and Chloé arrived yesterday."
+          },
+          "sentence_context": "Giulia e Chloé sono ___ ieri.",
+          "correct_answer": "arrivate",
+          "distractors": [],
+          "hints": [
+            "Feminine plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-13",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Put it in the past."
+          },
+          "sentence_context": "Mangio una pizza.",
+          "correct_answer": [
+            "Ho mangiato una pizza."
+          ],
+          "distractors": [],
+          "hints": [
+            "Avere + mangiato."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "formation"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-14",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Put it in the past."
+          },
+          "sentence_context": "Giulia va a Roma.",
+          "correct_answer": [
+            "Giulia è andata a Roma."
+          ],
+          "distractors": [],
+          "hints": [
+            "Essere, and the participle agrees."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-essere",
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-15",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Ho andato a Roma.",
+          "correct_answer": [
+            "Sono andato a Roma.",
+            "Sono andata a Roma."
+          ],
+          "distractors": [],
+          "hints": [
+            "Andare uses essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "avere-essere"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-16",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Giulia ha mangiata.",
+          "correct_answer": [
+            "Giulia ha mangiato."
+          ],
+          "distractors": [],
+          "hints": [
+            "With avere, no agreement."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irregular",
+      "title": "Irregular participles",
+      "after": "Irregular participles",
+      "exercises": [
+        {
+          "id": "a1-passato-prossimo-p-17",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the past participle of 'fare'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "fatto"
+          ],
+          "distractors": [],
+          "hints": [
+            "One of the irregular ones."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-18",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the past participle of 'prendere'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "preso"
+          ],
+          "distractors": [],
+          "hints": [
+            "One of the irregular ones."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-19",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the past participle of 'vedere'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "visto"
+          ],
+          "distractors": [],
+          "hints": [
+            "One of the irregular ones."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-20",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the past participle of 'scrivere'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "scritto"
+          ],
+          "distractors": [],
+          "hints": [
+            "One of the irregular ones."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-21",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write the past participle of 'essere'."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "stato"
+          ],
+          "distractors": [],
+          "hints": [
+            "One of the irregular ones."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-22",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I had breakfast."
+          },
+          "sentence_context": "Ho ___ colazione.",
+          "correct_answer": "fatto",
+          "distractors": [],
+          "hints": [
+            "Fare."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-23",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: What did you say?"
+          },
+          "sentence_context": "Che cosa hai ___?",
+          "correct_answer": "detto",
+          "distractors": [],
+          "hints": [
+            "Dire."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-24",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: We saw a film."
+          },
+          "sentence_context": "Abbiamo ___ un film.",
+          "correct_answer": "visto",
+          "distractors": [],
+          "hints": [
+            "Vedere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-25",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I read the newspaper."
+          },
+          "sentence_context": "Ho ___ il giornale.",
+          "correct_answer": "letto",
+          "distractors": [],
+          "hints": [
+            "Leggere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-26",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Marco came yesterday."
+          },
+          "sentence_context": "Marco è ___ ieri.",
+          "correct_answer": "venuto",
+          "distractors": [],
+          "hints": [
+            "Venire, with essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular",
+            "avere-essere"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-27",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Ho prenduto il treno.",
+          "correct_answer": [
+            "Ho preso il treno."
+          ],
+          "distractors": [],
+          "hints": [
+            "Prendere: preso."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-28",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: I took the train."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Ho preso il treno."
+          ],
+          "distractors": [],
+          "hints": [
+            "Prendere: preso."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reflexive-use",
+      "title": "Reflexives, time words and word order",
+      "after": "When and how",
+      "exercises": [
+        {
+          "id": "a1-passato-prossimo-p-29",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I got up at seven (a man speaking)."
+          },
+          "sentence_context": "Mi sono ___ alle sette.",
+          "correct_answer": "alzato",
+          "distractors": [],
+          "hints": [
+            "Reflexive: essere, and it agrees."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "reflexive"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-30",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Giulia got up at eight."
+          },
+          "sentence_context": "Giulia si è ___ alle otto.",
+          "correct_answer": "alzata",
+          "distractors": [],
+          "hints": [
+            "It agrees with Giulia."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "reflexive"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-31",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: We had a lot of fun."
+          },
+          "sentence_context": "Ci siamo ___ molto.",
+          "correct_answer": [
+            "divertiti",
+            "divertite"
+          ],
+          "distractors": [],
+          "hints": [
+            "Plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "reflexive"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-32",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Mi ho alzato presto.",
+          "correct_answer": [
+            "Mi sono alzato presto.",
+            "Mi sono alzata presto."
+          ],
+          "distractors": [],
+          "hints": [
+            "Reflexives use essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "reflexive"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-33",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: two days ago"
+          },
+          "sentence_context": "due giorni ___",
+          "correct_answer": "fa",
+          "distractors": [],
+          "hints": [
+            "Ago, after the time."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "use"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-34",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: last week"
+          },
+          "sentence_context": "la settimana ___",
+          "correct_answer": "scorsa",
+          "distractors": [],
+          "hints": [
+            "It agrees with settimana."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "use"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-35",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it negative."
+          },
+          "sentence_context": "Ho mangiato.",
+          "correct_answer": [
+            "Non ho mangiato."
+          ],
+          "distractors": [],
+          "hints": [
+            "Non before the helper."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "use"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-36",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I've already eaten."
+          },
+          "sentence_context": "Ho ___ mangiato.",
+          "correct_answer": "già",
+          "distractors": [],
+          "hints": [
+            "Between helper and participle."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "use"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-passato-prossimo-p-37",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: They haven't arrived yet."
+          },
+          "sentence_context": "Non sono ___ arrivati.",
+          "correct_answer": "ancora",
+          "distractors": [],
+          "hints": [
+            "Not yet: non … ancora."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "use"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-38",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Ask in Italian: Have you ever been to Rome?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Sei mai stato a Roma?",
+            "Sei mai stata a Roma?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Essere + stato; mai in between."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "use",
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-39",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I liked the pizza."
+          },
+          "sentence_context": "Mi è ___ la pizza.",
+          "correct_answer": "piaciuta",
+          "distractors": [],
+          "hints": [
+            "It agrees with pizza."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "use",
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-40",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Mi è piaciuto i musei.",
+          "correct_answer": [
+            "Mi sono piaciuti i musei."
+          ],
+          "distractors": [],
+          "hints": [
+            "Piacere agrees with what you liked."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "use",
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-passato-prossimo-p-41",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: Yesterday I went to the cinema."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Ieri sono andato al cinema.",
+            "Ieri sono andata al cinema."
+          ],
+          "distractors": [],
+          "hints": [
+            "Andare uses essere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "use",
+            "avere-essere"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-passato-prossimo-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: You bought a book."
+        },
+        "sentence_context": "Hai ___ un libro.",
+        "correct_answer": "comprato",
+        "distractors": [],
+        "hints": [
+          "-are: -ato."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "formation"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-02",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: We went home."
+        },
+        "sentence_context": "Siamo ___ a casa.",
+        "correct_answer": [
+          "andati",
+          "andate"
+        ],
+        "distractors": [],
+        "hints": [
+          "Essere: it agrees."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "avere-essere",
+          "agreement"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-03",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: Paul came back yesterday."
+        },
+        "sentence_context": "Paul è ___ ieri.",
+        "correct_answer": "tornato",
+        "distractors": [],
+        "hints": [
+          "Tornare uses essere."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "avere-essere",
+          "agreement"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-04",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: Giulia was born in Rome."
+        },
+        "sentence_context": "Giulia è ___ a Roma.",
+        "correct_answer": "nata",
+        "distractors": [],
+        "hints": [
+          "Nascere: nato, agreeing."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "irregular",
+          "agreement"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-05",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: I wrote an email."
+        },
+        "sentence_context": "Ho ___ una e-mail.",
+        "correct_answer": "scritto",
+        "distractors": [],
+        "hints": [
+          "Scrivere."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "irregular"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-06",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: Have you seen Marco?"
+        },
+        "sentence_context": "Hai ___ Marco?",
+        "correct_answer": "visto",
+        "distractors": [],
+        "hints": [
+          "Vedere."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "irregular"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-07",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: They opened the door."
+        },
+        "sentence_context": "Hanno ___ la porta.",
+        "correct_answer": "aperto",
+        "distractors": [],
+        "hints": [
+          "Aprire."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "irregular"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-08",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: I drank a coffee."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Ho bevuto un caffè."
+        ],
+        "distractors": [],
+        "hints": [
+          "Bere: bevuto."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "irregular"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-09",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: Giulia went out at nine."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Giulia è uscita alle nove."
+        ],
+        "distractors": [],
+        "hints": [
+          "Uscire uses essere; it agrees."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "avere-essere",
+          "agreement"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-10",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Put it in the past."
+        },
+        "sentence_context": "Ci divertiamo molto.",
+        "correct_answer": [
+          "Ci siamo divertiti molto.",
+          "Ci siamo divertite molto."
+        ],
+        "distractors": [],
+        "hints": [
+          "Reflexive: essere, agreeing."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "reflexive"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-11",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Put it in the past."
+        },
+        "sentence_context": "Mi alzo presto.",
+        "correct_answer": [
+          "Mi sono alzato presto.",
+          "Mi sono alzata presto."
+        ],
+        "distractors": [],
+        "hints": [
+          "Reflexive: essere."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "reflexive"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-12",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Sono mangiato una pizza.",
+        "correct_answer": [
+          "Ho mangiato una pizza."
+        ],
+        "distractors": [],
+        "hints": [
+          "Mangiare uses avere."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "avere-essere"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-13",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Le ragazze sono andato al mare.",
+        "correct_answer": [
+          "Le ragazze sono andate al mare."
+        ],
+        "distractors": [],
+        "hints": [
+          "With essere, the participle agrees."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-14",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Ho mangiato già.",
+        "correct_answer": [
+          "Ho già mangiato."
+        ],
+        "distractors": [],
+        "hints": [
+          "Già goes between helper and participle."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "use"
+        ],
+        "strict_accents": true
+      },
+      {
+        "id": "a1-passato-prossimo-m-15",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Ho non visto il film.",
+        "correct_answer": [
+          "Non ho visto il film."
+        ],
+        "distractors": [],
+        "hints": [
+          "Non before the helper."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "use"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-16",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: an hour ago"
+        },
+        "sentence_context": "un'ora ___",
+        "correct_answer": "fa",
+        "distractors": [],
+        "hints": [
+          "Ago."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "use"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-17",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "Which is correct?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Mi sono piaciuti i film.",
+        "distractors": [
+          "Mi è piaciuto i film.",
+          "Ho piaciuto i film."
+        ],
+        "hints": [
+          "Piacere agrees with what you liked."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "use",
+          "agreement"
+        ]
+      },
+      {
+        "id": "a1-passato-prossimo-m-18",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: We've never been to Florence."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Non siamo mai stati a Firenze.",
+          "Non siamo mai state a Firenze."
+        ],
+        "distractors": [],
+        "hints": [
+          "Non … mai, with essere + stato."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "use",
+          "irregular"
+        ]
+      }
+    ]
+  }
+}

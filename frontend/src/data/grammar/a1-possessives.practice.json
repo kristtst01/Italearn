@@ -1,0 +1,947 @@
+{
+  "unit_id": "a1-possessives",
+  "points": {
+    "forms": {
+      "label": "The forms and agreement",
+      "section": "The forms"
+    },
+    "article": {
+      "label": "The article",
+      "section": "The article"
+    },
+    "family": {
+      "label": "Family: no article",
+      "section": "Family: no article"
+    },
+    "suo-lei": {
+      "label": "Suo for Lei",
+      "section": "Suo for Lei"
+    },
+    "pronouns": {
+      "label": "Mine, yours: il mio, il tuo",
+      "section": "On their own: il mio, il tuo"
+    }
+  },
+  "stops": [
+    {
+      "id": "forms",
+      "title": "The forms and the article",
+      "after": "The article",
+      "exercises": [
+        {
+          "id": "a1-possessives-p-01",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: my book."
+          },
+          "sentence_context": "il ___ libro",
+          "correct_answer": "mio",
+          "distractors": [],
+          "hints": [
+            "Masculine singular."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-02",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: my house."
+          },
+          "sentence_context": "la ___ casa",
+          "correct_answer": "mia",
+          "distractors": [],
+          "hints": [
+            "Feminine singular."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-03",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: my friends."
+          },
+          "sentence_context": "i ___ amici",
+          "correct_answer": "miei",
+          "distractors": [],
+          "hints": [
+            "Masculine plural: irregular."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-04",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: my keys."
+          },
+          "sentence_context": "le ___ chiavi",
+          "correct_answer": "mie",
+          "distractors": [],
+          "hints": [
+            "Feminine plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-05",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: your backpack (tu)."
+          },
+          "sentence_context": "il ___ zaino",
+          "correct_answer": "tuo",
+          "distractors": [],
+          "hints": [
+            "Masculine singular."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-06",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: your friends (tu)."
+          },
+          "sentence_context": "i ___ amici",
+          "correct_answer": "tuoi",
+          "distractors": [],
+          "hints": [
+            "Masculine plural: irregular."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-07",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: our house."
+          },
+          "sentence_context": "la ___ casa",
+          "correct_answer": "nostra",
+          "distractors": [],
+          "hints": [
+            "Feminine singular."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-08",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: your books (voi)."
+          },
+          "sentence_context": "i ___ libri",
+          "correct_answer": "vostri",
+          "distractors": [],
+          "hints": [
+            "Masculine plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-09",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: their car."
+          },
+          "sentence_context": "la ___ macchina",
+          "correct_answer": "loro",
+          "distractors": [],
+          "hints": [
+            "Loro never changes."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-10",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Marco has a car. How do you say 'his car'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "la sua macchina",
+          "distractors": [
+            "il suo macchina",
+            "la suo macchina"
+          ],
+          "hints": [
+            "Suo agrees with the car."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-11",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Giulia has a dog. How do you say 'her dog'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "il suo cane",
+          "distractors": [
+            "la sua cane",
+            "il sua cane"
+          ],
+          "hints": [
+            "Suo agrees with the dog."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-12",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Mio libro è qui.",
+          "correct_answer": [
+            "Il mio libro è qui."
+          ],
+          "distractors": [],
+          "hints": [
+            "Possessives usually take the article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "article"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-13",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: A friend of mine lives in Rome."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Un mio amico abita a Roma.",
+            "Un amico mio abita a Roma."
+          ],
+          "distractors": [],
+          "hints": [
+            "Un + possessive."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "article"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-14",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Tonight we're having dinner at my place."
+          },
+          "sentence_context": "Stasera ceniamo a casa ___.",
+          "correct_answer": "mia",
+          "distractors": [],
+          "hints": [
+            "A casa + possessive, no article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Family, and suo for Lei",
+      "after": "Suo for Lei",
+      "exercises": [
+        {
+          "id": "a1-possessives-p-15",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: my brother."
+          },
+          "sentence_context": "___ fratello",
+          "correct_answer": "mio",
+          "distractors": [],
+          "hints": [
+            "A single family member: no article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "family"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-16",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: my parents."
+          },
+          "sentence_context": "___ miei genitori",
+          "correct_answer": "i",
+          "distractors": [],
+          "hints": [
+            "Plural family: the article comes back."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "family"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-17",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: their mother."
+          },
+          "sentence_context": "___ loro madre",
+          "correct_answer": "la",
+          "distractors": [],
+          "hints": [
+            "Loro always takes the article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "family"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-18",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'My sister is a doctor'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Mia sorella è medico.",
+          "distractors": [
+            "La mia sorella è medico.",
+            "Mia la sorella è medico."
+          ],
+          "hints": [
+            "A single family member: no article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "family"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-19",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'my little brother'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "il mio fratellino",
+          "distractors": [
+            "mio fratellino",
+            "la mia fratellino"
+          ],
+          "hints": [
+            "A changed family word takes the article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "family"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-20",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "La mia madre abita a Roma.",
+          "correct_answer": [
+            "Mia madre abita a Roma."
+          ],
+          "distractors": [],
+          "hints": [
+            "A single family member: no article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "family"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-21",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Miei genitori sono di Napoli.",
+          "correct_answer": [
+            "I miei genitori sono di Napoli."
+          ],
+          "distractors": [],
+          "hints": [
+            "Plural family: the article comes back."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "family"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-22",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Loro madre è italiana.",
+          "correct_answer": [
+            "La loro madre è italiana."
+          ],
+          "distractors": [],
+          "hints": [
+            "Loro always takes the article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "family"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-23",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite it about your brothers."
+          },
+          "sentence_context": "Mio fratello abita a Milano.",
+          "correct_answer": [
+            "I miei fratelli abitano a Milano."
+          ],
+          "distractors": [],
+          "hints": [
+            "Plural family takes the article; the verb changes too."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "family"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-24",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You ask a lady you call Lei what her son is called."
+          },
+          "sentence_context": "",
+          "correct_answer": "Come si chiama Suo figlio?",
+          "distractors": [
+            "Come si chiama tuo figlio?",
+            "Come si chiama il Suo figlio?"
+          ],
+          "hints": [
+            "Suo for Lei; a single family member, no article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "suo-lei",
+            "family"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-25",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Ask a lady you call Lei: Is this your bag?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "È Sua questa borsa?",
+            "Questa borsa è Sua?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Suo for Lei."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "suo-lei"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pronouns",
+      "title": "Mine, yours, and everything together",
+      "after": "On their own: il mio, il tuo",
+      "exercises": [
+        {
+          "id": "a1-possessives-p-26",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "'Is this your coffee?' How do you answer 'No, mine is over there'?"
+          },
+          "sentence_context": "Questo è il tuo caffè?",
+          "correct_answer": "No, il mio è lì.",
+          "distractors": [
+            "No, mio è lì.",
+            "No, la mia è lì."
+          ],
+          "hints": [
+            "On its own: with the article, agreeing with caffè."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-27",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Ask: And yours?"
+          },
+          "sentence_context": "Mio fratello abita a Roma. E il ___?",
+          "correct_answer": "tuo",
+          "distractors": [],
+          "hints": [
+            "On its own, even for family, the article stays."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-28",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Answer: Yes, it's mine."
+          },
+          "sentence_context": "È tuo questo libro? Sì, è ___.",
+          "correct_answer": "mio",
+          "distractors": [],
+          "hints": [
+            "After essere, often no article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-29",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: our friends."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "i nostri amici"
+          ],
+          "distractors": [],
+          "hints": [
+            "With the article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms",
+            "article"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-30",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: their house."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "la loro casa"
+          ],
+          "distractors": [],
+          "hints": [
+            "Loro never changes."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms",
+            "article"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-31",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "le loros case",
+          "correct_answer": [
+            "le loro case"
+          ],
+          "distractors": [],
+          "hints": [
+            "Loro never changes."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "forms"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-32",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Un amico di mio abita qui.",
+          "correct_answer": [
+            "Un mio amico abita qui.",
+            "Un amico mio abita qui."
+          ],
+          "distractors": [],
+          "hints": [
+            "A friend of mine: un mio amico."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "article"
+          ]
+        },
+        {
+          "id": "a1-possessives-p-33",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: My father and my mother are from Naples."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Mio padre e mia madre sono di Napoli."
+          ],
+          "distractors": [],
+          "hints": [
+            "Single family members: no article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "family"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-possessives-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: my sisters."
+        },
+        "sentence_context": "le ___ sorelle",
+        "correct_answer": "mie",
+        "distractors": [],
+        "hints": [
+          "Plural family: the article is already there."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "forms",
+          "family"
+        ]
+      },
+      {
+        "id": "a1-possessives-m-02",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: your car (tu)."
+        },
+        "sentence_context": "la ___ macchina",
+        "correct_answer": "tua",
+        "distractors": [],
+        "hints": [
+          "Feminine singular."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "forms"
+        ]
+      },
+      {
+        "id": "a1-possessives-m-03",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: their friends."
+        },
+        "sentence_context": "i ___ amici",
+        "correct_answer": "loro",
+        "distractors": [],
+        "hints": [
+          "Loro never changes."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "forms"
+        ]
+      },
+      {
+        "id": "a1-possessives-m-04",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "Paul has a sister. How do you say 'his sister'?"
+        },
+        "sentence_context": "",
+        "correct_answer": "sua sorella",
+        "distractors": [
+          "suo sorella",
+          "la sua sorella"
+        ],
+        "hints": [
+          "Agrees with sorella; a single family member, no article."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "forms",
+          "family"
+        ]
+      },
+      {
+        "id": "a1-possessives-m-05",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: my husband."
+        },
+        "sentence_context": "___ marito",
+        "correct_answer": "mio",
+        "distractors": [],
+        "hints": [
+          "A single family member: no article."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "family"
+        ]
+      },
+      {
+        "id": "a1-possessives-m-06",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: their son."
+        },
+        "sentence_context": "___ loro figlio",
+        "correct_answer": "il",
+        "distractors": [],
+        "hints": [
+          "Loro always takes the article."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "family"
+        ]
+      },
+      {
+        "id": "a1-possessives-m-07",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Make it plural."
+        },
+        "sentence_context": "mia sorella",
+        "correct_answer": [
+          "le mie sorelle"
+        ],
+        "distractors": [],
+        "hints": [
+          "Plural family: the article comes back."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "family"
+        ]
+      },
+      {
+        "id": "a1-possessives-m-08",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: My mother is a teacher."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Mia madre è insegnante."
+        ],
+        "distractors": [],
+        "hints": [
+          "No article with madre."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "family"
+        ]
+      },
+      {
+        "id": "a1-possessives-m-09",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Mia casa è grande.",
+        "correct_answer": [
+          "La mia casa è grande."
+        ],
+        "distractors": [],
+        "hints": [
+          "Possessives usually take the article."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "article"
+        ]
+      },
+      {
+        "id": "a1-possessives-m-10",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Giulia ha una macchina. Il suo macchina è nuova.",
+        "correct_answer": [
+          "Giulia ha una macchina. La sua macchina è nuova."
+        ],
+        "distractors": [],
+        "hints": [
+          "Suo agrees with macchina."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "forms"
+        ]
+      },
+      {
+        "id": "a1-possessives-m-11",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "La mia moglie è di Roma.",
+        "correct_answer": [
+          "Mia moglie è di Roma."
+        ],
+        "distractors": [],
+        "hints": [
+          "A single family member: no article."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "family"
+        ]
+      },
+      {
+        "id": "a1-possessives-m-12",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Ask: Where are yours?"
+        },
+        "sentence_context": "Le mie chiavi sono qui. Dove sono le ___?",
+        "correct_answer": "tue",
+        "distractors": [],
+        "hints": [
+          "On its own, agreeing with chiavi."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "pronouns"
+        ]
+      },
+      {
+        "id": "a1-possessives-m-13",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "You ask a man you call Lei: Is this your passport?"
+        },
+        "sentence_context": "",
+        "correct_answer": "È Suo questo passaporto?",
+        "distractors": [
+          "È tuo questo passaporto?",
+          "È vostro questo passaporto?"
+        ],
+        "hints": [
+          "Suo for Lei."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "suo-lei"
+        ]
+      }
+    ]
+  }
+}

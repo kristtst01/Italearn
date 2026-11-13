@@ -1,0 +1,797 @@
+{
+  "unit_id": "a1-piacere",
+  "points": {
+    "piace-piacciono": {
+      "label": "Piace or piacciono",
+      "section": "How piacere works"
+    },
+    "pronouns": {
+      "label": "The pronouns (mi, ti, gli, le…)",
+      "section": "Who likes it: the pronouns"
+    },
+    "a-marco": {
+      "label": "A Marco piace, anche a me",
+      "section": "A Marco piace"
+    },
+    "with-verb": {
+      "label": "Piacere with a verb",
+      "section": "Piacere with a verb"
+    },
+    "preferire": {
+      "label": "Preferire",
+      "section": "Preferire"
+    }
+  },
+  "stops": [
+    {
+      "id": "piacere",
+      "title": "Piace, piacciono and the pronouns",
+      "after": "A Marco piace",
+      "exercises": [
+        {
+          "id": "a1-piacere-p-01",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I like music."
+          },
+          "sentence_context": "Mi ___ la musica.",
+          "correct_answer": "piace",
+          "distractors": [],
+          "hints": [
+            "One thing."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "piace-piacciono"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-02",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I like Italian films."
+          },
+          "sentence_context": "Mi ___ i film italiani.",
+          "correct_answer": "piacciono",
+          "distractors": [],
+          "hints": [
+            "More than one thing."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "piace-piacciono"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-03",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Do you like tea?"
+          },
+          "sentence_context": "___ piace il tè?",
+          "correct_answer": "Ti",
+          "distractors": [],
+          "hints": [
+            "To you."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-04",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: He likes football."
+          },
+          "sentence_context": "___ piace il calcio.",
+          "correct_answer": "Gli",
+          "distractors": [],
+          "hints": [
+            "To him."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-05",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: She likes cats."
+          },
+          "sentence_context": "___ piacciono i gatti.",
+          "correct_answer": "Le",
+          "distractors": [],
+          "hints": [
+            "To her."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-06",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: We like Rome."
+          },
+          "sentence_context": "___ piace Roma.",
+          "correct_answer": "Ci",
+          "distractors": [],
+          "hints": [
+            "To us."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-07",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Do you (plural) like pizza?"
+          },
+          "sentence_context": "___ piace la pizza?",
+          "correct_answer": "Vi",
+          "distractors": [],
+          "hints": [
+            "To you (plural)."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-08",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: They like dogs."
+          },
+          "sentence_context": "___ piacciono i cani.",
+          "correct_answer": "Gli",
+          "distractors": [],
+          "hints": [
+            "To them."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-09",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Ask a lady you call Lei: Do you like Florence?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Le piace Firenze?",
+          "distractors": [
+            "Ti piace Firenze?",
+            "Gli piace Firenze?"
+          ],
+          "hints": [
+            "Le, for Lei."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-10",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it negative."
+          },
+          "sentence_context": "Mi piace il caffè.",
+          "correct_answer": [
+            "Non mi piace il caffè."
+          ],
+          "distractors": [],
+          "hints": [
+            "Non goes before the pronoun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-11",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Marco likes football."
+          },
+          "sentence_context": "___ Marco piace il calcio.",
+          "correct_answer": "A",
+          "distractors": [],
+          "hints": [
+            "With a name."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "a-marco"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-12",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: The children like ice cream."
+          },
+          "sentence_context": "___ bambini piace il gelato.",
+          "correct_answer": "Ai",
+          "distractors": [],
+          "hints": [
+            "A + i."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "a-marco"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-13",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Your friend says 'Mi piace Roma.' You do too."
+          },
+          "sentence_context": "",
+          "correct_answer": "Anche a me!",
+          "distractors": [
+            "Anche io!",
+            "Anche mi!"
+          ],
+          "hints": [
+            "Agreeing with piacere: anche a me."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "a-marco"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-14",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Your friend says 'Non mi piace il vino.' You don't either."
+          },
+          "sentence_context": "",
+          "correct_answer": "Neanche a me.",
+          "distractors": [
+            "Neanche io.",
+            "Anche a me."
+          ],
+          "hints": [
+            "Me neither, with piacere: neanche a me."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "a-marco"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-15",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Mi piace i libri.",
+          "correct_answer": [
+            "Mi piacciono i libri."
+          ],
+          "distractors": [],
+          "hints": [
+            "Plural thing: piacciono."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "piace-piacciono"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-16",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Marco piace il calcio.",
+          "correct_answer": [
+            "A Marco piace il calcio."
+          ],
+          "distractors": [],
+          "hints": [
+            "With a name, a."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "a-marco"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-17",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Io piace il caffè.",
+          "correct_answer": [
+            "Mi piace il caffè."
+          ],
+          "distractors": [],
+          "hints": [
+            "The person is mi, not io."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-18",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: Giulia likes cats."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "A Giulia piacciono i gatti.",
+            "Le piacciono i gatti."
+          ],
+          "distractors": [],
+          "hints": [
+            "A Giulia; cats are plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "a-marco",
+            "piace-piacciono"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbs-preferire",
+      "title": "Liking doing things, and preferire",
+      "after": "Preferire",
+      "exercises": [
+        {
+          "id": "a1-piacere-p-19",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I like reading."
+          },
+          "sentence_context": "Mi ___ leggere.",
+          "correct_answer": "piace",
+          "distractors": [],
+          "hints": [
+            "With a verb."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "with-verb"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-20",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I like cooking and dancing."
+          },
+          "sentence_context": "Mi ___ cucinare e ballare.",
+          "correct_answer": "piace",
+          "distractors": [],
+          "hints": [
+            "With verbs, always the same form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "with-verb"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-21",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Ask in Italian: Do you like travelling?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Ti piace viaggiare?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Piace + infinitive."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "with-verb"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-22",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Mi piacciono leggere e cucinare.",
+          "correct_answer": [
+            "Mi piace leggere e cucinare."
+          ],
+          "distractors": [],
+          "hints": [
+            "With verbs, always piace."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "with-verb"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-23",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I prefer tea."
+          },
+          "sentence_context": "___ il tè.",
+          "correct_answer": "Preferisco",
+          "distractors": [],
+          "hints": [
+            "Io, an -isc- verb."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "preferire"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-24",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Do you prefer reading or watching TV?"
+          },
+          "sentence_context": "___ leggere o guardare la tv?",
+          "correct_answer": "Preferisci",
+          "distractors": [],
+          "hints": [
+            "Tu."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "preferire"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-25",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Marco prefers coffee."
+          },
+          "sentence_context": "Marco ___ il caffè.",
+          "correct_answer": "preferisce",
+          "distractors": [],
+          "hints": [
+            "Lui."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "preferire"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-26",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: I like coffee, but I prefer tea."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Mi piace il caffè, ma preferisco il tè."
+          ],
+          "distractors": [],
+          "hints": [
+            "Piacere, then preferire."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "preferire",
+            "piace-piacciono"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-27",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Mi piace caffè.",
+          "correct_answer": [
+            "Mi piace il caffè."
+          ],
+          "distractors": [],
+          "hints": [
+            "The thing takes the article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "piace-piacciono"
+          ]
+        },
+        {
+          "id": "a1-piacere-p-28",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "A me mi piace il tè.",
+          "correct_answer": [
+            "Mi piace il tè.",
+            "A me piace il tè."
+          ],
+          "distractors": [],
+          "hints": [
+            "One or the other, not both."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "a-marco"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-piacere-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: I like cats."
+        },
+        "sentence_context": "Mi ___ i gatti.",
+        "correct_answer": "piacciono",
+        "distractors": [],
+        "hints": [
+          "More than one thing."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "piace-piacciono"
+        ]
+      },
+      {
+        "id": "a1-piacere-m-02",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: She likes reading."
+        },
+        "sentence_context": "___ piace leggere.",
+        "correct_answer": "Le",
+        "distractors": [],
+        "hints": [
+          "To her."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "pronouns"
+        ]
+      },
+      {
+        "id": "a1-piacere-m-03",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: He likes cars."
+        },
+        "sentence_context": "___ piacciono le macchine.",
+        "correct_answer": "Gli",
+        "distractors": [],
+        "hints": [
+          "To him."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "pronouns"
+        ]
+      },
+      {
+        "id": "a1-piacere-m-04",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: Paul likes pizza."
+        },
+        "sentence_context": "___ Paul piace la pizza.",
+        "correct_answer": "A",
+        "distractors": [],
+        "hints": [
+          "With a name."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "a-marco"
+        ]
+      },
+      {
+        "id": "a1-piacere-m-05",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: I don't like football."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Non mi piace il calcio."
+        ],
+        "distractors": [],
+        "hints": [
+          "Non before the pronoun."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "pronouns"
+        ]
+      },
+      {
+        "id": "a1-piacere-m-06",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Ask a man you call Lei: Do you like wine?"
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Le piace il vino?"
+        ],
+        "distractors": [],
+        "hints": [
+          "Le, for Lei."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "pronouns"
+        ]
+      },
+      {
+        "id": "a1-piacere-m-07",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "Your friend says 'Mi piace cucinare.' You do too."
+        },
+        "sentence_context": "",
+        "correct_answer": "Anche a me.",
+        "distractors": [
+          "Anche io.",
+          "Neanche a me."
+        ],
+        "hints": [
+          "Me too, with piacere."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "a-marco"
+        ]
+      },
+      {
+        "id": "a1-piacere-m-08",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Mi piace le canzoni italiane.",
+        "correct_answer": [
+          "Mi piacciono le canzoni italiane."
+        ],
+        "distractors": [],
+        "hints": [
+          "Plural thing: piacciono."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "piace-piacciono"
+        ]
+      },
+      {
+        "id": "a1-piacere-m-09",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Giulia piace ballare.",
+        "correct_answer": [
+          "A Giulia piace ballare."
+        ],
+        "distractors": [],
+        "hints": [
+          "With a name, a."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "a-marco"
+        ]
+      },
+      {
+        "id": "a1-piacere-m-10",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Mi piacciono cantare e suonare.",
+        "correct_answer": [
+          "Mi piace cantare e suonare."
+        ],
+        "distractors": [],
+        "hints": [
+          "With verbs, always piace."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "with-verb"
+        ]
+      },
+      {
+        "id": "a1-piacere-m-11",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "Which is correct?"
+        },
+        "sentence_context": "",
+        "correct_answer": "I bambini preferiscono il gelato.",
+        "distractors": [
+          "Ai bambini preferiscono il gelato.",
+          "I bambini preferisce il gelato."
+        ],
+        "hints": [
+          "Preferire agrees with the people."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "preferire"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,765 @@
+{
+  "unit_id": "a1-reflexive",
+  "points": {
+    "pronouns": {
+      "label": "The pronouns",
+      "section": "The pronouns"
+    },
+    "common-verbs": {
+      "label": "Common reflexive verbs",
+      "section": "Common reflexive verbs"
+    },
+    "position": {
+      "label": "Where the pronoun goes",
+      "section": "Where the pronoun goes"
+    },
+    "reflexive-or-not": {
+      "label": "Reflexive or not",
+      "section": "Reflexive or not"
+    },
+    "each-other": {
+      "label": "Each other",
+      "section": "Each other"
+    }
+  },
+  "stops": [
+    {
+      "id": "forms",
+      "title": "The pronouns and common verbs",
+      "after": "Common reflexive verbs",
+      "exercises": [
+        {
+          "id": "a1-reflexive-p-01",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I get up at seven."
+          },
+          "sentence_context": "___ alzo alle sette.",
+          "correct_answer": "Mi",
+          "distractors": [],
+          "hints": [
+            "Io."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-02",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: What time do you get up?"
+          },
+          "sentence_context": "A che ora ___ alzi?",
+          "correct_answer": "ti",
+          "distractors": [],
+          "hints": [
+            "Tu."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-03",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Marco gets up late."
+          },
+          "sentence_context": "Marco ___ alza tardi.",
+          "correct_answer": "si",
+          "distractors": [],
+          "hints": [
+            "Lui."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-04",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: We get up early."
+          },
+          "sentence_context": "___ alziamo presto.",
+          "correct_answer": "Ci",
+          "distractors": [],
+          "hints": [
+            "Noi."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-05",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: You (plural) get up early."
+          },
+          "sentence_context": "___ alzate presto.",
+          "correct_answer": "Vi",
+          "distractors": [],
+          "hints": [
+            "Voi."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-06",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: They get up at eight."
+          },
+          "sentence_context": "___ alzano alle otto.",
+          "correct_answer": "Si",
+          "distractors": [],
+          "hints": [
+            "Loro."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-07",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with svegliarsi."
+          },
+          "sentence_context": "Io mi ___ alle sette.",
+          "correct_answer": "sveglio",
+          "distractors": [],
+          "hints": [
+            "Io: -o."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns",
+            "common-verbs"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-08",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with vestirsi."
+          },
+          "sentence_context": "Giulia si ___ in camera.",
+          "correct_answer": "veste",
+          "distractors": [],
+          "hints": [
+            "Lei, an -ire verb."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns",
+            "common-verbs"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-09",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Complete with divertirsi."
+          },
+          "sentence_context": "Ci ___ molto a Roma.",
+          "correct_answer": "divertiamo",
+          "distractors": [],
+          "hints": [
+            "Noi."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns",
+            "common-verbs"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-10",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "What does 'Mi diverto' mean?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "I have fun",
+            "I'm having fun",
+            "I enjoy myself"
+          ],
+          "distractors": [],
+          "hints": [
+            "Divertirsi."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "common-verbs"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-11",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Ask in Italian: How do you feel?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Come ti senti?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Sentirsi, tu."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "common-verbs"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-12",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Rewrite with noi."
+          },
+          "sentence_context": "Mi sveglio presto.",
+          "correct_answer": [
+            "Ci svegliamo presto."
+          ],
+          "distractors": [],
+          "hints": [
+            "Noi: ci + -iamo."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-13",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Si alziamo alle sette.",
+          "correct_answer": [
+            "Ci alziamo alle sette."
+          ],
+          "distractors": [],
+          "hints": [
+            "Noi takes ci."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "position-meaning",
+      "title": "Position, and reflexive or not",
+      "after": "Each other",
+      "exercises": [
+        {
+          "id": "a1-reflexive-p-14",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it negative."
+          },
+          "sentence_context": "Mi alzo presto.",
+          "correct_answer": [
+            "Non mi alzo presto."
+          ],
+          "distractors": [],
+          "hints": [
+            "Non before the pronoun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "position"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-15",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Mi non alzo presto.",
+          "correct_answer": [
+            "Non mi alzo presto."
+          ],
+          "distractors": [],
+          "hints": [
+            "Non goes before the pronoun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "position"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-16",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Tomorrow I have to get up early."
+          },
+          "sentence_context": "Domani devo ___ presto.",
+          "correct_answer": "alzarmi",
+          "distractors": [],
+          "hints": [
+            "Joined to the infinitive, matching io."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "position"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-17",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which is correct?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Domani mi devo alzare presto.",
+          "distractors": [
+            "Domani devo mi alzare presto.",
+            "Domani mi devo alzarmi presto."
+          ],
+          "hints": [
+            "Before the modal, or joined to the infinitive, not both."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "position"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-18",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I like waking up late."
+          },
+          "sentence_context": "Mi piace ___ tardi.",
+          "correct_answer": "svegliarmi",
+          "distractors": [],
+          "hints": [
+            "The joined pronoun matches the person."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "position"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-19",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Mi piace svegliarsi tardi.",
+          "correct_answer": [
+            "Mi piace svegliarmi tardi."
+          ],
+          "distractors": [],
+          "hints": [
+            "The joined pronoun matches the person."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "position"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-20",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which means 'I'm washing the car'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Lavo la macchina.",
+          "distractors": [
+            "Mi lavo la macchina.",
+            "Mi lavo."
+          ],
+          "hints": [
+            "Acting on something else: no pronoun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "reflexive-or-not"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-21",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: I wash my hands."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Mi lavo le mani."
+          ],
+          "distractors": [],
+          "hints": [
+            "Your own body: reflexive + article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "reflexive-or-not"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-22",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Lavo le mie mani.",
+          "correct_answer": [
+            "Mi lavo le mani."
+          ],
+          "distractors": [],
+          "hints": [
+            "Your own body: reflexive + article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "reflexive-or-not"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-23",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'My name is Marco'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Mi chiamo Marco.",
+          "distractors": [
+            "Chiamo Marco.",
+            "Io chiamo Marco."
+          ],
+          "hints": [
+            "Chiamo Marco is 'I'm calling Marco'."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "reflexive-or-not"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-24",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: See you tomorrow!"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Ci vediamo domani!"
+          ],
+          "distractors": [],
+          "hints": [
+            "We'll see each other."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "each-other"
+          ]
+        },
+        {
+          "id": "a1-reflexive-p-25",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Marco and Giulia know each other."
+          },
+          "sentence_context": "Marco e Giulia ___ conoscono.",
+          "correct_answer": "si",
+          "distractors": [],
+          "hints": [
+            "Each other, loro."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "each-other"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-reflexive-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: I wake up at seven."
+        },
+        "sentence_context": "Mi ___ alle sette.",
+        "correct_answer": "sveglio",
+        "distractors": [],
+        "hints": [
+          "Io."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "pronouns",
+          "common-verbs"
+        ]
+      },
+      {
+        "id": "a1-reflexive-m-02",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: Paul gets dressed quickly."
+        },
+        "sentence_context": "Paul ___ veste subito.",
+        "correct_answer": "si",
+        "distractors": [],
+        "hints": [
+          "Lui."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "pronouns"
+        ]
+      },
+      {
+        "id": "a1-reflexive-m-03",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: Do you (plural) have fun?"
+        },
+        "sentence_context": "Vi ___?",
+        "correct_answer": "divertite",
+        "distractors": [],
+        "hints": [
+          "Voi, an -ire verb."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "pronouns",
+          "common-verbs"
+        ]
+      },
+      {
+        "id": "a1-reflexive-m-04",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: We get up early."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Ci alziamo presto."
+        ],
+        "distractors": [],
+        "hints": [
+          "Noi."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "pronouns"
+        ]
+      },
+      {
+        "id": "a1-reflexive-m-05",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: I feel fine."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Mi sento bene."
+        ],
+        "distractors": [],
+        "hints": [
+          "Sentirsi."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "common-verbs"
+        ]
+      },
+      {
+        "id": "a1-reflexive-m-06",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Make it negative."
+        },
+        "sentence_context": "Ci fermiamo qui.",
+        "correct_answer": [
+          "Non ci fermiamo qui."
+        ],
+        "distractors": [],
+        "hints": [
+          "Non before the pronoun."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "position"
+        ]
+      },
+      {
+        "id": "a1-reflexive-m-07",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: I want to rest."
+        },
+        "sentence_context": "Voglio ___.",
+        "correct_answer": "riposarmi",
+        "distractors": [],
+        "hints": [
+          "Joined to the infinitive, matching io."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "position"
+        ]
+      },
+      {
+        "id": "a1-reflexive-m-08",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Alzo alle otto.",
+        "correct_answer": [
+          "Mi alzo alle otto."
+        ],
+        "distractors": [],
+        "hints": [
+          "Alzarsi needs its pronoun."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "pronouns"
+        ]
+      },
+      {
+        "id": "a1-reflexive-m-09",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Ti piace svegliarsi presto?",
+        "correct_answer": [
+          "Ti piace svegliarti presto?"
+        ],
+        "distractors": [],
+        "hints": [
+          "The joined pronoun matches the person."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "position"
+        ]
+      },
+      {
+        "id": "a1-reflexive-m-10",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Rewrite with loro."
+        },
+        "sentence_context": "Mi diverto molto.",
+        "correct_answer": [
+          "Si divertono molto."
+        ],
+        "distractors": [],
+        "hints": [
+          "Loro: si + -ono."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "pronouns"
+        ]
+      },
+      {
+        "id": "a1-reflexive-m-11",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "How do you say 'I'm calling Giulia'?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Chiamo Giulia.",
+        "distractors": [
+          "Mi chiamo Giulia.",
+          "Si chiama Giulia."
+        ],
+        "hints": [
+          "Acting on someone else: no pronoun."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "reflexive-or-not"
+        ]
+      },
+      {
+        "id": "a1-reflexive-m-12",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: See you on Monday!"
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Ci vediamo lunedì!"
+        ],
+        "distractors": [],
+        "hints": [
+          "Ci vediamo + the day."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "each-other"
+        ]
+      }
+    ]
+  }
+}

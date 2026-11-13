@@ -1,0 +1,1258 @@
+{
+  "unit_id": "a1-questions-negation",
+  "points": {
+    "yes-no": {
+      "label": "Yes-or-no questions",
+      "section": "Yes-or-no questions"
+    },
+    "question-words": {
+      "label": "Question words",
+      "section": "Question words"
+    },
+    "word-order": {
+      "label": "Word order with a question word",
+      "section": "Word order with a question word"
+    },
+    "prep-first": {
+      "label": "Prepositions come first",
+      "section": "Prepositions come first"
+    },
+    "non": {
+      "label": "Non before the verb",
+      "section": "Negatives"
+    },
+    "double-neg": {
+      "label": "Never, nothing, nobody",
+      "section": "Never, nothing, nobody"
+    },
+    "how-often": {
+      "label": "How often",
+      "section": "How often"
+    },
+    "linking": {
+      "label": "Joining sentences",
+      "section": "Joining sentences"
+    }
+  },
+  "stops": [
+    {
+      "id": "questions",
+      "title": "Asking questions",
+      "after": "Prepositions come first",
+      "exercises": [
+        {
+          "id": "a1-questions-negation-p-01",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Turn it into a question."
+          },
+          "sentence_context": "Marco abita a Roma.",
+          "correct_answer": [
+            "Marco abita a Roma?",
+            "Abita a Roma, Marco?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Same words, with a question mark."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "yes-no"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-02",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You want to know where Marco lives."
+          },
+          "sentence_context": "",
+          "correct_answer": "Dove abita Marco?",
+          "distractors": [
+            "Quando abita Marco?",
+            "Come abita Marco?"
+          ],
+          "hints": [
+            "Dove: where."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "question-words",
+            "word-order"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-03",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Ask: How much does it cost?"
+          },
+          "sentence_context": "___ costa?",
+          "correct_answer": "Quanto",
+          "distractors": [],
+          "hints": [
+            "How much, on its own."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "question-words"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-04",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Ask: How many sisters do you have?"
+          },
+          "sentence_context": "___ sorelle hai?",
+          "correct_answer": "Quante",
+          "distractors": [],
+          "hints": [
+            "It agrees with sorelle."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "question-words"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-05",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Ask: How much water is there?"
+          },
+          "sentence_context": "___ acqua c'è?",
+          "correct_answer": "Quanta",
+          "distractors": [],
+          "hints": [
+            "It agrees with acqua."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "question-words"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-06",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Ask: Why are you studying Italian?"
+          },
+          "sentence_context": "___ studi italiano?",
+          "correct_answer": "Perché",
+          "distractors": [],
+          "hints": [
+            "Why."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "question-words"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-questions-negation-p-07",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Ask: When are you leaving?"
+          },
+          "sentence_context": "___ parti?",
+          "correct_answer": "Quando",
+          "distractors": [],
+          "hints": [
+            "When."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "question-words"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-08",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Ask: Who is it?"
+          },
+          "sentence_context": "___ è?",
+          "correct_answer": "Chi",
+          "distractors": [],
+          "hints": [
+            "Who."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "question-words"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-09",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Ask in Italian: What's Florence like?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Com'è Firenze?",
+            "Come è Firenze?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Come + è."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "question-words"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-10",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Ask in Italian: Where does Giulia live?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Dove abita Giulia?",
+            "Giulia dove abita?"
+          ],
+          "distractors": [],
+          "hints": [
+            "The name usually goes at the end."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "word-order"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-11",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which is written correctly?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Qual è il problema?",
+          "distractors": [
+            "Qual'è il problema?",
+            "Quali è il problema?"
+          ],
+          "hints": [
+            "Qual è has no apostrophe."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "question-words"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-12",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "A friend asks 'Perché studi italiano?' Which answer fits?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Perché lavoro a Roma.",
+          "distractors": [
+            "Quando lavoro a Roma.",
+            "Come lavoro a Roma."
+          ],
+          "hints": [
+            "Perché is also because."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "question-words"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-13",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Ask: Where are you from?"
+          },
+          "sentence_context": "___ dove sei?",
+          "correct_answer": "Di",
+          "distractors": [],
+          "hints": [
+            "The preposition goes first."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "prep-first"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-14",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Ask: Whose phone is it?"
+          },
+          "sentence_context": "___ chi è il telefono?",
+          "correct_answer": "Di",
+          "distractors": [],
+          "hints": [
+            "Whose: the preposition for owners."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "prep-first"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-15",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Ask in Italian: Who are you going out with?"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Con chi esci?"
+          ],
+          "distractors": [],
+          "hints": [
+            "The preposition goes first."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "prep-first"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-16",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Chi esci con?",
+          "correct_answer": [
+            "Con chi esci?"
+          ],
+          "distractors": [],
+          "hints": [
+            "The preposition goes before chi."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "prep-first"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-17",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Quanto sorelle hai?",
+          "correct_answer": [
+            "Quante sorelle hai?"
+          ],
+          "distractors": [],
+          "hints": [
+            "Quanto agrees with the noun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "question-words"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negatives",
+      "title": "Negatives",
+      "after": "Never, nothing, nobody",
+      "exercises": [
+        {
+          "id": "a1-questions-negation-p-18",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it negative."
+          },
+          "sentence_context": "Lavoro oggi.",
+          "correct_answer": [
+            "Non lavoro oggi."
+          ],
+          "distractors": [],
+          "hints": [
+            "Non before the verb."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "non"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-19",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it negative with mai."
+          },
+          "sentence_context": "Bevo caffè.",
+          "correct_answer": [
+            "Non bevo mai caffè.",
+            "Non bevo mai il caffè."
+          ],
+          "distractors": [],
+          "hints": [
+            "Non before the verb, mai after it."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "double-neg"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-20",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I'm not doing anything."
+          },
+          "sentence_context": "Non faccio ___.",
+          "correct_answer": [
+            "niente",
+            "nulla"
+          ],
+          "distractors": [],
+          "hints": [
+            "Nothing."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "double-neg"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-21",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: There's nobody here."
+          },
+          "sentence_context": "Non c'è ___ qui.",
+          "correct_answer": "nessuno",
+          "distractors": [],
+          "hints": [
+            "Nobody."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "double-neg"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-22",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Nobody speaks English here."
+          },
+          "sentence_context": "___ parla inglese qui.",
+          "correct_answer": "Nessuno",
+          "distractors": [],
+          "hints": [
+            "Before the verb, no non."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "double-neg"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-23",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I don't study any more."
+          },
+          "sentence_context": "Non studio ___.",
+          "correct_answer": "più",
+          "distractors": [],
+          "hints": [
+            "No longer."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "double-neg"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-questions-negation-p-24",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I don't even have a euro."
+          },
+          "sentence_context": "Non ho ___ un euro.",
+          "correct_answer": "neanche",
+          "distractors": [],
+          "hints": [
+            "Not even."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "double-neg"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-25",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I don't have any problems."
+          },
+          "sentence_context": "Non ho ___ problema.",
+          "correct_answer": "nessun",
+          "distractors": [],
+          "hints": [
+            "Like un before a masculine noun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "double-neg"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-26",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Your friend says 'Non bevo vino.' You don't either."
+          },
+          "sentence_context": "",
+          "correct_answer": "Neanche io.",
+          "distractors": [
+            "Anche io.",
+            "Io sì."
+          ],
+          "hints": [
+            "The negative partner of anche io."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "double-neg"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-27",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You knock at a door. How do you ask if anybody is there?"
+          },
+          "sentence_context": "",
+          "correct_answer": "C'è nessuno?",
+          "distractors": [
+            "Nessuno c'è?",
+            "C'è niente?"
+          ],
+          "hints": [
+            "In questions, nessuno can mean anybody."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "double-neg"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-28",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Bevo mai caffè.",
+          "correct_answer": [
+            "Non bevo mai caffè."
+          ],
+          "distractors": [],
+          "hints": [
+            "After the verb, mai needs non too."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "double-neg"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-29",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Non nessuno parla inglese.",
+          "correct_answer": [
+            "Nessuno parla inglese."
+          ],
+          "distractors": [],
+          "hints": [
+            "Before the verb, no non."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "double-neg"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-30",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Faccio niente.",
+          "correct_answer": [
+            "Non faccio niente."
+          ],
+          "distractors": [],
+          "hints": [
+            "After the verb, niente needs non too."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "double-neg"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-31",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: I never eat at home."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Non mangio mai a casa."
+          ],
+          "distractors": [],
+          "hints": [
+            "Non … mai."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "double-neg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "often-linking",
+      "title": "How often, and joining sentences",
+      "after": "Joining sentences",
+      "exercises": [
+        {
+          "id": "a1-questions-negation-p-32",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I always eat at home."
+          },
+          "sentence_context": "Mangio ___ a casa.",
+          "correct_answer": "sempre",
+          "distractors": [],
+          "hints": [
+            "Always."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "how-often"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-33",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I often go to the cinema."
+          },
+          "sentence_context": "Vado ___ al cinema.",
+          "correct_answer": "spesso",
+          "distractors": [],
+          "hints": [
+            "Often."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "how-often"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-34",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I usually take the train."
+          },
+          "sentence_context": "Di ___ prendo il treno.",
+          "correct_answer": "solito",
+          "distractors": [],
+          "hints": [
+            "Usually."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "how-often"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-35",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which means 'sometimes'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "qualche volta",
+          "distractors": [
+            "di solito",
+            "spesso"
+          ],
+          "hints": [
+            "Qualche volta, or a volte."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "how-often"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-36",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Ask: Coffee or tea?"
+          },
+          "sentence_context": "Un caffè ___ un tè?",
+          "correct_answer": "o",
+          "distractors": [],
+          "hints": [
+            "Or."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "linking"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-37",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: It's small, but it's nice."
+          },
+          "sentence_context": "È piccolo, ___ è bello.",
+          "correct_answer": [
+            "ma",
+            "però"
+          ],
+          "distractors": [],
+          "hints": [
+            "But."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "linking"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-38",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I'm studying because I work in Italy."
+          },
+          "sentence_context": "Studio ___ lavoro in Italia.",
+          "correct_answer": "perché",
+          "distractors": [],
+          "hints": [
+            "Because."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "linking"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-questions-negation-p-39",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: When I'm tired, I sleep."
+          },
+          "sentence_context": "___ sono stanco, dormo.",
+          "correct_answer": "Quando",
+          "distractors": [],
+          "hints": [
+            "When."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "linking"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-40",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: If you have time, let's go to the cinema."
+          },
+          "sentence_context": "___ hai tempo, andiamo al cinema.",
+          "correct_answer": "Se",
+          "distractors": [],
+          "hints": [
+            "If."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "linking"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-41",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Join the two sentences with perché."
+          },
+          "sentence_context": "Studio italiano. Lavoro a Roma.",
+          "correct_answer": [
+            "Studio italiano perché lavoro a Roma."
+          ],
+          "distractors": [],
+          "hints": [
+            "Perché: because."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "linking"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-42",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Io anche.",
+          "correct_answer": [
+            "Anche io."
+          ],
+          "distractors": [],
+          "hints": [
+            "Anche goes before the word it's about."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "linking"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-43",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: Marco's coming too."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Anche Marco viene.",
+            "Viene anche Marco."
+          ],
+          "distractors": [],
+          "hints": [
+            "Anche before Marco."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "linking"
+          ]
+        },
+        {
+          "id": "a1-questions-negation-p-44",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: I usually go to work by bus."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Di solito vado al lavoro in autobus.",
+            "Di solito vado a lavorare in autobus."
+          ],
+          "distractors": [],
+          "hints": [
+            "Di solito at the start; in for transport."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "how-often"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-questions-negation-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Ask: How many brothers do you have?"
+        },
+        "sentence_context": "___ fratelli hai?",
+        "correct_answer": "Quanti",
+        "distractors": [],
+        "hints": [
+          "It agrees with fratelli."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "question-words"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-02",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Ask: Which book are you reading?"
+        },
+        "sentence_context": "___ libro leggi?",
+        "correct_answer": [
+          "Che",
+          "Quale"
+        ],
+        "distractors": [],
+        "hints": [
+          "Which, before a noun."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "question-words"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-03",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Ask in Italian: When does the train arrive?"
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Quando arriva il treno?"
+        ],
+        "distractors": [],
+        "hints": [
+          "The subject usually goes at the end."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "word-order"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-04",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Ask in Italian: Who is the coffee for?"
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Per chi è il caffè?"
+        ],
+        "distractors": [],
+        "hints": [
+          "The preposition goes first."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "prep-first"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-05",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Ask in Italian: Whose book is it?"
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Di chi è il libro?"
+        ],
+        "distractors": [],
+        "hints": [
+          "Whose: di chi."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "prep-first"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-06",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Ask: Why aren't you coming?"
+        },
+        "sentence_context": "___ non vieni?",
+        "correct_answer": "Perché",
+        "distractors": [],
+        "hints": [
+          "Why."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "question-words"
+        ],
+        "strict_accents": true
+      },
+      {
+        "id": "a1-questions-negation-m-07",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Make it negative with più."
+        },
+        "sentence_context": "Abito a Roma.",
+        "correct_answer": [
+          "Non abito più a Roma."
+        ],
+        "distractors": [],
+        "hints": [
+          "Non before the verb, più after it."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "double-neg"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-08",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: I don't know anybody here."
+        },
+        "sentence_context": "Non conosco ___ qui.",
+        "correct_answer": "nessuno",
+        "distractors": [],
+        "hints": [
+          "Anybody, in a negative."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "double-neg"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-09",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: Nothing is easy."
+        },
+        "sentence_context": "___ è facile.",
+        "correct_answer": [
+          "Niente",
+          "Nulla"
+        ],
+        "distractors": [],
+        "hints": [
+          "Before the verb, no non."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "double-neg"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-10",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: I never go to the cinema."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Non vado mai al cinema."
+        ],
+        "distractors": [],
+        "hints": [
+          "Non … mai."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "double-neg"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-11",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Ho nessun problema.",
+        "correct_answer": [
+          "Non ho nessun problema."
+        ],
+        "distractors": [],
+        "hints": [
+          "Nessuno after the verb needs non."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "double-neg"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-12",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Qual'è il problema?",
+        "correct_answer": [
+          "Qual è il problema?"
+        ],
+        "distractors": [],
+        "hints": [
+          "No apostrophe."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "question-words"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-13",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Perchè non vieni?",
+        "correct_answer": [
+          "Perché non vieni?"
+        ],
+        "distractors": [],
+        "hints": [
+          "Perché has an acute accent."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "question-words"
+        ],
+        "strict_accents": true
+      },
+      {
+        "id": "a1-questions-negation-m-14",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: If you're hungry, there's a sandwich."
+        },
+        "sentence_context": "___ hai fame, c'è un panino.",
+        "correct_answer": "Se",
+        "distractors": [],
+        "hints": [
+          "If."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "linking"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-15",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Join the two sentences with quando."
+        },
+        "sentence_context": "Sono stanco. Dormo.",
+        "correct_answer": [
+          "Quando sono stanco, dormo.",
+          "Dormo quando sono stanco."
+        ],
+        "distractors": [],
+        "hints": [
+          "Quando: when."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "linking"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-16",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Make it negative."
+        },
+        "sentence_context": "Marco parla inglese.",
+        "correct_answer": [
+          "Marco non parla inglese."
+        ],
+        "distractors": [],
+        "hints": [
+          "Non straight before the verb."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "non"
+        ]
+      },
+      {
+        "id": "a1-questions-negation-m-17",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: We usually eat at home."
+        },
+        "sentence_context": "Di ___ mangiamo a casa.",
+        "correct_answer": "solito",
+        "distractors": [],
+        "hints": [
+          "Usually."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "how-often"
+        ]
+      }
+    ]
+  }
+}

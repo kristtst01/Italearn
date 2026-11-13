@@ -12,6 +12,7 @@ import { buttonVariants } from '@/components/ui/button';
 import EmptyState from '@/shared/components/EmptyState';
 import LoadingScreen from '@/shared/components/LoadingScreen';
 import { cn } from '@/lib/utils';
+import { RESTORE_SCROLL } from '@/shared/utils/scroll';
 import GrammarReading from './GrammarReading';
 
 type Loaded = { reading?: GrammarUnitContent; practice?: GrammarPractice };
@@ -50,7 +51,8 @@ export default function GrammarUnitPage() {
 
       {/* Left-aligned like other pages; collapsed, the toggle sits in the page's left padding */}
       <div className="relative flex w-full items-start">
-      <CloseLink className="absolute top-0 right-0 -mt-2 -mr-2 max-lg:hidden" />
+      {/* Pinned under the top bar, lined up with the page's right edge, so you can leave from anywhere */}
+      <CloseLink className="fixed top-20 right-[max(3rem,calc((100vw-80rem)/2+3rem))] z-30 bg-background max-lg:hidden" />
       {reading ? <Contents unit={unit} reading={reading} practice={practice} /> : <Outline unit={unit} />}
 
       <article className="flex min-w-0 flex-1 flex-col gap-5.5 text-reading lg:pr-12">
@@ -98,6 +100,7 @@ function CloseLink({ className }: { className?: string }) {
   return (
     <Link
       to="/grammar"
+      state={RESTORE_SCROLL}
       aria-label="Close and go back to Grammar"
       title="Back to Grammar"
       className={cn(

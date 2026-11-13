@@ -5,6 +5,7 @@ import { Toaster } from 'sonner'
 import { setTokenProvider } from '@/engine/api'
 import HydrationGuard from '@/shared/components/HydrationGuard'
 import AppLayout from '@/shared/components/AppLayout'
+import ScrollToTop from '@/shared/components/ScrollToTop'
 import TodayPage from '@/features/today/TodayPage'
 import LibraryPage, { ChaptersTab } from '@/features/library/LibraryPage'
 import ChapterPage from '@/features/library/ChapterPage'
@@ -35,6 +36,7 @@ export default function App() {
     <ClerkProvider publishableKey={CLERK_KEY}>
       <BrowserRouter>
         <TokenBridge />
+        <ScrollToTop />
 
         <SignedOut>
           <LoginPage />

@@ -1,0 +1,1066 @@
+{
+  "unit_id": "a1-time-dates",
+  "points": {
+    "ordinals": {
+      "label": "First, second, third",
+      "section": "First, second, third"
+    },
+    "days": {
+      "label": "Days of the week",
+      "section": "Days of the week"
+    },
+    "months-seasons": {
+      "label": "Months and seasons",
+      "section": "Months and seasons"
+    },
+    "dates": {
+      "label": "Dates",
+      "section": "Dates"
+    },
+    "time": {
+      "label": "Telling the time",
+      "section": "Telling the time"
+    },
+    "at-time": {
+      "label": "At what time",
+      "section": "At what time"
+    },
+    "part-of-day": {
+      "label": "Morning, afternoon, evening",
+      "section": "Morning, afternoon, evening"
+    }
+  },
+  "stops": [
+    {
+      "id": "calendar",
+      "title": "Ordinals, days, months and seasons",
+      "after": "Months and seasons",
+      "exercises": [
+        {
+          "id": "a1-time-dates-p-01",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write 'third' in Italian."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "terzo"
+          ],
+          "distractors": [],
+          "hints": [
+            "One of the first ten."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ordinals"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-02",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write 'fifth' in Italian."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "quinto"
+          ],
+          "distractors": [],
+          "hints": [
+            "One of the first ten."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ordinals"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-03",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write 'eleventh' in Italian."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "undicesimo"
+          ],
+          "distractors": [],
+          "hints": [
+            "Undici, minus the last vowel, + -esimo."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ordinals"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-04",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: the first time."
+          },
+          "sentence_context": "la ___ volta",
+          "correct_answer": "prima",
+          "distractors": [],
+          "hints": [
+            "It agrees with volta."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ordinals"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-05",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: the second day."
+          },
+          "sentence_context": "il ___ giorno",
+          "correct_answer": "secondo",
+          "distractors": [],
+          "hints": [
+            "It agrees with giorno."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "ordinals"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-06",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write 'Wednesday' in Italian."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "mercoledì"
+          ],
+          "distractors": [],
+          "hints": [
+            "It ends in an accented ì."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "days"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-time-dates-p-07",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Write 'Friday' in Italian."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "venerdì"
+          ],
+          "distractors": [],
+          "hints": [
+            "It ends in an accented ì."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "days"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-time-dates-p-08",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which is written correctly?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Oggi è lunedì.",
+          "distractors": [
+            "Oggi è Lunedì.",
+            "Oggi è il Lunedì."
+          ],
+          "hints": [
+            "Days have a small letter."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "days"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-09",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which means 'on Mondays' (every week)?"
+          },
+          "sentence_context": "",
+          "correct_answer": "il lunedì",
+          "distractors": [
+            "lunedì",
+            "in lunedì"
+          ],
+          "hints": [
+            "With the article: every week."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "days"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-10",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Ask: What day is it today?"
+          },
+          "sentence_context": "Che ___ è oggi?",
+          "correct_answer": "giorno",
+          "distractors": [],
+          "hints": [
+            "Day."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "days"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-11",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: in May."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "a maggio",
+            "in maggio"
+          ],
+          "distractors": [],
+          "hints": [
+            "A or in, both correct."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "months-seasons"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-12",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which is 'summer'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "l'estate",
+          "distractors": [
+            "l'inverno",
+            "la primavera"
+          ],
+          "hints": [
+            "L'estate is feminine."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "months-seasons"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-13",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: in spring."
+          },
+          "sentence_context": "in ___",
+          "correct_answer": "primavera",
+          "distractors": [],
+          "hints": [
+            "Spring."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "months-seasons"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dates",
+      "title": "Dates",
+      "after": "Dates",
+      "exercises": [
+        {
+          "id": "a1-time-dates-p-14",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: the first of May."
+          },
+          "sentence_context": "il ___ maggio",
+          "correct_answer": "primo",
+          "distractors": [],
+          "hints": [
+            "The 1st uses the ordinal."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "dates"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-15",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: the second of May."
+          },
+          "sentence_context": "il ___ maggio",
+          "correct_answer": "due",
+          "distractors": [],
+          "hints": [
+            "After the 1st, the ordinary number."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "dates"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-16",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: the eighth of March."
+          },
+          "sentence_context": "___ otto marzo",
+          "correct_answer": [
+            "l'"
+          ],
+          "distractors": [],
+          "hints": [
+            "Before a vowel."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "dates"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-17",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "A note in Italy says 3/5. What date is it?"
+          },
+          "sentence_context": "",
+          "correct_answer": "the third of May",
+          "distractors": [
+            "the fifth of March",
+            "the third to the fifth"
+          ],
+          "hints": [
+            "The day comes first."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "dates"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-18",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: Today is the third of May."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Oggi è il tre maggio.",
+            "Oggi è il 3 maggio."
+          ],
+          "distractors": [],
+          "hints": [
+            "Il + number + month."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "dates"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-19",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: Giulia's birthday is the twelfth of March."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Il compleanno di Giulia è il dodici marzo.",
+            "Il compleanno di Giulia è il 12 marzo."
+          ],
+          "distractors": [],
+          "hints": [
+            "Il compleanno di Giulia."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "dates"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-20",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "l'uno maggio",
+          "correct_answer": [
+            "il primo maggio"
+          ],
+          "distractors": [],
+          "hints": [
+            "The 1st uses primo."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "dates"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-21",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "il otto marzo",
+          "correct_answer": [
+            "l'otto marzo"
+          ],
+          "distractors": [],
+          "hints": [
+            "L' before a vowel."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "dates"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "title": "Telling the time",
+      "after": "Morning, afternoon, evening",
+      "exercises": [
+        {
+          "id": "a1-time-dates-p-22",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you ask the time?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Che ore sono?",
+          "distractors": [
+            "Quante ore sono?",
+            "Che ora sono?"
+          ],
+          "hints": [
+            "Che ore sono? or Che ora è?"
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "time"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-23",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: It's three o'clock."
+          },
+          "sentence_context": "___ le tre.",
+          "correct_answer": "Sono",
+          "distractors": [],
+          "hints": [
+            "The hours are plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "time"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-24",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: It's one o'clock."
+          },
+          "sentence_context": "___ l'una.",
+          "correct_answer": "È",
+          "distractors": [],
+          "hints": [
+            "One o'clock is singular."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "time"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-time-dates-p-25",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: It's half past four."
+          },
+          "sentence_context": "Sono le quattro e ___.",
+          "correct_answer": [
+            "mezza",
+            "mezzo"
+          ],
+          "distractors": [],
+          "hints": [
+            "Half."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "time"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-26",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: It's a quarter past two."
+          },
+          "sentence_context": "Sono le due e un ___.",
+          "correct_answer": "quarto",
+          "distractors": [],
+          "hints": [
+            "A quarter."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "time"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-27",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: It's a quarter to six."
+          },
+          "sentence_context": "Sono le sei ___ un quarto.",
+          "correct_answer": "meno",
+          "distractors": [],
+          "hints": [
+            "To: minus."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "time"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-28",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: It's ten past eight."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Sono le otto e dieci."
+          ],
+          "distractors": [],
+          "hints": [
+            "Sono le + hour + e + minutes."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "time"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-29",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: It's midday."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "È mezzogiorno."
+          ],
+          "distractors": [],
+          "hints": [
+            "No article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "time"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-time-dates-p-30",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: at eight."
+          },
+          "sentence_context": "___ otto",
+          "correct_answer": "alle",
+          "distractors": [],
+          "hints": [
+            "A + le."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "at-time"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-31",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: at one."
+          },
+          "sentence_context": "___ una",
+          "correct_answer": [
+            "all'"
+          ],
+          "distractors": [],
+          "hints": [
+            "A + l'."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "at-time"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-32",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: at midday."
+          },
+          "sentence_context": "___ mezzogiorno",
+          "correct_answer": "a",
+          "distractors": [],
+          "hints": [
+            "Midday has no article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "at-time"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-33",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: from nine to five."
+          },
+          "sentence_context": "___ nove alle cinque",
+          "correct_answer": "dalle",
+          "distractors": [],
+          "hints": [
+            "Da + le."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "at-time"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-34",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: at ten in the evening."
+          },
+          "sentence_context": "alle dieci ___ sera",
+          "correct_answer": "di",
+          "distractors": [],
+          "hints": [
+            "In the evening."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "part-of-day"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-35",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: at three in the afternoon."
+          },
+          "sentence_context": "alle tre ___ pomeriggio",
+          "correct_answer": "del",
+          "distractors": [],
+          "hints": [
+            "In the afternoon."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "part-of-day"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-36",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "Sono le una.",
+          "correct_answer": [
+            "È l'una."
+          ],
+          "distractors": [],
+          "hints": [
+            "One o'clock is singular."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "time"
+          ],
+          "strict_accents": true
+        },
+        {
+          "id": "a1-time-dates-p-37",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "a le tre",
+          "correct_answer": [
+            "alle tre"
+          ],
+          "distractors": [],
+          "hints": [
+            "A + le joins."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "at-time"
+          ]
+        },
+        {
+          "id": "a1-time-dates-p-38",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "È le tre.",
+          "correct_answer": [
+            "Sono le tre."
+          ],
+          "distractors": [],
+          "hints": [
+            "The hours are plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "time"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-time-dates-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: the third week."
+        },
+        "sentence_context": "la ___ settimana",
+        "correct_answer": "terza",
+        "distractors": [],
+        "hints": [
+          "It agrees with settimana."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "ordinals"
+        ]
+      },
+      {
+        "id": "a1-time-dates-m-02",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Write 'Thursday' in Italian."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "giovedì"
+        ],
+        "distractors": [],
+        "hints": [
+          "It ends in an accented ì."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "days"
+        ],
+        "strict_accents": true
+      },
+      {
+        "id": "a1-time-dates-m-03",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Rewrite it to mean every Saturday."
+        },
+        "sentence_context": "Sabato lavoro.",
+        "correct_answer": [
+          "Il sabato lavoro."
+        ],
+        "distractors": [],
+        "hints": [
+          "Every week: with the article."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "days"
+        ]
+      },
+      {
+        "id": "a1-time-dates-m-04",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: the first of June."
+        },
+        "sentence_context": "il ___ giugno",
+        "correct_answer": "primo",
+        "distractors": [],
+        "hints": [
+          "The 1st uses the ordinal."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "dates"
+        ]
+      },
+      {
+        "id": "a1-time-dates-m-05",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: Today is the twenty-first of June."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Oggi è il ventuno giugno.",
+          "Oggi è il 21 giugno."
+        ],
+        "distractors": [],
+        "hints": [
+          "Il + number + month."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "dates"
+        ]
+      },
+      {
+        "id": "a1-time-dates-m-06",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: It's half past one."
+        },
+        "sentence_context": "È l'una e ___.",
+        "correct_answer": [
+          "mezza",
+          "mezzo"
+        ],
+        "distractors": [],
+        "hints": [
+          "Half."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "time"
+        ]
+      },
+      {
+        "id": "a1-time-dates-m-07",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: It's a quarter to ten."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Sono le dieci meno un quarto."
+        ],
+        "distractors": [],
+        "hints": [
+          "Meno un quarto."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "time"
+        ]
+      },
+      {
+        "id": "a1-time-dates-m-08",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: It's midnight."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "È mezzanotte."
+        ],
+        "distractors": [],
+        "hints": [
+          "No article."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "time"
+        ],
+        "strict_accents": true
+      },
+      {
+        "id": "a1-time-dates-m-09",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: I have dinner at eight."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Ceno alle otto."
+        ],
+        "distractors": [],
+        "hints": [
+          "Cenare; a + le."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "at-time"
+        ]
+      },
+      {
+        "id": "a1-time-dates-m-10",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: at seven in the morning."
+        },
+        "sentence_context": "alle sette ___ mattina",
+        "correct_answer": "di",
+        "distractors": [],
+        "hints": [
+          "In the morning."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "part-of-day"
+        ]
+      },
+      {
+        "id": "a1-time-dates-m-11",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "alle mezzogiorno",
+        "correct_answer": [
+          "a mezzogiorno"
+        ],
+        "distractors": [],
+        "hints": [
+          "Midday has no article."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "at-time"
+        ]
+      },
+      {
+        "id": "a1-time-dates-m-12",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "Sono le una e mezza.",
+        "correct_answer": [
+          "È l'una e mezza."
+        ],
+        "distractors": [],
+        "hints": [
+          "One o'clock is singular."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "time"
+        ],
+        "strict_accents": true
+      },
+      {
+        "id": "a1-time-dates-m-13",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "Which is written correctly?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Oggi è lunedì 3 maggio.",
+        "distractors": [
+          "Oggi è Lunedì 3 Maggio.",
+          "Oggi è lunedì 3 Maggio."
+        ],
+        "hints": [
+          "Days and months have a small letter."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "days",
+          "months-seasons"
+        ]
+      }
+    ]
+  }
+}

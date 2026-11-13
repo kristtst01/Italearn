@@ -1,0 +1,1345 @@
+{
+  "unit_id": "a1-adjectives",
+  "points": {
+    "agreement": {
+      "label": "Agreement",
+      "section": "Adjectives in -o and -e"
+    },
+    "invariable": {
+      "label": "Adjectives that don't change",
+      "section": "Adjectives that don't change"
+    },
+    "position": {
+      "label": "Where adjectives go",
+      "section": "Where adjectives go"
+    },
+    "bello-buono": {
+      "label": "Bello and buono before a noun",
+      "section": "Bello and buono before a noun"
+    },
+    "nationalities": {
+      "label": "Nationalities",
+      "section": "Nationalities"
+    },
+    "questo-quello": {
+      "label": "Questo and quello",
+      "section": "Questo and quello"
+    },
+    "amounts": {
+      "label": "Molto, poco, tanto, troppo",
+      "section": "How much and how many"
+    },
+    "tutto-ogni-qualche": {
+      "label": "Tutto, ogni and qualche",
+      "section": "Tutto, ogni and qualche"
+    }
+  },
+  "stops": [
+    {
+      "id": "agreement",
+      "title": "Agreement",
+      "after": "Adjectives that don't change",
+      "exercises": [
+        {
+          "id": "a1-adjectives-p-01",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Make the adjective agree."
+          },
+          "sentence_context": "una casa ___ (rosso)",
+          "correct_answer": "rossa",
+          "distractors": [],
+          "hints": [
+            "Feminine singular."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-02",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Make the adjective agree."
+          },
+          "sentence_context": "due libri ___ (rosso)",
+          "correct_answer": "rossi",
+          "distractors": [],
+          "hints": [
+            "Masculine plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-03",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Make the adjective agree."
+          },
+          "sentence_context": "due case ___ (piccolo)",
+          "correct_answer": "piccole",
+          "distractors": [],
+          "hints": [
+            "Feminine plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-04",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Make the adjective agree."
+          },
+          "sentence_context": "due ragazze ___ (inglese)",
+          "correct_answer": "inglesi",
+          "distractors": [],
+          "hints": [
+            "An -e adjective in the plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-05",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Make the adjective agree."
+          },
+          "sentence_context": "Giulia è ___ (stanco)",
+          "correct_answer": "stanca",
+          "distractors": [],
+          "hints": [
+            "It agrees with the subject."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-06",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Make the adjective agree."
+          },
+          "sentence_context": "Marco e Giulia sono ___ (stanco)",
+          "correct_answer": "stanchi",
+          "distractors": [],
+          "hints": [
+            "A mixed group: masculine plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-07",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Make the adjective agree."
+          },
+          "sentence_context": "Gli esercizi sono ___ (facile)",
+          "correct_answer": "facili",
+          "distractors": [],
+          "hints": [
+            "An -e adjective in the plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-08",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Make the adjective agree."
+          },
+          "sentence_context": "Le amiche sono ___ (simpatico)",
+          "correct_answer": "simpatiche",
+          "distractors": [],
+          "hints": [
+            "Feminine plural keeps the hard sound."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-09",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Make the adjective agree."
+          },
+          "sentence_context": "due macchine ___ (blu)",
+          "correct_answer": "blu",
+          "distractors": [],
+          "hints": [
+            "Blu doesn't change."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "invariable"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-10",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it plural."
+          },
+          "sentence_context": "la casa bianca",
+          "correct_answer": [
+            "le case bianche"
+          ],
+          "distractors": [],
+          "hints": [
+            "Feminine plural, keeping the hard sound."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-11",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it plural."
+          },
+          "sentence_context": "il libro nuovo",
+          "correct_answer": [
+            "i libri nuovi"
+          ],
+          "distractors": [],
+          "hints": [
+            "Masculine plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-12",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "una macchina rosso",
+          "correct_answer": [
+            "una macchina rossa"
+          ],
+          "distractors": [],
+          "hints": [
+            "The adjective agrees with macchina."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-13",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "due macchine blue",
+          "correct_answer": [
+            "due macchine blu"
+          ],
+          "distractors": [],
+          "hints": [
+            "Blu doesn't change."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "invariable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "position",
+      "title": "Position, bello and buono, nationalities",
+      "after": "Nationalities",
+      "exercises": [
+        {
+          "id": "a1-adjectives-p-14",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'a green car'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "una macchina verde",
+          "distractors": [
+            "una verde macchina",
+            "una macchina verda"
+          ],
+          "hints": [
+            "Colours go after the noun; verde has one singular form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "position",
+            "agreement"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-15",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which means 'a friend of many years'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "un vecchio amico",
+          "distractors": [
+            "un amico vecchio",
+            "un amico vecchia"
+          ],
+          "hints": [
+            "Before the noun, vecchio means long-standing."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "position"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-16",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which means 'a poor boy' (without money)?"
+          },
+          "sentence_context": "",
+          "correct_answer": "un ragazzo povero",
+          "distractors": [
+            "un povero ragazzo",
+            "un ragazzo povera"
+          ],
+          "hints": [
+            "After the noun, povero means without money."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "position"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-17",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: a good coffee."
+          },
+          "sentence_context": "un ___ caffè",
+          "correct_answer": "buon",
+          "distractors": [],
+          "hints": [
+            "Before a noun, buono changes like un."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "bello-buono"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-18",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you say 'a good idea'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "una buona idea",
+          "distractors": [
+            "una buon idea",
+            "un buona idea"
+          ],
+          "hints": [
+            "Feminine: buona."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "bello-buono"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-19",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "What does 'un bel libro' mean?"
+          },
+          "sentence_context": "",
+          "correct_answer": "a nice book",
+          "distractors": [
+            "a big book",
+            "a new book"
+          ],
+          "hints": [
+            "Bel is bello before a noun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "bello-buono"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-20",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Make the adjective agree."
+          },
+          "sentence_context": "Giulia è ___ (italiano)",
+          "correct_answer": "italiana",
+          "distractors": [],
+          "hints": [
+            "Nationalities agree."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "nationalities"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-21",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Make the adjective agree."
+          },
+          "sentence_context": "Le ragazze sono ___ (francese)",
+          "correct_answer": "francesi",
+          "distractors": [],
+          "hints": [
+            "An -e nationality in the plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "nationalities"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-22",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which is written correctly?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Sono italiano.",
+          "distractors": [
+            "Sono Italiano.",
+            "Sono Italiani."
+          ],
+          "hints": [
+            "Nationalities have a small letter."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "nationalities"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-23",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "un buono caffè",
+          "correct_answer": [
+            "un buon caffè"
+          ],
+          "distractors": [],
+          "hints": [
+            "Before a noun, buono changes like un."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "bello-buono"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-24",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Say in Italian: I have a black cat."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Ho un gatto nero."
+          ],
+          "distractors": [],
+          "hints": [
+            "The colour goes after the noun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "position",
+            "agreement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questo-quello",
+      "title": "Questo and quello",
+      "after": "Questo and quello",
+      "exercises": [
+        {
+          "id": "a1-adjectives-p-25",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: these houses."
+          },
+          "sentence_context": "___ case",
+          "correct_answer": "queste",
+          "distractors": [],
+          "hints": [
+            "Feminine plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questo-quello"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-26",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: that book."
+          },
+          "sentence_context": "___ libro",
+          "correct_answer": "quel",
+          "distractors": [],
+          "hints": [
+            "Like il."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questo-quello"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-27",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: that backpack."
+          },
+          "sentence_context": "___ zaino",
+          "correct_answer": "quello",
+          "distractors": [],
+          "hints": [
+            "Like lo."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questo-quello"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-28",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: that friend (a man)."
+          },
+          "sentence_context": "___ amico",
+          "correct_answer": [
+            "quell'"
+          ],
+          "distractors": [],
+          "hints": [
+            "Like l'."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questo-quello"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-29",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: those books."
+          },
+          "sentence_context": "___ libri",
+          "correct_answer": "quei",
+          "distractors": [],
+          "hints": [
+            "Like i."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questo-quello"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-30",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: those students."
+          },
+          "sentence_context": "___ studenti",
+          "correct_answer": "quegli",
+          "distractors": [],
+          "hints": [
+            "Like gli."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questo-quello"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-31",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: those houses."
+          },
+          "sentence_context": "___ case",
+          "correct_answer": "quelle",
+          "distractors": [],
+          "hints": [
+            "Like le."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questo-quello"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-32",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which bag do you want? Answer: that one."
+          },
+          "sentence_context": "Quale borsa vuoi?",
+          "correct_answer": "Quella.",
+          "distractors": [
+            "Quel.",
+            "Quell'."
+          ],
+          "hints": [
+            "On its own: quello, quella, quelli, quelle."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questo-quello"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-33",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it plural."
+          },
+          "sentence_context": "quel ragazzo",
+          "correct_answer": [
+            "quei ragazzi"
+          ],
+          "distractors": [],
+          "hints": [
+            "Quel becomes quei."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questo-quello"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-34",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "il questo libro",
+          "correct_answer": [
+            "questo libro"
+          ],
+          "distractors": [],
+          "hints": [
+            "No article with questo."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questo-quello"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-35",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "quello libro",
+          "correct_answer": [
+            "quel libro"
+          ],
+          "distractors": [],
+          "hints": [
+            "Before a noun, quello changes like il."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "questo-quello"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amounts",
+      "title": "How much, how many, all and every",
+      "after": "Tutto, ogni and qualche",
+      "exercises": [
+        {
+          "id": "a1-adjectives-p-36",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I drink a lot of water."
+          },
+          "sentence_context": "Bevo ___ acqua.",
+          "correct_answer": "molta",
+          "distractors": [],
+          "hints": [
+            "Next to a noun, it agrees."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "amounts"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-37",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I have a lot of friends."
+          },
+          "sentence_context": "Ho ___ amici.",
+          "correct_answer": "molti",
+          "distractors": [],
+          "hints": [
+            "Next to a noun, it agrees."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "amounts"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-38",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: The house is very beautiful."
+          },
+          "sentence_context": "La casa è ___ bella.",
+          "correct_answer": "molto",
+          "distractors": [],
+          "hints": [
+            "With an adjective, it stays -o."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "amounts"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-39",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I have little money."
+          },
+          "sentence_context": "Ho ___ soldi.",
+          "correct_answer": "pochi",
+          "distractors": [],
+          "hints": [
+            "Soldi is plural."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "amounts"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-40",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: There's too much sugar."
+          },
+          "sentence_context": "C'è ___ zucchero.",
+          "correct_answer": "troppo",
+          "distractors": [],
+          "hints": [
+            "Too much."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "amounts"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-41",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I work too much."
+          },
+          "sentence_context": "Lavoro ___.",
+          "correct_answer": "troppo",
+          "distractors": [],
+          "hints": [
+            "With a verb, it stays -o."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "amounts"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-42",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: all day."
+          },
+          "sentence_context": "___ il giorno",
+          "correct_answer": "tutto",
+          "distractors": [],
+          "hints": [
+            "Tutto + the article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tutto-ogni-qualche"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-43",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: all the students."
+          },
+          "sentence_context": "___ gli studenti",
+          "correct_answer": "tutti",
+          "distractors": [],
+          "hints": [
+            "It agrees with studenti."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tutto-ogni-qualche"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-44",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: every evening."
+          },
+          "sentence_context": "___ le sere",
+          "correct_answer": "tutte",
+          "distractors": [],
+          "hints": [
+            "It agrees with sere."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tutto-ogni-qualche"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-45",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: every day."
+          },
+          "sentence_context": "___ giorno",
+          "correct_answer": "ogni",
+          "distractors": [],
+          "hints": [
+            "Every, with a singular noun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tutto-ogni-qualche"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-46",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: I have a few friends in Rome."
+          },
+          "sentence_context": "Ho qualche ___ a Roma.",
+          "correct_answer": "amico",
+          "distractors": [],
+          "hints": [
+            "Qualche takes a singular noun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tutto-ogni-qualche"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-47",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "molto amici",
+          "correct_answer": [
+            "molti amici"
+          ],
+          "distractors": [],
+          "hints": [
+            "Next to a noun, molto agrees."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "amounts"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-48",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "qualche amici",
+          "correct_answer": [
+            "qualche amico"
+          ],
+          "distractors": [],
+          "hints": [
+            "Qualche takes a singular noun."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tutto-ogni-qualche"
+          ]
+        },
+        {
+          "id": "a1-adjectives-p-49",
+          "type": "writing",
+          "subtype": "find_mistake",
+          "prompt": {
+            "text": "Fix the mistake."
+          },
+          "sentence_context": "tutti amici",
+          "correct_answer": [
+            "tutti gli amici"
+          ],
+          "distractors": [],
+          "hints": [
+            "Tutto takes the article."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tutto-ogni-qualche"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-adjectives-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Make the adjective agree."
+        },
+        "sentence_context": "Le macchine sono ___ (nuovo)",
+        "correct_answer": "nuove",
+        "distractors": [],
+        "hints": [
+          "Feminine plural."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-02",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Make the adjective agree."
+        },
+        "sentence_context": "I ragazzi sono ___ (giovane)",
+        "correct_answer": "giovani",
+        "distractors": [],
+        "hints": [
+          "An -e adjective in the plural."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-03",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Make the adjective agree."
+        },
+        "sentence_context": "una borsa ___ (rosa)",
+        "correct_answer": "rosa",
+        "distractors": [],
+        "hints": [
+          "Rosa doesn't change."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "invariable"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-04",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Make the adjective agree."
+        },
+        "sentence_context": "Marco e Giulia sono ___ (italiano)",
+        "correct_answer": "italiani",
+        "distractors": [],
+        "hints": [
+          "A mixed group: masculine plural."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "nationalities",
+          "agreement"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-05",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Make it plural."
+        },
+        "sentence_context": "la ragazza simpatica",
+        "correct_answer": [
+          "le ragazze simpatiche"
+        ],
+        "distractors": [],
+        "hints": [
+          "Feminine plural keeps the hard sound."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-06",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "Which is correct?"
+        },
+        "sentence_context": "",
+        "correct_answer": "un amico inglese",
+        "distractors": [
+          "un inglese amico",
+          "un amico Inglese"
+        ],
+        "hints": [
+          "After the noun, with a small letter."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "position",
+          "nationalities"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-07",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: that student."
+        },
+        "sentence_context": "___ studente",
+        "correct_answer": "quello",
+        "distractors": [],
+        "hints": [
+          "Like lo."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "questo-quello"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-08",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: that girl."
+        },
+        "sentence_context": "___ ragazza",
+        "correct_answer": "quella",
+        "distractors": [],
+        "hints": [
+          "Like la."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "questo-quello"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-09",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: those friends (men)."
+        },
+        "sentence_context": "___ amici",
+        "correct_answer": "quegli",
+        "distractors": [],
+        "hints": [
+          "Like gli."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "questo-quello"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-10",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: this year."
+        },
+        "sentence_context": "___ anno",
+        "correct_answer": [
+          "quest'",
+          "questo"
+        ],
+        "distractors": [],
+        "hints": [
+          "This, before a vowel."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "questo-quello"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-11",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: I have a lot of money."
+        },
+        "sentence_context": "Ho ___ soldi.",
+        "correct_answer": "molti",
+        "distractors": [],
+        "hints": [
+          "Next to a plural noun."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "amounts"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-12",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: It's too expensive."
+        },
+        "sentence_context": "È ___ caro.",
+        "correct_answer": "troppo",
+        "distractors": [],
+        "hints": [
+          "With an adjective, it stays -o."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "amounts"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-13",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: all week."
+        },
+        "sentence_context": "___ la settimana",
+        "correct_answer": "tutta",
+        "distractors": [],
+        "hints": [
+          "It agrees with settimana."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "tutto-ogni-qualche"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-14",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Say: every week."
+        },
+        "sentence_context": "___ settimana",
+        "correct_answer": "ogni",
+        "distractors": [],
+        "hints": [
+          "Every, with a singular noun."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "tutto-ogni-qualche"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-15",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: I have a few friends in Florence."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Ho qualche amico a Firenze."
+        ],
+        "distractors": [],
+        "hints": [
+          "Qualche + a singular noun."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "tutto-ogni-qualche"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-16",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: a good coffee."
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "un buon caffè"
+        ],
+        "distractors": [],
+        "hints": [
+          "Buono before a noun."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "bello-buono"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-17",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "due case piccolo",
+        "correct_answer": [
+          "due case piccole"
+        ],
+        "distractors": [],
+        "hints": [
+          "Feminine plural."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "agreement"
+        ]
+      },
+      {
+        "id": "a1-adjectives-m-18",
+        "type": "writing",
+        "subtype": "find_mistake",
+        "prompt": {
+          "text": "Fix the mistake."
+        },
+        "sentence_context": "il quello zaino",
+        "correct_answer": [
+          "quello zaino"
+        ],
+        "distractors": [],
+        "hints": [
+          "No article with quello."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "questo-quello"
+        ]
+      }
+    ]
+  }
+}

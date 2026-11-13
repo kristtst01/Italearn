@@ -1,0 +1,796 @@
+{
+  "unit_id": "a1-imperative",
+  "points": {
+    "tu-voi": {
+      "label": "Tu and voi commands",
+      "section": "Tu and voi"
+    },
+    "irregular": {
+      "label": "Irregular forms (va', fa', di'…)",
+      "section": "Irregular forms"
+    },
+    "negative": {
+      "label": "Don't: negative commands",
+      "section": "Don't: negative commands"
+    },
+    "pronouns": {
+      "label": "Commands with pronouns",
+      "section": "With pronouns"
+    },
+    "formal": {
+      "label": "Formal set phrases",
+      "section": "Formal set phrases"
+    }
+  },
+  "stops": [
+    {
+      "id": "commands",
+      "title": "Commands for tu and voi",
+      "after": "Irregular forms",
+      "exercises": [
+        {
+          "id": "a1-imperative-p-01",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell a friend: Look!"
+          },
+          "sentence_context": "___!",
+          "correct_answer": "Guarda",
+          "distractors": [],
+          "hints": [
+            "-are verb, tu: -a."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tu-voi"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-02",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell a friend: Wait a moment."
+          },
+          "sentence_context": "___ un momento.",
+          "correct_answer": "Aspetta",
+          "distractors": [],
+          "hints": [
+            "-are verb, tu: -a."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tu-voi"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-03",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell a friend: Take the train."
+          },
+          "sentence_context": "___ il treno.",
+          "correct_answer": "Prendi",
+          "distractors": [],
+          "hints": [
+            "-ere verb, tu: like the present."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tu-voi"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-04",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell a friend: Listen!"
+          },
+          "sentence_context": "___!",
+          "correct_answer": "Ascolta",
+          "distractors": [],
+          "hints": [
+            "-are verb, tu: -a."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tu-voi"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-05",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell some friends: Listen, please."
+          },
+          "sentence_context": "___, per favore.",
+          "correct_answer": "Ascoltate",
+          "distractors": [],
+          "hints": [
+            "Voi: like the present."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tu-voi"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-06",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell some friends: Wait!"
+          },
+          "sentence_context": "___!",
+          "correct_answer": "Aspettate",
+          "distractors": [],
+          "hints": [
+            "Voi: like the present."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tu-voi"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-07",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell a friend: Finish the exercise."
+          },
+          "sentence_context": "___ l'esercizio.",
+          "correct_answer": "Finisci",
+          "distractors": [],
+          "hints": [
+            "-isc- verb, tu."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tu-voi"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-08",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell a friend: Come here!"
+          },
+          "sentence_context": "___ qui!",
+          "correct_answer": "Vieni",
+          "distractors": [],
+          "hints": [
+            "Venire is regular here."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tu-voi",
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-09",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Say: Let's go!"
+          },
+          "sentence_context": "___!",
+          "correct_answer": "Andiamo",
+          "distractors": [],
+          "hints": [
+            "Let's: the noi present."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tu-voi"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-10",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Turn it into a command to a friend."
+          },
+          "sentence_context": "Parli italiano.",
+          "correct_answer": [
+            "Parla italiano!"
+          ],
+          "distractors": [],
+          "hints": [
+            "-are verb, tu: -a."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "tu-voi"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-11",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell a friend: Go home!"
+          },
+          "sentence_context": "___ a casa!",
+          "correct_answer": [
+            "Va'",
+            "Vai"
+          ],
+          "distractors": [],
+          "hints": [
+            "The short form or the long one."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-12",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell a friend: Be careful!"
+          },
+          "sentence_context": "___ attento!",
+          "correct_answer": [
+            "Sta'",
+            "Stai"
+          ],
+          "distractors": [],
+          "hints": [
+            "Stare."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-13",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell a friend: Be kind!"
+          },
+          "sentence_context": "___ gentile!",
+          "correct_answer": "Sii",
+          "distractors": [],
+          "hints": [
+            "Essere has its own form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-14",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "Which is written correctly?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Va' a casa!",
+          "distractors": [
+            "Va a casa!",
+            "Và a casa!"
+          ],
+          "hints": [
+            "The short form has an apostrophe."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "irregular"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negative-pronouns",
+      "title": "Don't, pronouns and Lei",
+      "after": "Formal set phrases",
+      "exercises": [
+        {
+          "id": "a1-imperative-p-15",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell a friend: Don't talk!"
+          },
+          "sentence_context": "Non ___!",
+          "correct_answer": "parlare",
+          "distractors": [],
+          "hints": [
+            "Negative tu: non + infinitive."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "negative"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-16",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell a friend: Don't wait!"
+          },
+          "sentence_context": "Non ___!",
+          "correct_answer": "aspettare",
+          "distractors": [],
+          "hints": [
+            "Negative tu: non + infinitive."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "negative"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-17",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell some friends: Don't talk!"
+          },
+          "sentence_context": "Non ___!",
+          "correct_answer": "parlate",
+          "distractors": [],
+          "hints": [
+            "Negative voi: non + the voi form."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "negative"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-18",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "Make it negative."
+          },
+          "sentence_context": "Vieni domani!",
+          "correct_answer": [
+            "Non venire domani!"
+          ],
+          "distractors": [],
+          "hints": [
+            "Negative tu: non + infinitive."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "negative"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-19",
+          "type": "writing",
+          "subtype": "transformation",
+          "prompt": {
+            "text": "You're telling a friend not to talk. Fix the sentence."
+          },
+          "sentence_context": "Non parla!",
+          "correct_answer": [
+            "Non parlare!"
+          ],
+          "distractors": [],
+          "hints": [
+            "Non parla means 'he isn't talking'."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "negative"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-20",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell a friend: Get up!"
+          },
+          "sentence_context": "___!",
+          "correct_answer": "Alzati",
+          "distractors": [],
+          "hints": [
+            "The pronoun joins the end."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-21",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell a friend: Have fun!"
+          },
+          "sentence_context": "___!",
+          "correct_answer": "Divertiti",
+          "distractors": [],
+          "hints": [
+            "The pronoun joins the end."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-22",
+          "type": "writing",
+          "subtype": "fill_blank",
+          "prompt": {
+            "text": "Tell some friends: Hurry up!"
+          },
+          "sentence_context": "___!",
+          "correct_answer": "Sbrigatevi",
+          "distractors": [],
+          "hints": [
+            "Voi, with vi joined to the end."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-23",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "Tell a friend in Italian: Tell me!"
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Dimmi!"
+          ],
+          "distractors": [],
+          "hints": [
+            "Di' + mi, with a double m."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "pronouns",
+            "irregular"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-24",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "How do you tell a friend 'Don't worry'?"
+          },
+          "sentence_context": "",
+          "correct_answer": "Non ti preoccupare.",
+          "distractors": [
+            "Non preoccupati.",
+            "Ti non preoccupare."
+          ],
+          "hints": [
+            "Negative tu: non + infinitive; the pronoun before or joined to it."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "negative",
+            "pronouns"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-25",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "You want to get a waiter's attention politely."
+          },
+          "sentence_context": "",
+          "correct_answer": "Senta, scusi!",
+          "distractors": [
+            "Senti, scusa!",
+            "Sentite!"
+          ],
+          "hints": [
+            "Lei: senta, scusi."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "formal"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-26",
+          "type": "vocab",
+          "subtype": "multiple_choice",
+          "prompt": {
+            "text": "A shop assistant who calls you Lei asks how they can help."
+          },
+          "sentence_context": "",
+          "correct_answer": "Mi dica.",
+          "distractors": [
+            "Dimmi.",
+            "Dica mi."
+          ],
+          "hints": [
+            "The formal set phrase."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "formal"
+          ]
+        },
+        {
+          "id": "a1-imperative-p-27",
+          "type": "writing",
+          "subtype": "type_answer",
+          "prompt": {
+            "text": "A guest arrives. Say politely (Lei): Please, take a seat."
+          },
+          "sentence_context": "",
+          "correct_answer": [
+            "Prego, si accomodi."
+          ],
+          "distractors": [],
+          "hints": [
+            "A formal set phrase."
+          ],
+          "target_words": [],
+          "grammar_points": [
+            "formal"
+          ]
+        }
+      ]
+    }
+  ],
+  "mastery": {
+    "pass_mark": 0.85,
+    "exercises": [
+      {
+        "id": "a1-imperative-m-01",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Tell a friend: Write your name."
+        },
+        "sentence_context": "___ il tuo nome.",
+        "correct_answer": "Scrivi",
+        "distractors": [],
+        "hints": [
+          "-ere verb, tu."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "tu-voi"
+        ]
+      },
+      {
+        "id": "a1-imperative-m-02",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Tell a friend: Speak Italian!"
+        },
+        "sentence_context": "___ italiano!",
+        "correct_answer": "Parla",
+        "distractors": [],
+        "hints": [
+          "-are verb, tu: -a."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "tu-voi"
+        ]
+      },
+      {
+        "id": "a1-imperative-m-03",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Tell a friend: Open the window."
+        },
+        "sentence_context": "___ la finestra.",
+        "correct_answer": "Apri",
+        "distractors": [],
+        "hints": [
+          "-ire verb, tu."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "tu-voi"
+        ]
+      },
+      {
+        "id": "a1-imperative-m-04",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Tell a friend: Do the exercise."
+        },
+        "sentence_context": "___ l'esercizio.",
+        "correct_answer": [
+          "Fa'",
+          "Fai"
+        ],
+        "distractors": [],
+        "hints": [
+          "Fare."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "irregular"
+        ]
+      },
+      {
+        "id": "a1-imperative-m-05",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Tell a friend: Don't open the door."
+        },
+        "sentence_context": "Non ___ la porta.",
+        "correct_answer": "aprire",
+        "distractors": [],
+        "hints": [
+          "Negative tu: non + infinitive."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "negative"
+        ]
+      },
+      {
+        "id": "a1-imperative-m-06",
+        "type": "writing",
+        "subtype": "transformation",
+        "prompt": {
+          "text": "Make it negative."
+        },
+        "sentence_context": "Esci stasera!",
+        "correct_answer": [
+          "Non uscire stasera!"
+        ],
+        "distractors": [],
+        "hints": [
+          "Negative tu: non + infinitive."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "negative"
+        ]
+      },
+      {
+        "id": "a1-imperative-m-07",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Tell a friend: Wake up!"
+        },
+        "sentence_context": "___!",
+        "correct_answer": "Svegliati",
+        "distractors": [],
+        "hints": [
+          "The pronoun joins the end."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "pronouns"
+        ]
+      },
+      {
+        "id": "a1-imperative-m-08",
+        "type": "writing",
+        "subtype": "type_answer",
+        "prompt": {
+          "text": "Say in Italian: Let's eat!"
+        },
+        "sentence_context": "",
+        "correct_answer": [
+          "Mangiamo!"
+        ],
+        "distractors": [],
+        "hints": [
+          "Let's: the noi present."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "tu-voi"
+        ]
+      },
+      {
+        "id": "a1-imperative-m-09",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "Which is correct, to a friend?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Non andare via!",
+        "distractors": [
+          "Non vai via!",
+          "Non va' via!"
+        ],
+        "hints": [
+          "Negative tu: non + infinitive."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "negative"
+        ]
+      },
+      {
+        "id": "a1-imperative-m-10",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "How do you tell a friend 'Tell me'?"
+        },
+        "sentence_context": "",
+        "correct_answer": "Dimmi!",
+        "distractors": [
+          "Di mi!",
+          "Dimi!"
+        ],
+        "hints": [
+          "Joined, with a double m."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "pronouns",
+          "irregular"
+        ]
+      },
+      {
+        "id": "a1-imperative-m-11",
+        "type": "writing",
+        "subtype": "fill_blank",
+        "prompt": {
+          "text": "Tell a friend: Be good!"
+        },
+        "sentence_context": "___ bravo!",
+        "correct_answer": "Sii",
+        "distractors": [],
+        "hints": [
+          "Essere has its own form."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "irregular"
+        ]
+      },
+      {
+        "id": "a1-imperative-m-12",
+        "type": "vocab",
+        "subtype": "multiple_choice",
+        "prompt": {
+          "text": "You stop a stranger in the street (Lei)."
+        },
+        "sentence_context": "",
+        "correct_answer": "Scusi!",
+        "distractors": [
+          "Scusa!",
+          "Scusate!"
+        ],
+        "hints": [
+          "Lei: scusi."
+        ],
+        "target_words": [],
+        "grammar_points": [
+          "formal"
+        ]
+      }
+    ]
+  }
+}

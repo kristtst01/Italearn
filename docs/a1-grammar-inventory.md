@@ -55,10 +55,10 @@ Grammar comes first: the unit order below is decided on its own merits (dependen
 | 5 | Nouns & the article system | Gender, -e nouns, invariables, plurals, all articles, c'è / ci sono | 5 (Things) |
 | 6 | The present tense: regular verbs | -are, -ere, -ire and -isc- verbs; spelling (cerchi, studi); using the present for now and the near future | 7, 9, 10, 12 |
 | 7 | The present tense: irregular verbs & modals | fare, andare, stare, venire, uscire, dare, bere, dire, sapere; volere, potere, dovere; vorrei; per + infinitive | 9, 10, 12, 15 |
-| 8 | Prepositions | Simple, a vs in with places, articulated, partitives, transport | 13, 14, 16 |
-| 9 | Questions, negation & linking | Question words, word order, non, double negatives, frequency, e/ma/perché/quando | 11 |
-| 10 | Adjectives, demonstratives & quantities | Agreement, position, nationalities, questo/quello, molto/poco/tanto/tutto/qualche, nessuno/niente | 6, 7, 17 |
-| 11 | Time & dates | Ordinals, telling the time, days, months, seasons, dates | 9, 19 |
+| 8 | Prepositions | Simple, joined forms, a vs in with places, da with people, transport, origin, di, partitives | 13, 14, 16 |
+| 9 | Questions, negation & linking | Question words, word order, prepositions in questions, non, double negatives (mai, niente, nessuno, più, neanche), frequency, e/o/ma/perché/quando/se/anche | 11 |
+| 10 | Adjectives, demonstratives & quantities | Agreement, invariables, position, bello/buono, nationalities, questo/quello, molto/poco/tanto/troppo, tutto/ogni/qualche (nessuno/niente moved to unit 9) | 6, 7, 17 |
+| 11 | Time & dates | Ordinals, days, months, seasons, dates, telling the time, at what time, parts of the day | 9, 19 |
 | 12 | Possessive adjectives | Forms, agreement, the article, the family rule, Suo | 8 |
 | 13 | Piacere | Mi piace/piacciono, indirect pronouns with piacere, piacere + infinitive, preferire | 18 |
 | 14 | Reflexive verbs | Pronouns, placement, common verbs | 9 |

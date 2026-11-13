@@ -74,12 +74,12 @@ export const GRAMMAR_PLAN: PlannedGrammarUnit[] = [
   },
   {
     id: 'a1-questions-negation', level: 'A1', order: 9, title: 'Questions, negation & linking', short: 'Questions & negation',
-    covers: ['Question words', 'Word order in questions', 'Non and double negatives', 'Frequency adverbs', 'Linking: e, ma, perché, quando'],
+    covers: ['Yes-or-no questions', 'Question words', 'Word order', 'Prepositions in questions', 'Non and double negatives (mai, niente, nessuno)', 'How often', 'Linking: e, o, ma, perché, quando, se, anche'],
     chapters: ['unit-11'],
   },
   {
     id: 'a1-adjectives', level: 'A1', order: 10, title: 'Adjectives, demonstratives & quantities', short: 'Adjectives',
-    covers: ['Agreement (-o/-a/-i/-e)', 'Position', 'Invariable adjectives', 'Nationalities', 'Questo and quello', 'Molto, poco, tanto, tutto, qualche', 'Nessuno and niente'],
+    covers: ['Agreement (-o/-a/-i/-e)', 'Invariable adjectives', 'Position', 'Bello and buono', 'Nationalities', 'Questo and quello', 'Molto, poco, tanto, troppo', 'Tutto, ogni, qualche'],
     chapters: ['unit-06', 'unit-07', 'unit-17'],
   },
   {
@@ -93,7 +93,7 @@ export const GRAMMAR_PLAN: PlannedGrammarUnit[] = [
     chapters: ['unit-08'],
   },
   {
-    id: 'a1-piacere', level: 'A1', order: 13, title: 'Piacere', short: 'Piacere',
+    id: 'a1-piacere', level: 'A1', order: 13, title: 'Piacere & indirect pronouns', short: 'Piacere',
     covers: ['Mi piace / mi piacciono', 'Indirect pronouns with piacere', 'Piacere + infinitive', 'Preferire'],
     chapters: ['unit-18'],
   },

@@ -13,7 +13,7 @@ sources:
 
 You've been saying *al bar*, *sul tavolo* and *nella borsa* for a while. Each of those is a small word like *a* (at, to), *su* (on) or *in* (in) joined to an article. This unit explains what's inside them, and the rest of the prepositions you need at A1: where you are and where you're going, how you travel, where you come from, whose something is, and how to say "some".
 
-Prepositions work differently from the grammar so far. Verb endings and articles follow rules you can learn once and apply everywhere. Prepositions mostly don't. Each one covers a spread of uses that don't add up to a single meaning, so none of them translates cleanly into one English word: *a* can be "at", "to" or "in", and English "in" can be *in*, *a* or *nel*. English says *in* Rome and *in* Italy; Italian says *a Roma* but *in Italia*. This is true of prepositions in every language, and they're one of the last things even advanced learners get fully right.
+Prepositions work differently from the grammar so far. Verb endings and articles follow rules you can learn once and apply everywhere. Prepositions mostly don't. Each one covers a spread of uses that don't add up to a single meaning, so none of them translates cleanly into one English word: *a* can be "at", "to" or "in", and English "in" can be *in*, *a* or *nel*. English says *in* Rome and *in* Italy; Italian says *a Roma* but *in Italia*. This is true of prepositions in most languages, and even advanced learners still get them wrong.
 
 So treat this unit differently. Where there's a pattern, it's given here, but most patterns are rules of thumb with exceptions. The reliable way to learn prepositions is in phrases: learn *in ufficio* and *al bar* as wholes, the way you learn a noun with its article, and the right preposition will come with the phrase.
 
@@ -68,8 +68,6 @@ The pattern is regular once you see it:
 **Con** can join too, but only two forms are still in everyday use, **col** (*con il*) and **coi** (*con i*), and both are optional: *col latte* and *con il latte* are both fine. The other joined forms of *con* are old-fashioned. **Per**, **tra** and **fra** don't join in modern Italian: *per il bambino*, *tra le case*.
 
 **Da** itself never loses its vowel before another vowel, so it isn't confused with *di*: *da Anna*, not *d'Anna*. Only the article part shortens: *dall'ufficio*.
-
-This is a big table, but you won't need to look at it for long. Most of the time you'll hear the right form before you think of it, the way you already do with *al bar*.
 
 ## Where you are and where you're going
 
