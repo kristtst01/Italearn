@@ -6,6 +6,7 @@ from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import Mapped, mapped_column
 from sqlalchemy.sql import func
 
+from app.config import settings
 from app.database import Base
 
 
@@ -18,3 +19,7 @@ class User(Base):
     display_name: Mapped[str | None] = mapped_column(String(100))
     created_at: Mapped[datetime] = mapped_column(server_default=func.now())
     updated_at: Mapped[datetime] = mapped_column(server_default=func.now(), onupdate=func.now())
+
+    @property
+    def is_admin(self) -> bool:
+        return self.clerk_id in settings.admin_clerk_ids

@@ -17,6 +17,7 @@ import SessionHeader from '@/shared/components/SessionHeader';
 import SessionLayout from '@/shared/components/SessionLayout';
 import { toSegments } from '@/shared/utils/segments';
 import { useGoBack } from '@/shared/utils/useGoBack';
+import { useFeedbackContext } from '@/features/feedback/useFeedbackContext';
 
 export default function LessonPage() {
   const { id } = useParams<{ id: string }>();
@@ -71,6 +72,20 @@ function LessonContent({
   const chapter = getChapter(lesson.unit_id);
   const meta = chapter?.lessons.find((l) => l.id === lesson.id);
   const completed = useProgressStore((s) => s.lessons_completed);
+
+  const shown = state.currentStep?.kind === 'exercise' && !state.isComplete ? state.currentStep.exercise : undefined;
+  const exerciseNumber = shown ? state.exercises.indexOf(shown) + 1 : 0;
+  useFeedbackContext({
+    kind: 'lesson',
+    label: shown && exerciseNumber > 0 ? `${lesson.name} · exercise ${exerciseNumber}` : lesson.name,
+    path: `/lesson/${lesson.id}`,
+    lesson_id: lesson.id,
+    chapter_name: chapter?.name,
+    exercise_id: shown?.id,
+    exercise_number: exerciseNumber || undefined,
+    exercise_total: state.exercises.length,
+    exercise: shown,
+  });
   // The stamp comes with the chapter's last writing lesson: this one, once all the others are done
   const earnsStamp =
     !!chapter &&

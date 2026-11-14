@@ -8,10 +8,16 @@ class Settings(BaseSettings):
     CLERK_PUBLISHABLE_KEY: str = ""
     GOOGLE_APPLICATION_CREDENTIALS: str = ""
     ANTHROPIC_API_KEY: str = ""
+    # Comma-separated Clerk user IDs that see the feedback inbox
+    ADMIN_CLERK_IDS: str = ""
 
     @property
     def cors_origin_list(self) -> list[str]:
         return [o.strip() for o in self.CORS_ORIGINS.split(",")]
+
+    @property
+    def admin_clerk_ids(self) -> set[str]:
+        return {i.strip() for i in self.ADMIN_CLERK_IDS.split(",") if i.strip()}
 
     model_config = {"env_file": ".env", "extra": "ignore"}
 

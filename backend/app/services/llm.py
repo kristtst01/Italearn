@@ -81,6 +81,11 @@ Write the reason in plain, simple English, and don't use em-dashes.\
 """
 
 
+def response_text(response) -> str:
+    """The text of a response, skipping thinking blocks."""
+    return "".join(b.text for b in response.content if getattr(b, "type", "") == "text").strip()
+
+
 def _parse_llm_json(raw: str, context: str) -> dict | None:
     """Strip markdown fences and parse JSON from an LLM response.
     Returns the parsed dict, or None on failure."""
@@ -116,8 +121,12 @@ async def judge_answer(
 
     try:
         response = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=300,
+            model="claude-haiku-5-5",
+            # Generous: Haiku 5.5 thinks before answering, and thinking counts toward the limit
+            max_tokens=2000,
+            # Medium: about 0.5 s slower than low (1.4 s median), worth it for harder cases.
+            # Only answers the local check rejected get here, and verdicts are cached
+            output_config={"effort": "medium"},
             system=SYSTEM_PROMPT,
             messages=[{"role": "user", "content": user_message}],
         )
@@ -125,7 +134,7 @@ async def judge_answer(
         logger.error("[llm] API error judging answer: %s", e)
         return {"accepted": False, "reason": "Could not determine validity"}
 
-    result = _parse_llm_json(response.content[0].text.strip(), "judge response")
+    result = _parse_llm_json(response_text(response), "judge response")
     if result:
         return {
             "accepted": bool(result["accepted"]),
@@ -140,7 +149,7 @@ async def grade_free_response(
     user_answer: str,
     curriculum_context: str,
 ) -> dict:
-    """Grade a free-form writing exercise using Claude Haiku."""
+    """Grade a free-form writing exercise using Claude Sonnet."""
     client = _get_client()
 
     user_message = (
@@ -157,7 +166,9 @@ async def grade_free_response(
         # quick answer checks stay on Haiku for speed and cost
         response = client.messages.create(
             model="claude-sonnet-5-5",
-            max_tokens=500,
+            max_tokens=4000,
+            # High: correct feedback on the Italian matters more than speed
+            output_config={"effort": "high"},
             system=FREE_RESPONSE_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": user_message}],
         )
@@ -168,7 +179,7 @@ async def grade_free_response(
             "feedback": "Could not grade your response. Please try again.",
         }
 
-    result = _parse_llm_json(response.content[0].text.strip(), "free response grade")
+    result = _parse_llm_json(response_text(response), "free response grade")
     if result:
         return {
             "accepted": bool(result["accepted"]),

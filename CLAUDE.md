@@ -21,7 +21,7 @@ Italian learning app for serious learners, A1 → B2 (current scope: A1). React 
 - **Frontend:** React 19 + TypeScript (strict) + Vite 7, Tailwind CSS 4 + shadcn/ui, Zustand 5, React Router 7, ts-fsrs. Fonts: Archivo, Archivo Black, Caveat (self-hosted via @fontsource)
 - **Backend:** FastAPI + PostgreSQL (async SQLAlchemy, Alembic), Docker Compose
 - **Auth:** Clerk (frontend `@clerk/clerk-react`, backend verifies JWTs)
-- **AI:** Anthropic API: Claude Haiku for answer validation, Claude Sonnet for feedback on free-form writing (`backend/app/services/llm.py`); Google Cloud Speech-to-Text for read-aloud
+- **AI:** Anthropic API: Claude Haiku 5.5 for answer validation and sorting learner feedback, Claude Sonnet 5.5 for feedback on free-form writing and for checking the Italian in learner feedback (`backend/app/services/llm.py`, `feedback_ai.py`); Google Cloud Speech-to-Text for read-aloud. These models think before answering, so give them a generous `max_tokens` and set `output_config.effort` per call
 
 ## Commands
 Frontend (from `frontend/`):
@@ -49,7 +49,9 @@ frontend/src/
     exercises/         # Exercise components (lesson + review); ui.tsx = shared exercise primitives;
                        #   renderExercise.tsx dispatches by subtype; planned types render PlannedExerciseCard
     words/             # Word bank (shown in the Library's Words tab)
-    profile/, auth/    # /profile, Clerk sign-in/up
+    profile/, auth/    # /profile (tabs: Account, Your feedback, admin-only Inbox), Clerk sign-in/up
+    feedback/          # Feedback panel (FeedbackPanel, opened from session headers and the top bar; quote mode),
+                       #   Your feedback + Inbox (Profile tabs); pages register where the learner is with useFeedbackContext
     dev/               # /dev/exercises gallery (dev build only)
   shared/components/   # design.tsx (Page, PageHeader, Label, Placeholder, Status, tiles, Stamp, Postcard, Correction),
                        #   AppLayout (top bar), SessionLayout/SessionHeader (lessons + review), HydrationGuard, etc.
@@ -80,8 +82,9 @@ frontend/scripts/      # check-content.ts (npm run check:content), content-allow
 
 backend/app/
   main.py              # FastAPI app, router registration
-  routers/             # auth (/me), progress (/progress, /srs/*), validate (/validate, /grade-free-response), transcribe, health
-  services/            # Business logic: llm.py, speech.py, srs.py, progress.py, verdict_cache.py, auth.py
+  routers/             # auth (/me), progress (/progress, /srs/*), validate (/validate, /grade-free-response), transcribe,
+                       #   feedback (/feedback, /admin/feedback), health
+  services/            # Business logic: llm.py, feedback_ai.py, speech.py, srs.py, progress.py, verdict_cache.py, auth.py
   models/, schemas/    # SQLAlchemy models, Pydantic schemas
 backend/migrations/    # Alembic
 
@@ -108,6 +111,11 @@ data/italian-frequency-50k.txt  # Italian word frequency list (reference for voc
 - `srsStore.addCards()` deduplicates internally. Use `reviewableCount` (cards with a matching vocab entry) for UI counts, not `dueCards.length`.
 - **FSRS grading:** incorrect → Again(1), correct + fast (<5s) → Easy(4), correct → Good(3).
 
+## Feedback
+- Learners send feedback from any page (Feedback button). The place (lesson, exercise with a snapshot, grammar unit) is attached automatically and removable; quoting text and picking a category are optional.
+- The note is saved first; AI sorting runs afterwards in the background (categories, a "pressing" flag, a summary, and for claims about the Italian a Sonnet check). If the AI fails, the note stays Unsorted. Nothing is hidden or sent to learners automatically.
+- Admins are listed by Clerk user ID in `ADMIN_CLERK_IDS` (backend `.env`) and get an Inbox tab in Profile. Learners see their notes' status and replies under Profile › Your feedback, and can remove a note from their list (the inbox keeps it).
+
 ## Answer Validation
 1. Local `validateAnswer`: exact → accent-tolerant (correct, with an accent reminder) → typo-tolerant (incorrect, with a hint)
 2. If rejected locally, the backend `/validate` asks Claude whether the answer is acceptable. Verdicts are cached in Postgres so repeat answers skip the LLM.
@@ -120,5 +128,5 @@ Implemented: `multiple_choice`, `type_answer`, `arrange_words`, `fill_blank`, `c
 Planned (render as a "coming soon" card via `PlannedExerciseCard`, described in `exercises/plannedExercises.ts`): `structured_input`, `translation`, `dictation`, `minimal_pair`, `listen_and_choose`, `listen_and_repeat`, `spoken_answer`. `reading_comprehension` is superseded by comprehension lesson kinds.
 
 ## Known Issues
-- `npx eslint src/` reports 9 errors and 1 warning (react-hooks rules and shadcn `only-export-components`), all pre-existing.
+- `npx eslint src/` reports 7 errors and 1 warning (react-hooks rules and shadcn `only-export-components`), all pre-existing.
 - No tests.

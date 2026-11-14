@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, type ReactNode } from 'react';
+import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import { UserProfile, useClerk, useUser } from '@clerk/clerk-react';
 import { TriangleAlert, Pencil, Check, X } from 'lucide-react';
 import StreakCalendar from '@/shared/components/StreakCalendar';
@@ -6,6 +7,8 @@ import { getMe, updateMe, resetProgress } from '@/engine/api';
 import { clerkAppearance } from '@/features/auth/appearance';
 import { Page, PageHeader } from '@/shared/components/design';
 import { buttonVariants } from '@/components/ui/button';
+import { useFeedbackStore } from '@/stores/feedbackStore';
+import { cn } from '@/lib/utils';
 
 function UserTag() {
   const { user } = useUser();
@@ -81,7 +84,60 @@ function UserTag() {
   );
 }
 
+function Tab({ to, children }: { to: string; children: ReactNode }) {
+  return (
+    <NavLink
+      to={to}
+      end
+      className={({ isActive }) =>
+        cn(
+          'flex items-center gap-1.5 border-b-2 pb-1.5 text-base whitespace-nowrap outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cobalto',
+          isActive ? 'border-foreground font-bold text-foreground' : 'border-transparent font-medium text-muted-foreground hover:text-foreground',
+        )
+      }
+    >
+      {children}
+    </NavLink>
+  );
+}
+
+/** Profile frame: header + tabs (Account, Your feedback, and the admin's Inbox). */
 export default function ProfilePage() {
+  const summary = useFeedbackStore((s) => s.summary);
+  const isAdmin = summary?.inbox_new != null;
+  const { pathname } = useLocation();
+  const wide = pathname.startsWith('/profile/inbox');
+
+  return (
+    <Page className={cn(!wide && 'max-w-3xl')}>
+      <PageHeader
+        label="Account"
+        title="Profile"
+        className="flex-wrap"
+        aside={
+          <nav className="flex gap-5 sm:gap-7">
+            <Tab to="/profile">Account</Tab>
+            <Tab to="/profile/feedback">
+              Your feedback
+              {!!summary?.unread_updates && <span aria-label="News" className="size-2 rounded-full bg-vermiglione" />}
+            </Tab>
+            {isAdmin && (
+              <Tab to="/profile/inbox">
+                Inbox
+                {!!summary?.inbox_new && (
+                  <span className="rounded-full bg-primary px-1.75 text-xs font-bold text-white tabular-nums">{summary.inbox_new}</span>
+                )}
+              </Tab>
+            )}
+          </nav>
+        }
+      />
+      <Outlet />
+    </Page>
+  );
+}
+
+export function AccountTab() {
   const [confirmReset, setConfirmReset] = useState(false);
   const [showAccount, setShowAccount] = useState(false);
   const { signOut } = useClerk();
@@ -97,9 +153,7 @@ export default function ProfilePage() {
   }
 
   return (
-    <Page className="max-w-3xl">
-      <PageHeader label="Account" title="Profile" />
-
+    <>
       <UserTag />
       <StreakCalendar />
 
@@ -158,6 +212,6 @@ export default function ProfilePage() {
           </div>
         )}
       </div>
-    </Page>
+    </>
   );
 }

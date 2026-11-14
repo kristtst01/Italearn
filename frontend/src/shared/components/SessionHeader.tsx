@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { cn } from '@/lib/utils';
 import type { Segment } from '@/shared/utils/segments';
+import { FeedbackButton } from '@/features/feedback/FeedbackPanel';
 
 const SEGMENT_STYLE: Record<Segment, string> = {
   right: 'bg-learned',
@@ -54,6 +55,9 @@ export default function SessionHeader({ exit, context, title, segments, counter,
             <span className={cn('size-1.5 rounded-full', stamp.earned ? 'bg-vermiglione-scuro' : 'border border-muted-foreground/60')} />
           </div>
         )}
+        <div className="order-4 flex lg:order-5">
+          <FeedbackButton variant="session" />
+        </div>
       </div>
     </header>
   );

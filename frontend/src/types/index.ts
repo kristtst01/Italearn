@@ -42,3 +42,14 @@ export type {
   GrammarUnitProgress,
   MasteryAttempt,
 } from './grammar';
+
+export type {
+  AdminFeedback,
+  FeedbackCategory,
+  FeedbackContext,
+  FeedbackStatus,
+  FeedbackSummary,
+  LearnerFeedbackCategory,
+  LearnerFeedbackStatus,
+  MyFeedback,
+} from './feedback';

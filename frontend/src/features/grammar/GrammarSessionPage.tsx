@@ -16,6 +16,7 @@ import { Count, Label, MajolicaTile } from '@/shared/components/design';
 import { buttonVariants } from '@/components/ui/button';
 import { toSegments } from '@/shared/utils/segments';
 import { cn } from '@/lib/utils';
+import { useFeedbackContext } from '@/features/feedback/useFeedbackContext';
 
 type Mode = 'practice' | 'check';
 
@@ -79,6 +80,19 @@ function Session({
   useEffect(() => {
     markGrammarStep(unit.id, 'studiedAt');
   }, [markGrammarStep, unit.id]);
+
+  const shown = done ? undefined : items[index]?.exercise;
+  const sessionName = mode === 'practice' && stop ? `Practice · ${stop.title}` : 'Mastery check';
+  useFeedbackContext({
+    kind: 'grammar_session',
+    label: shown ? `${unit.title} · ${sessionName} · exercise ${index + 1}` : `${unit.title} · ${sessionName}`,
+    path: window.location.pathname,
+    grammar_id: unit.id,
+    exercise_id: shown?.id,
+    exercise_number: shown ? index + 1 : undefined,
+    exercise_total: items.length,
+    exercise: shown as Exercise | undefined,
+  });
 
   function handleComplete(result: ExerciseResult) {
     const updated = [...results, result];

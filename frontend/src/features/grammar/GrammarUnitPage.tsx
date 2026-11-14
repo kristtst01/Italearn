@@ -14,6 +14,7 @@ import LoadingScreen from '@/shared/components/LoadingScreen';
 import { cn } from '@/lib/utils';
 import { RESTORE_SCROLL } from '@/shared/utils/scroll';
 import GrammarReading from './GrammarReading';
+import { useFeedbackContext } from '@/features/feedback/useFeedbackContext';
 
 type Loaded = { reading?: GrammarUnitContent; practice?: GrammarPractice };
 
@@ -22,6 +23,9 @@ export default function GrammarUnitPage() {
   const { grammarId } = useParams<{ grammarId: string }>();
   const unit = grammarId ? getPlannedGrammarUnit(grammarId) : undefined;
   const [loaded, setLoaded] = useState<{ id: string; content: Loaded } | null>(null);
+  useFeedbackContext(
+    unit ? { kind: 'grammar', label: `Grammar · ${unit.title}`, path: `/grammar/${unit.id}`, grammar_id: unit.id } : null,
+  );
 
   useEffect(() => {
     if (!grammarId) return;
