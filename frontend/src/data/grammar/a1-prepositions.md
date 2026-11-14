@@ -3,7 +3,7 @@ id: a1-prepositions
 title: Prepositions
 level: A1
 sources:
-  - Profilo della lingua italiana, A1 word list (unistrapg.it/profilo_lingua_italiana)
+  - Profilo della lingua italiana, A1 prepositions and A1 word list (unistrapg.it/profilo_lingua_italiana)
   - "Treccani: preposizioni; articolo; partitivo (Enciclopedia dell'Italiano); da (Vocabolario)"
   - "Accademia della Crusca, Italiano digitale (2023): in Dolomiti o nelle Dolomiti?"
   - "Sabatini, Che complemento è? (complemento di mezzo)"
@@ -29,7 +29,7 @@ Italian has eight short prepositions. You already know several. The English in t
 | **in** | in, to (a country, many places) | *Abito in Italia.* *Sono in ufficio.* |
 | **con** | with | *Esco con Giulia.* |
 | **su** | on | *Il libro è sul tavolo.* |
-| **per** | for, in order to | *Questo è per te.* *Studio per lavorare in Italia.* |
+| **per** | for, in order to, to (a destination) | *Questo è per te.* *Studio per lavorare in Italia.* *Il treno per Roma.* |
 | **tra** / **fra** | between, in (time) | *Tra la banca e il bar.* *Fra cinque minuti.* |
 
 *Te* in *per te* is "you" after a preposition: *per te* (for you), *con te* (with you).

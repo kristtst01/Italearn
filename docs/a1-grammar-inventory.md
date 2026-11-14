@@ -75,6 +75,16 @@ Why this order:
 - Piacere comes before reflexives: it is more useful early and introduces the pronoun placement that reflexives reuse.
 - The imperative and the passato prossimo close the level; both build on the full present tense and on reflexives.
 
+## Profilo check of units 8–16 (2026-11-14)
+
+The Profilo's A1 and A2 grammar pages were read directly (through the maintainer's browser; the site blocks automated fetching).
+
+- **A1, matching the units:** prepositions (di for origin, a with cities and times, in with countries and transport, con, per for purpose and destination, senza; *a casa* and *a scuola* as fixed phrases), *-o/-a/-e* adjectives, *questo/quello*, *che/quanto*, *molto/poco/tanto*, *più/meno*, ordinals *primo* to *decimo*, *nessuno/niente*, place and time adverbs.
+- **A1 only as formulas in the Profilo, taught fully here:** reflexives (*mi chiamo*), the imperative (*scusi/scusa*, *andiamo*), object pronouns (*lo so*, *per me*).
+- **Profilo A2, taught at A1 here** (following CILS A1 and Nuovo Espresso 1; see Decisions): the passato prossimo, the tu/voi imperative, possessives for all persons, *ogni, qualche, troppo, tutto*.
+- **Profilo A2, left for A2:** comparatives (*più* + adjective) and *-issimo*, the imperfetto, the future, stare + gerund, object pronouns, relative *che*, *ci* for places.
+- **Detail checked in Treccani, La grammatica italiana:** the choice of *avere* or *essere* (movement verbs mostly *essere*, but *ho camminato, ho viaggiato*), *bel/buon* before a masculine noun (obligatory), *sii/abbi*. Not found in a primary source yet: the list of irregular participles, *la mia mamma*, formal *Suo*.
+
 ## Decisions
 
 1. **The passato prossimo is in A1**, as the last unit. CILS A1 and Nuovo Espresso 1 teach it, although the Profilo puts it at A2.

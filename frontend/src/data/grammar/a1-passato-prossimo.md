@@ -4,7 +4,7 @@ title: The passato prossimo
 level: A1
 sources:
   - CILS A1 syllabus, Università per Stranieri di Siena
-  - "Treccani: passato prossimo; verbi riflessivi; verbi psicologici (Enciclopedia dell'Italiano)"
+  - "Treccani: passato prossimo; verbi riflessivi; verbi psicologici (Enciclopedia dell'Italiano); avere o essere? (La grammatica italiana)"
 ---
 
 # The passato prossimo
@@ -62,7 +62,7 @@ Essere also goes with:
 - **piacere**: *Mi è piaciuto il film* (I liked the film).
 - every **reflexive** verb: *Mi sono alzato presto* (I got up early).
 
-This is a rule of thumb, not a law: a few verbs use both, depending on how they're used, and you'll meet them later. If a verb isn't in this group, it most likely takes *avere*.
+This is a rule of thumb, not a law. Some verbs of movement take *avere*: **ho camminato** (I walked), **ho viaggiato** (I travelled). A few verbs use both, depending on how they're used, and you'll meet them later. Outside this group, a verb most likely takes *avere*.
 
 ## Agreement with essere
 

@@ -3,8 +3,8 @@ id: a1-adjectives
 title: Adjectives, demonstratives & quantities
 level: A1
 sources:
-  - Profilo della lingua italiana, A1 word list (unistrapg.it/profilo_lingua_italiana)
-  - "Treccani: aggettivi; aggettivi e pronomi dimostrativi; aggettivi e pronomi indefiniti (Enciclopedia dell'Italiano)"
+  - Profilo della lingua italiana, A1 adjectives and adverbs, A1 word list (unistrapg.it/profilo_lingua_italiana)
+  - "Treccani: aggettivi; aggettivi e pronomi dimostrativi; aggettivi e pronomi indefiniti (Enciclopedia dell'Italiano); troncamento (La grammatica italiana)"
 ---
 
 # Adjectives, demonstratives & quantities
@@ -147,6 +147,8 @@ With an adjective or a verb, they don't change: *molto bello*, *troppo caro*, *L
 
 > La casa è molto bella. Lavoro troppo.
 > The house is very beautiful. I work too much.
+
+**Più** (more) and **meno** (less, fewer) never change: *più tempo* (more time), *meno soldi* (less money), *Lavoro meno* (I work less). With an adjective, *più* makes a comparison: *più grande* (bigger). Comparisons in full come at A2.
 
 ### Tutto, ogni and qualche
 

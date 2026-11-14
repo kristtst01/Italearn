@@ -4,7 +4,7 @@ title: The imperative
 level: A1
 sources:
   - Profilo della lingua italiana, A1 word list (unistrapg.it/profilo_lingua_italiana)
-  - "Treccani: imperativo; pronomi personali (Enciclopedia dell'Italiano)"
+  - "Treccani: imperativo; pronomi personali (Enciclopedia dell'Italiano); imperativo (La grammatica italiana)"
 ---
 
 # The imperative
