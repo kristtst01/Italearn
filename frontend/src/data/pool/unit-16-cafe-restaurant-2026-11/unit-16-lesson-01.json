@@ -1,0 +1,249 @@
+{
+  "id": "unit-16-lesson-01",
+  "unit_id": "unit-16",
+  "name": "Food Basics",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-16-lesson-01-tip-01",
+      "title": "Staples",
+      "explanation": "The staple food words: il pane (bread), la pasta, il riso, la carne (meat), il pesce (fish), l'uovo (egg). Most A1 food conversations use this core set.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-16-lesson-01-tip-02",
+      "title": "Uova — Irregular Plural",
+      "explanation": "'L'uovo' (egg) is masculine singular, but its plural 'le uova' is feminine plural! It's a quirky Latin leftover — just learn it as an exception.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-16-lesson-01-tip-03",
+      "title": "Frutta & Verdura",
+      "explanation": "'La frutta' (fruit) and 'la verdura' (vegetables) are usually used in the singular as collective nouns — like 'fruit' in English. 'Mangio la frutta' = I eat fruit (in general).",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-16-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'pane' mean?" },
+      "sentence_context": "Mangio il pane.",
+      "correct_answer": "Bread",
+      "distractors": ["Pasta", "Rice", "Cheese"],
+      "hints": ["I eat bread."],
+      "target_words": ["pane"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'pasta' mean?" },
+      "sentence_context": "La pasta è italiana.",
+      "correct_answer": "Pasta",
+      "distractors": ["Bread", "Rice", "Cake"],
+      "hints": ["A staple of Italian cuisine."],
+      "target_words": ["pasta"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'riso' mean?" },
+      "sentence_context": "Mangio il riso.",
+      "correct_answer": "Rice",
+      "distractors": ["Pasta", "Bread", "Meat"],
+      "hints": ["I eat rice."],
+      "target_words": ["riso"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'carne' mean?" },
+      "sentence_context": "Non mangio la carne.",
+      "correct_answer": "Meat",
+      "distractors": ["Fish", "Cheese", "Bread"],
+      "hints": ["I don't eat meat."],
+      "target_words": ["carne"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'pesce' mean?" },
+      "sentence_context": "Mangio il pesce il venerdì.",
+      "correct_answer": "Fish",
+      "distractors": ["Meat", "Chicken", "Rice"],
+      "hints": ["I eat fish on Fridays."],
+      "target_words": ["pesce"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'formaggio' mean?" },
+      "sentence_context": "Il formaggio italiano è buono.",
+      "correct_answer": "Cheese",
+      "distractors": ["Milk", "Bread", "Butter"],
+      "hints": ["Italian cheese is good."],
+      "target_words": ["formaggio"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'uovo' mean?" },
+      "sentence_context": "Mangio un uovo a colazione.",
+      "correct_answer": "Egg",
+      "distractors": ["Cheese", "Milk", "Bread"],
+      "hints": ["I eat one for breakfast."],
+      "target_words": ["uovo"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Mangio la ___ a pranzo.",
+      "correct_answer": "frutta",
+      "distractors": [],
+      "hints": ["I eat fruit at lunch."],
+      "target_words": ["frutta"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La ___ è importante.",
+      "correct_answer": "verdura",
+      "distractors": [],
+      "hints": ["Vegetables are important."],
+      "target_words": ["verdura"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Vorrei un ___, per favore.",
+      "correct_answer": "dolce",
+      "distractors": [],
+      "hints": ["I'd like a dessert."],
+      "target_words": ["dolce"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'bread' in Italian?" },
+      "sentence_context": "Compro il pane.",
+      "correct_answer": "pane",
+      "distractors": [],
+      "hints": ["Masculine: il pane."],
+      "target_words": ["pane"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'meat' in Italian?" },
+      "sentence_context": "Non mangio la carne.",
+      "correct_answer": "carne",
+      "distractors": [],
+      "hints": ["Feminine ending in -e."],
+      "target_words": ["carne"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'cheese' in Italian?" },
+      "sentence_context": "Il formaggio è buono.",
+      "correct_answer": "formaggio",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["formaggio"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'fruit' in Italian?" },
+      "sentence_context": "Mangio la frutta.",
+      "correct_answer": "frutta",
+      "distractors": [],
+      "hints": ["A feminine collective noun."],
+      "target_words": ["frutta"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'dessert / sweet' in Italian?" },
+      "sentence_context": "Voglio un dolce.",
+      "correct_answer": "dolce",
+      "distractors": [],
+      "hints": ["Same word for 'sweet' (adjective)."],
+      "target_words": ["dolce"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the plural — 'eggs' (irregular)." },
+      "sentence_context": "Mangio due ___.",
+      "correct_answer": "uova",
+      "distractors": [],
+      "hints": ["Irregular plural of uovo."],
+      "target_words": ["uovo"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I eat fish on Friday.'" },
+      "sentence_context": "Mangio il pesce il venerdì.",
+      "correct_answer": ["Mangio", "il", "pesce", "il", "venerdì."],
+      "distractors": ["carne", "lunedì"],
+      "hints": ["Verb + article + food + day."],
+      "target_words": ["pesce"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I'd like bread and cheese.'" },
+      "sentence_context": "Vorrei pane e formaggio.",
+      "correct_answer": ["Vorrei", "pane", "e", "formaggio."],
+      "distractors": ["voglio", "burro"],
+      "hints": ["Polite request."],
+      "target_words": ["pane", "formaggio"]
+    },
+    {
+      "id": "unit-16-lesson-01-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Fruit and vegetables are important.'" },
+      "sentence_context": "La frutta e la verdura sono importanti.",
+      "correct_answer": ["La", "frutta", "e", "la", "verdura", "sono", "importanti."],
+      "distractors": ["pasta", "carne"],
+      "hints": ["Two feminine collectives."],
+      "target_words": ["frutta", "verdura"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "pane", "meaning": "Bread", "example": "Mangio il pane." },
+    { "word": "pasta", "meaning": "Pasta", "example": "La pasta è italiana." },
+    { "word": "riso", "meaning": "Rice", "example": "Mangio il riso." },
+    { "word": "carne", "meaning": "Meat", "example": "Non mangio la carne." },
+    { "word": "pesce", "meaning": "Fish", "example": "Mangio il pesce il venerdì." },
+    { "word": "uovo", "meaning": "Egg (pl. uova)", "example": "Mangio un uovo a colazione." },
+    { "word": "formaggio", "meaning": "Cheese", "example": "Il formaggio italiano è buono." },
+    { "word": "frutta", "meaning": "Fruit", "example": "Mangio la frutta a pranzo." },
+    { "word": "verdura", "meaning": "Vegetables", "example": "La verdura è importante." },
+    { "word": "dolce", "meaning": "Dessert / sweet", "example": "Vorrei un dolce." }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "unit-16-lesson-03",
+  "unit_id": "unit-16",
+  "name": "Drinks",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-16-lesson-03-tip-01",
+      "title": "Italian Drinks",
+      "explanation": "Common drinks: il caffè (you know it), il tè, il latte (milk), il succo (juice), il vino (wine), la birra (beer), l'acqua (water).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-16-lesson-03-tip-02",
+      "title": "A Glass / A Bottle",
+      "explanation": "'Un bicchiere di vino' = a glass of wine. 'Una bottiglia di acqua' = a bottle of water. Use 'di' (no article) between container and drink.",
+      "before_exercise": 7
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-16-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'vino' mean?" },
+      "sentence_context": "Vorrei un bicchiere di vino.",
+      "correct_answer": "Wine",
+      "distractors": ["Beer", "Juice", "Water"],
+      "hints": ["I'd like a glass of wine."],
+      "target_words": ["vino"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'birra' mean?" },
+      "sentence_context": "Bevo una birra.",
+      "correct_answer": "Beer",
+      "distractors": ["Wine", "Milk", "Tea"],
+      "hints": ["I drink a beer."],
+      "target_words": ["birra"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'latte' mean?" },
+      "sentence_context": "Bevo il latte a colazione.",
+      "correct_answer": "Milk",
+      "distractors": ["Juice", "Tea", "Coffee"],
+      "hints": ["I drink milk at breakfast."],
+      "target_words": ["latte"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'succo' mean?" },
+      "sentence_context": "Vorrei un succo di arancia.",
+      "correct_answer": "Juice",
+      "distractors": ["Milk", "Wine", "Water"],
+      "hints": ["I'd like an orange juice."],
+      "target_words": ["succo"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'bicchiere' mean?" },
+      "sentence_context": "Vorrei un bicchiere d'acqua.",
+      "correct_answer": "Glass",
+      "distractors": ["Bottle", "Cup", "Plate"],
+      "hints": ["A glass of water."],
+      "target_words": ["bicchiere"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'bottiglia' mean?" },
+      "sentence_context": "Una bottiglia di vino, per favore.",
+      "correct_answer": "Bottle",
+      "distractors": ["Glass", "Cup", "Jug"],
+      "hints": ["A bottle of wine, please."],
+      "target_words": ["bottiglia"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'bere' mean?" },
+      "sentence_context": "Bevo molta acqua.",
+      "correct_answer": "To drink",
+      "distractors": ["To eat", "To order", "To take"],
+      "hints": ["I drink a lot of water."],
+      "target_words": ["bere"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Bevo un ___ di vino.",
+      "correct_answer": "bicchiere",
+      "distractors": [],
+      "hints": ["A glass of wine."],
+      "target_words": ["bicchiere"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Una ___ di acqua, per favore.",
+      "correct_answer": "bottiglia",
+      "distractors": [],
+      "hints": ["A bottle of water."],
+      "target_words": ["bottiglia"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il bambino beve il ___.",
+      "correct_answer": "latte",
+      "distractors": [],
+      "hints": ["The child drinks milk."],
+      "target_words": ["latte"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'wine' in Italian?" },
+      "sentence_context": "Bevo il vino.",
+      "correct_answer": "vino",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["vino"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'beer' in Italian?" },
+      "sentence_context": "Vorrei una birra.",
+      "correct_answer": "birra",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["birra"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'juice' in Italian?" },
+      "sentence_context": "Bevo un succo.",
+      "correct_answer": "succo",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["succo"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to drink' in Italian?" },
+      "sentence_context": "Bere acqua è importante.",
+      "correct_answer": "bere",
+      "distractors": [],
+      "hints": ["Irregular: bevo, bevi, beve..."],
+      "target_words": ["bere"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'io' form of 'bere' (irregular)." },
+      "sentence_context": "Io ___ un caffè.",
+      "correct_answer": "bevo",
+      "distractors": [],
+      "hints": ["bev- + io ending."],
+      "target_words": ["bere"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'A glass of wine, please.'" },
+      "sentence_context": "Un bicchiere di vino, per favore.",
+      "correct_answer": ["Un", "bicchiere", "di", "vino,", "per", "favore."],
+      "distractors": ["birra", "una"],
+      "hints": ["'Un bicchiere di' + drink."],
+      "target_words": ["bicchiere", "vino"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I drink a lot of water.'" },
+      "sentence_context": "Bevo molta acqua.",
+      "correct_answer": ["Bevo", "molta", "acqua."],
+      "distractors": ["bevi", "molto"],
+      "hints": ["'Acqua' is feminine → molta."],
+      "target_words": ["bere"]
+    },
+    {
+      "id": "unit-16-lesson-03-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I'd like an orange juice.'" },
+      "sentence_context": "Vorrei un succo di arancia.",
+      "correct_answer": ["Vorrei", "un", "succo", "di", "arancia."],
+      "distractors": ["birra", "mela"],
+      "hints": ["Polite order."],
+      "target_words": ["succo"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "vino", "meaning": "Wine", "example": "Vorrei un bicchiere di vino." },
+    { "word": "birra", "meaning": "Beer", "example": "Bevo una birra." },
+    { "word": "latte", "meaning": "Milk", "example": "Bevo il latte a colazione." },
+    { "word": "succo", "meaning": "Juice", "example": "Vorrei un succo di arancia." },
+    { "word": "bicchiere", "meaning": "Glass", "example": "Vorrei un bicchiere d'acqua." },
+    { "word": "bottiglia", "meaning": "Bottle", "example": "Una bottiglia di vino, per favore." },
+    { "word": "bere", "meaning": "To drink", "example": "Bevo molta acqua." }
+  ]
+}

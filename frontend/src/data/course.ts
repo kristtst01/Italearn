@@ -29,6 +29,7 @@ export const COURSE: CourseStep[] = [
   c('unit-23'), // At the Café
   g('a1-prepositions'),
   c('unit-12'), // Around Town
+  c('unit-16'), // Food & the Market
   g('a1-questions-negation'),
   g('a1-adjectives'),
   g('a1-time-dates'),

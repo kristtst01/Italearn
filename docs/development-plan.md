@@ -234,6 +234,7 @@ Not a money-making project: the aim is an open, free platform. Costs have to sta
 
 ### 7. Backlog (from the original phase plans, not yet built)
 
+- **Longer stories a little above the learner's level** (user idea, 2026-11-14, to discuss): extensive reading for gist, so learners get a taste of real text and practise working out meaning without knowing every word. Open questions: a separate lesson kind (e.g. `story`) with light glosses and gist questions; the content check allowing unknown words there; where in the course it starts. Regular readings stay within what the learner knows and grow with them (about 100–150 words now, 400+ by the passato prossimo).
 - PWA install + offline support
 - Import/export of learning data; settings screen
 - Accessibility pass; performance (main JS chunk is ~930 kB, needs code-splitting)

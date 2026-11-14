@@ -1,0 +1,237 @@
+{
+  "id": "unit-16-lesson-04",
+  "unit_id": "unit-16",
+  "name": "At the Café & Restaurant",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-16-lesson-04-tip-01",
+      "title": "Bar vs Café",
+      "explanation": "In Italy 'il bar' isn't a pub — it's a café where you go for coffee, a pastry or a quick lunch. 'Il ristorante' is for a sit-down meal.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-16-lesson-04-tip-02",
+      "title": "Italian Meal Courses",
+      "explanation": "A traditional Italian meal: l'antipasto (starter), il primo (first course, usually pasta), il secondo (main, meat/fish), il contorno (side), il dolce (dessert). You don't have to order all five!",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-16-lesson-04-tip-03",
+      "title": "The Bill",
+      "explanation": "'Il conto, per favore' = The bill, please. 'Cameriere' = waiter, 'cameriera' = waitress. 'Il menù' is the menu (note the accent — it stays the same in plural too).",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-16-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'bar' mean in Italian?" },
+      "sentence_context": "Vado al bar a fare colazione.",
+      "correct_answer": "Café",
+      "distractors": ["Pub", "Restaurant", "Shop"],
+      "hints": ["A place for coffee and a quick bite — not a pub."],
+      "target_words": ["bar"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ristorante' mean?" },
+      "sentence_context": "Il ristorante è in piazza.",
+      "correct_answer": "Restaurant",
+      "distractors": ["Café", "Bar", "Shop"],
+      "hints": ["For a sit-down meal."],
+      "target_words": ["ristorante"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'menù' mean?" },
+      "sentence_context": "Vorrei vedere il menù.",
+      "correct_answer": "Menu",
+      "distractors": ["Bill", "Order", "Waiter"],
+      "hints": ["I'd like to see the menu."],
+      "target_words": ["menù"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'cameriere' mean?" },
+      "sentence_context": "Il cameriere è gentile.",
+      "correct_answer": "Waiter",
+      "distractors": ["Chef", "Bartender", "Customer"],
+      "hints": ["The waiter is kind."],
+      "target_words": ["cameriere"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'conto' mean?" },
+      "sentence_context": "Il conto, per favore.",
+      "correct_answer": "Bill / check",
+      "distractors": ["Tip", "Order", "Menu"],
+      "hints": ["What you ask for at the end."],
+      "target_words": ["conto"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'antipasto' mean?" },
+      "sentence_context": "Per antipasto vorrei prosciutto e formaggio.",
+      "correct_answer": "Starter / appetiser",
+      "distractors": ["Main", "Side", "Dessert"],
+      "hints": ["What comes before the meal."],
+      "target_words": ["antipasto"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'primo' mean here?" },
+      "sentence_context": "Per primo vorrei la pasta.",
+      "correct_answer": "First course (usually pasta)",
+      "distractors": ["Main course", "Starter", "Dessert"],
+      "hints": ["Usually pasta in Italy."],
+      "target_words": ["primo"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'secondo' mean here?" },
+      "sentence_context": "Per secondo vorrei il pesce.",
+      "correct_answer": "Main course (meat / fish)",
+      "distractors": ["Starter", "Side dish", "Dessert"],
+      "hints": ["Usually meat or fish."],
+      "target_words": ["secondo"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'contorno' mean?" },
+      "sentence_context": "Come contorno vorrei un'insalata.",
+      "correct_answer": "Side dish",
+      "distractors": ["Starter", "Main", "Dessert"],
+      "hints": ["Often vegetables or salad."],
+      "target_words": ["contorno"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ___, per favore.",
+      "correct_answer": "conto",
+      "distractors": [],
+      "hints": ["The bill, please."],
+      "target_words": ["conto"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Vorrei vedere il ___.",
+      "correct_answer": "menù",
+      "distractors": [],
+      "hints": ["I'd like the menu."],
+      "target_words": ["menù"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Faccio colazione al ___.",
+      "correct_answer": "bar",
+      "distractors": [],
+      "hints": ["I have breakfast at the café."],
+      "target_words": ["bar"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'restaurant' in Italian?" },
+      "sentence_context": "Il ristorante è buono.",
+      "correct_answer": "ristorante",
+      "distractors": [],
+      "hints": ["Close to the English word."],
+      "target_words": ["ristorante"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'waiter' in Italian?" },
+      "sentence_context": "Il cameriere è gentile.",
+      "correct_answer": "cameriere",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["cameriere"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'starter' in Italian?" },
+      "sentence_context": "L'antipasto è buono.",
+      "correct_answer": "antipasto",
+      "distractors": [],
+      "hints": ["anti = before."],
+      "target_words": ["antipasto"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'A table for two, please.'" },
+      "sentence_context": "Un tavolo per due, per favore.",
+      "correct_answer": ["Un", "tavolo", "per", "due,", "per", "favore."],
+      "distractors": ["tre", "menù"],
+      "hints": ["Use 'un tavolo per' + number."],
+      "target_words": ["ristorante"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'For my main, I'd like fish.'" },
+      "sentence_context": "Per secondo vorrei il pesce.",
+      "correct_answer": ["Per", "secondo", "vorrei", "il", "pesce."],
+      "distractors": ["primo", "carne"],
+      "hints": ["'Per' + course + 'vorrei' + dish."],
+      "target_words": ["secondo", "pesce"]
+    },
+    {
+      "id": "unit-16-lesson-04-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The bill, please.'" },
+      "sentence_context": "Il conto, per favore.",
+      "correct_answer": ["Il", "conto,", "per", "favore."],
+      "distractors": ["menù", "grazie"],
+      "hints": ["Fixed phrase."],
+      "target_words": ["conto"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "bar", "meaning": "Café (Italian-style)", "example": "Vado al bar a fare colazione." },
+    { "word": "ristorante", "meaning": "Restaurant", "example": "Il ristorante è in piazza." },
+    { "word": "menù", "meaning": "Menu", "example": "Vorrei vedere il menù." },
+    { "word": "cameriere", "meaning": "Waiter", "example": "Il cameriere è gentile." },
+    { "word": "conto", "meaning": "Bill / check", "example": "Il conto, per favore." },
+    { "word": "antipasto", "meaning": "Starter / appetiser", "example": "Per antipasto vorrei prosciutto." },
+    { "word": "primo", "meaning": "First course (usually pasta)", "example": "Per primo vorrei la pasta." },
+    { "word": "secondo", "meaning": "Main course", "example": "Per secondo vorrei il pesce." },
+    { "word": "contorno", "meaning": "Side dish", "example": "Come contorno vorrei un'insalata." }
+  ]
+}

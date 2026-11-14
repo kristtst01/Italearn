@@ -1,0 +1,87 @@
+{
+  "id": "unit-16-lesson-10",
+  "unit_id": "unit-16",
+  "name": "Say It Out Loud",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-16-lesson-10-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Un chilo di pomodori, per favore.",
+      "correct_answer": "Un chilo di pomodori, per favore.",
+      "distractors": [],
+      "hints": ["Un chilo di."],
+      "target_words": ["chilo", "pomodoro"]
+    },
+    {
+      "id": "unit-16-lesson-10-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Due etti di formaggio.",
+      "correct_answer": "Due etti di formaggio.",
+      "distractors": [],
+      "hints": ["Etti, formaggio."],
+      "target_words": ["etto", "formaggio"]
+    },
+    {
+      "id": "unit-16-lesson-10-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Mezzo chilo di mele.",
+      "correct_answer": "Mezzo chilo di mele.",
+      "distractors": [],
+      "hints": ["Mezzo chilo."],
+      "target_words": ["mezzo", "mela"]
+    },
+    {
+      "id": "unit-16-lesson-10-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Per me gli spaghetti e un'insalata.",
+      "correct_answer": "Per me gli spaghetti e un'insalata.",
+      "distractors": [],
+      "hints": ["Ordering at the table."],
+      "target_words": ["per me", "spaghetti"]
+    },
+    {
+      "id": "unit-16-lesson-10-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Come secondo, il pesce.",
+      "correct_answer": "Come secondo, il pesce.",
+      "distractors": [],
+      "hints": ["Come secondo."],
+      "target_words": ["secondo", "pesce"]
+    },
+    {
+      "id": "unit-16-lesson-10-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Scusi, non ho la forchetta.",
+      "correct_answer": "Scusi, non ho la forchetta.",
+      "distractors": [],
+      "hints": ["Forchetta: the -tt- is double."],
+      "target_words": ["forchetta"]
+    },
+    {
+      "id": "unit-16-lesson-10-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Il conto, per favore.",
+      "correct_answer": "Il conto, per favore.",
+      "distractors": [],
+      "hints": ["Asking for the bill."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

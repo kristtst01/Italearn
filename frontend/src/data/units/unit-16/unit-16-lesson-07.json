@@ -1,0 +1,141 @@
+{
+  "id": "unit-16-lesson-07",
+  "unit_id": "unit-16",
+  "name": "Emma's Email",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-16-lesson-07-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Emma have for breakfast?" },
+      "sentence_context": "",
+      "correct_answer": "A cappuccino and a cornetto at the bar",
+      "distractors": ["A sandwich near the school", "Pasta and fish"],
+      "hints": ["Read the third paragraph."],
+      "target_words": []
+    },
+    {
+      "id": "unit-16-lesson-07-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Emma say about lunch in Italy?" },
+      "sentence_context": "",
+      "correct_answer": "It's an important meal, with more than one course",
+      "distractors": ["It's just a sandwich", "People skip it"],
+      "hints": ["Read the fourth paragraph."],
+      "target_words": ["pranzo", "pasto", "importante"]
+    },
+    {
+      "id": "unit-16-lesson-07-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where does Emma usually eat lunch?" },
+      "sentence_context": "",
+      "correct_answer": "Standing up, near the school",
+      "distractors": ["At Giulia's", "At a restaurant"],
+      "hints": ["'In piedi, vicino alla scuola.'"],
+      "target_words": ["pranzo"]
+    },
+    {
+      "id": "unit-16-lesson-07-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who cooks in the evening?" },
+      "sentence_context": "",
+      "correct_answer": "Giulia",
+      "distractors": ["Emma", "A restaurant"],
+      "hints": ["'Cucina per tutti.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-16-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Emma bring?" },
+      "sentence_context": "",
+      "correct_answer": "Wine and dessert",
+      "distractors": ["Fruit and vegetables", "Fish"],
+      "hints": ["'Io porto il vino e il dolce.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-16-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Giulia say about cappuccino?" },
+      "sentence_context": "",
+      "correct_answer": "It's for breakfast, not dinner",
+      "distractors": ["It's for dinner", "It's too expensive"],
+      "hints": ["'Il cappuccino è per la colazione…'"],
+      "target_words": ["strano"]
+    },
+    {
+      "id": "unit-16-lesson-07-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Lunch is an important meal." },
+      "sentence_context": "Il pranzo è un pasto ___.",
+      "correct_answer": "importante",
+      "distractors": [],
+      "hints": ["Important."],
+      "target_words": ["importante"]
+    },
+    {
+      "id": "unit-16-lesson-07-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: A strange thing!" },
+      "sentence_context": "Una cosa ___!",
+      "correct_answer": "strana",
+      "distractors": [],
+      "hints": ["Cosa is feminine."],
+      "target_words": ["strano"]
+    },
+    {
+      "id": "unit-16-lesson-07-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Dinner at Giulia's." },
+      "sentence_context": "La ___ da Giulia.",
+      "correct_answer": "cena",
+      "distractors": [],
+      "hints": ["The evening meal."],
+      "target_words": ["cena"]
+    },
+    {
+      "id": "unit-16-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dove compra la verdura Giulia?" },
+      "sentence_context": "Dove compra la verdura Giulia?",
+      "correct_answer": ["al mercato", "al mercato vicino a casa", "la compra al mercato"],
+      "distractors": [],
+      "hints": ["Read the fifth paragraph."],
+      "target_words": ["mercato"]
+    },
+    {
+      "id": "unit-16-lesson-07-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa mangia Emma a pranzo?" },
+      "sentence_context": "Che cosa mangia Emma a pranzo?",
+      "correct_answer": ["un panino o un'insalata", "mangia un panino o un'insalata"],
+      "distractors": [],
+      "hints": ["Read the fourth paragraph."],
+      "target_words": ["pranzo"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "pranzo", "meaning": "lunch", "example": "A pranzo mangio un panino." },
+    { "word": "cena", "meaning": "dinner, supper", "example": "A cena mangiamo pesce." },
+    { "word": "pasto", "meaning": "meal", "example": "Il pranzo è un pasto importante." },
+    { "word": "strano", "meaning": "strange, odd", "example": "Una cosa strana!" },
+    { "word": "importante", "meaning": "important", "example": "Oggi è un giorno importante." }
+  ],
+  "reading": {
+    "title": "Il cibo a Firenze",
+    "paragraphs": ["Cara Kate,", "come stai? Io sto bene, ma qui a Firenze mangio molto!", "A colazione prendo un cappuccino e un cornetto al bar, al banco, come gli italiani.", "In Italia il pranzo è un pasto importante: un primo (la pasta o il riso), poi un secondo con un contorno. Io a pranzo mangio un panino o un'insalata, in piedi, vicino alla scuola.", "La sera vado da Giulia. Lei compra la verdura e la frutta al mercato vicino a casa, e cucina: pasta, pesce, verdure. Io porto il vino e il dolce.", "Una cosa strana: a cena prendo un cappuccino, e Giulia dice: «Il cappuccino è per la colazione, non per la cena!»", "A presto,", "Emma"]
+  }
+}

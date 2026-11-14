@@ -1,0 +1,61 @@
+{
+  "id": "unit-16-lesson-06",
+  "unit_id": "unit-16",
+  "name": "Practice Writing",
+  "order": 6,
+  "grammar_tips": [
+    {
+      "id": "unit-16-lesson-06-tip-01",
+      "title": "Eating and Drinking",
+      "explanation": "Write about food, drink, and ordering at an Italian café or restaurant. Use vorrei, partitive del/della/dei, food and drink vocabulary, and the meal courses.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-16-lesson-06-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Say what you eat and drink during the day. (3-4 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "A colazione mangio un cornetto e bevo un caffè. A pranzo mangio un panino e un'insalata. La sera bevo un bicchiere di vino.",
+      "distractors": [],
+      "hints": ["Use 'a colazione', 'a pranzo', 'la sera' + food/drink."],
+      "target_words": ["cornetto", "panino", "vino"]
+    },
+    {
+      "id": "unit-16-lesson-06-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Order a full meal at a restaurant. Include antipasto, primo, secondo, contorno. (3-4 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Per antipasto vorrei prosciutto e formaggio. Per primo la pasta al pomodoro. Per secondo il pesce. Come contorno un'insalata.",
+      "distractors": [],
+      "hints": ["'Per antipasto/primo/secondo' + 'vorrei' + dish."],
+      "target_words": ["antipasto", "primo", "secondo", "contorno"]
+    },
+    {
+      "id": "unit-16-lesson-06-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Make a small shopping list using 'del / della / dei / delle' for 'some'. (3-4 items)" },
+      "sentence_context": "",
+      "correct_answer": "Vorrei del pane, della pasta, dei pomodori e delle mele. Anche un po' di formaggio.",
+      "distractors": [],
+      "hints": ["Vorrei + partitive + food."],
+      "target_words": ["del", "della", "dei", "delle"]
+    },
+    {
+      "id": "unit-16-lesson-06-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Have a short dialogue with a waiter — order, ask for more, ask for the bill. (3-4 sentences)" },
+      "sentence_context": "",
+      "correct_answer": "Vorrei una pizza e una birra, per favore. Grazie. Vorrei ancora dell'acqua. Il conto, per favore.",
+      "distractors": [],
+      "hints": ["Order + 'ancora' for more + 'il conto'."],
+      "target_words": ["pizza", "birra", "conto"]
+    }
+  ],
+  "vocabulary": []
+}

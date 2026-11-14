@@ -1,61 +1,153 @@
 {
   "id": "unit-16-lesson-06",
   "unit_id": "unit-16",
-  "name": "Practice Writing",
+  "name": "Trattoria da Gino",
   "order": 6,
-  "grammar_tips": [
-    {
-      "id": "unit-16-lesson-06-tip-01",
-      "title": "Eating and Drinking",
-      "explanation": "Write about food, drink, and ordering at an Italian café or restaurant. Use vorrei, partitive del/della/dei, food and drink vocabulary, and the meal courses.",
-      "before_exercise": 0
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-16-lesson-06-ex-01",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Say what you eat and drink during the day. (3-4 sentences)" },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How much are the spaghetti?" },
       "sentence_context": "",
-      "correct_answer": "A colazione mangio un cornetto e bevo un caffè. A pranzo mangio un panino e un'insalata. La sera bevo un bicchiere di vino.",
-      "distractors": [],
-      "hints": ["Use 'a colazione', 'a pranzo', 'la sera' + food/drink."],
-      "target_words": ["cornetto", "panino", "vino"]
+      "correct_answer": "8 euros",
+      "distractors": ["5 euros", "11 euros"],
+      "hints": ["Look under Primi."],
+      "target_words": []
     },
     {
       "id": "unit-16-lesson-06-ex-02",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Order a full meal at a restaurant. Include antipasto, primo, secondo, contorno. (3-4 sentences)" },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which of these is a contorno at Gino's?" },
       "sentence_context": "",
-      "correct_answer": "Per antipasto vorrei prosciutto e formaggio. Per primo la pasta al pomodoro. Per secondo il pesce. Come contorno un'insalata.",
-      "distractors": [],
-      "hints": ["'Per antipasto/primo/secondo' + 'vorrei' + dish."],
-      "target_words": ["antipasto", "primo", "secondo", "contorno"]
+      "correct_answer": "Insalata",
+      "distractors": ["Pollo con le patate", "Risotto ai funghi"],
+      "hints": ["Look under Contorni."],
+      "target_words": []
     },
     {
       "id": "unit-16-lesson-06-ex-03",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Make a small shopping list using 'del / della / dei / delle' for 'some'. (3-4 items)" },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why doesn't Marco order the chicken?" },
       "sentence_context": "",
-      "correct_answer": "Vorrei del pane, della pasta, dei pomodori e delle mele. Anche un po' di formaggio.",
-      "distractors": [],
-      "hints": ["Vorrei + partitive + food."],
-      "target_words": ["del", "della", "dei", "delle"]
+      "correct_answer": "He doesn't eat meat",
+      "distractors": ["He isn't hungry", "It's too expensive"],
+      "hints": ["'Marco non mangia carne.'"],
+      "target_words": ["pollo"]
     },
     {
       "id": "unit-16-lesson-06-ex-04",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Have a short dialogue with a waiter — order, ask for more, ask for the bill. (3-4 sentences)" },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Marco order as his first course?" },
       "sentence_context": "",
-      "correct_answer": "Vorrei una pizza e una birra, per favore. Grazie. Vorrei ancora dell'acqua. Il conto, per favore.",
+      "correct_answer": "The mushroom risotto",
+      "distractors": ["The spaghetti", "The fish of the day"],
+      "hints": ["'Il risotto.'"],
+      "target_words": ["risotto", "funghi"]
+    },
+    {
+      "id": "unit-16-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Chloé orders three dishes and a dessert." },
+      "sentence_context": "",
+      "correct_answer": "True",
+      "distractors": ["False"],
+      "hints": ["'Gli spaghetti, il pollo con le patate e un dolce.'"],
+      "target_words": ["pollo"]
+    },
+    {
+      "id": "unit-16-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who pays?" },
+      "sentence_context": "",
+      "correct_answer": "Chloé",
+      "distractors": ["Marco", "They pay half each"],
+      "hints": ["'Offro io!'"],
+      "target_words": ["alla fine"]
+    },
+    {
+      "id": "unit-16-lesson-06-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the menu: mushroom risotto." },
+      "sentence_context": "Risotto ai ___",
+      "correct_answer": "funghi",
       "distractors": [],
-      "hints": ["Order + 'ancora' for more + 'il conto'."],
-      "target_words": ["pizza", "birra", "conto"]
+      "hints": ["Look under Primi."],
+      "target_words": ["risotto", "funghi"]
+    },
+    {
+      "id": "unit-16-lesson-06-ex-08",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa prende Chloé come secondo?" },
+      "sentence_context": "Che cosa prende Chloé come secondo?",
+      "correct_answer": ["il pollo con le patate", "pollo con le patate", "prende il pollo con le patate"],
+      "distractors": [],
+      "hints": ["Chloé is very hungry."],
+      "target_words": ["pollo"]
+    },
+    {
+      "id": "unit-16-lesson-06-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the menu: tomato bruschetta." },
+      "sentence_context": "___ al pomodoro",
+      "correct_answer": "bruschetta",
+      "distractors": [],
+      "hints": ["Look under Antipasti."],
+      "target_words": ["bruschetta"]
+    },
+    {
+      "id": "unit-16-lesson-06-ex-10",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: In the end, Chloé pays." },
+      "sentence_context": "Alla ___ Chloé paga.",
+      "correct_answer": "fine",
+      "distractors": [],
+      "hints": ["In the end."],
+      "target_words": ["alla fine"]
+    },
+    {
+      "id": "unit-16-lesson-06-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa bevono Marco e Chloé?" },
+      "sentence_context": "Che cosa bevono Marco e Chloé?",
+      "correct_answer": ["acqua e vino", "una bottiglia d'acqua e due bicchieri di vino", "dell'acqua e del vino"],
+      "distractors": [],
+      "hints": ["Read what Marco says to Gino."],
+      "target_words": []
+    },
+    {
+      "id": "unit-16-lesson-06-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quanto costa il pesce del giorno?" },
+      "sentence_context": "Quanto costa il pesce del giorno?",
+      "correct_answer": ["16 euro", "sedici euro", "costa sedici euro"],
+      "distractors": [],
+      "hints": ["Look under Secondi."],
+      "target_words": []
     }
   ],
-  "vocabulary": []
+  "vocabulary": [
+    { "word": "bruschetta", "meaning": "bruschetta: toasted bread, usually with tomato", "example": "Una bruschetta al pomodoro." },
+    { "word": "risotto", "meaning": "risotto: rice cooked slowly in stock", "example": "Un risotto ai funghi." },
+    { "word": "pollo", "meaning": "chicken", "example": "Pollo con le patate." },
+    { "word": "patata", "meaning": "potato · patate = potatoes", "example": "Vorrei due chili di patate." },
+    { "word": "funghi", "meaning": "mushrooms · un fungo = a mushroom", "example": "Risotto ai funghi." },
+    { "word": "alla fine", "meaning": "in the end, at the end", "example": "Alla fine Chloé paga il conto." }
+  ],
+  "reading": {
+    "title": "Trattoria da Gino",
+    "paragraphs": ["Antipasti", "Bruschetta al pomodoro · 5 euro", "Formaggi · 9 euro", "Primi", "Spaghetti al pomodoro · 8 euro", "Risotto ai funghi · 11 euro", "Secondi", "Pesce del giorno · 16 euro", "Pollo con le patate · 12 euro", "Contorni", "Insalata · 4 euro", "Verdura · 5 euro", "Marco e Chloé sono da Gino. Marco non mangia carne. Prende la bruschetta, il risotto e un'insalata. Chloé ha molta fame: prende gli spaghetti, il pollo con le patate e un dolce.", "Gino: Da bere?", "Marco: Una bottiglia d'acqua e due bicchieri di vino, per favore.", "Alla fine Chloé dice: Il conto, per favore. Offro io!"]
+  }
 }

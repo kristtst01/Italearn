@@ -1,0 +1,21 @@
+{
+  "id": "unit-16-lesson-09",
+  "unit_id": "unit-16",
+  "name": "Ordering a Meal",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-16-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "You're at a trattoria. Greet the waiter, order a starter, a first or main course with a side, and a drink, then ask for the bill." },
+      "sentence_context": "",
+      "correct_answer": "Buonasera! Come antipasto, la bruschetta. Per me, come primo, gli spaghetti al pomodoro e come contorno un'insalata. Da bere, una bottiglia d'acqua. Poi il conto, per favore.",
+      "distractors": [],
+      "hints": ["Come antipasto, come primo, come contorno; per me; da bere."],
+      "target_words": ["antipasto", "primo", "contorno"]
+    }
+  ],
+  "vocabulary": []
+}

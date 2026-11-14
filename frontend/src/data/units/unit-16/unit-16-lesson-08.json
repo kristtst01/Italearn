@@ -1,0 +1,23 @@
+{
+  "id": "unit-16-lesson-08",
+  "unit_id": "unit-16",
+  "name": "A Shopping List",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-16-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "You're cooking dinner for friends tonight. Write a note to your flatmate: what you're cooking, and what to buy at the market, with amounts."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ciao! Stasera cucino io: spaghetti al pomodoro e pesce con le patate. Puoi andare al mercato? Ho bisogno di un chilo di pomodori, mezzo chilo di patate, due etti di formaggio e delle mele. Io porto il vino. Grazie!",
+      "distractors": [],
+      "hints": ["What you are cooking, then a list with un chilo di, mezzo chilo di, due etti di, delle."],
+      "target_words": ["chilo", "etto", "mezzo"]
+    }
+  ],
+  "vocabulary": []
+}
