@@ -33,6 +33,7 @@ export const COURSE: CourseStep[] = [
   g('a1-questions-negation'),
   c('unit-11'), // Getting to Know Someone
   g('a1-adjectives'),
+  c('unit-06'), // Describing People & Things
   g('a1-time-dates'),
   g('a1-possessives'),
   g('a1-piacere'),

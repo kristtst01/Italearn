@@ -1,0 +1,304 @@
+{
+  "id": "unit-06-lesson-01",
+  "unit_id": "unit-06",
+  "name": "Size & Shape",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-06-lesson-01-tip-01",
+      "title": "Adjectives Agree",
+      "explanation": "An Italian adjective changes its ending to match the noun. A masculine noun takes -o, a feminine noun takes -a: 'il gatto piccolo' (the small cat), 'la casa piccola' (the small house).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-06-lesson-01-tip-02",
+      "title": "After the Noun",
+      "explanation": "Unlike English, most Italian adjectives come AFTER the noun. 'A big house' is 'una casa grande' — literally 'a house big'.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-06-lesson-01-tip-03",
+      "title": "Adjectives Ending in -e",
+      "explanation": "Some adjectives end in -e, like 'grande'. These do NOT change for gender: 'il libro grande' and 'la porta grande' both use 'grande'. One form for masculine and feminine.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-06-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'grande' mean?" },
+      "sentence_context": "Ho una casa grande.",
+      "correct_answer": "Big / large",
+      "distractors": ["Small", "Tall", "Long"],
+      "hints": ["A big house."],
+      "target_words": ["grande"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'piccolo' mean?" },
+      "sentence_context": "Il cane è piccolo.",
+      "correct_answer": "Small",
+      "distractors": ["Big", "Tall", "Wide"],
+      "hints": ["The dog is small."],
+      "target_words": ["piccolo"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'alto' mean?" },
+      "sentence_context": "Il ragazzo è alto.",
+      "correct_answer": "Tall / high",
+      "distractors": ["Short", "Wide", "Long"],
+      "hints": ["The boy is tall."],
+      "target_words": ["alto"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'basso' mean?" },
+      "sentence_context": "Il tavolo è basso.",
+      "correct_answer": "Short / low",
+      "distractors": ["Tall", "Big", "Narrow"],
+      "hints": ["The opposite of 'alto'."],
+      "target_words": ["basso"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'lungo' mean?" },
+      "sentence_context": "Il libro è lungo.",
+      "correct_answer": "Long",
+      "distractors": ["Short", "Big", "Tall"],
+      "hints": ["The book is long."],
+      "target_words": ["lungo"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'corto' mean?" },
+      "sentence_context": "Il letto è corto.",
+      "correct_answer": "Short (in length)",
+      "distractors": ["Long", "Low", "Wide"],
+      "hints": ["The opposite of 'lungo'."],
+      "target_words": ["corto"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'largo' mean?" },
+      "sentence_context": "Il tavolo è largo.",
+      "correct_answer": "Wide",
+      "distractors": ["Narrow", "Long", "Tall"],
+      "hints": ["The table is wide."],
+      "target_words": ["largo"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'stretto' mean?" },
+      "sentence_context": "La porta è stretta.",
+      "correct_answer": "Narrow",
+      "distractors": ["Wide", "Long", "Big"],
+      "hints": ["The opposite of 'largo'."],
+      "target_words": ["stretto"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il cane è ___.",
+      "correct_answer": "grosso",
+      "distractors": [],
+      "hints": ["The dog is big / fat."],
+      "target_words": ["grosso"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il gatto è ___.",
+      "correct_answer": "magro",
+      "distractors": [],
+      "hints": ["The cat is thin."],
+      "target_words": ["magro"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La casa è ___.",
+      "correct_answer": "grande",
+      "distractors": [],
+      "hints": ["The house is big."],
+      "target_words": ["grande"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La finestra è ___.",
+      "correct_answer": "stretta",
+      "distractors": [],
+      "hints": ["The window is narrow."],
+      "target_words": ["stretto"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'small' (masculine) in Italian?" },
+      "sentence_context": "Il libro è piccolo.",
+      "correct_answer": "piccolo",
+      "distractors": [],
+      "hints": ["The opposite of 'grande'."],
+      "target_words": ["piccolo"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'tall' (masculine) in Italian?" },
+      "sentence_context": "L'uomo è alto.",
+      "correct_answer": "alto",
+      "distractors": [],
+      "hints": ["The opposite of 'basso'."],
+      "target_words": ["alto"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'long' (masculine) in Italian?" },
+      "sentence_context": "Il tavolo è lungo.",
+      "correct_answer": "lungo",
+      "distractors": [],
+      "hints": ["The opposite of 'corto'."],
+      "target_words": ["lungo"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'wide' (masculine) in Italian?" },
+      "sentence_context": "Il giardino è largo.",
+      "correct_answer": "largo",
+      "distractors": [],
+      "hints": ["The opposite of 'stretto'."],
+      "target_words": ["largo"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-17",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'thin' (masculine) in Italian?" },
+      "sentence_context": "Il cane è magro.",
+      "correct_answer": "magro",
+      "distractors": [],
+      "hints": ["The opposite of 'grosso'."],
+      "target_words": ["magro"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'small' so it agrees with 'la sedia' (feminine)." },
+      "sentence_context": "La sedia è ___.",
+      "correct_answer": "piccola",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: piccola."],
+      "target_words": ["piccolo"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-19",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'tall' so it agrees with 'la ragazza' (feminine)." },
+      "sentence_context": "La ragazza è ___.",
+      "correct_answer": "alta",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: alta."],
+      "target_words": ["alto"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-20",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'big'. Careful — 'grande' ends in -e and does not change for gender." },
+      "sentence_context": "La macchina è ___.",
+      "correct_answer": "grande",
+      "distractors": [],
+      "hints": ["-e adjectives stay the same: grande."],
+      "target_words": ["grande"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-21",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'wide' so it agrees with 'la porta' (feminine)." },
+      "sentence_context": "La porta è ___.",
+      "correct_answer": "larga",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: larga."],
+      "target_words": ["largo"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The cat is small.'" },
+      "sentence_context": "Il gatto è piccolo.",
+      "correct_answer": ["Il", "gatto", "è", "piccolo."],
+      "distractors": ["grande", "piccola"],
+      "hints": ["Masculine noun → piccolo."],
+      "target_words": ["piccolo"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-23",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I have a big garden.'" },
+      "sentence_context": "Ho un giardino grande.",
+      "correct_answer": ["Ho", "un", "giardino", "grande."],
+      "distractors": ["piccolo", "è"],
+      "hints": ["The adjective comes after the noun."],
+      "target_words": ["grande"]
+    },
+    {
+      "id": "unit-06-lesson-01-ex-24",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The boy is tall.'" },
+      "sentence_context": "Il ragazzo è alto.",
+      "correct_answer": ["Il", "ragazzo", "è", "alto."],
+      "distractors": ["basso", "alta"],
+      "hints": ["Masculine noun → alto."],
+      "target_words": ["alto"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "grande", "meaning": "Big / large", "example": "Ho una casa grande." },
+    { "word": "piccolo", "meaning": "Small", "example": "Il cane è piccolo." },
+    { "word": "alto", "meaning": "Tall / high", "example": "Il ragazzo è alto." },
+    { "word": "basso", "meaning": "Short / low", "example": "Il tavolo è basso." },
+    { "word": "lungo", "meaning": "Long", "example": "Il libro è lungo." },
+    { "word": "corto", "meaning": "Short (in length)", "example": "Il letto è corto." },
+    { "word": "largo", "meaning": "Wide", "example": "Il tavolo è largo." },
+    { "word": "stretto", "meaning": "Narrow", "example": "La porta è stretta." },
+    { "word": "grosso", "meaning": "Big / fat", "example": "Il cane è grosso." },
+    { "word": "magro", "meaning": "Thin", "example": "Il gatto è magro." }
+  ]
+}

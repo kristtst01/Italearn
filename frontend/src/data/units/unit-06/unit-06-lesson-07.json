@@ -1,93 +1,139 @@
 {
   "id": "unit-06-lesson-07",
   "unit_id": "unit-06",
-  "name": "Practice Writing",
+  "name": "Missing Cat",
   "order": 7,
-  "grammar_tips": [
-    {
-      "id": "unit-06-lesson-07-tip-01",
-      "title": "Put It Together",
-      "explanation": "Now write your own sentences describing people and things. Use 'essere' + adjectives, make the adjective agree with the noun, and place it after the noun. There is no single correct answer — just write natural Italian.",
-      "before_exercise": 0
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-06-lesson-07-ex-01",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Describe a person you know. Give their name and say what they look like and what they are like (3-4 sentences)."
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Biscotto look like?" },
       "sentence_context": "",
-      "correct_answer": "Il mio amico è Marco. È alto e magro. Marco è simpatico e intelligente. È anche molto gentile.",
-      "distractors": [],
-      "hints": [
-        "Use essere + adjectives. Mix appearance (alto, magro) and personality (simpatico, gentile)."
-      ],
-      "target_words": [
-        "alto",
-        "simpatico",
-        "gentile"
-      ]
+      "correct_answer": "Small, black and white, with green eyes",
+      "distractors": ["Big and black, with blue eyes", "Small and white, with brown eyes"],
+      "hints": ["Read the first paragraph."],
+      "target_words": []
     },
     {
       "id": "unit-06-lesson-07-ex-02",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Describe something you own. Say what it is, what colour it is, and two more things about it (3-4 sentences)."
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Biscotto eat?" },
       "sentence_context": "",
-      "correct_answer": "Ho una macchina. La macchina è rossa e nuova. È grande e comoda. È una bella macchina.",
-      "distractors": [],
-      "hints": [
-        "Use ho + a noun, then describe it with colour, size and condition adjectives."
-      ],
-      "target_words": [
-        "rosso",
-        "nuovo",
-        "comodo"
-      ]
+      "correct_answer": "Only fish",
+      "distractors": ["Everything", "Only meat"],
+      "hints": ["'Solo il pesce!'"],
+      "target_words": []
     },
     {
       "id": "unit-06-lesson-07-ex-03",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Describe a room in your house. Say what is in it and describe the things with colours and adjectives (3-4 sentences)."
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where does Paul find a cat?" },
       "sentence_context": "",
-      "correct_answer": "Ho una camera grande. C'è un letto e una sedia. Il letto è nuovo e comodo. La sedia è verde.",
-      "distractors": [],
-      "hints": [
-        "Use c'è / ci sono for what is in the room, then describe each thing."
-      ],
-      "target_words": [
-        "grande",
-        "comodo",
-        "verde"
-      ]
+      "correct_answer": "Under a car, in front of the hospital",
+      "distractors": ["In the square", "At the hospital, inside"],
+      "hints": ["'Sotto una macchina, davanti all'ospedale.'"],
+      "target_words": []
     },
     {
       "id": "unit-06-lesson-07-ex-04",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Compare two people or two things — say how they are different, using opposite adjectives (3-4 sentences)."
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How does Emma know it is Biscotto?" },
       "sentence_context": "",
-      "correct_answer": "Ho un cane e un gatto. Il cane è grande e il gatto è piccolo. Il cane è vecchio, il gatto è giovane.",
+      "correct_answer": "He has a small white spot on his nose",
+      "distractors": ["He is shy", "He is thin and dirty"],
+      "hints": ["'Una macchia bianca sul naso.'"],
+      "target_words": ["macchia", "naso"]
+    },
+    {
+      "id": "unit-06-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does the cat do when Emma says his name?" },
+      "sentence_context": "",
+      "correct_answer": "He comes out at once",
+      "distractors": ["He runs away", "He stays under the car"],
+      "hints": ["'Il gatto esce subito.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-06-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: in the evening, Biscotto is dirty and hungry." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'Pulito, felice e con un piatto di pesce.'"],
+      "target_words": ["di nuovo"]
+    },
+    {
+      "id": "unit-06-lesson-07-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: a white spot on his nose." },
+      "sentence_context": "Una ___ bianca sul naso.",
+      "correct_answer": "macchia",
       "distractors": [],
-      "hints": [
-        "Use pairs of opposites: grande/piccolo, vecchio/giovane, alto/basso."
-      ],
-      "target_words": [
-        "grande",
-        "piccolo",
-        "giovane"
-      ]
+      "hints": ["A spot."],
+      "target_words": ["macchia"]
+    },
+    {
+      "id": "unit-06-lesson-07-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Biscotto is home again." },
+      "sentence_context": "Biscotto è di ___ a casa.",
+      "correct_answer": "nuovo",
+      "distractors": [],
+      "hints": ["Again: di nuovo."],
+      "target_words": ["di nuovo"]
+    },
+    {
+      "id": "unit-06-lesson-07-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: the nose." },
+      "sentence_context": "Sul ___.",
+      "correct_answer": "naso",
+      "distractors": [],
+      "hints": ["Nose."],
+      "target_words": ["naso"]
+    },
+    {
+      "id": "unit-06-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Biscotto è maschio o femmina?" },
+      "sentence_context": "Biscotto è maschio o femmina?",
+      "correct_answer": ["maschio", "è maschio", "Biscotto è maschio"],
+      "distractors": [],
+      "hints": ["Read the first paragraph."],
+      "target_words": ["maschio"]
+    },
+    {
+      "id": "unit-06-lesson-07-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Com'è il gatto sotto la macchina?" },
+      "sentence_context": "Com'è il gatto sotto la macchina?",
+      "correct_answer": ["magro e sporco", "è magro e sporco"],
+      "distractors": [],
+      "hints": ["Read Paul's message."],
+      "target_words": ["magro", "sporco"]
     }
   ],
-  "vocabulary": []
+  "vocabulary": [
+    { "word": "macchia", "meaning": "spot, patch, stain", "example": "Ha una macchia bianca sul naso." },
+    { "word": "naso", "meaning": "nose", "example": "Il gatto ha il naso rosa." },
+    { "word": "di nuovo", "meaning": "again, back again", "example": "Biscotto è di nuovo a casa." }
+  ],
+  "reading": {
+    "title": "Cerchiamo Biscotto!",
+    "paragraphs": ["Biscotto è un gatto piccolo, nero e bianco, con gli occhi verdi. È maschio e ha due anni.", "È molto timido e non mangia tutto: solo il pesce! Abita vicino a piazza San Marco, ma oggi non è a casa.", "Telefono · 339 456 7812 (Emma)", "Due giorni dopo, Paul telefona a Emma.", "Paul: Emma? Sono Paul. C'è un gatto nero e bianco sotto una macchina, davanti all'ospedale. È magro e sporco, ma ha gli occhi verdi. È Biscotto?", "Emma: Un gatto timido? Con una macchia bianca sul naso?", "Paul: Sì! Una piccola macchia bianca.", "Emma: È lui! Arrivo subito!", "Emma arriva all'ospedale di corsa. Sotto la macchina c'è un gatto piccolo e triste. Emma dice piano: «Biscotto?» e il gatto esce subito.", "La sera Biscotto è di nuovo a casa: pulito, felice e con un piatto di pesce."]
+  }
 }

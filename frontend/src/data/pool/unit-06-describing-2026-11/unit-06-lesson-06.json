@@ -1,0 +1,333 @@
+{
+  "id": "unit-06-lesson-06",
+  "unit_id": "unit-06",
+  "name": "More Adjectives",
+  "order": 6,
+  "grammar_tips": [
+    {
+      "id": "unit-06-lesson-06-tip-01",
+      "title": "More Useful Adjectives",
+      "explanation": "Italian has many adjectives you'll meet every day: stesso (same), sicuro (sure), strano (strange), diverso (different), prossimo (next), possibile (possible). All agree like the adjectives from earlier lessons.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-06-lesson-06-tip-02",
+      "title": "Strong Opinions",
+      "explanation": "'Fantastico' (fantastic) and 'ottimo' (excellent) are common reactions. 'Che fantastico!' = How fantastic! 'Un'idea ottima' = An excellent idea.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-06-lesson-06-tip-03",
+      "title": "Personality & State",
+      "explanation": "'Tranquillo' (calm), 'serio' (serious), 'normale' (normal), 'semplice' (simple), 'sano' (healthy), 'naturale' (natural). All -o/-a adjectives except 'semplice' and 'naturale' (which is -e? no, naturale is -e). Actually 'naturale' ends in -e too — same form for both genders.",
+      "before_exercise": 14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-06-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'stesso' mean?" },
+      "sentence_context": "Abbiamo lo stesso libro.",
+      "correct_answer": "Same",
+      "distractors": ["Different", "Another", "Old"],
+      "hints": ["We have the same book."],
+      "target_words": ["stesso"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sicuro' mean?" },
+      "sentence_context": "Sono sicuro.",
+      "correct_answer": "Sure / safe",
+      "distractors": ["Worried", "Possible", "Different"],
+      "hints": ["I'm sure."],
+      "target_words": ["sicuro"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'strano' mean?" },
+      "sentence_context": "È un libro strano.",
+      "correct_answer": "Strange",
+      "distractors": ["Normal", "Possible", "Old"],
+      "hints": ["A strange book."],
+      "target_words": ["strano"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'diverso' mean?" },
+      "sentence_context": "Il mio libro è diverso.",
+      "correct_answer": "Different",
+      "distractors": ["Same", "New", "Important"],
+      "hints": ["My book is different."],
+      "target_words": ["diverso"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'prossimo' mean?" },
+      "sentence_context": "La prossima settimana.",
+      "correct_answer": "Next",
+      "distractors": ["Last", "Previous", "Now"],
+      "hints": ["Next week."],
+      "target_words": ["prossimo"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'possibile' mean?" },
+      "sentence_context": "È possibile venire.",
+      "correct_answer": "Possible",
+      "distractors": ["Impossible", "Difficult", "Easy"],
+      "hints": ["It's possible to come."],
+      "target_words": ["possibile"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'fantastico' mean?" },
+      "sentence_context": "Il film è fantastico!",
+      "correct_answer": "Fantastic",
+      "distractors": ["Terrible", "Boring", "Cheap"],
+      "hints": ["A strong positive."],
+      "target_words": ["fantastico"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ottimo' mean?" },
+      "sentence_context": "Un'idea ottima.",
+      "correct_answer": "Excellent",
+      "distractors": ["Awful", "Average", "Old"],
+      "hints": ["An excellent idea."],
+      "target_words": ["ottimo"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'serio' mean?" },
+      "sentence_context": "È un problema serio.",
+      "correct_answer": "Serious",
+      "distractors": ["Funny", "Easy", "Normal"],
+      "hints": ["It's a serious problem."],
+      "target_words": ["serio"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'normale' mean?" },
+      "sentence_context": "È una giornata normale.",
+      "correct_answer": "Normal",
+      "distractors": ["Strange", "Special", "Difficult"],
+      "hints": ["It's a normal day."],
+      "target_words": ["normale"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-11",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'tranquillo' mean?" },
+      "sentence_context": "Sono tranquillo.",
+      "correct_answer": "Calm / quiet",
+      "distractors": ["Nervous", "Tired", "Strong"],
+      "hints": ["I'm calm."],
+      "target_words": ["tranquillo"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-12",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ricco' mean?" },
+      "sentence_context": "Marco è ricco.",
+      "correct_answer": "Rich",
+      "distractors": ["Poor", "Strong", "Famous"],
+      "hints": ["Marco is rich."],
+      "target_words": ["ricco"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-13",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'povero' mean?" },
+      "sentence_context": "Il ragazzo è povero.",
+      "correct_answer": "Poor",
+      "distractors": ["Rich", "Weak", "Young"],
+      "hints": ["The opposite of 'ricco'."],
+      "target_words": ["povero"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-14",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sano' mean?" },
+      "sentence_context": "Il cibo è sano.",
+      "correct_answer": "Healthy",
+      "distractors": ["Sick", "Tasty", "Bad"],
+      "hints": ["The food is healthy."],
+      "target_words": ["sano"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-15",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'semplice' mean?" },
+      "sentence_context": "È una domanda semplice.",
+      "correct_answer": "Simple",
+      "distractors": ["Difficult", "Important", "Strange"],
+      "hints": ["It's a simple question."],
+      "target_words": ["semplice"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-16",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'intero' mean?" },
+      "sentence_context": "Ho mangiato un libro intero. (un giornale intero)",
+      "correct_answer": "Whole / entire",
+      "distractors": ["Half", "Empty", "Long"],
+      "hints": ["A whole / entire newspaper."],
+      "target_words": ["intero"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-17",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'naturale' mean?" },
+      "sentence_context": "L'acqua naturale è buona.",
+      "correct_answer": "Natural",
+      "distractors": ["Artificial", "Fresh", "Cold"],
+      "hints": ["Natural (still) water is good."],
+      "target_words": ["naturale"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-18",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Non ho lo ___ libro di Marco.",
+      "correct_answer": "stesso",
+      "distractors": [],
+      "hints": ["I don't have the same book as Marco."],
+      "target_words": ["stesso"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-19",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Sei ___ ?",
+      "correct_answer": "sicuro",
+      "distractors": [],
+      "hints": ["Are you sure?"],
+      "target_words": ["sicuro"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-20",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'next' (masculine) in Italian?" },
+      "sentence_context": "Il prossimo treno.",
+      "correct_answer": "prossimo",
+      "distractors": [],
+      "hints": ["For the next thing in line."],
+      "target_words": ["prossimo"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-21",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'different' (masculine) in Italian?" },
+      "sentence_context": "Un libro diverso.",
+      "correct_answer": "diverso",
+      "distractors": [],
+      "hints": ["The opposite of 'stesso'."],
+      "target_words": ["diverso"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-22",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Make 'prossimo' agree with 'la settimana'." },
+      "sentence_context": "La ___ settimana.",
+      "correct_answer": "prossima",
+      "distractors": [],
+      "hints": ["Feminine → prossima."],
+      "target_words": ["prossimo"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-23",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Make 'tranquillo' agree with 'la ragazza'." },
+      "sentence_context": "La ragazza è ___.",
+      "correct_answer": "tranquilla",
+      "distractors": [],
+      "hints": ["Feminine → tranquilla."],
+      "target_words": ["tranquillo"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-24",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'simple'. (-e adjective, doesn't change for gender)" },
+      "sentence_context": "La domanda è ___.",
+      "correct_answer": "semplice",
+      "distractors": [],
+      "hints": ["-e adjective."],
+      "target_words": ["semplice"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-25",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: \"It's an excellent idea!\"" },
+      "sentence_context": "È un'idea ottima!",
+      "correct_answer": ["È", "un'idea", "ottima!"],
+      "distractors": ["ottimo", "fantastico"],
+      "hints": ["'Idea' is feminine → ottima."],
+      "target_words": ["ottimo"]
+    },
+    {
+      "id": "unit-06-lesson-06-ex-26",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'The food is natural and healthy.'" },
+      "sentence_context": "Il cibo è naturale e sano.",
+      "correct_answer": ["Il", "cibo", "è", "naturale", "e", "sano."],
+      "distractors": ["naturali", "sana"],
+      "hints": ["Masculine → sano; -e adjective → naturale."],
+      "target_words": ["naturale", "sano"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "stesso", "meaning": "Same", "example": "Abbiamo lo stesso libro." },
+    { "word": "sicuro", "meaning": "Sure / safe", "example": "Sono sicuro." },
+    { "word": "strano", "meaning": "Strange", "example": "È un libro strano." },
+    { "word": "diverso", "meaning": "Different", "example": "Il mio libro è diverso." },
+    { "word": "prossimo", "meaning": "Next", "example": "La prossima settimana." },
+    { "word": "possibile", "meaning": "Possible", "example": "È possibile venire." },
+    { "word": "fantastico", "meaning": "Fantastic", "example": "Il film è fantastico!" },
+    { "word": "ottimo", "meaning": "Excellent", "example": "Un'idea ottima." },
+    { "word": "serio", "meaning": "Serious", "example": "È un problema serio." },
+    { "word": "normale", "meaning": "Normal", "example": "È una giornata normale." },
+    { "word": "tranquillo", "meaning": "Calm / quiet", "example": "Sono tranquillo." },
+    { "word": "ricco", "meaning": "Rich", "example": "Marco è ricco." },
+    { "word": "povero", "meaning": "Poor", "example": "Il ragazzo è povero." },
+    { "word": "sano", "meaning": "Healthy", "example": "Il cibo è sano." },
+    { "word": "semplice", "meaning": "Simple", "example": "È una domanda semplice." },
+    { "word": "intero", "meaning": "Whole / entire", "example": "Un giornale intero." },
+    { "word": "naturale", "meaning": "Natural", "example": "L'acqua naturale è buona." }
+  ]
+}

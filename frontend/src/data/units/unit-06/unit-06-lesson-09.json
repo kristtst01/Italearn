@@ -1,0 +1,21 @@
+{
+  "id": "unit-06-lesson-09",
+  "unit_id": "unit-06",
+  "name": "A Town You Know",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-06-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe a town or city you know to a friend who has never been there: what it's like, its streets, and what there is to do." },
+      "sentence_context": "",
+      "correct_answer": "Bologna è una città bella e interessante, non molto grande. Le strade del centro sono strette e lunghe, con molti negozi e bar. Ci sono musei, chiese e una piazza grande. I ristoranti sono buoni ed economici. È una città allegra, con tanti studenti.",
+      "distractors": [],
+      "hints": ["Città is feminine; check each adjective's ending."],
+      "target_words": ["stretto", "interessante", "economico"]
+    }
+  ],
+  "vocabulary": []
+}

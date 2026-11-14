@@ -1,0 +1,282 @@
+{
+  "id": "unit-06-lesson-04",
+  "unit_id": "unit-06",
+  "name": "Good, Bad & Useful",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-06-lesson-04-tip-01",
+      "title": "Judging Things",
+      "explanation": "These adjectives give an opinion about a thing — good or bad, easy or hard, right or wrong. They agree with the noun like all adjectives: 'un libro buono', 'una lezione facile'.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-06-lesson-04-tip-02",
+      "title": "More -e Adjectives",
+      "explanation": "'Facile' (easy), 'difficile' (hard) and 'importante' (important) end in -e, so they don't change for gender: 'un libro difficile', 'una domanda difficile'.",
+      "before_exercise": 8
+    },
+    {
+      "id": "unit-06-lesson-04-tip-03",
+      "title": "Caro Has Two Meanings",
+      "explanation": "'Caro' means both 'expensive' and 'dear'. 'Una macchina cara' = an expensive car; 'caro amico' = dear friend. Context tells you which.",
+      "before_exercise": 14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-06-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'buono' mean?" },
+      "sentence_context": "Il caffè è buono.",
+      "correct_answer": "Good",
+      "distractors": ["Bad", "Hard", "Wrong"],
+      "hints": ["The coffee is good."],
+      "target_words": ["buono"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'cattivo' mean?" },
+      "sentence_context": "Il cane è cattivo.",
+      "correct_answer": "Bad",
+      "distractors": ["Good", "Easy", "True"],
+      "hints": ["The opposite of 'buono'."],
+      "target_words": ["cattivo"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'facile' mean?" },
+      "sentence_context": "L'italiano è facile.",
+      "correct_answer": "Easy",
+      "distractors": ["Hard", "Important", "Wrong"],
+      "hints": ["Italian is easy."],
+      "target_words": ["facile"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'difficile' mean?" },
+      "sentence_context": "Il libro è difficile.",
+      "correct_answer": "Hard / difficult",
+      "distractors": ["Easy", "Good", "Cheap"],
+      "hints": ["The opposite of 'facile'."],
+      "target_words": ["difficile"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'importante' mean?" },
+      "sentence_context": "La famiglia è importante.",
+      "correct_answer": "Important",
+      "distractors": ["Easy", "Comfortable", "Bad"],
+      "hints": ["Family is important."],
+      "target_words": ["importante"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'caro' mean?" },
+      "sentence_context": "La macchina è cara.",
+      "correct_answer": "Expensive / dear",
+      "distractors": ["Cheap", "Good", "Easy"],
+      "hints": ["The car is expensive."],
+      "target_words": ["caro"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'comodo' mean?" },
+      "sentence_context": "La sedia è comoda.",
+      "correct_answer": "Comfortable",
+      "distractors": ["Hard", "Expensive", "Wrong"],
+      "hints": ["The chair is comfortable."],
+      "target_words": ["comodo"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La risposta è ___.",
+      "correct_answer": "giusta",
+      "distractors": [],
+      "hints": ["The answer is right / correct."],
+      "target_words": ["giusto"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La risposta è ___.",
+      "correct_answer": "sbagliata",
+      "distractors": [],
+      "hints": ["The answer is wrong."],
+      "target_words": ["sbagliato"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La storia è ___.",
+      "correct_answer": "vera",
+      "distractors": [],
+      "hints": ["The story is true."],
+      "target_words": ["vero"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il letto è ___.",
+      "correct_answer": "comodo",
+      "distractors": [],
+      "hints": ["The bed is comfortable."],
+      "target_words": ["comodo"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'good' (masculine) in Italian?" },
+      "sentence_context": "Il libro è buono.",
+      "correct_answer": "buono",
+      "distractors": [],
+      "hints": ["The opposite of 'cattivo'."],
+      "target_words": ["buono"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'hard / difficult' in Italian?" },
+      "sentence_context": "Il libro è difficile.",
+      "correct_answer": "difficile",
+      "distractors": [],
+      "hints": ["An -e adjective — one form for both genders."],
+      "target_words": ["difficile"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'easy' in Italian?" },
+      "sentence_context": "La lezione è facile.",
+      "correct_answer": "facile",
+      "distractors": [],
+      "hints": ["The opposite of 'difficile'."],
+      "target_words": ["facile"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'true / real' (masculine) in Italian?" },
+      "sentence_context": "Il problema è vero.",
+      "correct_answer": "vero",
+      "distractors": [],
+      "hints": ["Not false."],
+      "target_words": ["vero"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'bad' so it agrees with 'la macchina' (feminine)." },
+      "sentence_context": "La macchina è ___.",
+      "correct_answer": "cattiva",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: cattiva."],
+      "target_words": ["cattivo"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'expensive' so it agrees with 'la borsa' (feminine)." },
+      "sentence_context": "La borsa è ___.",
+      "correct_answer": "cara",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: cara."],
+      "target_words": ["caro"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'important'. It ends in -e, so it doesn't change for gender." },
+      "sentence_context": "La lezione è ___.",
+      "correct_answer": "importante",
+      "distractors": [],
+      "hints": ["-e adjectives stay the same: importante."],
+      "target_words": ["importante"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-19",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'comfortable' so it agrees with 'la macchina' (feminine)." },
+      "sentence_context": "La macchina è ___.",
+      "correct_answer": "comoda",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: comoda."],
+      "target_words": ["comodo"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The coffee is good.'" },
+      "sentence_context": "Il caffè è buono.",
+      "correct_answer": ["Il", "caffè", "è", "buono."],
+      "distractors": ["cattivo", "buona"],
+      "hints": ["Masculine noun → buono."],
+      "target_words": ["buono"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Italian is easy.'" },
+      "sentence_context": "L'italiano è facile.",
+      "correct_answer": ["L'italiano", "è", "facile."],
+      "distractors": ["difficile", "facili"],
+      "hints": ["'Facile' is an -e adjective."],
+      "target_words": ["facile"]
+    },
+    {
+      "id": "unit-06-lesson-04-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The answer is right.'" },
+      "sentence_context": "La risposta è giusta.",
+      "correct_answer": ["La", "risposta", "è", "giusta."],
+      "distractors": ["sbagliata", "giusto"],
+      "hints": ["'Risposta' is feminine → giusta."],
+      "target_words": ["giusto"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "buono", "meaning": "Good", "example": "Il caffè è buono." },
+    { "word": "cattivo", "meaning": "Bad", "example": "Il cane è cattivo." },
+    { "word": "facile", "meaning": "Easy", "example": "L'italiano è facile." },
+    { "word": "difficile", "meaning": "Hard / difficult", "example": "Il libro è difficile." },
+    { "word": "importante", "meaning": "Important", "example": "La famiglia è importante." },
+    { "word": "caro", "meaning": "Expensive / dear", "example": "La macchina è cara." },
+    { "word": "comodo", "meaning": "Comfortable", "example": "La sedia è comoda." },
+    { "word": "giusto", "meaning": "Right / correct", "example": "La risposta è giusta." },
+    { "word": "sbagliato", "meaning": "Wrong", "example": "La risposta è sbagliata." },
+    { "word": "vero", "meaning": "True / real", "example": "La storia è vera." }
+  ]
+}

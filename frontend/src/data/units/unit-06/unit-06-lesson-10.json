@@ -1,0 +1,87 @@
+{
+  "id": "unit-06-lesson-10",
+  "unit_id": "unit-06",
+  "name": "Say It Out Loud",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-06-lesson-10-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Emma è alta e bionda, con gli occhi azzurri.",
+      "correct_answer": "Emma è alta e bionda, con gli occhi azzurri.",
+      "distractors": [],
+      "hints": ["Agreement with Emma."],
+      "target_words": ["biondo", "azzurro"]
+    },
+    {
+      "id": "unit-06-lesson-10-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Tomás è un po' timido.",
+      "correct_answer": "Tomás è un po' timido.",
+      "distractors": [],
+      "hints": ["Timido."],
+      "target_words": ["timido"]
+    },
+    {
+      "id": "unit-06-lesson-10-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Le strade sono strette e lunghe.",
+      "correct_answer": "Le strade sono strette e lunghe.",
+      "distractors": [],
+      "hints": ["Feminine plural."],
+      "target_words": ["stretto", "lungo"]
+    },
+    {
+      "id": "unit-06-lesson-10-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Il film è lungo e noioso.",
+      "correct_answer": "Il film è lungo e noioso.",
+      "distractors": [],
+      "hints": ["Lungo e noioso."],
+      "target_words": ["lungo", "noioso"]
+    },
+    {
+      "id": "unit-06-lesson-10-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Com'è Paul? È simpatico e gentile.",
+      "correct_answer": "Com'è Paul? È simpatico e gentile.",
+      "distractors": [],
+      "hints": ["Com'è…?"],
+      "target_words": []
+    },
+    {
+      "id": "unit-06-lesson-10-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "I piatti sono sporchi.",
+      "correct_answer": "I piatti sono sporchi.",
+      "distractors": [],
+      "hints": ["The hard sound: -chi."],
+      "target_words": ["sporco"]
+    },
+    {
+      "id": "unit-06-lesson-10-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "È maschio o femmina?",
+      "correct_answer": "È maschio o femmina?",
+      "distractors": [],
+      "hints": ["A question about a pet."],
+      "target_words": ["maschio", "femmina"]
+    }
+  ],
+  "vocabulary": []
+}

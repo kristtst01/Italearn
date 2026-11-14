@@ -1,0 +1,331 @@
+{
+  "id": "unit-06-lesson-03",
+  "unit_id": "unit-06",
+  "name": "Colours",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-06-lesson-03-tip-01",
+      "title": "Colours Are Adjectives",
+      "explanation": "Colours work like other adjectives — they come after the noun and agree with it: 'un libro rosso' (a red book), 'una penna rossa' (a red pen).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-06-lesson-03-tip-02",
+      "title": "Colours Ending in -e",
+      "explanation": "'Verde' (green) ends in -e, so like 'grande' it doesn't change for gender: 'il tavolo verde', 'la porta verde'.",
+      "before_exercise": 8
+    },
+    {
+      "id": "unit-06-lesson-03-tip-03",
+      "title": "Invariable Colours",
+      "explanation": "Some colours never change at all: 'blu', 'viola', 'rosa'. 'Il cane blu', 'la macchina blu' — always 'blu'. They have just one form.",
+      "before_exercise": 15
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-06-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'rosso' mean?" },
+      "sentence_context": "Ho una macchina rossa.",
+      "correct_answer": "Red",
+      "distractors": ["Green", "Black", "Yellow"],
+      "hints": ["A red car."],
+      "target_words": ["rosso"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'verde' mean?" },
+      "sentence_context": "Il tavolo è verde.",
+      "correct_answer": "Green",
+      "distractors": ["Red", "Blue", "Grey"],
+      "hints": ["The colour of a garden."],
+      "target_words": ["verde"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'bianco' mean?" },
+      "sentence_context": "La casa è bianca.",
+      "correct_answer": "White",
+      "distractors": ["Black", "Yellow", "Brown"],
+      "hints": ["The white house."],
+      "target_words": ["bianco"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'nero' mean?" },
+      "sentence_context": "Il gatto è nero.",
+      "correct_answer": "Black",
+      "distractors": ["White", "Red", "Green"],
+      "hints": ["The black cat."],
+      "target_words": ["nero"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'giallo' mean?" },
+      "sentence_context": "Ho uno zaino giallo.",
+      "correct_answer": "Yellow",
+      "distractors": ["Orange", "Green", "Red"],
+      "hints": ["The colour of the sun."],
+      "target_words": ["giallo"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'grigio' mean?" },
+      "sentence_context": "Il telefono è grigio.",
+      "correct_answer": "Grey",
+      "distractors": ["Brown", "Black", "Blue"],
+      "hints": ["Between white and black."],
+      "target_words": ["grigio"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'marrone' mean?" },
+      "sentence_context": "La sedia è marrone.",
+      "correct_answer": "Brown",
+      "distractors": ["Grey", "Orange", "Purple"],
+      "hints": ["The colour of wood or chocolate."],
+      "target_words": ["marrone"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Lo zaino è ___.",
+      "correct_answer": "arancione",
+      "distractors": [],
+      "hints": ["The backpack is orange."],
+      "target_words": ["arancione"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il cielo è ___.",
+      "correct_answer": "azzurro",
+      "distractors": [],
+      "hints": ["The sky is light blue."],
+      "target_words": ["azzurro"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La penna è ___.",
+      "correct_answer": "viola",
+      "distractors": [],
+      "hints": ["The pen is purple."],
+      "target_words": ["viola"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La borsa è ___.",
+      "correct_answer": "rosa",
+      "distractors": [],
+      "hints": ["The bag is pink."],
+      "target_words": ["rosa"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ___ rosso è bello.",
+      "correct_answer": "colore",
+      "distractors": [],
+      "hints": ["The red colour is nice."],
+      "target_words": ["colore"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'black' (masculine) in Italian?" },
+      "sentence_context": "Il cane è nero.",
+      "correct_answer": "nero",
+      "distractors": [],
+      "hints": ["The opposite of 'bianco'."],
+      "target_words": ["nero"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'red' (masculine) in Italian?" },
+      "sentence_context": "Il libro è rosso.",
+      "correct_answer": "rosso",
+      "distractors": [],
+      "hints": ["Think of the wine 'rosso'."],
+      "target_words": ["rosso"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'grey' (masculine) in Italian?" },
+      "sentence_context": "Lo zaino è grigio.",
+      "correct_answer": "grigio",
+      "distractors": [],
+      "hints": ["Between white and black."],
+      "target_words": ["grigio"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'the colour' in Italian?" },
+      "sentence_context": "Il colore è bello.",
+      "correct_answer": "il colore",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["colore"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'red' so it agrees with 'la sedia' (feminine)." },
+      "sentence_context": "La sedia è ___.",
+      "correct_answer": "rossa",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: rossa."],
+      "target_words": ["rosso"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'black' so it agrees with 'la borsa' (feminine)." },
+      "sentence_context": "La borsa è ___.",
+      "correct_answer": "nera",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: nera."],
+      "target_words": ["nero"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-19",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'white' so it agrees with 'la macchina' (feminine)." },
+      "sentence_context": "La macchina è ___.",
+      "correct_answer": "bianca",
+      "distractors": [],
+      "hints": ["Feminine → -a ending: bianca."],
+      "target_words": ["bianco"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-20",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'green'. It ends in -e, so it doesn't change for gender." },
+      "sentence_context": "La porta è ___.",
+      "correct_answer": "verde",
+      "distractors": [],
+      "hints": ["-e adjectives stay the same: verde."],
+      "target_words": ["verde"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-21",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'pink'. Remember — 'rosa' never changes." },
+      "sentence_context": "Il libro è ___.",
+      "correct_answer": "rosa",
+      "distractors": [],
+      "hints": ["'Rosa' is invariable: always 'rosa'."],
+      "target_words": ["rosa"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-22",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'chiaro' mean?" },
+      "sentence_context": "Il verde è chiaro.",
+      "correct_answer": "Light (in colour)",
+      "distractors": ["Dark", "Bright red", "Grey"],
+      "hints": ["A light shade of a colour."],
+      "target_words": ["chiaro"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-23",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'scuro' mean?" },
+      "sentence_context": "Il blu è scuro.",
+      "correct_answer": "Dark (in colour)",
+      "distractors": ["Light", "Yellow", "White"],
+      "hints": ["The opposite of 'chiaro'."],
+      "target_words": ["scuro"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-24",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I have a white cat.'" },
+      "sentence_context": "Ho un gatto bianco.",
+      "correct_answer": ["Ho", "un", "gatto", "bianco."],
+      "distractors": ["bianca", "nero"],
+      "hints": ["Masculine noun → bianco."],
+      "target_words": ["bianco"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-25",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The pen is red.'" },
+      "sentence_context": "La penna è rossa.",
+      "correct_answer": ["La", "penna", "è", "rossa."],
+      "distractors": ["rosso", "verde"],
+      "hints": ["Feminine noun → rossa."],
+      "target_words": ["rosso"]
+    },
+    {
+      "id": "unit-06-lesson-03-ex-26",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The cat is grey.'" },
+      "sentence_context": "Il gatto è grigio.",
+      "correct_answer": ["Il", "gatto", "è", "grigio."],
+      "distractors": ["grigia", "nero"],
+      "hints": ["Masculine noun → grigio."],
+      "target_words": ["grigio"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "rosso", "meaning": "Red", "example": "Ho una macchina rossa." },
+    { "word": "verde", "meaning": "Green", "example": "Il tavolo è verde." },
+    { "word": "bianco", "meaning": "White", "example": "La casa è bianca." },
+    { "word": "nero", "meaning": "Black", "example": "Il gatto è nero." },
+    { "word": "giallo", "meaning": "Yellow", "example": "Ho uno zaino giallo." },
+    { "word": "blu", "meaning": "Blue", "example": "La macchina è blu." },
+    { "word": "azzurro", "meaning": "Light blue", "example": "Il cielo è azzurro." },
+    { "word": "arancione", "meaning": "Orange", "example": "Lo zaino è arancione." },
+    { "word": "marrone", "meaning": "Brown", "example": "La sedia è marrone." },
+    { "word": "viola", "meaning": "Purple", "example": "La penna è viola." },
+    { "word": "rosa", "meaning": "Pink", "example": "La borsa è rosa." },
+    { "word": "grigio", "meaning": "Grey", "example": "Il telefono è grigio." },
+    { "word": "chiaro", "meaning": "Light (in colour)", "example": "Il verde è chiaro." },
+    { "word": "scuro", "meaning": "Dark (in colour)", "example": "Il blu è scuro." },
+    { "word": "colore", "meaning": "Colour", "example": "Il colore è bello." }
+  ]
+}

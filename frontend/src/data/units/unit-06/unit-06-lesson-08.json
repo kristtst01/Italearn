@@ -1,0 +1,21 @@
+{
+  "id": "unit-06-lesson-08",
+  "unit_id": "unit-06",
+  "name": "Someone You Know",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-06-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe a person you know well: what they look like, and what they are like." },
+      "sentence_context": "",
+      "correct_answer": "Ho un'amica, si chiama Sara. È italiana, di Napoli, e ha trent'anni. È bassa e magra, con i capelli castani e lunghi e gli occhi verdi. È molto simpatica e divertente, ma un po' timida con le persone nuove. È anche molto intelligente: parla quattro lingue!",
+      "distractors": [],
+      "hints": ["Looks with essere and avere or con; then character. Check every adjective agrees."],
+      "target_words": ["capelli", "timido", "divertente"]
+    }
+  ],
+  "vocabulary": []
+}
