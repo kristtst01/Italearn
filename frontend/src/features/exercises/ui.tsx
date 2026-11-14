@@ -57,11 +57,24 @@ export function ExercisePrompt({ exercise, showContext = false }: { exercise: Ex
 }
 
 /** Simple prompt for exercises that lay out their own task (fill in the blank, read aloud). */
-export function Prompt({ instruction, children }: { instruction?: ReactNode; children?: ReactNode }) {
+export function Prompt({
+  instruction,
+  long = false,
+  children,
+}: {
+  instruction?: ReactNode;
+  /** A long instruction (a writing task): a calmer size than a short question */
+  long?: boolean;
+  children?: ReactNode;
+}) {
   return (
     <div className="flex flex-col gap-2">
       {instruction && <Label>{instruction}</Label>}
-      {children && <p className="min-h-[2lh] text-xl font-bold leading-snug sm:text-2xl">{children}</p>}
+      {children && (
+        <p className={cn('min-h-[2lh] leading-snug', long ? 'text-lg font-semibold' : 'text-xl font-bold sm:text-2xl')}>
+          {children}
+        </p>
+      )}
     </div>
   );
 }

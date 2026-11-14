@@ -89,6 +89,8 @@ function LessonContent({
     ) : null;
   // Reading lessons keep the text beside every question
   const reading = lesson.reading && !state.isComplete;
+  // A writing task that answers a text: the text is a reference, the writing is the main task
+  const writingWithText = meta?.role === 'writing';
 
   return (
     <SessionLayout
@@ -121,6 +123,12 @@ function LessonContent({
             onPracticeMistakes={state.handlePracticeMistakes}
             onContinue={onExit}
           />
+        ) : reading && lesson.reading && writingWithText ? (
+          // Writing beside a text: an even split, the text at reading size
+          <div className="mx-auto grid w-full max-w-7xl grid-cols-1 items-start gap-8 lg:grid-cols-2 lg:gap-10">
+            <ReadingPanel text={lesson.reading} compact />
+            <div className="min-w-0 lg:sticky lg:top-24">{step}</div>
+          </div>
         ) : reading && lesson.reading ? (
           // The text column is as wide as its line length allows; the question takes a slim column beside it
           <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-[minmax(0,auto)_var(--container-aside)] lg:justify-center">

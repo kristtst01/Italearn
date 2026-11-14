@@ -1,0 +1,268 @@
+{
+  "id": "unit-11-lesson-03",
+  "unit_id": "unit-11",
+  "name": "How Often?",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-11-lesson-03-tip-01",
+      "title": "Adverbs After the Verb",
+      "explanation": "Frequency adverbs come AFTER the conjugated verb: 'Lavoro sempre la mattina' (I always work in the morning). Not 'Sempre lavoro' — that sounds strange.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-11-lesson-03-tip-02",
+      "title": "Mai Needs Non",
+      "explanation": "'Mai' (never) needs 'non' before the verb: 'Non mangio mai la carne' (I never eat meat). It's the same double-negative pattern as 'non...niente'.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-11-lesson-03-tip-03",
+      "title": "How Often Counts",
+      "explanation": "From most to least often: sempre (always), di solito (usually), spesso (often), qualche volta (sometimes), raramente (rarely), mai (never). 'Ogni giorno' (every day) means daily.",
+      "before_exercise": 14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-11-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sempre' mean?" },
+      "sentence_context": "Mangio sempre alle otto.",
+      "correct_answer": "Always",
+      "distractors": ["Never", "Often", "Sometimes"],
+      "hints": ["I always eat at eight."],
+      "target_words": ["sempre"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'spesso' mean?" },
+      "sentence_context": "Vado spesso al cinema.",
+      "correct_answer": "Often",
+      "distractors": ["Always", "Rarely", "Never"],
+      "hints": ["I often go to the cinema."],
+      "target_words": ["spesso"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mai' mean?" },
+      "sentence_context": "Non mangio mai la carne.",
+      "correct_answer": "Never",
+      "distractors": ["Always", "Often", "Sometimes"],
+      "hints": ["I never eat meat."],
+      "target_words": ["mai"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'qualche volta' mean?" },
+      "sentence_context": "Qualche volta cucino a casa.",
+      "correct_answer": "Sometimes",
+      "distractors": ["Always", "Never", "Usually"],
+      "hints": ["Sometimes I cook at home."],
+      "target_words": ["qualche volta"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'di solito' mean?" },
+      "sentence_context": "Di solito lavoro la mattina.",
+      "correct_answer": "Usually",
+      "distractors": ["Always", "Sometimes", "Rarely"],
+      "hints": ["Usually I work in the morning."],
+      "target_words": ["di solito"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'raramente' mean?" },
+      "sentence_context": "Raramente vedo Marco.",
+      "correct_answer": "Rarely",
+      "distractors": ["Often", "Always", "Sometimes"],
+      "hints": ["I rarely see Marco."],
+      "target_words": ["raramente"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ogni giorno' mean?" },
+      "sentence_context": "Studio ogni giorno.",
+      "correct_answer": "Every day",
+      "distractors": ["All day", "Sometimes", "Today"],
+      "hints": ["I study every day."],
+      "target_words": ["ogni giorno"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Lavoro ___ la mattina.",
+      "correct_answer": "sempre",
+      "distractors": [],
+      "hints": ["I always work in the morning."],
+      "target_words": ["sempre"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Vado ___ al cinema.",
+      "correct_answer": "spesso",
+      "distractors": [],
+      "hints": ["I often go to the cinema."],
+      "target_words": ["spesso"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Non mangio ___ la carne.",
+      "correct_answer": "mai",
+      "distractors": [],
+      "hints": ["I never eat meat."],
+      "target_words": ["mai"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Studio italiano ___ giorno.",
+      "correct_answer": "ogni",
+      "distractors": [],
+      "hints": ["I study Italian every day."],
+      "target_words": ["ogni giorno"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'always' in Italian?" },
+      "sentence_context": "Mangio sempre alle otto.",
+      "correct_answer": "sempre",
+      "distractors": [],
+      "hints": ["100% of the time."],
+      "target_words": ["sempre"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'often' in Italian?" },
+      "sentence_context": "Vado spesso al cinema.",
+      "correct_answer": "spesso",
+      "distractors": [],
+      "hints": ["A lot of the time."],
+      "target_words": ["spesso"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'never' in Italian?" },
+      "sentence_context": "Non parlo mai tedesco.",
+      "correct_answer": "mai",
+      "distractors": [],
+      "hints": ["Used with 'non'."],
+      "target_words": ["mai"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'usually' in Italian?" },
+      "sentence_context": "Di solito mangio a casa.",
+      "correct_answer": "di solito",
+      "distractors": [],
+      "hints": ["Two words."],
+      "target_words": ["di solito"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'never' — don't forget that 'mai' needs 'non'!" },
+      "sentence_context": "Non lavoro ___ il sabato.",
+      "correct_answer": "mai",
+      "distractors": [],
+      "hints": ["I never work on Saturday."],
+      "target_words": ["mai"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'sometimes'." },
+      "sentence_context": "___ guardo un film.",
+      "correct_answer": "Qualche volta",
+      "distractors": [],
+      "hints": ["At the start of the sentence is also OK."],
+      "target_words": ["qualche volta"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I always study in the morning.'" },
+      "sentence_context": "Studio sempre la mattina.",
+      "correct_answer": ["Studio", "sempre", "la", "mattina."],
+      "distractors": ["spesso", "sera"],
+      "hints": ["Adverb comes AFTER the verb."],
+      "target_words": ["sempre"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I never eat meat.'" },
+      "sentence_context": "Non mangio mai la carne.",
+      "correct_answer": ["Non", "mangio", "mai", "la", "carne."],
+      "distractors": ["sempre", "spesso"],
+      "hints": ["'Non' before the verb, 'mai' after."],
+      "target_words": ["non", "mai"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I usually work on Monday.'" },
+      "sentence_context": "Di solito lavoro lunedì.",
+      "correct_answer": ["Di", "solito", "lavoro", "lunedì."],
+      "distractors": ["sempre", "sabato"],
+      "hints": ["'Di solito' at the start works well."],
+      "target_words": ["di solito"]
+    },
+    {
+      "id": "unit-11-lesson-03-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I rarely see my cousin.'" },
+      "sentence_context": "Vedo raramente mio cugino.",
+      "correct_answer": ["Vedo", "raramente", "mio", "cugino."],
+      "distractors": ["spesso", "mia"],
+      "hints": ["Verb + 'raramente' + object."],
+      "target_words": ["raramente"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "sempre", "meaning": "Always", "example": "Mangio sempre alle otto." },
+    { "word": "spesso", "meaning": "Often", "example": "Vado spesso al cinema." },
+    { "word": "qualche volta", "meaning": "Sometimes", "example": "Qualche volta cucino a casa." },
+    { "word": "di solito", "meaning": "Usually", "example": "Di solito lavoro la mattina." },
+    { "word": "raramente", "meaning": "Rarely", "example": "Raramente vedo Marco." },
+    { "word": "mai", "meaning": "Never (with non)", "example": "Non mangio mai la carne." },
+    { "word": "ogni giorno", "meaning": "Every day", "example": "Studio ogni giorno." }
+  ]
+}

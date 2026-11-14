@@ -81,7 +81,7 @@ export default function FreeResponse({ exercise, onComplete }: FreeResponseProps
 
   return (
     <div className="flex flex-col gap-6">
-      <Prompt>
+      <Prompt long={(exercise.prompt.text ?? '').length > 90}>
         <HighlightedText text={exercise.prompt.text ?? ''} words={exercise.target_words} />
       </Prompt>
 
@@ -97,7 +97,7 @@ export default function FreeResponse({ exercise, onComplete }: FreeResponseProps
           autoCorrect="off"
           autoCapitalize="off"
           spellCheck={false}
-          rows={6}
+          rows={9}
           disabled={submitted}
           className="w-full resize-none rounded-lg border-2 border-border bg-white px-4.5 py-3.5 text-reading outline-none transition-colors focus:border-cobalto disabled:text-muted-foreground"
         />

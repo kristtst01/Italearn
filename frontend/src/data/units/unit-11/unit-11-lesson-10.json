@@ -1,0 +1,87 @@
+{
+  "id": "unit-11-lesson-10",
+  "unit_id": "unit-11",
+  "name": "Say It Out Loud",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-11-lesson-10-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Scusi, è libero questo posto?",
+      "correct_answer": "Scusi, è libero questo posto?",
+      "distractors": [],
+      "hints": ["Asking a stranger."],
+      "target_words": ["posto"]
+    },
+    {
+      "id": "unit-11-lesson-10-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Che cosa significa 'scambio'?",
+      "correct_answer": "Che cosa significa 'scambio'?",
+      "distractors": [],
+      "hints": ["Asking what a word means."],
+      "target_words": ["significare", "scambio"]
+    },
+    {
+      "id": "unit-11-lesson-10-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Non guardo quasi mai la televisione.",
+      "correct_answer": "Non guardo quasi mai la televisione.",
+      "distractors": [],
+      "hints": ["Quasi mai."],
+      "target_words": ["quasi"]
+    },
+    {
+      "id": "unit-11-lesson-10-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ogni tanto vado in palestra.",
+      "correct_answer": "Ogni tanto vado in palestra.",
+      "distractors": [],
+      "hints": ["Ogni tanto."],
+      "target_words": ["ogni tanto", "palestra"]
+    },
+    {
+      "id": "unit-11-lesson-10-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Non lo so. Dipende.",
+      "correct_answer": "Non lo so. Dipende.",
+      "distractors": [],
+      "hints": ["Two short answers."],
+      "target_words": ["non lo so", "dipende"]
+    },
+    {
+      "id": "unit-11-lesson-10-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Davvero? Anch'io!",
+      "correct_answer": "Davvero? Anch'io!",
+      "distractors": [],
+      "hints": ["Surprise."],
+      "target_words": ["davvero"]
+    },
+    {
+      "id": "unit-11-lesson-10-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Perché studi l'italiano?",
+      "correct_answer": "Perché studi l'italiano?",
+      "distractors": [],
+      "hints": ["Perché, with the accent."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

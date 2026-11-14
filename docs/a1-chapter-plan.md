@@ -36,7 +36,7 @@ The order in [course.ts](../frontend/src/data/course.ts) follows this table as c
 |---|---|
 | Around Town (written) | *attenzione, cambiare, incontrare, portare, chiesa, posta, francobollo, busta, pacco, indirizzo, parcheggio, polizia, là, senza*, and the location words *davanti, dietro, sopra, sotto, fuori, lontano*. Still to place: *giù, arte, quadro* |
 | Food & the Market (written) | *carne, pesce, verdura, pasta, riso, pomodoro, frutta, menù, piatto, forchetta, coltello, cucchiaio, pepe, aceto, cibo, spaghetti, mercato, metà*, plus *importante* |
-| Getting to Know Someone | *dopo, posto, quasi, significare, strada, domandare, scusare, saluto, telefonare, internet, fumare, sigaretta, falso* |
+| Getting to Know Someone (written) | *dopo, posto, quasi, significare, strada, domandare, saluto, telefonare, internet, fumare, sigaretta, falso*, plus *persona* (*scusare* is covered by *scusa / scusi*) |
 | Describing People & Things | *corto, lungo, largo, stretto, magro, ricco, sporco, felice, triste, intelligente, interessante, biondo, castano, maschio, femmina* |
 | Shopping | *camicia, cappotto, giacca, gonna, vestito, maglietta, maglione, calza* |
 | Getting Around | *aeroporto, fermata, taxi* |

@@ -1,0 +1,25 @@
+{
+  "id": "unit-11-lesson-08",
+  "unit_id": "unit-11",
+  "name": "Answering an Ad",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-11-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Answer Luca's ad. Say who you are, where you're from, what you do and how often you do it, then ask him three questions." },
+      "sentence_context": "",
+      "correct_answer": "Ciao Luca! Mi chiamo Sarah e sono americana, di Boston. Abito a Firenze da un mese e lavoro in una scuola. Nel tempo libero leggo, cucino e ogni tanto vado in palestra. Non fumo e non guardo quasi mai la televisione. E tu? Quando sei libero? Perché studi l'inglese? Dove prendiamo un caffè? Saluti, Sarah",
+      "distractors": [],
+      "hints": ["Who you are, then habits with quasi mai, ogni tanto, non … mai; then three questions with question words."],
+      "target_words": ["quasi", "ogni tanto"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Scambio linguistico: italiano–inglese",
+    "paragraphs": ["Ciao! Mi chiamo Luca e ho ventotto anni. Sono di Bologna, ma adesso abito a Firenze, vicino alla stazione. Faccio l'ingegnere e lavoro in un ufficio in centro.", "Parlo italiano e un po' di spagnolo, ma non parlo bene l'inglese, e per il lavoro ho bisogno dell'inglese. Per questo cerco uno scambio linguistico: un'ora in italiano, un'ora in inglese.", "Studio l'inglese da un anno, con un libro e su internet. Leggo abbastanza bene, ma da solo è difficile: non ho nessuno per parlare, e quando un inglese parla, non capisco quasi niente. Ho bisogno di parlare con una persona, non con un computer!", "Quando non lavoro, leggo, cucino e gioco a calcio con gli amici. Vado in palestra quasi ogni giorno. Non guardo mai la televisione e non fumo.", "Sei inglese o americano? Hai tempo la sera o nel fine settimana? Possiamo prendere un caffè insieme in centro, o parlare su internet se abiti lontano.", "Telefono · 347 812 9056 (solo messaggi, per favore!)"]
+  }
+}

@@ -1,5 +1,6 @@
 import type { ReadingText } from '@/types';
 import { Label } from '@/shared/components/design';
+import { cn } from '@/lib/utils';
 
 // Dialogue lines are written "Name: text". The name can be two or three words, each capitalised
 // ("Signora Bianchi"), so narration like "Emma dice: …" isn't taken for a speaker.
@@ -36,18 +37,19 @@ function toBlocks(paragraphs: string[]): Block[] {
  * The text of a reading lesson. Its width comes from the line length (max-w-prose at the passage
  * size), and it scrolls with the page, so a long text reads like a page.
  */
-export default function ReadingPanel({ text }: { text: ReadingText }) {
+export default function ReadingPanel({ text, compact = false }: { text: ReadingText; compact?: boolean }) {
   return (
-    <article className="panel px-4 py-5 sm:px-10 sm:py-8">
-      <div className="flex max-w-prose flex-col gap-5 text-passage">
+    <article className={cn('panel px-4 py-5', compact ? 'sm:px-7 sm:py-6' : 'sm:px-10 sm:py-8')}>
+      {/* Compact: a text kept beside a writing task, at ordinary reading size */}
+      <div className={cn('flex max-w-prose flex-col', compact ? 'gap-4 text-reading' : 'gap-5 text-passage')}>
         <div className="flex flex-col gap-2">
-          <Label>Read</Label>
+          <Label>{compact ? 'The text' : 'Read'}</Label>
           <h2 className="font-display text-heading">{text.title}</h2>
         </div>
         {toBlocks(text.paragraphs).map((block, i) => {
           if (block.kind === 'list') {
             return (
-              <dl key={i} className="flex w-full flex-col gap-1 sm:w-2/3">
+              <dl key={i} className={cn('flex w-full flex-col gap-1', !compact && 'sm:w-2/3')}>
                 {block.items.map(([item, detail]) => (
                   <div key={item} className="flex items-baseline gap-3">
                     <dt>{item}</dt>

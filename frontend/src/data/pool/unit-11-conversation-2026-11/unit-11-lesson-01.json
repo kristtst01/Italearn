@@ -1,0 +1,278 @@
+{
+  "id": "unit-11-lesson-01",
+  "unit_id": "unit-11",
+  "name": "Question Words",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-11-lesson-01-tip-01",
+      "title": "Italian Question Words",
+      "explanation": "Italian question words are short and stand at the start: dove (where), cosa (what), quando (when), come (how), perché (why), chi (who), quale (which), quanto (how much).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-11-lesson-01-tip-02",
+      "title": "Question Order",
+      "explanation": "Italian doesn't need 'do' like English. 'Dove abiti?' = 'Where do you live?' Just question word + verb + the rest. No 'do', no 'are' to invert.",
+      "before_exercise": 8
+    },
+    {
+      "id": "unit-11-lesson-01-tip-03",
+      "title": "Che vs Cosa vs Che Cosa",
+      "explanation": "'Che?', 'Cosa?' and 'Che cosa?' all mean 'what?'. 'Cosa?' is the most common in everyday speech. 'Che?' is shorter and informal. They are interchangeable.",
+      "before_exercise": 14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-11-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'cosa' mean?" },
+      "sentence_context": "Cosa mangi?",
+      "correct_answer": "What",
+      "distractors": ["When", "Where", "How"],
+      "hints": ["What are you eating?"],
+      "target_words": ["cosa"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'quando' mean?" },
+      "sentence_context": "Quando lavori?",
+      "correct_answer": "When",
+      "distractors": ["Where", "Why", "What"],
+      "hints": ["When do you work?"],
+      "target_words": ["quando"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'perché' mean?" },
+      "sentence_context": "Perché studi italiano?",
+      "correct_answer": "Why",
+      "distractors": ["What", "Where", "Which"],
+      "hints": ["Why do you study Italian?"],
+      "target_words": ["perché"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'come' mean (as a question word)?" },
+      "sentence_context": "Come stai?",
+      "correct_answer": "How",
+      "distractors": ["What", "Why", "When"],
+      "hints": ["How are you?"],
+      "target_words": ["come"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'quale' mean?" },
+      "sentence_context": "Quale libro leggi?",
+      "correct_answer": "Which",
+      "distractors": ["What", "How", "Why"],
+      "hints": ["Which book are you reading?"],
+      "target_words": ["quale"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'che' usually mean in 'Che ora è?'?" },
+      "sentence_context": "Che ora è?",
+      "correct_answer": "What",
+      "distractors": ["Why", "Where", "Which"],
+      "hints": ["What time is it?"],
+      "target_words": ["che"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the question with the missing word." },
+      "sentence_context": "___ abiti?",
+      "correct_answer": "Dove",
+      "distractors": [],
+      "hints": ["Where do you live?"],
+      "target_words": ["dove"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the question with the missing word." },
+      "sentence_context": "___ mangi?",
+      "correct_answer": "Cosa",
+      "distractors": [],
+      "hints": ["What do you eat?"],
+      "target_words": ["cosa"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the question with the missing word." },
+      "sentence_context": "___ studi italiano?",
+      "correct_answer": "Perché",
+      "distractors": [],
+      "hints": ["Why do you study Italian?"],
+      "target_words": ["perché"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the question with the missing word." },
+      "sentence_context": "___ lavori?",
+      "correct_answer": "Quando",
+      "distractors": [],
+      "hints": ["When do you work?"],
+      "target_words": ["quando"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the question with the missing word." },
+      "sentence_context": "___ è il tuo amico?",
+      "correct_answer": "Chi",
+      "distractors": [],
+      "hints": ["Who is your friend?"],
+      "target_words": ["chi"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'what' in Italian?" },
+      "sentence_context": "Cosa mangi?",
+      "correct_answer": "cosa",
+      "distractors": [],
+      "hints": ["The most common form."],
+      "target_words": ["cosa"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'when' in Italian?" },
+      "sentence_context": "Quando parti?",
+      "correct_answer": "quando",
+      "distractors": [],
+      "hints": ["Starts with 'qu'."],
+      "target_words": ["quando"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'why' in Italian?" },
+      "sentence_context": "Perché studi italiano?",
+      "correct_answer": "perché",
+      "distractors": [],
+      "hints": ["Note the accent: perché."],
+      "target_words": ["perché"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'which' in Italian?" },
+      "sentence_context": "Quale libro?",
+      "correct_answer": "quale",
+      "distractors": [],
+      "hints": ["For picking from options."],
+      "target_words": ["quale"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Pick the right question word for 'When are you leaving?'" },
+      "sentence_context": "___ parti?",
+      "correct_answer": "Quando",
+      "distractors": [],
+      "hints": ["'When' = quando."],
+      "target_words": ["quando"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Pick the right question word for 'Why do you sleep?'" },
+      "sentence_context": "___ dormi?",
+      "correct_answer": "Perché",
+      "distractors": [],
+      "hints": ["'Why' = perché."],
+      "target_words": ["perché"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Pick the right question word for 'Which colour is the car?'" },
+      "sentence_context": "___ colore è la macchina?",
+      "correct_answer": "Quale",
+      "distractors": [],
+      "hints": ["'Which' = quale."],
+      "target_words": ["quale"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the question: 'What do you eat?'" },
+      "sentence_context": "Cosa mangi?",
+      "correct_answer": ["Cosa", "mangi?"],
+      "distractors": ["dove", "mangia"],
+      "hints": ["Question word + verb."],
+      "target_words": ["cosa"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the question: 'When do you study?'" },
+      "sentence_context": "Quando studi?",
+      "correct_answer": ["Quando", "studi?"],
+      "distractors": ["dove", "studio"],
+      "hints": ["Question word + verb."],
+      "target_words": ["quando"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the question: 'Where do you live?'" },
+      "sentence_context": "Dove abiti?",
+      "correct_answer": ["Dove", "abiti?"],
+      "distractors": ["quando", "abito"],
+      "hints": ["dove + tu form of abitare."],
+      "target_words": ["dove"]
+    },
+    {
+      "id": "unit-11-lesson-01-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the question: 'Who is Anna?'" },
+      "sentence_context": "Chi è Anna?",
+      "correct_answer": ["Chi", "è", "Anna?"],
+      "distractors": ["come", "sono"],
+      "hints": ["Chi + è + name."],
+      "target_words": ["chi"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "cosa", "meaning": "What", "example": "Cosa mangi?" },
+    { "word": "che", "meaning": "What / which", "example": "Che ora è?" },
+    { "word": "quando", "meaning": "When", "example": "Quando lavori?" },
+    { "word": "perché", "meaning": "Why / because", "example": "Perché studi italiano?" },
+    { "word": "quale", "meaning": "Which", "example": "Quale libro leggi?" },
+    { "word": "come", "meaning": "How", "example": "Come stai?" }
+  ]
+}

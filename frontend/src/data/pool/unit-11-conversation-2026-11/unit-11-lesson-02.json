@@ -1,0 +1,267 @@
+{
+  "id": "unit-11-lesson-02",
+  "unit_id": "unit-11",
+  "name": "Saying No & But",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-11-lesson-02-tip-01",
+      "title": "Non Before the Verb",
+      "explanation": "To make a sentence negative, put 'non' right before the verb: 'Non parlo francese' (I don't speak French), 'Non capisco' (I don't understand). One word does all the work.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-11-lesson-02-tip-02",
+      "title": "Niente & Nessuno",
+      "explanation": "'Niente' (nothing) and 'nessuno' (no one) are used WITH 'non': 'Non mangio niente' (I eat nothing / I'm not eating anything), 'Non c'è nessuno' (No one is here). Italian uses the double negative; it's not wrong.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-11-lesson-02-tip-03",
+      "title": "Ma vs Però",
+      "explanation": "'Ma' and 'però' both mean 'but'. 'Ma' is more common, used at the start of a clause. 'Però' is slightly stronger ('however') and can come at the end: 'Studio italiano, però è difficile' or 'Studio italiano, ma è difficile'.",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-11-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'non' do in 'Non parlo francese'?" },
+      "sentence_context": "Non parlo francese.",
+      "correct_answer": "Makes the sentence negative",
+      "distractors": ["Asks a question", "Adds emphasis", "Means 'never'"],
+      "hints": ["I don't speak French."],
+      "target_words": ["non"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'niente' mean?" },
+      "sentence_context": "Non mangio niente.",
+      "correct_answer": "Nothing",
+      "distractors": ["Everything", "Something", "Nobody"],
+      "hints": ["I eat nothing."],
+      "target_words": ["niente"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'nessuno' mean?" },
+      "sentence_context": "Non c'è nessuno.",
+      "correct_answer": "No one / nobody",
+      "distractors": ["Nothing", "Never", "Someone"],
+      "hints": ["There's no one here."],
+      "target_words": ["nessuno"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ma' mean?" },
+      "sentence_context": "Studio italiano, ma è difficile.",
+      "correct_answer": "But",
+      "distractors": ["And", "Or", "However"],
+      "hints": ["I study Italian, but it's hard."],
+      "target_words": ["ma"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'però' mean?" },
+      "sentence_context": "Mi piace il caffè, però preferisco il tè.",
+      "correct_answer": "However / but",
+      "distractors": ["So", "And", "Or"],
+      "hints": ["A slightly stronger 'but'."],
+      "target_words": ["però"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'o' mean?" },
+      "sentence_context": "Caffè o tè?",
+      "correct_answer": "Or",
+      "distractors": ["And", "But", "Also"],
+      "hints": ["Coffee or tea?"],
+      "target_words": ["o"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ parlo tedesco.",
+      "correct_answer": "non",
+      "distractors": [],
+      "hints": ["I don't speak German."],
+      "target_words": ["non"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Non mangio ___.",
+      "correct_answer": "niente",
+      "distractors": [],
+      "hints": ["I'm not eating anything."],
+      "target_words": ["niente"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Non c'è ___ a casa.",
+      "correct_answer": "nessuno",
+      "distractors": [],
+      "hints": ["There's no one at home."],
+      "target_words": ["nessuno"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Studio italiano, ___ è facile.",
+      "correct_answer": "ma",
+      "distractors": [],
+      "hints": ["I study Italian, but it's easy."],
+      "target_words": ["ma"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Caffè ___ tè?",
+      "correct_answer": "o",
+      "distractors": [],
+      "hints": ["Coffee or tea?"],
+      "target_words": ["o"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'not' in Italian (for making sentences negative)?" },
+      "sentence_context": "Non parlo francese.",
+      "correct_answer": "non",
+      "distractors": [],
+      "hints": ["Comes before the verb."],
+      "target_words": ["non"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'nothing' in Italian?" },
+      "sentence_context": "Non mangio niente.",
+      "correct_answer": "niente",
+      "distractors": [],
+      "hints": ["Used with 'non'."],
+      "target_words": ["niente"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'but' in Italian (most common)?" },
+      "sentence_context": "Mangio, ma non bevo.",
+      "correct_answer": "ma",
+      "distractors": [],
+      "hints": ["Two letters."],
+      "target_words": ["ma"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Make the sentence negative — add 'non' in the right place." },
+      "sentence_context": "Io ___ capisco l'italiano.",
+      "correct_answer": "non",
+      "distractors": [],
+      "hints": ["'Non' goes before the verb."],
+      "target_words": ["non"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'nothing'." },
+      "sentence_context": "Non vedo ___.",
+      "correct_answer": "niente",
+      "distractors": [],
+      "hints": ["I see nothing."],
+      "target_words": ["niente"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'no one'." },
+      "sentence_context": "Non conosco ___ in Italia.",
+      "correct_answer": "nessuno",
+      "distractors": [],
+      "hints": ["I know no one in Italy."],
+      "target_words": ["nessuno"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I don't speak French.'" },
+      "sentence_context": "Non parlo francese.",
+      "correct_answer": ["Non", "parlo", "francese."],
+      "distractors": ["niente", "ma"],
+      "hints": ["'Non' first."],
+      "target_words": ["non"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: \"I'm not eating anything.\"" },
+      "sentence_context": "Non mangio niente.",
+      "correct_answer": ["Non", "mangio", "niente."],
+      "distractors": ["nessuno", "però"],
+      "hints": ["'Non' + verb + 'niente'."],
+      "target_words": ["non", "niente"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I study Italian, but it's hard.'" },
+      "sentence_context": "Studio italiano, ma è difficile.",
+      "correct_answer": ["Studio", "italiano,", "ma", "è", "difficile."],
+      "distractors": ["però", "facile"],
+      "hints": ["Use 'ma' to connect the two clauses."],
+      "target_words": ["ma"]
+    },
+    {
+      "id": "unit-11-lesson-02-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Coffee or tea?'" },
+      "sentence_context": "Caffè o tè?",
+      "correct_answer": ["Caffè", "o", "tè?"],
+      "distractors": ["e", "ma"],
+      "hints": ["'O' = or."],
+      "target_words": ["o"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "non", "meaning": "Not (makes the verb negative)", "example": "Non parlo francese." },
+    { "word": "niente", "meaning": "Nothing", "example": "Non mangio niente." },
+    { "word": "nessuno", "meaning": "No one / nobody", "example": "Non c'è nessuno." },
+    { "word": "ma", "meaning": "But", "example": "Studio italiano, ma è difficile." },
+    { "word": "però", "meaning": "However / but", "example": "Mi piace il caffè, però preferisco il tè." },
+    { "word": "o", "meaning": "Or", "example": "Caffè o tè?" }
+  ]
+}

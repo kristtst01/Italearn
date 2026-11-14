@@ -1,0 +1,21 @@
+{
+  "id": "unit-11-lesson-09",
+  "unit_id": "unit-11",
+  "name": "How Often?",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-11-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "A friend wants to know your week. Write what you always, often, sometimes and never do, and why." },
+      "sentence_context": "",
+      "correct_answer": "Vado sempre al lavoro in bici, perché non ho la macchina. Vado spesso in palestra dopo il lavoro. Ogni tanto la sera vado al cinema con gli amici. Non guardo mai la televisione e non fumo. E tu?",
+      "distractors": [],
+      "hints": ["Sempre, spesso, ogni tanto, non … mai; perché for a reason."],
+      "target_words": ["ogni tanto", "dopo"]
+    }
+  ],
+  "vocabulary": []
+}
