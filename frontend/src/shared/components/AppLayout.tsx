@@ -1,9 +1,12 @@
-import type { ComponentType, SVGProps } from 'react';
-import { Link, NavLink, Outlet } from 'react-router-dom';
+import { useEffect, type ComponentType, type SVGProps } from 'react';
+import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { BookOpen, ChartNoAxesColumn, Flame, House, UserRound } from 'lucide-react';
 import { useProgressStore } from '@/stores/progressStore';
 import { cn } from '@/lib/utils';
 import { Logo } from './design';
+import { useFeedbackStore } from '@/stores/feedbackStore';
+import { FeedbackButton } from '@/features/feedback/FeedbackPanel';
+import { useFeedbackContext } from '@/features/feedback/useFeedbackContext';
 
 /** The majolica tile as a line icon: grammar's symbol across the app. */
 function TileIcon(props: SVGProps<SVGSVGElement>) {
@@ -73,8 +76,22 @@ function BottomNav() {
   );
 }
 
+/** A dot on Profile: new notes in the admin inbox, or news on the learner's own feedback. */
+function useProfileDot(): string | null {
+  const summary = useFeedbackStore((s) => s.summary);
+  if (!summary) return null;
+  if (summary.inbox_new) return `${summary.inbox_new} new in your feedback inbox`;
+  if (summary.unread_updates) return 'News on your feedback';
+  return null;
+}
+
+function Dot({ title, className }: { title: string; className?: string }) {
+  return <span title={title} aria-label={title} className={cn('block size-2 rounded-full bg-vermiglione', className)} />;
+}
+
 function TopBar() {
   const streak = useProgressStore((s) => s.streak);
+  const dot = useProfileDot();
   return (
     <header className="sticky top-0 z-40 h-13 shrink-0 border-b border-border bg-white sm:h-14 lg:h-16">
       <div className="mx-auto flex h-full max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:gap-12 lg:px-14">
@@ -95,16 +112,19 @@ function TopBar() {
               {streak.toLocaleString('en-GB')}
             </span>
           )}
-          <Link to="/profile" className="font-medium text-muted-foreground hover:text-foreground max-lg:hidden">
+          <FeedbackButton variant="bar" />
+          <Link to="/profile" className="flex items-center gap-1.5 font-medium text-muted-foreground hover:text-foreground max-lg:hidden">
             Profile
+            {dot && <Dot title={dot} />}
           </Link>
           <Link
             to="/profile"
-            aria-label="Profile"
+            aria-label={dot ? `Profile: ${dot}` : 'Profile'}
             className="-mr-2 flex size-11 items-center justify-center rounded-full lg:hidden"
           >
-            <span className="flex size-8 items-center justify-center rounded-full bg-cobalto text-white">
+            <span className="relative flex size-8 items-center justify-center rounded-full bg-cobalto text-white">
               <UserRound className="size-4.5" aria-hidden />
+              {dot && <Dot title={dot} className="absolute -top-0.5 -right-0.5 size-2.5 border-2 border-white" />}
             </span>
           </Link>
         </div>
@@ -114,6 +134,15 @@ function TopBar() {
 }
 
 export default function AppLayout() {
+  const refreshSummary = useFeedbackStore((s) => s.refreshSummary);
+  const { pathname } = useLocation();
+  // Pages without their own feedback context are named by their section
+  useFeedbackContext(null);
+  // Check for news when moving between sections (cheap: two counts)
+  useEffect(() => {
+    refreshSummary();
+  }, [pathname, refreshSummary]);
+
   return (
     <div className="flex min-h-dvh flex-col max-sm:pb-[calc(3.75rem+env(safe-area-inset-bottom))]">
       <TopBar />

@@ -16,9 +16,12 @@ import ProgressPage from '@/features/progress/ProgressPage'
 import ExerciseGallery from '@/features/dev/ExerciseGallery'
 import LessonPage from '@/features/lesson/LessonPage'
 import ReviewPage from '@/features/review/ReviewPage'
-import ProfilePage from '@/features/profile/ProfilePage'
+import ProfilePage, { AccountTab } from '@/features/profile/ProfilePage'
+import YourFeedback from '@/features/feedback/YourFeedback'
+import Inbox from '@/features/feedback/Inbox'
 import WordBankPage from '@/features/words/WordBankPage'
 import LoginPage from '@/features/auth/LoginPage'
+import FeedbackPanel from '@/features/feedback/FeedbackPanel'
 
 const CLERK_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
@@ -45,6 +48,7 @@ export default function App() {
         <SignedIn>
           <HydrationGuard>
             <Toaster position="top-center" richColors />
+            <FeedbackPanel />
             <Routes>
               {/* Pages with the top bar */}
               <Route element={<AppLayout />}>
@@ -57,7 +61,11 @@ export default function App() {
                 <Route path="/grammar" element={<GrammarPage />} />
                 <Route path="/grammar/:grammarId" element={<GrammarUnitPage />} />
                 <Route path="/progress" element={<ProgressPage />} />
-                <Route path="/profile" element={<ProfilePage />} />
+                <Route path="/profile" element={<ProfilePage />}>
+                  <Route index element={<AccountTab />} />
+                  <Route path="feedback" element={<YourFeedback />} />
+                  <Route path="inbox" element={<Inbox />} />
+                </Route>
                 {import.meta.env.DEV && <Route path="/dev/exercises" element={<ExerciseGallery />} />}
               </Route>
 

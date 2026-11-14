@@ -10,6 +10,7 @@ import renderExercise from '@/features/exercises/renderExercise';
 import { useReviewSession } from './useReviewSession';
 import ReviewIntro from './ReviewIntro';
 import ReviewSummary from './ReviewSummary';
+import { useFeedbackContext } from '@/features/feedback/useFeedbackContext';
 
 export default function ReviewPage() {
   const goBack = useGoBack('/');
@@ -27,6 +28,16 @@ export default function ReviewPage() {
     handleStart,
     handleExerciseComplete,
   } = useReviewSession(unitId);
+
+  useFeedbackContext({
+    kind: 'review',
+    label: currentExercise && !result ? `Review · card ${currentIndex + 1}` : 'Review',
+    path: '/review',
+    exercise_id: currentExercise && !result ? currentExercise.id : undefined,
+    exercise_number: currentExercise && !result ? currentIndex + 1 : undefined,
+    exercise_total: totalExercises || undefined,
+    exercise: currentExercise && !result ? currentExercise : undefined,
+  });
 
   // Unit reviews start immediately — user explicitly chose to practice
   const autoStarted = useRef(false);

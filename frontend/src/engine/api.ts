@@ -1,3 +1,4 @@
+import type { AdminFeedback, FeedbackCategory, FeedbackContext, FeedbackStatus, FeedbackSummary, LearnerFeedbackCategory, MyFeedback } from '@/types';
 const API_BASE = import.meta.env.VITE_API_URL ?? 'http://localhost:8000';
 
 let _getToken: (() => Promise<string | null>) | null = null;
@@ -29,6 +30,7 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
     throw new Error(`API ${res.status}: ${body}`);
   }
 
+  if (res.status === 204) return undefined as T;
   return res.json();
 }
 
@@ -158,4 +160,55 @@ export async function transcribeAudio(audio: Blob, expectedText?: string): Promi
   }
 
   return res.json();
+}
+
+// --- Feedback ---
+
+export function sendFeedback(data: {
+  text: string;
+  quote?: string | null;
+  context: Partial<FeedbackContext>;
+  categories?: LearnerFeedbackCategory[];
+}) {
+  return request<MyFeedback>('/api/v1/feedback', { method: 'POST', body: JSON.stringify(data) });
+}
+
+export function getMyFeedback() {
+  return request<MyFeedback[]>('/api/v1/feedback/mine');
+}
+
+export function markMyFeedbackRead() {
+  return request<void>('/api/v1/feedback/mine/read', { method: 'POST' });
+}
+
+/** Removes a note from the learner's list (the team keeps it). */
+export function removeMyFeedback(id: string) {
+  return request<void>(`/api/v1/feedback/mine/${id}`, { method: 'DELETE' });
+}
+
+export function getFeedbackSummary() {
+  return request<FeedbackSummary>('/api/v1/feedback/summary');
+}
+
+export function getInbox() {
+  return request<AdminFeedback[]>('/api/v1/admin/feedback');
+}
+
+export function markInboxSeen() {
+  return request<void>('/api/v1/admin/feedback/mark-seen', { method: 'POST' });
+}
+
+export function updateFeedback(
+  id: string,
+  data: { status?: FeedbackStatus; categories?: FeedbackCategory[]; pressing?: boolean; reply?: string },
+) {
+  return request<AdminFeedback>(`/api/v1/admin/feedback/${id}`, { method: 'PATCH', body: JSON.stringify(data) });
+}
+
+export function draftFeedbackReply(id: string) {
+  return request<{ reply: string }>(`/api/v1/admin/feedback/${id}/draft-reply`, { method: 'POST' });
+}
+
+export function retriageFeedback(id: string) {
+  return request<AdminFeedback>(`/api/v1/admin/feedback/${id}/retriage`, { method: 'POST' });
 }
