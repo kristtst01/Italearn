@@ -3,7 +3,7 @@ import type { Exercise, ExerciseResult } from '@/types';
 import { useLLMValidation } from '@/engine/useLLMValidation';
 import { cn } from '@/lib/utils';
 import ExerciseShell from './ExerciseShell';
-import { Prompt, TextField } from './ui';
+import { AccentKeys, Prompt, TextField } from './ui';
 
 interface DialogueCompletionProps {
   exercise: Exercise;
@@ -54,6 +54,7 @@ export default function DialogueCompletion({ exercise, onComplete }: DialogueCom
               );
             })}
           </div>
+          {!submitted && <AccentKeys className="-mt-4 self-end" />}
         </>
       )}
     </ExerciseShell>

@@ -124,7 +124,7 @@ data/italian-frequency-50k.txt  # Italian word frequency list (reference for voc
 Local validation ignores punctuation and case, treats spelling variants as equal (buongiorno / buon giorno), and allows a typo in one word. Verdicts come from the cache, so clear `verdict_cache` after changing the prompt in `llm.py`.
 
 ## Exercise Subtypes
-Implemented: `multiple_choice`, `type_answer`, `arrange_words`, `fill_blank`, `cloze`, `match_pairs`, `read_aloud`, `free_form`, `dialogue_completion` ("Your line", `DialogueCompletion`: one turn of an exchange, judged by the AI check), `transformation` and `find_mistake` (both `RewriteSentence`; `correct_answer` lists every accepted sentence, model answer first). `strict_accents: true` makes a missing accent wrong (for è/e and similar).
+Implemented: `multiple_choice`, `type_answer`, `arrange_words`, `fill_blank`, `cloze`, `match_pairs`, `read_aloud`, `free_form`, `dialogue_completion` ("Your line", `DialogueCompletion`: one turn of an exchange, judged by the AI check), `transformation` and `find_mistake` (both `RewriteSentence`; `correct_answer` lists every accepted sentence, model answer first). `strict_accents: true` makes a missing accent wrong: use it only where the accent changes the word (è/e, dà/da) or is what the exercise tests; elsewhere a missing accent is accepted with a reminder (typing accents is awkward on a laptop).
 Planned (render as a "coming soon" card via `PlannedExerciseCard`, described in `exercises/plannedExercises.ts`): `structured_input`, `translation`, `dictation`, `minimal_pair`, `listen_and_choose`, `listen_and_repeat`, `spoken_answer`. `reading_comprehension` is superseded by comprehension lesson kinds.
 
 ## Known Issues

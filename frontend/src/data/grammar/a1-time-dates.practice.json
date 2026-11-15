@@ -150,8 +150,7 @@
           "target_words": [],
           "grammar_points": [
             "days"
-          ],
-          "strict_accents": true
+          ]
         },
         {
           "id": "a1-time-dates-p-07",
@@ -171,8 +170,7 @@
           "target_words": [],
           "grammar_points": [
             "days"
-          ],
-          "strict_accents": true
+          ]
         },
         {
           "id": "a1-time-dates-p-08",
@@ -620,8 +618,7 @@
           "target_words": [],
           "grammar_points": [
             "time"
-          ],
-          "strict_accents": true
+          ]
         },
         {
           "id": "a1-time-dates-p-30",
@@ -751,8 +748,7 @@
           "target_words": [],
           "grammar_points": [
             "time"
-          ],
-          "strict_accents": true
+          ]
         },
         {
           "id": "a1-time-dates-p-37",
@@ -836,8 +832,7 @@
         "target_words": [],
         "grammar_points": [
           "days"
-        ],
-        "strict_accents": true
+        ]
       },
       {
         "id": "a1-time-dates-m-03",
@@ -957,8 +952,7 @@
         "target_words": [],
         "grammar_points": [
           "time"
-        ],
-        "strict_accents": true
+        ]
       },
       {
         "id": "a1-time-dates-m-09",
@@ -1036,8 +1030,7 @@
         "target_words": [],
         "grammar_points": [
           "time"
-        ],
-        "strict_accents": true
+        ]
       },
       {
         "id": "a1-time-dates-m-13",

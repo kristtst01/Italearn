@@ -153,8 +153,7 @@
           "target_words": [],
           "grammar_points": [
             "question-words"
-          ],
-          "strict_accents": true
+          ]
         },
         {
           "id": "a1-questions-negation-p-07",
@@ -493,8 +492,7 @@
           "target_words": [],
           "grammar_points": [
             "double-neg"
-          ],
-          "strict_accents": true
+          ]
         },
         {
           "id": "a1-questions-negation-p-24",
@@ -791,8 +789,7 @@
           "target_words": [],
           "grammar_points": [
             "linking"
-          ],
-          "strict_accents": true
+          ]
         },
         {
           "id": "a1-questions-negation-p-39",
@@ -1033,8 +1030,7 @@
         "target_words": [],
         "grammar_points": [
           "question-words"
-        ],
-        "strict_accents": true
+        ]
       },
       {
         "id": "a1-questions-negation-m-07",

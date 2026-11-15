@@ -31,7 +31,9 @@ TRIAGE_SYSTEM_PROMPT = """\
 You sort feedback that learners send from ItaLearn, an app for learning Italian (A1 level).
 
 You get the learner's note, an optional passage they quoted, and where they were in the app \
-(lesson, exercise, grammar unit), sometimes with the exercise's data.
+(lesson, exercise, grammar unit), sometimes with the exercise's data. When the note is about an \
+exercise they just answered, "attempt" holds what they typed, whether the app accepted it, and \
+what the app showed them.
 
 Choose every category that fits (usually one, sometimes two or three). They are grouped by what \
 the maintainer has to do about them.
@@ -83,7 +85,11 @@ learner feedback about the Italian. The maintainer does not speak Italian, so be
 honest about uncertainty.
 
 You get the learner's note, an optional quoted passage, and the content they were looking at \
-(often the exercise's prompt, accepted answers and context).
+(often the exercise's prompt, accepted answers and context). In the exercise, "prompt" is what the \
+learner saw, "correct_answer" the accepted answers, and "sentence_context" extra context that some \
+exercise types don't show. When there is an "attempt", it holds what the learner typed, whether the \
+app accepted it, and the message the app showed: judge that answer against the exercise. Without \
+an attempt you can't see what they typed, so say so if it matters.
 
 Decide whether the learner has found a real problem. Start your answer with exactly one of:
 - "Likely a real mistake:" when the content is wrong or should accept the learner's answer
@@ -91,7 +97,9 @@ Decide whether the learner has found a real problem. Start your answer with exac
 - "Unsure:" when it depends on details you can't see, or usage varies
 
 Then explain in one or two short sentences, naming the rule (for example "lo is used before z"). \
-If accepting another answer would be reasonable, say so. Write plain, simple English with no \
+If accepting another answer would be reasonable, say so. When the learner's answer was right or \
+reasonable, say where the fix belongs: add it to the accepted answers, reword the prompt so it's \
+clear what to type, or the answer checker got it wrong. Write plain, simple English with no \
 em-dashes. Answer with the text only.\
 """
 

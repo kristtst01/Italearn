@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { getFeedbackSummary } from '@/engine/api';
-import type { FeedbackContext, FeedbackSummary, LearnerFeedbackCategory } from '@/types';
+import type { FeedbackAttempt, FeedbackContext, FeedbackSummary, LearnerFeedbackCategory } from '@/types';
 
 /**
  * The feedback panel. Pages register where the learner is (useFeedbackContext); opening the
@@ -9,6 +9,8 @@ import type { FeedbackContext, FeedbackSummary, LearnerFeedbackCategory } from '
 interface FeedbackState {
   /** Where the learner is now, set by the page that's open */
   pageContext: FeedbackContext | null;
+  /** The last checked answer; attached when the note is about that same exercise */
+  lastAttempt: FeedbackAttempt | null;
   open: boolean;
   /** The place attached to the note being written (null once removed) */
   attached: FeedbackContext | null;
@@ -20,6 +22,7 @@ interface FeedbackState {
   summary: FeedbackSummary | null;
 
   setPageContext: (ctx: FeedbackContext | null) => void;
+  setLastAttempt: (attempt: FeedbackAttempt | null) => void;
   openPanel: () => void;
   closePanel: () => void;
   removeAttached: () => void;
@@ -34,6 +37,7 @@ interface FeedbackState {
 
 export const useFeedbackStore = create<FeedbackState>((set, get) => ({
   pageContext: null,
+  lastAttempt: null,
   open: false,
   attached: null,
   quote: null,
@@ -43,14 +47,18 @@ export const useFeedbackStore = create<FeedbackState>((set, get) => ({
   summary: null,
 
   setPageContext: (ctx) => set({ pageContext: ctx }),
+  setLastAttempt: (attempt) => set({ lastAttempt: attempt }),
   openPanel: () => {
-    const { pageContext } = get();
+    const { pageContext, lastAttempt } = get();
     const path = window.location.pathname;
+    // What the learner typed matters most for "my answer was marked wrong": attach it when the
+    // exercise on screen is the one they just answered
+    const attempt =
+      pageContext?.exercise_id && lastAttempt?.exercise_id === pageContext.exercise_id ? lastAttempt : undefined;
     set({
       open: true,
       selecting: false,
-      // Keep a note in progress (and its quote) if the panel is reopened on the same page
-      attached: pageContext ?? { kind: 'page', label: pageLabel(path), path },
+      attached: pageContext ? { ...pageContext, attempt } : { kind: 'page', label: pageLabel(path), path },
     });
   },
   closePanel: () => set({ open: false, selecting: false }),

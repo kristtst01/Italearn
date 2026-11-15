@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { getCorrectAnswer } from '@/shared/utils/exercise';
+import { useFeedbackStore } from '@/stores/feedbackStore';
 import Feedback from './Feedback';
 import { ActionButton, ActionRow } from './ui';
 
@@ -40,6 +41,14 @@ export default function ExerciseShell({
   }, []);
 
   const correctAnswer = getCorrectAnswer(exercise);
+
+  // Once checked (and after any AI check has settled), keep the attempt for the feedback panel,
+  // so a note like "my answer was marked wrong" carries what was typed and what the app said
+  const setLastAttempt = useFeedbackStore((s) => s.setLastAttempt);
+  useEffect(() => {
+    if (!submitted) return;
+    setLastAttempt({ exercise_id: exercise.id, answer: userAnswer, accepted: isCorrect, feedback: feedback || undefined });
+  }, [submitted, exercise.id, userAnswer, isCorrect, feedback, setLastAttempt]);
 
   async function handleSubmit() {
     if (onBeforeSubmit) {

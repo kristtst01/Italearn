@@ -45,6 +45,7 @@ export type {
 
 export type {
   AdminFeedback,
+  FeedbackAttempt,
   FeedbackCategory,
   FeedbackContext,
   FeedbackStatus,

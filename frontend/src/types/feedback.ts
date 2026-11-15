@@ -17,6 +17,17 @@ export interface FeedbackContext {
   exercise?: Exercise;
   /** The heading a quoted passage sits under */
   heading?: string;
+  /** The learner's last checked answer to this exercise, and what the app said */
+  attempt?: FeedbackAttempt;
+}
+
+/** A checked answer, kept so feedback about it shows what was typed and how it was judged */
+export interface FeedbackAttempt {
+  exercise_id: string;
+  answer: string;
+  accepted: boolean;
+  /** What the app showed under the answer (accent reminder, typo hint, AI check's reason) */
+  feedback?: string;
 }
 
 export type FeedbackCategory =

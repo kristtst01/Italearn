@@ -2,7 +2,7 @@ import { useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { useLLMValidation } from '@/engine/useLLMValidation';
 import ExerciseShell from './ExerciseShell';
-import { Prompt, TextField } from './ui';
+import { AccentKeys, Prompt, TextField } from './ui';
 
 interface RewriteSentenceProps {
   exercise: Exercise;
@@ -45,6 +45,7 @@ export default function RewriteSentence({ exercise, onComplete }: RewriteSentenc
         autoFocus
         onFocus={(e) => fixing && e.target.setSelectionRange(e.target.value.length, e.target.value.length)}
       />
+      <AccentKeys className="-mt-4" />
     </ExerciseShell>
   );
 }

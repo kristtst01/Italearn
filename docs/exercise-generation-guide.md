@@ -224,7 +224,7 @@ Every exercise has the same shape regardless of subtype:
   ],
   "target_words": ["sono"],            // Vocabulary entries this exercise practises (for SRS card creation)
   "grammar_points": ["essere-forms"],  // Grammar unit practice only: keys of the unit's "points"
-  "strict_accents": true,              // OPTIONAL: a missing accent is wrong (è/e, sì/si, ventitré), not just a reminder
+  "strict_accents": true,              // OPTIONAL: a missing accent is wrong, not just a reminder. Only where the accent changes the word (è/e, dà/da) or the exercise is about the accent (fix "ventitre"). Plain spelling accents (sì, perché, ventitré, mercoledì) stay lenient: right, with a reminder
   "dialogue": [                        // dialogue_completion only: the exchange; the line without "text" is the learner's
     { "speaker": "Luca", "text": "Di dove sei?" },
     { "speaker": "You" }
@@ -534,7 +534,7 @@ Run through this for every generated lesson before committing:
 - [ ] One vocabulary entry per word, each with its own example; every new word is used in an exercise
 - [ ] Hints explain the point without giving the answer away (fill-in-the-blank shows its first hint up front)
 - [ ] No em-dashes, capitals for emphasis or overclaims in anything the learner reads
-- [ ] Accents are correct, and `strict_accents` is set where the accent is the point
+- [ ] Accents are correct, and `strict_accents` is set only where the accent changes the word or is what the exercise tests
 - [ ] Grammar readings: rules checked against a source, tendencies marked as tendencies, exceptions named
 
 ## Workflow for AI Agents

@@ -3,7 +3,7 @@ import type { Exercise, ExerciseResult } from '@/types';
 import { useLLMValidation } from '@/engine/useLLMValidation';
 import HighlightedText from '@/shared/components/HighlightedText';
 import ExerciseShell from './ExerciseShell';
-import { Prompt } from './ui';
+import { AccentKeys, Prompt } from './ui';
 
 interface FillInBlankProps {
   exercise: Exercise;
@@ -60,6 +60,7 @@ export default function FillInBlank({
         </span>
         {parts[1]}
       </p>
+      <AccentKeys className="-mt-4" />
     </ExerciseShell>
   );
 }

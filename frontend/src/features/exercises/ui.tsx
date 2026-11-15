@@ -138,6 +138,61 @@ export function TextField({ className, ...props }: InputHTMLAttributes<HTMLInput
   );
 }
 
+const ACCENTS = ['à', 'è', 'é', 'ì', 'ò', 'ù', 'È'];
+
+// The text field the learner last typed in, so a click on an accent knows where it goes
+let lastField: HTMLInputElement | HTMLTextAreaElement | null = null;
+if (typeof document !== 'undefined') {
+  document.addEventListener('focusin', (e) => {
+    const t = e.target;
+    if (t instanceof HTMLTextAreaElement || (t instanceof HTMLInputElement && t.type === 'text')) lastField = t;
+  });
+}
+
+/** Writes text at the cursor of a React-controlled field (setting .value directly skips onChange). */
+function insertAtCursor(field: HTMLInputElement | HTMLTextAreaElement, text: string) {
+  const start = field.selectionStart ?? field.value.length;
+  const end = field.selectionEnd ?? start;
+  const next = field.value.slice(0, start) + text + field.value.slice(end);
+  const proto = field instanceof HTMLTextAreaElement ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype;
+  Object.getOwnPropertyDescriptor(proto, 'value')?.set?.call(field, next);
+  field.dispatchEvent(new Event('input', { bubbles: true }));
+  field.focus();
+  field.setSelectionRange(start + text.length, start + text.length);
+}
+
+/**
+ * Buttons for the accented letters, under any typing field: most keyboards outside Italy have no
+ * easy way to type them. Clicking keeps the cursor in the field.
+ */
+export function AccentKeys({ className }: { className?: string }) {
+  return (
+    <div className={cn('flex flex-wrap items-center gap-1.5', className)}>
+      {ACCENTS.map((a) => (
+        <button
+          key={a}
+          type="button"
+          tabIndex={-1}
+          aria-label={`Type ${a}`}
+          // mousedown, so the field keeps focus and its cursor position
+          onMouseDown={(e) => e.preventDefault()}
+          onClick={() => {
+            const active = document.activeElement;
+            const field =
+              active instanceof HTMLTextAreaElement || (active instanceof HTMLInputElement && active.type === 'text')
+                ? active
+                : lastField?.isConnected ? lastField : null;
+            if (field && !field.disabled) insertAtCursor(field, a);
+          }}
+          className="flex size-9 items-center justify-center rounded-md border border-border bg-white text-base font-semibold hover:border-muted-foreground/40"
+        >
+          {a}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 /** A word chip (arrange words). */
 export function Chip({ active, className, ...props }: ButtonHTMLAttributes<HTMLButtonElement> & { active?: boolean }) {
   return (

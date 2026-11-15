@@ -124,8 +124,7 @@
       "correct_answer": "sì",
       "distractors": [],
       "hints": ["Don't forget the accent: without it, 'si' is a different word."],
-      "target_words": ["sì"],
-      "strict_accents": true
+      "target_words": ["sì"]
     },
     {
       "id": "unit-01-lesson-04-ex-11",
@@ -142,11 +141,11 @@
       "id": "unit-01-lesson-04-ex-12",
       "type": "vocab",
       "subtype": "type_answer",
-      "prompt": { "text": "You want to know the Italian word for 'dog'. Start your question: 'How do you say...?'" },
+      "prompt": { "text": "You want to know the Italian word for 'dog'. Ask: 'How do you say dog in Italian?'" },
       "sentence_context": "Come si dice 'dog' in italiano?",
-      "correct_answer": "come si dice",
+      "correct_answer": ["Come si dice 'dog' in italiano?", "Come si dice 'dog'?"],
       "distractors": [],
-      "hints": ["Three words: how + one + says."],
+      "hints": ["Come si dice, then the English word, then in italiano."],
       "target_words": ["come si dice"]
     },
     {

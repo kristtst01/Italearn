@@ -163,6 +163,18 @@ function Card({
           </span>
         )}
       </div>
+      {f.context.attempt && (
+        <div className="flex flex-col gap-0.5 rounded-lg border border-border bg-background px-3 py-2 text-sm leading-snug">
+          <span>
+            <Label className="mr-2">They answered</Label>
+            <span className="font-semibold">{f.context.attempt.answer || '(nothing)'}</span>
+            <span className={cn('ml-2 font-bold', f.context.attempt.accepted ? 'text-learned' : 'text-correction')}>
+              {f.context.attempt.accepted ? 'accepted' : 'marked wrong'}
+            </span>
+          </span>
+          {f.context.attempt.feedback && <span className="text-muted-foreground">The app said: {f.context.attempt.feedback}</span>}
+        </div>
+      )}
       <CategoryTags f={f} disabled={busy !== null} onSave={(categories) => save({ categories }, 'categories')} />
       {f.quote && <Quote text={f.quote} />}
       <p className="text-[0.9375rem] leading-normal whitespace-pre-line">{f.text}</p>

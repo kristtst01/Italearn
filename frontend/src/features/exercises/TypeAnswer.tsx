@@ -2,7 +2,7 @@ import { useState } from 'react';
 import type { Exercise, ExerciseResult } from '@/types';
 import { useLLMValidation } from '@/engine/useLLMValidation';
 import ExerciseShell from './ExerciseShell';
-import { ExercisePrompt, TextField } from './ui';
+import { AccentKeys, ExercisePrompt, TextField } from './ui';
 
 interface TypeAnswerProps {
   exercise: Exercise;
@@ -39,6 +39,7 @@ export default function TypeAnswer({
         placeholder="Type your answer…"
         autoFocus
       />
+      <AccentKeys className="-mt-4" />
     </ExerciseShell>
   );
 }

@@ -3,9 +3,10 @@ import type { Exercise, ExerciseResult } from '@/types';
 import { gradeFreeResponse } from '@/engine/api';
 import { buildCurriculumContext } from '@/engine/curriculumContext';
 import { useProgressStore } from '@/stores/progressStore';
+import { useFeedbackStore } from '@/stores/feedbackStore';
 import { getFirstCorrectAnswer } from '@/shared/utils/exercise';
 import HighlightedText from '@/shared/components/HighlightedText';
-import { ActionButton, ActionRow, FeedbackCard, Prompt } from './ui';
+import { AccentKeys, ActionButton, ActionRow, FeedbackCard, Prompt } from './ui';
 
 interface FreeResponseProps {
   exercise: Exercise;
@@ -22,6 +23,7 @@ export default function FreeResponse({ exercise, onComplete }: FreeResponseProps
   const [error, setError] = useState(false);
   const startTime = useRef(Date.now());
   const lessonsCompleted = useProgressStore((s) => s.lessons_completed);
+  const setLastAttempt = useFeedbackStore((s) => s.setLastAttempt);
 
   const charsLeft = MAX_CHARS - answer.length;
   const canSubmit = answer.trim().length > 0 && charsLeft >= 0 && !grading;
@@ -39,6 +41,7 @@ export default function FreeResponse({ exercise, onComplete }: FreeResponseProps
         curriculum_context: buildCurriculumContext(lessonsCompleted),
       });
       setResult(gradeResult);
+      setLastAttempt({ exercise_id: exercise.id, answer, accepted: gradeResult.accepted, feedback: gradeResult.feedback });
     } catch {
       setError(true);
       // On API failure, accept the answer — don't block progress
@@ -47,7 +50,7 @@ export default function FreeResponse({ exercise, onComplete }: FreeResponseProps
 
     setGrading(false);
     setSubmitted(true);
-  }, [canSubmit, answer, exercise, lessonsCompleted]);
+  }, [canSubmit, answer, exercise, lessonsCompleted, setLastAttempt]);
 
   function handleContinue() {
     onComplete({
@@ -101,6 +104,7 @@ export default function FreeResponse({ exercise, onComplete }: FreeResponseProps
           disabled={submitted}
           className="w-full resize-none rounded-lg border-2 border-border bg-white px-4.5 py-3.5 text-reading outline-none transition-colors focus:border-cobalto disabled:text-muted-foreground"
         />
+        {!submitted && <AccentKeys />}
         <div className="flex justify-between text-xs text-muted-foreground">
           <span className="max-sm:invisible pointer-coarse:invisible">Ctrl+Enter to submit</span>
           <span className={charsLeft < 100 ? 'text-correction' : ''}>{charsLeft.toLocaleString()} characters left</span>
