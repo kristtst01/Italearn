@@ -67,7 +67,7 @@ export const useSrsStore = create<SRSState>()((set, get) => ({
       const rawCards = await api.getSrsCards() as Record<string, unknown>[];
       const allCards = rawCards.map(mapApiCard);
       const now = new Date();
-      const dueCards = allCards.filter((c) => new Date(c.due) <= now);
+      const dueCards = srs.selectDueCards(allCards, now);
       const reviewableCount = countReviewable(dueCards);
       const unitMastery = computeUnitMastery(allCards);
       set({ allCards, dueCards, reviewableCount, unitMastery, hydrated: true });
@@ -79,6 +79,7 @@ export const useSrsStore = create<SRSState>()((set, get) => ({
 
   async addCards(cards) {
     const now = new Date();
+    const fresh = srs.newCardFor(now);
     const toCreate = [];
 
     for (const { wordId, skillType } of cards) {
@@ -91,8 +92,8 @@ export const useSrsStore = create<SRSState>()((set, get) => ({
       toCreate.push({
         word_id: wordId,
         skill_type: skillType,
-        due: now.toISOString(),
-        card_data: srs.createEmptyCardData(now),
+        due: fresh.due.toISOString(),
+        card_data: fresh.cardData,
         review_log: [],
       });
     }
@@ -102,7 +103,7 @@ export const useSrsStore = create<SRSState>()((set, get) => ({
         const created = (await api.createSrsCards(toCreate)) as Record<string, unknown>[];
         const newCards = created.map(mapApiCard);
         const allCards = [...get().allCards, ...newCards];
-        const dueCards = allCards.filter((c) => new Date(c.due) <= now);
+        const dueCards = srs.selectDueCards(allCards, now);
         set({
           allCards,
           dueCards,
@@ -128,7 +129,7 @@ export const useSrsStore = create<SRSState>()((set, get) => ({
     // Update local state immediately
     const allCards = get().allCards.map((c) => (c.id === cardId ? updated : c));
     const now = new Date();
-    const dueCards = allCards.filter((c) => new Date(c.due) <= now);
+    const dueCards = srs.selectDueCards(allCards, now);
     set({
       allCards,
       dueCards,
@@ -147,7 +148,7 @@ export const useSrsStore = create<SRSState>()((set, get) => ({
   async refreshDueCards() {
     const allCards = get().allCards;
     const now = new Date();
-    const dueCards = allCards.filter((c) => new Date(c.due) <= now);
+    const dueCards = srs.selectDueCards(allCards, now);
     set({
       dueCards,
       reviewableCount: countReviewable(dueCards),
