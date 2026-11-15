@@ -26,8 +26,8 @@ Category = Literal[
     "other",
     "noise",
 ]
-Status = Literal["new", "seen", "in_progress", "fixed", "wont_fix"]
-LearnerStatus = Literal["received", "in_progress", "fixed", "wont_fix"]
+Status = Literal["new", "seen", "in_progress", "will_fix", "fixed", "wont_fix"]
+LearnerStatus = Literal["received", "in_progress", "will_fix", "fixed", "wont_fix"]
 # What a learner can pick when sending. The other categories are finer sorting by the AI
 # (and the admin); noise is only ever the AI's call.
 LearnerCategory = Literal[
@@ -36,7 +36,7 @@ LearnerCategory = Literal[
 
 
 def learner_status(status: str) -> LearnerStatus:
-    """Learners see four statuses; 'new' and 'seen' are both just 'received' to them."""
+    """Learners see five statuses; 'new' and 'seen' are both just 'received' to them."""
     return "received" if status in ("new", "seen") else status  # type: ignore[return-value]
 
 

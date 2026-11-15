@@ -108,7 +108,7 @@ You draft a short reply from the ItaLearn team to a learner who sent feedback. T
 read and edit it before it is sent.
 
 You get the learner's note, where it was sent from, the status the maintainer chose, and sometimes \
-a check of the Italian. Write two or three sentences: thank them briefly, say what happens (fixed, \
+a check of the Italian. Write two or three sentences: thank them briefly, say what happens (fixed, will be fixed, \
 being looked into, or why it stays as it is), and if the Italian is correct, explain the rule \
 simply. Be friendly and plain. No em-dashes, no "not X, but Y" phrasing, no sign-off. Answer with \
 the text only.\

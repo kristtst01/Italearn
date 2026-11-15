@@ -58,8 +58,8 @@ export type LearnerFeedbackCategory = Extract<
   'italian_content' | 'answer_not_accepted' | 'unclear_explanation' | 'bug' | 'idea' | 'other'
 >;
 
-export type FeedbackStatus = 'new' | 'seen' | 'in_progress' | 'fixed' | 'wont_fix';
-export type LearnerFeedbackStatus = 'received' | 'in_progress' | 'fixed' | 'wont_fix';
+export type FeedbackStatus = 'new' | 'seen' | 'in_progress' | 'will_fix' | 'fixed' | 'wont_fix';
+export type LearnerFeedbackStatus = 'received' | 'in_progress' | 'will_fix' | 'fixed' | 'wont_fix';
 
 export interface MyFeedback {
   id: string;

@@ -33,7 +33,7 @@ CATEGORIES = (
 )
 
 # Admin-side statuses. Learners see a simpler mapping (see schemas/feedback.py).
-STATUSES = ("new", "seen", "in_progress", "fixed", "wont_fix")
+STATUSES = ("new", "seen", "in_progress", "will_fix", "fixed", "wont_fix")
 
 
 class Feedback(Base):

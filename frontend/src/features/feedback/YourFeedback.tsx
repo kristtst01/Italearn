@@ -12,6 +12,7 @@ import { timeAgo } from './timeAgo';
 const STATUS: Record<LearnerFeedbackStatus, { label: string; dot: string }> = {
   received: { label: 'Received', dot: 'border-2 border-muted-foreground bg-white' },
   in_progress: { label: 'Looking into it', dot: 'bg-in-progress' },
+  will_fix: { label: 'Will be fixed', dot: 'bg-cobalto' },
   fixed: { label: 'Fixed', dot: 'bg-learned' },
   wont_fix: { label: "Won't change", dot: 'bg-muted-foreground' },
 };

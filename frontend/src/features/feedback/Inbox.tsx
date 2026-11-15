@@ -27,10 +27,12 @@ const STATUS_LABEL: Record<FeedbackStatus, string> = {
   new: 'New',
   seen: 'Seen',
   in_progress: 'Looking into it',
+  will_fix: 'Will be fixed',
   fixed: 'Fixed',
   wont_fix: "Won't change",
 };
-const OPEN: FeedbackStatus[] = ['new', 'seen', 'in_progress'];
+// Will be fixed stays open: agreed, but the fix is still to do
+const OPEN: FeedbackStatus[] = ['new', 'seen', 'in_progress', 'will_fix'];
 
 type Where = 'lesson' | 'grammar' | 'review' | 'elsewhere';
 const WHERE_LABEL: Record<Where, string> = { lesson: 'Lessons', grammar: 'Grammar', review: 'Review', elsewhere: 'Elsewhere' };
