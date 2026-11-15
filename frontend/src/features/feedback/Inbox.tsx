@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Navigate } from 'react-router-dom';
 import { ChevronRight, RefreshCw, X } from 'lucide-react';
 import { toast } from 'sonner';
-import { draftFeedbackReply, getInbox, markInboxSeen, retriageFeedback, updateFeedback } from '@/engine/api';
+import { deleteFeedback, draftFeedbackReply, getInbox, markInboxSeen, retriageFeedback, updateFeedback } from '@/engine/api';
 import { useFeedbackStore } from '@/stores/feedbackStore';
 import { Label } from '@/shared/components/design';
 import LoadingScreen from '@/shared/components/LoadingScreen';
@@ -79,12 +79,15 @@ function Card({
   f,
   samePlace,
   onChange,
+  onDelete,
 }: {
   f: AdminFeedback;
   samePlace: number;
   onChange: (updated: AdminFeedback) => void;
+  onDelete: (id: string) => void;
 }) {
   const [replying, setReplying] = useState(false);
+  const [confirmDelete, setConfirmDelete] = useState(false);
   const [reply, setReply] = useState(f.reply ?? '');
   const [busy, setBusy] = useState<string | null>(null);
 
@@ -122,6 +125,18 @@ function Card({
       console.error('Failed to sort feedback:', err);
       toast.error('The AI could not sort this one.');
     } finally {
+      setBusy(null);
+    }
+  }
+
+  async function remove() {
+    setBusy('delete');
+    try {
+      await deleteFeedback(f.id);
+      onDelete(f.id);
+    } catch (err) {
+      console.error('Failed to delete feedback:', err);
+      toast.error('Could not delete. Try again.');
       setBusy(null);
     }
   }
@@ -235,6 +250,21 @@ function Card({
           >
             <RefreshCw className={cn('size-3.5', busy === 'sort' && 'animate-spin')} aria-hidden />
             Sort again
+          </button>
+        )}
+        {confirmDelete ? (
+          <span className="flex items-center gap-3">
+            <span className="font-semibold">Delete for good? The learner loses it too.</span>
+            <button type="button" disabled={busy !== null} onClick={remove} className="font-bold text-correction hover:underline">
+              {busy === 'delete' ? 'Deleting…' : 'Delete'}
+            </button>
+            <button type="button" onClick={() => setConfirmDelete(false)} className="font-medium text-muted-foreground hover:text-foreground">
+              Cancel
+            </button>
+          </span>
+        ) : (
+          <button type="button" disabled={busy !== null} onClick={() => setConfirmDelete(true)} className="font-semibold text-muted-foreground hover:text-correction">
+            Delete
           </button>
         )}
       </div>
@@ -391,16 +421,25 @@ export default function Inbox() {
   if (failed) return <p className="text-muted-foreground">The inbox couldn't be loaded. Try again in a moment.</p>;
   if (!items) return <LoadingScreen />;
 
-  const statusCounts = {
-    open: items.filter((f) => OPEN.includes(f.status)).length,
-    done: items.filter((f) => !OPEN.includes(f.status)).length,
+  // Each filter group counts the notes that pass the other groups, so the numbers match what
+  // ticking that box would show (e.g. with only Open ticked, categories count open notes only)
+  const statusOf = (f: AdminFeedback) => (OPEN.includes(f.status) ? 'open' : 'done');
+  const catsOf = (f: AdminFeedback) => f.categories ?? ['unsorted' as const];
+  const passStatus = (f: AdminFeedback) => statuses.has(statusOf(f));
+  const passWhere = (f: AdminFeedback) => wheres.has(whereOf(f));
+  const passCats = (f: AdminFeedback) => cats.size === 0 || catsOf(f).some((c) => cats.has(c));
+  const tally = (list: AdminFeedback[], keys: (f: AdminFeedback) => string[]) => {
+    const counts: Record<string, number> = {};
+    for (const f of list) for (const k of keys(f)) counts[k] = (counts[k] ?? 0) + 1;
+    return counts;
   };
-  const whereCounts: Record<string, number> = {};
-  for (const f of items) whereCounts[whereOf(f)] = (whereCounts[whereOf(f)] ?? 0) + 1;
-  const catCounts: Record<string, number> = {};
-  for (const f of items) for (const c of f.categories ?? ['unsorted']) catCounts[c] = (catCounts[c] ?? 0) + 1;
+  const statusCounts = tally(items.filter((f) => passWhere(f) && passCats(f)), (f) => [statusOf(f)]);
+  const whereCounts = tally(items.filter((f) => passStatus(f) && passCats(f)), (f) => [whereOf(f)]);
+  const catCounts = tally(items.filter((f) => passStatus(f) && passWhere(f)), catsOf);
+  // Which categories to offer comes from all notes, so a ticked box never vanishes when its count drops to 0
+  const allCats = tally(items, catsOf);
   const catOptions = [...CATEGORY_ORDER, 'unsorted' as const]
-    .filter((c) => catCounts[c])
+    .filter((c) => allCats[c])
     .map((c) => ({ value: c, label: c === 'unsorted' ? 'Unsorted' : CATEGORY[c].name }));
 
   function replace(updated: AdminFeedback) {
@@ -408,8 +447,13 @@ export default function Inbox() {
     refreshSummary();
   }
 
+  function removeItem(id: string) {
+    setItems((list) => list?.filter((f) => f.id !== id) ?? null);
+    refreshSummary();
+  }
+
   const card = (f: AdminFeedback) => (
-    <Card key={f.id} f={f} samePlace={samePlaceCounts.get(placeKey(f)) ?? 1} onChange={replace} />
+    <Card key={f.id} f={f} samePlace={samePlaceCounts.get(placeKey(f)) ?? 1} onChange={replace} onDelete={removeItem} />
   );
 
   let body;

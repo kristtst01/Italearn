@@ -205,6 +205,11 @@ export function updateFeedback(
   return request<AdminFeedback>(`/api/v1/admin/feedback/${id}`, { method: 'PATCH', body: JSON.stringify(data) });
 }
 
+/** Deletes a note for good (admin): it also disappears from the learner's list. */
+export function deleteFeedback(id: string) {
+  return request<void>(`/api/v1/admin/feedback/${id}`, { method: 'DELETE' });
+}
+
 export function draftFeedbackReply(id: string) {
   return request<{ reply: string }>(`/api/v1/admin/feedback/${id}/draft-reply`, { method: 'POST' });
 }

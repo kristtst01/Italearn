@@ -4,7 +4,7 @@ import uuid
 from datetime import datetime, timezone
 
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, status
-from sqlalchemy import func, select, update
+from sqlalchemy import delete, func, select, update
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.database import async_session, get_db
@@ -280,3 +280,16 @@ async def retriage(
     fb, author = await _get_or_404(db, feedback_id)
     await db.refresh(fb)
     return _to_admin(fb, author, admin)
+
+
+@admin_router.delete("/{feedback_id}", status_code=status.HTTP_204_NO_CONTENT)
+async def delete_feedback(
+    feedback_id: uuid.UUID,
+    admin: User = Depends(require_admin),
+    db: AsyncSession = Depends(get_db),
+):
+    """Deletes a note for good, from the inbox and from the learner's own list."""
+    result = await db.execute(delete(Feedback).where(Feedback.id == feedback_id))
+    if result.rowcount == 0:
+        raise HTTPException(status_code=404, detail="Feedback not found")
+    await db.commit()

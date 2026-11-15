@@ -34,7 +34,7 @@ function lessonKind(meta: LessonMeta, lesson?: Lesson): { label: string; note?: 
   }
 }
 
-function LessonCard({ meta, lesson, done }: { meta: LessonMeta; lesson?: Lesson; done: boolean }) {
+function LessonCard({ meta, lesson, done, n }: { meta: LessonMeta; lesson?: Lesson; done: boolean; n: string }) {
   const kind = lessonKind(meta, lesson);
   return (
     <Link
@@ -43,7 +43,10 @@ function LessonCard({ meta, lesson, done }: { meta: LessonMeta; lesson?: Lesson;
     >
       <div className="flex flex-col gap-1">
         <Label>{kind.label}</Label>
-        <span className="font-bold">{meta.name}</span>
+        <span className="font-bold">
+          <span className="mr-2 font-display text-muted-foreground tabular-nums">{n}</span>
+          {meta.name}
+        </span>
         {kind.note && <span className="text-sm text-muted-foreground">{kind.note}</span>}
       </div>
       <Status kind={done ? 'learned' : 'not-started'} label={done ? 'Done' : 'Start'} />
@@ -98,10 +101,11 @@ export default function ChapterPage() {
   const grammar = grammarForChapter(unit.id);
   const earned = stampEarned(unit, completed);
 
-  const cards = (list: LessonMeta[], extra?: React.ReactNode) => (
+  // Cards are numbered section.lesson (1.1, 1.2, 2.1…): a two-column grid doesn't show which way it reads
+  const cards = (list: LessonMeta[], extra?: React.ReactNode) => (section: number) => (
     <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-2.5">
-      {list.map((l) => (
-        <LessonCard key={l.id} meta={l} lesson={lessons[l.id]} done={completed.includes(l.id)} />
+      {list.map((l, i) => (
+        <LessonCard key={l.id} meta={l} lesson={lessons[l.id]} done={completed.includes(l.id)} n={`${section}.${i + 1}`} />
       ))}
       {extra}
     </div>
@@ -152,7 +156,7 @@ export default function ChapterPage() {
         <div className="flex flex-col gap-6 lg:flex-1">
           {sections.map((s, i) => (
             <Section key={s.title} n={i + 1} title={s.title} note={'note' in s ? s.note : undefined}>
-              {s.content}
+              {s.content(i + 1)}
             </Section>
           ))}
         </div>
