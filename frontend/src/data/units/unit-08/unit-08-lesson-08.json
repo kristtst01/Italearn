@@ -1,0 +1,23 @@
+{
+  "id": "unit-08-lesson-08",
+  "unit_id": "unit-08",
+  "name": "A Message Home",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-08-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "You live in Italy. Write a short message to someone in your family: say how you are, ask about the others, and end it the Italian way."
+      },
+      "sentence_context": "",
+      "correct_answer": "Cara mamma, come stai? Io sto bene. Firenze è molto bella e la mia classe è simpatica. Come sta il papà? Lavora sempre troppo? E la nonna? Ogni domenica cucino la pasta, come te! Ti voglio bene. Un abbraccio e tanti baci, Emma",
+      "distractors": [],
+      "hints": ["Caro or cara to start; un abbraccio, baci or con affetto to end."],
+      "target_words": ["mamma", "ti voglio bene", "abbraccio", "bacio"]
+    }
+  ],
+  "vocabulary": []
+}

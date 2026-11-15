@@ -1,0 +1,138 @@
+{
+  "id": "unit-17-lesson-06",
+  "unit_id": "unit-17",
+  "name": "Sale at Rita's",
+  "order": 6,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-17-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is this text?" },
+      "sentence_context": "",
+      "correct_answer": "Rita's sale prices",
+      "distractors": ["Rita's receipt", "Rita's shopping list"],
+      "hints": ["'Saldi!'"],
+      "target_words": ["saldi"]
+    },
+    {
+      "id": "unit-17-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How much does a T-shirt cost now?" },
+      "sentence_context": "",
+      "correct_answer": "€ 9,90",
+      "distractors": ["€ 19,90", "€ 25"],
+      "hints": ["'Prima' is the old price."],
+      "target_words": ["maglietta"]
+    },
+    {
+      "id": "unit-17-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which are half price?" },
+      "sentence_context": "",
+      "correct_answer": "Skirts and dresses",
+      "distractors": ["Jackets and coats", "Shirts"],
+      "hints": ["'Metà prezzo.'"],
+      "target_words": ["gonna", "vestito"]
+    },
+    {
+      "id": "unit-17-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which have no discount?" },
+      "sentence_context": "",
+      "correct_answer": "Hats",
+      "distractors": ["Socks", "Shoes"],
+      "hints": ["'Senza sconto.'"],
+      "target_words": ["cappello", "sconto"]
+    },
+    {
+      "id": "unit-17-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A coat cost € 100. What does it cost now?" },
+      "sentence_context": "",
+      "correct_answer": "€ 60",
+      "distractors": ["€ 40", "€ 50"],
+      "hints": ["40% off."],
+      "target_words": ["cappotto"]
+    },
+    {
+      "id": "unit-17-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where are the fitting rooms?" },
+      "sentence_context": "",
+      "correct_answer": "Behind the till",
+      "distractors": ["Next to the door", "In another shop"],
+      "hints": ["'Dietro la cassa.'"],
+      "target_words": ["camerino", "cassa"]
+    },
+    {
+      "id": "unit-17-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What do you need to exchange something bought in the sale?" },
+      "sentence_context": "",
+      "correct_answer": "The receipt",
+      "distractors": ["Cash", "The card"],
+      "hints": ["'Lo scontrino.'"],
+      "target_words": ["scontrino"]
+    },
+    {
+      "id": "unit-17-lesson-06-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: four pairs of socks." },
+      "sentence_context": "Quattro ___ di calze.",
+      "correct_answer": "paia",
+      "distractors": [],
+      "hints": ["Paio, plural: paia."],
+      "target_words": ["paio"]
+    },
+    {
+      "id": "unit-17-lesson-06-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: women's shoes." },
+      "sentence_context": "Scarpe da ___.",
+      "correct_answer": "donna",
+      "distractors": [],
+      "hints": ["Women's: da donna."],
+      "target_words": ["da donna"]
+    },
+    {
+      "id": "unit-17-lesson-06-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quanto costano le camicie?" },
+      "sentence_context": "Quanto costano le camicie?",
+      "correct_answer": ["venticinque euro", "costano venticinque euro", "25 euro"],
+      "distractors": [],
+      "hints": ["Read the line about shirts."],
+      "target_words": ["camicia"]
+    },
+    {
+      "id": "unit-17-lesson-06-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Come potete pagare?" },
+      "sentence_context": "Come potete pagare?",
+      "correct_answer": ["in contanti o con la carta", "in contanti o con la carta."],
+      "distractors": [],
+      "hints": ["Read the line about the till."],
+      "target_words": ["contanti"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "paio", "meaning": "pair · paia (plural, feminine): due paia di scarpe", "example": "Un paio di calze." },
+    { "word": "da donna", "meaning": "women's (clothes, shoes) · da uomo = men's", "example": "Scarpe da donna." }
+  ],
+  "reading": {
+    "title": "Saldi da Rita",
+    "paragraphs": ["Rita · abbigliamento · via dei Servi 12, Firenze", "Saldi! Da oggi tutto il negozio è in saldo.", "Magliette: € 9,90 (prima € 19,90)", "Camicie bianche e blu: € 25 (prima € 50)", "Maglioni grigi e marroni: il 30% di sconto", "Gonne e vestiti: metà prezzo", "Giacche e cappotti: il 40% di sconto", "Scarpe da donna e da uomo, tutti i numeri: da € 39", "Calze: € 3, o quattro paia a € 10", "Cappelli: senza sconto, ma molto belli!", "Potete provare tutto: i camerini sono dietro la cassa. Alla cassa potete pagare in contanti o con la carta.", "Attenzione: per cambiare i vestiti in saldo, avete bisogno dello scontrino."]
+  }
+}

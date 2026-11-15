@@ -1,0 +1,21 @@
+{
+  "id": "unit-17-lesson-09",
+  "unit_id": "unit-17",
+  "name": "What I Wear",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-17-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe what you usually wear: for work or study, at home, and when it is cold. Say the colours." },
+      "sentence_context": "",
+      "correct_answer": "Per il lavoro porto i pantaloni neri o grigi e una camicia bianca o blu. A casa porto una maglietta e dei pantaloni comodi. Quando fa freddo porto un maglione e un cappotto marrone, e a volte un cappello. Non porto quasi mai la gonna.",
+      "distractors": [],
+      "hints": ["Porto… Colours after the noun, and they agree. Blu and rosa never change."],
+      "target_words": ["pantaloni", "camicia", "maglione"]
+    }
+  ],
+  "vocabulary": []
+}

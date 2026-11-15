@@ -278,6 +278,7 @@ for (const step of COURSE) {
   }
   if (step.kind === 'chapter') {
     for (const l of unitById.get(step.id)?.lessons ?? []) {
+      if (!existsSync(lessonFile(l.id))) continue;
       const lesson = loadLesson(l.id);
       for (const e of lesson.exercises) collectNamesFromExercise(e);
       for (const p of lesson.reading?.paragraphs ?? []) collectNames(p.replace(/^[^:]{1,20}: /, ''));

@@ -1,0 +1,27 @@
+{
+  "id": "unit-17-lesson-08",
+  "unit_id": "unit-17",
+  "name": "Going to the Sale",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-17-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "You're going to the sale at Rita's. Write a message to a friend: what you want to buy there, in which colours, and how much it costs now."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ciao Marta! Oggi ci sono i saldi da Rita, in via dei Servi. Io vorrei comprare una giacca e due magliette. Le giacche hanno il 40% di sconto e le magliette costano solo € 9,90. Cerco una giacca nera o grigia, e le magliette bianche. Vieni anche tu? Ci sono anche vestiti a metà prezzo!",
+      "distractors": [],
+      "hints": ["Vorrei comprare… / Cerco… Check every colour agrees, and costa or costano."],
+      "target_words": ["saldi", "sconto", "giacca"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Saldi da Rita",
+    "paragraphs": ["Rita · abbigliamento · via dei Servi 12, Firenze", "Saldi! Da oggi tutto il negozio è in saldo.", "Magliette: € 9,90 (prima € 19,90)", "Camicie bianche e blu: € 25 (prima € 50)", "Maglioni grigi e marroni: il 30% di sconto", "Gonne e vestiti: metà prezzo", "Giacche e cappotti: il 40% di sconto", "Scarpe da donna e da uomo, tutti i numeri: da € 39", "Calze: € 3, o quattro paia a € 10", "Cappelli: senza sconto, ma molto belli!", "Potete provare tutto: i camerini sono dietro la cassa. Alla cassa potete pagare in contanti o con la carta.", "Attenzione: per cambiare i vestiti in saldo, avete bisogno dello scontrino."]
+  }
+}

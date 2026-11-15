@@ -1,0 +1,135 @@
+{
+  "id": "unit-14-lesson-05",
+  "unit_id": "unit-14",
+  "name": "Saturday in Bologna",
+  "order": 5,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-14-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How is the class travelling to Bologna?" },
+      "sentence_context": "",
+      "correct_answer": "By train",
+      "distractors": ["By bus", "By car"],
+      "hints": ["'In treno.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-14-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who is waiting for the class in Bologna?" },
+      "sentence_context": "",
+      "correct_answer": "Luca, Paul's friend",
+      "distractors": ["Paul", "Giulia's colleague"],
+      "hints": ["Read the first paragraph."],
+      "target_words": []
+    },
+    {
+      "id": "unit-14-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where does the class meet in Florence?" },
+      "sentence_context": "",
+      "correct_answer": "In front of the ticket office",
+      "distractors": ["At the bus stop", "At the station bar"],
+      "hints": ["'Davanti alla biglietteria.'"],
+      "target_words": ["biglietteria"]
+    },
+    {
+      "id": "unit-14-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What time does the train leave Florence?" },
+      "sentence_context": "",
+      "correct_answer": "8:15",
+      "distractors": ["7:50", "8:30"],
+      "hints": ["Read the line that starts with Partenza."],
+      "target_words": ["partenza"]
+    },
+    {
+      "id": "unit-14-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why does the class take the slow train?" },
+      "sentence_context": "",
+      "correct_answer": "It's cheap",
+      "distractors": ["It's direct", "It's fast"],
+      "hints": ["Read the paragraph about the two trains."],
+      "target_words": ["lento"]
+    },
+    {
+      "id": "unit-14-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: they have to change trains." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'Il treno è diretto.'"],
+      "target_words": ["diretto"]
+    },
+    {
+      "id": "unit-14-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do Tomás and Yuki get to the station?" },
+      "sentence_context": "",
+      "correct_answer": "By bus",
+      "distractors": ["On foot", "By taxi"],
+      "hints": ["Read the paragraph about Tomás and Yuki."],
+      "target_words": ["fermata"]
+    },
+    {
+      "id": "unit-14-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Giulia remind Paul?" },
+      "sentence_context": "",
+      "correct_answer": "The train leaves at 8:15, not 8:30",
+      "distractors": ["The train is late", "He has to buy his ticket online"],
+      "hints": ["Read the line to Paul."],
+      "target_words": []
+    },
+    {
+      "id": "unit-14-lesson-05-ex-09",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: A che ora arriva il treno a Bologna?" },
+      "sentence_context": "A che ora arriva il treno a Bologna?",
+      "correct_answer": ["alle nove e quaranta", "alle dieci meno venti", "arriva alle nove e quaranta"],
+      "distractors": [],
+      "hints": ["Read the line that starts with Arrivo."],
+      "target_words": ["arrivo"]
+    },
+    {
+      "id": "unit-14-lesson-05-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quanto costa il biglietto andata e ritorno?" },
+      "sentence_context": "Quanto costa il biglietto andata e ritorno?",
+      "correct_answer": ["circa venti euro", "costa circa venti euro", "venti euro"],
+      "distractors": [],
+      "hints": ["Read the paragraph about the two trains."],
+      "target_words": ["circa", "ritorno"]
+    },
+    {
+      "id": "unit-14-lesson-05-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa fa la classe se il treno è in ritardo?" },
+      "sentence_context": "Che cosa fa la classe se il treno è in ritardo?",
+      "correct_answer": ["aspetta al bar della stazione", "aspettiamo al bar della stazione", "aspetta al bar"],
+      "distractors": [],
+      "hints": ["Read the last paragraph."],
+      "target_words": ["ritardo"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Sabato a Bologna!",
+    "paragraphs": ["Ciao a tutti! Sabato andiamo a Bologna, tutti insieme, in treno. Luca, l'amico di Paul, è di Bologna e conosce bene la città: aspetta la classe alla stazione di Bologna, e poi visitiamo insieme il centro.", "Firenze, stazione di Santa Maria Novella · alle 7:50, davanti alla biglietteria", "Partenza · 8:15, treno per Bologna", "Arrivo a Bologna · 9:40", "Ritorno · 18:10 da Bologna, arrivo a Firenze alle 19:35", "Con il treno veloce ci vogliono circa quaranta minuti, ma il biglietto è caro. Noi prendiamo il treno lento: dura un'ora e mezza, ma è economico. Il biglietto andata e ritorno costa circa venti euro. Potete comprare il biglietto in biglietteria o su internet. Il treno è diretto: non dobbiamo cambiare.", "Tomás e Yuki arrivano in autobus: la fermata è davanti alla stazione.", "Paul, il treno parte alle otto e un quarto, non alle otto e mezza!", "Se il treno è in ritardo, aspettiamo al bar della stazione. A sabato!", "Giulia"]
+  }
+}

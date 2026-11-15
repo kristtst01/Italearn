@@ -1,247 +1,221 @@
 {
   "id": "unit-14-lesson-02",
   "unit_id": "unit-14",
-  "name": "Buying a Ticket",
+  "name": "Trains and Times",
   "order": 2,
-  "grammar_tips": [
-    {
-      "id": "unit-14-lesson-02-tip-01",
-      "title": "Asking for a Ticket",
-      "explanation": "'Un biglietto per Roma, per favore' = 'A ticket to Rome, please'. Add 'di sola andata' (one way) or 'andata e ritorno' (return / round trip) to specify.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-14-lesson-02-tip-02",
-      "title": "Costare",
-      "explanation": "'Quanto costa?' = How much does it cost? 'Costa venti euro' = It costs 20 euros. The verb 'costare' is regular -are: costo, costi, costa, costiamo, costate, costano.",
-      "before_exercise": 7
-    },
-    {
-      "id": "unit-14-lesson-02-tip-03",
-      "title": "Partire vs Arrivare",
-      "explanation": "'Partire' (to leave) and 'arrivare' (to arrive). 'Il treno parte alle otto' (The train leaves at eight). 'Il treno arriva alle dieci' (The train arrives at ten).",
-      "before_exercise": 13
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-14-lesson-02-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'biglietto' mean?" },
-      "sentence_context": "Compro un biglietto.",
-      "correct_answer": "Ticket",
-      "distractors": ["Receipt", "Stamp", "Card"],
-      "hints": ["I buy a ticket."],
-      "target_words": ["biglietto"]
+      "subtype": "match_pairs",
+      "prompt": { "text": "Match the Italian words with their English meanings." },
+      "sentence_context": "",
+      "correct_answer": ["partenza|departure", "arrivo|arrival", "binario|platform", "ritardo|delay", "orario|timetable"],
+      "distractors": [],
+      "hints": [],
+      "target_words": ["partenza", "arrivo", "binario", "ritardo", "orario"]
     },
     {
       "id": "unit-14-lesson-02-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'andata' mean?" },
-      "sentence_context": "Un biglietto di sola andata.",
-      "correct_answer": "Outward (one-way) journey",
-      "distractors": ["Return", "Stop", "Arrival"],
-      "hints": ["One-way ticket."],
-      "target_words": ["andata"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'binario' mean?" },
+      "sentence_context": "Il treno per Bologna parte dal binario sei.",
+      "correct_answer": ["platform", "track", "the platform"],
+      "distractors": [],
+      "hints": ["Where you wait for the train."],
+      "target_words": ["binario"]
     },
     {
       "id": "unit-14-lesson-02-ex-03",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'ritorno' mean?" },
-      "sentence_context": "Andata e ritorno.",
-      "correct_answer": "Return / way back",
-      "distractors": ["Outward", "Departure", "Arrival"],
-      "hints": ["Return / round-trip."],
-      "target_words": ["ritorno"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'in ritardo' mean?" },
+      "sentence_context": "Il treno è in ritardo di dieci minuti.",
+      "correct_answer": ["late", "delayed"],
+      "distractors": [],
+      "hints": ["Ritardo: delay."],
+      "target_words": ["ritardo"]
     },
     {
       "id": "unit-14-lesson-02-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'fermata' mean?" },
-      "sentence_context": "La fermata dell'autobus è qui.",
-      "correct_answer": "(Bus) stop",
-      "distractors": ["Station", "Door", "Street"],
-      "hints": ["Where the bus stops."],
-      "target_words": ["fermata"]
+      "prompt": { "text": "The board shows your train like this. What does it tell you?" },
+      "sentence_context": "Bologna · binario 4 · in orario",
+      "correct_answer": "It's on time",
+      "distractors": ["It's late", "It leaves from another platform"],
+      "hints": ["Orario: time, timetable."],
+      "target_words": ["orario"]
     },
     {
       "id": "unit-14-lesson-02-ex-05",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'aeroporto' mean?" },
-      "sentence_context": "Vado all'aeroporto.",
-      "correct_answer": "Airport",
-      "distractors": ["Station", "Port", "Office"],
-      "hints": ["Where planes take off."],
-      "target_words": ["aeroporto"]
+      "prompt": { "text": "You're going to Rome. Which platform do you go to?" },
+      "sentence_context": "Partenze\n9:10 · Pisa · binario 3\n9:25 · Roma · binario 7\n9:40 · Milano · binario 9",
+      "correct_answer": "7",
+      "distractors": ["3", "9"],
+      "hints": ["Find Roma on the board."],
+      "target_words": ["partenza", "binario"]
     },
     {
       "id": "unit-14-lesson-02-ex-06",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'viaggio' mean?" },
-      "sentence_context": "Faccio un viaggio in Italia.",
-      "correct_answer": "Trip / journey",
-      "distractors": ["Ticket", "Stop", "Visit"],
-      "hints": ["A trip to Italy."],
-      "target_words": ["viaggio"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The departure is at nine and the arrival at half past ten." },
+      "sentence_context": "La ___ è alle nove e l'arrivo alle dieci e mezza.",
+      "correct_answer": "partenza",
+      "distractors": [],
+      "hints": ["Departure."],
+      "target_words": ["partenza", "arrivo"]
     },
     {
       "id": "unit-14-lesson-02-ex-07",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Quanto ___ il biglietto?",
-      "correct_answer": "costa",
+      "prompt": { "text": "Complete: How long does the journey take?" },
+      "sentence_context": "Quanto ___ il viaggio?",
+      "correct_answer": "dura",
       "distractors": [],
-      "hints": ["How much does the ticket cost?"],
-      "target_words": ["costare"]
+      "hints": ["Durare."],
+      "target_words": ["durare"]
     },
     {
       "id": "unit-14-lesson-02-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Il treno ___ alle otto.",
-      "correct_answer": "parte",
+      "prompt": { "text": "Complete: The journey takes about an hour." },
+      "sentence_context": "Il viaggio dura ___ un'ora.",
+      "correct_answer": "circa",
       "distractors": [],
-      "hints": ["The train leaves at 8."],
-      "target_words": ["partire"]
+      "hints": ["About."],
+      "target_words": ["circa"]
     },
     {
       "id": "unit-14-lesson-02-ex-09",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Il treno ___ alle dieci.",
-      "correct_answer": "arriva",
-      "distractors": [],
-      "hints": ["The train arrives at 10."],
-      "target_words": ["arrivare"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You want to know if you have to change trains. What do you ask?" },
+      "sentence_context": "",
+      "correct_answer": "È diretto?",
+      "distractors": ["È in orario?", "È in ritardo?"],
+      "hints": ["Direct: no change."],
+      "target_words": ["diretto"]
     },
     {
       "id": "unit-14-lesson-02-ex-10",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Un biglietto per ___ e ritorno.",
-      "correct_answer": "andata",
-      "distractors": [],
-      "hints": ["Return ticket: andata e ritorno."],
-      "target_words": ["andata"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which says \"It takes two hours\"?" },
+      "sentence_context": "",
+      "correct_answer": "Ci vogliono due ore.",
+      "distractors": ["Ci vuole due ore.", "Ci vogliono due ora."],
+      "hints": ["Ore is plural, so the verb is plural too."],
+      "target_words": ["ci vuole"]
     },
     {
       "id": "unit-14-lesson-02-ex-11",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'ticket' in Italian?" },
-      "sentence_context": "Compro un biglietto.",
-      "correct_answer": "biglietto",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "At the station, you ask when the next train to Rome leaves." },
+      "sentence_context": "You: ___\nEmployee: Alle undici e mezza, dal binario due.",
+      "correct_answer": ["Scusi, a che ora parte il prossimo treno per Roma?", "A che ora parte il prossimo treno per Roma?"],
       "distractors": [],
-      "hints": ["A masculine noun."],
-      "target_words": ["biglietto"]
+      "hints": ["A che ora…?"],
+      "target_words": ["prossimo"],
+      "dialogue": [
+        { "speaker": "You" },
+        { "speaker": "Employee", "text": "Alle undici e mezza, dal binario due." }
+      ]
     },
     {
       "id": "unit-14-lesson-02-ex-12",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'airport' in Italian?" },
-      "sentence_context": "Vado all'aeroporto.",
-      "correct_answer": "aeroporto",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend is waiting for you at the station. Your train is twenty minutes late." },
+      "sentence_context": "Friend: Ciao! A che ora arrivi?\nYou: ___",
+      "correct_answer": ["Il treno è in ritardo di venti minuti.", "Il treno ha venti minuti di ritardo."],
       "distractors": [],
-      "hints": ["Close to the English word."],
-      "target_words": ["aeroporto"]
+      "hints": ["In ritardo di + the minutes."],
+      "target_words": ["ritardo"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Ciao! A che ora arrivi?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-14-lesson-02-ex-13",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'trip' in Italian?" },
-      "sentence_context": "Faccio un viaggio.",
-      "correct_answer": "viaggio",
-      "distractors": [],
-      "hints": ["Used with 'fare': fare un viaggio."],
-      "target_words": ["viaggio"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'The train arrives in Bologna at ten.'" },
+      "sentence_context": "Il treno arriva a Bologna alle dieci.",
+      "correct_answer": ["Il", "treno", "arriva", "a", "Bologna", "alle", "dieci."],
+      "distractors": ["parte", "dal"],
+      "hints": ["Alle + the hour."],
+      "target_words": []
     },
     {
       "id": "unit-14-lesson-02-ex-14",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'to cost' in Italian?" },
-      "sentence_context": "Costa venti euro.",
-      "correct_answer": "costare",
+      "prompt": { "text": "Ask how long the journey takes." },
+      "sentence_context": "",
+      "correct_answer": ["quanto dura il viaggio", "quanto tempo ci vuole"],
       "distractors": [],
-      "hints": ["Regular -are verb."],
-      "target_words": ["costare"]
+      "hints": ["Durare, or ci vuole."],
+      "target_words": ["durare"]
     },
     {
       "id": "unit-14-lesson-02-ex-15",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'lui/lei' form of 'arrivare'." },
-      "sentence_context": "L'aereo ___ alle nove.",
-      "correct_answer": "arriva",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say it takes half an hour." },
+      "sentence_context": "",
+      "correct_answer": ["ci vuole mezz'ora", "dura mezz'ora"],
       "distractors": [],
-      "hints": ["The plane arrives at 9."],
-      "target_words": ["arrivare"]
+      "hints": ["Mezz'ora."],
+      "target_words": ["mezz'ora", "ci vuole"]
     },
     {
       "id": "unit-14-lesson-02-ex-16",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'A return ticket to Rome, please.'" },
-      "sentence_context": "Un biglietto andata e ritorno per Roma, per favore.",
-      "correct_answer": ["Un", "biglietto", "andata", "e", "ritorno", "per", "Roma,", "per", "favore."],
-      "distractors": ["aeroporto", "treno"],
-      "hints": ["'Un biglietto + andata e ritorno + per + city'."],
-      "target_words": ["biglietto", "andata", "ritorno"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Say the train for Florence leaves from platform four." },
+      "sentence_context": "",
+      "correct_answer": ["il treno per firenze parte dal binario quattro"],
+      "distractors": [],
+      "hints": ["Dal binario."],
+      "target_words": ["binario"]
     },
     {
       "id": "unit-14-lesson-02-ex-17",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'How much does the ticket cost?'" },
-      "sentence_context": "Quanto costa il biglietto?",
-      "correct_answer": ["Quanto", "costa", "il", "biglietto?"],
-      "distractors": ["costo", "viaggio"],
-      "hints": ["'Quanto costa' is a fixed question."],
-      "target_words": ["costare", "biglietto"]
-    },
-    {
-      "id": "unit-14-lesson-02-ex-18",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'The train leaves at eight.'" },
-      "sentence_context": "Il treno parte alle otto.",
-      "correct_answer": ["Il", "treno", "parte", "alle", "otto."],
-      "distractors": ["arriva", "nove"],
-      "hints": ["'Partire' for departing."],
-      "target_words": ["partire"]
-    },
-    {
-      "id": "unit-14-lesson-02-ex-19",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'The bus stop is here.'" },
-      "sentence_context": "La fermata dell'autobus è qui.",
-      "correct_answer": ["La", "fermata", "dell'autobus", "è", "qui."],
-      "distractors": ["aeroporto", "metro"],
-      "hints": ["'La fermata dell'autobus' = the bus stop."],
-      "target_words": ["fermata"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask if the train for Rome is on time." },
+      "sentence_context": "",
+      "correct_answer": ["il treno per roma è in orario"],
+      "distractors": [],
+      "hints": ["In orario."],
+      "target_words": ["orario"]
     }
   ],
   "vocabulary": [
-    { "word": "biglietto", "meaning": "Ticket", "example": "Compro un biglietto." },
-    { "word": "andata", "meaning": "Outward / one-way", "example": "Un biglietto di sola andata." },
-    { "word": "ritorno", "meaning": "Return / way back", "example": "Andata e ritorno." },
-    { "word": "fermata", "meaning": "(Bus) stop", "example": "La fermata dell'autobus è qui." },
-    { "word": "aeroporto", "meaning": "Airport", "example": "Vado all'aeroporto." },
-    { "word": "viaggio", "meaning": "Trip / journey", "example": "Faccio un viaggio in Italia." },
-    { "word": "costare", "meaning": "To cost", "example": "Quanto costa il biglietto?" },
-    { "word": "arrivare", "meaning": "To arrive", "example": "Il treno arriva alle dieci." }
+    { "word": "orario", "meaning": "timetable; time (of a train or a shop) · in orario = on time", "example": "Il treno per Roma è in orario." },
+    { "word": "partenza", "meaning": "departure · partenze = departures (on a board)", "example": "La partenza è alle nove." },
+    { "word": "arrivo", "meaning": "arrival · arrivi = arrivals (on a board)", "example": "L'arrivo a Roma è alle undici." },
+    { "word": "binario", "meaning": "platform, track · binari (plural)", "example": "Il treno per Bologna parte dal binario sei." },
+    { "word": "ritardo", "meaning": "delay · in ritardo = late", "example": "Il treno è in ritardo di dieci minuti." },
+    { "word": "diretto", "meaning": "direct", "example": "È un treno diretto: non devo cambiare." },
+    { "word": "durare", "meaning": "to last, to take (time)", "example": "Il viaggio dura due ore." },
+    { "word": "circa", "meaning": "about, roughly", "example": "Il viaggio dura circa un'ora." },
+    {
+      "word": "ci vuole",
+      "meaning": "it takes (time) · ci vogliono with a plural: ci vogliono dieci minuti",
+      "example": "Da qui al centro ci vogliono dieci minuti.",
+      "phrase": true
+    },
+    { "word": "mezz'ora", "meaning": "half an hour", "example": "Il treno per Pisa parte fra mezz'ora.", "phrase": true }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "unit-14-lesson-07",
+  "unit_id": "unit-14",
+  "name": "Reply to Giulia",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-14-lesson-07-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Reply to Giulia's message: say that you're coming, how you get to the station, and ask one question about the trip." },
+      "sentence_context": "",
+      "correct_answer": "Ciao Giulia! Grazie per il messaggio. Sabato vengo anch'io! Vado alla stazione in bici, perché abito vicino. Compro il biglietto su internet. Una domanda: dopo il treno delle diciotto e dieci, c'è un altro treno per Firenze? A sabato!",
+      "distractors": [],
+      "hints": ["Vengo, then how you travel (in bici, in autobus, a piedi). A question with a che ora, quanto or c'è."],
+      "target_words": ["ritorno", "biglietto"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Sabato a Bologna!",
+    "paragraphs": ["Ciao a tutti! Sabato andiamo a Bologna, tutti insieme, in treno. Luca, l'amico di Paul, è di Bologna e conosce bene la città: aspetta la classe alla stazione di Bologna, e poi visitiamo insieme il centro.", "Firenze, stazione di Santa Maria Novella · alle 7:50, davanti alla biglietteria", "Partenza · 8:15, treno per Bologna", "Arrivo a Bologna · 9:40", "Ritorno · 18:10 da Bologna, arrivo a Firenze alle 19:35", "Con il treno veloce ci vogliono circa quaranta minuti, ma il biglietto è caro. Noi prendiamo il treno lento: dura un'ora e mezza, ma è economico. Il biglietto andata e ritorno costa circa venti euro. Potete comprare il biglietto in biglietteria o su internet. Il treno è diretto: non dobbiamo cambiare.", "Tomás e Yuki arrivano in autobus: la fermata è davanti alla stazione.", "Paul, il treno parte alle otto e un quarto, non alle otto e mezza!", "Se il treno è in ritardo, aspettiamo al bar della stazione. A sabato!", "Giulia"]
+  }
+}

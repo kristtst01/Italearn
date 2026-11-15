@@ -1,0 +1,87 @@
+{
+  "id": "unit-14-lesson-09",
+  "unit_id": "unit-14",
+  "name": "Say It Out Loud",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-14-lesson-09-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Un biglietto andata e ritorno per Bologna, per favore.",
+      "correct_answer": "Un biglietto andata e ritorno per Bologna, per favore.",
+      "distractors": [],
+      "hints": ["Andata e ritorno."],
+      "target_words": ["andata", "ritorno"]
+    },
+    {
+      "id": "unit-14-lesson-09-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "A che ora parte il prossimo treno?",
+      "correct_answer": "A che ora parte il prossimo treno?",
+      "distractors": [],
+      "hints": ["Prossimo."],
+      "target_words": ["prossimo"]
+    },
+    {
+      "id": "unit-14-lesson-09-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Il treno parte dal binario sei.",
+      "correct_answer": "Il treno parte dal binario sei.",
+      "distractors": [],
+      "hints": ["Binario."],
+      "target_words": ["binario"]
+    },
+    {
+      "id": "unit-14-lesson-09-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Il treno è in ritardo di venti minuti.",
+      "correct_answer": "Il treno è in ritardo di venti minuti.",
+      "distractors": [],
+      "hints": ["Ritardo: the stress is on tar."],
+      "target_words": ["ritardo"]
+    },
+    {
+      "id": "unit-14-lesson-09-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Scusi, dove devo scendere per il museo?",
+      "correct_answer": "Scusi, dove devo scendere per il museo?",
+      "distractors": [],
+      "hints": ["Scendere: the sc is soft, like \"sh\"."],
+      "target_words": ["scendere"]
+    },
+    {
+      "id": "unit-14-lesson-09-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "L'autobus passa ogni dieci minuti.",
+      "correct_answer": "L'autobus passa ogni dieci minuti.",
+      "distractors": [],
+      "hints": ["Passa: hold the double s."],
+      "target_words": ["passare"]
+    },
+    {
+      "id": "unit-14-lesson-09-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Quanto tempo ci vuole per l'aeroporto?",
+      "correct_answer": "Quanto tempo ci vuole per l'aeroporto?",
+      "distractors": [],
+      "hints": ["Aeroporto: say every vowel."],
+      "target_words": ["aeroporto", "ci vuole"]
+    }
+  ],
+  "vocabulary": []
+}

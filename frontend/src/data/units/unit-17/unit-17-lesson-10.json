@@ -1,0 +1,87 @@
+{
+  "id": "unit-17-lesson-10",
+  "unit_id": "unit-17",
+  "name": "Say It Out Loud",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-17-lesson-10-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Posso provare questa giacca?",
+      "correct_answer": "Posso provare questa giacca?",
+      "distractors": [],
+      "hints": ["Posso provare…?"],
+      "target_words": ["provare", "giacca"]
+    },
+    {
+      "id": "unit-17-lesson-10-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Che taglia porta? Porto la 42.",
+      "correct_answer": "Che taglia porta? Porto la 42.",
+      "distractors": [],
+      "hints": ["Taglia: the gl sounds like the lli in million."],
+      "target_words": ["taglia"]
+    },
+    {
+      "id": "unit-17-lesson-10-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Quanto costano quelle scarpe marroni?",
+      "correct_answer": "Quanto costano quelle scarpe marroni?",
+      "distractors": [],
+      "hints": ["Costano: plural."],
+      "target_words": ["scarpe", "marrone"]
+    },
+    {
+      "id": "unit-17-lesson-10-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Pago in contanti.",
+      "correct_answer": "Pago in contanti.",
+      "distractors": [],
+      "hints": ["Contanti."],
+      "target_words": ["contanti"]
+    },
+    {
+      "id": "unit-17-lesson-10-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ecco lo scontrino.",
+      "correct_answer": "Ecco lo scontrino.",
+      "distractors": [],
+      "hints": ["Lo before sc-."],
+      "target_words": ["scontrino"]
+    },
+    {
+      "id": "unit-17-lesson-10-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Questi pantaloni sono troppo stretti.",
+      "correct_answer": "Questi pantaloni sono troppo stretti.",
+      "distractors": [],
+      "hints": ["Pantaloni: plural."],
+      "target_words": ["pantaloni"]
+    },
+    {
+      "id": "unit-17-lesson-10-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Il maglione grigio costa ventotto euro.",
+      "correct_answer": "Il maglione grigio costa ventotto euro.",
+      "distractors": [],
+      "hints": ["Grigio: one i sound."],
+      "target_words": ["grigio", "maglione"]
+    }
+  ],
+  "vocabulary": []
+}

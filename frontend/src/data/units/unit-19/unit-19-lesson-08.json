@@ -1,0 +1,23 @@
+{
+  "id": "unit-19-lesson-08",
+  "unit_id": "unit-19",
+  "name": "The Weather Where You Live",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-19-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "A new friend in Florence asks about the weather where you live. Describe it season by season, then say which season you prefer and why."
+      },
+      "sentence_context": "",
+      "correct_answer": "Abito a Manchester, in Inghilterra. In inverno fa freddo e piove molto, ma nevica poco. In primavera il tempo cambia spesso, e ci sono molti fiori in giardino. L'estate non è molto calda: ci sono venti o venticinque gradi. In autunno c'è vento e piove di nuovo. Preferisco la primavera, perché le giornate sono più lunghe e non fa freddo.",
+      "distractors": [],
+      "hints": ["In inverno / in estate + fa caldo, fa freddo, piove, nevica; preferisco… perché…"],
+      "target_words": ["stagione", "piovere", "nevicare"]
+    }
+  ],
+  "vocabulary": []
+}

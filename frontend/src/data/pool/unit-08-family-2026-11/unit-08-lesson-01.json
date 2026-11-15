@@ -1,0 +1,236 @@
+{
+  "id": "unit-08-lesson-01",
+  "unit_id": "unit-08",
+  "name": "Close Family",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-08-lesson-01-tip-01",
+      "title": "Family Pairs",
+      "explanation": "Many family words come in -o/-a pairs: figlio/figlia (son/daughter). The gender rule you already know carries straight over.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-08-lesson-01-tip-02",
+      "title": "Mamma & Papà",
+      "explanation": "'Mamma' and 'papà' are the warm, everyday words — like 'mum' and 'dad'. 'Madre' and 'padre' are slightly more formal. Both are correct and common.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-08-lesson-01-tip-03",
+      "title": "Famiglia & Genitori",
+      "explanation": "'La famiglia' (the family) is feminine. 'I genitori' (the parents) is masculine plural — it covers your mother and father together.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-08-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'madre' mean?" },
+      "sentence_context": "La madre di Marco è gentile.",
+      "correct_answer": "Mother",
+      "distractors": ["Father", "Sister", "Daughter"],
+      "hints": ["Marco's mother is kind."],
+      "target_words": ["madre"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'padre' mean?" },
+      "sentence_context": "Il padre di Anna è alto.",
+      "correct_answer": "Father",
+      "distractors": ["Mother", "Brother", "Son"],
+      "hints": ["Anna's father is tall."],
+      "target_words": ["padre"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'figlio' mean?" },
+      "sentence_context": "Il figlio è giovane.",
+      "correct_answer": "Son",
+      "distractors": ["Father", "Brother", "Husband"],
+      "hints": ["The son is young."],
+      "target_words": ["figlio"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'figlia' mean?" },
+      "sentence_context": "La figlia di Marco è piccola.",
+      "correct_answer": "Daughter",
+      "distractors": ["Son", "Mother", "Sister"],
+      "hints": ["Marco's daughter is small."],
+      "target_words": ["figlia"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La ___ è grande.",
+      "correct_answer": "famiglia",
+      "distractors": [],
+      "hints": ["The family is big."],
+      "target_words": ["famiglia"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "I ___ di Marco sono simpatici.",
+      "correct_answer": "genitori",
+      "distractors": [],
+      "hints": ["Marco's parents are nice."],
+      "target_words": ["genitori"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La ___ è in cucina.",
+      "correct_answer": "mamma",
+      "distractors": [],
+      "hints": ["Mum is in the kitchen."],
+      "target_words": ["mamma"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ___ è in giardino.",
+      "correct_answer": "papà",
+      "distractors": [],
+      "hints": ["Dad is in the garden."],
+      "target_words": ["papà"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'mother' in Italian?" },
+      "sentence_context": "La madre di Luca è dottoressa.",
+      "correct_answer": "madre",
+      "distractors": [],
+      "hints": ["The more formal word for mum."],
+      "target_words": ["madre"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'father' in Italian?" },
+      "sentence_context": "Il padre di Anna è bravo.",
+      "correct_answer": "padre",
+      "distractors": [],
+      "hints": ["The more formal word for dad."],
+      "target_words": ["padre"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'son' in Italian?" },
+      "sentence_context": "Il figlio è giovane.",
+      "correct_answer": "figlio",
+      "distractors": [],
+      "hints": ["The -o pair with 'figlia'."],
+      "target_words": ["figlio"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'daughter' in Italian?" },
+      "sentence_context": "La figlia è piccola.",
+      "correct_answer": "figlia",
+      "distractors": [],
+      "hints": ["The -a pair with 'figlio'."],
+      "target_words": ["figlia"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'family' in Italian?" },
+      "sentence_context": "La famiglia è importante.",
+      "correct_answer": "famiglia",
+      "distractors": [],
+      "hints": ["A feminine noun: la famiglia."],
+      "target_words": ["famiglia"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'parents' in Italian?" },
+      "sentence_context": "I genitori sono a casa.",
+      "correct_answer": "genitori",
+      "distractors": [],
+      "hints": ["Masculine plural: i genitori."],
+      "target_words": ["genitori"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The family is big.'" },
+      "sentence_context": "La famiglia è grande.",
+      "correct_answer": ["La", "famiglia", "è", "grande."],
+      "distractors": ["piccola", "sono"],
+      "hints": ["The adjective comes after the noun."],
+      "target_words": ["famiglia"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: \"Marco's father is tall.\"" },
+      "sentence_context": "Il padre di Marco è alto.",
+      "correct_answer": ["Il", "padre", "di", "Marco", "è", "alto."],
+      "distractors": ["madre", "bassa"],
+      "hints": ["Use 'di' to show whose father it is."],
+      "target_words": ["padre"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I have a sister and a brother.'" },
+      "sentence_context": "Ho una sorella e un fratello.",
+      "correct_answer": ["Ho", "una", "sorella", "e", "un", "fratello."],
+      "distractors": ["figlio", "madre"],
+      "hints": ["'e' means 'and'."],
+      "target_words": ["sorella", "fratello"]
+    },
+    {
+      "id": "unit-08-lesson-01-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The parents are nice.'" },
+      "sentence_context": "I genitori sono simpatici.",
+      "correct_answer": ["I", "genitori", "sono", "simpatici."],
+      "distractors": ["genitore", "stanchi"],
+      "hints": ["Plural masculine adjective → -i."],
+      "target_words": ["genitori"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "madre", "meaning": "Mother", "example": "La madre di Marco è gentile." },
+    { "word": "padre", "meaning": "Father", "example": "Il padre di Anna è alto." },
+    { "word": "mamma", "meaning": "Mum", "example": "La mamma è in cucina." },
+    { "word": "papà", "meaning": "Dad", "example": "Il papà è in giardino." },
+    { "word": "figlio", "meaning": "Son", "example": "Il figlio è giovane." },
+    { "word": "figlia", "meaning": "Daughter", "example": "La figlia è piccola." },
+    { "word": "genitori", "meaning": "Parents", "example": "I genitori sono simpatici." },
+    { "word": "famiglia", "meaning": "Family", "example": "La famiglia è grande." }
+  ]
+}

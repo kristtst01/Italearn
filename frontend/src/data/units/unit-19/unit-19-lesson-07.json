@@ -1,0 +1,27 @@
+{
+  "id": "unit-19-lesson-07",
+  "unit_id": "unit-19",
+  "name": "A Card for Giulia",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-19-lesson-07-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Giulia sends the class this card. Write a card back: thank her, say what you are bringing on Friday, say where you are for the holidays and what the weather is like there, and send your wishes."
+      },
+      "sentence_context": "",
+      "correct_answer": "Cara Giulia, grazie per il messaggio! Venerdì porto un dolce inglese. A Natale vado a Londra: lì fa freddo e piove spesso, ma non è un problema. Festeggio Capodanno con gli amici. Tanti auguri di buon Natale e felice anno nuovo anche a te! A presto, Emma",
+      "distractors": [],
+      "hints": ["Cara Giulia; porto…; a Natale vado a / sto a…; lì fa… or c'è…; tanti auguri."],
+      "target_words": ["augurio", "Natale", "Capodanno"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Cari studenti",
+    "paragraphs": ["Cari studenti,", "la scuola è chiusa per le vacanze di Natale dal 22 dicembre al 6 gennaio. Le lezioni cominciano di nuovo il 7 gennaio, alle nove.", "Ma prima festeggiamo insieme: venerdì 18 dicembre, dopo la lezione, in classe. Io porto un dolce di Natale e una bottiglia di vino. E voi?", "A Natale sto a Firenze, e a Capodanno vado in montagna con gli amici, a sciare. Lì c'è già la neve!", "Tanti auguri di buon Natale e felice anno nuovo a tutti!", "Giulia"]
+  }
+}

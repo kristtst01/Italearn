@@ -1,0 +1,246 @@
+{
+  "id": "unit-08-lesson-03",
+  "unit_id": "unit-08",
+  "name": "Husband, Wife & Kids",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-08-lesson-03-tip-01",
+      "title": "Married Couples",
+      "explanation": "'Marito' (husband) and 'moglie' (wife) don't follow the -o/-a pattern — they're different words. 'Moglie' is an exception: feminine, ending in -e, plural 'mogli'.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-08-lesson-03-tip-02",
+      "title": "Bambino, Bambina",
+      "explanation": "'Bambino/bambina' means a child — small enough that you'd say 'kid' in English. For an adult son or daughter, use 'figlio/figlia' from Lesson 1.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-08-lesson-03-tip-03",
+      "title": "Boyfriend or Just a Boy?",
+      "explanation": "'Ragazzo' (Unit 3) can mean 'boy' or 'boyfriend' depending on context. 'Fidanzato/fidanzata' is more specific — engaged or in a serious relationship.",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-08-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'marito' mean?" },
+      "sentence_context": "Il marito di Anna è alto.",
+      "correct_answer": "Husband",
+      "distractors": ["Wife", "Son", "Father"],
+      "hints": ["Anna's husband is tall."],
+      "target_words": ["marito"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'moglie' mean?" },
+      "sentence_context": "La moglie di Marco è dottoressa.",
+      "correct_answer": "Wife",
+      "distractors": ["Husband", "Mother", "Daughter"],
+      "hints": ["Marco's wife is a doctor."],
+      "target_words": ["moglie"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'bambino' mean?" },
+      "sentence_context": "Il bambino è felice.",
+      "correct_answer": "Child (male) / kid",
+      "distractors": ["Father", "Brother", "Cousin"],
+      "hints": ["A young child."],
+      "target_words": ["bambino"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'bambina' mean?" },
+      "sentence_context": "La bambina è piccola.",
+      "correct_answer": "Child (female) / little girl",
+      "distractors": ["Sister", "Mother", "Daughter"],
+      "hints": ["A young girl."],
+      "target_words": ["bambina"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'fidanzato' mean?" },
+      "sentence_context": "Il fidanzato di Anna è simpatico.",
+      "correct_answer": "Boyfriend / fiancé",
+      "distractors": ["Husband", "Brother", "Friend"],
+      "hints": ["A serious romantic partner."],
+      "target_words": ["fidanzato"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'fidanzata' mean?" },
+      "sentence_context": "La fidanzata di Marco è bella.",
+      "correct_answer": "Girlfriend / fiancée",
+      "distractors": ["Wife", "Mother", "Sister"],
+      "hints": ["A serious romantic partner (female)."],
+      "target_words": ["fidanzata"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ___ di Anna è dottore.",
+      "correct_answer": "marito",
+      "distractors": [],
+      "hints": ["Anna's husband is a doctor."],
+      "target_words": ["marito"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La ___ di Marco è gentile.",
+      "correct_answer": "moglie",
+      "distractors": [],
+      "hints": ["Marco's wife is kind."],
+      "target_words": ["moglie"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ___ è in giardino.",
+      "correct_answer": "bambino",
+      "distractors": [],
+      "hints": ["The child is in the garden."],
+      "target_words": ["bambino"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Anna è la ___ di Marco.",
+      "correct_answer": "fidanzata",
+      "distractors": [],
+      "hints": ["Anna is Marco's girlfriend."],
+      "target_words": ["fidanzata"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ___ di Anna è simpatico.",
+      "correct_answer": "fidanzato",
+      "distractors": [],
+      "hints": ["Anna's boyfriend is nice."],
+      "target_words": ["fidanzato"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Marco è un ___ di Anna.",
+      "correct_answer": "parente",
+      "distractors": [],
+      "hints": ["Marco is a relative of Anna."],
+      "target_words": ["parente"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'husband' in Italian?" },
+      "sentence_context": "Il marito di Maria è gentile.",
+      "correct_answer": "marito",
+      "distractors": [],
+      "hints": ["The pair word for 'moglie'."],
+      "target_words": ["marito"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'wife' in Italian?" },
+      "sentence_context": "La moglie di Luca è alta.",
+      "correct_answer": "moglie",
+      "distractors": [],
+      "hints": ["Feminine, ends in -e (irregular)."],
+      "target_words": ["moglie"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'child / kid' (male) in Italian?" },
+      "sentence_context": "Il bambino è felice.",
+      "correct_answer": "bambino",
+      "distractors": [],
+      "hints": ["A young child (male)."],
+      "target_words": ["bambino"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'relative' in Italian?" },
+      "sentence_context": "È un parente di Marco.",
+      "correct_answer": "parente",
+      "distractors": [],
+      "hints": ["Any family member — broad word."],
+      "target_words": ["parente"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: \"Anna's husband is tall.\"" },
+      "sentence_context": "Il marito di Anna è alto.",
+      "correct_answer": ["Il", "marito", "di", "Anna", "è", "alto."],
+      "distractors": ["moglie", "bassa"],
+      "hints": ["Use 'di' to show whose husband it is."],
+      "target_words": ["marito"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The child is small.'" },
+      "sentence_context": "Il bambino è piccolo.",
+      "correct_answer": ["Il", "bambino", "è", "piccolo."],
+      "distractors": ["bambina", "grande"],
+      "hints": ["Masculine → bambino, piccolo."],
+      "target_words": ["bambino"]
+    },
+    {
+      "id": "unit-08-lesson-03-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'My girlfriend is intelligent.'" },
+      "sentence_context": "La mia fidanzata è intelligente.",
+      "correct_answer": ["La", "mia", "fidanzata", "è", "intelligente."],
+      "distractors": ["fidanzato", "stanca"],
+      "hints": ["'Fidanzata' is feminine."],
+      "target_words": ["fidanzata"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "marito", "meaning": "Husband", "example": "Il marito di Anna è alto." },
+    { "word": "moglie", "meaning": "Wife", "example": "La moglie di Marco è dottoressa." },
+    { "word": "bambino", "meaning": "Child / kid (male)", "example": "Il bambino è felice." },
+    { "word": "bambina", "meaning": "Child / little girl", "example": "La bambina è piccola." },
+    { "word": "fidanzato", "meaning": "Boyfriend / fiancé", "example": "Il fidanzato di Anna è simpatico." },
+    { "word": "fidanzata", "meaning": "Girlfriend / fiancée", "example": "La fidanzata di Marco è bella." },
+    { "word": "parente", "meaning": "Relative", "example": "Marco è un parente di Anna." }
+  ]
+}

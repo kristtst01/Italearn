@@ -1,0 +1,98 @@
+{
+  "id": "unit-08-lesson-09",
+  "unit_id": "unit-08",
+  "name": "Say It Out Loud",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-08-lesson-09-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Questa è la mia famiglia.",
+      "correct_answer": "Questa è la mia famiglia.",
+      "distractors": [],
+      "hints": ["Famiglia: gli sounds like the lli in million."],
+      "target_words": ["famiglia"]
+    },
+    {
+      "id": "unit-08-lesson-09-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Mio padre e mia madre abitano a Bologna.",
+      "correct_answer": "Mio padre e mia madre abitano a Bologna.",
+      "distractors": [],
+      "hints": ["No article before padre and madre."],
+      "target_words": ["padre", "madre"]
+    },
+    {
+      "id": "unit-08-lesson-09-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Mia moglie e mio figlio sono in Italia.",
+      "correct_answer": "Mia moglie e mio figlio sono in Italia.",
+      "distractors": [],
+      "hints": ["Moglie, figlio: the same gl sound."],
+      "target_words": ["moglie"]
+    },
+    {
+      "id": "unit-08-lesson-09-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "I miei nonni sono in pensione.",
+      "correct_answer": "I miei nonni sono in pensione.",
+      "distractors": [],
+      "hints": ["Nonni: hold the double n."],
+      "target_words": ["nonno", "in pensione"]
+    },
+    {
+      "id": "unit-08-lesson-09-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Mia cugina ha un fidanzato nuovo.",
+      "correct_answer": "Mia cugina ha un fidanzato nuovo.",
+      "distractors": [],
+      "hints": ["Cugina: the g is soft before i."],
+      "target_words": ["cugino", "fidanzato"]
+    },
+    {
+      "id": "unit-08-lesson-09-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ciao, nonna! Ti voglio bene.",
+      "correct_answer": "Ciao, nonna! Ti voglio bene.",
+      "distractors": [],
+      "hints": ["Voglio: the gl sound again."],
+      "target_words": ["ti voglio bene"]
+    },
+    {
+      "id": "unit-08-lesson-09-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Un abbraccio e tanti baci!",
+      "correct_answer": "Un abbraccio e tanti baci!",
+      "distractors": [],
+      "hints": ["Abbraccio: two b, two c."],
+      "target_words": ["abbraccio", "bacio"]
+    },
+    {
+      "id": "unit-08-lesson-09-ex-08",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Hai animali? Sì, un cane e due gatti.",
+      "correct_answer": "Hai animali? Sì, un cane e due gatti.",
+      "distractors": [],
+      "hints": ["Gatti: hold the double t."],
+      "target_words": ["animale"]
+    }
+  ],
+  "vocabulary": []
+}

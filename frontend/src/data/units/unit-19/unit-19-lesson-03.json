@@ -1,287 +1,187 @@
 {
   "id": "unit-19-lesson-03",
   "unit_id": "unit-19",
-  "name": "Months & Dates",
+  "name": "Holidays & Wishes",
   "order": 3,
-  "grammar_tips": [
-    {
-      "id": "unit-19-lesson-03-tip-01",
-      "title": "The Twelve Months",
-      "explanation": "gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre. All masculine, all written with a small letter — not a capital like in English.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-19-lesson-03-tip-02",
-      "title": "Saying the Date",
-      "explanation": "'Oggi è il 15 marzo' = Today is the 15th of March. Italian uses the article 'il' + number + month. The first day of the month is special: 'il primo marzo' (1st of March).",
-      "before_exercise": 13
-    },
-    {
-      "id": "unit-19-lesson-03-tip-03",
-      "title": "When's Your Birthday?",
-      "explanation": "'Quando è il tuo compleanno?' = 'When's your birthday?'. Answer: 'Il mio compleanno è il 10 agosto'. Use 'a' + month: 'a marzo' (in March).",
-      "before_exercise": 17
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-19-lesson-03-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'gennaio' mean?" },
-      "sentence_context": "In gennaio fa freddo.",
-      "correct_answer": "January",
-      "distractors": ["February", "June", "July"],
-      "hints": ["The first month of the year."],
-      "target_words": ["gennaio"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'Capodanno' mean?" },
+      "sentence_context": "Capodanno è il primo gennaio.",
+      "correct_answer": ["new year's day", "new year", "new year's"],
+      "distractors": [],
+      "hints": ["The first of January."],
+      "target_words": ["Capodanno"]
     },
     {
       "id": "unit-19-lesson-03-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'febbraio' mean?" },
-      "sentence_context": "Febbraio è un mese corto.",
-      "correct_answer": "February",
-      "distractors": ["January", "March", "April"],
-      "hints": ["February is a short month."],
-      "target_words": ["febbraio"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'festeggiare' mean?" },
+      "sentence_context": "Domani festeggiamo il compleanno di Emma.",
+      "correct_answer": ["to celebrate", "celebrate"],
+      "distractors": [],
+      "hints": ["What you do on a birthday."],
+      "target_words": ["festeggiare"]
     },
     {
       "id": "unit-19-lesson-03-ex-03",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'maggio' mean?" },
-      "sentence_context": "In maggio ci sono i fiori.",
-      "correct_answer": "May",
-      "distractors": ["March", "April", "June"],
-      "hints": ["In May there are flowers."],
-      "target_words": ["maggio"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Christmas is on the twenty-fifth of December." },
+      "sentence_context": "Natale è il ___ dicembre.",
+      "correct_answer": ["venticinque", "25"],
+      "distractors": [],
+      "hints": ["The number, in words."],
+      "target_words": ["Natale"]
     },
     {
       "id": "unit-19-lesson-03-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'agosto' mean?" },
-      "sentence_context": "In agosto vado in vacanza.",
-      "correct_answer": "August",
-      "distractors": ["July", "September", "October"],
-      "hints": ["In August I go on holiday."],
-      "target_words": ["agosto"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: New Year's Day is the first of January." },
+      "sentence_context": "Capodanno è il ___ gennaio.",
+      "correct_answer": "primo",
+      "distractors": [],
+      "hints": ["The first of the month."],
+      "target_words": ["Capodanno"]
     },
     {
       "id": "unit-19-lesson-03-ex-05",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'dicembre' mean?" },
-      "sentence_context": "Dicembre è l'ultimo mese.",
-      "correct_answer": "December",
-      "distractors": ["November", "October", "January"],
-      "hints": ["The last month of the year."],
-      "target_words": ["dicembre"]
+      "prompt": { "text": "It's the 23rd of December. A colleague is leaving work for the holidays. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Buon Natale!",
+      "distractors": ["Buona Pasqua!", "Buon appetito!", "Buon compleanno!"],
+      "hints": ["The holiday in two days."],
+      "target_words": ["Natale"]
     },
     {
       "id": "unit-19-lesson-03-ex-06",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Dopo febbraio è ___.",
-      "correct_answer": "marzo",
-      "distractors": [],
-      "hints": ["After February is March."],
-      "target_words": ["marzo"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Your friend says it is her birthday today. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Tanti auguri!",
+      "distractors": ["Buon Natale!", "Buona Pasqua!", "Buon anno!"],
+      "hints": ["For a birthday."],
+      "target_words": ["augurio"]
     },
     {
       "id": "unit-19-lesson-03-ex-07",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Dopo marzo è ___.",
-      "correct_answer": "aprile",
+      "prompt": { "text": "Complete: The children eat the Easter egg." },
+      "sentence_context": "I bambini mangiano l'uovo di ___.",
+      "correct_answer": "Pasqua",
       "distractors": [],
-      "hints": ["After March is April."],
-      "target_words": ["aprile"]
+      "hints": ["Easter."],
+      "target_words": ["Pasqua"]
     },
     {
       "id": "unit-19-lesson-03-ex-08",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Dopo maggio è ___.",
-      "correct_answer": "giugno",
-      "distractors": [],
-      "hints": ["After May is June."],
-      "target_words": ["giugno"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "When is Easter?" },
+      "sentence_context": "",
+      "correct_answer": "A marzo o ad aprile",
+      "distractors": ["Il venticinque dicembre", "Il primo gennaio", "Il quindici agosto"],
+      "hints": ["It changes every year."],
+      "target_words": ["Pasqua"]
     },
     {
       "id": "unit-19-lesson-03-ex-09",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Dopo giugno è ___.",
-      "correct_answer": "luglio",
+      "prompt": { "text": "Complete: Ferragosto is the fifteenth of August." },
+      "sentence_context": "Ferragosto è il ___ agosto.",
+      "correct_answer": ["quindici", "15"],
       "distractors": [],
-      "hints": ["After June is July."],
-      "target_words": ["luglio"]
+      "hints": ["The number, in words."],
+      "target_words": ["Ferragosto"]
     },
     {
       "id": "unit-19-lesson-03-ex-10",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Dopo agosto è ___.",
-      "correct_answer": "settembre",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "On the 24th of December your neighbour, Signora Bianchi, says goodbye on the stairs. You use Lei with her." },
+      "sentence_context": "Signora Bianchi: Buon Natale!\nYou: ___",
+      "correct_answer": ["Grazie, buon Natale anche a Lei!", "Auguri anche a Lei!"],
       "distractors": [],
-      "hints": ["After August is September."],
-      "target_words": ["settembre"]
+      "hints": ["Anche a Lei."],
+      "target_words": ["Natale", "augurio"],
+      "dialogue": [
+        { "speaker": "Signora Bianchi", "text": "Buon Natale!" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-19-lesson-03-ex-11",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Dopo settembre è ___.",
-      "correct_answer": "ottobre",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend asks where you are celebrating New Year's Day. In Rome, with friends." },
+      "sentence_context": "Friend: Dove festeggi Capodanno?\nYou: ___",
+      "correct_answer": ["A Roma, con gli amici.", "Festeggio a Roma, con gli amici."],
       "distractors": [],
-      "hints": ["After September is October."],
-      "target_words": ["ottobre"]
+      "hints": ["Festeggio, or just the place."],
+      "target_words": ["festeggiare"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Dove festeggi Capodanno?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-19-lesson-03-ex-12",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Dopo ottobre è ___.",
-      "correct_answer": "novembre",
-      "distractors": [],
-      "hints": ["After October is November."],
-      "target_words": ["novembre"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'In December we put up the Christmas tree.'" },
+      "sentence_context": "A dicembre facciamo l'albero di Natale.",
+      "correct_answer": ["A", "dicembre", "facciamo", "l'albero", "di", "Natale."],
+      "distractors": ["fiore", "fanno"],
+      "hints": ["Fare l'albero: to put up the tree."],
+      "target_words": ["albero", "Natale"]
     },
     {
       "id": "unit-19-lesson-03-ex-13",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'mese' mean?" },
-      "sentence_context": "Un anno ha dodici mesi.",
-      "correct_answer": "Month",
-      "distractors": ["Year", "Week", "Day"],
-      "hints": ["A year has 12 months."],
-      "target_words": ["mese"]
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say: happy Easter!" },
+      "sentence_context": "",
+      "correct_answer": ["buona pasqua"],
+      "distractors": [],
+      "hints": ["Pasqua is feminine."],
+      "target_words": ["Pasqua"]
     },
     {
       "id": "unit-19-lesson-03-ex-14",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'data' mean?" },
-      "sentence_context": "Che data è oggi?",
-      "correct_answer": "Date",
-      "distractors": ["Day", "Month", "Birthday"],
-      "hints": ["What's today's date?"],
-      "target_words": ["data"]
-    },
-    {
-      "id": "unit-19-lesson-03-ex-15",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'compleanno' mean?" },
-      "sentence_context": "Il mio compleanno è in agosto.",
-      "correct_answer": "Birthday",
-      "distractors": ["Anniversary", "Day", "Year"],
-      "hints": ["My birthday is in August."],
-      "target_words": ["compleanno"]
-    },
-    {
-      "id": "unit-19-lesson-03-ex-16",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'July' in Italian?" },
-      "sentence_context": "Luglio è caldo.",
-      "correct_answer": "luglio",
-      "distractors": [],
-      "hints": ["A summer month."],
-      "target_words": ["luglio"]
-    },
-    {
-      "id": "unit-19-lesson-03-ex-17",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'November' in Italian?" },
-      "sentence_context": "Novembre è freddo.",
-      "correct_answer": "novembre",
-      "distractors": [],
-      "hints": ["An autumn month."],
-      "target_words": ["novembre"]
-    },
-    {
-      "id": "unit-19-lesson-03-ex-18",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'month' in Italian?" },
-      "sentence_context": "Un mese ha trenta giorni.",
-      "correct_answer": "mese",
-      "distractors": [],
-      "hints": ["A masculine noun ending in -e."],
-      "target_words": ["mese"]
-    },
-    {
-      "id": "unit-19-lesson-03-ex-19",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'birthday' in Italian?" },
-      "sentence_context": "Il mio compleanno è il 5 marzo.",
-      "correct_answer": "compleanno",
-      "distractors": [],
-      "hints": ["Compleanno = compl + anno."],
-      "target_words": ["compleanno"]
-    },
-    {
-      "id": "unit-19-lesson-03-ex-20",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'My birthday is the 10th of August.'" },
-      "sentence_context": "Il mio compleanno è il 10 agosto.",
-      "correct_answer": ["Il", "mio", "compleanno", "è", "il", "10", "agosto."],
-      "distractors": ["in", "settembre"],
-      "hints": ["'il' + number + month."],
-      "target_words": ["compleanno", "agosto"]
-    },
-    {
-      "id": "unit-19-lesson-03-ex-21",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'In August I go on holiday.'" },
-      "sentence_context": "In agosto vado in vacanza.",
-      "correct_answer": ["In", "agosto", "vado", "in", "vacanza."],
-      "distractors": ["a", "lavoro"],
-      "hints": ["'In' + month."],
-      "target_words": ["agosto"]
-    },
-    {
-      "id": "unit-19-lesson-03-ex-22",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'A year has twelve months.'" },
-      "sentence_context": "Un anno ha dodici mesi.",
-      "correct_answer": ["Un", "anno", "ha", "dodici", "mesi."],
-      "distractors": ["mese", "settimane"],
-      "hints": ["Plural mese → mesi."],
-      "target_words": ["mese"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Say: best wishes for your birthday! (to a friend)" },
+      "sentence_context": "",
+      "correct_answer": ["tanti auguri di buon compleanno", "auguri di buon compleanno"],
+      "distractors": [],
+      "hints": ["Auguri di + the wish."],
+      "target_words": ["augurio"]
     }
   ],
   "vocabulary": [
-    { "word": "gennaio", "meaning": "January", "example": "In gennaio fa freddo." },
-    { "word": "febbraio", "meaning": "February", "example": "Febbraio è un mese corto." },
-    { "word": "marzo", "meaning": "March", "example": "Dopo febbraio è marzo." },
-    { "word": "aprile", "meaning": "April", "example": "In aprile piove." },
-    { "word": "maggio", "meaning": "May", "example": "In maggio ci sono i fiori." },
-    { "word": "giugno", "meaning": "June", "example": "Giugno è il primo mese dell'estate." },
-    { "word": "luglio", "meaning": "July", "example": "Luglio è caldo." },
-    { "word": "agosto", "meaning": "August", "example": "In agosto vado in vacanza." },
-    { "word": "settembre", "meaning": "September", "example": "Dopo agosto è settembre." },
-    { "word": "ottobre", "meaning": "October", "example": "In ottobre fa freddo." },
-    { "word": "novembre", "meaning": "November", "example": "Novembre è freddo." },
-    { "word": "dicembre", "meaning": "December", "example": "Dicembre è l'ultimo mese." },
-    { "word": "mese", "meaning": "Month", "example": "Un mese ha trenta giorni." },
-    { "word": "data", "meaning": "Date", "example": "Che data è oggi?" },
-    { "word": "compleanno", "meaning": "Birthday", "example": "Il mio compleanno è in agosto." }
+    { "word": "Natale", "meaning": "Christmas · buon Natale! = happy Christmas!", "example": "Natale è il venticinque dicembre." },
+    {
+      "word": "Capodanno",
+      "meaning": "New Year: the 1st of January, and the celebrations the night before · buon anno! = happy New Year!",
+      "example": "Capodanno è il primo gennaio."
+    },
+    { "word": "Pasqua", "meaning": "Easter · buona Pasqua! = happy Easter! · l'uovo di Pasqua = Easter egg", "example": "Pasqua è a marzo o ad aprile." },
+    { "word": "Ferragosto", "meaning": "the 15th of August, a summer holiday in Italy", "example": "A Ferragosto molti italiani sono al mare." },
+    {
+      "word": "augurio",
+      "meaning": "a wish · auguri!, tanti auguri! = best wishes! · fare gli auguri = to send your best wishes",
+      "example": "Telefono a Giulia per fare gli auguri."
+    },
+    { "word": "festeggiare", "meaning": "to celebrate", "example": "Domani festeggiamo il compleanno di Emma." }
   ]
 }

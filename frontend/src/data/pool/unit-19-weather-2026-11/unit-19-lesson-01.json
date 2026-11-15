@@ -1,0 +1,258 @@
+{
+  "id": "unit-19-lesson-01",
+  "unit_id": "unit-19",
+  "name": "The Weather",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-19-lesson-01-tip-01",
+      "title": "Italian Weather Uses Fare and C'è",
+      "explanation": "Italian uses 'fa' (3rd of fare) for temperature: 'fa caldo' (it's hot), 'fa freddo' (it's cold). And 'c'è' for visible weather: 'c'è il sole' (it's sunny), 'c'è il vento' (it's windy).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-19-lesson-01-tip-02",
+      "title": "Piove and Nevica",
+      "explanation": "'Piove' (it's raining) and 'nevica' (it's snowing) are full sentences by themselves. The infinitives are 'piovere' and 'nevicare'. Used only in the 3rd person — no 'io piovo'.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-19-lesson-01-tip-03",
+      "title": "What's the Weather Like?",
+      "explanation": "'Che tempo fa?' = 'How's the weather?' Literally 'What weather does it make?'. Answer with 'fa caldo / freddo' or 'c'è il sole / piove'.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-19-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sole' mean?" },
+      "sentence_context": "Oggi c'è il sole.",
+      "correct_answer": "Sun",
+      "distractors": ["Rain", "Snow", "Cloud"],
+      "hints": ["Today it's sunny."],
+      "target_words": ["sole"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'pioggia' mean?" },
+      "sentence_context": "Non mi piace la pioggia.",
+      "correct_answer": "Rain",
+      "distractors": ["Snow", "Wind", "Cloud"],
+      "hints": ["I don't like rain."],
+      "target_words": ["pioggia"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'neve' mean?" },
+      "sentence_context": "Mi piace la neve.",
+      "correct_answer": "Snow",
+      "distractors": ["Rain", "Ice", "Fog"],
+      "hints": ["I like snow."],
+      "target_words": ["neve"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'vento' mean?" },
+      "sentence_context": "Oggi c'è vento.",
+      "correct_answer": "Wind",
+      "distractors": ["Rain", "Storm", "Cloud"],
+      "hints": ["Today it's windy."],
+      "target_words": ["vento"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'nuvoloso' mean?" },
+      "sentence_context": "Oggi è nuvoloso.",
+      "correct_answer": "Cloudy",
+      "distractors": ["Sunny", "Rainy", "Foggy"],
+      "hints": ["Today it's cloudy."],
+      "target_words": ["nuvoloso"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'nebbia' mean?" },
+      "sentence_context": "La mattina c'è la nebbia.",
+      "correct_answer": "Fog",
+      "distractors": ["Cloud", "Snow", "Rain"],
+      "hints": ["In the morning there's fog."],
+      "target_words": ["nebbia"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'piovere' mean?" },
+      "sentence_context": "Oggi piove tanto.",
+      "correct_answer": "To rain",
+      "distractors": ["To snow", "To shine", "To blow"],
+      "hints": ["Today it's raining a lot."],
+      "target_words": ["piovere"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'nevicare' mean?" },
+      "sentence_context": "In montagna nevica.",
+      "correct_answer": "To snow",
+      "distractors": ["To rain", "To freeze", "To blow"],
+      "hints": ["In the mountains it's snowing."],
+      "target_words": ["nevicare"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Oggi ___ caldo.",
+      "correct_answer": "fa",
+      "distractors": [],
+      "hints": ["It's hot today. (uses fare)"],
+      "target_words": ["sole"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Oggi ___ il sole.",
+      "correct_answer": "c'è",
+      "distractors": [],
+      "hints": ["It's sunny today. (uses c'è)"],
+      "target_words": ["sole"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "A Milano spesso c'è ___.",
+      "correct_answer": "nebbia",
+      "distractors": [],
+      "hints": ["In Milan there's often fog."],
+      "target_words": ["nebbia"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Oggi è ___.",
+      "correct_answer": "nuvoloso",
+      "distractors": [],
+      "hints": ["Today it's cloudy."],
+      "target_words": ["nuvoloso"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'it's raining'?" },
+      "sentence_context": "Oggi piove.",
+      "correct_answer": "piove",
+      "distractors": [],
+      "hints": ["3rd person of piovere."],
+      "target_words": ["piovere"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'it's snowing'?" },
+      "sentence_context": "In montagna nevica.",
+      "correct_answer": "nevica",
+      "distractors": [],
+      "hints": ["3rd person of nevicare."],
+      "target_words": ["nevicare"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'sun' in Italian?" },
+      "sentence_context": "C'è il sole.",
+      "correct_answer": "sole",
+      "distractors": [],
+      "hints": ["Masculine: il sole."],
+      "target_words": ["sole"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'wind' in Italian?" },
+      "sentence_context": "C'è il vento.",
+      "correct_answer": "vento",
+      "distractors": [],
+      "hints": ["Masculine: il vento."],
+      "target_words": ["vento"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Pick 'fa' or 'c'è' — it's cold today." },
+      "sentence_context": "Oggi ___ freddo.",
+      "correct_answer": "fa",
+      "distractors": [],
+      "hints": ["Temperature → fa."],
+      "target_words": ["sole"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Pick 'fa' or 'c'è' — there's snow." },
+      "sentence_context": "Oggi ___ la neve.",
+      "correct_answer": "c'è",
+      "distractors": [],
+      "hints": ["Visible thing → c'è."],
+      "target_words": ["neve"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: \"How's the weather today?\"" },
+      "sentence_context": "Che tempo fa oggi?",
+      "correct_answer": ["Che", "tempo", "fa", "oggi?"],
+      "distractors": ["è", "domani"],
+      "hints": ["'Che tempo fa' = how's the weather."],
+      "target_words": ["sole"]
+    },
+    {
+      "id": "unit-19-lesson-01-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: \"It's raining and it's cold.\"" },
+      "sentence_context": "Piove e fa freddo.",
+      "correct_answer": ["Piove", "e", "fa", "freddo."],
+      "distractors": ["nevica", "caldo"],
+      "hints": ["'Piove' + 'fa freddo'."],
+      "target_words": ["piovere"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "sole", "meaning": "Sun", "example": "Oggi c'è il sole." },
+    { "word": "pioggia", "meaning": "Rain", "example": "Non mi piace la pioggia." },
+    { "word": "neve", "meaning": "Snow", "example": "Mi piace la neve." },
+    { "word": "vento", "meaning": "Wind", "example": "Oggi c'è vento." },
+    { "word": "nuvoloso", "meaning": "Cloudy", "example": "Oggi è nuvoloso." },
+    { "word": "nebbia", "meaning": "Fog", "example": "La mattina c'è la nebbia." },
+    { "word": "piovere", "meaning": "To rain", "example": "Oggi piove tanto." },
+    { "word": "nevicare", "meaning": "To snow", "example": "In montagna nevica." }
+  ]
+}

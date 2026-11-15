@@ -1,0 +1,252 @@
+{
+  "id": "unit-08-lesson-05",
+  "unit_id": "unit-08",
+  "name": "Possessives II — Nostro, Vostro, Loro",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-08-lesson-05-tip-01",
+      "title": "Nostro & Vostro",
+      "explanation": "'Nostro' (our) and 'vostro' (your, for more than one person) agree like 'mio': 'il nostro libro', 'la vostra casa', 'i nostri amici'.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-08-lesson-05-tip-02",
+      "title": "Loro Never Changes",
+      "explanation": "'Loro' (their) is invariable — it never changes: 'il loro cane', 'la loro casa', 'i loro figli'. And unlike other possessives, it always keeps the article — even with family: 'la loro madre'.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-08-lesson-05-tip-03",
+      "title": "Family Rule Recap",
+      "explanation": "The family-no-article rule still applies to nostro/vostro with singular family: 'nostro padre' (not 'il nostro padre'), 'vostra madre'. But never with 'loro': always 'la loro madre'.",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-08-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'il nostro' mean?" },
+      "sentence_context": "Il nostro cane è grande.",
+      "correct_answer": "Our",
+      "distractors": ["Your (plural)", "Their", "His"],
+      "hints": ["Our dog is big."],
+      "target_words": ["nostro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'il vostro' mean?" },
+      "sentence_context": "Il vostro giardino è bello.",
+      "correct_answer": "Your (plural)",
+      "distractors": ["Our", "Their", "Your (singular)"],
+      "hints": ["For more than one owner."],
+      "target_words": ["vostro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'il loro' mean here?" },
+      "sentence_context": "Il loro cane è simpatico.",
+      "correct_answer": "Their",
+      "distractors": ["Our", "Your", "His/Her"],
+      "hints": ["'Loro' here means 'their'."],
+      "target_words": ["loro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which is correct for 'their mother'?" },
+      "sentence_context": "La loro madre è italiana.",
+      "correct_answer": "la loro madre",
+      "distractors": ["loro madre", "il loro madre", "la sua madre"],
+      "hints": ["With 'loro' the article always stays."],
+      "target_words": ["loro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ___ cane è grande.",
+      "correct_answer": "nostro",
+      "distractors": [],
+      "hints": ["Our dog is big."],
+      "target_words": ["nostro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il ___ giardino è bello.",
+      "correct_answer": "vostro",
+      "distractors": [],
+      "hints": ["Your (plural) garden is beautiful."],
+      "target_words": ["vostro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La ___ macchina è rossa.",
+      "correct_answer": "loro",
+      "distractors": [],
+      "hints": ["Their car is red."],
+      "target_words": ["loro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "La ___ casa è grande.",
+      "correct_answer": "nostra",
+      "distractors": [],
+      "hints": ["Our house is big."],
+      "target_words": ["nostro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'our' (with masculine 'libro')?" },
+      "sentence_context": "Il nostro libro è nuovo.",
+      "correct_answer": "nostro",
+      "distractors": [],
+      "hints": ["Masculine → nostro."],
+      "target_words": ["nostro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'your (plural)' (with masculine 'tavolo')?" },
+      "sentence_context": "Il vostro tavolo è vecchio.",
+      "correct_answer": "vostro",
+      "distractors": [],
+      "hints": ["For more than one owner."],
+      "target_words": ["vostro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'their' (always the same)?" },
+      "sentence_context": "Il loro cane è grande.",
+      "correct_answer": "loro",
+      "distractors": [],
+      "hints": ["Loro is invariable."],
+      "target_words": ["loro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-12",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'our' so it agrees with 'casa' (feminine)." },
+      "sentence_context": "La ___ casa è grande.",
+      "correct_answer": "nostra",
+      "distractors": [],
+      "hints": ["Feminine → nostra."],
+      "target_words": ["nostro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'your (plural)' so it agrees with 'borsa' (feminine)." },
+      "sentence_context": "La ___ borsa è nuova.",
+      "correct_answer": "vostra",
+      "distractors": [],
+      "hints": ["Feminine → vostra."],
+      "target_words": ["vostro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in 'their' — remember, 'loro' never changes." },
+      "sentence_context": "La ___ macchina è rossa.",
+      "correct_answer": "loro",
+      "distractors": [],
+      "hints": ["Loro is invariable: always 'loro'."],
+      "target_words": ["loro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'our' before a single family member — no article." },
+      "sentence_context": "___ padre è in giardino.",
+      "correct_answer": "Nostro",
+      "distractors": [],
+      "hints": ["One family member → no article."],
+      "target_words": ["nostro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Write 'their' before a family member — article stays with loro." },
+      "sentence_context": "La ___ madre è italiana.",
+      "correct_answer": "loro",
+      "distractors": [],
+      "hints": ["With 'loro' the article never drops."],
+      "target_words": ["loro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Our family is big.'" },
+      "sentence_context": "La nostra famiglia è grande.",
+      "correct_answer": ["La", "nostra", "famiglia", "è", "grande."],
+      "distractors": ["nostro", "vostra"],
+      "hints": ["'Famiglia' is feminine → nostra."],
+      "target_words": ["nostro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Their cousin is nice.'" },
+      "sentence_context": "Il loro cugino è simpatico.",
+      "correct_answer": ["Il", "loro", "cugino", "è", "simpatico."],
+      "distractors": ["nostro", "cugina"],
+      "hints": ["Loro keeps the article."],
+      "target_words": ["loro", "cugino"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Our parents are Italian.'" },
+      "sentence_context": "I nostri genitori sono italiani.",
+      "correct_answer": ["I", "nostri", "genitori", "sono", "italiani."],
+      "distractors": ["nostro", "genitore"],
+      "hints": ["Plural family → article comes back."],
+      "target_words": ["nostro"]
+    },
+    {
+      "id": "unit-08-lesson-05-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Your (plural) house is big.'" },
+      "sentence_context": "La vostra casa è grande.",
+      "correct_answer": ["La", "vostra", "casa", "è", "grande."],
+      "distractors": ["vostro", "nostra"],
+      "hints": ["Feminine → vostra."],
+      "target_words": ["vostro"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "nostro", "meaning": "Our", "example": "Il nostro cane è grande." },
+    { "word": "vostro", "meaning": "Your (plural)", "example": "Il vostro giardino è bello." }
+  ]
+}

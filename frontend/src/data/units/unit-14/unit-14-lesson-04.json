@@ -1,0 +1,169 @@
+{
+  "id": "unit-14-lesson-04",
+  "unit_id": "unit-14",
+  "name": "At the Station",
+  "order": 4,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-14-lesson-04-ex-01",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "At the ticket office in Florence. You want a return ticket to Rome for today." },
+      "sentence_context": "Clerk: Buongiorno! Dove va?\nYou: ___",
+      "correct_answer": ["Un biglietto andata e ritorno per Roma, per favore.", "Vorrei un biglietto per Roma, andata e ritorno."],
+      "distractors": [],
+      "hints": ["Un biglietto per…, andata e ritorno."],
+      "target_words": ["ritorno"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "Buongiorno! Dove va?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-14-lesson-04-ex-02",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The clerk gives you two trains. You have time and want the cheap one." },
+      "sentence_context": "Clerk: Il treno delle dieci è veloce, ma costa quaranta euro. Il treno delle dieci e mezza è lento e costa venti euro.\nYou: ___",
+      "correct_answer": ["Prendo il treno delle dieci e mezza.", "Il treno delle dieci e mezza, per favore."],
+      "distractors": [],
+      "hints": ["Il treno delle + the time."],
+      "target_words": ["lento"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "Il treno delle dieci è veloce, ma costa quaranta euro. Il treno delle dieci e mezza è lento e costa venti euro." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-14-lesson-04-ex-03",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": {
+        "text": "On the platform, a man asks if this is the train for Bologna. It's the train for Rome; the Bologna train leaves from platform five."
+      },
+      "sentence_context": "Man: Scusi, è questo il treno per Bologna?\nYou: ___",
+      "correct_answer": ["No, questo è il treno per Roma. Il treno per Bologna parte dal binario cinque.", "No, il treno per Bologna parte dal binario cinque."],
+      "distractors": [],
+      "hints": ["Dal binario + the number."],
+      "target_words": ["binario"],
+      "dialogue": [
+        { "speaker": "Man", "text": "Scusi, è questo il treno per Bologna?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-14-lesson-04-ex-04",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend phones. Your train arrives at 18:40, but it's ten minutes late." },
+      "sentence_context": "Friend: Allora, a che ora arrivi?\nYou: ___",
+      "correct_answer": ["Il treno è in ritardo di dieci minuti: arrivo alle sette meno dieci.", "Alle diciotto e cinquanta. Il treno è in ritardo."],
+      "distractors": [],
+      "hints": ["Add ten minutes to 18:40."],
+      "target_words": ["ritardo"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Allora, a che ora arrivi?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-14-lesson-04-ex-05",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "At the bus stop, an older woman asks how often bus number 12 comes. It comes every fifteen minutes." },
+      "sentence_context": "Woman: Scusi, ogni quanto passa il dodici?\nYou: ___",
+      "correct_answer": ["Passa ogni quindici minuti.", "Ogni quindici minuti."],
+      "distractors": [],
+      "hints": ["Passare."],
+      "target_words": ["passare"],
+      "dialogue": [
+        { "speaker": "Woman", "text": "Scusi, ogni quanto passa il dodici?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-14-lesson-04-ex-06",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You get into a taxi. Say where you're going, and ask how long it takes." },
+      "sentence_context": "Driver: Buonasera! Dove andiamo?\nYou: ___",
+      "correct_answer": ["All'aeroporto, per favore. Quanto tempo ci vuole?", "All'aeroporto, per favore. Quanto ci vuole?"],
+      "distractors": [],
+      "hints": ["A + the place, then ci vuole."],
+      "target_words": ["aeroporto", "ci vuole"],
+      "dialogue": [
+        { "speaker": "Driver", "text": "Buonasera! Dove andiamo?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-14-lesson-04-ex-07",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The driver answers. Now ask about the price." },
+      "sentence_context": "Driver: Con il traffico, ci vogliono circa venti minuti.\nYou: ___",
+      "correct_answer": ["E quanto costa?", "Quanto costa, circa?"],
+      "distractors": [],
+      "hints": ["Quanto costa?"],
+      "target_words": ["circa"],
+      "dialogue": [
+        { "speaker": "Driver", "text": "Con il traffico, ci vogliono circa venti minuti." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-14-lesson-04-ex-08",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend asks how you're getting to the airport. You're taking the bus, because it's cheap." },
+      "sentence_context": "Friend: Come vai all'aeroporto? In taxi?\nYou: ___",
+      "correct_answer": ["No, in autobus: costa poco.", "No, prendo l'autobus, perché è economico."],
+      "distractors": [],
+      "hints": ["In autobus."],
+      "target_words": ["aeroporto"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Come vai all'aeroporto? In taxi?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-14-lesson-04-ex-09",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You're on a crowded bus. A man behind you wants to get past." },
+      "sentence_context": "Man: Scusi, scende alla prossima?\nYou: ___",
+      "correct_answer": ["Sì, scendo alla prossima.", "No, scendo dopo. Prego!"],
+      "distractors": [],
+      "hints": ["Scendere, io."],
+      "target_words": ["scendere"],
+      "dialogue": [
+        { "speaker": "Man", "text": "Scusi, scende alla prossima?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-14-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "The announcement says this. When does the train leave now?" },
+      "sentence_context": "Il treno delle otto e un quarto per Bologna è in ritardo di venti minuti.",
+      "correct_answer": "Alle otto e trentacinque.",
+      "distractors": ["Alle otto e venti.", "Alle otto meno venti."],
+      "hints": ["Add twenty minutes."],
+      "target_words": ["ritardo"]
+    },
+    {
+      "id": "unit-14-lesson-04-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask if the train for Bologna is direct." },
+      "sentence_context": "",
+      "correct_answer": ["il treno per bologna è diretto", "è diretto il treno per bologna"],
+      "distractors": [],
+      "hints": ["Diretto."],
+      "target_words": ["diretto"]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,287 @@
+{
+  "id": "unit-19-lesson-03",
+  "unit_id": "unit-19",
+  "name": "Months & Dates",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-19-lesson-03-tip-01",
+      "title": "The Twelve Months",
+      "explanation": "gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre. All masculine, all written with a small letter — not a capital like in English.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-19-lesson-03-tip-02",
+      "title": "Saying the Date",
+      "explanation": "'Oggi è il 15 marzo' = Today is the 15th of March. Italian uses the article 'il' + number + month. The first day of the month is special: 'il primo marzo' (1st of March).",
+      "before_exercise": 13
+    },
+    {
+      "id": "unit-19-lesson-03-tip-03",
+      "title": "When's Your Birthday?",
+      "explanation": "'Quando è il tuo compleanno?' = 'When's your birthday?'. Answer: 'Il mio compleanno è il 10 agosto'. Use 'a' + month: 'a marzo' (in March).",
+      "before_exercise": 17
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-19-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'gennaio' mean?" },
+      "sentence_context": "In gennaio fa freddo.",
+      "correct_answer": "January",
+      "distractors": ["February", "June", "July"],
+      "hints": ["The first month of the year."],
+      "target_words": ["gennaio"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'febbraio' mean?" },
+      "sentence_context": "Febbraio è un mese corto.",
+      "correct_answer": "February",
+      "distractors": ["January", "March", "April"],
+      "hints": ["February is a short month."],
+      "target_words": ["febbraio"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'maggio' mean?" },
+      "sentence_context": "In maggio ci sono i fiori.",
+      "correct_answer": "May",
+      "distractors": ["March", "April", "June"],
+      "hints": ["In May there are flowers."],
+      "target_words": ["maggio"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'agosto' mean?" },
+      "sentence_context": "In agosto vado in vacanza.",
+      "correct_answer": "August",
+      "distractors": ["July", "September", "October"],
+      "hints": ["In August I go on holiday."],
+      "target_words": ["agosto"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'dicembre' mean?" },
+      "sentence_context": "Dicembre è l'ultimo mese.",
+      "correct_answer": "December",
+      "distractors": ["November", "October", "January"],
+      "hints": ["The last month of the year."],
+      "target_words": ["dicembre"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Dopo febbraio è ___.",
+      "correct_answer": "marzo",
+      "distractors": [],
+      "hints": ["After February is March."],
+      "target_words": ["marzo"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Dopo marzo è ___.",
+      "correct_answer": "aprile",
+      "distractors": [],
+      "hints": ["After March is April."],
+      "target_words": ["aprile"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Dopo maggio è ___.",
+      "correct_answer": "giugno",
+      "distractors": [],
+      "hints": ["After May is June."],
+      "target_words": ["giugno"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Dopo giugno è ___.",
+      "correct_answer": "luglio",
+      "distractors": [],
+      "hints": ["After June is July."],
+      "target_words": ["luglio"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Dopo agosto è ___.",
+      "correct_answer": "settembre",
+      "distractors": [],
+      "hints": ["After August is September."],
+      "target_words": ["settembre"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Dopo settembre è ___.",
+      "correct_answer": "ottobre",
+      "distractors": [],
+      "hints": ["After September is October."],
+      "target_words": ["ottobre"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Dopo ottobre è ___.",
+      "correct_answer": "novembre",
+      "distractors": [],
+      "hints": ["After October is November."],
+      "target_words": ["novembre"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-13",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mese' mean?" },
+      "sentence_context": "Un anno ha dodici mesi.",
+      "correct_answer": "Month",
+      "distractors": ["Year", "Week", "Day"],
+      "hints": ["A year has 12 months."],
+      "target_words": ["mese"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-14",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'data' mean?" },
+      "sentence_context": "Che data è oggi?",
+      "correct_answer": "Date",
+      "distractors": ["Day", "Month", "Birthday"],
+      "hints": ["What's today's date?"],
+      "target_words": ["data"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-15",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'compleanno' mean?" },
+      "sentence_context": "Il mio compleanno è in agosto.",
+      "correct_answer": "Birthday",
+      "distractors": ["Anniversary", "Day", "Year"],
+      "hints": ["My birthday is in August."],
+      "target_words": ["compleanno"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'July' in Italian?" },
+      "sentence_context": "Luglio è caldo.",
+      "correct_answer": "luglio",
+      "distractors": [],
+      "hints": ["A summer month."],
+      "target_words": ["luglio"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-17",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'November' in Italian?" },
+      "sentence_context": "Novembre è freddo.",
+      "correct_answer": "novembre",
+      "distractors": [],
+      "hints": ["An autumn month."],
+      "target_words": ["novembre"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-18",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'month' in Italian?" },
+      "sentence_context": "Un mese ha trenta giorni.",
+      "correct_answer": "mese",
+      "distractors": [],
+      "hints": ["A masculine noun ending in -e."],
+      "target_words": ["mese"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-19",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'birthday' in Italian?" },
+      "sentence_context": "Il mio compleanno è il 5 marzo.",
+      "correct_answer": "compleanno",
+      "distractors": [],
+      "hints": ["Compleanno = compl + anno."],
+      "target_words": ["compleanno"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'My birthday is the 10th of August.'" },
+      "sentence_context": "Il mio compleanno è il 10 agosto.",
+      "correct_answer": ["Il", "mio", "compleanno", "è", "il", "10", "agosto."],
+      "distractors": ["in", "settembre"],
+      "hints": ["'il' + number + month."],
+      "target_words": ["compleanno", "agosto"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'In August I go on holiday.'" },
+      "sentence_context": "In agosto vado in vacanza.",
+      "correct_answer": ["In", "agosto", "vado", "in", "vacanza."],
+      "distractors": ["a", "lavoro"],
+      "hints": ["'In' + month."],
+      "target_words": ["agosto"]
+    },
+    {
+      "id": "unit-19-lesson-03-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'A year has twelve months.'" },
+      "sentence_context": "Un anno ha dodici mesi.",
+      "correct_answer": ["Un", "anno", "ha", "dodici", "mesi."],
+      "distractors": ["mese", "settimane"],
+      "hints": ["Plural mese → mesi."],
+      "target_words": ["mese"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "gennaio", "meaning": "January", "example": "In gennaio fa freddo." },
+    { "word": "febbraio", "meaning": "February", "example": "Febbraio è un mese corto." },
+    { "word": "marzo", "meaning": "March", "example": "Dopo febbraio è marzo." },
+    { "word": "aprile", "meaning": "April", "example": "In aprile piove." },
+    { "word": "maggio", "meaning": "May", "example": "In maggio ci sono i fiori." },
+    { "word": "giugno", "meaning": "June", "example": "Giugno è il primo mese dell'estate." },
+    { "word": "luglio", "meaning": "July", "example": "Luglio è caldo." },
+    { "word": "agosto", "meaning": "August", "example": "In agosto vado in vacanza." },
+    { "word": "settembre", "meaning": "September", "example": "Dopo agosto è settembre." },
+    { "word": "ottobre", "meaning": "October", "example": "In ottobre fa freddo." },
+    { "word": "novembre", "meaning": "November", "example": "Novembre è freddo." },
+    { "word": "dicembre", "meaning": "December", "example": "Dicembre è l'ultimo mese." },
+    { "word": "mese", "meaning": "Month", "example": "Un mese ha trenta giorni." },
+    { "word": "data", "meaning": "Date", "example": "Che data è oggi?" },
+    { "word": "compleanno", "meaning": "Birthday", "example": "Il mio compleanno è in agosto." }
+  ]
+}

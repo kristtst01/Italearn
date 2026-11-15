@@ -34,8 +34,12 @@ export const COURSE: CourseStep[] = [
   c('unit-11'), // Getting to Know Someone
   g('a1-adjectives'),
   c('unit-06'), // Describing People & Things
+  c('unit-17'), // Shopping
   g('a1-time-dates'),
+  c('unit-14'), // Getting Around
+  c('unit-19'), // Weather & Seasons
   g('a1-possessives'),
+  c('unit-08'), // My Family
   g('a1-piacere'),
   g('a1-reflexive'),
   g('a1-imperative'),

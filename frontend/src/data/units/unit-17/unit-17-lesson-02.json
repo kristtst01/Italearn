@@ -1,249 +1,146 @@
 {
   "id": "unit-17-lesson-02",
   "unit_id": "unit-17",
-  "name": "Clothes",
+  "name": "Size and Colour",
   "order": 2,
-  "grammar_tips": [
-    {
-      "id": "unit-17-lesson-02-tip-01",
-      "title": "Clothing Items",
-      "explanation": "Common clothes: la maglia (shirt / top), la camicia (button shirt), i pantaloni (trousers — always plural!), la gonna (skirt), il vestito (dress / suit), la giacca (jacket), il cappotto (coat).",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-17-lesson-02-tip-02",
-      "title": "Pantaloni Is Plural",
-      "explanation": "'I pantaloni' (trousers / pants) is always plural in Italian, like in English. Use 'i' + plural adjective: 'i pantaloni neri'.",
-      "before_exercise": 7
-    },
-    {
-      "id": "unit-17-lesson-02-tip-03",
-      "title": "Footwear",
-      "explanation": "'Le scarpe' (shoes) is feminine plural. 'I calzini' (socks) is masculine plural. Both are always plural — like in English.",
-      "before_exercise": 13
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-17-lesson-02-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'maglia' mean?" },
-      "sentence_context": "Ho una maglia nuova.",
-      "correct_answer": "Top / shirt (knitted)",
-      "distractors": ["Skirt", "Coat", "Trousers"],
-      "hints": ["I have a new top."],
-      "target_words": ["maglia"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'provare' mean?" },
+      "sentence_context": "Posso provare questa giacca?",
+      "correct_answer": ["to try on", "try on", "to try", "try"],
+      "distractors": [],
+      "hints": ["Before you buy."],
+      "target_words": ["provare"]
     },
     {
       "id": "unit-17-lesson-02-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'camicia' mean?" },
-      "sentence_context": "La camicia è bianca.",
-      "correct_answer": "Shirt (button-up)",
-      "distractors": ["T-shirt", "Jacket", "Coat"],
-      "hints": ["A formal shirt."],
-      "target_words": ["camicia"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'brutto' mean?" },
+      "sentence_context": "Quel cappello è brutto!",
+      "correct_answer": ["ugly", "horrible"],
+      "distractors": [],
+      "hints": ["The opposite of bello."],
+      "target_words": ["brutto"]
     },
     {
       "id": "unit-17-lesson-02-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'pantaloni' mean?" },
-      "sentence_context": "Compro i pantaloni neri.",
-      "correct_answer": "Trousers / pants",
-      "distractors": ["Skirt", "Socks", "Shoes"],
-      "hints": ["I buy black trousers."],
-      "target_words": ["pantaloni"]
+      "prompt": { "text": "In a clothes shop: where do you try things on?" },
+      "sentence_context": "",
+      "correct_answer": "nel camerino",
+      "distractors": ["alla cassa", "in cucina"],
+      "hints": ["A small room in the shop."],
+      "target_words": ["camerino"]
     },
     {
       "id": "unit-17-lesson-02-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'gonna' mean?" },
-      "sentence_context": "La gonna è blu.",
-      "correct_answer": "Skirt",
-      "distractors": ["Dress", "Trousers", "Shirt"],
-      "hints": ["The skirt is blue."],
-      "target_words": ["gonna"]
+      "prompt": { "text": "Shoes have a numero. What do clothes have?" },
+      "sentence_context": "",
+      "correct_answer": "una taglia",
+      "distractors": ["un numero", "un prezzo"],
+      "hints": ["Che taglia porta?"],
+      "target_words": ["taglia"]
     },
     {
       "id": "unit-17-lesson-02-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'vestito' mean?" },
-      "sentence_context": "Anna ha un vestito rosso.",
-      "correct_answer": "Dress / suit",
-      "distractors": ["Skirt", "Coat", "Shoe"],
-      "hints": ["Can mean dress (for women) or suit."],
-      "target_words": ["vestito"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Make it agree: grey trousers." },
+      "sentence_context": "Dei pantaloni ___.",
+      "correct_answer": "grigi",
+      "distractors": [],
+      "hints": ["Grigio, masculine plural: one i."],
+      "target_words": ["grigio", "pantaloni"]
     },
     {
       "id": "unit-17-lesson-02-ex-06",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'giacca' mean?" },
-      "sentence_context": "Metto la giacca.",
-      "correct_answer": "Jacket",
-      "distractors": ["Coat", "Sweater", "Shirt"],
-      "hints": ["A short outer layer."],
-      "target_words": ["giacca"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Make it agree: brown shoes." },
+      "sentence_context": "Le scarpe ___.",
+      "correct_answer": "marroni",
+      "distractors": [],
+      "hints": ["An -e adjective: -i in the plural."],
+      "target_words": ["marrone", "scarpe"]
     },
     {
       "id": "unit-17-lesson-02-ex-07",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'cappotto' mean?" },
-      "sentence_context": "In inverno metto il cappotto.",
-      "correct_answer": "Coat",
-      "distractors": ["Jacket", "Hat", "Scarf"],
-      "hints": ["A long winter coat."],
-      "target_words": ["cappotto"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Make it agree: an ugly skirt." },
+      "sentence_context": "Una gonna ___.",
+      "correct_answer": "brutta",
+      "distractors": [],
+      "hints": ["Gonna is feminine."],
+      "target_words": ["brutto", "gonna"]
     },
     {
       "id": "unit-17-lesson-02-ex-08",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'scarpe' mean?" },
-      "sentence_context": "Le scarpe sono nere.",
-      "correct_answer": "Shoes",
-      "distractors": ["Socks", "Boots", "Sandals"],
-      "hints": ["You wear them on your feet."],
-      "target_words": ["scarpe"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The shop assistant asks your size. You take a 40." },
+      "sentence_context": "Commessa: Che taglia porta?\nYou: ___",
+      "correct_answer": ["Porto la 40.", "La 40."],
+      "distractors": [],
+      "hints": ["Porto la + the number."],
+      "target_words": ["taglia"],
+      "dialogue": [
+        { "speaker": "Commessa", "text": "Che taglia porta?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-17-lesson-02-ex-09",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'calzini' mean?" },
-      "sentence_context": "Ho dei calzini bianchi.",
-      "correct_answer": "Socks",
-      "distractors": ["Shoes", "Gloves", "Stockings"],
-      "hints": ["I have some white socks."],
-      "target_words": ["calzini"]
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask if you can try on this jumper." },
+      "sentence_context": "",
+      "correct_answer": ["posso provare questo maglione?"],
+      "distractors": [],
+      "hints": ["Posso + provare."],
+      "target_words": ["provare", "maglione"]
     },
     {
       "id": "unit-17-lesson-02-ex-10",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'cappello' mean?" },
-      "sentence_context": "Marco ha un cappello nero.",
-      "correct_answer": "Hat",
-      "distractors": ["Coat", "Scarf", "Shoe"],
-      "hints": ["You wear it on your head."],
-      "target_words": ["cappello"]
+      "prompt": { "text": "Which is correct?" },
+      "sentence_context": "",
+      "correct_answer": "una camicia grigia",
+      "distractors": ["una camicia grigio", "una grigia camicia"],
+      "hints": ["Colours go after the noun and agree."],
+      "target_words": ["grigio", "camicia"]
     },
     {
       "id": "unit-17-lesson-02-ex-11",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "La ___ è blu.",
-      "correct_answer": "gonna",
-      "distractors": [],
-      "hints": ["The skirt is blue."],
-      "target_words": ["gonna"]
-    },
-    {
-      "id": "unit-17-lesson-02-ex-12",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "I ___ sono lunghi.",
-      "correct_answer": "pantaloni",
-      "distractors": [],
-      "hints": ["The trousers are long."],
-      "target_words": ["pantaloni"]
-    },
-    {
-      "id": "unit-17-lesson-02-ex-13",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'shoes' in Italian?" },
-      "sentence_context": "Compro le scarpe.",
-      "correct_answer": "scarpe",
-      "distractors": [],
-      "hints": ["Plural feminine: le scarpe."],
-      "target_words": ["scarpe"]
-    },
-    {
-      "id": "unit-17-lesson-02-ex-14",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'jacket' in Italian?" },
-      "sentence_context": "Metto la giacca.",
-      "correct_answer": "giacca",
-      "distractors": [],
-      "hints": ["A feminine noun."],
-      "target_words": ["giacca"]
-    },
-    {
-      "id": "unit-17-lesson-02-ex-15",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'coat' in Italian?" },
-      "sentence_context": "Il cappotto è caldo.",
-      "correct_answer": "cappotto",
-      "distractors": [],
-      "hints": ["A masculine noun."],
-      "target_words": ["cappotto"]
-    },
-    {
-      "id": "unit-17-lesson-02-ex-16",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'hat' in Italian?" },
-      "sentence_context": "Ho un cappello.",
-      "correct_answer": "cappello",
-      "distractors": [],
-      "hints": ["Close to 'cappotto' but for the head."],
-      "target_words": ["cappello"]
-    },
-    {
-      "id": "unit-17-lesson-02-ex-17",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I buy a red dress.'" },
-      "sentence_context": "Compro un vestito rosso.",
-      "correct_answer": ["Compro", "un", "vestito", "rosso."],
-      "distractors": ["una", "rossa"],
-      "hints": ["'Vestito' is masculine → un, rosso."],
-      "target_words": ["vestito"]
-    },
-    {
-      "id": "unit-17-lesson-02-ex-18",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'These shoes are new.'" },
-      "sentence_context": "Queste scarpe sono nuove.",
-      "correct_answer": ["Queste", "scarpe", "sono", "nuove."],
-      "distractors": ["questo", "nuovo"],
-      "hints": ["Feminine plural throughout."],
-      "target_words": ["scarpe"]
-    },
-    {
-      "id": "unit-17-lesson-02-ex-19",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I put on the coat in winter.'" },
-      "sentence_context": "In inverno metto il cappotto.",
-      "correct_answer": ["In", "inverno", "metto", "il", "cappotto."],
-      "distractors": ["giacca", "estate"],
-      "hints": ["'Mettere' for putting on clothes."],
-      "target_words": ["cappotto"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Say the brown coat is ugly." },
+      "sentence_context": "",
+      "correct_answer": ["il cappotto marrone è brutto"],
+      "distractors": [],
+      "hints": ["Colour after the noun."],
+      "target_words": ["marrone", "brutto"]
     }
   ],
   "vocabulary": [
-    { "word": "maglia", "meaning": "Top / knitted shirt", "example": "Ho una maglia nuova." },
-    { "word": "camicia", "meaning": "Shirt (button-up)", "example": "La camicia è bianca." },
-    { "word": "pantaloni", "meaning": "Trousers / pants (always plural)", "example": "Compro i pantaloni neri." },
-    { "word": "gonna", "meaning": "Skirt", "example": "La gonna è blu." },
-    { "word": "vestito", "meaning": "Dress / suit", "example": "Anna ha un vestito rosso." },
-    { "word": "giacca", "meaning": "Jacket", "example": "Metto la giacca." },
-    { "word": "cappotto", "meaning": "Coat", "example": "In inverno metto il cappotto." },
-    { "word": "scarpe", "meaning": "Shoes (plural)", "example": "Le scarpe sono nere." },
-    { "word": "calzini", "meaning": "Socks", "example": "Ho dei calzini bianchi." },
-    { "word": "cappello", "meaning": "Hat", "example": "Marco ha un cappello nero." }
+    {
+      "word": "taglia",
+      "meaning": "size (clothes) · Che taglia porta? = What size are you? (formal) · Porto la 42 = I take a 42",
+      "example": "Che taglia porta?"
+    },
+    { "word": "provare", "meaning": "to try; to try on", "example": "Posso provare questa giacca?" },
+    { "word": "camerino", "meaning": "fitting room, changing room", "example": "Il camerino è lì." },
+    { "word": "grigio", "meaning": "grey · grigi, grigie (plural)", "example": "Un maglione grigio." },
+    { "word": "marrone", "meaning": "brown · marroni (plural)", "example": "Le scarpe marroni sono comode." },
+    { "word": "brutto", "meaning": "ugly; bad", "example": "Quel cappello è brutto!" }
   ]
 }

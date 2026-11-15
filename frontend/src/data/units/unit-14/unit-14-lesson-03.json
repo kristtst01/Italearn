@@ -1,50 +1,176 @@
 {
   "id": "unit-14-lesson-03",
   "unit_id": "unit-14",
-  "name": "Practice Writing",
+  "name": "Buying a Ticket",
   "order": 3,
-  "grammar_tips": [
-    {
-      "id": "unit-14-lesson-03-tip-01",
-      "title": "Travelling",
-      "explanation": "Write about how you travel — for work, for fun, on a trip. Use transport vocabulary, 'in' + means of transport, prices, and arrival/departure times.",
-      "before_exercise": 0
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-14-lesson-03-ex-01",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Describe how you get to work or school. (2-3 sentences)" },
-      "sentence_context": "",
-      "correct_answer": "Vado al lavoro in autobus. La fermata è vicino a casa. Qualche volta vado a piedi.",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'andata e ritorno' mean?" },
+      "sentence_context": "Un biglietto andata e ritorno per Roma, per favore.",
+      "correct_answer": ["return", "a return", "return ticket", "round trip"],
       "distractors": [],
-      "hints": ["Use 'in' + transport, 'a piedi'."],
-      "target_words": ["autobus", "fermata", "piedi"]
+      "hints": ["There and back."],
+      "target_words": ["andata", "ritorno"]
     },
     {
       "id": "unit-14-lesson-03-ex-02",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Plan a trip — where you're going, how, when you leave and arrive. (3-4 sentences)" },
-      "sentence_context": "",
-      "correct_answer": "Faccio un viaggio in Italia. Vado in aereo. L'aereo parte alle otto e arriva alle dieci. Poi prendo il treno per Roma.",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'lento' mean?" },
+      "sentence_context": "Il treno lento è economico, ma dura quattro ore.",
+      "correct_answer": ["slow"],
       "distractors": [],
-      "hints": ["Use 'fare un viaggio', 'in aereo', 'partire', 'arrivare'."],
-      "target_words": ["viaggio", "aereo", "partire", "arrivare"]
+      "hints": ["The opposite of veloce."],
+      "target_words": ["lento"]
     },
     {
       "id": "unit-14-lesson-03-ex-03",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Buy a ticket at the station — write a small dialogue with the price. (3-4 sentences)" },
-      "sentence_context": "",
-      "correct_answer": "Vorrei un biglietto per Roma. Andata e ritorno, per favore. Quanto costa? Costa venti euro.",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Where's the ticket office?" },
+      "sentence_context": "Scusi, dov'è la ___?",
+      "correct_answer": "biglietteria",
       "distractors": [],
-      "hints": ["Use 'Vorrei un biglietto', 'Quanto costa?', 'Costa X euro'."],
-      "target_words": ["biglietto", "andata", "ritorno", "costare"]
+      "hints": ["Where you buy tickets."],
+      "target_words": ["biglietteria"]
+    },
+    {
+      "id": "unit-14-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "At the ticket office you want a ticket to Pisa and back. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Andata e ritorno per Pisa, per favore.",
+      "distractors": ["Solo andata per Pisa, per favore.", "Andata e arrivo per Pisa, per favore."],
+      "hints": ["There and back."],
+      "target_words": ["andata", "ritorno"]
+    },
+    {
+      "id": "unit-14-lesson-03-ex-05",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I'd like a seat by the window." },
+      "sentence_context": "Vorrei un posto vicino al ___.",
+      "correct_answer": "finestrino",
+      "distractors": [],
+      "hints": ["The window of a train."],
+      "target_words": ["finestrino"]
+    },
+    {
+      "id": "unit-14-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which sentence is true?" },
+      "sentence_context": "Firenze · Roma\nTreno veloce · un'ora e mezza · 45 euro\nTreno lento · quattro ore · 20 euro",
+      "correct_answer": "Il treno lento è economico, ma dura quattro ore.",
+      "distractors": ["Il treno veloce è economico.", "Il treno lento dura un'ora e mezza."],
+      "hints": ["Compare the two trains."],
+      "target_words": ["veloce", "lento"]
+    },
+    {
+      "id": "unit-14-lesson-03-ex-07",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "At the ticket office in Florence. You want to go to Bologna." },
+      "sentence_context": "Clerk: Buongiorno! Dove va?\nYou: ___",
+      "correct_answer": ["Un biglietto per Bologna, per favore.", "Vorrei un biglietto per Bologna, per favore."],
+      "distractors": [],
+      "hints": ["Un biglietto per + the city."],
+      "target_words": ["biglietteria"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "Buongiorno! Dove va?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-14-lesson-03-ex-08",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The clerk asks if you want a single. You want a return." },
+      "sentence_context": "Clerk: Solo andata?\nYou: ___",
+      "correct_answer": ["No, andata e ritorno.", "Andata e ritorno, per favore."],
+      "distractors": [],
+      "hints": ["There and back."],
+      "target_words": ["andata", "ritorno"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "Solo andata?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-14-lesson-03-ex-09",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You pay. Then you ask which platform the train leaves from." },
+      "sentence_context": "Clerk: Sono venti euro, grazie.\nYou: ___",
+      "correct_answer": ["Da quale binario parte il treno?", "Grazie. Da che binario parte?"],
+      "distractors": [],
+      "hints": ["The preposition goes first: da quale…?"],
+      "target_words": ["binario"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "Sono venti euro, grazie." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-14-lesson-03-ex-10",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'A one-way ticket to Rome.'" },
+      "sentence_context": "Un biglietto di sola andata per Roma.",
+      "correct_answer": ["Un", "biglietto", "di", "sola", "andata", "per", "Roma."],
+      "distractors": ["ritorno", "solo"],
+      "hints": ["Sola agrees with andata."],
+      "target_words": ["andata"]
+    },
+    {
+      "id": "unit-14-lesson-03-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you'd like two return tickets to Pisa." },
+      "sentence_context": "",
+      "correct_answer": ["vorrei due biglietti andata e ritorno per pisa", "vorrei due biglietti di andata e ritorno per pisa"],
+      "distractors": [],
+      "hints": ["Vorrei, then biglietti (plural)."],
+      "target_words": ["andata", "ritorno"]
+    },
+    {
+      "id": "unit-14-lesson-03-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say this train is fast but expensive." },
+      "sentence_context": "",
+      "correct_answer": ["questo treno è veloce ma caro", "questo treno è veloce, ma è caro"],
+      "distractors": [],
+      "hints": ["Veloce, caro."],
+      "target_words": ["veloce"]
+    },
+    {
+      "id": "unit-14-lesson-03-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask if there is a fast train to Rome." },
+      "sentence_context": "",
+      "correct_answer": ["c'è un treno veloce per roma"],
+      "distractors": [],
+      "hints": ["C'è…?"],
+      "target_words": ["veloce"]
     }
   ],
-  "vocabulary": []
+  "vocabulary": [
+    { "word": "biglietteria", "meaning": "ticket office", "example": "La biglietteria è vicino al binario uno." },
+    { "word": "andata", "meaning": "the way there · solo andata = one way, a single", "example": "Solo andata, per favore." },
+    {
+      "word": "ritorno",
+      "meaning": "the way back, return · andata e ritorno = a return (ticket)",
+      "example": "Un biglietto andata e ritorno per Roma, per favore."
+    },
+    { "word": "finestrino", "meaning": "window (of a train, bus or car)", "example": "Vorrei un posto vicino al finestrino." },
+    { "word": "veloce", "meaning": "fast · veloci (plural)", "example": "Il treno veloce è caro." },
+    { "word": "lento", "meaning": "slow", "example": "Il treno lento è economico, ma dura quattro ore." }
+  ]
 }

@@ -38,10 +38,10 @@ The order in [course.ts](../frontend/src/data/course.ts) follows this table as c
 | Food & the Market (written) | *carne, pesce, verdura, pasta, riso, pomodoro, frutta, menù, piatto, forchetta, coltello, cucchiaio, pepe, aceto, cibo, spaghetti, mercato, metà*, plus *importante* |
 | Getting to Know Someone (written) | *dopo, posto, quasi, significare, strada, domandare, saluto, telefonare, internet, fumare, sigaretta, falso*, plus *persona* (*scusare* is covered by *scusa / scusi*) |
 | Describing People & Things (written) | *corto, lungo, largo, stretto, magro, ricco, sporco, felice, triste, intelligente, interessante, biondo, castano, maschio, femmina*, plus *capelli, occhio* (*capello* in the Profilo) |
-| Shopping | *camicia, cappotto, giacca, gonna, vestito, maglietta, maglione, calza* |
-| Getting Around | *aeroporto, fermata, taxi* |
-| Weather & Seasons | *piovere, Natale, Pasqua, augurio, fiore, albero, spiaggia* |
-| My Family | *famiglia, amore, bacio, affetto, animale* |
+| Shopping (written) | *camicia, cappotto, giacca, gonna, vestito, maglietta, maglione, calza* |
+| Getting Around (written) | *aeroporto, fermata, taxi* |
+| Weather & Seasons (written) | *piovere, Natale, Pasqua, augurio, fiore, albero, spiaggia* |
+| My Family (written) | *famiglia, amore, bacio, affetto, animale* |
 | Likes & Plans | *appuntamento, festa* |
 | A Day in My Life | *orologio, trovare* |
 | Finding Your Way | *destra, sinistra, avanti, indietro* (the location words moved to Around Town, which needs them to say where places are) |

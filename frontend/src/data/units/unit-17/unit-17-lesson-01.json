@@ -1,231 +1,154 @@
 {
   "id": "unit-17-lesson-01",
   "unit_id": "unit-17",
-  "name": "Questo & Quello",
+  "name": "Clothes",
   "order": 1,
-  "grammar_tips": [
-    {
-      "id": "unit-17-lesson-01-tip-01",
-      "title": "This and That",
-      "explanation": "'Questo' (this) and 'quello' (that) are demonstratives — they point at things. 'Questo' is for things near you, 'quello' is for things farther away.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-17-lesson-01-tip-02",
-      "title": "Forms of Questo",
-      "explanation": "Questo agrees like an adjective: questo (masc sg), questa (fem sg), questi (masc pl), queste (fem pl). 'Questo libro', 'questa borsa', 'questi pantaloni', 'queste scarpe'.",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-17-lesson-01-tip-03",
-      "title": "Forms of Quello",
-      "explanation": "'Quello' behaves like the definite article fused: quel (il), quello (lo/z/s+cons), quella (la), quell' (vowel), quei (i), quegli (gli/z/s+cons), quelle (le). Easier in practice than it looks: quel libro, quella borsa, quei libri.",
-      "before_exercise": 12
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-17-lesson-01-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'questo' mean?" },
-      "sentence_context": "Questo libro è interessante.",
-      "correct_answer": "This",
-      "distractors": ["That", "Which", "Another"],
-      "hints": ["This book is interesting."],
-      "target_words": ["questo"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'maglione' mean?" },
+      "sentence_context": "Un maglione rosso e caldo.",
+      "correct_answer": ["jumper", "sweater", "a jumper", "a sweater"],
+      "distractors": [],
+      "hints": ["You wear it when it is cold."],
+      "target_words": ["maglione"]
     },
     {
       "id": "unit-17-lesson-01-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'quello' mean?" },
-      "sentence_context": "Quello è il mio amico.",
-      "correct_answer": "That",
-      "distractors": ["This", "Which", "Another"],
-      "hints": ["That is my friend."],
-      "target_words": ["quello"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'gonna' mean?" },
+      "sentence_context": "Una gonna corta e nera.",
+      "correct_answer": ["skirt", "a skirt"],
+      "distractors": [],
+      "hints": ["Corta: short."],
+      "target_words": ["gonna"]
     },
     {
       "id": "unit-17-lesson-01-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'qui' mean?" },
-      "sentence_context": "Il mio libro è qui.",
-      "correct_answer": "Here",
-      "distractors": ["There", "Where", "Now"],
-      "hints": ["My book is here."],
-      "target_words": ["qui"]
+      "prompt": { "text": "Which do you wear on your feet?" },
+      "sentence_context": "",
+      "correct_answer": "le scarpe",
+      "distractors": ["il cappello", "la giacca"],
+      "hints": ["On your feet."],
+      "target_words": ["scarpe", "cappello", "giacca"]
     },
     {
       "id": "unit-17-lesson-01-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'lì' mean?" },
-      "sentence_context": "La macchina è lì.",
-      "correct_answer": "There",
-      "distractors": ["Here", "Where", "Now"],
-      "hints": ["The car is there."],
-      "target_words": ["lì"]
+      "prompt": { "text": "Paul is going to work at the hospital. What does he wear under his jacket?" },
+      "sentence_context": "",
+      "correct_answer": "una camicia",
+      "distractors": ["una gonna", "un cappotto"],
+      "hints": ["A shirt."],
+      "target_words": ["camicia", "gonna", "cappotto"]
     },
     {
       "id": "unit-17-lesson-01-ex-05",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "___ libro è il mio.",
-      "correct_answer": "Questo",
+      "prompt": { "text": "Make it agree: a white T-shirt." },
+      "sentence_context": "Una maglietta ___.",
+      "correct_answer": "bianca",
       "distractors": [],
-      "hints": ["This book is mine. (masc)"],
-      "target_words": ["questo"]
+      "hints": ["Maglietta is feminine."],
+      "target_words": ["maglietta"]
     },
     {
       "id": "unit-17-lesson-01-ex-06",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "___ borsa è nuova.",
-      "correct_answer": "Questa",
+      "prompt": { "text": "Make it agree: The trousers are too long." },
+      "sentence_context": "I pantaloni sono troppo ___.",
+      "correct_answer": "lunghi",
       "distractors": [],
-      "hints": ["This bag is new. (fem)"],
-      "target_words": ["questo"]
+      "hints": ["Pantaloni is masculine plural: -ghi."],
+      "target_words": ["pantaloni"]
     },
     {
       "id": "unit-17-lesson-01-ex-07",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "___ pantaloni sono lunghi.",
-      "correct_answer": "Questi",
+      "prompt": { "text": "Make it agree: The shoes are black." },
+      "sentence_context": "Le scarpe sono ___.",
+      "correct_answer": "nere",
       "distractors": [],
-      "hints": ["These trousers are long. (masc pl)"],
-      "target_words": ["questo"]
+      "hints": ["Scarpe is feminine plural."],
+      "target_words": ["scarpe"]
     },
     {
       "id": "unit-17-lesson-01-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "___ scarpe sono belle.",
-      "correct_answer": "Queste",
+      "prompt": { "text": "Make it agree: two blue hats." },
+      "sentence_context": "Due cappelli ___.",
+      "correct_answer": "blu",
       "distractors": [],
-      "hints": ["These shoes are beautiful. (fem pl)"],
-      "target_words": ["questo"]
+      "hints": ["Blu never changes."],
+      "target_words": ["cappello"]
     },
     {
       "id": "unit-17-lesson-01-ex-09",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "___ libro è caro.",
-      "correct_answer": "Quel",
+      "prompt": { "text": "Make it agree: The jackets are red." },
+      "sentence_context": "Le giacche sono ___.",
+      "correct_answer": "rosse",
       "distractors": [],
-      "hints": ["That book is expensive. (quello + il)"],
-      "target_words": ["quello"]
+      "hints": ["Giacche: feminine plural."],
+      "target_words": ["giacca"]
     },
     {
       "id": "unit-17-lesson-01-ex-10",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "___ borsa è cara.",
-      "correct_answer": "Quella",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say: a green dress." },
+      "sentence_context": "",
+      "correct_answer": ["un vestito verde"],
       "distractors": [],
-      "hints": ["That bag is expensive."],
-      "target_words": ["quello"]
+      "hints": ["Vestito is masculine."],
+      "target_words": ["vestito"]
     },
     {
       "id": "unit-17-lesson-01-ex-11",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'this' (masculine) in Italian?" },
-      "sentence_context": "Questo libro.",
-      "correct_answer": "questo",
+      "prompt": { "text": "Say: It's cold. I'm wearing my coat." },
+      "sentence_context": "",
+      "correct_answer": ["fa freddo, porto il cappotto", "fa freddo. porto il cappotto"],
       "distractors": [],
-      "hints": ["For something near you."],
-      "target_words": ["questo"]
+      "hints": ["Portare also means to wear. Use il, not a possessive."],
+      "target_words": ["cappotto"]
     },
     {
       "id": "unit-17-lesson-01-ex-12",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'that' (masculine, before consonant)?" },
-      "sentence_context": "Quel libro.",
-      "correct_answer": "quel",
-      "distractors": [],
-      "hints": ["Quello + il = quel."],
-      "target_words": ["quello"]
-    },
-    {
-      "id": "unit-17-lesson-01-ex-13",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'here' in Italian?" },
-      "sentence_context": "Sono qui.",
-      "correct_answer": "qui",
-      "distractors": [],
-      "hints": ["Two letters."],
-      "target_words": ["qui"]
-    },
-    {
-      "id": "unit-17-lesson-01-ex-14",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'there' in Italian?" },
-      "sentence_context": "È lì.",
-      "correct_answer": "lì",
-      "distractors": [],
-      "hints": ["Note the accent."],
-      "target_words": ["lì"]
-    },
-    {
-      "id": "unit-17-lesson-01-ex-15",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Pick 'questo' or 'quello' for 'this book here'." },
-      "sentence_context": "___ libro qui.",
-      "correct_answer": "Questo",
-      "distractors": [],
-      "hints": ["'Qui' → near you → Questo."],
-      "target_words": ["questo"]
-    },
-    {
-      "id": "unit-17-lesson-01-ex-16",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Pick the right form for 'that bag there'." },
-      "sentence_context": "___ borsa lì.",
-      "correct_answer": "Quella",
-      "distractors": [],
-      "hints": ["'Lì' → far → quella (feminine)."],
-      "target_words": ["quello"]
-    },
-    {
-      "id": "unit-17-lesson-01-ex-17",
       "type": "writing",
       "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'This book is mine.'" },
-      "sentence_context": "Questo libro è mio.",
-      "correct_answer": ["Questo", "libro", "è", "mio."],
-      "distractors": ["quello", "mia"],
-      "hints": ["Demonstrative + noun + verb + possessive."],
-      "target_words": ["questo"]
-    },
-    {
-      "id": "unit-17-lesson-01-ex-18",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'That car is red.'" },
-      "sentence_context": "Quella macchina è rossa.",
-      "correct_answer": ["Quella", "macchina", "è", "rossa."],
-      "distractors": ["questo", "rosso"],
-      "hints": ["'Macchina' is feminine → Quella, rossa."],
-      "target_words": ["quello"]
+      "prompt": { "text": "Arrange: 'The socks are under the bed.'" },
+      "sentence_context": "Le calze sono sotto il letto.",
+      "correct_answer": ["Le", "calze", "sono", "sotto", "il", "letto."],
+      "distractors": ["calzi", "sopra"],
+      "hints": ["Calze: feminine plural."],
+      "target_words": ["calza"]
     }
   ],
   "vocabulary": [
-    { "word": "quello", "meaning": "That", "example": "Quello è il mio amico." },
-    { "word": "qui", "meaning": "Here", "example": "Il mio libro è qui." },
-    { "word": "lì", "meaning": "There", "example": "La macchina è lì." }
+    { "word": "maglietta", "meaning": "T-shirt", "example": "Una maglietta bianca." },
+    { "word": "camicia", "meaning": "shirt · camicie (plural)", "example": "Paul porta sempre la camicia." },
+    { "word": "maglione", "meaning": "jumper, sweater", "example": "Un maglione rosso e caldo." },
+    { "word": "pantaloni", "meaning": "trousers (always plural)", "example": "Questi pantaloni sono troppo lunghi." },
+    { "word": "gonna", "meaning": "skirt", "example": "Una gonna corta e nera." },
+    { "word": "vestito", "meaning": "dress; suit (for a man)", "example": "Un vestito verde." },
+    { "word": "giacca", "meaning": "jacket · giacche (plural)", "example": "Questa giacca è comoda." },
+    { "word": "cappotto", "meaning": "coat", "example": "Fa freddo: porto il cappotto." },
+    { "word": "scarpe", "meaning": "shoes · una scarpa = one shoe", "example": "Le scarpe nere sono care." },
+    { "word": "calza", "meaning": "sock; stocking · calze (plural)", "example": "Le calze sono sotto il letto." },
+    { "word": "cappello", "meaning": "hat", "example": "Tomás ha un cappello blu." }
   ]
 }

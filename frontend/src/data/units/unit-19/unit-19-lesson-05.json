@@ -1,90 +1,162 @@
 {
   "id": "unit-19-lesson-05",
   "unit_id": "unit-19",
-  "name": "Practice Writing",
+  "name": "The Forecast",
   "order": 5,
-  "grammar_tips": [
-    {
-      "id": "unit-19-lesson-05-tip-01",
-      "title": "Talking About Weather and Time",
-      "explanation": "Write about the weather, seasons, months, and the calendar — birthdays, holidays, what you do in each season.",
-      "before_exercise": 0
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-19-lesson-05-ex-01",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Describe the weather today and what you're wearing. (2-3 sentences)"
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is the weather like in Florence on Saturday?" },
       "sentence_context": "",
-      "correct_answer": "Oggi c'è il sole e fa caldo. Porto una maglia bianca e una gonna. Non ho il cappotto.",
-      "distractors": [],
-      "hints": [
-        "'C'è / fa' + weather, then clothes."
-      ],
-      "target_words": [
-        "sole"
-      ]
+      "correct_answer": "Cloudy in the morning, rain in the afternoon",
+      "distractors": ["Rain and wind all day", "Sunny all day", "Fog and thunderstorms"],
+      "hints": ["Read the line for Firenze."],
+      "target_words": []
     },
     {
       "id": "unit-19-lesson-05-ex-02",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Talk about your favourite season — why you like it. (3-4 sentences)"
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is there fog on Saturday?" },
       "sentence_context": "",
-      "correct_answer": "La mia stagione preferita è l'estate. In estate fa caldo e c'è il sole. Mi piace nuotare al mare. Vado in vacanza in Italia.",
-      "distractors": [],
-      "hints": [
-        "Use 'la mia stagione preferita' + season + reasons."
-      ],
-      "target_words": [
-        "estate",
-        "stagione"
-      ]
+      "correct_answer": "Abetone",
+      "distractors": ["Pisa", "Viareggio", "Firenze"],
+      "hints": ["Nebbia."],
+      "target_words": ["nebbia"]
     },
     {
       "id": "unit-19-lesson-05-ex-03",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Say when your birthday is and one thing you do that month. (2-3 sentences)"
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why can't Chloé go to the seaside on Saturday afternoon?" },
       "sentence_context": "",
-      "correct_answer": "Il mio compleanno è il 15 marzo. In marzo fa ancora freddo. Faccio una festa con gli amici.",
-      "distractors": [],
-      "hints": [
-        "'Il mio compleanno è' + date + month + activity."
-      ],
-      "target_words": [
-        "compleanno",
-        "marzo"
-      ]
+      "correct_answer": "She works at the bar until three",
+      "distractors": ["She doesn't like the sea", "It's raining in Viareggio", "She has no money"],
+      "hints": ["'Sabato lavoro al bar.'"],
+      "target_words": []
     },
     {
       "id": "unit-19-lesson-05-ex-04",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Describe the four seasons where you live — one sentence each. (4 sentences)"
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: on Sunday it is hot all over Tuscany." },
       "sentence_context": "",
-      "correct_answer": "In primavera piove spesso. In estate fa molto caldo. In autunno c'è il vento. In inverno fa freddo e qualche volta nevica.",
+      "correct_answer": "True",
+      "distractors": ["False"],
+      "hints": ["'Sole in tutta la Toscana.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-19-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why does Chloé want to take the eight o'clock train?" },
+      "sentence_context": "",
+      "correct_answer": "With sun and heat, everyone in Florence goes to the sea",
+      "distractors": ["The train is cheaper", "It rains in the afternoon", "She works in the afternoon"],
+      "hints": ["'Tutta Firenze va al mare.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-19-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What happens at four o'clock?" },
+      "sentence_context": "",
+      "correct_answer": "A big black cloud arrives and it starts to rain",
+      "distractors": ["They take the train home", "The sun comes out", "They go for a swim"],
+      "hints": ["'Comincia a piovere.'"],
+      "target_words": ["nuvola"]
+    },
+    {
+      "id": "unit-19-lesson-05-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: Emma reads the weather forecast." },
+      "sentence_context": "Emma legge le ___ del tempo.",
+      "correct_answer": "previsioni",
       "distractors": [],
-      "hints": [
-        "'In' + season + weather expression."
-      ],
-      "target_words": [
-        "primavera",
-        "estate",
-        "autunno",
-        "inverno"
-      ]
+      "hints": ["Previsione, plural."],
+      "target_words": ["previsione"]
+    },
+    {
+      "id": "unit-19-lesson-05-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: fog and thunderstorms." },
+      "sentence_context": "Nebbia e ___.",
+      "correct_answer": "temporali",
+      "distractors": [],
+      "hints": ["Temporale, plural."],
+      "target_words": ["temporale", "nebbia"]
+    },
+    {
+      "id": "unit-19-lesson-05-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: on the beach there are already a lot of people." },
+      "sentence_context": "In spiaggia ci sono ___ molte persone.",
+      "correct_answer": "già",
+      "distractors": [],
+      "hints": ["Already."],
+      "target_words": ["già"]
+    },
+    {
+      "id": "unit-19-lesson-05-ex-10",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: rain and wind all day." },
+      "sentence_context": "Pioggia e vento ___ il giorno.",
+      "correct_answer": "tutto",
+      "distractors": [],
+      "hints": ["All day."],
+      "target_words": ["pioggia", "vento"]
+    },
+    {
+      "id": "unit-19-lesson-05-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che tempo fa a Viareggio sabato pomeriggio?" },
+      "sentence_context": "Che tempo fa a Viareggio sabato pomeriggio?",
+      "correct_answer": ["c'è il sole", "sole"],
+      "distractors": [],
+      "hints": ["Read the line for Viareggio."],
+      "target_words": ["sole"]
+    },
+    {
+      "id": "unit-19-lesson-05-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quanti gradi ci sono domenica?" },
+      "sentence_context": "Quanti gradi ci sono domenica?",
+      "correct_answer": ["da venti a ventinove gradi", "ventinove gradi"],
+      "distractors": [],
+      "hints": ["Read the line for domenica."],
+      "target_words": ["grado"]
+    },
+    {
+      "id": "unit-19-lesson-05-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa fanno Emma e Chloé in spiaggia?" },
+      "sentence_context": "Che cosa fanno Emma e Chloé in spiaggia?",
+      "correct_answer": ["nuotano, mangiano un panino e dormono un po' al sole", "nuotano e mangiano un panino"],
+      "distractors": [],
+      "hints": ["Read the paragraph about the beach."],
+      "target_words": ["nuotare", "spiaggia"]
     }
   ],
-  "vocabulary": []
+  "vocabulary": [
+    { "word": "previsione", "meaning": "forecast · le previsioni del tempo = the weather forecast", "example": "Che cosa dicono le previsioni per domani?" },
+    { "word": "nebbia", "meaning": "fog", "example": "La mattina c'è la nebbia." },
+    { "word": "temporale", "meaning": "thunderstorm", "example": "Stasera arriva un temporale." },
+    { "word": "già", "meaning": "already", "example": "Sono le otto e Paul è già al lavoro." }
+  ],
+  "reading": {
+    "title": "Le previsioni del tempo",
+    "paragraphs": ["Toscana · sabato 6 e domenica 7 giugno", "Firenze · nuvole la mattina, pioggia il pomeriggio · da 16 a 22 gradi", "Pisa · pioggia e vento tutto il giorno · da 17 a 21 gradi", "Viareggio · pioggia la mattina, sole il pomeriggio · da 18 a 24 gradi", "Abetone · nebbia e temporali · da 7 a 13 gradi", "Domenica · sole in tutta la Toscana · da 20 a 29 gradi", "Venerdì sera Emma legge le previsioni e telefona a Chloé.", "Emma: Chloé, sabato piove a Firenze e a Pisa! Ma a Viareggio il pomeriggio c'è il sole. Andiamo al mare dopo pranzo?", "Chloé: Sabato lavoro al bar dalle otto alle tre. E domenica?", "Emma: Domenica c'è il sole in tutta la Toscana, e fa caldo: ventinove gradi!", "Chloé: Perfetto. Ma con il sole e il caldo, tutta Firenze va al mare. Prendiamo il treno delle otto?", "Emma: Alle otto? Di domenica? Va bene…", "Domenica alle dieci Emma e Chloé sono in spiaggia a Viareggio. Il cielo è azzurro, il mare è bello e in spiaggia ci sono già molte persone. Nuotano, mangiano un panino e dormono un po' al sole.", "Alle quattro arriva una grande nuvola nera. Poi un'altra. E comincia a piovere.", "Emma: Ma… le previsioni!", "Chloé: Le previsioni dicono «sole». Il cielo dice «pioggia». Andiamo al bar: con la pioggia un gelato è sempre buono!"]
+  }
 }

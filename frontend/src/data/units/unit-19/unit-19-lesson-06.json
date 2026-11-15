@@ -1,0 +1,174 @@
+{
+  "id": "unit-19-lesson-06",
+  "unit_id": "unit-19",
+  "name": "Florence in Four Seasons",
+  "order": 6,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-19-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is spring like in Florence?" },
+      "sentence_context": "",
+      "correct_answer": "The weather changes often",
+      "distractors": ["It rains every day", "It's very hot", "It snows"],
+      "hints": ["Read the second paragraph."],
+      "target_words": []
+    },
+    {
+      "id": "unit-19-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: in summer there is a lot of wind in Florence." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'C'è poco vento.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-19-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why do many Florentines go to the sea or the mountains in summer?" },
+      "sentence_context": "",
+      "correct_answer": "It's cooler there",
+      "distractors": ["They're on holiday at Easter", "The shops are closed in the city", "It's sunnier there"],
+      "hints": ["'Dove fa più fresco.'"],
+      "target_words": ["fiorentino"]
+    },
+    {
+      "id": "unit-19-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What happens at Ferragosto?" },
+      "sentence_context": "",
+      "correct_answer": "Many shops and restaurants are closed",
+      "distractors": ["There are lots of flowers", "It snows in the city", "The schools start again"],
+      "hints": ["'Molti negozi e ristoranti sono chiusi.'"],
+      "target_words": ["chiuso"]
+    },
+    {
+      "id": "unit-19-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why is October a nice month?" },
+      "sentence_context": "",
+      "correct_answer": "It's no longer hot and not yet cold",
+      "distractors": ["It's sunny every day", "It's the month with the most tourists"],
+      "hints": ["Read the fourth paragraph."],
+      "target_words": ["ancora"]
+    },
+    {
+      "id": "unit-19-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How often does it snow in the city?" },
+      "sentence_context": "",
+      "correct_answer": "Hardly ever",
+      "distractors": ["Every winter", "Often in December", "Only at Christmas"],
+      "hints": ["'Quasi mai.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-19-lesson-06-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: winter is not very cold, but it is damp." },
+      "sentence_context": "L'inverno non è molto freddo, ma è ___.",
+      "correct_answer": "umido",
+      "distractors": [],
+      "hints": ["Damp."],
+      "target_words": ["umido"]
+    },
+    {
+      "id": "unit-19-lesson-06-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: the umbrella is useful in every season." },
+      "sentence_context": "L'ombrello è ___ in ogni stagione.",
+      "correct_answer": "utile",
+      "distractors": [],
+      "hints": ["Useful."],
+      "target_words": ["utile", "stagione"]
+    },
+    {
+      "id": "unit-19-lesson-06-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: it's not cold yet." },
+      "sentence_context": "Non fa ___ freddo.",
+      "correct_answer": "ancora",
+      "distractors": [],
+      "hints": ["Not yet."],
+      "target_words": ["ancora"]
+    },
+    {
+      "id": "unit-19-lesson-06-ex-10",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: many shops and restaurants are closed." },
+      "sentence_context": "Molti negozi e ristoranti sono ___.",
+      "correct_answer": "chiusi",
+      "distractors": [],
+      "hints": ["Chiuso, masculine plural."],
+      "target_words": ["chiuso"]
+    },
+    {
+      "id": "unit-19-lesson-06-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dove vanno molti fiorentini in estate?" },
+      "sentence_context": "Dove vanno molti fiorentini in estate?",
+      "correct_answer": ["al mare o in montagna", "vanno al mare o in montagna"],
+      "distractors": [],
+      "hints": ["Read the paragraph about summer."],
+      "target_words": ["fiorentino"]
+    },
+    {
+      "id": "unit-19-lesson-06-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dov'è il grande albero di Natale?" },
+      "sentence_context": "Dov'è il grande albero di Natale?",
+      "correct_answer": ["in piazza del Duomo", "è in piazza del Duomo"],
+      "distractors": [],
+      "hints": ["Read the paragraph about December."],
+      "target_words": ["albero"]
+    },
+    {
+      "id": "unit-19-lesson-06-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quando è Ferragosto?" },
+      "sentence_context": "Quando è Ferragosto?",
+      "correct_answer": ["il quindici agosto", "è il quindici agosto"],
+      "distractors": [],
+      "hints": ["Read the paragraph about summer."],
+      "target_words": ["Ferragosto"]
+    },
+    {
+      "id": "unit-19-lesson-06-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa hanno sempre nello zaino gli studenti di Giulia?" },
+      "sentence_context": "Che cosa hanno sempre nello zaino gli studenti di Giulia?",
+      "correct_answer": ["un ombrello", "hanno sempre un ombrello"],
+      "distractors": [],
+      "hints": ["Read the last paragraph."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "fiorentino", "meaning": "from Florence; a person from Florence", "example": "Giulia è fiorentina." },
+    { "word": "chiuso", "meaning": "closed · the opposite of aperto", "example": "La domenica il negozio è chiuso." },
+    { "word": "ancora", "meaning": "still; yet · non … ancora = not yet", "example": "Sono le dieci, ma Paul non è ancora al lavoro." },
+    { "word": "umido", "meaning": "damp, humid", "example": "Oggi non piove, ma è umido." },
+    { "word": "utile", "meaning": "useful", "example": "Il telefono è molto utile." }
+  ],
+  "reading": {
+    "title": "Firenze in quattro stagioni",
+    "paragraphs": ["Siete nuovi a Firenze? Ecco il tempo in città, stagione per stagione.", "La primavera è bella, ma il tempo cambia spesso: un giorno c'è il sole, il giorno dopo piove. Ad aprile ci sono fiori in tutti i giardini, e le giornate sono più lunghe. Pasqua è a marzo o ad aprile, e in centro ci sono molti turisti.", "L'estate è molto calda. A luglio e ad agosto ci sono spesso trentacinque gradi, e c'è poco vento. Molti fiorentini vanno al mare o in montagna, dove fa più fresco. A Ferragosto, il quindici agosto, molti negozi e ristoranti sono chiusi.", "In autunno piove spesso, e novembre è un mese di pioggia. Ma ottobre è un bel mese: non fa più caldo e non fa ancora freddo, e le foglie degli alberi sono gialle e rosse.", "L'inverno non è molto freddo, ma è umido, e qualche volta la mattina c'è la nebbia. In città nevica poco, quasi mai. Ma non lontano, in montagna, all'Abetone, c'è la neve e potete sciare.", "A dicembre in piazza del Duomo c'è un grande albero di Natale, e la sera le strade del centro sono molto belle.", "Un'ultima cosa: a Firenze l'ombrello è utile in ogni stagione. Gli studenti di Giulia hanno sempre un ombrello nello zaino!"]
+  }
+}

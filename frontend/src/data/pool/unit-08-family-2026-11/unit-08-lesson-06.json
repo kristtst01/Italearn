@@ -1,0 +1,260 @@
+{
+  "id": "unit-08-lesson-06",
+  "unit_id": "unit-08",
+  "name": "People & Life",
+  "order": 6,
+  "grammar_tips": [
+    {
+      "id": "unit-08-lesson-06-tip-01",
+      "title": "People in General",
+      "explanation": "Beyond family, useful people-words: 'la persona' (person), 'la gente' (people — always singular!), 'qualcuno' (someone), 'il gruppo' (group). 'La gente' takes singular verbs: 'La gente è gentile' = People are kind.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-08-lesson-06-tip-02",
+      "title": "Signore & Signora",
+      "explanation": "'Il signore' / 'la signora' = the man / the woman (formal). Also used as titles before a name: 'il signor Rossi' (Mr Rossi), 'la signora Bianchi' (Mrs Bianchi). The -e drops before a name.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-08-lesson-06-tip-03",
+      "title": "Life & Love",
+      "explanation": "'La vita' (life) and 'l'amore' (love). 'Ho una bella vita' = I have a nice life. 'L'amore è importante' = Love is important.",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-08-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'persona' mean?" },
+      "sentence_context": "Marco è una persona gentile.",
+      "correct_answer": "Person",
+      "distractors": ["People", "Friend", "Man"],
+      "hints": ["Marco is a kind person."],
+      "target_words": ["persona"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'gente' mean?" },
+      "sentence_context": "La gente è simpatica.",
+      "correct_answer": "People",
+      "distractors": ["Person", "Family", "Crowd"],
+      "hints": ["People are nice."],
+      "target_words": ["gente"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'qualcuno' mean?" },
+      "sentence_context": "C'è qualcuno a casa?",
+      "correct_answer": "Someone",
+      "distractors": ["No one", "Anyone", "Everyone"],
+      "hints": ["Is anyone home?"],
+      "target_words": ["qualcuno"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'gruppo' mean?" },
+      "sentence_context": "Un gruppo di amici.",
+      "correct_answer": "Group",
+      "distractors": ["Pair", "Crowd", "Team"],
+      "hints": ["A group of friends."],
+      "target_words": ["gruppo"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'signora' mean?" },
+      "sentence_context": "La signora Rossi.",
+      "correct_answer": "Mrs / lady",
+      "distractors": ["Miss", "Girl", "Friend"],
+      "hints": ["Formal title for a woman."],
+      "target_words": ["signora"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'signore' mean here?" },
+      "sentence_context": "Buongiorno, signore.",
+      "correct_answer": "Sir / Mr",
+      "distractors": ["Boy", "Friend", "Man"],
+      "hints": ["Formal address for a man."],
+      "target_words": ["signore"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'vita' mean?" },
+      "sentence_context": "La vita è bella.",
+      "correct_answer": "Life",
+      "distractors": ["Day", "World", "Time"],
+      "hints": ["Life is beautiful."],
+      "target_words": ["vita"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'amore' mean?" },
+      "sentence_context": "L'amore è importante.",
+      "correct_answer": "Love",
+      "distractors": ["Friend", "Family", "Heart"],
+      "hints": ["Love is important."],
+      "target_words": ["amore"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ragazzino' mean?" },
+      "sentence_context": "Il ragazzino gioca.",
+      "correct_answer": "Little boy / kid",
+      "distractors": ["Old man", "Friend", "Teenager"],
+      "hints": ["A small boy."],
+      "target_words": ["ragazzino"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'anziano' mean?" },
+      "sentence_context": "Un signore anziano.",
+      "correct_answer": "Elderly / old (of people)",
+      "distractors": ["Young", "Tired", "Wise"],
+      "hints": ["An elderly gentleman."],
+      "target_words": ["anziano"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Anna è una ___ gentile.",
+      "correct_answer": "persona",
+      "distractors": [],
+      "hints": ["Anna is a kind person."],
+      "target_words": ["persona"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "La ___ italiana è gentile.",
+      "correct_answer": "gente",
+      "distractors": [],
+      "hints": ["Italian people are kind."],
+      "target_words": ["gente"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Esco con un ___ di amici.",
+      "correct_answer": "gruppo",
+      "distractors": [],
+      "hints": ["I go out with a group of friends."],
+      "target_words": ["gruppo"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-14",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "La mia ___ è bella.",
+      "correct_answer": "vita",
+      "distractors": [],
+      "hints": ["My life is beautiful."],
+      "target_words": ["vita"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'person' in Italian?" },
+      "sentence_context": "Una persona simpatica.",
+      "correct_answer": "persona",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["persona"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'someone' in Italian?" },
+      "sentence_context": "C'è qualcuno qui.",
+      "correct_answer": "qualcuno",
+      "distractors": [],
+      "hints": ["The opposite of 'nessuno'."],
+      "target_words": ["qualcuno"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-17",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'life' in Italian?" },
+      "sentence_context": "La vita è bella.",
+      "correct_answer": "vita",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["vita"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-18",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'love' in Italian?" },
+      "sentence_context": "L'amore.",
+      "correct_answer": "amore",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["amore"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Italian people are nice.'" },
+      "sentence_context": "La gente italiana è simpatica.",
+      "correct_answer": ["La", "gente", "italiana", "è", "simpatica."],
+      "distractors": ["sono", "italiani"],
+      "hints": ["Gente is singular → è, simpatica."],
+      "target_words": ["gente"]
+    },
+    {
+      "id": "unit-08-lesson-06-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Life is beautiful.'" },
+      "sentence_context": "La vita è bella.",
+      "correct_answer": ["La", "vita", "è", "bella."],
+      "distractors": ["bello", "amore"],
+      "hints": ["Vita is feminine → bella."],
+      "target_words": ["vita"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "persona", "meaning": "Person", "example": "Marco è una persona gentile." },
+    { "word": "gente", "meaning": "People (always singular)", "example": "La gente è simpatica." },
+    { "word": "qualcuno", "meaning": "Someone", "example": "C'è qualcuno a casa?" },
+    { "word": "gruppo", "meaning": "Group", "example": "Un gruppo di amici." },
+    { "word": "signora", "meaning": "Mrs / lady", "example": "La signora Rossi." },
+    { "word": "signore", "meaning": "Sir / Mr", "example": "Buongiorno, signore." },
+    { "word": "vita", "meaning": "Life", "example": "La vita è bella." },
+    { "word": "amore", "meaning": "Love", "example": "L'amore è importante." },
+    { "word": "ragazzino", "meaning": "Little boy / kid", "example": "Il ragazzino gioca." },
+    { "word": "anziano", "meaning": "Elderly / old (of people)", "example": "Un signore anziano." }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "unit-14-lesson-06",
+  "unit_id": "unit-14",
+  "name": "Platform Six",
+  "order": 6,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-14-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who isn't at the ticket office at ten to eight?" },
+      "sentence_context": "",
+      "correct_answer": "Paul",
+      "distractors": ["Emma", "Aiko"],
+      "hints": ["'Paul non c'è.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-14-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which platform does the train for Pisa leave from?" },
+      "sentence_context": "",
+      "correct_answer": "4",
+      "distractors": ["6", "9"],
+      "hints": ["Read the board."],
+      "target_words": ["binario"]
+    },
+    {
+      "id": "unit-14-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does the announcement say about the Bologna train?" },
+      "sentence_context": "",
+      "correct_answer": "It's twenty minutes late",
+      "distractors": ["It leaves from another platform", "It's on time"],
+      "hints": ["Read the announcement."],
+      "target_words": ["annuncio"]
+    },
+    {
+      "id": "unit-14-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why is Paul late?" },
+      "sentence_context": "",
+      "correct_answer": "He's in a taxi and there's a lot of traffic",
+      "distractors": ["He's on the wrong train", "He's buying his ticket"],
+      "hints": ["Read Paul's message."],
+      "target_words": ["traffico"]
+    },
+    {
+      "id": "unit-14-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What doesn't Paul have when he arrives?" },
+      "sentence_context": "",
+      "correct_answer": "A ticket",
+      "distractors": ["A coffee", "His phone"],
+      "hints": ["'Senza biglietto.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-14-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Aiko do on the train?" },
+      "sentence_context": "",
+      "correct_answer": "She sleeps",
+      "distractors": ["She reads", "She looks out of the window"],
+      "hints": ["Read the paragraph about the journey."],
+      "target_words": []
+    },
+    {
+      "id": "unit-14-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: the train arrives in Bologna on time." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["Departure 8:15, arrival 9:40, and twenty minutes late."],
+      "target_words": ["orario"]
+    },
+    {
+      "id": "unit-14-lesson-06-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: There's a lot of traffic!" },
+      "sentence_context": "C'è molto ___!",
+      "correct_answer": "traffico",
+      "distractors": [],
+      "hints": ["Traffic."],
+      "target_words": ["traffico"]
+    },
+    {
+      "id": "unit-14-lesson-06-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The announcement says the train is late." },
+      "sentence_context": "L'___ dice: il treno è in ritardo.",
+      "correct_answer": "annuncio",
+      "distractors": [],
+      "hints": ["At the station, from the loudspeaker."],
+      "target_words": ["annuncio"]
+    },
+    {
+      "id": "unit-14-lesson-06-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: A che ora parte il treno per Bologna?" },
+      "sentence_context": "A che ora parte il treno per Bologna?",
+      "correct_answer": ["alle otto e trentacinque", "parte alle otto e trentacinque"],
+      "distractors": [],
+      "hints": ["Add the delay to 8:15."],
+      "target_words": ["ritardo"]
+    },
+    {
+      "id": "unit-14-lesson-06-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Chi aspetta la classe sul binario a Bologna?" },
+      "sentence_context": "Chi aspetta la classe sul binario a Bologna?",
+      "correct_answer": ["Luca", "c'è Luca", "Luca aspetta la classe"],
+      "distractors": [],
+      "hints": ["Read the end of the text."],
+      "target_words": []
+    },
+    {
+      "id": "unit-14-lesson-06-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa dice Paul alla fine?" },
+      "sentence_context": "Che cosa dice Paul alla fine?",
+      "correct_answer": ["io sono in orario", "sono in orario"],
+      "distractors": [],
+      "hints": ["Read the last line."],
+      "target_words": ["orario"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "annuncio", "meaning": "announcement · annunci (plural)", "example": "Ascolto l'annuncio: il treno è in ritardo." }
+  ],
+  "reading": {
+    "title": "Binario sei",
+    "paragraphs": ["Sabato mattina, alla stazione di Firenze. Sono le otto meno dieci. Davanti alla biglietteria ci sono Giulia, Emma, Tomás, Yuki e Aiko. Paul non c'è.", "Partenze", "8:05 · Roma · binario 9 · in orario", "8:15 · Bologna · binario 6 · ritardo 20 minuti", "8:20 · Pisa · binario 4 · in orario", "Annuncio: Attenzione! Il treno delle otto e quindici per Bologna è in ritardo di venti minuti. Il treno parte dal binario sei.", "Aiko: Venti minuti di ritardo! Allora prendiamo un caffè?", "Giulia: Va bene. Ma dov'è Paul?", "Alle otto e venti arriva un messaggio di Paul: «Sono in taxi, ma c'è molto traffico! Arrivo fra dieci minuti.»", "La classe aspetta al bar. Alle otto e mezza Paul arriva di corsa, senza biglietto. Compra il biglietto in biglietteria, e alle otto e trentacinque il treno parte.", "Il viaggio dura circa un'ora e mezza. Tomás guarda la campagna dal finestrino, Yuki legge, Aiko dorme, e Paul beve il caffè di Aiko.", "Alle dieci il treno arriva a Bologna. Sul binario c'è Luca.", "Luca: Benvenuti a Bologna! Ma perché siete in ritardo?", "Tutti guardano Paul.", "Paul: Io? Io sono in orario!"]
+  }
+}

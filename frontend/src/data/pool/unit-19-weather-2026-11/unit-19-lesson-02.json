@@ -1,0 +1,216 @@
+{
+  "id": "unit-19-lesson-02",
+  "unit_id": "unit-19",
+  "name": "Seasons",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-19-lesson-02-tip-01",
+      "title": "The Four Seasons",
+      "explanation": "Le quattro stagioni: la primavera (spring), l'estate (summer — feminine!), l'autunno (autumn), l'inverno (winter). 'In primavera', 'in estate', 'in autunno', 'in inverno' for 'in [season]'.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-19-lesson-02-tip-02",
+      "title": "Talking About Each Season",
+      "explanation": "Each season has its weather: in primavera piove spesso, in estate fa caldo, in autunno c'è il vento, in inverno fa freddo. Now you can describe a whole year.",
+      "before_exercise": 6
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-19-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'primavera' mean?" },
+      "sentence_context": "In primavera piove spesso.",
+      "correct_answer": "Spring",
+      "distractors": ["Summer", "Autumn", "Winter"],
+      "hints": ["The season of flowers."],
+      "target_words": ["primavera"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'estate' mean?" },
+      "sentence_context": "In estate fa caldo.",
+      "correct_answer": "Summer",
+      "distractors": ["Spring", "Autumn", "Winter"],
+      "hints": ["The hot season."],
+      "target_words": ["estate"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'autunno' mean?" },
+      "sentence_context": "In autunno c'è il vento.",
+      "correct_answer": "Autumn",
+      "distractors": ["Summer", "Spring", "Winter"],
+      "hints": ["When leaves fall."],
+      "target_words": ["autunno"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'inverno' mean?" },
+      "sentence_context": "In inverno fa freddo.",
+      "correct_answer": "Winter",
+      "distractors": ["Summer", "Spring", "Autumn"],
+      "hints": ["The cold season."],
+      "target_words": ["inverno"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'stagione' mean?" },
+      "sentence_context": "L'estate è la mia stagione preferita.",
+      "correct_answer": "Season",
+      "distractors": ["Year", "Month", "Day"],
+      "hints": ["Summer is my favourite season."],
+      "target_words": ["stagione"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "In ___ fa caldo.",
+      "correct_answer": "estate",
+      "distractors": [],
+      "hints": ["In summer it's hot."],
+      "target_words": ["estate"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "In ___ fa freddo e nevica.",
+      "correct_answer": "inverno",
+      "distractors": [],
+      "hints": ["In winter it's cold and it snows."],
+      "target_words": ["inverno"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "In ___ ci sono i fiori.",
+      "correct_answer": "primavera",
+      "distractors": [],
+      "hints": ["In spring there are flowers."],
+      "target_words": ["primavera"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "L'inverno è una ___ fredda.",
+      "correct_answer": "stagione",
+      "distractors": [],
+      "hints": ["Winter is a cold season."],
+      "target_words": ["stagione"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'summer' in Italian?" },
+      "sentence_context": "L'estate è bella.",
+      "correct_answer": "estate",
+      "distractors": [],
+      "hints": ["Feminine: l'estate."],
+      "target_words": ["estate"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'winter' in Italian?" },
+      "sentence_context": "L'inverno è freddo.",
+      "correct_answer": "inverno",
+      "distractors": [],
+      "hints": ["Masculine: l'inverno."],
+      "target_words": ["inverno"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'spring' in Italian?" },
+      "sentence_context": "La primavera è bella.",
+      "correct_answer": "primavera",
+      "distractors": [],
+      "hints": ["Feminine: la primavera."],
+      "target_words": ["primavera"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'autumn' in Italian?" },
+      "sentence_context": "L'autunno è la mia stagione.",
+      "correct_answer": "autunno",
+      "distractors": [],
+      "hints": ["Masculine: l'autunno."],
+      "target_words": ["autunno"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'season' in Italian?" },
+      "sentence_context": "Ci sono quattro stagioni.",
+      "correct_answer": "stagione",
+      "distractors": [],
+      "hints": ["A feminine noun ending in -e."],
+      "target_words": ["stagione"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'In summer it's hot.'" },
+      "sentence_context": "In estate fa caldo.",
+      "correct_answer": ["In", "estate", "fa", "caldo."],
+      "distractors": ["inverno", "freddo"],
+      "hints": ["'In' + season + 'fa caldo'."],
+      "target_words": ["estate"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'In winter I wear a coat.'" },
+      "sentence_context": "In inverno metto il cappotto.",
+      "correct_answer": ["In", "inverno", "metto", "il", "cappotto."],
+      "distractors": ["estate", "giacca"],
+      "hints": ["'In inverno' + verb + clothing."],
+      "target_words": ["inverno"]
+    },
+    {
+      "id": "unit-19-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Spring is my favourite season.'" },
+      "sentence_context": "La primavera è la mia stagione preferita.",
+      "correct_answer": ["La", "primavera", "è", "la", "mia", "stagione", "preferita."],
+      "distractors": ["estate", "preferito"],
+      "hints": ["Feminine noun + feminine adjective."],
+      "target_words": ["primavera", "stagione"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "primavera", "meaning": "Spring", "example": "In primavera piove spesso." },
+    { "word": "estate", "meaning": "Summer", "example": "In estate fa caldo." },
+    { "word": "autunno", "meaning": "Autumn", "example": "In autunno c'è il vento." },
+    { "word": "inverno", "meaning": "Winter", "example": "In inverno fa freddo." },
+    { "word": "stagione", "meaning": "Season", "example": "L'estate è la mia stagione preferita." }
+  ]
+}

@@ -1,252 +1,150 @@
 {
   "id": "unit-08-lesson-05",
   "unit_id": "unit-08",
-  "name": "Possessives II — Nostro, Vostro, Loro",
+  "name": "Luca's Photo",
   "order": 5,
-  "grammar_tips": [
-    {
-      "id": "unit-08-lesson-05-tip-01",
-      "title": "Nostro & Vostro",
-      "explanation": "'Nostro' (our) and 'vostro' (your, for more than one person) agree like 'mio': 'il nostro libro', 'la vostra casa', 'i nostri amici'.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-08-lesson-05-tip-02",
-      "title": "Loro Never Changes",
-      "explanation": "'Loro' (their) is invariable — it never changes: 'il loro cane', 'la loro casa', 'i loro figli'. And unlike other possessives, it always keeps the article — even with family: 'la loro madre'.",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-08-lesson-05-tip-03",
-      "title": "Family Rule Recap",
-      "explanation": "The family-no-article rule still applies to nostro/vostro with singular family: 'nostro padre' (not 'il nostro padre'), 'vostra madre'. But never with 'loro': always 'la loro madre'.",
-      "before_exercise": 13
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-08-lesson-05-ex-01",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'il nostro' mean?" },
-      "sentence_context": "Il nostro cane è grande.",
-      "correct_answer": "Our",
-      "distractors": ["Your (plural)", "Their", "His"],
-      "hints": ["Our dog is big."],
-      "target_words": ["nostro"]
+      "prompt": { "text": "Who is Franco?" },
+      "sentence_context": "",
+      "correct_answer": "Luca's father",
+      "distractors": ["Luca's grandfather", "Luca's uncle"],
+      "hints": ["'Questo è mio padre, Franco.'"],
+      "target_words": ["padre"]
     },
     {
       "id": "unit-08-lesson-05-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'il vostro' mean?" },
-      "sentence_context": "Il vostro giardino è bello.",
-      "correct_answer": "Your (plural)",
-      "distractors": ["Our", "Their", "Your (singular)"],
-      "hints": ["For more than one owner."],
-      "target_words": ["vostro"]
+      "prompt": { "text": "What does Luca's father do?" },
+      "sentence_context": "",
+      "correct_answer": "He's a doctor, like Paul",
+      "distractors": ["He's an engineer, like Luca", "He's a teacher"],
+      "hints": ["'Fa il medico, come te!'"],
+      "target_words": ["come"]
     },
     {
       "id": "unit-08-lesson-05-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'il loro' mean here?" },
-      "sentence_context": "Il loro cane è simpatico.",
-      "correct_answer": "Their",
-      "distractors": ["Our", "Your", "His/Her"],
-      "hints": ["'Loro' here means 'their'."],
-      "target_words": ["loro"]
+      "prompt": { "text": "Who are Giorgia and Pietro?" },
+      "sentence_context": "",
+      "correct_answer": "The children of Luca's sister",
+      "distractors": ["Luca's cousins", "Luca's children"],
+      "hints": ["'I figli di mia sorella Sara.'"],
+      "target_words": ["nipote"]
     },
     {
       "id": "unit-08-lesson-05-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "Which is correct for 'their mother'?" },
-      "sentence_context": "La loro madre è italiana.",
-      "correct_answer": "la loro madre",
-      "distractors": ["loro madre", "il loro madre", "la sua madre"],
-      "hints": ["With 'loro' the article always stays."],
-      "target_words": ["loro"]
+      "prompt": { "text": "True or false: Sara lives far from her parents." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'Abitano vicino ai miei genitori.'"],
+      "target_words": []
     },
     {
       "id": "unit-08-lesson-05-ex-05",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Il ___ cane è grande.",
-      "correct_answer": "nostro",
-      "distractors": [],
-      "hints": ["Our dog is big."],
-      "target_words": ["nostro"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does nonna Rosa do every Sunday?" },
+      "sentence_context": "",
+      "correct_answer": "She cooks for the whole family",
+      "distractors": ["She phones Luca", "She goes to the bar"],
+      "hints": ["'Ogni domenica cucina per tutta la famiglia.'"],
+      "target_words": []
     },
     {
       "id": "unit-08-lesson-05-ex-06",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Il ___ giardino è bello.",
-      "correct_answer": "vostro",
-      "distractors": [],
-      "hints": ["Your (plural) garden is beautiful."],
-      "target_words": ["vostro"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Does Luca have a girlfriend?" },
+      "sentence_context": "",
+      "correct_answer": "Not for now",
+      "distractors": ["Yes, in Bologna", "Yes, in Florence"],
+      "hints": ["'No, per ora no.'"],
+      "target_words": ["per ora"]
     },
     {
       "id": "unit-08-lesson-05-ex-07",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "La ___ macchina è rossa.",
-      "correct_answer": "loro",
-      "distractors": [],
-      "hints": ["Their car is red."],
-      "target_words": ["loro"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who phones at eight?" },
+      "sentence_context": "",
+      "correct_answer": "Luca's mother",
+      "distractors": ["Luca's grandmother", "Luca's sister"],
+      "hints": ["'Pronto, mamma?'"],
+      "target_words": []
     },
     {
       "id": "unit-08-lesson-05-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "La ___ casa è grande.",
-      "correct_answer": "nostra",
+      "prompt": { "text": "Complete from the text: for now, no." },
+      "sentence_context": "No, per ___ no.",
+      "correct_answer": "ora",
       "distractors": [],
-      "hints": ["Our house is big."],
-      "target_words": ["nostro"]
+      "hints": ["For now."],
+      "target_words": ["per ora"]
     },
     {
       "id": "unit-08-lesson-05-ex-09",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'our' (with masculine 'libro')?" },
-      "sentence_context": "Il nostro libro è nuovo.",
-      "correct_answer": "nostro",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: the dog is a bit fat." },
+      "sentence_context": "È piccolo e un po' ___.",
+      "correct_answer": "grasso",
       "distractors": [],
-      "hints": ["Masculine → nostro."],
-      "target_words": ["nostro"]
+      "hints": ["Fat."],
+      "target_words": ["grasso"]
     },
     {
       "id": "unit-08-lesson-05-ex-10",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'your (plural)' (with masculine 'tavolo')?" },
-      "sentence_context": "Il vostro tavolo è vecchio.",
-      "correct_answer": "vostro",
+      "prompt": { "text": "Answer in Italian: Come si chiama la sorella di Luca?" },
+      "sentence_context": "Come si chiama la sorella di Luca?",
+      "correct_answer": ["Sara", "si chiama Sara", "la sorella di Luca si chiama Sara"],
       "distractors": [],
-      "hints": ["For more than one owner."],
-      "target_words": ["vostro"]
+      "hints": ["Read what Luca says about the two children."],
+      "target_words": []
     },
     {
       "id": "unit-08-lesson-05-ex-11",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'their' (always the same)?" },
-      "sentence_context": "Il loro cane è grande.",
-      "correct_answer": "loro",
+      "prompt": { "text": "Answer in Italian: Quanti anni ha la nonna di Luca?" },
+      "sentence_context": "Quanti anni ha la nonna di Luca?",
+      "correct_answer": ["ottantasette", "ha ottantasette anni", "ottantasette anni"],
       "distractors": [],
-      "hints": ["Loro is invariable."],
-      "target_words": ["loro"]
+      "hints": ["Read the paragraph about nonna Rosa."],
+      "target_words": ["nonno"]
     },
     {
       "id": "unit-08-lesson-05-ex-12",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in 'our' so it agrees with 'casa' (feminine)." },
-      "sentence_context": "La ___ casa è grande.",
-      "correct_answer": "nostra",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa dice Luca alla fine?" },
+      "sentence_context": "Che cosa dice Luca alla fine?",
+      "correct_answer": ["un bacio, mamma", "un bacio, mamma. ciao!"],
       "distractors": [],
-      "hints": ["Feminine → nostra."],
-      "target_words": ["nostro"]
-    },
-    {
-      "id": "unit-08-lesson-05-ex-13",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in 'your (plural)' so it agrees with 'borsa' (feminine)." },
-      "sentence_context": "La ___ borsa è nuova.",
-      "correct_answer": "vostra",
-      "distractors": [],
-      "hints": ["Feminine → vostra."],
-      "target_words": ["vostro"]
-    },
-    {
-      "id": "unit-08-lesson-05-ex-14",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in 'their' — remember, 'loro' never changes." },
-      "sentence_context": "La ___ macchina è rossa.",
-      "correct_answer": "loro",
-      "distractors": [],
-      "hints": ["Loro is invariable: always 'loro'."],
-      "target_words": ["loro"]
-    },
-    {
-      "id": "unit-08-lesson-05-ex-15",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Write 'our' before a single family member — no article." },
-      "sentence_context": "___ padre è in giardino.",
-      "correct_answer": "Nostro",
-      "distractors": [],
-      "hints": ["One family member → no article."],
-      "target_words": ["nostro"]
-    },
-    {
-      "id": "unit-08-lesson-05-ex-16",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Write 'their' before a family member — article stays with loro." },
-      "sentence_context": "La ___ madre è italiana.",
-      "correct_answer": "loro",
-      "distractors": [],
-      "hints": ["With 'loro' the article never drops."],
-      "target_words": ["loro"]
-    },
-    {
-      "id": "unit-08-lesson-05-ex-17",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Our family is big.'" },
-      "sentence_context": "La nostra famiglia è grande.",
-      "correct_answer": ["La", "nostra", "famiglia", "è", "grande."],
-      "distractors": ["nostro", "vostra"],
-      "hints": ["'Famiglia' is feminine → nostra."],
-      "target_words": ["nostro"]
-    },
-    {
-      "id": "unit-08-lesson-05-ex-18",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Their cousin is nice.'" },
-      "sentence_context": "Il loro cugino è simpatico.",
-      "correct_answer": ["Il", "loro", "cugino", "è", "simpatico."],
-      "distractors": ["nostro", "cugina"],
-      "hints": ["Loro keeps the article."],
-      "target_words": ["loro", "cugino"]
-    },
-    {
-      "id": "unit-08-lesson-05-ex-19",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Our parents are Italian.'" },
-      "sentence_context": "I nostri genitori sono italiani.",
-      "correct_answer": ["I", "nostri", "genitori", "sono", "italiani."],
-      "distractors": ["nostro", "genitore"],
-      "hints": ["Plural family → article comes back."],
-      "target_words": ["nostro"]
-    },
-    {
-      "id": "unit-08-lesson-05-ex-20",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Your (plural) house is big.'" },
-      "sentence_context": "La vostra casa è grande.",
-      "correct_answer": ["La", "vostra", "casa", "è", "grande."],
-      "distractors": ["vostro", "nostra"],
-      "hints": ["Feminine → vostra."],
-      "target_words": ["vostro"]
+      "hints": ["The last line."],
+      "target_words": ["bacio"]
     }
   ],
   "vocabulary": [
-    { "word": "nostro", "meaning": "Our", "example": "Il nostro cane è grande." },
-    { "word": "vostro", "meaning": "Your (plural)", "example": "Il vostro giardino è bello." }
-  ]
+    { "word": "grasso", "meaning": "fat", "example": "Il gatto di Marco è un po' grasso." },
+    { "word": "per ora", "meaning": "for now", "example": "Per ora abito da solo." },
+    { "word": "come", "meaning": "like, as · come te = like you · come sempre = as always", "example": "Lavora troppo, come sempre.", "phrase": true }
+  ],
+  "reading": {
+    "title": "La foto di Luca",
+    "paragraphs": ["Paul e Luca sono al bar in piazza San Marco. Luca ha il telefono in mano e cerca una foto.", "Luca: Ecco la mia famiglia, a Bologna. Questo è mio padre, Franco. Ha sessantadue anni e fa il medico, come te!", "Paul: Davvero? E la signora accanto a lui?", "Luca: È mia madre, Anna. Fa l'insegnante in una scuola vicino a casa.", "Paul: E questi due bambini?", "Luca: Sono i miei nipoti, Giorgia e Pietro, i figli di mia sorella Sara. Sara è sposata con Davide e abitano vicino ai miei genitori.", "Paul: E la signora anziana con il cane?", "Luca: È mia nonna Rosa. Ha ottantasette anni e abita con i miei genitori. È in pensione da tanto tempo, ma ogni domenica cucina per tutta la famiglia. E il cane è Tortellino. È piccolo e un po' grasso, ma è un amore.", "Paul: È una famiglia grande! E tu? Hai una fidanzata?", "Luca: No, per ora no. Ma c'è mia madre: telefona ogni sera, alle otto!", "In quel momento il telefono suona. Luca guarda Paul.", "Luca: Ecco, sono le otto. Pronto, mamma? Sì, sto bene… Sì, mangio… No, non lavoro troppo… Sì, anche Paul sta bene. Un bacio, mamma. Ciao!"]
+  }
 }

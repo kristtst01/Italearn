@@ -1,0 +1,92 @@
+{
+  "id": "unit-08-lesson-07",
+  "unit_id": "unit-08",
+  "name": "Practice Writing",
+  "order": 7,
+  "grammar_tips": [
+    {
+      "id": "unit-08-lesson-07-tip-01",
+      "title": "Write About Your Family",
+      "explanation": "Now write about your own family. Use possessives (mio, tuo, suo, nostro, vostro, loro) and remember the family rule: no article with one family member (except with 'loro'). Describe people with adjectives from Unit 6.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-08-lesson-07-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe your family. Say who is in it and how big it is (3-4 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "La mia famiglia è grande. Ho una madre, un padre e due fratelli. Abbiamo un cane. La mia famiglia è simpatica.",
+      "distractors": [],
+      "hints": [
+        "Use 'La mia famiglia', then 'Ho...' for who is in it."
+      ],
+      "target_words": [
+        "famiglia",
+        "madre",
+        "padre"
+      ]
+    },
+    {
+      "id": "unit-08-lesson-07-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe one family member. Say who they are and what they are like (3-4 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "Mio nonno è vecchio. È alto e gentile. Mio nonno è italiano. È molto simpatico.",
+      "distractors": [],
+      "hints": [
+        "Use a possessive + family word, then adjectives. No article with one family member."
+      ],
+      "target_words": [
+        "nonno",
+        "gentile"
+      ]
+    },
+    {
+      "id": "unit-08-lesson-07-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Write about your parents and grandparents. Say something about each (3-4 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "I miei genitori sono italiani. Mia madre è gentile e parla francese. Mio padre è dottore. I miei nonni sono vecchi e bravi.",
+      "distractors": [],
+      "hints": [
+        "'I miei genitori' (plural keeps article). 'Mia madre' (singular drops article)."
+      ],
+      "target_words": [
+        "genitori",
+        "madre",
+        "padre",
+        "nonno"
+      ]
+    },
+    {
+      "id": "unit-08-lesson-07-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe a relative who lives somewhere else — where they are from, what they're like (3-4 sentences)."
+      },
+      "sentence_context": "",
+      "correct_answer": "Mia zia abita in Francia. Lei è francese. Mia zia è giovane e bella. Ha un figlio piccolo.",
+      "distractors": [],
+      "hints": [
+        "Use 'abita in' + country, nationality, and adjectives."
+      ],
+      "target_words": [
+        "zia",
+        "figlio"
+      ]
+    }
+  ],
+  "vocabulary": []
+}

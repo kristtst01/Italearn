@@ -1,0 +1,236 @@
+{
+  "id": "unit-17-lesson-03",
+  "unit_id": "unit-17",
+  "name": "Accessories & Sizes",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-17-lesson-03-tip-01",
+      "title": "Accessories",
+      "explanation": "Common accessories: la sciarpa (scarf), i guanti (gloves), la cintura (belt), gli occhiali (glasses — always plural in Italian too), l'anello (ring).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-17-lesson-03-tip-02",
+      "title": "Asking for a Size",
+      "explanation": "'Che taglia hai?' = 'What size are you?'. 'Ho la taglia M' / 'la taglia media' / 'la taglia 42'. Italian uses letters (S/M/L) or numbers.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-17-lesson-03-tip-03",
+      "title": "Provare — To Try On",
+      "explanation": "'Vorrei provare questa maglia' = I'd like to try on this top. 'Provare' is a regular -are verb: provo, provi, prova...",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-17-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sciarpa' mean?" },
+      "sentence_context": "Metto la sciarpa.",
+      "correct_answer": "Scarf",
+      "distractors": ["Hat", "Glove", "Belt"],
+      "hints": ["You wear it round your neck."],
+      "target_words": ["sciarpa"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'guanti' mean?" },
+      "sentence_context": "Ho i guanti neri.",
+      "correct_answer": "Gloves",
+      "distractors": ["Socks", "Boots", "Belts"],
+      "hints": ["You wear them on your hands."],
+      "target_words": ["guanti"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'cintura' mean?" },
+      "sentence_context": "La cintura è marrone.",
+      "correct_answer": "Belt",
+      "distractors": ["Scarf", "Tie", "Ring"],
+      "hints": ["Holds up your trousers."],
+      "target_words": ["cintura"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'occhiali' mean?" },
+      "sentence_context": "Porto gli occhiali.",
+      "correct_answer": "Glasses",
+      "distractors": ["Earrings", "Watches", "Eyes"],
+      "hints": ["From 'occhi' (eyes)."],
+      "target_words": ["occhiali"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'anello' mean?" },
+      "sentence_context": "Anna ha un anello d'oro.",
+      "correct_answer": "Ring",
+      "distractors": ["Necklace", "Earring", "Bracelet"],
+      "hints": ["A piece of jewellery for the finger."],
+      "target_words": ["anello"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'taglia' mean here?" },
+      "sentence_context": "Che taglia hai?",
+      "correct_answer": "Size",
+      "distractors": ["Style", "Colour", "Price"],
+      "hints": ["What size are you?"],
+      "target_words": ["taglia"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'medio' mean?" },
+      "sentence_context": "Ho la taglia media.",
+      "correct_answer": "Medium",
+      "distractors": ["Small", "Large", "Extra"],
+      "hints": ["Between piccolo and grande."],
+      "target_words": ["medio"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'provare' mean here?" },
+      "sentence_context": "Vorrei provare questa maglia.",
+      "correct_answer": "To try on",
+      "distractors": ["To buy", "To wear", "To wash"],
+      "hints": ["Like trying on clothes in a shop."],
+      "target_words": ["provare"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "In inverno metto la ___.",
+      "correct_answer": "sciarpa",
+      "distractors": [],
+      "hints": ["In winter I wear a scarf."],
+      "target_words": ["sciarpa"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Porto gli ___ per leggere.",
+      "correct_answer": "occhiali",
+      "distractors": [],
+      "hints": ["I wear glasses for reading."],
+      "target_words": ["occhiali"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Che ___ hai?",
+      "correct_answer": "taglia",
+      "distractors": [],
+      "hints": ["What size are you?"],
+      "target_words": ["taglia"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'scarf' in Italian?" },
+      "sentence_context": "Metto la sciarpa.",
+      "correct_answer": "sciarpa",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["sciarpa"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'belt' in Italian?" },
+      "sentence_context": "La cintura è di pelle.",
+      "correct_answer": "cintura",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["cintura"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'gloves' in Italian?" },
+      "sentence_context": "Ho i guanti.",
+      "correct_answer": "guanti",
+      "distractors": [],
+      "hints": ["Masculine plural."],
+      "target_words": ["guanti"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to try on' in Italian?" },
+      "sentence_context": "Vorrei provare la maglia.",
+      "correct_answer": "provare",
+      "distractors": [],
+      "hints": ["Regular -are verb."],
+      "target_words": ["provare"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'io' form of 'provare'." },
+      "sentence_context": "Io ___ la maglia.",
+      "correct_answer": "provo",
+      "distractors": [],
+      "hints": ["io → -o."],
+      "target_words": ["provare"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I'd like to try on these trousers.'" },
+      "sentence_context": "Vorrei provare questi pantaloni.",
+      "correct_answer": ["Vorrei", "provare", "questi", "pantaloni."],
+      "distractors": ["queste", "scarpe"],
+      "hints": ["'Pantaloni' is masculine plural → questi."],
+      "target_words": ["provare", "pantaloni"]
+    },
+    {
+      "id": "unit-17-lesson-03-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I have a medium size.'" },
+      "sentence_context": "Ho la taglia media.",
+      "correct_answer": ["Ho", "la", "taglia", "media."],
+      "distractors": ["medio", "grande"],
+      "hints": ["'Taglia' is feminine → media."],
+      "target_words": ["taglia", "medio"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "sciarpa", "meaning": "Scarf", "example": "Metto la sciarpa." },
+    { "word": "guanti", "meaning": "Gloves", "example": "Ho i guanti neri." },
+    { "word": "cintura", "meaning": "Belt", "example": "La cintura è marrone." },
+    { "word": "occhiali", "meaning": "Glasses", "example": "Porto gli occhiali." },
+    { "word": "anello", "meaning": "Ring", "example": "Anna ha un anello d'oro." },
+    { "word": "taglia", "meaning": "Size (clothes)", "example": "Che taglia hai?" },
+    { "word": "medio", "meaning": "Medium", "example": "Ho la taglia media." },
+    { "word": "provare", "meaning": "To try on", "example": "Vorrei provare questa maglia." }
+  ]
+}

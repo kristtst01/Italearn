@@ -1,0 +1,150 @@
+{
+  "id": "unit-17-lesson-07",
+  "unit_id": "unit-17",
+  "name": "A Present for Tomás",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-17-lesson-07-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why are Yuki and Aiko in the shop?" },
+      "sentence_context": "",
+      "correct_answer": "They're looking for a birthday present for Tomás",
+      "distractors": ["They're buying clothes for school", "Aiko needs a new jumper"],
+      "hints": ["Read the first paragraph."],
+      "target_words": ["regalo"]
+    },
+    {
+      "id": "unit-17-lesson-07-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why doesn't Yuki want the yellow T-shirt?" },
+      "sentence_context": "",
+      "correct_answer": "She thinks it's ugly, and Tomás wears grey or blue",
+      "distractors": ["It's too expensive", "It's too big"],
+      "hints": ["Read the second paragraph."],
+      "target_words": ["brutto"]
+    },
+    {
+      "id": "unit-17-lesson-07-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How much does the jumper cost with the discount?" },
+      "sentence_context": "",
+      "correct_answer": "€ 28",
+      "distractors": ["€ 40", "€ 30"],
+      "hints": ["'Con il trenta per cento di sconto…'"],
+      "target_words": ["sconto"]
+    },
+    {
+      "id": "unit-17-lesson-07-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why does Aiko try on the jumper?" },
+      "sentence_context": "",
+      "correct_answer": "She's short and thin, like Tomás",
+      "distractors": ["She wants it for herself", "Rita asks her to"],
+      "hints": ["Read the fourth paragraph."],
+      "target_words": ["provare"]
+    },
+    {
+      "id": "unit-17-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is not quite right with the jumper?" },
+      "sentence_context": "",
+      "correct_answer": "The sleeves are a bit long",
+      "distractors": ["It's too tight", "The colour"],
+      "hints": ["'Le maniche…'"],
+      "target_words": ["manica"]
+    },
+    {
+      "id": "unit-17-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Tomás need to exchange the jumper?" },
+      "sentence_context": "",
+      "correct_answer": "The receipt",
+      "distractors": ["Yuki", "The bag"],
+      "hints": ["'Ha bisogno dello scontrino.'"],
+      "target_words": ["scontrino"]
+    },
+    {
+      "id": "unit-17-lesson-07-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Aiko buy at the end?" },
+      "sentence_context": "",
+      "correct_answer": "The yellow T-shirt, for herself",
+      "distractors": ["Another jumper for Tomás", "A bag"],
+      "hints": ["Read the last paragraph."],
+      "target_words": ["maglietta"]
+    },
+    {
+      "id": "unit-17-lesson-07-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: the sleeves are a bit long." },
+      "sentence_context": "Le ___ sono un po' lunghe.",
+      "correct_answer": "maniche",
+      "distractors": [],
+      "hints": ["Manica, plural: -che."],
+      "target_words": ["manica"]
+    },
+    {
+      "id": "unit-17-lesson-07-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: a simple, comfortable jumper." },
+      "sentence_context": "Un maglione ___ e comodo.",
+      "correct_answer": "semplice",
+      "distractors": [],
+      "hints": ["Simple."],
+      "target_words": ["semplice"]
+    },
+    {
+      "id": "unit-17-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: apart from that, it is fine." },
+      "sentence_context": "Per il ___ va bene.",
+      "correct_answer": "resto",
+      "distractors": [],
+      "hints": ["Otherwise: per il resto."],
+      "target_words": ["per il resto"]
+    },
+    {
+      "id": "unit-17-lesson-07-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Come paga Yuki?" },
+      "sentence_context": "Come paga Yuki?",
+      "correct_answer": ["in contanti", "paga in contanti", "Yuki paga in contanti"],
+      "distractors": [],
+      "hints": ["Read the paragraph about the till."],
+      "target_words": ["contanti"]
+    },
+    {
+      "id": "unit-17-lesson-07-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Di che colore è il maglione?" },
+      "sentence_context": "Di che colore è il maglione?",
+      "correct_answer": ["grigio", "è grigio", "il maglione è grigio"],
+      "distractors": [],
+      "hints": ["Read the third paragraph."],
+      "target_words": ["grigio"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "semplice", "meaning": "simple, plain", "example": "Un maglione semplice e comodo." },
+    { "word": "manica", "meaning": "sleeve · maniche (plural)", "example": "Le maniche sono lunghe." },
+    { "word": "per il resto", "meaning": "otherwise, apart from that", "example": "È un po' caro, ma per il resto va bene." }
+  ],
+  "reading": {
+    "title": "Un regalo per Tomás",
+    "paragraphs": ["Domani è il compleanno di Tomás, e Yuki e Aiko cercano un regalo. Vanno insieme da Rita, il negozio di abbigliamento in centro: oggi ci sono i saldi.", "Aiko vede subito una maglietta gialla con un grande gatto nero. «Questa! È divertente!» Yuki non è d'accordo: «È brutta, Aiko. E Tomás è timido: porta sempre il grigio o il blu.»", "Allora Yuki prende un maglione grigio, semplice e comodo. Costa quaranta euro, ma è in saldo: con il trenta per cento di sconto costa ventotto euro.", "«Che taglia porta Tomás?» domanda Rita. Le sorelle non sanno. «È basso e magro» dice Yuki, «come Aiko.»", "Aiko prova il maglione nel camerino. Le maniche sono un po' lunghe, ma per il resto va bene. «Allora prendiamo questo» dice Yuki.", "Alla cassa Yuki paga in contanti. Rita dà lo scontrino: «Se la taglia non va bene, Tomás può cambiare il maglione. Ma ha bisogno dello scontrino.»", "Fuori dal negozio, Aiko dice: «Un momento!» Torna dentro e dopo cinque minuti esce con una borsa piccola.", "«Che cosa hai?» domanda Yuki. Aiko apre la borsa: dentro c'è la maglietta gialla con il gatto nero. «Questa è per me!»"]
+  }
+}

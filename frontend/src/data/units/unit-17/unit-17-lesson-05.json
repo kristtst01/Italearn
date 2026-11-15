@@ -1,60 +1,160 @@
 {
   "id": "unit-17-lesson-05",
   "unit_id": "unit-17",
-  "name": "Practice Writing",
+  "name": "This One or That One?",
   "order": 5,
-  "grammar_tips": [
-    {
-      "id": "unit-17-lesson-05-tip-01",
-      "title": "Shopping",
-      "explanation": "Write about shopping. Use demonstratives (questo / quello), clothes, sizes, money, and asking prices.",
-      "before_exercise": 0
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-17-lesson-05-ex-01",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Describe what you are wearing today. (3-4 sentences)" },
-      "sentence_context": "",
-      "correct_answer": "Oggi porto i pantaloni neri e una maglia bianca. Le scarpe sono marroni. Ho anche un cappotto blu.",
+      "subtype": "cloze",
+      "prompt": { "text": "That coat (over there)." },
+      "sentence_context": "___ cappotto è caro.",
+      "correct_answer": "Quel",
       "distractors": [],
-      "hints": ["Use 'porto' or 'metto' + clothes + colours."],
-      "target_words": ["pantaloni", "maglia", "scarpe"]
+      "hints": ["Quel before most masculine nouns."],
+      "target_words": ["cappotto"]
     },
     {
       "id": "unit-17-lesson-05-ex-02",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "You're shopping for clothes — write a small dialogue with the shop assistant. (3-4 sentences)" },
-      "sentence_context": "",
-      "correct_answer": "Vorrei provare questa maglia. Che taglia hai? Ho la taglia media. Quanto costa?",
+      "subtype": "cloze",
+      "prompt": { "text": "Those trousers (over there)." },
+      "sentence_context": "Quanto costano ___ pantaloni?",
+      "correct_answer": "quei",
       "distractors": [],
-      "hints": ["Use 'vorrei provare', 'che taglia', 'quanto costa'."],
-      "target_words": ["provare", "taglia"]
+      "hints": ["Masculine plural before a consonant."],
+      "target_words": ["pantaloni"]
     },
     {
       "id": "unit-17-lesson-05-ex-03",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Compare two things in a shop — which is more expensive, which is cheaper. Use 'questo' and 'quello'. (3-4 sentences)" },
-      "sentence_context": "",
-      "correct_answer": "Questa maglia costa venti euro. Quella costa trenta euro. Questa è economica, quella è cara. Preferisco questa.",
+      "subtype": "cloze",
+      "prompt": { "text": "Those glasses (over there)." },
+      "sentence_context": "Quanto costano ___ occhiali?",
+      "correct_answer": "quegli",
       "distractors": [],
-      "hints": ["Use 'questo/quello' + price + 'economico/caro'."],
-      "target_words": ["questo", "quello", "economico"]
+      "hints": ["Before a vowel: quegli."],
+      "target_words": []
     },
     {
       "id": "unit-17-lesson-05-ex-04",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "You buy something — say what, how much it costs, and how you pay. (3-4 sentences)" },
-      "sentence_context": "",
-      "correct_answer": "Compro un cappotto e una sciarpa. Il cappotto costa cento euro, la sciarpa venti. C'è uno sconto. Pago in contanti.",
+      "subtype": "cloze",
+      "prompt": { "text": "Those shoes (over there)." },
+      "sentence_context": "___ scarpe sono belle.",
+      "correct_answer": "Quelle",
       "distractors": [],
-      "hints": ["Use 'compro', prices, 'sconto', 'pagare in contanti / con la carta'."],
-      "target_words": ["cappotto", "sciarpa", "sconto", "pagare"]
+      "hints": ["Feminine plural."],
+      "target_words": ["scarpe"]
+    },
+    {
+      "id": "unit-17-lesson-05-ex-05",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "These socks." },
+      "sentence_context": "___ calze sono care.",
+      "correct_answer": "Queste",
+      "distractors": [],
+      "hints": ["Feminine plural."],
+      "target_words": ["calza"]
+    },
+    {
+      "id": "unit-17-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "One thing or more? Choose the right verb." },
+      "sentence_context": "",
+      "correct_answer": "Quanto costano queste scarpe?",
+      "distractors": ["Quanto costa queste scarpe?", "Quanto costano questa scarpe?"],
+      "hints": ["Plural things: costano."],
+      "target_words": ["scarpe"]
+    },
+    {
+      "id": "unit-17-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "One thing or more? Choose the right verb." },
+      "sentence_context": "",
+      "correct_answer": "Quanto costa quella giacca?",
+      "distractors": ["Quanto costano quella giacca?", "Quanto costa quelle giacca?"],
+      "hints": ["One jacket: costa."],
+      "target_words": ["giacca"]
+    },
+    {
+      "id": "unit-17-lesson-05-ex-08",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You and a friend are choosing a skirt. Your friend asks which one. You prefer the black one." },
+      "sentence_context": "Friend: Quale gonna prendo? Quella rossa o quella nera?\nYou: ___",
+      "correct_answer": ["Quella nera.", "Quella nera: è bella e costa poco."],
+      "distractors": [],
+      "hints": ["Quella + the colour."],
+      "target_words": ["gonna"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Quale gonna prendo? Quella rossa o quella nera?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-17-lesson-05-ex-09",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your friend points at shirts. You think the white ones are nicer than the grey ones." },
+      "sentence_context": "Friend: Queste camicie grigie sono belle, no?\nYou: ___",
+      "correct_answer": ["Preferisco quelle bianche.", "Sono belle, ma preferisco quelle bianche."],
+      "distractors": [],
+      "hints": ["Quelle + the colour, feminine plural."],
+      "target_words": ["camicia", "grigio"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Queste camicie grigie sono belle, no?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-17-lesson-05-ex-10",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake." },
+      "sentence_context": "Quel scarpe sono troppo strette.",
+      "correct_answer": ["quelle scarpe sono troppo strette"],
+      "distractors": [],
+      "hints": ["Scarpe is feminine plural."],
+      "target_words": ["scarpe"]
+    },
+    {
+      "id": "unit-17-lesson-05-ex-11",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake." },
+      "sentence_context": "Questo pantaloni sono comodi.",
+      "correct_answer": ["questi pantaloni sono comodi"],
+      "distractors": [],
+      "hints": ["Pantaloni is plural."],
+      "target_words": ["pantaloni"]
+    },
+    {
+      "id": "unit-17-lesson-05-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask how much that hat costs." },
+      "sentence_context": "",
+      "correct_answer": ["quanto costa quel cappello?"],
+      "distractors": [],
+      "hints": ["Quel before cappello."],
+      "target_words": ["cappello"]
+    },
+    {
+      "id": "unit-17-lesson-05-ex-13",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'These brown shoes cost ninety euros.'" },
+      "sentence_context": "Queste scarpe marroni costano novanta euro.",
+      "correct_answer": ["Queste", "scarpe", "marroni", "costano", "novanta", "euro."],
+      "distractors": ["costa", "marrone"],
+      "hints": ["Plural: costano."],
+      "target_words": ["scarpe", "marrone"]
     }
   ],
   "vocabulary": []

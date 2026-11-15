@@ -63,7 +63,7 @@ With a **single family member**, the article goes:
 > Mio fratello abita a Milano. Mia sorella è medico.
 > My brother lives in Milan. My sister is a doctor.
 
-This works with *padre* (father), *madre* (mother), *fratello*, *sorella*, *figlio*, *figlia*, *marito* (husband) and *moglie* (wife). The article comes back:
+This works with *padre* (father), *madre* (mother), *fratello*, *sorella*, *figlio*, *figlia*, *marito* (husband) and *moglie* (wife), and with most other family words too: *mio nonno* (my grandfather), *mia zia* (my aunt), *mio cugino* (my cousin). The article comes back:
 
 - in the **plural**: *i miei fratelli*, *i miei genitori*, *le mie sorelle*
 - with **loro**: *la loro madre*, *il loro figlio*

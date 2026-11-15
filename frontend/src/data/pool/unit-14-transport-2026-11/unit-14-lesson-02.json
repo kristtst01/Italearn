@@ -1,0 +1,247 @@
+{
+  "id": "unit-14-lesson-02",
+  "unit_id": "unit-14",
+  "name": "Buying a Ticket",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-14-lesson-02-tip-01",
+      "title": "Asking for a Ticket",
+      "explanation": "'Un biglietto per Roma, per favore' = 'A ticket to Rome, please'. Add 'di sola andata' (one way) or 'andata e ritorno' (return / round trip) to specify.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-14-lesson-02-tip-02",
+      "title": "Costare",
+      "explanation": "'Quanto costa?' = How much does it cost? 'Costa venti euro' = It costs 20 euros. The verb 'costare' is regular -are: costo, costi, costa, costiamo, costate, costano.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-14-lesson-02-tip-03",
+      "title": "Partire vs Arrivare",
+      "explanation": "'Partire' (to leave) and 'arrivare' (to arrive). 'Il treno parte alle otto' (The train leaves at eight). 'Il treno arriva alle dieci' (The train arrives at ten).",
+      "before_exercise": 13
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-14-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'biglietto' mean?" },
+      "sentence_context": "Compro un biglietto.",
+      "correct_answer": "Ticket",
+      "distractors": ["Receipt", "Stamp", "Card"],
+      "hints": ["I buy a ticket."],
+      "target_words": ["biglietto"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'andata' mean?" },
+      "sentence_context": "Un biglietto di sola andata.",
+      "correct_answer": "Outward (one-way) journey",
+      "distractors": ["Return", "Stop", "Arrival"],
+      "hints": ["One-way ticket."],
+      "target_words": ["andata"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ritorno' mean?" },
+      "sentence_context": "Andata e ritorno.",
+      "correct_answer": "Return / way back",
+      "distractors": ["Outward", "Departure", "Arrival"],
+      "hints": ["Return / round-trip."],
+      "target_words": ["ritorno"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'fermata' mean?" },
+      "sentence_context": "La fermata dell'autobus è qui.",
+      "correct_answer": "(Bus) stop",
+      "distractors": ["Station", "Door", "Street"],
+      "hints": ["Where the bus stops."],
+      "target_words": ["fermata"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'aeroporto' mean?" },
+      "sentence_context": "Vado all'aeroporto.",
+      "correct_answer": "Airport",
+      "distractors": ["Station", "Port", "Office"],
+      "hints": ["Where planes take off."],
+      "target_words": ["aeroporto"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'viaggio' mean?" },
+      "sentence_context": "Faccio un viaggio in Italia.",
+      "correct_answer": "Trip / journey",
+      "distractors": ["Ticket", "Stop", "Visit"],
+      "hints": ["A trip to Italy."],
+      "target_words": ["viaggio"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Quanto ___ il biglietto?",
+      "correct_answer": "costa",
+      "distractors": [],
+      "hints": ["How much does the ticket cost?"],
+      "target_words": ["costare"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il treno ___ alle otto.",
+      "correct_answer": "parte",
+      "distractors": [],
+      "hints": ["The train leaves at 8."],
+      "target_words": ["partire"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Il treno ___ alle dieci.",
+      "correct_answer": "arriva",
+      "distractors": [],
+      "hints": ["The train arrives at 10."],
+      "target_words": ["arrivare"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Un biglietto per ___ e ritorno.",
+      "correct_answer": "andata",
+      "distractors": [],
+      "hints": ["Return ticket: andata e ritorno."],
+      "target_words": ["andata"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'ticket' in Italian?" },
+      "sentence_context": "Compro un biglietto.",
+      "correct_answer": "biglietto",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["biglietto"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'airport' in Italian?" },
+      "sentence_context": "Vado all'aeroporto.",
+      "correct_answer": "aeroporto",
+      "distractors": [],
+      "hints": ["Close to the English word."],
+      "target_words": ["aeroporto"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'trip' in Italian?" },
+      "sentence_context": "Faccio un viaggio.",
+      "correct_answer": "viaggio",
+      "distractors": [],
+      "hints": ["Used with 'fare': fare un viaggio."],
+      "target_words": ["viaggio"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to cost' in Italian?" },
+      "sentence_context": "Costa venti euro.",
+      "correct_answer": "costare",
+      "distractors": [],
+      "hints": ["Regular -are verb."],
+      "target_words": ["costare"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'lui/lei' form of 'arrivare'." },
+      "sentence_context": "L'aereo ___ alle nove.",
+      "correct_answer": "arriva",
+      "distractors": [],
+      "hints": ["The plane arrives at 9."],
+      "target_words": ["arrivare"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'A return ticket to Rome, please.'" },
+      "sentence_context": "Un biglietto andata e ritorno per Roma, per favore.",
+      "correct_answer": ["Un", "biglietto", "andata", "e", "ritorno", "per", "Roma,", "per", "favore."],
+      "distractors": ["aeroporto", "treno"],
+      "hints": ["'Un biglietto + andata e ritorno + per + city'."],
+      "target_words": ["biglietto", "andata", "ritorno"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'How much does the ticket cost?'" },
+      "sentence_context": "Quanto costa il biglietto?",
+      "correct_answer": ["Quanto", "costa", "il", "biglietto?"],
+      "distractors": ["costo", "viaggio"],
+      "hints": ["'Quanto costa' is a fixed question."],
+      "target_words": ["costare", "biglietto"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The train leaves at eight.'" },
+      "sentence_context": "Il treno parte alle otto.",
+      "correct_answer": ["Il", "treno", "parte", "alle", "otto."],
+      "distractors": ["arriva", "nove"],
+      "hints": ["'Partire' for departing."],
+      "target_words": ["partire"]
+    },
+    {
+      "id": "unit-14-lesson-02-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'The bus stop is here.'" },
+      "sentence_context": "La fermata dell'autobus è qui.",
+      "correct_answer": ["La", "fermata", "dell'autobus", "è", "qui."],
+      "distractors": ["aeroporto", "metro"],
+      "hints": ["'La fermata dell'autobus' = the bus stop."],
+      "target_words": ["fermata"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "biglietto", "meaning": "Ticket", "example": "Compro un biglietto." },
+    { "word": "andata", "meaning": "Outward / one-way", "example": "Un biglietto di sola andata." },
+    { "word": "ritorno", "meaning": "Return / way back", "example": "Andata e ritorno." },
+    { "word": "fermata", "meaning": "(Bus) stop", "example": "La fermata dell'autobus è qui." },
+    { "word": "aeroporto", "meaning": "Airport", "example": "Vado all'aeroporto." },
+    { "word": "viaggio", "meaning": "Trip / journey", "example": "Faccio un viaggio in Italia." },
+    { "word": "costare", "meaning": "To cost", "example": "Quanto costa il biglietto?" },
+    { "word": "arrivare", "meaning": "To arrive", "example": "Il treno arriva alle dieci." }
+  ]
+}

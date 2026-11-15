@@ -1,0 +1,231 @@
+{
+  "id": "unit-17-lesson-01",
+  "unit_id": "unit-17",
+  "name": "Questo & Quello",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-17-lesson-01-tip-01",
+      "title": "This and That",
+      "explanation": "'Questo' (this) and 'quello' (that) are demonstratives — they point at things. 'Questo' is for things near you, 'quello' is for things farther away.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-17-lesson-01-tip-02",
+      "title": "Forms of Questo",
+      "explanation": "Questo agrees like an adjective: questo (masc sg), questa (fem sg), questi (masc pl), queste (fem pl). 'Questo libro', 'questa borsa', 'questi pantaloni', 'queste scarpe'.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-17-lesson-01-tip-03",
+      "title": "Forms of Quello",
+      "explanation": "'Quello' behaves like the definite article fused: quel (il), quello (lo/z/s+cons), quella (la), quell' (vowel), quei (i), quegli (gli/z/s+cons), quelle (le). Easier in practice than it looks: quel libro, quella borsa, quei libri.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-17-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'questo' mean?" },
+      "sentence_context": "Questo libro è interessante.",
+      "correct_answer": "This",
+      "distractors": ["That", "Which", "Another"],
+      "hints": ["This book is interesting."],
+      "target_words": ["questo"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'quello' mean?" },
+      "sentence_context": "Quello è il mio amico.",
+      "correct_answer": "That",
+      "distractors": ["This", "Which", "Another"],
+      "hints": ["That is my friend."],
+      "target_words": ["quello"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'qui' mean?" },
+      "sentence_context": "Il mio libro è qui.",
+      "correct_answer": "Here",
+      "distractors": ["There", "Where", "Now"],
+      "hints": ["My book is here."],
+      "target_words": ["qui"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'lì' mean?" },
+      "sentence_context": "La macchina è lì.",
+      "correct_answer": "There",
+      "distractors": ["Here", "Where", "Now"],
+      "hints": ["The car is there."],
+      "target_words": ["lì"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "___ libro è il mio.",
+      "correct_answer": "Questo",
+      "distractors": [],
+      "hints": ["This book is mine. (masc)"],
+      "target_words": ["questo"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "___ borsa è nuova.",
+      "correct_answer": "Questa",
+      "distractors": [],
+      "hints": ["This bag is new. (fem)"],
+      "target_words": ["questo"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "___ pantaloni sono lunghi.",
+      "correct_answer": "Questi",
+      "distractors": [],
+      "hints": ["These trousers are long. (masc pl)"],
+      "target_words": ["questo"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "___ scarpe sono belle.",
+      "correct_answer": "Queste",
+      "distractors": [],
+      "hints": ["These shoes are beautiful. (fem pl)"],
+      "target_words": ["questo"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "___ libro è caro.",
+      "correct_answer": "Quel",
+      "distractors": [],
+      "hints": ["That book is expensive. (quello + il)"],
+      "target_words": ["quello"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "___ borsa è cara.",
+      "correct_answer": "Quella",
+      "distractors": [],
+      "hints": ["That bag is expensive."],
+      "target_words": ["quello"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'this' (masculine) in Italian?" },
+      "sentence_context": "Questo libro.",
+      "correct_answer": "questo",
+      "distractors": [],
+      "hints": ["For something near you."],
+      "target_words": ["questo"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'that' (masculine, before consonant)?" },
+      "sentence_context": "Quel libro.",
+      "correct_answer": "quel",
+      "distractors": [],
+      "hints": ["Quello + il = quel."],
+      "target_words": ["quello"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'here' in Italian?" },
+      "sentence_context": "Sono qui.",
+      "correct_answer": "qui",
+      "distractors": [],
+      "hints": ["Two letters."],
+      "target_words": ["qui"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'there' in Italian?" },
+      "sentence_context": "È lì.",
+      "correct_answer": "lì",
+      "distractors": [],
+      "hints": ["Note the accent."],
+      "target_words": ["lì"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Pick 'questo' or 'quello' for 'this book here'." },
+      "sentence_context": "___ libro qui.",
+      "correct_answer": "Questo",
+      "distractors": [],
+      "hints": ["'Qui' → near you → Questo."],
+      "target_words": ["questo"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Pick the right form for 'that bag there'." },
+      "sentence_context": "___ borsa lì.",
+      "correct_answer": "Quella",
+      "distractors": [],
+      "hints": ["'Lì' → far → quella (feminine)."],
+      "target_words": ["quello"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'This book is mine.'" },
+      "sentence_context": "Questo libro è mio.",
+      "correct_answer": ["Questo", "libro", "è", "mio."],
+      "distractors": ["quello", "mia"],
+      "hints": ["Demonstrative + noun + verb + possessive."],
+      "target_words": ["questo"]
+    },
+    {
+      "id": "unit-17-lesson-01-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'That car is red.'" },
+      "sentence_context": "Quella macchina è rossa.",
+      "correct_answer": ["Quella", "macchina", "è", "rossa."],
+      "distractors": ["questo", "rosso"],
+      "hints": ["'Macchina' is feminine → Quella, rossa."],
+      "target_words": ["quello"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "quello", "meaning": "That", "example": "Quello è il mio amico." },
+    { "word": "qui", "meaning": "Here", "example": "Il mio libro è qui." },
+    { "word": "lì", "meaning": "There", "example": "La macchina è lì." }
+  ]
+}

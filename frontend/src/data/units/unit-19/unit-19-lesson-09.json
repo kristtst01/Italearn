@@ -1,0 +1,98 @@
+{
+  "id": "unit-19-lesson-09",
+  "unit_id": "unit-19",
+  "name": "Say It Out Loud",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-19-lesson-09-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Che tempo fa oggi?",
+      "correct_answer": "Che tempo fa oggi?",
+      "distractors": [],
+      "hints": ["Che tempo fa."],
+      "target_words": ["che tempo fa?"]
+    },
+    {
+      "id": "unit-19-lesson-09-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Oggi piove e c'è molto vento.",
+      "correct_answer": "Oggi piove e c'è molto vento.",
+      "distractors": [],
+      "hints": ["Piove; vento."],
+      "target_words": ["piovere", "vento"]
+    },
+    {
+      "id": "unit-19-lesson-09-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "In montagna nevica, ma qui fa fresco.",
+      "correct_answer": "In montagna nevica, ma qui fa fresco.",
+      "distractors": [],
+      "hints": ["Nevica; fresco."],
+      "target_words": ["nevicare", "fresco"]
+    },
+    {
+      "id": "unit-19-lesson-09-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Il cielo è azzurro e non c'è una nuvola.",
+      "correct_answer": "Il cielo è azzurro e non c'è una nuvola.",
+      "distractors": [],
+      "hints": ["Cielo; nuvola."],
+      "target_words": ["cielo", "nuvola"]
+    },
+    {
+      "id": "unit-19-lesson-09-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "D'estate vado in spiaggia e nuoto al mare.",
+      "correct_answer": "D'estate vado in spiaggia e nuoto al mare.",
+      "distractors": [],
+      "hints": ["Spiaggia: a double g, and the i after it is silent."],
+      "target_words": ["nuotare", "spiaggia"]
+    },
+    {
+      "id": "unit-19-lesson-09-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Davanti a casa c'è un albero con i fiori.",
+      "correct_answer": "Davanti a casa c'è un albero con i fiori.",
+      "distractors": [],
+      "hints": ["Albero: stress on the first syllable."],
+      "target_words": ["fiore", "albero"]
+    },
+    {
+      "id": "unit-19-lesson-09-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Natale è il venticinque dicembre.",
+      "correct_answer": "Natale è il venticinque dicembre.",
+      "distractors": [],
+      "hints": ["A date."],
+      "target_words": ["Natale"]
+    },
+    {
+      "id": "unit-19-lesson-09-ex-08",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Tanti auguri di buona Pasqua!",
+      "correct_answer": "Tanti auguri di buona Pasqua!",
+      "distractors": [],
+      "hints": ["Auguri: the stress is on gu."],
+      "target_words": ["augurio", "Pasqua"]
+    }
+  ],
+  "vocabulary": []
+}

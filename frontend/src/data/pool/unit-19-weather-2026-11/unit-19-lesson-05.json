@@ -1,0 +1,90 @@
+{
+  "id": "unit-19-lesson-05",
+  "unit_id": "unit-19",
+  "name": "Practice Writing",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-19-lesson-05-tip-01",
+      "title": "Talking About Weather and Time",
+      "explanation": "Write about the weather, seasons, months, and the calendar — birthdays, holidays, what you do in each season.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-19-lesson-05-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe the weather today and what you're wearing. (2-3 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Oggi c'è il sole e fa caldo. Porto una maglia bianca e una gonna. Non ho il cappotto.",
+      "distractors": [],
+      "hints": [
+        "'C'è / fa' + weather, then clothes."
+      ],
+      "target_words": [
+        "sole"
+      ]
+    },
+    {
+      "id": "unit-19-lesson-05-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Talk about your favourite season — why you like it. (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "La mia stagione preferita è l'estate. In estate fa caldo e c'è il sole. Mi piace nuotare al mare. Vado in vacanza in Italia.",
+      "distractors": [],
+      "hints": [
+        "Use 'la mia stagione preferita' + season + reasons."
+      ],
+      "target_words": [
+        "estate",
+        "stagione"
+      ]
+    },
+    {
+      "id": "unit-19-lesson-05-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Say when your birthday is and one thing you do that month. (2-3 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Il mio compleanno è il 15 marzo. In marzo fa ancora freddo. Faccio una festa con gli amici.",
+      "distractors": [],
+      "hints": [
+        "'Il mio compleanno è' + date + month + activity."
+      ],
+      "target_words": [
+        "compleanno",
+        "marzo"
+      ]
+    },
+    {
+      "id": "unit-19-lesson-05-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe the four seasons where you live — one sentence each. (4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "In primavera piove spesso. In estate fa molto caldo. In autunno c'è il vento. In inverno fa freddo e qualche volta nevica.",
+      "distractors": [],
+      "hints": [
+        "'In' + season + weather expression."
+      ],
+      "target_words": [
+        "primavera",
+        "estate",
+        "autunno",
+        "inverno"
+      ]
+    }
+  ],
+  "vocabulary": []
+}

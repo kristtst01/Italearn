@@ -1,0 +1,27 @@
+{
+  "id": "unit-14-lesson-08",
+  "unit_id": "unit-14",
+  "name": "From the Airport",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-14-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Your friend Sam is flying in to visit you. Reply to Sam's message: say how to get from the airport to your place, how long it takes and what it costs."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ciao Sam! Dall'aeroporto puoi prendere un taxi: ci vogliono circa venti minuti e costa circa venticinque euro. C'è anche un autobus per la stazione: passa ogni mezz'ora e costa poco. Io abito vicino alla stazione, a dieci minuti a piedi. Se vuoi, vengo alla stazione alle quattro e mezza. A venerdì!",
+      "distractors": [],
+      "hints": ["Puoi prendere…; ci vuole or ci vogliono for the time; costa for the price."],
+      "target_words": ["taxi", "aeroporto", "ci vuole"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Un messaggio di Sam",
+    "paragraphs": ["Ciao! Allora, arrivo venerdì da Londra, in aereo. L'aereo arriva all'aeroporto di Firenze alle 15:40.", "Come arrivo da te? Prendo un taxi o c'è un autobus? Quanto tempo ci vuole? E quanto costa, più o meno?", "Ho solo una borsa piccola: va bene anche l'autobus.", "A venerdì!", "Sam"]
+  }
+}
