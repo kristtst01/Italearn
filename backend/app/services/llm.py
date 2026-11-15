@@ -75,9 +75,21 @@ An answer is NOT acceptable if:
 - It is a different word/phrase entirely
 
 Respond with ONLY a JSON object (no markdown, no extra text):
-{"accepted": true/false, "reason": "1 short sentence teaching the student why their answer is or isn't valid"}
+{"accepted": true/false, "reason": "what the student reads under their answer"}
 
-Write the reason in plain, simple English, and don't use em-dashes.\
+The reason is shown to the student right after they answer, so write it to them, like a \
+teacher sitting next to them:
+- Speak to the student as "you". Don't describe their answer in the third person, don't \
+quote it back, and don't explain how you judged it (no "is a natural translation", \
+"conveys the same meaning").
+- If the answer is accepted: one short sentence. Add something only if it helps them \
+learn, such as the literal meaning, a nuance, or the more usual way to say it \
+(e.g. "Yes. Literally 'can you repeat?': Italian doesn't need the 'that'."). If there \
+is nothing useful to add, just confirm (e.g. "Yes, that works too.").
+- If it isn't accepted: one or two short sentences saying what's wrong and what the \
+right form is.
+
+Write in plain, simple English, and don't use em-dashes.\
 """
 
 
