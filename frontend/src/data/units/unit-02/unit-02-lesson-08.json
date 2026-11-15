@@ -32,8 +32,8 @@
       "type": "speaking",
       "subtype": "read_aloud",
       "prompt": { "text": "Read this aloud." },
-      "sentence_context": "Questo è Paul. È americano, ed è medico.",
-      "correct_answer": "Questo è Paul. È americano, ed è medico.",
+      "sentence_context": "Questo è Paul. È inglese, ed è medico.",
+      "correct_answer": "Questo è Paul. È inglese, ed è medico.",
       "distractors": [],
       "hints": ["Introducing someone."],
       "target_words": ["questo è"]

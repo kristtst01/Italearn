@@ -224,6 +224,7 @@ export const curriculum: Curriculum = {
           grammar_notes: 'Comes straight after the grammar unit Prepositions. The places in its table (supermercato, biblioteca, cinema…) are taught there, so the word lists here add new places and location words. Directions (destra, sinistra, dritto) wait for Finding Your Way, after the imperative. No adjective agreement, possessives, clock times or reflexives yet.',
           can_do: 'Say where places are in town, where you are going, and run errands at the post office and the bank.',
           stamp_title: 'In giro',
+          ready: true,
           order: 9,
           lessons: [
             { id: 'unit-12-lesson-01', unit_id: 'unit-12', name: 'Places in Town', role: 'words', order: 1 },
@@ -247,6 +248,7 @@ export const curriculum: Curriculum = {
           grammar_notes: 'Comes after the grammar unit Prepositions and the chapter Around Town. Chapter 8 (At the Café) already taught drinks, pane, pizza, cornetto, dolce and the bill, so this chapter adds food, amounts and restaurant meals. Per me is taught as a fixed phrase. No piacere (mi piace) yet: that comes with its own grammar unit.',
           can_do: 'Buy food at the market in the amounts you want, and order a meal at a restaurant.',
           stamp_title: 'Al mercato',
+          ready: true,
           order: 10,
           lessons: [
             { id: 'unit-16-lesson-01', unit_id: 'unit-16', name: 'Food', role: 'words', order: 1 },
@@ -270,6 +272,7 @@ export const curriculum: Curriculum = {
           grammar_notes: 'Comes after the grammar unit Questions, negation & linking. Formal chat with a stranger on a train (Lei), informal with a language-exchange partner (tu). Readings are longer (an ad, then a chat). Non lo so and credo di sì are fixed phrases. No reflexives (ci vediamo), possessives or clock times yet.',
           can_do: 'Ask someone about their life and habits, answer, and keep a conversation going.',
           stamp_title: 'Due chiacchiere',
+          ready: true,
           order: 11,
           lessons: [
             { id: 'unit-11-lesson-01', unit_id: 'unit-11', name: 'Asking and Answering', role: 'words', order: 1 },
@@ -293,6 +296,7 @@ export const curriculum: Curriculum = {
           grammar_notes: 'Comes after the grammar unit Adjectives. Every word list is adjectives in use, so most exercises check agreement. No possessives yet (no mio fratello), no comparisons (più … di) and no past.',
           can_do: 'Describe what people look like and what they are like, and describe places and things.',
           stamp_title: "Com'è?",
+          ready: true,
           order: 12,
           lessons: [
             { id: 'unit-06-lesson-01', unit_id: 'unit-06', name: 'Looks', role: 'words', order: 1 },
@@ -316,6 +320,7 @@ export const curriculum: Curriculum = {
           grammar_notes: 'Comes after Describing People & Things, in the Adjectives part of the course. No object pronouns yet (prendo questo, not lo prendo), no ti sta bene, no comparisons (avete la 44?, not una taglia più grande), no days or clock times.',
           can_do: 'Buy clothes: ask for a size and a colour, try things on, ask the price and pay.',
           stamp_title: 'Quanto costa?',
+          ready: true,
           order: 13,
           lessons: [
             { id: 'unit-17-lesson-01', unit_id: 'unit-17', name: 'Clothes', role: 'words', order: 1 },
@@ -339,6 +344,7 @@ export const curriculum: Curriculum = {
           grammar_notes: 'Comes after the grammar unit Time & dates. Ci vuole / ci vogliono and mezz\'ora are taught as fixed phrases. No imperative yet, so instructions use dovere or potere (deve scendere, puoi prendere un taxi); no possessives and no past.',
           can_do: 'Buy a train ticket, read a timetable and a departures board, and travel by train, bus and taxi.',
           stamp_title: 'In viaggio',
+          ready: true,
           order: 14,
           lessons: [
             { id: 'unit-14-lesson-01', unit_id: 'unit-14', name: 'Bus, Taxi and Metro', role: 'words', order: 1 },
@@ -361,6 +367,7 @@ export const curriculum: Curriculum = {
           grammar_notes: '',
           can_do: 'Make small talk about the weather, seasons, dates and holidays.',
           stamp_title: 'Che tempo fa?',
+          ready: true,
           order: 15,
           lessons: [
             { id: 'unit-19-lesson-01', unit_id: 'unit-19', name: "What's the Weather Like?", role: 'words', order: 1 },
@@ -383,6 +390,7 @@ export const curriculum: Curriculum = {
           grammar_notes: 'Comes after the grammar unit Possessives. Fratello, sorella, figlio, figlia, genitori and bambino are known from earlier chapters, and the adjectives for looks and character from Describing People & Things. No piacere, reflexives (si chiama only as the fixed phrase), imperative or past.',
           can_do: 'Present your family and describe the people in it, and write a short message to a relative.',
           stamp_title: 'La mia famiglia',
+          ready: true,
           order: 16,
           lessons: [
             { id: 'unit-08-lesson-01', unit_id: 'unit-08', name: 'Parents & Partners', role: 'words', order: 1 },
@@ -405,6 +413,7 @@ export const curriculum: Curriculum = {
           grammar_notes: 'Comes after the grammar unit Piacere & indirect pronouns. Days and clock times come from Time & dates; volentieri and the volere/potere/dovere invitations from At the Café; music, sport and hobby words from Free Time. No reflexives (no ci vediamo), imperative or past: invitations and suggestions use the present.',
           can_do: "Say what you like and don't like, invite someone, and accept or refuse an invitation.",
           stamp_title: 'Ti va?',
+          ready: true,
           order: 17,
           lessons: [
             { id: 'unit-18-lesson-01', unit_id: 'unit-18', name: 'What You Like', role: 'words', order: 1 },
@@ -428,6 +437,7 @@ export const curriculum: Curriculum = {
           grammar_notes: '',
           can_do: 'Describe your daily routine, with times.',
           stamp_title: 'La mia giornata',
+          ready: true,
           order: 18,
           lessons: [
             { id: 'unit-09-lesson-01', unit_id: 'unit-09', name: 'Getting Up', role: 'words', order: 1 },
@@ -451,6 +461,7 @@ export const curriculum: Curriculum = {
           grammar_notes: 'Comes after the grammar unit Imperative. Only tu, voi and noi commands are taught, plus the Lei set phrases (scusi, senta): strangers give directions in the present or with deve + infinitive, never with Lei commands (giri, vada), which come later. The places and location words (vicino, davanti, dietro, accanto) come from Around Town. No object pronouns (no ti aspetto) and no past.',
           can_do: 'Ask for directions, understand simple ones, and give them to friends and strangers.',
           stamp_title: 'Sempre dritto',
+          ready: true,
           order: 19,
           lessons: [
             { id: 'unit-13-lesson-01', unit_id: 'unit-13', name: 'Left, Right, Straight On', role: 'words', order: 1 },
@@ -475,6 +486,7 @@ export const curriculum: Curriculum = {
           grammar_notes: 'Comes after the grammar unit Imperative and the chapter Finding Your Way. Mi fa male is taught as a phrase on a word list; it works like piacere. A doctor or pharmacist uses Lei, so they say deve…, può… or the present, never Lei commands beyond the set phrases (mi dica, prego si accomodi). Tu commands only between friends. No past.',
           can_do: "Say what's wrong, and get help at the pharmacy and the doctor's.",
           stamp_title: 'Guarisci presto',
+          ready: true,
           order: 20,
           lessons: [
             { id: 'unit-20-lesson-01', unit_id: 'unit-20', name: 'Where It Hurts', role: 'words', order: 1 },
@@ -499,6 +511,7 @@ export const curriculum: Curriculum = {
           grammar_notes: 'Comes after the grammar unit Passato prossimo, and is the last A1 chapter. Piano (floor) is taught as a second meaning of the known word. The receptionist uses Lei with mi dica, prego and può + infinitive, never other Lei commands. Participles of verbs outside the unit (prenotato, ritornato, mandato, raccontato, morto) are given on the word lists. No imperfetto: stories stay in the passato prossimo and the present.',
           can_do: 'Book a hotel room, then tell someone about a trip in the past.',
           stamp_title: 'Buon viaggio',
+          ready: true,
           order: 21,
           lessons: [
             { id: 'unit-21-lesson-01', unit_id: 'unit-21', name: 'Booking a Room', role: 'words', order: 1 },

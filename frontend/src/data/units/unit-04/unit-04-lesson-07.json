@@ -11,7 +11,7 @@
       "subtype": "free_form",
       "prompt": { "text": "Write about three people you know: their names, how old they are and where they are from." },
       "sentence_context": "",
-      "correct_answer": "Marco ha trentadue anni ed è di Milano. Sara ha diciotto anni ed è di Roma. Paul ha cinquant'anni ed è americano.",
+      "correct_answer": "Marco ha trentadue anni ed è di Milano. Sara ha diciotto anni ed è di Roma. John ha cinquant'anni ed è americano.",
       "distractors": [],
       "hints": ["For each person: name, age (ha … anni), where they are from."],
       "target_words": ["anni"]

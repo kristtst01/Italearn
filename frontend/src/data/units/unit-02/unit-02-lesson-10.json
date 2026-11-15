@@ -11,7 +11,7 @@
       "subtype": "free_form",
       "prompt": { "text": "At a hotel, the receptionist asks: 'Buonasera! Come si chiama? Di dov'è?' Answer politely." },
       "sentence_context": "",
-      "correct_answer": "Buonasera! Mi chiamo Paul Smith. Sono americano, di Chicago.",
+      "correct_answer": "Buonasera! Mi chiamo Paul Smith. Sono inglese, di Londra.",
       "distractors": [],
       "hints": ["A formal situation: start with a greeting."],
       "target_words": ["come si chiama", "di dov'è"]

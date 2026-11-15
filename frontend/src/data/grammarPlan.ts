@@ -71,46 +71,55 @@ export const GRAMMAR_PLAN: PlannedGrammarUnit[] = [
     id: 'a1-prepositions', level: 'A1', order: 8, title: 'Prepositions', short: 'Prepositions',
     covers: ['The simple prepositions', 'Joined forms (al, nel, sul…)', 'A and in with places', 'Da with people', 'Transport', 'Where you\'re from', 'Di for whose', 'Partitives (del, della…)'],
     chapters: ['unit-12', 'unit-16'],
+    ready: true,
   },
   {
     id: 'a1-questions-negation', level: 'A1', order: 9, title: 'Questions, negation & linking', short: 'Questions & negation',
     covers: ['Yes-or-no questions', 'Question words', 'Word order', 'Prepositions in questions', 'Non and double negatives (mai, niente, nessuno)', 'How often', 'Linking: e, o, ma, perché, quando, se, anche'],
     chapters: ['unit-11'],
+    ready: true,
   },
   {
     id: 'a1-adjectives', level: 'A1', order: 10, title: 'Adjectives, demonstratives & quantities', short: 'Adjectives',
     covers: ['Agreement (-o/-a/-i/-e)', 'Invariable adjectives', 'Position', 'Bello and buono', 'Nationalities', 'Questo and quello', 'Molto, poco, tanto, troppo', 'Tutto, ogni, qualche'],
     chapters: ['unit-06', 'unit-17'],
+    ready: true,
   },
   {
     id: 'a1-time-dates', level: 'A1', order: 11, title: 'Time & dates', short: 'Time & dates',
     covers: ['Ordinal numbers', 'Telling the time', 'Days, months, seasons', 'Dates'],
     chapters: ['unit-14', 'unit-19'],
+    ready: true,
   },
   {
     id: 'a1-possessives', level: 'A1', order: 12, title: 'Possessive adjectives', short: 'Possessives',
     covers: ['The forms', 'Agreement with the thing owned', 'The article', 'Family members', 'Suo and formal Suo', 'Other patterns', 'Typical mistakes'],
     chapters: ['unit-08'],
+    ready: true,
   },
   {
     id: 'a1-piacere', level: 'A1', order: 13, title: 'Piacere & indirect pronouns', short: 'Piacere',
     covers: ['Mi piace / mi piacciono', 'Indirect pronouns with piacere', 'Piacere + infinitive', 'Preferire'],
     chapters: ['unit-18'],
+    ready: true,
   },
   {
     id: 'a1-reflexive', level: 'A1', order: 14, title: 'Reflexive verbs', short: 'Reflexive verbs',
     covers: ['Reflexive pronouns', 'Placement', 'Common reflexive verbs'],
     chapters: ['unit-09'],
+    ready: true,
   },
   {
     id: 'a1-imperative', level: 'A1', order: 15, title: 'The imperative', short: 'Imperative',
     covers: ['Tu and voi commands', 'Negative commands', 'Common irregular forms (va’, fa’, di’)', 'Formal set phrases (scusi, senta)'],
     chapters: ['unit-13', 'unit-20'],
+    ready: true,
   },
   {
     id: 'a1-passato-prossimo', level: 'A1', order: 16, title: 'The passato prossimo', short: 'Passato prossimo',
     covers: ['Forming the past participle', 'Avere or essere?', 'Agreement with essere', 'Common irregular participles', 'Reflexive verbs in the past', 'Time expressions: ieri, la settimana scorsa, fa'],
     chapters: ['unit-21'],
+    ready: true,
   },
 ];
 

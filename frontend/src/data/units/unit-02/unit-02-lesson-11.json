@@ -11,9 +11,9 @@
       "subtype": "multiple_choice",
       "prompt": { "text": "Where is Paul?" },
       "sentence_context": "",
-      "correct_answer": "In Rome",
-      "distractors": ["In Chicago", "In Lyon", "In Paris"],
-      "hints": ["'Paul è a Roma.'"],
+      "correct_answer": "In Florence",
+      "distractors": ["In London", "In Lyon", "In Paris"],
+      "hints": ["'Paul è a Firenze.'"],
       "target_words": ["di"]
     },
     {
@@ -56,7 +56,7 @@
       "prompt": { "text": "Where is Chloé from?" },
       "sentence_context": "",
       "correct_answer": "Lyon, in France",
-      "distractors": ["Rome", "Chicago", "Paris"],
+      "distractors": ["Florence", "London", "Paris"],
       "hints": ["'Sono francese, di Lione.'"],
       "target_words": ["francese"]
     },
@@ -113,7 +113,7 @@
     { "word": "dottore", "meaning": "doctor (as a title: dottore, dottor Rossi)", "example": "Un caffè, dottore?" }
   ],
   "reading": {
-    "title": "Un caffè a Roma",
-    "paragraphs": ["Paul è a Roma. È americano, di Chicago, ed è medico. È sera. Paul è stanco, ma contento.", "Paul: Buonasera! Scusi, Lei è italiana?", "Donna: Buonasera! No, non sono italiana. Sono francese, di Lione. E Lei?", "Paul: Io sono americano. Mi chiamo Paul. Piacere!", "Donna: Piacere mio! Mi chiamo Chloé. Lei è turista?", "Paul: No, non sono turista. Sono medico. E Lei? Anche Lei è turista?", "Chloé: No, no! Sono cameriera… qui! Un caffè, dottore?", "Paul: Sì, grazie!"]
+    "title": "Un caffè a Firenze",
+    "paragraphs": ["Paul è a Firenze. È inglese, di Londra, ed è medico. È sera. Paul è stanco, ma contento.", "Paul: Buonasera! Scusi, Lei è italiana?", "Donna: Buonasera! No, non sono italiana. Sono francese, di Lione. E Lei?", "Paul: Io sono inglese. Mi chiamo Paul. Piacere!", "Donna: Piacere mio! Mi chiamo Chloé. Lei è turista?", "Paul: No, non sono turista. Sono medico. E Lei? Anche Lei è turista?", "Chloé: No, no! Sono cameriera… qui! Un caffè, dottore?", "Paul: Sì, grazie!"]
   }
 }

@@ -108,8 +108,8 @@
       "id": "unit-10-lesson-01-ex-10",
       "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete: Paul has been in Rome for three days." },
-      "sentence_context": "Paul è a Roma da tre ___.",
+      "prompt": { "text": "Complete: Emma has been in Rome for three days." },
+      "sentence_context": "Emma è a Roma da tre ___.",
       "correct_answer": "giorni",
       "distractors": [],
       "hints": ["Un giorno, tre…"],
@@ -224,6 +224,6 @@
     { "word": "montagna", "meaning": "mountain · in montagna = in the mountains", "example": "Hanno una casa in montagna." },
     { "word": "paese", "meaning": "village, small town", "example": "Abito in un paese vicino a Firenze." },
     { "word": "settimana", "meaning": "week", "example": "Sono qui da una settimana." },
-    { "word": "giorno", "meaning": "day", "example": "Paul è a Roma da tre giorni." }
+    { "word": "giorno", "meaning": "day", "example": "Emma è a Roma da tre giorni." }
   ]
 }
