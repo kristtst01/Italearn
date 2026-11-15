@@ -1,0 +1,277 @@
+{
+  "id": "unit-09-lesson-01",
+  "unit_id": "unit-09",
+  "name": "The -are Pattern",
+  "order": 1,
+  "grammar_tips": [
+    {
+      "id": "unit-09-lesson-01-tip-01",
+      "title": "The -are Pattern",
+      "explanation": "Most Italian verbs end in -are. To use one, remove -are and add the ending for the person: -o (io), -i (tu), -a (lui/lei), -iamo (noi), -ate (voi), -ano (loro). 'parlare' → parlo, parli, parla, parliamo, parlate, parlano.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-09-lesson-01-tip-02",
+      "title": "Drop the Subject",
+      "explanation": "The ending already tells you who's speaking, so Italian usually drops the pronoun. 'Studio l'italiano' already means 'I study Italian' — you don't need to say 'io'.",
+      "before_exercise": 8
+    },
+    {
+      "id": "unit-09-lesson-01-tip-03",
+      "title": "Stem + Ending",
+      "explanation": "Always think of the verb as two parts: the stem (the bit before -are) plus the ending. 'lavorare' → stem 'lavor-' + ending. 'Io lavoro', 'tu lavori', 'lui lavora'.",
+      "before_exercise": 14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-09-lesson-01-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'lavorare' mean?" },
+      "sentence_context": "Io lavoro.",
+      "correct_answer": "To work",
+      "distractors": ["To eat", "To study", "To watch"],
+      "hints": ["I work."],
+      "target_words": ["lavorare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mangiare' mean?" },
+      "sentence_context": "Io mangio.",
+      "correct_answer": "To eat",
+      "distractors": ["To work", "To watch", "To live"],
+      "hints": ["I eat."],
+      "target_words": ["mangiare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'studiare' mean?" },
+      "sentence_context": "Studio l'italiano.",
+      "correct_answer": "To study",
+      "distractors": ["To work", "To listen", "To buy"],
+      "hints": ["I study Italian."],
+      "target_words": ["studiare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'guardare' mean?" },
+      "sentence_context": "Guardo il libro.",
+      "correct_answer": "To watch / look at",
+      "distractors": ["To listen", "To eat", "To work"],
+      "hints": ["I look at the book."],
+      "target_words": ["guardare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'ascoltare' mean?" },
+      "sentence_context": "Ascolto la mamma.",
+      "correct_answer": "To listen to",
+      "distractors": ["To watch", "To study", "To work"],
+      "hints": ["I listen to mum."],
+      "target_words": ["ascoltare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-06",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Io ___ italiano.",
+      "correct_answer": "parlo",
+      "distractors": [],
+      "hints": ["I speak Italian (io form of parlare)."],
+      "target_words": ["parlare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Tu ___ molto.",
+      "correct_answer": "lavori",
+      "distractors": [],
+      "hints": ["You work a lot (tu form of lavorare)."],
+      "target_words": ["lavorare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Marco ___.",
+      "correct_answer": "mangia",
+      "distractors": [],
+      "hints": ["Marco eats (lui form of mangiare)."],
+      "target_words": ["mangiare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-09",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'I study' in Italian?" },
+      "sentence_context": "Io studio l'italiano.",
+      "correct_answer": "studio",
+      "distractors": [],
+      "hints": ["The io form of studiare."],
+      "target_words": ["studiare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-10",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'we watch' in Italian?" },
+      "sentence_context": "Noi guardiamo la casa.",
+      "correct_answer": "guardiamo",
+      "distractors": [],
+      "hints": ["The noi form of guardare → -iamo."],
+      "target_words": ["guardare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'they listen' in Italian?" },
+      "sentence_context": "Loro ascoltano la mamma.",
+      "correct_answer": "ascoltano",
+      "distractors": [],
+      "hints": ["The loro form of ascoltare → -ano."],
+      "target_words": ["ascoltare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-12",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'io' form of 'mangiare'." },
+      "sentence_context": "Io ___.",
+      "correct_answer": "mangio",
+      "distractors": [],
+      "hints": ["io → -o ending."],
+      "target_words": ["mangiare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'tu' form of 'studiare'." },
+      "sentence_context": "Tu ___ l'italiano.",
+      "correct_answer": "studi",
+      "distractors": [],
+      "hints": ["tu → -i ending."],
+      "target_words": ["studiare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'lui/lei' form of 'lavorare'." },
+      "sentence_context": "Marco ___.",
+      "correct_answer": "lavora",
+      "distractors": [],
+      "hints": ["lui/lei → -a ending."],
+      "target_words": ["lavorare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'noi' form of 'guardare'." },
+      "sentence_context": "Noi ___ la casa.",
+      "correct_answer": "guardiamo",
+      "distractors": [],
+      "hints": ["noi → -iamo ending."],
+      "target_words": ["guardare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'voi' form of 'ascoltare'." },
+      "sentence_context": "Voi ___ la lezione.",
+      "correct_answer": "ascoltate",
+      "distractors": [],
+      "hints": ["voi → -ate ending."],
+      "target_words": ["ascoltare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'loro' form of 'mangiare'." },
+      "sentence_context": "Loro ___ molto.",
+      "correct_answer": "mangiano",
+      "distractors": [],
+      "hints": ["loro → -ano ending."],
+      "target_words": ["mangiare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I work and study.'" },
+      "sentence_context": "Io lavoro e studio.",
+      "correct_answer": ["Io", "lavoro", "e", "studio."],
+      "distractors": ["mangio", "lavora"],
+      "hints": ["Both verbs take the 'io' ending -o."],
+      "target_words": ["lavorare", "studiare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Marco eats and watches.'" },
+      "sentence_context": "Marco mangia e guarda.",
+      "correct_answer": ["Marco", "mangia", "e", "guarda."],
+      "distractors": ["mangio", "guardo"],
+      "hints": ["Both verbs take the 'lui' ending -a."],
+      "target_words": ["mangiare", "guardare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'We listen to the teacher.'" },
+      "sentence_context": "Noi ascoltiamo l'insegnante.",
+      "correct_answer": ["Noi", "ascoltiamo", "l'insegnante."],
+      "distractors": ["ascolto", "lavoriamo"],
+      "hints": ["noi → -iamo ending."],
+      "target_words": ["ascoltare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'They study Italian.'" },
+      "sentence_context": "Loro studiano l'italiano.",
+      "correct_answer": ["Loro", "studiano", "l'italiano."],
+      "distractors": ["studio", "studiate"],
+      "hints": ["loro → -ano ending."],
+      "target_words": ["studiare"]
+    },
+    {
+      "id": "unit-09-lesson-01-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'You (informal) watch the cat.'" },
+      "sentence_context": "Tu guardi il gatto.",
+      "correct_answer": ["Tu", "guardi", "il", "gatto."],
+      "distractors": ["guardo", "guarda"],
+      "hints": ["tu → -i ending."],
+      "target_words": ["guardare"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "lavorare", "meaning": "To work", "example": "Io lavoro." },
+    { "word": "mangiare", "meaning": "To eat", "example": "Io mangio." },
+    { "word": "studiare", "meaning": "To study", "example": "Studio l'italiano." },
+    { "word": "guardare", "meaning": "To watch / look at", "example": "Guardo il libro." },
+    { "word": "ascoltare", "meaning": "To listen to", "example": "Ascolto la mamma." }
+  ]
+}

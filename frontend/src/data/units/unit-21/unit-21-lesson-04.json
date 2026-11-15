@@ -1,60 +1,177 @@
 {
   "id": "unit-21-lesson-04",
   "unit_id": "unit-21",
-  "name": "Practice Writing",
+  "name": "At Reception",
   "order": 4,
-  "grammar_tips": [
-    {
-      "id": "unit-21-lesson-04-tip-01",
-      "title": "Travelling & Staying",
-      "explanation": "Write about staying at a hotel, checking in, being a tourist, and visiting places. Combine 'vorrei prenotare', hotel vocabulary, sightseeing words, and earlier units' transport and direction vocabulary.",
-      "before_exercise": 0
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-21-lesson-04-ex-01",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Book a hotel room — say what you want, for how many nights, what type. (3-4 sentences)" },
-      "sentence_context": "",
-      "correct_answer": "Vorrei prenotare una camera doppia. Per tre notti, per favore. La prenotazione è a nome Marco. Quanto costa?",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You phone a hotel to book a double room for two nights, from Friday." },
+      "sentence_context": "Receptionist: Hotel Roma, buonasera.\nYou: ___",
+      "correct_answer": ["Buonasera, vorrei prenotare una camera doppia per due notti, da venerdì.", "Buonasera, avete una camera doppia per venerdì e sabato?"],
       "distractors": [],
-      "hints": ["Use 'vorrei prenotare', room type, nights, price."],
-      "target_words": ["prenotare", "albergo"]
+      "hints": ["Vorrei prenotare …"],
+      "target_words": ["prenotare", "doppio"],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Hotel Roma, buonasera." },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-21-lesson-04-ex-02",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Check in at a hotel — short dialogue. (3-4 sentences)" },
-      "sentence_context": "",
-      "correct_answer": "Buongiorno, ho una prenotazione. Mi chiamo Marco. Ecco il mio passaporto. Compilo il modulo.",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The receptionist tells you the price. Ask if breakfast is included." },
+      "sentence_context": "Receptionist: La camera doppia costa 120 euro a notte.\nYou: ___",
+      "correct_answer": ["La colazione è inclusa?", "Va bene. La colazione è inclusa nel prezzo?"],
       "distractors": [],
-      "hints": ["Greet + prenotazione + passport + form."],
-      "target_words": ["prenotazione", "passaporto", "modulo"]
+      "hints": ["Incluso agrees with colazione."],
+      "target_words": ["incluso"],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "La camera doppia costa 120 euro a notte." },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-21-lesson-04-ex-03",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Describe a day as a tourist — what you see, where you go, photos. (4 sentences)" },
-      "sentence_context": "",
-      "correct_answer": "Vado al museo la mattina. C'è un monumento bello in piazza. Faccio molte foto. Il pomeriggio compro una mappa.",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The receptionist asks your name for the booking. Your name is Brown." },
+      "sentence_context": "Receptionist: Perfetto. A che nome?\nYou: ___",
+      "correct_answer": ["A nome Brown.", "Brown. Mi chiamo Sam Brown."],
       "distractors": [],
-      "hints": ["Use places, photos, map, monument."],
-      "target_words": ["monumento", "foto", "mappa"]
+      "hints": ["A nome …"],
+      "target_words": ["prenotazione"],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Perfetto. A che nome?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-21-lesson-04-ex-04",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Describe a hotel — where it is, what's inside, what floor your room is on. (3-4 sentences)" },
-      "sentence_context": "",
-      "correct_answer": "L'albergo è in centro a Roma. C'è un ascensore e una reception. La mia camera è al terzo piano. È una camera doppia.",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You arrive at the hotel. The receptionist asks for a document." },
+      "sentence_context": "Receptionist: Ha un documento, per favore?\nYou: ___",
+      "correct_answer": ["Sì, ecco il passaporto.", "Sì, ecco la mia carta d'identità."],
       "distractors": [],
-      "hints": ["Hotel + location + features + room."],
-      "target_words": ["albergo", "ascensore", "piano"]
+      "hints": ["Ecco …"],
+      "target_words": ["carta d'identità"],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Ha un documento, per favore?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-04-ex-05",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your room is on the fourth floor. Ask if there is a lift." },
+      "sentence_context": "Receptionist: La Sua camera è la 408, al quarto piano.\nYou: ___",
+      "correct_answer": ["C'è l'ascensore?", "Grazie. Scusi, c'è l'ascensore?"],
+      "distractors": [],
+      "hints": ["C'è …?"],
+      "target_words": ["ascensore", "piano"],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "La Sua camera è la 408, al quarto piano." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-04-ex-06",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The receptionist gives you the key. Ask what time breakfast is." },
+      "sentence_context": "Receptionist: Ecco la chiave. L'ascensore è lì.\nYou: ___",
+      "correct_answer": ["Grazie. A che ora è la colazione?", "Grazie mille. La colazione a che ora è?"],
+      "distractors": [],
+      "hints": ["A che ora …?"],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Ecco la chiave. L'ascensore è lì." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-04-ex-07",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You phone a hotel, but it's full tonight. Ask if they know another hotel nearby." },
+      "sentence_context": "Receptionist: Mi dispiace, stasera siamo al completo.\nYou: ___",
+      "correct_answer": ["Conosce un altro albergo qui vicino?", "Allora, c'è un altro albergo qui vicino?"],
+      "distractors": [],
+      "hints": ["Conosce (Lei) …? or C'è …?"],
+      "target_words": ["albergo", "completo"],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Mi dispiace, stasera siamo al completo." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-04-ex-08",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You've lost your passport. Tell the receptionist, and ask where your country's consulate is." },
+      "sentence_context": "Receptionist: Buongiorno, mi dica.\nYou: ___",
+      "correct_answer": ["Ho perso il passaporto. Dov'è il consolato?", "Scusi, ho perso il passaporto. Sa dov'è il consolato?"],
+      "distractors": [],
+      "hints": ["Perdere → ho perso."],
+      "target_words": ["consolato"],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Buongiorno, mi dica." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-04-ex-09",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "At a travel agency. You want to go abroad in May, to Japan." },
+      "sentence_context": "Agent: Allora, dove vuole andare?\nYou: ___",
+      "correct_answer": ["Vorrei andare in Giappone, a maggio.", "A maggio vorrei andare all'estero, in Giappone."],
+      "distractors": [],
+      "hints": ["In + the country."],
+      "target_words": ["Giappone"],
+      "dialogue": [
+        { "speaker": "Agent", "text": "Allora, dove vuole andare?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "The receptionist tells you about check-in. What does she mean?" },
+      "sentence_context": "Può fare il check-in dalle due.",
+      "correct_answer": "You can check in from two o'clock",
+      "distractors": ["You have to check in before two", "Check-in is only at two"],
+      "hints": ["Può + infinitive: you can."],
+      "target_words": ["check-in"]
+    },
+    {
+      "id": "unit-21-lesson-04-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask the receptionist if they have a single room for tonight." },
+      "sentence_context": "",
+      "correct_answer": ["avete una camera singola per stasera?"],
+      "distractors": [],
+      "hints": ["Avete …?"],
+      "target_words": ["singolo"]
+    },
+    {
+      "id": "unit-21-lesson-04-ex-12",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I have a reservation in the name of Brown.'" },
+      "sentence_context": "Ho una prenotazione a nome Brown.",
+      "correct_answer": ["Ho", "una", "prenotazione", "a", "nome", "Brown."],
+      "distractors": ["sono", "di"],
+      "hints": ["A nome …"],
+      "target_words": ["prenotazione"]
     }
   ],
   "vocabulary": []

@@ -1,0 +1,260 @@
+{
+  "id": "unit-18-lesson-04",
+  "unit_id": "unit-18",
+  "name": "Liking & Feeling",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-18-lesson-04-tip-01",
+      "title": "Love & Hate",
+      "explanation": "Beyond 'mi piace', use 'amare' (to love) and 'odiare' (to hate) for stronger feelings. 'Amo la pasta', 'Odio il freddo'.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-18-lesson-04-tip-02",
+      "title": "Reflexive Feelings",
+      "explanation": "Many feeling verbs are reflexive: 'sentirsi' (to feel), 'divertirsi' (to have fun / enjoy oneself), 'annoiarsi' (to be bored), 'fidarsi' (to trust). All use mi/ti/si pronouns.",
+      "before_exercise": 5
+    },
+    {
+      "id": "unit-18-lesson-04-tip-03",
+      "title": "Mancare & Dispiacere",
+      "explanation": "'Mi manca' = I miss it (literally: it is lacking to me). 'Mi dispiace' = I'm sorry (literally: it displeases me). Both work like 'piacere'.",
+      "before_exercise": 11
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-18-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'amare' mean?" },
+      "sentence_context": "Amo la musica italiana.",
+      "correct_answer": "To love",
+      "distractors": ["To like", "To want", "To enjoy"],
+      "hints": ["I love Italian music."],
+      "target_words": ["amare"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'odiare' mean?" },
+      "sentence_context": "Odio il freddo.",
+      "correct_answer": "To hate",
+      "distractors": ["To love", "To fear", "To avoid"],
+      "hints": ["I hate the cold."],
+      "target_words": ["odiare"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sentirsi' mean?" },
+      "sentence_context": "Mi sento bene.",
+      "correct_answer": "To feel",
+      "distractors": ["To hear", "To touch", "To smell"],
+      "hints": ["I feel well."],
+      "target_words": ["sentirsi"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'divertirsi' mean?" },
+      "sentence_context": "Mi diverto alla festa.",
+      "correct_answer": "To have fun / enjoy oneself",
+      "distractors": ["To rest", "To celebrate", "To dance"],
+      "hints": ["I have fun at the party."],
+      "target_words": ["divertirsi"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'annoiarsi' mean?" },
+      "sentence_context": "Mi annoio in classe.",
+      "correct_answer": "To be bored",
+      "distractors": ["To be tired", "To be annoyed", "To be busy"],
+      "hints": ["I'm bored in class."],
+      "target_words": ["annoiarsi"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'fidarsi' mean?" },
+      "sentence_context": "Mi fido di Marco.",
+      "correct_answer": "To trust",
+      "distractors": ["To doubt", "To know", "To follow"],
+      "hints": ["I trust Marco."],
+      "target_words": ["fidarsi"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mancare' mean here?" },
+      "sentence_context": "Mi manca Roma.",
+      "correct_answer": "To miss / be lacking",
+      "distractors": ["To want", "To remember", "To love"],
+      "hints": ["I miss Rome."],
+      "target_words": ["mancare"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'dispiacere' mean here?" },
+      "sentence_context": "Mi dispiace.",
+      "correct_answer": "To be sorry / displease",
+      "distractors": ["To dislike", "To regret only", "To upset"],
+      "hints": ["I'm sorry."],
+      "target_words": ["dispiacere"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'valere' mean?" },
+      "sentence_context": "Non vale la pena.",
+      "correct_answer": "To be worth",
+      "distractors": ["To matter", "To cost", "To use"],
+      "hints": ["It's not worth it."],
+      "target_words": ["valere"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sopportare' mean?" },
+      "sentence_context": "Non sopporto il rumore.",
+      "correct_answer": "To stand / bear",
+      "distractors": ["To support", "To carry", "To help"],
+      "hints": ["I can't stand the noise."],
+      "target_words": ["sopportare"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'I love Italy.'" },
+      "sentence_context": "___ l'Italia.",
+      "correct_answer": "Amo",
+      "distractors": [],
+      "hints": ["io form of amare."],
+      "target_words": ["amare"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'I feel well today.'" },
+      "sentence_context": "Oggi mi ___ bene.",
+      "correct_answer": "sento",
+      "distractors": [],
+      "hints": ["io form of sentirsi."],
+      "target_words": ["sentirsi"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'I miss my friends.'" },
+      "sentence_context": "Mi ___ gli amici.",
+      "correct_answer": "mancano",
+      "distractors": [],
+      "hints": ["Plural subject → mancano."],
+      "target_words": ["mancare"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-14",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: \"I'm sorry, I can't.\"" },
+      "sentence_context": "Mi ___, non posso.",
+      "correct_answer": "dispiace",
+      "distractors": [],
+      "hints": ["Polite apology."],
+      "target_words": ["dispiacere"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to love' in Italian?" },
+      "sentence_context": "Amo la musica.",
+      "correct_answer": "amare",
+      "distractors": [],
+      "hints": ["Regular -are verb."],
+      "target_words": ["amare"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to hate' in Italian?" },
+      "sentence_context": "Odio il freddo.",
+      "correct_answer": "odiare",
+      "distractors": [],
+      "hints": ["Regular -are verb."],
+      "target_words": ["odiare"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-17",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'to have fun' (reflexive) in Italian?" },
+      "sentence_context": "Mi diverto.",
+      "correct_answer": "divertirsi",
+      "distractors": [],
+      "hints": ["Reflexive -ire verb."],
+      "target_words": ["divertirsi"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I have fun at the party.'" },
+      "sentence_context": "Mi diverto alla festa.",
+      "correct_answer": ["Mi", "diverto", "alla", "festa."],
+      "distractors": ["divertono", "in"],
+      "hints": ["Reflexive pronoun + verb + 'alla' + festa."],
+      "target_words": ["divertirsi"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: \"I'm sorry, I can't come.\"" },
+      "sentence_context": "Mi dispiace, non posso venire.",
+      "correct_answer": ["Mi", "dispiace,", "non", "posso", "venire."],
+      "distractors": ["piace", "posso"],
+      "hints": ["Mi dispiace + 'non posso' + infinitive."],
+      "target_words": ["dispiacere"]
+    },
+    {
+      "id": "unit-18-lesson-04-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: \"It's not worth it.\"" },
+      "sentence_context": "Non vale la pena.",
+      "correct_answer": ["Non", "vale", "la", "pena."],
+      "distractors": ["valgo", "il"],
+      "hints": ["Set phrase."],
+      "target_words": ["valere"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "amare", "meaning": "To love", "example": "Amo la musica italiana." },
+    { "word": "odiare", "meaning": "To hate", "example": "Odio il freddo." },
+    { "word": "sentirsi", "meaning": "To feel", "example": "Mi sento bene." },
+    { "word": "divertirsi", "meaning": "To have fun", "example": "Mi diverto alla festa." },
+    { "word": "annoiarsi", "meaning": "To be bored", "example": "Mi annoio in classe." },
+    { "word": "fidarsi", "meaning": "To trust", "example": "Mi fido di Marco." },
+    { "word": "mancare", "meaning": "To miss / be lacking", "example": "Mi manca Roma." },
+    { "word": "dispiacere", "meaning": "To be sorry / displease", "example": "Mi dispiace." },
+    { "word": "valere", "meaning": "To be worth", "example": "Non vale la pena." },
+    { "word": "sopportare", "meaning": "To stand / bear", "example": "Non sopporto il rumore." }
+  ]
+}

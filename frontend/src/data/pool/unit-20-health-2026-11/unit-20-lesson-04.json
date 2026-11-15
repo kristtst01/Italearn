@@ -1,0 +1,261 @@
+{
+  "id": "unit-20-lesson-04",
+  "unit_id": "unit-20",
+  "name": "More Health & Body",
+  "order": 4,
+  "grammar_tips": [
+    {
+      "id": "unit-20-lesson-04-tip-01",
+      "title": "More Body Parts",
+      "explanation": "Two more body words: 'la faccia' (face) and 'il corpo' (body). 'Mi fa male la faccia' = My face hurts. 'Il corpo umano' = the human body.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-20-lesson-04-tip-02",
+      "title": "Health Words",
+      "explanation": "'La salute' (health), 'la malattia' (illness), 'la cura' (treatment / care), 'il sangue' (blood). 'Salute!' is also said when someone sneezes — like 'Bless you!'",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-20-lesson-04-tip-03",
+      "title": "Alive & Well",
+      "explanation": "'Vivo' (alive / living) and 'morto' (dead). 'Sono vivo!' = I'm alive! 'Fisico' (physical), 'paziente' (patient — both noun and adjective), 'energia' (energy).",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-20-lesson-04-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'faccia' mean?" },
+      "sentence_context": "Ha una faccia gentile.",
+      "correct_answer": "Face",
+      "distractors": ["Head", "Hand", "Hair"],
+      "hints": ["She has a kind face."],
+      "target_words": ["faccia"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'corpo' mean?" },
+      "sentence_context": "Il corpo umano.",
+      "correct_answer": "Body",
+      "distractors": ["Skin", "Heart", "Soul"],
+      "hints": ["The human body."],
+      "target_words": ["corpo"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sangue' mean?" },
+      "sentence_context": "Il sangue è rosso.",
+      "correct_answer": "Blood",
+      "distractors": ["Water", "Skin", "Vein"],
+      "hints": ["Blood is red."],
+      "target_words": ["sangue"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'salute' mean?" },
+      "sentence_context": "La salute è importante.",
+      "correct_answer": "Health",
+      "distractors": ["Sickness", "Body", "Care"],
+      "hints": ["Health is important."],
+      "target_words": ["salute"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'malattia' mean?" },
+      "sentence_context": "Una malattia grave.",
+      "correct_answer": "Illness / disease",
+      "distractors": ["Pain", "Symptom", "Medicine"],
+      "hints": ["A serious illness."],
+      "target_words": ["malattia"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'cura' mean?" },
+      "sentence_context": "Una buona cura.",
+      "correct_answer": "Treatment / care",
+      "distractors": ["Illness", "Pain", "Recovery"],
+      "hints": ["A good treatment."],
+      "target_words": ["cura"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'vivo' mean?" },
+      "sentence_context": "Sono ancora vivo.",
+      "correct_answer": "Alive",
+      "distractors": ["Dead", "Sick", "Tired"],
+      "hints": ["I'm still alive."],
+      "target_words": ["vivo"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'morto' mean?" },
+      "sentence_context": "Il pesce è morto.",
+      "correct_answer": "Dead",
+      "distractors": ["Alive", "Sick", "Old"],
+      "hints": ["The fish is dead."],
+      "target_words": ["morto"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'fisico' mean?" },
+      "sentence_context": "L'esercizio fisico.",
+      "correct_answer": "Physical",
+      "distractors": ["Mental", "Spiritual", "Medical"],
+      "hints": ["Physical exercise."],
+      "target_words": ["fisico"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'paziente' mean?" },
+      "sentence_context": "Il paziente sta meglio.",
+      "correct_answer": "Patient",
+      "distractors": ["Doctor", "Nurse", "Visitor"],
+      "hints": ["The patient is better."],
+      "target_words": ["paziente"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-11",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'energia' mean?" },
+      "sentence_context": "Ho molta energia.",
+      "correct_answer": "Energy",
+      "distractors": ["Strength only", "Spirit", "Feeling"],
+      "hints": ["I have a lot of energy."],
+      "target_words": ["energia"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'My face hurts.'" },
+      "sentence_context": "Mi fa male la ___.",
+      "correct_answer": "faccia",
+      "distractors": [],
+      "hints": ["Body part."],
+      "target_words": ["faccia"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'Health is important.'" },
+      "sentence_context": "La ___ è importante.",
+      "correct_answer": "salute",
+      "distractors": [],
+      "hints": ["Health."],
+      "target_words": ["salute"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-14",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: 'I have a lot of energy today.'" },
+      "sentence_context": "Oggi ho molta ___.",
+      "correct_answer": "energia",
+      "distractors": [],
+      "hints": ["What you have when you're not tired."],
+      "target_words": ["energia"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'body' in Italian?" },
+      "sentence_context": "Il corpo umano.",
+      "correct_answer": "corpo",
+      "distractors": [],
+      "hints": ["A masculine noun."],
+      "target_words": ["corpo"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'blood' in Italian?" },
+      "sentence_context": "Il sangue.",
+      "correct_answer": "sangue",
+      "distractors": [],
+      "hints": ["A masculine noun ending in -e."],
+      "target_words": ["sangue"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-17",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'illness' in Italian?" },
+      "sentence_context": "Una malattia.",
+      "correct_answer": "malattia",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["malattia"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-18",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'alive' (masculine) in Italian?" },
+      "sentence_context": "Sono vivo.",
+      "correct_answer": "vivo",
+      "distractors": [],
+      "hints": ["Opposite of 'morto'."],
+      "target_words": ["vivo"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'The human body is fantastic.'" },
+      "sentence_context": "Il corpo umano è fantastico.",
+      "correct_answer": ["Il", "corpo", "umano", "è", "fantastico."],
+      "distractors": ["corpi", "buona"],
+      "hints": ["Masculine subject + è + adjective."],
+      "target_words": ["corpo"]
+    },
+    {
+      "id": "unit-20-lesson-04-ex-20",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Health is more important than money.'" },
+      "sentence_context": "La salute è più importante dei soldi.",
+      "correct_answer": ["La", "salute", "è", "più", "importante", "dei", "soldi."],
+      "distractors": ["meno", "del"],
+      "hints": ["più ... di → più ... dei (with i soldi)."],
+      "target_words": ["salute"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "faccia", "meaning": "Face", "example": "Ha una faccia gentile." },
+    { "word": "corpo", "meaning": "Body", "example": "Il corpo umano." },
+    { "word": "sangue", "meaning": "Blood", "example": "Il sangue è rosso." },
+    { "word": "salute", "meaning": "Health", "example": "La salute è importante." },
+    { "word": "malattia", "meaning": "Illness / disease", "example": "Una malattia grave." },
+    { "word": "cura", "meaning": "Treatment / care", "example": "Una buona cura." },
+    { "word": "vivo", "meaning": "Alive", "example": "Sono ancora vivo." },
+    { "word": "morto", "meaning": "Dead", "example": "Il pesce è morto." },
+    { "word": "fisico", "meaning": "Physical", "example": "L'esercizio fisico." },
+    { "word": "paziente", "meaning": "Patient", "example": "Il paziente sta meglio." },
+    { "word": "energia", "meaning": "Energy", "example": "Ho molta energia." }
+  ]
+}

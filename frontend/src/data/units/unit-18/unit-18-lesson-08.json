@@ -1,0 +1,27 @@
+{
+  "id": "unit-18-lesson-08",
+  "unit_id": "unit-18",
+  "name": "A Reply to Luca",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-18-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Luca has invited you to a concert. Reply to him: thank him, say whether you like Italian music, explain that you can't come on Friday, and suggest another day and time for the pizza."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ciao Luca! Grazie per l'invito. Mi piace tanto la musica italiana, ma purtroppo venerdì sera non posso: ho un impegno di lavoro. Che peccato! Ti va di mangiare una pizza sabato? Sono libero dalle sette. Facciamo alle otto, davanti alla pizzeria in piazza? A presto!",
+      "distractors": [],
+      "hints": ["Grazie per l'invito, then purtroppo and a reason. Suggest a time with facciamo or ti va di."],
+      "target_words": ["invito", "purtroppo", "ti va?"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Un messaggio di Luca",
+    "paragraphs": ["Ciao! Venerdì sera c'è un concerto in piazza della Signoria, alle nove. È un gruppo di Bologna, molto bravo. Ho due biglietti: ti va di venire?", "Ti piace la musica italiana? Dopo il concerto, se vuoi, mangiamo una pizza.", "Luca"]
+  }
+}

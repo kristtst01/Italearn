@@ -1,0 +1,137 @@
+{
+  "id": "unit-20-lesson-06",
+  "unit_id": "unit-20",
+  "name": "Looking After a Friend",
+  "order": 6,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-20-lesson-06-ex-01",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Emma phones you. Tell her to stay in bed and drink lots of water." },
+      "sentence_context": "Emma: Mi fa male la testa e ho la febbre.\nYou: ___",
+      "correct_answer": ["Povera Emma! Resta a letto e bevi molta acqua.", "Resta a letto e bevi molta acqua!"],
+      "distractors": [],
+      "hints": ["Tu commands: resta, bevi."],
+      "target_words": ["restare"],
+      "dialogue": [
+        { "speaker": "Emma", "text": "Mi fa male la testa e ho la febbre." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-20-lesson-06-ex-02",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You are Paul. Luca phones after his football match: tell him not to play this week, and to rest (stare a riposo)." },
+      "sentence_context": "Luca: Paul, mi fa male la gamba. Che cosa faccio?\nYou: ___",
+      "correct_answer": ["Non giocare a calcio questa settimana: stai a riposo.", "Stai a riposo e non giocare a calcio questa settimana!"],
+      "distractors": [],
+      "hints": ["Don't: non + infinitive. Resting: a riposo."],
+      "target_words": ["gamba", "riposo"],
+      "dialogue": [
+        { "speaker": "Luca", "text": "Paul, mi fa male la gamba. Che cosa faccio?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-20-lesson-06-ex-03",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend has a sore throat and wants to go to the gym. Tell him not to go." },
+      "sentence_context": "Friend: Ho mal di gola. Vado in palestra?\nYou: ___",
+      "correct_answer": ["No, non andare in palestra! Resta a casa.", "Non andare! Resta a casa."],
+      "distractors": [],
+      "hints": ["Non andare."],
+      "target_words": ["mal di", "restare"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Ho mal di gola. Vado in palestra?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-20-lesson-06-ex-04",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Aiko is ill. Tell her not to come to class, and to write to Giulia." },
+      "sentence_context": "Aiko: Sto male, ma oggi c'è lezione.\nYou: ___",
+      "correct_answer": ["Non venire a lezione. Scrivi a Giulia.", "Resta a casa e scrivi a Giulia."],
+      "distractors": [],
+      "hints": ["Non venire; scrivi."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Aiko", "text": "Sto male, ma oggi c'è lezione." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-20-lesson-06-ex-05",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend still has a high temperature after three days. Tell her to call the doctor." },
+      "sentence_context": "Friend: Ho ancora la febbre a trentanove.\nYou: ___",
+      "correct_answer": ["Chiama il medico!", "Va' dal medico, subito!"],
+      "distractors": [],
+      "hints": ["Chiama: tu command of chiamare."],
+      "target_words": ["febbre"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Ho ancora la febbre a trentanove." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-20-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A friend with a cold wants to go out tonight. How do you say \"Don't go out!\"?" },
+      "sentence_context": "",
+      "correct_answer": "Non uscire!",
+      "distractors": ["Non esci!", "Non uscite!"],
+      "hints": ["One friend: non + the infinitive."],
+      "target_words": []
+    },
+    {
+      "id": "unit-20-lesson-06-ex-07",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Yuki says Aiko is ill and asks if you have something for a temperature." },
+      "sentence_context": "Yuki: Aiko è malata. Hai qualcosa per la febbre?\nYou: ___",
+      "correct_answer": ["Sì, ecco delle pastiglie. Una ogni otto ore.", "Sì, ho delle pastiglie per la febbre."],
+      "distractors": [],
+      "hints": ["Ecco + what you give."],
+      "target_words": ["pastiglia", "qualcosa"],
+      "dialogue": [
+        { "speaker": "Yuki", "text": "Aiko è malata. Hai qualcosa per la febbre?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-20-lesson-06-ex-08",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend says she feels better. Say you are glad, but tell her not to work too much." },
+      "sentence_context": "Friend: Oggi sto meglio, grazie!\nYou: ___",
+      "correct_answer": ["Bene! Ma non lavorare troppo.", "Che bello! Ma oggi non lavorare troppo."],
+      "distractors": [],
+      "hints": ["Non + infinitive."],
+      "target_words": ["meglio"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Oggi sto meglio, grazie!" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-20-lesson-06-ex-09",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Tell a friend: get well soon!" },
+      "sentence_context": "",
+      "correct_answer": ["guarisci presto"],
+      "distractors": [],
+      "hints": ["Guarire is an -isc- verb."],
+      "target_words": ["guarire"]
+    }
+  ],
+  "vocabulary": []
+}

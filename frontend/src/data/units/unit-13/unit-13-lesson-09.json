@@ -1,0 +1,23 @@
+{
+  "id": "unit-13-lesson-09",
+  "unit_id": "unit-13",
+  "name": "Come to My Place",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-13-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "A friend is coming to your home for the first time. Write a message with the way from the nearest bus stop or station to your door."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ciao Marco! Scendi dall'autobus in piazza Garibaldi. Attraversa la piazza e prendi la prima strada a sinistra. Vai sempre dritto fino al semaforo, poi gira a destra. La mia casa è in fondo alla strada, accanto a una farmacia: il portone è nero, numero 8. Suona il campanello e sali. Se ti perdi, telefona!",
+      "distractors": [],
+      "hints": ["Commands to a friend: prendi, vai, gira, attraversa. Add landmarks (al semaforo, all'angolo, in fondo a)."],
+      "target_words": ["destra", "sinistra", "semaforo", "in fondo"]
+    }
+  ],
+  "vocabulary": []
+}

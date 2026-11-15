@@ -9,16 +9,20 @@ sources:
 
 # The passato prossimo
 
-The *passato prossimo* is how you talk about the past in everyday Italian: *Ho mangiato* (I ate, I've eaten), *Sono andato a Roma* (I went to Rome). It covers both English "I did" and "I have done", so one form does the work of two.
+The *passato prossimo* is how you talk about the past in everyday Italian. It's a compound tense: a helper verb in the present, plus the past participle of the main verb. *Ho mangiato* is literally "I have eaten", built exactly like the English present perfect.
 
-It's built from two parts, a helper verb and a past form of the main verb. You know the helpers already: they're *avere* and *essere*. The work in this unit is choosing between them, and the handful of past forms you have to learn by heart.
+The build is the same as in English, but the use is wider. Italian uses the passato prossimo where English uses "I have eaten", and also where English uses the simple past "I ate". So *Ieri ho mangiato una pizza* is "Yesterday I ate a pizza", because English can't say "yesterday I have eaten". In the examples below, the English is the natural translation, and the literal build is shown where it helps.
+
+The helpers are verbs you already know, *avere* and *essere*. The work in this unit is choosing between them, agreement with *essere*, and the participles you have to learn by heart.
 
 ## How it's made
 
-The passato prossimo is the present of **avere** or **essere**, plus the **past participle** of the verb:
+The passato prossimo is the present of **avere** or **essere**, plus the **past participle** of the verb. The participle is the form English makes with *-ed* or *-en*: *eaten*, *spoken*, *arrived*.
 
 > Ho mangiato una pizza. Sono andato a Roma.
 > I ate a pizza. I went to Rome.
+
+Word for word, *ho mangiato* is "I have eaten" and *sono andato* is "I am gone". English used to work like this too: "he is gone", "the guests are arrived".
 
 Regular participles come from the infinitive:
 
@@ -30,14 +34,14 @@ Regular participles come from the infinitive:
 
 With **avere**, only the helper changes for the person; the participle stays the same:
 
-| | | |
-|---|---|---|
-| io | **ho** mangiato | I ate |
-| tu | **hai** mangiato | you ate |
-| lui / lei / Lei | **ha** mangiato | he / she ate, you ate (formal) |
-| noi | **abbiamo** mangiato | we ate |
-| voi | **avete** mangiato | you (plural) ate |
-| loro | **hanno** mangiato | they ate |
+| | | Literally | In English, depending on context |
+|---|---|---|---|
+| io | **ho** mangiato | I have eaten | I ate, I've eaten |
+| tu | **hai** mangiato | you have eaten | you ate, you've eaten |
+| lui / lei / Lei | **ha** mangiato | he / she has eaten | he / she ate, you ate (formal) |
+| noi | **abbiamo** mangiato | we have eaten | we ate, we've eaten |
+| voi | **avete** mangiato | you (plural) have eaten | you (plural) ate |
+| loro | **hanno** mangiato | they have eaten | they ate, they've eaten |
 
 > Abbiamo comprato il pane. Hai lavorato molto.
 > We bought the bread. You worked a lot.
@@ -66,7 +70,7 @@ This is a rule of thumb, not a law. Some verbs of movement take *avere*: **ho ca
 
 ## Agreement with essere
 
-With **essere**, the participle agrees with the subject, like an adjective: *-o, -a, -i, -e*.
+With **essere**, the participle agrees with the subject: *-o, -a, -i, -e*. This follows from the build. After *essere*, the participle works like an adjective describing the subject: *Giulia è andata* is built like *Giulia è stanca* (Giulia is tired). After *avere*, the participle belongs to the verb and doesn't describe anyone, so it doesn't change.
 
 | | | |
 |---|---|---|
@@ -116,10 +120,17 @@ Reflexive verbs always use **essere**, so the participle agrees. The pronoun sta
 
 ## When and how
 
-The passato prossimo is for something that **happened and finished**: yesterday, last week, an hour ago. Where English switches between "I did" and "I have done", Italian uses this one form:
+The passato prossimo is for something that **happened and finished**: yesterday, last week, an hour ago, or at some point in your life. English splits these between two tenses. It uses the simple past for a finished time ("yesterday I went") and the present perfect for experience or results up to now ("have you ever been?", "I've lost my keys"). Italian uses the passato prossimo for both:
 
 > Ieri sono andato al cinema. Sei mai stato a Roma?
 > Yesterday I went to the cinema. Have you ever been to Rome?
+
+One English present perfect does **not** become a passato prossimo: something that started in the past and is still going on. Italian uses the present tense with *da* (since, for):
+
+> Abito a Firenze da due anni.
+> I've lived in Florence for two years (and I still do).
+
+*Ho abitato a Firenze per due anni* means the two years are over: "I lived in Florence for two years".
 
 Time words that go with it:
 
@@ -144,7 +155,9 @@ Time words that go with it:
 
 **Piacere** in the past agrees with the thing you liked: *Mi è piaciuto il film*, *Mi è piaciuta la pizza*, *Mi sono piaciuti i musei*.
 
-You'll also meet another past tense in books, the *passato remoto*. In speech in most of Italy, the passato prossimo is the one people use, and it's the one you need at A1.
+This unit covers the past as a finished event. For what *was happening* or *used to happen* ("I was eating", "I used to live in Rome"), Italian has a second past tense, the *imperfetto*, which comes at A2. Until then, use the passato prossimo for single, finished events.
+
+You'll also meet a third past tense in books, the *passato remoto*. In speech in most of Italy, the passato prossimo is the one people use, and it's the one you need at A1.
 
 ## A day in the past
 
@@ -171,13 +184,14 @@ Here's how it sounds in a story. Watch which verbs take *avere* and which take *
 | Ho non mangiato. | Non ho mangiato. | *Non* goes before the helper. |
 | Ho mangiato già. | Ho già mangiato. | *Già* goes between helper and participle. |
 | Mi è piaciuto i musei. | Mi sono piaciuti i musei. | *Piacere* agrees with what you liked. |
+| Ho abitato a Firenze da due anni. | Abito a Firenze da due anni. | Still true now: present + *da*. |
 
 ## Summary
 
-**Form.** *Avere* or *essere* in the present + the participle: *-ato, -uto, -ito*, plus the irregular ones (*fatto, detto, preso, messo, visto, letto, scritto, stato, venuto, nato, rimasto, bevuto, vissuto, aperto, chiuso, risposto, perso, offerto*).
+**Form.** *Avere* or *essere* in the present + the participle, built like "I have eaten" (*ho mangiato*): *-ato, -uto, -ito*, plus the irregular ones (*fatto, detto, preso, messo, visto, letto, scritto, stato, venuto, nato, rimasto, bevuto, vissuto, aperto, chiuso, risposto, perso, offerto*).
 
 **Which helper.** *Avere* for most verbs. *Essere* for going, coming, staying and becoming (*andare, venire, arrivare, partire, uscire, entrare, tornare, restare, rimanere, nascere, diventare*), for *essere, stare, piacere*, and for all reflexive verbs.
 
 **Agreement.** With *essere*, the participle agrees with the subject (*è andata, sono andati*). With *avere*, it doesn't.
 
-**Use.** For finished events, with *ieri, stamattina, la settimana scorsa, due giorni fa*. *Non* before the helper; *già, mai, ancora, sempre* between helper and participle.
+**Use.** For finished events, where English uses "I did" or "I have done", with *ieri, stamattina, la settimana scorsa, due giorni fa*. *Non* before the helper; *già, mai, ancora, sempre* between helper and participle.

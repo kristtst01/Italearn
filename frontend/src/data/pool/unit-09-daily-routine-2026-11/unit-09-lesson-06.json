@@ -1,0 +1,61 @@
+{
+  "id": "unit-09-lesson-06",
+  "unit_id": "unit-09",
+  "name": "Practice Writing",
+  "order": 6,
+  "grammar_tips": [
+    {
+      "id": "unit-09-lesson-06-tip-01",
+      "title": "Describe Your Day",
+      "explanation": "Now write about your daily routine. Use reflexive verbs (mi sveglio, mi lavo, mi vesto), -are verbs (mangio, lavoro, studio), times (alle sette), parts of day (la mattina, la sera) and days of the week. Write natural Italian — there is no single correct answer.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-09-lesson-06-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe your morning. Say what time you wake up and what you do (3-4 sentences)." },
+      "sentence_context": "",
+      "correct_answer": "Mi sveglio alle sette. Mi lavo e mi vesto. Mangio a casa. Poi lavoro la mattina.",
+      "distractors": [],
+      "hints": ["Use reflexive verbs + 'alle' + time + -are verbs."],
+      "target_words": ["svegliarsi", "lavarsi", "vestirsi"]
+    },
+    {
+      "id": "unit-09-lesson-06-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe what you do during the week. Use a day of the week and a part of the day (3-4 sentences)." },
+      "sentence_context": "",
+      "correct_answer": "Lunedì lavoro la mattina. Il pomeriggio studio l'italiano. Sabato gioco con il cane. Domenica mi riposo.",
+      "distractors": [],
+      "hints": ["Day + verb. Mix days and parts of day."],
+      "target_words": ["lunedì", "pomeriggio", "sabato", "riposarsi"]
+    },
+    {
+      "id": "unit-09-lesson-06-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe your evening. Say what time it is, what you do, and when you fall asleep (3-4 sentences)." },
+      "sentence_context": "",
+      "correct_answer": "La sera sono stanco. Sono le otto e mangio. Poi mi riposo. Mi addormento alle undici.",
+      "distractors": [],
+      "hints": ["Use 'la sera', 'sono le' + time, and reflexive verbs."],
+      "target_words": ["sera", "riposarsi", "addormentarsi"]
+    },
+    {
+      "id": "unit-09-lesson-06-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe a typical Saturday — what time you wake up, what you do, who with (3-4 sentences)." },
+      "sentence_context": "",
+      "correct_answer": "Sabato mi sveglio tardi. La mattina cucino a casa. Il pomeriggio gioco con mio fratello. La sera ascolto la mamma.",
+      "distractors": [],
+      "hints": ["Combine day + routine verbs + 'con' + person."],
+      "target_words": ["sabato", "tardi", "cucinare"]
+    }
+  ],
+  "vocabulary": []
+}

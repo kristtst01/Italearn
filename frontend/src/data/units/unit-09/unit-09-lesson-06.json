@@ -1,60 +1,121 @@
 {
   "id": "unit-09-lesson-06",
   "unit_id": "unit-09",
-  "name": "Practice Writing",
+  "name": "Busy Days",
   "order": 6,
-  "grammar_tips": [
-    {
-      "id": "unit-09-lesson-06-tip-01",
-      "title": "Describe Your Day",
-      "explanation": "Now write about your daily routine. Use reflexive verbs (mi sveglio, mi lavo, mi vesto), -are verbs (mangio, lavoro, studio), times (alle sette), parts of day (la mattina, la sera) and days of the week. Write natural Italian — there is no single correct answer.",
-      "before_exercise": 0
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-09-lesson-06-ex-01",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Describe your morning. Say what time you wake up and what you do (3-4 sentences)." },
-      "sentence_context": "",
-      "correct_answer": "Mi sveglio alle sette. Mi lavo e mi vesto. Mangio a casa. Poi lavoro la mattina.",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend wants to go out this evening. You can't: tomorrow you have to get up at five." },
+      "sentence_context": "Friend: Stasera usciamo?\nYou: ___",
+      "correct_answer": ["No, mi dispiace: domani devo alzarmi alle cinque.", "Non posso, domani mi devo alzare alle cinque."],
       "distractors": [],
-      "hints": ["Use reflexive verbs + 'alle' + time + -are verbs."],
-      "target_words": ["svegliarsi", "lavarsi", "vestirsi"]
+      "hints": ["Dovere + alzarsi: mi on either side."],
+      "target_words": ["alzarsi"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Stasera usciamo?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-09-lesson-06-ex-02",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Describe what you do during the week. Use a day of the week and a part of the day (3-4 sentences)." },
-      "sentence_context": "",
-      "correct_answer": "Lunedì lavoro la mattina. Il pomeriggio studio l'italiano. Sabato gioco con il cane. Domenica mi riposo.",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Paul suggests seven. You finish work at seven, so you suggest half past." },
+      "sentence_context": "Paul: Ci vediamo alle sette?\nYou: ___",
+      "correct_answer": ["Finisco di lavorare alle sette. Alle sette e mezza?", "Ci vediamo alle sette e mezza? Finisco alle sette."],
       "distractors": [],
-      "hints": ["Day + verb. Mix days and parts of day."],
-      "target_words": ["lunedì", "pomeriggio", "sabato", "riposarsi"]
+      "hints": ["Finisco di lavorare…"],
+      "target_words": ["finire", "vedersi"],
+      "dialogue": [
+        { "speaker": "Paul", "text": "Ci vediamo alle sette?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-09-lesson-06-ex-03",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Describe your evening. Say what time it is, what you do, and when you fall asleep (3-4 sentences)." },
-      "sentence_context": "",
-      "correct_answer": "La sera sono stanco. Sono le otto e mangio. Poi mi riposo. Mi addormento alle undici.",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Chloé tells you about her Saturdays and asks about yours. You wake up late and do the housework." },
+      "sentence_context": "Chloé: Il sabato lavoro dalle otto alle tre. E tu, che cosa fai il sabato?\nYou: ___",
+      "correct_answer": ["Mi sveglio tardi e faccio le faccende di casa.", "Io mi alzo tardi e faccio le faccende."],
       "distractors": [],
-      "hints": ["Use 'la sera', 'sono le' + time, and reflexive verbs."],
-      "target_words": ["sera", "riposarsi", "addormentarsi"]
+      "hints": ["Two things, joined with e."],
+      "target_words": ["faccende", "tardi"],
+      "dialogue": [
+        { "speaker": "Chloé", "text": "Il sabato lavoro dalle otto alle tre. E tu, che cosa fai il sabato?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-09-lesson-06-ex-04",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": { "text": "Describe a typical Saturday — what time you wake up, what you do, who with (3-4 sentences)." },
-      "sentence_context": "",
-      "correct_answer": "Sabato mi sveglio tardi. La mattina cucino a casa. Il pomeriggio gioco con mio fratello. La sera ascolto la mamma.",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Luca sees you are tired and asks if you want to rest. Yes, a little, on the sofa." },
+      "sentence_context": "Luca: Sei stanco? Ti riposi un po'?\nYou: ___",
+      "correct_answer": ["Sì, mi riposo un po' sul divano.", "Sì, un po' sul divano."],
       "distractors": [],
-      "hints": ["Combine day + routine verbs + 'con' + person."],
-      "target_words": ["sabato", "tardi", "cucinare"]
+      "hints": ["Ti riposi becomes mi riposo in your answer."],
+      "target_words": ["riposarsi", "divano"],
+      "dialogue": [
+        { "speaker": "Luca", "text": "Sei stanco? Ti riposi un po'?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-09-lesson-06-ex-05",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A classmate asks how you find the time to study. You study on the bus, in the morning." },
+      "sentence_context": "Classmate: Come trovi il tempo per studiare?\nYou: ___",
+      "correct_answer": ["Studio in autobus, la mattina.", "La mattina studio in autobus."],
+      "distractors": [],
+      "hints": ["In autobus: on the bus."],
+      "target_words": ["trovare"],
+      "dialogue": [
+        { "speaker": "Classmate", "text": "Come trovi il tempo per studiare?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-09-lesson-06-ex-06",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Find the mistake: tomorrow I have to get up early." },
+      "sentence_context": "Domani devo alzarsi presto.",
+      "correct_answer": ["Domani devo alzarmi presto."],
+      "distractors": [],
+      "hints": ["The pronoun matches the person: io, so -mi."],
+      "target_words": ["alzarsi"]
+    },
+    {
+      "id": "unit-09-lesson-06-ex-07",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "It's Friday. A friend asks if you're going to bed early. No: tomorrow you don't work, so you'll stay up late." },
+      "sentence_context": "Friend: Vai a letto presto stasera?\nYou: ___",
+      "correct_answer": ["No, domani non lavoro: stasera faccio tardi!", "No, domani non lavoro e mi sveglio tardi."],
+      "distractors": [],
+      "hints": ["Fare tardi."],
+      "target_words": ["tardi"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Vai a letto presto stasera?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-09-lesson-06-ex-08",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Tell a friend: see you on Saturday at the station." },
+      "sentence_context": "",
+      "correct_answer": ["Ci vediamo sabato alla stazione."],
+      "distractors": [],
+      "hints": ["Ci vediamo + day + place."],
+      "target_words": ["vedersi"]
     }
   ],
   "vocabulary": []

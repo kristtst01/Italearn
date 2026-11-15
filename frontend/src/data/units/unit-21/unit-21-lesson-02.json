@@ -1,234 +1,223 @@
 {
   "id": "unit-21-lesson-02",
   "unit_id": "unit-21",
-  "name": "Checking In",
+  "name": "Countries and Abroad",
   "order": 2,
-  "grammar_tips": [
-    {
-      "id": "unit-21-lesson-02-tip-01",
-      "title": "Passport & Documents",
-      "explanation": "At Italian hotels you usually need to show 'il passaporto' (passport) or 'la carta d'identità' (ID card) when checking in. You may also fill in 'il modulo' (form).",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-21-lesson-02-tip-02",
-      "title": "Luggage",
-      "explanation": "'La valigia' (suitcase, plural valigie) and 'il bagaglio' (luggage, often used in singular as a collective). 'Dov'è il mio bagaglio?' = Where's my luggage?",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-21-lesson-02-tip-03",
-      "title": "Signing",
-      "explanation": "'Firma qui' = Sign here. 'La firma' = the signature. Used a lot when checking in or paying.",
-      "before_exercise": 10
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-21-lesson-02-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'passaporto' mean?" },
-      "sentence_context": "Mi serve il passaporto.",
-      "correct_answer": "Passport",
-      "distractors": ["ID card", "Ticket", "Form"],
-      "hints": ["Travel document."],
-      "target_words": ["passaporto"]
+      "subtype": "match_pairs",
+      "prompt": { "text": "Match the Italian with the English." },
+      "sentence_context": "",
+      "correct_answer": ["Inghilterra|England", "Germania|Germany", "Giappone|Japan", "Stati Uniti|the United States", "Spagna|Spain"],
+      "distractors": [],
+      "hints": [],
+      "target_words": ["Inghilterra", "Germania", "Giappone", "Stati Uniti", "Spagna"]
     },
     {
       "id": "unit-21-lesson-02-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'valigia' mean?" },
-      "sentence_context": "La valigia è pesante.",
-      "correct_answer": "Suitcase",
-      "distractors": ["Backpack", "Bag", "Box"],
-      "hints": ["The suitcase is heavy."],
-      "target_words": ["valigia"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'all'estero' mean?" },
+      "sentence_context": "Luca ha un cugino che lavora all'estero, a Londra.",
+      "correct_answer": ["abroad"],
+      "distractors": [],
+      "hints": ["Not in your own country."],
+      "target_words": ["estero"]
     },
     {
       "id": "unit-21-lesson-02-ex-03",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'bagaglio' mean?" },
-      "sentence_context": "Il mio bagaglio è perso.",
-      "correct_answer": "Luggage",
-      "distractors": ["Ticket", "Receipt", "Passport"],
-      "hints": ["My luggage is lost."],
-      "target_words": ["bagaglio"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: This year we are going on holiday abroad." },
+      "sentence_context": "Quest'anno andiamo in vacanza all'___.",
+      "correct_answer": "estero",
+      "distractors": [],
+      "hints": ["Abroad: all'…"],
+      "target_words": ["estero"]
     },
     {
       "id": "unit-21-lesson-02-ex-04",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'modulo' mean?" },
-      "sentence_context": "Compila questo modulo.",
-      "correct_answer": "Form",
-      "distractors": ["Letter", "Card", "Bill"],
-      "hints": ["Fill in this form."],
-      "target_words": ["modulo"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'straniero' mean?" },
+      "sentence_context": "Lo studente straniero parla bene italiano.",
+      "correct_answer": ["foreign", "foreigner", "the foreign student"],
+      "distractors": [],
+      "hints": ["He comes from another country."],
+      "target_words": ["straniero"]
     },
     {
       "id": "unit-21-lesson-02-ex-05",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'firma' mean here?" },
-      "sentence_context": "Firma qui, per favore.",
-      "correct_answer": "Signature / sign",
-      "distractors": ["Date", "Name", "Number"],
-      "hints": ["Sign here, please."],
-      "target_words": ["firma"]
+      "prompt": { "text": "Which is correct?" },
+      "sentence_context": "",
+      "correct_answer": "Vado in Germania.",
+      "distractors": ["Vado a Germania.", "Vado alla Germania."],
+      "hints": ["Countries take in."],
+      "target_words": ["Germania"]
     },
     {
       "id": "unit-21-lesson-02-ex-06",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'identità' mean?" },
-      "sentence_context": "Ho la carta d'identità.",
-      "correct_answer": "Identity",
-      "distractors": ["Passport", "Name", "Ticket"],
-      "hints": ["I have an ID card."],
-      "target_words": ["identità"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Paris is in France." },
+      "sentence_context": "Parigi è in ___.",
+      "correct_answer": "Francia",
+      "distractors": [],
+      "hints": ["France."],
+      "target_words": ["Francia"]
     },
     {
       "id": "unit-21-lesson-02-ex-07",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence." },
-      "sentence_context": "Mi serve il ___ per viaggiare.",
-      "correct_answer": "passaporto",
+      "prompt": { "text": "Complete: Osaka is in Japan." },
+      "sentence_context": "Osaka è in ___.",
+      "correct_answer": "Giappone",
       "distractors": [],
-      "hints": ["I need my passport to travel."],
-      "target_words": ["passaporto"]
+      "hints": ["Japan."],
+      "target_words": ["Giappone"]
     },
     {
       "id": "unit-21-lesson-02-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence." },
-      "sentence_context": "La ___ è in camera.",
-      "correct_answer": "valigia",
+      "prompt": { "text": "Complete: In the class there are students from three nations." },
+      "sentence_context": "In classe ci sono studenti di tre ___.",
+      "correct_answer": "nazioni",
       "distractors": [],
-      "hints": ["The suitcase is in the room."],
-      "target_words": ["valigia"]
+      "hints": ["Nazione, plural."],
+      "target_words": ["nazione"]
     },
     {
       "id": "unit-21-lesson-02-ex-09",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence." },
-      "sentence_context": "Compila il ___ , per favore.",
-      "correct_answer": "modulo",
-      "distractors": [],
-      "hints": ["Fill in the form, please."],
-      "target_words": ["modulo"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How do you say \"an international airport\"?" },
+      "sentence_context": "",
+      "correct_answer": "un aeroporto internazionale",
+      "distractors": ["un internazionale aeroporto", "un aeroporto internazionali"],
+      "hints": ["One noun: the singular adjective, after it."],
+      "target_words": ["internazionale"]
     },
     {
       "id": "unit-21-lesson-02-ex-10",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence." },
-      "sentence_context": "Metti la ___ qui.",
-      "correct_answer": "firma",
+      "prompt": { "text": "Complete: I lost my passport: I have to go to the embassy." },
+      "sentence_context": "Ho perso il passaporto: devo andare all'___.",
+      "correct_answer": "ambasciata",
       "distractors": [],
-      "hints": ["Put the signature here."],
-      "target_words": ["firma"]
+      "hints": ["Embassy."],
+      "target_words": ["ambasciata"]
     },
     {
       "id": "unit-21-lesson-02-ex-11",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'passport' in Italian?" },
-      "sentence_context": "Il mio passaporto.",
-      "correct_answer": "passaporto",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: There is an American consulate in Florence." },
+      "sentence_context": "C'è un ___ americano a Firenze.",
+      "correct_answer": "consolato",
       "distractors": [],
-      "hints": ["A masculine noun."],
-      "target_words": ["passaporto"]
+      "hints": ["Consulate."],
+      "target_words": ["consolato"]
     },
     {
       "id": "unit-21-lesson-02-ex-12",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'suitcase' in Italian?" },
-      "sentence_context": "La valigia rossa.",
-      "correct_answer": "valigia",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend asks if you are going abroad on holiday this year. You are going to Spain." },
+      "sentence_context": "Friend: Quest'anno vai in vacanza all'estero?\nYou: ___",
+      "correct_answer": ["Sì, vado in Spagna.", "Sì, in Spagna!"],
       "distractors": [],
-      "hints": ["A feminine noun."],
-      "target_words": ["valigia"]
+      "hints": ["In + the country."],
+      "target_words": ["Spagna", "estero"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Quest'anno vai in vacanza all'estero?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-21-lesson-02-ex-13",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'luggage' in Italian?" },
-      "sentence_context": "Il bagaglio è perso.",
-      "correct_answer": "bagaglio",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Someone at a party asks if you're from here. You're a foreigner: you're American." },
+      "sentence_context": "Guest: Sei di qui?\nYou: ___",
+      "correct_answer": ["No, sono straniero: sono americano.", "No, sono straniera: sono americana."],
       "distractors": [],
-      "hints": ["Masculine noun."],
-      "target_words": ["bagaglio"]
+      "hints": ["Straniero, or your nationality."],
+      "target_words": ["straniero"],
+      "dialogue": [
+        { "speaker": "Guest", "text": "Sei di qui?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-21-lesson-02-ex-14",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'form' in Italian?" },
-      "sentence_context": "Compila il modulo.",
-      "correct_answer": "modulo",
-      "distractors": [],
-      "hints": ["A document to fill in."],
-      "target_words": ["modulo"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Many foreign tourists come to Florence.'" },
+      "sentence_context": "Molti turisti stranieri vengono a Firenze.",
+      "correct_answer": ["Molti", "turisti", "stranieri", "vengono", "a", "Firenze."],
+      "distractors": ["straniere", "in"],
+      "hints": ["Straniero agrees with turisti."],
+      "target_words": ["straniero"]
     },
     {
       "id": "unit-21-lesson-02-ex-15",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'signature' in Italian?" },
-      "sentence_context": "La firma qui.",
-      "correct_answer": "firma",
+      "prompt": { "text": "Say: Berlin is in Germany." },
+      "sentence_context": "",
+      "correct_answer": ["berlino è in germania"],
       "distractors": [],
-      "hints": ["A feminine noun."],
-      "target_words": ["firma"]
+      "hints": ["In + the country."],
+      "target_words": ["Germania"]
     },
     {
       "id": "unit-21-lesson-02-ex-16",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange: 'I have my passport.'" },
-      "sentence_context": "Ho il mio passaporto.",
-      "correct_answer": ["Ho", "il", "mio", "passaporto."],
-      "distractors": ["la", "valigia"],
-      "hints": ["Avere + possessive + noun."],
-      "target_words": ["passaporto"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Say: England is in Europe." },
+      "sentence_context": "",
+      "correct_answer": ["l'inghilterra è in europa"],
+      "distractors": [],
+      "hints": ["The country takes the article as a subject: l'Inghilterra."],
+      "target_words": ["Inghilterra", "Europa"]
     },
     {
       "id": "unit-21-lesson-02-ex-17",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange: 'Fill in the form, please.'" },
-      "sentence_context": "Compila il modulo, per favore.",
-      "correct_answer": ["Compila", "il", "modulo,", "per", "favore."],
-      "distractors": ["compili", "firma"],
-      "hints": ["Imperative + 'il modulo' + politeness."],
-      "target_words": ["modulo"]
-    },
-    {
-      "id": "unit-21-lesson-02-ex-18",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange: 'The suitcase is in the room.'" },
-      "sentence_context": "La valigia è in camera.",
-      "correct_answer": ["La", "valigia", "è", "in", "camera."],
-      "distractors": ["il", "bagaglio"],
-      "hints": ["Feminine subject → la, è, in camera."],
-      "target_words": ["valigia"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you've never been abroad." },
+      "sentence_context": "",
+      "correct_answer": ["non sono mai stato all'estero", "non sono mai stata all'estero"],
+      "distractors": [],
+      "hints": ["Non sono mai stato / stata …"],
+      "target_words": ["estero"]
     }
   ],
   "vocabulary": [
-    { "word": "passaporto", "meaning": "Passport", "example": "Mi serve il passaporto." },
-    { "word": "valigia", "meaning": "Suitcase", "example": "La valigia è pesante." },
-    { "word": "bagaglio", "meaning": "Luggage", "example": "Il mio bagaglio è perso." },
-    { "word": "modulo", "meaning": "Form (document)", "example": "Compila questo modulo." },
-    { "word": "firma", "meaning": "Signature", "example": "Firma qui, per favore." },
-    { "word": "identità", "meaning": "Identity", "example": "Ho la carta d'identità." }
+    { "word": "Inghilterra", "meaning": "England", "example": "Londra è in Inghilterra." },
+    { "word": "Francia", "meaning": "France", "example": "Chloé è francese: è nata in Francia." },
+    { "word": "Spagna", "meaning": "Spain", "example": "Tomás è spagnolo, ma adesso abita in Italia, non in Spagna." },
+    { "word": "Germania", "meaning": "Germany", "example": "Berlino è in Germania." },
+    { "word": "Giappone", "meaning": "Japan", "example": "Osaka è in Giappone." },
+    {
+      "word": "Stati Uniti",
+      "meaning": "the United States · negli Stati Uniti = in or to the United States",
+      "example": "Il mio amico abita negli Stati Uniti."
+    },
+    { "word": "Europa", "meaning": "Europe", "example": "L'Italia è in Europa." },
+    { "word": "estero", "meaning": "abroad · all'estero = abroad (in or to another country)", "example": "Quest'anno andiamo in vacanza all'estero." },
+    { "word": "straniero", "meaning": "foreign; a foreigner", "example": "A Firenze ci sono molti studenti stranieri." },
+    { "word": "nazione", "meaning": "nation, country", "example": "Nella classe di Giulia ci sono studenti di tre nazioni." },
+    { "word": "internazionale", "meaning": "international · internazionali (plural)", "example": "Pisa ha un aeroporto internazionale." },
+    { "word": "ambasciata", "meaning": "embassy", "example": "L'ambasciata di Spagna è a Roma." },
+    { "word": "consolato", "meaning": "consulate", "example": "C'è un consolato americano a Firenze." }
   ]
 }

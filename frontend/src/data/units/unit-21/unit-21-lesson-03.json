@@ -1,223 +1,161 @@
 {
   "id": "unit-21-lesson-03",
   "unit_id": "unit-21",
-  "name": "Sightseeing & Travel",
+  "name": "Before You Go",
   "order": 3,
-  "grammar_tips": [
-    {
-      "id": "unit-21-lesson-03-tip-01",
-      "title": "Being a Tourist",
-      "explanation": "'Il turista' / 'la turista' (tourist) — same word both genders, only the article changes. You'll often hear 'i turisti' for a group.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-21-lesson-03-tip-02",
-      "title": "Things to See",
-      "explanation": "'Il monumento' (monument), 'la fontana' (fountain), 'il museo' (you know it). Many Italian towns have all three around a single piazza.",
-      "before_exercise": 5
-    },
-    {
-      "id": "unit-21-lesson-03-tip-03",
-      "title": "Map & Guide",
-      "explanation": "'La mappa' = map. 'La guida' has two meanings: a tour guide (person) OR a guidebook. 'Una foto' = a photo (short for fotografia).",
-      "before_exercise": 10
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-21-lesson-03-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'turista' mean?" },
-      "sentence_context": "I turisti visitano il museo.",
-      "correct_answer": "Tourist",
-      "distractors": ["Local", "Guide", "Traveller"],
-      "hints": ["The tourists visit the museum."],
-      "target_words": ["turista"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'valigia' mean?" },
+      "sentence_context": "Ho una valigia piccola e uno zaino.",
+      "correct_answer": ["suitcase", "a suitcase", "a small suitcase"],
+      "distractors": [],
+      "hints": ["You pack it for a trip."],
+      "target_words": ["valigia"]
     },
     {
       "id": "unit-21-lesson-03-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'monumento' mean?" },
-      "sentence_context": "Il monumento è grande.",
-      "correct_answer": "Monument",
-      "distractors": ["Museum", "Fountain", "Statue"],
-      "hints": ["The monument is big."],
-      "target_words": ["monumento"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'agenzia di viaggi' mean?" },
+      "sentence_context": "Ho prenotato il viaggio in un'agenzia di viaggi.",
+      "correct_answer": ["travel agency", "a travel agency", "travel agent's"],
+      "distractors": [],
+      "hints": ["A shop where you book trips."],
+      "target_words": ["agenzia"]
     },
     {
       "id": "unit-21-lesson-03-ex-03",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'fontana' mean?" },
-      "sentence_context": "La fontana di Trevi è famosa.",
-      "correct_answer": "Fountain",
-      "distractors": ["River", "Lake", "Pool"],
-      "hints": ["The Trevi fountain is famous."],
-      "target_words": ["fontana"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Excuse me, I'd like some information." },
+      "sentence_context": "Scusi, vorrei un'___.",
+      "correct_answer": "informazione",
+      "distractors": [],
+      "hints": ["One piece of information."],
+      "target_words": ["informazione"]
     },
     {
       "id": "unit-21-lesson-03-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'foto' mean?" },
-      "sentence_context": "Faccio una foto.",
-      "correct_answer": "Photo",
-      "distractors": ["Painting", "Map", "Note"],
-      "hints": ["I take a photo. (short for fotografia)"],
-      "target_words": ["foto"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: This suitcase is very heavy!" },
+      "sentence_context": "Questa valigia è molto ___!",
+      "correct_answer": "pesante",
+      "distractors": [],
+      "hints": ["Heavy."],
+      "target_words": ["pesante"]
     },
     {
       "id": "unit-21-lesson-03-ex-05",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'mappa' mean?" },
-      "sentence_context": "Vorrei una mappa della città.",
-      "correct_answer": "Map",
-      "distractors": ["Guide", "Ticket", "Plan"],
-      "hints": ["I'd like a map of the city."],
-      "target_words": ["mappa"]
+      "prompt": { "text": "At check-in, the receptionist asks for a document. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Ecco la mia carta d'identità.",
+      "distractors": ["Ecco la mia valigia.", "Ecco il mio biglietto."],
+      "hints": ["A document with your photo and name."],
+      "target_words": ["carta d'identità"]
     },
     {
       "id": "unit-21-lesson-03-ex-06",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'guida' mean here?" },
-      "sentence_context": "La guida parla inglese.",
-      "correct_answer": "Guide (person)",
-      "distractors": ["Map", "Ticket", "Tour"],
-      "hints": ["The guide speaks English."],
-      "target_words": ["guida"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Check-in is from two in the afternoon." },
+      "sentence_context": "Il ___ è dalle due del pomeriggio.",
+      "correct_answer": "check-in",
+      "distractors": [],
+      "hints": ["The English word."],
+      "target_words": ["check-in"]
     },
     {
       "id": "unit-21-lesson-03-ex-07",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence." },
-      "sentence_context": "I ___ visitano Roma.",
-      "correct_answer": "turisti",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend is leaving tomorrow and asks if you have packed yet. You have." },
+      "sentence_context": "Friend: Hai già fatto la valigia?\nYou: ___",
+      "correct_answer": ["Sì, ho già fatto la valigia.", "Sì, è pronta!"],
       "distractors": [],
-      "hints": ["The tourists visit Rome. (plural)"],
-      "target_words": ["turista"]
+      "hints": ["Fare la valigia: to pack."],
+      "target_words": ["valigia"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Hai già fatto la valigia?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-21-lesson-03-ex-08",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence." },
-      "sentence_context": "Faccio una ___ della fontana.",
-      "correct_answer": "foto",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "At the information office at the station. You want to know where the bus for the centre leaves from." },
+      "sentence_context": "Clerk: Buongiorno, mi dica.\nYou: ___",
+      "correct_answer": ["Buongiorno, vorrei un'informazione: dov'è la fermata dell'autobus per il centro?", "Scusi, dov'è l'autobus per il centro?"],
       "distractors": [],
-      "hints": ["I take a photo of the fountain."],
-      "target_words": ["foto"]
+      "hints": ["Vorrei un'informazione, then the question."],
+      "target_words": ["informazione"],
+      "dialogue": [
+        { "speaker": "Clerk", "text": "Buongiorno, mi dica." },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-21-lesson-03-ex-09",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence." },
-      "sentence_context": "Vorrei una ___ della città.",
-      "correct_answer": "mappa",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "At a travel agency. You want a flight and a hotel in Rome for three nights." },
+      "sentence_context": "Agent: Buongiorno, prego. Dove vuole andare?\nYou: ___",
+      "correct_answer": ["Vorrei andare a Roma: un volo e un albergo per tre notti.", "A Roma. Vorrei un volo e un albergo per tre notti."],
       "distractors": [],
-      "hints": ["I'd like a map of the city."],
-      "target_words": ["mappa"]
+      "hints": ["Vorrei + what you want."],
+      "target_words": ["agenzia"],
+      "dialogue": [
+        { "speaker": "Agent", "text": "Buongiorno, prego. Dove vuole andare?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-21-lesson-03-ex-10",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence." },
-      "sentence_context": "Il ___ è in piazza.",
-      "correct_answer": "monumento",
-      "distractors": [],
-      "hints": ["The monument is in the square."],
-      "target_words": ["monumento"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'We checked in at the airport.'" },
+      "sentence_context": "Abbiamo fatto il check-in all'aeroporto.",
+      "correct_answer": ["Abbiamo", "fatto", "il", "check-in", "all'aeroporto."],
+      "distractors": ["siamo", "fatti"],
+      "hints": ["Fare takes avere."],
+      "target_words": ["check-in"]
     },
     {
       "id": "unit-21-lesson-03-ex-11",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'tourist' in Italian?" },
-      "sentence_context": "Un turista americano.",
-      "correct_answer": "turista",
+      "prompt": { "text": "Say: My suitcase is heavy." },
+      "sentence_context": "",
+      "correct_answer": ["la mia valigia è pesante"],
       "distractors": [],
-      "hints": ["Same form for both genders."],
-      "target_words": ["turista"]
+      "hints": ["La mia valigia …"],
+      "target_words": ["valigia", "pesante"]
     },
     {
       "id": "unit-21-lesson-03-ex-12",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'monument' in Italian?" },
-      "sentence_context": "Un monumento storico.",
-      "correct_answer": "monumento",
-      "distractors": [],
-      "hints": ["Close to the English word."],
-      "target_words": ["monumento"]
-    },
-    {
-      "id": "unit-21-lesson-03-ex-13",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'photo' in Italian?" },
-      "sentence_context": "Faccio una foto.",
-      "correct_answer": "foto",
-      "distractors": [],
-      "hints": ["Four letters."],
-      "target_words": ["foto"]
-    },
-    {
-      "id": "unit-21-lesson-03-ex-14",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'map' in Italian?" },
-      "sentence_context": "Una mappa di Roma.",
-      "correct_answer": "mappa",
-      "distractors": [],
-      "hints": ["A feminine noun."],
-      "target_words": ["mappa"]
-    },
-    {
-      "id": "unit-21-lesson-03-ex-15",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange: 'I take a photo of the fountain.'" },
-      "sentence_context": "Faccio una foto della fontana.",
-      "correct_answer": ["Faccio", "una", "foto", "della", "fontana."],
-      "distractors": ["mappa", "del"],
-      "hints": ["Fare + 'una foto della' + place."],
-      "target_words": ["foto", "fontana"]
-    },
-    {
-      "id": "unit-21-lesson-03-ex-16",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange: 'The tourists visit the museum.'" },
-      "sentence_context": "I turisti visitano il museo.",
-      "correct_answer": ["I", "turisti", "visitano", "il", "museo."],
-      "distractors": ["turista", "monumento"],
-      "hints": ["Plural masculine + visitano + museum."],
-      "target_words": ["turista"]
-    },
-    {
-      "id": "unit-21-lesson-03-ex-17",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange: \"I'd like a map of the city.\"" },
-      "sentence_context": "Vorrei una mappa della città.",
-      "correct_answer": ["Vorrei", "una", "mappa", "della", "città."],
-      "distractors": ["foto", "del"],
-      "hints": ["Polite + map + of-the city."],
-      "target_words": ["mappa"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you booked the hotel at a travel agency." },
+      "sentence_context": "",
+      "correct_answer": ["ho prenotato l'albergo in un'agenzia di viaggi", "ho prenotato l'albergo in agenzia"],
+      "distractors": [],
+      "hints": ["In un'agenzia di viaggi."],
+      "target_words": ["agenzia", "prenotare"]
     }
   ],
   "vocabulary": [
-    { "word": "turista", "meaning": "Tourist", "example": "I turisti visitano il museo." },
-    { "word": "monumento", "meaning": "Monument", "example": "Il monumento è grande." },
-    { "word": "fontana", "meaning": "Fountain", "example": "La fontana di Trevi è famosa." },
-    { "word": "foto", "meaning": "Photo", "example": "Faccio una foto." },
-    { "word": "mappa", "meaning": "Map", "example": "Vorrei una mappa della città." },
-    { "word": "guida", "meaning": "Guide (person or book)", "example": "La guida parla inglese." }
+    { "word": "valigia", "meaning": "suitcase · valigie (plural) · fare la valigia = to pack", "example": "Ho una valigia piccola e uno zaino." },
+    { "word": "pesante", "meaning": "heavy", "example": "Questa valigia è molto pesante!" },
+    { "word": "agenzia", "meaning": "agency · agenzia di viaggi = travel agency", "example": "Ho prenotato il viaggio in un'agenzia di viaggi." },
+    { "word": "informazione", "meaning": "information, a piece of information · informazioni (plural)", "example": "Scusi, vorrei un'informazione." },
+    { "word": "check-in", "meaning": "check-in (at a hotel or an airport) · fare il check-in", "example": "Il check-in è dalle due del pomeriggio." },
+    { "word": "carta d'identità", "meaning": "identity card, ID card", "example": "Ecco la mia carta d'identità.", "phrase": true }
   ]
 }

@@ -1,0 +1,153 @@
+{
+  "id": "unit-20-lesson-07",
+  "unit_id": "unit-20",
+  "name": "Emma's Cough Syrup",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-20-lesson-07-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How long has Emma had a cold?" },
+      "sentence_context": "",
+      "correct_answer": "Three days",
+      "distractors": ["A week", "Since this morning"],
+      "hints": ["'Da tre giorni.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-20-lesson-07-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Does Emma have a temperature?" },
+      "sentence_context": "",
+      "correct_answer": "No",
+      "distractors": ["Yes, a high one", "Yes, a little"],
+      "hints": ["'La febbre no.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-20-lesson-07-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does the pharmacist give Emma for her throat?" },
+      "sentence_context": "",
+      "correct_answer": "Some lozenges, one every three hours",
+      "distractors": ["A syrup, three times a day", "Nothing: she needs a prescription"],
+      "hints": ["Read what the pharmacist says."],
+      "target_words": ["pastiglia"]
+    },
+    {
+      "id": "unit-20-lesson-07-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Emma needs a prescription for the syrup." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'Per lo sciroppo non ci vuole la ricetta.'"],
+      "target_words": ["ricetta"]
+    },
+    {
+      "id": "unit-20-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How much syrup is for an adult?" },
+      "sentence_context": "",
+      "correct_answer": "A spoonful three times a day",
+      "distractors": ["Half a spoonful three times a day", "A spoonful every three hours"],
+      "hints": ["Read the line 'Quanto'."],
+      "target_words": ["adulto"]
+    },
+    {
+      "id": "unit-20-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who should not take the syrup?" },
+      "sentence_context": "",
+      "correct_answer": "Children under six",
+      "distractors": ["Adults", "Children over twelve"],
+      "hints": ["Read the line 'Attenzione'."],
+      "target_words": []
+    },
+    {
+      "id": "unit-20-lesson-07-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does the leaflet say to do if the cough lasts more than a week?" },
+      "sentence_context": "",
+      "correct_answer": "Call the doctor",
+      "distractors": ["Take more syrup", "Stay in bed"],
+      "hints": ["'Chiamare il medico.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-20-lesson-07-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why does Emma not answer Giulia?" },
+      "sentence_context": "",
+      "correct_answer": "She's asleep: the syrup can make you sleepy",
+      "distractors": ["She doesn't understand the question", "Her throat hurts too much"],
+      "hints": ["'Lo sciroppo può dare sonno.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-20-lesson-07-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: Emma reads the instructions for the syrup." },
+      "sentence_context": "Emma legge le ___ dello sciroppo.",
+      "correct_answer": "istruzioni",
+      "distractors": [],
+      "hints": ["Istruzione in the plural."],
+      "target_words": ["istruzione"]
+    },
+    {
+      "id": "unit-20-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the leaflet: for adults and children from six." },
+      "sentence_context": "Per ___ e bambini da sei anni.",
+      "correct_answer": "adulti",
+      "distractors": [],
+      "hints": ["Adulto in the plural."],
+      "target_words": ["adulto"]
+    },
+    {
+      "id": "unit-20-lesson-07-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quanto costa lo sciroppo?" },
+      "sentence_context": "Quanto costa lo sciroppo?",
+      "correct_answer": ["otto euro e cinquanta", "costa otto euro e cinquanta", "8,50 euro"],
+      "distractors": [],
+      "hints": ["Read what the pharmacist says."],
+      "target_words": ["sciroppo"]
+    },
+    {
+      "id": "unit-20-lesson-07-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa dice Giulia a Emma?" },
+      "sentence_context": "Che cosa dice Giulia a Emma?",
+      "correct_answer": ["svegliati", "Emma, svegliati"],
+      "distractors": [],
+      "hints": ["A command with a reflexive verb."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "istruzione",
+      "meaning": "instruction · le istruzioni = the instructions (on a box, a leaflet)",
+      "example": "Prima di prendere la medicina, leggo le istruzioni."
+    },
+    { "word": "adulto", "meaning": "adult, grown-up", "example": "Questo sciroppo è per adulti." }
+  ],
+  "reading": {
+    "title": "Lo sciroppo di Emma",
+    "paragraphs": ["Emma ha il raffreddore da tre giorni. Oggi ha anche la tosse e un po' di mal di gola, e di notte non dorme bene. Prima della lezione va in farmacia, vicino alla scuola.", "Farmacista: Buongiorno, mi dica.", "Emma: Buongiorno. Ho il raffreddore e la tosse. Ha qualcosa per la tosse?", "Farmacista: Ha anche la febbre?", "Emma: No, la febbre no. Ma sono stanca e mi fa male la gola.", "Farmacista: Allora Le consiglio questo sciroppo: per lo sciroppo non ci vuole la ricetta. E per la gola, ecco delle pastiglie. Può prendere una pastiglia ogni tre ore.", "Emma: Grazie. Quanto costa?", "Farmacista: Lo sciroppo otto euro e cinquanta, le pastiglie quattro euro. In tutto dodici euro e cinquanta.", "Fuori dalla farmacia, Emma legge le istruzioni dello sciroppo.", "Sciroppo per la tosse · per adulti e bambini da sei anni", "Quanto · adulti: un cucchiaio tre volte al giorno; bambini da sei a dodici anni: mezzo cucchiaio tre volte al giorno", "Quando · dopo i pasti", "Attenzione · non dare ai bambini sotto i sei anni. Lo sciroppo può dare sonno. Se la tosse dura più di una settimana, chiamare il medico.", "Emma prende un cucchiaio di sciroppo e va a lezione. In classe fa caldo, e la lezione è lunga.", "Alle tre Giulia fa una domanda a Emma. Ma Emma non risponde. Tutti guardano Emma: dorme sul libro!", "Giulia: Emma! Svegliati!", "Emma: Scusa, Giulia… È lo sciroppo!"]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "unit-21-lesson-07",
+  "unit_id": "unit-21",
+  "name": "Two Nights in Venice",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-21-lesson-07-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How much is a double room?" },
+      "sentence_context": "",
+      "correct_answer": "130 euros a night",
+      "distractors": ["90 euros a night", "130 euros for the weekend"],
+      "hints": ["'Camera doppia · 130 euro a notte.'"],
+      "target_words": ["doppio"]
+    },
+    {
+      "id": "unit-21-lesson-07-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Emma ask the hotel?" },
+      "sentence_context": "",
+      "correct_answer": "If the room has a bathroom, and if there is a lift",
+      "distractors": ["If breakfast is included", "If they speak English"],
+      "hints": ["Read Emma's email."],
+      "target_words": ["ascensore"]
+    },
+    {
+      "id": "unit-21-lesson-07-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "On which floor is the room?" },
+      "sentence_context": "",
+      "correct_answer": "The third",
+      "distractors": ["The ground floor", "The fifth"],
+      "hints": ["'Al terzo piano.'"],
+      "target_words": ["piano"]
+    },
+    {
+      "id": "unit-21-lesson-07-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: the hotel has a lift." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'L'albergo non ha l'ascensore.'"],
+      "target_words": ["ascensore"]
+    },
+    {
+      "id": "unit-21-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who will carry the suitcases?" },
+      "sentence_context": "",
+      "correct_answer": "The young man at reception",
+      "distractors": ["Emma and Chloé", "Marta"],
+      "hints": ["'Il ragazzo della reception può portare le valigie.'"],
+      "target_words": ["reception", "valigia"]
+    },
+    {
+      "id": "unit-21-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What do they need for check-in?" },
+      "sentence_context": "",
+      "correct_answer": "A passport or an identity card",
+      "distractors": ["The booking email", "Their train tickets"],
+      "hints": ["Read Marta's answer."],
+      "target_words": ["carta d'identità", "check-in"]
+    },
+    {
+      "id": "unit-21-lesson-07-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is Chloé's problem?" },
+      "sentence_context": "",
+      "correct_answer": "She works at the bar on Saturday",
+      "distractors": ["She thinks the hotel is too expensive", "She doesn't like Venice"],
+      "hints": ["'Sabato lavoro al bar.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-21-lesson-07-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: the room is on the third floor." },
+      "sentence_context": "La camera è al terzo ___.",
+      "correct_answer": "piano",
+      "distractors": [],
+      "hints": ["Floor."],
+      "target_words": ["piano"]
+    },
+    {
+      "id": "unit-21-lesson-07-ex-09",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: La colazione è inclusa?" },
+      "sentence_context": "La colazione è inclusa?",
+      "correct_answer": ["sì, è inclusa", "sì, la colazione è inclusa"],
+      "distractors": [],
+      "hints": ["Read the hotel's page."],
+      "target_words": ["incluso"]
+    },
+    {
+      "id": "unit-21-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Come arrivano Emma e Chloé a Venezia?" },
+      "sentence_context": "Come arrivano Emma e Chloé a Venezia?",
+      "correct_answer": ["in treno", "arrivano in treno"],
+      "distractors": [],
+      "hints": ["Read Emma's email."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Albergo Stella, Venezia",
+    "paragraphs": ["Albergo Stella · un piccolo albergo in centro, a dieci minuti a piedi da piazza San Marco", "Camera singola · 90 euro a notte", "Camera doppia · 130 euro a notte", "Colazione · inclusa nel prezzo, dalle 7:30 alle 10:00", "Check-in · dalle 14:00 alle 22:00", "Reception · aperta tutto il giorno: parliamo italiano, inglese e francese", "Emma e Chloé vogliono passare un fine settimana a Venezia. Emma scrive all'albergo.", "Buongiorno, vorrei prenotare una camera doppia per due notti, venerdì 15 e sabato 16 maggio, per me e un'amica. Arriviamo in treno venerdì sera, verso le otto. La camera ha il bagno? E c'è l'ascensore? Abbiamo due valigie pesanti! Grazie mille, Emma Wilson", "La risposta arriva dopo un'ora.", "Gentile Emma, per venerdì 15 e sabato 16 maggio abbiamo ancora una camera doppia con bagno, al terzo piano. Costa 130 euro a notte, con la colazione. Mi dispiace, ma l'albergo non ha l'ascensore: è una casa vecchia, come tante case di Venezia. Ma il ragazzo della reception può portare le valigie in camera. Per il check-in avete bisogno di un documento: il passaporto o la carta d'identità. Dalla stazione potete venire a piedi, in venti minuti. A presto! Marta, Albergo Stella", "Emma legge la mail a Chloé.", "Emma: 130 euro a notte! È un po' caro.", "Chloé: È Venezia! E la colazione è inclusa. Ma sabato lavoro al bar…", "Emma: Puoi cambiare con una collega?", "Chloé: Sì, telefono subito a Giada.", "La sera Emma risponde all'albergo e prenota la camera."]
+  }
+}

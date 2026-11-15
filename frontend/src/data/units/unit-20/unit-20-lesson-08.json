@@ -1,0 +1,148 @@
+{
+  "id": "unit-20-lesson-08",
+  "unit_id": "unit-20",
+  "name": "Doctor Neri",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-20-lesson-08-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why does Tomás write to Paul?" },
+      "sentence_context": "",
+      "correct_answer": "He wants advice from a doctor",
+      "distractors": ["He wants to go out with Paul", "He needs a lift to the doctor"],
+      "hints": ["'Ho una domanda per un medico.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-20-lesson-08-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why can't Paul come?" },
+      "sentence_context": "",
+      "correct_answer": "He's at the hospital all day",
+      "distractors": ["He's ill too", "He's on holiday"],
+      "hints": ["'Sono in ospedale tutto il giorno.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-20-lesson-08-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Paul tell Tomás to do?" },
+      "sentence_context": "",
+      "correct_answer": "Go to the doctor today and drink lots of water",
+      "distractors": ["Stay in bed and wait", "Go to the hospital"],
+      "hints": ["Read Paul's message."],
+      "target_words": []
+    },
+    {
+      "id": "unit-20-lesson-08-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How long does Tomás wait?" },
+      "sentence_context": "",
+      "correct_answer": "Almost an hour",
+      "distractors": ["Five minutes", "Three days"],
+      "hints": ["'Tomás aspetta quasi un'ora.'"],
+      "target_words": ["sala d'attesa"]
+    },
+    {
+      "id": "unit-20-lesson-08-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does the doctor say about his throat?" },
+      "sentence_context": "",
+      "correct_answer": "It's very red, but it isn't serious",
+      "distractors": ["It's fine", "It's serious: he must go to hospital"],
+      "hints": ["'È molto rossa. Non è grave.'"],
+      "target_words": ["grave"]
+    },
+    {
+      "id": "unit-20-lesson-08-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How often must Tomás take the syrup?" },
+      "sentence_context": "",
+      "correct_answer": "Twice a day, after he eats",
+      "distractors": ["Three times a day", "Every three hours"],
+      "hints": ["'Due volte al giorno, dopo i pasti.'"],
+      "target_words": ["sciroppo"]
+    },
+    {
+      "id": "unit-20-lesson-08-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is the doctor's \"other medicine\"?" },
+      "sentence_context": "",
+      "correct_answer": "He has to talk in class",
+      "distractors": ["A second syrup", "Tea"],
+      "hints": ["'Quando torna in classe, deve parlare.'"],
+      "target_words": ["medicina"]
+    },
+    {
+      "id": "unit-20-lesson-08-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: on Monday Tomás is the first to answer in class." },
+      "sentence_context": "",
+      "correct_answer": "True",
+      "distractors": ["False"],
+      "hints": ["Read the last paragraph."],
+      "target_words": []
+    },
+    {
+      "id": "unit-20-lesson-08-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: in the waiting room there are already five people." },
+      "sentence_context": "Nella sala d'___ ci sono già cinque persone.",
+      "correct_answer": "attesa",
+      "distractors": [],
+      "hints": ["Waiting room."],
+      "target_words": ["sala d'attesa"]
+    },
+    {
+      "id": "unit-20-lesson-08-ex-10",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: you need rest." },
+      "sentence_context": "Lei ha bisogno di ___.",
+      "correct_answer": "riposo",
+      "distractors": [],
+      "hints": ["The doctor's words."],
+      "target_words": ["riposo"]
+    },
+    {
+      "id": "unit-20-lesson-08-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quanti giorni deve restare a casa Tomás?" },
+      "sentence_context": "Quanti giorni deve restare a casa Tomás?",
+      "correct_answer": ["tre", "tre giorni", "deve restare a casa tre giorni"],
+      "distractors": [],
+      "hints": ["Read the doctor's advice."],
+      "target_words": ["restare"]
+    },
+    {
+      "id": "unit-20-lesson-08-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa ha Tomás?" },
+      "sentence_context": "Che cosa ha Tomás?",
+      "correct_answer": ["la tosse e la febbre", "ha la tosse e la febbre", "la tosse, mal di gola e la febbre"],
+      "distractors": [],
+      "hints": ["Read the first paragraph."],
+      "target_words": ["tosse", "febbre"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "sala d'attesa", "meaning": "waiting room", "example": "Nella sala d'attesa ci sono molte persone.", "phrase": true }
+  ],
+  "reading": {
+    "title": "Dalla dottoressa",
+    "paragraphs": ["Tomás ha la tosse da una settimana. Di notte non dorme, e oggi ha anche la febbre. Allora scrive un messaggio a Paul.", "Tomás: Ciao Paul, scusa, ho una domanda per un medico. Ho la tosse da una settimana e oggi ho la febbre a trentotto. Che cosa faccio?", "Paul: Una settimana è tanto! Va' dal medico oggi. Io non posso venire: sono in ospedale tutto il giorno. E bevi molta acqua.", "Il medico di Tomás è la dottoressa Neri. Il suo studio è vicino alla scuola di Giulia. Nella sala d'attesa ci sono già cinque persone, e Tomás aspetta quasi un'ora.", "Dottoressa Neri: Buongiorno, prego, si accomodi. Mi dica.", "Tomás: Buongiorno. Ho la tosse da una settimana e mi fa male la gola. Oggi ho anche la febbre, a trentotto.", "Dottoressa Neri: Vediamo un po' la gola… Sì, è molto rossa. Non è grave, ma Lei ha bisogno di riposo. Deve restare a casa tre giorni e bere molto. E deve prendere questo sciroppo due volte al giorno, dopo i pasti. Ecco la ricetta.", "Tomás: Posso andare a lezione?", "Dottoressa Neri: Questa settimana no. Lei studia italiano? Parla molto bene!", "Tomás: Grazie… Ma in classe non parlo quasi mai. Sono timido.", "Dottoressa Neri: Timido? Qui con me parla tanto! Allora ecco un'altra medicina: quando torna in classe, deve parlare.", "Tomás va in farmacia, compra lo sciroppo e torna a casa. Resta a letto tre giorni, beve molto tè e guarisce.", "Lunedì, a lezione, Giulia fa una domanda alla classe. E il primo a rispondere è… Tomás!"]
+  }
+}

@@ -1,231 +1,223 @@
 {
   "id": "unit-18-lesson-01",
   "unit_id": "unit-18",
-  "name": "Mi Piace, Mi Piacciono",
+  "name": "What You Like",
   "order": 1,
-  "grammar_tips": [
-    {
-      "id": "unit-18-lesson-01-tip-01",
-      "title": "Piacere — A Different Logic",
-      "explanation": "Italian doesn't say 'I like pizza' — it says 'pizza is pleasing to me': 'Mi piace la pizza'. The thing liked is the SUBJECT of the verb, you are the OBJECT.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-18-lesson-01-tip-02",
-      "title": "Singular or Plural",
-      "explanation": "If the thing liked is singular: 'Mi piace la pizza'. If plural: 'Mi piacciono le pizze'. The verb agrees with WHAT you like, not with you.",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-18-lesson-01-tip-03",
-      "title": "Who Likes — The Pronoun Changes",
-      "explanation": "'Mi piace' (I like), 'ti piace' (you like), 'gli piace' (he likes), 'le piace' (she likes), 'ci piace' (we like), 'vi piace' (you all like), 'a loro piace' (they like).",
-      "before_exercise": 12
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-18-lesson-01-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'mi piace' mean?" },
-      "sentence_context": "Mi piace la pizza.",
-      "correct_answer": "I like",
-      "distractors": ["You like", "He likes", "I would like"],
-      "hints": ["Literally: 'it pleases me'."],
-      "target_words": ["piacere"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'per niente' mean?" },
+      "sentence_context": "Non mi piace per niente.",
+      "correct_answer": ["not at all", "I don't like it at all"],
+      "distractors": [],
+      "hints": ["With non: a strong no."],
+      "target_words": ["per niente"]
     },
     {
       "id": "unit-18-lesson-01-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'mi piacciono' mean?" },
-      "sentence_context": "Mi piacciono i film italiani.",
-      "correct_answer": "I like (plural things)",
-      "distractors": ["I like a lot", "We like", "They like"],
-      "hints": ["For plural likes: 'they please me'."],
-      "target_words": ["piacere"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'mostra' mean?" },
+      "sentence_context": "C'è una mostra interessante al museo.",
+      "correct_answer": ["exhibition", "an exhibition"],
+      "distractors": [],
+      "hints": ["Something to see at a museum."],
+      "target_words": ["mostra"]
     },
     {
       "id": "unit-18-lesson-01-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'tanto' mean here?" },
-      "sentence_context": "Mi piace tanto.",
-      "correct_answer": "A lot",
-      "distractors": ["A little", "Not much", "Sometimes"],
-      "hints": ["I like it a lot."],
-      "target_words": ["tanto"]
+      "prompt": { "text": "A friend asks: \"Ti piace il calcio?\" You love it. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Sì, mi piace tanto!",
+      "distractors": ["Sì, mi piacciono tanto!", "Sì, io piace tanto!"],
+      "hints": ["One thing: piace."],
+      "target_words": []
     },
     {
       "id": "unit-18-lesson-01-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'proprio' mean here?" },
-      "sentence_context": "Mi piace proprio molto.",
-      "correct_answer": "Really",
-      "distractors": ["Almost", "Maybe", "Sometimes"],
-      "hints": ["I really like it a lot."],
-      "target_words": ["proprio"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: My favourite colour is blue." },
+      "sentence_context": "Il mio colore ___ è il blu.",
+      "correct_answer": "preferito",
+      "distractors": [],
+      "hints": ["Favourite."],
+      "target_words": ["preferito"]
     },
     {
       "id": "unit-18-lesson-01-ex-05",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Mi ___ il caffè.",
-      "correct_answer": "piace",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Complete with piace or piacciono." },
+      "sentence_context": "A Chloé ___ i concerti.",
+      "correct_answer": "piacciono",
       "distractors": [],
-      "hints": ["Singular thing → piace."],
-      "target_words": ["piacere"]
+      "hints": ["Chloé likes concerts."],
+      "target_words": ["concerto"]
     },
     {
       "id": "unit-18-lesson-01-ex-06",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Mi ___ i libri italiani.",
-      "correct_answer": "piacciono",
-      "distractors": [],
-      "hints": ["Plural things → piacciono."],
-      "target_words": ["piacere"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A friend says: \"Mi piace l'arte moderna.\" You like it too. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Anche a me!",
+      "distractors": ["Neanche a me.", "A me no."],
+      "hints": ["Agreeing with a piace sentence."],
+      "target_words": ["arte"]
     },
     {
       "id": "unit-18-lesson-01-ex-07",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Ti ___ la pasta?",
-      "correct_answer": "piace",
+      "prompt": { "text": "Complete: I hate the cold!" },
+      "sentence_context": "___ il freddo!",
+      "correct_answer": "Odio",
       "distractors": [],
-      "hints": ["Do you like pasta? (singular)"],
-      "target_words": ["piacere"]
+      "hints": ["The io form of odiare."],
+      "target_words": ["odiare"]
     },
     {
       "id": "unit-18-lesson-01-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "A Marco ___ il calcio.",
-      "correct_answer": "piace",
+      "prompt": { "text": "Complete: I really like Italian art." },
+      "sentence_context": "Mi piace molto l'___ italiana.",
+      "correct_answer": "arte",
       "distractors": [],
-      "hints": ["Marco likes football."],
-      "target_words": ["piacere"]
+      "hints": ["Art."],
+      "target_words": ["arte"]
     },
     {
       "id": "unit-18-lesson-01-ex-09",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "A noi ___ molto la musica.",
-      "correct_answer": "piace",
-      "distractors": [],
-      "hints": ["We like music a lot. (singular noun)"],
-      "target_words": ["piacere"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A friend says: \"Non mi piacciono i film lunghi.\" You don't like them either. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Neanche a me.",
+      "distractors": ["Anche a me.", "A me sì."],
+      "hints": ["Agreeing with a negative."],
+      "target_words": []
     },
     {
       "id": "unit-18-lesson-01-ex-10",
       "type": "writing",
       "subtype": "fill_blank",
-      "prompt": { "text": "Pick piace or piacciono for 'I like dogs'." },
-      "sentence_context": "Mi ___ i cani.",
-      "correct_answer": "piacciono",
+      "prompt": { "text": "You ask your teacher, formally, if she likes art." },
+      "sentence_context": "___ piace l'arte?",
+      "correct_answer": "Le",
       "distractors": [],
-      "hints": ["Plural noun → piacciono."],
-      "target_words": ["piacere"]
+      "hints": ["Do you like art? (Lei)"],
+      "target_words": ["arte"]
     },
     {
       "id": "unit-18-lesson-01-ex-11",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Pick piace or piacciono for 'I like cheese'." },
-      "sentence_context": "Mi ___ il formaggio.",
-      "correct_answer": "piace",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I really like Giulia, she is so nice." },
+      "sentence_context": "Giulia mi è molto ___.",
+      "correct_answer": "simpatica",
       "distractors": [],
-      "hints": ["Singular noun → piace."],
-      "target_words": ["piacere"]
+      "hints": ["For people you like: simpatico, agreeing with Giulia."],
+      "target_words": []
     },
     {
       "id": "unit-18-lesson-01-ex-12",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the pronoun for 'we'." },
-      "sentence_context": "___ piace l'italiano.",
-      "correct_answer": "Ci",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend asks if you like Italian music. You don't like it at all: you prefer English music." },
+      "sentence_context": "Friend: Ti piace la musica italiana?\nYou: ___",
+      "correct_answer": ["No, non mi piace per niente. Preferisco la musica inglese.", "Per niente! Preferisco la musica inglese."],
       "distractors": [],
-      "hints": ["'We like Italian' → Ci piace."],
-      "target_words": ["piacere"]
+      "hints": ["Non mi piace per niente, then preferisco."],
+      "target_words": ["per niente"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Ti piace la musica italiana?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-18-lesson-01-ex-13",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the pronoun for 'he likes' (without 'a Marco')." },
-      "sentence_context": "___ piace il calcio.",
-      "correct_answer": "Gli",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Luca asks about your favourite film. Tell him, and say you like it a lot." },
+      "sentence_context": "Luca: Qual è il tuo film preferito?\nYou: ___",
+      "correct_answer": ["Il mio film preferito è Casablanca. Mi piace tanto!", "Casablanca. Mi piace molto."],
       "distractors": [],
-      "hints": ["He → gli."],
-      "target_words": ["piacere"]
+      "hints": ["Il mio film preferito è…"],
+      "target_words": ["preferito"],
+      "dialogue": [
+        { "speaker": "Luca", "text": "Qual è il tuo film preferito?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-18-lesson-01-ex-14",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the pronoun for 'she likes'." },
-      "sentence_context": "___ piace la pizza.",
-      "correct_answer": "Le",
-      "distractors": [],
-      "hints": ["She → le."],
-      "target_words": ["piacere"]
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'My brother likes concerts, but I prefer the theatre.'" },
+      "sentence_context": "A mio fratello piacciono i concerti, ma io preferisco il teatro.",
+      "correct_answer": ["A", "mio", "fratello", "piacciono", "i", "concerti,", "ma", "io", "preferisco", "il", "teatro."],
+      "distractors": ["piace", "mi"],
+      "hints": ["A mio fratello: the concerts are the subject."],
+      "target_words": ["concerto"]
     },
     {
       "id": "unit-18-lesson-01-ex-15",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I like pizza a lot.'" },
-      "sentence_context": "Mi piace tanto la pizza.",
-      "correct_answer": ["Mi", "piace", "tanto", "la", "pizza."],
-      "distractors": ["piacciono", "molti"],
-      "hints": ["Pronoun + piace + 'tanto' + thing."],
-      "target_words": ["piacere", "tanto"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you hate the cold." },
+      "sentence_context": "",
+      "correct_answer": ["odio il freddo"],
+      "distractors": [],
+      "hints": ["Odiare works like amare."],
+      "target_words": ["odiare"]
     },
     {
       "id": "unit-18-lesson-01-ex-16",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I like Italian films.'" },
-      "sentence_context": "Mi piacciono i film italiani.",
-      "correct_answer": ["Mi", "piacciono", "i", "film", "italiani."],
-      "distractors": ["piace", "italiana"],
-      "hints": ["Plural noun → piacciono."],
-      "target_words": ["piacere"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Say: Paul doesn't like football at all." },
+      "sentence_context": "",
+      "correct_answer": ["a paul non piace per niente il calcio", "il calcio non piace per niente a paul"],
+      "distractors": [],
+      "hints": ["A Paul…, and non before piace."],
+      "target_words": ["per niente"]
     },
     {
       "id": "unit-18-lesson-01-ex-17",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Marco likes football.'" },
-      "sentence_context": "A Marco piace il calcio.",
-      "correct_answer": ["A", "Marco", "piace", "il", "calcio."],
-      "distractors": ["gli", "piacciono"],
-      "hints": ["'A' + name → piace + singular noun."],
-      "target_words": ["piacere"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Say there is an exhibition at the museum." },
+      "sentence_context": "",
+      "correct_answer": ["c'è una mostra al museo", "al museo c'è una mostra"],
+      "distractors": [],
+      "hints": ["C'è una…"],
+      "target_words": ["mostra"]
     },
     {
       "id": "unit-18-lesson-01-ex-18",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: \"Don't you like the food?\"" },
-      "sentence_context": "Non ti piace il cibo?",
-      "correct_answer": ["Non", "ti", "piace", "il", "cibo?"],
-      "distractors": ["mi", "piacciono"],
-      "hints": ["'Non' + pronoun + piace."],
-      "target_words": ["piacere"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend if they like concerts." },
+      "sentence_context": "",
+      "correct_answer": ["ti piacciono i concerti"],
+      "distractors": [],
+      "hints": ["More than one: piacciono."],
+      "target_words": ["concerto"]
     }
   ],
   "vocabulary": [
-    { "word": "piacere", "meaning": "To like (literally: to be pleasing to)", "example": "Mi piace la pizza." },
-    { "word": "tanto", "meaning": "A lot", "example": "Mi piace tanto." },
-    { "word": "proprio", "meaning": "Really", "example": "Mi piace proprio molto." }
+    { "word": "preferito", "meaning": "favourite", "example": "Qual è il tuo film preferito?" },
+    { "word": "odiare", "meaning": "to hate · odio = I hate", "example": "Odio il freddo!" },
+    { "word": "per niente", "meaning": "not at all (with non)", "example": "Non mi piace per niente.", "phrase": true },
+    { "word": "arte", "meaning": "art · l'arte (feminine)", "example": "Mi piace molto l'arte italiana." },
+    { "word": "mostra", "meaning": "exhibition", "example": "C'è una mostra interessante al museo." },
+    { "word": "concerto", "meaning": "concert", "example": "Stasera c'è un concerto in piazza." }
   ]
 }

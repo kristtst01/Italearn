@@ -1,273 +1,182 @@
 {
   "id": "unit-09-lesson-02",
   "unit_id": "unit-09",
-  "name": "More -are Verbs",
+  "name": "Out All Day",
   "order": 2,
-  "grammar_tips": [
-    {
-      "id": "unit-09-lesson-02-tip-01",
-      "title": "Same Pattern, More Verbs",
-      "explanation": "All the new verbs in this lesson use the same -are pattern from Lesson 1. Once you know the stem, you know all six forms. Practice the pattern with new meanings.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-09-lesson-02-tip-02",
-      "title": "Verbs With -care and -gare",
-      "explanation": "'Giocare' (to play) and 'cercare' (to look for) end in -care. In the 'tu' and 'noi' forms they add an 'h' to keep the hard 'c' sound: tu giochi, noi giochiamo. Same for -gare verbs.",
-      "before_exercise": 10
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-09-lesson-02-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'abitare' mean?" },
-      "sentence_context": "Io abito in Italia.",
-      "correct_answer": "To live (somewhere)",
-      "distractors": ["To work", "To buy", "To wait"],
-      "hints": ["I live in Italy."],
-      "target_words": ["abitare"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'vedersi' mean?" },
+      "sentence_context": "Paul e Luca vogliono vedersi il martedì.",
+      "correct_answer": ["to meet up", "to see each other"],
+      "distractors": [],
+      "hints": ["Two people, one meeting."],
+      "target_words": ["vedersi"]
     },
     {
       "id": "unit-09-lesson-02-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'comprare' mean?" },
-      "sentence_context": "Io compro una macchina.",
-      "correct_answer": "To buy",
-      "distractors": ["To sell", "To look for", "To eat"],
-      "hints": ["I buy a car."],
-      "target_words": ["comprare"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'turno' mean?" },
+      "sentence_context": "Il sabato Chloé ha il turno dalle otto alle tre.",
+      "correct_answer": ["shift", "the shift"],
+      "distractors": [],
+      "hints": ["Her hours at work."],
+      "target_words": ["turno"]
     },
     {
       "id": "unit-09-lesson-02-ex-03",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'aspettare' mean?" },
-      "sentence_context": "Aspetto Marco.",
-      "correct_answer": "To wait for",
-      "distractors": ["To look for", "To find", "To listen to"],
-      "hints": ["I wait for Marco."],
-      "target_words": ["aspettare"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'trovare' mean?" },
+      "sentence_context": "Non trovo le chiavi!",
+      "correct_answer": ["to find", "find"],
+      "distractors": [],
+      "hints": ["You are looking for your keys."],
+      "target_words": ["trovare"]
     },
     {
       "id": "unit-09-lesson-02-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'cercare' mean?" },
-      "sentence_context": "Cerco il libro.",
-      "correct_answer": "To look for",
-      "distractors": ["To find", "To buy", "To wait for"],
-      "hints": ["I look for the book."],
-      "target_words": ["cercare"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I finish work at six." },
+      "sentence_context": "___ di lavorare alle sei.",
+      "correct_answer": "Finisco",
+      "distractors": [],
+      "hints": ["Finire, the io form, like capisco."],
+      "target_words": ["finire"]
     },
     {
       "id": "unit-09-lesson-02-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'trovare' mean?" },
-      "sentence_context": "Trovo la chiave.",
-      "correct_answer": "To find",
-      "distractors": ["To look for", "To lose", "To buy"],
-      "hints": ["I find the key."],
-      "target_words": ["trovare"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: At noon I take a break." },
+      "sentence_context": "A mezzogiorno faccio una ___.",
+      "correct_answer": "pausa",
+      "distractors": [],
+      "hints": ["A break."],
+      "target_words": ["pausa"]
     },
     {
       "id": "unit-09-lesson-02-ex-06",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'giocare' mean?" },
-      "sentence_context": "Io gioco.",
-      "correct_answer": "To play",
-      "distractors": ["To work", "To cook", "To eat"],
-      "hints": ["I play."],
-      "target_words": ["giocare"]
+      "prompt": { "text": "You're leaving a friend after a coffee. You'll meet again tomorrow. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Ci vediamo domani!",
+      "distractors": ["Si vediamo domani!", "Ci vedete domani!"],
+      "hints": ["Noi: ci vediamo."],
+      "target_words": ["vedersi"]
     },
     {
       "id": "unit-09-lesson-02-ex-07",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'cucinare' mean?" },
-      "sentence_context": "Cucino in cucina.",
-      "correct_answer": "To cook",
-      "distractors": ["To eat", "To play", "To buy"],
-      "hints": ["I cook in the kitchen."],
-      "target_words": ["cucinare"]
+      "prompt": { "text": "Chloé works on Saturdays from eight to three. How do you say it?" },
+      "sentence_context": "",
+      "correct_answer": "Il sabato lavora dalle otto alle tre.",
+      "distractors": ["Il sabato lavora alle otto dalle tre.", "Il sabato lavora dalla otto alla tre."],
+      "hints": ["From … to …: dalle … alle."],
+      "target_words": []
     },
     {
       "id": "unit-09-lesson-02-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Io ___ in Italia.",
-      "correct_answer": "abito",
+      "prompt": { "text": "Complete: Paul never finds the time for lunch." },
+      "sentence_context": "Paul non ___ mai il tempo per il pranzo.",
+      "correct_answer": "trova",
       "distractors": [],
-      "hints": ["I live in Italy."],
-      "target_words": ["abitare"]
+      "hints": ["Trovare, the lui form."],
+      "target_words": ["trovare"]
     },
     {
       "id": "unit-09-lesson-02-ex-09",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Loro ___ in Italia.",
-      "correct_answer": "abitano",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A colleague asks when your shift ends. It ends at seven in the evening." },
+      "sentence_context": "Colleague: A che ora finisce il turno?\nYou: ___",
+      "correct_answer": ["Finisce alle sette di sera.", "Alle sette di sera."],
       "distractors": [],
-      "hints": ["They live in Italy."],
-      "target_words": ["abitare"]
+      "hints": ["Alle + the hour, di sera."],
+      "target_words": ["finire", "turno"],
+      "dialogue": [
+        { "speaker": "Colleague", "text": "A che ora finisce il turno?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-09-lesson-02-ex-10",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Marco ___ il libro.",
-      "correct_answer": "cerca",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend suggests a coffee tomorrow. You agree: at eleven, at the bar." },
+      "sentence_context": "Friend: Prendiamo un caffè domani?\nYou: ___",
+      "correct_answer": ["Sì, ci vediamo alle undici al bar.", "Va bene, ci vediamo al bar alle undici."],
       "distractors": [],
-      "hints": ["Marco looks for the book."],
-      "target_words": ["cercare"]
+      "hints": ["Ci vediamo + time and place."],
+      "target_words": ["vedersi"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Prendiamo un caffè domani?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-09-lesson-02-ex-11",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Anna ___ la chiave.",
-      "correct_answer": "trova",
-      "distractors": [],
-      "hints": ["Anna finds the key."],
-      "target_words": ["trovare"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I usually finish work at five.'" },
+      "sentence_context": "Di solito finisco di lavorare alle cinque.",
+      "correct_answer": ["Di", "solito", "finisco", "di", "lavorare", "alle", "cinque."],
+      "distractors": ["finire", "dalle"],
+      "hints": ["Di solito goes at the start."],
+      "target_words": ["finire"]
     },
     {
       "id": "unit-09-lesson-02-ex-12",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'I buy' in Italian?" },
-      "sentence_context": "Io compro una macchina.",
-      "correct_answer": "compro",
+      "prompt": { "text": "Say: tomorrow I have to get up early." },
+      "sentence_context": "",
+      "correct_answer": ["Domani devo alzarmi presto.", "Domani mi devo alzare presto."],
       "distractors": [],
-      "hints": ["The io form of comprare."],
-      "target_words": ["comprare"]
+      "hints": ["With dovere, mi can go before it or on the infinitive."],
+      "target_words": ["alzarsi"]
     },
     {
       "id": "unit-09-lesson-02-ex-13",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'I wait' in Italian?" },
-      "sentence_context": "Io aspetto Marco.",
-      "correct_answer": "aspetto",
+      "prompt": { "text": "Say you can't find your watch." },
+      "sentence_context": "",
+      "correct_answer": ["Non trovo il mio orologio."],
       "distractors": [],
-      "hints": ["The io form of aspettare."],
-      "target_words": ["aspettare"]
+      "hints": ["Trovare, the io form."],
+      "target_words": ["trovare", "orologio"]
     },
     {
       "id": "unit-09-lesson-02-ex-14",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'we cook' in Italian?" },
-      "sentence_context": "Noi cuciniamo in cucina.",
-      "correct_answer": "cuciniamo",
+      "prompt": { "text": "Say your lunch break is from one to two." },
+      "sentence_context": "",
+      "correct_answer": ["La pausa pranzo è dall'una alle due."],
       "distractors": [],
-      "hints": ["noi → -iamo."],
-      "target_words": ["cucinare"]
-    },
-    {
-      "id": "unit-09-lesson-02-ex-15",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'tu' form of 'giocare'. Don't forget the 'h'." },
-      "sentence_context": "Tu ___ con il cane.",
-      "correct_answer": "giochi",
-      "distractors": [],
-      "hints": ["-care + -i → -chi to keep the hard sound."],
-      "target_words": ["giocare"]
-    },
-    {
-      "id": "unit-09-lesson-02-ex-16",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'noi' form of 'cercare'. Don't forget the 'h'." },
-      "sentence_context": "Noi ___ il libro.",
-      "correct_answer": "cerchiamo",
-      "distractors": [],
-      "hints": ["-care + -iamo → -chiamo."],
-      "target_words": ["cercare"]
-    },
-    {
-      "id": "unit-09-lesson-02-ex-17",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'lui/lei' form of 'aspettare'." },
-      "sentence_context": "Marco ___ Anna.",
-      "correct_answer": "aspetta",
-      "distractors": [],
-      "hints": ["lui/lei → -a ending."],
-      "target_words": ["aspettare"]
-    },
-    {
-      "id": "unit-09-lesson-02-ex-18",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'loro' form of 'comprare'." },
-      "sentence_context": "Loro ___ una casa.",
-      "correct_answer": "comprano",
-      "distractors": [],
-      "hints": ["loro → -ano ending."],
-      "target_words": ["comprare"]
-    },
-    {
-      "id": "unit-09-lesson-02-ex-19",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I live in Italy.'" },
-      "sentence_context": "Io abito in Italia.",
-      "correct_answer": ["Io", "abito", "in", "Italia."],
-      "distractors": ["abito", "abita"],
-      "hints": ["io → abito; 'in' for the country."],
-      "target_words": ["abitare"]
-    },
-    {
-      "id": "unit-09-lesson-02-ex-20",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Anna looks for the cat.'" },
-      "sentence_context": "Anna cerca il gatto.",
-      "correct_answer": ["Anna", "cerca", "il", "gatto."],
-      "distractors": ["trova", "cerco"],
-      "hints": ["lui/lei → cerca."],
-      "target_words": ["cercare"]
-    },
-    {
-      "id": "unit-09-lesson-02-ex-21",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'We cook at home.'" },
-      "sentence_context": "Noi cuciniamo a casa.",
-      "correct_answer": ["Noi", "cuciniamo", "a", "casa."],
-      "distractors": ["cucino", "in"],
-      "hints": ["noi → cuciniamo."],
-      "target_words": ["cucinare"]
-    },
-    {
-      "id": "unit-09-lesson-02-ex-22",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I find the keys.'" },
-      "sentence_context": "Io trovo le chiavi.",
-      "correct_answer": ["Io", "trovo", "le", "chiavi."],
-      "distractors": ["cerco", "trova"],
-      "hints": ["io → trovo."],
-      "target_words": ["trovare"]
+      "hints": ["From one: dall'una."],
+      "target_words": ["pausa"]
     }
   ],
   "vocabulary": [
-    { "word": "abitare", "meaning": "To live (somewhere)", "example": "Io abito in Italia." },
-    { "word": "comprare", "meaning": "To buy", "example": "Io compro una macchina." },
-    { "word": "aspettare", "meaning": "To wait for", "example": "Aspetto Marco." },
-    { "word": "cercare", "meaning": "To look for", "example": "Cerco il libro." },
-    { "word": "trovare", "meaning": "To find", "example": "Trovo la chiave." },
-    { "word": "giocare", "meaning": "To play", "example": "Io gioco." },
-    { "word": "cucinare", "meaning": "To cook", "example": "Cucino in cucina." }
+    {
+      "word": "finire",
+      "meaning": "to finish, to end · finisco, finisci, finisce · finire di lavorare = to finish work",
+      "example": "Finisco di lavorare alle sei."
+    },
+    { "word": "turno", "meaning": "shift (at work)", "example": "Il sabato Chloé ha il turno dalle otto alle tre." },
+    { "word": "pausa", "meaning": "break · la pausa pranzo = lunch break", "example": "A mezzogiorno faccio una pausa." },
+    { "word": "trovare", "meaning": "to find · trovare il tempo = to find the time", "example": "Non trovo le chiavi!" },
+    { "word": "vedersi", "meaning": "to see each other, to meet up · ci vediamo = see you · vederci = to meet (us)", "example": "Ci vediamo domani al bar?" }
   ]
 }

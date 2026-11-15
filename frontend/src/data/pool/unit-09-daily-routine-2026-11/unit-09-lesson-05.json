@@ -1,0 +1,638 @@
+{
+  "id": "unit-09-lesson-05",
+  "unit_id": "unit-09",
+  "name": "Days & Parts of the Day",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-09-lesson-05-tip-01",
+      "title": "Parts of the Day",
+      "explanation": "Use 'la mattina' (in the morning), 'il pomeriggio' (in the afternoon), 'la sera' (in the evening), 'la notte' (at night) to say when something happens.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-09-lesson-05-tip-02",
+      "title": "Days of the Week",
+      "explanation": "Italian days of the week: lunedì, martedì, mercoledì, giovedì, venerdì (all masculine, end in -ì), sabato, domenica. They start with a small letter — not a capital like in English.",
+      "before_exercise": 7
+    },
+    {
+      "id": "unit-09-lesson-05-tip-03",
+      "title": "On Monday",
+      "explanation": "To say 'on Monday', just use the day: 'lunedì lavoro' = 'on Monday I work'. To say 'on Mondays' (every Monday), add 'il': 'il lunedì lavoro' = 'on Mondays I work'.",
+      "before_exercise": 14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-09-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'mattina' mean?"
+      },
+      "sentence_context": "La mattina è bella.",
+      "correct_answer": "Morning",
+      "distractors": [
+        "Evening",
+        "Afternoon",
+        "Night"
+      ],
+      "hints": [
+        "The first part of the day."
+      ],
+      "target_words": [
+        "mattina"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'pomeriggio' mean?"
+      },
+      "sentence_context": "Il pomeriggio studio.",
+      "correct_answer": "Afternoon",
+      "distractors": [
+        "Morning",
+        "Evening",
+        "Night"
+      ],
+      "hints": [
+        "After midday."
+      ],
+      "target_words": [
+        "pomeriggio"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'sera' mean?"
+      },
+      "sentence_context": "La sera sono stanco.",
+      "correct_answer": "Evening",
+      "distractors": [
+        "Morning",
+        "Afternoon",
+        "Midnight"
+      ],
+      "hints": [
+        "In the evening I am tired."
+      ],
+      "target_words": [
+        "sera"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'notte' mean?"
+      },
+      "sentence_context": "La notte dormo.",
+      "correct_answer": "Night",
+      "distractors": [
+        "Evening",
+        "Afternoon",
+        "Morning"
+      ],
+      "hints": [
+        "The dark part of the day."
+      ],
+      "target_words": [
+        "notte"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'giorno' mean?"
+      },
+      "sentence_context": "Oggi è un bel giorno.",
+      "correct_answer": "Day",
+      "distractors": [
+        "Week",
+        "Time",
+        "Year"
+      ],
+      "hints": [
+        "Today is a nice day."
+      ],
+      "target_words": [
+        "giorno"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'oggi' mean?"
+      },
+      "sentence_context": "Oggi mangio a casa.",
+      "correct_answer": "Today",
+      "distractors": [
+        "Tomorrow",
+        "Yesterday",
+        "Now"
+      ],
+      "hints": [
+        "This very day."
+      ],
+      "target_words": [
+        "oggi"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'domani' mean?"
+      },
+      "sentence_context": "Domani lavoro.",
+      "correct_answer": "Tomorrow",
+      "distractors": [
+        "Today",
+        "Yesterday",
+        "Now"
+      ],
+      "hints": [
+        "The day after today."
+      ],
+      "target_words": [
+        "domani"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'lunedì' mean?"
+      },
+      "sentence_context": "Lunedì lavoro.",
+      "correct_answer": "Monday",
+      "distractors": [
+        "Tuesday",
+        "Sunday",
+        "Friday"
+      ],
+      "hints": [
+        "First day of the working week."
+      ],
+      "target_words": [
+        "lunedì"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'martedì' mean?"
+      },
+      "sentence_context": "Martedì studio.",
+      "correct_answer": "Tuesday",
+      "distractors": [
+        "Monday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "hints": [
+        "Day after Monday."
+      ],
+      "target_words": [
+        "martedì"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'sabato' mean?"
+      },
+      "sentence_context": "Sabato gioco.",
+      "correct_answer": "Saturday",
+      "distractors": [
+        "Sunday",
+        "Friday",
+        "Wednesday"
+      ],
+      "hints": [
+        "Weekend day."
+      ],
+      "target_words": [
+        "sabato"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-11",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'domenica' mean?"
+      },
+      "sentence_context": "Domenica mi riposo.",
+      "correct_answer": "Sunday",
+      "distractors": [
+        "Saturday",
+        "Monday",
+        "Friday"
+      ],
+      "hints": [
+        "Day of rest."
+      ],
+      "target_words": [
+        "domenica"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___ studio l'italiano.",
+      "correct_answer": "Mercoledì",
+      "distractors": [],
+      "hints": [
+        "On Wednesday I study Italian."
+      ],
+      "target_words": [
+        "mercoledì"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-13",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___ guardo la mamma.",
+      "correct_answer": "Giovedì",
+      "distractors": [],
+      "hints": [
+        "On Thursday I watch mum."
+      ],
+      "target_words": [
+        "giovedì"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-14",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "___ esco con gli amici.",
+      "correct_answer": "Venerdì",
+      "distractors": [],
+      "hints": [
+        "On Friday I go out with friends. (esco from uscire)"
+      ],
+      "target_words": [
+        "venerdì"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-15",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": {
+        "text": "Complete the sentence with the missing word."
+      },
+      "sentence_context": "La ___ è lunga.",
+      "correct_answer": "settimana",
+      "distractors": [],
+      "hints": [
+        "The week is long."
+      ],
+      "target_words": [
+        "settimana"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'today' in Italian?"
+      },
+      "sentence_context": "Oggi mangio a casa.",
+      "correct_answer": "oggi",
+      "distractors": [],
+      "hints": [
+        "This day."
+      ],
+      "target_words": [
+        "oggi"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-17",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'tomorrow' in Italian?"
+      },
+      "sentence_context": "Domani lavoro.",
+      "correct_answer": "domani",
+      "distractors": [],
+      "hints": [
+        "The day after today."
+      ],
+      "target_words": [
+        "domani"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-18",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'day' in Italian?"
+      },
+      "sentence_context": "Oggi è un bel giorno.",
+      "correct_answer": "giorno",
+      "distractors": [],
+      "hints": [
+        "A masculine noun: il giorno."
+      ],
+      "target_words": [
+        "giorno"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-19",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'morning' in Italian?"
+      },
+      "sentence_context": "La mattina mi sveglio.",
+      "correct_answer": "mattina",
+      "distractors": [],
+      "hints": [
+        "When you wake up."
+      ],
+      "target_words": [
+        "mattina"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-20",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": {
+        "text": "How do you say 'week' in Italian?"
+      },
+      "sentence_context": "La settimana è lunga.",
+      "correct_answer": "settimana",
+      "distractors": [],
+      "hints": [
+        "Seven days together."
+      ],
+      "target_words": [
+        "settimana"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-21",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words: 'In the morning I wake up.'"
+      },
+      "sentence_context": "La mattina mi sveglio.",
+      "correct_answer": [
+        "La",
+        "mattina",
+        "mi",
+        "sveglio."
+      ],
+      "distractors": [
+        "sera",
+        "si"
+      ],
+      "hints": [
+        "Start with the part of the day."
+      ],
+      "target_words": [
+        "mattina"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words: 'On Monday I work.'"
+      },
+      "sentence_context": "Lunedì lavoro.",
+      "correct_answer": [
+        "Lunedì",
+        "lavoro."
+      ],
+      "distractors": [
+        "Sabato",
+        "lavora"
+      ],
+      "hints": [
+        "Day + verb: 'Lunedì lavoro' = 'On Monday I work'."
+      ],
+      "target_words": [
+        "lunedì"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-23",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words: 'On Saturday I rest.'"
+      },
+      "sentence_context": "Sabato mi riposo.",
+      "correct_answer": [
+        "Sabato",
+        "mi",
+        "riposo."
+      ],
+      "distractors": [
+        "Domenica",
+        "si"
+      ],
+      "hints": [
+        "Reflexive verb 'riposarsi'."
+      ],
+      "target_words": [
+        "sabato"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-24",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words: 'Today I eat at home.'"
+      },
+      "sentence_context": "Oggi mangio a casa.",
+      "correct_answer": [
+        "Oggi",
+        "mangio",
+        "a",
+        "casa."
+      ],
+      "distractors": [
+        "Domani",
+        "in"
+      ],
+      "hints": [
+        "Start with 'Oggi'."
+      ],
+      "target_words": [
+        "oggi"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-25",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": {
+        "text": "Arrange the words: 'Tomorrow I work in the morning.'"
+      },
+      "sentence_context": "Domani lavoro la mattina.",
+      "correct_answer": [
+        "Domani",
+        "lavoro",
+        "la",
+        "mattina."
+      ],
+      "distractors": [
+        "sera",
+        "oggi"
+      ],
+      "hints": [
+        "Tomorrow + verb + when."
+      ],
+      "target_words": [
+        "domani",
+        "mattina"
+      ]
+    },
+    {
+      "id": "unit-09-lesson-05-ex-26",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": {
+        "text": "What does 'ieri' mean?"
+      },
+      "sentence_context": "Ieri è stato un bel giorno.",
+      "correct_answer": "Yesterday",
+      "distractors": [
+        "Today",
+        "Tomorrow",
+        "Now"
+      ],
+      "hints": [
+        "The day before today."
+      ],
+      "target_words": [
+        "ieri"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "mattina",
+      "meaning": "Morning",
+      "example": "La mattina mi sveglio."
+    },
+    {
+      "word": "pomeriggio",
+      "meaning": "Afternoon",
+      "example": "Il pomeriggio studio."
+    },
+    {
+      "word": "sera",
+      "meaning": "Evening",
+      "example": "La sera sono stanco."
+    },
+    {
+      "word": "notte",
+      "meaning": "Night",
+      "example": "La notte dormo."
+    },
+    {
+      "word": "giorno",
+      "meaning": "Day",
+      "example": "Oggi è un bel giorno."
+    },
+    {
+      "word": "oggi",
+      "meaning": "Today",
+      "example": "Oggi mangio a casa."
+    },
+    {
+      "word": "domani",
+      "meaning": "Tomorrow",
+      "example": "Domani lavoro."
+    },
+    {
+      "word": "ieri",
+      "meaning": "Yesterday",
+      "example": "Ieri ho lavorato."
+    },
+    {
+      "word": "lunedì",
+      "meaning": "Monday",
+      "example": "Lunedì lavoro."
+    },
+    {
+      "word": "martedì",
+      "meaning": "Tuesday",
+      "example": "Martedì studio."
+    },
+    {
+      "word": "mercoledì",
+      "meaning": "Wednesday",
+      "example": "Mercoledì studio l'italiano."
+    },
+    {
+      "word": "giovedì",
+      "meaning": "Thursday",
+      "example": "Giovedì guardo la mamma."
+    },
+    {
+      "word": "venerdì",
+      "meaning": "Friday",
+      "example": "Venerdì esco con gli amici."
+    },
+    {
+      "word": "sabato",
+      "meaning": "Saturday",
+      "example": "Sabato gioco."
+    },
+    {
+      "word": "domenica",
+      "meaning": "Sunday",
+      "example": "Domenica mi riposo."
+    },
+    {
+      "word": "settimana",
+      "meaning": "Week",
+      "example": "La settimana è lunga."
+    }
+  ]
+}

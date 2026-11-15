@@ -1,0 +1,25 @@
+{
+  "id": "unit-13-lesson-10",
+  "unit_id": "unit-13",
+  "name": "Paul Is Lost Again",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-13-lesson-10-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Paul is lost on his way to school. The school is in via dei Servi, behind the Duomo. Reply with the way, step by step." },
+      "sentence_context": "",
+      "correct_answer": "Ciao Paul! Non è lontano. Passa a sinistra del Duomo e vai avanti fino in fondo alla piazza. Lì, dietro il Duomo, c'è via dei Servi. Prendi quella strada e vai sempre dritto: la scuola è al numero 40, dopo il negozio di Rita. Cinque minuti a piedi. A dopo!",
+      "distractors": [],
+      "hints": ["Commands to a friend: passa, vai, prendi. Name the landmarks."],
+      "target_words": ["sinistra", "in fondo", "dritto"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Un messaggio di Paul",
+    "paragraphs": ["Paul: Aiuto! Sono in piazza del Duomo, davanti alla porta grande. La lezione comincia fra cinque minuti e non so dov'è la scuola. Destra o sinistra?"]
+  }
+}

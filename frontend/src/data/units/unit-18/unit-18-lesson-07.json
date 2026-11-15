@@ -1,0 +1,172 @@
+{
+  "id": "unit-18-lesson-07",
+  "unit_id": "unit-18",
+  "name": "Tomás's Profile",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-18-lesson-07-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Tomás like?" },
+      "sentence_context": "",
+      "correct_answer": "Art, museums and walking",
+      "distractors": ["Football and the gym", "Big parties"],
+      "hints": ["Read 'Che cosa mi piace'."],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-07-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does he do on Sundays?" },
+      "sentence_context": "",
+      "correct_answer": "He paints",
+      "distractors": ["He runs", "He goes to the gym"],
+      "hints": ["'La domenica dipingo.'"],
+      "target_words": ["dipingere"]
+    },
+    {
+      "id": "unit-18-lesson-07-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why doesn't Tomás like big parties?" },
+      "sentence_context": "",
+      "correct_answer": "He prefers small groups",
+      "distractors": ["He hates music", "He works in the evening"],
+      "hints": ["'Preferisco i gruppi piccoli.'"],
+      "target_words": ["gruppo"]
+    },
+    {
+      "id": "unit-18-lesson-07-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Tomás hates the gym." },
+      "sentence_context": "",
+      "correct_answer": "True",
+      "distractors": ["False"],
+      "hints": ["'Odio la palestra!'"],
+      "target_words": ["odiare"]
+    },
+    {
+      "id": "unit-18-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Francesca invite Tomás to?" },
+      "sentence_context": "",
+      "correct_answer": "An exhibition of paintings",
+      "distractors": ["A football match", "A party"],
+      "hints": ["'Una mostra di quadri.'"],
+      "target_words": ["mostra"]
+    },
+    {
+      "id": "unit-18-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How much does it cost for students?" },
+      "sentence_context": "",
+      "correct_answer": "Nothing",
+      "distractors": ["Ten euros", "Half price"],
+      "hints": ["'È gratis per gli studenti.'"],
+      "target_words": ["gratis"]
+    },
+    {
+      "id": "unit-18-lesson-07-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why not Saturday afternoon?" },
+      "sentence_context": "",
+      "correct_answer": "Francesca has something on",
+      "distractors": ["Tomás studies with Yuki", "The museum is closed"],
+      "hints": ["'Ho un impegno.'"],
+      "target_words": ["impegno"]
+    },
+    {
+      "id": "unit-18-lesson-07-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where and when do they meet?" },
+      "sentence_context": "",
+      "correct_answer": "On Sunday at ten, in front of the museum",
+      "distractors": ["On Saturday at ten, at the bar", "On Sunday at ten, at the park"],
+      "hints": ["'Facciamo alle dieci, davanti al museo?'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-07-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What will they do after the exhibition?" },
+      "sentence_context": "",
+      "correct_answer": "Go for a walk and have a coffee",
+      "distractors": ["Paint together", "Go to a party"],
+      "hints": ["'Facciamo una passeggiata e prendiamo un caffè.'"],
+      "target_words": ["passeggiata"]
+    },
+    {
+      "id": "unit-18-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: I like meeting new people, above all in Italian." },
+      "sentence_context": "Mi piace conoscere persone nuove, ___ in italiano.",
+      "correct_answer": "soprattutto",
+      "distractors": [],
+      "hints": ["Above all."],
+      "target_words": ["soprattutto"]
+    },
+    {
+      "id": "unit-18-lesson-07-ex-11",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: I prefer small groups." },
+      "sentence_context": "Preferisco i ___ piccoli.",
+      "correct_answer": "gruppi",
+      "distractors": [],
+      "hints": ["Groups: the plural of gruppo."],
+      "target_words": ["gruppo"]
+    },
+    {
+      "id": "unit-18-lesson-07-ex-12",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: it is free for students." },
+      "sentence_context": "È ___ per gli studenti.",
+      "correct_answer": "gratis",
+      "distractors": [],
+      "hints": ["Free: no cost."],
+      "target_words": ["gratis"]
+    },
+    {
+      "id": "unit-18-lesson-07-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa non piace a Tomás?" },
+      "sentence_context": "Che cosa non piace a Tomás?",
+      "correct_answer": ["il calcio", "le feste con tante persone", "il calcio e la palestra"],
+      "distractors": [],
+      "hints": ["Read 'Che cosa non mi piace'."],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-07-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Come si chiama il cane di Francesca?" },
+      "sentence_context": "Come si chiama il cane di Francesca?",
+      "correct_answer": ["Pepe", "si chiama Pepe"],
+      "distractors": [],
+      "hints": ["Read Francesca's last message."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "soprattutto", "meaning": "above all, especially", "example": "Mi piace la musica, soprattutto la musica italiana." },
+    { "word": "gruppo", "meaning": "group", "example": "Preferisco i gruppi piccoli." },
+    { "word": "gratis", "meaning": "free (no cost)", "example": "Per gli studenti il museo è gratis." }
+  ],
+  "reading": {
+    "title": "Amici a Firenze",
+    "paragraphs": ["Tomás · spagnolo, di Madrid, a Firenze per studiare l'italiano", "Ciao! Sono un po' timido, ma mi piace conoscere persone nuove, soprattutto in italiano.", "Che cosa mi piace · L'arte, i musei e le mostre. Mi piacciono molto i quadri: disegno ogni giorno e la domenica dipingo. Mi piace anche camminare: il sabato faccio lunghe passeggiate in campagna.", "Che cosa non mi piace · Le feste con tante persone: preferisco i gruppi piccoli. Non mi piace per niente il calcio, e odio la palestra!", "Che cosa cerco · Amici per andare alle mostre, o per una passeggiata e un caffè.", "Francesca: Ciao Tomás! Mi chiamo Francesca e sono di Firenze. Anche a me piace dipingere! Sabato prossimo al museo c'è una mostra di quadri, ed è gratis per gli studenti. Ti va di venire?", "Tomás: Ciao Francesca! Volentieri! Ma sabato mattina studio con Yuki. Sabato pomeriggio sei libera?", "Francesca: Sabato pomeriggio no, purtroppo: ho un impegno. Domenica?", "Tomás: Domenica va bene. A che ora?", "Francesca: Facciamo alle dieci, davanti al museo? Poi, se ti va, facciamo una passeggiata e prendiamo un caffè.", "Tomás: Perfetto! Io sono basso, con la barba e gli occhiali. E tu?", "Francesca: Anch'io ho gli occhiali! E ho un cane piccolo e nero, Pepe. Ti piacciono i cani?", "Tomás: Sì, molto. Allora a domenica!"]
+  }
+}

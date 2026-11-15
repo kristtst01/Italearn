@@ -1,0 +1,223 @@
+{
+  "id": "unit-21-lesson-03",
+  "unit_id": "unit-21",
+  "name": "Sightseeing & Travel",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-21-lesson-03-tip-01",
+      "title": "Being a Tourist",
+      "explanation": "'Il turista' / 'la turista' (tourist) — same word both genders, only the article changes. You'll often hear 'i turisti' for a group.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-21-lesson-03-tip-02",
+      "title": "Things to See",
+      "explanation": "'Il monumento' (monument), 'la fontana' (fountain), 'il museo' (you know it). Many Italian towns have all three around a single piazza.",
+      "before_exercise": 5
+    },
+    {
+      "id": "unit-21-lesson-03-tip-03",
+      "title": "Map & Guide",
+      "explanation": "'La mappa' = map. 'La guida' has two meanings: a tour guide (person) OR a guidebook. 'Una foto' = a photo (short for fotografia).",
+      "before_exercise": 10
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-21-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'turista' mean?" },
+      "sentence_context": "I turisti visitano il museo.",
+      "correct_answer": "Tourist",
+      "distractors": ["Local", "Guide", "Traveller"],
+      "hints": ["The tourists visit the museum."],
+      "target_words": ["turista"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'monumento' mean?" },
+      "sentence_context": "Il monumento è grande.",
+      "correct_answer": "Monument",
+      "distractors": ["Museum", "Fountain", "Statue"],
+      "hints": ["The monument is big."],
+      "target_words": ["monumento"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'fontana' mean?" },
+      "sentence_context": "La fontana di Trevi è famosa.",
+      "correct_answer": "Fountain",
+      "distractors": ["River", "Lake", "Pool"],
+      "hints": ["The Trevi fountain is famous."],
+      "target_words": ["fontana"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'foto' mean?" },
+      "sentence_context": "Faccio una foto.",
+      "correct_answer": "Photo",
+      "distractors": ["Painting", "Map", "Note"],
+      "hints": ["I take a photo. (short for fotografia)"],
+      "target_words": ["foto"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mappa' mean?" },
+      "sentence_context": "Vorrei una mappa della città.",
+      "correct_answer": "Map",
+      "distractors": ["Guide", "Ticket", "Plan"],
+      "hints": ["I'd like a map of the city."],
+      "target_words": ["mappa"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'guida' mean here?" },
+      "sentence_context": "La guida parla inglese.",
+      "correct_answer": "Guide (person)",
+      "distractors": ["Map", "Ticket", "Tour"],
+      "hints": ["The guide speaks English."],
+      "target_words": ["guida"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "I ___ visitano Roma.",
+      "correct_answer": "turisti",
+      "distractors": [],
+      "hints": ["The tourists visit Rome. (plural)"],
+      "target_words": ["turista"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Faccio una ___ della fontana.",
+      "correct_answer": "foto",
+      "distractors": [],
+      "hints": ["I take a photo of the fountain."],
+      "target_words": ["foto"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Vorrei una ___ della città.",
+      "correct_answer": "mappa",
+      "distractors": [],
+      "hints": ["I'd like a map of the city."],
+      "target_words": ["mappa"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Il ___ è in piazza.",
+      "correct_answer": "monumento",
+      "distractors": [],
+      "hints": ["The monument is in the square."],
+      "target_words": ["monumento"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'tourist' in Italian?" },
+      "sentence_context": "Un turista americano.",
+      "correct_answer": "turista",
+      "distractors": [],
+      "hints": ["Same form for both genders."],
+      "target_words": ["turista"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'monument' in Italian?" },
+      "sentence_context": "Un monumento storico.",
+      "correct_answer": "monumento",
+      "distractors": [],
+      "hints": ["Close to the English word."],
+      "target_words": ["monumento"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'photo' in Italian?" },
+      "sentence_context": "Faccio una foto.",
+      "correct_answer": "foto",
+      "distractors": [],
+      "hints": ["Four letters."],
+      "target_words": ["foto"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'map' in Italian?" },
+      "sentence_context": "Una mappa di Roma.",
+      "correct_answer": "mappa",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["mappa"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-15",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I take a photo of the fountain.'" },
+      "sentence_context": "Faccio una foto della fontana.",
+      "correct_answer": ["Faccio", "una", "foto", "della", "fontana."],
+      "distractors": ["mappa", "del"],
+      "hints": ["Fare + 'una foto della' + place."],
+      "target_words": ["foto", "fontana"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'The tourists visit the museum.'" },
+      "sentence_context": "I turisti visitano il museo.",
+      "correct_answer": ["I", "turisti", "visitano", "il", "museo."],
+      "distractors": ["turista", "monumento"],
+      "hints": ["Plural masculine + visitano + museum."],
+      "target_words": ["turista"]
+    },
+    {
+      "id": "unit-21-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: \"I'd like a map of the city.\"" },
+      "sentence_context": "Vorrei una mappa della città.",
+      "correct_answer": ["Vorrei", "una", "mappa", "della", "città."],
+      "distractors": ["foto", "del"],
+      "hints": ["Polite + map + of-the city."],
+      "target_words": ["mappa"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "turista", "meaning": "Tourist", "example": "I turisti visitano il museo." },
+    { "word": "monumento", "meaning": "Monument", "example": "Il monumento è grande." },
+    { "word": "fontana", "meaning": "Fountain", "example": "La fontana di Trevi è famosa." },
+    { "word": "foto", "meaning": "Photo", "example": "Faccio una foto." },
+    { "word": "mappa", "meaning": "Map", "example": "Vorrei una mappa della città." },
+    { "word": "guida", "meaning": "Guide (person or book)", "example": "La guida parla inglese." }
+  ]
+}

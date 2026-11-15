@@ -1,0 +1,170 @@
+{
+  "id": "unit-20-lesson-05",
+  "unit_id": "unit-20",
+  "name": "Practice Writing — A1 Capstone",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-20-lesson-05-tip-01",
+      "title": "A1 Capstone",
+      "explanation": "You've reached the end of A1! These tasks bring everything together — describing yourself, your routine, your family, your day, your plans, food, weather, health. Write naturally; don't worry about being perfect.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-20-lesson-05-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe yourself — name, age, where you're from, languages, what you like. (4-5 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Mi chiamo Marco. Ho venticinque anni. Sono italiano, di Roma. Parlo italiano e un po' di inglese. Mi piace il calcio e mi piacciono i film italiani.",
+      "distractors": [],
+      "hints": [
+        "Use everything from Units 1–7: name, age, origin, nationality, languages, likes."
+      ],
+      "target_words": [
+        "italiano",
+        "piacere"
+      ]
+    },
+    {
+      "id": "unit-20-lesson-05-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe your family. Who is in it, what they do, what they're like. (4-5 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "La mia famiglia è grande. Mio padre è dottore e mia madre è insegnante. Ho un fratello e una sorella. Mio fratello è alto e simpatico. Mia sorella è giovane e studia all'università.",
+      "distractors": [],
+      "hints": [
+        "Family + possessives + adjectives + professions."
+      ],
+      "target_words": [
+        "famiglia",
+        "padre",
+        "madre"
+      ]
+    },
+    {
+      "id": "unit-20-lesson-05-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe your typical day — morning, afternoon, evening. (4-5 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "La mattina mi sveglio alle sette. Mi lavo, mi vesto e faccio colazione. Il pomeriggio lavoro in ufficio. La sera mangio a casa e qualche volta esco con gli amici. Mi addormento alle undici.",
+      "distractors": [],
+      "hints": [
+        "Use reflexive verbs + times + parts of the day + verbs."
+      ],
+      "target_words": [
+        "svegliarsi",
+        "vestirsi",
+        "addormentarsi"
+      ]
+    },
+    {
+      "id": "unit-20-lesson-05-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Make weekend plans — what you want to do, with whom, when. Include something you can't do. (4-5 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Sabato voglio andare al cinema con gli amici. Marco viene con noi. Vorrei vedere un film italiano. Domenica devo lavorare la mattina. Il pomeriggio andiamo al mare.",
+      "distractors": [],
+      "hints": [
+        "Use modals (voglio, devo, vorrei) + invitations + days."
+      ],
+      "target_words": [
+        "volere",
+        "dovere",
+        "andare"
+      ]
+    },
+    {
+      "id": "unit-20-lesson-05-ex-05",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Order a meal at a restaurant — full courses and a drink, then ask for the bill. (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Vorrei un tavolo per due, per favore. Per primo la pasta al pomodoro, per secondo il pesce e come contorno un'insalata. Vorrei anche un bicchiere di vino. Il conto, per favore.",
+      "distractors": [],
+      "hints": [
+        "Use vorrei + courses + drink + 'il conto'."
+      ],
+      "target_words": [
+        "primo",
+        "secondo",
+        "vino",
+        "conto"
+      ]
+    },
+    {
+      "id": "unit-20-lesson-05-ex-06",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe today's weather and the season. Say what clothes you're wearing. (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Siamo in inverno e oggi fa freddo. C'è la neve e c'è anche il vento. Porto un cappotto, una sciarpa e i guanti. Non mi piace l'inverno.",
+      "distractors": [],
+      "hints": [
+        "Season + weather + clothes."
+      ],
+      "target_words": [
+        "inverno",
+        "freddo",
+        "cappotto"
+      ]
+    },
+    {
+      "id": "unit-20-lesson-05-ex-07",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "You're not feeling well — go to the pharmacy. Describe your symptoms and ask for help. (4-5 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Buongiorno, non sto bene. Ho mal di testa e la febbre. Ho anche un po' di tosse. Mi serve qualcosa, per favore. Vorrei una pillola.",
+      "distractors": [],
+      "hints": [
+        "Greet + describe symptoms + ask for help."
+      ],
+      "target_words": [
+        "testa",
+        "febbre",
+        "tosse",
+        "pillola"
+      ]
+    },
+    {
+      "id": "unit-20-lesson-05-ex-08",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Talk about what you do every day, and one thing you'd like to do but can't. Use frequency adverbs. (4-5 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Lavoro sempre la mattina. Qualche volta vado a correre il pomeriggio. Non mangio mai la carne. Vorrei viaggiare in Italia, ma non posso. Devo lavorare.",
+      "distractors": [],
+      "hints": [
+        "Routine + frequency + 'vorrei... ma non posso'."
+      ],
+      "target_words": [
+        "sempre",
+        "mai",
+        "potere"
+      ]
+    }
+  ],
+  "vocabulary": []
+}

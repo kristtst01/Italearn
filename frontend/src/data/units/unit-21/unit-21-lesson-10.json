@@ -1,0 +1,27 @@
+{
+  "id": "unit-21-lesson-10",
+  "unit_id": "unit-21",
+  "name": "Book a Room",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-21-lesson-10-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Write an email to the Hotel Il Campo to book a room: say who you are, what room you want and for which nights, and ask one or two questions."
+      },
+      "sentence_context": "",
+      "correct_answer": "Buongiorno, mi chiamo Sam Taylor. Vorrei prenotare una camera doppia per due notti, venerdì 12 e sabato 13 giugno, per me e mia moglie. Arriviamo in macchina verso le dieci di sera: va bene per il check-in? C'è l'ascensore? Grazie mille, Sam Taylor",
+      "distractors": [],
+      "hints": ["Vorrei prenotare …; per + the nights; questions with c'è …? or è incluso …?"],
+      "target_words": ["prenotare", "doppio", "check-in"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Hotel Il Campo, Siena",
+    "paragraphs": ["Hotel Il Campo · in centro, a cinque minuti a piedi da piazza del Campo", "Camera singola · 70 euro a notte", "Camera doppia · 100 euro a notte", "Colazione · 8 euro a persona", "Parcheggio · 15 euro al giorno", "Check-in · dalle 15:00 alle 21:00", "Prenotazioni · per telefono o per mail"]
+  }
+}

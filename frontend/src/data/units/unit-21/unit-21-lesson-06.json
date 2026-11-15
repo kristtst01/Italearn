@@ -1,0 +1,196 @@
+{
+  "id": "unit-21-lesson-06",
+  "unit_id": "unit-21",
+  "name": "How Was Your Trip?",
+  "order": 6,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-21-lesson-06-ex-01",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Luca asks what you did at the weekend. You went to Venice with a friend." },
+      "sentence_context": "Luca: Che cosa hai fatto il fine settimana?\nYou: ___",
+      "correct_answer": ["Sono andato a Venezia con un amico.", "Sono andata a Venezia con un'amica."],
+      "distractors": [],
+      "hints": ["Andare takes essere."],
+      "target_words": ["fine settimana"],
+      "dialogue": [
+        { "speaker": "Luca", "text": "Che cosa hai fatto il fine settimana?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-06-ex-02",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your friend asks how the trip went. It went well, but the train arrived late." },
+      "sentence_context": "Friend: Com'è andato il viaggio?\nYou: ___",
+      "correct_answer": ["Bene, ma il treno è arrivato in ritardo.", "Molto bene! Ma il treno è arrivato con un'ora di ritardo."],
+      "distractors": [],
+      "hints": ["Arrivare takes essere."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Com'è andato il viaggio?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-06-ex-03",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your friend asks if you liked Venice. You liked it a lot, and you saw piazza San Marco." },
+      "sentence_context": "Friend: Ti è piaciuta Venezia?\nYou: ___",
+      "correct_answer": ["Sì, mi è piaciuta molto! Ho visto piazza San Marco.", "Sì, tanto. Abbiamo visto piazza San Marco."],
+      "distractors": [],
+      "hints": ["Mi è piaciuta: it agrees with Venezia."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Ti è piaciuta Venezia?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-06-ex-04",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your friend asks where you slept. In a small hotel near the station." },
+      "sentence_context": "Friend: E dove avete dormito?\nYou: ___",
+      "correct_answer": ["Abbiamo dormito in un piccolo albergo vicino alla stazione.", "In un piccolo hotel vicino alla stazione."],
+      "distractors": [],
+      "hints": ["Dormire takes avere."],
+      "target_words": ["albergo"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "E dove avete dormito?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-06-ex-05",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your friend asks when you came back. On Sunday evening." },
+      "sentence_context": "Friend: Quando siete ritornati?\nYou: ___",
+      "correct_answer": ["Siamo ritornati domenica sera.", "Domenica sera."],
+      "distractors": [],
+      "hints": ["Ritornare takes essere."],
+      "target_words": ["ritornare"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Quando siete ritornati?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-06-ex-06",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your friend asks if you took a lot of photos. You did, and you sent some postcards too." },
+      "sentence_context": "Friend: Hai fatto tante foto?\nYou: ___",
+      "correct_answer": ["Sì, e ho mandato anche tre cartoline.", "Sì, tante! E ho scritto due cartoline."],
+      "distractors": [],
+      "hints": ["Mandare → mandato."],
+      "target_words": ["cartolina", "mandare"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Hai fatto tante foto?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-06-ex-07",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A colleague asks about your trip to London. It went badly: you lost your suitcase at the airport." },
+      "sentence_context": "Colleague: Allora, com'è andato il viaggio a Londra?\nYou: ___",
+      "correct_answer": ["Male: ho perso la valigia all'aeroporto!", "Non bene. All'aeroporto ho perso la valigia."],
+      "distractors": [],
+      "hints": ["Perdere → perso."],
+      "target_words": ["valigia"],
+      "dialogue": [
+        { "speaker": "Colleague", "text": "Allora, com'è andato il viaggio a Londra?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-06-ex-08",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your friend asks if you had fun at the seaside." },
+      "sentence_context": "Friend: Vi siete divertiti al mare?\nYou: ___",
+      "correct_answer": ["Sì, ci siamo divertiti molto!", "Sì, tanto! Abbiamo mangiato il pesce e dormito al sole."],
+      "distractors": [],
+      "hints": ["Ci siamo divertiti."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Vi siete divertiti al mare?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-06-ex-09",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake." },
+      "sentence_context": "Ho andato a Roma con mia sorella.",
+      "correct_answer": ["Sono andato a Roma con mia sorella.", "Sono andata a Roma con mia sorella."],
+      "distractors": [],
+      "hints": ["Andare takes essere."],
+      "target_words": []
+    },
+    {
+      "id": "unit-21-lesson-06-ex-10",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake." },
+      "sentence_context": "Emma è arrivato venerdì sera.",
+      "correct_answer": ["Emma è arrivata venerdì sera."],
+      "distractors": [],
+      "hints": ["With essere, the participle agrees with Emma."],
+      "target_words": []
+    },
+    {
+      "id": "unit-21-lesson-06-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the right form of essere or avere." },
+      "sentence_context": "Domenica sera Emma e Chloé ___ ritornate a Firenze.",
+      "correct_answer": "sono",
+      "distractors": [],
+      "hints": ["Ritornare: going and coming back."],
+      "target_words": ["ritornare"]
+    },
+    {
+      "id": "unit-21-lesson-06-ex-12",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the right form of essere or avere." },
+      "sentence_context": "Paul ___ prenotato un albergo a Roma.",
+      "correct_answer": "ha",
+      "distractors": [],
+      "hints": ["Prenotare has an object."],
+      "target_words": ["prenotare"]
+    },
+    {
+      "id": "unit-21-lesson-06-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you went abroad last year." },
+      "sentence_context": "",
+      "correct_answer": ["l'anno scorso sono andato all'estero", "l'anno scorso sono andata all'estero"],
+      "distractors": [],
+      "hints": ["L'anno scorso …"],
+      "target_words": ["estero"]
+    },
+    {
+      "id": "unit-21-lesson-06-ex-14",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I sent a postcard to my grandmother.'" },
+      "sentence_context": "Ho mandato una cartolina a mia nonna.",
+      "correct_answer": ["Ho", "mandato", "una", "cartolina", "a", "mia", "nonna."],
+      "distractors": ["sono", "mandata"],
+      "hints": ["Mandare takes avere."],
+      "target_words": ["mandare", "cartolina"]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,0 +1,109 @@
+{
+  "id": "unit-21-lesson-12",
+  "unit_id": "unit-21",
+  "name": "Say It Out Loud",
+  "order": 12,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-21-lesson-12-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Vorrei prenotare una camera doppia per due notti.",
+      "correct_answer": "Vorrei prenotare una camera doppia per due notti.",
+      "distractors": [],
+      "hints": ["Prenotare: the stress is on -ta-."],
+      "target_words": ["prenotare", "doppio"]
+    },
+    {
+      "id": "unit-21-lesson-12-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Buonasera, ho una prenotazione a nome Brown.",
+      "correct_answer": "Buonasera, ho una prenotazione a nome Brown.",
+      "distractors": [],
+      "hints": ["Prenotazione: -zio- sounds like \"tsio\"."],
+      "target_words": ["prenotazione"]
+    },
+    {
+      "id": "unit-21-lesson-12-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "La colazione è inclusa? E c'è l'ascensore?",
+      "correct_answer": "La colazione è inclusa? E c'è l'ascensore?",
+      "distractors": [],
+      "hints": ["Two questions: let your voice rise."],
+      "target_words": ["incluso", "ascensore"]
+    },
+    {
+      "id": "unit-21-lesson-12-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "La camera è al terzo piano.",
+      "correct_answer": "La camera è al terzo piano.",
+      "distractors": [],
+      "hints": ["Terzo: the z sounds like \"ts\"."],
+      "target_words": ["piano"]
+    },
+    {
+      "id": "unit-21-lesson-12-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Quest'anno andiamo in vacanza all'estero, in Germania.",
+      "correct_answer": "Quest'anno andiamo in vacanza all'estero, in Germania.",
+      "distractors": [],
+      "hints": ["Estero: the stress is on e-."],
+      "target_words": ["estero", "Germania"]
+    },
+    {
+      "id": "unit-21-lesson-12-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ho perso il passaporto: devo andare all'ambasciata.",
+      "correct_answer": "Ho perso il passaporto: devo andare all'ambasciata.",
+      "distractors": [],
+      "hints": ["Passaporto: hold the double s."],
+      "target_words": ["ambasciata"]
+    },
+    {
+      "id": "unit-21-lesson-12-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Siamo ritornati domenica sera, stanchi morti.",
+      "correct_answer": "Siamo ritornati domenica sera, stanchi morti.",
+      "distractors": [],
+      "hints": ["Stanchi: the ch sounds like k."],
+      "target_words": ["ritornare"]
+    },
+    {
+      "id": "unit-21-lesson-12-ex-08",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ho mandato tre cartoline e ho fatto tante foto.",
+      "correct_answer": "Ho mandato tre cartoline e ho fatto tante foto.",
+      "distractors": [],
+      "hints": ["Fatto: hold the double t."],
+      "target_words": ["cartolina", "mandare"]
+    },
+    {
+      "id": "unit-21-lesson-12-ex-09",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Michelangelo è morto a Roma.",
+      "correct_answer": "Michelangelo è morto a Roma.",
+      "distractors": [],
+      "hints": ["Morto: the stress is on mor-."],
+      "target_words": ["morire"]
+    }
+  ],
+  "vocabulary": []
+}

@@ -1,277 +1,177 @@
 {
   "id": "unit-09-lesson-01",
   "unit_id": "unit-09",
-  "name": "The -are Pattern",
+  "name": "Getting Up",
   "order": 1,
-  "grammar_tips": [
-    {
-      "id": "unit-09-lesson-01-tip-01",
-      "title": "The -are Pattern",
-      "explanation": "Most Italian verbs end in -are. To use one, remove -are and add the ending for the person: -o (io), -i (tu), -a (lui/lei), -iamo (noi), -ate (voi), -ano (loro). 'parlare' → parlo, parli, parla, parliamo, parlate, parlano.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-09-lesson-01-tip-02",
-      "title": "Drop the Subject",
-      "explanation": "The ending already tells you who's speaking, so Italian usually drops the pronoun. 'Studio l'italiano' already means 'I study Italian' — you don't need to say 'io'.",
-      "before_exercise": 8
-    },
-    {
-      "id": "unit-09-lesson-01-tip-03",
-      "title": "Stem + Ending",
-      "explanation": "Always think of the verb as two parts: the stem (the bit before -are) plus the ending. 'lavorare' → stem 'lavor-' + ending. 'Io lavoro', 'tu lavori', 'lui lavora'.",
-      "before_exercise": 14
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-09-lesson-01-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'lavorare' mean?" },
-      "sentence_context": "Io lavoro.",
-      "correct_answer": "To work",
-      "distractors": ["To eat", "To study", "To watch"],
-      "hints": ["I work."],
-      "target_words": ["lavorare"]
+      "subtype": "match_pairs",
+      "prompt": { "text": "Match the verbs with their meanings." },
+      "sentence_context": "",
+      "correct_answer": ["svegliarsi|to wake up", "alzarsi|to get up", "lavarsi|to wash (yourself)", "vestirsi|to get dressed", "prepararsi|to get ready"],
+      "distractors": [],
+      "hints": [],
+      "target_words": ["svegliarsi", "alzarsi", "lavarsi", "vestirsi", "prepararsi"]
     },
     {
       "id": "unit-09-lesson-01-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'mangiare' mean?" },
-      "sentence_context": "Io mangio.",
-      "correct_answer": "To eat",
-      "distractors": ["To work", "To watch", "To live"],
-      "hints": ["I eat."],
-      "target_words": ["mangiare"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'sveglia' mean?" },
+      "sentence_context": "La sveglia suona alle sei e mezza.",
+      "correct_answer": ["alarm clock", "alarm"],
+      "distractors": [],
+      "hints": ["It rings in the morning."],
+      "target_words": ["sveglia"]
     },
     {
       "id": "unit-09-lesson-01-ex-03",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'studiare' mean?" },
-      "sentence_context": "Studio l'italiano.",
-      "correct_answer": "To study",
-      "distractors": ["To work", "To listen", "To buy"],
-      "hints": ["I study Italian."],
-      "target_words": ["studiare"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'tardi' mean?" },
+      "sentence_context": "La domenica mi sveglio tardi.",
+      "correct_answer": ["late"],
+      "distractors": [],
+      "hints": ["The opposite of presto."],
+      "target_words": ["tardi"]
     },
     {
       "id": "unit-09-lesson-01-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'guardare' mean?" },
-      "sentence_context": "Guardo il libro.",
-      "correct_answer": "To watch / look at",
-      "distractors": ["To listen", "To eat", "To work"],
-      "hints": ["I look at the book."],
-      "target_words": ["guardare"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I wake up at seven." },
+      "sentence_context": "Mi ___ alle sette.",
+      "correct_answer": "sveglio",
+      "distractors": [],
+      "hints": ["Svegliarsi, the io form."],
+      "target_words": ["svegliarsi"]
     },
     {
       "id": "unit-09-lesson-01-ex-05",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'ascoltare' mean?" },
-      "sentence_context": "Ascolto la mamma.",
-      "correct_answer": "To listen to",
-      "distractors": ["To watch", "To study", "To work"],
-      "hints": ["I listen to mum."],
-      "target_words": ["ascoltare"]
+      "prompt": { "text": "A friend asks when you get up. You get up at half past six. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Mi alzo alle sei e mezza.",
+      "distractors": ["Alzo alle sei e mezza.", "Mi alzo le sei e mezza."],
+      "hints": ["Alzarsi comes with mi, and a clock time takes alle."],
+      "target_words": ["alzarsi"]
     },
     {
       "id": "unit-09-lesson-01-ex-06",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Io ___ italiano.",
-      "correct_answer": "parlo",
+      "prompt": { "text": "Complete: Emma gets dressed and goes out." },
+      "sentence_context": "Emma si ___ ed esce.",
+      "correct_answer": "veste",
       "distractors": [],
-      "hints": ["I speak Italian (io form of parlare)."],
-      "target_words": ["parlare"]
+      "hints": ["Vestirsi, the lei form."],
+      "target_words": ["vestirsi"]
     },
     {
       "id": "unit-09-lesson-01-ex-07",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Tu ___ molto.",
-      "correct_answer": "lavori",
+      "prompt": { "text": "Complete: I wash my face with cold water." },
+      "sentence_context": "Mi ___ la faccia con l'acqua fredda.",
+      "correct_answer": "lavo",
       "distractors": [],
-      "hints": ["You work a lot (tu form of lavorare)."],
-      "target_words": ["lavorare"]
+      "hints": ["Lavarsi, the io form."],
+      "target_words": ["lavarsi"]
     },
     {
       "id": "unit-09-lesson-01-ex-08",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Marco ___.",
-      "correct_answer": "mangia",
-      "distractors": [],
-      "hints": ["Marco eats (lui form of mangiare)."],
-      "target_words": ["mangiare"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Someone in the street asks you the time, but you don't have a watch. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Mi dispiace, non ho l'orologio.",
+      "distractors": ["Mi dispiace, non ho la sveglia.", "Mi dispiace, non ho tempo."],
+      "hints": ["A watch is an orologio."],
+      "target_words": ["orologio"]
     },
     {
       "id": "unit-09-lesson-01-ex-09",
       "type": "vocab",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'I study' in Italian?" },
-      "sentence_context": "Io studio l'italiano.",
-      "correct_answer": "studio",
+      "prompt": { "text": "What does 'prepararsi' mean?" },
+      "sentence_context": "Paul ha bisogno di dieci minuti per prepararsi.",
+      "correct_answer": ["to get ready", "get ready"],
       "distractors": [],
-      "hints": ["The io form of studiare."],
-      "target_words": ["studiare"]
+      "hints": ["Before going out."],
+      "target_words": ["prepararsi"]
     },
     {
       "id": "unit-09-lesson-01-ex-10",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'we watch' in Italian?" },
-      "sentence_context": "Noi guardiamo la casa.",
-      "correct_answer": "guardiamo",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend asks about your mornings. You wake up at seven, have a shower and get dressed." },
+      "sentence_context": "Friend: Che cosa fai la mattina?\nYou: ___",
+      "correct_answer": ["Mi sveglio alle sette, faccio la doccia e mi vesto.", "Alle sette mi sveglio, poi faccio la doccia e mi vesto."],
       "distractors": [],
-      "hints": ["The noi form of guardare → -iamo."],
-      "target_words": ["guardare"]
+      "hints": ["Each reflexive verb takes mi."],
+      "target_words": ["svegliarsi", "vestirsi"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Che cosa fai la mattina?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-09-lesson-01-ex-11",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'they listen' in Italian?" },
-      "sentence_context": "Loro ascoltano la mamma.",
-      "correct_answer": "ascoltano",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Find the mistake: you like waking up late." },
+      "sentence_context": "Mi piace svegliarsi tardi.",
+      "correct_answer": ["Mi piace svegliarmi tardi."],
       "distractors": [],
-      "hints": ["The loro form of ascoltare → -ano."],
-      "target_words": ["ascoltare"]
+      "hints": ["The pronoun joined to the infinitive matches the person."],
+      "target_words": ["svegliarsi", "tardi"]
     },
     {
       "id": "unit-09-lesson-01-ex-12",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'io' form of 'mangiare'." },
-      "sentence_context": "Io ___.",
-      "correct_answer": "mangio",
-      "distractors": [],
-      "hints": ["io → -o ending."],
-      "target_words": ["mangiare"]
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I get ready in ten minutes.'" },
+      "sentence_context": "Mi preparo in dieci minuti.",
+      "correct_answer": ["Mi", "preparo", "in", "dieci", "minuti."],
+      "distractors": ["si", "alle"],
+      "hints": ["Mi before the verb."],
+      "target_words": ["prepararsi"]
     },
     {
       "id": "unit-09-lesson-01-ex-13",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'tu' form of 'studiare'." },
-      "sentence_context": "Tu ___ l'italiano.",
-      "correct_answer": "studi",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend what time they get up." },
+      "sentence_context": "",
+      "correct_answer": ["A che ora ti alzi?"],
       "distractors": [],
-      "hints": ["tu → -i ending."],
-      "target_words": ["studiare"]
+      "hints": ["Tu: ti alzi."],
+      "target_words": ["alzarsi"]
     },
     {
       "id": "unit-09-lesson-01-ex-14",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'lui/lei' form of 'lavorare'." },
-      "sentence_context": "Marco ___.",
-      "correct_answer": "lavora",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say that on Saturdays you set the alarm for eight." },
+      "sentence_context": "",
+      "correct_answer": ["Il sabato metto la sveglia alle otto."],
       "distractors": [],
-      "hints": ["lui/lei → -a ending."],
-      "target_words": ["lavorare"]
-    },
-    {
-      "id": "unit-09-lesson-01-ex-15",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'noi' form of 'guardare'." },
-      "sentence_context": "Noi ___ la casa.",
-      "correct_answer": "guardiamo",
-      "distractors": [],
-      "hints": ["noi → -iamo ending."],
-      "target_words": ["guardare"]
-    },
-    {
-      "id": "unit-09-lesson-01-ex-16",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'voi' form of 'ascoltare'." },
-      "sentence_context": "Voi ___ la lezione.",
-      "correct_answer": "ascoltate",
-      "distractors": [],
-      "hints": ["voi → -ate ending."],
-      "target_words": ["ascoltare"]
-    },
-    {
-      "id": "unit-09-lesson-01-ex-17",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'loro' form of 'mangiare'." },
-      "sentence_context": "Loro ___ molto.",
-      "correct_answer": "mangiano",
-      "distractors": [],
-      "hints": ["loro → -ano ending."],
-      "target_words": ["mangiare"]
-    },
-    {
-      "id": "unit-09-lesson-01-ex-18",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I work and study.'" },
-      "sentence_context": "Io lavoro e studio.",
-      "correct_answer": ["Io", "lavoro", "e", "studio."],
-      "distractors": ["mangio", "lavora"],
-      "hints": ["Both verbs take the 'io' ending -o."],
-      "target_words": ["lavorare", "studiare"]
-    },
-    {
-      "id": "unit-09-lesson-01-ex-19",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Marco eats and watches.'" },
-      "sentence_context": "Marco mangia e guarda.",
-      "correct_answer": ["Marco", "mangia", "e", "guarda."],
-      "distractors": ["mangio", "guardo"],
-      "hints": ["Both verbs take the 'lui' ending -a."],
-      "target_words": ["mangiare", "guardare"]
-    },
-    {
-      "id": "unit-09-lesson-01-ex-20",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'We listen to the teacher.'" },
-      "sentence_context": "Noi ascoltiamo l'insegnante.",
-      "correct_answer": ["Noi", "ascoltiamo", "l'insegnante."],
-      "distractors": ["ascolto", "lavoriamo"],
-      "hints": ["noi → -iamo ending."],
-      "target_words": ["ascoltare"]
-    },
-    {
-      "id": "unit-09-lesson-01-ex-21",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'They study Italian.'" },
-      "sentence_context": "Loro studiano l'italiano.",
-      "correct_answer": ["Loro", "studiano", "l'italiano."],
-      "distractors": ["studio", "studiate"],
-      "hints": ["loro → -ano ending."],
-      "target_words": ["studiare"]
-    },
-    {
-      "id": "unit-09-lesson-01-ex-22",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'You (informal) watch the cat.'" },
-      "sentence_context": "Tu guardi il gatto.",
-      "correct_answer": ["Tu", "guardi", "il", "gatto."],
-      "distractors": ["guardo", "guarda"],
-      "hints": ["tu → -i ending."],
-      "target_words": ["guardare"]
+      "hints": ["Mettere la sveglia."],
+      "target_words": ["sveglia"]
     }
   ],
   "vocabulary": [
-    { "word": "lavorare", "meaning": "To work", "example": "Io lavoro." },
-    { "word": "mangiare", "meaning": "To eat", "example": "Io mangio." },
-    { "word": "studiare", "meaning": "To study", "example": "Studio l'italiano." },
-    { "word": "guardare", "meaning": "To watch / look at", "example": "Guardo il libro." },
-    { "word": "ascoltare", "meaning": "To listen to", "example": "Ascolto la mamma." }
+    { "word": "svegliarsi", "meaning": "to wake up · mi sveglio, ti svegli, si sveglia", "example": "Mi sveglio alle sette." },
+    { "word": "sveglia", "meaning": "alarm clock, alarm · mettere la sveglia = to set the alarm", "example": "La sveglia suona alle sei e mezza." },
+    { "word": "alzarsi", "meaning": "to get up · mi alzo, ti alzi, si alza", "example": "Mi sveglio, ma non mi alzo subito." },
+    { "word": "lavarsi", "meaning": "to wash (yourself) · mi lavo, ti lavi, si lava", "example": "Mi lavo la faccia con l'acqua fredda." },
+    { "word": "vestirsi", "meaning": "to get dressed · mi vesto, ti vesti, si veste", "example": "Mi vesto e faccio colazione." },
+    { "word": "prepararsi", "meaning": "to get ready · mi preparo · preparare = to prepare, to make", "example": "Mi preparo in dieci minuti." },
+    { "word": "tardi", "meaning": "late · più tardi = later · fare tardi = to stay out late, to be late", "example": "La domenica mi sveglio tardi." },
+    { "word": "orologio", "meaning": "clock, watch", "example": "Scusi, che ore sono? Non ho l'orologio." }
   ]
 }

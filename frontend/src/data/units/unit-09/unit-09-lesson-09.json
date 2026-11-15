@@ -1,0 +1,25 @@
+{
+  "id": "unit-09-lesson-09",
+  "unit_id": "unit-09",
+  "name": "A Message from Francesca",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-09-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Reply to Francesca. Describe your day and say when you're free, so you can find a day to meet." },
+      "sentence_context": "",
+      "correct_answer": "Ciao Francesca! Grazie per il messaggio. Io lavoro in un ufficio dalle nove alle cinque. Mi alzo alle sette e mezza e vado al lavoro in bici. La sera di solito cucino e studio l'italiano. Il martedì e il giovedì ho lezione con Giulia. Sono libera il mercoledì sera e il sabato mattina. Ci vediamo sabato alle dieci al bar in piazza? A presto!",
+      "distractors": [],
+      "hints": ["Answer her questions: your times, your evenings, and a day and time to meet (ci vediamo…)."],
+      "target_words": ["vedersi", "alzarsi", "trovare"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Un messaggio di Francesca",
+    "paragraphs": ["Ciao! Mi chiamo Francesca e sono di Firenze. Giulia dice che cerchi una persona per parlare italiano: io studio l'inglese, allora è perfetto!", "Lavoro in un negozio di libri vicino al Duomo. Le mie giornate sono quasi tutte uguali: mi alzo alle sette, faccio la doccia, bevo un caffè e alle otto e mezza prendo l'autobus.", "Il negozio apre alle nove e chiude alle sette e mezza, con una pausa dall'una alle tre e mezza. Il lunedì mattina il negozio è chiuso, e io mi sveglio tardi!", "La sera ceno a casa, guardo una serie e alle undici vado a letto. Il fine settimana vedo gli amici.", "E tu? Com'è la tua giornata? A che ora ti alzi, e quando sei libero o libera? Così troviamo un giorno per vederci.", "A presto,", "Francesca"]
+  }
+}

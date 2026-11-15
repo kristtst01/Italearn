@@ -1,0 +1,149 @@
+{
+  "id": "unit-21-lesson-09",
+  "unit_id": "unit-21",
+  "name": "A Weekend in Rome",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-21-lesson-09-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who booked the hotel, and how?" },
+      "sentence_context": "",
+      "correct_answer": "Paul, on the internet, in a hurry",
+      "distractors": ["Mary, at a travel agency", "Paul, by phone"],
+      "hints": ["Read the first paragraph."],
+      "target_words": ["prenotare"]
+    },
+    {
+      "id": "unit-21-lesson-09-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What was wrong with the booking?" },
+      "sentence_context": "",
+      "correct_answer": "It was for November, not for that weekend",
+      "distractors": ["It was for a different hotel", "It was only for one night"],
+      "hints": ["'È per il diciassette novembre.'"],
+      "target_words": ["prenotazione"]
+    },
+    {
+      "id": "unit-21-lesson-09-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which room was still free?" },
+      "sentence_context": "",
+      "correct_answer": "A double room on the fifth floor",
+      "distractors": ["A single room on the first floor", "Three single rooms"],
+      "hints": ["'Una camera doppia, al quinto piano.'"],
+      "target_words": ["doppio", "piano"]
+    },
+    {
+      "id": "unit-21-lesson-09-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where did Paul sleep?" },
+      "sentence_context": "",
+      "correct_answer": "In a single room in another hotel",
+      "distractors": ["In his parents' room", "At the station"],
+      "hints": ["Read the paragraph after the dialogue."],
+      "target_words": ["hotel", "telefonata"]
+    },
+    {
+      "id": "unit-21-lesson-09-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Peter mean by 'Muoio di fame'?" },
+      "sentence_context": "",
+      "correct_answer": "He's very hungry",
+      "distractors": ["He's very tired", "He's ill"],
+      "hints": ["After five floors, he wants to eat."],
+      "target_words": ["morire"]
+    },
+    {
+      "id": "unit-21-lesson-09-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Michelangelo died in Tuscany." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'È morto lì', in Rome."],
+      "target_words": ["morire", "vita"]
+    },
+    {
+      "id": "unit-21-lesson-09-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What did Mary buy?" },
+      "sentence_context": "",
+      "correct_answer": "Twenty postcards",
+      "distractors": ["A hundred photos", "A book about Michelangelo"],
+      "hints": ["'Venti cartoline.'"],
+      "target_words": ["cartolina"]
+    },
+    {
+      "id": "unit-21-lesson-09-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: Mary knows Michelangelo's life well." },
+      "sentence_context": "Mary conosce bene la ___ di Michelangelo.",
+      "correct_answer": "vita",
+      "distractors": [],
+      "hints": ["Life."],
+      "target_words": ["vita"]
+    },
+    {
+      "id": "unit-21-lesson-09-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: Paul made three phone calls." },
+      "sentence_context": "Paul ha fatto tre ___.",
+      "correct_answer": "telefonate",
+      "distractors": [],
+      "hints": ["Telefonata, plural."],
+      "target_words": ["telefonata"]
+    },
+    {
+      "id": "unit-21-lesson-09-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dove è nato Michelangelo?" },
+      "sentence_context": "Dove è nato Michelangelo?",
+      "correct_answer": ["in Toscana", "è nato in Toscana"],
+      "distractors": [],
+      "hints": ["Read the paragraph about Saturday."],
+      "target_words": []
+    },
+    {
+      "id": "unit-21-lesson-09-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quando sono ritornati a Firenze?" },
+      "sentence_context": "Quando sono ritornati a Firenze?",
+      "correct_answer": ["domenica sera", "sono ritornati domenica sera"],
+      "distractors": [],
+      "hints": ["Read the end of the story."],
+      "target_words": ["ritornare"]
+    },
+    {
+      "id": "unit-21-lesson-09-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Chi prenota la prossima volta?" },
+      "sentence_context": "Chi prenota la prossima volta?",
+      "correct_answer": ["Peter", "prenota Peter"],
+      "distractors": [],
+      "hints": ["Read the last line."],
+      "target_words": ["prenotare"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "vita", "meaning": "life · vite (plural)", "example": "Mia nonna ha avuto una vita lunga e felice." },
+    { "word": "telefonata", "meaning": "phone call · fare una telefonata = to make a phone call", "example": "Scusa, devo fare una telefonata." }
+  ],
+  "reading": {
+    "title": "Un fine settimana a Roma",
+    "paragraphs": ["A ottobre i genitori di Paul, Peter e Mary, sono venuti in Italia dall'Inghilterra. Non sono mai stati a Roma, allora Paul ha prenotato un albergo per il fine settimana: una camera doppia per i genitori e una singola per lui, con la colazione inclusa. Ha fatto tutto su internet, in cinque minuti, di corsa, come sempre.", "Venerdì mattina hanno preso il treno a Firenze, e alle undici sono arrivati a Roma. L'albergo è vicino alla stazione. Alla reception c'è una signora molto gentile.", "Signora: Buongiorno, mi dica.", "Paul: Buongiorno, ho una prenotazione a nome Smith, per tre persone.", "Signora: Un momento… Sì, ecco la prenotazione. Ma è per il diciassette novembre, non per oggi!", "Paul: Novembre? Oh no!", "Signora: Mi dispiace. Oggi siamo quasi al completo: abbiamo solo una camera doppia, al quinto piano. E l'albergo non ha l'ascensore.", "Peter e Mary hanno preso la camera doppia. Paul ha fatto tre telefonate e alla fine ha preso una camera singola in un altro hotel, a dieci minuti a piedi.", "Cinque piani a piedi, con due valigie pesanti! Al quinto piano Peter ha detto: «Muoio di fame. Andiamo a mangiare?» Hanno mangiato una pizza in un piccolo ristorante, e la pizza è piaciuta molto a tutti.", "Sabato sono andati ai Musei Vaticani e hanno visto la Cappella Sistina. Mary conosce bene la vita di Michelangelo e ha raccontato tutto a Peter: Michelangelo è nato in Toscana nel 1475, ha lavorato molti anni a Roma ed è morto lì nel 1564, a quasi novant'anni. Peter ha fatto cento foto, e Mary ha comprato venti cartoline per gli amici in Inghilterra.", "Domenica sera sono ritornati a Firenze. Sul treno Paul ha detto: «Mi dispiace per l'albergo, mamma.»", "Mary: Ma no! È stato un fine settimana molto bello. I cinque piani, la pizza, Michelangelo…", "Peter: Sì, molto bello. Ma la prossima volta prenoto io!"]
+  }
+}

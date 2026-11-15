@@ -1,0 +1,93 @@
+{
+  "id": "unit-13-lesson-07",
+  "unit_id": "unit-13",
+  "name": "Practice Writing",
+  "order": 7,
+  "grammar_tips": [
+    {
+      "id": "unit-13-lesson-07-tip-01",
+      "title": "Describe Where Things Are",
+      "explanation": "Write about your neighbourhood and where things are. Use simple and articulated prepositions, place nouns, and direction words to describe locations.",
+      "before_exercise": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-13-lesson-07-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe where you live. Say what's near your house and what's far. (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Abito in Via Roma. Vicino alla mia casa c'è una farmacia. La stazione è lontano. Davanti alla casa c'è un giardino.",
+      "distractors": [],
+      "hints": [
+        "Use 'vicino a', 'lontano da', 'davanti a'."
+      ],
+      "target_words": [
+        "vicino",
+        "lontano",
+        "davanti"
+      ]
+    },
+    {
+      "id": "unit-13-lesson-07-ex-02",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Give directions from the station to a place you like. (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Dalla stazione, vai sempre dritto. Poi gira a destra. La piazza è alla fine della via. Il cinema è in piazza.",
+      "distractors": [],
+      "hints": [
+        "Use dritto, a destra, a sinistra, and articulated prepositions."
+      ],
+      "target_words": [
+        "dritto",
+        "destra",
+        "stazione"
+      ]
+    },
+    {
+      "id": "unit-13-lesson-07-ex-03",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Talk about your week — say where you go on different days. (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Il lunedì vado al lavoro. Il sabato faccio la spesa al supermercato. La domenica andiamo in chiesa. Qualche volta vado al museo con gli amici.",
+      "distractors": [],
+      "hints": [
+        "Use days + 'andare a/in' + places."
+      ],
+      "target_words": [
+        "supermercato",
+        "chiesa",
+        "museo"
+      ]
+    },
+    {
+      "id": "unit-13-lesson-07-ex-04",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Describe a piazza or street in your town. What is there and where? (3-4 sentences)"
+      },
+      "sentence_context": "",
+      "correct_answer": "Piazza Roma è grande. Nella piazza c'è una chiesa. A destra c'è una banca, a sinistra una farmacia. Dietro la chiesa c'è un piccolo giardino.",
+      "distractors": [],
+      "hints": [
+        "Use 'nella', 'a destra/sinistra', 'dietro'."
+      ],
+      "target_words": [
+        "piazza",
+        "chiesa",
+        "banca"
+      ]
+    }
+  ],
+  "vocabulary": []
+}

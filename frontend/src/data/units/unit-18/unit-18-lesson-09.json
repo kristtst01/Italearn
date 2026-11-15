@@ -1,0 +1,23 @@
+{
+  "id": "unit-18-lesson-09",
+  "unit_id": "unit-18",
+  "name": "Your Profile",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-18-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Write your own profile for Amici a Firenze: say what you like and don't like, what you do in your free time, and what you are looking for."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ciao! Mi chiamo Ben, sono inglese e ho trentadue anni. Mi piace molto la musica, soprattutto i concerti, e mi piace cucinare per gli amici. Il fine settimana corro al parco o faccio una passeggiata in centro. Non mi piace per niente la televisione, e odio il freddo! Cerco amici per un caffè, un concerto o una pizza, e per parlare italiano.",
+      "distractors": [],
+      "hints": ["Mi piace with one thing or a verb, mi piacciono with more than one. Non mi piace per niente for a strong no."],
+      "target_words": ["per niente", "soprattutto", "odiare"]
+    }
+  ],
+  "vocabulary": []
+}

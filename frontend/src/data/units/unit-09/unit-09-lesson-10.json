@@ -1,0 +1,87 @@
+{
+  "id": "unit-09-lesson-10",
+  "unit_id": "unit-09",
+  "name": "Say It Out Loud",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-09-lesson-10-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Mi sveglio alle sei e mezza, ma mi alzo alle sette.",
+      "correct_answer": "Mi sveglio alle sei e mezza, ma mi alzo alle sette.",
+      "distractors": [],
+      "hints": ["Mi sveglio, mi alzo."],
+      "target_words": ["svegliarsi", "alzarsi"]
+    },
+    {
+      "id": "unit-09-lesson-10-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Che ore sono? Sono le nove meno un quarto.",
+      "correct_answer": "Che ore sono? Sono le nove meno un quarto.",
+      "distractors": [],
+      "hints": ["Telling the time."],
+      "target_words": ["orologio"]
+    },
+    {
+      "id": "unit-09-lesson-10-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Il turno finisce alle tre.",
+      "correct_answer": "Il turno finisce alle tre.",
+      "distractors": [],
+      "hints": ["Finisce: the sc sounds like sh."],
+      "target_words": ["turno", "finire"]
+    },
+    {
+      "id": "unit-09-lesson-10-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Dopo cena lavo i piatti e mi riposo.",
+      "correct_answer": "Dopo cena lavo i piatti e mi riposo.",
+      "distractors": [],
+      "hints": ["Lavo, mi riposo."],
+      "target_words": ["lavare", "riposarsi"]
+    },
+    {
+      "id": "unit-09-lesson-10-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Domani devo alzarmi presto.",
+      "correct_answer": "Domani devo alzarmi presto.",
+      "distractors": [],
+      "hints": ["Alzarmi: the stress is on zar."],
+      "target_words": ["alzarsi"]
+    },
+    {
+      "id": "unit-09-lesson-10-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "La domenica mi addormento tardi.",
+      "correct_answer": "La domenica mi addormento tardi.",
+      "distractors": [],
+      "hints": ["Addormento: a double d."],
+      "target_words": ["addormentarsi", "tardi"]
+    },
+    {
+      "id": "unit-09-lesson-10-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ci vediamo domani a mezzogiorno!",
+      "correct_answer": "Ci vediamo domani a mezzogiorno!",
+      "distractors": [],
+      "hints": ["Mezzogiorno: zz sounds like dz."],
+      "target_words": ["vedersi"]
+    }
+  ],
+  "vocabulary": []
+}

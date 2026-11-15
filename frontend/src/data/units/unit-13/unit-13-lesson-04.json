@@ -1,235 +1,161 @@
 {
   "id": "unit-13-lesson-04",
   "unit_id": "unit-13",
-  "name": "Asking & Giving Directions",
+  "name": "Showing Friends the Way",
   "order": 4,
-  "grammar_tips": [
-    {
-      "id": "unit-13-lesson-04-tip-01",
-      "title": "Right, Left, Straight",
-      "explanation": "'A destra' = on/to the right. 'A sinistra' = on/to the left. '(Sempre) dritto' = (straight) ahead. These are the three you'll hear most.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-13-lesson-04-tip-02",
-      "title": "Near & Far",
-      "explanation": "'Vicino a' = near (to). 'Lontano da' = far (from). 'Davanti a' = in front of. 'Dietro' = behind. These describe location.",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-13-lesson-04-tip-03",
-      "title": "Asking for Directions",
-      "explanation": "'Dov'è la stazione?' = Where is the station? Answer: 'È a destra, vicino alla banca' = It's to the right, near the bank. Combine direction + reference point.",
-      "before_exercise": 11
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-13-lesson-04-ex-01",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'destra' mean?" },
-      "sentence_context": "Vai a destra.",
-      "correct_answer": "Right",
-      "distractors": ["Left", "Straight", "Back"],
-      "hints": ["Go right."],
-      "target_words": ["destra"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": {
+        "text": "Tomás is coming to your place by bus. He phones from the stop. Tell him to cross the square and take the first street on the right."
+      },
+      "sentence_context": "Tomás: Sono alla fermata, in piazza. E adesso?\nYou: ___",
+      "correct_answer": ["Attraversa la piazza e prendi la prima a destra.", "Attraversa la piazza, poi prendi la prima strada a destra."],
+      "distractors": [],
+      "hints": ["Two commands to a friend."],
+      "target_words": ["attraversare", "destra"],
+      "dialogue": [
+        { "speaker": "Tomás", "text": "Sono alla fermata, in piazza. E adesso?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-13-lesson-04-ex-02",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'sinistra' mean?" },
-      "sentence_context": "Gira a sinistra.",
-      "correct_answer": "Left",
-      "distractors": ["Right", "Straight", "Forward"],
-      "hints": ["Turn left."],
-      "target_words": ["sinistra"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Yuki and Aiko text you from in front of the Duomo. The bar is straight on, on the corner by the lights." },
+      "sentence_context": "Aiko: Siamo davanti al Duomo. Dov'è il bar?\nYou: ___",
+      "correct_answer": ["Andate dritto fino al semaforo: il bar è all'angolo.", "Andate sempre dritto. Il bar è all'angolo, al semaforo."],
+      "distractors": [],
+      "hints": ["Two friends: andate."],
+      "target_words": ["fino a", "angolo"],
+      "dialogue": [
+        { "speaker": "Aiko", "text": "Siamo davanti al Duomo. Dov'è il bar?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-13-lesson-04-ex-03",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'dritto' mean?" },
-      "sentence_context": "Vai sempre dritto.",
-      "correct_answer": "Straight (ahead)",
-      "distractors": ["Right", "Left", "Back"],
-      "hints": ["Go straight ahead."],
-      "target_words": ["dritto"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Paul is walking with you and wants to turn left. It's straight on." },
+      "sentence_context": "Paul: Giro a sinistra qui?\nYou: ___",
+      "correct_answer": ["No, non girare! Continua dritto.", "No, vai sempre dritto."],
+      "distractors": [],
+      "hints": ["Don't, to a friend: non + the infinitive."],
+      "target_words": ["girare", "continuare"],
+      "dialogue": [
+        { "speaker": "Paul", "text": "Giro a sinistra qui?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-13-lesson-04-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'vicino' mean?" },
-      "sentence_context": "La banca è vicino al cinema.",
-      "correct_answer": "Near",
-      "distractors": ["Far", "Behind", "Inside"],
-      "hints": ["The bank is near the cinema."],
-      "target_words": ["vicino"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Chloé asks if the cinema is far. It's five minutes on foot, at the end of this street." },
+      "sentence_context": "Chloé: È lontano il cinema?\nYou: ___",
+      "correct_answer": ["No, cinque minuti a piedi. È in fondo alla strada.", "No, è in fondo a questa strada."],
+      "distractors": [],
+      "hints": ["In fondo a + la strada."],
+      "target_words": ["in fondo"],
+      "dialogue": [
+        { "speaker": "Chloé", "text": "È lontano il cinema?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-13-lesson-04-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'lontano' mean?" },
-      "sentence_context": "L'ospedale è lontano da qui.",
-      "correct_answer": "Far",
-      "distractors": ["Near", "Next to", "In front"],
-      "hints": ["The hospital is far from here."],
-      "target_words": ["lontano"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Luca is driving to your place and asks where to park. There's a car park behind the church: at the lights he turns right." },
+      "sentence_context": "Luca: C'è un parcheggio vicino a casa tua?\nYou: ___",
+      "correct_answer": ["Sì, dietro la chiesa. Al semaforo gira a destra.", "Sì: al semaforo gira a destra, il parcheggio è dietro la chiesa."],
+      "distractors": [],
+      "hints": ["Where it is, then a command."],
+      "target_words": ["semaforo", "girare"],
+      "dialogue": [
+        { "speaker": "Luca", "text": "C'è un parcheggio vicino a casa tua?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-13-lesson-04-ex-06",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'davanti' mean here?" },
-      "sentence_context": "La farmacia è davanti alla banca.",
-      "correct_answer": "In front of",
-      "distractors": ["Behind", "Near", "Between"],
-      "hints": ["The pharmacy is in front of the bank."],
-      "target_words": ["davanti"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend wants to go this way, but it's the wrong way." },
+      "sentence_context": "Friend: Andiamo di qua?\nYou: ___",
+      "correct_answer": ["No, è la strada sbagliata. Torniamo indietro.", "No, di qua è sbagliato. Torniamo indietro!"],
+      "distractors": [],
+      "hints": ["Let's go back: the noi form."],
+      "target_words": ["sbagliato", "indietro"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Andiamo di qua?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-13-lesson-04-ex-07",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'dietro' mean?" },
-      "sentence_context": "Il giardino è dietro la casa.",
-      "correct_answer": "Behind",
-      "distractors": ["In front of", "Near", "Inside"],
-      "hints": ["The garden is behind the house."],
-      "target_words": ["dietro"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend arrives at the station and asks if she should take a taxi. Your place is close: tell her to walk." },
+      "sentence_context": "Friend: Sono alla stazione. Prendo un taxi?\nYou: ___",
+      "correct_answer": ["No, vieni a piedi: ci vogliono dieci minuti.", "No, non prendere il taxi! Vieni a piedi, è vicino."],
+      "distractors": [],
+      "hints": ["Venire, to a friend: vieni."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Sono alla stazione. Prendo un taxi?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-13-lesson-04-ex-08",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "La banca è a ___.",
-      "correct_answer": "destra",
-      "distractors": [],
-      "hints": ["The bank is on the right."],
-      "target_words": ["destra"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Two friends are about to cross a busy road without looking. You shout:" },
+      "sentence_context": "",
+      "correct_answer": "Attenzione! Non attraversate!",
+      "distractors": ["Attenzione! Non attraversare!", "Attenzione! Attraversate!"],
+      "hints": ["Two friends: voi."],
+      "target_words": ["attraversare"]
     },
     {
       "id": "unit-13-lesson-04-ex-09",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Gira a ___.",
-      "correct_answer": "sinistra",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Tell a friend: don't take the bus, it's close." },
+      "sentence_context": "",
+      "correct_answer": ["non prendere l'autobus, è vicino"],
       "distractors": [],
-      "hints": ["Turn left."],
-      "target_words": ["sinistra"]
+      "hints": ["Don't, to a friend: non + the infinitive."],
+      "target_words": []
     },
     {
       "id": "unit-13-lesson-04-ex-10",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Vai sempre ___.",
-      "correct_answer": "dritto",
-      "distractors": [],
-      "hints": ["Go straight ahead."],
-      "target_words": ["dritto"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Let's cross here, at the lights.'" },
+      "sentence_context": "Attraversiamo qui, al semaforo.",
+      "correct_answer": ["Attraversiamo", "qui,", "al", "semaforo."],
+      "distractors": ["attraversa", "angolo"],
+      "hints": ["Let's: the noi form."],
+      "target_words": ["attraversare", "semaforo"]
     },
     {
       "id": "unit-13-lesson-04-ex-11",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "La chiesa è ___ alla stazione.",
-      "correct_answer": "vicino",
-      "distractors": [],
-      "hints": ["The church is near the station."],
-      "target_words": ["vicino"]
-    },
-    {
-      "id": "unit-13-lesson-04-ex-12",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'right' (direction) in Italian?" },
-      "sentence_context": "Vai a destra.",
-      "correct_answer": "destra",
-      "distractors": [],
-      "hints": ["'A destra' as a phrase."],
-      "target_words": ["destra"]
-    },
-    {
-      "id": "unit-13-lesson-04-ex-13",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'left' (direction) in Italian?" },
-      "sentence_context": "Gira a sinistra.",
-      "correct_answer": "sinistra",
-      "distractors": [],
-      "hints": ["'A sinistra' as a phrase."],
-      "target_words": ["sinistra"]
-    },
-    {
-      "id": "unit-13-lesson-04-ex-14",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'straight ahead' in Italian?" },
-      "sentence_context": "Vai sempre dritto.",
-      "correct_answer": "dritto",
-      "distractors": [],
-      "hints": ["Often paired with 'sempre'."],
-      "target_words": ["dritto"]
-    },
-    {
-      "id": "unit-13-lesson-04-ex-15",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'near' in Italian?" },
-      "sentence_context": "La banca è vicino al cinema.",
-      "correct_answer": "vicino",
-      "distractors": [],
-      "hints": ["The opposite of 'lontano'."],
-      "target_words": ["vicino"]
-    },
-    {
-      "id": "unit-13-lesson-04-ex-16",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Where is the station?'" },
-      "sentence_context": "Dov'è la stazione?",
-      "correct_answer": ["Dov'è", "la", "stazione?"],
-      "distractors": ["dove", "in"],
-      "hints": ["'Dov'è' = 'Dove è' contracted."],
-      "target_words": ["stazione"]
-    },
-    {
-      "id": "unit-13-lesson-04-ex-17",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Go straight ahead, then right.'" },
-      "sentence_context": "Vai sempre dritto, poi a destra.",
-      "correct_answer": ["Vai", "sempre", "dritto,", "poi", "a", "destra."],
-      "distractors": ["sinistra", "vicino"],
-      "hints": ["Directions in sequence."],
-      "target_words": ["dritto", "destra"]
-    },
-    {
-      "id": "unit-13-lesson-04-ex-18",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'The bank is near the pharmacy.'" },
-      "sentence_context": "La banca è vicino alla farmacia.",
-      "correct_answer": ["La", "banca", "è", "vicino", "alla", "farmacia."],
-      "distractors": ["lontano", "ospedale"],
-      "hints": ["'Vicino a' + place."],
-      "target_words": ["vicino", "banca", "farmacia"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Tell a friend: carry on as far as the bridge, then turn left." },
+      "sentence_context": "",
+      "correct_answer": ["continua fino al ponte, poi gira a sinistra", "continua fino al ponte e poi gira a sinistra"],
+      "distractors": [],
+      "hints": ["Continua, then gira."],
+      "target_words": ["continuare", "ponte"]
     }
   ],
-  "vocabulary": [
-    { "word": "destra", "meaning": "Right (direction)", "example": "Vai a destra." },
-    { "word": "sinistra", "meaning": "Left (direction)", "example": "Gira a sinistra." },
-    { "word": "dritto", "meaning": "Straight (ahead)", "example": "Vai sempre dritto." },
-    { "word": "vicino", "meaning": "Near", "example": "La banca è vicino al cinema." },
-    { "word": "lontano", "meaning": "Far", "example": "L'ospedale è lontano da qui." },
-    { "word": "davanti", "meaning": "In front of", "example": "La farmacia è davanti alla banca." },
-    { "word": "dietro", "meaning": "Behind", "example": "Il giardino è dietro la casa." }
-  ]
+  "vocabulary": []
 }

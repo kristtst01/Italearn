@@ -239,7 +239,7 @@ L.answer('Che cosa hanno sempre nello zaino gli studenti di Giulia?', ['un ombre
 L = lesson(7, 'A Card for Giulia', 'writing')
 L.reading = {"title": "Cari studenti", "paragraphs": [
     "Cari studenti,",
-    "la scuola è chiusa per le vacanze di Natale dal 22 dicembre al 6 gennaio. Le lezioni cominciano di nuovo il 7 gennaio, alle nove.",
+    "la scuola è chiusa per le vacanze di Natale dal 22 dicembre al 6 gennaio. Le lezioni cominciano di nuovo il 7 gennaio, alle due, come sempre.",
     "Ma prima festeggiamo insieme: venerdì 18 dicembre, dopo la lezione, in classe. Io porto un dolce di Natale e una bottiglia di vino. E voi?",
     "A Natale sto a Firenze, e a Capodanno vado in montagna con gli amici, a sciare. Lì c'è già la neve!",
     "Tanti auguri di buon Natale e felice anno nuovo a tutti!",

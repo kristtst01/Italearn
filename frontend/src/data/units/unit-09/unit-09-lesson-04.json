@@ -1,280 +1,137 @@
 {
   "id": "unit-09-lesson-04",
   "unit_id": "unit-09",
-  "name": "Telling the Time",
+  "name": "What Time Do You…?",
   "order": 4,
-  "grammar_tips": [
-    {
-      "id": "unit-09-lesson-04-tip-01",
-      "title": "Telling the Time",
-      "explanation": "For most times use 'sono le' + number: 'Sono le tre' (3:00), 'Sono le dieci' (10:00). For 1:00, noon and midnight use 'è': 'È l'una', 'È mezzogiorno', 'È mezzanotte'.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-09-lesson-04-tip-02",
-      "title": "Half and Quarter",
-      "explanation": "'e mezza' = half past. 'e un quarto' = quarter past. 'meno un quarto' = quarter to. 'Sono le tre e mezza' (3:30), 'Sono le tre meno un quarto' (2:45).",
-      "before_exercise": 8
-    },
-    {
-      "id": "unit-09-lesson-04-tip-03",
-      "title": "At + Time",
-      "explanation": "To say 'at [time]', use 'alle' + number: 'alle sette' (at 7:00). For 1:00, noon, midnight, use 'all'una', 'a mezzogiorno', 'a mezzanotte'.",
-      "before_exercise": 14
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-09-lesson-04-ex-01",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'ora' mean?" },
-      "sentence_context": "Che ora è?",
-      "correct_answer": "Hour / time",
-      "distractors": ["Day", "Morning", "Minute"],
-      "hints": ["What time is it?"],
-      "target_words": ["ora"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Giulia asks the class about their mornings. You wake up at a quarter past seven." },
+      "sentence_context": "Giulia: A che ora ti svegli la mattina?\nYou: ___",
+      "correct_answer": ["Mi sveglio alle sette e un quarto.", "Alle sette e un quarto."],
+      "distractors": [],
+      "hints": ["E un quarto: a quarter past."],
+      "target_words": ["svegliarsi"],
+      "dialogue": [
+        { "speaker": "Giulia", "text": "A che ora ti svegli la mattina?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-09-lesson-04-ex-02",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'mezzogiorno' mean?" },
-      "sentence_context": "È mezzogiorno.",
-      "correct_answer": "Noon / midday",
-      "distractors": ["Midnight", "Morning", "Evening"],
-      "hints": ["Twelve o'clock in the day."],
-      "target_words": ["mezzogiorno"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Luca asks if you get up straight away. No: you stay in bed ten more minutes with your phone." },
+      "sentence_context": "Luca: E ti alzi subito?\nYou: ___",
+      "correct_answer": ["No, sto a letto ancora dieci minuti con il telefono.", "No, mi alzo dopo dieci minuti."],
+      "distractors": [],
+      "hints": ["Stare a letto: to stay in bed."],
+      "target_words": ["alzarsi"],
+      "dialogue": [
+        { "speaker": "Luca", "text": "E ti alzi subito?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-09-lesson-04-ex-03",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'mezzanotte' mean?" },
-      "sentence_context": "È mezzanotte.",
-      "correct_answer": "Midnight",
-      "distractors": ["Noon", "Evening", "Morning"],
-      "hints": ["Twelve o'clock at night."],
-      "target_words": ["mezzanotte"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A classmate asks where you have breakfast. Usually at the bar: a cappuccino and a cornetto." },
+      "sentence_context": "Classmate: Fai colazione a casa o al bar?\nYou: ___",
+      "correct_answer": ["Di solito al bar: un cappuccino e un cornetto.", "Di solito faccio colazione al bar."],
+      "distractors": [],
+      "hints": ["Di solito at the start."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Classmate", "text": "Fai colazione a casa o al bar?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-09-lesson-04-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'presto' mean?" },
-      "sentence_context": "Mi alzo presto.",
-      "correct_answer": "Early",
-      "distractors": ["Late", "Slowly", "Now"],
-      "hints": ["I get up early."],
-      "target_words": ["presto"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend asks if you work on Saturdays too. Never: on Saturdays you rest." },
+      "sentence_context": "Friend: Lavori anche il sabato?\nYou: ___",
+      "correct_answer": ["No, il sabato non lavoro mai. Mi riposo!", "No, mai. Il sabato mi riposo."],
+      "distractors": [],
+      "hints": ["Non … mai."],
+      "target_words": ["riposarsi"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Lavori anche il sabato?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-09-lesson-04-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'tardi' mean?" },
-      "sentence_context": "Mi addormento tardi.",
-      "correct_answer": "Late",
-      "distractors": ["Early", "Soon", "Quickly"],
-      "hints": ["The opposite of 'presto'."],
-      "target_words": ["tardi"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your neighbour, Signora Bianchi, sees you leave at half past six. Your shift starts at seven." },
+      "sentence_context": "Signora Bianchi: Buongiorno! Esce sempre così presto?\nYou: ___",
+      "correct_answer": ["Sì, il turno comincia alle sette.", "Sì, comincio a lavorare alle sette."],
+      "distractors": [],
+      "hints": ["She uses Lei; you answer about yourself."],
+      "target_words": ["turno"],
+      "dialogue": [
+        { "speaker": "Signora Bianchi", "text": "Buongiorno! Esce sempre così presto?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-09-lesson-04-ex-06",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'orologio' mean?" },
-      "sentence_context": "Ho un orologio nuovo.",
-      "correct_answer": "Clock / watch",
-      "distractors": ["Hour", "Day", "Time"],
-      "hints": ["The thing that tells you the time."],
-      "target_words": ["orologio"]
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Emma asks the time. It's twenty to nine." },
+      "sentence_context": "Emma: Che ore sono? Non ho l'orologio.\nYou: ___",
+      "correct_answer": ["Sono le nove meno venti.", "Sono le otto e quaranta."],
+      "distractors": [],
+      "hints": ["The next hour, meno the minutes."],
+      "target_words": ["orologio"],
+      "dialogue": [
+        { "speaker": "Emma", "text": "Che ore sono? Non ho l'orologio." },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-09-lesson-04-ex-07",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Sono le tre e ___.",
-      "correct_answer": "mezza",
-      "distractors": [],
-      "hints": ["It's half past three."],
-      "target_words": ["mezza"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You go to the gym every day. How do you say it?" },
+      "sentence_context": "",
+      "correct_answer": "Vado in palestra ogni giorno.",
+      "distractors": ["Vado in palestra ogni giorni.", "Vado in palestra tutti giorni."],
+      "hints": ["Ogni takes a singular noun."],
+      "target_words": []
     },
     {
       "id": "unit-09-lesson-04-ex-08",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Sono le due e un ___.",
-      "correct_answer": "quarto",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend asks when you finish work on Mondays. Late: at eight in the evening." },
+      "sentence_context": "Friend: Il lunedì a che ora finisci?\nYou: ___",
+      "correct_answer": ["Tardi, alle otto di sera.", "Il lunedì finisco tardi, alle otto."],
       "distractors": [],
-      "hints": ["It's quarter past two."],
-      "target_words": ["quarto"]
+      "hints": ["Tardi, then the time."],
+      "target_words": ["finire", "tardi"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Il lunedì a che ora finisci?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-09-lesson-04-ex-09",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Mi sveglio ___.",
-      "correct_answer": "presto",
-      "distractors": [],
-      "hints": ["I wake up early."],
-      "target_words": ["presto"]
-    },
-    {
-      "id": "unit-09-lesson-04-ex-10",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Anna mangia ___.",
-      "correct_answer": "tardi",
-      "distractors": [],
-      "hints": ["Anna eats late."],
-      "target_words": ["tardi"]
-    },
-    {
-      "id": "unit-09-lesson-04-ex-11",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "L' ___ è nuovo.",
-      "correct_answer": "orologio",
-      "distractors": [],
-      "hints": ["The clock/watch is new."],
-      "target_words": ["orologio"]
-    },
-    {
-      "id": "unit-09-lesson-04-ex-12",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'noon' in Italian?" },
-      "sentence_context": "È mezzogiorno.",
-      "correct_answer": "mezzogiorno",
+      "prompt": { "text": "Say you never go to bed before midnight." },
+      "sentence_context": "",
+      "correct_answer": ["Non vado mai a letto prima di mezzanotte."],
       "distractors": [],
-      "hints": ["Midday — one word."],
-      "target_words": ["mezzogiorno"]
-    },
-    {
-      "id": "unit-09-lesson-04-ex-13",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'midnight' in Italian?" },
-      "sentence_context": "È mezzanotte.",
-      "correct_answer": "mezzanotte",
-      "distractors": [],
-      "hints": ["Twelve at night — one word."],
-      "target_words": ["mezzanotte"]
-    },
-    {
-      "id": "unit-09-lesson-04-ex-14",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'hour' in Italian?" },
-      "sentence_context": "Studio per un'ora.",
-      "correct_answer": "ora",
-      "distractors": [],
-      "hints": ["Sixty minutes."],
-      "target_words": ["ora"]
-    },
-    {
-      "id": "unit-09-lesson-04-ex-15",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in 'sono' or 'è': it's 3 o'clock." },
-      "sentence_context": "___ le tre.",
-      "correct_answer": "Sono",
-      "distractors": [],
-      "hints": ["Most times use 'sono le'."],
-      "target_words": ["ora"]
-    },
-    {
-      "id": "unit-09-lesson-04-ex-16",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in 'sono' or 'è': it's midnight." },
-      "sentence_context": "___ mezzanotte.",
-      "correct_answer": "È",
-      "distractors": [],
-      "hints": ["Midnight is singular → è."],
-      "target_words": ["mezzanotte"]
-    },
-    {
-      "id": "unit-09-lesson-04-ex-17",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in 'sono' or 'è': it's 1 o'clock." },
-      "sentence_context": "___ l'una.",
-      "correct_answer": "È",
-      "distractors": [],
-      "hints": ["1:00 is singular → è l'una."],
-      "target_words": ["ora"]
-    },
-    {
-      "id": "unit-09-lesson-04-ex-18",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in 'alle' or 'a': at 7 o'clock." },
-      "sentence_context": "Mi sveglio ___ sette.",
-      "correct_answer": "alle",
-      "distractors": [],
-      "hints": ["For most times use 'alle'."],
-      "target_words": ["ora"]
-    },
-    {
-      "id": "unit-09-lesson-04-ex-19",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'It's half past two.'" },
-      "sentence_context": "Sono le due e mezza.",
-      "correct_answer": ["Sono", "le", "due", "e", "mezza."],
-      "distractors": ["è", "quarto"],
-      "hints": ["Use 'sono le' for two o'clock."],
-      "target_words": ["mezza"]
-    },
-    {
-      "id": "unit-09-lesson-04-ex-20",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: \"It's quarter past three.\"" },
-      "sentence_context": "Sono le tre e un quarto.",
-      "correct_answer": ["Sono", "le", "tre", "e", "un", "quarto."],
-      "distractors": ["mezza", "è"],
-      "hints": ["'e un quarto' = quarter past."],
-      "target_words": ["quarto"]
-    },
-    {
-      "id": "unit-09-lesson-04-ex-21",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I get up at seven.'" },
-      "sentence_context": "Mi alzo alle sette.",
-      "correct_answer": ["Mi", "alzo", "alle", "sette."],
-      "distractors": ["sveglio", "è"],
-      "hints": ["Use 'alle' + time."],
-      "target_words": ["ora"]
-    },
-    {
-      "id": "unit-09-lesson-04-ex-22",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I eat at noon.'" },
-      "sentence_context": "Mangio a mezzogiorno.",
-      "correct_answer": ["Mangio", "a", "mezzogiorno."],
-      "distractors": ["alle", "mezzanotte"],
-      "hints": ["For 'at noon' use 'a mezzogiorno'."],
-      "target_words": ["mezzogiorno"]
+      "hints": ["Non … mai; prima di."],
+      "target_words": []
     }
   ],
-  "vocabulary": [
-    { "word": "ora", "meaning": "Hour / time", "example": "Che ora è?" },
-    { "word": "mezzogiorno", "meaning": "Noon / midday", "example": "È mezzogiorno." },
-    { "word": "mezzanotte", "meaning": "Midnight", "example": "È mezzanotte." },
-    { "word": "mezza", "meaning": "Half (past)", "example": "Sono le tre e mezza." },
-    { "word": "quarto", "meaning": "Quarter (past)", "example": "Sono le due e un quarto." },
-    { "word": "presto", "meaning": "Early", "example": "Mi alzo presto." },
-    { "word": "tardi", "meaning": "Late", "example": "Mi addormento tardi." },
-    { "word": "orologio", "meaning": "Clock / watch", "example": "Ho un orologio nuovo." }
-  ]
+  "vocabulary": []
 }

@@ -1,89 +1,199 @@
 {
   "id": "unit-18-lesson-05",
   "unit_id": "unit-18",
-  "name": "Practice Writing",
+  "name": "Yes, No, Maybe",
   "order": 5,
-  "grammar_tips": [
-    {
-      "id": "unit-18-lesson-05-tip-01",
-      "title": "Likes & Preferences",
-      "explanation": "Write about what you like, what you don't like, and what you prefer. Use 'mi piace / mi piacciono' + nouns or infinitives, and 'preferire ... a ...' for preferences.",
-      "before_exercise": 0
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-18-lesson-05-ex-01",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Say three things you like — at least one singular and one plural. (3-4 sentences)"
-      },
-      "sentence_context": "",
-      "correct_answer": "Mi piace il caffè. Mi piacciono i film italiani. Mi piace tanto leggere la sera. Mi piace anche viaggiare.",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Luca loves football and asks about you. You don't like it." },
+      "sentence_context": "Luca: Mi piace tanto il calcio. E a te?\nYou: ___",
+      "correct_answer": ["A me no. Preferisco il tennis.", "A me non piace per niente!"],
       "distractors": [],
-      "hints": [
-        "Mix singular 'piace' and plural 'piacciono'."
-      ],
-      "target_words": [
-        "piacere",
-        "tanto"
+      "hints": ["A me no."],
+      "target_words": ["per niente"],
+      "dialogue": [
+        { "speaker": "Luca", "text": "Mi piace tanto il calcio. E a te?" },
+        { "speaker": "You" }
       ]
     },
     {
       "id": "unit-18-lesson-05-ex-02",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Say two activities you like to do and one you don't. (3-4 sentences)"
-      },
-      "sentence_context": "",
-      "correct_answer": "Mi piace ballare e cantare. Mi piace anche viaggiare in Italia. Non mi piace correre la mattina.",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Emma doesn't like the cold. Neither do you." },
+      "sentence_context": "Emma: Non mi piace il freddo.\nYou: ___",
+      "correct_answer": ["Neanche a me!", "Neanche a me. Preferisco il caldo."],
       "distractors": [],
-      "hints": [
-        "Mi piace + infinitive. Use 'non mi piace' for one."
-      ],
-      "target_words": [
-        "ballare",
-        "cantare",
-        "correre"
+      "hints": ["Agreeing with a negative."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Emma", "text": "Non mi piace il freddo." },
+        { "speaker": "You" }
       ]
     },
     {
       "id": "unit-18-lesson-05-ex-03",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Compare two things using 'più' or 'meno'. (3-4 sentences)"
-      },
-      "sentence_context": "",
-      "correct_answer": "Roma è più grande di Milano. La pizza è più buona della pasta. Il tè è meno caro del caffè. Preferisco la pizza.",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Chloé invites you to a party at the bar on Saturday. Accept, and ask what time it starts." },
+      "sentence_context": "Chloé: Sabato c'è una festa al bar. Ti va di venire?\nYou: ___",
+      "correct_answer": ["Sì, volentieri! A che ora?", "Volentieri! A che ora comincia?"],
       "distractors": [],
-      "hints": [
-        "più / meno + adjective + 'di' + thing."
-      ],
-      "target_words": [
-        "più",
-        "meno",
-        "preferire"
+      "hints": ["Volentieri, then a che ora."],
+      "target_words": ["festa"],
+      "dialogue": [
+        { "speaker": "Chloé", "text": "Sabato c'è una festa al bar. Ti va di venire?" },
+        { "speaker": "You" }
       ]
     },
     {
       "id": "unit-18-lesson-05-ex-04",
       "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Talk about what someone in your family likes (use 'a Marco piace...' or 'gli piace'). (3-4 sentences)"
-      },
-      "sentence_context": "",
-      "correct_answer": "A mio padre piace il calcio. Gli piace anche guardare la partita la domenica. A mia madre piacciono i libri. Le piace leggere la sera.",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Chloé says it starts at nine and asks what you are bringing. You bring a bottle of wine." },
+      "sentence_context": "Chloé: Alle nove. Che cosa porti?\nYou: ___",
+      "correct_answer": ["Porto una bottiglia di vino.", "Una bottiglia di vino!"],
       "distractors": [],
-      "hints": [
-        "Use 'A [name] piace' or 'gli/le piace'."
-      ],
-      "target_words": [
-        "piacere"
+      "hints": ["Porto…"],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Chloé", "text": "Alle nove. Che cosa porti?" },
+        { "speaker": "You" }
       ]
+    },
+    {
+      "id": "unit-18-lesson-05-ex-05",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Tomás invites you to an exhibition on Sunday. You have something on: suggest Saturday instead." },
+      "sentence_context": "Tomás: Andiamo alla mostra domenica?\nYou: ___",
+      "correct_answer": ["Domenica ho un impegno. Magari sabato?", "Purtroppo domenica sono occupato. Sabato?"],
+      "distractors": [],
+      "hints": ["Ho un impegno, then another day."],
+      "target_words": ["impegno", "mostra"],
+      "dialogue": [
+        { "speaker": "Tomás", "text": "Andiamo alla mostra domenica?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-18-lesson-05-ex-06",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You meet Yuki. Invite her to a concert on Friday." },
+      "sentence_context": "Yuki: Ciao! Come va?\nYou: ___",
+      "correct_answer": ["Bene! Ti va di venire a un concerto venerdì?", "Bene, grazie. Venerdì c'è un concerto: vieni?"],
+      "distractors": [],
+      "hints": ["Ti va di…?"],
+      "target_words": ["concerto", "ti va?"],
+      "dialogue": [
+        { "speaker": "Yuki", "text": "Ciao! Come va?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-18-lesson-05-ex-07",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Yuki can't come. Say it's a shame, and suggest another time." },
+      "sentence_context": "Yuki: Purtroppo venerdì lavoro.\nYou: ___",
+      "correct_answer": ["Che peccato! Magari un'altra volta.", "Peccato! Allora un'altra volta."],
+      "distractors": [],
+      "hints": ["Che peccato, then un'altra volta."],
+      "target_words": ["peccato"],
+      "dialogue": [
+        { "speaker": "Yuki", "text": "Purtroppo venerdì lavoro." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-18-lesson-05-ex-08",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your neighbour, Signora Bianchi, has two tickets for the theatre on Saturday. Accept politely." },
+      "sentence_context": "Signora Bianchi: Le piace il teatro? Ho due biglietti per sabato.\nYou: ___",
+      "correct_answer": ["Sì, molto! Grazie per l'invito.", "Volentieri, grazie! Sabato sono libero."],
+      "distractors": [],
+      "hints": ["Thank her for the invitation."],
+      "target_words": ["invito"],
+      "dialogue": [
+        { "speaker": "Signora Bianchi", "text": "Le piace il teatro? Ho due biglietti per sabato." },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-18-lesson-05-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Paul asks: \"Facciamo alle otto?\" Eight is no good for you, but nine is fine. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Alle otto no, ma alle nove sì.",
+      "distractors": ["Alle otto sì, ma alle nove no.", "Alle otto e alle nove no."],
+      "hints": ["No to eight, yes to nine."],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-05-ex-10",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Paul asks if you're coming to the party. You aren't sure yet." },
+      "sentence_context": "Paul: Vieni alla festa stasera?\nYou: ___",
+      "correct_answer": ["Forse. Non lo so ancora.", "Forse vengo, ma non lo so."],
+      "distractors": [],
+      "hints": ["Forse."],
+      "target_words": ["forse"],
+      "dialogue": [
+        { "speaker": "Paul", "text": "Vieni alla festa stasera?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-18-lesson-05-ex-11",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake." },
+      "sentence_context": "Mi piace i concerti.",
+      "correct_answer": ["Mi piacciono i concerti."],
+      "distractors": [],
+      "hints": ["More than one concert."],
+      "target_words": ["concerto"]
+    },
+    {
+      "id": "unit-18-lesson-05-ex-12",
+      "type": "writing",
+      "subtype": "find_mistake",
+      "prompt": { "text": "Fix the mistake." },
+      "sentence_context": "Paul piace ballare.",
+      "correct_answer": ["A Paul piace ballare."],
+      "distractors": [],
+      "hints": ["With a name: a."],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-05-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say: We like going to the theatre." },
+      "sentence_context": "",
+      "correct_answer": ["ci piace andare a teatro"],
+      "distractors": [],
+      "hints": ["To us: ci."],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-05-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask your teacher, formally, if she likes painting." },
+      "sentence_context": "",
+      "correct_answer": ["le piace dipingere"],
+      "distractors": [],
+      "hints": ["For Lei: Le."],
+      "target_words": ["dipingere"]
     }
   ],
   "vocabulary": []

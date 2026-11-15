@@ -1,0 +1,109 @@
+{
+  "id": "unit-20-lesson-11",
+  "unit_id": "unit-20",
+  "name": "Say It Out Loud",
+  "order": 11,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-20-lesson-11-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Mi fa male la testa.",
+      "correct_answer": "Mi fa male la testa.",
+      "distractors": [],
+      "hints": ["Male: stress on the first syllable, ma-le."],
+      "target_words": ["testa", "mi fa male"]
+    },
+    {
+      "id": "unit-20-lesson-11-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Mi fanno male le gambe.",
+      "correct_answer": "Mi fanno male le gambe.",
+      "distractors": [],
+      "hints": ["Fanno: hold the double n."],
+      "target_words": ["gamba", "mi fa male"]
+    },
+    {
+      "id": "unit-20-lesson-11-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ho il raffreddore e la tosse.",
+      "correct_answer": "Ho il raffreddore e la tosse.",
+      "distractors": [],
+      "hints": ["Raffreddore: two f, two d. Tosse: double s."],
+      "target_words": ["raffreddore", "tosse"]
+    },
+    {
+      "id": "unit-20-lesson-11-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ho la febbre a trentotto.",
+      "correct_answer": "Ho la febbre a trentotto.",
+      "distractors": [],
+      "hints": ["Febbre: hold the double b."],
+      "target_words": ["febbre"]
+    },
+    {
+      "id": "unit-20-lesson-11-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Vorrei qualcosa per il mal di gola.",
+      "correct_answer": "Vorrei qualcosa per il mal di gola.",
+      "distractors": [],
+      "hints": ["Qualcosa: qu as in quick."],
+      "target_words": ["qualcosa", "mal di"]
+    },
+    {
+      "id": "unit-20-lesson-11-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Lo sciroppo per la tosse, per favore.",
+      "correct_answer": "Lo sciroppo per la tosse, per favore.",
+      "distractors": [],
+      "hints": ["Sciroppo: sci sounds like the sh in shop."],
+      "target_words": ["sciroppo"]
+    },
+    {
+      "id": "unit-20-lesson-11-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Da quanto tempo ha la febbre?",
+      "correct_answer": "Da quanto tempo ha la febbre?",
+      "distractors": [],
+      "hints": ["A question from the doctor."],
+      "target_words": ["febbre"]
+    },
+    {
+      "id": "unit-20-lesson-11-ex-08",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Non è grave, ma deve restare a casa.",
+      "correct_answer": "Non è grave, ma deve restare a casa.",
+      "distractors": [],
+      "hints": ["Grave: two syllables, gra-ve."],
+      "target_words": ["grave", "restare"]
+    },
+    {
+      "id": "unit-20-lesson-11-ex-09",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Resta a letto e guarisci presto!",
+      "correct_answer": "Resta a letto e guarisci presto!",
+      "distractors": [],
+      "hints": ["Guarisci: sci again, like sh."],
+      "target_words": ["restare", "guarire"]
+    }
+  ],
+  "vocabulary": []
+}

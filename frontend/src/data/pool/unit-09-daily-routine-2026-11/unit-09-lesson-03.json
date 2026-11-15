@@ -1,0 +1,319 @@
+{
+  "id": "unit-09-lesson-03",
+  "unit_id": "unit-09",
+  "name": "Reflexive Verbs",
+  "order": 3,
+  "grammar_tips": [
+    {
+      "id": "unit-09-lesson-03-tip-01",
+      "title": "Reflexive Verbs",
+      "explanation": "Some verbs describe an action you do to yourself. 'Mi lavo' = I wash myself. They use a small pronoun before the verb: mi (myself), ti (yourself), si (himself/herself), ci (ourselves), vi (yourselves), si (themselves).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-09-lesson-03-tip-02",
+      "title": "Pronoun Before the Verb",
+      "explanation": "The reflexive pronoun comes before the verb: 'mi sveglio' (I wake up), 'ti svegli' (you wake up), 'si sveglia' (he/she wakes up). The verb itself takes the normal -are endings.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-09-lesson-03-tip-03",
+      "title": "Mi Chiamo Was Reflexive",
+      "explanation": "You've used a reflexive verb since Unit 2: 'mi chiamo' literally means 'I call myself'. The infinitive is 'chiamarsi'. Now you can see why it's 'mi chiamo' and not just 'chiamo'.",
+      "before_exercise": 12
+    },
+    {
+      "id": "unit-09-lesson-03-tip-04",
+      "title": "Infinitive Ends in -si",
+      "explanation": "In the dictionary, a reflexive verb ends in -si: svegliarsi (to wake up), lavarsi (to wash), addormentarsi (to fall asleep). When you use it, drop -si and add the right pronoun + verb form.",
+      "before_exercise": 18
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-09-lesson-03-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mi sveglio' mean?" },
+      "sentence_context": "La mattina mi sveglio.",
+      "correct_answer": "I wake up",
+      "distractors": ["I get up", "I wash", "I get dressed"],
+      "hints": ["In the morning I wake up."],
+      "target_words": ["svegliarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mi alzo' mean?" },
+      "sentence_context": "Mi alzo.",
+      "correct_answer": "I get up",
+      "distractors": ["I wake up", "I rest", "I wash"],
+      "hints": ["You wake up, then you get up."],
+      "target_words": ["alzarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mi lavo' mean?" },
+      "sentence_context": "Mi lavo.",
+      "correct_answer": "I wash (myself)",
+      "distractors": ["I get dressed", "I wake up", "I prepare"],
+      "hints": ["An action you do to yourself."],
+      "target_words": ["lavarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mi vesto' mean?" },
+      "sentence_context": "Mi vesto.",
+      "correct_answer": "I get dressed",
+      "distractors": ["I wash", "I rest", "I wake up"],
+      "hints": ["You put your clothes on."],
+      "target_words": ["vestirsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mi preparo' mean?" },
+      "sentence_context": "Io mi preparo.",
+      "correct_answer": "I get ready",
+      "distractors": ["I rest", "I wake up", "I fall asleep"],
+      "hints": ["Getting ready to go out."],
+      "target_words": ["prepararsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mi riposo' mean?" },
+      "sentence_context": "La sera mi riposo.",
+      "correct_answer": "I rest",
+      "distractors": ["I wake up", "I get dressed", "I fall asleep"],
+      "hints": ["In the evening I rest."],
+      "target_words": ["riposarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mi addormento' mean?" },
+      "sentence_context": "Mi addormento la sera.",
+      "correct_answer": "I fall asleep",
+      "distractors": ["I wake up", "I rest", "I get ready"],
+      "hints": ["The opposite of waking up."],
+      "target_words": ["addormentarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'mi chiamo' literally mean?" },
+      "sentence_context": "Mi chiamo Marco.",
+      "correct_answer": "I call myself",
+      "distractors": ["I am called", "My name", "I name"],
+      "hints": ["From the reflexive verb chiamarsi."],
+      "target_words": ["chiamarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Marco si ___.",
+      "correct_answer": "sveglia",
+      "distractors": [],
+      "hints": ["Marco wakes up."],
+      "target_words": ["svegliarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Tu ti ___.",
+      "correct_answer": "lavi",
+      "distractors": [],
+      "hints": ["You wash yourself."],
+      "target_words": ["lavarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Anna si ___ presto.",
+      "correct_answer": "alza",
+      "distractors": [],
+      "hints": ["Anna gets up early."],
+      "target_words": ["alzarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Noi ci ___ la sera.",
+      "correct_answer": "riposiamo",
+      "distractors": [],
+      "hints": ["We rest in the evening."],
+      "target_words": ["riposarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the reflexive pronoun for 'io'." },
+      "sentence_context": "Io ___ sveglio.",
+      "correct_answer": "mi",
+      "distractors": [],
+      "hints": ["myself → mi"],
+      "target_words": ["svegliarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the reflexive pronoun for 'tu'." },
+      "sentence_context": "Tu ___ vesti.",
+      "correct_answer": "ti",
+      "distractors": [],
+      "hints": ["yourself → ti"],
+      "target_words": ["vestirsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the reflexive pronoun for 'lui/lei'." },
+      "sentence_context": "Lei ___ lava.",
+      "correct_answer": "si",
+      "distractors": [],
+      "hints": ["himself/herself → si"],
+      "target_words": ["lavarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the reflexive pronoun for 'noi'." },
+      "sentence_context": "Noi ___ riposiamo.",
+      "correct_answer": "ci",
+      "distractors": [],
+      "hints": ["ourselves → ci"],
+      "target_words": ["riposarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-17",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the reflexive pronoun for 'voi'." },
+      "sentence_context": "Voi ___ preparate.",
+      "correct_answer": "vi",
+      "distractors": [],
+      "hints": ["yourselves (plural) → vi"],
+      "target_words": ["prepararsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-18",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the reflexive pronoun for 'loro'." },
+      "sentence_context": "Loro ___ addormentano.",
+      "correct_answer": "si",
+      "distractors": [],
+      "hints": ["themselves → si (same as he/she)"],
+      "target_words": ["addormentarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-19",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'io' form of 'alzarsi'." },
+      "sentence_context": "Io mi ___.",
+      "correct_answer": "alzo",
+      "distractors": [],
+      "hints": ["io → -o ending."],
+      "target_words": ["alzarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-20",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'io' form of 'vestirsi'." },
+      "sentence_context": "Io mi ___.",
+      "correct_answer": "vesto",
+      "distractors": [],
+      "hints": ["io → -o ending."],
+      "target_words": ["vestirsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-21",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Fill in the 'io' form of 'prepararsi'." },
+      "sentence_context": "Io mi ___.",
+      "correct_answer": "preparo",
+      "distractors": [],
+      "hints": ["io → -o ending."],
+      "target_words": ["prepararsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-22",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I wake up.'" },
+      "sentence_context": "Io mi sveglio.",
+      "correct_answer": ["Io", "mi", "sveglio."],
+      "distractors": ["ti", "si"],
+      "hints": ["The pronoun 'mi' comes before the verb."],
+      "target_words": ["svegliarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-23",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'Marco gets dressed.'" },
+      "sentence_context": "Marco si veste.",
+      "correct_answer": ["Marco", "si", "veste."],
+      "distractors": ["mi", "vesto"],
+      "hints": ["Use 'si' for he/she."],
+      "target_words": ["vestirsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-24",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'We rest in the evening.'" },
+      "sentence_context": "Noi ci riposiamo la sera.",
+      "correct_answer": ["Noi", "ci", "riposiamo", "la", "sera."],
+      "distractors": ["mi", "si"],
+      "hints": ["noi → ci + -iamo ending."],
+      "target_words": ["riposarsi"]
+    },
+    {
+      "id": "unit-09-lesson-03-ex-25",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I fall asleep.'" },
+      "sentence_context": "Io mi addormento.",
+      "correct_answer": ["Io", "mi", "addormento."],
+      "distractors": ["sveglio", "ti"],
+      "hints": ["The pronoun 'mi' comes first."],
+      "target_words": ["addormentarsi"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "svegliarsi", "meaning": "To wake up", "example": "La mattina mi sveglio." },
+    { "word": "alzarsi", "meaning": "To get up", "example": "Mi alzo presto." },
+    { "word": "lavarsi", "meaning": "To wash (oneself)", "example": "Mi lavo." },
+    { "word": "vestirsi", "meaning": "To get dressed", "example": "Mi vesto." },
+    { "word": "prepararsi", "meaning": "To get ready", "example": "Io mi preparo." },
+    { "word": "riposarsi", "meaning": "To rest", "example": "La sera mi riposo." },
+    { "word": "addormentarsi", "meaning": "To fall asleep", "example": "Mi addormento la sera." },
+    { "word": "chiamarsi", "meaning": "To be called / to call oneself", "example": "Mi chiamo Marco." }
+  ]
+}

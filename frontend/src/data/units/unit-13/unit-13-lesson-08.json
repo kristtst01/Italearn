@@ -1,0 +1,138 @@
+{
+  "id": "unit-13-lesson-08",
+  "unit_id": "unit-13",
+  "name": "Getting to School",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-13-lesson-08-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who is this notice for?" },
+      "sentence_context": "",
+      "correct_answer": "New students at the school",
+      "distractors": ["Tourists at the station", "Rita's customers"],
+      "hints": ["'Benvenuti!'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-13-lesson-08-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "How long is the walk from the station?" },
+      "sentence_context": "",
+      "correct_answer": "About fifteen minutes",
+      "distractors": ["About five minutes", "About thirty minutes"],
+      "hints": ["Read the second line."],
+      "target_words": []
+    },
+    {
+      "id": "unit-13-lesson-08-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which side of the Duomo do you walk along?" },
+      "sentence_context": "",
+      "correct_answer": "The left",
+      "distractors": ["The right", "You walk round the back of the station"],
+      "hints": ["'Passate a sinistra del Duomo.'"],
+      "target_words": ["sinistra"]
+    },
+    {
+      "id": "unit-13-lesson-08-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where does via dei Servi start?" },
+      "sentence_context": "",
+      "correct_answer": "Behind the Duomo",
+      "distractors": ["In front of the station", "At the river"],
+      "hints": ["'Dietro il Duomo, comincia via dei Servi.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-13-lesson-08-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: the school is before Rita's shop." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'La scuola è più avanti, al numero 40.'"],
+      "target_words": ["avanti"]
+    },
+    {
+      "id": "unit-13-lesson-08-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why shouldn't you come by car?" },
+      "sentence_context": "",
+      "correct_answer": "There's nowhere to park in the centre",
+      "distractors": ["The school is too far", "The streets are closed"],
+      "hints": ["'In centro non c'è parcheggio!'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-13-lesson-08-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where is the river on the map?" },
+      "sentence_context": "",
+      "correct_answer": "At the bottom",
+      "distractors": ["At the top", "On the left"],
+      "hints": ["'In basso c'è l'Arno.'"],
+      "target_words": ["in alto", "fiume"]
+    },
+    {
+      "id": "unit-13-lesson-08-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: on the map, the station is at the top on the left." },
+      "sentence_context": "Sulla mappa la stazione è in ___ a sinistra.",
+      "correct_answer": "alto",
+      "distractors": [],
+      "hints": ["At the top."],
+      "target_words": ["in alto", "mappa"]
+    },
+    {
+      "id": "unit-13-lesson-08-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: if you get lost, ask the way." },
+      "sentence_context": "Se vi perdete, ___ la strada.",
+      "correct_answer": "chiedete",
+      "distractors": [],
+      "hints": ["Chiedere, to several people."],
+      "target_words": ["chiedere", "perdersi"]
+    },
+    {
+      "id": "unit-13-lesson-08-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Dove scendete con l'autobus?" },
+      "sentence_context": "Dove scendete con l'autobus?",
+      "correct_answer": ["in piazza San Marco", "scendiamo in piazza San Marco"],
+      "distractors": [],
+      "hints": ["Read the line about the bus."],
+      "target_words": []
+    },
+    {
+      "id": "unit-13-lesson-08-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Chi scrive?" },
+      "sentence_context": "Chi scrive?",
+      "correct_answer": ["la segreteria", "la segreteria della scuola"],
+      "distractors": [],
+      "hints": ["Read the last line."],
+      "target_words": ["segreteria"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "segreteria", "meaning": "office (of a school or company), reception · in segreteria = at the office", "example": "Il libro è in segreteria." },
+    { "word": "in alto", "meaning": "at the top, up there · in basso = at the bottom, down there", "example": "Sulla mappa, la stazione è in alto a sinistra." }
+  ],
+  "reading": {
+    "title": "Come arrivare alla scuola",
+    "paragraphs": ["Benvenuti! La scuola è in via dei Servi 40, a cinque minuti a piedi dal Duomo. Le lezioni cominciano lunedì alle nove.", "Dalla stazione · a piedi, circa quindici minuti", "Uscite dalla stazione di Santa Maria Novella e prendete via Panzani. Andate sempre dritto: dopo dieci minuti arrivate in piazza del Duomo.", "Passate a sinistra del Duomo e continuate fino in fondo alla piazza. Lì, dietro il Duomo, comincia via dei Servi: è una strada lunga e dritta. Al numero 12 c'è il negozio di Rita; la scuola è più avanti, al numero 40.", "In autobus · la fermata è davanti alla stazione. Scendete in piazza San Marco: da lì ci vogliono cinque minuti a piedi.", "In bici · ci sono posti per le bici davanti alla scuola.", "In macchina · non venite in macchina: in centro non c'è parcheggio!", "Sulla mappa la stazione è in alto a sinistra e il Duomo è al centro. La scuola è a destra del Duomo, un po' più in alto, vicino a piazza San Marco. In basso c'è l'Arno, con il Ponte Vecchio.", "Se vi perdete, chiedete la strada: tutti sanno dov'è il Duomo!", "La segreteria"]
+  }
+}

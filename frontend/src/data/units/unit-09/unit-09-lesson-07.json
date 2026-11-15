@@ -1,0 +1,135 @@
+{
+  "id": "unit-09-lesson-07",
+  "unit_id": "unit-09",
+  "name": "An Interview with Paul",
+  "order": 7,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-09-lesson-07-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why does Paul have two alarm clocks?" },
+      "sentence_context": "",
+      "correct_answer": "With only one, he doesn't get up",
+      "distractors": ["One is for the weekend", "One is broken"],
+      "hints": ["'Con una sveglia sola non mi alzo!'"],
+      "target_words": ["sveglia"]
+    },
+    {
+      "id": "unit-09-lesson-07-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Paul have for breakfast?" },
+      "sentence_context": "",
+      "correct_answer": "Just a coffee",
+      "distractors": ["A cappuccino and a cornetto", "Nothing at all"],
+      "hints": ["Read his second answer."],
+      "target_words": []
+    },
+    {
+      "id": "unit-09-lesson-07-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "When does his shift usually start and end?" },
+      "sentence_context": "",
+      "correct_answer": "At seven in the morning and seven in the evening",
+      "distractors": ["At six and six", "At eight and two"],
+      "hints": ["'Comincia alle sette e finisce alle sette di sera.'"],
+      "target_words": ["turno"]
+    },
+    {
+      "id": "unit-09-lesson-07-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "When does Paul come to the Italian lesson?" },
+      "sentence_context": "",
+      "correct_answer": "In his lunch break",
+      "distractors": ["After work", "Before work"],
+      "hints": ["'È la mia pausa pranzo!'"],
+      "target_words": ["pausa"]
+    },
+    {
+      "id": "unit-09-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where does he eat his sandwich?" },
+      "sentence_context": "",
+      "correct_answer": "On the bus",
+      "distractors": ["At the bar", "In class"],
+      "hints": ["'Mangio il panino in autobus.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-09-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who does Paul meet on Tuesdays and Thursdays?" },
+      "sentence_context": "",
+      "correct_answer": "Luca",
+      "distractors": ["Giulia", "Aiko"],
+      "hints": ["'Mi vedo con Luca.'"],
+      "target_words": ["vedersi"]
+    },
+    {
+      "id": "unit-09-lesson-07-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Paul falls asleep as soon as he goes to bed." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'Non mi addormento subito.'"],
+      "target_words": ["addormentarsi"]
+    },
+    {
+      "id": "unit-09-lesson-07-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: I never check the time." },
+      "sentence_context": "Non guardo mai l'___!",
+      "correct_answer": "ora",
+      "distractors": [],
+      "hints": ["Guardare l'ora: to check the time."],
+      "target_words": ["orologio"]
+    },
+    {
+      "id": "unit-09-lesson-07-ex-09",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: A che ora esce di casa Paul?" },
+      "sentence_context": "A che ora esce di casa Paul?",
+      "correct_answer": ["Alle sei e quaranta.", "Esce di casa alle sei e quaranta."],
+      "distractors": [],
+      "hints": ["Read his second answer."],
+      "target_words": []
+    },
+    {
+      "id": "unit-09-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa fa Paul prima di dormire?" },
+      "sentence_context": "Che cosa fa Paul prima di dormire?",
+      "correct_answer": ["Legge un libro in italiano.", "Legge un libro."],
+      "distractors": [],
+      "hints": ["Read his answer about bedtime."],
+      "target_words": []
+    },
+    {
+      "id": "unit-09-lesson-07-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Chi è Aiko per Paul?" },
+      "sentence_context": "Chi è Aiko per Paul?",
+      "correct_answer": ["Una compagna di corso.", "È una compagna di corso."],
+      "distractors": [],
+      "hints": ["Read the first paragraph."],
+      "target_words": ["compagno"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Una giornata con Paul",
+    "paragraphs": ["Ogni mese uno studente della scuola fa qualche domanda a un compagno di corso. Questo mese Aiko fa le domande a Paul, medico inglese e studente di Giulia.", "Aiko: Paul, a che ora ti svegli la mattina?", "Paul: Alle sei. Ho due sveglie: una sul telefono e una vecchia sveglia accanto al letto. Con una sveglia sola non mi alzo!", "Aiko: E poi?", "Paul: Faccio la doccia, mi vesto e bevo un caffè. Non faccio colazione: non ho tempo. Alle sei e quaranta esco di casa e prendo l'autobus.", "Aiko: Quante ore lavori?", "Paul: Tante! Di solito il turno in ospedale comincia alle sette e finisce alle sette di sera. Qualche volta lavoro anche di notte.", "Aiko: Ma la lezione con Giulia è alle due. Come fai?", "Paul: È la mia pausa pranzo! Vengo a scuola di corsa e dopo la lezione torno subito in ospedale. Per questo mangio il panino in autobus.", "Aiko: E la sera?", "Paul: Torno a casa verso le otto, cucino la cena e mi riposo un po'. Il martedì e il giovedì mi vedo con Luca per lo scambio linguistico, al bar in piazza San Marco.", "Aiko: A che ora vai a letto?", "Paul: Alle undici, ma non mi addormento subito: leggo un libro in italiano. Dopo cinque minuti dormo!", "Aiko: Un'altra domanda: hai un orologio?", "Paul: Sì, un orologio molto bello, un regalo di mia madre. Ma non guardo mai l'ora!"]
+  }
+}

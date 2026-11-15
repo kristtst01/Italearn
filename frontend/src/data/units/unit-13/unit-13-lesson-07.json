@@ -1,93 +1,135 @@
 {
   "id": "unit-13-lesson-07",
   "unit_id": "unit-13",
-  "name": "Practice Writing",
+  "name": "Paul Is Late",
   "order": 7,
-  "grammar_tips": [
-    {
-      "id": "unit-13-lesson-07-tip-01",
-      "title": "Describe Where Things Are",
-      "explanation": "Write about your neighbourhood and where things are. Use simple and articulated prepositions, place nouns, and direction words to describe locations.",
-      "before_exercise": 0
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-13-lesson-07-ex-01",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Describe where you live. Say what's near your house and what's far. (3-4 sentences)"
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why is Paul going to Luca's tonight?" },
       "sentence_context": "",
-      "correct_answer": "Abito in Via Roma. Vicino alla mia casa c'è una farmacia. La stazione è lontano. Davanti alla casa c'è un giardino.",
-      "distractors": [],
-      "hints": [
-        "Use 'vicino a', 'lontano da', 'davanti a'."
-      ],
-      "target_words": [
-        "vicino",
-        "lontano",
-        "davanti"
-      ]
+      "correct_answer": "For dinner",
+      "distractors": ["To study English", "To watch a football match"],
+      "hints": ["'Paul va a cena da Luca.'"],
+      "target_words": []
     },
     {
       "id": "unit-13-lesson-07-ex-02",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Give directions from the station to a place you like. (3-4 sentences)"
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why can't Paul phone Luca?" },
       "sentence_context": "",
-      "correct_answer": "Dalla stazione, vai sempre dritto. Poi gira a destra. La piazza è alla fine della via. Il cinema è in piazza.",
-      "distractors": [],
-      "hints": [
-        "Use dritto, a destra, a sinistra, and articulated prepositions."
-      ],
-      "target_words": [
-        "dritto",
-        "destra",
-        "stazione"
-      ]
+      "correct_answer": "His phone is at home",
+      "distractors": ["He doesn't have Luca's number", "Luca never answers"],
+      "hints": ["'Non ha il telefono: è a casa.'"],
+      "target_words": []
     },
     {
       "id": "unit-13-lesson-07-ex-03",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Talk about your week — say where you go on different days. (3-4 sentences)"
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does the lady tell Paul to do at the lights?" },
       "sentence_context": "",
-      "correct_answer": "Il lunedì vado al lavoro. Il sabato faccio la spesa al supermercato. La domenica andiamo in chiesa. Qualche volta vado al museo con gli amici.",
-      "distractors": [],
-      "hints": [
-        "Use days + 'andare a/in' + places."
-      ],
-      "target_words": [
-        "supermercato",
-        "chiesa",
-        "museo"
-      ]
+      "correct_answer": "Turn right",
+      "distractors": ["Turn left", "Cross the road"],
+      "hints": ["'Lì gira a destra.'"],
+      "target_words": ["destra"]
     },
     {
       "id": "unit-13-lesson-07-ex-04",
-      "type": "writing",
-      "subtype": "free_form",
-      "prompt": {
-        "text": "Describe a piazza or street in your town. What is there and where? (3-4 sentences)"
-      },
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Paul do at the lights?" },
       "sentence_context": "",
-      "correct_answer": "Piazza Roma è grande. Nella piazza c'è una chiesa. A destra c'è una banca, a sinistra una farmacia. Dietro la chiesa c'è un piccolo giardino.",
+      "correct_answer": "He turns left",
+      "distractors": ["He turns right", "He goes back"],
+      "hints": ["'E gira… a sinistra.'"],
+      "target_words": ["sinistra"]
+    },
+    {
+      "id": "unit-13-lesson-07-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Where does Paul end up after twenty minutes?" },
+      "sentence_context": "",
+      "correct_answer": "At the river",
+      "distractors": ["In a small square with a church", "At Luca's door"],
+      "hints": ["'Un fiume. L'Arno!'"],
+      "target_words": ["fiume"]
+    },
+    {
+      "id": "unit-13-lesson-07-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: via delle Rose is far from the station." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'È qui dietro!'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-13-lesson-07-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who finally gives Paul the right directions?" },
+      "sentence_context": "",
+      "correct_answer": "The waiter at the station bar",
+      "distractors": ["The young man", "Luca"],
+      "hints": ["Read the paragraph after Paul goes back."],
+      "target_words": []
+    },
+    {
+      "id": "unit-13-lesson-07-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: he has to go back, towards the station." },
+      "sentence_context": "Deve tornare indietro, ___ la stazione.",
+      "correct_answer": "verso",
       "distractors": [],
-      "hints": [
-        "Use 'nella', 'a destra/sinistra', 'dietro'."
-      ],
-      "target_words": [
-        "piazza",
-        "chiesa",
-        "banca"
-      ]
+      "hints": ["Towards."],
+      "target_words": ["verso", "indietro"]
+    },
+    {
+      "id": "unit-13-lesson-07-ex-09",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: he goes on for twenty minutes." },
+      "sentence_context": "Va ___ per venti minuti.",
+      "correct_answer": "avanti",
+      "distractors": [],
+      "hints": ["Forward."],
+      "target_words": ["avanti"]
+    },
+    {
+      "id": "unit-13-lesson-07-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: A chi chiede la strada Paul la prima volta?" },
+      "sentence_context": "A chi chiede la strada Paul la prima volta?",
+      "correct_answer": ["a una signora", "chiede la strada a una signora"],
+      "distractors": [],
+      "hints": ["Read the third paragraph."],
+      "target_words": ["chiedere"]
+    },
+    {
+      "id": "unit-13-lesson-07-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: A che ora arriva Paul da Luca?" },
+      "sentence_context": "A che ora arriva Paul da Luca?",
+      "correct_answer": ["alle nove meno venti", "arriva alle nove meno venti"],
+      "distractors": [],
+      "hints": ["Read the end of the story."],
+      "target_words": []
     }
   ],
-  "vocabulary": []
+  "vocabulary": [],
+  "reading": {
+    "title": "Dov'è via delle Rose?",
+    "paragraphs": ["Stasera Paul va a cena da Luca. Luca abita in via delle Rose, vicino alla stazione, e cucina un risotto per due. La cena è alle otto.", "Paul esce dall'ospedale alle sette e mezza, di corsa come sempre. Ha l'indirizzo, ma non ha il telefono: è a casa, sul tavolo.", "Alle otto meno un quarto Paul è alla stazione. Entra nel bar della stazione e chiede la strada a una signora.", "Paul: Scusi, signora, sa dov'è via delle Rose?", "Signora: Via delle Rose? Sì, è vicino. Allora: va sempre dritto fino al semaforo e lì gira a destra. Poi prende la seconda a sinistra e attraversa una piccola piazza, con una chiesa. Via delle Rose è lì, dietro la chiesa.", "Paul: Grazie, molto gentile!", "Paul va dritto fino al semaforo e gira… a sinistra. Quando ha fretta, per Paul destra e sinistra sono uguali.", "Va avanti per venti minuti, ma non vede nessuna piazza e nessuna chiesa. Vede negozi, turisti e poi, davanti a lui, un fiume. L'Arno!", "Allora chiede la strada a un ragazzo.", "Ragazzo: Via delle Rose? Vicino alla stazione? Ma è lontano! Deve tornare indietro, verso la stazione.", "Paul torna indietro. Alle otto e mezza, stanco, è di nuovo al bar della stazione. Questa volta chiede al cameriere.", "Cameriere: Via delle Rose? È qui dietro! Esce dal bar, gira a destra e poi ancora a destra. Due minuti.", "Alle nove meno venti Paul suona il campanello. Luca apre il portone.", "Luca: Paul! Sono le nove meno venti! Il risotto è freddo!", "Paul: Lo so, lo so. Ma adesso conosco Firenze molto bene!"]
+  }
 }

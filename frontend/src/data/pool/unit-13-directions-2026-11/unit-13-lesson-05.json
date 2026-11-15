@@ -1,0 +1,243 @@
+{
+  "id": "unit-13-lesson-05",
+  "unit_id": "unit-13",
+  "name": "Imperative & Location Adverbs",
+  "order": 5,
+  "grammar_tips": [
+    {
+      "id": "unit-13-lesson-05-tip-01",
+      "title": "Telling Someone What to Do",
+      "explanation": "The informal imperative (commands to a friend) is short and direct. For -are verbs: take the 'lui/lei' form: 'parla!' (speak!), 'guarda!' (look!), 'mangia!' (eat!). For -ere/-ire verbs: use the 'tu' form: 'scrivi!' (write!), 'apri!' (open!).",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-13-lesson-05-tip-02",
+      "title": "Negative Imperative",
+      "explanation": "To tell someone NOT to do something, use 'non' + the infinitive: 'Non parlare!' (Don't speak!), 'Non mangiare!' (Don't eat!). Different from positive — uses the dictionary form.",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-13-lesson-05-tip-03",
+      "title": "Inside, Outside, Above, Below",
+      "explanation": "Four more location words to complete your spatial set: 'dentro' (inside), 'fuori' (outside), 'sopra' (above / on), 'sotto' (under).",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-13-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'Parla!' mean (to a friend)?" },
+      "sentence_context": "Parla, ti ascolto!",
+      "correct_answer": "Speak!",
+      "distractors": ["I speak", "He speaks", "Speaking"],
+      "hints": ["A command to a friend."],
+      "target_words": ["parlare"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'Guarda!' mean (to a friend)?" },
+      "sentence_context": "Guarda il cane!",
+      "correct_answer": "Look!",
+      "distractors": ["I look", "He looks", "To look"],
+      "hints": ["Telling a friend to look."],
+      "target_words": ["guardare"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'Vieni!' mean (to a friend)?" },
+      "sentence_context": "Vieni con me!",
+      "correct_answer": "Come!",
+      "distractors": ["I come", "He comes", "Coming"],
+      "hints": ["Telling a friend to come."],
+      "target_words": ["venire"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'dentro' mean?" },
+      "sentence_context": "Il gatto è dentro.",
+      "correct_answer": "Inside",
+      "distractors": ["Outside", "Above", "Below"],
+      "hints": ["The cat is inside."],
+      "target_words": ["dentro"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'fuori' mean?" },
+      "sentence_context": "Andiamo fuori.",
+      "correct_answer": "Outside",
+      "distractors": ["Inside", "Below", "Far"],
+      "hints": ["Let's go outside."],
+      "target_words": ["fuori"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sopra' mean?" },
+      "sentence_context": "Il libro è sopra il tavolo.",
+      "correct_answer": "Above / on",
+      "distractors": ["Under", "Next to", "Behind"],
+      "hints": ["The book is on the table."],
+      "target_words": ["sopra"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'sotto' mean?" },
+      "sentence_context": "Il gatto è sotto il letto.",
+      "correct_answer": "Under",
+      "distractors": ["Above", "In", "Behind"],
+      "hints": ["The cat is under the bed."],
+      "target_words": ["sotto"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Il bambino gioca ___ in giardino.",
+      "correct_answer": "fuori",
+      "distractors": [],
+      "hints": ["The child plays outside in the garden."],
+      "target_words": ["fuori"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "Vieni ___, fa freddo.",
+      "correct_answer": "dentro",
+      "distractors": [],
+      "hints": ["Come inside, it's cold."],
+      "target_words": ["dentro"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence_context": "I libri sono ___ la sedia.",
+      "correct_answer": "sotto",
+      "distractors": [],
+      "hints": ["The books are under the chair."],
+      "target_words": ["sotto"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-11",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Tell a friend: 'Eat!' (imperative of mangiare)" },
+      "sentence_context": "___ , è buono!",
+      "correct_answer": "Mangia",
+      "distractors": [],
+      "hints": ["-are verb → lui/lei form for tu-imperative."],
+      "target_words": ["mangiare"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-12",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Tell a friend: 'Listen!' (imperative of ascoltare)" },
+      "sentence_context": "___ , è importante.",
+      "correct_answer": "Ascolta",
+      "distractors": [],
+      "hints": ["-are imperative tu = lui/lei form."],
+      "target_words": ["ascoltare"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-13",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Tell a friend: 'Write!' (imperative of scrivere)" },
+      "sentence_context": "___ il tuo nome.",
+      "correct_answer": "Scrivi",
+      "distractors": [],
+      "hints": ["-ere verb → tu form for imperative."],
+      "target_words": ["scrivere"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-14",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Tell a friend: 'Open!' (imperative of aprire)" },
+      "sentence_context": "___ la porta!",
+      "correct_answer": "Apri",
+      "distractors": [],
+      "hints": ["-ire verb → tu form for imperative."],
+      "target_words": ["aprire"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-15",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Tell a friend NOT to eat — fill in the right form." },
+      "sentence_context": "Non ___ !",
+      "correct_answer": "mangiare",
+      "distractors": [],
+      "hints": ["Negative imperative = 'non' + infinitive."],
+      "target_words": ["mangiare"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-16",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Tell a friend NOT to speak — fill in the right form." },
+      "sentence_context": "Non ___ !",
+      "correct_answer": "parlare",
+      "distractors": [],
+      "hints": ["Negative imperative = 'non' + infinitive."],
+      "target_words": ["parlare"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Look at the cat!'" },
+      "sentence_context": "Guarda il gatto!",
+      "correct_answer": ["Guarda", "il", "gatto!"],
+      "distractors": ["guardo", "guardi"],
+      "hints": ["Imperative + object."],
+      "target_words": ["guardare"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'The dog is under the table.'" },
+      "sentence_context": "Il cane è sotto il tavolo.",
+      "correct_answer": ["Il", "cane", "è", "sotto", "il", "tavolo."],
+      "distractors": ["sopra", "fuori"],
+      "hints": ["Sotto = under."],
+      "target_words": ["sotto"]
+    },
+    {
+      "id": "unit-13-lesson-05-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Come inside, it's raining!'" },
+      "sentence_context": "Vieni dentro, piove!",
+      "correct_answer": ["Vieni", "dentro,", "piove!"],
+      "distractors": ["fuori", "sotto"],
+      "hints": ["Imperative + 'dentro'."],
+      "target_words": ["dentro", "venire"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "dentro", "meaning": "Inside", "example": "Il gatto è dentro." },
+    { "word": "fuori", "meaning": "Outside", "example": "Andiamo fuori." },
+    { "word": "sopra", "meaning": "Above / on", "example": "Il libro è sopra il tavolo." },
+    { "word": "sotto", "meaning": "Under", "example": "Il gatto è sotto il letto." }
+  ]
+}

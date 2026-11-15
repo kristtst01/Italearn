@@ -1,0 +1,98 @@
+{
+  "id": "unit-18-lesson-10",
+  "unit_id": "unit-18",
+  "name": "Say It Out Loud",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-18-lesson-10-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Mi piacciono i concerti.",
+      "correct_answer": "Mi piacciono i concerti.",
+      "distractors": [],
+      "hints": ["Piacciono: a long ch sound, as in church."],
+      "target_words": ["concerto"]
+    },
+    {
+      "id": "unit-18-lesson-10-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Non mi piace per niente!",
+      "correct_answer": "Non mi piace per niente!",
+      "distractors": [],
+      "hints": ["Piace: the c is soft before e."],
+      "target_words": ["per niente"]
+    },
+    {
+      "id": "unit-18-lesson-10-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Anche a me! Neanche a me.",
+      "correct_answer": "Anche a me! Neanche a me.",
+      "distractors": [],
+      "hints": ["Anche: the ch is a hard k."],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-10-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ti va di andare al cinema stasera?",
+      "correct_answer": "Ti va di andare al cinema stasera?",
+      "distractors": [],
+      "hints": ["Cinema: a soft c."],
+      "target_words": ["ti va?"]
+    },
+    {
+      "id": "unit-18-lesson-10-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Grazie per l'invito! Vengo volentieri.",
+      "correct_answer": "Grazie per l'invito! Vengo volentieri.",
+      "distractors": [],
+      "hints": ["Volentieri: the stress falls on -tie-."],
+      "target_words": ["invito"]
+    },
+    {
+      "id": "unit-18-lesson-10-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Purtroppo stasera non posso. Che peccato!",
+      "correct_answer": "Purtroppo stasera non posso. Che peccato!",
+      "distractors": [],
+      "hints": ["Purtroppo, peccato: hold the double consonants."],
+      "target_words": ["purtroppo", "peccato"]
+    },
+    {
+      "id": "unit-18-lesson-10-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Ho un appuntamento alle sette e mezza.",
+      "correct_answer": "Ho un appuntamento alle sette e mezza.",
+      "distractors": [],
+      "hints": ["Appuntamento: two p, two t."],
+      "target_words": ["appuntamento"]
+    },
+    {
+      "id": "unit-18-lesson-10-ex-08",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Facciamo una passeggiata?",
+      "correct_answer": "Facciamo una passeggiata?",
+      "distractors": [],
+      "hints": ["Passeggiata: two s, two g."],
+      "target_words": ["passeggiata"]
+    }
+  ],
+  "vocabulary": []
+}

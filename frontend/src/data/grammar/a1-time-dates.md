@@ -97,7 +97,7 @@ Written in numbers, the day comes first: *3/5* is the third of May, not the fift
 
 To ask the time, both **Che ora è?** and **Che ore sono?** are correct and common.
 
-The answer uses *sono le* + the hour, because the hours are plural (*le ore*, the hours). One o'clock is singular, so it's **è l'una**:
+The answer uses *sono le* + the hour. *Sono le tre* is literally "they are the three", with *ore* (hours) understood: the hours are plural and feminine, so the verb is *sono* and the article is *le*. One o'clock is a single hour, so it's **è l'una**, literally "it is the one":
 
 > Sono le tre. Sono le dieci. È l'una.
 > It's three o'clock. It's ten o'clock. It's one o'clock.
@@ -106,13 +106,13 @@ Midday and midnight have no article: **è mezzogiorno**, **è mezzanotte**.
 
 Minutes go after the hour with **e** (and) or **meno** (minus):
 
-| | |
-|---|---|
-| *Sono le tre e dieci.* | It's ten past three. |
-| *Sono le tre e un quarto.* | It's a quarter past three. |
-| *Sono le tre e mezza.* | It's half past three. |
-| *Sono le quattro meno un quarto.* | It's a quarter to four. |
-| *Sono le quattro meno cinque.* | It's five to four. |
+| | Literally | In English |
+|---|---|---|
+| *Sono le tre e dieci.* | the three and ten | It's ten past three. |
+| *Sono le tre e un quarto.* | the three and a quarter | It's a quarter past three. |
+| *Sono le tre e mezza.* | the three and a half | It's half past three. |
+| *Sono le quattro meno un quarto.* | the four minus a quarter | It's a quarter to four. |
+| *Sono le quattro meno cinque.* | the four minus five | It's five to four. |
 
 *E mezza* and *e mezzo* are both correct; *e mezza* is more common. *Un quarto* is a quarter.
 

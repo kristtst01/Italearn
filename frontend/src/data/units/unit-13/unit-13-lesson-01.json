@@ -1,234 +1,180 @@
 {
   "id": "unit-13-lesson-01",
   "unit_id": "unit-13",
-  "name": "Simple Prepositions",
+  "name": "Left, Right, Straight On",
   "order": 1,
-  "grammar_tips": [
-    {
-      "id": "unit-13-lesson-01-tip-01",
-      "title": "The Eight Core Prepositions",
-      "explanation": "Italian's main prepositions are: di (of/from), a (to/at), da (from/at someone's), in (in/into), con (with), su (on), per (for/through), tra/fra (between/among). You've already met di and in.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-13-lesson-01-tip-02",
-      "title": "A vs In for Places",
-      "explanation": "'A' is for cities and most specific places: 'a Roma', 'a casa', 'a scuola'. 'In' is for countries, regions, and broad areas: 'in Italia', 'in cucina', 'in centro'. Tricky at first — learn the common pairings.",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-13-lesson-01-tip-03",
-      "title": "Tra and Fra",
-      "explanation": "'Tra' and 'fra' mean the same thing — between, among, in [time]. Both are correct: 'tra amici' or 'fra amici'. Italians choose based on what sounds smoother; either is safe.",
-      "before_exercise": 12
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-13-lesson-01-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'a' mean here?" },
-      "sentence_context": "Vado a Roma.",
-      "correct_answer": "To / at",
-      "distractors": ["From", "With", "On"],
-      "hints": ["I'm going to Rome."],
-      "target_words": ["a"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'dritto' mean?" },
+      "sentence_context": "Vai sempre dritto.",
+      "correct_answer": ["straight on", "straight ahead", "straight"],
+      "distractors": [],
+      "hints": ["Sempre dritto: all the way."],
+      "target_words": ["dritto"]
     },
     {
       "id": "unit-13-lesson-01-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'da' mean here?" },
-      "sentence_context": "Vengo da Milano.",
-      "correct_answer": "From",
-      "distractors": ["To", "In", "Of"],
-      "hints": ["I come from Milan."],
-      "target_words": ["da"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'indietro' mean?" },
+      "sentence_context": "Non è qui: torna indietro.",
+      "correct_answer": ["back", "backwards"],
+      "distractors": [],
+      "hints": ["Tornare indietro: to go back."],
+      "target_words": ["indietro"]
     },
     {
       "id": "unit-13-lesson-01-ex-03",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'con' mean?" },
-      "sentence_context": "Esco con gli amici.",
-      "correct_answer": "With",
-      "distractors": ["Without", "For", "From"],
-      "hints": ["I go out with friends."],
-      "target_words": ["con"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'più avanti' mean?" },
+      "sentence_context": "La fermata è più avanti, a destra.",
+      "correct_answer": ["further on", "further ahead", "further"],
+      "distractors": [],
+      "hints": ["Keep going a bit."],
+      "target_words": ["avanti"]
     },
     {
       "id": "unit-13-lesson-01-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'su' mean?" },
-      "sentence_context": "Il libro è su il tavolo.",
-      "correct_answer": "On",
-      "distractors": ["Under", "In", "Next to"],
-      "hints": ["The book is on the table."],
-      "target_words": ["su"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Turn left after the church." },
+      "sentence_context": "Gira a ___ dopo la chiesa.",
+      "correct_answer": "sinistra",
+      "distractors": [],
+      "hints": ["Left."],
+      "target_words": ["sinistra"]
     },
     {
       "id": "unit-13-lesson-01-ex-05",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'per' mean here?" },
-      "sentence_context": "Un regalo per Marco.",
-      "correct_answer": "For",
-      "distractors": ["With", "From", "Of"],
-      "hints": ["A gift for Marco."],
-      "target_words": ["per"]
+      "prompt": { "text": "A friend is looking for the bank. It is on the right. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "È a destra.",
+      "distractors": ["È a sinistra.", "È dietro."],
+      "hints": ["On the right."],
+      "target_words": ["destra"]
     },
     {
       "id": "unit-13-lesson-01-ex-06",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'tra' mean?" },
-      "sentence_context": "Tra Roma e Milano.",
-      "correct_answer": "Between",
-      "distractors": ["On", "For", "With"],
-      "hints": ["Between Rome and Milan."],
-      "target_words": ["tra"]
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Tell a friend: turn right." },
+      "sentence_context": "___ a destra.",
+      "correct_answer": "Gira",
+      "distractors": [],
+      "hints": ["Girare, to one friend."],
+      "target_words": ["girare"]
     },
     {
       "id": "unit-13-lesson-01-ex-07",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Vado ___ Roma.",
-      "correct_answer": "a",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Tell two friends: turn left at the church." },
+      "sentence_context": "___ a sinistra alla chiesa.",
+      "correct_answer": "Girate",
       "distractors": [],
-      "hints": ["I'm going to Rome."],
-      "target_words": ["a"]
+      "hints": ["Girare, to two friends."],
+      "target_words": ["girare"]
     },
     {
       "id": "unit-13-lesson-01-ex-08",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Abito ___ Italia.",
-      "correct_answer": "in",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Tell a friend: don't turn here, carry on straight." },
+      "sentence_context": "Non ___ qui, continua dritto.",
+      "correct_answer": "girare",
       "distractors": [],
-      "hints": ["I live in Italy. (Country → in)"],
-      "target_words": ["in"]
+      "hints": ["Don't, to one friend."],
+      "target_words": ["girare", "continuare"]
     },
     {
       "id": "unit-13-lesson-01-ex-09",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Vengo ___ Milano.",
-      "correct_answer": "da",
-      "distractors": [],
-      "hints": ["I come from Milan."],
-      "target_words": ["da"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "You're driving with a friend and she has gone past your street. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Torna indietro!",
+      "distractors": ["Vai sempre dritto!", "Continua!"],
+      "hints": ["Back the way you came."],
+      "target_words": ["indietro"]
     },
     {
       "id": "unit-13-lesson-01-ex-10",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Esco ___ Marco.",
-      "correct_answer": "con",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend phones. She is in the square and asks which way to go. Tell her: straight on, then turn right." },
+      "sentence_context": "Friend: Sono in piazza. Adesso dove vado?\nYou: ___",
+      "correct_answer": ["Vai sempre dritto e poi gira a destra.", "Vai dritto, poi gira a destra."],
       "distractors": [],
-      "hints": ["I'm going out with Marco."],
-      "target_words": ["con"]
+      "hints": ["Vai, then gira."],
+      "target_words": ["dritto", "girare"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Sono in piazza. Adesso dove vado?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-13-lesson-01-ex-11",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Un regalo ___ Anna.",
-      "correct_answer": "per",
-      "distractors": [],
-      "hints": ["A gift for Anna."],
-      "target_words": ["per"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Carry on straight, then turn left.'" },
+      "sentence_context": "Continua dritto, poi gira a sinistra.",
+      "correct_answer": ["Continua", "dritto,", "poi", "gira", "a", "sinistra."],
+      "distractors": ["girare", "destra"],
+      "hints": ["Two commands to a friend."],
+      "target_words": ["continuare", "sinistra"]
     },
     {
       "id": "unit-13-lesson-01-ex-12",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Vado a casa ___ Marco.",
-      "correct_answer": "di",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Tell a friend: the stop is further on, on the left." },
+      "sentence_context": "",
+      "correct_answer": ["la fermata è più avanti, a sinistra", "la fermata è più avanti a sinistra"],
       "distractors": [],
-      "hints": ["I'm going to Marco's house. ('di' = of)"],
-      "target_words": ["di"]
+      "hints": ["Più avanti, then a sinistra."],
+      "target_words": ["avanti", "sinistra"]
     },
     {
       "id": "unit-13-lesson-01-ex-13",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Pick 'a' or 'in': for a city." },
-      "sentence_context": "Vado ___ Parigi.",
-      "correct_answer": "a",
+      "subtype": "type_answer",
+      "prompt": { "text": "Tell two friends: go straight on." },
+      "sentence_context": "",
+      "correct_answer": ["andate sempre dritto", "andate dritto"],
       "distractors": [],
-      "hints": ["'A' for cities."],
-      "target_words": ["a"]
+      "hints": ["Andare, to two friends."],
+      "target_words": ["dritto"]
     },
     {
       "id": "unit-13-lesson-01-ex-14",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Pick 'a' or 'in': for a country." },
-      "sentence_context": "Abito ___ Francia.",
-      "correct_answer": "in",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say: let's go back." },
+      "sentence_context": "",
+      "correct_answer": ["torniamo indietro"],
       "distractors": [],
-      "hints": ["'In' for countries."],
-      "target_words": ["in"]
-    },
-    {
-      "id": "unit-13-lesson-01-ex-15",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Pick the right preposition." },
-      "sentence_context": "Studio ___ scuola.",
-      "correct_answer": "a",
-      "distractors": [],
-      "hints": ["'A scuola' is a fixed phrase."],
-      "target_words": ["a"]
-    },
-    {
-      "id": "unit-13-lesson-01-ex-16",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I go to Rome with my brother.'" },
-      "sentence_context": "Vado a Roma con mio fratello.",
-      "correct_answer": ["Vado", "a", "Roma", "con", "mio", "fratello."],
-      "distractors": ["in", "da"],
-      "hints": ["'A' + city, 'con' + person."],
-      "target_words": ["a", "con"]
-    },
-    {
-      "id": "unit-13-lesson-01-ex-17",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I come from Italy.'" },
-      "sentence_context": "Vengo da Italia.",
-      "correct_answer": ["Vengo", "da", "Italia."],
-      "distractors": ["in", "a"],
-      "hints": ["'Da' = from."],
-      "target_words": ["da"]
-    },
-    {
-      "id": "unit-13-lesson-01-ex-18",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'A book for you.'" },
-      "sentence_context": "Un libro per te.",
-      "correct_answer": ["Un", "libro", "per", "te."],
-      "distractors": ["con", "da"],
-      "hints": ["'Per' = for."],
-      "target_words": ["per"]
+      "hints": ["Let's: the noi form."],
+      "target_words": ["indietro"]
     }
   ],
   "vocabulary": [
-    { "word": "a", "meaning": "To / at (cities, places)", "example": "Vado a Roma." },
-    { "word": "da", "meaning": "From (origin, source)", "example": "Vengo da Milano." },
-    { "word": "con", "meaning": "With", "example": "Esco con gli amici." },
-    { "word": "su", "meaning": "On", "example": "Il libro è su il tavolo." },
-    { "word": "per", "meaning": "For / through", "example": "Un regalo per Marco." },
-    { "word": "tra", "meaning": "Between / among", "example": "Tra Roma e Milano." }
+    { "word": "destra", "meaning": "right (direction) · a destra = on the right, to the right", "example": "La farmacia è a destra." },
+    { "word": "sinistra", "meaning": "left · a sinistra = on the left, to the left", "example": "La banca è a sinistra." },
+    {
+      "word": "dritto",
+      "meaning": "straight on, straight ahead (also written diritto) · sempre dritto = straight on, all the way",
+      "example": "Vai sempre dritto."
+    },
+    { "word": "girare", "meaning": "to turn", "example": "Gira a sinistra dopo la chiesa." },
+    { "word": "continuare", "meaning": "to carry on, to continue", "example": "Continua dritto per cinque minuti." },
+    { "word": "avanti", "meaning": "forward, ahead · più avanti = further on · Avanti! = Come in!", "example": "La fermata è più avanti, a destra." },
+    { "word": "indietro", "meaning": "back, backwards · tornare indietro = to go back", "example": "Non è qui: torna indietro." }
   ]
 }

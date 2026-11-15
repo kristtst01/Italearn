@@ -1,0 +1,98 @@
+{
+  "id": "unit-13-lesson-11",
+  "unit_id": "unit-13",
+  "name": "Say It Out Loud",
+  "order": 11,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-13-lesson-11-ex-01",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Scusi, per andare alla stazione?",
+      "correct_answer": "Scusi, per andare alla stazione?",
+      "distractors": [],
+      "hints": ["Asking the way."],
+      "target_words": []
+    },
+    {
+      "id": "unit-13-lesson-11-ex-02",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Vai sempre dritto e poi gira a destra.",
+      "correct_answer": "Vai sempre dritto e poi gira a destra.",
+      "distractors": [],
+      "hints": ["Dritto, destra."],
+      "target_words": ["dritto", "destra"]
+    },
+    {
+      "id": "unit-13-lesson-11-ex-03",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Al semaforo, gira a sinistra.",
+      "correct_answer": "Al semaforo, gira a sinistra.",
+      "distractors": [],
+      "hints": ["Semaforo, sinistra."],
+      "target_words": ["semaforo", "sinistra"]
+    },
+    {
+      "id": "unit-13-lesson-11-ex-04",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Attraversate il ponte.",
+      "correct_answer": "Attraversate il ponte.",
+      "distractors": [],
+      "hints": ["Attraversate: to several people."],
+      "target_words": ["attraversare", "ponte"]
+    },
+    {
+      "id": "unit-13-lesson-11-ex-05",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "C'è un bar all'angolo.",
+      "correct_answer": "C'è un bar all'angolo.",
+      "distractors": [],
+      "hints": ["All'angolo."],
+      "target_words": ["angolo"]
+    },
+    {
+      "id": "unit-13-lesson-11-ex-06",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "No, è la strada sbagliata. Torniamo indietro.",
+      "correct_answer": "No, è la strada sbagliata. Torniamo indietro.",
+      "distractors": [],
+      "hints": ["Sbagliata, indietro."],
+      "target_words": ["sbagliato", "indietro"]
+    },
+    {
+      "id": "unit-13-lesson-11-ex-07",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Mi dispiace, non sono di qui.",
+      "correct_answer": "Mi dispiace, non sono di qui.",
+      "distractors": [],
+      "hints": ["Di qui."],
+      "target_words": []
+    },
+    {
+      "id": "unit-13-lesson-11-ex-08",
+      "type": "speaking",
+      "subtype": "read_aloud",
+      "prompt": { "text": "Read this aloud." },
+      "sentence_context": "Scusi, può ripetere più piano?",
+      "correct_answer": "Scusi, può ripetere più piano?",
+      "distractors": [],
+      "hints": ["Può ripetere."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": []
+}

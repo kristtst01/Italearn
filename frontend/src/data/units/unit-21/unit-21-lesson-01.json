@@ -1,247 +1,224 @@
 {
   "id": "unit-21-lesson-01",
   "unit_id": "unit-21",
-  "name": "At the Hotel",
+  "name": "Booking a Room",
   "order": 1,
-  "grammar_tips": [
-    {
-      "id": "unit-21-lesson-01-tip-01",
-      "title": "Albergo & Hotel",
-      "explanation": "Italian uses both 'l'albergo' (more traditional) and 'l'hotel' (modern loan) for hotels. Both are masculine. 'La camera' is the room (same word as bedroom in a house).",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-21-lesson-01-tip-02",
-      "title": "Booking",
-      "explanation": "'Prenotare' = to book / reserve. 'Vorrei prenotare una camera' = I'd like to book a room. 'La prenotazione' = the reservation.",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-21-lesson-01-tip-03",
-      "title": "Singola or Doppia",
-      "explanation": "'Una camera singola' = single room. 'Una camera doppia' = double room. 'Per quante notti?' = For how many nights?",
-      "before_exercise": 11
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-21-lesson-01-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'albergo' mean?" },
-      "sentence_context": "L'albergo è in centro.",
-      "correct_answer": "Hotel",
-      "distractors": ["Restaurant", "Shop", "Office"],
-      "hints": ["The hotel is in the centre."],
-      "target_words": ["albergo"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'prenotazione' mean?" },
+      "sentence_context": "Buonasera, ho una prenotazione a nome Rossi.",
+      "correct_answer": ["booking", "reservation", "a booking", "a reservation"],
+      "distractors": [],
+      "hints": ["You made it before you came."],
+      "target_words": ["prenotazione"]
     },
     {
       "id": "unit-21-lesson-01-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'hotel' mean?" },
-      "sentence_context": "Vado all'hotel.",
-      "correct_answer": "Hotel",
-      "distractors": ["Restaurant", "Café", "House"],
-      "hints": ["A loanword."],
-      "target_words": ["hotel"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'piano' mean here?" },
+      "sentence_context": "La camera è al terzo piano.",
+      "correct_answer": ["floor", "the third floor", "storey"],
+      "distractors": [],
+      "hints": ["You know piano as 'slowly, quietly'. In a building, it's a floor."],
+      "target_words": ["piano"]
     },
     {
       "id": "unit-21-lesson-01-ex-03",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'reception' mean here?" },
-      "sentence_context": "La reception è al piano terra.",
-      "correct_answer": "Reception (desk)",
-      "distractors": ["Bedroom", "Restaurant", "Lobby"],
-      "hints": ["The reception is on the ground floor."],
-      "target_words": ["reception"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'al completo' mean?" },
+      "sentence_context": "Mi dispiace, sabato siamo al completo.",
+      "correct_answer": ["full", "fully booked", "booked up"],
+      "distractors": [],
+      "hints": ["There are no free rooms."],
+      "target_words": ["completo"]
     },
     {
       "id": "unit-21-lesson-01-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'ascensore' mean?" },
-      "sentence_context": "L'ascensore non funziona.",
-      "correct_answer": "Lift / elevator",
-      "distractors": ["Stairs", "Door", "Corridor"],
-      "hints": ["The lift doesn't work."],
-      "target_words": ["ascensore"]
+      "prompt": { "text": "You want a room for one person. What do you ask for?" },
+      "sentence_context": "",
+      "correct_answer": "una camera singola",
+      "distractors": ["una camera doppia", "una camera completa"],
+      "hints": ["Singolo: for one."],
+      "target_words": ["singolo"]
     },
     {
       "id": "unit-21-lesson-01-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'piano' mean here?" },
-      "sentence_context": "La mia camera è al terzo piano.",
-      "correct_answer": "Floor (in a building)",
-      "distractors": ["Slowly", "Plan", "Stair"],
-      "hints": ["My room is on the third floor."],
-      "target_words": ["piano"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: a double room, for two people." },
+      "sentence_context": "Una camera ___, per due persone.",
+      "correct_answer": "doppia",
+      "distractors": [],
+      "hints": ["Doppio, agreeing with camera."],
+      "target_words": ["doppio"]
     },
     {
       "id": "unit-21-lesson-01-ex-06",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'prenotare' mean?" },
-      "sentence_context": "Vorrei prenotare una camera.",
-      "correct_answer": "To book / reserve",
-      "distractors": ["To pay", "To check", "To leave"],
-      "hints": ["Securing a room before arrival."],
-      "target_words": ["prenotare"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Is breakfast included?" },
+      "sentence_context": "La colazione è ___?",
+      "correct_answer": "inclusa",
+      "distractors": [],
+      "hints": ["Incluso, agreeing with colazione."],
+      "target_words": ["incluso"]
     },
     {
       "id": "unit-21-lesson-01-ex-07",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'prenotazione' mean?" },
-      "sentence_context": "Ho una prenotazione.",
-      "correct_answer": "Reservation",
-      "distractors": ["Receipt", "Bill", "Confirmation"],
-      "hints": ["I have a reservation."],
-      "target_words": ["prenotazione"]
+      "prompt": { "text": "Your room is on the fifth floor. What do you ask at reception?" },
+      "sentence_context": "",
+      "correct_answer": "C'è l'ascensore?",
+      "distractors": ["C'è la colazione?", "C'è la prenotazione?"],
+      "hints": ["Five floors are a lot of stairs."],
+      "target_words": ["ascensore"]
     },
     {
       "id": "unit-21-lesson-01-ex-08",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'singola' mean here?" },
-      "sentence_context": "Una camera singola, per favore.",
-      "correct_answer": "Single (room)",
-      "distractors": ["Double", "Triple", "Private"],
-      "hints": ["A single room, please."],
-      "target_words": ["singola"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: The key is at reception." },
+      "sentence_context": "La chiave è alla ___.",
+      "correct_answer": "reception",
+      "distractors": [],
+      "hints": ["The desk at the entrance."],
+      "target_words": ["reception"]
     },
     {
       "id": "unit-21-lesson-01-ex-09",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence." },
-      "sentence_context": "Vorrei prenotare una ___ doppia.",
-      "correct_answer": "camera",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You phone a hotel. You want a double room for Friday and Saturday." },
+      "sentence_context": "Receptionist: Albergo Stella, buongiorno. Mi dica.\nYou: ___",
+      "correct_answer": ["Buongiorno, vorrei prenotare una camera doppia per venerdì e sabato.", "Buongiorno, avete una camera doppia per venerdì e sabato?"],
       "distractors": [],
-      "hints": ["A double room (camera is known from Unit 3)."],
-      "target_words": ["albergo"]
+      "hints": ["Vorrei prenotare + the room + per + the days."],
+      "target_words": ["prenotare", "doppio"],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Albergo Stella, buongiorno. Mi dica." },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-21-lesson-01-ex-10",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence." },
-      "sentence_context": "L' ___ è grande.",
-      "correct_answer": "albergo",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "The hotel is full on Saturday. Friday is fine for you." },
+      "sentence_context": "Receptionist: Mi dispiace, sabato siamo al completo. Venerdì va bene?\nYou: ___",
+      "correct_answer": ["Sì, venerdì va bene.", "Va bene, allora venerdì."],
       "distractors": [],
-      "hints": ["The hotel is big."],
-      "target_words": ["albergo"]
+      "hints": ["Va bene."],
+      "target_words": ["completo"],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Mi dispiace, sabato siamo al completo. Venerdì va bene?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-21-lesson-01-ex-11",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence." },
-      "sentence_context": "Prendiamo l' ___ per il quinto piano.",
-      "correct_answer": "ascensore",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You arrive at your hotel. You booked a room in the name of Brown." },
+      "sentence_context": "Receptionist: Buonasera, mi dica.\nYou: ___",
+      "correct_answer": ["Buonasera, ho una prenotazione a nome Brown.", "Buonasera, ho prenotato una camera a nome Brown."],
       "distractors": [],
-      "hints": ["We take the lift to the fifth floor."],
-      "target_words": ["ascensore"]
+      "hints": ["Ho una prenotazione a nome …"],
+      "target_words": ["prenotazione"],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Buonasera, mi dica." },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-21-lesson-01-ex-12",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'to book / reserve' in Italian?" },
-      "sentence_context": "Voglio prenotare una camera.",
-      "correct_answer": "prenotare",
-      "distractors": [],
-      "hints": ["Regular -are verb."],
-      "target_words": ["prenotare"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Is breakfast included in the price?'" },
+      "sentence_context": "La colazione è inclusa nel prezzo?",
+      "correct_answer": ["La", "colazione", "è", "inclusa", "nel", "prezzo?"],
+      "distractors": ["incluso", "della"],
+      "hints": ["Incluso agrees with colazione."],
+      "target_words": ["incluso"]
     },
     {
       "id": "unit-21-lesson-01-ex-13",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'reservation' in Italian?" },
-      "sentence_context": "Ho una prenotazione.",
-      "correct_answer": "prenotazione",
+      "prompt": { "text": "Say you would like to book a single room for two nights." },
+      "sentence_context": "",
+      "correct_answer": ["vorrei prenotare una camera singola per due notti"],
       "distractors": [],
-      "hints": ["A feminine noun ending in -e."],
-      "target_words": ["prenotazione"]
+      "hints": ["Vorrei prenotare …"],
+      "target_words": ["prenotare", "singolo"]
     },
     {
       "id": "unit-21-lesson-01-ex-14",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'lift / elevator' in Italian?" },
-      "sentence_context": "L'ascensore è qui.",
-      "correct_answer": "ascensore",
+      "prompt": { "text": "Ask what floor the room is on." },
+      "sentence_context": "",
+      "correct_answer": ["a che piano è la camera?"],
       "distractors": [],
-      "hints": ["Masculine ending in -e."],
-      "target_words": ["ascensore"]
+      "hints": ["A che … ?"],
+      "target_words": ["piano"]
     },
     {
       "id": "unit-21-lesson-01-ex-15",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'floor (level)' in Italian?" },
-      "sentence_context": "Il quinto piano.",
-      "correct_answer": "piano",
+      "prompt": { "text": "Say: The hotel is near the station." },
+      "sentence_context": "",
+      "correct_answer": ["l'hotel è vicino alla stazione", "l'albergo è vicino alla stazione"],
       "distractors": [],
-      "hints": ["The fifth floor."],
-      "target_words": ["piano"]
+      "hints": ["Hotel or albergo, both with l'."],
+      "target_words": ["hotel", "albergo"]
     },
     {
       "id": "unit-21-lesson-01-ex-16",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in the 'io' form of 'prenotare'." },
-      "sentence_context": "Io ___ una camera.",
-      "correct_answer": "prenoto",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say: The hotel has no lift." },
+      "sentence_context": "",
+      "correct_answer": ["l'albergo è senza ascensore", "l'albergo non ha l'ascensore"],
       "distractors": [],
-      "hints": ["io → -o ending."],
-      "target_words": ["prenotare"]
+      "hints": ["Senza …"],
+      "target_words": ["ascensore"]
     },
     {
       "id": "unit-21-lesson-01-ex-17",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange: \"I'd like to book a double room.\"" },
-      "sentence_context": "Vorrei prenotare una camera doppia.",
-      "correct_answer": ["Vorrei", "prenotare", "una", "camera", "doppia."],
-      "distractors": ["singola", "voglio"],
-      "hints": ["Polite request + infinitive."],
-      "target_words": ["prenotare"]
-    },
-    {
-      "id": "unit-21-lesson-01-ex-18",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange: 'I have a reservation.'" },
-      "sentence_context": "Ho una prenotazione.",
-      "correct_answer": ["Ho", "una", "prenotazione."],
-      "distractors": ["un", "albergo"],
-      "hints": ["Avere + 'una prenotazione'."],
-      "target_words": ["prenotazione"]
-    },
-    {
-      "id": "unit-21-lesson-01-ex-19",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange: 'The hotel is in the centre.'" },
-      "sentence_context": "L'albergo è in centro.",
-      "correct_answer": ["L'albergo", "è", "in", "centro."],
-      "distractors": ["la", "fuori"],
-      "hints": ["'L'albergo' + 'è in centro'."],
-      "target_words": ["albergo"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Say: The hotel is fully booked." },
+      "sentence_context": "",
+      "correct_answer": ["l'albergo è al completo", "l'hotel è al completo"],
+      "distractors": [],
+      "hints": ["Al completo."],
+      "target_words": ["albergo", "completo"]
     }
   ],
   "vocabulary": [
-    { "word": "albergo", "meaning": "Hotel", "example": "L'albergo è in centro." },
-    { "word": "hotel", "meaning": "Hotel (loanword)", "example": "Vado all'hotel." },
-    { "word": "reception", "meaning": "Reception (desk)", "example": "La reception è al piano terra." },
-    { "word": "ascensore", "meaning": "Lift / elevator", "example": "L'ascensore non funziona." },
-    { "word": "piano", "meaning": "Floor (in a building)", "example": "La mia camera è al terzo piano." },
-    { "word": "prenotare", "meaning": "To book / reserve", "example": "Vorrei prenotare una camera." },
-    { "word": "prenotazione", "meaning": "Reservation", "example": "Ho una prenotazione." },
-    { "word": "singola", "meaning": "Single (room)", "example": "Una camera singola." }
+    { "word": "albergo", "meaning": "hotel · alberghi (plural)", "example": "Il nostro albergo è vicino alla stazione." },
+    { "word": "hotel", "meaning": "hotel, the same as albergo · gli hotel (plural: it doesn't change)", "example": "L'hotel ha venti camere." },
+    { "word": "prenotare", "meaning": "to book, to reserve · ho prenotato = I booked", "example": "Ho prenotato una camera per due notti." },
+    {
+      "word": "prenotazione",
+      "meaning": "booking, reservation · a nome Rossi = in the name of Rossi",
+      "example": "Buonasera, ho una prenotazione a nome Rossi."
+    },
+    { "word": "singolo", "meaning": "single · una camera singola = a single room", "example": "Paul prende una camera singola." },
+    { "word": "doppio", "meaning": "double · una camera doppia = a double room", "example": "Avete una camera doppia per sabato?" },
+    { "word": "incluso", "meaning": "included", "example": "La colazione è inclusa?" },
+    { "word": "completo", "meaning": "full · al completo = fully booked", "example": "Mi dispiace, sabato siamo al completo." },
+    { "word": "reception", "meaning": "reception (desk) · alla reception = at reception", "example": "La chiave è alla reception." },
+    { "word": "ascensore", "meaning": "lift, elevator", "example": "Scusi, c'è l'ascensore?" }
   ]
 }

@@ -1,0 +1,126 @@
+{
+  "id": "unit-21-lesson-08",
+  "unit_id": "unit-21",
+  "name": "Greetings from Venice",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-21-lesson-08-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "When did Emma and Chloé arrive in Venice?" },
+      "sentence_context": "",
+      "correct_answer": "On Friday evening, an hour late",
+      "distractors": ["On Saturday morning", "On Friday evening, on time"],
+      "hints": ["The postcard is from Saturday: 'Siamo arrivate ieri sera.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-21-lesson-08-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is their room like?" },
+      "sentence_context": "",
+      "correct_answer": "Nice and clean, on the third floor, with no lift",
+      "distractors": ["Big and new, with a lift", "Small and dirty"],
+      "hints": ["Read the first paragraph of the postcard."],
+      "target_words": ["piano"]
+    },
+    {
+      "id": "unit-21-lesson-08-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why does Emma call Venice an international city?" },
+      "sentence_context": "",
+      "correct_answer": "There are tourists from every country",
+      "distractors": ["It has an international airport", "Everyone speaks English"],
+      "hints": ["'Turisti di tutte le nazioni.'"],
+      "target_words": ["internazionale", "nazione"]
+    },
+    {
+      "id": "unit-21-lesson-08-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What did they do in the afternoon?" },
+      "sentence_context": "",
+      "correct_answer": "They walked a lot",
+      "distractors": ["They slept at the hotel", "They went to a museum"],
+      "hints": ["'Abbiamo camminato tanto.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-21-lesson-08-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who is one of the postcards for?" },
+      "sentence_context": "",
+      "correct_answer": "Aiko",
+      "distractors": ["Giulia", "Emma"],
+      "hints": ["'Una è per te!'"],
+      "target_words": ["cartolina"]
+    },
+    {
+      "id": "unit-21-lesson-08-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What went wrong on the way back?" },
+      "sentence_context": "",
+      "correct_answer": "The train was two hours late",
+      "distractors": ["They missed the train", "They lost the suitcases"],
+      "hints": ["'Con due ore di ritardo.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-21-lesson-08-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why is Chloé 'stanca morta'?" },
+      "sentence_context": "",
+      "correct_answer": "She's very tired after the trip",
+      "distractors": ["She's ill", "She's hungry"],
+      "hints": ["Stanca morta: dead tired."],
+      "target_words": ["stanco morto"]
+    },
+    {
+      "id": "unit-21-lesson-08-ex-08",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: there are tourists from every nation." },
+      "sentence_context": "Ci sono turisti di tutte le ___.",
+      "correct_answer": "nazioni",
+      "distractors": [],
+      "hints": ["Nations."],
+      "target_words": ["nazione"]
+    },
+    {
+      "id": "unit-21-lesson-08-ex-09",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa ha perso Chloé a Venezia?" },
+      "sentence_context": "Che cosa ha perso Chloé a Venezia?",
+      "correct_answer": ["il suo ombrello rosso", "l'ombrello rosso", "ha perso il suo ombrello"],
+      "distractors": [],
+      "hints": ["Read the end of the message."],
+      "target_words": []
+    },
+    {
+      "id": "unit-21-lesson-08-ex-10",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Quando sono ritornate a Firenze?" },
+      "sentence_context": "Quando sono ritornate a Firenze?",
+      "correct_answer": ["domenica sera", "sono ritornate domenica sera"],
+      "distractors": [],
+      "hints": ["Chloé writes on Monday: 'ieri sera'."],
+      "target_words": ["ritornare"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "stanco morto", "meaning": "dead tired, exhausted · stanca morta (a woman)", "example": "Dopo il viaggio sono stanco morto.", "phrase": true }
+  ],
+  "reading": {
+    "title": "Saluti da Venezia",
+    "paragraphs": ["Venezia, sabato 16 maggio", "Cara Giulia,", "un saluto da Venezia! Siamo arrivate ieri sera, con un'ora di ritardo. L'albergo è piccolo e vecchio, e la nostra camera è al terzo piano, senza ascensore. Ma è bella e pulita, e la colazione è molto buona.", "Stamattina siamo andate in piazza San Marco. Ci sono turisti di tutte le nazioni: inglesi, tedeschi, giapponesi, americani… Venezia è davvero una città internazionale. Al bar un cameriere ha detto: «Ah, turiste! Di dove siete?» Per lui siamo due turiste straniere come tutte le altre!", "Il pomeriggio abbiamo camminato tanto per le strade piccole, e la sera abbiamo mangiato il pesce in un ristorante vicino all'albergo. Domani ritorniamo a Firenze.", "A lunedì! Emma (e Chloé)", "Lunedì Chloé scrive un messaggio ad Aiko.", "Ciao Aiko! Siamo ritornate ieri sera. Che fine settimana! Venezia mi è piaciuta molto. Ho fatto più di 200 foto e ho mandato cinque cartoline: una è per te!", "Ma il ritorno… Il treno è arrivato a Firenze con due ore di ritardo. Emma ha dormito tutto il viaggio. Io no: io ho mangiato i nostri panini, tutti e quattro. E a Venezia ho perso il mio ombrello rosso. Adesso sono stanca morta!", "A domani in classe, Chloé"]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "unit-09-lesson-08",
+  "unit_id": "unit-09",
+  "name": "A Weekday and a Sunday",
+  "order": 8,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-09-lesson-08-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": { "text": "Describe a normal weekday and then your Sunday: what time you get up, what you do, and when you go to bed." },
+      "sentence_context": "",
+      "correct_answer": "Il lunedì mi sveglio alle sette meno un quarto. Faccio la doccia, mi vesto e faccio colazione al bar. Alle otto e mezza comincio a lavorare e alle sei finisco. La sera ceno a casa, lavo i piatti e mi riposo un po' sul divano. Vado a letto alle undici. La domenica, invece, non metto la sveglia: mi alzo tardi, verso le dieci, e il pomeriggio vedo gli amici.",
+      "distractors": [],
+      "hints": ["Use clock times with alle, and the reflexive verbs with mi. Invece helps for the contrast."],
+      "target_words": ["svegliarsi", "riposarsi", "sveglia", "tardi"]
+    }
+  ],
+  "vocabulary": []
+}

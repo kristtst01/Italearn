@@ -1,0 +1,27 @@
+{
+  "id": "unit-20-lesson-09",
+  "unit_id": "unit-20",
+  "name": "I Can't Come In",
+  "order": 9,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-20-lesson-09-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Aiko writes to her teacher. Now you are ill and can't go to work tomorrow. Write to your boss, who you call Lei: say what's wrong, what the doctor says, and when you hope to come back."
+      },
+      "sentence_context": "",
+      "correct_answer": "Buongiorno, signor Ferri. Mi dispiace, ma domani non posso venire in ufficio: sono malato. Ho la febbre a trentotto, la tosse e un forte mal di gola. Il medico dice che devo restare a casa due giorni e prendere uno sciroppo. Giovedì, se sto meglio, vengo in ufficio. Grazie e buona giornata.",
+      "distractors": [],
+      "hints": ["Mi dispiace, ma…; sono malato or malata; then what is wrong and il medico dice che…"],
+      "target_words": ["malato", "febbre", "restare"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Un messaggio a Giulia",
+    "paragraphs": ["Aiko: Cara Giulia, scusa, oggi non posso venire a lezione: sono malata. Ho la febbre a trentotto e mezzo e mi fa molto male la testa. Resto a letto tutto il giorno. Yuki viene a lezione, e poi studiamo insieme a casa. Giovedì vengo, se sto meglio. Un abbraccio, Aiko", "Giulia: Povera Aiko! Nessun problema. Resta a letto e bevi molta acqua. E oggi non studiare! Guarisci presto. Giulia"]
+  }
+}

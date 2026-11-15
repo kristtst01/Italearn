@@ -1,238 +1,188 @@
 {
   "id": "unit-13-lesson-03",
   "unit_id": "unit-13",
-  "name": "Places in the City",
+  "name": "Asking the Way",
   "order": 3,
-  "grammar_tips": [
-    {
-      "id": "unit-13-lesson-03-tip-01",
-      "title": "Practical Places",
-      "explanation": "Common places you go in a city: la banca, la farmacia, il supermercato, la stazione, l'ospedale, la chiesa, l'ufficio postale, la piazza, il museo. Most are feminine if they end in -a.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-13-lesson-03-tip-02",
-      "title": "Andare A vs Andare In",
-      "explanation": "'Al supermercato', 'alla farmacia', 'in banca', 'in piazza', 'in centro'. Some places take 'a + article', others take 'in' (no article). It's idiomatic — learn the common ones.",
-      "before_exercise": 8
-    },
-    {
-      "id": "unit-13-lesson-03-tip-03",
-      "title": "Via — Street",
-      "explanation": "'La via' = the street. Italian addresses are 'Via [name], numero [N]': 'Via Roma, 10'. 'Piazza' is a square, 'corso' is an avenue.",
-      "before_exercise": 14
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-13-lesson-03-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'banca' mean?" },
-      "sentence_context": "Vado in banca.",
-      "correct_answer": "Bank",
-      "distractors": ["Pharmacy", "Supermarket", "Station"],
-      "hints": ["Where you keep money."],
-      "target_words": ["banca"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'perdersi' mean?" },
+      "sentence_context": "A Firenze è facile perdersi.",
+      "correct_answer": ["to get lost", "get lost", "getting lost"],
+      "distractors": [],
+      "hints": ["Easy to do in old streets."],
+      "target_words": ["perdersi"]
     },
     {
       "id": "unit-13-lesson-03-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'farmacia' mean?" },
-      "sentence_context": "Vado in farmacia.",
-      "correct_answer": "Pharmacy",
-      "distractors": ["Hospital", "Bank", "Supermarket"],
-      "hints": ["Where you buy medicine."],
-      "target_words": ["farmacia"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'sbagliata' mean?" },
+      "sentence_context": "È la strada sbagliata!",
+      "correct_answer": ["wrong", "the wrong way", "the wrong road"],
+      "distractors": [],
+      "hints": ["The opposite of giusta."],
+      "target_words": ["sbagliato"]
     },
     {
       "id": "unit-13-lesson-03-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'supermercato' mean?" },
-      "sentence_context": "Faccio la spesa al supermercato.",
-      "correct_answer": "Supermarket",
-      "distractors": ["Restaurant", "Shop", "Office"],
-      "hints": ["Where you do your weekly shop."],
-      "target_words": ["supermercato"]
+      "prompt": { "text": "You want to stop an older man in the street and ask him the way. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Scusi, sa dov'è la stazione?",
+      "distractors": ["Scusa, sai dov'è la stazione?", "Senti, dov'è la stazione?"],
+      "hints": ["A stranger: Lei."],
+      "target_words": []
     },
     {
       "id": "unit-13-lesson-03-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'stazione' mean?" },
-      "sentence_context": "La stazione è vicino al centro.",
-      "correct_answer": "Station",
-      "distractors": ["Hospital", "Airport", "Office"],
-      "hints": ["Where trains arrive."],
-      "target_words": ["stazione"]
+      "prompt": { "text": "A passer-by explains the way. What do you have to do?" },
+      "sentence_context": "Allora, va dritto e poi gira a sinistra.",
+      "correct_answer": "Go straight on, then turn left",
+      "distractors": ["Turn left, then go back", "Go straight on, then turn right"],
+      "hints": ["Va dritto, then gira a sinistra."],
+      "target_words": ["sinistra"]
     },
     {
       "id": "unit-13-lesson-03-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'ospedale' mean?" },
-      "sentence_context": "Mia madre lavora all'ospedale.",
-      "correct_answer": "Hospital",
-      "distractors": ["Pharmacy", "School", "Bank"],
-      "hints": ["Where doctors work."],
-      "target_words": ["ospedale"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: No, it's the wrong way." },
+      "sentence_context": "No, è la strada ___.",
+      "correct_answer": "sbagliata",
+      "distractors": [],
+      "hints": ["Strada is feminine."],
+      "target_words": ["sbagliato"]
     },
     {
       "id": "unit-13-lesson-03-ex-06",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'chiesa' mean?" },
-      "sentence_context": "La chiesa è in piazza.",
-      "correct_answer": "Church",
-      "distractors": ["School", "Museum", "Square"],
-      "hints": ["A religious building."],
-      "target_words": ["chiesa"]
+      "prompt": { "text": "The passer-by goes on. What do you have to do next?" },
+      "sentence_context": "Poi deve attraversare il ponte.",
+      "correct_answer": "Cross the bridge",
+      "distractors": ["Turn at the bridge", "Go back to the bridge"],
+      "hints": ["Deve + attraversare."],
+      "target_words": ["attraversare", "ponte"]
     },
     {
       "id": "unit-13-lesson-03-ex-07",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'museo' mean?" },
-      "sentence_context": "Visitiamo il museo.",
-      "correct_answer": "Museum",
-      "distractors": ["Church", "School", "Library"],
-      "hints": ["Where you go to see art."],
-      "target_words": ["museo"]
+      "prompt": { "text": "A tourist asks you the way, but you're not from here either. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Mi dispiace, non sono di qui.",
+      "distractors": ["Mi dispiace, non sono qui.", "Prego, sono di qui."],
+      "hints": ["Di qui: from here."],
+      "target_words": []
     },
     {
       "id": "unit-13-lesson-03-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Vado alla ___ per comprare il pane.",
-      "correct_answer": "panetteria",
+      "prompt": { "text": "Complete: Do you have a map? I always get lost." },
+      "sentence_context": "Hai una mappa? Mi ___ sempre.",
+      "correct_answer": "perdo",
       "distractors": [],
-      "hints": ["A bakery — where you buy bread."],
-      "target_words": ["panetteria"]
+      "hints": ["Perdersi, io."],
+      "target_words": ["perdersi", "mappa"]
     },
     {
       "id": "unit-13-lesson-03-ex-09",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Cammino in ___ Roma.",
-      "correct_answer": "via",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A woman stops you and asks the way to piazza della Signoria. Tell her: straight on, then turn right at the lights." },
+      "sentence_context": "Woman: Scusi, per andare in piazza della Signoria?\nYou: ___",
+      "correct_answer": ["Va sempre dritto e al semaforo gira a destra.", "Allora, va dritto e poi gira a destra al semaforo."],
       "distractors": [],
-      "hints": ["I walk in Via Roma. (Italian addresses)"],
-      "target_words": ["via"]
+      "hints": ["To a stranger: the present, va and gira."],
+      "target_words": ["dritto", "semaforo"],
+      "dialogue": [
+        { "speaker": "Woman", "text": "Scusi, per andare in piazza della Signoria?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-13-lesson-03-ex-10",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "La chiesa è in ___ Garibaldi.",
-      "correct_answer": "piazza",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "You're lost and ask a man for the station. He says it's far. Ask him where the bus stop is." },
+      "sentence_context": "Man: La stazione? È lontano. Deve prendere l'autobus.\nYou: ___",
+      "correct_answer": ["Scusi, dov'è la fermata?", "E dov'è la fermata dell'autobus?"],
       "distractors": [],
-      "hints": ["A square."],
-      "target_words": ["piazza"]
+      "hints": ["Dov'è + la fermata."],
+      "target_words": [],
+      "dialogue": [
+        { "speaker": "Man", "text": "La stazione? È lontano. Deve prendere l'autobus." },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-13-lesson-03-ex-11",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'bank' in Italian?" },
-      "sentence_context": "Vado in banca.",
-      "correct_answer": "banca",
-      "distractors": [],
-      "hints": ["A feminine noun."],
-      "target_words": ["banca"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Paul asks a lady the way.'" },
+      "sentence_context": "Paul chiede la strada a una signora.",
+      "correct_answer": ["Paul", "chiede", "la", "strada", "a", "una", "signora."],
+      "distractors": ["chiedi", "alla"],
+      "hints": ["Chiedere la strada a someone."],
+      "target_words": ["chiedere"]
     },
     {
       "id": "unit-13-lesson-03-ex-12",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'pharmacy' in Italian?" },
-      "sentence_context": "Compro l'aspirina in farmacia.",
-      "correct_answer": "farmacia",
+      "prompt": { "text": "Ask a stranger the way to the station." },
+      "sentence_context": "",
+      "correct_answer": ["scusi, per andare alla stazione", "scusi, sa dov'è la stazione"],
       "distractors": [],
-      "hints": ["Close to the English word."],
-      "target_words": ["farmacia"]
+      "hints": ["Scusi, per andare a + the place?"],
+      "target_words": []
     },
     {
       "id": "unit-13-lesson-03-ex-13",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'station' in Italian?" },
-      "sentence_context": "Vado alla stazione.",
-      "correct_answer": "stazione",
+      "prompt": { "text": "Tell a stranger: you have to cross the square." },
+      "sentence_context": "",
+      "correct_answer": ["deve attraversare la piazza"],
       "distractors": [],
-      "hints": ["A feminine noun ending in -e."],
-      "target_words": ["stazione"]
+      "hints": ["Deve + the infinitive."],
+      "target_words": ["attraversare"]
     },
     {
       "id": "unit-13-lesson-03-ex-14",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'museum' in Italian?" },
-      "sentence_context": "Il museo è grande.",
-      "correct_answer": "museo",
+      "prompt": { "text": "Ask a friend if she has a map of Florence." },
+      "sentence_context": "",
+      "correct_answer": ["hai una mappa di firenze"],
       "distractors": [],
-      "hints": ["A masculine noun."],
-      "target_words": ["museo"]
+      "hints": ["Avere, tu."],
+      "target_words": ["mappa"]
     },
     {
       "id": "unit-13-lesson-03-ex-15",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'street' in Italian?" },
-      "sentence_context": "Via Roma è lunga.",
-      "correct_answer": "via",
+      "prompt": { "text": "Say you always get lost." },
+      "sentence_context": "",
+      "correct_answer": ["mi perdo sempre"],
       "distractors": [],
-      "hints": ["A feminine noun."],
-      "target_words": ["via"]
-    },
-    {
-      "id": "unit-13-lesson-03-ex-16",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I go to the supermarket on Saturday.'" },
-      "sentence_context": "Vado al supermercato il sabato.",
-      "correct_answer": ["Vado", "al", "supermercato", "il", "sabato."],
-      "distractors": ["alla", "domenica"],
-      "hints": ["'Supermercato' is masculine → al."],
-      "target_words": ["supermercato"]
-    },
-    {
-      "id": "unit-13-lesson-03-ex-17",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'The church is in the square.'" },
-      "sentence_context": "La chiesa è in piazza.",
-      "correct_answer": ["La", "chiesa", "è", "in", "piazza."],
-      "distractors": ["alla", "stazione"],
-      "hints": ["'In piazza' is a fixed phrase."],
-      "target_words": ["chiesa", "piazza"]
-    },
-    {
-      "id": "unit-13-lesson-03-ex-18",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'My mother works at the hospital.'" },
-      "sentence_context": "Mia madre lavora all'ospedale.",
-      "correct_answer": ["Mia", "madre", "lavora", "all'ospedale."],
-      "distractors": ["alla", "in"],
-      "hints": ["a + l' = all'."],
-      "target_words": ["ospedale"]
+      "hints": ["Perdersi, io."],
+      "target_words": ["perdersi"]
     }
   ],
   "vocabulary": [
-    { "word": "banca", "meaning": "Bank", "example": "Vado in banca." },
-    { "word": "farmacia", "meaning": "Pharmacy", "example": "Compro l'aspirina in farmacia." },
-    { "word": "supermercato", "meaning": "Supermarket", "example": "Faccio la spesa al supermercato." },
-    { "word": "stazione", "meaning": "Station", "example": "La stazione è vicino al centro." },
-    { "word": "ospedale", "meaning": "Hospital", "example": "Mia madre lavora all'ospedale." },
-    { "word": "chiesa", "meaning": "Church", "example": "La chiesa è in piazza." },
-    { "word": "museo", "meaning": "Museum", "example": "Visitiamo il museo." },
-    { "word": "panetteria", "meaning": "Bakery", "example": "Vado alla panetteria." },
-    { "word": "via", "meaning": "Street", "example": "Via Roma è lunga." },
-    { "word": "piazza", "meaning": "Square / piazza", "example": "La chiesa è in piazza." }
+    { "word": "chiedere", "meaning": "to ask (for) · chiedere la strada = to ask the way", "example": "Chiedo la strada a un signore." },
+    { "word": "perdersi", "meaning": "to get lost · mi perdo = I get lost", "example": "A Firenze mi perdo sempre!" },
+    { "word": "mappa", "meaning": "map · sulla mappa = on the map", "example": "Hai una mappa di Firenze?" },
+    { "word": "sbagliato", "meaning": "wrong · la strada sbagliata = the wrong way", "example": "È la strada sbagliata!" }
   ]
 }

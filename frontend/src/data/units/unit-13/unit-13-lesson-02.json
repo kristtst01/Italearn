@@ -1,259 +1,196 @@
 {
   "id": "unit-13-lesson-02",
   "unit_id": "unit-13",
-  "name": "Articulated Prepositions",
+  "name": "Along the Street",
   "order": 2,
-  "grammar_tips": [
-    {
-      "id": "unit-13-lesson-02-tip-01",
-      "title": "Preposition + Article = One Word",
-      "explanation": "When the prepositions a, di, da, in, su meet a definite article (il, lo, la, l', i, gli, le), they fuse into ONE word: a + il = al, di + la = della, in + il = nel, etc.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-13-lesson-02-tip-02",
-      "title": "The Fusion Table",
-      "explanation": "Examples: al (a+il), allo (a+lo), alla (a+la), all' (a+l'), ai (a+i), agli (a+gli), alle (a+le). Same pattern for di→del, da→dal, in→nel, su→sul. 'Con' and 'per' do NOT fuse.",
-      "before_exercise": 7
-    },
-    {
-      "id": "unit-13-lesson-02-tip-03",
-      "title": "If You Know the Article, You Know the Fusion",
-      "explanation": "Knowing 'lo' triggers (lo studente, lo zaino) means knowing 'allo studente', 'allo zaino'. The fusion uses the same article rules from Unit 3.",
-      "before_exercise": 13
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-13-lesson-02-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'al' mean?" },
-      "sentence_context": "Vado al cinema.",
-      "correct_answer": "To the (masculine)",
-      "distractors": ["From the", "On the", "In the"],
-      "hints": ["a + il → al."],
-      "target_words": ["al"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'semaforo' mean?" },
+      "sentence_context": "Al semaforo, gira a sinistra.",
+      "correct_answer": ["traffic lights", "the traffic lights", "traffic light", "the lights"],
+      "distractors": [],
+      "hints": ["Red, yellow, green."],
+      "target_words": ["semaforo"]
     },
     {
       "id": "unit-13-lesson-02-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'alla' mean?" },
-      "sentence_context": "Vado alla stazione.",
-      "correct_answer": "To the (feminine)",
-      "distractors": ["From the", "On the", "Of the"],
-      "hints": ["a + la → alla."],
-      "target_words": ["alla"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'incrocio' mean?" },
+      "sentence_context": "Al primo incrocio, gira a destra.",
+      "correct_answer": ["crossroads", "junction", "intersection", "the crossroads"],
+      "distractors": [],
+      "hints": ["Where two streets meet."],
+      "target_words": ["incrocio"]
     },
     {
       "id": "unit-13-lesson-02-ex-03",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'della' mean?" },
-      "sentence_context": "Il libro della ragazza.",
-      "correct_answer": "Of the (feminine)",
-      "distractors": ["To the", "On the", "From the"],
-      "hints": ["di + la → della."],
-      "target_words": ["della"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'fiume' mean?" },
+      "sentence_context": "Il fiume di Firenze è l'Arno.",
+      "correct_answer": ["river", "the river"],
+      "distractors": [],
+      "hints": ["The Arno is one."],
+      "target_words": ["fiume"]
     },
     {
       "id": "unit-13-lesson-02-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'nel' mean?" },
-      "sentence_context": "Il libro è nel cassetto.",
-      "correct_answer": "In the (masculine)",
-      "distractors": ["On the", "To the", "Of the"],
-      "hints": ["in + il → nel."],
-      "target_words": ["nel"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: There is a bar on the corner." },
+      "sentence_context": "C'è un bar all'___.",
+      "correct_answer": "angolo",
+      "distractors": [],
+      "hints": ["On the corner."],
+      "target_words": ["angolo"]
     },
     {
       "id": "unit-13-lesson-02-ex-05",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'sul' mean?" },
-      "sentence_context": "Il libro è sul tavolo.",
-      "correct_answer": "On the (masculine)",
-      "distractors": ["In the", "To the", "From the"],
-      "hints": ["su + il → sul."],
-      "target_words": ["sul"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Go straight on as far as the lights." },
+      "sentence_context": "Vai dritto ___ al semaforo.",
+      "correct_answer": "fino",
+      "distractors": [],
+      "hints": ["As far as."],
+      "target_words": ["fino a", "semaforo"]
     },
     {
       "id": "unit-13-lesson-02-ex-06",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'dal' mean?" },
-      "sentence_context": "Vengo dal cinema.",
-      "correct_answer": "From the (masculine)",
-      "distractors": ["To the", "Of the", "On the"],
-      "hints": ["da + il → dal."],
-      "target_words": ["dal"]
+      "prompt": { "text": "The church is at the end of the street. How do you say it?" },
+      "sentence_context": "",
+      "correct_answer": "La chiesa è in fondo alla strada.",
+      "distractors": ["La chiesa è all'angolo della strada.", "La chiesa è dietro la strada."],
+      "hints": ["At the end: in fondo."],
+      "target_words": ["in fondo"]
     },
     {
       "id": "unit-13-lesson-02-ex-07",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Fill in: 'a + il' = ___" },
-      "sentence_context": "Vado ___ cinema.",
-      "correct_answer": "al",
+      "type": "writing",
+      "subtype": "fill_blank",
+      "prompt": { "text": "Tell a friend: cross the square." },
+      "sentence_context": "___ la piazza.",
+      "correct_answer": "Attraversa",
       "distractors": [],
-      "hints": ["a + il fuses to one word."],
-      "target_words": ["al"]
+      "hints": ["Attraversare, to one friend."],
+      "target_words": ["attraversare"]
     },
     {
       "id": "unit-13-lesson-02-ex-08",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Fill in: 'a + la' = ___" },
-      "sentence_context": "Vado ___ stazione.",
-      "correct_answer": "alla",
-      "distractors": [],
-      "hints": ["a + la fuses to alla."],
-      "target_words": ["alla"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A friend asks how to get to the other side of the river. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Attraversa il ponte.",
+      "distractors": ["Attraversa il semaforo.", "Gira all'angolo."],
+      "hints": ["Over the river."],
+      "target_words": ["ponte", "attraversare"]
     },
     {
       "id": "unit-13-lesson-02-ex-09",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Fill in: 'di + la' = ___" },
-      "sentence_context": "Il libro ___ ragazza.",
-      "correct_answer": "della",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Chloé asks where the bar is. It is at the end of the street, on the corner." },
+      "sentence_context": "Chloé: Dov'è il bar?\nYou: ___",
+      "correct_answer": ["È in fondo alla strada, all'angolo.", "In fondo alla strada, all'angolo."],
       "distractors": [],
-      "hints": ["di + la fuses to della."],
-      "target_words": ["della"]
+      "hints": ["In fondo a + la strada."],
+      "target_words": ["in fondo", "angolo"],
+      "dialogue": [
+        { "speaker": "Chloé", "text": "Dov'è il bar?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-13-lesson-02-ex-10",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Fill in: 'in + il' = ___" },
-      "sentence_context": "Il libro è ___ tavolo... no, nel cassetto.",
-      "correct_answer": "nel",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend on a bike asks if she should turn here. Tell her to carry on to the crossroads, then turn left." },
+      "sentence_context": "Friend: Giro qui?\nYou: ___",
+      "correct_answer": ["No, continua fino all'incrocio, poi gira a sinistra.", "No, vai dritto fino all'incrocio e poi gira a sinistra."],
       "distractors": [],
-      "hints": ["in + il fuses to nel."],
-      "target_words": ["nel"]
+      "hints": ["Fino a + l'incrocio."],
+      "target_words": ["incrocio", "continuare"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Giro qui?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-13-lesson-02-ex-11",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Fill in: 'su + il' = ___" },
-      "sentence_context": "Il libro è ___ tavolo.",
-      "correct_answer": "sul",
-      "distractors": [],
-      "hints": ["su + il fuses to sul."],
-      "target_words": ["sul"]
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'Cross the bridge and turn right.'" },
+      "sentence_context": "Attraversa il ponte e gira a destra.",
+      "correct_answer": ["Attraversa", "il", "ponte", "e", "gira", "a", "destra."],
+      "distractors": ["fiume", "sinistra"],
+      "hints": ["Two commands to a friend."],
+      "target_words": ["ponte", "attraversare"]
     },
     {
       "id": "unit-13-lesson-02-ex-12",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Fill in: 'a + lo' = ___" },
-      "sentence_context": "Do un libro ___ studente.",
-      "correct_answer": "allo",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Tell two friends: cross the road at the lights." },
+      "sentence_context": "",
+      "correct_answer": ["attraversate la strada al semaforo", "attraversate al semaforo"],
       "distractors": [],
-      "hints": ["a + lo fuses to allo."],
-      "target_words": ["allo"]
+      "hints": ["Attraversare, to two friends."],
+      "target_words": ["attraversare", "semaforo"]
     },
     {
       "id": "unit-13-lesson-02-ex-13",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Combine 'a + la stazione' → ?" },
-      "sentence_context": "Vado ___ stazione.",
-      "correct_answer": "alla",
+      "subtype": "type_answer",
+      "prompt": { "text": "Tell a friend: take the second street on the left." },
+      "sentence_context": "",
+      "correct_answer": ["prendi la seconda a sinistra", "prendi la seconda strada a sinistra"],
       "distractors": [],
-      "hints": ["Feminine → alla."],
-      "target_words": ["alla"]
+      "hints": ["La seconda: the second (street)."],
+      "target_words": ["sinistra"]
     },
     {
       "id": "unit-13-lesson-02-ex-14",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Combine 'in + la casa' → ?" },
-      "sentence_context": "Il gatto è ___ casa.",
-      "correct_answer": "nella",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say there are a lot of bridges in Florence." },
+      "sentence_context": "",
+      "correct_answer": ["a firenze ci sono molti ponti", "ci sono molti ponti a firenze"],
       "distractors": [],
-      "hints": ["in + la = nella."],
-      "target_words": ["nella"]
+      "hints": ["Ci sono + ponti."],
+      "target_words": ["ponte"]
     },
     {
       "id": "unit-13-lesson-02-ex-15",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Combine 'di + il libro' → ?" },
-      "sentence_context": "La pagina ___ libro.",
-      "correct_answer": "del",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say: the bridge is at the end of the street." },
+      "sentence_context": "",
+      "correct_answer": ["il ponte è in fondo alla strada"],
       "distractors": [],
-      "hints": ["di + il = del."],
-      "target_words": ["del"]
-    },
-    {
-      "id": "unit-13-lesson-02-ex-16",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Combine 'da + il cinema' → ?" },
-      "sentence_context": "Vengo ___ cinema.",
-      "correct_answer": "dal",
-      "distractors": [],
-      "hints": ["da + il = dal."],
-      "target_words": ["dal"]
-    },
-    {
-      "id": "unit-13-lesson-02-ex-17",
-      "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Combine 'a + i bambini' (plural)." },
-      "sentence_context": "Do i libri ___ bambini.",
-      "correct_answer": "ai",
-      "distractors": [],
-      "hints": ["a + i = ai."],
-      "target_words": ["al"]
-    },
-    {
-      "id": "unit-13-lesson-02-ex-18",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I go to the cinema.'" },
-      "sentence_context": "Vado al cinema.",
-      "correct_answer": ["Vado", "al", "cinema."],
-      "distractors": ["alla", "in"],
-      "hints": ["'Cinema' is masculine → al."],
-      "target_words": ["al"]
-    },
-    {
-      "id": "unit-13-lesson-02-ex-19",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'The book is on the table.'" },
-      "sentence_context": "Il libro è sul tavolo.",
-      "correct_answer": ["Il", "libro", "è", "sul", "tavolo."],
-      "distractors": ["su", "nel"],
-      "hints": ["su + il = sul."],
-      "target_words": ["sul"]
-    },
-    {
-      "id": "unit-13-lesson-02-ex-20",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I'm going to the station.'" },
-      "sentence_context": "Vado alla stazione.",
-      "correct_answer": ["Vado", "alla", "stazione."],
-      "distractors": ["al", "della"],
-      "hints": ["'Stazione' is feminine → alla."],
-      "target_words": ["alla"]
+      "hints": ["In fondo a + la."],
+      "target_words": ["ponte", "in fondo"]
     }
   ],
   "vocabulary": [
-    { "word": "al", "meaning": "To the (a + il)", "example": "Vado al cinema." },
-    { "word": "allo", "meaning": "To the (a + lo)", "example": "Do un libro allo studente." },
-    { "word": "alla", "meaning": "To the (a + la)", "example": "Vado alla stazione." },
-    { "word": "del", "meaning": "Of the (di + il)", "example": "La pagina del libro." },
-    { "word": "della", "meaning": "Of the (di + la)", "example": "Il libro della ragazza." },
-    { "word": "dal", "meaning": "From the (da + il)", "example": "Vengo dal cinema." },
-    { "word": "nel", "meaning": "In the (in + il)", "example": "Il libro è nel cassetto." },
-    { "word": "nella", "meaning": "In the (in + la)", "example": "Il gatto è nella casa." },
-    { "word": "sul", "meaning": "On the (su + il)", "example": "Il libro è sul tavolo." }
+    { "word": "incrocio", "meaning": "crossroads, junction · incroci (plural)", "example": "Al primo incrocio, gira a destra." },
+    { "word": "semaforo", "meaning": "traffic lights", "example": "Al semaforo, gira a sinistra." },
+    { "word": "angolo", "meaning": "corner · all'angolo = on the corner", "example": "C'è un bar all'angolo." },
+    { "word": "attraversare", "meaning": "to cross", "example": "Attraversiamo la piazza." },
+    { "word": "fino a", "meaning": "as far as, up to · fino al semaforo = as far as the lights", "example": "Vai dritto fino al semaforo." },
+    {
+      "word": "in fondo",
+      "meaning": "at the end, at the bottom · in fondo alla strada = at the end of the street",
+      "example": "La chiesa è in fondo alla strada."
+    },
+    { "word": "ponte", "meaning": "bridge", "example": "A Firenze ci sono molti ponti." },
+    { "word": "fiume", "meaning": "river", "example": "Il fiume di Firenze è l'Arno." }
   ]
 }

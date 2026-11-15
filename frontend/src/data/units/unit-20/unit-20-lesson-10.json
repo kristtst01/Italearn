@@ -1,0 +1,27 @@
+{
+  "id": "unit-20-lesson-10",
+  "unit_id": "unit-20",
+  "name": "Get Well Soon",
+  "order": 10,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-20-lesson-10-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Chloé writes to Emma for advice. Answer as Emma, a friend: say what Chloé should do and what she shouldn't, and end your message warmly."
+      },
+      "sentence_context": "",
+      "correct_answer": "Povera Chloé! Non andare al bar domani: telefona oggi e resta a casa. Bevi molto tè caldo, prendi uno sciroppo per la tosse e va' a letto presto. Se domani hai la febbre o ti fanno ancora male le orecchie, chiama il medico. Guarisci presto! Un bacio, Emma",
+      "distractors": [],
+      "hints": ["Tu commands: resta, bevi, prendi; don't: non andare. Se + the present."],
+      "target_words": ["restare", "guarire", "tosse"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Un messaggio di Chloé",
+    "paragraphs": ["Chloé: Emma, sto molto male! Ho il raffreddore, la tosse, e mi fanno male le orecchie. Non ho la febbre, ma sono molto stanca. E domani è sabato: devo lavorare al bar dalle otto alle tre. Che cosa faccio? Vado al lavoro?"]
+  }
+}

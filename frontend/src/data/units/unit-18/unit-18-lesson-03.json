@@ -1,220 +1,216 @@
 {
   "id": "unit-18-lesson-03",
   "unit_id": "unit-18",
-  "name": "Preferring & Comparing",
+  "name": "Invitations",
   "order": 3,
-  "grammar_tips": [
-    {
-      "id": "unit-18-lesson-03-tip-01",
-      "title": "Preferire — Recap",
-      "explanation": "From Unit 10: 'preferire' is an -isc- verb. 'Preferisco il caffè al tè' = 'I prefer coffee to tea'. The 'to' is 'a' (or 'a' + article).",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-18-lesson-03-tip-02",
-      "title": "More and Less",
-      "explanation": "'Più' = more. 'Meno' = less. To compare: 'più ... di / che' (more than), 'meno ... di / che' (less than). 'Il caffè è più caro del tè' = Coffee is more expensive than tea.",
-      "before_exercise": 6
-    },
-    {
-      "id": "unit-18-lesson-03-tip-03",
-      "title": "Piuttosto",
-      "explanation": "'Piuttosto' = rather. 'Piuttosto che' = rather than. 'Bevo il tè piuttosto che il caffè' = I drink tea rather than coffee.",
-      "before_exercise": 12
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-18-lesson-03-ex-01",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'preferire' mean?" },
-      "sentence_context": "Preferisco il caffè.",
-      "correct_answer": "To prefer",
-      "distractors": ["To like", "To want", "To love"],
-      "hints": ["I prefer coffee."],
-      "target_words": ["preferire"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'purtroppo' mean?" },
+      "sentence_context": "Purtroppo stasera non posso.",
+      "correct_answer": ["unfortunately"],
+      "distractors": [],
+      "hints": ["Bad news is coming."],
+      "target_words": ["purtroppo"]
     },
     {
       "id": "unit-18-lesson-03-ex-02",
       "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'più' mean?" },
-      "sentence_context": "Il caffè è più caro.",
-      "correct_answer": "More",
-      "distractors": ["Less", "Better", "Very"],
-      "hints": ["Coffee is more expensive."],
-      "target_words": ["più"]
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'ti va' mean?" },
+      "sentence_context": "Ti va di prendere un gelato?",
+      "correct_answer": ["do you feel like", "do you fancy", "would you like"],
+      "distractors": [],
+      "hints": ["A friendly way to invite."],
+      "target_words": ["ti va?"]
     },
     {
       "id": "unit-18-lesson-03-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'meno' mean?" },
-      "sentence_context": "Il tè è meno caro.",
-      "correct_answer": "Less",
-      "distractors": ["More", "Very", "Not"],
-      "hints": ["Tea is less expensive."],
-      "target_words": ["meno"]
+      "prompt": { "text": "A friend invites you to her party on Saturday. You'd love to go. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Sì, volentieri! Grazie per l'invito.",
+      "distractors": ["Purtroppo non posso.", "Che peccato!"],
+      "hints": ["Accept, and thank her."],
+      "target_words": ["invito"]
     },
     {
       "id": "unit-18-lesson-03-ex-04",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": { "text": "What does 'piuttosto' mean?" },
-      "sentence_context": "Bevo il tè piuttosto che il caffè.",
-      "correct_answer": "Rather",
-      "distractors": ["More", "Often", "Less"],
-      "hints": ["I drink tea rather than coffee."],
-      "target_words": ["piuttosto"]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: There's a party at Chloé's on Saturday." },
+      "sentence_context": "Sabato c'è una ___ da Chloé.",
+      "correct_answer": "festa",
+      "distractors": [],
+      "hints": ["A party."],
+      "target_words": ["festa"]
     },
     {
       "id": "unit-18-lesson-03-ex-05",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Io ___ il pesce.",
-      "correct_answer": "preferisco",
+      "prompt": { "text": "Complete: Unfortunately I can't, I have to work." },
+      "sentence_context": "___ non posso, devo lavorare.",
+      "correct_answer": "Purtroppo",
       "distractors": [],
-      "hints": ["I prefer fish. (io + isc + o)"],
-      "target_words": ["preferire"]
+      "hints": ["Unfortunately."],
+      "target_words": ["purtroppo"]
     },
     {
       "id": "unit-18-lesson-03-ex-06",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Anna ___ la pizza alla pasta.",
-      "correct_answer": "preferisce",
-      "distractors": [],
-      "hints": ["Anna prefers pizza to pasta. (lei + isc + e)"],
-      "target_words": ["preferire"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Your friend can't come to your party. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Che peccato!",
+      "distractors": ["Volentieri!", "Grazie per l'invito!"],
+      "hints": ["What a shame."],
+      "target_words": ["peccato"]
     },
     {
       "id": "unit-18-lesson-03-ex-07",
       "type": "vocab",
-      "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Il caffè è ___ caro del tè.",
-      "correct_answer": "più",
-      "distractors": [],
-      "hints": ["Coffee is more expensive than tea."],
-      "target_words": ["più"]
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A friend invites you out, but you're not sure you can come. What do you say?" },
+      "sentence_context": "",
+      "correct_answer": "Forse vengo, ma non lo so.",
+      "distractors": ["Vengo volentieri!", "Purtroppo non vengo."],
+      "hints": ["Maybe."],
+      "target_words": ["forse"]
     },
     {
       "id": "unit-18-lesson-03-ex-08",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": { "text": "Complete the sentence with the missing word." },
-      "sentence_context": "Il tè è ___ caro del caffè.",
-      "correct_answer": "meno",
+      "prompt": { "text": "Complete: Thanks for the invitation!" },
+      "sentence_context": "Grazie per l'___!",
+      "correct_answer": "invito",
       "distractors": [],
-      "hints": ["Tea is less expensive than coffee."],
-      "target_words": ["meno"]
+      "hints": ["Invitation."],
+      "target_words": ["invito"]
     },
     {
       "id": "unit-18-lesson-03-ex-09",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'to prefer' in Italian?" },
-      "sentence_context": "Preferisco il caffè.",
-      "correct_answer": "preferire",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Not tonight, but maybe tomorrow?" },
+      "sentence_context": "Stasera no, ma ___ domani?",
+      "correct_answer": "magari",
       "distractors": [],
-      "hints": ["-isc- verb."],
-      "target_words": ["preferire"]
+      "hints": ["Maybe, to suggest something."],
+      "target_words": ["magari"]
     },
     {
       "id": "unit-18-lesson-03-ex-10",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'more' in Italian?" },
-      "sentence_context": "È più grande.",
-      "correct_answer": "più",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend phones to invite you to the cinema tonight. You would like to go." },
+      "sentence_context": "Friend: Ti va di andare al cinema stasera?\nYou: ___",
+      "correct_answer": ["Sì, volentieri! A che ora?", "Sì, perché no?"],
       "distractors": [],
-      "hints": ["Note the accent."],
-      "target_words": ["più"]
+      "hints": ["Accept, and ask the time."],
+      "target_words": ["ti va?"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Ti va di andare al cinema stasera?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-18-lesson-03-ex-11",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'less' in Italian?" },
-      "sentence_context": "È meno grande.",
-      "correct_answer": "meno",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Emma asks if you're coming to Aiko's party on Saturday. You can't: you work on Saturday." },
+      "sentence_context": "Emma: Vieni alla festa di Aiko sabato?\nYou: ___",
+      "correct_answer": ["Purtroppo non posso: sabato lavoro.", "Mi dispiace, sabato devo lavorare."],
       "distractors": [],
-      "hints": ["Four letters."],
-      "target_words": ["meno"]
+      "hints": ["Purtroppo, then the reason."],
+      "target_words": ["purtroppo", "festa"],
+      "dialogue": [
+        { "speaker": "Emma", "text": "Vieni alla festa di Aiko sabato?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-18-lesson-03-ex-12",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": { "text": "How do you say 'rather' in Italian?" },
-      "sentence_context": "Bevo il tè piuttosto che il caffè.",
-      "correct_answer": "piuttosto",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "A friend suggests a concert tonight. You can't tonight: suggest another time." },
+      "sentence_context": "Friend: Andiamo a un concerto stasera?\nYou: ___",
+      "correct_answer": ["Stasera non posso. Magari un'altra volta?", "Purtroppo stasera no, ma magari domani?"],
       "distractors": [],
-      "hints": ["Used in comparisons."],
-      "target_words": ["piuttosto"]
+      "hints": ["Magari un'altra volta."],
+      "target_words": ["magari"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Andiamo a un concerto stasera?" },
+        { "speaker": "You" }
+      ]
     },
     {
       "id": "unit-18-lesson-03-ex-13",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in 'più' or 'meno' — Italy is bigger than Switzerland." },
-      "sentence_context": "L'Italia è ___ grande della Svizzera.",
-      "correct_answer": "più",
-      "distractors": [],
-      "hints": ["Italy IS bigger → più."],
-      "target_words": ["più"]
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'I invite all my friends to the party.'" },
+      "sentence_context": "Invito tutti i miei amici alla festa.",
+      "correct_answer": ["Invito", "tutti", "i", "miei", "amici", "alla", "festa."],
+      "distractors": ["mie", "inviti"],
+      "hints": ["Tutti i miei amici."],
+      "target_words": ["invitare", "festa"]
     },
     {
       "id": "unit-18-lesson-03-ex-14",
       "type": "writing",
-      "subtype": "fill_blank",
-      "prompt": { "text": "Fill in 'più' or 'meno' — a sandwich is cheaper than a pizza." },
-      "sentence_context": "Un panino è ___ caro di una pizza.",
-      "correct_answer": "meno",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend if they feel like coming to dinner on Friday." },
+      "sentence_context": "",
+      "correct_answer": ["ti va di venire a cena venerdì", "venerdì ti va di venire a cena"],
       "distractors": [],
-      "hints": ["Sandwich is cheaper → meno."],
-      "target_words": ["meno"]
+      "hints": ["Ti va di + the infinitive."],
+      "target_words": ["ti va?"]
     },
     {
       "id": "unit-18-lesson-03-ex-15",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I prefer coffee to tea.'" },
-      "sentence_context": "Preferisco il caffè al tè.",
-      "correct_answer": ["Preferisco", "il", "caffè", "al", "tè."],
-      "distractors": ["preferisci", "alla"],
-      "hints": ["Preferire + thing + 'a' + thing."],
-      "target_words": ["preferire"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Say: Maybe another time." },
+      "sentence_context": "",
+      "correct_answer": ["magari un'altra volta", "forse un'altra volta"],
+      "distractors": [],
+      "hints": ["Un'altra volta."],
+      "target_words": ["magari"]
     },
     {
       "id": "unit-18-lesson-03-ex-16",
       "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'Rome is bigger than Milan.'" },
-      "sentence_context": "Roma è più grande di Milano.",
-      "correct_answer": ["Roma", "è", "più", "grande", "di", "Milano."],
-      "distractors": ["meno", "che"],
-      "hints": ["più ... di + name."],
-      "target_words": ["più"]
-    },
-    {
-      "id": "unit-18-lesson-03-ex-17",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": { "text": "Arrange the words: 'I drink tea rather than coffee.'" },
-      "sentence_context": "Bevo il tè piuttosto che il caffè.",
-      "correct_answer": ["Bevo", "il", "tè", "piuttosto", "che", "il", "caffè."],
-      "distractors": ["più", "meno"],
-      "hints": ["'Piuttosto che' = rather than."],
-      "target_words": ["piuttosto"]
+      "subtype": "type_answer",
+      "prompt": { "text": "Say: What a shame!" },
+      "sentence_context": "",
+      "correct_answer": ["che peccato", "peccato"],
+      "distractors": [],
+      "hints": ["Che…"],
+      "target_words": ["peccato"]
     }
   ],
   "vocabulary": [
-    { "word": "più", "meaning": "More", "example": "Il caffè è più caro." },
-    { "word": "meno", "meaning": "Less", "example": "Il tè è meno caro." },
-    { "word": "piuttosto", "meaning": "Rather", "example": "Bevo il tè piuttosto che il caffè." }
+    { "word": "invitare", "meaning": "to invite · invitato = invited; a guest", "example": "Siete tutti invitati alla festa!" },
+    { "word": "invito", "meaning": "invitation", "example": "Grazie per l'invito!" },
+    { "word": "festa", "meaning": "party; holiday", "example": "Sabato c'è una festa da Chloé." },
+    {
+      "word": "ti va?",
+      "meaning": "do you feel like it? · ti va di + verb? = do you feel like…?",
+      "example": "Ti va di andare al cinema stasera?",
+      "phrase": true
+    },
+    { "word": "purtroppo", "meaning": "unfortunately", "example": "Purtroppo stasera non posso." },
+    { "word": "peccato", "meaning": "pity, shame · che peccato! = what a shame!", "example": "Non vieni? Peccato!" },
+    { "word": "forse", "meaning": "maybe, perhaps", "example": "Forse vengo, ma non lo so." },
+    {
+      "word": "magari",
+      "meaning": "maybe (to suggest something); I wish! · magari un'altra volta = maybe another time",
+      "example": "Stasera no, ma magari domani?"
+    }
   ]
 }

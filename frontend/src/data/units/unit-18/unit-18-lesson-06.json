@@ -1,0 +1,170 @@
+{
+  "id": "unit-18-lesson-06",
+  "unit_id": "unit-18",
+  "name": "A Party at Aiko's",
+  "order": 6,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-18-lesson-06-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why is Aiko having a party?" },
+      "sentence_context": "",
+      "correct_answer": "It's her birthday",
+      "distractors": ["It's Yuki's birthday", "It's the end of the course"],
+      "hints": ["'È il mio compleanno.'"],
+      "target_words": ["festa"]
+    },
+    {
+      "id": "unit-18-lesson-06-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who is cooking?" },
+      "sentence_context": "",
+      "correct_answer": "Yuki",
+      "distractors": ["Aiko", "Chloé"],
+      "hints": ["'Yuki cucina per tutti.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-06-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "True or false: Yuki and Aiko both like dancing." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'A Yuki non piace ballare, ma a me sì!'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-06-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is Tomás bringing?" },
+      "sentence_context": "",
+      "correct_answer": "A Spanish dessert",
+      "distractors": ["A bottle of wine", "A present"],
+      "hints": ["'Porto un dolce spagnolo.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-06-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does Emma say about her present?" },
+      "sentence_context": "",
+      "correct_answer": "It's a surprise",
+      "distractors": ["It's a bottle of wine", "She doesn't have one"],
+      "hints": ["'È una sorpresa!'"],
+      "target_words": ["sorpresa"]
+    },
+    {
+      "id": "unit-18-lesson-06-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why is Giulia arriving late?" },
+      "sentence_context": "",
+      "correct_answer": "She has something else on that evening",
+      "distractors": ["She works at the bar", "She works at the hospital"],
+      "hints": ["'Ho un altro impegno.'"],
+      "target_words": ["impegno"]
+    },
+    {
+      "id": "unit-18-lesson-06-ex-07",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "When is Chloé free on Saturday?" },
+      "sentence_context": "",
+      "correct_answer": "After three",
+      "distractors": ["From eight in the evening", "All day"],
+      "hints": ["'Dalle otto alle tre, poi sono libera.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-06-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What is Luca's present?" },
+      "sentence_context": "",
+      "correct_answer": "Two tickets for a football match",
+      "distractors": ["A Spanish dessert", "Two tickets for a concert"],
+      "hints": ["'Ho due biglietti.'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-06-ex-09",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Who goes to the match with Luca?" },
+      "sentence_context": "",
+      "correct_answer": "Yuki",
+      "distractors": ["Aiko", "Paul"],
+      "hints": ["'Luca, vengo io!'"],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-06-ex-10",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Why does Aiko call Paul being on time \"a nice present\"?" },
+      "sentence_context": "",
+      "correct_answer": "Because Paul is never on time",
+      "distractors": ["Because Paul doesn't come", "Because Paul brings a present"],
+      "hints": ["Think of Paul, always late."],
+      "target_words": ["puntuale"]
+    },
+    {
+      "id": "unit-18-lesson-06-ex-11",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: you are all invited." },
+      "sentence_context": "Siete tutti ___.",
+      "correct_answer": "invitati",
+      "distractors": [],
+      "hints": ["Invited: more than one person."],
+      "target_words": ["invitare"]
+    },
+    {
+      "id": "unit-18-lesson-06-ex-12",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete Emma's message: it's a surprise!" },
+      "sentence_context": "Ma è una ___!",
+      "correct_answer": "sorpresa",
+      "distractors": [],
+      "hints": ["A surprise."],
+      "target_words": ["sorpresa"]
+    },
+    {
+      "id": "unit-18-lesson-06-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: A che ora arriva Paul?" },
+      "sentence_context": "A che ora arriva Paul?",
+      "correct_answer": ["alle nove", "arriva alle nove", "Paul arriva alle nove"],
+      "distractors": [],
+      "hints": ["Read Paul's message."],
+      "target_words": []
+    },
+    {
+      "id": "unit-18-lesson-06-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: A Yuki piace il calcio?" },
+      "sentence_context": "A Yuki piace il calcio?",
+      "correct_answer": ["sì", "sì, le piace", "sì, a Yuki piace il calcio"],
+      "distractors": [],
+      "hints": ["Read Aiko's answer to Luca."],
+      "target_words": []
+    }
+  ],
+  "vocabulary": [
+    { "word": "sorpresa", "meaning": "surprise", "example": "Il regalo è una sorpresa!" }
+  ],
+  "reading": {
+    "title": "Festa da Aiko e Yuki!",
+    "paragraphs": ["Ciao a tutti!", "Sabato prossimo è il mio compleanno, e io e Yuki facciamo una festa a casa nostra. Siete tutti invitati: la classe, Giulia, Luca e Chloé!", "Quando · sabato, dalle otto di sera", "Dove · via dei Servi 30, vicino al negozio di Rita", "Yuki cucina per tutti. Se volete, potete portare una bottiglia di vino o un dolce. C'è anche la musica: a Yuki non piace ballare, ma a me sì!", "Chi viene? Aspetto i vostri messaggi!", "Aiko", "Tomás: Grazie per l'invito! Vengo volentieri. Porto un dolce spagnolo.", "Emma: Che bello! Vengo anch'io, con un regalo. Ma è una sorpresa!", "Giulia: Grazie, Aiko! Purtroppo sabato sera ho un altro impegno, ma forse arrivo verso le dieci.", "Chloé: Sabato lavoro al bar dalle otto alle tre, poi sono libera. Vengo! Che cosa porto?", "Aiko: Niente, Chloé! Sei invitata: non devi portare niente.", "Luca: Vengo anch'io! Aiko, ti piace il calcio? Domenica c'è una partita e ho due biglietti: è il mio regalo!", "Aiko: Il calcio? Non mi piace per niente! Ma a Yuki sì…", "Yuki: Luca, vengo io! Grazie!", "Paul: Ciao Aiko! Sabato lavoro in ospedale, ma dopo vengo. Arrivo alle nove, puntuale!", "Aiko: Paul puntuale? Questo è un bel regalo!"]
+  }
+}

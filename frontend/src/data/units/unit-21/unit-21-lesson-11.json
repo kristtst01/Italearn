@@ -1,0 +1,27 @@
+{
+  "id": "unit-21-lesson-11",
+  "unit_id": "unit-21",
+  "name": "After the Weekend",
+  "order": 11,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-21-lesson-11-ex-01",
+      "type": "writing",
+      "subtype": "free_form",
+      "prompt": {
+        "text": "Giulia asks about your weekend away. Reply: say where you went and how, where you stayed, what you did, and one thing that went wrong."
+      },
+      "sentence_context": "",
+      "correct_answer": "Ciao Giulia! Il fine settimana sono andata a Bologna con mia sorella. Siamo partite sabato mattina in treno e abbiamo dormito in un piccolo albergo in centro. Abbiamo visto le piazze e le chiese, e abbiamo mangiato i tortellini. Ma domenica ho perso il telefono in un bar! Sono ritornata al bar di corsa, e il cameriere ha detto: «È questo?» Siamo ritornate domenica sera, stanche morte. A domani!",
+      "distractors": [],
+      "hints": ["Andare, arrivare, partire, ritornare take essere; mangiare, vedere, fare, dormire take avere."],
+      "target_words": ["fine settimana", "ritornare", "albergo"]
+    }
+  ],
+  "vocabulary": [],
+  "reading": {
+    "title": "Un messaggio di Giulia",
+    "paragraphs": ["Ciao! Allora, com'è andato il fine settimana? Dove sei andato, con chi, e che cosa avete fatto? Tutto bene? Racconta! Giulia"]
+  }
+}

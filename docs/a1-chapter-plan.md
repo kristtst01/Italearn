@@ -42,12 +42,12 @@ The order in [course.ts](../frontend/src/data/course.ts) follows this table as c
 | Getting Around (written) | *aeroporto, fermata, taxi* |
 | Weather & Seasons (written) | *piovere, Natale, Pasqua, augurio, fiore, albero, spiaggia* |
 | My Family (written) | *famiglia, amore, bacio, affetto, animale* |
-| Likes & Plans | *appuntamento, festa* |
-| A Day in My Life | *orologio, trovare* |
-| Finding Your Way | *destra, sinistra, avanti, indietro* (the location words moved to Around Town, which needs them to say where places are) |
-| Feeling Unwell | *malato, medicina, salute* |
-| A Trip | *albergo, hotel, piano, prenotare, valigia, straniero, estero, nazione, internazionale, agenzia, informazione, check-in, singolo, doppio, cartolina, ambasciata, consolato, ritornare, morire* |
-| Not placed yet | *industria, segreteria, stop*: wherever a chapter uses them. *Alfabeto* and *nazionalità* belong in chapters 1–2. |
+| Likes & Plans (written) | *appuntamento, festa* |
+| A Day in My Life (written) | *orologio, trovare* |
+| Finding Your Way (written) | *destra, sinistra, avanti, indietro* (the location words moved to Around Town, which needs them to say where places are) |
+| Feeling Unwell (written) | *malato, medicina, salute* |
+| A Trip (written) | *albergo, hotel, piano, prenotare, valigia, straniero, estero, nazione, internazionale, agenzia, informazione, check-in, singolo, doppio, cartolina, ambasciata, consolato, ritornare, morire* |
+| Not placed yet | *industria, stop* (*segreteria* went to Finding Your Way): wherever a chapter uses them. *Alfabeto* and *nazionalità* belong in chapters 1–2. |
 
 ## Vocabulary size
 

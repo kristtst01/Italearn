@@ -11,7 +11,7 @@ sources:
 
 You've said *Mi chiamo…* since the first chapter. It means "I call myself", and *chiamarsi* is a **reflexive verb**: a verb with a pronoun that points back at the subject. Italian has many of these for everyday routines: getting up, getting dressed, having fun. This unit covers the pronouns, where they go, and the common verbs.
 
-Many of them aren't reflexive in English. *Mi alzo* is just "I get up", and *mi diverto* is "I have fun". Learn them as verbs that happen to come with a pronoun.
+The pronoun is a real object: the subject does the action to itself. *Alzare* is "to raise", so *mi alzo* is literally "I raise myself", which English says as "I get up". *Divertire* is "to amuse", so *mi diverto* is "I amuse myself", in English "I have fun". English often drops the "myself", but Italian keeps it, and knowing the literal meaning tells you what the verb does without the pronoun (*alzo la mano*, I raise my hand).
 
 ## The pronouns
 

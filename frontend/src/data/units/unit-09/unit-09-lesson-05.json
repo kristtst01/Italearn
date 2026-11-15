@@ -1,638 +1,148 @@
 {
   "id": "unit-09-lesson-05",
   "unit_id": "unit-09",
-  "name": "Days & Parts of the Day",
+  "name": "Two Saturdays",
   "order": 5,
-  "grammar_tips": [
-    {
-      "id": "unit-09-lesson-05-tip-01",
-      "title": "Parts of the Day",
-      "explanation": "Use 'la mattina' (in the morning), 'il pomeriggio' (in the afternoon), 'la sera' (in the evening), 'la notte' (at night) to say when something happens.",
-      "before_exercise": 0
-    },
-    {
-      "id": "unit-09-lesson-05-tip-02",
-      "title": "Days of the Week",
-      "explanation": "Italian days of the week: lunedì, martedì, mercoledì, giovedì, venerdì (all masculine, end in -ì), sabato, domenica. They start with a small letter — not a capital like in English.",
-      "before_exercise": 7
-    },
-    {
-      "id": "unit-09-lesson-05-tip-03",
-      "title": "On Monday",
-      "explanation": "To say 'on Monday', just use the day: 'lunedì lavoro' = 'on Monday I work'. To say 'on Mondays' (every Monday), add 'il': 'il lunedì lavoro' = 'on Mondays I work'.",
-      "before_exercise": 14
-    }
-  ],
+  "grammar_tips": [],
   "exercises": [
     {
       "id": "unit-09-lesson-05-ex-01",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'mattina' mean?"
-      },
-      "sentence_context": "La mattina è bella.",
-      "correct_answer": "Morning",
-      "distractors": [
-        "Evening",
-        "Afternoon",
-        "Night"
-      ],
-      "hints": [
-        "The first part of the day."
-      ],
-      "target_words": [
-        "mattina"
-      ]
+      "prompt": { "text": "What time does Chloé's alarm go off on Saturdays?" },
+      "sentence_context": "",
+      "correct_answer": "At half past six",
+      "distractors": ["At six", "At half past seven"],
+      "hints": ["'Alle sei e mezza.'"],
+      "target_words": ["sveglia"]
     },
     {
       "id": "unit-09-lesson-05-ex-02",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'pomeriggio' mean?"
-      },
-      "sentence_context": "Il pomeriggio studio.",
-      "correct_answer": "Afternoon",
-      "distractors": [
-        "Morning",
-        "Evening",
-        "Night"
-      ],
-      "hints": [
-        "After midday."
-      ],
-      "target_words": [
-        "pomeriggio"
-      ]
+      "prompt": { "text": "How does Chloé get to the bar?" },
+      "sentence_context": "",
+      "correct_answer": "By bike",
+      "distractors": ["By bus", "On foot"],
+      "hints": ["'In bici.'"],
+      "target_words": []
     },
     {
       "id": "unit-09-lesson-05-ex-03",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'sera' mean?"
-      },
-      "sentence_context": "La sera sono stanco.",
-      "correct_answer": "Evening",
-      "distractors": [
-        "Morning",
-        "Afternoon",
-        "Midnight"
-      ],
-      "hints": [
-        "In the evening I am tired."
-      ],
-      "target_words": [
-        "sera"
-      ]
+      "prompt": { "text": "When does she have lunch?" },
+      "sentence_context": "",
+      "correct_answer": "At noon, in ten minutes",
+      "distractors": ["At three, at home", "At one, at a restaurant"],
+      "hints": ["Read the third paragraph."],
+      "target_words": []
     },
     {
       "id": "unit-09-lesson-05-ex-04",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'notte' mean?"
-      },
-      "sentence_context": "La notte dormo.",
-      "correct_answer": "Night",
-      "distractors": [
-        "Evening",
-        "Afternoon",
-        "Morning"
-      ],
-      "hints": [
-        "The dark part of the day."
-      ],
-      "target_words": [
-        "notte"
-      ]
+      "prompt": { "text": "True or false: Chloé goes to bed late on Saturdays." },
+      "sentence_context": "",
+      "correct_answer": "False",
+      "distractors": ["True"],
+      "hints": ["'Non fa tardi: alle undici è già a letto.'"],
+      "target_words": ["tardi"]
     },
     {
       "id": "unit-09-lesson-05-ex-05",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'giorno' mean?"
-      },
-      "sentence_context": "Oggi è un bel giorno.",
-      "correct_answer": "Day",
-      "distractors": [
-        "Week",
-        "Time",
-        "Year"
-      ],
-      "hints": [
-        "Today is a nice day."
-      ],
-      "target_words": [
-        "giorno"
-      ]
+      "prompt": { "text": "What does Emma do on Saturday afternoons?" },
+      "sentence_context": "",
+      "correct_answer": "Housework and the shopping",
+      "distractors": ["She works at the bar", "She sleeps"],
+      "hints": ["Read the sixth paragraph."],
+      "target_words": ["faccende"]
     },
     {
       "id": "unit-09-lesson-05-ex-06",
       "type": "vocab",
       "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'oggi' mean?"
-      },
-      "sentence_context": "Oggi mangio a casa.",
-      "correct_answer": "Today",
-      "distractors": [
-        "Tomorrow",
-        "Yesterday",
-        "Now"
-      ],
-      "hints": [
-        "This very day."
-      ],
-      "target_words": [
-        "oggi"
-      ]
+      "prompt": { "text": "When do the two friends see each other?" },
+      "sentence_context": "",
+      "correct_answer": "On Sundays at eleven, at Chloé's bar",
+      "distractors": ["On Saturday evenings", "On Sundays at Emma's house"],
+      "hints": ["Read the last paragraph."],
+      "target_words": ["vedersi"]
     },
     {
       "id": "unit-09-lesson-05-ex-07",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'domani' mean?"
-      },
-      "sentence_context": "Domani lavoro.",
-      "correct_answer": "Tomorrow",
-      "distractors": [
-        "Today",
-        "Yesterday",
-        "Now"
-      ],
-      "hints": [
-        "The day after today."
-      ],
-      "target_words": [
-        "domani"
-      ]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: Emma doesn't set the alarm." },
+      "sentence_context": "Emma non mette la ___.",
+      "correct_answer": "sveglia",
+      "distractors": [],
+      "hints": ["The alarm clock."],
+      "target_words": ["sveglia"]
     },
     {
       "id": "unit-09-lesson-05-ex-08",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'lunedì' mean?"
-      },
-      "sentence_context": "Lunedì lavoro.",
-      "correct_answer": "Monday",
-      "distractors": [
-        "Tuesday",
-        "Sunday",
-        "Friday"
-      ],
-      "hints": [
-        "First day of the working week."
-      ],
-      "target_words": [
-        "lunedì"
-      ]
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete from the text: Chloé rests a little on the sofa." },
+      "sentence_context": "Si riposa un po' sul ___.",
+      "correct_answer": "divano",
+      "distractors": [],
+      "hints": ["The sofa."],
+      "target_words": ["divano"]
     },
     {
       "id": "unit-09-lesson-05-ex-09",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'martedì' mean?"
-      },
-      "sentence_context": "Martedì studio.",
-      "correct_answer": "Tuesday",
-      "distractors": [
-        "Monday",
-        "Wednesday",
-        "Thursday"
-      ],
-      "hints": [
-        "Day after Monday."
-      ],
-      "target_words": [
-        "martedì"
-      ]
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: A che ora si sveglia Emma il sabato?" },
+      "sentence_context": "A che ora si sveglia Emma il sabato?",
+      "correct_answer": ["Alle dieci o alle dieci e mezza.", "Si sveglia alle dieci o alle dieci e mezza."],
+      "distractors": [],
+      "hints": ["Read the fifth paragraph."],
+      "target_words": ["svegliarsi"]
     },
     {
       "id": "unit-09-lesson-05-ex-10",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'sabato' mean?"
-      },
-      "sentence_context": "Sabato gioco.",
-      "correct_answer": "Saturday",
-      "distractors": [
-        "Sunday",
-        "Friday",
-        "Wednesday"
-      ],
-      "hints": [
-        "Weekend day."
-      ],
-      "target_words": [
-        "sabato"
-      ]
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Che cosa fa Chloé dopo il turno?" },
+      "sentence_context": "Che cosa fa Chloé dopo il turno?",
+      "correct_answer": ["Torna a casa, si lava e si riposa un po'.", "Si lava e si riposa sul divano."],
+      "distractors": [],
+      "hints": ["Read the fourth paragraph."],
+      "target_words": ["riposarsi", "turno"]
     },
     {
       "id": "unit-09-lesson-05-ex-11",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'domenica' mean?"
-      },
-      "sentence_context": "Domenica mi riposo.",
-      "correct_answer": "Sunday",
-      "distractors": [
-        "Saturday",
-        "Monday",
-        "Friday"
-      ],
-      "hints": [
-        "Day of rest."
-      ],
-      "target_words": [
-        "domenica"
-      ]
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Answer in Italian: Chi arriva in ritardo la domenica?" },
+      "sentence_context": "Chi arriva in ritardo la domenica?",
+      "correct_answer": ["Emma.", "Arriva Emma."],
+      "distractors": [],
+      "hints": ["Read the last line."],
+      "target_words": []
     },
     {
       "id": "unit-09-lesson-05-ex-12",
-      "type": "vocab",
+      "type": "writing",
       "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "___ studio l'italiano.",
-      "correct_answer": "Mercoledì",
+      "prompt": { "text": "Complete from the text: Emma, of course." },
+      "sentence_context": "Chi arriva in ritardo? Emma, ___.",
+      "correct_answer": "naturalmente",
       "distractors": [],
-      "hints": [
-        "On Wednesday I study Italian."
-      ],
-      "target_words": [
-        "mercoledì"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-13",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "___ guardo la mamma.",
-      "correct_answer": "Giovedì",
-      "distractors": [],
-      "hints": [
-        "On Thursday I watch mum."
-      ],
-      "target_words": [
-        "giovedì"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-14",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "___ esco con gli amici.",
-      "correct_answer": "Venerdì",
-      "distractors": [],
-      "hints": [
-        "On Friday I go out with friends. (esco from uscire)"
-      ],
-      "target_words": [
-        "venerdì"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-15",
-      "type": "vocab",
-      "subtype": "cloze",
-      "prompt": {
-        "text": "Complete the sentence with the missing word."
-      },
-      "sentence_context": "La ___ è lunga.",
-      "correct_answer": "settimana",
-      "distractors": [],
-      "hints": [
-        "The week is long."
-      ],
-      "target_words": [
-        "settimana"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-16",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'today' in Italian?"
-      },
-      "sentence_context": "Oggi mangio a casa.",
-      "correct_answer": "oggi",
-      "distractors": [],
-      "hints": [
-        "This day."
-      ],
-      "target_words": [
-        "oggi"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-17",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'tomorrow' in Italian?"
-      },
-      "sentence_context": "Domani lavoro.",
-      "correct_answer": "domani",
-      "distractors": [],
-      "hints": [
-        "The day after today."
-      ],
-      "target_words": [
-        "domani"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-18",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'day' in Italian?"
-      },
-      "sentence_context": "Oggi è un bel giorno.",
-      "correct_answer": "giorno",
-      "distractors": [],
-      "hints": [
-        "A masculine noun: il giorno."
-      ],
-      "target_words": [
-        "giorno"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-19",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'morning' in Italian?"
-      },
-      "sentence_context": "La mattina mi sveglio.",
-      "correct_answer": "mattina",
-      "distractors": [],
-      "hints": [
-        "When you wake up."
-      ],
-      "target_words": [
-        "mattina"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-20",
-      "type": "vocab",
-      "subtype": "type_answer",
-      "prompt": {
-        "text": "How do you say 'week' in Italian?"
-      },
-      "sentence_context": "La settimana è lunga.",
-      "correct_answer": "settimana",
-      "distractors": [],
-      "hints": [
-        "Seven days together."
-      ],
-      "target_words": [
-        "settimana"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-21",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'In the morning I wake up.'"
-      },
-      "sentence_context": "La mattina mi sveglio.",
-      "correct_answer": [
-        "La",
-        "mattina",
-        "mi",
-        "sveglio."
-      ],
-      "distractors": [
-        "sera",
-        "si"
-      ],
-      "hints": [
-        "Start with the part of the day."
-      ],
-      "target_words": [
-        "mattina"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-22",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'On Monday I work.'"
-      },
-      "sentence_context": "Lunedì lavoro.",
-      "correct_answer": [
-        "Lunedì",
-        "lavoro."
-      ],
-      "distractors": [
-        "Sabato",
-        "lavora"
-      ],
-      "hints": [
-        "Day + verb: 'Lunedì lavoro' = 'On Monday I work'."
-      ],
-      "target_words": [
-        "lunedì"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-23",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'On Saturday I rest.'"
-      },
-      "sentence_context": "Sabato mi riposo.",
-      "correct_answer": [
-        "Sabato",
-        "mi",
-        "riposo."
-      ],
-      "distractors": [
-        "Domenica",
-        "si"
-      ],
-      "hints": [
-        "Reflexive verb 'riposarsi'."
-      ],
-      "target_words": [
-        "sabato"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-24",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'Today I eat at home.'"
-      },
-      "sentence_context": "Oggi mangio a casa.",
-      "correct_answer": [
-        "Oggi",
-        "mangio",
-        "a",
-        "casa."
-      ],
-      "distractors": [
-        "Domani",
-        "in"
-      ],
-      "hints": [
-        "Start with 'Oggi'."
-      ],
-      "target_words": [
-        "oggi"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-25",
-      "type": "writing",
-      "subtype": "arrange_words",
-      "prompt": {
-        "text": "Arrange the words: 'Tomorrow I work in the morning.'"
-      },
-      "sentence_context": "Domani lavoro la mattina.",
-      "correct_answer": [
-        "Domani",
-        "lavoro",
-        "la",
-        "mattina."
-      ],
-      "distractors": [
-        "sera",
-        "oggi"
-      ],
-      "hints": [
-        "Tomorrow + verb + when."
-      ],
-      "target_words": [
-        "domani",
-        "mattina"
-      ]
-    },
-    {
-      "id": "unit-09-lesson-05-ex-26",
-      "type": "vocab",
-      "subtype": "multiple_choice",
-      "prompt": {
-        "text": "What does 'ieri' mean?"
-      },
-      "sentence_context": "Ieri è stato un bel giorno.",
-      "correct_answer": "Yesterday",
-      "distractors": [
-        "Today",
-        "Tomorrow",
-        "Now"
-      ],
-      "hints": [
-        "The day before today."
-      ],
-      "target_words": [
-        "ieri"
-      ]
+      "hints": ["Of course."],
+      "target_words": ["naturalmente"]
     }
   ],
   "vocabulary": [
-    {
-      "word": "mattina",
-      "meaning": "Morning",
-      "example": "La mattina mi sveglio."
-    },
-    {
-      "word": "pomeriggio",
-      "meaning": "Afternoon",
-      "example": "Il pomeriggio studio."
-    },
-    {
-      "word": "sera",
-      "meaning": "Evening",
-      "example": "La sera sono stanco."
-    },
-    {
-      "word": "notte",
-      "meaning": "Night",
-      "example": "La notte dormo."
-    },
-    {
-      "word": "giorno",
-      "meaning": "Day",
-      "example": "Oggi è un bel giorno."
-    },
-    {
-      "word": "oggi",
-      "meaning": "Today",
-      "example": "Oggi mangio a casa."
-    },
-    {
-      "word": "domani",
-      "meaning": "Tomorrow",
-      "example": "Domani lavoro."
-    },
-    {
-      "word": "ieri",
-      "meaning": "Yesterday",
-      "example": "Ieri ho lavorato."
-    },
-    {
-      "word": "lunedì",
-      "meaning": "Monday",
-      "example": "Lunedì lavoro."
-    },
-    {
-      "word": "martedì",
-      "meaning": "Tuesday",
-      "example": "Martedì studio."
-    },
-    {
-      "word": "mercoledì",
-      "meaning": "Wednesday",
-      "example": "Mercoledì studio l'italiano."
-    },
-    {
-      "word": "giovedì",
-      "meaning": "Thursday",
-      "example": "Giovedì guardo la mamma."
-    },
-    {
-      "word": "venerdì",
-      "meaning": "Friday",
-      "example": "Venerdì esco con gli amici."
-    },
-    {
-      "word": "sabato",
-      "meaning": "Saturday",
-      "example": "Sabato gioco."
-    },
-    {
-      "word": "domenica",
-      "meaning": "Sunday",
-      "example": "Domenica mi riposo."
-    },
-    {
-      "word": "settimana",
-      "meaning": "Week",
-      "example": "La settimana è lunga."
-    }
-  ]
+    { "word": "naturalmente", "meaning": "of course, naturally", "example": "Paul arriva in ritardo, naturalmente." }
+  ],
+  "reading": {
+    "title": "Due sabati",
+    "paragraphs": ["Chloé ed Emma sono amiche, ma il sabato non si vedono quasi mai. Perché? Ecco le loro giornate.", "Il sabato la sveglia di Chloé suona alle sei e mezza. Chloé non è contenta, ma si alza subito: fa la doccia, si veste in cinque minuti e beve un caffè in piedi. Alle sette e mezza esce di casa e va al bar in bici.", "Il bar apre alle otto, e il sabato mattina ci sono sempre molte persone: studenti, turisti, famiglie con i bambini. Chloé prepara cappuccini e cornetti per tutta la mattina. A mezzogiorno mangia un panino al banco, in dieci minuti.", "Il turno finisce alle tre. Chloé torna a casa, si lava e si riposa un po' sul divano. La sera, di solito, esce con gli amici, ma non fa tardi: alle undici è già a letto, e si addormenta subito.", "Emma, invece, il sabato non lavora e non mette la sveglia. Si sveglia tardi, alle dieci o alle dieci e mezza, e sta a letto ancora un po' con il telefono. Poi si alza e fa colazione a casa, con Biscotto.", "Il pomeriggio fa le faccende di casa: lava i piatti, pulisce la cucina e va a fare la spesa. La sera Emma non è mai stanca. Va a ballare o al cinema e torna a casa a mezzanotte, o anche più tardi.", "Ma la domenica le due amiche si vedono sempre: alle undici, al bar di Chloé. Chloé non lavora, ma il caffè lì è buono. E chi arriva in ritardo? Emma, naturalmente."]
+  }
 }

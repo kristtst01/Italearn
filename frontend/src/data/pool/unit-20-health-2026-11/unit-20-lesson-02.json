@@ -1,0 +1,245 @@
+{
+  "id": "unit-20-lesson-02",
+  "unit_id": "unit-20",
+  "name": "How Are You Feeling?",
+  "order": 2,
+  "grammar_tips": [
+    {
+      "id": "unit-20-lesson-02-tip-01",
+      "title": "Stare for Health",
+      "explanation": "'Come stai?' (How are you?) — uses 'stare'. 'Sto bene' (I'm well), 'sto male' (I'm unwell), 'sto meglio' (I'm better). Always 'stare', not 'essere', for health.",
+      "before_exercise": 0
+    },
+    {
+      "id": "unit-20-lesson-02-tip-02",
+      "title": "Ho Mal Di...",
+      "explanation": "To say something hurts: 'Ho mal di' + body part. 'Ho mal di testa' (I have a headache), 'ho mal di gola' (I have a sore throat), 'ho mal di schiena' (I have a backache).",
+      "before_exercise": 6
+    },
+    {
+      "id": "unit-20-lesson-02-tip-03",
+      "title": "Mi Fa Male",
+      "explanation": "Another way: 'mi fa male' + body part. 'Mi fa male la testa' = my head hurts. For plural body parts (like le gambe): 'mi fanno male le gambe' = my legs hurt.",
+      "before_exercise": 12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "unit-20-lesson-02-ex-01",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'malato' mean?" },
+      "sentence_context": "Marco è malato.",
+      "correct_answer": "Sick / ill",
+      "distractors": ["Well", "Tired", "Sad"],
+      "hints": ["Marco is sick."],
+      "target_words": ["malato"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-02",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'febbre' mean?" },
+      "sentence_context": "Ho la febbre.",
+      "correct_answer": "Fever",
+      "distractors": ["Cough", "Cold", "Headache"],
+      "hints": ["I have a fever."],
+      "target_words": ["febbre"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-03",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'raffreddore' mean?" },
+      "sentence_context": "Ho il raffreddore.",
+      "correct_answer": "Cold (illness)",
+      "distractors": ["Fever", "Cough", "Flu"],
+      "hints": ["I have a cold."],
+      "target_words": ["raffreddore"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-04",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'tosse' mean?" },
+      "sentence_context": "Ho la tosse.",
+      "correct_answer": "Cough",
+      "distractors": ["Cold", "Fever", "Sneeze"],
+      "hints": ["I have a cough."],
+      "target_words": ["tosse"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'dolore' mean?" },
+      "sentence_context": "Ho un dolore al braccio.",
+      "correct_answer": "Pain",
+      "distractors": ["Bruise", "Wound", "Itch"],
+      "hints": ["I have a pain in my arm."],
+      "target_words": ["dolore"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-06",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "What does 'meglio' mean here?" },
+      "sentence_context": "Sto meglio, grazie.",
+      "correct_answer": "Better",
+      "distractors": ["Worse", "Well", "Bad"],
+      "hints": ["I'm feeling better, thanks."],
+      "target_words": ["meglio"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-07",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Oggi ___ male.",
+      "correct_answer": "sto",
+      "distractors": [],
+      "hints": ["Today I'm unwell. (use stare)"],
+      "target_words": ["malato"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-08",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Ho mal di ___.",
+      "correct_answer": "testa",
+      "distractors": [],
+      "hints": ["I have a headache."],
+      "target_words": ["testa"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-09",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Mi fa male la ___.",
+      "correct_answer": "gamba",
+      "distractors": [],
+      "hints": ["My leg hurts."],
+      "target_words": ["gamba"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-10",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Ho la ___ alta.",
+      "correct_answer": "febbre",
+      "distractors": [],
+      "hints": ["I have a high fever."],
+      "target_words": ["febbre"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-11",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Marco è ___.",
+      "correct_answer": "malato",
+      "distractors": [],
+      "hints": ["Marco is ill."],
+      "target_words": ["malato"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-12",
+      "type": "vocab",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete the sentence with the missing word." },
+      "sentence_context": "Sto un po' ___ oggi.",
+      "correct_answer": "meglio",
+      "distractors": [],
+      "hints": ["I'm a bit better today."],
+      "target_words": ["meglio"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-13",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'fever' in Italian?" },
+      "sentence_context": "Ho la febbre.",
+      "correct_answer": "febbre",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["febbre"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-14",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'cough' in Italian?" },
+      "sentence_context": "Ho la tosse.",
+      "correct_answer": "tosse",
+      "distractors": [],
+      "hints": ["A feminine noun."],
+      "target_words": ["tosse"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-15",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'sick / ill' (masculine) in Italian?" },
+      "sentence_context": "Marco è malato.",
+      "correct_answer": "malato",
+      "distractors": [],
+      "hints": ["The opposite of 'sano'."],
+      "target_words": ["malato"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-16",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say 'pain' in Italian?" },
+      "sentence_context": "Ho un dolore.",
+      "correct_answer": "dolore",
+      "distractors": [],
+      "hints": ["Masculine ending in -e."],
+      "target_words": ["dolore"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-17",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I have a headache and a fever.'" },
+      "sentence_context": "Ho mal di testa e la febbre.",
+      "correct_answer": ["Ho", "mal", "di", "testa", "e", "la", "febbre."],
+      "distractors": ["schiena", "tosse"],
+      "hints": ["'Ho mal di' + body + 'e la febbre'."],
+      "target_words": ["testa", "febbre"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-18",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'My arm hurts.'" },
+      "sentence_context": "Mi fa male il braccio.",
+      "correct_answer": ["Mi", "fa", "male", "il", "braccio."],
+      "distractors": ["gamba", "fanno"],
+      "hints": ["Singular body part → fa."],
+      "target_words": ["braccio"]
+    },
+    {
+      "id": "unit-20-lesson-02-ex-19",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange the words: 'I'm sick today and I have a cough.'" },
+      "sentence_context": "Oggi sono malato e ho la tosse.",
+      "correct_answer": ["Oggi", "sono", "malato", "e", "ho", "la", "tosse."],
+      "distractors": ["sono", "tossi"],
+      "hints": ["'Sono malato' + 'ho la tosse'."],
+      "target_words": ["malato", "tosse"]
+    }
+  ],
+  "vocabulary": [
+    { "word": "malato", "meaning": "Sick / ill", "example": "Marco è malato." },
+    { "word": "febbre", "meaning": "Fever", "example": "Ho la febbre." },
+    { "word": "raffreddore", "meaning": "Cold (illness)", "example": "Ho il raffreddore." },
+    { "word": "tosse", "meaning": "Cough", "example": "Ho la tosse." },
+    { "word": "dolore", "meaning": "Pain", "example": "Ho un dolore al braccio." },
+    { "word": "meglio", "meaning": "Better", "example": "Sto meglio, grazie." }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "id": "unit-21-lesson-05",
+  "unit_id": "unit-21",
+  "name": "Back Home",
+  "order": 5,
+  "grammar_tips": [],
+  "exercises": [
+    {
+      "id": "unit-21-lesson-05-ex-01",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'ritornare' mean?" },
+      "sentence_context": "Siamo ritornati a Firenze domenica sera.",
+      "correct_answer": ["to come back", "to go back", "to return", "come back", "return"],
+      "distractors": [],
+      "hints": ["Like tornare."],
+      "target_words": ["ritornare"]
+    },
+    {
+      "id": "unit-21-lesson-05-ex-02",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'il fine settimana' mean?" },
+      "sentence_context": "Che cosa hai fatto il fine settimana?",
+      "correct_answer": ["the weekend", "at the weekend", "weekend"],
+      "distractors": [],
+      "hints": ["Saturday and Sunday."],
+      "target_words": ["fine settimana"]
+    },
+    {
+      "id": "unit-21-lesson-05-ex-03",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I sent a postcard to my grandmother." },
+      "sentence_context": "Ho mandato una ___ a mia nonna.",
+      "correct_answer": "cartolina",
+      "distractors": [],
+      "hints": ["Postcard."],
+      "target_words": ["cartolina"]
+    },
+    {
+      "id": "unit-21-lesson-05-ex-04",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: I sent a message to Luca." },
+      "sentence_context": "Ho ___ un messaggio a Luca.",
+      "correct_answer": "mandato",
+      "distractors": [],
+      "hints": ["Mandare, with avere."],
+      "target_words": ["mandare"]
+    },
+    {
+      "id": "unit-21-lesson-05-ex-05",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "A friend is back from a trip. How do you ask how it went?" },
+      "sentence_context": "",
+      "correct_answer": "Com'è andato il viaggio?",
+      "distractors": ["Com'è andata il viaggio?", "Com'è stato andato il viaggio?"],
+      "hints": ["Andare takes essere; the participle agrees with viaggio."],
+      "target_words": []
+    },
+    {
+      "id": "unit-21-lesson-05-ex-06",
+      "type": "vocab",
+      "subtype": "type_answer",
+      "prompt": { "text": "What does 'muoio di fame' mean?" },
+      "sentence_context": "Muoio di fame! Andiamo a mangiare?",
+      "correct_answer": ["i'm starving", "i'm very hungry", "i'm dying of hunger"],
+      "distractors": [],
+      "hints": ["A way of saying you are very hungry."],
+      "target_words": ["morire"]
+    },
+    {
+      "id": "unit-21-lesson-05-ex-07",
+      "type": "writing",
+      "subtype": "cloze",
+      "prompt": { "text": "Complete: Michelangelo died in Rome in 1564." },
+      "sentence_context": "Michelangelo è ___ a Roma nel 1564.",
+      "correct_answer": "morto",
+      "distractors": [],
+      "hints": ["Morire takes essere, and the participle is irregular."],
+      "target_words": ["morire"]
+    },
+    {
+      "id": "unit-21-lesson-05-ex-08",
+      "type": "vocab",
+      "subtype": "multiple_choice",
+      "prompt": { "text": "Which is correct?" },
+      "sentence_context": "",
+      "correct_answer": "Siamo ritornati domenica.",
+      "distractors": ["Abbiamo ritornato domenica.", "Siamo ritornato domenica."],
+      "hints": ["Like tornare: essere, and the participle agrees."],
+      "target_words": ["ritornare"]
+    },
+    {
+      "id": "unit-21-lesson-05-ex-09",
+      "type": "writing",
+      "subtype": "dialogue_completion",
+      "prompt": { "text": "Your friend wants to hear about your trip to Rome. You saw the Colosseum and ate a lot of pizza." },
+      "sentence_context": "Friend: Allora, racconta! Che cosa hai fatto a Roma?\nYou: ___",
+      "correct_answer": ["Ho visto il Colosseo e ho mangiato tanta pizza!", "Ho visto il Colosseo, e abbiamo mangiato molta pizza."],
+      "distractors": [],
+      "hints": ["Vedere → visto; mangiare → mangiato."],
+      "target_words": ["raccontare"],
+      "dialogue": [
+        { "speaker": "Friend", "text": "Allora, racconta! Che cosa hai fatto a Roma?" },
+        { "speaker": "You" }
+      ]
+    },
+    {
+      "id": "unit-21-lesson-05-ex-10",
+      "type": "writing",
+      "subtype": "arrange_words",
+      "prompt": { "text": "Arrange: 'We came back to Florence on Sunday evening.'" },
+      "sentence_context": "Siamo ritornati a Firenze domenica sera.",
+      "correct_answer": ["Siamo", "ritornati", "a", "Firenze", "domenica", "sera."],
+      "distractors": ["abbiamo", "ritornato"],
+      "hints": ["Essere, and agreement."],
+      "target_words": ["ritornare"]
+    },
+    {
+      "id": "unit-21-lesson-05-ex-11",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you sent three postcards." },
+      "sentence_context": "",
+      "correct_answer": ["ho mandato tre cartoline"],
+      "distractors": [],
+      "hints": ["Ho mandato …"],
+      "target_words": ["mandare", "cartolina"]
+    },
+    {
+      "id": "unit-21-lesson-05-ex-12",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you're starving." },
+      "sentence_context": "",
+      "correct_answer": ["muoio di fame"],
+      "distractors": [],
+      "hints": ["Muoio di …"],
+      "target_words": ["morire"]
+    },
+    {
+      "id": "unit-21-lesson-05-ex-13",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Say you are sending a postcard to Giulia." },
+      "sentence_context": "",
+      "correct_answer": ["mando una cartolina a giulia"],
+      "distractors": [],
+      "hints": ["Mandare, in the present."],
+      "target_words": ["mandare", "cartolina"]
+    },
+    {
+      "id": "unit-21-lesson-05-ex-14",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "How do you say \"to die\" in Italian?" },
+      "sentence_context": "",
+      "correct_answer": ["morire"],
+      "distractors": [],
+      "hints": ["Its participle is morto."],
+      "target_words": ["morire"]
+    },
+    {
+      "id": "unit-21-lesson-05-ex-15",
+      "type": "writing",
+      "subtype": "type_answer",
+      "prompt": { "text": "Ask a friend what they did at the weekend." },
+      "sentence_context": "",
+      "correct_answer": ["che cosa hai fatto il fine settimana?", "cosa hai fatto il fine settimana?"],
+      "distractors": [],
+      "hints": ["Fare → fatto."],
+      "target_words": ["fine settimana"]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "ritornare",
+      "meaning": "to come back, to go back (like tornare) · sono ritornato, sono ritornata",
+      "example": "Siamo ritornati a Firenze domenica sera."
+    },
+    { "word": "cartolina", "meaning": "postcard", "example": "Ho scritto una cartolina a Giulia." },
+    { "word": "mandare", "meaning": "to send · ho mandato", "example": "Mando un messaggio a Luca." },
+    {
+      "word": "raccontare",
+      "meaning": "to tell (what happened, a story) · racconta! = tell me! · ho raccontato",
+      "example": "Allora, racconta! Com'è andato il viaggio?"
+    },
+    {
+      "word": "morire",
+      "meaning": "to die · è morto, è morta = he died, she died · muoio di fame = I'm starving",
+      "example": "Michelangelo è morto a Roma nel 1564."
+    }
+  ]
+}
