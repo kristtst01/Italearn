@@ -57,9 +57,13 @@ export default function ArrangeWords({
     .map((word, i) => ({ word, i }))
     .filter(({ i }) => !placed.includes(i));
 
-  const typedKey = matchKey(typed);
-  const matches = typedKey ? remaining.filter(({ word }) => matchKey(word).startsWith(typedKey)) : [];
-  const highlighted = matches[0]?.i;
+  // Tiles that fit what's typed, a tile that is exactly the typed word first (sta? before stai)
+  const candidatesFor = (key: string) => {
+    if (!key) return [];
+    const fits = remaining.filter(({ word }) => matchKey(word).startsWith(key));
+    return [...fits.filter(({ word }) => matchKey(word) === key), ...fits.filter(({ word }) => matchKey(word) !== key)];
+  };
+  const highlighted = candidatesFor(matchKey(typed))[0]?.i;
 
   const userAnswer = placed.map((i) => words[i]).join(' ');
 
@@ -94,9 +98,12 @@ export default function ArrangeWords({
       const key = matchKey(next);
       if (!key) return;
       e.preventDefault();
-      // A whole word that only one tile can be goes in straight away; otherwise wait for Space
-      const candidates = remaining.filter(({ word }) => matchKey(word).startsWith(key));
-      if (candidates.length === 1 && matchKey(candidates[0].word) === key) addWord(candidates[0].i);
+      const candidates = candidatesFor(key);
+      const exact = candidates[0] && matchKey(candidates[0].word) === key ? candidates[0] : undefined;
+      // The word goes in straight away when it's complete: no other tile could still be meant,
+      // or the learner typed the punctuation that ends it (sta? with stai still in the bank)
+      const endsWord = matchKey(e.key) === '';
+      if (exact && (candidates.length === 1 || endsWord)) addWord(exact.i);
       else setTyped(next);
     }
   }
