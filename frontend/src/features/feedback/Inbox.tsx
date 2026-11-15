@@ -530,7 +530,7 @@ export default function Inbox() {
 
   return (
     <div className="flex flex-col gap-6">
-      <div className="flex flex-wrap items-center justify-between gap-4 border-t border-border pt-5">
+      <div className="flex flex-wrap items-center justify-between gap-4">
         <span className="text-sm text-muted-foreground">Admin · only you see this tab</span>
         <div className="flex gap-1 rounded-lg border border-border bg-white p-1">
           {(['category', 'place', 'newest'] as View[]).map((v) => (

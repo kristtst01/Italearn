@@ -108,8 +108,10 @@ export default function ProfilePage() {
   const { pathname } = useLocation();
   const wide = pathname.startsWith('/profile/inbox');
 
+  // The header and tabs keep the same width on every tab, so they don't move when switching;
+  // only the content below narrows for the reading-width tabs
   return (
-    <Page className={cn(!wide && 'max-w-3xl')}>
+    <Page>
       <PageHeader
         label="Account"
         title="Profile"
@@ -132,7 +134,10 @@ export default function ProfilePage() {
           </nav>
         }
       />
-      <Outlet />
+      <div className="border-t border-border" />
+      <div className={cn(!wide && 'max-w-3xl')}>
+        <Outlet />
+      </div>
     </Page>
   );
 }
